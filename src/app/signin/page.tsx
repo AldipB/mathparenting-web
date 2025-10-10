@@ -1,12 +1,14 @@
+// Do NOT make this a client component.
+// Keep it simple and type-agnostic so it works across Next versions.
 import SignInClient from "./SignInClient";
 
-// NOTE: In Next 15, searchParams is a Promise in server components.
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ redirectedFrom?: string }>;
-}) {
-  const params = await searchParams;
-  const redirectTo = params.redirectedFrom ?? "/dashboard";
-  return <SignInClient redirectTo={redirectTo} />;
+// Avoid static prerendering for auth pages (safer for cookies/redirects)
+export const dynamic = "force-dynamic";
+
+type SearchParams = { [key: string]: string | string[] | undefined };
+
+export default function Page({ searchParams }: { searchParams?: SearchParams } = {}) {
+  const sp = searchParams || {};
+  const redirectedFrom = (sp.redirectedFrom as string | undefined) ?? "/dashboard";
+  return <SignInClient redirectTo={redirectedFrom} />;
 }

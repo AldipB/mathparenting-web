@@ -1,14 +1,19 @@
-// Do NOT make this a client component.
-// Keep it simple and type-agnostic so it works across Next versions.
+// Server component (no "use client")
 import SignInClient from "./SignInClient";
 
-// Avoid static prerendering for auth pages (safer for cookies/redirects)
+// Auth pages should be dynamic (no static pre-render)
 export const dynamic = "force-dynamic";
 
+// Next 15-compatible PageProps typing
 type SearchParams = { [key: string]: string | string[] | undefined };
 
-export default function Page({ searchParams }: { searchParams?: SearchParams } = {}) {
-  const sp = searchParams || {};
-  const redirectedFrom = (sp.redirectedFrom as string | undefined) ?? "/dashboard";
-  return <SignInClient redirectTo={redirectedFrom} />;
+export default function Page(props: { searchParams?: SearchParams }) {
+  const sp = props.searchParams ?? {};
+  // If it's an array, take the first value
+  const redirectedFromValue = Array.isArray(sp.redirectedFrom)
+    ? sp.redirectedFrom[0]
+    : sp.redirectedFrom;
+  const redirectTo = redirectedFromValue ?? "/dashboard";
+
+  return <SignInClient redirectTo={redirectTo} />;
 }

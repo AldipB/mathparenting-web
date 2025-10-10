@@ -15,28 +15,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="font-semibold tracking-tight">
               MathParenting
             </Link>
-
             <div className="ml-auto flex items-center gap-4">
-              <Link href="/" className="text-blue-600 hover:underline">
-                Home
-              </Link>
-              <Link href="/signin" className="text-blue-600 hover:underline">
-                Sign in
-              </Link>
-              <Link href="/signup" className="text-blue-600 hover:underline">
-                Sign up
-              </Link>
-              <Link href="/reset-password" className="text-blue-600 hover:underline">
-                Forgot password
-              </Link>
-              {/* Prefetch disabled so middleware reliably runs on protected route */}
-              <Link href="/dashboard" prefetch={false} className="text-blue-600 hover:underline">
-                Dashboard
-              </Link>
+              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/signin" className="text-blue-600 hover:underline">Sign in</Link>
+              <Link href="/signup" className="text-blue-600 hover:underline">Sign up</Link>
+              <Link href="/reset-password" className="text-blue-600 hover:underline">Forgot password</Link>
+              <Link href="/dashboard" prefetch={false} className="text-blue-600 hover:underline">Dashboard</Link>
             </div>
           </nav>
         </header>
-
         <main className="mx-auto max-w-5xl p-6">{children}</main>
       </body>
     </html>

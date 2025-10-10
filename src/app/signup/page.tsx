@@ -3,8 +3,8 @@ import { useState } from "react";
 import { supabase } from "@/lib/supabase";
 
 export default function SignUp() {
-  const [email, setEmail] = useState(""); 
-  const [pwd, setPwd] = useState(""); 
+  const [email, setEmail] = useState("");
+  const [pwd, setPwd] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 

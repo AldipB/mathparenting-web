@@ -21,7 +21,7 @@ export default function SignInClient({ redirectTo }: { redirectTo: string }) {
         password: pwd,
       });
       if (error) setMsg(error.message);
-      else router.push(redirectTo); // go back to intended page
+      else router.push(redirectTo);
     } finally {
       setLoading(false);
     }

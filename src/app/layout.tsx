@@ -11,10 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-screen bg-white text-gray-900 antialiased">
         <header className="border-b bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/40">
-          <nav
-            className="mx-auto flex max-w-5xl items-center gap-4 p-4"
-            aria-label="Primary"
-          >
+          <nav className="mx-auto flex max-w-5xl items-center gap-4 p-4" aria-label="Primary">
             <Link href="/" className="font-semibold tracking-tight">
               MathParenting
             </Link>
@@ -32,7 +29,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/reset-password" className="text-blue-600 hover:underline">
                 Forgot password
               </Link>
-              <Link href="/dashboard" className="text-blue-600 hover:underline">
+              {/* Prefetch disabled so middleware reliably runs on protected route */}
+              <Link href="/dashboard" prefetch={false} className="text-blue-600 hover:underline">
                 Dashboard
               </Link>
             </div>

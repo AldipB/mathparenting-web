@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import Link from "next/link";
 
 export default function Dashboard() {
+  const router = useRouter();
   const [email, setEmail] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -12,31 +14,36 @@ export default function Dashboard() {
     supabase.auth.getSession().then(({ data }) => {
       setEmail(data.session?.user.email ?? null);
       setLoading(false);
+      // If no session, redirect to signin with return path
+      if (!data.session) {
+        router.replace("/signin?redirectedFrom=/dashboard");
+      }
     });
     const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
       setEmail(session?.user?.email ?? null);
+      if (!session) {
+        router.replace("/signin?redirectedFrom=/dashboard");
+      }
     });
     return () => sub.subscription.unsubscribe();
-  }, []);
+  }, [router]);
 
   if (loading) return <p>Loading…</p>;
-
-  if (!email) {
-    return (
-      <div>
-        <h1 className="text-xl font-semibold">Please sign in</h1>
-        <p className="mt-2">
-          You need an account to view the dashboard.{" "}
-          <Link className="text-blue-600 underline" href="/signin">Go to Sign in</Link>
-        </p>
-      </div>
-    );
-  }
+  if (!email) return null; // we already redirected
 
   return (
-    <div>
-      <h1 className="text-2xl font-semibold mb-2">Dashboard</h1>
+    <div className="space-y-4">
+      <h1 className="text-2xl font-semibold">Dashboard</h1>
       <p className="text-gray-700">Signed in as <b>{email}</b></p>
+      <button
+        onClick={async () => {
+          await supabase.auth.signOut();
+          router.replace("/signin?redirectedFrom=/dashboard");
+        }}
+        className="rounded bg-red-600 px-4 py-2 text-white hover:bg-red-700"
+      >
+        Sign out
+      </button>
     </div>
   );
 }

@@ -8,6 +8,7 @@ type SP = Record<string, string | string[] | undefined>;
 export default async function Page({
   searchParams,
 }: {
+  // Next 15 passes searchParams as a Promise in server components
   searchParams: Promise<SP>;
 }) {
   const sp = await searchParams;
@@ -15,6 +16,5 @@ export default async function Page({
     ? sp.redirectedFrom[0]
     : sp.redirectedFrom;
   const redirectTo = redirectedFrom ?? "/dashboard";
-
   return <SignInClient redirectTo={redirectTo} />;
 }

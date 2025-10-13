@@ -3,28 +3,18 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * MathParenting Chat API (robust + auto KaTeX sanitizer)
+ * MathParenting Chat API (parent-focused + robust KaTeX sanitizer)
  * ---------------------------------------------------------------------------
  * Features:
- * - Friendly variants for greetings/thanks/acks/farewells (parent-positive, not salesy)
- * - Gentle non-math redirect (no grade prompts)
- * - Fuzzy math detection (operators + topic catalog + Levenshtein typos)
+ * - Parent-first tone (speak to the parent, not the child)
+ * - Friendly variants (non-salesy), gentle non-math redirect
+ * - Fuzzy math detection (symbols + topic catalog + Levenshtein typos)
  * - Follow-up recognition (short vague questions refer to recent topic)
- * - KaTeX guidance in system prompt + POST-PROCESSOR to auto-fix ( y ), ( f(x) ), ( \frac{...}{...} )
+ * - KaTeX guidance in system prompt + POST-PROCESSOR fixes:
+ *     - ( y ), ( f(x) ), ( \frac{...}{...} ) -> \( ... \)
+ *     - “to the power of”, “power”, “squared”, “cubed” -> \( x^n \)
+ *     - \int f(x),dx -> \int f(x)\,dx
  * - Idempotency cache (10s) to de-dupe rapid repeats
- *
- * Organization:
- * 1) Types
- * 2) Friendly variants
- * 3) Pattern sets
- * 4) Fuzzy topic detection (normalize + Levenshtein)
- * 5) Local reply helpers (small talk, non-math)
- * 6) Follow-up detection
- * 7) Idempotency cache
- * 8) OpenAI client (lazy init)
- * 9) System prompt + context builder
- * 10) KaTeX post-processor (auto-fixes common formatting issues)
- * 11) POST handler
  */
 
 /* ------------------------------------------------------------------------ */
@@ -104,7 +94,6 @@ const QUESTION_CUES = [
   /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help|again|clarify|meaning|definition)\b/i,
 ];
 
-// Any numbers or math symbols strongly suggest a math context
 const OPERATOR_CUES = /[0-9]|[+\-*/=^%()]/;
 
 /** Topic catalog incl. common misspellings for fuzzy coverage */
@@ -130,7 +119,6 @@ const MATH_TOPICS = [
 const normalize = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
 
-/** Classic Levenshtein distance */
 function levenshtein(a: string, b: string) {
   const m = a.length, n = b.length;
   if (m === 0) return n;
@@ -151,7 +139,6 @@ function levenshtein(a: string, b: string) {
   return dp[m][n];
 }
 
-/** True if text likely refers to math (symbols, exact topics, or typo-close tokens). */
 function looksMathyFuzzy(text: string): boolean {
   if (OPERATOR_CUES.test(text)) return true;
   const t = normalize(text);
@@ -175,7 +162,6 @@ function looksMathyFuzzy(text: string): boolean {
   return false;
 }
 
-/** Returns the first recognizable topic name from text, if any. */
 function firstTopicIn(text: string): string | null {
   const t = normalize(text);
   for (const topic of MATH_TOPICS) {
@@ -197,7 +183,6 @@ function smallTalkReply(text: string): string | null {
   if (includesAny(t, FAREWELLS)) return pick(VARIANTS.farewell);
   if (includesAny(t, ACKS)) return pick(VARIANTS.ack);
 
-  // short vague messages -> gentle nudge
   if (t.split(/\s+/).length <= 3 && !looksMathyFuzzy(t) && !includesAny(t, QUESTION_CUES)) {
     return pick(VARIANTS.shortNudge);
   }
@@ -218,7 +203,6 @@ function nonMathRedirect(text: string): string | null {
 /* 6) Follow-up detection                                                   */
 /* ------------------------------------------------------------------------ */
 
-/** Short vague questions that probably refer back to the last topic. */
 function looksLikeFollowUp(text: string): boolean {
   const t = normalize(text);
   const wordCount = t.split(" ").filter(Boolean).length;
@@ -265,21 +249,25 @@ function getClient(): OpenAI {
 const SYSTEM_PROMPT = `
 You are MathParenting, a friendly assistant that ONLY helps parents teach math.
 
-Tone and scope:
+Audience and tone:
+- Speak directly to the parent, not to the child.
+- Use "you" and "your child" when helpful. Avoid addressing the child directly.
 - Always be warm, calm, and encouraging. Helping parents is your pleasure.
-- Use simple, everyday language and household examples (cooking, measuring, shopping).
+- Use everyday, household examples (cooking, measuring, shopping, games).
 - Do not ask for the child grade.
-- If a question is not about math, kindly say you only help with math and invite a math topic.
+
+Scope and redirection:
+- If the question is not about math, kindly say you only help with math and invite a math topic.
 
 Formatting:
-- Use KaTeX: inline as \\( ... \\) and display as $$ ... $$.
-- Write variables and expressions ONLY inside KaTeX delimiters, for example: \\(y\\), \\(x\\), \\(f(x)\\), \\( f'(x) \\), \\( \\frac{dy}{dx} \\).
+- Use KaTeX for all math. Inline as \\( ... \\) and display as $$ ... $$.
+- Write variables and expressions ONLY inside KaTeX delimiters, e.g., \\(y\\), \\(x\\), \\(f(x)\\), \\( f'(x) \\), \\( \\frac{dy}{dx} \\).
 - Do NOT wrap variables or formulas in plain parentheses in the prose (avoid "( y )", "( f(x) )"). Always use KaTeX delimiters.
 - Prefer concise sentences and keep symbols close to their meaning.
 
 Follow-ups:
 - For short follow-ups like "what is denominator again" or "explain that", assume the parent refers to the most recent math topic in this conversation.
-- Clarify gently with one or two quick examples. End with a couple of short practice prompts.
+- Clarify gently with one or two quick examples. Offer a couple of short practice prompts.
 
 Helpful outline when suitable:
 Intro
@@ -292,11 +280,9 @@ Answer box if a specific problem was asked
 Extra practice with two to four items
 `.trim();
 
-/** Optionally injects a context hint about the recent topic for follow-ups. */
 function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMessage[] {
   const msgs: ChatMessage[] = [{ role: "system", content: SYSTEM_PROMPT }];
 
-  // If last user message is a follow-up and doesn’t name a topic, infer from history.
   if (looksLikeFollowUp(lastUser) && !looksMathyFuzzy(lastUser)) {
     let recentTopic: string | null = null;
 
@@ -316,61 +302,80 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
     if (recentTopic) {
       msgs.push({
         role: "system",
-        content: `Context hint: The parent is asking a follow up about ${recentTopic}. Provide a gentle clarification that builds on the earlier explanation.`,
+        content: `Context hint: The parent is asking a follow up about ${recentTopic}. Provide a gentle clarification that builds on the earlier explanation, speaking to the parent.`,
       });
     }
   }
 
-  // Append original chat, excluding any prior system messages
   msgs.push(...all.filter((m) => m.role !== "system"));
   return msgs;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 10) KaTeX post-processor                                                 */
+/* 10) KaTeX post-processor + “power” phrases                               */
 /* ------------------------------------------------------------------------ */
 /**
- * Auto-fixes common model outputs like:
- *   "( y )"            -> "\\( y \\)"
- *   "( f(x) )"         -> "\\( f(x) \\)"
- *   "( \\frac{dy}{dx} )" -> "\\( \\frac{dy}{dx} \\)"
- * without touching already-correct "\\( ... \\)" spans.
+ * Auto-fixes common outputs:
+ *   ( y )                 -> \( y \)
+ *   ( f(x) )              -> \( f(x) \)
+ *   ( \frac{dy}{dx} )     -> \( \frac{dy}{dx} \)
+ *   x to the power of 3   -> \( x^3 \)
+ *   x power 3             -> \( x^3 \)
+ *   x squared / x cubed    -> \( x^2 \) / \( x^3 \)
+ *   \( \int f(x),dx \)    -> \( \int f(x)\,dx \)
  */
 function sanitizeKaTeX(reply: string): string {
   let out = reply;
 
-  // 1) Convert parentheses-wrapped TeX commands to KaTeX inline delimiters:
-  //    e.g., ( \frac{a}{b} ) -> \( \frac{a}{b} \)
+  // 0) Convert common English power phrases to inline KaTeX
+  //    e.g., "x to the power of 3" or "x power 3"
+  out = out.replace(
+    /\b([A-Za-z][A-Za-z0-9]*)\s+(?:to\s+the\s+power\s+of|power)\s+(-?\d+)\b/gi,
+    (_m, base, exp) => `\\( ${base}^${exp} \\)`
+  );
+  //    "x squared" / "x cubed"
+  out = out.replace(
+    /\b([A-Za-z][A-Za-z0-9]*)\s+squared\b/gi,
+    (_m, base) => `\\( ${base}^2 \\)`
+  );
+  out = out.replace(
+    /\b([A-Za-z][A-Za-z0-9]*)\s+cubed\b/gi,
+    (_m, base) => `\\( ${base}^3 \\)`
+  );
+
+  // 1) Parentheses-wrapped TeX commands -> KaTeX inline
   out = out.replace(
     /(?:^|[\s>])\(\s*(\\[a-zA-Z][^)]*?)\s*\)(?=[\s<.,;:!?)]|$)/g,
-    (m, inner, offset, str) => {
-      const prefix = m.startsWith("(") ? "" : m[0]; // preserve leading whitespace or '>' if present
+    (m, inner) => {
+      const prefix = m.startsWith("(") ? "" : m[0];
       const content = typeof inner === "string" ? inner.trim() : inner;
       return `${prefix}\\( ${content} \\)`;
     }
   );
 
-  // 2) Convert parentheses-wrapped single variable or simple token to KaTeX:
-  //    e.g., ( x ) -> \( x \), ( y1 ) -> \( y1 \)
+  // 2) Parentheses-wrapped single variable/token -> KaTeX
   out = out.replace(
     /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*)\s*\)(?=[\s<.,;:!?)]|$)/g,
-    (m, inner, _o, _s) => {
+    (m, inner) => {
       const prefix = m.startsWith("(") ? "" : m[0];
       return `${prefix}\\( ${inner} \\)`;
     }
   );
 
-  // 3) Convert parentheses-wrapped simple function calls: ( f(x) ), ( g'(t) ), ( sin(x) )
+  // 3) Parentheses-wrapped simple function calls -> KaTeX
   out = out.replace(
     /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9']*\s*\([^()]*\))\s*\)(?=[\s<.,;:!?)]|$)/g,
-    (m, inner, _o, _s) => {
+    (m, inner) => {
       const prefix = m.startsWith("(") ? "" : m[0];
       return `${prefix}\\( ${inner} \\)`;
     }
   );
 
-  // 4) Avoid double-wrapping: if it already contains \( ... \), leave it.
-  //    (Handled implicitly by patterns that look for literal parentheses, not \( ... \).)
+  // 4) Fix integral comma spacing inside already-inline KaTeX: \( \int ... ,dx \) -> \( \int ... \,dx \)
+  out = out.replace(
+    /\\\(\s*\\int([^)]*?),\s*dx\s*\\\)/g,
+    (_m, inner) => `\\( \\int${inner} \\,dx \\)`
+  );
 
   return out;
 }
@@ -417,7 +422,7 @@ export async function POST(req: Request) {
       completion.choices?.[0]?.message?.content ??
       "Sorry, I could not generate a response. Please try again.";
 
-    // Auto-fix common KaTeX formatting mistakes
+    // Auto-fix KaTeX and power phrases
     const reply = sanitizeKaTeX(raw);
 
     if (idempotencyKey) cacheSet(idempotencyKey, reply);

@@ -60,33 +60,36 @@ export default function ChatPage() {
   const [loading, setLoading] = useState(false);
   const [logoOk, setLogoOk] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  // Always start with a brand-new ephemeral session on page load
   const [isEphemeral, setIsEphemeral] = useState<boolean>(true);
 
-  // HIGHLIGHT-ASK state
-  const [selText, setSelText] = useState<string>("");
-  const [selPos, setSelPos] = useState<{ x: number; y: number } | null>(null);
-
+  // Double-send protection + simple throttle
   const inflightRef = useRef(false);
   const lastUserRef = useRef<{ text: string; ts: number }>({ text: "", ts: 0 });
 
+  // Highlight-to-Ask state
+  const [selText, setSelText] = useState<string>("");
+  const [selPos, setSelPos] = useState<{ x: number; y: number } | null>(null);
+  const [quoteDraft, setQuoteDraft] = useState<string>("");
+
+  // init: load sessions list, but DO NOT auto-open any old chat
   useEffect(() => {
-    const s = loadSessions();
-    if (s.length > 0) {
-      setSessions(s);
-      setActiveId(s[0].id);
-      setIsEphemeral(false);
-    } else {
-      setActiveId(uid());
-      setIsEphemeral(true);
-    }
+    const existing = loadSessions();
+    setSessions(existing);
+    setActiveId(uid());       // fresh chat id
+    setIsEphemeral(true);     // empty until first message
+    setMessages([]);          // no messages initially
   }, []);
 
+  // load messages only for saved sessions (never for ephemeral new)
   useEffect(() => {
     if (!activeId) return;
     if (isEphemeral) setMessages([]);
     else setMessages(loadMessages(activeId));
   }, [activeId, isEphemeral]);
 
+  // persist saved sessions only
   useEffect(() => {
     if (!activeId || isEphemeral) return;
     saveMessages(activeId, messages);
@@ -96,9 +99,9 @@ export default function ChatPage() {
     () => messages.some((m) => m.role === "user"),
     [messages]
   );
-  const showSplash =
-    !hasUserMessage && !loading && input.trim().length === 0;
+  const showSplash = !hasUserMessage && !loading && input.trim().length === 0;
 
+  // scrolling
   const scrollRef = useRef<HTMLDivElement>(null);
   const endRef = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
@@ -115,6 +118,7 @@ export default function ChatPage() {
     setIsEphemeral(true);
     setMessages([]);
     setInput("");
+    setQuoteDraft("");
     setIsSidebarOpen(false);
   }
 
@@ -152,28 +156,38 @@ export default function ChatPage() {
     e.preventDefault();
     if (!activeId) return;
 
-    const content = input.trim();
-    if (!content) return;
+    const typed = input.trim();
+    if (!typed && !quoteDraft) return;
+
+    // Compose final message: include quote pill content like ChatGPT
+    const finalContent = quoteDraft
+      ? `> ${quoteDraft}\n\n${typed || "Can you explain this more clearly in simple steps?"}`
+      : typed;
 
     const now = Date.now();
+    // Throttle identical repeats
     if (
-      lastUserRef.current.text === content &&
+      lastUserRef.current.text === finalContent &&
       now - lastUserRef.current.ts < 1500
     ) {
       return;
     }
     if (inflightRef.current || loading) return;
     inflightRef.current = true;
-    lastUserRef.current = { text: content, ts: now };
+    lastUserRef.current = { text: finalContent, ts: now };
 
-    const userMsg: ChatMessage = { role: "user", content, ts: now };
+    const userMsg: ChatMessage = { role: "user", content: finalContent, ts: now };
     const nextMsgs = [...messages, userMsg];
     setMessages(nextMsgs);
     setInput("");
+    setQuoteDraft(""); // clear the pill after sending
     setLoading(true);
 
+    // If ephemeral, create real session now
     if (isEphemeral) {
-      const guess = content.replace(/\s+/g, " ").slice(0, 40);
+      // Title guess ignores the "> quote" lines
+      const firstLine = finalContent.replace(/^> .*\n?/gm, "").trim();
+      const guess = firstLine.replace(/\s+/g, " ").slice(0, 40);
       const newSession: ChatSession = {
         id: activeId,
         title: guess || "New chat",
@@ -198,7 +212,7 @@ export default function ChatPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          idempotencyKey: `${activeId}:${now}:${content.slice(0, 64)}`,
+          idempotencyKey: `${activeId}:${now}:${finalContent.slice(0, 64)}`,
           messages: nextMsgs.map(({ role, content }) => ({ role, content })),
         }),
       });
@@ -228,7 +242,7 @@ export default function ChatPage() {
     }
   }
 
-  // HIGHLIGHT-ASK: watch selection inside the scrollable chat panel
+  // Highlight-to-Ask detection: show a small button near selection
   useEffect(() => {
     function handleMouseUp() {
       const sel = window.getSelection?.();
@@ -238,13 +252,13 @@ export default function ChatPage() {
         setSelPos(null);
         return;
       }
+      // Only trigger for selections inside the chat area
       const range = sel!.getRangeAt(0);
       const rect = range.getBoundingClientRect();
       setSelText(text);
       setSelPos({ x: rect.right, y: rect.top + window.scrollY });
     }
     function handleScrollOrResize() {
-      // hide popover on scroll/resize
       setSelText("");
       setSelPos(null);
     }
@@ -260,13 +274,15 @@ export default function ChatPage() {
 
   function askAboutSelection() {
     if (!selText) return;
-    setInput(`"${selText}" — Can you explain this more clearly?`);
+    // Create a quote pill like ChatGPT instead of inserting into the input directly
+    setQuoteDraft(selText);
     setSelText("");
     setSelPos(null);
-    // focus the composer input
     const el = document.getElementById("mp-composer") as HTMLInputElement | null;
     el?.focus();
   }
+
+  const hasQuote = quoteDraft.trim().length > 0;
 
   return (
     <div className="w-full min-h-screen">
@@ -442,7 +458,7 @@ export default function ChatPage() {
           </div>
         </div>
 
-        {/* HIGHLIGHT-ASK floating button */}
+        {/* Floating "Ask MathParenting" button near selection */}
         {selText && selPos && (
           <button
             onClick={askAboutSelection}
@@ -455,27 +471,48 @@ export default function ChatPage() {
           </button>
         )}
 
-        {/* Composer */}
+        {/* Composer with quote pill like ChatGPT */}
         <div className="fixed bottom-0 right-0 left-0 md:left-64 z-50 bg-white/95 backdrop-blur border-t">
           <form
             onSubmit={sendMessage}
-            className="mx-auto w-full max-w-3xl px-4 py-3 flex gap-2"
+            className="mx-auto w-full max-w-3xl px-4 py-3 flex flex-col gap-2"
             style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
           >
-            <input
-              id="mp-composer"
-              className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Type your math teaching question…"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-            />
-            <button
-              type="submit"
-              disabled={loading || input.trim().length === 0}
-              className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
-            >
-              Send
-            </button>
+            {hasQuote && (
+              <div className="flex items-start gap-2">
+                <div className="max-w-full rounded-lg bg-gray-100 border px-3 py-2 text-sm text-gray-800 shadow-sm flex-1">
+                  <div className="line-clamp-3">
+                    “{quoteDraft}”
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  className="rounded-md border px-2 py-1 text-xs hover:bg-gray-50"
+                  onClick={() => setQuoteDraft("")}
+                  aria-label="Remove quote"
+                  title="Remove quote"
+                >
+                  ✕
+                </button>
+              </div>
+            )}
+
+            <div className="flex gap-2">
+              <input
+                id="mp-composer"
+                className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder={hasQuote ? "Add a question or just press Send" : "Type your math teaching question…"}
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+              />
+              <button
+                type="submit"
+                disabled={loading || (input.trim().length === 0 && !hasQuote)}
+                className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
+              >
+                Send
+              </button>
+            </div>
           </form>
         </div>
       </div>

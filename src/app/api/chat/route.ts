@@ -3,27 +3,25 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * MathParenting Chat API (parent-first format + $...$ KaTeX + robust sanitizers)
- * ---------------------------------------------------------------------------
- * - Parent-first section style with bold titles, no numbering, and no headings for Start / Positive Close.
- * - Use $...$ for inline math and $$...$$ for display math (remark-math + rehype-katex).
- * - Sanitizer converts legacy forms ( \( ... \ ), ( ... ) ) to $ ... $ and fixes integral spacing and power phrases.
- * - Fuzzy math detection, follow-ups, and idempotency cache.
+ * MathParenting Chat API (parent-first format + $...$ KaTeX + robust post-processing)
+ * - Always begins with a warm paragraph to the parent (no "Start" heading shown)
+ * - Section headings are bold, no numbers or hyphen bullets
+ * - After "Practice Together", leave a blank line and add a bold positive close
+ * - KaTeX sanitizer converts legacy forms and power phrases to $...$
+ * - Fuzzy math detection, follow-up context, idempotency cache
  */
 
 /* ------------------------------------------------------------------------ */
-/* 1) Types                                                                 */
+/* Types                                                                    */
 /* ------------------------------------------------------------------------ */
-
 type ChatRole = "user" | "assistant" | "system";
 type ChatMessage = { role: ChatRole; content: string };
 type ChatRequest = { messages: ChatMessage[]; idempotencyKey?: string };
 type CacheEntry = { reply: string; expires: number };
 
 /* ------------------------------------------------------------------------ */
-/* 2) Friendly variants                                                     */
+/* Friendly variants                                                        */
 /* ------------------------------------------------------------------------ */
-
 const VARIANTS = {
   greeting: [
     "Hi there! It is wonderful to see you. What math topic would you like us to work on together today?",
@@ -63,13 +61,11 @@ const VARIANTS = {
   ],
 } as const;
 
-const pick = (arr: readonly string[]) =>
-  arr[Math.floor(Math.random() * arr.length)];
+const pick = (arr: readonly string[]) => arr[Math.floor(Math.random() * arr.length)];
 
 /* ------------------------------------------------------------------------ */
-/* 3) Pattern sets                                                          */
+/* Patterns                                                                 */
 /* ------------------------------------------------------------------------ */
-
 const GREETINGS = [
   /^(hi|hii+|hello+|hey+|hiya|howdy|hola|namaste|yo|sup|what(?:'| i)s up)\b/i,
   /\bgood (morning|afternoon|evening|night)\b/i,
@@ -79,9 +75,7 @@ const THANKS = [
   /\bcheers\b/i,
 ];
 const FAREWELLS = [/^(bye|goodbye|see you|see ya|cya|later|take care)\b/i];
-const ACKS = [
-  /^(ok|okay|kk|k|cool|nice|great|awesome|got it|understood|sounds good|alright|sure)\b/i,
-];
+const ACKS = [/^(ok|okay|kk|k|cool|nice|great|awesome|got it|understood|sounds good|alright|sure)\b/i];
 
 const QUESTION_CUES = [
   /\?/,
@@ -90,7 +84,6 @@ const QUESTION_CUES = [
 
 const OPERATOR_CUES = /[0-9]|[+\-*/=^%()]/;
 
-/** Topic catalog incl. misspellings for fuzzy coverage */
 const MATH_TOPICS = [
   "counting","addition","subtraction","multiplication","division","long division","factors","multiples","prime",
   "place value","rounding","number line","fractions","fraction","mixed number","decimal","percent","ratio","proportion",
@@ -102,15 +95,14 @@ const MATH_TOPICS = [
   "trigonometry","sine","cosine","tangent","pythagorean","similarity","congruence","transformations",
   "calculus","limit","derivative","integral","rate of change","area under curve",
   "matrix","vector","coordinate geometry","logarithm","log","scientific notation",
+  // misspellings / typos
   "fracton","fractin","devishon","divishon","devision","substraction","aljebra","algabra","multiplcation","percentge","percnt",
 ];
 
 /* ------------------------------------------------------------------------ */
-/* 4) Fuzzy topic detection                                                 */
+/* Fuzzy topic detection                                                    */
 /* ------------------------------------------------------------------------ */
-
-const normalize = (s: string) =>
-  s.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
+const normalize = (s: string) => s.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
 
 function levenshtein(a: string, b: string) {
   const m = a.length, n = b.length;
@@ -122,11 +114,7 @@ function levenshtein(a: string, b: string) {
   for (let i = 1; i <= m; i++) {
     for (let j = 1; j <= n; j++) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      dp[i][j] = Math.min(
-        dp[i - 1][j] + 1,
-        dp[i][j - 1] + 1,
-        dp[i - 1][j - 1] + cost
-      );
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
     }
   }
   return dp[m][n];
@@ -137,9 +125,7 @@ function looksMathyFuzzy(text: string): boolean {
   const t = normalize(text);
   if (!t) return false;
 
-  for (const topic of MATH_TOPICS) {
-    if (t.includes(normalize(topic))) return true;
-  }
+  for (const topic of MATH_TOPICS) if (t.includes(normalize(topic))) return true;
 
   const tokens = t.split(" ").filter(Boolean);
   const topics = MATH_TOPICS.map(normalize);
@@ -147,9 +133,7 @@ function looksMathyFuzzy(text: string): boolean {
     if (tok.length < 3) continue;
     for (const topic of topics) {
       const d = levenshtein(tok, topic);
-      if ((tok.length <= 5 && d <= 1) || (tok.length <= 8 && d <= 2) || d <= 3) {
-        return true;
-      }
+      if ((tok.length <= 5 && d <= 1) || (tok.length <= 8 && d <= 2) || d <= 3) return true;
     }
   }
   return false;
@@ -157,16 +141,13 @@ function looksMathyFuzzy(text: string): boolean {
 
 function firstTopicIn(text: string): string | null {
   const t = normalize(text);
-  for (const topic of MATH_TOPICS) {
-    if (t.includes(normalize(topic))) return topic;
-  }
+  for (const topic of MATH_TOPICS) if (t.includes(normalize(topic))) return topic;
   return null;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 5) Local reply helpers                                                   */
+/* Local reply helpers                                                      */
 /* ------------------------------------------------------------------------ */
-
 const includesAny = (t: string, pats: RegExp[]) => pats.some((rx) => rx.test(t));
 
 function smallTalkReply(text: string): string | null {
@@ -175,10 +156,7 @@ function smallTalkReply(text: string): string | null {
   if (includesAny(t, THANKS)) return pick(VARIANTS.thanks);
   if (includesAny(t, FAREWELLS)) return pick(VARIANTS.farewell);
   if (includesAny(t, ACKS)) return pick(VARIANTS.ack);
-
-  if (t.split(/\s+/).length <= 3 && !looksMathyFuzzy(t) && !includesAny(t, QUESTION_CUES)) {
-    return pick(VARIANTS.shortNudge);
-  }
+  if (t.split(/\s+/).length <= 3 && !looksMathyFuzzy(t) && !includesAny(t, QUESTION_CUES)) return pick(VARIANTS.shortNudge);
   return null;
 }
 
@@ -186,33 +164,25 @@ function nonMathRedirect(text: string): string | null {
   const t = text.toLowerCase().trim();
   const isQuestion = includesAny(t, QUESTION_CUES);
   const mathy = looksMathyFuzzy(t);
-  if ((isQuestion && !mathy) || (!mathy && !isQuestion)) {
-    return pick(VARIANTS.nonMath);
-  }
+  if ((isQuestion && !mathy) || (!mathy && !isQuestion)) return pick(VARIANTS.nonMath);
   return null;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 6) Follow-up detection                                                   */
+/* Follow-up detection                                                      */
 /* ------------------------------------------------------------------------ */
-
 function looksLikeFollowUp(text: string): boolean {
   const t = normalize(text);
   const wordCount = t.split(" ").filter(Boolean).length;
-  const hasCue =
-    /\b(again|that|it|this|them|those|explain|meaning|definition)\b/.test(t) ||
-    includesAny(t, QUESTION_CUES);
-  const shortEnough = wordCount <= 10;
-  return hasCue && shortEnough;
+  const hasCue = /\b(again|that|it|this|them|those|explain|meaning|definition)\b/.test(t) || includesAny(t, QUESTION_CUES);
+  return hasCue && wordCount <= 10;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 7) Idempotency cache                                                     */
+/* Idempotency cache                                                        */
 /* ------------------------------------------------------------------------ */
-
 const TTL_MS = 10_000;
 const recentReplies = new Map<string, CacheEntry>();
-
 function cacheGet(key: string): string | null {
   const hit = recentReplies.get(key);
   if (!hit) return null;
@@ -225,9 +195,8 @@ function cacheSet(key: string, reply: string) {
 }
 
 /* ------------------------------------------------------------------------ */
-/* 8) OpenAI client (lazy init)                                             */
+/* OpenAI client                                                            */
 /* ------------------------------------------------------------------------ */
-
 function getClient(): OpenAI {
   if (!process.env.OPENAI_API_KEY) {
     throw new Error("Missing OPENAI_API_KEY. Set it in Vercel Project Settings > Environment Variables.");
@@ -236,13 +205,12 @@ function getClient(): OpenAI {
 }
 
 /* ------------------------------------------------------------------------ */
-/* 9) System prompt + context builder                                       */
+/* System prompt + context builder                                          */
 /* ------------------------------------------------------------------------ */
-
 const SYSTEM_PROMPT = `
 You are MathParenting, a friendly helper speaking directly to the parent. Do not address the child. Do not ask for grade.
 
-Always use this parent-first structure:
+Always use this structure and tone:
 Start
 Core Idea
 Household Demonstration
@@ -255,10 +223,11 @@ Positive Close
 
 Formatting rules:
 • Do NOT show the words "Start" or "Positive Close" anywhere. Those two sections must be content-only paragraphs without headings or labels.
-• All other section titles must be bold, no numbers, no hyphen bullets.
-• Use simple language, short paragraphs, warm tone.
-• Use KaTeX delimiters recognized by remark-math: inline math as $ ... $ and display math as $$ ... $$.
-• Put every symbol or formula inside $ ... $ (e.g., $y$, $x$, $f(x)$, $ f'(x) $, $ \\frac{dy}{dx} $).
+• For the middle sections, the exact titles must appear in bold (no numbers, no hyphens): **Core Idea**, **Household Demonstration**, **The Math Behind It**, **Step-by-Step Teaching Guide**, **Curiosity Questions**, **Real-Life Connection or Fun Fact**, **Practice Together**.
+• After the Practice Together content, leave a blank line and include a single bold positive message that celebrates effort.
+• Use simple language, short paragraphs, warm tone, and speak to the parent.
+• Use KaTeX delimiters recognized by remark-math: inline $ ... $ and display $$ ... $$.
+• Put every symbol or formula inside $ ... $ (for example, $y$, $x$, $f(x)$, $ f'(x) $, $ \\frac{dy}{dx} $).
 • Never write plain parentheses around variables or formulas (avoid "( y )", "( f(x) )").
 • If a follow-up is short and vague, assume it refers to the most recent topic in this conversation and give a brief, gentle clarification with one or two tiny examples, then offer a small practice prompt.
 
@@ -270,20 +239,12 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
 
   if (looksLikeFollowUp(lastUser) && !looksMathyFuzzy(lastUser)) {
     let recentTopic: string | null = null;
-
     for (let i = all.length - 2; i >= 0; i--) {
       const c = all[i]?.content ?? "";
       const specific = firstTopicIn(c);
-      if (specific) {
-        recentTopic = specific;
-        break;
-      }
-      if (looksMathyFuzzy(c)) {
-        recentTopic = "the recent math topic discussed above";
-        break;
-      }
+      if (specific) { recentTopic = specific; break; }
+      if (looksMathyFuzzy(c)) { recentTopic = "the recent math topic discussed above"; break; }
     }
-
     if (recentTopic) {
       msgs.push({
         role: "system",
@@ -297,110 +258,185 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
 }
 
 /* ------------------------------------------------------------------------ */
-/* 10) KaTeX sanitizer ($...$, powers, integrals)                           */
+/* Math sanitizers and format enforcement                                   */
 /* ------------------------------------------------------------------------ */
 /**
- * Fixes:
- * - \( ... \) -> $ ... $
+ * KaTeX sanitizer:
+ * - \( ... \) or \[ ... \] -> $...$ or $$...$$
  * - ( \frac{...}{...} ) / ( f(x) ) / ( y ) / ( 2 ) -> $ ... $
- * - “x to the power of 3”, “x power 3”, “x squared”, “x cubed” -> $ x^3 $ / $ x^2 $
+ * - power phrases (“x to the power of 3”, “x squared”, “x cubed”) -> $ x^n $
  * - $ \int f(x),dx $ -> $ \int f(x)\,dx $
  */
-function sanitizeKaTeX(reply: string): string {
-  let out = reply;
+function sanitizeKaTeX(text: string): string {
+  let out = text;
 
-  // 0) Convert \( ... \) or \[ ... \] to $...$ or $$...$$
+  // Convert \( ... \) / \[ ... \] to $...$ / $$...$$
   out = out.replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_m, inner) => `$ ${inner} $`);
   out = out.replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_m, inner) => `$$ ${inner} $$`);
 
-  // 1) English power phrases -> $ ... $
-  out = out.replace(
-    /\b([A-Za-z][A-Za-z0-9]*)\s+(?:to\s+the\s+power\s+of|power)\s+(-?\d+)\b/gi,
-    (_m, base, exp) => `$ ${base}^${exp} $`
-  );
+  // English power phrases
+  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+(?:to\s+the\s+power\s+of|power)\s+(-?\d+)\b/gi, (_m, base, exp) => `$ ${base}^${exp} $`);
   out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+squared\b/gi, (_m, base) => `$ ${base}^2 $`);
   out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+cubed\b/gi, (_m, base) => `$ ${base}^3 $`);
 
-  // 2) Parentheses-wrapped TeX commands -> $ ... $
-  out = out.replace(
-    /(?:^|[\s>])\(\s*(\\[a-zA-Z][^)]*?)\s*\)(?=[\s<.,;:!?)]|$)/g,
-    (m, inner) => {
-      const prefix = m.startsWith("(") ? "" : m[0];
-      const content = typeof inner === "string" ? inner.trim() : inner;
-      return `${prefix}$ ${content} $`;
-    }
-  );
+  // Parentheses-wrapped TeX commands -> $ ... $
+  out = out.replace(/(?:^|[\s>])\(\s*(\\[a-zA-Z][^)]*?)\s*\)(?=[\s<.,;:!?)]|$)/g, (m, inner) => {
+    const prefix = m.startsWith("(") ? "" : m[0];
+    const content = typeof inner === "string" ? inner.trim() : inner;
+    return `${prefix}$ ${content} $`;
+  });
 
-  // 3) Parentheses-wrapped single variable or number -> $ ... $
-  out = out.replace(
-    /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*|-?\d+(?:\.\d+)?)\s*\)(?=[\s<.,;:!?)]|$)/g,
-    (m, inner) => {
-      const prefix = m.startsWith("(") ? "" : m[0];
-      return `${prefix}$ ${inner} $`;
-    }
-  );
+  // Parentheses-wrapped single variable or number -> $ ... $
+  out = out.replace(/(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*|-?\d+(?:\.\d+)?)\s*\)(?=[\s<.,;:!?)]|$)/g, (m, inner) => {
+    const prefix = m.startsWith("(") ? "" : m[0];
+    return `${prefix}$ ${inner} $`;
+  });
 
-  // 4) Parentheses-wrapped simple function call -> $ ... $
-  out = out.replace(
-    /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9']*\s*\([^()]*\))\s*\)(?=[\s<.,;:!?)]|$)/g,
-    (m, inner) => {
-      const prefix = m.startsWith("(") ? "" : m[0];
-      return `${prefix}$ ${inner} $`;
-    }
-  );
+  // Parentheses-wrapped simple function call -> $ ... $
+  out = out.replace(/(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9']*\s*\([^()]*\))\s*\)(?=[\s<.,;:!?)]|$)/g, (m, inner) => {
+    const prefix = m.startsWith("(") ? "" : m[0];
+    return `${prefix}$ ${inner} $`;
+  });
 
-  // 5) Fix integral comma spacing inside existing $...$
+  // Fix integral comma spacing inside $...$
   out = out.replace(/\$\s*\\int([\s\S]*?),\s*dx\s*\$/g, (_m, inner) => `$ \\int${inner} \\,dx $`);
 
   return out;
 }
 
-/** Remove any standalone headings for "Start" or "Positive Close" */
-function sanitizeSections(text: string): string {
+/** Strip any headings for "Start" or "Positive Close" (content stays) */
+function stripForbiddenHeadings(text: string): string {
   let out = text;
-
-  const patterns = [
+  const pats = [
     /^\s*(?:\*\*)?\s*Start\s*(?:\*\*)?\s*:?\s*$/gmi,
     /^\s*(?:\*\*)?\s*Positive\s+Close\s*(?:\*\*)?\s*:?\s*$/gmi,
     /^\s*#{1,6}\s*Start\s*$/gmi,
     /^\s*#{1,6}\s*Positive\s+Close\s*$/gmi,
   ];
-  for (const rx of patterns) out = out.replace(rx, "");
+  for (const rx of pats) out = out.replace(rx, "");
+  return out.replace(/\n{3,}/g, "\n\n").trim();
+}
 
-  // Tidy extra blank lines
-  out = out.replace(/\n{3,}/g, "\n\n").trim();
-  return out;
+/** Ensure we begin with a warm paragraph (if model starts at a heading) */
+function ensureStartParagraph(text: string): string {
+  const lines = text.split(/\r?\n/);
+  // Find first non-empty line
+  const idx = lines.findIndex((l) => l.trim().length > 0);
+  if (idx === -1) return "I am glad you are here. Let us make this simple together.";
+  const first = lines[idx].trim();
+
+  const looksLikeAHeading =
+    /^#{1,6}\s/.test(first) ||
+    /^\*\*.*\*\*\s*$/.test(first) ||
+    /^(?:\d+\.\s*)?(Core Idea|Household Demonstration|The Math Behind It|Step-By-Step Teaching Guide|Step-by-Step Teaching Guide|Curiosity Questions|Real-Life Connection or Fun Fact|Practice Together)\s*:?$/i.test(
+      first.replace(/\*\*/g, "")
+    );
+
+  if (looksLikeAHeading) {
+    const preface = "I am glad you are here. Let us make this simple together.";
+    lines.splice(idx, 0, preface, "");
+    return lines.join("\n");
+  }
+  return text;
+}
+
+/** Make sure all section titles are bold and unnumbered */
+function enforceBoldSectionTitles(text: string): string {
+  const map: Array<{ rx: RegExp; title: string }> = [
+    { rx: /^(?:\d+\.\s*)?\s*core idea\s*:?\s*$/i, title: "**Core Idea**" },
+    { rx: /^(?:\d+\.\s*)?\s*household demonstration\s*:?\s*$/i, title: "**Household Demonstration**" },
+    { rx: /^(?:\d+\.\s*)?\s*the math behind it\s*:?\s*$/i, title: "**The Math Behind It**" },
+    { rx: /^(?:\d+\.\s*)?\s*step[- ]by[- ]step teaching guide\s*:?\s*$/i, title: "**Step-by-Step Teaching Guide**" },
+    { rx: /^(?:\d+\.\s*)?\s*curiosity questions\s*:?\s*$/i, title: "**Curiosity Questions**" },
+    { rx: /^(?:\d+\.\s*)?\s*real[- ]life connection or fun fact\s*:?\s*$/i, title: "**Real-Life Connection or Fun Fact**" },
+    { rx: /^(?:\d+\.\s*)?\s*practice together\s*:?\s*$/i, title: "**Practice Together**" },
+  ];
+
+  const lines = text.split(/\r?\n/);
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i].trim();
+    for (const { rx, title } of map) {
+      if (rx.test(raw)) {
+        lines[i] = title;
+        break;
+      }
+    }
+  }
+  return lines.join("\n");
+}
+
+/** Ensure a bold positive message after Practice Together */
+function ensurePositiveCloseAfterPractice(text: string): string {
+  const POSITIVE = "**You are doing a wonderful job guiding your child. Every step you take together builds confidence.**";
+  const hasPositive = /\*\*[^*]*builds confidence[^*]*\*\*/i.test(text) || /\*\*.*wonderful job.*\*\*/i.test(text);
+
+  // Find the last "Practice Together" title line (bold or not)
+  const lines = text.split(/\r?\n/);
+  let lastPracticeIdx = -1;
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i].replace(/\*\*/g, "").trim().toLowerCase();
+    if (/^practice together\s*:?$/.test(raw)) lastPracticeIdx = i;
+  }
+
+  // If no practice title found, just append positive if missing
+  if (lastPracticeIdx === -1) {
+    return hasPositive ? text : text.replace(/\s*$/, `\n\n${POSITIVE}`);
+  }
+
+  // Ensure there is a blank line and a bold positive message after practice content
+  if (!hasPositive) {
+    // Find where the practice section content likely ends (next section title or end)
+    const sectionTitleRx = /^(?:\*\*)?(Core Idea|Household Demonstration|The Math Behind It|Step-By-Step Teaching Guide|Step-by-Step Teaching Guide|Curiosity Questions|Real-Life Connection or Fun Fact|Practice Together)(?:\*\*)?\s*:?$/i;
+
+    let insertAt = lines.length;
+    for (let i = lastPracticeIdx + 1; i < lines.length; i++) {
+      const raw = lines[i].replace(/\*\*/g, "").trim();
+      if (sectionTitleRx.test(raw)) {
+        insertAt = i;
+        break;
+      }
+    }
+
+    // Insert a blank line and the positive message at insertAt (or end)
+    const updated = [
+      ...lines.slice(0, insertAt),
+      "",
+      POSITIVE,
+      ...lines.slice(insertAt),
+    ];
+
+    return updated.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+  }
+
+  return text;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 11) POST handler                                                         */
+/* POST handler                                                             */
 /* ------------------------------------------------------------------------ */
-
 export async function POST(req: Request) {
   try {
     const { messages, idempotencyKey } = (await req.json()) as ChatRequest;
-
     if (!messages?.length) {
       return NextResponse.json({ error: "No messages provided." }, { status: 400 });
     }
 
     const lastUser = (messages.filter((m) => m.role === "user").pop()?.content || "").trim();
 
-    // Free local friendly replies
+    // Local quick replies
     const quick = smallTalkReply(lastUser);
     if (quick) return NextResponse.json({ reply: quick });
 
-    // Gentle redirect if clearly non-math and no context
     const redirect = nonMathRedirect(lastUser);
     if (redirect) return NextResponse.json({ reply: redirect });
 
-    // Idempotency cache (dedupe)
+    // Idempotency
     if (idempotencyKey) {
       const cached = cacheGet(idempotencyKey);
       if (cached) return NextResponse.json({ reply: cached });
     }
 
-    // Build messages with optional context hint
+    // Build messages
     const payload = buildMessagesWithContext(messages, lastUser);
 
     const client = getClient();
@@ -410,12 +446,14 @@ export async function POST(req: Request) {
       messages: payload,
     });
 
-    const raw =
-      completion.choices?.[0]?.message?.content ??
-      "Sorry, I could not generate a response. Please try again.";
+    const raw = completion.choices?.[0]?.message?.content ?? "Sorry, I could not generate a response. Please try again.";
 
-    // Auto-fix KaTeX and strip forbidden headings
-    const reply = sanitizeSections(sanitizeKaTeX(raw));
+    // Post-process: math + format enforcement
+    let reply = sanitizeKaTeX(raw);
+    reply = stripForbiddenHeadings(reply);
+    reply = ensureStartParagraph(reply);
+    reply = enforceBoldSectionTitles(reply);
+    reply = ensurePositiveCloseAfterPractice(reply);
 
     if (idempotencyKey) cacheSet(idempotencyKey, reply);
 

@@ -3,17 +3,14 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * MathParenting Chat API (parent-focused + robust KaTeX sanitizer)
+ * MathParenting Chat API (parent-focused format + robust KaTeX sanitizer)
  * ---------------------------------------------------------------------------
  * Features:
- * - Parent-first tone (speak to the parent, not the child)
- * - Friendly variants (non-salesy), gentle non-math redirect
- * - Fuzzy math detection (symbols + topic catalog + Levenshtein typos)
- * - Follow-up recognition (short vague questions refer to recent topic)
- * - KaTeX guidance in system prompt + POST-PROCESSOR fixes:
- *     - ( y ), ( f(x) ), ( \frac{...}{...} ) -> \( ... \)
- *     - “to the power of”, “power”, “squared”, “cubed” -> \( x^n \)
- *     - \int f(x),dx -> \int f(x)\,dx
+ * - Parent-first tone and fixed section format (no hyphen bullets)
+ * - Friendly variants and gentle non-math redirect
+ * - Fuzzy math detection (operators + topic catalog + Levenshtein typos)
+ * - Follow-up recognition using prior turns
+ * - KaTeX guidance + sanitizer (fixes ( y ), ( f(x) ), powers, integral spacing)
  * - Idempotency cache (10s) to de-dupe rapid repeats
  */
 
@@ -247,37 +244,46 @@ function getClient(): OpenAI {
 /* ------------------------------------------------------------------------ */
 
 const SYSTEM_PROMPT = `
-You are MathParenting, a friendly assistant that ONLY helps parents teach math.
+You are MathParenting, a friendly helper speaking directly to the parent. Do not address the child. Do not ask for grade.
 
-Audience and tone:
-- Speak directly to the parent, not to the child.
-- Use "you" and "your child" when helpful. Avoid addressing the child directly.
-- Always be warm, calm, and encouraging. Helping parents is your pleasure.
-- Use everyday, household examples (cooking, measuring, shopping, games).
-- Do not ask for the child grade.
+Always follow this parent-first format and avoid hyphen bullets:
 
-Scope and redirection:
-- If the question is not about math, kindly say you only help with math and invite a math topic.
+1. Start
+Begin like a warm helper talking to a parent, not a textbook. Be encouraging and calm.
 
-Formatting:
-- Use KaTeX for all math. Inline as \\( ... \\) and display as $$ ... $$.
-- Write variables and expressions ONLY inside KaTeX delimiters, e.g., \\(y\\), \\(x\\), \\(f(x)\\), \\( f'(x) \\), \\( \\frac{dy}{dx} \\).
-- Do NOT wrap variables or formulas in plain parentheses in the prose (avoid "( y )", "( f(x) )"). Always use KaTeX delimiters.
-- Prefer concise sentences and keep symbols close to their meaning.
+2. Core Idea
+Explain the main idea as a short story before any formula. Create a mental picture first, then the symbols.
 
-Follow-ups:
-- For short follow-ups like "what is denominator again" or "explain that", assume the parent refers to the most recent math topic in this conversation.
-- Clarify gently with one or two quick examples. Offer a couple of short practice prompts.
+3. Household Demonstration
+Describe a simple at-home setup so the parent and child can see or feel the idea together.
 
-Helpful outline when suitable:
-Intro
-Core idea explained simply
-Home demo using household items
-Formula with symbols and short meaning of each
-Guided practice with one to three items
-Curiosity or tip
-Answer box if a specific problem was asked
-Extra practice with two to four items
+4. The Math Behind It
+Introduce the formula gently and explain each part in plain language.
+
+5. Step-by-Step Teaching Guide
+Give clear actions the parent can do with their child: say this, try that, plug simple numbers, discuss what it means.
+
+6. Curiosity Questions
+Invite conversation and reasoning to keep interest alive.
+
+7. Real-Life Connection or Fun Fact
+Show where this idea appears in the world so math feels relevant.
+
+8. Practice Together
+Offer one or two short practice items to do together.
+
+9. Positive Close
+End with a kind note that celebrates effort.
+
+Rules:
+• Use simple language and household examples.
+• Use KaTeX for all math: inline as \\( ... \\) and display as $$ ... $$.
+• Put every symbol inside KaTeX (e.g., \\(y\\), \\(x\\), \\(f(x)\\), \\( f'(x) \\), \\( \\frac{dy}{dx} \\)).
+• Never write plain parentheses around variables or formulas (avoid "( y )", "( f(x) )"). Always use KaTeX.
+• Avoid hyphen bullets. Use numbered or titled sections and short paragraphs.
+• For short follow-ups like "what is denominator again", assume they refer to the most recent topic in this conversation and give a brief, gentle clarification with one or two tiny examples, then a small practice prompt.
+
+If the question is not about math, kindly say you only help with math and invite them to share any math topic.
 `.trim();
 
 function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMessage[] {
@@ -302,7 +308,7 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
     if (recentTopic) {
       msgs.push({
         role: "system",
-        content: `Context hint: The parent is asking a follow up about ${recentTopic}. Provide a gentle clarification that builds on the earlier explanation, speaking to the parent.`,
+        content: `Context hint: The parent is asking a follow up about ${recentTopic}. Provide a gentle clarification speaking to the parent.`,
       });
     }
   }
@@ -327,23 +333,15 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
 function sanitizeKaTeX(reply: string): string {
   let out = reply;
 
-  // 0) Convert common English power phrases to inline KaTeX
-  //    e.g., "x to the power of 3" or "x power 3"
+  // English power phrases -> KaTeX
   out = out.replace(
     /\b([A-Za-z][A-Za-z0-9]*)\s+(?:to\s+the\s+power\s+of|power)\s+(-?\d+)\b/gi,
     (_m, base, exp) => `\\( ${base}^${exp} \\)`
   );
-  //    "x squared" / "x cubed"
-  out = out.replace(
-    /\b([A-Za-z][A-Za-z0-9]*)\s+squared\b/gi,
-    (_m, base) => `\\( ${base}^2 \\)`
-  );
-  out = out.replace(
-    /\b([A-Za-z][A-Za-z0-9]*)\s+cubed\b/gi,
-    (_m, base) => `\\( ${base}^3 \\)`
-  );
+  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+squared\b/gi, (_m, base) => `\\( ${base}^2 \\)`);
+  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+cubed\b/gi, (_m, base) => `\\( ${base}^3 \\)`);
 
-  // 1) Parentheses-wrapped TeX commands -> KaTeX inline
+  // Parentheses-wrapped TeX commands -> KaTeX inline
   out = out.replace(
     /(?:^|[\s>])\(\s*(\\[a-zA-Z][^)]*?)\s*\)(?=[\s<.,;:!?)]|$)/g,
     (m, inner) => {
@@ -353,7 +351,7 @@ function sanitizeKaTeX(reply: string): string {
     }
   );
 
-  // 2) Parentheses-wrapped single variable/token -> KaTeX
+  // Parentheses-wrapped single variable/token -> KaTeX
   out = out.replace(
     /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*)\s*\)(?=[\s<.,;:!?)]|$)/g,
     (m, inner) => {
@@ -362,7 +360,7 @@ function sanitizeKaTeX(reply: string): string {
     }
   );
 
-  // 3) Parentheses-wrapped simple function calls -> KaTeX
+  // Parentheses-wrapped simple function calls -> KaTeX
   out = out.replace(
     /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9']*\s*\([^()]*\))\s*\)(?=[\s<.,;:!?)]|$)/g,
     (m, inner) => {
@@ -371,11 +369,8 @@ function sanitizeKaTeX(reply: string): string {
     }
   );
 
-  // 4) Fix integral comma spacing inside already-inline KaTeX: \( \int ... ,dx \) -> \( \int ... \,dx \)
-  out = out.replace(
-    /\\\(\s*\\int([^)]*?),\s*dx\s*\\\)/g,
-    (_m, inner) => `\\( \\int${inner} \\,dx \\)`
-  );
+  // Fix integral comma spacing inside already-inline KaTeX
+  out = out.replace(/\\\(\s*\\int([^)]*?),\s*dx\s*\\\)/g, (_m, inner) => `\\( \\int${inner} \\,dx \\)`);
 
   return out;
 }

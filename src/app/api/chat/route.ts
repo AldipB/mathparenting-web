@@ -1,15 +1,43 @@
+// src/app/api/chat/route.ts
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * Friendly local handling (free) + fuzzy math-topic detection + follow-up context:
- * - Greetings / Thanks / Acknowledgements / Farewells → rotating variants
- * - Non-math → gentle redirect
- * - Real math → GPT-4.1 with parent-friendly prompt
- * No grade requests. Always warm and encouraging.
+ * MathParenting Chat API (refactored)
+ * ---------------------------------------------------------------------------
+ * Features retained:
+ * - Friendly variants for greetings/thanks/acks/farewells (no salesy tone)
+ * - Gentle non-math redirect (no grade requests)
+ * - Fuzzy math detection (operators + topics catalog + Levenshtein typos)
+ * - Follow-up recognition (short vague questions refer to recent topic)
+ * - KaTeX guidance in system prompt (no stray plain-text parentheses)
+ * - Idempotency cache to de-dupe rapid repeats
+ *
+ * Organization:
+ * 1) Types
+ * 2) Friendly variants
+ * 3) Pattern sets
+ * 4) Fuzzy topic detection (normalize + Levenshtein)
+ * 5) Local reply helpers (small talk, non-math)
+ * 6) Follow-up detection
+ * 7) Idempotency cache
+ * 8) OpenAI client (lazy init)
+ * 9) Prompt + message builder
+ * 10) POST handler
  */
 
-/* ---------------- Friendly variants (no dashes) ---------------- */
+/* ------------------------------------------------------------------------ */
+/* 1) Types                                                                 */
+/* ------------------------------------------------------------------------ */
+
+type ChatRole = "user" | "assistant" | "system";
+type ChatMessage = { role: ChatRole; content: string };
+type ChatRequest = { messages: ChatMessage[]; idempotencyKey?: string };
+type CacheEntry = { reply: string; expires: number };
+
+/* ------------------------------------------------------------------------ */
+/* 2) Friendly variants                                                     */
+/* ------------------------------------------------------------------------ */
 
 const VARIANTS = {
   greeting: [
@@ -50,9 +78,12 @@ const VARIANTS = {
   ],
 } as const;
 
-const pick = (arr: readonly string[]) => arr[Math.floor(Math.random() * arr.length)];
+const pick = (arr: readonly string[]) =>
+  arr[Math.floor(Math.random() * arr.length)];
 
-/* ---------------- Pattern helpers ---------------- */
+/* ------------------------------------------------------------------------ */
+/* 3) Pattern sets                                                          */
+/* ------------------------------------------------------------------------ */
 
 const GREETINGS = [
   /^(hi|hii+|hello+|hey+|hiya|howdy|hola|namaste|yo|sup|what(?:'| i)s up)\b/i,
@@ -65,13 +96,19 @@ const THANKS = [
   /\bcheers\b/i,
 ];
 const FAREWELLS = [/^(bye|goodbye|see you|see ya|cya|later|take care)\b/i];
-const ACKS = [/^(ok|okay|kk|k|cool|nice|great|awesome|got it|understood|sounds good|alright|sure)\b/i];
+const ACKS = [
+  /^(ok|okay|kk|k|cool|nice|great|awesome|got it|understood|sounds good|alright|sure)\b/i,
+];
 
-const QUESTION_CUES = [/\?/, /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help|again|clarify)\b/i];
+const QUESTION_CUES = [
+  /\?/,
+  /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help|again|clarify)\b/i,
+];
 
+// Any numbers or math symbols strongly suggest a math context
 const OPERATOR_CUES = /[0-9]|[+\-*/=^%()]/;
 
-/** Catalog of math topics with a few common misspellings for typo tolerance */
+/** Topic catalog incl. common misspellings for fuzzy coverage */
 const MATH_TOPICS = [
   "counting","addition","subtraction","multiplication","division","long division","factors","multiples","prime",
   "place value","rounding","number line","fractions","fraction","mixed number","decimal","percent","ratio","proportion",
@@ -83,14 +120,19 @@ const MATH_TOPICS = [
   "trigonometry","sine","cosine","tangent","pythagorean","similarity","congruence","transformations",
   "calculus","limit","derivative","integral","rate of change","area under curve",
   "matrix","vector","coordinate geometry","logarithm","log","scientific notation",
-  // common misspellings
+  // misspellings
   "fracton","fractin","devishon","divishon","devision","substraction","aljebra","algabra","multiplcation","percentge","percnt",
 ];
 
-function norm(s: string) {
-  return s.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
-}
-function lev(a: string, b: string) {
+/* ------------------------------------------------------------------------ */
+/* 4) Fuzzy topic detection                                                 */
+/* ------------------------------------------------------------------------ */
+
+const normalize = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
+
+/** Classic Levenshtein distance */
+function levenshtein(a: string, b: string) {
   const m = a.length, n = b.length;
   if (m === 0) return n;
   if (n === 0) return m;
@@ -109,21 +151,23 @@ function lev(a: string, b: string) {
   }
   return dp[m][n];
 }
-function fuzzyIncludesTopic(text: string): boolean {
+
+/** True if text likely refers to math (symbols, exact topics, or typo-close tokens). */
+function looksMathyFuzzy(text: string): boolean {
   if (OPERATOR_CUES.test(text)) return true;
-  const t = norm(text);
+  const t = normalize(text);
   if (!t) return false;
 
   for (const topic of MATH_TOPICS) {
-    if (t.includes(topic)) return true;
+    if (t.includes(normalize(topic))) return true;
   }
 
   const tokens = t.split(" ").filter(Boolean);
-  const topics = MATH_TOPICS.map(norm);
+  const topics = MATH_TOPICS.map(normalize);
   for (const tok of tokens) {
     if (tok.length < 3) continue;
     for (const topic of topics) {
-      const d = lev(tok, topic);
+      const d = levenshtein(tok, topic);
       if ((tok.length <= 5 && d <= 1) || (tok.length <= 8 && d <= 2) || d <= 3) {
         return true;
       }
@@ -131,103 +175,105 @@ function fuzzyIncludesTopic(text: string): boolean {
   }
   return false;
 }
-function firstTopicFound(text: string): string | null {
-  const t = norm(text);
+
+/** Returns the first recognizable topic name from text, if any. */
+function firstTopicIn(text: string): string | null {
+  const t = normalize(text);
   for (const topic of MATH_TOPICS) {
-    if (t.includes(norm(topic))) return topic;
+    if (t.includes(normalize(topic))) return topic;
   }
   return null;
 }
-function includesAny(t: string, pats: RegExp[]) {
-  return pats.some((rx) => rx.test(t));
-}
 
-/* Follow up detector: short vague questions that likely refer back to the last topic */
-function looksLikeFollowUp(text: string) {
-  const t = norm(text);
-  const wordCount = t.split(" ").filter(Boolean).length;
-  const hasCue = /\b(again|that|it|this|them|those|explain|meaning|definition)\b/.test(t) || includesAny(t, QUESTION_CUES);
-  const notLong = wordCount <= 10;
-  return hasCue && notLong;
-}
+/* ------------------------------------------------------------------------ */
+/* 5) Local reply helpers                                                   */
+/* ------------------------------------------------------------------------ */
 
-function localSmallTalk(text: string): string | null {
+const includesAny = (t: string, pats: RegExp[]) => pats.some((rx) => rx.test(t));
+
+function smallTalkReply(text: string): string | null {
   const t = text.toLowerCase().trim();
   if (includesAny(t, GREETINGS)) return pick(VARIANTS.greeting);
   if (includesAny(t, THANKS)) return pick(VARIANTS.thanks);
   if (includesAny(t, FAREWELLS)) return pick(VARIANTS.farewell);
   if (includesAny(t, ACKS)) return pick(VARIANTS.ack);
-  if (t.split(/\s+/).length <= 3 && !fuzzyIncludesTopic(t) && !includesAny(t, QUESTION_CUES)) {
+
+  // short vague messages -> gentle nudge
+  if (t.split(/\s+/).length <= 3 && !looksMathyFuzzy(t) && !includesAny(t, QUESTION_CUES)) {
     return pick(VARIANTS.shortNudge);
   }
   return null;
 }
-function localNonMathRedirect(text: string): string | null {
+
+function nonMathRedirect(text: string): string | null {
   const t = text.toLowerCase().trim();
-  const looksQuestion = includesAny(t, QUESTION_CUES);
-  const looksMath = fuzzyIncludesTopic(t);
-  if ((looksQuestion && !looksMath) || (!looksMath && !looksQuestion)) {
+  const isQuestion = includesAny(t, QUESTION_CUES);
+  const mathy = looksMathyFuzzy(t);
+  if ((isQuestion && !mathy) || (!mathy && !isQuestion)) {
     return pick(VARIANTS.nonMath);
   }
   return null;
 }
 
-/* Idempotency cache */
-type CacheEntry = { reply: string; expires: number };
-const recentReplies = new Map<string, CacheEntry>();
+/* ------------------------------------------------------------------------ */
+/* 6) Follow-up detection                                                   */
+/* ------------------------------------------------------------------------ */
+
+/** Short vague questions that probably refer back to the last topic. */
+function looksLikeFollowUp(text: string): boolean {
+  const t = normalize(text);
+  const wordCount = t.split(" ").filter(Boolean).length;
+  const hasCue =
+    /\b(again|that|it|this|them|those|explain|meaning|definition)\b/.test(t) ||
+    includesAny(t, QUESTION_CUES);
+  const shortEnough = wordCount <= 10;
+  return hasCue && shortEnough;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 7) Idempotency cache                                                     */
+/* ------------------------------------------------------------------------ */
+
 const TTL_MS = 10_000;
-function getCachedReply(key: string): string | null {
+const recentReplies = new Map<string, CacheEntry>();
+
+function cacheGet(key: string): string | null {
   const hit = recentReplies.get(key);
-  if (hit && hit.expires > Date.now()) return hit.reply;
-  if (hit) recentReplies.delete(key);
+  if (!hit) return null;
+  if (hit.expires > Date.now()) return hit.reply;
+  recentReplies.delete(key);
   return null;
 }
-function setCachedReply(key: string, reply: string) {
+function cacheSet(key: string, reply: string) {
   recentReplies.set(key, { reply, expires: Date.now() + TTL_MS });
 }
 
-/* Types */
-type ChatMessage = { role: "user" | "assistant" | "system"; content: string };
-type ChatRequest = { messages: ChatMessage[]; idempotencyKey?: string };
+/* ------------------------------------------------------------------------ */
+/* 8) OpenAI client (lazy init)                                             */
+/* ------------------------------------------------------------------------ */
 
-export async function POST(req: Request) {
-  try {
-    const { messages, idempotencyKey } = (await req.json()) as ChatRequest;
+function getClient(): OpenAI {
+  if (!process.env.OPENAI_API_KEY) {
+    throw new Error("Missing OPENAI_API_KEY. Set it in Vercel Project Settings > Environment Variables.");
+  }
+  return new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+}
 
-    if (!messages?.length) {
-      return NextResponse.json({ error: "No messages provided." }, { status: 400 });
-    }
-    if (!process.env.OPENAI_API_KEY) {
-      return NextResponse.json(
-        { error: "Missing OPENAI_API_KEY. Set it in Vercel Project Settings under Environment Variables." },
-        { status: 500 }
-      );
-    }
+/* ------------------------------------------------------------------------ */
+/* 9) Prompt + message builder                                              */
+/* ------------------------------------------------------------------------ */
 
-    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-    const lastUser = (messages.filter(m => m.role === "user").pop()?.content || "").trim();
-
-    // Friendly local replies
-    const smallTalk = localSmallTalk(lastUser);
-    if (smallTalk) return NextResponse.json({ reply: smallTalk });
-
-    // Non math redirect
-    const nonMath = localNonMathRedirect(lastUser);
-    if (nonMath) return NextResponse.json({ reply: nonMath });
-
-    // Idempotency
-    if (idempotencyKey) {
-      const cached = getCachedReply(idempotencyKey);
-      if (cached) return NextResponse.json({ reply: cached });
-    }
-
-    // Build system prompt and optionally add a context hint for follow ups
-    const systemPrompt = `
+const SYSTEM_PROMPT = `
 You are MathParenting, a friendly assistant that ONLY helps parents teach math.
 Always be warm, calm, and encouraging. Do not ask for the child grade.
 Use simple everyday language and household examples. Explain any symbol you introduce.
-If the parent asks a short follow up like "what is denominator again" or "explain that" assume they refer to the most recent topic in the conversation and clarify gently with one or two examples. Keep answers concise, then give a few practice items.
+Use KaTeX delimiters for math: inline as \\( ... \\) and display as $$ ... $$.
+Write variables and expressions only inside KaTeX delimiters (e.g., \\(y\\), \\(x\\), \\( \\frac{dy}{dx} \\)).
+Avoid plain-text parentheses around variables (do not write "( y )" — write \\(y\\)).
+
+For short follow ups like "what is denominator again" or "explain that",
+assume the parent refers to the most recent topic in this conversation and clarify gently with one or two examples.
+Keep answers concise, then give a few practice items.
 
 Suggested structure when helpful:
 Intro
@@ -242,44 +288,83 @@ Extra practice with two to four items
 If the question is not about math, kindly say you only help with math and invite them to share a math topic.
 `.trim();
 
-    const msgs: ChatMessage[] = [{ role: "system", content: systemPrompt }];
+/** Optionally injects a context hint about the recent topic for follow-ups. */
+function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMessage[] {
+  const msgs: ChatMessage[] = [{ role: "system", content: SYSTEM_PROMPT }];
 
-    // If last user message looks like a follow up and does not explicitly contain a math topic,
-    // add a context hint summarizing the recent topic from prior messages.
-    if (looksLikeFollowUp(lastUser) && !fuzzyIncludesTopic(lastUser)) {
-      // scan backward for a topic in prior messages
-      let recentTopic: string | null = null;
-      for (let i = messages.length - 2; i >= 0; i--) {
-        const c = messages[i].content || "";
-        const t = firstTopicFound(c);
-        if (t) { recentTopic = t; break; }
-        if (fuzzyIncludesTopic(c)) {
-          // as a fallback, mark generic
-          recentTopic = "the recent math topic discussed above";
-          break;
-        }
+  // If last user message is a follow-up and doesn’t name a topic, infer from history.
+  if (looksLikeFollowUp(lastUser) && !looksMathyFuzzy(lastUser)) {
+    let recentTopic: string | null = null;
+
+    for (let i = all.length - 2; i >= 0; i--) {
+      const c = all[i]?.content ?? "";
+      const specific = firstTopicIn(c);
+      if (specific) {
+        recentTopic = specific;
+        break;
       }
-      if (recentTopic) {
-        msgs.push({
-          role: "system",
-          content: `Context hint: The parent is asking a follow up about ${recentTopic}. Provide a gentle clarification that builds on the earlier explanation.`,
-        });
+      if (looksMathyFuzzy(c)) {
+        recentTopic = "the recent math topic discussed above";
+        break;
       }
     }
 
-    msgs.push(...messages.filter((m) => m.role !== "system"));
+    if (recentTopic) {
+      msgs.push({
+        role: "system",
+        content: `Context hint: The parent is asking a follow up about ${recentTopic}. Provide a gentle clarification that builds on the earlier explanation.`,
+      });
+    }
+  }
 
+  // Append the original chat, excluding any prior system messages
+  msgs.push(...all.filter((m) => m.role !== "system"));
+  return msgs;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 10) POST handler                                                         */
+/* ------------------------------------------------------------------------ */
+
+export async function POST(req: Request) {
+  try {
+    const { messages, idempotencyKey } = (await req.json()) as ChatRequest;
+
+    if (!messages?.length) {
+      return NextResponse.json({ error: "No messages provided." }, { status: 400 });
+    }
+
+    const lastUser = (messages.filter((m) => m.role === "user").pop()?.content || "").trim();
+
+    // Free local friendly replies
+    const quick = smallTalkReply(lastUser);
+    if (quick) return NextResponse.json({ reply: quick });
+
+    // Gentle redirect if clearly non-math and no context
+    const redirect = nonMathRedirect(lastUser);
+    if (redirect) return NextResponse.json({ reply: redirect });
+
+    // Idempotency cache (dedupe)
+    if (idempotencyKey) {
+      const cached = cacheGet(idempotencyKey);
+      if (cached) return NextResponse.json({ reply: cached });
+    }
+
+    // Build messages with optional context hint
+    const payload = buildMessagesWithContext(messages, lastUser);
+
+    const client = getClient();
     const completion = await client.chat.completions.create({
       model: "gpt-4.1",
       temperature: 0.4,
-      messages: msgs,
+      messages: payload,
     });
 
     const reply =
       completion.choices?.[0]?.message?.content ??
       "Sorry, I could not generate a response. Please try again.";
 
-    if (idempotencyKey) setCachedReply(idempotencyKey, reply);
+    if (idempotencyKey) cacheSet(idempotencyKey, reply);
 
     return NextResponse.json({ reply });
   } catch (err: unknown) {

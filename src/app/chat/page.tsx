@@ -61,7 +61,7 @@ export default function ChatPage() {
   const [logoOk, setLogoOk] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  // New: ephemeral session until first user message (keeps history clean)
+  // Ephemeral session until first user message (keeps history clean)
   const [isEphemeral, setIsEphemeral] = useState<boolean>(true);
 
   // Double-send protection + simple throttle
@@ -237,10 +237,10 @@ export default function ChatPage() {
   }
 
   return (
-    <div className="w-full min-h-[calc(100svh-4rem)]">
-      {/* Mobile hamburger */}
+    <div className="w-full min-h-screen">
+      {/* Mobile hamburger (below sticky header h-16) */}
       <button
-        className="md:hidden fixed left-3 top-[4.25rem] z-40 rounded-md border bg-white px-3 py-2 text-sm shadow"
+        className="md:hidden fixed left-3 top-20 z-50 rounded-md border bg-white px-3 py-2 text-sm shadow"
         aria-label="Open history"
         onClick={() => setIsSidebarOpen(true)}
       >
@@ -250,7 +250,7 @@ export default function ChatPage() {
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-[4rem] bottom-0 left-0 z-40 w-64 bg-white border-r
+          fixed top-16 bottom-0 left-0 z-40 w-64 bg-white border-r
           transform transition-transform duration-300
           ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"}
           md:translate-x-0
@@ -325,9 +325,12 @@ export default function ChatPage() {
       )}
 
       {/* Main chat column (leaves room for sidebar on md+) */}
-      <div className="relative md:ml-64">
+      <div className="relative pt-16 md:pt-16 md:ml-64">
         {/* Scrollable chat panel */}
-        <div ref={scrollRef} className="min-h-[calc(100svh-4rem)] pb-28 md:pb-32 overflow-y-auto">
+        <div
+          ref={scrollRef}
+          className="min-h-[calc(100svh-16rem)] md:min-h-[calc(100svh-12rem)] pb-28 md:pb-32 overflow-y-auto"
+        >
           {/* Inner column like ChatGPT */}
           <div className="mx-auto w-full max-w-3xl px-4 py-4">
             {/* Splash */}
@@ -408,14 +411,14 @@ export default function ChatPage() {
         </div>
 
         {/* Composer: fixed under the chat column, centered, and offset for sidebar on md+ */}
-        <div className="fixed bottom-0 right-0 left-0 md:left-64 bg-white/95 backdrop-blur border-t">
+        <div className="fixed bottom-0 right-0 left-0 md:left-64 z-50 bg-white/95 backdrop-blur border-t">
           <form
             onSubmit={sendMessage}
             className="mx-auto w-full max-w-3xl px-4 py-3 flex gap-2"
             style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
           >
             <input
-              className="flex-1 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Type your math teaching question…"
               value={input}
               onChange={(e) => setInput(e.target.value)}

@@ -1,8 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind v4 single import */
+@import "tailwindcss";
 
 /* App-wide tweaks */
 html, body {
   height: 100%;
 }
+
+/* Make markdown text comfortable inside bubbles */
+.prose-md p { margin-bottom: .5rem; }

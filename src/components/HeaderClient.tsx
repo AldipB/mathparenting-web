@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function HeaderClient() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/90 backdrop-blur">
-      <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+    <header className="sticky top-0 z-50 h-16 w-full border-b bg-white/90 backdrop-blur">
+      <div className="mx-auto h-full max-w-6xl px-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Image
             src="/logo.png"

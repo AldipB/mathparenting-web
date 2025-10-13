@@ -3,13 +3,12 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * MathParenting Chat API (parent-first format + $...$ KaTeX + robust sanitizer)
+ * MathParenting Chat API (parent-first format + $...$ KaTeX + robust sanitizers)
  * ---------------------------------------------------------------------------
- * Changes in this version:
  * - Parent-first section style with bold titles, no numbering, and no headings for Start / Positive Close.
- * - Use $...$ for inline math and $$...$$ for display math to match remark-math + rehype-katex.
+ * - Use $...$ for inline math and $$...$$ for display math (remark-math + rehype-katex).
  * - Sanitizer converts legacy forms ( \( ... \ ), ( ... ) ) to $ ... $ and fixes integral spacing and power phrases.
- * - Keeps fuzzy math detection, follow-ups, and idempotency cache.
+ * - Fuzzy math detection, follow-ups, and idempotency cache.
  */
 
 /* ------------------------------------------------------------------------ */
@@ -255,7 +254,7 @@ Practice Together
 Positive Close
 
 Formatting rules:
-• Start and Positive Close are content only. Do not show those section titles.
+• Do NOT show the words "Start" or "Positive Close" anywhere. Those two sections must be content-only paragraphs without headings or labels.
 • All other section titles must be bold, no numbers, no hyphen bullets.
 • Use simple language, short paragraphs, warm tone.
 • Use KaTeX delimiters recognized by remark-math: inline math as $ ... $ and display math as $$ ... $$.
@@ -356,6 +355,23 @@ function sanitizeKaTeX(reply: string): string {
   return out;
 }
 
+/** Remove any standalone headings for "Start" or "Positive Close" */
+function sanitizeSections(text: string): string {
+  let out = text;
+
+  const patterns = [
+    /^\s*(?:\*\*)?\s*Start\s*(?:\*\*)?\s*:?\s*$/gmi,
+    /^\s*(?:\*\*)?\s*Positive\s+Close\s*(?:\*\*)?\s*:?\s*$/gmi,
+    /^\s*#{1,6}\s*Start\s*$/gmi,
+    /^\s*#{1,6}\s*Positive\s+Close\s*$/gmi,
+  ];
+  for (const rx of patterns) out = out.replace(rx, "");
+
+  // Tidy extra blank lines
+  out = out.replace(/\n{3,}/g, "\n\n").trim();
+  return out;
+}
+
 /* ------------------------------------------------------------------------ */
 /* 11) POST handler                                                         */
 /* ------------------------------------------------------------------------ */
@@ -398,8 +414,8 @@ export async function POST(req: Request) {
       completion.choices?.[0]?.message?.content ??
       "Sorry, I could not generate a response. Please try again.";
 
-    // Auto-fix KaTeX and phrasing
-    const reply = sanitizeKaTeX(raw);
+    // Auto-fix KaTeX and strip forbidden headings
+    const reply = sanitizeSections(sanitizeKaTeX(raw));
 
     if (idempotencyKey) cacheSet(idempotencyKey, reply);
 

@@ -8,8 +8,6 @@ import OpenAI from "openai";
  * Math questions → GPT-4.1
  */
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
 // ---------- Patterns ----------
 const GREETINGS = [
   /^(hi|hii+|hello+|hey+|hiya|howdy|hola|namaste|yo|sup|what(?:'| i)s up)\b/i,
@@ -80,9 +78,9 @@ const VARIANTS = {
     "Math is my specialty for parents and kids. Share the topic and grade, and we’ll start together.",
     "I can help with math learning at home. Let me know the topic and your child’s grade to begin.",
   ],
-};
+} as const;
 
-const pick = (arr: string[]) => arr[Math.floor(Math.random() * arr.length)];
+const pick = (arr: readonly string[]) => arr[Math.floor(Math.random() * arr.length)];
 const includesAny = (t: string, pats: RegExp[]) => pats.some((rx) => rx.test(t));
 const looksLikeQuestion = (t: string) => includesAny(t, QUESTION_CUES);
 const looksMathy = (t: string) => includesAny(t, MATH_CUES);
@@ -136,10 +134,13 @@ export async function POST(req: Request) {
     }
     if (!process.env.OPENAI_API_KEY) {
       return NextResponse.json(
-        { error: "Missing OPENAI_API_KEY (set it in .env.local and restart dev server)" },
+        { error: "Missing OPENAI_API_KEY (set it in Vercel → Project → Settings → Environment Variables)" },
         { status: 500 }
       );
     }
+
+    // ✅ Lazy-create OpenAI client ONLY after we know the key exists
+    const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
     const last = (messages[messages.length - 1]?.content || "").trim();
 
@@ -184,9 +185,7 @@ You are MathParenting, a friendly AI that ONLY helps parents teach math to their
 
     return NextResponse.json({ reply });
   } catch (err: unknown) {
-    // keep typesafe error handling
     const message = err instanceof Error ? err.message : "Unknown error";
-    // eslint-disable-next-line no-console
     console.error("/api/chat error:", err);
     return NextResponse.json({ error: message }, { status: 500 });
   }

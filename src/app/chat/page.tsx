@@ -378,7 +378,7 @@ export default function ChatPage() {
                         strong: (props) => <strong className="font-bold text-gray-900" {...props} />,
                         p: (props) => <p className="mb-2 whitespace-pre-wrap leading-relaxed" {...props} />,
                         ul: (props) => <ul className="list-disc pl-5 space-y-1" {...props} />,
-                        ol: (props) => <ol className="list-decimal pl-5 space-y-1" />,
+                        ol: (props) => <ol className="list-decimal pl-5 space-y-1" {...props} />,
                         li: (props) => <li className="mb-1" {...props} />,
                         blockquote: (props) => (
                           <blockquote

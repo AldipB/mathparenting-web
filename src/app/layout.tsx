@@ -1,19 +1,18 @@
+import type { Metadata } from "next";
 import "./globals.css";
-import type { ReactNode } from "react";
-import HeaderClient from "../components/HeaderClient";
+import HeaderClient from "@/components/HeaderClient";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "MathParenting",
-  description: "Connecting parents and children through math",
+  description: "Teach any math topic at home with simple steps.",
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="min-h-svh bg-white text-gray-900 antialiased">
+    <html lang="en">
+      <body className="min-h-screen bg-white text-gray-900">
         <HeaderClient />
-        {/* Full width so /chat can control its own layout (like ChatGPT) */}
-        <main className="w-full">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );

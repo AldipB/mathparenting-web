@@ -1,7 +1,7 @@
-// postcss.config.mjs
+// Tailwind v4 requires this plugin entry
 export default {
   plugins: {
-    "@tailwindcss/postcss": {}, // ✅ Tailwind v4 PostCSS plugin
+    "@tailwindcss/postcss": {},
     autoprefixer: {},
   },
 };

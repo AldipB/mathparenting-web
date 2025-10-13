@@ -1,6 +1,8 @@
-/* Tailwind v4: a single import pulls in base/components/utilities */
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Optional niceties */
-html { scroll-behavior: smooth; }
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+/* App-wide tweaks */
+html, body {
+  height: 100%;
+}

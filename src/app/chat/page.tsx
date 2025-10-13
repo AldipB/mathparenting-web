@@ -18,7 +18,6 @@ type ChatSession = { id: string; title: string; createdAt: number; updatedAt: nu
 
 const SESSIONS_KEY = "mp.sessions.v1";
 const MESSAGES_KEY = (id: string) => `mp.messages.${id}.v1`;
-const SIDEBAR_W = 256; // md+ sidebar width
 
 function loadSessions(): ChatSession[] {
   if (typeof window === "undefined") return [];
@@ -211,12 +210,12 @@ export default function ChatPage() {
           messages: nextMsgs.map(({ role, content }) => ({ role, content })),
         }),
       });
-      const data = await response.json();
+      const data: { reply?: string; error?: string } = await response.json();
 
       const reply: ChatMessage = {
         role: "assistant",
         content: response.ok
-          ? data.reply
+          ? data.reply ?? "Sorry, I couldn't generate a response. Please try again."
           : `⚠️ Error: ${data?.error ?? "Something went wrong."}`,
         ts: Date.now(),
       };
@@ -379,7 +378,7 @@ export default function ChatPage() {
                         strong: (props) => <strong className="font-bold text-gray-900" {...props} />,
                         p: (props) => <p className="mb-2 whitespace-pre-wrap leading-relaxed" {...props} />,
                         ul: (props) => <ul className="list-disc pl-5 space-y-1" {...props} />,
-                        ol: (props) => <ol className="list-decimal pl-5 space-y-1" {...props} />,
+                        ol: (props) => <ol className="list-decimal pl-5 space-y-1" />,
                         li: (props) => <li className="mb-1" {...props} />,
                         blockquote: (props) => (
                           <blockquote

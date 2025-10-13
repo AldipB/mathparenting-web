@@ -123,12 +123,13 @@ function setCachedReply(key: string, reply: string) {
   recentReplies.set(key, { reply, expires: Date.now() + TTL_MS });
 }
 
+// --------- Request types ---------
+type ChatMessage = { role: "user" | "assistant" | "system"; content: string };
+type ChatRequest = { messages: ChatMessage[]; idempotencyKey?: string };
+
 export async function POST(req: Request) {
   try {
-    const { messages, idempotencyKey } = (await req.json()) as {
-      idempotencyKey?: string;
-      messages: Array<{ role: "user" | "assistant" | "system"; content: string }>;
-    };
+    const { messages, idempotencyKey } = (await req.json()) as ChatRequest;
 
     if (!messages?.length) {
       return NextResponse.json({ error: "No messages provided." }, { status: 400 });
@@ -182,8 +183,11 @@ You are MathParenting, a friendly AI that ONLY helps parents teach math to their
     if (idempotencyKey) setCachedReply(idempotencyKey, reply);
 
     return NextResponse.json({ reply });
-  } catch (err: any) {
+  } catch (err: unknown) {
+    // keep typesafe error handling
+    const message = err instanceof Error ? err.message : "Unknown error";
+    // eslint-disable-next-line no-console
     console.error("/api/chat error:", err);
-    return NextResponse.json({ error: err?.message ?? "Unknown error" }, { status: 500 });
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

@@ -61,35 +61,28 @@ export default function ChatPage() {
   const [logoOk, setLogoOk] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  // Always start with a brand-new ephemeral session on page load
+  // Always start with a brand new ephemeral session on page load
   const [isEphemeral, setIsEphemeral] = useState<boolean>(true);
 
-  // Double-send protection + simple throttle
+  // Double send protection
   const inflightRef = useRef(false);
   const lastUserRef = useRef<{ text: string; ts: number }>({ text: "", ts: 0 });
 
-  // Highlight-to-Ask state
-  const [selText, setSelText] = useState<string>("");
-  const [selPos, setSelPos] = useState<{ x: number; y: number } | null>(null);
-  const [quoteDraft, setQuoteDraft] = useState<string>("");
-
-  // init: load sessions list, but DO NOT auto-open any old chat
+  // init: load sessions list, but do not auto open any old chat
   useEffect(() => {
     const existing = loadSessions();
     setSessions(existing);
-    setActiveId(uid());       // fresh chat id
-    setIsEphemeral(true);     // empty until first message
-    setMessages([]);          // no messages initially
+    setActiveId(uid());      // fresh chat id
+    setIsEphemeral(true);    // empty until first message
+    setMessages([]);         // no messages initially
   }, []);
 
-  // load messages only for saved sessions (never for ephemeral new)
   useEffect(() => {
     if (!activeId) return;
     if (isEphemeral) setMessages([]);
     else setMessages(loadMessages(activeId));
   }, [activeId, isEphemeral]);
 
-  // persist saved sessions only
   useEffect(() => {
     if (!activeId || isEphemeral) return;
     saveMessages(activeId, messages);
@@ -101,7 +94,7 @@ export default function ChatPage() {
   );
   const showSplash = !hasUserMessage && !loading && input.trim().length === 0;
 
-  // scrolling
+  // scroll behavior
   const scrollRef = useRef<HTMLDivElement>(null);
   const endRef = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
@@ -118,7 +111,6 @@ export default function ChatPage() {
     setIsEphemeral(true);
     setMessages([]);
     setInput("");
-    setQuoteDraft("");
     setIsSidebarOpen(false);
   }
 
@@ -156,38 +148,28 @@ export default function ChatPage() {
     e.preventDefault();
     if (!activeId) return;
 
-    const typed = input.trim();
-    if (!typed && !quoteDraft) return;
-
-    // Compose final message: include quote pill content like ChatGPT
-    const finalContent = quoteDraft
-      ? `> ${quoteDraft}\n\n${typed || "Can you explain this more clearly in simple steps?"}`
-      : typed;
+    const content = input.trim();
+    if (!content) return;
 
     const now = Date.now();
-    // Throttle identical repeats
     if (
-      lastUserRef.current.text === finalContent &&
+      lastUserRef.current.text === content &&
       now - lastUserRef.current.ts < 1500
     ) {
       return;
     }
     if (inflightRef.current || loading) return;
     inflightRef.current = true;
-    lastUserRef.current = { text: finalContent, ts: now };
+    lastUserRef.current = { text: content, ts: now };
 
-    const userMsg: ChatMessage = { role: "user", content: finalContent, ts: now };
+    const userMsg: ChatMessage = { role: "user", content, ts: now };
     const nextMsgs = [...messages, userMsg];
     setMessages(nextMsgs);
     setInput("");
-    setQuoteDraft(""); // clear the pill after sending
     setLoading(true);
 
-    // If ephemeral, create real session now
     if (isEphemeral) {
-      // Title guess ignores the "> quote" lines
-      const firstLine = finalContent.replace(/^> .*\n?/gm, "").trim();
-      const guess = firstLine.replace(/\s+/g, " ").slice(0, 40);
+      const guess = content.replace(/\s+/g, " ").slice(0, 40);
       const newSession: ChatSession = {
         id: activeId,
         title: guess || "New chat",
@@ -212,7 +194,7 @@ export default function ChatPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          idempotencyKey: `${activeId}:${now}:${finalContent.slice(0, 64)}`,
+          idempotencyKey: `${activeId}:${now}:${content.slice(0, 64)}`,
           messages: nextMsgs.map(({ role, content }) => ({ role, content })),
         }),
       });
@@ -221,7 +203,7 @@ export default function ChatPage() {
       const reply: ChatMessage = {
         role: "assistant",
         content: response.ok
-          ? data.reply ?? "Sorry, I couldn't generate a response. Please try again."
+          ? data.reply ?? "Sorry, I could not generate a response. Please try again."
           : `⚠️ Error: ${data?.error ?? "Something went wrong."}`,
         ts: Date.now(),
       };
@@ -242,51 +224,9 @@ export default function ChatPage() {
     }
   }
 
-  // Highlight-to-Ask detection: show a small button near selection
-  useEffect(() => {
-    function handleMouseUp() {
-      const sel = window.getSelection?.();
-      const text = sel?.toString().trim() ?? "";
-      if (!text) {
-        setSelText("");
-        setSelPos(null);
-        return;
-      }
-      // Only trigger for selections inside the chat area
-      const range = sel!.getRangeAt(0);
-      const rect = range.getBoundingClientRect();
-      setSelText(text);
-      setSelPos({ x: rect.right, y: rect.top + window.scrollY });
-    }
-    function handleScrollOrResize() {
-      setSelText("");
-      setSelPos(null);
-    }
-    document.addEventListener("mouseup", handleMouseUp);
-    window.addEventListener("scroll", handleScrollOrResize, true);
-    window.addEventListener("resize", handleScrollOrResize);
-    return () => {
-      document.removeEventListener("mouseup", handleMouseUp);
-      window.removeEventListener("scroll", handleScrollOrResize, true);
-      window.removeEventListener("resize", handleScrollOrResize);
-    };
-  }, []);
-
-  function askAboutSelection() {
-    if (!selText) return;
-    // Create a quote pill like ChatGPT instead of inserting into the input directly
-    setQuoteDraft(selText);
-    setSelText("");
-    setSelPos(null);
-    const el = document.getElementById("mp-composer") as HTMLInputElement | null;
-    el?.focus();
-  }
-
-  const hasQuote = quoteDraft.trim().length > 0;
-
   return (
     <div className="w-full min-h-screen">
-      {/* Mobile hamburger (below sticky header h-16) */}
+      {/* Mobile hamburger under sticky header h-16 */}
       <button
         className="md:hidden fixed left-3 top-20 z-50 rounded-md border bg-white px-3 py-2 text-sm shadow"
         aria-label="Open history"
@@ -458,61 +398,27 @@ export default function ChatPage() {
           </div>
         </div>
 
-        {/* Floating "Ask MathParenting" button near selection */}
-        {selText && selPos && (
-          <button
-            onClick={askAboutSelection}
-            className="fixed z-50 rounded-full border bg-white px-3 py-1 text-xs shadow"
-            style={{ left: selPos.x + 8, top: selPos.y - 10 }}
-            aria-label="Ask MathParenting"
-            title="Ask MathParenting"
-          >
-            Ask MathParenting
-          </button>
-        )}
-
-        {/* Composer with quote pill like ChatGPT */}
+        {/* Composer */}
         <div className="fixed bottom-0 right-0 left-0 md:left-64 z-50 bg-white/95 backdrop-blur border-t">
           <form
             onSubmit={sendMessage}
-            className="mx-auto w-full max-w-3xl px-4 py-3 flex flex-col gap-2"
+            className="mx-auto w-full max-w-3xl px-4 py-3 flex gap-2"
             style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
           >
-            {hasQuote && (
-              <div className="flex items-start gap-2">
-                <div className="max-w-full rounded-lg bg-gray-100 border px-3 py-2 text-sm text-gray-800 shadow-sm flex-1">
-                  <div className="line-clamp-3">
-                    “{quoteDraft}”
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  className="rounded-md border px-2 py-1 text-xs hover:bg-gray-50"
-                  onClick={() => setQuoteDraft("")}
-                  aria-label="Remove quote"
-                  title="Remove quote"
-                >
-                  ✕
-                </button>
-              </div>
-            )}
-
-            <div className="flex gap-2">
-              <input
-                id="mp-composer"
-                className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder={hasQuote ? "Add a question or just press Send" : "Type your math teaching question…"}
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-              />
-              <button
-                type="submit"
-                disabled={loading || (input.trim().length === 0 && !hasQuote)}
-                className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
-              >
-                Send
-              </button>
-            </div>
+            <input
+              id="mp-composer"
+              className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Type your math teaching question…"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+            />
+            <button
+              type="submit"
+              disabled={loading || input.trim().length === 0}
+              className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
+            >
+              Send
+            </button>
           </form>
         </div>
       </div>

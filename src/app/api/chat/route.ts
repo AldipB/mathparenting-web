@@ -3,15 +3,13 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * MathParenting Chat API (parent-focused format + robust KaTeX sanitizer)
+ * MathParenting Chat API (parent-first format + $...$ KaTeX + robust sanitizer)
  * ---------------------------------------------------------------------------
- * Features:
- * - Parent-first tone and fixed section format (no hyphen bullets)
- * - Friendly variants and gentle non-math redirect
- * - Fuzzy math detection (operators + topic catalog + Levenshtein typos)
- * - Follow-up recognition using prior turns
- * - KaTeX guidance + sanitizer (fixes ( y ), ( f(x) ), powers, integral spacing)
- * - Idempotency cache (10s) to de-dupe rapid repeats
+ * Changes in this version:
+ * - Parent-first section style with bold titles, no numbering, and no headings for Start / Positive Close.
+ * - Use $...$ for inline math and $$...$$ for display math to match remark-math + rehype-katex.
+ * - Sanitizer converts legacy forms ( \( ... \ ), ( ... ) ) to $ ... $ and fixes integral spacing and power phrases.
+ * - Keeps fuzzy math detection, follow-ups, and idempotency cache.
  */
 
 /* ------------------------------------------------------------------------ */
@@ -93,7 +91,7 @@ const QUESTION_CUES = [
 
 const OPERATOR_CUES = /[0-9]|[+\-*/=^%()]/;
 
-/** Topic catalog incl. common misspellings for fuzzy coverage */
+/** Topic catalog incl. misspellings for fuzzy coverage */
 const MATH_TOPICS = [
   "counting","addition","subtraction","multiplication","division","long division","factors","multiples","prime",
   "place value","rounding","number line","fractions","fraction","mixed number","decimal","percent","ratio","proportion",
@@ -105,7 +103,6 @@ const MATH_TOPICS = [
   "trigonometry","sine","cosine","tangent","pythagorean","similarity","congruence","transformations",
   "calculus","limit","derivative","integral","rate of change","area under curve",
   "matrix","vector","coordinate geometry","logarithm","log","scientific notation",
-  // misspellings
   "fracton","fractin","devishon","divishon","devision","substraction","aljebra","algabra","multiplcation","percentge","percnt",
 ];
 
@@ -246,42 +243,25 @@ function getClient(): OpenAI {
 const SYSTEM_PROMPT = `
 You are MathParenting, a friendly helper speaking directly to the parent. Do not address the child. Do not ask for grade.
 
-Always follow this parent-first format and avoid hyphen bullets:
+Always use this parent-first structure:
+Start
+Core Idea
+Household Demonstration
+The Math Behind It
+Step-by-Step Teaching Guide
+Curiosity Questions
+Real-Life Connection or Fun Fact
+Practice Together
+Positive Close
 
-1. Start
-Begin like a warm helper talking to a parent, not a textbook. Be encouraging and calm.
-
-2. Core Idea
-Explain the main idea as a short story before any formula. Create a mental picture first, then the symbols.
-
-3. Household Demonstration
-Describe a simple at-home setup so the parent and child can see or feel the idea together.
-
-4. The Math Behind It
-Introduce the formula gently and explain each part in plain language.
-
-5. Step-by-Step Teaching Guide
-Give clear actions the parent can do with their child: say this, try that, plug simple numbers, discuss what it means.
-
-6. Curiosity Questions
-Invite conversation and reasoning to keep interest alive.
-
-7. Real-Life Connection or Fun Fact
-Show where this idea appears in the world so math feels relevant.
-
-8. Practice Together
-Offer one or two short practice items to do together.
-
-9. Positive Close
-End with a kind note that celebrates effort.
-
-Rules:
-• Use simple language and household examples.
-• Use KaTeX for all math: inline as \\( ... \\) and display as $$ ... $$.
-• Put every symbol inside KaTeX (e.g., \\(y\\), \\(x\\), \\(f(x)\\), \\( f'(x) \\), \\( \\frac{dy}{dx} \\)).
-• Never write plain parentheses around variables or formulas (avoid "( y )", "( f(x) )"). Always use KaTeX.
-• Avoid hyphen bullets. Use numbered or titled sections and short paragraphs.
-• For short follow-ups like "what is denominator again", assume they refer to the most recent topic in this conversation and give a brief, gentle clarification with one or two tiny examples, then a small practice prompt.
+Formatting rules:
+• Start and Positive Close are content only. Do not show those section titles.
+• All other section titles must be bold, no numbers, no hyphen bullets.
+• Use simple language, short paragraphs, warm tone.
+• Use KaTeX delimiters recognized by remark-math: inline math as $ ... $ and display math as $$ ... $$.
+• Put every symbol or formula inside $ ... $ (e.g., $y$, $x$, $f(x)$, $ f'(x) $, $ \\frac{dy}{dx} $).
+• Never write plain parentheses around variables or formulas (avoid "( y )", "( f(x) )").
+• If a follow-up is short and vague, assume it refers to the most recent topic in this conversation and give a brief, gentle clarification with one or two tiny examples, then offer a small practice prompt.
 
 If the question is not about math, kindly say you only help with math and invite them to share any math topic.
 `.trim();
@@ -318,59 +298,60 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
 }
 
 /* ------------------------------------------------------------------------ */
-/* 10) KaTeX post-processor + “power” phrases                               */
+/* 10) KaTeX sanitizer ($...$, powers, integrals)                           */
 /* ------------------------------------------------------------------------ */
 /**
- * Auto-fixes common outputs:
- *   ( y )                 -> \( y \)
- *   ( f(x) )              -> \( f(x) \)
- *   ( \frac{dy}{dx} )     -> \( \frac{dy}{dx} \)
- *   x to the power of 3   -> \( x^3 \)
- *   x power 3             -> \( x^3 \)
- *   x squared / x cubed    -> \( x^2 \) / \( x^3 \)
- *   \( \int f(x),dx \)    -> \( \int f(x)\,dx \)
+ * Fixes:
+ * - \( ... \) -> $ ... $
+ * - ( \frac{...}{...} ) / ( f(x) ) / ( y ) / ( 2 ) -> $ ... $
+ * - “x to the power of 3”, “x power 3”, “x squared”, “x cubed” -> $ x^3 $ / $ x^2 $
+ * - $ \int f(x),dx $ -> $ \int f(x)\,dx $
  */
 function sanitizeKaTeX(reply: string): string {
   let out = reply;
 
-  // English power phrases -> KaTeX
+  // 0) Convert \( ... \) or \[ ... \] to $...$ or $$...$$
+  out = out.replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_m, inner) => `$ ${inner} $`);
+  out = out.replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_m, inner) => `$$ ${inner} $$`);
+
+  // 1) English power phrases -> $ ... $
   out = out.replace(
     /\b([A-Za-z][A-Za-z0-9]*)\s+(?:to\s+the\s+power\s+of|power)\s+(-?\d+)\b/gi,
-    (_m, base, exp) => `\\( ${base}^${exp} \\)`
+    (_m, base, exp) => `$ ${base}^${exp} $`
   );
-  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+squared\b/gi, (_m, base) => `\\( ${base}^2 \\)`);
-  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+cubed\b/gi, (_m, base) => `\\( ${base}^3 \\)`);
+  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+squared\b/gi, (_m, base) => `$ ${base}^2 $`);
+  out = out.replace(/\b([A-Za-z][A-Za-z0-9]*)\s+cubed\b/gi, (_m, base) => `$ ${base}^3 $`);
 
-  // Parentheses-wrapped TeX commands -> KaTeX inline
+  // 2) Parentheses-wrapped TeX commands -> $ ... $
   out = out.replace(
     /(?:^|[\s>])\(\s*(\\[a-zA-Z][^)]*?)\s*\)(?=[\s<.,;:!?)]|$)/g,
     (m, inner) => {
       const prefix = m.startsWith("(") ? "" : m[0];
       const content = typeof inner === "string" ? inner.trim() : inner;
-      return `${prefix}\\( ${content} \\)`;
+      return `${prefix}$ ${content} $`;
     }
   );
 
-  // Parentheses-wrapped single variable/token -> KaTeX
+  // 3) Parentheses-wrapped single variable or number -> $ ... $
   out = out.replace(
-    /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*)\s*\)(?=[\s<.,;:!?)]|$)/g,
+    /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*|-?\d+(?:\.\d+)?)\s*\)(?=[\s<.,;:!?)]|$)/g,
     (m, inner) => {
       const prefix = m.startsWith("(") ? "" : m[0];
-      return `${prefix}\\( ${inner} \\)`;
+      return `${prefix}$ ${inner} $`;
     }
   );
 
-  // Parentheses-wrapped simple function calls -> KaTeX
+  // 4) Parentheses-wrapped simple function call -> $ ... $
   out = out.replace(
     /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9']*\s*\([^()]*\))\s*\)(?=[\s<.,;:!?)]|$)/g,
     (m, inner) => {
       const prefix = m.startsWith("(") ? "" : m[0];
-      return `${prefix}\\( ${inner} \\)`;
+      return `${prefix}$ ${inner} $`;
     }
   );
 
-  // Fix integral comma spacing inside already-inline KaTeX
-  out = out.replace(/\\\(\s*\\int([^)]*?),\s*dx\s*\\\)/g, (_m, inner) => `\\( \\int${inner} \\,dx \\)`);
+  // 5) Fix integral comma spacing inside existing $...$
+  out = out.replace(/\$\s*\\int([\s\S]*?),\s*dx\s*\$/g, (_m, inner) => `$ \\int${inner} \\,dx $`);
 
   return out;
 }
@@ -417,7 +398,7 @@ export async function POST(req: Request) {
       completion.choices?.[0]?.message?.content ??
       "Sorry, I could not generate a response. Please try again.";
 
-    // Auto-fix KaTeX and power phrases
+    // Auto-fix KaTeX and phrasing
     const reply = sanitizeKaTeX(raw);
 
     if (idempotencyKey) cacheSet(idempotencyKey, reply);

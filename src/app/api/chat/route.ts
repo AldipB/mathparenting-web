@@ -2,13 +2,59 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * Friendly local handling (free):
+ * Friendly local handling (free) + fuzzy math-topic detection:
  * - Greetings / Thanks / Acknowledgements / Farewells → rotating variants
- * - Non-math questions/requests → gentle redirect
- * Math questions → GPT-4.1
+ * - Non-math → gentle redirect
+ * - Real math → GPT-4.1 with parent-friendly prompt
+ *
+ * No grade requests. Always warm and encouraging.
  */
 
-// ---------- Patterns ----------
+/* -------------------- Friendly variants (final tone) -------------------- */
+
+const VARIANTS = {
+  greeting: [
+    "Hi there! It’s wonderful to see you. What math topic would you like us to work on together today?",
+    "Hello! I’m really glad you’re here. What math concept would you like me to make simple for you?",
+    "Welcome! Let’s make math fun and gentle to learn. Which topic should we start with?",
+    "Hey! It’s always a pleasure helping parents. Tell me the math topic you’d like to explore.",
+  ],
+  thanks: [
+    "You’re so welcome. It makes me happy to help you make math easier at home.",
+    "My pleasure. You’re doing an amazing job supporting your child’s learning.",
+    "You’re welcome. It’s wonderful to guide parents like you through math.",
+    "Happy to help anytime. Keep up the great work with your child.",
+  ],
+  farewell: [
+    "Take care. I’ll be right here whenever you want more help with math.",
+    "See you soon. You’re doing great—keep making learning moments special.",
+    "Bye for now. I hope math time feels smoother and more enjoyable.",
+    "Thank you for visiting. You’re building a strong math foundation at home.",
+  ],
+  ack: [
+    "Great. What math idea shall we explore next together?",
+    "Sounds lovely. Tell me which topic you’d like to work through today.",
+    "Perfect. I’m ready when you are to make another math idea clear and simple.",
+    "Wonderful. Which math topic would you like to focus on next?",
+  ],
+  shortNudge: [
+    "I’d love to help you with math. What topic would you like to start with today?",
+    "Tell me the math idea that’s on your mind, and I’ll guide you step by step.",
+    "What math concept feels tricky right now? I’ll make it simple to understand.",
+    "I’m happy to help. Just share the math topic you’d like to explore.",
+  ],
+  nonMath: [
+    "I’m here to help with math learning. Could you tell me the math topic you’d like to begin with?",
+    "My focus is on making math easier for families. What topic can I explain for you today?",
+    "I can best help with math. Share any math topic, and we’ll explore it together warmly.",
+    "Let’s keep our chat about math so I can support you in the best way possible.",
+  ],
+} as const;
+
+const pick = (arr: readonly string[]) => arr[Math.floor(Math.random() * arr.length)];
+
+/* -------------------- Pattern helpers -------------------- */
+
 const GREETINGS = [
   /^(hi|hii+|hello+|hey+|hiya|howdy|hola|namaste|yo|sup|what(?:'| i)s up)\b/i,
   /\bgood (morning|afternoon|evening|night)\b/i,
@@ -19,72 +65,84 @@ const THANKS = [
   /^(thanks|thank you|thanks a lot|thanks so much|thx|ty|tysm|much appreciated|appreciate (it|that))\b/i,
   /\bcheers\b/i,
 ];
-const FAREWELLS = [
-  /^(bye|goodbye|see you|see ya|cya|later|talk to you (later|soon)|take care)\b/i,
-];
-const ACKS = [
-  /^(ok|okay|kk|k|cool|nice|great|awesome|got it|understood|sounds good|alright|sure)\b/i,
-];
-const QUESTION_CUES = [/\?/, /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help)\b/i];
-const MATH_CUES = [
-  /[0-9]/,
-  /[+\-*/=^%()]/,
-  /\b(grade|topic|math|arithmetic|algebra|geometry|fraction|decimal|percent|ratio|proportion|prime|factor|multiple|equation|inequality|graph|coordinate|slope|angle|triangle|area|perimeter|volume|probability|statistics|mean|median|mode|range|derivative|integral|limit|calculus|trigonometry|sin|cos|tan|vector|matrix|exponent|logarithm|log)\b/i,
-];
-const NON_MATH_TOPICS = [
-  /\b(politics|election|president|government|policy|law|news|war)\b/i,
-  /\b(religion|god|faith|spiritual|church|temple|mosque)\b/i,
-  /\b(gender|sex|sexual|lgbt|identity)\b/i,
-  /\b(supabase|vercel|next\.?js|git|github|api|backend|frontend|deploy|database|stripe|analytics)\b/i,
-  /\b(health|medical|diagnosis|therapy)\b/i,
-  /\b(finance|stock|crypto|trading|money|loan)\b/i,
+const FAREWELLS = [/^(bye|goodbye|see you|see ya|cya|later|take care)\b/i];
+const ACKS = [/^(ok|okay|kk|k|cool|nice|great|awesome|got it|understood|sounds good|alright|sure)\b/i];
+
+const QUESTION_CUES = [/\?/, /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help|again)\b/i];
+
+const OPERATOR_CUES = /[0-9]|[+\-*/=^%()]/;
+
+/** A broad catalog of math topic tokens for fuzzy matching (parents' phrasing + common misspellings). */
+const MATH_TOPICS = [
+  "counting","addition","subtraction","multiplication","division","long division","factors","multiples","prime",
+  "place value","rounding","number line","fractions","fraction","mixed number","decimal","percent","ratio","proportion",
+  "measurement","unit","time","money","area","perimeter","volume","angle","shapes","triangle","quadrilateral","polygon",
+  "geometry","coordinate plane","graph","slope","equation","inequality","expression","variable","exponent","power",
+  "root","square root","order of operations","pemdas","mean","median","mode","range","data","statistics","probability",
+  "algebra","linear equation","system of equations","quadratic","polynomial","factoring","function","domain","range-func",
+  "sequence","series","arithmetic sequence","geometric sequence","absolute value",
+  "trigonometry","sine","cosine","tangent","pythagorean","similarity","congruence","transformations",
+  "calculus","limit","derivative","integral","rate of change","area under curve",
+  "matrix","vector","coordinate geometry","logarithm","log","scientific notation",
+  // common misspellings (lightweight coverage)
+  "fracton","fractin","devishon","divishon","devision","substraction","aljebra","algabra","multiplcation","percentge","percnt",
 ];
 
-// ---------- Friendly rotating variants ----------
-const VARIANTS = {
-  greeting: [
-    "Welcome to MathParenting. How can I help you with math today?",
-    "Welcome to MathParenting—how would you like me to help with math today?",
-    "Hi there. Welcome to MathParenting. How can I support you with math today?",
-    "Hello! Welcome to MathParenting. What can I help you with in math today?",
-  ],
-  thanks: [
-    "You're welcome. If you'd like help with another math topic, I'm here.",
-    "You're welcome. I'm glad to help—tell me the next math topic when you're ready.",
-    "You're welcome. Whenever you need more math support, just let me know.",
-    "You're welcome. I’m here anytime you want to work on another math concept.",
-  ],
-  farewell: [
-    "Take care. If you need math help again, just ask.",
-    "Goodbye for now. I’m here anytime you want support with math.",
-    "See you later. I’ll be ready when you want to tackle another math topic.",
-    "Bye! Come back anytime for friendly math guidance.",
-  ],
-  ack: [
-    "Great—tell me the math topic and your child’s grade when you’re ready.",
-    "Sounds good. What math concept would you like to work on next?",
-    "Got it. Share the math topic and I’ll guide you step by step.",
-    "Okay—what would you like help with in math?",
-  ],
-  shortNudge: [
-    "Tell me the math topic and your child’s grade, and I’ll guide you step by step.",
-    "Share the math topic and grade, and I’ll walk you through it clearly.",
-    "Let me know the math topic and your child’s grade so we can begin.",
-    "Tell me the topic and grade, and I’ll get you a simple plan.",
-  ],
-  nonMath: [
-    "I focus on helping parents teach math. If you share the math topic and your child’s grade, I’ll guide you clearly.",
-    "I’m here especially for math support. Tell me the math topic and your child’s grade, and I’ll walk you through it.",
-    "Math is my specialty for parents and kids. Share the topic and grade, and we’ll start together.",
-    "I can help with math learning at home. Let me know the topic and your child’s grade to begin.",
-  ],
-} as const;
+/* Basic normalization and edit distance for typo-tolerant checks (no extra deps). */
+function norm(s: string) {
+  return s.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
+}
+function lev(a: string, b: string) {
+  const m = a.length, n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + cost
+      );
+    }
+  }
+  return dp[m][n];
+}
+function fuzzyIncludesTopic(text: string): boolean {
+  if (OPERATOR_CUES.test(text)) return true; // numbers / symbols strongly suggest math
+  const t = norm(text);
+  if (!t) return false;
 
-const pick = (arr: readonly string[]) => arr[Math.floor(Math.random() * arr.length)];
-const includesAny = (t: string, pats: RegExp[]) => pats.some((rx) => rx.test(t));
-const looksLikeQuestion = (t: string) => includesAny(t, QUESTION_CUES);
-const looksMathy = (t: string) => includesAny(t, MATH_CUES);
-const looksNonMathTopic = (t: string) => includesAny(t, NON_MATH_TOPICS);
+  // direct contains
+  for (const topic of MATH_TOPICS) {
+    if (t.includes(topic)) return true;
+  }
+
+  // token-level fuzzy match
+  const tokens = t.split(" ").filter(Boolean);
+  const topics = MATH_TOPICS.map(norm);
+  for (const tok of tokens) {
+    if (tok.length < 3) continue; // ignore tiny words
+    for (const topic of topics) {
+      const d = lev(tok, topic);
+      if (
+        (tok.length <= 5 && d <= 1) ||
+        (tok.length <= 8 && d <= 2) ||
+        d <= 3
+      ) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+function includesAny(t: string, pats: RegExp[]) {
+  return pats.some((rx) => rx.test(t));
+}
 
 function localSmallTalk(text: string): string | null {
   const t = text.toLowerCase().trim();
@@ -92,7 +150,7 @@ function localSmallTalk(text: string): string | null {
   if (includesAny(t, THANKS)) return pick(VARIANTS.thanks);
   if (includesAny(t, FAREWELLS)) return pick(VARIANTS.farewell);
   if (includesAny(t, ACKS)) return pick(VARIANTS.ack);
-  if (t.split(/\s+/).length <= 3 && !looksMathy(t) && !looksLikeQuestion(t)) {
+  if (t.split(/\s+/).length <= 3 && !fuzzyIncludesTopic(t) && !includesAny(t, QUESTION_CUES)) {
     return pick(VARIANTS.shortNudge);
   }
   return null;
@@ -100,13 +158,15 @@ function localSmallTalk(text: string): string | null {
 
 function localNonMathRedirect(text: string): string | null {
   const t = text.toLowerCase().trim();
-  if ((looksLikeQuestion(t) && !looksMathy(t)) || looksNonMathTopic(t)) {
+  const looksQuestion = includesAny(t, QUESTION_CUES);
+  const looksMath = fuzzyIncludesTopic(t);
+  if ((looksQuestion && !looksMath) || (!looksMath && !looksQuestion)) {
     return pick(VARIANTS.nonMath);
   }
   return null;
 }
 
-// --------- Idempotency cache (10s TTL) ---------
+/* ---------------- Idempotency cache (10s TTL) ---------------- */
 type CacheEntry = { reply: string; expires: number };
 const recentReplies = new Map<string, CacheEntry>();
 const TTL_MS = 10_000;
@@ -121,7 +181,7 @@ function setCachedReply(key: string, reply: string) {
   recentReplies.set(key, { reply, expires: Date.now() + TTL_MS });
 }
 
-// --------- Request types ---------
+/* ---------------- Request types ---------------- */
 type ChatMessage = { role: "user" | "assistant" | "system"; content: string };
 type ChatRequest = { messages: ChatMessage[]; idempotencyKey?: string };
 
@@ -139,7 +199,7 @@ export async function POST(req: Request) {
       );
     }
 
-    // ✅ Lazy-create OpenAI client ONLY after we know the key exists
+    // Lazy-create after env check
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
     const last = (messages[messages.length - 1]?.content || "").trim();
@@ -152,20 +212,30 @@ export async function POST(req: Request) {
     const nonMath = localNonMathRedirect(last);
     if (nonMath) return NextResponse.json({ reply: nonMath });
 
-    // 3) Idempotency check
+    // 3) Idempotency
     if (idempotencyKey) {
       const cached = getCachedReply(idempotencyKey);
       if (cached) return NextResponse.json({ reply: cached });
     }
 
-    // 4) Real math → OpenAI (GPT-4.1)
+    // 4) Real math → OpenAI (GPT-4.1) with parent-friendly, context-aware prompt
     const systemPrompt = `
-You are MathParenting, a friendly AI that ONLY helps parents teach math to their children.
-- Be warm, encouraging, and concise.
-- Use clear everyday language and household-friendly ideas.
-- Explain formulas and what each symbol means.
-- Provide a short guided practice and a few extra practice questions at the end.
-- If asked about non-math topics, politely say you only help with math for parents and children.
+You are MathParenting, a friendly assistant that ONLY helps parents teach math.
+Always be warm, calm, and encouraging. Do not ask for the child's grade.
+Use simple everyday language and household examples. Explain any symbol you introduce.
+When the parent asks a short follow-up like "what is denominator again?" assume they are referring to the most recent explanation in the conversation and clarify it gently with one or two examples. Keep answers concise, then give a few practice items.
+
+Structure, when appropriate:
+- Intro: one or two sentences
+- Core idea explained simply
+- Home demo using household items
+- Formula with symbols and quick meaning of each symbol
+- Guided practice (1 to 3 items)
+- Curiosity or tip
+- Answer box if a specific problem was asked
+- Extra practice (2 to 4 items)
+
+If the question is not about math, kindly say you only help with math and invite them to share a math topic.
 `;
 
     const completion = await client.chat.completions.create({

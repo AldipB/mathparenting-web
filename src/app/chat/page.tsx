@@ -60,15 +60,15 @@ export default function ChatPage() {
   const [loading, setLoading] = useState(false);
   const [logoOk, setLogoOk] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-  // Ephemeral session until first user message (keeps history clean)
   const [isEphemeral, setIsEphemeral] = useState<boolean>(true);
 
-  // Double-send protection + simple throttle
+  // HIGHLIGHT-ASK state
+  const [selText, setSelText] = useState<string>("");
+  const [selPos, setSelPos] = useState<{ x: number; y: number } | null>(null);
+
   const inflightRef = useRef(false);
   const lastUserRef = useRef<{ text: string; ts: number }>({ text: "", ts: 0 });
 
-  // init: use real session if exists; otherwise ephemeral empty one
   useEffect(() => {
     const s = loadSessions();
     if (s.length > 0) {
@@ -81,14 +81,12 @@ export default function ChatPage() {
     }
   }, []);
 
-  // load messages for saved sessions
   useEffect(() => {
     if (!activeId) return;
     if (isEphemeral) setMessages([]);
     else setMessages(loadMessages(activeId));
   }, [activeId, isEphemeral]);
 
-  // persist saved sessions only
   useEffect(() => {
     if (!activeId || isEphemeral) return;
     saveMessages(activeId, messages);
@@ -101,7 +99,6 @@ export default function ChatPage() {
   const showSplash =
     !hasUserMessage && !loading && input.trim().length === 0;
 
-  // scroll behavior
   const scrollRef = useRef<HTMLDivElement>(null);
   const endRef = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
@@ -113,7 +110,6 @@ export default function ChatPage() {
     });
   }, [messages, loading]);
 
-  // new ephemeral chat
   function newChat() {
     setActiveId(uid());
     setIsEphemeral(true);
@@ -159,7 +155,6 @@ export default function ChatPage() {
     const content = input.trim();
     if (!content) return;
 
-    // Throttle: ignore exact same text within 1.5s
     const now = Date.now();
     if (
       lastUserRef.current.text === content &&
@@ -167,8 +162,6 @@ export default function ChatPage() {
     ) {
       return;
     }
-
-    // Lock to prevent double-submits
     if (inflightRef.current || loading) return;
     inflightRef.current = true;
     lastUserRef.current = { text: content, ts: now };
@@ -179,7 +172,6 @@ export default function ChatPage() {
     setInput("");
     setLoading(true);
 
-    // If ephemeral, create real session now
     if (isEphemeral) {
       const guess = content.replace(/\s+/g, " ").slice(0, 40);
       const newSession: ChatSession = {
@@ -234,6 +226,46 @@ export default function ChatPage() {
       setLoading(false);
       inflightRef.current = false;
     }
+  }
+
+  // HIGHLIGHT-ASK: watch selection inside the scrollable chat panel
+  useEffect(() => {
+    function handleMouseUp() {
+      const sel = window.getSelection?.();
+      const text = sel?.toString().trim() ?? "";
+      if (!text) {
+        setSelText("");
+        setSelPos(null);
+        return;
+      }
+      const range = sel!.getRangeAt(0);
+      const rect = range.getBoundingClientRect();
+      setSelText(text);
+      setSelPos({ x: rect.right, y: rect.top + window.scrollY });
+    }
+    function handleScrollOrResize() {
+      // hide popover on scroll/resize
+      setSelText("");
+      setSelPos(null);
+    }
+    document.addEventListener("mouseup", handleMouseUp);
+    window.addEventListener("scroll", handleScrollOrResize, true);
+    window.addEventListener("resize", handleScrollOrResize);
+    return () => {
+      document.removeEventListener("mouseup", handleMouseUp);
+      window.removeEventListener("scroll", handleScrollOrResize, true);
+      window.removeEventListener("resize", handleScrollOrResize);
+    };
+  }, []);
+
+  function askAboutSelection() {
+    if (!selText) return;
+    setInput(`"${selText}" — Can you explain this more clearly?`);
+    setSelText("");
+    setSelPos(null);
+    // focus the composer input
+    const el = document.getElementById("mp-composer") as HTMLInputElement | null;
+    el?.focus();
   }
 
   return (
@@ -324,14 +356,14 @@ export default function ChatPage() {
         />
       )}
 
-      {/* Main chat column (leaves room for sidebar on md+) */}
+      {/* Main chat column */}
       <div className="relative pt-16 md:pt-16 md:ml-64">
         {/* Scrollable chat panel */}
         <div
           ref={scrollRef}
           className="min-h-[calc(100svh-16rem)] md:min-h-[calc(100svh-12rem)] pb-28 md:pb-32 overflow-y-auto"
         >
-          {/* Inner column like ChatGPT */}
+          {/* Inner column */}
           <div className="mx-auto w-full max-w-3xl px-4 py-4">
             {/* Splash */}
             {showSplash && (
@@ -410,7 +442,20 @@ export default function ChatPage() {
           </div>
         </div>
 
-        {/* Composer: fixed under the chat column, centered, and offset for sidebar on md+ */}
+        {/* HIGHLIGHT-ASK floating button */}
+        {selText && selPos && (
+          <button
+            onClick={askAboutSelection}
+            className="fixed z-50 rounded-full border bg-white px-3 py-1 text-xs shadow"
+            style={{ left: selPos.x + 8, top: selPos.y - 10 }}
+            aria-label="Ask MathParenting"
+            title="Ask MathParenting"
+          >
+            Ask MathParenting
+          </button>
+        )}
+
+        {/* Composer */}
         <div className="fixed bottom-0 right-0 left-0 md:left-64 z-50 bg-white/95 backdrop-blur border-t">
           <form
             onSubmit={sendMessage}
@@ -418,6 +463,7 @@ export default function ChatPage() {
             style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
           >
             <input
+              id="mp-composer"
               className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Type your math teaching question…"
               value={input}

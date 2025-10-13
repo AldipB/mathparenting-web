@@ -1,9 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind v4: a single import pulls in base/components/utilities */
+@import "tailwindcss";
 
-html, body {
-  height: 100%;
-  background-color: #fafafa;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
-}
+/* Optional niceties */
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

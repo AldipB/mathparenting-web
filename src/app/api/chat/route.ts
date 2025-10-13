@@ -3,15 +3,15 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 /**
- * MathParenting Chat API (refactored)
+ * MathParenting Chat API (robust + auto KaTeX sanitizer)
  * ---------------------------------------------------------------------------
- * Features retained:
- * - Friendly variants for greetings/thanks/acks/farewells (no salesy tone)
- * - Gentle non-math redirect (no grade requests)
- * - Fuzzy math detection (operators + topics catalog + Levenshtein typos)
+ * Features:
+ * - Friendly variants for greetings/thanks/acks/farewells (parent-positive, not salesy)
+ * - Gentle non-math redirect (no grade prompts)
+ * - Fuzzy math detection (operators + topic catalog + Levenshtein typos)
  * - Follow-up recognition (short vague questions refer to recent topic)
- * - KaTeX guidance in system prompt (no stray plain-text parentheses)
- * - Idempotency cache to de-dupe rapid repeats
+ * - KaTeX guidance in system prompt + POST-PROCESSOR to auto-fix ( y ), ( f(x) ), ( \frac{...}{...} )
+ * - Idempotency cache (10s) to de-dupe rapid repeats
  *
  * Organization:
  * 1) Types
@@ -22,8 +22,9 @@ import OpenAI from "openai";
  * 6) Follow-up detection
  * 7) Idempotency cache
  * 8) OpenAI client (lazy init)
- * 9) Prompt + message builder
- * 10) POST handler
+ * 9) System prompt + context builder
+ * 10) KaTeX post-processor (auto-fixes common formatting issues)
+ * 11) POST handler
  */
 
 /* ------------------------------------------------------------------------ */
@@ -88,8 +89,6 @@ const pick = (arr: readonly string[]) =>
 const GREETINGS = [
   /^(hi|hii+|hello+|hey+|hiya|howdy|hola|namaste|yo|sup|what(?:'| i)s up)\b/i,
   /\bgood (morning|afternoon|evening|night)\b/i,
-  /\bgm\b/i,
-  /\bgn\b/i,
 ];
 const THANKS = [
   /^(thanks|thank you|thanks a lot|thanks so much|thx|ty|tysm|much appreciated|appreciate (it|that))\b/i,
@@ -102,7 +101,7 @@ const ACKS = [
 
 const QUESTION_CUES = [
   /\?/,
-  /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help|again|clarify)\b/i,
+  /\b(how|why|what|when|where|which|who|explain|teach|show|derive|prove|solve|example|practice|help|again|clarify|meaning|definition)\b/i,
 ];
 
 // Any numbers or math symbols strongly suggest a math context
@@ -260,32 +259,37 @@ function getClient(): OpenAI {
 }
 
 /* ------------------------------------------------------------------------ */
-/* 9) Prompt + message builder                                              */
+/* 9) System prompt + context builder                                       */
 /* ------------------------------------------------------------------------ */
 
 const SYSTEM_PROMPT = `
 You are MathParenting, a friendly assistant that ONLY helps parents teach math.
-Always be warm, calm, and encouraging. Do not ask for the child grade.
-Use simple everyday language and household examples. Explain any symbol you introduce.
-Use KaTeX delimiters for math: inline as \\( ... \\) and display as $$ ... $$.
-Write variables and expressions only inside KaTeX delimiters (e.g., \\(y\\), \\(x\\), \\( \\frac{dy}{dx} \\)).
-Avoid plain-text parentheses around variables (do not write "( y )" — write \\(y\\)).
 
-For short follow ups like "what is denominator again" or "explain that",
-assume the parent refers to the most recent topic in this conversation and clarify gently with one or two examples.
-Keep answers concise, then give a few practice items.
+Tone and scope:
+- Always be warm, calm, and encouraging. Helping parents is your pleasure.
+- Use simple, everyday language and household examples (cooking, measuring, shopping).
+- Do not ask for the child grade.
+- If a question is not about math, kindly say you only help with math and invite a math topic.
 
-Suggested structure when helpful:
+Formatting:
+- Use KaTeX: inline as \\( ... \\) and display as $$ ... $$.
+- Write variables and expressions ONLY inside KaTeX delimiters, for example: \\(y\\), \\(x\\), \\(f(x)\\), \\( f'(x) \\), \\( \\frac{dy}{dx} \\).
+- Do NOT wrap variables or formulas in plain parentheses in the prose (avoid "( y )", "( f(x) )"). Always use KaTeX delimiters.
+- Prefer concise sentences and keep symbols close to their meaning.
+
+Follow-ups:
+- For short follow-ups like "what is denominator again" or "explain that", assume the parent refers to the most recent math topic in this conversation.
+- Clarify gently with one or two quick examples. End with a couple of short practice prompts.
+
+Helpful outline when suitable:
 Intro
 Core idea explained simply
 Home demo using household items
-Formula with symbols and short meaning of each symbol
+Formula with symbols and short meaning of each
 Guided practice with one to three items
 Curiosity or tip
 Answer box if a specific problem was asked
 Extra practice with two to four items
-
-If the question is not about math, kindly say you only help with math and invite them to share a math topic.
 `.trim();
 
 /** Optionally injects a context hint about the recent topic for follow-ups. */
@@ -317,13 +321,62 @@ function buildMessagesWithContext(all: ChatMessage[], lastUser: string): ChatMes
     }
   }
 
-  // Append the original chat, excluding any prior system messages
+  // Append original chat, excluding any prior system messages
   msgs.push(...all.filter((m) => m.role !== "system"));
   return msgs;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 10) POST handler                                                         */
+/* 10) KaTeX post-processor                                                 */
+/* ------------------------------------------------------------------------ */
+/**
+ * Auto-fixes common model outputs like:
+ *   "( y )"            -> "\\( y \\)"
+ *   "( f(x) )"         -> "\\( f(x) \\)"
+ *   "( \\frac{dy}{dx} )" -> "\\( \\frac{dy}{dx} \\)"
+ * without touching already-correct "\\( ... \\)" spans.
+ */
+function sanitizeKaTeX(reply: string): string {
+  let out = reply;
+
+  // 1) Convert parentheses-wrapped TeX commands to KaTeX inline delimiters:
+  //    e.g., ( \frac{a}{b} ) -> \( \frac{a}{b} \)
+  out = out.replace(
+    /(?:^|[\s>])\(\s*(\\[a-zA-Z][^)]*?)\s*\)(?=[\s<.,;:!?)]|$)/g,
+    (m, inner, offset, str) => {
+      const prefix = m.startsWith("(") ? "" : m[0]; // preserve leading whitespace or '>' if present
+      const content = typeof inner === "string" ? inner.trim() : inner;
+      return `${prefix}\\( ${content} \\)`;
+    }
+  );
+
+  // 2) Convert parentheses-wrapped single variable or simple token to KaTeX:
+  //    e.g., ( x ) -> \( x \), ( y1 ) -> \( y1 \)
+  out = out.replace(
+    /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9]*)\s*\)(?=[\s<.,;:!?)]|$)/g,
+    (m, inner, _o, _s) => {
+      const prefix = m.startsWith("(") ? "" : m[0];
+      return `${prefix}\\( ${inner} \\)`;
+    }
+  );
+
+  // 3) Convert parentheses-wrapped simple function calls: ( f(x) ), ( g'(t) ), ( sin(x) )
+  out = out.replace(
+    /(?:^|[\s>])\(\s*([A-Za-z][A-Za-z0-9']*\s*\([^()]*\))\s*\)(?=[\s<.,;:!?)]|$)/g,
+    (m, inner, _o, _s) => {
+      const prefix = m.startsWith("(") ? "" : m[0];
+      return `${prefix}\\( ${inner} \\)`;
+    }
+  );
+
+  // 4) Avoid double-wrapping: if it already contains \( ... \), leave it.
+  //    (Handled implicitly by patterns that look for literal parentheses, not \( ... \).)
+
+  return out;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 11) POST handler                                                         */
 /* ------------------------------------------------------------------------ */
 
 export async function POST(req: Request) {
@@ -360,9 +413,12 @@ export async function POST(req: Request) {
       messages: payload,
     });
 
-    const reply =
+    const raw =
       completion.choices?.[0]?.message?.content ??
       "Sorry, I could not generate a response. Please try again.";
+
+    // Auto-fix common KaTeX formatting mistakes
+    const reply = sanitizeKaTeX(raw);
 
     if (idempotencyKey) cacheSet(idempotencyKey, reply);
 

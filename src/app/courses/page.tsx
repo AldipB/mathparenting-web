@@ -1,51 +1,76 @@
 // src/app/courses/page.tsx
 import Link from "next/link";
-import { createClient } from "@supabase/supabase-js";
+import { supabase } from "@/lib/supabaseClient";
 
 export const revalidate = 60;
 
-export default async function CoursesHome() {
-  const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  );
+/** ---------- Types ---------- */
+type GradeRow = {
+  id: string;
+  slug: string; // "k" | "1" | ... | "12"
+  name: string;
+  description: string | null;
+};
 
-  const { data, error } = await supabase
+/** ---------- Page ---------- */
+export default async function CoursesHome() {
+  // Fetch all grades for the Courses landing
+  const { data: grades, error } = await supabase
     .from("grades")
-    .select("id, slug, name, description");
+    .select("id, slug, name, description")
+    .order("slug", { ascending: true })
+    .returns<GradeRow[]>();
 
   if (error) {
     return (
       <main className="mx-auto max-w-5xl p-6">
-        <h1 className="text-3xl font-bold mb-4">Courses</h1>
+        <h1 className="mb-2 text-3xl font-bold">Courses</h1>
         <p className="text-red-600">Failed to load grades: {error.message}</p>
       </main>
     );
   }
 
-  const grades = (data ?? []).sort((a: any, b: any) => {
-    const rank = (s: string) => (s?.toLowerCase() === "k" ? 0 : Number(s));
-    return rank(a.slug) - rank(b.slug);
-  });
-
   return (
     <main className="mx-auto max-w-5xl p-6">
-      <h1 className="text-3xl font-bold mb-2">Math Courses for Parents</h1>
+      <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <h1 className="text-3xl font-bold">Courses</h1>
+
+        {/* GET /courses/search?q=... */}
+        <form action="/courses/search" method="GET" className="flex gap-2">
+          <input
+            name="q"
+            placeholder="Search topics (fractions, area, integers, decimals)"
+            className="w-full rounded-xl border p-3 sm:w-80"
+          />
+          <button className="rounded-xl border px-4 py-2">Search</button>
+        </form>
+      </div>
+
       <p className="mb-6 text-gray-600">
-        Choose a grade to see every chapter.
+        Pick a grade to browse all chapters and lessons.
       </p>
 
-      <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
-        {grades.map((g: any) => (
-          <li key={g.id} className="rounded-2xl border p-4 hover:bg-gray-50">
-            <Link href={`/courses/${g.slug}`} className="block">
-              <div className="text-lg font-semibold">{g.name}</div>
-              {g.description && (
-                <div className="mt-1 line-clamp-2 text-sm text-gray-600">
-                  {g.description}
-                </div>
-              )}
-            </Link>
+      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+        {(grades ?? []).map((g) => (
+          <li key={g.id} className="rounded-2xl border p-5">
+            <h2 className="mb-1 text-xl font-semibold">
+              <Link className="underline" href={`/courses/${g.slug}`}>
+                {g.name}
+              </Link>
+            </h2>
+            {g.description && (
+              <p className="text-sm text-gray-600 line-clamp-3">
+                {g.description}
+              </p>
+            )}
+            <div className="mt-3">
+              <Link
+                className="inline-block rounded-xl border px-3 py-1 text-sm underline"
+                href={`/courses/${g.slug}`}
+              >
+                View chapters →
+              </Link>
+            </div>
           </li>
         ))}
       </ul>

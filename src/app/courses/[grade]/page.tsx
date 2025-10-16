@@ -1,9 +1,38 @@
 // src/app/courses/[grade]/page.tsx
 import Link from "next/link";
-import { createClient } from "@supabase/supabase-js";
+import { supabase } from "@/lib/supabaseClient";
+import { promises as fs } from "fs";
+import path from "path";
 
 export const revalidate = 60;
 
+/** ---------- Types ---------- */
+type Params = { grade: string };
+
+type GradeRow = {
+  id: string;
+  slug: string;
+  name: string;
+  description: string | null;
+};
+
+type UnitRow = {
+  id: string;
+  title: string | null;
+  order_index: number | null;
+  grade_id: string;
+};
+
+type LessonWithUnit = {
+  id: string;
+  title: string | null;
+  slug: string | null;
+  order_index: number | null;
+  unit_id: string;
+  units: UnitRow | null;
+};
+
+/** ---------- Helpers ---------- */
 function normalizeGradeParam(raw: string) {
   const s = decodeURIComponent(raw).trim().toLowerCase();
   if (s === "k" || s === "kg" || s === "kindergarten") return "k";
@@ -13,7 +42,6 @@ function normalizeGradeParam(raw: string) {
   return s;
 }
 
-// simple fallback if a lesson has no slug in DB
 function slugify(s: string) {
   return (s || "")
     .toLowerCase()
@@ -21,77 +49,101 @@ function slugify(s: string) {
     .replace(/^-+|-+$/g, "");
 }
 
-export default async function GradeTOC({ params }: { params: { grade: string } }) {
-  const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-  );
+/** Read local lessons if DB has none */
+async function readLocalLessons(gradeSlug: string) {
+  // Map slug “k” → directory “k” (and numeric “7” stays “7”)
+  const dir = path.join(process.cwd(), "content", "lessons", gradeSlug);
+  try {
+    const files = await fs.readdir(dir);
+    const jsonFiles = files.filter((f) => f.endsWith(".json"));
+    const items = await Promise.all(
+      jsonFiles.map(async (f) => {
+        const filePath = path.join(dir, f);
+        const raw = await fs.readFile(filePath, "utf8");
+        let data: { title?: string } = {};
+        try {
+          data = JSON.parse(raw);
+        } catch {
+          // ignore bad json
+        }
+        const base = f.replace(/\.json$/i, "");
+        return {
+          title: data.title || base.replace(/-/g, " "),
+          slug: base,
+          href: `/courses/local/${encodeURIComponent(gradeSlug)}/${encodeURIComponent(base)}`,
+        };
+      })
+    );
+    // Sort nicely
+    return items.sort((a, b) => a.title.localeCompare(b.title));
+  } catch {
+    return [];
+  }
+}
 
-  const slug = normalizeGradeParam(params.grade);
+/** ---------- Page (Next 15) ---------- */
+export default async function GradeTOC({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
+  const { grade: rawGrade } = await params;
+  const slug = normalizeGradeParam(rawGrade);
 
-  let { data: grade } = await supabase
+  // 1) Resolve grade (or create a synthetic for local files)
+  let grade: GradeRow | null = null;
+
+  const { data: gradeExact } = await supabase
     .from("grades")
     .select("id, slug, name, description")
     .eq("slug", slug)
-    .maybeSingle();
+    .maybeSingle<GradeRow>();
 
-  if (!grade) {
+  if (gradeExact) {
+    grade = gradeExact;
+  } else {
     const { data: found } = await supabase
       .from("grades")
       .select("id, slug, name, description")
       .ilike("slug", slug)
-      .maybeSingle();
-    grade = found || null;
+      .maybeSingle<GradeRow>();
+    grade = found ?? null;
   }
 
+  // If not in DB, synthesize a title for local content view
   if (!grade) {
-    const { data: allGrades } = await supabase
-      .from("grades")
-      .select("id, slug, name")
-      .order("slug", { ascending: true });
-    return (
-      <main className="mx-auto max-w-5xl p-6">
-        <h1 className="text-3xl font-bold mb-4">Grade not found</h1>
-        <p className="mb-4 text-gray-600">
-          We couldn’t find <code className="rounded bg-gray-100 px-1 py-0.5">{params.grade}</code>.
-          Try one of these:
-        </p>
-        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
-          {(allGrades ?? []).map((g) => (
-            <li key={g.id} className="rounded-xl border p-3">
-              <Link className="underline" href={`/courses/${g.slug}`}>{g.name}</Link>
-            </li>
-          ))}
-        </ul>
-      </main>
-    );
+    grade = {
+      id: "local-" + slug,
+      slug,
+      name:
+        slug === "k"
+          ? "Kindergarten"
+          : /^\d+$/.test(slug)
+          ? `Grade ${slug}`
+          : slug.toUpperCase(),
+      description: null,
+    };
   }
 
-  const { data: lessons, error } = await supabase
-    .from("lessons")
-    .select(
-      "id, title, slug, order_index, unit_id, units!inner(id, title, order_index, grade_id)"
-    )
-    .eq("units.grade_id", grade.id);
-
-  if (error) {
-    return (
-      <main className="mx-auto max-w-5xl p-6">
-        <h1 className="text-3xl font-bold mb-2">{grade.name}</h1>
-        <p className="text-red-600">Failed to load chapters: {error.message}</p>
-      </main>
-    );
+  // 2) Try DB lessons first (if this grade exists in DB)
+  let lessons: LessonWithUnit[] = [];
+  if (!grade.id.startsWith("local-")) {
+    const { data } = await supabase
+      .from("lessons")
+      .select(
+        "id, title, slug, order_index, unit_id, units!inner(id, title, order_index, grade_id)"
+      )
+      .eq("units.grade_id", grade.id)
+      .returns<LessonWithUnit[]>();
+    lessons = data ?? [];
   }
 
-  const sorted = (lessons ?? []).sort((a: any, b: any) => {
-    const ua = a.units?.order_index ?? 0;
-    const ub = b.units?.order_index ?? 0;
-    if (ua !== ub) return ua - ub;
-    const la = a.order_index ?? 0;
-    const lb = b.order_index ?? 0;
-    if (la !== lb) return la - lb;
-    return (a.title || "").localeCompare(b.title || "");
-  });
+  // 3) If no DB lessons, fall back to local files
+  const useLocal = lessons.length === 0;
+  let localLessons: { title: string; slug: string; href: string }[] = [];
+  if (useLocal) {
+    localLessons = await readLocalLessons(grade.slug);
+  }
 
   const clientFilterScript = `
     (function(){
@@ -116,14 +168,16 @@ export default async function GradeTOC({ params }: { params: { grade: string } }
 
   return (
     <main className="mx-auto max-w-5xl p-6">
-      <h1 className="text-3xl font-bold mb-2">{grade.name}</h1>
-      {grade.description && <p className="text-gray-600 mb-6">{grade.description}</p>}
+      <h1 className="mb-2 text-3xl font-bold">{grade.name}</h1>
+      {grade.description && (
+        <p className="mb-6 text-gray-600">{grade.description}</p>
+      )}
 
       <div className="mb-4">
         <input
           id="grade-filter"
           type="text"
-          placeholder="Filter chapters (fractions, area, time, slope, decimals)"
+          placeholder="Filter chapters (fractions, area, integers, decimals)"
           className="w-full rounded-xl border p-3"
         />
       </div>
@@ -132,30 +186,66 @@ export default async function GradeTOC({ params }: { params: { grade: string } }
         <div className="mb-3 flex items-center justify-between">
           <h2 className="text-2xl font-semibold">All Chapters</h2>
           <span className="text-sm text-gray-500">
-            <span id="visible-count">{sorted.length}</span> chapters
+            <span id="visible-count">
+              {useLocal ? localLessons.length : lessons.length}
+            </span>{" "}
+            chapters
           </span>
         </div>
 
-        <ol className="ml-6 list-decimal space-y-1">
-          {sorted.map((l: any) => {
-            const ls = l.slug && l.slug.trim() ? l.slug : slugify(l.title || "");
-            const href = `/courses/${grade.slug}/${l.unit_id}/${encodeURIComponent(ls)}`;
-            return (
+        {/* DB-backed lessons */}
+        {!useLocal && (
+          <ol className="ml-6 list-decimal space-y-1">
+            {[...lessons]
+              .sort((a, b) => {
+                const ua = a.units?.order_index ?? 0;
+                const ub = b.units?.order_index ?? 0;
+                if (ua !== ub) return ua - ub;
+                const la = a.order_index ?? 0;
+                const lb = b.order_index ?? 0;
+                if (la !== lb) return la - lb;
+                return (a.title ?? "").localeCompare(b.title ?? "");
+              })
+              .map((l) => {
+                const ls = l.slug && l.slug.trim() ? l.slug : slugify(l.title ?? "");
+                const href = `/courses/${grade!.slug}/${l.unit_id}/${encodeURIComponent(ls)}`;
+                return (
+                  <li
+                    key={l.id}
+                    data-lesson-item
+                    data-text={`${l.title ?? ""} ${l.units?.title ?? ""}`}
+                  >
+                    <Link className="underline" href={href}>
+                      {l.title}
+                    </Link>
+                    {l.units?.title && (
+                      <span className="text-xs text-gray-500">
+                        {" "}
+                        — {l.units.title}
+                      </span>
+                    )}
+                  </li>
+                );
+              })}
+          </ol>
+        )}
+
+        {/* File-backed lessons */}
+        {useLocal && (
+          <ol className="ml-6 list-decimal space-y-1">
+            {localLessons.map((l) => (
               <li
-                key={l.id}
+                key={l.slug}
                 data-lesson-item
-                data-text={`${l.title ?? ""} ${l.units?.title ?? ""}`}
+                data-text={l.title}
               >
-                <Link className="underline" href={href}>
+                <Link className="underline" href={l.href}>
                   {l.title}
                 </Link>
-                {l.units?.title && (
-                  <span className="text-xs text-gray-500"> — {l.units.title}</span>
-                )}
               </li>
-            );
-          })}
-        </ol>
+            ))}
+          </ol>
+        )}
       </div>
 
       <script dangerouslySetInnerHTML={{ __html: clientFilterScript }} />

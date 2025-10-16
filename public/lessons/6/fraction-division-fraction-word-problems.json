@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "2e9b7011-1096-4edc-bf5e-4802dff93f7f",
+    "slug": "fraction-division-fraction-word-problems",
+    "title": "Fraction Division (÷ Fraction) & Word Problems",
+    "summary": "Fraction Division (÷ Fraction) & Word Problems — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to divide fractions and solve related word problems.\n- Develop strategies to explain fraction division using everyday objects.\n- **Why this matters for parents:** Helps build your child's confidence in math by connecting abstract concepts to real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Fraction division can seem tricky, but it's about understanding how many times one fraction fits into another. This lesson will guide you through dividing fractions and solving word problems using simple, relatable examples.\nUnderstanding fraction division is crucial because it lays the foundation for more advanced math concepts. It also helps children develop problem-solving skills by applying math to real-life scenarios.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When we divide fractions, we are essentially asking how many times the divisor (the second fraction) fits into the dividend (the first fraction). This can be visualized with objects like pieces of fruit or sections of a chocolate bar.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use a chocolate bar to understand dividing fractions. Imagine you have a chocolate bar divided into 8 equal pieces.\n2. **Ask:** If you want to share 3 pieces equally among friends, how many friends can get a piece?\n3. **Say:** This is like dividing 3/8 by 1/8.\n4. **Show:** Arrange 3 pieces of chocolate and see how many 1-piece sections fit into it.\n5. **Say:** You can fit 3 sections of 1/8 into 3/8, so 3/8 ÷ 1/8 = 3.\n6. **Ask:** How does this help us understand dividing fractions?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To divide fractions, multiply the first fraction by the reciprocal of the second. For example, to divide $$\\frac{3}{4}$$ by $$\\frac{1}{2}$$, multiply $$\\frac{3}{4}$$ by $$\\frac{2}{1}$$:\n$$\\frac{3}{4} \\times \\frac{2}{1} = \\frac{6}{4} = \\frac{3}{2}$$.\nThis means $$\\frac{3}{4}$$ divided by $$\\frac{1}{2}$$ equals $$\\frac{3}{2}$$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$$\n  - \\(\\frac{a}{b}\\): first fraction (dividend)\n  - \\(\\frac{c}{d}\\): second fraction (divisor)\n  - \\(\\frac{d}{c}\\): reciprocal of the divisor",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What does it mean to divide fractions? Discuss with your child using simple terms.\n2. **Say:** Let's practice with some objects. Use fruit slices or similar items.\n3. **Guide:** Show how dividing by a fraction is like multiplying by its reciprocal.\n4. **Practice:** Solve a simple problem together, like dividing $$\\frac{1}{2}$$ by $$\\frac{1}{4}$$.\n5. **Reflect:** Ask your child to explain the process back to you.\n6. **Encourage:** Praise their effort and understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication and division of fractions. **Try:** Remind them to multiply by the reciprocal.\n- Forgetting to simplify the answer. **Try:** Encourage checking if the fraction can be reduced.\n- Misunderstanding the reciprocal. **Try:** Use visual aids to show flipping the fraction.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking is a great way to connect fraction division to real life. For example, if a recipe calls for $$\\frac{3}{4}$$ cup of sugar and you want to make half, you divide $$\\frac{3}{4}$$ by 2.\nSharing food equally among friends or family also involves dividing fractions, like cutting a pizza into smaller slices.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring fraction division! With practice, these concepts will become second nature. Keep encouraging your child's curiosity and confidence in math.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to divide fractions and solve related word problems.\n- Develop strategies to explain fraction division using everyday objects.\n- **Why this matters for parents:** Helps build your child's confidence in math by connecting abstract concepts to real-world situations.",
+    "overview": "Fraction division can seem tricky, but it's about understanding how many times one fraction fits into another. This lesson will guide you through dividing fractions and solving word problems using simple, relatable examples.\nUnderstanding fraction division is crucial because it lays the foundation for more advanced math concepts. It also helps children develop problem-solving skills by applying math to real-life scenarios.",
+    "core": "When we divide fractions, we are essentially asking how many times the divisor (the second fraction) fits into the dividend (the first fraction). This can be visualized with objects like pieces of fruit or sections of a chocolate bar.",
+    "demo": "1. **Say:** Let's use a chocolate bar to understand dividing fractions. Imagine you have a chocolate bar divided into 8 equal pieces.\n2. **Ask:** If you want to share 3 pieces equally among friends, how many friends can get a piece?\n3. **Say:** This is like dividing 3/8 by 1/8.\n4. **Show:** Arrange 3 pieces of chocolate and see how many 1-piece sections fit into it.\n5. **Say:** You can fit 3 sections of 1/8 into 3/8, so 3/8 ÷ 1/8 = 3.\n6. **Ask:** How does this help us understand dividing fractions?",
+    "math": "To divide fractions, multiply the first fraction by the reciprocal of the second. For example, to divide $$\\frac{3}{4}$$ by $$\\frac{1}{2}$$, multiply $$\\frac{3}{4}$$ by $$\\frac{2}{1}$$:\n$$\\frac{3}{4} \\times \\frac{2}{1} = \\frac{6}{4} = \\frac{3}{2}$$.\nThis means $$\\frac{3}{4}$$ divided by $$\\frac{1}{2}$$ equals $$\\frac{3}{2}$$.",
+    "formulas": "- $$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$$\n  - \\(\\frac{a}{b}\\): first fraction (dividend)\n  - \\(\\frac{c}{d}\\): second fraction (divisor)\n  - \\(\\frac{d}{c}\\): reciprocal of the divisor",
+    "guide": "1. **Ask:** What does it mean to divide fractions? Discuss with your child using simple terms.\n2. **Say:** Let's practice with some objects. Use fruit slices or similar items.\n3. **Guide:** Show how dividing by a fraction is like multiplying by its reciprocal.\n4. **Practice:** Solve a simple problem together, like dividing $$\\frac{1}{2}$$ by $$\\frac{1}{4}$$.\n5. **Reflect:** Ask your child to explain the process back to you.\n6. **Encourage:** Praise their effort and understanding.",
+    "mistakes": "- Confusing multiplication and division of fractions. **Try:** Remind them to multiply by the reciprocal.\n- Forgetting to simplify the answer. **Try:** Encourage checking if the fraction can be reduced.\n- Misunderstanding the reciprocal. **Try:** Use visual aids to show flipping the fraction.",
+    "connection": "Cooking is a great way to connect fraction division to real life. For example, if a recipe calls for $$\\frac{3}{4}$$ cup of sugar and you want to make half, you divide $$\\frac{3}{4}$$ by 2.\nSharing food equally among friends or family also involves dividing fractions, like cutting a pizza into smaller slices.",
+    "close": "Great job exploring fraction division! With practice, these concepts will become second nature. Keep encouraging your child's curiosity and confidence in math."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Divide $$\\frac{5}{6}$$ by $$\\frac{1}{3}$$.",
+      "hint_md": "Multiply $$\\frac{5}{6}$$ by the reciprocal of $$\\frac{1}{3}$$.",
+      "answer_md": "$$\\frac{5}{6} \\times \\frac{3}{1} = \\frac{15}{6} = \\frac{5}{2}$$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have $$\\frac{2}{5}$$ of a pizza and want to divide it into $$\\frac{1}{5}$$ slices, how many slices do you get?",
+      "hint_md": "Think about how many $$\\frac{1}{5}$$ slices fit into $$\\frac{2}{5}$$.",
+      "answer_md": "You get 2 slices because $$\\frac{2}{5} \\div \\frac{1}{5} = 2$$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Solve: $$\\frac{7}{8} \\div \\frac{1}{4}$$.",
+      "hint_md": "Use the reciprocal of $$\\frac{1}{4}$$.",
+      "answer_md": "$$\\frac{7}{8} \\times \\frac{4}{1} = \\frac{28}{8} = \\frac{7}{2}$$."
+    }
+  ]
+}

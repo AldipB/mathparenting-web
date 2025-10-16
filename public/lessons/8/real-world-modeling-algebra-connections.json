@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "8f2e0634-21d7-4351-9d4f-0b2222c08583",
+    "title": "Measurement, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "321721ff-7e01-43a1-9c66-16e4fab47bb6",
+    "slug": "real-world-modeling-algebra-connections",
+    "title": "Real-World Modeling & Algebra Connections",
+    "summary": "Real-World Modeling & Algebra Connections — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how algebra can model real-world situations.\n- Connect equations to everyday problems.\n- **Why this matters for parents:** This helps your child see the value of math in daily life and improves problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores how algebra is used to model real-world situations, like budgeting or planning a trip. By connecting math to everyday life, your child will see its practical value.\nUnderstanding these connections helps your child become a better problem solver and prepares them for more advanced math and real-life decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Algebra isn't just about solving equations on paper; it's a tool for solving real-world problems. By modeling situations with algebra, we can make predictions, plan, and make informed decisions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's imagine we're planning a small party and need to buy snacks.\n2. **Ask:** How much do you think it will cost if each snack pack costs $3?\n3. Use coins or small objects to represent snack packs.\n4. **Say:** If we buy $x$ snack packs, the total cost is $3x$ dollars.\n5. **Ask:** If we have $15, how many snack packs can we buy?\n6. Solve together: $3x = 15$, so $x = 5$. We can buy 5 snack packs.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In algebra, we use variables to represent unknowns. For example, if each snack pack costs $3 and we want to buy $x$ packs, the total cost is $3x$. If we know the total cost is $15, we solve $3x = 15$ to find $x = 5$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "3x = 15\n* $x$ is the number of snack packs\n* 3 is the cost per snack pack\n* 15 is the total cost",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What other situations can we model with algebra?\n2. Discuss examples like saving money or planning a trip.\n3. **Say:** Let's write an equation for one of these situations.\n4. Help your child set up an equation using a variable.\n5. Solve the equation together.\n6. **Ask:** How does this help us make decisions?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the variable with the total cost. Try: Clarify what each symbol represents.\n- Forgetting to divide both sides of the equation. Try: Remind them to perform the same operation on both sides.\n- Mixing up units (e.g., dollars and items). Try: Keep track of what each number represents.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Algebra helps in budgeting for groceries or planning a family trip. By setting up equations, we can decide how much to spend or save.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "By connecting algebra to real life, your child gains valuable skills for everyday decision-making. Keep exploring and discovering the math around you!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how algebra can model real-world situations.\n- Connect equations to everyday problems.\n- **Why this matters for parents:** This helps your child see the value of math in daily life and improves problem-solving skills.",
+    "overview": "This lesson explores how algebra is used to model real-world situations, like budgeting or planning a trip. By connecting math to everyday life, your child will see its practical value.\nUnderstanding these connections helps your child become a better problem solver and prepares them for more advanced math and real-life decision-making.",
+    "core": "Algebra isn't just about solving equations on paper; it's a tool for solving real-world problems. By modeling situations with algebra, we can make predictions, plan, and make informed decisions.",
+    "demo": "1. **Say:** Let's imagine we're planning a small party and need to buy snacks.\n2. **Ask:** How much do you think it will cost if each snack pack costs $3?\n3. Use coins or small objects to represent snack packs.\n4. **Say:** If we buy $x$ snack packs, the total cost is $3x$ dollars.\n5. **Ask:** If we have $15, how many snack packs can we buy?\n6. Solve together: $3x = 15$, so $x = 5$. We can buy 5 snack packs.",
+    "math": "In algebra, we use variables to represent unknowns. For example, if each snack pack costs $3 and we want to buy $x$ packs, the total cost is $3x$. If we know the total cost is $15, we solve $3x = 15$ to find $x = 5$.",
+    "formulas": "3x = 15\n* $x$ is the number of snack packs\n* 3 is the cost per snack pack\n* 15 is the total cost",
+    "guide": "1. **Ask:** What other situations can we model with algebra?\n2. Discuss examples like saving money or planning a trip.\n3. **Say:** Let's write an equation for one of these situations.\n4. Help your child set up an equation using a variable.\n5. Solve the equation together.\n6. **Ask:** How does this help us make decisions?",
+    "mistakes": "- Confusing the variable with the total cost. Try: Clarify what each symbol represents.\n- Forgetting to divide both sides of the equation. Try: Remind them to perform the same operation on both sides.\n- Mixing up units (e.g., dollars and items). Try: Keep track of what each number represents.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Algebra helps in budgeting for groceries or planning a family trip. By setting up equations, we can decide how much to spend or save.",
+    "close": "By connecting algebra to real life, your child gains valuable skills for everyday decision-making. Keep exploring and discovering the math around you!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Real-World Modeling & Algebra Connections**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Real-World Modeling & Algebra Connections** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Real-World Modeling & Algebra Connections**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

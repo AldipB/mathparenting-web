@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "83d84ec9-0c65-4a83-97d0-7e17c5c0df21",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "bff9bdd0-bc40-4e1b-9767-e8f96a9efd32",
+    "slug": "exponential-logarithmic-functions-bff9bdd0-bc40-4e1b-9767-e8f96a9efd32",
+    "title": "Exponential & Logarithmic Functions",
+    "summary": "Exponential & Logarithmic Functions — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of exponential and logarithmic functions.\n- Learn how to convert between exponential and logarithmic forms.\n- Apply these concepts to solve real-world problems.\n- **Why this matters for parents:** Understanding these functions helps in fields like finance, science, and technology.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Exponential functions involve numbers raised to a power, like $2^x$. Logarithmic functions are the inverse, helping us find the power to which a number must be raised to get another number.\nThese concepts are crucial in many real-life applications, such as calculating interest rates or understanding scientific growth patterns. By grasping these ideas, you can support your child in their academic journey and everyday problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Exponential functions grow rapidly, while logarithmic functions grow slowly. They are two sides of the same coin, helping us understand growth and decay. Think of exponential growth like a snowball rolling down a hill, getting bigger quickly. Logarithms help us figure out how many times we need to multiply a number to reach a certain size.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny and double it each day for a week.\n- 2. **Ask:** How many pennies will we have after 7 days?\n- 3. **Say:** On day 1, we have $2^0 = 1$ penny. On day 2, $2^1 = 2$ pennies, and so on.\n- 4. **Ask:** What pattern do you notice in the number of pennies?\n- 5. **Say:** Now, let's find the day when we reach 64 pennies. This is where logarithms help us.\n- 6. **Use:** A calculator to find $\\log_2(64) = 6$. So, on day 6, we reach 64 pennies.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Exponential functions are written as $f(x) = a \\, b^x$, where $a$ is the starting value and $b$ is the base. For example, $f(x) = 2^x$ doubles each time $x$ increases by 1.\nLogarithmic functions are the inverse, written as $g(x) = \\log_b(x)$, where $b$ is the base. For example, $\\log_2(8) = 3$ because $2^3 = 8$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$f(x) = a \\, b^x$$\n- $a$: initial value\n  - $b$: base of the exponential function\n$$g(x) = \\log_b(x)$$\n- $b$: base of the logarithm\n  - $x$: the number you are taking the log of",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** Let's start with an exponential function: $2^x$.\n- 2. **Ask:** What happens when $x = 0, 1, 2$? Calculate $2^0, 2^1, 2^2$.\n- 3. **Say:** Now, let's switch to logarithms. What is $\\log_2(8)$?\n- 4. **Use:** A calculator to verify $\\log_2(8) = 3$.\n- 5. **Ask:** How do these functions relate? Discuss how one undoes the other.\n- 6. **Say:** Practice converting between forms using simple numbers.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the base in logarithms. **Try:** Always check the base first.\n- Forgetting that $\\log_b(b) = 1$. **Try:** Remember, any number to the power of 1 is itself.\n- Mixing up exponential and linear growth. **Try:** Exponential growth multiplies, linear adds.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Exponential functions model population growth and compound interest, while logarithms help in measuring sound intensity (decibels) and earthquake magnitudes (Richter scale).",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these functions opens doors to many exciting fields. Keep exploring, and you'll see their power in action!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of exponential and logarithmic functions.\n- Learn how to convert between exponential and logarithmic forms.\n- Apply these concepts to solve real-world problems.\n- **Why this matters for parents:** Understanding these functions helps in fields like finance, science, and technology.",
+    "overview": "Exponential functions involve numbers raised to a power, like $2^x$. Logarithmic functions are the inverse, helping us find the power to which a number must be raised to get another number.\nThese concepts are crucial in many real-life applications, such as calculating interest rates or understanding scientific growth patterns. By grasping these ideas, you can support your child in their academic journey and everyday problem-solving.",
+    "core": "Exponential functions grow rapidly, while logarithmic functions grow slowly. They are two sides of the same coin, helping us understand growth and decay. Think of exponential growth like a snowball rolling down a hill, getting bigger quickly. Logarithms help us figure out how many times we need to multiply a number to reach a certain size.",
+    "demo": "- 1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny and double it each day for a week.\n- 2. **Ask:** How many pennies will we have after 7 days?\n- 3. **Say:** On day 1, we have $2^0 = 1$ penny. On day 2, $2^1 = 2$ pennies, and so on.\n- 4. **Ask:** What pattern do you notice in the number of pennies?\n- 5. **Say:** Now, let's find the day when we reach 64 pennies. This is where logarithms help us.\n- 6. **Use:** A calculator to find $\\log_2(64) = 6$. So, on day 6, we reach 64 pennies.",
+    "math": "Exponential functions are written as $f(x) = a \\, b^x$, where $a$ is the starting value and $b$ is the base. For example, $f(x) = 2^x$ doubles each time $x$ increases by 1.\nLogarithmic functions are the inverse, written as $g(x) = \\log_b(x)$, where $b$ is the base. For example, $\\log_2(8) = 3$ because $2^3 = 8$.",
+    "formulas": "$$f(x) = a \\, b^x$$\n- $a$: initial value\n  - $b$: base of the exponential function\n$$g(x) = \\log_b(x)$$\n- $b$: base of the logarithm\n  - $x$: the number you are taking the log of",
+    "guide": "- 1. **Say:** Let's start with an exponential function: $2^x$.\n- 2. **Ask:** What happens when $x = 0, 1, 2$? Calculate $2^0, 2^1, 2^2$.\n- 3. **Say:** Now, let's switch to logarithms. What is $\\log_2(8)$?\n- 4. **Use:** A calculator to verify $\\log_2(8) = 3$.\n- 5. **Ask:** How do these functions relate? Discuss how one undoes the other.\n- 6. **Say:** Practice converting between forms using simple numbers.",
+    "mistakes": "- Confusing the base in logarithms. **Try:** Always check the base first.\n- Forgetting that $\\log_b(b) = 1$. **Try:** Remember, any number to the power of 1 is itself.\n- Mixing up exponential and linear growth. **Try:** Exponential growth multiplies, linear adds.",
+    "connection": "Exponential functions model population growth and compound interest, while logarithms help in measuring sound intensity (decibels) and earthquake magnitudes (Richter scale).",
+    "close": "Understanding these functions opens doors to many exciting fields. Keep exploring, and you'll see their power in action!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is $2^3$?",
+      "hint_md": "Multiply 2 by itself 3 times.",
+      "answer_md": "8"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Solve for $x$: $\\log_2(16) = x$.",
+      "hint_md": "What power of 2 gives you 16?",
+      "answer_md": "4"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Convert $3^x = 27$ to logarithmic form.",
+      "hint_md": "Use the definition of logarithms.",
+      "answer_md": "$x = \\log_3(27)$"
+    }
+  ]
+}

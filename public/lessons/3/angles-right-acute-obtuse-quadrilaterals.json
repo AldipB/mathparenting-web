@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "123c9a68-5849-4492-8405-d18460ed6dd9",
+    "slug": "angles-right-acute-obtuse-quadrilaterals",
+    "title": "Angles (Right, Acute, Obtuse); Quadrilaterals",
+    "summary": "Angles (Right, Acute, Obtuse); Quadrilaterals — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand right, acute, and obtuse angles.\n- Identify different types of quadrilaterals.\n- **Why this matters for parents:** Helping your child recognize angles and shapes builds spatial awareness and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces angles—right, acute, and obtuse—and explores quadrilaterals like squares and rectangles. Angles are a measure of turn between two lines, and quadrilaterals are four-sided shapes.\nUnderstanding angles and shapes helps children see patterns and structures in the world. It's foundational for geometry, which is used in design, construction, and even art.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Angles are formed where two lines meet. A right angle looks like the corner of a book, an acute angle is smaller, and an obtuse angle is larger. Quadrilaterals are shapes with four sides, like squares and rectangles.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find a right angle in the house.\"\n   - Use a book's corner.\n2. **Ask:** \"Is this angle smaller or larger than a right angle?\"\n   - Compare with a slice of pizza (acute angle).\n3. **Say:** \"Let's find an obtuse angle.\"\n   - Use a door slightly open.\n4. **Say:** \"Now, let's look at shapes with four sides.\"\n   - Use a cereal box (rectangle).\n5. **Ask:** \"What other four-sided shapes can we find?\"\n   - Look for a square napkin.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A right angle measures $90^\\circ$. An acute angle is less than $90^\\circ$, and an obtuse angle is more than $90^\\circ$ but less than $180^\\circ$. For example, a $45^\\circ$ angle is acute, and a $120^\\circ$ angle is obtuse. Quadrilaterals include squares (all sides equal) and rectangles (opposite sides equal).",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a right angle in the room. **Ask:** \"What makes this angle special?\"\n2. Compare it with an acute angle. **Say:** \"See how this angle is smaller?\"\n3. Find an obtuse angle. **Ask:** \"How is this angle different?\"\n4. Identify quadrilaterals around the house. **Say:** \"Let's count the sides.\"\n5. Discuss differences between squares and rectangles. **Ask:** \"What do you notice about the sides?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing acute and obtuse angles.\n  Try: Compare each to a right angle.\n- Thinking all quadrilaterals are squares.\n  Try: Look at different side lengths.\n- Forgetting that a right angle is exactly $90^\\circ$.\n  Try: Use a corner of paper as a guide.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Angles and quadrilaterals are everywhere—road signs, picture frames, and even in the way we fold clothes. Recognizing these shapes helps children understand their environment.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring angles and shapes opens a world of patterns and designs. Keep discovering them together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand right, acute, and obtuse angles.\n- Identify different types of quadrilaterals.\n- **Why this matters for parents:** Helping your child recognize angles and shapes builds spatial awareness and problem-solving skills.",
+    "overview": "This lesson introduces angles—right, acute, and obtuse—and explores quadrilaterals like squares and rectangles. Angles are a measure of turn between two lines, and quadrilaterals are four-sided shapes.\nUnderstanding angles and shapes helps children see patterns and structures in the world. It's foundational for geometry, which is used in design, construction, and even art.",
+    "core": "Angles are formed where two lines meet. A right angle looks like the corner of a book, an acute angle is smaller, and an obtuse angle is larger. Quadrilaterals are shapes with four sides, like squares and rectangles.",
+    "demo": "1. **Say:** \"Let's find a right angle in the house.\"\n   - Use a book's corner.\n2. **Ask:** \"Is this angle smaller or larger than a right angle?\"\n   - Compare with a slice of pizza (acute angle).\n3. **Say:** \"Let's find an obtuse angle.\"\n   - Use a door slightly open.\n4. **Say:** \"Now, let's look at shapes with four sides.\"\n   - Use a cereal box (rectangle).\n5. **Ask:** \"What other four-sided shapes can we find?\"\n   - Look for a square napkin.",
+    "math": "A right angle measures $90^\\circ$. An acute angle is less than $90^\\circ$, and an obtuse angle is more than $90^\\circ$ but less than $180^\\circ$. For example, a $45^\\circ$ angle is acute, and a $120^\\circ$ angle is obtuse. Quadrilaterals include squares (all sides equal) and rectangles (opposite sides equal).",
+    "guide": "1. Find a right angle in the room. **Ask:** \"What makes this angle special?\"\n2. Compare it with an acute angle. **Say:** \"See how this angle is smaller?\"\n3. Find an obtuse angle. **Ask:** \"How is this angle different?\"\n4. Identify quadrilaterals around the house. **Say:** \"Let's count the sides.\"\n5. Discuss differences between squares and rectangles. **Ask:** \"What do you notice about the sides?\"",
+    "mistakes": "- Confusing acute and obtuse angles.\n  Try: Compare each to a right angle.\n- Thinking all quadrilaterals are squares.\n  Try: Look at different side lengths.\n- Forgetting that a right angle is exactly $90^\\circ$.\n  Try: Use a corner of paper as a guide.",
+    "connection": "Angles and quadrilaterals are everywhere—road signs, picture frames, and even in the way we fold clothes. Recognizing these shapes helps children understand their environment.",
+    "close": "Exploring angles and shapes opens a world of patterns and designs. Keep discovering them together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Identify the type of angle: $75^\\circ$.",
+      "hint_md": "Is it less than $90^\\circ$?",
+      "answer_md": "Acute angle"
+    },
+    {
+      "order_index": 2,
+      "question_md": "How many sides does a quadrilateral have?",
+      "hint_md": "Think of a square or rectangle.",
+      "answer_md": "Four sides"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If one angle of a quadrilateral is $90^\\circ$, what type is it?",
+      "hint_md": "It's like the corner of a book.",
+      "answer_md": "Right angle"
+    }
+  ]
+}

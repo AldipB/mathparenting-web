@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "e8c9fde8-1120-4b66-9ab3-8fa3268b1524",
+    "title": "Sequences, Series & Systems",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "0d76cb07-6cca-4072-9e3c-4decd5b3ecb7",
+    "slug": "systems-of-non-linear-equations",
+    "title": "Systems of Non-Linear Equations",
+    "summary": "Systems of Non-Linear Equations — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand systems of non-linear equations.\n- Learn to solve these systems using substitution or elimination.\n- **Why this matters for parents:** Helping your child with these concepts strengthens their problem-solving skills, which are crucial for real-life decision-making.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "A system of non-linear equations involves equations that are not straight lines, such as circles or parabolas. These systems can have multiple solutions or none at all.\nUnderstanding these systems is important because they appear in various real-world contexts, like physics and engineering. Solving them helps develop critical thinking and analytical skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In a system of non-linear equations, at least one equation is not a straight line. This means we might deal with curves like circles or parabolas. Solving these systems involves finding points where the graphs intersect.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's imagine we have a circle and a line on a piece of paper. **Use:** A round plate (circle) and a ruler (line).\n2. **Ask:** Where do they intersect? **Use:** A pencil to mark the intersection points.\n3. **Say:** These points are the solutions to our system.\n4. **Ask:** What if the line doesn't touch the circle? **Use:** Move the ruler away from the plate.\n5. **Say:** Sometimes, there are no solutions if they don't intersect.\n6. **Ask:** Can you think of a real-life example where this might happen?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Consider the system:\n1. $x^2 + y^2 = 25$ (a circle)\n2. $y = x + 1$ (a line)\nTo find where they intersect, substitute $y = x + 1$ into the circle's equation:\n$$x^2 + (x + 1)^2 = 25$$\nSimplify and solve for $x$ to find the points of intersection.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "x^2 + y^2 = r^2\n- $x, y$: coordinates of a point on the circle\n  - $r$: radius of the circle\ny = mx + b\n- $m$: slope of the line\n  - $b$: y-intercept",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's solve the system step-by-step.\n2. **Ask:** What happens when we substitute the line equation into the circle equation?\n3. **Say:** Simplify the equation to find $x$.\n4. **Ask:** Once we have $x$, how do we find $y$?\n5. **Say:** Check if these points satisfy both equations.\n6. **Ask:** How many solutions did we find? What does that mean?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to substitute correctly. **Try:** Double-check each substitution step.\n- Not simplifying the equation fully. **Try:** Break it down into smaller parts.\n- Missing solutions. **Try:** Consider all possible solutions, including negative values.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "These systems can model real-world situations, like finding where a satellite's path intersects with a radar's range. Understanding these concepts can help in fields like engineering and physics.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring systems of non-linear equations can be challenging but rewarding. With practice, you'll help your child unlock new ways to solve complex problems!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand systems of non-linear equations.\n- Learn to solve these systems using substitution or elimination.\n- **Why this matters for parents:** Helping your child with these concepts strengthens their problem-solving skills, which are crucial for real-life decision-making.",
+    "overview": "A system of non-linear equations involves equations that are not straight lines, such as circles or parabolas. These systems can have multiple solutions or none at all.\nUnderstanding these systems is important because they appear in various real-world contexts, like physics and engineering. Solving them helps develop critical thinking and analytical skills.",
+    "core": "In a system of non-linear equations, at least one equation is not a straight line. This means we might deal with curves like circles or parabolas. Solving these systems involves finding points where the graphs intersect.",
+    "demo": "1. **Say:** Let's imagine we have a circle and a line on a piece of paper. **Use:** A round plate (circle) and a ruler (line).\n2. **Ask:** Where do they intersect? **Use:** A pencil to mark the intersection points.\n3. **Say:** These points are the solutions to our system.\n4. **Ask:** What if the line doesn't touch the circle? **Use:** Move the ruler away from the plate.\n5. **Say:** Sometimes, there are no solutions if they don't intersect.\n6. **Ask:** Can you think of a real-life example where this might happen?",
+    "math": "Consider the system:\n1. $x^2 + y^2 = 25$ (a circle)\n2. $y = x + 1$ (a line)\nTo find where they intersect, substitute $y = x + 1$ into the circle's equation:\n$$x^2 + (x + 1)^2 = 25$$\nSimplify and solve for $x$ to find the points of intersection.",
+    "formulas": "x^2 + y^2 = r^2\n- $x, y$: coordinates of a point on the circle\n  - $r$: radius of the circle\ny = mx + b\n- $m$: slope of the line\n  - $b$: y-intercept",
+    "guide": "1. **Say:** Let's solve the system step-by-step.\n2. **Ask:** What happens when we substitute the line equation into the circle equation?\n3. **Say:** Simplify the equation to find $x$.\n4. **Ask:** Once we have $x$, how do we find $y$?\n5. **Say:** Check if these points satisfy both equations.\n6. **Ask:** How many solutions did we find? What does that mean?",
+    "mistakes": "- Forgetting to substitute correctly. **Try:** Double-check each substitution step.\n- Not simplifying the equation fully. **Try:** Break it down into smaller parts.\n- Missing solutions. **Try:** Consider all possible solutions, including negative values.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "These systems can model real-world situations, like finding where a satellite's path intersects with a radar's range. Understanding these concepts can help in fields like engineering and physics.",
+    "close": "Exploring systems of non-linear equations can be challenging but rewarding. With practice, you'll help your child unlock new ways to solve complex problems!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Systems of Non-Linear Equations**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Systems of Non-Linear Equations** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Systems of Non-Linear Equations**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

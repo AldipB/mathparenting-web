@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "e712e16d-e6a9-40d3-b73d-555aeda2ed24",
+    "slug": "symmetry-transformations",
+    "title": "Symmetry & Transformations",
+    "summary": "Symmetry & Transformations — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 13
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of symmetry and transformations.\n- Identify lines of symmetry in everyday objects.\n- Recognize transformations: translation, rotation, and reflection.\n**Why this matters for parents:** Understanding symmetry and transformations helps children see patterns and balance in the world, enhancing spatial reasoning and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Symmetry is when one half of an object is a mirror image of the other half. Transformations involve moving or changing a shape while keeping its size and form. These concepts help children understand geometry and spatial relationships.\nLearning about symmetry and transformations is important because it builds a foundation for more complex math concepts. It also helps children appreciate the beauty and structure in nature and art.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Symmetry and transformations are all around us. A butterfly's wings are symmetrical, and when you flip a pancake, you're performing a transformation. By exploring these ideas, children learn to recognize patterns and predict outcomes.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Find Symmetry:** Take a piece of paper and fold it in half. **Ask:** Does each side match? This is symmetry.\n2. **Use a Mirror:** Place a small mirror on a book cover. **Say:** Look, the mirror shows symmetry by reflecting the other half.\n3. **Translate with a Toy Car:** Move a toy car straight across the table. **Say:** This is translation—moving without turning.\n4. **Rotate a Plate:** Spin a plate on the table. **Ask:** What happens when it turns? This is rotation.\n5. **Reflect with a Spoon:** Hold a spoon and look at your reflection. **Say:** This is reflection, like a mirror image.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Symmetry means one side is a mirror image of the other. For example, the letter 'A' has a vertical line of symmetry. Transformations include:\n- **Translation:** Moving a shape without rotating or flipping it.\n- **Rotation:** Turning a shape around a point.\n- **Reflection:** Flipping a shape over a line.\nExample: If a square is translated 3 units right, its position changes, but its shape and size remain the same.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explore Symmetry:** Walk around the house and find objects with symmetry, like a vase or a butterfly picture. **Ask:** How many lines of symmetry do you see?\n2. **Create Patterns:** Use blocks or Lego to make symmetrical patterns. **Say:** Let's make each side match.\n3. **Draw and Fold:** Draw a shape on paper, cut it out, and fold it to find symmetry. **Ask:** Does it match?\n4. **Transform Objects:** Use a toy to show translation, rotation, and reflection. **Say:** Let's see how it moves and changes.\n5. **Discuss Daily Life:** Talk about how symmetry and transformations appear in nature and art. **Ask:** Where else do you see these?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing rotation with reflection. **Try:** Use a mirror to show reflection clearly.\n- Thinking symmetry means identical sides. **Try:** Explain it's a mirror image, not identical.\n- Mixing up translation and rotation. **Try:** Demonstrate with a toy car for clarity.\n- Believing all objects have symmetry. **Try:** Show asymmetrical objects too.\n- Overlooking lines of symmetry. **Try:** Fold paper to find them easily.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Symmetry is found in nature, like in leaves and flowers. Transformations are used in art and design, such as creating patterns and animations.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring symmetry and transformations opens a world of patterns and creativity. Encourage your child to see the beauty in math everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of symmetry and transformations.\n- Identify lines of symmetry in everyday objects.\n- Recognize transformations: translation, rotation, and reflection.\n**Why this matters for parents:** Understanding symmetry and transformations helps children see patterns and balance in the world, enhancing spatial reasoning and problem-solving skills.",
+    "overview": "Symmetry is when one half of an object is a mirror image of the other half. Transformations involve moving or changing a shape while keeping its size and form. These concepts help children understand geometry and spatial relationships.\nLearning about symmetry and transformations is important because it builds a foundation for more complex math concepts. It also helps children appreciate the beauty and structure in nature and art.",
+    "core": "Symmetry and transformations are all around us. A butterfly's wings are symmetrical, and when you flip a pancake, you're performing a transformation. By exploring these ideas, children learn to recognize patterns and predict outcomes.",
+    "demo": "1. **Find Symmetry:** Take a piece of paper and fold it in half. **Ask:** Does each side match? This is symmetry.\n2. **Use a Mirror:** Place a small mirror on a book cover. **Say:** Look, the mirror shows symmetry by reflecting the other half.\n3. **Translate with a Toy Car:** Move a toy car straight across the table. **Say:** This is translation—moving without turning.\n4. **Rotate a Plate:** Spin a plate on the table. **Ask:** What happens when it turns? This is rotation.\n5. **Reflect with a Spoon:** Hold a spoon and look at your reflection. **Say:** This is reflection, like a mirror image.",
+    "math": "Symmetry means one side is a mirror image of the other. For example, the letter 'A' has a vertical line of symmetry. Transformations include:\n- **Translation:** Moving a shape without rotating or flipping it.\n- **Rotation:** Turning a shape around a point.\n- **Reflection:** Flipping a shape over a line.\nExample: If a square is translated 3 units right, its position changes, but its shape and size remain the same.",
+    "guide": "1. **Explore Symmetry:** Walk around the house and find objects with symmetry, like a vase or a butterfly picture. **Ask:** How many lines of symmetry do you see?\n2. **Create Patterns:** Use blocks or Lego to make symmetrical patterns. **Say:** Let's make each side match.\n3. **Draw and Fold:** Draw a shape on paper, cut it out, and fold it to find symmetry. **Ask:** Does it match?\n4. **Transform Objects:** Use a toy to show translation, rotation, and reflection. **Say:** Let's see how it moves and changes.\n5. **Discuss Daily Life:** Talk about how symmetry and transformations appear in nature and art. **Ask:** Where else do you see these?",
+    "mistakes": "- Confusing rotation with reflection. **Try:** Use a mirror to show reflection clearly.\n- Thinking symmetry means identical sides. **Try:** Explain it's a mirror image, not identical.\n- Mixing up translation and rotation. **Try:** Demonstrate with a toy car for clarity.\n- Believing all objects have symmetry. **Try:** Show asymmetrical objects too.\n- Overlooking lines of symmetry. **Try:** Fold paper to find them easily.",
+    "connection": "Symmetry is found in nature, like in leaves and flowers. Transformations are used in art and design, such as creating patterns and animations.",
+    "close": "Exploring symmetry and transformations opens a world of patterns and creativity. Encourage your child to see the beauty in math everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Draw a line of symmetry on a square.",
+      "hint_md": "Think about folding the square in half.",
+      "answer_md": "A square has multiple lines of symmetry: vertical, horizontal, and diagonal."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What happens when you rotate a triangle 180 degrees?",
+      "hint_md": "Consider how the triangle looks after a half-turn.",
+      "answer_md": "The triangle points in the opposite direction."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you slide a rectangle to the right, what transformation is this?",
+      "hint_md": "It's a movement without rotation.",
+      "answer_md": "This is a translation."
+    }
+  ]
+}

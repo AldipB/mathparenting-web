@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "9d8f7073-3f9a-4ae5-8ed7-46e56ffd6248",
+    "slug": "volume-surface-area-cylinders-cones-spheres-9d8f7073-3f9a-4ae5-8ed7-46e56ffd6248",
+    "title": "Volume & Surface Area (Cylinders, Cones, Spheres)",
+    "summary": "Volume & Surface Area (Cylinders, Cones, Spheres) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate the volume and surface area of cylinders, cones, and spheres.\n- Use household objects to visualize these 3D shapes.\n- Help your child connect math concepts to real-world objects.\n**Why this matters for parents:** Understanding these concepts helps you support your child's learning and relate math to everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on understanding the volume and surface area of three common 3D shapes: cylinders, cones, and spheres. These shapes are found in many household objects, making them relatable and easy to visualize.\nUnderstanding volume and surface area helps children see how math applies to real-world situations, like determining how much a container can hold or how much material is needed to cover an object.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Volume measures how much space an object occupies, while surface area measures the total area of all the surfaces of a 3D object. By using household items like cans, balls, and cones, you can help your child visualize these concepts and see their practical applications.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a can (cylinder), an ice cream cone (cone), and a ball (sphere).\n   **Say:** \"Let's explore these shapes.\"\n2. **Ask:** \"Which shape can roll? Which can stack?\"\n   - Roll the ball and can; stack the cone upside down.\n3. Place objects in a bag and have your child guess the shape by touch.\n   **Ask:** \"What shape do you feel?\"\n4. Discuss each shape's properties: roundness, flatness, and edges.\n   **Say:** \"The ball is round all over, the can has flat ends, and the cone has a point.\"\n5. Measure the height and radius of the can and cone using a ruler.\n   **Say:** \"Let's use these measurements to find volume and surface area.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the volume of a cylinder, use $V = \\\\pi r^2 h$, where $r$ is the radius and $h$ is the height. For example, if a can has a radius of 3 cm and a height of 10 cm, its volume is $V = \\\\pi (3)^2 (10) = 90\\\\pi$ cm³.\nThe surface area of a sphere is $A = 4\\\\pi r^2$. If a ball has a radius of 5 cm, its surface area is $A = 4\\\\pi (5)^2 = 100\\\\pi$ cm².",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Cylinder Volume: $V = \\\\pi r^2 h$\n  - $r$: radius of the base\n  - $h$: height of the cylinder\n- Cone Volume: $V = \\frac{1}{3} \\\\pi r^2 h$\n  - $r$: radius of the base\n  - $h$: height of the cone\n- Sphere Volume: $V = \\frac{4}{3} \\\\pi r^3$\n  - $r$: radius of the sphere\n- Sphere Surface Area: $A = 4\\\\pi r^2$\n  - $r$: radius of the sphere",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's measure the radius and height of our objects.\"\n2. Use the formulas to calculate the volume of the can and cone.\n   **Ask:** \"What do you notice about the volumes?\"\n3. Calculate the surface area of the ball.\n   **Say:** \"This tells us how much space the outside covers.\"\n4. Compare the results with your child.\n   **Ask:** \"How do these numbers help us understand the objects better?\"\n5. Discuss where these shapes appear in daily life.\n   **Say:** \"Think about how these calculations are useful in real life.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing radius with diameter.\n  Try: Measure from the center to the edge for the radius.\n- Forgetting to square the radius in formulas.\n  Try: Double-check calculations to ensure $r^2$ is used.\n- Mixing up volume and surface area formulas.\n  Try: Write down each formula before calculating.\n- Using incorrect units.\n  Try: Keep units consistent (e.g., cm for all measurements).",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cylinders are like soup cans, cones are like ice cream cones, and spheres are like basketballs. Understanding these shapes helps in packing, storage, and even cooking.\nWhen buying paint, knowing the surface area of a sphere can help determine how much paint is needed to cover it.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring 3D shapes! Keep looking for cylinders, cones, and spheres around you. Math is everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate the volume and surface area of cylinders, cones, and spheres.\n- Use household objects to visualize these 3D shapes.\n- Help your child connect math concepts to real-world objects.\n**Why this matters for parents:** Understanding these concepts helps you support your child's learning and relate math to everyday life.",
+    "overview": "This lesson focuses on understanding the volume and surface area of three common 3D shapes: cylinders, cones, and spheres. These shapes are found in many household objects, making them relatable and easy to visualize.\nUnderstanding volume and surface area helps children see how math applies to real-world situations, like determining how much a container can hold or how much material is needed to cover an object.",
+    "core": "Volume measures how much space an object occupies, while surface area measures the total area of all the surfaces of a 3D object. By using household items like cans, balls, and cones, you can help your child visualize these concepts and see their practical applications.",
+    "demo": "1. Gather a can (cylinder), an ice cream cone (cone), and a ball (sphere).\n   **Say:** \"Let's explore these shapes.\"\n2. **Ask:** \"Which shape can roll? Which can stack?\"\n   - Roll the ball and can; stack the cone upside down.\n3. Place objects in a bag and have your child guess the shape by touch.\n   **Ask:** \"What shape do you feel?\"\n4. Discuss each shape's properties: roundness, flatness, and edges.\n   **Say:** \"The ball is round all over, the can has flat ends, and the cone has a point.\"\n5. Measure the height and radius of the can and cone using a ruler.\n   **Say:** \"Let's use these measurements to find volume and surface area.\"",
+    "math": "To find the volume of a cylinder, use $V = \\\\pi r^2 h$, where $r$ is the radius and $h$ is the height. For example, if a can has a radius of 3 cm and a height of 10 cm, its volume is $V = \\\\pi (3)^2 (10) = 90\\\\pi$ cm³.\nThe surface area of a sphere is $A = 4\\\\pi r^2$. If a ball has a radius of 5 cm, its surface area is $A = 4\\\\pi (5)^2 = 100\\\\pi$ cm².",
+    "formulas": "- Cylinder Volume: $V = \\\\pi r^2 h$\n  - $r$: radius of the base\n  - $h$: height of the cylinder\n- Cone Volume: $V = \\frac{1}{3} \\\\pi r^2 h$\n  - $r$: radius of the base\n  - $h$: height of the cone\n- Sphere Volume: $V = \\frac{4}{3} \\\\pi r^3$\n  - $r$: radius of the sphere\n- Sphere Surface Area: $A = 4\\\\pi r^2$\n  - $r$: radius of the sphere",
+    "guide": "1. **Say:** \"Let's measure the radius and height of our objects.\"\n2. Use the formulas to calculate the volume of the can and cone.\n   **Ask:** \"What do you notice about the volumes?\"\n3. Calculate the surface area of the ball.\n   **Say:** \"This tells us how much space the outside covers.\"\n4. Compare the results with your child.\n   **Ask:** \"How do these numbers help us understand the objects better?\"\n5. Discuss where these shapes appear in daily life.\n   **Say:** \"Think about how these calculations are useful in real life.\"",
+    "mistakes": "- Confusing radius with diameter.\n  Try: Measure from the center to the edge for the radius.\n- Forgetting to square the radius in formulas.\n  Try: Double-check calculations to ensure $r^2$ is used.\n- Mixing up volume and surface area formulas.\n  Try: Write down each formula before calculating.\n- Using incorrect units.\n  Try: Keep units consistent (e.g., cm for all measurements).",
+    "connection": "Cylinders are like soup cans, cones are like ice cream cones, and spheres are like basketballs. Understanding these shapes helps in packing, storage, and even cooking.\nWhen buying paint, knowing the surface area of a sphere can help determine how much paint is needed to cover it.",
+    "close": "Great job exploring 3D shapes! Keep looking for cylinders, cones, and spheres around you. Math is everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate the volume of a cylinder with a radius of 4 cm and a height of 12 cm.",
+      "hint_md": "Use the formula $V = \\\\pi r^2 h$.",
+      "answer_md": "$V = \\\\pi (4)^2 (12) = 192\\\\pi$ cm³"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Find the surface area of a sphere with a radius of 7 cm.",
+      "hint_md": "Use the formula $A = 4\\\\pi r^2$.",
+      "answer_md": "$A = 4\\\\pi (7)^2 = 196\\\\pi$ cm²"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the volume of a cone with a radius of 3 cm and a height of 9 cm?",
+      "hint_md": "Use the formula $V = \\frac{1}{3} \\\\pi r^2 h$.",
+      "answer_md": "$V = \\frac{1}{3} \\\\pi (3)^2 (9) = 27\\\\pi$ cm³"
+    }
+  ]
+}

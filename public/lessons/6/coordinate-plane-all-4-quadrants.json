@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "0b4aa565-337b-480a-b94b-104eb55ee208",
+    "title": "Algebra & Coordinates",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "5adb06b0-fb5d-4785-8fc8-9a29480d8a22",
+    "slug": "coordinate-plane-all-4-quadrants",
+    "title": "Coordinate Plane (All 4 Quadrants)",
+    "summary": "Coordinate Plane (All 4 Quadrants) — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the coordinate plane with all four quadrants.\n- Identify and plot points using ordered pairs.\n- Recognize the significance of the x-axis and y-axis.\n- **Why this matters for parents:** Understanding the coordinate plane helps children develop spatial reasoning and prepares them for more advanced math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "The coordinate plane is a grid formed by two number lines intersecting at right angles. These lines are called the x-axis (horizontal) and the y-axis (vertical). The point where they meet is the origin.\nThis concept is crucial because it helps children visualize mathematical relationships and understand geometry. It also lays the groundwork for graphing equations and interpreting data.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In a coordinate plane, each point is represented by an ordered pair $(x, y)$. The plane is divided into four quadrants. Quadrant I has positive x and y values, Quadrant II has negative x and positive y, Quadrant III has negative x and y, and Quadrant IV has positive x and negative y.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Find a piece of paper and draw a large plus sign to represent the x-axis and y-axis.\n- **Say:** 'This is our coordinate plane. The center is called the origin.'\n- Label the right side of the x-axis with positive numbers and the left with negative numbers.\n- Label the top of the y-axis with positive numbers and the bottom with negative numbers.\n- **Ask:** 'Can you place a small object, like a coin, at (2, 3)?' Help them count 2 units right and 3 units up from the origin.\n- **Say:** 'Great! Now let's try placing it at (-3, -1).' Guide them to count 3 units left and 1 unit down.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The coordinate plane consists of four quadrants. Each point is given by an ordered pair $(x, y)$. For example, the point $(2, 3)$ is 2 units to the right and 3 units up from the origin. The origin itself is at $(0, 0)$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$(x, y)$\n- $x$: horizontal position (left or right of origin)\n- $y$: vertical position (up or down from origin)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Draw the coordinate plane with your child and label the axes.\n- Explain the quadrants and have them identify which quadrant a point belongs to.\n- Practice plotting points like $(4, -2)$ and $(-1, 5)$.\n- Ask them to describe the position of points in their own words.\n- Encourage them to create their own points and plot them.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up x and y coordinates. **Try:** Remind them 'x' comes before 'y' alphabetically.\n- Forgetting negative signs. **Try:** Use a number line to reinforce positive and negative directions.\n- Misplacing points in wrong quadrants. **Try:** Review quadrant signs together.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Coordinate planes are used in maps and video games to locate positions. Understanding this helps in navigation and game design.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring the coordinate plane! This skill will help your child understand more complex math and real-world applications.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the coordinate plane with all four quadrants.\n- Identify and plot points using ordered pairs.\n- Recognize the significance of the x-axis and y-axis.\n- **Why this matters for parents:** Understanding the coordinate plane helps children develop spatial reasoning and prepares them for more advanced math concepts.",
+    "overview": "The coordinate plane is a grid formed by two number lines intersecting at right angles. These lines are called the x-axis (horizontal) and the y-axis (vertical). The point where they meet is the origin.\nThis concept is crucial because it helps children visualize mathematical relationships and understand geometry. It also lays the groundwork for graphing equations and interpreting data.",
+    "core": "In a coordinate plane, each point is represented by an ordered pair $(x, y)$. The plane is divided into four quadrants. Quadrant I has positive x and y values, Quadrant II has negative x and positive y, Quadrant III has negative x and y, and Quadrant IV has positive x and negative y.",
+    "demo": "- Find a piece of paper and draw a large plus sign to represent the x-axis and y-axis.\n- **Say:** 'This is our coordinate plane. The center is called the origin.'\n- Label the right side of the x-axis with positive numbers and the left with negative numbers.\n- Label the top of the y-axis with positive numbers and the bottom with negative numbers.\n- **Ask:** 'Can you place a small object, like a coin, at (2, 3)?' Help them count 2 units right and 3 units up from the origin.\n- **Say:** 'Great! Now let's try placing it at (-3, -1).' Guide them to count 3 units left and 1 unit down.",
+    "math": "The coordinate plane consists of four quadrants. Each point is given by an ordered pair $(x, y)$. For example, the point $(2, 3)$ is 2 units to the right and 3 units up from the origin. The origin itself is at $(0, 0)$.",
+    "formulas": "$(x, y)$\n- $x$: horizontal position (left or right of origin)\n- $y$: vertical position (up or down from origin)",
+    "guide": "- Draw the coordinate plane with your child and label the axes.\n- Explain the quadrants and have them identify which quadrant a point belongs to.\n- Practice plotting points like $(4, -2)$ and $(-1, 5)$.\n- Ask them to describe the position of points in their own words.\n- Encourage them to create their own points and plot them.",
+    "mistakes": "- Mixing up x and y coordinates. **Try:** Remind them 'x' comes before 'y' alphabetically.\n- Forgetting negative signs. **Try:** Use a number line to reinforce positive and negative directions.\n- Misplacing points in wrong quadrants. **Try:** Review quadrant signs together.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Coordinate planes are used in maps and video games to locate positions. Understanding this helps in navigation and game design.",
+    "close": "Great job exploring the coordinate plane! This skill will help your child understand more complex math and real-world applications."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Coordinate Plane (All 4 Quadrants)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Coordinate Plane (All 4 Quadrants)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Coordinate Plane (All 4 Quadrants)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

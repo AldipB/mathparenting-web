@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "4afaceff-0304-4294-827d-968c35e1fce1",
+    "slug": "logic-proofs-conjectures",
+    "title": "Logic & Proofs; Conjectures",
+    "summary": "Logic & Proofs; Conjectures — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of logic and proofs in geometry.\n- Learn how to make and test conjectures.\n- **Why this matters for parents:** This helps you support your child's critical thinking and reasoning skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore the foundational concepts of logic and proofs in geometry. You'll learn how to make conjectures, which are educated guesses based on observations.\nUnderstanding logic and proofs is essential because it helps students develop strong reasoning skills. These skills are not only important in math but also in everyday decision-making and problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Logic and proofs in geometry involve making statements and providing evidence to show they are true. A conjecture is a statement believed to be true based on observations. We use logical reasoning to prove or disprove these conjectures.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore logic using a deck of cards. Pick a card without showing it.\n2. **Ask:** Is the card red? (This is a conjecture.)\n3. If the card is red, **Say:** Our conjecture is true. If not, **Say:** Our conjecture is false.\n4. **Ask:** What if I say, 'All cards in this deck are red'? How can we prove or disprove this?\n5. **Say:** By checking each card, we use logic and evidence to prove or disprove the statement.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In geometry, a proof is a logical argument that uses definitions, properties, and previously proven statements to show a statement is true. For example, if we conjecture that the sum of angles in a triangle is 180°, we can prove it using known properties of triangles.\nConsider a triangle with angles 60°, 60°, and 60°. The sum is $60° + 60° + 60° = 180°$. This supports our conjecture.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is a conjecture you can make about the shapes in our house?\n2. **Say:** Let's test this conjecture by observing and measuring.\n3. **Ask:** How can we prove this conjecture is true or false?\n4. **Say:** Use logic and evidence to support your reasoning.\n5. **Ask:** How does this process help us understand the world better?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Assuming a conjecture is true without evidence. **Try:** Always look for supporting evidence.\n- Confusing a conjecture with a proven fact. **Try:** Remember, a conjecture needs proof.\n- Ignoring counterexamples. **Try:** Use counterexamples to test conjectures.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Logic and proofs are used in computer programming to create algorithms. They are also essential in legal arguments, where evidence is used to support claims.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to explore and question the world around them. Logic and proofs are powerful tools for understanding and discovery!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of logic and proofs in geometry.\n- Learn how to make and test conjectures.\n- **Why this matters for parents:** This helps you support your child's critical thinking and reasoning skills.",
+    "overview": "In this lesson, we'll explore the foundational concepts of logic and proofs in geometry. You'll learn how to make conjectures, which are educated guesses based on observations.\nUnderstanding logic and proofs is essential because it helps students develop strong reasoning skills. These skills are not only important in math but also in everyday decision-making and problem-solving.",
+    "core": "Logic and proofs in geometry involve making statements and providing evidence to show they are true. A conjecture is a statement believed to be true based on observations. We use logical reasoning to prove or disprove these conjectures.",
+    "demo": "1. **Say:** Let's explore logic using a deck of cards. Pick a card without showing it.\n2. **Ask:** Is the card red? (This is a conjecture.)\n3. If the card is red, **Say:** Our conjecture is true. If not, **Say:** Our conjecture is false.\n4. **Ask:** What if I say, 'All cards in this deck are red'? How can we prove or disprove this?\n5. **Say:** By checking each card, we use logic and evidence to prove or disprove the statement.",
+    "math": "In geometry, a proof is a logical argument that uses definitions, properties, and previously proven statements to show a statement is true. For example, if we conjecture that the sum of angles in a triangle is 180°, we can prove it using known properties of triangles.\nConsider a triangle with angles 60°, 60°, and 60°. The sum is $60° + 60° + 60° = 180°$. This supports our conjecture.",
+    "guide": "1. **Ask:** What is a conjecture you can make about the shapes in our house?\n2. **Say:** Let's test this conjecture by observing and measuring.\n3. **Ask:** How can we prove this conjecture is true or false?\n4. **Say:** Use logic and evidence to support your reasoning.\n5. **Ask:** How does this process help us understand the world better?",
+    "mistakes": "- Assuming a conjecture is true without evidence. **Try:** Always look for supporting evidence.\n- Confusing a conjecture with a proven fact. **Try:** Remember, a conjecture needs proof.\n- Ignoring counterexamples. **Try:** Use counterexamples to test conjectures.",
+    "connection": "Logic and proofs are used in computer programming to create algorithms. They are also essential in legal arguments, where evidence is used to support claims.",
+    "close": "Encourage your child to explore and question the world around them. Logic and proofs are powerful tools for understanding and discovery!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is a conjecture you can make about the sum of angles in a quadrilateral?",
+      "hint_md": "Think about the sum of angles in a triangle.",
+      "answer_md": "The sum of angles in a quadrilateral is $360^\\circ$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a rectangle has four sides, what can you conjecture about a square?",
+      "hint_md": "Consider the properties of both shapes.",
+      "answer_md": "A square also has four sides, and all sides are equal."
+    },
+    {
+      "order_index": 3,
+      "question_md": "How would you prove that the sum of angles in a triangle is $180^\\circ$?",
+      "hint_md": "Consider dividing a quadrilateral into triangles.",
+      "answer_md": "By dividing a quadrilateral into two triangles, each with $180^\\circ$, the sum of angles in a triangle is confirmed."
+    }
+  ]
+}

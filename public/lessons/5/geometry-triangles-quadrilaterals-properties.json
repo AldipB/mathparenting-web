@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "9242e1cb-f38b-4dfa-a5ae-5c145b9e421e",
+    "title": "Geometry & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "72c6de52-6600-4a7e-8e66-75ca670fa68c",
+    "slug": "geometry-triangles-quadrilaterals-properties",
+    "title": "Geometry: Triangles & Quadrilaterals Properties",
+    "summary": "Geometry: Triangles & Quadrilaterals Properties — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Identify properties of triangles and quadrilaterals.\n- Understand differences between squares, rectangles, and other quadrilaterals.\n- Recognize shapes in various orientations.\n**Why this matters for parents:** Understanding these shapes helps children see math in everyday objects and improves spatial reasoning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the properties of triangles and quadrilaterals, focusing on their sides and angles. We'll look at different types of triangles and quadrilaterals, including squares and rectangles, and how they can appear in various orientations.\nRecognizing these shapes helps children connect math to the real world, enhancing their ability to solve problems and understand geometry in practical contexts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Triangles have three sides and three corners. Quadrilaterals have four sides and four corners. Common quadrilaterals include squares and rectangles. A square has all sides equal and four right angles, while a rectangle has opposite sides equal and four right angles. Shapes can look different when rotated, like a square appearing as a 'diamond.'",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some shapes around the house!\"\n2. **Ask:** \"Can you find something shaped like a triangle?\" Look for items like a slice of pizza.\n3. **Say:** \"Now, let's find quadrilaterals.\" Use a book or a table as examples.\n4. **Ask:** \"Is this a square or a rectangle?\" Compare a square tile and a rectangular book.\n5. **Say:** \"Let's build shapes with straws or sticks.\" Use four equal sticks for a square and two pairs of equal sticks for a rectangle.\n6. **Ask:** \"What happens if we turn the square?\" Show how it looks like a diamond but is still a square.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A triangle has three sides, such as a triangle with sides 3 cm, 4 cm, and 5 cm. A quadrilateral has four sides, like a rectangle with sides 4 cm and 6 cm. A square has four equal sides, such as a square with each side measuring 5 cm.\nWhen rotated, a square still has equal sides and right angles, even if it looks like a diamond.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Begin by discussing the number of sides and corners in triangles and quadrilaterals.\n2. Show examples of these shapes using household objects.\n3. Build shapes with sticks or straws to visualize their properties.\n4. Rotate a square to demonstrate how its properties remain unchanged.\n5. Encourage your child to describe the differences between squares and rectangles.\n6. Reinforce learning by identifying shapes in different orientations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares with rectangles: Try comparing side lengths.\n- Thinking a rotated square is a different shape: Try turning it back to see it's still a square.\n- Forgetting the number of sides: Try counting sides and corners together.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Triangles and quadrilaterals are everywhere! Look at road signs (triangles) and windows (rectangles). Understanding these shapes helps in art, design, and even sports strategy.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring shapes is a fun way to see math in the world around us. Keep looking for triangles and quadrilaterals in everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Identify properties of triangles and quadrilaterals.\n- Understand differences between squares, rectangles, and other quadrilaterals.\n- Recognize shapes in various orientations.\n**Why this matters for parents:** Understanding these shapes helps children see math in everyday objects and improves spatial reasoning.",
+    "overview": "This lesson explores the properties of triangles and quadrilaterals, focusing on their sides and angles. We'll look at different types of triangles and quadrilaterals, including squares and rectangles, and how they can appear in various orientations.\nRecognizing these shapes helps children connect math to the real world, enhancing their ability to solve problems and understand geometry in practical contexts.",
+    "core": "Triangles have three sides and three corners. Quadrilaterals have four sides and four corners. Common quadrilaterals include squares and rectangles. A square has all sides equal and four right angles, while a rectangle has opposite sides equal and four right angles. Shapes can look different when rotated, like a square appearing as a 'diamond.'",
+    "demo": "1. **Say:** \"Let's find some shapes around the house!\"\n2. **Ask:** \"Can you find something shaped like a triangle?\" Look for items like a slice of pizza.\n3. **Say:** \"Now, let's find quadrilaterals.\" Use a book or a table as examples.\n4. **Ask:** \"Is this a square or a rectangle?\" Compare a square tile and a rectangular book.\n5. **Say:** \"Let's build shapes with straws or sticks.\" Use four equal sticks for a square and two pairs of equal sticks for a rectangle.\n6. **Ask:** \"What happens if we turn the square?\" Show how it looks like a diamond but is still a square.",
+    "math": "A triangle has three sides, such as a triangle with sides 3 cm, 4 cm, and 5 cm. A quadrilateral has four sides, like a rectangle with sides 4 cm and 6 cm. A square has four equal sides, such as a square with each side measuring 5 cm.\nWhen rotated, a square still has equal sides and right angles, even if it looks like a diamond.",
+    "guide": "1. Begin by discussing the number of sides and corners in triangles and quadrilaterals.\n2. Show examples of these shapes using household objects.\n3. Build shapes with sticks or straws to visualize their properties.\n4. Rotate a square to demonstrate how its properties remain unchanged.\n5. Encourage your child to describe the differences between squares and rectangles.\n6. Reinforce learning by identifying shapes in different orientations.",
+    "mistakes": "- Confusing squares with rectangles: Try comparing side lengths.\n- Thinking a rotated square is a different shape: Try turning it back to see it's still a square.\n- Forgetting the number of sides: Try counting sides and corners together.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Triangles and quadrilaterals are everywhere! Look at road signs (triangles) and windows (rectangles). Understanding these shapes helps in art, design, and even sports strategy.",
+    "close": "Exploring shapes is a fun way to see math in the world around us. Keep looking for triangles and quadrilaterals in everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Geometry: Triangles & Quadrilaterals Properties**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Geometry: Triangles & Quadrilaterals Properties** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Geometry: Triangles & Quadrilaterals Properties**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

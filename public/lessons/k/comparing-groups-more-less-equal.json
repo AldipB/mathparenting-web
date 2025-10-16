@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "63d4846f-2c83-4e64-908f-39710b11f23f",
+    "title": "Counting & Quantity",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b8807994-19a3-4931-82eb-b27c081d3127",
+    "slug": "comparing-groups-more-less-equal",
+    "title": "Comparing Groups (More, Less, Equal)",
+    "summary": "Comparing Groups (More, Less, Equal) — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child compare groups of objects to determine which has more, less, or if they are equal.\n- Develop early math skills by using everyday items.\n- **Why this matters for parents:** Understanding these concepts builds a foundation for future math learning and logical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, you'll guide your child to compare groups of objects to see which has more, less, or if they are equal. This is a fundamental math skill that helps children understand quantity and number relationships.\nComparing groups is important because it helps children make sense of the world around them. It lays the groundwork for addition and subtraction, and it enhances their ability to make decisions based on quantity.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "You'll use household objects to create groups and ask your child to compare them. This hands-on activity makes learning engaging and relatable. By using items like toys or snacks, your child will easily grasp the concepts of more, less, and equal.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small objects, like blocks or spoons.\n2. **Say:** \"Let's make two groups. I'll put 3 blocks here and 5 blocks there.\"\n3. **Ask:** \"Which group has more blocks?\"\n4. **Say:** \"Let's count them together.\"\n5. **Ask:** \"Are there more blocks in the first group or the second?\"\n6. **Say:** \"Great! Now let's make the groups equal by adding or removing blocks.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When comparing groups, we look at the number of items in each group. For example, if one group has 3 blocks and another has 5 blocks, we can say the second group has more blocks. If both groups have 4 blocks, they are equal.\n$$3 < 5$$ means the first group has less than the second group.\n$$4 = 4$$ means both groups are equal.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with two small groups of objects.\n2. **Ask:** \"How many are in each group?\"\n3. **Say:** \"Let's count them together.\"\n4. **Ask:** \"Which group has more? Which has less?\"\n5. **Say:** \"Let's make them equal by adding or taking away.\"\n6. Repeat with different objects to reinforce learning.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child says the groups are equal when they're not, try: \"Let's count again together.\"\n- If they struggle with more/less, try: \"Which group has extra?\"\n- If they mix up numbers, try: \"Let's use our fingers to count each group.\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When setting the table, ask your child to compare the number of forks and spoons. Are they equal?\nAt snack time, compare the number of apple slices on two plates. Which has more?",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child explore the world of numbers! Keep practicing with everyday items to strengthen their understanding.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child compare groups of objects to determine which has more, less, or if they are equal.\n- Develop early math skills by using everyday items.\n- **Why this matters for parents:** Understanding these concepts builds a foundation for future math learning and logical thinking.",
+    "overview": "In this lesson, you'll guide your child to compare groups of objects to see which has more, less, or if they are equal. This is a fundamental math skill that helps children understand quantity and number relationships.\nComparing groups is important because it helps children make sense of the world around them. It lays the groundwork for addition and subtraction, and it enhances their ability to make decisions based on quantity.",
+    "core": "You'll use household objects to create groups and ask your child to compare them. This hands-on activity makes learning engaging and relatable. By using items like toys or snacks, your child will easily grasp the concepts of more, less, and equal.",
+    "demo": "1. Gather 10 small objects, like blocks or spoons.\n2. **Say:** \"Let's make two groups. I'll put 3 blocks here and 5 blocks there.\"\n3. **Ask:** \"Which group has more blocks?\"\n4. **Say:** \"Let's count them together.\"\n5. **Ask:** \"Are there more blocks in the first group or the second?\"\n6. **Say:** \"Great! Now let's make the groups equal by adding or removing blocks.\"",
+    "math": "When comparing groups, we look at the number of items in each group. For example, if one group has 3 blocks and another has 5 blocks, we can say the second group has more blocks. If both groups have 4 blocks, they are equal.\n$$3 < 5$$ means the first group has less than the second group.\n$$4 = 4$$ means both groups are equal.",
+    "guide": "1. Start with two small groups of objects.\n2. **Ask:** \"How many are in each group?\"\n3. **Say:** \"Let's count them together.\"\n4. **Ask:** \"Which group has more? Which has less?\"\n5. **Say:** \"Let's make them equal by adding or taking away.\"\n6. Repeat with different objects to reinforce learning.",
+    "mistakes": "- If your child says the groups are equal when they're not, try: \"Let's count again together.\"\n- If they struggle with more/less, try: \"Which group has extra?\"\n- If they mix up numbers, try: \"Let's use our fingers to count each group.\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When setting the table, ask your child to compare the number of forks and spoons. Are they equal?\nAt snack time, compare the number of apple slices on two plates. Which has more?",
+    "close": "Great job helping your child explore the world of numbers! Keep practicing with everyday items to strengthen their understanding."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Comparing Groups (More, Less, Equal)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Comparing Groups (More, Less, Equal)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Comparing Groups (More, Less, Equal)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

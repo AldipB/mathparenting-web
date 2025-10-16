@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "ab327d02-5cf8-4fc4-abba-1180ffbcd7fa",
+    "title": "Measurement & Geometry",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "96945d28-140d-4bc1-b6c9-7a3f0993d155",
+    "slug": "measurement-m-cm-l-g-time-to-minute",
+    "title": "Measurement: m, cm, L, g; Time to Minute",
+    "summary": "Measurement: m, cm, L, g; Time to Minute — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand and use meters (m), centimeters (cm), liters (L), and grams (g) for measurement.\n- Tell time to the nearest minute and understand time words like yesterday, today, and tomorrow.\n- **Why this matters for parents:** Helps children relate math to daily life, improving their practical understanding and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to basic units of measurement and how to tell time to the nearest minute. We will also explore time words like yesterday, today, and tomorrow to help them sequence events.\nUnderstanding these concepts is crucial as they form the foundation for more advanced math and science topics. It also helps children organize their day and understand the world around them.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "We use measurements every day, whether it's checking the time or measuring ingredients for a recipe. Teaching your child how to measure and tell time helps them become more independent and confident in their daily activities.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather three boxes and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. Use sticky notes to write down daily events, like 'School', 'Dinner', or 'Bedtime'.\n3. **Say:** 'Let's place these events in the right boxes. What did we do yesterday?'\n4. **Ask:** 'How many sleeps until tomorrow?'\n5. Use a clock to show the current time and explain how to read it to the nearest minute.\n6. **Say:** 'Let's set a timer for 5 minutes and see what we can do in that time!'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To tell time to the nearest minute, look at the minute hand on the clock. If it points to the 3, it is 15 minutes past the hour. For example, if the hour hand is on 2 and the minute hand is on 3, the time is 2:15.\nFor measurements, 1 meter (m) is 100 centimeters (cm), and 1 liter (L) is 1000 milliliters (mL).",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Show your child a ruler and explain that 100 cm equals 1 m.\n2. Use a measuring cup to show that 1000 mL equals 1 L.\n3. **Ask:** 'How many centimeters are in 2 meters?'\n4. Practice reading the time together using a clock with hands.\n5. **Say:** 'Let's count how many minutes until the next hour.'\n6. Discuss daily routines using time words: 'What did we do yesterday?'",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing meters and centimeters. **Try:** Use a ruler to show the difference.\n- Mixing up AM and PM. **Try:** Relate times to daily activities, like breakfast or dinner.\n- Misreading the minute hand. **Try:** Count by fives around the clock face.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When planning a family outing, use time words to discuss the schedule: 'We'll leave tomorrow at 10:00 AM.'\nCooking together can involve measuring ingredients, reinforcing the use of liters and grams.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to notice and talk about time and measurements in daily life. This builds confidence and curiosity!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand and use meters (m), centimeters (cm), liters (L), and grams (g) for measurement.\n- Tell time to the nearest minute and understand time words like yesterday, today, and tomorrow.\n- **Why this matters for parents:** Helps children relate math to daily life, improving their practical understanding and problem-solving skills.",
+    "overview": "This lesson introduces your child to basic units of measurement and how to tell time to the nearest minute. We will also explore time words like yesterday, today, and tomorrow to help them sequence events.\nUnderstanding these concepts is crucial as they form the foundation for more advanced math and science topics. It also helps children organize their day and understand the world around them.",
+    "core": "We use measurements every day, whether it's checking the time or measuring ingredients for a recipe. Teaching your child how to measure and tell time helps them become more independent and confident in their daily activities.",
+    "demo": "1. Gather three boxes and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. Use sticky notes to write down daily events, like 'School', 'Dinner', or 'Bedtime'.\n3. **Say:** 'Let's place these events in the right boxes. What did we do yesterday?'\n4. **Ask:** 'How many sleeps until tomorrow?'\n5. Use a clock to show the current time and explain how to read it to the nearest minute.\n6. **Say:** 'Let's set a timer for 5 minutes and see what we can do in that time!'",
+    "math": "To tell time to the nearest minute, look at the minute hand on the clock. If it points to the 3, it is 15 minutes past the hour. For example, if the hour hand is on 2 and the minute hand is on 3, the time is 2:15.\nFor measurements, 1 meter (m) is 100 centimeters (cm), and 1 liter (L) is 1000 milliliters (mL).",
+    "guide": "1. Show your child a ruler and explain that 100 cm equals 1 m.\n2. Use a measuring cup to show that 1000 mL equals 1 L.\n3. **Ask:** 'How many centimeters are in 2 meters?'\n4. Practice reading the time together using a clock with hands.\n5. **Say:** 'Let's count how many minutes until the next hour.'\n6. Discuss daily routines using time words: 'What did we do yesterday?'",
+    "mistakes": "- Confusing meters and centimeters. **Try:** Use a ruler to show the difference.\n- Mixing up AM and PM. **Try:** Relate times to daily activities, like breakfast or dinner.\n- Misreading the minute hand. **Try:** Count by fives around the clock face.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When planning a family outing, use time words to discuss the schedule: 'We'll leave tomorrow at 10:00 AM.'\nCooking together can involve measuring ingredients, reinforcing the use of liters and grams.",
+    "close": "Encourage your child to notice and talk about time and measurements in daily life. This builds confidence and curiosity!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Measurement: m, cm, L, g; Time to Minute**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Measurement: m, cm, L, g; Time to Minute** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Measurement: m, cm, L, g; Time to Minute**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

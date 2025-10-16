@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "1e055fce-2bb2-4077-8da3-b12f8ca02390",
+    "slug": "multiply-fractions-by-whole-numbers",
+    "title": "Multiply Fractions by Whole Numbers",
+    "summary": "Multiply Fractions by Whole Numbers — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to multiply fractions by whole numbers.\n- Use household objects to visualize the process.\n- **Why this matters for parents:** Helps children apply math in real-life situations, like cooking or sharing.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson is about multiplying fractions by whole numbers. It helps children understand how to scale fractions, which is an important skill in math.\nUnderstanding this concept is crucial because it allows children to solve problems involving parts of a whole in everyday life, such as dividing food or measuring ingredients.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When we multiply a fraction by a whole number, we are essentially adding that fraction to itself multiple times. For example, multiplying \\( \\frac{1}{3} \\) by 4 means we have four \\( \\frac{1}{3} \\) pieces.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** 12 grapes and a small plate.\n2. **Say:** \"Let's imagine we have \\( \\frac{1}{3} \\) of a plate of grapes.\"\n3. **Ask:** \"If we have 4 plates, how many grapes is that?\"\n4. **Arrange:** Place 4 groups of 4 grapes on the plate.\n5. **Explain:** \"Each group is \\( \\frac{1}{3} \\), so 4 groups of \\( \\frac{1}{3} \\) equals \\( \\frac{4}{3} \\) or 1 whole and \\( \\frac{1}{3} \\).\"\n6. **Ask:** \"How many grapes do we have in total?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To multiply a fraction by a whole number, multiply the numerator by the whole number and keep the denominator the same.\nExample: Multiply \\( \\frac{2}{5} \\) by 3.\n$$ \\frac{2}{5} \\times 3 = \\frac{2 \\times 3}{5} = \\frac{6}{5} $$\nThis means 1 whole and \\( \\frac{1}{5} \\).",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "\\( \\frac{a}{b} \\times n = \\frac{a \\times n}{b} \\)\n- \\(a\\): numerator of the fraction\n- \\(b\\): denominator of the fraction\n- \\(n\\): whole number",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** \"We are multiplying a fraction by a whole number.\"\n2. **Show:** Use objects like grapes or blocks to represent the fraction.\n3. **Ask:** \"What happens if we add this fraction multiple times?\"\n4. **Calculate:** Use the formula to multiply the fraction by the whole number.\n5. **Discuss:** \"How does this relate to what we see with the objects?\"\n6. **Reflect:** \"Where might we use this in real life?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the roles of numerator and denominator. **Try:** \"Remember, the numerator is the top number.\"\n- Forgetting to multiply the numerator. **Try:** \"Multiply the top number by the whole number.\"\n- Not simplifying the result. **Try:** \"Check if you can simplify the fraction.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking is a great example. If a recipe needs \\( \\frac{1}{4} \\) cup of sugar and you want to make 3 batches, you'll need \\( \\frac{3}{4} \\) cup of sugar.\nSharing snacks with friends also involves multiplying fractions by whole numbers to ensure everyone gets an equal share.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! Understanding how to multiply fractions by whole numbers opens up a world of practical math applications. Keep practicing and exploring!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to multiply fractions by whole numbers.\n- Use household objects to visualize the process.\n- **Why this matters for parents:** Helps children apply math in real-life situations, like cooking or sharing.",
+    "overview": "This lesson is about multiplying fractions by whole numbers. It helps children understand how to scale fractions, which is an important skill in math.\nUnderstanding this concept is crucial because it allows children to solve problems involving parts of a whole in everyday life, such as dividing food or measuring ingredients.",
+    "core": "When we multiply a fraction by a whole number, we are essentially adding that fraction to itself multiple times. For example, multiplying \\( \\frac{1}{3} \\) by 4 means we have four \\( \\frac{1}{3} \\) pieces.",
+    "demo": "1. **Gather:** 12 grapes and a small plate.\n2. **Say:** \"Let's imagine we have \\( \\frac{1}{3} \\) of a plate of grapes.\"\n3. **Ask:** \"If we have 4 plates, how many grapes is that?\"\n4. **Arrange:** Place 4 groups of 4 grapes on the plate.\n5. **Explain:** \"Each group is \\( \\frac{1}{3} \\), so 4 groups of \\( \\frac{1}{3} \\) equals \\( \\frac{4}{3} \\) or 1 whole and \\( \\frac{1}{3} \\).\"\n6. **Ask:** \"How many grapes do we have in total?\"",
+    "math": "To multiply a fraction by a whole number, multiply the numerator by the whole number and keep the denominator the same.\nExample: Multiply \\( \\frac{2}{5} \\) by 3.\n$$ \\frac{2}{5} \\times 3 = \\frac{2 \\times 3}{5} = \\frac{6}{5} $$\nThis means 1 whole and \\( \\frac{1}{5} \\).",
+    "formulas": "\\( \\frac{a}{b} \\times n = \\frac{a \\times n}{b} \\)\n- \\(a\\): numerator of the fraction\n- \\(b\\): denominator of the fraction\n- \\(n\\): whole number",
+    "guide": "1. **Explain:** \"We are multiplying a fraction by a whole number.\"\n2. **Show:** Use objects like grapes or blocks to represent the fraction.\n3. **Ask:** \"What happens if we add this fraction multiple times?\"\n4. **Calculate:** Use the formula to multiply the fraction by the whole number.\n5. **Discuss:** \"How does this relate to what we see with the objects?\"\n6. **Reflect:** \"Where might we use this in real life?\"",
+    "mistakes": "- Confusing the roles of numerator and denominator. **Try:** \"Remember, the numerator is the top number.\"\n- Forgetting to multiply the numerator. **Try:** \"Multiply the top number by the whole number.\"\n- Not simplifying the result. **Try:** \"Check if you can simplify the fraction.\"",
+    "connection": "Cooking is a great example. If a recipe needs \\( \\frac{1}{4} \\) cup of sugar and you want to make 3 batches, you'll need \\( \\frac{3}{4} \\) cup of sugar.\nSharing snacks with friends also involves multiplying fractions by whole numbers to ensure everyone gets an equal share.",
+    "close": "Great job! Understanding how to multiply fractions by whole numbers opens up a world of practical math applications. Keep practicing and exploring!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Multiply \\( \\frac{3}{7} \\) by 5.",
+      "hint_md": "Multiply the numerator by 5 and keep the denominator the same.",
+      "answer_md": "\\( \\frac{15}{7} \\) or 2 whole and \\( \\frac{1}{7} \\)."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have \\( \\frac{2}{3} \\) of a pizza and you want 4 times that amount, how much pizza do you have?",
+      "hint_md": "Multiply \\( \\frac{2}{3} \\) by 4.",
+      "answer_md": "\\( \\frac{8}{3} \\) or 2 whole pizzas and \\( \\frac{2}{3} \\)."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is \\( \\frac{5}{6} \\) multiplied by 2?",
+      "hint_md": "Multiply the numerator by 2.",
+      "answer_md": "\\( \\frac{10}{6} \\) or \\( \\frac{5}{3} \\) or 1 whole and \\( \\frac{2}{3} \\)."
+    }
+  ]
+}

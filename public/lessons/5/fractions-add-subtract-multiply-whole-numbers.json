@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "1623968f-1bfe-43f4-b4d7-23c32e82cc29",
+    "title": "Fractions & Decimals",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "168f2a7d-403e-485b-bcf3-cd121fd60fe4",
+    "slug": "fractions-add-subtract-multiply-whole-numbers",
+    "title": "Fractions: Add, Subtract, Multiply (× Whole Numbers)",
+    "summary": "Fractions: Add, Subtract, Multiply (× Whole Numbers) — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand how to add, subtract, and multiply fractions by whole numbers.\n- - Build confidence in helping your child with fraction problems.\n- - **Why this matters for parents:** Strengthening your child's math skills prepares them for more advanced concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching your child how to handle fractions in addition, subtraction, and multiplication with whole numbers. We'll use simple household items to make these concepts clear.\nUnderstanding fractions is crucial because they are everywhere in daily life, from cooking to shopping. Helping your child grasp these concepts will make math less intimidating and more relatable.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Fractions represent parts of a whole. When we add or subtract fractions, we combine or take away parts. Multiplying a fraction by a whole number means taking that fraction multiple times. Using everyday items can make these ideas more tangible for your child.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use an apple to understand fractions. Cut it into 4 equal parts. Each part is \\( \\frac{1}{4} \\).\n2. **Ask:** If we eat 2 parts, how much of the apple is left?\n3. **Say:** We started with \\( \\frac{4}{4} \\) and ate \\( \\frac{2}{4} \\). Now, we have \\( \\frac{2}{4} \\) left.\n4. **Say:** If we have 3 apples and each is cut into 4 parts, how many parts do we have? (3 apples × 4 parts = 12 parts)\n5. **Ask:** If we eat \\( \\frac{1}{4} \\) of each apple, how many parts is that? (3 parts)\n6. **Say:** We multiplied \\( \\frac{1}{4} \\) by 3, which equals \\( \\frac{3}{4} \\).",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add fractions, they must have the same denominator. For example, \\( \\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4} \\).\nSubtracting is similar: \\( \\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} \\).\nMultiplying a fraction by a whole number means repeating the fraction. For example, \\( 3 \\times \\frac{1}{4} = \\frac{3}{4} \\).",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "\\( a \\times \\frac{b}{c} = \\frac{a \\times b}{c} \\)\n- \\( a \\): whole number\n- \\( b \\): numerator of the fraction\n- \\( c \\): denominator of the fraction",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's practice adding fractions. Use a pizza cut into 8 slices.\n2. **Ask:** If we eat 3 slices, how much is left? (\\( \\frac{5}{8} \\))\n3. **Say:** Now, let's subtract. If we have \\( \\frac{5}{8} \\) and eat 2 more slices, what's left? (\\( \\frac{3}{8} \\))\n4. **Say:** Let's multiply. If each slice is \\( \\frac{1}{8} \\) and we have 4 pizzas, how many slices? (32 slices)\n5. **Ask:** If we eat \\( \\frac{1}{8} \\) of each pizza, how many slices is that? (4 slices)\n6. **Say:** Great job! You've multiplied fractions by whole numbers.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing numerators and denominators. **Try:** Use visual aids like pie charts to clarify.\n- - Forgetting to find a common denominator when adding/subtracting. **Try:** Practice with simple fractions first.\n- - Misinterpreting multiplication as addition. **Try:** Reinforce that multiplication means repeated addition.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking is a great way to practice fractions. Measuring ingredients often involves adding or multiplying fractions.\nShopping can also involve fractions, like when calculating discounts or comparing prices per unit.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great work! With practice, fractions will become a natural part of your child's math toolkit. Keep exploring and learning together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand how to add, subtract, and multiply fractions by whole numbers.\n- - Build confidence in helping your child with fraction problems.\n- - **Why this matters for parents:** Strengthening your child's math skills prepares them for more advanced concepts.",
+    "overview": "This lesson focuses on teaching your child how to handle fractions in addition, subtraction, and multiplication with whole numbers. We'll use simple household items to make these concepts clear.\nUnderstanding fractions is crucial because they are everywhere in daily life, from cooking to shopping. Helping your child grasp these concepts will make math less intimidating and more relatable.",
+    "core": "Fractions represent parts of a whole. When we add or subtract fractions, we combine or take away parts. Multiplying a fraction by a whole number means taking that fraction multiple times. Using everyday items can make these ideas more tangible for your child.",
+    "demo": "1. **Say:** Let's use an apple to understand fractions. Cut it into 4 equal parts. Each part is \\( \\frac{1}{4} \\).\n2. **Ask:** If we eat 2 parts, how much of the apple is left?\n3. **Say:** We started with \\( \\frac{4}{4} \\) and ate \\( \\frac{2}{4} \\). Now, we have \\( \\frac{2}{4} \\) left.\n4. **Say:** If we have 3 apples and each is cut into 4 parts, how many parts do we have? (3 apples × 4 parts = 12 parts)\n5. **Ask:** If we eat \\( \\frac{1}{4} \\) of each apple, how many parts is that? (3 parts)\n6. **Say:** We multiplied \\( \\frac{1}{4} \\) by 3, which equals \\( \\frac{3}{4} \\).",
+    "math": "To add fractions, they must have the same denominator. For example, \\( \\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4} \\).\nSubtracting is similar: \\( \\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} \\).\nMultiplying a fraction by a whole number means repeating the fraction. For example, \\( 3 \\times \\frac{1}{4} = \\frac{3}{4} \\).",
+    "formulas": "\\( a \\times \\frac{b}{c} = \\frac{a \\times b}{c} \\)\n- \\( a \\): whole number\n- \\( b \\): numerator of the fraction\n- \\( c \\): denominator of the fraction",
+    "guide": "1. **Say:** Let's practice adding fractions. Use a pizza cut into 8 slices.\n2. **Ask:** If we eat 3 slices, how much is left? (\\( \\frac{5}{8} \\))\n3. **Say:** Now, let's subtract. If we have \\( \\frac{5}{8} \\) and eat 2 more slices, what's left? (\\( \\frac{3}{8} \\))\n4. **Say:** Let's multiply. If each slice is \\( \\frac{1}{8} \\) and we have 4 pizzas, how many slices? (32 slices)\n5. **Ask:** If we eat \\( \\frac{1}{8} \\) of each pizza, how many slices is that? (4 slices)\n6. **Say:** Great job! You've multiplied fractions by whole numbers.",
+    "mistakes": "- - Confusing numerators and denominators. **Try:** Use visual aids like pie charts to clarify.\n- - Forgetting to find a common denominator when adding/subtracting. **Try:** Practice with simple fractions first.\n- - Misinterpreting multiplication as addition. **Try:** Reinforce that multiplication means repeated addition.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Cooking is a great way to practice fractions. Measuring ingredients often involves adding or multiplying fractions.\nShopping can also involve fractions, like when calculating discounts or comparing prices per unit.",
+    "close": "Great work! With practice, fractions will become a natural part of your child's math toolkit. Keep exploring and learning together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Fractions: Add, Subtract, Multiply (× Whole Numbers)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Fractions: Add, Subtract, Multiply (× Whole Numbers)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Fractions: Add, Subtract, Multiply (× Whole Numbers)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

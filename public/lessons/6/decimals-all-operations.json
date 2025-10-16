@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "1b2d7a7f-7ed7-441a-b2e8-7ed1e0d3ed1f",
+    "title": "Numbers & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "29b1889c-f67a-4826-a30e-d6afbf5028eb",
+    "slug": "decimals-all-operations",
+    "title": "Decimals: All Operations",
+    "summary": "Decimals: All Operations — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to add, subtract, multiply, and divide decimals.\n- Apply decimal operations in real-life situations.\n- **Why this matters for parents:** Helps your child handle money, measurements, and data accurately.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Decimals are numbers that include a decimal point to represent a fraction of a whole. They are used in many everyday situations, like handling money or measuring ingredients.\nUnderstanding decimal operations is crucial for your child to solve real-world problems efficiently and accurately. This lesson will guide you in teaching these skills using simple household items.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals work similarly to whole numbers but require careful attention to the placement of the decimal point. Mastering these operations will build your child's confidence in math and everyday tasks.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use coins to understand decimals. A dime is $0.10, and a penny is $0.01.\"\n2. **Ask:** \"If you have 3 dimes and 4 pennies, how much money do you have?\"\n3. Add the dimes: $0.10 + 0.10 + 0.10 = 0.30.\n4. Add the pennies: $0.01 + 0.01 + 0.01 + 0.01 = 0.04.\n5. **Say:** \"Now, add them together: $0.30 + 0.04 = 0.34. You have $0.34.\"\n6. **Ask:** \"What if you spent $0.14? How much would you have left?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add or subtract decimals, align the decimal points and proceed as with whole numbers. For example, $0.75 + 0.25 = 1.00$.\nWhen multiplying, ignore the decimal points initially, multiply as whole numbers, and then place the decimal point in the product. For example, $0.6 \\times 0.3 = 0.18$.\nFor division, move the decimal point in the divisor to make it a whole number, and do the same in the dividend. Then divide as usual. For example, $1.2 \\div 0.3 = 4$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Addition/Subtraction: $a + b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Multiplication: $a \\times b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Division: $a \\div b = c$\n  - $a$, $b$, $c$ are decimal numbers",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's practice adding decimals using these coins.\"\n2. **Ask:** \"Can you show me how to add $0.25 and $0.50?\"\n3. **Say:** \"Great! Now, let's try subtracting $0.30 from $0.75.\"\n4. **Ask:** \"How would you multiply $0.4 by $0.5?\"\n5. **Say:** \"Finally, let's divide $1.5 by $0.5.\"\n6. **Encourage:** \"Keep practicing with different numbers to get comfortable!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misaligning decimal points. **Try:** Use lined paper to keep numbers straight.\n- Forgetting to adjust the decimal in multiplication. **Try:** Count decimal places before multiplying.\n- Incorrectly moving the decimal in division. **Try:** Practice with simple examples first.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Decimals are everywhere! When you shop, prices often involve decimals. Cooking measurements, like 0.5 cups, also use decimals.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You've got this! With practice, decimals will become second nature. Keep exploring and applying these skills in daily life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to add, subtract, multiply, and divide decimals.\n- Apply decimal operations in real-life situations.\n- **Why this matters for parents:** Helps your child handle money, measurements, and data accurately.",
+    "overview": "Decimals are numbers that include a decimal point to represent a fraction of a whole. They are used in many everyday situations, like handling money or measuring ingredients.\nUnderstanding decimal operations is crucial for your child to solve real-world problems efficiently and accurately. This lesson will guide you in teaching these skills using simple household items.",
+    "core": "Decimals work similarly to whole numbers but require careful attention to the placement of the decimal point. Mastering these operations will build your child's confidence in math and everyday tasks.",
+    "demo": "1. **Say:** \"Let's use coins to understand decimals. A dime is $0.10, and a penny is $0.01.\"\n2. **Ask:** \"If you have 3 dimes and 4 pennies, how much money do you have?\"\n3. Add the dimes: $0.10 + 0.10 + 0.10 = 0.30.\n4. Add the pennies: $0.01 + 0.01 + 0.01 + 0.01 = 0.04.\n5. **Say:** \"Now, add them together: $0.30 + 0.04 = 0.34. You have $0.34.\"\n6. **Ask:** \"What if you spent $0.14? How much would you have left?\"",
+    "math": "To add or subtract decimals, align the decimal points and proceed as with whole numbers. For example, $0.75 + 0.25 = 1.00$.\nWhen multiplying, ignore the decimal points initially, multiply as whole numbers, and then place the decimal point in the product. For example, $0.6 \\times 0.3 = 0.18$.\nFor division, move the decimal point in the divisor to make it a whole number, and do the same in the dividend. Then divide as usual. For example, $1.2 \\div 0.3 = 4$.",
+    "formulas": "- Addition/Subtraction: $a + b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Multiplication: $a \\times b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Division: $a \\div b = c$\n  - $a$, $b$, $c$ are decimal numbers",
+    "guide": "1. **Say:** \"Let's practice adding decimals using these coins.\"\n2. **Ask:** \"Can you show me how to add $0.25 and $0.50?\"\n3. **Say:** \"Great! Now, let's try subtracting $0.30 from $0.75.\"\n4. **Ask:** \"How would you multiply $0.4 by $0.5?\"\n5. **Say:** \"Finally, let's divide $1.5 by $0.5.\"\n6. **Encourage:** \"Keep practicing with different numbers to get comfortable!\"",
+    "mistakes": "- Misaligning decimal points. **Try:** Use lined paper to keep numbers straight.\n- Forgetting to adjust the decimal in multiplication. **Try:** Count decimal places before multiplying.\n- Incorrectly moving the decimal in division. **Try:** Practice with simple examples first.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Decimals are everywhere! When you shop, prices often involve decimals. Cooking measurements, like 0.5 cups, also use decimals.",
+    "close": "You've got this! With practice, decimals will become second nature. Keep exploring and applying these skills in daily life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Decimals: All Operations**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Decimals: All Operations** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Decimals: All Operations**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

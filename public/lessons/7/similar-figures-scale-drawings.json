@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f1868f71-acd7-43bb-aed3-3fa39b473c19",
+    "slug": "similar-figures-scale-drawings",
+    "title": "Similar Figures & Scale Drawings",
+    "summary": "Similar Figures & Scale Drawings — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what similar figures are and how to identify them.\n- Learn how to use scale drawings to solve real-world problems.\n- **Why this matters for parents:** This lesson helps children grasp concepts of proportion and scaling, which are crucial in fields like architecture and design.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Similar figures are shapes that have the same shape but different sizes. They are like enlarged or reduced versions of each other. Scale drawings use similar figures to represent objects accurately but in a different size.\nUnderstanding similar figures and scale drawings helps children see the world in a new way, recognizing patterns and proportions. This skill is useful in many real-life situations, from reading maps to designing a room layout.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Similar figures have corresponding angles that are equal and corresponding sides that are proportional. This means if one shape is a scaled-up or scaled-down version of another, they are similar. Scale drawings use this concept to represent larger objects in a smaller, manageable size.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A small toy car and a larger toy car.\n2. **Say:** \"These cars are different sizes, but they look the same. They are similar figures.\"\n3. **Ask:** \"Can you see how the shape is the same, even though the size is different?\"\n4. **Measure:** Use a ruler to measure the length of each car. Note the ratio.\n5. **Explain:** \"If the small car is 5 cm and the large car is 10 cm, the ratio is 1:2. This means the large car is twice as big.\"\n6. **Discuss:** How this concept applies to things like maps or model buildings.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When two figures are similar, their corresponding side lengths are proportional. For example, if triangle ABC is similar to triangle DEF, and the sides of ABC are 3 cm, 4 cm, and 5 cm, while DEF's sides are 6 cm, 8 cm, and 10 cm, the ratio of corresponding sides is 1:2. This means each side of DEF is twice as long as the corresponding side of ABC.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Ratio = \\frac{\\text{Length of side in figure 1}}{\\text{Length of corresponding side in figure 2}}\n* Represents the proportional relationship between similar figures.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Identify:** Look around your home for objects that are similar but different in size, like picture frames.\n2. **Measure:** Use a ruler to measure corresponding sides of these objects.\n3. **Calculate:** Find the ratio of the lengths of corresponding sides.\n4. **Discuss:** Ask your child how these ratios show similarity.\n5. **Explore:** Draw a simple shape and create a scale drawing by doubling the size.\n6. **Reflect:** Talk about how this skill can help in real-life situations like planning a garden.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing similar with congruent figures. Try: Emphasize that similar figures have the same shape, not necessarily the same size.\n- Forgetting to compare corresponding sides. Try: Always match sides and angles in the same order.\n- Ignoring the proportionality of sides. Try: Use ratios to check if figures are truly similar.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Scale drawings are used in architecture to create blueprints. Maps are another example, where large distances are represented in a smaller, manageable size.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring similar figures and scale drawings opens up a world of understanding in design and planning. Keep encouraging your child to see the connections in everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what similar figures are and how to identify them.\n- Learn how to use scale drawings to solve real-world problems.\n- **Why this matters for parents:** This lesson helps children grasp concepts of proportion and scaling, which are crucial in fields like architecture and design.",
+    "overview": "Similar figures are shapes that have the same shape but different sizes. They are like enlarged or reduced versions of each other. Scale drawings use similar figures to represent objects accurately but in a different size.\nUnderstanding similar figures and scale drawings helps children see the world in a new way, recognizing patterns and proportions. This skill is useful in many real-life situations, from reading maps to designing a room layout.",
+    "core": "Similar figures have corresponding angles that are equal and corresponding sides that are proportional. This means if one shape is a scaled-up or scaled-down version of another, they are similar. Scale drawings use this concept to represent larger objects in a smaller, manageable size.",
+    "demo": "1. **Gather:** A small toy car and a larger toy car.\n2. **Say:** \"These cars are different sizes, but they look the same. They are similar figures.\"\n3. **Ask:** \"Can you see how the shape is the same, even though the size is different?\"\n4. **Measure:** Use a ruler to measure the length of each car. Note the ratio.\n5. **Explain:** \"If the small car is 5 cm and the large car is 10 cm, the ratio is 1:2. This means the large car is twice as big.\"\n6. **Discuss:** How this concept applies to things like maps or model buildings.",
+    "math": "When two figures are similar, their corresponding side lengths are proportional. For example, if triangle ABC is similar to triangle DEF, and the sides of ABC are 3 cm, 4 cm, and 5 cm, while DEF's sides are 6 cm, 8 cm, and 10 cm, the ratio of corresponding sides is 1:2. This means each side of DEF is twice as long as the corresponding side of ABC.",
+    "formulas": "Ratio = \\frac{\\text{Length of side in figure 1}}{\\text{Length of corresponding side in figure 2}}\n* Represents the proportional relationship between similar figures.",
+    "guide": "1. **Identify:** Look around your home for objects that are similar but different in size, like picture frames.\n2. **Measure:** Use a ruler to measure corresponding sides of these objects.\n3. **Calculate:** Find the ratio of the lengths of corresponding sides.\n4. **Discuss:** Ask your child how these ratios show similarity.\n5. **Explore:** Draw a simple shape and create a scale drawing by doubling the size.\n6. **Reflect:** Talk about how this skill can help in real-life situations like planning a garden.",
+    "mistakes": "- Confusing similar with congruent figures. Try: Emphasize that similar figures have the same shape, not necessarily the same size.\n- Forgetting to compare corresponding sides. Try: Always match sides and angles in the same order.\n- Ignoring the proportionality of sides. Try: Use ratios to check if figures are truly similar.",
+    "connection": "Scale drawings are used in architecture to create blueprints. Maps are another example, where large distances are represented in a smaller, manageable size.",
+    "close": "Exploring similar figures and scale drawings opens up a world of understanding in design and planning. Keep encouraging your child to see the connections in everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If a rectangle has sides 4 cm and 6 cm, and a similar rectangle has a shorter side of 8 cm, what is the length of the longer side?",
+      "hint_md": "Use the ratio of the corresponding sides to find the missing length.",
+      "answer_md": "The longer side is 12 cm because \\( \\frac{8}{4} = 2 \\), so \\( 6 \\times 2 = 12 \\)."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Two triangles are similar. The sides of one triangle are 3 cm, 4 cm, and 5 cm. The longest side of the other triangle is 15 cm. What are the lengths of the other sides?",
+      "hint_md": "Find the ratio of the longest sides and apply it to find the other sides.",
+      "answer_md": "The sides are 9 cm and 12 cm because the ratio is \\( \\frac{15}{5} = 3 \\), so \\( 3 \\times 3 = 9 \\) and \\( 4 \\times 3 = 12 \\)."
+    },
+    {
+      "order_index": 3,
+      "question_md": "A map uses a scale of 1:100. If a distance on the map is 3 cm, what is the actual distance?",
+      "hint_md": "Multiply the map distance by the scale factor.",
+      "answer_md": "The actual distance is 300 cm because \\( 3 \\times 100 = 300 \\)."
+    }
+  ]
+}

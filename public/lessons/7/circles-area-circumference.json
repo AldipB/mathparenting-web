@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "bc20eed0-8420-4c06-bab3-2801b267a45c",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "07bf6405-06c5-4e7d-8d71-3fe2683f848f",
+    "slug": "circles-area-circumference",
+    "title": "Circles: Area & Circumference",
+    "summary": "Circles: Area & Circumference — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of area and circumference of circles.\n- Learn to use formulas to calculate these measurements.\n- **Why this matters for parents:** Helps you support your child's understanding of geometry, a key math skill.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the concepts of area and circumference of circles. We'll explore how to measure the space inside a circle and the distance around it.\nUnderstanding circles is important because they appear in many real-life contexts, from wheels to pizzas. Knowing how to calculate these measurements helps with practical tasks and builds a foundation for more advanced math.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Circles are round shapes with no corners or sides. The circumference is the distance around the circle, like the edge of a plate. The area is the space inside the circle, similar to the surface of a pancake. We'll use simple formulas to find these measurements.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find some circular objects like a lid or a can. Measure the distance around one with a string.\n2. **Ask:** How long is the string? This is the circumference.\n3. **Say:** Now, let's use a straw or stick to measure the diameter (distance across the circle through the center).\n4. **Ask:** Can you see how the diameter fits across the circle?\n5. **Say:** Let's compare this to a square. Rotate a square and see how it looks like a 'diamond' but is still a square.\n6. **Ask:** How is a circle different from a square or rectangle?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The circumference of a circle is calculated using the formula $C = \\pi d$, where $d$ is the diameter. For example, if the diameter is 4 cm, the circumference is $C = \\pi \\times 4 \\approx 12.57$ cm.\nThe area is found with $A = \\pi r^2$, where $r$ is the radius (half the diameter). If the radius is 2 cm, the area is $A = \\pi \\times 2^2 \\approx 12.57$ cm².",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $C = \\pi d$\n  - $C$: circumference\n  - $d$: diameter\n- $A = \\pi r^2$\n  - $A$: area\n  - $r$: radius",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's measure the diameter of a circular object.\n2. **Ask:** Can you find the radius from the diameter?\n3. **Say:** Use the formulas to calculate the circumference and area.\n4. **Ask:** How do these numbers compare to other shapes?\n5. **Say:** Practice with different circles to see how the measurements change.\n6. **Ask:** What patterns do you notice?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing diameter with radius. **Try:** Remember, the radius is half the diameter.\n- Forgetting to square the radius in the area formula. **Try:** Write out $r \\times r$ to help.\n- Using the wrong formula for circumference. **Try:** Check if you're using $C = \\pi d$.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Circles are everywhere! Think about bike wheels, clocks, and pizzas. Understanding their measurements helps in cooking, crafting, and even planning events.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring circles! Keep practicing, and you'll see how these shapes fit into the world around you.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of area and circumference of circles.\n- Learn to use formulas to calculate these measurements.\n- **Why this matters for parents:** Helps you support your child's understanding of geometry, a key math skill.",
+    "overview": "This lesson introduces the concepts of area and circumference of circles. We'll explore how to measure the space inside a circle and the distance around it.\nUnderstanding circles is important because they appear in many real-life contexts, from wheels to pizzas. Knowing how to calculate these measurements helps with practical tasks and builds a foundation for more advanced math.",
+    "core": "Circles are round shapes with no corners or sides. The circumference is the distance around the circle, like the edge of a plate. The area is the space inside the circle, similar to the surface of a pancake. We'll use simple formulas to find these measurements.",
+    "demo": "1. **Say:** Let's find some circular objects like a lid or a can. Measure the distance around one with a string.\n2. **Ask:** How long is the string? This is the circumference.\n3. **Say:** Now, let's use a straw or stick to measure the diameter (distance across the circle through the center).\n4. **Ask:** Can you see how the diameter fits across the circle?\n5. **Say:** Let's compare this to a square. Rotate a square and see how it looks like a 'diamond' but is still a square.\n6. **Ask:** How is a circle different from a square or rectangle?",
+    "math": "The circumference of a circle is calculated using the formula $C = \\pi d$, where $d$ is the diameter. For example, if the diameter is 4 cm, the circumference is $C = \\pi \\times 4 \\approx 12.57$ cm.\nThe area is found with $A = \\pi r^2$, where $r$ is the radius (half the diameter). If the radius is 2 cm, the area is $A = \\pi \\times 2^2 \\approx 12.57$ cm².",
+    "formulas": "- $C = \\pi d$\n  - $C$: circumference\n  - $d$: diameter\n- $A = \\pi r^2$\n  - $A$: area\n  - $r$: radius",
+    "guide": "1. **Say:** Let's measure the diameter of a circular object.\n2. **Ask:** Can you find the radius from the diameter?\n3. **Say:** Use the formulas to calculate the circumference and area.\n4. **Ask:** How do these numbers compare to other shapes?\n5. **Say:** Practice with different circles to see how the measurements change.\n6. **Ask:** What patterns do you notice?",
+    "mistakes": "- Confusing diameter with radius. **Try:** Remember, the radius is half the diameter.\n- Forgetting to square the radius in the area formula. **Try:** Write out $r \\times r$ to help.\n- Using the wrong formula for circumference. **Try:** Check if you're using $C = \\pi d$.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Circles are everywhere! Think about bike wheels, clocks, and pizzas. Understanding their measurements helps in cooking, crafting, and even planning events.",
+    "close": "Great job exploring circles! Keep practicing, and you'll see how these shapes fit into the world around you."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Circles: Area & Circumference**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Circles: Area & Circumference** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Circles: Area & Circumference**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

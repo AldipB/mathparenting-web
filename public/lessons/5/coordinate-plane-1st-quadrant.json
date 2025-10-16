@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "eae0222c-bc38-4b60-9cd3-9fda4d41fb19",
+    "slug": "coordinate-plane-1st-quadrant",
+    "title": "Coordinate Plane (1st Quadrant)",
+    "summary": "Coordinate Plane (1st Quadrant) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of the coordinate plane (1st quadrant).\n- Plot points using ordered pairs.\n- **Why this matters for parents:** Helps your child connect math to real-world locations and navigation.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "The coordinate plane is a grid used to locate points using two numbers, called coordinates. In the 1st quadrant, both numbers are positive. This is like finding a spot on a map using a pair of directions.\nUnderstanding the coordinate plane helps children visualize math and apply it to real-world situations, like reading maps or playing strategy games. It builds spatial awareness and problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In the 1st quadrant of the coordinate plane, each point is represented by an ordered pair (x, y). The first number, x, tells you how far to move right, and the second number, y, tells you how far to move up.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Imagine our living room floor is a grid.\"\n2. **Use:** Tape to mark a small grid on the floor with 3 columns and 3 rows.\n3. **Say:** \"Let's pretend the bottom left corner is (0, 0).\"\n4. **Ask:** \"If you move 2 steps right and 1 step up, where are you?\"\n5. **Say:** \"That's (2, 1)!\"\n6. **Use:** Small toys to mark different points like (1, 2) or (3, 3).",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The coordinate plane uses ordered pairs (x, y) to specify locations. For example, the point (3, 2) means move 3 units to the right and 2 units up from the origin (0, 0). This helps in visualizing and solving problems involving space and distance.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What does the first number in (x, y) tell us?\"\n2. **Say:** \"It tells us how far to move right.\"\n3. **Ask:** \"And the second number?\"\n4. **Say:** \"It tells us how far to move up.\"\n5. **Use:** A ruler to measure steps on the grid for accuracy.\n6. **Encourage:** \"Try plotting (2, 3) and see where you land!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing x and y: **Try:** \"Remember, x is across, y is up.\"\n- Starting from the wrong point: **Try:** \"Always start from (0, 0).\"\n- Reversing coordinates: **Try:** \"Check the order: x first, then y.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Coordinate planes are used in video games to locate characters and objects. They're also essential for reading maps and understanding GPS systems.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring the coordinate plane! Keep practicing, and soon you'll be a master at finding points.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of the coordinate plane (1st quadrant).\n- Plot points using ordered pairs.\n- **Why this matters for parents:** Helps your child connect math to real-world locations and navigation.",
+    "overview": "The coordinate plane is a grid used to locate points using two numbers, called coordinates. In the 1st quadrant, both numbers are positive. This is like finding a spot on a map using a pair of directions.\nUnderstanding the coordinate plane helps children visualize math and apply it to real-world situations, like reading maps or playing strategy games. It builds spatial awareness and problem-solving skills.",
+    "core": "In the 1st quadrant of the coordinate plane, each point is represented by an ordered pair (x, y). The first number, x, tells you how far to move right, and the second number, y, tells you how far to move up.",
+    "demo": "1. **Say:** \"Imagine our living room floor is a grid.\"\n2. **Use:** Tape to mark a small grid on the floor with 3 columns and 3 rows.\n3. **Say:** \"Let's pretend the bottom left corner is (0, 0).\"\n4. **Ask:** \"If you move 2 steps right and 1 step up, where are you?\"\n5. **Say:** \"That's (2, 1)!\"\n6. **Use:** Small toys to mark different points like (1, 2) or (3, 3).",
+    "math": "The coordinate plane uses ordered pairs (x, y) to specify locations. For example, the point (3, 2) means move 3 units to the right and 2 units up from the origin (0, 0). This helps in visualizing and solving problems involving space and distance.",
+    "guide": "1. **Ask:** \"What does the first number in (x, y) tell us?\"\n2. **Say:** \"It tells us how far to move right.\"\n3. **Ask:** \"And the second number?\"\n4. **Say:** \"It tells us how far to move up.\"\n5. **Use:** A ruler to measure steps on the grid for accuracy.\n6. **Encourage:** \"Try plotting (2, 3) and see where you land!\"",
+    "mistakes": "- Confusing x and y: **Try:** \"Remember, x is across, y is up.\"\n- Starting from the wrong point: **Try:** \"Always start from (0, 0).\"\n- Reversing coordinates: **Try:** \"Check the order: x first, then y.\"",
+    "connection": "Coordinate planes are used in video games to locate characters and objects. They're also essential for reading maps and understanding GPS systems.",
+    "close": "Great job exploring the coordinate plane! Keep practicing, and soon you'll be a master at finding points."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Plot the point (4, 3) on a grid.",
+      "hint_md": "Start at (0, 0), move 4 right, then 3 up.",
+      "answer_md": "The point (4, 3) is 4 units right and 3 units up from the origin."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What are the coordinates of a point 2 steps right and 5 steps up?",
+      "hint_md": "Count 2 steps on the x-axis and 5 steps on the y-axis.",
+      "answer_md": "The coordinates are (2, 5)."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If a point is at (1, 4), how many steps up from the origin?",
+      "hint_md": "Look at the y-coordinate.",
+      "answer_md": "The point is 4 steps up from the origin."
+    }
+  ]
+}

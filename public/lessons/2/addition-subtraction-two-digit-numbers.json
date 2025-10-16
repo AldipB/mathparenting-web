@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "66e0cbdc-35f7-488c-94a5-bc6fb7b49afe",
+    "title": "Operations & Foundations of × ÷",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "0541475e-26af-440c-afb7-f7e3c73ae87c",
+    "slug": "addition-subtraction-two-digit-numbers",
+    "title": "Addition & Subtraction (Two-Digit Numbers)",
+    "summary": "Addition & Subtraction (Two-Digit Numbers) — summary for parents in Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand addition and subtraction of two-digit numbers.\n- Use household objects to visualize math problems.\n- Build confidence in solving math problems independently.\n**Why this matters for parents:** Helping your child grasp these concepts strengthens their math foundation and boosts their problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching children how to add and subtract two-digit numbers using simple strategies and household objects. It builds on their understanding of basic addition and subtraction by introducing larger numbers.\nMastering these skills is crucial as it lays the groundwork for more advanced math topics. It also enhances their ability to solve everyday problems involving numbers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will learn to add and subtract two-digit numbers by breaking them into tens and ones. This method helps them see the numbers more clearly and simplifies the process. Using objects like coins or blocks makes the math tangible and easier to understand.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 coins or small blocks.\n2. **Say:** \"Let's add 23 and 15.\"\n3. Separate 23 into 2 groups of 10 and 3 single coins. Do the same for 15.\n4. **Ask:** \"How many groups of 10 do we have now?\" (3 groups of 10)\n5. **Say:** \"Now count the single coins.\" (8 single coins)\n6. **Say:** \"So, 23 + 15 equals 38.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When adding or subtracting two-digit numbers, break them into tens and ones. For example, to add 23 and 15:\n$$23 + 15 = (20 + 3) + (10 + 5) = (20 + 10) + (3 + 5) = 30 + 8 = 38$$\nThis method helps visualize the problem and makes it easier to solve.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a + b = (a_{tens} + b_{tens}) + (a_{ones} + b_{ones})$\n  - $a_{tens}$ and $b_{tens}$ are the tens digits of $a$ and $b$.\n  - $a_{ones}$ and $b_{ones}$ are the ones digits of $a$ and $b$.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's use blocks to solve 46 - 29.\"\n2. Break 46 into 4 tens and 6 ones.\n3. Break 29 into 2 tens and 9 ones.\n4. **Ask:** \"Can we subtract 9 ones from 6 ones?\" (No, we need to regroup)\n5. Regroup: Take 1 ten from 46, making it 3 tens and 16 ones.\n6. **Say:** \"Now, subtract: 16 - 9 = 7 and 3 tens - 2 tens = 1 ten. So, 46 - 29 = 17.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to regroup when needed.\n  Try: Remind them to check if the ones can be subtracted directly.\n- Mixing up tens and ones.\n  Try: Use different colored objects for tens and ones.\n- Adding instead of subtracting.\n  Try: Use language like \"take away\" to clarify subtraction.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Adding and subtracting two-digit numbers is useful when shopping. For example, if a toy costs $23 and you have $50, knowing how to subtract helps you find out how much money you'll have left.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child explore two-digit addition and subtraction! Keep practicing to build their confidence and skills.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand addition and subtraction of two-digit numbers.\n- Use household objects to visualize math problems.\n- Build confidence in solving math problems independently.\n**Why this matters for parents:** Helping your child grasp these concepts strengthens their math foundation and boosts their problem-solving skills.",
+    "overview": "This lesson focuses on teaching children how to add and subtract two-digit numbers using simple strategies and household objects. It builds on their understanding of basic addition and subtraction by introducing larger numbers.\nMastering these skills is crucial as it lays the groundwork for more advanced math topics. It also enhances their ability to solve everyday problems involving numbers.",
+    "core": "Children will learn to add and subtract two-digit numbers by breaking them into tens and ones. This method helps them see the numbers more clearly and simplifies the process. Using objects like coins or blocks makes the math tangible and easier to understand.",
+    "demo": "1. Gather 20 coins or small blocks.\n2. **Say:** \"Let's add 23 and 15.\"\n3. Separate 23 into 2 groups of 10 and 3 single coins. Do the same for 15.\n4. **Ask:** \"How many groups of 10 do we have now?\" (3 groups of 10)\n5. **Say:** \"Now count the single coins.\" (8 single coins)\n6. **Say:** \"So, 23 + 15 equals 38.\"",
+    "math": "When adding or subtracting two-digit numbers, break them into tens and ones. For example, to add 23 and 15:\n$$23 + 15 = (20 + 3) + (10 + 5) = (20 + 10) + (3 + 5) = 30 + 8 = 38$$\nThis method helps visualize the problem and makes it easier to solve.",
+    "formulas": "- $a + b = (a_{tens} + b_{tens}) + (a_{ones} + b_{ones})$\n  - $a_{tens}$ and $b_{tens}$ are the tens digits of $a$ and $b$.\n  - $a_{ones}$ and $b_{ones}$ are the ones digits of $a$ and $b$.",
+    "guide": "1. **Say:** \"Let's use blocks to solve 46 - 29.\"\n2. Break 46 into 4 tens and 6 ones.\n3. Break 29 into 2 tens and 9 ones.\n4. **Ask:** \"Can we subtract 9 ones from 6 ones?\" (No, we need to regroup)\n5. Regroup: Take 1 ten from 46, making it 3 tens and 16 ones.\n6. **Say:** \"Now, subtract: 16 - 9 = 7 and 3 tens - 2 tens = 1 ten. So, 46 - 29 = 17.\"",
+    "mistakes": "- Forgetting to regroup when needed.\n  Try: Remind them to check if the ones can be subtracted directly.\n- Mixing up tens and ones.\n  Try: Use different colored objects for tens and ones.\n- Adding instead of subtracting.\n  Try: Use language like \"take away\" to clarify subtraction.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Adding and subtracting two-digit numbers is useful when shopping. For example, if a toy costs $23 and you have $50, knowing how to subtract helps you find out how much money you'll have left.",
+    "close": "Great job helping your child explore two-digit addition and subtraction! Keep practicing to build their confidence and skills."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Addition & Subtraction (Two-Digit Numbers)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Addition & Subtraction (Two-Digit Numbers)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Addition & Subtraction (Two-Digit Numbers)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f12c6bef-8105-400f-9ee0-ee3352b59da5",
+    "slug": "halves-quarters-fractions-as-equal-shares",
+    "title": "Halves & Quarters (Fractions as Equal Shares)",
+    "summary": "Halves & Quarters (Fractions as Equal Shares) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Understand the concepts of halves and quarters as equal shares. Recognize these fractions in everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, your child will learn about halves and quarters. These are simple fractions that show how to divide things into equal parts. By using familiar objects, your child will grasp these concepts easily.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Fractions represent parts of a whole. A half means dividing something into 2 equal parts, while a quarter means dividing it into 4 equal parts. This lesson will help your child visualize and understand these fractions using everyday items.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Activity: Cutting a Sandwich\n1. Take a sandwich and place it on a cutting board.\n2. Say: 'Let’s cut this sandwich in half. How many pieces will we have?'\n3. Cut the sandwich into 2 equal parts. Show your child that each piece is a half.\n4. Now, ask: 'What if we cut one of these halves into 2 equal parts?'\n5. Cut one half into 2 equal parts. Say: 'Now we have quarters!'\n6. Discuss how each piece is a quarter of the whole sandwich.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A half is represented as $\\frac{1}{2}$ and a quarter as $\\frac{1}{4}$. This means that when you divide something into 2 equal parts, each part is a half. When you divide it into 4 equal parts, each part is a quarter.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$\\frac{1}{2}$ for half,$\\frac{1}{4}$ for quarter",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather a round object like a fruit (e.g., an apple).\n2. Ask: 'How can we share this apple equally?'\n3. Cut it in half and show the two pieces.\n4. Discuss: 'Each piece is a half. Can we make smaller pieces?'\n5. Cut one half into two equal parts and explain: 'Now we have quarters!'\n6. Celebrate their understanding by praising their effort!",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If they say a half is one piece, gently correct: 'A half means two equal pieces, not one.',If they confuse halves and quarters, remind them: 'Halves are 2 parts, quarters are 4 parts.',If they struggle to visualize, suggest: 'Let’s use another object to try again!'",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "We often share food, like pizza or cake, which helps us see halves and quarters in action.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child understand halves and quarters! Keep practicing with everyday items.",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "Understand the concepts of halves and quarters as equal shares. Recognize these fractions in everyday situations.",
+    "overview": "In this lesson, your child will learn about halves and quarters. These are simple fractions that show how to divide things into equal parts. By using familiar objects, your child will grasp these concepts easily.",
+    "core": "Fractions represent parts of a whole. A half means dividing something into 2 equal parts, while a quarter means dividing it into 4 equal parts. This lesson will help your child visualize and understand these fractions using everyday items.",
+    "demo": "Activity: Cutting a Sandwich\n1. Take a sandwich and place it on a cutting board.\n2. Say: 'Let’s cut this sandwich in half. How many pieces will we have?'\n3. Cut the sandwich into 2 equal parts. Show your child that each piece is a half.\n4. Now, ask: 'What if we cut one of these halves into 2 equal parts?'\n5. Cut one half into 2 equal parts. Say: 'Now we have quarters!'\n6. Discuss how each piece is a quarter of the whole sandwich.",
+    "math": "A half is represented as $\\frac{1}{2}$ and a quarter as $\\frac{1}{4}$. This means that when you divide something into 2 equal parts, each part is a half. When you divide it into 4 equal parts, each part is a quarter.",
+    "formulas": "$\\frac{1}{2}$ for half,$\\frac{1}{4}$ for quarter",
+    "guide": "1. Gather a round object like a fruit (e.g., an apple).\n2. Ask: 'How can we share this apple equally?'\n3. Cut it in half and show the two pieces.\n4. Discuss: 'Each piece is a half. Can we make smaller pieces?'\n5. Cut one half into two equal parts and explain: 'Now we have quarters!'\n6. Celebrate their understanding by praising their effort!",
+    "mistakes": "If they say a half is one piece, gently correct: 'A half means two equal pieces, not one.',If they confuse halves and quarters, remind them: 'Halves are 2 parts, quarters are 4 parts.',If they struggle to visualize, suggest: 'Let’s use another object to try again!'",
+    "connection": "We often share food, like pizza or cake, which helps us see halves and quarters in action.",
+    "close": "Great job helping your child understand halves and quarters! Keep practicing with everyday items."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If you cut a pizza into 4 equal slices, what fraction is each slice?",
+      "hint_md": "Think about how many slices there are in total.",
+      "answer_md": "$\\frac{1}{4}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "How many halves are in a whole apple?",
+      "hint_md": "If you cut it in half, how many pieces do you have?",
+      "answer_md": "$2$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What fraction represents one part of a sandwich cut into 2 equal pieces?",
+      "hint_md": "Remember, each piece is a half.",
+      "answer_md": "$\\frac{1}{2}$"
+    }
+  ]
+}

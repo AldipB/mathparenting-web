@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "e88871e3-d010-4b49-ab34-b9fd9eaffc84",
+    "title": "Rational Numbers & Integers",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "baf4cc41-b63b-476a-855a-9c52ed51c4b0",
+    "slug": "operations-with-integers",
+    "title": "Operations with Integers",
+    "summary": "Operations with Integers — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand addition, subtraction, multiplication, and division of integers.\n- Help your child confidently solve integer problems.\n- **Why this matters for parents:** Building a strong foundation in integer operations supports your child's success in more advanced math topics.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on operations with integers, which are whole numbers that can be positive, negative, or zero. Understanding how to add, subtract, multiply, and divide these numbers is crucial for solving real-world problems and progressing in math.\nMastering integer operations helps children develop logical thinking and problem-solving skills. It also lays the groundwork for algebra and other higher-level math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Integers include positive numbers, negative numbers, and zero. Operations with integers follow specific rules, especially when dealing with signs. For example, adding a negative number is like subtracting a positive one. These rules help us make sense of everyday situations, like calculating temperature changes.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A set of small household items (e.g., coins or buttons) and a piece of paper.\n2. **Say:** \"Let's imagine these items are positive and negative numbers.\"\n3. **Ask:** \"If we have 3 positive items and add 2 negative items, what happens?\"\n4. **Show:** Place 3 items on one side of the paper and 2 on the other. Pair them to see what's left.\n5. **Explain:** \"We have 1 positive item left. So, 3 + (-2) = 1.\"\n6. **Ask:** \"What if we remove 4 positive items from 2 positive items?\" Show that 2 - 4 = -2.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When adding integers, if the signs are the same, add the absolute values and keep the sign. If the signs are different, subtract the smaller absolute value from the larger one and keep the sign of the larger.\nExample: $5 + (-3) = 2$ because $5 - 3 = 2$.\nFor multiplication and division, if the signs are the same, the result is positive. If different, the result is negative.\nExample: $(-4) \\times 3 = -12$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Addition: $a + b$\n  - $a$ and $b$ are integers.\n- Subtraction: $a - b$\n  - $a$ and $b$ are integers.\n- Multiplication: $a \\times b$\n  - $a$ and $b$ are integers.\n- Division: $a \\div b$\n  - $a$ and $b$ are integers; $b \\neq 0$.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with Addition:** Use household items to show adding positive and negative numbers.\n2. **Move to Subtraction:** Demonstrate removing items to show subtraction.\n3. **Introduce Multiplication:** Use repeated addition for positive numbers, then explain sign rules.\n4. **Explain Division:** Divide items into groups and discuss sign rules.\n5. **Practice Together:** Solve a few problems with your child, discussing each step.\n6. **Encourage Questions:** Ask your child to explain their thinking.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing signs: Try using a number line to visualize.\n- Forgetting sign rules in multiplication: Try writing down the rules as reminders.\n- Mixing up subtraction and addition: Try using physical objects to clarify.\n- Division by zero: Remind that division by zero is undefined.\n- Overlooking negative results: Try checking work with a calculator.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Understanding integers helps in real-life situations like managing finances (debt vs. savings) or interpreting temperature changes (above/below zero). These skills are useful in everyday decision-making.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring integer operations! Keep practicing, and soon these concepts will feel like second nature.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand addition, subtraction, multiplication, and division of integers.\n- Help your child confidently solve integer problems.\n- **Why this matters for parents:** Building a strong foundation in integer operations supports your child's success in more advanced math topics.",
+    "overview": "This lesson focuses on operations with integers, which are whole numbers that can be positive, negative, or zero. Understanding how to add, subtract, multiply, and divide these numbers is crucial for solving real-world problems and progressing in math.\nMastering integer operations helps children develop logical thinking and problem-solving skills. It also lays the groundwork for algebra and other higher-level math concepts.",
+    "core": "Integers include positive numbers, negative numbers, and zero. Operations with integers follow specific rules, especially when dealing with signs. For example, adding a negative number is like subtracting a positive one. These rules help us make sense of everyday situations, like calculating temperature changes.",
+    "demo": "1. **Gather:** A set of small household items (e.g., coins or buttons) and a piece of paper.\n2. **Say:** \"Let's imagine these items are positive and negative numbers.\"\n3. **Ask:** \"If we have 3 positive items and add 2 negative items, what happens?\"\n4. **Show:** Place 3 items on one side of the paper and 2 on the other. Pair them to see what's left.\n5. **Explain:** \"We have 1 positive item left. So, 3 + (-2) = 1.\"\n6. **Ask:** \"What if we remove 4 positive items from 2 positive items?\" Show that 2 - 4 = -2.",
+    "math": "When adding integers, if the signs are the same, add the absolute values and keep the sign. If the signs are different, subtract the smaller absolute value from the larger one and keep the sign of the larger.\nExample: $5 + (-3) = 2$ because $5 - 3 = 2$.\nFor multiplication and division, if the signs are the same, the result is positive. If different, the result is negative.\nExample: $(-4) \\times 3 = -12$.",
+    "formulas": "- Addition: $a + b$\n  - $a$ and $b$ are integers.\n- Subtraction: $a - b$\n  - $a$ and $b$ are integers.\n- Multiplication: $a \\times b$\n  - $a$ and $b$ are integers.\n- Division: $a \\div b$\n  - $a$ and $b$ are integers; $b \\neq 0$.",
+    "guide": "1. **Start with Addition:** Use household items to show adding positive and negative numbers.\n2. **Move to Subtraction:** Demonstrate removing items to show subtraction.\n3. **Introduce Multiplication:** Use repeated addition for positive numbers, then explain sign rules.\n4. **Explain Division:** Divide items into groups and discuss sign rules.\n5. **Practice Together:** Solve a few problems with your child, discussing each step.\n6. **Encourage Questions:** Ask your child to explain their thinking.",
+    "mistakes": "- Confusing signs: Try using a number line to visualize.\n- Forgetting sign rules in multiplication: Try writing down the rules as reminders.\n- Mixing up subtraction and addition: Try using physical objects to clarify.\n- Division by zero: Remind that division by zero is undefined.\n- Overlooking negative results: Try checking work with a calculator.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Understanding integers helps in real-life situations like managing finances (debt vs. savings) or interpreting temperature changes (above/below zero). These skills are useful in everyday decision-making.",
+    "close": "Great job exploring integer operations! Keep practicing, and soon these concepts will feel like second nature."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Operations with Integers**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Operations with Integers** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Operations with Integers**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

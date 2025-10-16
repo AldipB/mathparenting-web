@@ -2,6 +2,7 @@
   "name": "mathparenting-web",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,7 +17,6 @@
     "//———— authoring helpers ————": "",
     "author:all": "node scripts/authorAll.mjs",
     "author:missing": "node scripts/authorMissing.mjs",
-
     "author:k": "node scripts/autoAuthor.mjs --grade=k",
     "author:1": "node scripts/autoAuthor.mjs --grade=1",
     "author:2": "node scripts/autoAuthor.mjs --grade=2",
@@ -29,7 +29,12 @@
     "author:9": "node scripts/autoAuthor.mjs --grade=9",
     "author:10": "node scripts/autoAuthor.mjs --grade=10",
     "author:11": "node scripts/autoAuthor.mjs --grade=11",
-    "author:12": "node scripts/autoAuthor.mjs --grade=12"
+    "author:12": "node scripts/autoAuthor.mjs --grade=12",
+
+    "//———— lesson file utilities (Supabase → /public/lessons) ————": "",
+    "lessons:export": "node scripts/exportLessonsToFiles.mjs",
+    "lessons:list": "node -e \"const fs=require('fs'),p=require('path'),root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.log('No public/lessons/ found');process.exit(0)};for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);const files=fs.readdirSync(dir).filter(f=>f.endsWith('.json'));console.log(g+':', files.length, 'file(s)');files.forEach(f=>console.log('  -',f))}\"",
+    "lessons:check": "node -e \"const fs=require('fs'),p=require('path');const root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.error('❌ Missing public/lessons');process.exit(1)}let bad=0;for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);for(const f of fs.readdirSync(dir).filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync(p.join(dir,f),'utf8'))}catch(e){console.error('❌ Invalid JSON:',p.join('public','lessons',g,f));bad++}}}if(bad){process.exit(1)}console.log('✅ All lesson JSONs parse cleanly')\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.75.0",
@@ -44,18 +49,18 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/eslintrc": "^3.0.0",
     "@tailwindcss/postcss": "^4.1.14",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9",
+    "eslint": "^9.0.0",
     "eslint-config-next": "15.5.4",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.14",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5.6.0"
   },
   "engines": {
     "node": ">=18.18.0"

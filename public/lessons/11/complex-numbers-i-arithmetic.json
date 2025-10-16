@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "83d84ec9-0c65-4a83-97d0-7e17c5c0df21",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "795ed835-114c-4b47-b1da-e0f72501612b",
+    "slug": "complex-numbers-i-arithmetic",
+    "title": "Complex Numbers (i arithmetic)",
+    "summary": "Complex Numbers (i arithmetic) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of complex numbers and arithmetic with $i$\n- Learn how to add, subtract, multiply, and divide complex numbers\n- **Why this matters for parents:** Helps support your child in understanding advanced math concepts that are foundational for higher-level math and engineering.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Complex numbers are numbers that have a real part and an imaginary part. The imaginary unit $i$ is defined as the square root of $-1$. This concept is crucial in advanced mathematics and engineering fields.\nUnderstanding complex numbers allows students to solve equations that don't have real solutions. It also opens the door to more advanced topics in math and science, making it an important concept to grasp.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Complex numbers are written in the form $a + bi$, where $a$ is the real part and $bi$ is the imaginary part. Arithmetic with complex numbers involves combining these parts using addition, subtraction, multiplication, and division.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore complex numbers using a cup of water and a teaspoon of sugar.\n2. **Ask:** Imagine the water is the real part and the sugar is the imaginary part.\n3. **Say:** If we have $2 + 3i$, it's like having 2 cups of water and 3 teaspoons of sugar.\n4. **Ask:** What happens if we add $1 + 2i$? We add the water (real parts) and sugar (imaginary parts) separately.\n5. **Say:** So, $2 + 3i + 1 + 2i = (2+1) + (3+2)i = 3 + 5i$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add complex numbers, combine the real parts and the imaginary parts separately. For example, $(2 + 3i) + (1 + 2i) = 3 + 5i$. For multiplication, use the distributive property: $(2 + 3i)(1 + 2i) = 2 + 4i + 3i + 6i^2$. Since $i^2 = -1$, this simplifies to $2 + 7i - 6 = -4 + 7i$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $(a + bi) + (c + di) = (a+c) + (b+d)i$\n  - $a, b, c, d$ are real numbers\n- $(a + bi)(c + di) = (ac - bd) + (ad + bc)i$\n  - $a, b, c, d$ are real numbers",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is $i$? Explain that $i$ is the square root of $-1$.\n2. **Say:** Let's add $3 + 4i$ and $5 + 6i$. What do we do with the real and imaginary parts?\n3. **Say:** Now, let's multiply $2 + 3i$ and $1 + 2i$. Use the distributive property.\n4. **Ask:** How do we simplify $i^2$? Remember, $i^2 = -1$.\n5. **Say:** Practice these steps with different numbers to get comfortable.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to combine real and imaginary parts separately.\n  Try: Focus on real parts first, then imaginary.\n- Misapplying $i^2 = -1$.\n  Try: Always replace $i^2$ with $-1$ in calculations.\n- Mixing up addition and multiplication rules.\n  Try: Review the formulas and practice each operation separately.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Complex numbers are used in electrical engineering to analyze circuits. They also appear in computer graphics to create rotations and transformations.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Complex numbers might seem tricky, but with practice, they become a powerful tool in math. Keep exploring and you'll see their beauty!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of complex numbers and arithmetic with $i$\n- Learn how to add, subtract, multiply, and divide complex numbers\n- **Why this matters for parents:** Helps support your child in understanding advanced math concepts that are foundational for higher-level math and engineering.",
+    "overview": "Complex numbers are numbers that have a real part and an imaginary part. The imaginary unit $i$ is defined as the square root of $-1$. This concept is crucial in advanced mathematics and engineering fields.\nUnderstanding complex numbers allows students to solve equations that don't have real solutions. It also opens the door to more advanced topics in math and science, making it an important concept to grasp.",
+    "core": "Complex numbers are written in the form $a + bi$, where $a$ is the real part and $bi$ is the imaginary part. Arithmetic with complex numbers involves combining these parts using addition, subtraction, multiplication, and division.",
+    "demo": "1. **Say:** Let's explore complex numbers using a cup of water and a teaspoon of sugar.\n2. **Ask:** Imagine the water is the real part and the sugar is the imaginary part.\n3. **Say:** If we have $2 + 3i$, it's like having 2 cups of water and 3 teaspoons of sugar.\n4. **Ask:** What happens if we add $1 + 2i$? We add the water (real parts) and sugar (imaginary parts) separately.\n5. **Say:** So, $2 + 3i + 1 + 2i = (2+1) + (3+2)i = 3 + 5i$.",
+    "math": "To add complex numbers, combine the real parts and the imaginary parts separately. For example, $(2 + 3i) + (1 + 2i) = 3 + 5i$. For multiplication, use the distributive property: $(2 + 3i)(1 + 2i) = 2 + 4i + 3i + 6i^2$. Since $i^2 = -1$, this simplifies to $2 + 7i - 6 = -4 + 7i$.",
+    "formulas": "- $(a + bi) + (c + di) = (a+c) + (b+d)i$\n  - $a, b, c, d$ are real numbers\n- $(a + bi)(c + di) = (ac - bd) + (ad + bc)i$\n  - $a, b, c, d$ are real numbers",
+    "guide": "1. **Ask:** What is $i$? Explain that $i$ is the square root of $-1$.\n2. **Say:** Let's add $3 + 4i$ and $5 + 6i$. What do we do with the real and imaginary parts?\n3. **Say:** Now, let's multiply $2 + 3i$ and $1 + 2i$. Use the distributive property.\n4. **Ask:** How do we simplify $i^2$? Remember, $i^2 = -1$.\n5. **Say:** Practice these steps with different numbers to get comfortable.",
+    "mistakes": "- Forgetting to combine real and imaginary parts separately.\n  Try: Focus on real parts first, then imaginary.\n- Misapplying $i^2 = -1$.\n  Try: Always replace $i^2$ with $-1$ in calculations.\n- Mixing up addition and multiplication rules.\n  Try: Review the formulas and practice each operation separately.",
+    "connection": "Complex numbers are used in electrical engineering to analyze circuits. They also appear in computer graphics to create rotations and transformations.",
+    "close": "Complex numbers might seem tricky, but with practice, they become a powerful tool in math. Keep exploring and you'll see their beauty!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Add $(4 + 5i)$ and $(3 + 2i)$. What is the result?",
+      "hint_md": "Combine the real parts and the imaginary parts separately.",
+      "answer_md": "$(4 + 3) + (5 + 2)i = 7 + 7i$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Multiply $(1 + i)$ and $(2 + 3i)$. What do you get?",
+      "hint_md": "Use the distributive property and simplify $i^2$ to $-1$.",
+      "answer_md": "$(1)(2) + (1)(3i) + (i)(2) + (i)(3i) = 2 + 3i + 2i + 3i^2 = 2 + 5i - 3 = -1 + 5i$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is $(2 + 3i) - (1 + 4i)$?",
+      "hint_md": "Subtract the real parts and the imaginary parts separately.",
+      "answer_md": "$(2 - 1) + (3 - 4)i = 1 - i$"
+    }
+  ]
+}

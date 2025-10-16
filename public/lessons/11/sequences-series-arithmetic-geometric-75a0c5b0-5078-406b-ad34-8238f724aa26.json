@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "83d84ec9-0c65-4a83-97d0-7e17c5c0df21",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "75a0c5b0-5078-406b-ad34-8238f724aa26",
+    "slug": "sequences-series-arithmetic-geometric-75a0c5b0-5078-406b-ad34-8238f724aa26",
+    "title": "Sequences & Series (Arithmetic/Geometric)",
+    "summary": "Sequences & Series (Arithmetic/Geometric) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand arithmetic and geometric sequences and series\n- Identify the differences between the two types\n- Calculate terms and sums using formulas\n**Why this matters for parents:** Understanding sequences helps children recognize patterns and solve real-world problems, like budgeting or predicting outcomes.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Sequences are ordered lists of numbers following a specific pattern. Arithmetic sequences increase or decrease by a constant difference, while geometric sequences multiply by a constant factor.\nThis matters because recognizing patterns is crucial in problem-solving and logical thinking. These skills are applicable in various fields, from finance to computer science.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In an arithmetic sequence, each term is obtained by adding a fixed number to the previous term. In a geometric sequence, each term is found by multiplying the previous term by a fixed number. Understanding these sequences helps in predicting future events and making informed decisions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore an arithmetic sequence using coins. Start with 2 coins.\n2. **Ask:** If we add 3 coins each time, how many coins will we have after 4 steps?\n3. **Say:** Count together: 2, 5, 8, 11, 14.\n4. **Say:** Now, let's try a geometric sequence. Start with 1 coin.\n5. **Ask:** If we double the coins each time, how many will we have after 4 steps?\n6. **Say:** Count together: 1, 2, 4, 8, 16.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "An arithmetic sequence has a common difference, $d$. For example, in the sequence 3, 6, 9, 12, $d = 3$.\nA geometric sequence has a common ratio, $r$. For example, in the sequence 2, 4, 8, 16, $r = 2$.\nThe $n$-th term of an arithmetic sequence is $a_n = a_1 + (n-1)d$.\nThe $n$-th term of a geometric sequence is $a_n = a_1 \times r^{(n-1)}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Arithmetic sequence: $a_n = a_1 + (n-1)d$\n  - $a_n$: $n$-th term\n  - $a_1$: first term\n  - $d$: common difference\n- Geometric sequence: $a_n = a_1 \times r^{(n-1)}$\n  - $a_n$: $n$-th term\n  - $a_1$: first term\n  - $r$: common ratio",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What pattern do you see in these numbers: 5, 10, 15?\n2. **Say:** This is an arithmetic sequence with a common difference of 5.\n3. **Ask:** What about these numbers: 3, 9, 27?\n4. **Say:** This is a geometric sequence with a common ratio of 3.\n5. **Ask:** How can we find the 5th term in each sequence?\n6. **Say:** Use the formulas to calculate the terms together.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the common difference with the common ratio. **Try:** Identify if you're adding or multiplying.\n- Forgetting to use the first term in the formula. **Try:** Always start with $a_1$.\n- Mixing up arithmetic and geometric sequences. **Try:** Check if the pattern is addition or multiplication.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Sequences are used in budgeting, like planning monthly savings. They also appear in nature, such as the pattern of leaves on a stem.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring sequences and series can be a fun way to see patterns in everyday life. Keep encouraging curiosity and problem-solving!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand arithmetic and geometric sequences and series\n- Identify the differences between the two types\n- Calculate terms and sums using formulas\n**Why this matters for parents:** Understanding sequences helps children recognize patterns and solve real-world problems, like budgeting or predicting outcomes.",
+    "overview": "Sequences are ordered lists of numbers following a specific pattern. Arithmetic sequences increase or decrease by a constant difference, while geometric sequences multiply by a constant factor.\nThis matters because recognizing patterns is crucial in problem-solving and logical thinking. These skills are applicable in various fields, from finance to computer science.",
+    "core": "In an arithmetic sequence, each term is obtained by adding a fixed number to the previous term. In a geometric sequence, each term is found by multiplying the previous term by a fixed number. Understanding these sequences helps in predicting future events and making informed decisions.",
+    "demo": "1. **Say:** Let's explore an arithmetic sequence using coins. Start with 2 coins.\n2. **Ask:** If we add 3 coins each time, how many coins will we have after 4 steps?\n3. **Say:** Count together: 2, 5, 8, 11, 14.\n4. **Say:** Now, let's try a geometric sequence. Start with 1 coin.\n5. **Ask:** If we double the coins each time, how many will we have after 4 steps?\n6. **Say:** Count together: 1, 2, 4, 8, 16.",
+    "math": "An arithmetic sequence has a common difference, $d$. For example, in the sequence 3, 6, 9, 12, $d = 3$.\nA geometric sequence has a common ratio, $r$. For example, in the sequence 2, 4, 8, 16, $r = 2$.\nThe $n$-th term of an arithmetic sequence is $a_n = a_1 + (n-1)d$.\nThe $n$-th term of a geometric sequence is $a_n = a_1 \times r^{(n-1)}$.",
+    "formulas": "- Arithmetic sequence: $a_n = a_1 + (n-1)d$\n  - $a_n$: $n$-th term\n  - $a_1$: first term\n  - $d$: common difference\n- Geometric sequence: $a_n = a_1 \times r^{(n-1)}$\n  - $a_n$: $n$-th term\n  - $a_1$: first term\n  - $r$: common ratio",
+    "guide": "1. **Ask:** What pattern do you see in these numbers: 5, 10, 15?\n2. **Say:** This is an arithmetic sequence with a common difference of 5.\n3. **Ask:** What about these numbers: 3, 9, 27?\n4. **Say:** This is a geometric sequence with a common ratio of 3.\n5. **Ask:** How can we find the 5th term in each sequence?\n6. **Say:** Use the formulas to calculate the terms together.",
+    "mistakes": "- Confusing the common difference with the common ratio. **Try:** Identify if you're adding or multiplying.\n- Forgetting to use the first term in the formula. **Try:** Always start with $a_1$.\n- Mixing up arithmetic and geometric sequences. **Try:** Check if the pattern is addition or multiplication.",
+    "connection": "Sequences are used in budgeting, like planning monthly savings. They also appear in nature, such as the pattern of leaves on a stem.",
+    "close": "Exploring sequences and series can be a fun way to see patterns in everyday life. Keep encouraging curiosity and problem-solving!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the 5th term of the arithmetic sequence: 7, 11, 15, ...",
+      "hint_md": "Use the formula $a_n = a_1 + (n-1)d$ with $a_1 = 7$ and $d = 4$.",
+      "answer_md": "The 5th term is $23$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the 4th term of the geometric sequence: 3, 6, 12, ...?",
+      "hint_md": "Use the formula $a_n = a_1 \times r^{(n-1)}$ with $a_1 = 3$ and $r = 2$.",
+      "answer_md": "The 4th term is $24$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Calculate the sum of the first 3 terms of the sequence: 2, 4, 6, ...",
+      "hint_md": "Add the first three terms: $2 + 4 + 6$.",
+      "answer_md": "The sum is $12$."
+    }
+  ]
+}

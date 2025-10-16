@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "67f9a6b5-c133-42cc-a308-ff4e2e640f82",
+    "slug": "derivatives-differentiation-rules",
+    "title": "Derivatives & Differentiation Rules",
+    "summary": "Derivatives & Differentiation Rules — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of derivatives and differentiation.\n- Learn basic differentiation rules.\n- Apply differentiation to solve problems.\n- **Why this matters for parents:** Understanding derivatives helps you support your child's math journey and connect math concepts to real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Derivatives are a fundamental concept in calculus, representing how a function changes at any given point. They are used to find slopes of curves and rates of change.\nUnderstanding derivatives is crucial for solving real-world problems involving motion, growth, and change. This lesson will help you grasp these concepts to better support your child's learning.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a derivative tells us how fast something is changing. Imagine driving a car; the speedometer shows your speed at any moment. Similarly, a derivative shows the rate of change of a function at a specific point.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Imagine a toy car moving along a track.\"\n2. **Ask:** \"If the car's position is given by the function $s(t) = 3t^2 + 2t$, how fast is it moving at $t = 2$ seconds?\"\n3. Use a stopwatch and a toy car to visualize the motion.\n4. **Say:** \"To find the speed, we calculate the derivative of $s(t)$, which gives us the velocity function.\"\n5. **Ask:** \"What do you think happens to the speed as time increases?\"\n6. Calculate the derivative: $v(t) = \\frac{ds}{dt} = 6t + 2$. At $t = 2$, $v(2) = 14$ m/s.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The derivative of a function $f(x)$, denoted $f'(x)$ or $\\frac{df}{dx}$, represents the rate of change of $f$ with respect to $x$. For example, if $f(x) = x^2$, then $f'(x) = 2x$. This means at $x = 3$, the rate of change is $2 \\times 3 = 6$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Power Rule: $\\frac{d}{dx} x^n = nx^{n-1}$\n  - $n$ is any real number\n- Constant Rule: $\\frac{d}{dx} c = 0$\n  - $c$ is a constant\n- Sum Rule: $\\frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x)$\n  - $f(x)$ and $g(x)$ are functions",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's explore how functions change.\"\n2. **Ask:** \"What happens to the height of a plant as it grows?\"\n3. Use a ruler to measure a plant's height over a week.\n4. **Say:** \"The rate of growth is like a derivative.\"\n5. **Ask:** \"How can we calculate this rate using math?\"\n6. Work through a simple function together, like $f(x) = x^2$.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the function with its derivative. Try: Remember the derivative shows the rate of change.\n- Forgetting to apply the power rule correctly. Try: Practice with different powers to get comfortable.\n- Ignoring constants in differentiation. Try: Remember constants become zero when differentiated.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Derivatives are used in physics to calculate velocity and acceleration, helping engineers design safer cars. They also model population growth in biology.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding derivatives opens up a world of possibilities in math and science. Keep exploring, and you'll see how these concepts connect to everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of derivatives and differentiation.\n- Learn basic differentiation rules.\n- Apply differentiation to solve problems.\n- **Why this matters for parents:** Understanding derivatives helps you support your child's math journey and connect math concepts to real-world situations.",
+    "overview": "Derivatives are a fundamental concept in calculus, representing how a function changes at any given point. They are used to find slopes of curves and rates of change.\nUnderstanding derivatives is crucial for solving real-world problems involving motion, growth, and change. This lesson will help you grasp these concepts to better support your child's learning.",
+    "core": "In simple terms, a derivative tells us how fast something is changing. Imagine driving a car; the speedometer shows your speed at any moment. Similarly, a derivative shows the rate of change of a function at a specific point.",
+    "demo": "1. **Say:** \"Imagine a toy car moving along a track.\"\n2. **Ask:** \"If the car's position is given by the function $s(t) = 3t^2 + 2t$, how fast is it moving at $t = 2$ seconds?\"\n3. Use a stopwatch and a toy car to visualize the motion.\n4. **Say:** \"To find the speed, we calculate the derivative of $s(t)$, which gives us the velocity function.\"\n5. **Ask:** \"What do you think happens to the speed as time increases?\"\n6. Calculate the derivative: $v(t) = \\frac{ds}{dt} = 6t + 2$. At $t = 2$, $v(2) = 14$ m/s.",
+    "math": "The derivative of a function $f(x)$, denoted $f'(x)$ or $\\frac{df}{dx}$, represents the rate of change of $f$ with respect to $x$. For example, if $f(x) = x^2$, then $f'(x) = 2x$. This means at $x = 3$, the rate of change is $2 \\times 3 = 6$.",
+    "formulas": "- Power Rule: $\\frac{d}{dx} x^n = nx^{n-1}$\n  - $n$ is any real number\n- Constant Rule: $\\frac{d}{dx} c = 0$\n  - $c$ is a constant\n- Sum Rule: $\\frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x)$\n  - $f(x)$ and $g(x)$ are functions",
+    "guide": "1. **Say:** \"Let's explore how functions change.\"\n2. **Ask:** \"What happens to the height of a plant as it grows?\"\n3. Use a ruler to measure a plant's height over a week.\n4. **Say:** \"The rate of growth is like a derivative.\"\n5. **Ask:** \"How can we calculate this rate using math?\"\n6. Work through a simple function together, like $f(x) = x^2$.",
+    "mistakes": "- Confusing the function with its derivative. Try: Remember the derivative shows the rate of change.\n- Forgetting to apply the power rule correctly. Try: Practice with different powers to get comfortable.\n- Ignoring constants in differentiation. Try: Remember constants become zero when differentiated.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Derivatives are used in physics to calculate velocity and acceleration, helping engineers design safer cars. They also model population growth in biology.",
+    "close": "Understanding derivatives opens up a world of possibilities in math and science. Keep exploring, and you'll see how these concepts connect to everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Derivatives & Differentiation Rules**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Derivatives & Differentiation Rules** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Derivatives & Differentiation Rules**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

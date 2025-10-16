@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "b4eef387-8bab-4778-b1e0-cf8a52ad1756",
+    "title": "Statistics & Data",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "c24e2ff4-a22d-4b66-8306-546eed88e193",
+    "slug": "correlation-regression",
+    "title": "Correlation & Regression",
+    "summary": "Correlation & Regression — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the concepts of correlation and regression.\n- - Learn how to interpret and use these concepts in real-life situations.\n- - Gain confidence in explaining these ideas to your child.\n- **Why this matters for parents:** Understanding these concepts helps you support your child's learning and connect math to everyday decisions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Correlation and regression are statistical tools used to understand relationships between two variables. Correlation measures how closely two variables move together, while regression helps predict one variable based on another.\nThese concepts matter because they are used in various fields like economics, health, and social sciences to make informed decisions. By understanding them, you can help your child see the value of math in real-world applications.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Correlation is a number between -1 and 1 that shows how strongly two variables are related. A positive number means they increase together, while a negative number means one decreases as the other increases. Regression involves finding a line that best fits the data points, helping predict values.\nThese tools are powerful for analyzing trends and making predictions, which is why they're essential in higher-level math and many careers.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a few small objects like coins or buttons and a ruler.\n2. **Say:** \"Let's pretend these objects are data points.\"\n3. Arrange them in a line that slopes upwards. **Ask:** \"What do you notice about their arrangement?\"\n4. **Say:** \"This is like a positive correlation. As one variable increases, so does the other.\"\n5. Use the ruler to draw a line through the objects. **Say:** \"This line is like a regression line, showing the trend.\"\n6. Rearrange the objects in a downward slope. **Ask:** \"How does this change the correlation?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Correlation is represented by the symbol $r$. If $r = 0.8$, it indicates a strong positive relationship. If $r = -0.5$, it shows a moderate negative relationship.\nRegression involves finding the best-fit line, often written as $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. For example, if $y = 2x + 3$, then for $x = 4$, $y = 2(4) + 3 = 11$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "r = \\frac{\\sum{(x_i - \\bar{x})(y_i - \\bar{y})}}{\\sqrt{\\sum{(x_i - \\bar{x})^2} \\sum{(y_i - \\bar{y})^2}}}\n- $r$: correlation coefficient\n  - $x_i, y_i$: individual data points\n  - $\\bar{x}, \\bar{y}$: means of $x$ and $y$\ny = mx + b\n- $y$: dependent variable\n  - $x$: independent variable\n  - $m$: slope of the line\n  - $b$: y-intercept",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"Can you think of two things that might be related, like hours studied and test scores?\"\n2. **Say:** \"Let's imagine plotting these on a graph.\"\n3. **Ask:** \"What do you think the line would look like if more studying leads to higher scores?\"\n4. **Say:** \"This is how we use regression to make predictions.\"\n5. **Ask:** \"How might this help us understand other relationships, like exercise and health?\"\n6. **Say:** \"By seeing these connections, we can make better decisions.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing correlation with causation. **Try:** Explain that correlation does not imply one causes the other.\n- - Misinterpreting the correlation coefficient. **Try:** Clarify that $r = 0$ means no linear relationship, not no relationship at all.\n- - Forgetting to check the data's linearity. **Try:** Ensure the data roughly forms a line before using linear regression.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Correlation and regression are used in weather forecasting to predict temperatures based on historical data. They're also crucial in finance for analyzing stock trends and making investment decisions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding correlation and regression empowers you to see patterns and make predictions. This knowledge is a valuable tool for both you and your child.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the concepts of correlation and regression.\n- - Learn how to interpret and use these concepts in real-life situations.\n- - Gain confidence in explaining these ideas to your child.\n- **Why this matters for parents:** Understanding these concepts helps you support your child's learning and connect math to everyday decisions.",
+    "overview": "Correlation and regression are statistical tools used to understand relationships between two variables. Correlation measures how closely two variables move together, while regression helps predict one variable based on another.\nThese concepts matter because they are used in various fields like economics, health, and social sciences to make informed decisions. By understanding them, you can help your child see the value of math in real-world applications.",
+    "core": "Correlation is a number between -1 and 1 that shows how strongly two variables are related. A positive number means they increase together, while a negative number means one decreases as the other increases. Regression involves finding a line that best fits the data points, helping predict values.\nThese tools are powerful for analyzing trends and making predictions, which is why they're essential in higher-level math and many careers.",
+    "demo": "1. Gather a few small objects like coins or buttons and a ruler.\n2. **Say:** \"Let's pretend these objects are data points.\"\n3. Arrange them in a line that slopes upwards. **Ask:** \"What do you notice about their arrangement?\"\n4. **Say:** \"This is like a positive correlation. As one variable increases, so does the other.\"\n5. Use the ruler to draw a line through the objects. **Say:** \"This line is like a regression line, showing the trend.\"\n6. Rearrange the objects in a downward slope. **Ask:** \"How does this change the correlation?\"",
+    "math": "Correlation is represented by the symbol $r$. If $r = 0.8$, it indicates a strong positive relationship. If $r = -0.5$, it shows a moderate negative relationship.\nRegression involves finding the best-fit line, often written as $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. For example, if $y = 2x + 3$, then for $x = 4$, $y = 2(4) + 3 = 11$.",
+    "formulas": "r = \\frac{\\sum{(x_i - \\bar{x})(y_i - \\bar{y})}}{\\sqrt{\\sum{(x_i - \\bar{x})^2} \\sum{(y_i - \\bar{y})^2}}}\n- $r$: correlation coefficient\n  - $x_i, y_i$: individual data points\n  - $\\bar{x}, \\bar{y}$: means of $x$ and $y$\ny = mx + b\n- $y$: dependent variable\n  - $x$: independent variable\n  - $m$: slope of the line\n  - $b$: y-intercept",
+    "guide": "1. **Ask:** \"Can you think of two things that might be related, like hours studied and test scores?\"\n2. **Say:** \"Let's imagine plotting these on a graph.\"\n3. **Ask:** \"What do you think the line would look like if more studying leads to higher scores?\"\n4. **Say:** \"This is how we use regression to make predictions.\"\n5. **Ask:** \"How might this help us understand other relationships, like exercise and health?\"\n6. **Say:** \"By seeing these connections, we can make better decisions.\"",
+    "mistakes": "- - Confusing correlation with causation. **Try:** Explain that correlation does not imply one causes the other.\n- - Misinterpreting the correlation coefficient. **Try:** Clarify that $r = 0$ means no linear relationship, not no relationship at all.\n- - Forgetting to check the data's linearity. **Try:** Ensure the data roughly forms a line before using linear regression.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Correlation and regression are used in weather forecasting to predict temperatures based on historical data. They're also crucial in finance for analyzing stock trends and making investment decisions.",
+    "close": "Understanding correlation and regression empowers you to see patterns and make predictions. This knowledge is a valuable tool for both you and your child."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Correlation & Regression**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Correlation & Regression** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Correlation & Regression**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

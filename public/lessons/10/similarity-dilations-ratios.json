@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "9528b667-6a39-4280-bfcd-b8d26df289f6",
+    "slug": "similarity-dilations-ratios",
+    "title": "Similarity (Dilations & Ratios)",
+    "summary": "Similarity (Dilations & Ratios) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of similarity in geometry.\n- Learn about dilations and how they change the size of shapes.\n- Use ratios to compare similar figures.\n- **Why this matters for parents:** Helping your child grasp these concepts strengthens their spatial reasoning and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Similarity in geometry means that two shapes have the same form but may differ in size. This is often seen in everyday life, like when you see a photo enlarged or reduced.\nUnderstanding similarity is crucial because it helps in solving problems related to scale and proportion, which are common in fields like architecture, art, and engineering.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When two shapes are similar, their corresponding angles are equal, and their sides are proportional. A dilation is a transformation that changes the size of a shape but not its form, using a scale factor.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather two similar objects, like a small and large spoon.\n2. **Say:** \"Notice how the spoons look the same but are different sizes.\"\n3. Measure the length of each spoon. **Ask:** \"What is the ratio of the lengths?\"\n4. Use a photocopier to enlarge a small drawing. **Say:** \"This is like a dilation.\"\n5. **Ask:** \"How does the size change? What stays the same?\"\n6. Discuss how the angles remain the same, but the sides change proportionally.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When a shape is dilated by a scale factor $k$, every side of the shape is multiplied by $k$. For example, if a triangle with sides 3, 4, and 5 is dilated by a factor of 2, the new sides will be 6, 8, and 10. The ratio of corresponding sides remains constant, so $\\frac{3}{6} = \\frac{4}{8} = \\frac{5}{10} = \\frac{1}{2}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Scale Factor: $k = \\frac{\\text{new size}}{\\text{original size}}$\n- $k$: scale factor\n- new size: length of a side after dilation\n- original size: length of a side before dilation",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What does it mean for two shapes to be similar?\"\n2. **Say:** \"Let's find the scale factor between these two shapes.\"\n3. Measure the sides of two similar objects. **Ask:** \"What is the ratio of the sides?\"\n4. **Say:** \"Now, let's apply this to a real-life example, like a map.\"\n5. **Ask:** \"How would you use a scale factor to find real distances?\"\n6. **Say:** \"Great job! You've learned how to compare similar shapes.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing similarity with congruence. Try: Remember, similar shapes can be different sizes.\n- Forgetting to use the same units. Try: Always check that measurements are in the same unit before comparing.\n- Mixing up scale factor with ratio. Try: The scale factor is a specific type of ratio used in dilations.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Maps use similarity and scale factors to represent large areas on a small piece of paper. Architects use these concepts to create models of buildings.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You've unlocked the power of similarity and dilations! Keep exploring how these concepts shape the world around us.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of similarity in geometry.\n- Learn about dilations and how they change the size of shapes.\n- Use ratios to compare similar figures.\n- **Why this matters for parents:** Helping your child grasp these concepts strengthens their spatial reasoning and problem-solving skills.",
+    "overview": "Similarity in geometry means that two shapes have the same form but may differ in size. This is often seen in everyday life, like when you see a photo enlarged or reduced.\nUnderstanding similarity is crucial because it helps in solving problems related to scale and proportion, which are common in fields like architecture, art, and engineering.",
+    "core": "When two shapes are similar, their corresponding angles are equal, and their sides are proportional. A dilation is a transformation that changes the size of a shape but not its form, using a scale factor.",
+    "demo": "1. Gather two similar objects, like a small and large spoon.\n2. **Say:** \"Notice how the spoons look the same but are different sizes.\"\n3. Measure the length of each spoon. **Ask:** \"What is the ratio of the lengths?\"\n4. Use a photocopier to enlarge a small drawing. **Say:** \"This is like a dilation.\"\n5. **Ask:** \"How does the size change? What stays the same?\"\n6. Discuss how the angles remain the same, but the sides change proportionally.",
+    "math": "When a shape is dilated by a scale factor $k$, every side of the shape is multiplied by $k$. For example, if a triangle with sides 3, 4, and 5 is dilated by a factor of 2, the new sides will be 6, 8, and 10. The ratio of corresponding sides remains constant, so $\\frac{3}{6} = \\frac{4}{8} = \\frac{5}{10} = \\frac{1}{2}$.",
+    "formulas": "Scale Factor: $k = \\frac{\\text{new size}}{\\text{original size}}$\n- $k$: scale factor\n- new size: length of a side after dilation\n- original size: length of a side before dilation",
+    "guide": "1. **Ask:** \"What does it mean for two shapes to be similar?\"\n2. **Say:** \"Let's find the scale factor between these two shapes.\"\n3. Measure the sides of two similar objects. **Ask:** \"What is the ratio of the sides?\"\n4. **Say:** \"Now, let's apply this to a real-life example, like a map.\"\n5. **Ask:** \"How would you use a scale factor to find real distances?\"\n6. **Say:** \"Great job! You've learned how to compare similar shapes.\"",
+    "mistakes": "- Confusing similarity with congruence. Try: Remember, similar shapes can be different sizes.\n- Forgetting to use the same units. Try: Always check that measurements are in the same unit before comparing.\n- Mixing up scale factor with ratio. Try: The scale factor is a specific type of ratio used in dilations.",
+    "connection": "Maps use similarity and scale factors to represent large areas on a small piece of paper. Architects use these concepts to create models of buildings.",
+    "close": "You've unlocked the power of similarity and dilations! Keep exploring how these concepts shape the world around us."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If a rectangle with sides 4 cm and 6 cm is dilated by a scale factor of 3, what are the new side lengths?",
+      "hint_md": "Multiply each side by the scale factor.",
+      "answer_md": "The new sides are 12 cm and 18 cm."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Two triangles are similar. The sides of one are 5, 12, and 13. If the longest side of the second triangle is 26, what is the scale factor?",
+      "hint_md": "Use the ratio of the longest sides to find the scale factor.",
+      "answer_md": "The scale factor is 2."
+    },
+    {
+      "order_index": 3,
+      "question_md": "A square is dilated by a scale factor of 0.5. If the original side length is 8 cm, what is the side length of the new square?",
+      "hint_md": "Multiply the original side length by the scale factor.",
+      "answer_md": "The new side length is 4 cm."
+    }
+  ]
+}

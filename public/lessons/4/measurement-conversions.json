@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "9762c3d7-714a-46e6-8e4d-c500cb946943",
+    "title": "Decimals & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "e9ce0297-5f44-4e41-86d8-a72ce9567672",
+    "slug": "measurement-conversions",
+    "title": "Measurement Conversions",
+    "summary": "Measurement Conversions — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to convert between different units of measurement.\n- Practice using household objects to visualize measurement conversions.\n- **Why this matters for parents:** Helps children apply math in everyday situations, like cooking or shopping.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on converting between units of measurement, such as inches to feet or cups to quarts. Your child will learn how to switch between these units using multiplication and division.\nUnderstanding measurement conversions is important because it helps in real-life tasks like following recipes, building projects, or planning trips. It builds a foundation for more advanced math and science concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Measurement conversions involve changing one unit of measure to another. For example, knowing that 12 inches equals 1 foot helps us understand lengths better. We use multiplication or division to convert between units, depending on whether we're moving to a larger or smaller unit.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather a ruler, a measuring cup, and a small container.\n- **Say:** \"Let's measure this container's height in inches.\"\n- Measure the height and note it down. **Ask:** \"How many inches is it?\"\n- **Say:** \"Now, let's convert inches to feet. Remember, 12 inches equals 1 foot.\"\n- Divide the inches by 12 to find the height in feet. **Say:** \"This is how tall it is in feet!\"\n- Use the measuring cup to show 2 cups. **Ask:** \"How many cups make a quart?\" Explain that 4 cups equal 1 quart.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To convert measurements, use multiplication or division. For example, if you have 24 inches and want to convert to feet, divide by 12:\n$$24 \\text{ inches} \\div 12 = 2 \\text{ feet}$$\nThis means 24 inches is equal to 2 feet.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "1 foot = 12 inches\n1 quart = 4 cups",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Start by discussing why we need to convert measurements. **Ask:** \"When have you seen measurements used at home?\"\n- Use a ruler to measure an object in inches. **Say:** \"Let's see how long this is in inches.\"\n- Convert the measurement to feet using division. **Say:** \"Now, let's find out how many feet that is.\"\n- Use a measuring cup to show liquid conversions. **Ask:** \"How many cups do you think make a quart?\"\n- Practice converting different measurements together. **Say:** \"Let's try converting these on our own.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication and division: Try using real objects to visualize the conversion.\n- Forgetting conversion factors: Keep a list of common conversions handy.\n- Mixing up units: Double-check which unit you are converting to and from.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Measurement conversions are used when cooking, like converting cups to quarts for recipes. They also help when buying materials, such as converting feet to yards for fabric.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring measurement conversions! These skills will help your child in many practical situations. Keep practicing and have fun with it!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to convert between different units of measurement.\n- Practice using household objects to visualize measurement conversions.\n- **Why this matters for parents:** Helps children apply math in everyday situations, like cooking or shopping.",
+    "overview": "This lesson focuses on converting between units of measurement, such as inches to feet or cups to quarts. Your child will learn how to switch between these units using multiplication and division.\nUnderstanding measurement conversions is important because it helps in real-life tasks like following recipes, building projects, or planning trips. It builds a foundation for more advanced math and science concepts.",
+    "core": "Measurement conversions involve changing one unit of measure to another. For example, knowing that 12 inches equals 1 foot helps us understand lengths better. We use multiplication or division to convert between units, depending on whether we're moving to a larger or smaller unit.",
+    "demo": "- Gather a ruler, a measuring cup, and a small container.\n- **Say:** \"Let's measure this container's height in inches.\"\n- Measure the height and note it down. **Ask:** \"How many inches is it?\"\n- **Say:** \"Now, let's convert inches to feet. Remember, 12 inches equals 1 foot.\"\n- Divide the inches by 12 to find the height in feet. **Say:** \"This is how tall it is in feet!\"\n- Use the measuring cup to show 2 cups. **Ask:** \"How many cups make a quart?\" Explain that 4 cups equal 1 quart.",
+    "math": "To convert measurements, use multiplication or division. For example, if you have 24 inches and want to convert to feet, divide by 12:\n$$24 \\text{ inches} \\div 12 = 2 \\text{ feet}$$\nThis means 24 inches is equal to 2 feet.",
+    "formulas": "1 foot = 12 inches\n1 quart = 4 cups",
+    "guide": "- Start by discussing why we need to convert measurements. **Ask:** \"When have you seen measurements used at home?\"\n- Use a ruler to measure an object in inches. **Say:** \"Let's see how long this is in inches.\"\n- Convert the measurement to feet using division. **Say:** \"Now, let's find out how many feet that is.\"\n- Use a measuring cup to show liquid conversions. **Ask:** \"How many cups do you think make a quart?\"\n- Practice converting different measurements together. **Say:** \"Let's try converting these on our own.\"",
+    "mistakes": "- Confusing multiplication and division: Try using real objects to visualize the conversion.\n- Forgetting conversion factors: Keep a list of common conversions handy.\n- Mixing up units: Double-check which unit you are converting to and from.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Measurement conversions are used when cooking, like converting cups to quarts for recipes. They also help when buying materials, such as converting feet to yards for fabric.",
+    "close": "Great job exploring measurement conversions! These skills will help your child in many practical situations. Keep practicing and have fun with it!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Measurement Conversions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Measurement Conversions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Measurement Conversions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

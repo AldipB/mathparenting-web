@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a22d52d7-59b2-4b98-8eca-208fcf6db39e",
+    "slug": "coordinate-geometry-distance-midpoint-partition",
+    "title": "Coordinate Geometry (Distance, Midpoint, Partition)",
+    "summary": "Coordinate Geometry (Distance, Midpoint, Partition) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate the distance between two points on a coordinate plane.\n- Learn how to find the midpoint of a line segment.\n- Explore how to partition a line segment into a given ratio.\n- **Why this matters for parents:** This lesson helps your child develop spatial reasoning and problem-solving skills, which are essential in many real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Coordinate geometry involves using algebra to study geometric problems. It connects algebraic equations with geometric figures, allowing us to solve problems involving points, lines, and shapes on a coordinate plane.\nUnderstanding coordinate geometry is crucial because it forms the foundation for more advanced math topics and is widely used in fields like engineering, computer graphics, and architecture. It helps students visualize and solve complex problems by breaking them down into simpler parts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll explore how to calculate the distance between two points, find the midpoint of a line segment, and divide a line segment into a specific ratio using coordinates. These skills are not only useful in math but also in everyday tasks like planning a garden layout or designing a room.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the distance between two points. Imagine these points are on a map. Use two small objects, like coins, to represent the points at (1, 2) and (4, 6).\n2. **Ask:** How far apart are these coins? We'll use the distance formula to find out.\n3. **Say:** Now, let's find the midpoint. Place a string between the coins and find the middle.\n4. **Ask:** What if we want to divide the string into a 2:1 ratio? Move one coin closer to the midpoint.\n5. **Say:** These steps help us understand how to calculate and visualize these concepts on paper.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the distance between two points $(x_1, y_1)$ and $(x_2, y_2)$, use the formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\nFor example, the distance between (1, 2) and (4, 6) is: $$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$\nThe midpoint is found using: $$M = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$$\nFor (1, 2) and (4, 6), the midpoint is: $$M = \\left( \\frac{1 + 4}{2}, \\frac{2 + 6}{2} \\right) = (2.5, 4)$$",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Distance: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n  - $d$: distance between points\n  - $(x_1, y_1)$ and $(x_2, y_2)$: coordinates of the points\n- Midpoint: $$M = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$$\n  - $M$: midpoint coordinates\n- Partition: $$P = \\left( \\frac{mx_2 + nx_1}{m+n}, \\frac{my_2 + ny_1}{m+n} \\right)$$\n  - $P$: partition point\n  - $m, n$: ratio parts",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's start by finding the distance between two points. Use the formula with your child.\n2. **Ask:** Can you calculate the midpoint using the formula? Help them plug in the numbers.\n3. **Say:** Now, let's try partitioning a line segment. Use the ratio formula together.\n4. **Ask:** How does this apply to real life? Discuss examples like dividing a garden.\n5. **Say:** Practice these steps with different points to build confidence.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to square the differences in the distance formula. Try: Remind them to square before adding.\n- Mixing up coordinates when calculating the midpoint. Try: Write down each coordinate clearly.\n- Confusing the ratio parts in partitioning. Try: Label each part of the ratio clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Coordinate geometry is used in GPS technology to calculate distances and find midpoints between locations. Architects use these concepts to design buildings and spaces accurately.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring coordinate geometry! These skills will help your child solve complex problems with confidence. Keep practicing and enjoy the journey!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate the distance between two points on a coordinate plane.\n- Learn how to find the midpoint of a line segment.\n- Explore how to partition a line segment into a given ratio.\n- **Why this matters for parents:** This lesson helps your child develop spatial reasoning and problem-solving skills, which are essential in many real-world situations.",
+    "overview": "Coordinate geometry involves using algebra to study geometric problems. It connects algebraic equations with geometric figures, allowing us to solve problems involving points, lines, and shapes on a coordinate plane.\nUnderstanding coordinate geometry is crucial because it forms the foundation for more advanced math topics and is widely used in fields like engineering, computer graphics, and architecture. It helps students visualize and solve complex problems by breaking them down into simpler parts.",
+    "core": "In this lesson, we'll explore how to calculate the distance between two points, find the midpoint of a line segment, and divide a line segment into a specific ratio using coordinates. These skills are not only useful in math but also in everyday tasks like planning a garden layout or designing a room.",
+    "demo": "1. **Say:** Let's find the distance between two points. Imagine these points are on a map. Use two small objects, like coins, to represent the points at (1, 2) and (4, 6).\n2. **Ask:** How far apart are these coins? We'll use the distance formula to find out.\n3. **Say:** Now, let's find the midpoint. Place a string between the coins and find the middle.\n4. **Ask:** What if we want to divide the string into a 2:1 ratio? Move one coin closer to the midpoint.\n5. **Say:** These steps help us understand how to calculate and visualize these concepts on paper.",
+    "math": "To find the distance between two points $(x_1, y_1)$ and $(x_2, y_2)$, use the formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\nFor example, the distance between (1, 2) and (4, 6) is: $$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$\nThe midpoint is found using: $$M = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$$\nFor (1, 2) and (4, 6), the midpoint is: $$M = \\left( \\frac{1 + 4}{2}, \\frac{2 + 6}{2} \\right) = (2.5, 4)$$",
+    "formulas": "- Distance: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n  - $d$: distance between points\n  - $(x_1, y_1)$ and $(x_2, y_2)$: coordinates of the points\n- Midpoint: $$M = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$$\n  - $M$: midpoint coordinates\n- Partition: $$P = \\left( \\frac{mx_2 + nx_1}{m+n}, \\frac{my_2 + ny_1}{m+n} \\right)$$\n  - $P$: partition point\n  - $m, n$: ratio parts",
+    "guide": "1. **Say:** Let's start by finding the distance between two points. Use the formula with your child.\n2. **Ask:** Can you calculate the midpoint using the formula? Help them plug in the numbers.\n3. **Say:** Now, let's try partitioning a line segment. Use the ratio formula together.\n4. **Ask:** How does this apply to real life? Discuss examples like dividing a garden.\n5. **Say:** Practice these steps with different points to build confidence.",
+    "mistakes": "- Forgetting to square the differences in the distance formula. Try: Remind them to square before adding.\n- Mixing up coordinates when calculating the midpoint. Try: Write down each coordinate clearly.\n- Confusing the ratio parts in partitioning. Try: Label each part of the ratio clearly.",
+    "connection": "Coordinate geometry is used in GPS technology to calculate distances and find midpoints between locations. Architects use these concepts to design buildings and spaces accurately.",
+    "close": "Great job exploring coordinate geometry! These skills will help your child solve complex problems with confidence. Keep practicing and enjoy the journey!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the distance between (3, 4) and (7, 1).",
+      "hint_md": "Use the distance formula: $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.",
+      "answer_md": "$d = \\sqrt{(7 - 3)^2 + (1 - 4)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Calculate the midpoint of the line segment connecting (2, 3) and (8, 5).",
+      "hint_md": "Use the midpoint formula: $M = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$.",
+      "answer_md": "$M = \\left( \\frac{2 + 8}{2}, \\frac{3 + 5}{2} \\right) = (5, 4)$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Partition the segment between (1, 2) and (4, 8) in a 1:2 ratio.",
+      "hint_md": "Use the partition formula: $P = \\left( \\frac{mx_2 + nx_1}{m+n}, \\frac{my_2 + ny_1}{m+n} \\right)$.",
+      "answer_md": "$P = \\left( \\frac{1 \\cdot 4 + 2 \\cdot 1}{1+2}, \\frac{1 \\cdot 8 + 2 \\cdot 2}{1+2} \\right) = \\left( \\frac{6}{3}, \\frac{12}{3} \\right) = (2, 4)$"
+    }
+  ]
+}

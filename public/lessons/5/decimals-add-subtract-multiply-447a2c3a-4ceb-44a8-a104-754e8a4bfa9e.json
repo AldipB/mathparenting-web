@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "447a2c3a-4ceb-44a8-a104-754e8a4bfa9e",
+    "slug": "decimals-add-subtract-multiply-447a2c3a-4ceb-44a8-a104-754e8a4bfa9e",
+    "title": "Decimals: Add/Subtract/Multiply",
+    "summary": "Decimals: Add/Subtract/Multiply — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to add, subtract, and multiply decimals.\n- Help your child use decimals in everyday situations.\n- **Why this matters for parents:** Strengthening your child's math skills builds confidence and prepares them for real-world applications.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Decimals are numbers that include a decimal point to represent a fraction of a whole number. They are used in many everyday situations, like money and measurements.\nUnderstanding decimals is important because they are a part of daily life. Whether you're cooking, shopping, or measuring, decimals help us make precise calculations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals work just like whole numbers, but they include parts of a whole. Adding, subtracting, and multiplying them requires careful alignment of the decimal points. This lesson will guide you through these operations using simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather some coins (pennies, dimes) and a ruler.\n- **Say:** Let's add 1.25 and 2.5 using these coins. **Ask:** How many dimes and pennies do we have?\n- Align the decimal points: 1.25 + 2.50.\n- Add the numbers as if they are whole numbers: 125 + 250 = 375.\n- Place the decimal point in the answer: 3.75.\n- **Say:** Now, let's subtract 2.5 from 3.75 using the same method.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add decimals, align the decimal points and add as whole numbers. For example, $1.25 + 2.50 = 3.75$. To multiply, ignore the decimal, multiply as whole numbers, then count and place the decimal point in the product. For example, $1.2 \\times 3 = 3.6$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Addition: a.b + c.d = e.f\n- Align decimal points.\n- Add as whole numbers.\n- Place decimal in the sum.\nMultiplication: a.b \\times c = d.e\n- Ignore decimals, multiply.\n- Count decimal places in factors.\n- Place decimal in product.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** Let's practice adding 1.3 and 2.7. **Ask:** Where should we align the decimal points?\n- 2. **Say:** Now, subtract 1.5 from 3.2. **Ask:** What do we do first?\n- 3. **Say:** Let's multiply 1.4 by 2. **Ask:** How many decimal places are in the product?\n- 4. Use coins to visualize the addition and subtraction.\n- 5. Use a ruler to measure and multiply lengths with decimals.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misaligning decimal points. **Try:** Use lined paper to keep numbers straight.\n- Forgetting to place the decimal in the product. **Try:** Count decimal places before multiplying.\n- Adding extra zeros unnecessarily. **Try:** Only add zeros to align decimal points.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Decimals are used when dealing with money. For example, $5.75$ means 5 dollars and 75 cents. They also appear in measurements, like 1.5 liters of milk.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! Understanding decimals opens up a world of precision in math and everyday life. Keep practicing, and you'll master it!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to add, subtract, and multiply decimals.\n- Help your child use decimals in everyday situations.\n- **Why this matters for parents:** Strengthening your child's math skills builds confidence and prepares them for real-world applications.",
+    "overview": "Decimals are numbers that include a decimal point to represent a fraction of a whole number. They are used in many everyday situations, like money and measurements.\nUnderstanding decimals is important because they are a part of daily life. Whether you're cooking, shopping, or measuring, decimals help us make precise calculations.",
+    "core": "Decimals work just like whole numbers, but they include parts of a whole. Adding, subtracting, and multiplying them requires careful alignment of the decimal points. This lesson will guide you through these operations using simple examples.",
+    "demo": "- Gather some coins (pennies, dimes) and a ruler.\n- **Say:** Let's add 1.25 and 2.5 using these coins. **Ask:** How many dimes and pennies do we have?\n- Align the decimal points: 1.25 + 2.50.\n- Add the numbers as if they are whole numbers: 125 + 250 = 375.\n- Place the decimal point in the answer: 3.75.\n- **Say:** Now, let's subtract 2.5 from 3.75 using the same method.",
+    "math": "To add decimals, align the decimal points and add as whole numbers. For example, $1.25 + 2.50 = 3.75$. To multiply, ignore the decimal, multiply as whole numbers, then count and place the decimal point in the product. For example, $1.2 \\times 3 = 3.6$.",
+    "formulas": "Addition: a.b + c.d = e.f\n- Align decimal points.\n- Add as whole numbers.\n- Place decimal in the sum.\nMultiplication: a.b \\times c = d.e\n- Ignore decimals, multiply.\n- Count decimal places in factors.\n- Place decimal in product.",
+    "guide": "- 1. **Say:** Let's practice adding 1.3 and 2.7. **Ask:** Where should we align the decimal points?\n- 2. **Say:** Now, subtract 1.5 from 3.2. **Ask:** What do we do first?\n- 3. **Say:** Let's multiply 1.4 by 2. **Ask:** How many decimal places are in the product?\n- 4. Use coins to visualize the addition and subtraction.\n- 5. Use a ruler to measure and multiply lengths with decimals.",
+    "mistakes": "- Misaligning decimal points. **Try:** Use lined paper to keep numbers straight.\n- Forgetting to place the decimal in the product. **Try:** Count decimal places before multiplying.\n- Adding extra zeros unnecessarily. **Try:** Only add zeros to align decimal points.",
+    "connection": "Decimals are used when dealing with money. For example, $5.75$ means 5 dollars and 75 cents. They also appear in measurements, like 1.5 liters of milk.",
+    "close": "Great job! Understanding decimals opens up a world of precision in math and everyday life. Keep practicing, and you'll master it!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Add: 3.4 + 2.6",
+      "hint_md": "Align the decimal points before adding.",
+      "answer_md": "6.0"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Subtract: 5.5 - 1.2",
+      "hint_md": "Line up the decimals and subtract as whole numbers.",
+      "answer_md": "4.3"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Multiply: 2.5 \\times 3",
+      "hint_md": "Ignore the decimal, multiply, then place the decimal point.",
+      "answer_md": "7.5"
+    }
+  ]
+}

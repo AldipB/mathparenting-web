@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "50bf7d95-84a6-41b0-802e-578e2359dd77",
+    "slug": "expressions-variables-order-of-operations",
+    "title": "Expressions, Variables & Order of Operations",
+    "summary": "Expressions, Variables & Order of Operations — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand expressions and variables.\n- Learn the order of operations.\n- Apply these concepts to solve problems.\n**Why this matters for parents:** Understanding these concepts helps you support your child in developing critical thinking and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Expressions are mathematical phrases that can include numbers, variables, and operations. Variables are symbols, often letters, that represent unknown values. The order of operations is a set of rules that tells us the sequence to solve parts of a math expression.\nThis matters because it lays the foundation for algebra, which is crucial for advanced math and everyday problem-solving. Helping your child grasp these concepts will boost their confidence and ability to tackle more complex math.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Expressions can be as simple as $3 + 5$ or more complex like $2x + 3$. Variables like $x$ stand in for numbers we don't know yet. The order of operations, remembered by PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction), ensures we solve expressions correctly.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore expressions using coins. Gather 10 pennies.\n2. **Ask:** If we have $x$ pennies and add 5 more, how many do we have?\n3. **Say:** We can write this as $x + 5$. If $x = 10$, then $10 + 5 = 15$.\n4. **Ask:** What if we multiply the number of pennies by 2? What does $2(x + 5)$ mean?\n5. **Say:** Solve inside the parentheses first: $10 + 5 = 15$. Then multiply: $2 \\times 15 = 30$.\n6. **Ask:** Why do you think we solve inside the parentheses first?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The order of operations ensures expressions are solved consistently. For example, in $3 + 4 \\times 2$, multiplication comes before addition, so we calculate $4 \\times 2 = 8$ first, then add 3, resulting in $11$. Ignoring these rules could lead to different answers.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a + b$\n  - $a$ and $b$ are numbers or variables.\n- $a \\times (b + c)$\n  - Solve inside the parentheses first, then multiply.\n- $a^b$\n  - $a$ is the base, and $b$ is the exponent.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What do you think a variable is?\n2. **Say:** Let's use a letter like $x$ to represent unknown numbers.\n3. **Ask:** How would you solve $3 + 2 \\times x$ if $x = 4$?\n4. **Say:** Remember PEMDAS. Multiply first: $2 \\times 4 = 8$, then add 3.\n5. **Ask:** What does the expression $2(x + 3)$ mean if $x = 5$?\n6. **Say:** Solve inside the parentheses: $5 + 3 = 8$, then multiply by 2.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting the order of operations. **Try:** Use PEMDAS as a guide.\n- Misplacing parentheses. **Try:** Double-check where operations are grouped.\n- Confusing variables with numbers. **Try:** Substitute known values for variables to simplify.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Expressions and variables are used in budgeting. For example, if you spend $x$ dollars on groceries and $y$ on utilities, your total expense is $x + y$.\nCooking also involves order of operations, like mixing ingredients in a specific sequence for the best results.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring expressions and variables! Keep practicing, and you'll find these math skills useful in many areas of life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand expressions and variables.\n- Learn the order of operations.\n- Apply these concepts to solve problems.\n**Why this matters for parents:** Understanding these concepts helps you support your child in developing critical thinking and problem-solving skills.",
+    "overview": "Expressions are mathematical phrases that can include numbers, variables, and operations. Variables are symbols, often letters, that represent unknown values. The order of operations is a set of rules that tells us the sequence to solve parts of a math expression.\nThis matters because it lays the foundation for algebra, which is crucial for advanced math and everyday problem-solving. Helping your child grasp these concepts will boost their confidence and ability to tackle more complex math.",
+    "core": "Expressions can be as simple as $3 + 5$ or more complex like $2x + 3$. Variables like $x$ stand in for numbers we don't know yet. The order of operations, remembered by PEMDAS (Parentheses, Exponents, Multiplication and Division, Addition and Subtraction), ensures we solve expressions correctly.",
+    "demo": "1. **Say:** Let's explore expressions using coins. Gather 10 pennies.\n2. **Ask:** If we have $x$ pennies and add 5 more, how many do we have?\n3. **Say:** We can write this as $x + 5$. If $x = 10$, then $10 + 5 = 15$.\n4. **Ask:** What if we multiply the number of pennies by 2? What does $2(x + 5)$ mean?\n5. **Say:** Solve inside the parentheses first: $10 + 5 = 15$. Then multiply: $2 \\times 15 = 30$.\n6. **Ask:** Why do you think we solve inside the parentheses first?",
+    "math": "The order of operations ensures expressions are solved consistently. For example, in $3 + 4 \\times 2$, multiplication comes before addition, so we calculate $4 \\times 2 = 8$ first, then add 3, resulting in $11$. Ignoring these rules could lead to different answers.",
+    "formulas": "- $a + b$\n  - $a$ and $b$ are numbers or variables.\n- $a \\times (b + c)$\n  - Solve inside the parentheses first, then multiply.\n- $a^b$\n  - $a$ is the base, and $b$ is the exponent.",
+    "guide": "1. **Ask:** What do you think a variable is?\n2. **Say:** Let's use a letter like $x$ to represent unknown numbers.\n3. **Ask:** How would you solve $3 + 2 \\times x$ if $x = 4$?\n4. **Say:** Remember PEMDAS. Multiply first: $2 \\times 4 = 8$, then add 3.\n5. **Ask:** What does the expression $2(x + 3)$ mean if $x = 5$?\n6. **Say:** Solve inside the parentheses: $5 + 3 = 8$, then multiply by 2.",
+    "mistakes": "- Forgetting the order of operations. **Try:** Use PEMDAS as a guide.\n- Misplacing parentheses. **Try:** Double-check where operations are grouped.\n- Confusing variables with numbers. **Try:** Substitute known values for variables to simplify.",
+    "connection": "Expressions and variables are used in budgeting. For example, if you spend $x$ dollars on groceries and $y$ on utilities, your total expense is $x + y$.\nCooking also involves order of operations, like mixing ingredients in a specific sequence for the best results.",
+    "close": "Great job exploring expressions and variables! Keep practicing, and you'll find these math skills useful in many areas of life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Evaluate $5 + 3 \\times 2$.",
+      "hint_md": "Remember to multiply before adding.",
+      "answer_md": "11"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If $x = 3$, what is $2(x + 4)$?",
+      "hint_md": "Solve inside the parentheses first.",
+      "answer_md": "14"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Simplify $4 + 2^3$.",
+      "hint_md": "Calculate the exponent first.",
+      "answer_md": "12"
+    }
+  ]
+}

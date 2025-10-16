@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a11af4dd-74a9-4b1c-a4e2-194e803d925e",
+    "slug": "measure-length-nonstandard-centimetres",
+    "title": "Measure Length (Nonstandard → Centimetres)",
+    "summary": "Measure Length (Nonstandard → Centimetres) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to measure length using nonstandard units and centimetres.\n- Transition from using objects like paperclips to using a ruler.\n- **Why this matters for parents:** This helps children develop a sense of measurement and prepares them for more precise math skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore how to measure length using everyday objects and then transition to using a ruler marked in centimetres. Children will learn to compare lengths and understand measurement concepts.\nUnderstanding measurement is crucial as it helps children make sense of the world around them. It builds a foundation for math skills and practical problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "We'll start by measuring objects with nonstandard units like paperclips or blocks. Then, we'll introduce the ruler and centimetres. This helps children see the difference between approximate and precise measurements.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a few small household objects (e.g., a spoon, a book) and some paperclips.\n2. **Say:** \"Let's see how many paperclips long this spoon is.\"\n3. Line up paperclips along the spoon and count them together.\n4. **Ask:** \"How many paperclips long is the spoon?\"\n5. Now, use a ruler to measure the same object in centimetres. **Say:** \"Let's see how many centimetres long the spoon is.\"\n6. Compare the two measurements. **Ask:** \"Which one is more precise?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When measuring, we often start with nonstandard units like paperclips. For example, a book might be 5 paperclips long. Using a ruler, we can measure the same book as 15 cm. This shows that centimetres give us a precise measurement.\nIf a pencil is 3 paperclips long and each paperclip is about 2 cm, then the pencil is approximately $3 \\times 2 = 6$ cm long.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a familiar object, like a toy. **Say:** \"Let's measure this toy with paperclips.\"\n2. Line up paperclips and count them. **Ask:** \"How many paperclips did we use?\"\n3. Introduce the ruler. **Say:** \"Now, let's measure with the ruler in centimetres.\"\n4. Compare both measurements. **Ask:** \"Which measurement do you think is more accurate?\"\n5. Discuss why using a ruler might be better for precise tasks.\n6. Encourage your child to find more objects to measure.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing nonstandard units with centimetres. Try: Emphasize that paperclips are just for practice.\n- Misaligning the ruler. Try: Show how to start at the zero mark.\n- Forgetting to count all units. Try: Count together slowly.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Measuring is used in cooking, building, and even buying clothes. Understanding length helps children make sense of these everyday activities.\nNext time you bake, let your child measure ingredients to see how measurement is used in real life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring measurement! Keep practicing, and soon measuring will be second nature. Remember, every little step counts!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to measure length using nonstandard units and centimetres.\n- Transition from using objects like paperclips to using a ruler.\n- **Why this matters for parents:** This helps children develop a sense of measurement and prepares them for more precise math skills.",
+    "overview": "In this lesson, we'll explore how to measure length using everyday objects and then transition to using a ruler marked in centimetres. Children will learn to compare lengths and understand measurement concepts.\nUnderstanding measurement is crucial as it helps children make sense of the world around them. It builds a foundation for math skills and practical problem-solving.",
+    "core": "We'll start by measuring objects with nonstandard units like paperclips or blocks. Then, we'll introduce the ruler and centimetres. This helps children see the difference between approximate and precise measurements.",
+    "demo": "1. Gather a few small household objects (e.g., a spoon, a book) and some paperclips.\n2. **Say:** \"Let's see how many paperclips long this spoon is.\"\n3. Line up paperclips along the spoon and count them together.\n4. **Ask:** \"How many paperclips long is the spoon?\"\n5. Now, use a ruler to measure the same object in centimetres. **Say:** \"Let's see how many centimetres long the spoon is.\"\n6. Compare the two measurements. **Ask:** \"Which one is more precise?\"",
+    "math": "When measuring, we often start with nonstandard units like paperclips. For example, a book might be 5 paperclips long. Using a ruler, we can measure the same book as 15 cm. This shows that centimetres give us a precise measurement.\nIf a pencil is 3 paperclips long and each paperclip is about 2 cm, then the pencil is approximately $3 \\times 2 = 6$ cm long.",
+    "guide": "1. Start with a familiar object, like a toy. **Say:** \"Let's measure this toy with paperclips.\"\n2. Line up paperclips and count them. **Ask:** \"How many paperclips did we use?\"\n3. Introduce the ruler. **Say:** \"Now, let's measure with the ruler in centimetres.\"\n4. Compare both measurements. **Ask:** \"Which measurement do you think is more accurate?\"\n5. Discuss why using a ruler might be better for precise tasks.\n6. Encourage your child to find more objects to measure.",
+    "mistakes": "- Confusing nonstandard units with centimetres. Try: Emphasize that paperclips are just for practice.\n- Misaligning the ruler. Try: Show how to start at the zero mark.\n- Forgetting to count all units. Try: Count together slowly.",
+    "connection": "Measuring is used in cooking, building, and even buying clothes. Understanding length helps children make sense of these everyday activities.\nNext time you bake, let your child measure ingredients to see how measurement is used in real life.",
+    "close": "Great job exploring measurement! Keep practicing, and soon measuring will be second nature. Remember, every little step counts!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many paper clips long is your pencil?",
+      "hint_md": "Line up the paper clips without gaps.",
+      "answer_md": "Count the number of paper clips used."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Measure the length of your favorite book in centimeters.",
+      "hint_md": "Use a ruler to find the length.",
+      "answer_md": "The number of centimeters on the ruler."
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many crayons long is your toy car?",
+      "hint_md": "Make sure the crayons are touching.",
+      "answer_md": "Count the crayons used."
+    }
+  ]
+}

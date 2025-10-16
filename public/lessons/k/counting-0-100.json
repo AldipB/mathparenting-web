@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "46794597-0198-4325-bab0-65809acd627c",
+    "slug": "counting-0-100",
+    "title": "Counting 0–100",
+    "summary": "Counting 0–100 — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child count from 0 to 20 using everyday objects.\n- Develop one-to-one correspondence by touching each item as they count.\n- Understand the concept of cardinality (the last number counted represents the total).\n- **Why this matters for parents:** Counting is foundational for math skills and helps children understand numbers in real-life situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching your child to count from 0 to 20 using objects around the house. It emphasizes one-to-one correspondence, where each object is counted once, and the concept of cardinality.\nCounting is a fundamental math skill that helps children understand numbers and their relationships. It builds a strong foundation for future math learning and everyday problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Counting involves saying numbers in the correct order and understanding that each number corresponds to one object. By practicing with objects, your child will learn that the last number they say tells how many items there are in total.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small snacks or toys.\n2. **Say:** \"Let's count these snacks together.\"\n3. Have your child touch each snack as they count aloud: \"1, 2, 3...\"\n4. **Ask:** \"How many snacks do we have?\"\n5. **Say:** \"Great! The last number you said, 10, is how many snacks there are.\"\n6. Create a tiny story: \"If we eat 2 snacks, how many are left? Let's count again!\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Counting involves saying numbers in a stable order and matching each number to one object. For example, if you have 5 toys, you count each one: 1, 2, 3, 4, 5. The number 5 tells you there are five toys in total.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a small number of objects, like 5, and gradually increase.\n2. Encourage your child to touch each object as they count.\n3. **Say:** \"Let's count slowly to make sure we touch each one.\"\n4. After counting, **ask:** \"What was the last number you said?\"\n5. Reinforce that this number is the total number of objects.\n6. Use everyday moments, like snack time, to practice counting.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child skips a number, try: \"Let's count again slowly together.\"\n- If they double-count an object, try: \"Remember to touch each one only once.\"\n- If they forget the total, try: \"What was the last number you said? That's how many we have!\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Counting is everywhere! Use it when setting the table (\"How many forks do we need?\") or during playtime (\"How many blocks are in your tower?\").",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Counting is a fun and essential skill. Keep practicing, and soon your child will confidently count everything around them!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child count from 0 to 20 using everyday objects.\n- Develop one-to-one correspondence by touching each item as they count.\n- Understand the concept of cardinality (the last number counted represents the total).\n- **Why this matters for parents:** Counting is foundational for math skills and helps children understand numbers in real-life situations.",
+    "overview": "This lesson focuses on teaching your child to count from 0 to 20 using objects around the house. It emphasizes one-to-one correspondence, where each object is counted once, and the concept of cardinality.\nCounting is a fundamental math skill that helps children understand numbers and their relationships. It builds a strong foundation for future math learning and everyday problem-solving.",
+    "core": "Counting involves saying numbers in the correct order and understanding that each number corresponds to one object. By practicing with objects, your child will learn that the last number they say tells how many items there are in total.",
+    "demo": "1. Gather 10 small snacks or toys.\n2. **Say:** \"Let's count these snacks together.\"\n3. Have your child touch each snack as they count aloud: \"1, 2, 3...\"\n4. **Ask:** \"How many snacks do we have?\"\n5. **Say:** \"Great! The last number you said, 10, is how many snacks there are.\"\n6. Create a tiny story: \"If we eat 2 snacks, how many are left? Let's count again!\"",
+    "math": "Counting involves saying numbers in a stable order and matching each number to one object. For example, if you have 5 toys, you count each one: 1, 2, 3, 4, 5. The number 5 tells you there are five toys in total.",
+    "guide": "1. Start with a small number of objects, like 5, and gradually increase.\n2. Encourage your child to touch each object as they count.\n3. **Say:** \"Let's count slowly to make sure we touch each one.\"\n4. After counting, **ask:** \"What was the last number you said?\"\n5. Reinforce that this number is the total number of objects.\n6. Use everyday moments, like snack time, to practice counting.",
+    "mistakes": "- If your child skips a number, try: \"Let's count again slowly together.\"\n- If they double-count an object, try: \"Remember to touch each one only once.\"\n- If they forget the total, try: \"What was the last number you said? That's how many we have!\"",
+    "connection": "Counting is everywhere! Use it when setting the table (\"How many forks do we need?\") or during playtime (\"How many blocks are in your tower?\").",
+    "close": "Counting is a fun and essential skill. Keep practicing, and soon your child will confidently count everything around them!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many apples are there if you have 3 in one bowl and 4 in another?",
+      "hint_md": "Count the apples in each bowl separately, then add them together.",
+      "answer_md": "There are 7 apples in total."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What number comes after 29?",
+      "hint_md": "Think about the sequence of numbers in the 20s.",
+      "answer_md": "The number after 29 is 30."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Count the number of steps from the living room to the kitchen.",
+      "hint_md": "Start at the first step and count each one as you walk.",
+      "answer_md": "The number of steps will vary depending on your home."
+    }
+  ]
+}

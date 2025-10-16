@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "ccfdbbdc-1aa0-4ad8-b0e1-8a7f891035e4",
+    "title": "Whole Numbers & Expressions",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "5c19d452-ee06-4207-a796-0d58d0cec833",
+    "slug": "order-of-operations-pemdas-bedmas",
+    "title": "Order of Operations (PEMDAS/BEDMAS)",
+    "summary": "Order of Operations (PEMDAS/BEDMAS) — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "**What this is:** Order of Operations (PEMDAS/BEDMAS) — explained for parents.\n**Why it matters:** Everyday usefulness and confidence-building for your child in Grade 5.",
+      "order_index": 1
+    },
+    {
+      "key": "core",
+      "md": "**Core Idea:** One friendly paragraph that states the big idea in plain language.",
+      "order_index": 2
+    },
+    {
+      "key": "demo",
+      "md": "**Household Demonstration:** A quick at-home activity (kitchen, shopping, travel, chores) to *show* the idea.",
+      "order_index": 3
+    },
+    {
+      "key": "math",
+      "md": "**The Math Behind It:** Include notation and formulas as needed. Use KaTeX: $$a^2+b^2=c^2$$ (example).",
+      "order_index": 4
+    },
+    {
+      "key": "guide",
+      "md": "**Step-by-Step Teaching Guide:** 4–6 steps with questions to ask and what to listen for.",
+      "order_index": 5
+    },
+    {
+      "key": "mistakes",
+      "md": "**Common Mistakes to Avoid:** 3–5 pitfalls and how to respond encouragingly.",
+      "order_index": 6
+    },
+    {
+      "key": "connection",
+      "md": "**Real-Life Connection or Fun Fact:** A short story or tip that makes it memorable.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "close",
+      "md": "**You’re doing great — your steady guidance matters more than perfection.**",
+      "order_index": 9
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+    "overview": "**What this is:** Order of Operations (PEMDAS/BEDMAS) — explained for parents.\n**Why it matters:** Everyday usefulness and confidence-building for your child in Grade 5.",
+    "core": "**Core Idea:** One friendly paragraph that states the big idea in plain language.",
+    "demo": "**Household Demonstration:** A quick at-home activity (kitchen, shopping, travel, chores) to *show* the idea.",
+    "math": "**The Math Behind It:** Include notation and formulas as needed. Use KaTeX: $$a^2+b^2=c^2$$ (example).",
+    "guide": "**Step-by-Step Teaching Guide:** 4–6 steps with questions to ask and what to listen for.",
+    "mistakes": "**Common Mistakes to Avoid:** 3–5 pitfalls and how to respond encouragingly.",
+    "connection": "**Real-Life Connection or Fun Fact:** A short story or tip that makes it memorable.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "close": "**You’re doing great — your steady guidance matters more than perfection.**"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Order of Operations (PEMDAS/BEDMAS)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Order of Operations (PEMDAS/BEDMAS)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Order of Operations (PEMDAS/BEDMAS)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

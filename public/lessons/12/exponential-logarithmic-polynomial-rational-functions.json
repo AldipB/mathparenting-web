@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "9d968ca5-7629-43f8-8504-c2a1355f2eae",
+    "slug": "exponential-logarithmic-polynomial-rational-functions",
+    "title": "Exponential, Logarithmic, Polynomial, Rational Functions",
+    "summary": "Exponential, Logarithmic, Polynomial, Rational Functions — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basic concepts of exponential, logarithmic, polynomial, and rational functions.\n- Learn how to identify and differentiate between these functions.\n- Apply these concepts to solve real-world problems.\n- **Why this matters for parents:** Understanding these functions helps you support your child's learning and connect math to everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores four types of mathematical functions: exponential, logarithmic, polynomial, and rational. These functions are fundamental in understanding how quantities change and interact.\nThese concepts are crucial for higher-level math and many real-world applications, such as calculating interest rates, understanding growth patterns, and analyzing data trends.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Exponential functions involve growth or decay at a constant rate, like population growth. Logarithmic functions are the inverse of exponential functions and help us solve for time in growth problems. Polynomial functions include terms with variables raised to whole number powers and are used to model a variety of situations. Rational functions are ratios of polynomials and can describe rates and proportions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny and double it every day for a week.\n- 2. **Ask:** How many pennies will you have after 7 days? (1, 2, 4, 8, 16, 32, 64)\n- 3. **Say:** Now, let's think about a polynomial function. Imagine stacking blocks in a pyramid shape. The number of blocks in each layer forms a sequence: 1, 4, 9, 16 (squares).\n- 4. **Ask:** What pattern do you see? (Each number is a square of its position: $1^2$, $2^2$, $3^2$, $4^2$.)\n- 5. **Say:** For a rational function, consider sharing a pizza. If you have 8 slices and 4 people, each person gets $\\frac{8}{4} = 2$ slices.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Exponential functions are written as $f(x) = a \\cdot b^x$, where $a$ is the initial amount and $b$ is the growth factor. For example, if you start with $100 and it doubles every year, $f(x) = 100 \\cdot 2^x$.\nLogarithmic functions are the inverse: $f(x) = \\log_b(x)$, solving for $x$ in $b^y = x$.\nPolynomial functions look like $f(x) = ax^n + bx^{n-1} + \\ldots + c$. For example, $f(x) = 2x^2 + 3x + 1$.\nRational functions are ratios of polynomials: $f(x) = \\frac{p(x)}{q(x)}$. For example, $f(x) = \\frac{x^2 + 1}{x - 1}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Exponential: $f(x) = a \\cdot b^x$\n- $a$: initial value\n- $b$: growth factor\nLogarithmic: $f(x) = \\log_b(x)$\n- $b$: base of the logarithm\nPolynomial: $f(x) = ax^n + bx^{n-1} + \\ldots + c$\n- $a, b, c$: coefficients\n- $n$: degree of the polynomial\nRational: $f(x) = \\frac{p(x)}{q(x)}$\n- $p(x)$, $q(x)$: polynomials",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** Let's identify the type of function. Look at the equation and find the highest power of $x$.\n- 2. **Ask:** Is there a constant base raised to a variable power? (Exponential)\n- 3. **Say:** If the function is a ratio of two polynomials, it's rational.\n- 4. **Ask:** Can you see a pattern in the coefficients? (Polynomial)\n- 5. **Say:** Remember, logarithmic functions help us find the exponent needed to reach a certain number.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing exponential growth with linear growth. **Try:** Compare doubling to adding the same amount.\n- Mixing up polynomial and rational functions. **Try:** Look for the division sign in rational functions.\n- Forgetting the base in logarithms. **Try:** Identify the base before solving.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Exponential functions describe how money grows in a savings account. Logarithmic functions help us understand the Richter scale for earthquakes. Polynomial functions can model the trajectory of a ball, and rational functions are used in calculating speeds and rates.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You've just unlocked the power of these functions! Keep exploring, and you'll see math in action all around you.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basic concepts of exponential, logarithmic, polynomial, and rational functions.\n- Learn how to identify and differentiate between these functions.\n- Apply these concepts to solve real-world problems.\n- **Why this matters for parents:** Understanding these functions helps you support your child's learning and connect math to everyday life.",
+    "overview": "This lesson explores four types of mathematical functions: exponential, logarithmic, polynomial, and rational. These functions are fundamental in understanding how quantities change and interact.\nThese concepts are crucial for higher-level math and many real-world applications, such as calculating interest rates, understanding growth patterns, and analyzing data trends.",
+    "core": "Exponential functions involve growth or decay at a constant rate, like population growth. Logarithmic functions are the inverse of exponential functions and help us solve for time in growth problems. Polynomial functions include terms with variables raised to whole number powers and are used to model a variety of situations. Rational functions are ratios of polynomials and can describe rates and proportions.",
+    "demo": "- 1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny and double it every day for a week.\n- 2. **Ask:** How many pennies will you have after 7 days? (1, 2, 4, 8, 16, 32, 64)\n- 3. **Say:** Now, let's think about a polynomial function. Imagine stacking blocks in a pyramid shape. The number of blocks in each layer forms a sequence: 1, 4, 9, 16 (squares).\n- 4. **Ask:** What pattern do you see? (Each number is a square of its position: $1^2$, $2^2$, $3^2$, $4^2$.)\n- 5. **Say:** For a rational function, consider sharing a pizza. If you have 8 slices and 4 people, each person gets $\\frac{8}{4} = 2$ slices.",
+    "math": "Exponential functions are written as $f(x) = a \\cdot b^x$, where $a$ is the initial amount and $b$ is the growth factor. For example, if you start with $100 and it doubles every year, $f(x) = 100 \\cdot 2^x$.\nLogarithmic functions are the inverse: $f(x) = \\log_b(x)$, solving for $x$ in $b^y = x$.\nPolynomial functions look like $f(x) = ax^n + bx^{n-1} + \\ldots + c$. For example, $f(x) = 2x^2 + 3x + 1$.\nRational functions are ratios of polynomials: $f(x) = \\frac{p(x)}{q(x)}$. For example, $f(x) = \\frac{x^2 + 1}{x - 1}$.",
+    "formulas": "Exponential: $f(x) = a \\cdot b^x$\n- $a$: initial value\n- $b$: growth factor\nLogarithmic: $f(x) = \\log_b(x)$\n- $b$: base of the logarithm\nPolynomial: $f(x) = ax^n + bx^{n-1} + \\ldots + c$\n- $a, b, c$: coefficients\n- $n$: degree of the polynomial\nRational: $f(x) = \\frac{p(x)}{q(x)}$\n- $p(x)$, $q(x)$: polynomials",
+    "guide": "- 1. **Say:** Let's identify the type of function. Look at the equation and find the highest power of $x$.\n- 2. **Ask:** Is there a constant base raised to a variable power? (Exponential)\n- 3. **Say:** If the function is a ratio of two polynomials, it's rational.\n- 4. **Ask:** Can you see a pattern in the coefficients? (Polynomial)\n- 5. **Say:** Remember, logarithmic functions help us find the exponent needed to reach a certain number.",
+    "mistakes": "- Confusing exponential growth with linear growth. **Try:** Compare doubling to adding the same amount.\n- Mixing up polynomial and rational functions. **Try:** Look for the division sign in rational functions.\n- Forgetting the base in logarithms. **Try:** Identify the base before solving.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Exponential functions describe how money grows in a savings account. Logarithmic functions help us understand the Richter scale for earthquakes. Polynomial functions can model the trajectory of a ball, and rational functions are used in calculating speeds and rates.",
+    "close": "You've just unlocked the power of these functions! Keep exploring, and you'll see math in action all around you."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Exponential, Logarithmic, Polynomial, Rational Functions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Exponential, Logarithmic, Polynomial, Rational Functions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Exponential, Logarithmic, Polynomial, Rational Functions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

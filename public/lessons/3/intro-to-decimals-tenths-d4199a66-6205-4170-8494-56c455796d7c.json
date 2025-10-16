@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "c729799a-5eab-4ac1-b2be-f49182f305a6",
+    "title": "Fractions & Decimals",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "d4199a66-6205-4170-8494-56c455796d7c",
+    "slug": "intro-to-decimals-tenths-d4199a66-6205-4170-8494-56c455796d7c",
+    "title": "Intro to Decimals (Tenths)",
+    "summary": "Intro to Decimals (Tenths) — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of tenths as decimals.\n- Relate decimals to fractions.\n- **Why this matters for parents:** This helps children grasp money concepts and measurements, which are essential in daily life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Decimals are a way to represent fractions using a dot, called a decimal point. In this lesson, we focus on tenths, which are the first place after the decimal point.\nUnderstanding decimals is important because they are used in money, measurements, and many other real-life situations. This foundational knowledge will support your child in future math topics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals are numbers that include a decimal point to show a part of a whole. Tenths are the first digit to the right of the decimal point. For example, 0.1 is one-tenth, which is the same as the fraction \\( \\frac{1}{10} \\).",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small objects, like buttons.\n2. **Say:** \"Let's pretend these 10 buttons are one whole.\"\n3. Divide the buttons into 10 equal groups.\n4. **Ask:** \"If we take one group, how many buttons do we have?\" (1 button)\n5. **Say:** \"This is one-tenth of the whole, or 0.1 as a decimal.\"\n6. **Ask:** \"What if we take 3 groups?\" (3 buttons, or 0.3)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Decimals use a decimal point to separate whole numbers from parts of a whole. The first place to the right of the decimal point is the tenths place. For example, in the number 0.4, the 4 is in the tenths place, representing \\( \\frac{4}{10} \\).",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Use a ruler to show 1 cm as 0.1 of a decimeter.\n2. **Ask:** \"How many tenths make a whole?\" (10 tenths)\n3. Draw a number line from 0 to 1 and mark tenths.\n4. **Say:** \"Each mark is a tenth, like 0.1, 0.2, etc.\"\n5. Discuss how 0.5 is half of a whole.\n6. Relate decimals to money: \"0.1 dollars is 10 cents.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tenths with hundredths.\n  Try: Use a number line to show the difference.\n- Thinking 0.1 is larger than 0.9.\n  Try: Compare using objects or drawings.\n- Forgetting the decimal point.\n  Try: Emphasize its importance in separating whole numbers from parts.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Decimals are used in money, like $0.50 for fifty cents. They also appear in measurements, such as 0.2 liters of water.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring decimals! Understanding tenths will help your child with money and measurements. Keep practicing!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of tenths as decimals.\n- Relate decimals to fractions.\n- **Why this matters for parents:** This helps children grasp money concepts and measurements, which are essential in daily life.",
+    "overview": "Decimals are a way to represent fractions using a dot, called a decimal point. In this lesson, we focus on tenths, which are the first place after the decimal point.\nUnderstanding decimals is important because they are used in money, measurements, and many other real-life situations. This foundational knowledge will support your child in future math topics.",
+    "core": "Decimals are numbers that include a decimal point to show a part of a whole. Tenths are the first digit to the right of the decimal point. For example, 0.1 is one-tenth, which is the same as the fraction \\( \\frac{1}{10} \\).",
+    "demo": "1. Gather 10 small objects, like buttons.\n2. **Say:** \"Let's pretend these 10 buttons are one whole.\"\n3. Divide the buttons into 10 equal groups.\n4. **Ask:** \"If we take one group, how many buttons do we have?\" (1 button)\n5. **Say:** \"This is one-tenth of the whole, or 0.1 as a decimal.\"\n6. **Ask:** \"What if we take 3 groups?\" (3 buttons, or 0.3)",
+    "math": "Decimals use a decimal point to separate whole numbers from parts of a whole. The first place to the right of the decimal point is the tenths place. For example, in the number 0.4, the 4 is in the tenths place, representing \\( \\frac{4}{10} \\).",
+    "guide": "1. Use a ruler to show 1 cm as 0.1 of a decimeter.\n2. **Ask:** \"How many tenths make a whole?\" (10 tenths)\n3. Draw a number line from 0 to 1 and mark tenths.\n4. **Say:** \"Each mark is a tenth, like 0.1, 0.2, etc.\"\n5. Discuss how 0.5 is half of a whole.\n6. Relate decimals to money: \"0.1 dollars is 10 cents.\"",
+    "mistakes": "- Confusing tenths with hundredths.\n  Try: Use a number line to show the difference.\n- Thinking 0.1 is larger than 0.9.\n  Try: Compare using objects or drawings.\n- Forgetting the decimal point.\n  Try: Emphasize its importance in separating whole numbers from parts.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Decimals are used in money, like $0.50 for fifty cents. They also appear in measurements, such as 0.2 liters of water.",
+    "close": "Great job exploring decimals! Understanding tenths will help your child with money and measurements. Keep practicing!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Intro to Decimals (Tenths)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Intro to Decimals (Tenths)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Intro to Decimals (Tenths)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

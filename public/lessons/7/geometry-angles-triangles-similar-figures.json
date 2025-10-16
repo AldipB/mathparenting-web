@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "bc20eed0-8420-4c06-bab3-2801b267a45c",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "03ade729-e52c-48c1-8490-b4a45ece4c93",
+    "slug": "geometry-angles-triangles-similar-figures",
+    "title": "Geometry: Angles, Triangles, Similar Figures",
+    "summary": "Geometry: Angles, Triangles, Similar Figures — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand angles and triangles.\n- Identify similar figures.\n- Recognize and compare 2D shapes.\n- **Why this matters for parents:** Helps your child see geometry in everyday life and builds spatial reasoning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the basics of geometry, focusing on angles, triangles, and similar figures. We'll use common household items to make these concepts tangible and relatable.\nUnderstanding geometry helps children recognize patterns and shapes in the world around them. It builds a foundation for more advanced math and develops critical thinking skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Geometry is the study of shapes and their properties. In this lesson, we'll look at angles, triangles, and similar figures. Angles are where two lines meet, and triangles are shapes with three sides. Similar figures have the same shape but different sizes.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find some shapes around the house. Look for squares and rectangles.\n2. **Ask:** How is a square different from a rectangle? (Both have four sides, but a square has equal sides.)\n3. Use sticks or straws to build a triangle. **Ask:** What do you notice about the corners?\n4. Rotate a square to show it as a \"diamond.\" **Say:** It's still a square because all sides are equal.\n5. Compare two triangles of different sizes. **Ask:** Do they look the same? (They are similar if they have the same angles.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "An angle is formed where two lines meet. For example, a right angle is 90 degrees, like the corner of a square. Triangles have three angles that always add up to 180 degrees. If two triangles have the same angles, they are similar, even if one is larger.\nExample: A triangle with angles 60°, 60°, and 60° is similar to another triangle with angles 60°, 60°, and 60°, even if the sides are different lengths.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Sum of angles in a triangle: $A + B + C = 180^\\circ$\n  - $A$, $B$, $C$ are the angles in the triangle.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying shapes around your home. **Ask:** What shapes do you see?\n2. Use objects like books or boxes to discuss squares and rectangles. **Say:** Notice the sides and angles.\n3. Build triangles with sticks. **Ask:** How many sides and corners?\n4. Rotate a square. **Say:** It's still a square, even if it looks like a diamond.\n5. Compare different triangles. **Ask:** Are they similar? Why?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares and rectangles: Try comparing side lengths.\n- Thinking a rotated square is a different shape: Try rotating it back.\n- Assuming different-sized triangles can't be similar: Try comparing angles.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Geometry is everywhere! When you arrange furniture or tiles, you're using these concepts. Architects and designers use geometry to create buildings and products.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Geometry helps us see the world in new ways. Keep exploring shapes and angles with your child to build their confidence and curiosity!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand angles and triangles.\n- Identify similar figures.\n- Recognize and compare 2D shapes.\n- **Why this matters for parents:** Helps your child see geometry in everyday life and builds spatial reasoning.",
+    "overview": "This lesson explores the basics of geometry, focusing on angles, triangles, and similar figures. We'll use common household items to make these concepts tangible and relatable.\nUnderstanding geometry helps children recognize patterns and shapes in the world around them. It builds a foundation for more advanced math and develops critical thinking skills.",
+    "core": "Geometry is the study of shapes and their properties. In this lesson, we'll look at angles, triangles, and similar figures. Angles are where two lines meet, and triangles are shapes with three sides. Similar figures have the same shape but different sizes.",
+    "demo": "1. **Say:** Let's find some shapes around the house. Look for squares and rectangles.\n2. **Ask:** How is a square different from a rectangle? (Both have four sides, but a square has equal sides.)\n3. Use sticks or straws to build a triangle. **Ask:** What do you notice about the corners?\n4. Rotate a square to show it as a \"diamond.\" **Say:** It's still a square because all sides are equal.\n5. Compare two triangles of different sizes. **Ask:** Do they look the same? (They are similar if they have the same angles.)",
+    "math": "An angle is formed where two lines meet. For example, a right angle is 90 degrees, like the corner of a square. Triangles have three angles that always add up to 180 degrees. If two triangles have the same angles, they are similar, even if one is larger.\nExample: A triangle with angles 60°, 60°, and 60° is similar to another triangle with angles 60°, 60°, and 60°, even if the sides are different lengths.",
+    "formulas": "- Sum of angles in a triangle: $A + B + C = 180^\\circ$\n  - $A$, $B$, $C$ are the angles in the triangle.",
+    "guide": "1. Start by identifying shapes around your home. **Ask:** What shapes do you see?\n2. Use objects like books or boxes to discuss squares and rectangles. **Say:** Notice the sides and angles.\n3. Build triangles with sticks. **Ask:** How many sides and corners?\n4. Rotate a square. **Say:** It's still a square, even if it looks like a diamond.\n5. Compare different triangles. **Ask:** Are they similar? Why?",
+    "mistakes": "- Confusing squares and rectangles: Try comparing side lengths.\n- Thinking a rotated square is a different shape: Try rotating it back.\n- Assuming different-sized triangles can't be similar: Try comparing angles.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Geometry is everywhere! When you arrange furniture or tiles, you're using these concepts. Architects and designers use geometry to create buildings and products.",
+    "close": "Geometry helps us see the world in new ways. Keep exploring shapes and angles with your child to build their confidence and curiosity!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Geometry: Angles, Triangles, Similar Figures**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Geometry: Angles, Triangles, Similar Figures** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Geometry: Angles, Triangles, Similar Figures**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

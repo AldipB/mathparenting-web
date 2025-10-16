@@ -1,18 +1,31 @@
 {
-  "title": "Subtract with Objects (Stories)",
-  "grade": "Kindergarten (K)",
-  "overview": "Placeholder outline for \"Subtract with Objects (Stories)\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Subtract with Objects (Stories).",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "bf5c33d3-7d98-41d7-9231-4e972c203209",
+    "slug": "subtract-with-objects-stories",
+    "title": "Subtract with Objects (Stories)",
+    "summary": "Subtract with Objects (Stories) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+  },
+  "practice": []
 }

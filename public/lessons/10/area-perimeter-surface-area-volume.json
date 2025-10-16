@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "ff2b1e50-5252-470b-8a58-88a48a63c21a",
+    "slug": "area-perimeter-surface-area-volume",
+    "title": "Area & Perimeter; Surface Area & Volume",
+    "summary": "Area & Perimeter; Surface Area & Volume — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of area, perimeter, surface area, and volume.\n- Learn to calculate these measurements for various shapes.\n- **Why this matters for parents:** These skills help children solve real-world problems, like planning a garden or packing a box.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores how to measure the space within and around shapes. We'll cover area and perimeter for flat shapes, and surface area and volume for 3D objects.\nUnderstanding these concepts is crucial for practical tasks, such as determining how much paint is needed for a wall or how much water a container can hold.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Area measures the space inside a shape, while perimeter measures the distance around it. Surface area is the total area covering a 3D object, and volume measures the space it occupies. These concepts help us understand and interact with the physical world.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the area and perimeter of a rectangle using a book.\n2. **Ask:** Measure the length and width of the book with a ruler.\n3. **Say:** To find the area, multiply the length by the width.\n4. **Ask:** What is the perimeter? (Add all sides: length + width + length + width)\n5. **Say:** Now, let's explore volume using a cereal box.\n6. **Ask:** Measure the length, width, and height. Multiply them to find the volume.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "For a rectangle, the area $A$ is $A = \text{length} \times \text{width}$. For example, if a book is 8 inches long and 5 inches wide, $A = 8 \times 5 = 40$ square inches.\nThe perimeter $P$ is $P = 2 \times (\text{length} + \text{width})$. So, $P = 2 \times (8 + 5) = 26$ inches.\nFor a rectangular prism, the volume $V$ is $V = \text{length} \times \text{width} \times \text{height}$. If the box is 8 inches long, 5 inches wide, and 2 inches high, $V = 8 \times 5 \times 2 = 80$ cubic inches.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Area of rectangle: $A = \text{length} \times \text{width}$\n  - $A$: area\n  - length: one side of the rectangle\n  - width: adjacent side of the rectangle\n- Perimeter of rectangle: $P = 2 \times (\text{length} + \text{width})$\n  - $P$: perimeter\n- Volume of rectangular prism: $V = \text{length} \times \text{width} \times \text{height}$\n  - $V$: volume\n  - height: vertical side of the prism",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What shapes do you see around the house? Identify a few.\n2. **Say:** Let's measure one of these shapes to find its area and perimeter.\n3. **Ask:** Can you find a box and measure its dimensions for volume?\n4. **Say:** Use the formulas to calculate the area, perimeter, and volume.\n5. **Ask:** How do these measurements help us in everyday tasks?\n6. **Say:** Practice with different objects to reinforce understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing area with perimeter. **Try:** Remember, area is inside, perimeter is around.\n- Forgetting to multiply all dimensions for volume. **Try:** Check each step: length, width, height.\n- Mixing up units (e.g., inches vs. square inches). **Try:** Use the correct unit for each measurement.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When planning a garden, knowing the area helps you decide how many plants you can fit. Calculating volume is useful when determining how much soil is needed for a planter.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to explore these concepts with everyday objects. Understanding these measurements opens up a world of practical problem-solving!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of area, perimeter, surface area, and volume.\n- Learn to calculate these measurements for various shapes.\n- **Why this matters for parents:** These skills help children solve real-world problems, like planning a garden or packing a box.",
+    "overview": "This lesson explores how to measure the space within and around shapes. We'll cover area and perimeter for flat shapes, and surface area and volume for 3D objects.\nUnderstanding these concepts is crucial for practical tasks, such as determining how much paint is needed for a wall or how much water a container can hold.",
+    "core": "Area measures the space inside a shape, while perimeter measures the distance around it. Surface area is the total area covering a 3D object, and volume measures the space it occupies. These concepts help us understand and interact with the physical world.",
+    "demo": "1. **Say:** Let's find the area and perimeter of a rectangle using a book.\n2. **Ask:** Measure the length and width of the book with a ruler.\n3. **Say:** To find the area, multiply the length by the width.\n4. **Ask:** What is the perimeter? (Add all sides: length + width + length + width)\n5. **Say:** Now, let's explore volume using a cereal box.\n6. **Ask:** Measure the length, width, and height. Multiply them to find the volume.",
+    "math": "For a rectangle, the area $A$ is $A = \text{length} \times \text{width}$. For example, if a book is 8 inches long and 5 inches wide, $A = 8 \times 5 = 40$ square inches.\nThe perimeter $P$ is $P = 2 \times (\text{length} + \text{width})$. So, $P = 2 \times (8 + 5) = 26$ inches.\nFor a rectangular prism, the volume $V$ is $V = \text{length} \times \text{width} \times \text{height}$. If the box is 8 inches long, 5 inches wide, and 2 inches high, $V = 8 \times 5 \times 2 = 80$ cubic inches.",
+    "formulas": "- Area of rectangle: $A = \text{length} \times \text{width}$\n  - $A$: area\n  - length: one side of the rectangle\n  - width: adjacent side of the rectangle\n- Perimeter of rectangle: $P = 2 \times (\text{length} + \text{width})$\n  - $P$: perimeter\n- Volume of rectangular prism: $V = \text{length} \times \text{width} \times \text{height}$\n  - $V$: volume\n  - height: vertical side of the prism",
+    "guide": "1. **Ask:** What shapes do you see around the house? Identify a few.\n2. **Say:** Let's measure one of these shapes to find its area and perimeter.\n3. **Ask:** Can you find a box and measure its dimensions for volume?\n4. **Say:** Use the formulas to calculate the area, perimeter, and volume.\n5. **Ask:** How do these measurements help us in everyday tasks?\n6. **Say:** Practice with different objects to reinforce understanding.",
+    "mistakes": "- Confusing area with perimeter. **Try:** Remember, area is inside, perimeter is around.\n- Forgetting to multiply all dimensions for volume. **Try:** Check each step: length, width, height.\n- Mixing up units (e.g., inches vs. square inches). **Try:** Use the correct unit for each measurement.",
+    "connection": "When planning a garden, knowing the area helps you decide how many plants you can fit. Calculating volume is useful when determining how much soil is needed for a planter.",
+    "close": "Encourage your child to explore these concepts with everyday objects. Understanding these measurements opens up a world of practical problem-solving!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate the area of a rectangle with a length of 10 cm and a width of 4 cm.",
+      "hint_md": "Use the formula $A = \text{length} \times \text{width}$.",
+      "answer_md": "$A = 10 \times 4 = 40$ square cm."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Find the perimeter of a rectangle with a length of 7 m and a width of 3 m.",
+      "hint_md": "Use the formula $P = 2 \times (\text{length} + \text{width})$.",
+      "answer_md": "$P = 2 \times (7 + 3) = 20$ meters."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the volume of a box with dimensions 6 cm by 5 cm by 2 cm?",
+      "hint_md": "Use the formula $V = \text{length} \times \text{width} \times \text{height}$.",
+      "answer_md": "$V = 6 \times 5 \times 2 = 60$ cubic cm."
+    }
+  ]
+}

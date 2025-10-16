@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b4344ed1-a50c-44c7-94e8-c520c0b2f6bf",
+    "slug": "limits-continuity-intro-b4344ed1-a50c-44c7-94e8-c520c0b2f6bf",
+    "title": "Limits & Continuity (Intro)",
+    "summary": "Limits & Continuity (Intro) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basic concept of limits and continuity.\n- Learn how to explain these concepts using everyday examples.\n- **Why this matters for parents:** Grasping these concepts helps support your child's journey into calculus, a foundational math subject.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Limits and continuity are fundamental concepts in calculus that help us understand how functions behave as they approach specific points. A limit describes the value a function approaches as the input gets closer to a particular point.\nUnderstanding limits and continuity is crucial because they form the basis for more advanced topics in calculus, such as derivatives and integrals. These concepts help us model and solve real-world problems involving change and motion.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a limit tells us what value a function is getting closer to as we approach a certain point. Continuity means that a function doesn't have any sudden jumps or breaks at that point. Imagine walking along a smooth path without any gaps—that's continuity.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's imagine pouring water into a glass. The water level rises smoothly.\n2. **Ask:** What happens if we keep pouring? (The water level approaches the top of the glass.)\n3. **Say:** This is like a limit. The water level approaches a limit—the top of the glass.\n4. **Use:** A glass and water to demonstrate.\n5. **Ask:** What if the glass had a hole? (The water wouldn't reach the top smoothly.)\n6. **Say:** That's like a break in continuity.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The limit of a function $f(x)$ as $x$ approaches a value $c$ is written as $\\lim_{x \\to c} f(x)$. For example, if $f(x) = 2x$, then $\\lim_{x \\to 3} 2x = 6$. This means as $x$ gets closer to 3, $f(x)$ gets closer to 6.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\lim_{x \\to c} f(x) = L$\n  - $L$ is the value the function approaches as $x$ gets close to $c$.\n- $f(x)$ is continuous at $x = c$ if $\\lim_{x \\to c} f(x) = f(c)$\n  - The function value at $c$ matches the limit.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** Can you think of something that changes smoothly, like a dimmer switch?\n2. **Say:** Let's explore how the light level changes as you turn the switch.\n3. **Use:** A dimmer switch or a volume knob to demonstrate smooth change.\n4. **Ask:** What happens if the switch suddenly jumps? (That's a break in continuity.)\n5. **Say:** This helps us understand how limits and continuity work in real life.\n6. **Encourage:** Relate these concepts to other gradual changes your child observes.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the limit with the actual value at a point. **Try:** Focus on what happens as you get close to the point.\n- Thinking a function must be continuous to have a limit. **Try:** Explain that limits can exist even with breaks.\n- Assuming limits always equal the function value. **Try:** Use examples where the limit differs from the actual value.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Limits and continuity are like predicting traffic flow. As you approach a traffic light, you estimate whether you'll stop or go, similar to how limits predict function behavior.\nAnother example is adjusting the temperature on a thermostat. You expect the room to gradually reach the set temperature, illustrating continuity.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring limits and continuity helps your child build a strong foundation in calculus. Keep encouraging curiosity and connections to everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basic concept of limits and continuity.\n- Learn how to explain these concepts using everyday examples.\n- **Why this matters for parents:** Grasping these concepts helps support your child's journey into calculus, a foundational math subject.",
+    "overview": "Limits and continuity are fundamental concepts in calculus that help us understand how functions behave as they approach specific points. A limit describes the value a function approaches as the input gets closer to a particular point.\nUnderstanding limits and continuity is crucial because they form the basis for more advanced topics in calculus, such as derivatives and integrals. These concepts help us model and solve real-world problems involving change and motion.",
+    "core": "In simple terms, a limit tells us what value a function is getting closer to as we approach a certain point. Continuity means that a function doesn't have any sudden jumps or breaks at that point. Imagine walking along a smooth path without any gaps—that's continuity.",
+    "demo": "1. **Say:** Let's imagine pouring water into a glass. The water level rises smoothly.\n2. **Ask:** What happens if we keep pouring? (The water level approaches the top of the glass.)\n3. **Say:** This is like a limit. The water level approaches a limit—the top of the glass.\n4. **Use:** A glass and water to demonstrate.\n5. **Ask:** What if the glass had a hole? (The water wouldn't reach the top smoothly.)\n6. **Say:** That's like a break in continuity.",
+    "math": "The limit of a function $f(x)$ as $x$ approaches a value $c$ is written as $\\lim_{x \\to c} f(x)$. For example, if $f(x) = 2x$, then $\\lim_{x \\to 3} 2x = 6$. This means as $x$ gets closer to 3, $f(x)$ gets closer to 6.",
+    "formulas": "- $\\lim_{x \\to c} f(x) = L$\n  - $L$ is the value the function approaches as $x$ gets close to $c$.\n- $f(x)$ is continuous at $x = c$ if $\\lim_{x \\to c} f(x) = f(c)$\n  - The function value at $c$ matches the limit.",
+    "guide": "1. **Ask:** Can you think of something that changes smoothly, like a dimmer switch?\n2. **Say:** Let's explore how the light level changes as you turn the switch.\n3. **Use:** A dimmer switch or a volume knob to demonstrate smooth change.\n4. **Ask:** What happens if the switch suddenly jumps? (That's a break in continuity.)\n5. **Say:** This helps us understand how limits and continuity work in real life.\n6. **Encourage:** Relate these concepts to other gradual changes your child observes.",
+    "mistakes": "- Confusing the limit with the actual value at a point. **Try:** Focus on what happens as you get close to the point.\n- Thinking a function must be continuous to have a limit. **Try:** Explain that limits can exist even with breaks.\n- Assuming limits always equal the function value. **Try:** Use examples where the limit differs from the actual value.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Limits and continuity are like predicting traffic flow. As you approach a traffic light, you estimate whether you'll stop or go, similar to how limits predict function behavior.\nAnother example is adjusting the temperature on a thermostat. You expect the room to gradually reach the set temperature, illustrating continuity.",
+    "close": "Exploring limits and continuity helps your child build a strong foundation in calculus. Keep encouraging curiosity and connections to everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Limits & Continuity (Intro)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Limits & Continuity (Intro)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Limits & Continuity (Intro)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

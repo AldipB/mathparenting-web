@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "ab327d02-5cf8-4fc4-abba-1180ffbcd7fa",
+    "title": "Measurement & Geometry",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "3a39db20-07c7-42ef-b43c-9eed42551c85",
+    "slug": "geometry-angles-lines-quadrilaterals",
+    "title": "Geometry: Angles, Lines, Quadrilaterals",
+    "summary": "Geometry: Angles, Lines, Quadrilaterals — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Identify and describe angles, lines, and quadrilaterals.\n- Understand basic geometric terms and their properties.\n- Recognize these shapes in everyday life.\n**Why this matters for parents:** Understanding geometry helps children see math in the world around them, enhancing spatial reasoning and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to basic geometry concepts: angles, lines, and quadrilaterals. These are foundational elements in understanding shapes and their properties.\nGeometry is all around us, from the shapes of windows to the angles in a book. By learning these concepts, your child will develop a keen eye for detail and a better understanding of the world.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Geometry involves understanding shapes and their properties. Angles are where two lines meet, lines can be straight or curved, and quadrilaterals are four-sided shapes like squares and rectangles. These concepts help children recognize patterns and structures.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some angles in the house.\"\n2. Use a book and open it slightly. **Ask:** \"What do you see where the pages meet?\" (An angle)\n3. **Say:** \"Now, let's look at a door. The edges are straight lines.\"\n4. Find a picture frame. **Ask:** \"How many sides does this have?\" (Four, it's a quadrilateral)\n5. **Say:** \"Look around and find other quadrilaterals, like tables or tiles.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "An angle is formed where two lines meet. For example, the corner of a square forms a right angle, which is 90 degrees. A quadrilateral is a shape with four sides, like a rectangle or a square. Each has specific properties, such as equal sides or angles.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What shapes can you see in this room?\"\n2. **Say:** \"Let's draw a square and a rectangle.\"\n3. **Ask:** \"How are these shapes similar? How are they different?\"\n4. **Say:** \"Notice how the corners of these shapes form angles.\"\n5. **Ask:** \"Can you find something with a right angle?\"\n6. **Say:** \"Great! You're seeing geometry in action.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing angles with lines.\n  Try: \"Remember, angles are where lines meet.\"\n- Thinking all four-sided shapes are squares.\n  Try: \"Look at the sides; are they all the same length?\"\n- Overlooking curved lines.\n  Try: \"Lines can be straight or curved.\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Geometry is used in architecture and design. Recognizing shapes and angles helps in understanding how things are built and organized.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to spot angles and shapes everywhere. Geometry is a fun way to explore the world!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Identify and describe angles, lines, and quadrilaterals.\n- Understand basic geometric terms and their properties.\n- Recognize these shapes in everyday life.\n**Why this matters for parents:** Understanding geometry helps children see math in the world around them, enhancing spatial reasoning and problem-solving skills.",
+    "overview": "This lesson introduces your child to basic geometry concepts: angles, lines, and quadrilaterals. These are foundational elements in understanding shapes and their properties.\nGeometry is all around us, from the shapes of windows to the angles in a book. By learning these concepts, your child will develop a keen eye for detail and a better understanding of the world.",
+    "core": "Geometry involves understanding shapes and their properties. Angles are where two lines meet, lines can be straight or curved, and quadrilaterals are four-sided shapes like squares and rectangles. These concepts help children recognize patterns and structures.",
+    "demo": "1. **Say:** \"Let's find some angles in the house.\"\n2. Use a book and open it slightly. **Ask:** \"What do you see where the pages meet?\" (An angle)\n3. **Say:** \"Now, let's look at a door. The edges are straight lines.\"\n4. Find a picture frame. **Ask:** \"How many sides does this have?\" (Four, it's a quadrilateral)\n5. **Say:** \"Look around and find other quadrilaterals, like tables or tiles.\"",
+    "math": "An angle is formed where two lines meet. For example, the corner of a square forms a right angle, which is 90 degrees. A quadrilateral is a shape with four sides, like a rectangle or a square. Each has specific properties, such as equal sides or angles.",
+    "guide": "1. **Ask:** \"What shapes can you see in this room?\"\n2. **Say:** \"Let's draw a square and a rectangle.\"\n3. **Ask:** \"How are these shapes similar? How are they different?\"\n4. **Say:** \"Notice how the corners of these shapes form angles.\"\n5. **Ask:** \"Can you find something with a right angle?\"\n6. **Say:** \"Great! You're seeing geometry in action.\"",
+    "mistakes": "- Confusing angles with lines.\n  Try: \"Remember, angles are where lines meet.\"\n- Thinking all four-sided shapes are squares.\n  Try: \"Look at the sides; are they all the same length?\"\n- Overlooking curved lines.\n  Try: \"Lines can be straight or curved.\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Geometry is used in architecture and design. Recognizing shapes and angles helps in understanding how things are built and organized.",
+    "close": "Encourage your child to spot angles and shapes everywhere. Geometry is a fun way to explore the world!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Geometry: Angles, Lines, Quadrilaterals**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Geometry: Angles, Lines, Quadrilaterals** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Geometry: Angles, Lines, Quadrilaterals**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

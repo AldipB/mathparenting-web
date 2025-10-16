@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a29ff604-a767-4945-8a3d-017e4d9ad66b",
+    "slug": "compound-probability-trees-tables",
+    "title": "Compound Probability (Trees, Tables)",
+    "summary": "Compound Probability (Trees, Tables) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand compound probability using trees and tables.\n- Learn to calculate probabilities of combined events.\n- **Why this matters for parents:** Helps children develop critical thinking and decision-making skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Compound probability involves finding the likelihood of two or more events happening together. We use tools like tree diagrams and tables to visualize and calculate these probabilities.\nUnderstanding compound probability is important because it helps us make informed decisions in everyday situations, such as predicting outcomes in games or assessing risks.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Compound probability combines the chances of multiple events occurring. By using tree diagrams and tables, we can organize information clearly and calculate probabilities step-by-step. This makes complex problems more manageable.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use coins to explore compound probability. Grab two coins.\n2. **Ask:** What are the possible outcomes when you flip both coins? (HH, HT, TH, TT)\n3. **Say:** We'll draw a tree diagram. Start with the first coin: Heads (H) or Tails (T).\n4. **Say:** For each outcome of the first coin, draw branches for the second coin: Heads (H) or Tails (T).\n5. **Ask:** How many total outcomes do we have? (4)\n6. **Say:** Now, let's use a table to list these outcomes and calculate probabilities.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In compound probability, we multiply the probabilities of individual events. For example, if the probability of flipping heads on a coin is $\\frac{1}{2}$, then the probability of flipping two heads is $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Tree diagrams and tables help visualize these steps.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "P(A \\text{ and } B) = P(A) \\times P(B)\n* P(A \\text{ and } B): Probability of both events A and B occurring\n* P(A), P(B): Probability of each individual event",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's draw a tree diagram for flipping two coins.\n2. **Ask:** What are the branches for the first coin? (Heads, Tails)\n3. **Say:** Now, add branches for the second coin under each first coin outcome.\n4. **Ask:** How many outcomes are there? (4: HH, HT, TH, TT)\n5. **Say:** Let's calculate the probability of getting two heads using the tree diagram.\n6. **Ask:** What is the probability of each branch? (Multiply probabilities along the branches.)",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up the order of events. **Try:** Label each step clearly in the tree diagram.\n- Forgetting to multiply probabilities. **Try:** Remember, each branch represents a multiplication step.\n- Missing outcomes. **Try:** Double-check the tree diagram or table for completeness.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Compound probability is used in games, like predicting the outcome of rolling dice or drawing cards. It also helps in planning, such as deciding the best route to avoid traffic based on multiple conditions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding compound probability helps us make better predictions and decisions. Keep practicing, and you'll see how useful this skill can be!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand compound probability using trees and tables.\n- Learn to calculate probabilities of combined events.\n- **Why this matters for parents:** Helps children develop critical thinking and decision-making skills.",
+    "overview": "Compound probability involves finding the likelihood of two or more events happening together. We use tools like tree diagrams and tables to visualize and calculate these probabilities.\nUnderstanding compound probability is important because it helps us make informed decisions in everyday situations, such as predicting outcomes in games or assessing risks.",
+    "core": "Compound probability combines the chances of multiple events occurring. By using tree diagrams and tables, we can organize information clearly and calculate probabilities step-by-step. This makes complex problems more manageable.",
+    "demo": "1. **Say:** Let's use coins to explore compound probability. Grab two coins.\n2. **Ask:** What are the possible outcomes when you flip both coins? (HH, HT, TH, TT)\n3. **Say:** We'll draw a tree diagram. Start with the first coin: Heads (H) or Tails (T).\n4. **Say:** For each outcome of the first coin, draw branches for the second coin: Heads (H) or Tails (T).\n5. **Ask:** How many total outcomes do we have? (4)\n6. **Say:** Now, let's use a table to list these outcomes and calculate probabilities.",
+    "math": "In compound probability, we multiply the probabilities of individual events. For example, if the probability of flipping heads on a coin is $\\frac{1}{2}$, then the probability of flipping two heads is $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Tree diagrams and tables help visualize these steps.",
+    "formulas": "P(A \\text{ and } B) = P(A) \\times P(B)\n* P(A \\text{ and } B): Probability of both events A and B occurring\n* P(A), P(B): Probability of each individual event",
+    "guide": "1. **Say:** Let's draw a tree diagram for flipping two coins.\n2. **Ask:** What are the branches for the first coin? (Heads, Tails)\n3. **Say:** Now, add branches for the second coin under each first coin outcome.\n4. **Ask:** How many outcomes are there? (4: HH, HT, TH, TT)\n5. **Say:** Let's calculate the probability of getting two heads using the tree diagram.\n6. **Ask:** What is the probability of each branch? (Multiply probabilities along the branches.)",
+    "mistakes": "- Mixing up the order of events. **Try:** Label each step clearly in the tree diagram.\n- Forgetting to multiply probabilities. **Try:** Remember, each branch represents a multiplication step.\n- Missing outcomes. **Try:** Double-check the tree diagram or table for completeness.",
+    "connection": "Compound probability is used in games, like predicting the outcome of rolling dice or drawing cards. It also helps in planning, such as deciding the best route to avoid traffic based on multiple conditions.",
+    "close": "Understanding compound probability helps us make better predictions and decisions. Keep practicing, and you'll see how useful this skill can be!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the probability of rolling a 3 on a die and flipping heads on a coin?",
+      "hint_md": "Calculate the probability of each event separately, then multiply.",
+      "answer_md": "$\\frac{1}{6} \\times \\frac{1}{2} = \\frac{1}{12}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you draw a red card from a deck and then a black card, what is the probability?",
+      "hint_md": "Consider the probability of each event and multiply.",
+      "answer_md": "$\\frac{26}{52} \\times \\frac{26}{51} = \\frac{13}{51}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the probability of flipping two tails with two coins?",
+      "hint_md": "Use a tree diagram to list all outcomes.",
+      "answer_md": "$\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$"
+    }
+  ]
+}

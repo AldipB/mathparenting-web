@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "56219d95-057f-48b0-a19d-a686acf497c1",
+    "slug": "modeling-word-problems",
+    "title": "Modeling & Word Problems",
+    "summary": "Modeling & Word Problems — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to translate word problems into algebraic expressions.\n- Solve real-world problems using algebra.\n- **Why this matters for parents:** Helping your child see math in everyday life builds confidence and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on modeling real-world situations with algebraic expressions and equations. Word problems often seem challenging, but they are simply stories that need to be translated into math language.\nUnderstanding how to model situations with algebra helps students solve problems logically and prepares them for more advanced math. It also shows them how math applies to everyday life, making it more relevant and engaging.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Modeling with algebra involves identifying the variables and relationships in a word problem. By translating the story into an equation, we can solve for unknowns and find solutions. This skill is crucial for tackling real-world problems efficiently.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's imagine you have 3 apples, and you buy some more so that you have a total of 10 apples. How many did you buy?\"\n2. **Ask:** \"What do we know? We start with 3 apples and end with 10.\"\n3. **Use:** Apples (or any small objects) to show starting with 3.\n4. **Say:** \"If we let $x$ be the number of apples you buy, we can write: $3 + x = 10$.\"\n5. **Ask:** \"How can we find $x$?\"\n6. **Solve:** Subtract 3 from both sides to find $x = 7$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve word problems, identify what you know and what you need to find. Write an equation using a variable for the unknown.\nExample: If you have $5$ candies and want $12$, how many more do you need? Let $x$ be the number of candies needed. The equation is $5 + x = 12$. Solving gives $x = 7$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a + x = b$\n  - $a$: initial amount\n  - $x$: unknown quantity to find\n  - $b$: total amount",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Read the problem:** Encourage your child to read the problem carefully.\n2. **Identify knowns and unknowns:** Ask what information is given and what needs to be found.\n3. **Translate to math:** Help them write an equation using a variable for the unknown.\n4. **Solve the equation:** Guide them through solving the equation step-by-step.\n5. **Check the solution:** Ask them to verify if the solution makes sense in the context of the problem.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing knowns and unknowns. **Try:** Highlight or list what you know and need to find.\n- Forgetting to check the solution. **Try:** Substitute back into the original context to verify.\n- Misreading the problem. **Try:** Read the problem aloud together.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Modeling with algebra is like planning a budget. You set up equations to figure out how much you can spend or save.\nCooking can also involve algebra when adjusting recipes, using proportions to maintain flavor.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Modeling with algebra opens up a world of problem-solving possibilities. Keep exploring and see how math can simplify everyday challenges!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to translate word problems into algebraic expressions.\n- Solve real-world problems using algebra.\n- **Why this matters for parents:** Helping your child see math in everyday life builds confidence and problem-solving skills.",
+    "overview": "This lesson focuses on modeling real-world situations with algebraic expressions and equations. Word problems often seem challenging, but they are simply stories that need to be translated into math language.\nUnderstanding how to model situations with algebra helps students solve problems logically and prepares them for more advanced math. It also shows them how math applies to everyday life, making it more relevant and engaging.",
+    "core": "Modeling with algebra involves identifying the variables and relationships in a word problem. By translating the story into an equation, we can solve for unknowns and find solutions. This skill is crucial for tackling real-world problems efficiently.",
+    "demo": "1. **Say:** \"Let's imagine you have 3 apples, and you buy some more so that you have a total of 10 apples. How many did you buy?\"\n2. **Ask:** \"What do we know? We start with 3 apples and end with 10.\"\n3. **Use:** Apples (or any small objects) to show starting with 3.\n4. **Say:** \"If we let $x$ be the number of apples you buy, we can write: $3 + x = 10$.\"\n5. **Ask:** \"How can we find $x$?\"\n6. **Solve:** Subtract 3 from both sides to find $x = 7$.",
+    "math": "To solve word problems, identify what you know and what you need to find. Write an equation using a variable for the unknown.\nExample: If you have $5$ candies and want $12$, how many more do you need? Let $x$ be the number of candies needed. The equation is $5 + x = 12$. Solving gives $x = 7$.",
+    "formulas": "- $a + x = b$\n  - $a$: initial amount\n  - $x$: unknown quantity to find\n  - $b$: total amount",
+    "guide": "1. **Read the problem:** Encourage your child to read the problem carefully.\n2. **Identify knowns and unknowns:** Ask what information is given and what needs to be found.\n3. **Translate to math:** Help them write an equation using a variable for the unknown.\n4. **Solve the equation:** Guide them through solving the equation step-by-step.\n5. **Check the solution:** Ask them to verify if the solution makes sense in the context of the problem.",
+    "mistakes": "- Confusing knowns and unknowns. **Try:** Highlight or list what you know and need to find.\n- Forgetting to check the solution. **Try:** Substitute back into the original context to verify.\n- Misreading the problem. **Try:** Read the problem aloud together.",
+    "connection": "Modeling with algebra is like planning a budget. You set up equations to figure out how much you can spend or save.\nCooking can also involve algebra when adjusting recipes, using proportions to maintain flavor.",
+    "close": "Modeling with algebra opens up a world of problem-solving possibilities. Keep exploring and see how math can simplify everyday challenges!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If a train travels 60 miles per hour and covers a distance of 180 miles, how long does the journey take?",
+      "hint_md": "Use the formula $\\text{distance} = \\text{rate} \\times \\text{time}$.",
+      "answer_md": "3 hours"
+    },
+    {
+      "order_index": 2,
+      "question_md": "You have $15 and want to buy notebooks costing $3 each. How many can you buy?",
+      "hint_md": "Set up the equation $3x = 15$ where $x$ is the number of notebooks.",
+      "answer_md": "5 notebooks"
+    },
+    {
+      "order_index": 3,
+      "question_md": "A rectangle's length is 4 times its width. If the perimeter is 50 units, find the width.",
+      "hint_md": "Use the perimeter formula $2(l + w) = 50$ and $l = 4w$.",
+      "answer_md": "5 units"
+    }
+  ]
+}

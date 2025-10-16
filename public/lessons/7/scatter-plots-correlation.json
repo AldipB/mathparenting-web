@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "5c98c1a7-cc5d-48ee-acd5-b78e52497854",
+    "slug": "scatter-plots-correlation",
+    "title": "Scatter Plots; Correlation",
+    "summary": "Scatter Plots; Correlation — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand scatter plots and correlation.\n- Learn to interpret data visually.\n- **Why this matters for parents:** Helps in understanding data trends and making informed decisions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Scatter plots are graphs that show the relationship between two sets of data. Each point on the graph represents a pair of values.\nUnderstanding scatter plots and correlation helps us see patterns in data, which is useful in everyday decision-making, like tracking expenses or understanding trends.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Scatter plots help us visualize how two variables relate to each other. By looking at the pattern of points, we can see if there's a trend or correlation, such as whether one variable increases as the other does.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some small objects like buttons or coins to represent data points.\n2. **Say:** \"Let's pretend these objects are data points showing the number of hours you study and your test scores.\"\n3. Draw a simple graph on paper with 'Hours Studied' on the x-axis and 'Test Scores' on the y-axis.\n4. Place the objects on the graph to represent different study hours and scores.\n5. **Ask:** \"Do you see a pattern? What happens to the scores as study hours increase?\"\n6. Discuss any visible trend, like points moving upwards as hours increase.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a scatter plot, each point $(x, y)$ represents a pair of values. For example, if $x = 2$ hours studied and $y = 80$ test score, the point (2, 80) shows this relationship. A positive correlation means as $x$ increases, $y$ also increases.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Draw two axes on a piece of paper.\n2. Label the x-axis and y-axis with the variables you want to compare.\n3. Plot data points using household objects.\n4. **Ask:** \"What pattern do you notice?\"\n5. Discuss whether the points show a positive, negative, or no correlation.\n6. **Say:** \"Understanding these patterns helps us predict future outcomes.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the axes: Try labeling each axis clearly before plotting.\n- Overlooking outliers: Try identifying any points that don't fit the pattern.\n- Assuming correlation implies causation: Try discussing other factors that might affect the data.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Scatter plots are used in weather forecasting to predict temperatures based on historical data. They also help businesses understand customer behavior, like how advertising affects sales.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding scatter plots and correlation empowers you to make sense of data in everyday life. Keep exploring patterns and trends!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand scatter plots and correlation.\n- Learn to interpret data visually.\n- **Why this matters for parents:** Helps in understanding data trends and making informed decisions.",
+    "overview": "Scatter plots are graphs that show the relationship between two sets of data. Each point on the graph represents a pair of values.\nUnderstanding scatter plots and correlation helps us see patterns in data, which is useful in everyday decision-making, like tracking expenses or understanding trends.",
+    "core": "Scatter plots help us visualize how two variables relate to each other. By looking at the pattern of points, we can see if there's a trend or correlation, such as whether one variable increases as the other does.",
+    "demo": "1. Gather some small objects like buttons or coins to represent data points.\n2. **Say:** \"Let's pretend these objects are data points showing the number of hours you study and your test scores.\"\n3. Draw a simple graph on paper with 'Hours Studied' on the x-axis and 'Test Scores' on the y-axis.\n4. Place the objects on the graph to represent different study hours and scores.\n5. **Ask:** \"Do you see a pattern? What happens to the scores as study hours increase?\"\n6. Discuss any visible trend, like points moving upwards as hours increase.",
+    "math": "In a scatter plot, each point $(x, y)$ represents a pair of values. For example, if $x = 2$ hours studied and $y = 80$ test score, the point (2, 80) shows this relationship. A positive correlation means as $x$ increases, $y$ also increases.",
+    "guide": "1. Draw two axes on a piece of paper.\n2. Label the x-axis and y-axis with the variables you want to compare.\n3. Plot data points using household objects.\n4. **Ask:** \"What pattern do you notice?\"\n5. Discuss whether the points show a positive, negative, or no correlation.\n6. **Say:** \"Understanding these patterns helps us predict future outcomes.\"",
+    "mistakes": "- Confusing the axes: Try labeling each axis clearly before plotting.\n- Overlooking outliers: Try identifying any points that don't fit the pattern.\n- Assuming correlation implies causation: Try discussing other factors that might affect the data.",
+    "connection": "Scatter plots are used in weather forecasting to predict temperatures based on historical data. They also help businesses understand customer behavior, like how advertising affects sales.",
+    "close": "Understanding scatter plots and correlation empowers you to make sense of data in everyday life. Keep exploring patterns and trends!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Plot the points (1, 50), (2, 55), (3, 65), and (4, 70) on a scatter plot. What type of correlation do you see?",
+      "hint_md": "Look at the direction of the points.",
+      "answer_md": "The points show a positive correlation."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a scatter plot shows a downward trend, what type of correlation is this?",
+      "hint_md": "Think about what happens to one variable as the other decreases.",
+      "answer_md": "A downward trend indicates a negative correlation."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Create a scatter plot with the points (2, 80), (4, 78), (6, 75), (8, 70). What do you notice?",
+      "hint_md": "Check the trend of the points.",
+      "answer_md": "The points show a negative correlation."
+    }
+  ]
+}

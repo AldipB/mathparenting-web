@@ -1,18 +1,104 @@
 {
-  "title": "Real-Life Signed Operations",
-  "grade": "Grade 7",
-  "overview": "Placeholder outline for \"Real-Life Signed Operations\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Real-Life Signed Operations.",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "e88871e3-d010-4b49-ab34-b9fd9eaffc84",
+    "title": "Rational Numbers & Integers",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "7126f7bf-ba31-401d-821b-39880cd12174",
+    "slug": "real-life-signed-operations",
+    "title": "Real-Life Signed Operations",
+    "summary": "Real-Life Signed Operations — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "**What this is:** Real-Life Signed Operations — explained for parents.\n**Why it matters:** Everyday usefulness and confidence-building for your child in Grade 7.",
+      "order_index": 1
+    },
+    {
+      "key": "core",
+      "md": "**Core Idea:** One friendly paragraph that states the big idea in plain language.",
+      "order_index": 2
+    },
+    {
+      "key": "demo",
+      "md": "**Household Demonstration:** A quick at-home activity (kitchen, shopping, travel, chores) to *show* the idea.",
+      "order_index": 3
+    },
+    {
+      "key": "math",
+      "md": "**The Math Behind It:** Include notation and formulas as needed. Use KaTeX: $$a^2+b^2=c^2$$ (example).",
+      "order_index": 4
+    },
+    {
+      "key": "guide",
+      "md": "**Step-by-Step Teaching Guide:** 4–6 steps with questions to ask and what to listen for.",
+      "order_index": 5
+    },
+    {
+      "key": "mistakes",
+      "md": "**Common Mistakes to Avoid:** 3–5 pitfalls and how to respond encouragingly.",
+      "order_index": 6
+    },
+    {
+      "key": "connection",
+      "md": "**Real-Life Connection or Fun Fact:** A short story or tip that makes it memorable.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "close",
+      "md": "**You’re doing great — your steady guidance matters more than perfection.**",
+      "order_index": 9
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+    "overview": "**What this is:** Real-Life Signed Operations — explained for parents.\n**Why it matters:** Everyday usefulness and confidence-building for your child in Grade 7.",
+    "core": "**Core Idea:** One friendly paragraph that states the big idea in plain language.",
+    "demo": "**Household Demonstration:** A quick at-home activity (kitchen, shopping, travel, chores) to *show* the idea.",
+    "math": "**The Math Behind It:** Include notation and formulas as needed. Use KaTeX: $$a^2+b^2=c^2$$ (example).",
+    "guide": "**Step-by-Step Teaching Guide:** 4–6 steps with questions to ask and what to listen for.",
+    "mistakes": "**Common Mistakes to Avoid:** 3–5 pitfalls and how to respond encouragingly.",
+    "connection": "**Real-Life Connection or Fun Fact:** A short story or tip that makes it memorable.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "close": "**You’re doing great — your steady guidance matters more than perfection.**"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Real-Life Signed Operations**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Real-Life Signed Operations** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Real-Life Signed Operations**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
 }

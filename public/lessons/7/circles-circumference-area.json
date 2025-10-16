@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f0f82ec0-8349-4c77-a35a-39403afc924e",
+    "slug": "circles-circumference-area",
+    "title": "Circles: Circumference & Area",
+    "summary": "Circles: Circumference & Area — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of circumference and area of circles.\n- Learn how to use household objects to explain these concepts.\n- **Why this matters for parents:** Helps you connect math to everyday life, making it relatable and fun for your child.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the circle, focusing on its circumference (the distance around it) and area (the space it covers). We'll use simple household items to make these concepts clear.\nUnderstanding circles is important because they appear in many places, from wheels to clocks. Grasping these ideas helps children see math in the world around them.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A circle is a round shape with no corners or edges. The circumference is like the circle's 'perimeter,' and the area is the space inside. We'll use objects like plates and lids to explore these ideas.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Find a circular object**: Use a plate or lid.\n   **Ask:** What shape is this? (Circle)\n2. **Measure the circumference**: Wrap a string around the object, then measure the string.\n   **Say:** This is the circumference.\n3. **Calculate the area**: Use a ruler to measure the diameter (distance across the circle through the center).\n   **Say:** We'll use this to find the area.\n4. **Build a circle**: Use sticks or straws to form a circle.\n   **Ask:** How is this different from a square or rectangle?\n5. **Discuss 'diamond' misconception**: Rotate a square and ask if it changes shape.\n   **Say:** A rotated square is still a square, not a diamond.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The circumference of a circle is calculated using the formula $C = \\pi d$, where $d$ is the diameter. For example, if the diameter is 10 cm, the circumference is $C = \\pi \\times 10 \\approx 31.4$ cm.\nThe area is calculated with $A = \\pi r^2$, where $r$ is the radius (half the diameter). If the radius is 5 cm, the area is $A = \\pi \\times 5^2 \\approx 78.5$ cm².",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $C = \\pi d$\n  - $C$: Circumference\n  - $d$: Diameter\n- $A = \\pi r^2$\n  - $A$: Area\n  - $r$: Radius",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Introduce circles**: Show a circular object and discuss its features.\n2. **Measure together**: Use a string to measure circumference and a ruler for diameter.\n3. **Calculate**: Help your child use the formulas to find circumference and area.\n4. **Compare shapes**: Use sticks to make a circle, square, and rectangle.\n5. **Discuss**: Talk about where you see circles in daily life.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing diameter with radius.\n  - Try: Remind them the radius is half the diameter.\n- Forgetting to square the radius when finding area.\n  - Try: Write down $r^2$ to remember.\n- Thinking a rotated square is a different shape.\n  - Try: Rotate a square and show it’s still the same.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Circles are everywhere! From the wheels on a car to the face of a clock, understanding circles helps children see math in action.\nCooking often involves circles, like pizza or pancakes, making these concepts practical and tasty!",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Circles are fascinating and everywhere! Keep exploring and you'll find math in the most unexpected places.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of circumference and area of circles.\n- Learn how to use household objects to explain these concepts.\n- **Why this matters for parents:** Helps you connect math to everyday life, making it relatable and fun for your child.",
+    "overview": "This lesson explores the circle, focusing on its circumference (the distance around it) and area (the space it covers). We'll use simple household items to make these concepts clear.\nUnderstanding circles is important because they appear in many places, from wheels to clocks. Grasping these ideas helps children see math in the world around them.",
+    "core": "A circle is a round shape with no corners or edges. The circumference is like the circle's 'perimeter,' and the area is the space inside. We'll use objects like plates and lids to explore these ideas.",
+    "demo": "1. **Find a circular object**: Use a plate or lid.\n   **Ask:** What shape is this? (Circle)\n2. **Measure the circumference**: Wrap a string around the object, then measure the string.\n   **Say:** This is the circumference.\n3. **Calculate the area**: Use a ruler to measure the diameter (distance across the circle through the center).\n   **Say:** We'll use this to find the area.\n4. **Build a circle**: Use sticks or straws to form a circle.\n   **Ask:** How is this different from a square or rectangle?\n5. **Discuss 'diamond' misconception**: Rotate a square and ask if it changes shape.\n   **Say:** A rotated square is still a square, not a diamond.",
+    "math": "The circumference of a circle is calculated using the formula $C = \\pi d$, where $d$ is the diameter. For example, if the diameter is 10 cm, the circumference is $C = \\pi \\times 10 \\approx 31.4$ cm.\nThe area is calculated with $A = \\pi r^2$, where $r$ is the radius (half the diameter). If the radius is 5 cm, the area is $A = \\pi \\times 5^2 \\approx 78.5$ cm².",
+    "formulas": "- $C = \\pi d$\n  - $C$: Circumference\n  - $d$: Diameter\n- $A = \\pi r^2$\n  - $A$: Area\n  - $r$: Radius",
+    "guide": "1. **Introduce circles**: Show a circular object and discuss its features.\n2. **Measure together**: Use a string to measure circumference and a ruler for diameter.\n3. **Calculate**: Help your child use the formulas to find circumference and area.\n4. **Compare shapes**: Use sticks to make a circle, square, and rectangle.\n5. **Discuss**: Talk about where you see circles in daily life.",
+    "mistakes": "- Confusing diameter with radius.\n  - Try: Remind them the radius is half the diameter.\n- Forgetting to square the radius when finding area.\n  - Try: Write down $r^2$ to remember.\n- Thinking a rotated square is a different shape.\n  - Try: Rotate a square and show it’s still the same.",
+    "connection": "Circles are everywhere! From the wheels on a car to the face of a clock, understanding circles helps children see math in action.\nCooking often involves circles, like pizza or pancakes, making these concepts practical and tasty!",
+    "close": "Circles are fascinating and everywhere! Keep exploring and you'll find math in the most unexpected places."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If a circle has a diameter of 8 cm, what is its circumference?",
+      "hint_md": "Use the formula $C = \\pi d$.",
+      "answer_md": "$C = \\pi \\times 8 \\approx 25.1$ cm"
+    },
+    {
+      "order_index": 2,
+      "question_md": "A circle has a radius of 3 cm. What is its area?",
+      "hint_md": "Use the formula $A = \\pi r^2$.",
+      "answer_md": "$A = \\pi \\times 3^2 \\approx 28.3$ cm²"
+    },
+    {
+      "order_index": 3,
+      "question_md": "How does the circumference change if the diameter doubles?",
+      "hint_md": "Think about the formula $C = \\pi d$.",
+      "answer_md": "The circumference doubles."
+    }
+  ]
+}

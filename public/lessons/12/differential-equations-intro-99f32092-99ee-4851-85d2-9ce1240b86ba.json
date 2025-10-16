@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5d6241fa-570e-499f-853b-3a322226b6d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "99f32092-99ee-4851-85d2-9ce1240b86ba",
+    "slug": "differential-equations-intro-99f32092-99ee-4851-85d2-9ce1240b86ba",
+    "title": "Differential Equations (Intro)",
+    "summary": "Differential Equations (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of differential equations\n- Recognize simple real-life applications\n- Gain confidence in explaining concepts to your child\n**Why this matters for parents:** Differential equations help model real-world situations, from population growth to cooling coffee. Understanding them can empower you to support your child's learning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Differential equations are mathematical equations that relate a function with its derivatives. They describe how things change and are used to model dynamic systems.\nThis matters because they are foundational in fields like physics, engineering, and biology. By grasping these concepts, you can help your child see the relevance of math in everyday life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Differential equations involve derivatives, which measure how a quantity changes. For example, if you're tracking how fast water fills a bathtub, the rate of change (derivative) is key. These equations help predict future behavior based on current trends.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Imagine we're filling a bathtub with water.\"\n2. Use a measuring cup and a bowl to represent the bathtub.\n3. **Ask:** \"If we pour 1 cup per minute, how much water is in the bowl after 3 minutes?\"\n4. Pour water and count together. **Say:** \"This is like a simple differential equation where the rate is constant.\"\n5. **Ask:** \"What if we pour faster each minute? How does that change things?\"\n6. Discuss how changing rates affect the total amount.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A differential equation might look like $\\frac{dy}{dt} = ky$, where $y$ is the quantity changing over time $t$, and $k$ is a constant rate. For example, if $k = 2$ and $y(0) = 5$, then $y(t) = 5e^{2t}$ describes exponential growth. This shows how $y$ changes with time.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\frac{dy}{dt} = ky$\n  - $y$: quantity changing\n  - $t$: time\n  - $k$: constant rate",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What everyday situations involve change over time?\"\n2. Discuss examples like cooking, weather changes, or savings growth.\n3. **Say:** \"Let's think about how these changes can be predicted.\"\n4. Use a simple example like a cooling cup of coffee.\n5. **Ask:** \"How does the rate of cooling change as the coffee gets cooler?\"\n6. Relate this to the concept of differential equations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the function with its derivative.\n  - Try: Clarify that the derivative shows the rate of change.\n- Assuming all rates are constant.\n  - Try: Discuss how rates can vary over time.\n- Overlooking initial conditions.\n  - Try: Emphasize the starting point's importance in predictions.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Differential equations are used in medicine to model how drugs interact with the body. They also help engineers design systems like heating and cooling in buildings.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Differential equations open a window into understanding how the world changes. By exploring these concepts, you're equipping your child with tools to tackle complex problems.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of differential equations\n- Recognize simple real-life applications\n- Gain confidence in explaining concepts to your child\n**Why this matters for parents:** Differential equations help model real-world situations, from population growth to cooling coffee. Understanding them can empower you to support your child's learning.",
+    "overview": "Differential equations are mathematical equations that relate a function with its derivatives. They describe how things change and are used to model dynamic systems.\nThis matters because they are foundational in fields like physics, engineering, and biology. By grasping these concepts, you can help your child see the relevance of math in everyday life.",
+    "core": "Differential equations involve derivatives, which measure how a quantity changes. For example, if you're tracking how fast water fills a bathtub, the rate of change (derivative) is key. These equations help predict future behavior based on current trends.",
+    "demo": "1. **Say:** \"Imagine we're filling a bathtub with water.\"\n2. Use a measuring cup and a bowl to represent the bathtub.\n3. **Ask:** \"If we pour 1 cup per minute, how much water is in the bowl after 3 minutes?\"\n4. Pour water and count together. **Say:** \"This is like a simple differential equation where the rate is constant.\"\n5. **Ask:** \"What if we pour faster each minute? How does that change things?\"\n6. Discuss how changing rates affect the total amount.",
+    "math": "A differential equation might look like $\\frac{dy}{dt} = ky$, where $y$ is the quantity changing over time $t$, and $k$ is a constant rate. For example, if $k = 2$ and $y(0) = 5$, then $y(t) = 5e^{2t}$ describes exponential growth. This shows how $y$ changes with time.",
+    "formulas": "- $\\frac{dy}{dt} = ky$\n  - $y$: quantity changing\n  - $t$: time\n  - $k$: constant rate",
+    "guide": "1. **Ask:** \"What everyday situations involve change over time?\"\n2. Discuss examples like cooking, weather changes, or savings growth.\n3. **Say:** \"Let's think about how these changes can be predicted.\"\n4. Use a simple example like a cooling cup of coffee.\n5. **Ask:** \"How does the rate of cooling change as the coffee gets cooler?\"\n6. Relate this to the concept of differential equations.",
+    "mistakes": "- Confusing the function with its derivative.\n  - Try: Clarify that the derivative shows the rate of change.\n- Assuming all rates are constant.\n  - Try: Discuss how rates can vary over time.\n- Overlooking initial conditions.\n  - Try: Emphasize the starting point's importance in predictions.",
+    "connection": "Differential equations are used in medicine to model how drugs interact with the body. They also help engineers design systems like heating and cooling in buildings.",
+    "close": "Differential equations open a window into understanding how the world changes. By exploring these concepts, you're equipping your child with tools to tackle complex problems."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If $\\frac{dy}{dt} = 3y$ and $y(0) = 2$, find $y(t)$.",
+      "hint_md": "Use the formula $y(t) = y(0)e^{kt}$.",
+      "answer_md": "$y(t) = 2e^{3t}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "A population grows at a rate proportional to its size. If $\\frac{dP}{dt} = 0.5P$ and $P(0) = 100$, find $P(t)$.",
+      "hint_md": "Apply $P(t) = P(0)e^{kt}$.",
+      "answer_md": "$P(t) = 100e^{0.5t}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Solve $\\frac{dy}{dt} = -2y$ with $y(0) = 10$.",
+      "hint_md": "Use $y(t) = y(0)e^{kt}$ with $k = -2$.",
+      "answer_md": "$y(t) = 10e^{-2t}$"
+    }
+  ]
+}

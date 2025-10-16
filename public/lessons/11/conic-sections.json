@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "e8c9fde8-1120-4b66-9ab3-8fa3268b1524",
+    "title": "Sequences, Series & Systems",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "3a0cda12-1520-47cd-b732-9f27a05838d8",
+    "slug": "conic-sections",
+    "title": "Conic Sections",
+    "summary": "Conic Sections — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the four types of conic sections: circles, ellipses, parabolas, and hyperbolas.\n- Learn how to identify and describe these shapes using equations.\n- **Why this matters for parents:** This helps your child see the connection between algebra and geometry, enhancing their problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Conic sections are shapes created by slicing a cone at different angles. These include circles, ellipses, parabolas, and hyperbolas. Each shape has unique properties and equations that describe them.\nUnderstanding conic sections is important because they appear in various fields such as physics, engineering, and astronomy. They help us model real-world phenomena, like the orbits of planets or the paths of projectiles.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Conic sections are named for the way they are formed by intersecting a plane with a cone. By changing the angle and position of the intersection, different shapes are created. Each shape has its own equation that can be used to describe its properties and graph it on a coordinate plane.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore conic sections using a flashlight and a piece of paper.\n2. **Ask:** What happens when you shine the flashlight straight down onto the paper?\n   - This creates a circle, similar to the top view of a cone.\n3. **Say:** Now tilt the flashlight slightly. What shape do you see?\n   - This forms an ellipse.\n4. **Say:** Tilt the flashlight even more, making the light beam a narrow path.\n   - This creates a parabola.\n5. **Ask:** What if the flashlight beam goes off the edge of the paper?\n   - This suggests a hyperbola, where the light continues beyond the paper.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Each conic section has a standard equation:\n- **Circle:** $x^2 + y^2 = r^2$\n  - Example: $x^2 + y^2 = 9$ is a circle with radius 3.\n- **Ellipse:** $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$\n  - Example: $\\frac{x^2}{4} + \\frac{y^2}{9} = 1$ is an ellipse.\n- **Parabola:** $y = ax^2 + bx + c$\n  - Example: $y = 2x^2 + 3x + 1$ is a parabola.\n- **Hyperbola:** $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$\n  - Example: $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ is a hyperbola.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Circle: $x^2 + y^2 = r^2$\n  - $r$: radius of the circle\n- Ellipse: $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$\n  - $a$: semi-major axis\n  - $b$: semi-minor axis\n- Parabola: $y = ax^2 + bx + c$\n  - $a, b, c$: coefficients\n- Hyperbola: $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$\n  - $a, b$: constants",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's identify the conic section from this equation: $x^2 + y^2 = 16$.\n2. **Ask:** What shape does this equation represent?\n   - It's a circle with radius 4.\n3. **Say:** Now look at $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. What shape is this?\n   - It's an ellipse.\n4. **Ask:** How about $y = 3x^2 + 2x + 5$?\n   - This is a parabola.\n5. **Say:** Finally, $\\frac{x^2}{4} - \\frac{y^2}{9} = 1$ represents a hyperbola.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the equations of ellipses and hyperbolas. **Try:** Remember, ellipses have a plus sign, hyperbolas have a minus sign.\n- Forgetting to square the radius in the circle equation. **Try:** Double-check the equation format.\n- Mixing up $a$ and $b$ in ellipses and hyperbolas. **Try:** Identify which axis is longer to determine $a$ and $b$.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Conic sections are used in designing satellite dishes (parabolas) and understanding planetary orbits (ellipses). They help us understand how light and sound waves travel.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Conic sections reveal the beauty of math in everyday life. Keep exploring these shapes with your child to uncover more wonders!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the four types of conic sections: circles, ellipses, parabolas, and hyperbolas.\n- Learn how to identify and describe these shapes using equations.\n- **Why this matters for parents:** This helps your child see the connection between algebra and geometry, enhancing their problem-solving skills.",
+    "overview": "Conic sections are shapes created by slicing a cone at different angles. These include circles, ellipses, parabolas, and hyperbolas. Each shape has unique properties and equations that describe them.\nUnderstanding conic sections is important because they appear in various fields such as physics, engineering, and astronomy. They help us model real-world phenomena, like the orbits of planets or the paths of projectiles.",
+    "core": "Conic sections are named for the way they are formed by intersecting a plane with a cone. By changing the angle and position of the intersection, different shapes are created. Each shape has its own equation that can be used to describe its properties and graph it on a coordinate plane.",
+    "demo": "1. **Say:** Let's explore conic sections using a flashlight and a piece of paper.\n2. **Ask:** What happens when you shine the flashlight straight down onto the paper?\n   - This creates a circle, similar to the top view of a cone.\n3. **Say:** Now tilt the flashlight slightly. What shape do you see?\n   - This forms an ellipse.\n4. **Say:** Tilt the flashlight even more, making the light beam a narrow path.\n   - This creates a parabola.\n5. **Ask:** What if the flashlight beam goes off the edge of the paper?\n   - This suggests a hyperbola, where the light continues beyond the paper.",
+    "math": "Each conic section has a standard equation:\n- **Circle:** $x^2 + y^2 = r^2$\n  - Example: $x^2 + y^2 = 9$ is a circle with radius 3.\n- **Ellipse:** $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$\n  - Example: $\\frac{x^2}{4} + \\frac{y^2}{9} = 1$ is an ellipse.\n- **Parabola:** $y = ax^2 + bx + c$\n  - Example: $y = 2x^2 + 3x + 1$ is a parabola.\n- **Hyperbola:** $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$\n  - Example: $\\frac{x^2}{9} - \\frac{y^2}{4} = 1$ is a hyperbola.",
+    "formulas": "- Circle: $x^2 + y^2 = r^2$\n  - $r$: radius of the circle\n- Ellipse: $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$\n  - $a$: semi-major axis\n  - $b$: semi-minor axis\n- Parabola: $y = ax^2 + bx + c$\n  - $a, b, c$: coefficients\n- Hyperbola: $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$\n  - $a, b$: constants",
+    "guide": "1. **Say:** Let's identify the conic section from this equation: $x^2 + y^2 = 16$.\n2. **Ask:** What shape does this equation represent?\n   - It's a circle with radius 4.\n3. **Say:** Now look at $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. What shape is this?\n   - It's an ellipse.\n4. **Ask:** How about $y = 3x^2 + 2x + 5$?\n   - This is a parabola.\n5. **Say:** Finally, $\\frac{x^2}{4} - \\frac{y^2}{9} = 1$ represents a hyperbola.",
+    "mistakes": "- Confusing the equations of ellipses and hyperbolas. **Try:** Remember, ellipses have a plus sign, hyperbolas have a minus sign.\n- Forgetting to square the radius in the circle equation. **Try:** Double-check the equation format.\n- Mixing up $a$ and $b$ in ellipses and hyperbolas. **Try:** Identify which axis is longer to determine $a$ and $b$.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Conic sections are used in designing satellite dishes (parabolas) and understanding planetary orbits (ellipses). They help us understand how light and sound waves travel.",
+    "close": "Conic sections reveal the beauty of math in everyday life. Keep exploring these shapes with your child to uncover more wonders!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Conic Sections**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Conic Sections** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Conic Sections**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

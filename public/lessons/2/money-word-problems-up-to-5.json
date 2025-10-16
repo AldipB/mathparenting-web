@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "9c6f36be-bd85-48cb-ab96-fca9fed4e104",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "fda7304f-af2b-4c1a-be8c-a275fcb282e3",
+    "slug": "money-word-problems-up-to-5",
+    "title": "Money Word Problems (Up to $5)",
+    "summary": "Money Word Problems (Up to $5) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Recognize and identify coins and notes up to $5.\n- Solve simple word problems involving money.\n- **Why this matters for parents:** Understanding money helps children develop practical life skills and confidence in handling everyday transactions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child recognize and identify different coins and notes up to $5. They'll learn to solve simple word problems involving these amounts.\nUnderstanding money is crucial as it builds a foundation for financial literacy. It helps children make sense of everyday transactions and prepares them for real-world situations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, you'll guide your child to recognize coins and notes using household objects like real or play money. They'll learn to distinguish coins by size, color, and edge, and notes by pictures and numbers. This hands-on approach makes learning engaging and practical.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather coins and notes up to $5 (real or play money).\n2. **Say:** \"Let's sort these coins by size and color.\"\n3. **Ask:** \"Which coin is the biggest? Which one is the smallest?\"\n4. Match each coin to an outline drawn on paper.\n5. **Say:** \"Now, let's look at the pictures. Can you find the coin with the building on it?\"\n6. Flip the coins to show heads and tails. **Ask:** \"What do you see on this side?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Coins and notes have different values and features. For example, a quarter is larger than a dime and has ridged edges. A $1 note has George Washington's picture. Recognizing these helps solve word problems like: \"If you have a quarter and a dime, how much do you have?\" The answer is $0.25 + $0.10 = $0.35.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by showing your child a coin. **Ask:** \"What do you notice about this coin?\"\n2. Compare two coins. **Say:** \"Let's find out which is worth more.\"\n3. Use a $1 note. **Ask:** \"Who is on this note? What number do you see?\"\n4. Create a simple story: \"You have a quarter. You find a dime. How much do you have now?\"\n5. Encourage your child to use their fingers to count the total.\n6. Praise their efforts and correct gently if needed.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing coin sizes: Try comparing coins side by side.\n- Forgetting coin values: Try repeating the values together.\n- Mixing up heads and tails: Try flipping coins and describing each side.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Next time you're at the store, ask your child to help count coins for a small purchase. This makes learning real and fun.\nEncourage them to play 'store' at home, using coins and notes to 'buy' items.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring money with your child! Keep practicing, and soon they'll be confident in handling coins and notes.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Recognize and identify coins and notes up to $5.\n- Solve simple word problems involving money.\n- **Why this matters for parents:** Understanding money helps children develop practical life skills and confidence in handling everyday transactions.",
+    "overview": "This lesson focuses on helping your child recognize and identify different coins and notes up to $5. They'll learn to solve simple word problems involving these amounts.\nUnderstanding money is crucial as it builds a foundation for financial literacy. It helps children make sense of everyday transactions and prepares them for real-world situations.",
+    "core": "In this lesson, you'll guide your child to recognize coins and notes using household objects like real or play money. They'll learn to distinguish coins by size, color, and edge, and notes by pictures and numbers. This hands-on approach makes learning engaging and practical.",
+    "demo": "1. Gather coins and notes up to $5 (real or play money).\n2. **Say:** \"Let's sort these coins by size and color.\"\n3. **Ask:** \"Which coin is the biggest? Which one is the smallest?\"\n4. Match each coin to an outline drawn on paper.\n5. **Say:** \"Now, let's look at the pictures. Can you find the coin with the building on it?\"\n6. Flip the coins to show heads and tails. **Ask:** \"What do you see on this side?\"",
+    "math": "Coins and notes have different values and features. For example, a quarter is larger than a dime and has ridged edges. A $1 note has George Washington's picture. Recognizing these helps solve word problems like: \"If you have a quarter and a dime, how much do you have?\" The answer is $0.25 + $0.10 = $0.35.",
+    "guide": "1. Start by showing your child a coin. **Ask:** \"What do you notice about this coin?\"\n2. Compare two coins. **Say:** \"Let's find out which is worth more.\"\n3. Use a $1 note. **Ask:** \"Who is on this note? What number do you see?\"\n4. Create a simple story: \"You have a quarter. You find a dime. How much do you have now?\"\n5. Encourage your child to use their fingers to count the total.\n6. Praise their efforts and correct gently if needed.",
+    "mistakes": "- Confusing coin sizes: Try comparing coins side by side.\n- Forgetting coin values: Try repeating the values together.\n- Mixing up heads and tails: Try flipping coins and describing each side.",
+    "connection": "Next time you're at the store, ask your child to help count coins for a small purchase. This makes learning real and fun.\nEncourage them to play 'store' at home, using coins and notes to 'buy' items.",
+    "close": "Great job exploring money with your child! Keep practicing, and soon they'll be confident in handling coins and notes."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Which is larger, a nickel or a dime?",
+      "hint_md": "Think about their size and edge texture.",
+      "answer_md": "A nickel is larger than a dime."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What picture is on the $1 bill?",
+      "hint_md": "It's a famous president.",
+      "answer_md": "The $1 bill has a picture of George Washington."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Which coin has ridges on the edge, a penny or a quarter?",
+      "hint_md": "Feel the edges of both coins.",
+      "answer_md": "A quarter has ridges on the edge."
+    }
+  ]
+}

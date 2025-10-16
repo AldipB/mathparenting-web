@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "a871ddad-d439-4aa2-82be-3a0beaf119ab",
+    "title": "Polynomials & Geometry",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "0dc187c8-6e03-4388-a242-078f0385b4f5",
+    "slug": "transformations-similarity",
+    "title": "Transformations & Similarity",
+    "summary": "Transformations & Similarity — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand transformations: translation, rotation, reflection, and dilation.\n- Recognize similarity in shapes through transformations.\n- **Why this matters for parents:** This helps children see patterns and spatial relationships, skills useful in problem-solving and everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Transformations are ways to move or change shapes while maintaining certain properties. They include translation (sliding), rotation (turning), reflection (flipping), and dilation (resizing). Similarity involves shapes that have the same form but different sizes.\nUnderstanding transformations and similarity helps children grasp how objects relate to each other in space. This knowledge is foundational for geometry and real-world applications like architecture and engineering.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Transformations change a shape's position or size without altering its fundamental properties. Similar shapes have the same angles and proportional sides, even if one is larger than the other. These concepts help children visualize and manipulate shapes mentally.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore transformations using a book and a mirror.\"\n2. Place a book on the table. **Ask:** \"What happens if we slide the book to the right?\" (Translation)\n3. **Say:** \"Now, let's turn the book 90 degrees.\" (Rotation)\n4. Hold a mirror next to the book. **Ask:** \"What do you see in the mirror?\" (Reflection)\n5. Use a photocopier to enlarge a page. **Say:** \"This is like making the shape bigger, but it still looks the same.\" (Dilation)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In transformations, a shape's size or position changes. For example, if a triangle with vertices at $(1, 2)$, $(3, 4)$, and $(5, 6)$ is translated 2 units right, the new vertices are $(3, 2)$, $(5, 4)$, and $(7, 6)$. Similar shapes have proportional sides and equal angles, like two triangles where one is a scaled version of the other.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What happens if we move this shape?\" Encourage your child to describe the transformation.\n2. **Say:** \"Let's rotate this object. How does it look now?\"\n3. **Ask:** \"If we flip this over, what changes?\"\n4. **Say:** \"Let's make this shape bigger. Does it still look the same?\"\n5. **Ask:** \"Can you find two objects in the house that look similar but are different sizes?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing rotation with reflection. **Try:** Use a mirror to show reflection.\n- Thinking similar shapes must be the same size. **Try:** Compare a large and small cup.\n- Forgetting to adjust all points in a translation. **Try:** Move each point the same distance.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Transformations are used in video game graphics to move and resize characters. Architects use similarity to design models of buildings before construction.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to see transformations and similarity in the world around them. These skills will help them in math and beyond!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand transformations: translation, rotation, reflection, and dilation.\n- Recognize similarity in shapes through transformations.\n- **Why this matters for parents:** This helps children see patterns and spatial relationships, skills useful in problem-solving and everyday life.",
+    "overview": "Transformations are ways to move or change shapes while maintaining certain properties. They include translation (sliding), rotation (turning), reflection (flipping), and dilation (resizing). Similarity involves shapes that have the same form but different sizes.\nUnderstanding transformations and similarity helps children grasp how objects relate to each other in space. This knowledge is foundational for geometry and real-world applications like architecture and engineering.",
+    "core": "Transformations change a shape's position or size without altering its fundamental properties. Similar shapes have the same angles and proportional sides, even if one is larger than the other. These concepts help children visualize and manipulate shapes mentally.",
+    "demo": "1. **Say:** \"Let's explore transformations using a book and a mirror.\"\n2. Place a book on the table. **Ask:** \"What happens if we slide the book to the right?\" (Translation)\n3. **Say:** \"Now, let's turn the book 90 degrees.\" (Rotation)\n4. Hold a mirror next to the book. **Ask:** \"What do you see in the mirror?\" (Reflection)\n5. Use a photocopier to enlarge a page. **Say:** \"This is like making the shape bigger, but it still looks the same.\" (Dilation)",
+    "math": "In transformations, a shape's size or position changes. For example, if a triangle with vertices at $(1, 2)$, $(3, 4)$, and $(5, 6)$ is translated 2 units right, the new vertices are $(3, 2)$, $(5, 4)$, and $(7, 6)$. Similar shapes have proportional sides and equal angles, like two triangles where one is a scaled version of the other.",
+    "guide": "1. **Ask:** \"What happens if we move this shape?\" Encourage your child to describe the transformation.\n2. **Say:** \"Let's rotate this object. How does it look now?\"\n3. **Ask:** \"If we flip this over, what changes?\"\n4. **Say:** \"Let's make this shape bigger. Does it still look the same?\"\n5. **Ask:** \"Can you find two objects in the house that look similar but are different sizes?\"",
+    "mistakes": "- Confusing rotation with reflection. **Try:** Use a mirror to show reflection.\n- Thinking similar shapes must be the same size. **Try:** Compare a large and small cup.\n- Forgetting to adjust all points in a translation. **Try:** Move each point the same distance.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Transformations are used in video game graphics to move and resize characters. Architects use similarity to design models of buildings before construction.",
+    "close": "Encourage your child to see transformations and similarity in the world around them. These skills will help them in math and beyond!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Transformations & Similarity**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Transformations & Similarity** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Transformations & Similarity**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "ad2e26aa-a7a7-421f-a41d-e4c8815a5383",
+    "title": "Fractions, Measure & Money",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "803fa41b-405f-4a42-97f1-28ec6162f6b3",
+    "slug": "money-problems-up-to-1-or-5",
+    "title": "Money Problems up to $1 or $5",
+    "summary": "Money Problems up to $1 or $5 — summary for parents in Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Recognize and identify coins and notes up to $1 or $5.\n- Understand the value of each coin and note.\n- Sort coins by size, color, and other features.\n- **Why this matters for parents:** Building a strong foundation in recognizing money helps children develop financial literacy skills early on.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson helps your child recognize and identify coins and notes up to $1 or $5. They will learn to distinguish coins by size, color, and the images on them.\nUnderstanding money is crucial for everyday life. It helps children make sense of buying, saving, and spending, setting the stage for good financial habits.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will learn to recognize different coins and notes by examining their physical features. This includes looking at size, color, and the images on each coin or note. By sorting and matching, they will become familiar with the value and appearance of money.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a collection of coins and notes (or play money) up to $1 or $5.\n2. **Say:** \"Let's look at these coins. Can you find the biggest one?\"\n3. **Ask:** \"What color is this coin? What picture do you see on it?\"\n4. Place outlines of coins on paper and ask your child to match the coins to the outlines.\n5. **Say:** \"Let's sort these coins by size. Can you put the smallest ones here?\"\n6. Flip the coins and discuss heads vs. tails. **Ask:** \"Which side do you like better? Why?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Coins have different values based on their size, color, and images. For example, a quarter is larger than a dime and worth 25 cents, while a dime is smaller and worth 10 cents. Recognizing these differences helps children understand their value.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by showing your child a few coins and notes. **Ask:** \"What do you notice about these?\"\n2. Encourage them to sort the coins by size. **Say:** \"Let's put all the big ones together.\"\n3. Discuss the images on each coin. **Ask:** \"Who do you see on this coin?\"\n4. Use play money to create a pretend store. **Say:** \"Let's buy something with these coins.\"\n5. Practice flipping coins to show heads and tails. **Ask:** \"Which side is this?\"\n6. Reinforce learning by asking them to identify coins during a shopping trip.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing coin sizes: Try sorting coins by size first, then by value.\n- Mixing up heads and tails: Practice flipping coins and identifying each side.\n- Forgetting coin values: Use a chart with images and values for reference.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Recognizing money helps children understand shopping and saving. Next time you're at a store, ask your child to identify coins and notes while you pay.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring money with your child! Keep practicing, and soon they'll be a money master.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Recognize and identify coins and notes up to $1 or $5.\n- Understand the value of each coin and note.\n- Sort coins by size, color, and other features.\n- **Why this matters for parents:** Building a strong foundation in recognizing money helps children develop financial literacy skills early on.",
+    "overview": "This lesson helps your child recognize and identify coins and notes up to $1 or $5. They will learn to distinguish coins by size, color, and the images on them.\nUnderstanding money is crucial for everyday life. It helps children make sense of buying, saving, and spending, setting the stage for good financial habits.",
+    "core": "Children will learn to recognize different coins and notes by examining their physical features. This includes looking at size, color, and the images on each coin or note. By sorting and matching, they will become familiar with the value and appearance of money.",
+    "demo": "1. Gather a collection of coins and notes (or play money) up to $1 or $5.\n2. **Say:** \"Let's look at these coins. Can you find the biggest one?\"\n3. **Ask:** \"What color is this coin? What picture do you see on it?\"\n4. Place outlines of coins on paper and ask your child to match the coins to the outlines.\n5. **Say:** \"Let's sort these coins by size. Can you put the smallest ones here?\"\n6. Flip the coins and discuss heads vs. tails. **Ask:** \"Which side do you like better? Why?\"",
+    "math": "Coins have different values based on their size, color, and images. For example, a quarter is larger than a dime and worth 25 cents, while a dime is smaller and worth 10 cents. Recognizing these differences helps children understand their value.",
+    "guide": "1. Start by showing your child a few coins and notes. **Ask:** \"What do you notice about these?\"\n2. Encourage them to sort the coins by size. **Say:** \"Let's put all the big ones together.\"\n3. Discuss the images on each coin. **Ask:** \"Who do you see on this coin?\"\n4. Use play money to create a pretend store. **Say:** \"Let's buy something with these coins.\"\n5. Practice flipping coins to show heads and tails. **Ask:** \"Which side is this?\"\n6. Reinforce learning by asking them to identify coins during a shopping trip.",
+    "mistakes": "- Confusing coin sizes: Try sorting coins by size first, then by value.\n- Mixing up heads and tails: Practice flipping coins and identifying each side.\n- Forgetting coin values: Use a chart with images and values for reference.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Recognizing money helps children understand shopping and saving. Next time you're at a store, ask your child to identify coins and notes while you pay.",
+    "close": "Great job exploring money with your child! Keep practicing, and soon they'll be a money master."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Money Problems up to $1 or $5**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Money Problems up to $1 or $5** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Money Problems up to $1 or $5**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

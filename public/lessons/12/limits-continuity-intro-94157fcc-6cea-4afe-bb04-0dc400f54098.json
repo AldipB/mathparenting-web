@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5d6241fa-570e-499f-853b-3a322226b6d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "94157fcc-6cea-4afe-bb04-0dc400f54098",
+    "slug": "limits-continuity-intro-94157fcc-6cea-4afe-bb04-0dc400f54098",
+    "title": "Limits & Continuity (Intro)",
+    "summary": "Limits & Continuity (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basic concept of limits and continuity.\n- Learn to explain these concepts using everyday examples.\n- **Why this matters for parents:** Grasping these ideas helps support your child's journey into calculus, a key area in advanced math.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Limits and continuity are foundational concepts in calculus. A limit helps us understand what value a function approaches as the input gets closer to a certain point. Continuity means the function behaves predictably without any sudden jumps.\nThese concepts matter because they form the basis for understanding more complex calculus topics like derivatives and integrals. By grasping limits and continuity, your child will be better prepared for tackling real-world problems involving change and motion.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a limit tells us what value a function is getting closer to as the input approaches a certain number. Continuity means that as you move along the graph of a function, there are no breaks or jumps.\nThink of it like walking along a smooth path without any sudden cliffs or gaps. If you can walk from one point to another without lifting your feet, the path is continuous.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Imagine pouring water into a glass.\"\n2. **Ask:** \"What happens as the glass gets full?\"\n3. **Say:** \"The water level approaches the top of the glass, like a limit.\"\n4. Use a ruler and a piece of string. Stretch the string along the ruler to show a continuous line.\n5. **Say:** \"This string represents a continuous function.\"\n6. **Ask:** \"What would happen if there was a knot in the string?\" Discuss how this represents a break in continuity.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A limit is written as $\\lim_{{x \\to c}} f(x) = L$, meaning as $x$ approaches $c$, the function $f(x)$ approaches $L$.\nExample: For $f(x) = 2x$, as $x$ approaches 3, $f(x)$ approaches 6. So, $\\lim_{{x \\to 3}} 2x = 6$.\nA function is continuous at a point if the limit at that point equals the function's value there.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\lim_{{x \\to c}} f(x) = L$\n  - $x \\to c$: $x$ approaches $c$\n  - $f(x)$: function value\n  - $L$: limit value",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What happens when you pour water into a glass?\" Discuss how the water level approaches the top.\n2. Use a piece of string to represent a continuous function. Stretch it along a ruler.\n3. **Say:** \"This is like a continuous function—no breaks.\"\n4. Introduce a knot in the string. **Ask:** \"What does this represent?\"\n5. Discuss how the knot represents a break in continuity.\n6. **Say:** \"Understanding these concepts helps us see how functions behave.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing limits with actual values. **Try:** Emphasize that limits are about approaching, not reaching.\n- Overlooking the idea of direction. **Try:** Discuss approaching from both sides of a point.\n- Ignoring continuity. **Try:** Use the string example to show how continuity means no breaks.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Limits are used in engineering to predict stress points in materials. Continuity is crucial in computer graphics for creating smooth animations.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding limits and continuity opens the door to exploring how things change smoothly. Keep exploring these concepts with curiosity!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basic concept of limits and continuity.\n- Learn to explain these concepts using everyday examples.\n- **Why this matters for parents:** Grasping these ideas helps support your child's journey into calculus, a key area in advanced math.",
+    "overview": "Limits and continuity are foundational concepts in calculus. A limit helps us understand what value a function approaches as the input gets closer to a certain point. Continuity means the function behaves predictably without any sudden jumps.\nThese concepts matter because they form the basis for understanding more complex calculus topics like derivatives and integrals. By grasping limits and continuity, your child will be better prepared for tackling real-world problems involving change and motion.",
+    "core": "In simple terms, a limit tells us what value a function is getting closer to as the input approaches a certain number. Continuity means that as you move along the graph of a function, there are no breaks or jumps.\nThink of it like walking along a smooth path without any sudden cliffs or gaps. If you can walk from one point to another without lifting your feet, the path is continuous.",
+    "demo": "1. **Say:** \"Imagine pouring water into a glass.\"\n2. **Ask:** \"What happens as the glass gets full?\"\n3. **Say:** \"The water level approaches the top of the glass, like a limit.\"\n4. Use a ruler and a piece of string. Stretch the string along the ruler to show a continuous line.\n5. **Say:** \"This string represents a continuous function.\"\n6. **Ask:** \"What would happen if there was a knot in the string?\" Discuss how this represents a break in continuity.",
+    "math": "A limit is written as $\\lim_{{x \\to c}} f(x) = L$, meaning as $x$ approaches $c$, the function $f(x)$ approaches $L$.\nExample: For $f(x) = 2x$, as $x$ approaches 3, $f(x)$ approaches 6. So, $\\lim_{{x \\to 3}} 2x = 6$.\nA function is continuous at a point if the limit at that point equals the function's value there.",
+    "formulas": "- $\\lim_{{x \\to c}} f(x) = L$\n  - $x \\to c$: $x$ approaches $c$\n  - $f(x)$: function value\n  - $L$: limit value",
+    "guide": "1. **Ask:** \"What happens when you pour water into a glass?\" Discuss how the water level approaches the top.\n2. Use a piece of string to represent a continuous function. Stretch it along a ruler.\n3. **Say:** \"This is like a continuous function—no breaks.\"\n4. Introduce a knot in the string. **Ask:** \"What does this represent?\"\n5. Discuss how the knot represents a break in continuity.\n6. **Say:** \"Understanding these concepts helps us see how functions behave.\"",
+    "mistakes": "- Confusing limits with actual values. **Try:** Emphasize that limits are about approaching, not reaching.\n- Overlooking the idea of direction. **Try:** Discuss approaching from both sides of a point.\n- Ignoring continuity. **Try:** Use the string example to show how continuity means no breaks.",
+    "connection": "Limits are used in engineering to predict stress points in materials. Continuity is crucial in computer graphics for creating smooth animations.",
+    "close": "Understanding limits and continuity opens the door to exploring how things change smoothly. Keep exploring these concepts with curiosity!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is $\\lim_{{x \\to 2}} (3x + 1)$?",
+      "hint_md": "Substitute $x = 2$ into the expression.",
+      "answer_md": "$7$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Is the function $f(x) = \\frac{1}{x}$ continuous at $x = 0$?",
+      "hint_md": "Consider if you can substitute $x = 0$ into the function.",
+      "answer_md": "No, because $f(x)$ is undefined at $x = 0$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Find $\\lim_{{x \\to 5}} (x^2 - 4x + 3)$.",
+      "hint_md": "Substitute $x = 5$ into the polynomial.",
+      "answer_md": "$8$"
+    }
+  ]
+}

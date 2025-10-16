@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "3a13ffdd-c218-4fcc-b409-9713883a4ee4",
+    "title": "Rational, Exponential & Log",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "44618287-1c3d-4d61-8bf1-9597ccdec404",
+    "slug": "rational-functions-asymptotes-44618287-1c3d-4d61-8bf1-9597ccdec404",
+    "title": "Rational Functions & Asymptotes",
+    "summary": "Rational Functions & Asymptotes — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what rational functions are and how they behave.\n- Identify vertical and horizontal asymptotes.\n- Graph simple rational functions.\n- **Why this matters for parents:** Understanding these concepts helps you support your child's math journey and relate it to real-world scenarios.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rational functions are fractions where both the numerator and the denominator are polynomials. They often have interesting behaviors, like asymptotes, which are lines the graph approaches but never touches.\nUnderstanding rational functions and asymptotes helps in analyzing real-world situations, like rates of change and optimization problems, which are crucial in fields like engineering and economics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rational functions can look complex, but they follow simple rules. Asymptotes are like invisible boundaries. Vertical asymptotes occur where the function is undefined, and horizontal asymptotes show the behavior as the input gets very large or very small.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore rational functions using a simple fraction. Grab a piece of paper and draw the fraction \\( \\frac{1}{x} \\).\n2. **Ask:** What happens when \\( x \\) gets very large or very small?\n3. **Say:** Notice how the fraction gets closer to zero but never actually reaches it. This is a horizontal asymptote at \\( y = 0 \\).\n4. **Say:** Now, let's find where the function is undefined. What happens when \\( x = 0 \\)?\n5. **Ask:** Can you see how the function shoots up or down? This is a vertical asymptote at \\( x = 0 \\).\n6. **Say:** Try plotting a few points around these asymptotes to see the graph's behavior.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A rational function is of the form \\( f(x) = \\frac{p(x)}{q(x)} \\), where \\( p(x) \\) and \\( q(x) \\) are polynomials.\nFor example, \\( f(x) = \\frac{2x+3}{x-1} \\) has a vertical asymptote at \\( x = 1 \\) (where the denominator is zero) and a horizontal asymptote at \\( y = 2 \\) (as \\( x \\) becomes very large, the \\( 2x/x \\) dominates).",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Vertical Asymptote: \\( x = a \\)\n* Occurs where \\( q(x) = 0 \\)\nHorizontal Asymptote: \\( y = b \\)\n* Determined by the degrees of \\( p(x) \\) and \\( q(x) \\)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is the degree of the numerator and the denominator?\n2. **Say:** Let's find where the denominator equals zero for vertical asymptotes.\n3. **Ask:** What happens to the function as \\( x \\) becomes very large?\n4. **Say:** Use this to identify the horizontal asymptote.\n5. **Ask:** Can you plot these on a graph to see the overall shape?\n6. **Say:** Notice how the graph approaches but never touches the asymptotes.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing vertical and horizontal asymptotes. **Try:** Remember, vertical is where the function is undefined.\n- Forgetting to check the degree of polynomials. **Try:** Compare the highest powers of \\( x \\) in numerator and denominator.\n- Ignoring negative values of \\( x \\). **Try:** Consider both positive and negative values for a complete graph.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Rational functions model real-life situations like speed (distance/time) and economics (cost/quantity). Asymptotes help predict behavior in these contexts, such as limits in production or speed.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring rational functions and asymptotes opens a window into understanding complex behaviors in simple terms. Keep practicing, and you'll see these patterns everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what rational functions are and how they behave.\n- Identify vertical and horizontal asymptotes.\n- Graph simple rational functions.\n- **Why this matters for parents:** Understanding these concepts helps you support your child's math journey and relate it to real-world scenarios.",
+    "overview": "Rational functions are fractions where both the numerator and the denominator are polynomials. They often have interesting behaviors, like asymptotes, which are lines the graph approaches but never touches.\nUnderstanding rational functions and asymptotes helps in analyzing real-world situations, like rates of change and optimization problems, which are crucial in fields like engineering and economics.",
+    "core": "Rational functions can look complex, but they follow simple rules. Asymptotes are like invisible boundaries. Vertical asymptotes occur where the function is undefined, and horizontal asymptotes show the behavior as the input gets very large or very small.",
+    "demo": "1. **Say:** Let's explore rational functions using a simple fraction. Grab a piece of paper and draw the fraction \\( \\frac{1}{x} \\).\n2. **Ask:** What happens when \\( x \\) gets very large or very small?\n3. **Say:** Notice how the fraction gets closer to zero but never actually reaches it. This is a horizontal asymptote at \\( y = 0 \\).\n4. **Say:** Now, let's find where the function is undefined. What happens when \\( x = 0 \\)?\n5. **Ask:** Can you see how the function shoots up or down? This is a vertical asymptote at \\( x = 0 \\).\n6. **Say:** Try plotting a few points around these asymptotes to see the graph's behavior.",
+    "math": "A rational function is of the form \\( f(x) = \\frac{p(x)}{q(x)} \\), where \\( p(x) \\) and \\( q(x) \\) are polynomials.\nFor example, \\( f(x) = \\frac{2x+3}{x-1} \\) has a vertical asymptote at \\( x = 1 \\) (where the denominator is zero) and a horizontal asymptote at \\( y = 2 \\) (as \\( x \\) becomes very large, the \\( 2x/x \\) dominates).",
+    "formulas": "Vertical Asymptote: \\( x = a \\)\n* Occurs where \\( q(x) = 0 \\)\nHorizontal Asymptote: \\( y = b \\)\n* Determined by the degrees of \\( p(x) \\) and \\( q(x) \\)",
+    "guide": "1. **Ask:** What is the degree of the numerator and the denominator?\n2. **Say:** Let's find where the denominator equals zero for vertical asymptotes.\n3. **Ask:** What happens to the function as \\( x \\) becomes very large?\n4. **Say:** Use this to identify the horizontal asymptote.\n5. **Ask:** Can you plot these on a graph to see the overall shape?\n6. **Say:** Notice how the graph approaches but never touches the asymptotes.",
+    "mistakes": "- Confusing vertical and horizontal asymptotes. **Try:** Remember, vertical is where the function is undefined.\n- Forgetting to check the degree of polynomials. **Try:** Compare the highest powers of \\( x \\) in numerator and denominator.\n- Ignoring negative values of \\( x \\). **Try:** Consider both positive and negative values for a complete graph.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Rational functions model real-life situations like speed (distance/time) and economics (cost/quantity). Asymptotes help predict behavior in these contexts, such as limits in production or speed.",
+    "close": "Exploring rational functions and asymptotes opens a window into understanding complex behaviors in simple terms. Keep practicing, and you'll see these patterns everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Rational Functions & Asymptotes**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Rational Functions & Asymptotes** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Rational Functions & Asymptotes**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

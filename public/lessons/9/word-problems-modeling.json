@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "b1bfd0fd-882f-4796-8bc5-248328ce778e",
+    "title": "Quadratics & Factoring (Intro)",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "84db5f74-585b-4f9b-ac4f-85ce8e4b33af",
+    "slug": "word-problems-modeling",
+    "title": "Word Problems & Modeling",
+    "summary": "Word Problems & Modeling — summary for parents in Grade 9 — Algebra I Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to translate word problems into algebraic expressions and equations.\n- Develop skills to solve real-world problems using algebra.\n- **Why this matters for parents:** Helps you support your child in applying math to everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Word problems in algebra involve translating a situation described in words into mathematical expressions or equations. This skill is crucial for solving real-world problems where information is presented in a narrative form.\nMastering word problems helps students see the relevance of algebra in daily life, making math more engaging and practical. It builds critical thinking and problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Word problems often seem tricky because they require both reading comprehension and mathematical skills. The key is to break down the problem into smaller parts and identify what is being asked. By modeling the problem with algebra, students can find solutions more easily.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's solve a word problem together. Imagine you have 5 apples and you buy 3 more. How many apples do you have now?\n2. **Ask:** What operation do we use to find the total number of apples?\n3. **Use:** Apples or any small objects to represent the problem.\n4. **Say:** We start with 5 apples and add 3 more. So, we calculate $5 + 3$.\n5. **Ask:** How many apples do we have now? (Answer: 8)\n6. **Say:** This is a simple example of modeling a real situation with math.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve word problems, identify key information and translate it into an equation. For example, if a problem states, \"You have $x$ apples and buy 3 more, totaling 8 apples,\" the equation is $x + 3 = 8$. Solving for $x$, we find $x = 5$. This means you originally had 5 apples.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $x + a = b$\n  - $x$: the unknown quantity\n  - $a$: a known quantity added to $x$\n  - $b$: the total after adding $a$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Read the problem aloud** with your child to ensure understanding.\n2. **Identify** what is being asked and the information given.\n3. **Translate** the words into a mathematical equation.\n4. **Solve** the equation step-by-step with your child.\n5. **Check** the solution by substituting it back into the original problem.\n6. **Discuss** how the math relates to the real-world scenario.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misidentifying the operation needed. **Try:** Highlight keywords like 'total' or 'difference' to guide you.\n- Forgetting to define variables. **Try:** Clearly state what each variable represents.\n- Solving the equation incorrectly. **Try:** Double-check each step with your child.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Word problems are everywhere! Whether calculating a grocery bill or planning a trip, algebra helps us make informed decisions. Encourage your child to see math as a tool for everyday life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to see word problems as stories waiting to be solved. With practice, they'll gain confidence and enjoy the challenge!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to translate word problems into algebraic expressions and equations.\n- Develop skills to solve real-world problems using algebra.\n- **Why this matters for parents:** Helps you support your child in applying math to everyday situations.",
+    "overview": "Word problems in algebra involve translating a situation described in words into mathematical expressions or equations. This skill is crucial for solving real-world problems where information is presented in a narrative form.\nMastering word problems helps students see the relevance of algebra in daily life, making math more engaging and practical. It builds critical thinking and problem-solving skills.",
+    "core": "Word problems often seem tricky because they require both reading comprehension and mathematical skills. The key is to break down the problem into smaller parts and identify what is being asked. By modeling the problem with algebra, students can find solutions more easily.",
+    "demo": "1. **Say:** Let's solve a word problem together. Imagine you have 5 apples and you buy 3 more. How many apples do you have now?\n2. **Ask:** What operation do we use to find the total number of apples?\n3. **Use:** Apples or any small objects to represent the problem.\n4. **Say:** We start with 5 apples and add 3 more. So, we calculate $5 + 3$.\n5. **Ask:** How many apples do we have now? (Answer: 8)\n6. **Say:** This is a simple example of modeling a real situation with math.",
+    "math": "To solve word problems, identify key information and translate it into an equation. For example, if a problem states, \"You have $x$ apples and buy 3 more, totaling 8 apples,\" the equation is $x + 3 = 8$. Solving for $x$, we find $x = 5$. This means you originally had 5 apples.",
+    "formulas": "- $x + a = b$\n  - $x$: the unknown quantity\n  - $a$: a known quantity added to $x$\n  - $b$: the total after adding $a$",
+    "guide": "1. **Read the problem aloud** with your child to ensure understanding.\n2. **Identify** what is being asked and the information given.\n3. **Translate** the words into a mathematical equation.\n4. **Solve** the equation step-by-step with your child.\n5. **Check** the solution by substituting it back into the original problem.\n6. **Discuss** how the math relates to the real-world scenario.",
+    "mistakes": "- Misidentifying the operation needed. **Try:** Highlight keywords like 'total' or 'difference' to guide you.\n- Forgetting to define variables. **Try:** Clearly state what each variable represents.\n- Solving the equation incorrectly. **Try:** Double-check each step with your child.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Word problems are everywhere! Whether calculating a grocery bill or planning a trip, algebra helps us make informed decisions. Encourage your child to see math as a tool for everyday life.",
+    "close": "Encourage your child to see word problems as stories waiting to be solved. With practice, they'll gain confidence and enjoy the challenge!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Word Problems & Modeling**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Word Problems & Modeling** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Word Problems & Modeling**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

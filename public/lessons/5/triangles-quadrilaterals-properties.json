@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "fb161513-cfa0-40ac-892b-61e7b325028e",
+    "slug": "triangles-quadrilaterals-properties",
+    "title": "Triangles & Quadrilaterals Properties",
+    "summary": "Triangles & Quadrilaterals Properties — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Identify properties of triangles and quadrilaterals.\n- Understand differences between squares and rectangles.\n- Recognize shapes in various orientations.\n- **Why this matters for parents:** Understanding these shapes helps children see geometry in everyday life and builds a foundation for more complex math.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the basic properties of triangles and quadrilaterals, focusing on sides and corners. We'll look at how these shapes appear in different orientations, like rotated squares.\nUnderstanding these shapes is important because they form the basis of geometry. Recognizing them helps children connect math to the world around them, from architecture to art.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Triangles have three sides and three corners. Quadrilaterals have four sides and four corners. Squares and rectangles are types of quadrilaterals. A square has all sides equal, while a rectangle has opposite sides equal. Remember, a square is still a square even if it looks like a 'diamond' when rotated.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some shapes around the house!\" Look for items like a book (rectangle) or a slice of pizza (triangle).\n2. **Ask:** \"How many sides and corners does this shape have?\" Count together.\n3. Use straws or sticks to build a triangle and a quadrilateral. **Say:** \"See how the triangle has three sides and the quadrilateral has four?\"\n4. **Ask:** \"What happens if we turn this square? Does it change?\" Discuss how a rotated square is still a square.\n5. Compare a square and rectangle. **Say:** \"Notice how all sides of the square are equal, but the rectangle has two longer sides.\"\n6. **Ask:** \"What if we call a square a 'diamond'? Is it still a square?\" Reinforce that orientation doesn't change the shape.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A triangle has three sides and three angles. A quadrilateral has four sides and four angles. For example, a square has four equal sides and four right angles (90° each). A rectangle has opposite sides equal and four right angles.\nConsider a square with side length 4 cm. Its perimeter is $4 \\times 4 = 16$ cm.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Perimeter of a square: $P = 4s$\n  - $s$ is the side length of the square.\n- Perimeter of a rectangle: $P = 2(l + w)$\n  - $l$ is the length, $w$ is the width.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather household objects like books, tiles, or paper to identify shapes.\n2. Use straws or sticks to construct triangles and quadrilaterals.\n3. Rotate a square object and discuss how it remains a square.\n4. Compare a square and rectangle using real objects. **Ask:** \"What do you notice about the sides?\"\n5. Discuss the term 'diamond' and clarify that it's just a rotated square.\n6. Reinforce learning by drawing shapes and labeling sides and corners.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares and rectangles: Try comparing side lengths.\n- Thinking a rotated square is a different shape: Try rotating a paper square.\n- Miscounting sides or corners: Try using fingers to count each side and corner.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Triangles and quadrilaterals are everywhere! Look at road signs (triangles) or windows (rectangles). Recognizing these shapes helps in understanding design and structure in everyday life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Shapes are all around us, and understanding them makes the world more interesting. Keep exploring and discovering!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Identify properties of triangles and quadrilaterals.\n- Understand differences between squares and rectangles.\n- Recognize shapes in various orientations.\n- **Why this matters for parents:** Understanding these shapes helps children see geometry in everyday life and builds a foundation for more complex math.",
+    "overview": "This lesson explores the basic properties of triangles and quadrilaterals, focusing on sides and corners. We'll look at how these shapes appear in different orientations, like rotated squares.\nUnderstanding these shapes is important because they form the basis of geometry. Recognizing them helps children connect math to the world around them, from architecture to art.",
+    "core": "Triangles have three sides and three corners. Quadrilaterals have four sides and four corners. Squares and rectangles are types of quadrilaterals. A square has all sides equal, while a rectangle has opposite sides equal. Remember, a square is still a square even if it looks like a 'diamond' when rotated.",
+    "demo": "1. **Say:** \"Let's find some shapes around the house!\" Look for items like a book (rectangle) or a slice of pizza (triangle).\n2. **Ask:** \"How many sides and corners does this shape have?\" Count together.\n3. Use straws or sticks to build a triangle and a quadrilateral. **Say:** \"See how the triangle has three sides and the quadrilateral has four?\"\n4. **Ask:** \"What happens if we turn this square? Does it change?\" Discuss how a rotated square is still a square.\n5. Compare a square and rectangle. **Say:** \"Notice how all sides of the square are equal, but the rectangle has two longer sides.\"\n6. **Ask:** \"What if we call a square a 'diamond'? Is it still a square?\" Reinforce that orientation doesn't change the shape.",
+    "math": "A triangle has three sides and three angles. A quadrilateral has four sides and four angles. For example, a square has four equal sides and four right angles (90° each). A rectangle has opposite sides equal and four right angles.\nConsider a square with side length 4 cm. Its perimeter is $4 \\times 4 = 16$ cm.",
+    "formulas": "- Perimeter of a square: $P = 4s$\n  - $s$ is the side length of the square.\n- Perimeter of a rectangle: $P = 2(l + w)$\n  - $l$ is the length, $w$ is the width.",
+    "guide": "1. Gather household objects like books, tiles, or paper to identify shapes.\n2. Use straws or sticks to construct triangles and quadrilaterals.\n3. Rotate a square object and discuss how it remains a square.\n4. Compare a square and rectangle using real objects. **Ask:** \"What do you notice about the sides?\"\n5. Discuss the term 'diamond' and clarify that it's just a rotated square.\n6. Reinforce learning by drawing shapes and labeling sides and corners.",
+    "mistakes": "- Confusing squares and rectangles: Try comparing side lengths.\n- Thinking a rotated square is a different shape: Try rotating a paper square.\n- Miscounting sides or corners: Try using fingers to count each side and corner.",
+    "connection": "Triangles and quadrilaterals are everywhere! Look at road signs (triangles) or windows (rectangles). Recognizing these shapes helps in understanding design and structure in everyday life.",
+    "close": "Shapes are all around us, and understanding them makes the world more interesting. Keep exploring and discovering!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many sides does a triangle have?",
+      "hint_md": "Think of a slice of pizza.",
+      "answer_md": "A triangle has 3 sides."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the perimeter of a square with side length 5 cm?",
+      "hint_md": "Use the formula $P = 4s$.",
+      "answer_md": "The perimeter is $4 \\times 5 = 20$ cm."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Is a rectangle with all sides equal a square?",
+      "hint_md": "Consider the definition of a square.",
+      "answer_md": "Yes, if all sides are equal, it is a square."
+    }
+  ]
+}

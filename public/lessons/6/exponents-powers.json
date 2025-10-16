@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "0b4aa565-337b-480a-b94b-104eb55ee208",
+    "title": "Algebra & Coordinates",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "c5c2ccc1-8280-4172-a756-6079f02d6402",
+    "slug": "exponents-powers",
+    "title": "Exponents & Powers",
+    "summary": "Exponents & Powers — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of exponents and powers.\n- Learn how to calculate and interpret expressions with exponents.\n- **Why this matters for parents:** Helps you support your child's math learning by connecting it to everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Exponents are a way to express repeated multiplication of the same number. For example, $3^4$ means multiplying 3 by itself four times: $3 \\times 3 \\times 3 \\times 3$.\nUnderstanding exponents is important because they simplify complex calculations and are used in various real-life applications, like calculating area or understanding scientific notation.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Exponents are written as a small number (the exponent) above and to the right of a base number. The exponent tells you how many times to multiply the base by itself. For example, in $2^3$, 2 is the base, and 3 is the exponent, meaning $2 \\times 2 \\times 2 = 8$.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore exponents using cereal pieces.\"\n2. **Ask:** \"If we have 2 cereal pieces and multiply them by themselves 3 times, how many do we have?\"\n3. Arrange 2 groups of cereal pieces, each with 2 pieces, and multiply: $2 \\times 2 = 4$.\n4. Multiply again: $4 \\times 2 = 8$. **Say:** \"So, $2^3 = 8$.\"\n5. **Ask:** \"What if we had 3 cereal pieces and multiplied them by themselves 2 times?\"\n6. Repeat the process with 3 pieces: $3 \\times 3 = 9$. **Say:** \"That's $3^2 = 9$.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In mathematical terms, an exponent indicates how many times a number (the base) is multiplied by itself. For example, $5^3$ means $5 \\times 5 \\times 5 = 125$. This is a compact way to express repeated multiplication.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a^n$\n  - $a$: base\n  - $n$: exponent\n  - $a^n$: base multiplied by itself $n$ times",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is the base and exponent in $4^2$?\"\n2. **Say:** \"The base is 4, and the exponent is 2.\"\n3. **Ask:** \"How do we calculate $4^2$?\"\n4. **Say:** \"Multiply 4 by itself: $4 \\times 4 = 16$.\"\n5. **Ask:** \"Can you try $3^3$ on your own?\"\n6. **Say:** \"Great! Remember, practice helps you get better.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the base with the exponent. **Try:** Clarify which is which before calculating.\n- Forgetting to multiply the base by itself the correct number of times. **Try:** Write out the multiplication steps.\n- Miscalculating simple multiplication. **Try:** Double-check each step.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Exponents are used in calculating areas (e.g., square meters) and in technology, like understanding data storage sizes (kilobytes, megabytes).",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring exponents! Keep practicing, and you'll see how powerful this concept can be in math and beyond.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of exponents and powers.\n- Learn how to calculate and interpret expressions with exponents.\n- **Why this matters for parents:** Helps you support your child's math learning by connecting it to everyday situations.",
+    "overview": "Exponents are a way to express repeated multiplication of the same number. For example, $3^4$ means multiplying 3 by itself four times: $3 \\times 3 \\times 3 \\times 3$.\nUnderstanding exponents is important because they simplify complex calculations and are used in various real-life applications, like calculating area or understanding scientific notation.",
+    "core": "Exponents are written as a small number (the exponent) above and to the right of a base number. The exponent tells you how many times to multiply the base by itself. For example, in $2^3$, 2 is the base, and 3 is the exponent, meaning $2 \\times 2 \\times 2 = 8$.",
+    "demo": "1. **Say:** \"Let's explore exponents using cereal pieces.\"\n2. **Ask:** \"If we have 2 cereal pieces and multiply them by themselves 3 times, how many do we have?\"\n3. Arrange 2 groups of cereal pieces, each with 2 pieces, and multiply: $2 \\times 2 = 4$.\n4. Multiply again: $4 \\times 2 = 8$. **Say:** \"So, $2^3 = 8$.\"\n5. **Ask:** \"What if we had 3 cereal pieces and multiplied them by themselves 2 times?\"\n6. Repeat the process with 3 pieces: $3 \\times 3 = 9$. **Say:** \"That's $3^2 = 9$.\"",
+    "math": "In mathematical terms, an exponent indicates how many times a number (the base) is multiplied by itself. For example, $5^3$ means $5 \\times 5 \\times 5 = 125$. This is a compact way to express repeated multiplication.",
+    "formulas": "- $a^n$\n  - $a$: base\n  - $n$: exponent\n  - $a^n$: base multiplied by itself $n$ times",
+    "guide": "1. **Ask:** \"What is the base and exponent in $4^2$?\"\n2. **Say:** \"The base is 4, and the exponent is 2.\"\n3. **Ask:** \"How do we calculate $4^2$?\"\n4. **Say:** \"Multiply 4 by itself: $4 \\times 4 = 16$.\"\n5. **Ask:** \"Can you try $3^3$ on your own?\"\n6. **Say:** \"Great! Remember, practice helps you get better.\"",
+    "mistakes": "- Confusing the base with the exponent. **Try:** Clarify which is which before calculating.\n- Forgetting to multiply the base by itself the correct number of times. **Try:** Write out the multiplication steps.\n- Miscalculating simple multiplication. **Try:** Double-check each step.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Exponents are used in calculating areas (e.g., square meters) and in technology, like understanding data storage sizes (kilobytes, megabytes).",
+    "close": "Great job exploring exponents! Keep practicing, and you'll see how powerful this concept can be in math and beyond."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Exponents & Powers**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Exponents & Powers** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Exponents & Powers**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

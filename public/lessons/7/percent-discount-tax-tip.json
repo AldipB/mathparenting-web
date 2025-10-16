@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "c2455732-c028-414a-bd39-3b711a15ce90",
+    "title": "Proportions & Percents",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "f013490c-ce38-4da7-a92a-0f4bd7e1bf74",
+    "slug": "percent-discount-tax-tip",
+    "title": "Percent (Discount, Tax, Tip)",
+    "summary": "Percent (Discount, Tax, Tip) — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand how to calculate discounts, tax, and tips using percentages.\n- - Apply percentage calculations to real-life shopping and dining scenarios.\n- - Build confidence in discussing and teaching percentages with your child.\n- **Why this matters for parents:** Understanding percentages helps children make informed financial decisions and manage money wisely.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers how to calculate percentages for discounts, taxes, and tips. These are common scenarios where percentages are used in everyday life.\nUnderstanding these concepts helps children become savvy shoppers and diners, equipping them with skills to handle money smartly and independently.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Percentages are a way to express a number as a part of 100. When shopping or dining, we often encounter percentages in the form of discounts, sales tax, and tips. Knowing how to calculate these helps us understand the true cost of items and services.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's pretend we're buying a toy that costs $50, and it's on a 20% discount.\"\n2. **Ask:** \"How much money will we save?\"\n3. Use a calculator or pencil and paper to find 20% of $50.\n4. **Say:** \"Now, let's add a 5% sales tax to the discounted price.\"\n5. Use a calculator to find 5% of the new price.\n6. **Ask:** \"If we leave a 15% tip on a $30 meal, how much is the tip?\" Use a calculator or mental math.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To calculate a percentage, multiply the original amount by the percentage (expressed as a decimal). For example, a 20% discount on $50 is calculated as $50 \\times 0.20 = $10. So, the discounted price is $50 - $10 = $40. If you add a 5% tax, calculate $40 \\times 0.05 = $2, making the total $40 + $2 = $42.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Discount = Original Price \\times \\frac{Discount\\%}{100}\n- Original Price: The initial cost of the item\n- Discount\\%: The percentage discount offered\nTax = Price \\times \\frac{Tax\\%}{100}\n- Price: The cost after discount\n- Tax\\%: The percentage of sales tax\nTip = Meal Cost \\times \\frac{Tip\\%}{100}\n- Meal Cost: The total cost of the meal\n- Tip\\%: The percentage tip you wish to leave",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's find a discount on an item together.\"\n2. Use a calculator to show how to multiply the price by the percentage.\n3. **Ask:** \"What happens if we add tax to this price?\"\n4. Calculate the tax and add it to the discounted price.\n5. **Say:** \"Now, let's calculate a tip for a meal.\"\n6. Practice finding the tip on different meal costs.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Forgetting to convert the percentage to a decimal.\n  Try: Divide the percentage by 100 before multiplying.\n- - Adding tax before applying the discount.\n  Try: Always apply the discount first, then calculate tax.\n- - Confusing the tip percentage with the total bill.\n  Try: Calculate the tip based only on the meal cost.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, you can use these skills to figure out how much you'll save during sales. At restaurants, calculating tips helps children understand the importance of rewarding good service.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "With these skills, your child can confidently handle money matters, making them more independent and financially savvy. Keep practicing together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand how to calculate discounts, tax, and tips using percentages.\n- - Apply percentage calculations to real-life shopping and dining scenarios.\n- - Build confidence in discussing and teaching percentages with your child.\n- **Why this matters for parents:** Understanding percentages helps children make informed financial decisions and manage money wisely.",
+    "overview": "This lesson covers how to calculate percentages for discounts, taxes, and tips. These are common scenarios where percentages are used in everyday life.\nUnderstanding these concepts helps children become savvy shoppers and diners, equipping them with skills to handle money smartly and independently.",
+    "core": "Percentages are a way to express a number as a part of 100. When shopping or dining, we often encounter percentages in the form of discounts, sales tax, and tips. Knowing how to calculate these helps us understand the true cost of items and services.",
+    "demo": "1. **Say:** \"Let's pretend we're buying a toy that costs $50, and it's on a 20% discount.\"\n2. **Ask:** \"How much money will we save?\"\n3. Use a calculator or pencil and paper to find 20% of $50.\n4. **Say:** \"Now, let's add a 5% sales tax to the discounted price.\"\n5. Use a calculator to find 5% of the new price.\n6. **Ask:** \"If we leave a 15% tip on a $30 meal, how much is the tip?\" Use a calculator or mental math.",
+    "math": "To calculate a percentage, multiply the original amount by the percentage (expressed as a decimal). For example, a 20% discount on $50 is calculated as $50 \\times 0.20 = $10. So, the discounted price is $50 - $10 = $40. If you add a 5% tax, calculate $40 \\times 0.05 = $2, making the total $40 + $2 = $42.",
+    "formulas": "Discount = Original Price \\times \\frac{Discount\\%}{100}\n- Original Price: The initial cost of the item\n- Discount\\%: The percentage discount offered\nTax = Price \\times \\frac{Tax\\%}{100}\n- Price: The cost after discount\n- Tax\\%: The percentage of sales tax\nTip = Meal Cost \\times \\frac{Tip\\%}{100}\n- Meal Cost: The total cost of the meal\n- Tip\\%: The percentage tip you wish to leave",
+    "guide": "1. **Say:** \"Let's find a discount on an item together.\"\n2. Use a calculator to show how to multiply the price by the percentage.\n3. **Ask:** \"What happens if we add tax to this price?\"\n4. Calculate the tax and add it to the discounted price.\n5. **Say:** \"Now, let's calculate a tip for a meal.\"\n6. Practice finding the tip on different meal costs.",
+    "mistakes": "- - Forgetting to convert the percentage to a decimal.\n  Try: Divide the percentage by 100 before multiplying.\n- - Adding tax before applying the discount.\n  Try: Always apply the discount first, then calculate tax.\n- - Confusing the tip percentage with the total bill.\n  Try: Calculate the tip based only on the meal cost.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When shopping, you can use these skills to figure out how much you'll save during sales. At restaurants, calculating tips helps children understand the importance of rewarding good service.",
+    "close": "With these skills, your child can confidently handle money matters, making them more independent and financially savvy. Keep practicing together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Percent (Discount, Tax, Tip)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Percent (Discount, Tax, Tip)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Percent (Discount, Tax, Tip)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

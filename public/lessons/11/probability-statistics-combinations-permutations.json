@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "83d84ec9-0c65-4a83-97d0-7e17c5c0df21",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "bd21404f-acc3-415d-b176-69a2055039f6",
+    "slug": "probability-statistics-combinations-permutations",
+    "title": "Probability & Statistics (Combinations, Permutations)",
+    "summary": "Probability & Statistics (Combinations, Permutations) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between combinations and permutations.\n- Learn how to calculate combinations and permutations.\n- Apply these concepts to real-life situations.\n**Why this matters for parents:** Understanding these concepts helps in decision-making and problem-solving, skills valuable in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we explore the concepts of combinations and permutations, which are ways to count how many different arrangements or selections can be made from a set of items. Combinations focus on selections where order doesn't matter, while permutations consider arrangements where order does matter.\nThese concepts are important because they help us understand probability and make informed decisions. Whether planning seating arrangements for a party or figuring out lottery odds, combinations and permutations are practical tools.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Combinations and permutations are about counting possibilities. A permutation is an arrangement of items where order matters. For example, arranging books on a shelf. A combination is a selection of items where order doesn’t matter, like choosing fruits for a salad.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather 3 different colored socks (e.g., red, blue, green).**\n   **Say:** Let's see how many ways we can arrange these socks.\n2. **Arrange the socks in different orders.**\n   **Ask:** How many different orders can we make?\n3. **Explain permutations:**\n   **Say:** Each different order is a permutation. With 3 socks, there are 6 permutations.\n4. **Now, choose 2 socks at a time.**\n   **Ask:** How many ways can we choose 2 socks?\n5. **Explain combinations:**\n   **Say:** Here, order doesn’t matter. There are 3 combinations of 2 socks.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Permutations are calculated using $n!$, where $n$ is the number of items. For example, 3 socks can be arranged in $3! = 6$ ways.\nCombinations are calculated using $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$, where $n$ is the total number of items, and $r$ is the number of items to choose. For 3 socks, choosing 2 at a time: $\\binom{3}{2} = 3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Permutations: $P(n, r) = \\frac{n!}{(n-r)!}$\n  - $n$ is the total number of items.\n  - $r$ is the number of items to arrange.\n- Combinations: $C(n, r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$\n  - $n$ is the total number of items.\n  - $r$ is the number of items to choose.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Introduce the concept:**\n   **Say:** Let's explore how many ways we can arrange or choose items.\n2. **Use household objects:**\n   **Ask:** How many ways can we arrange these objects?\n3. **Discuss permutations:**\n   **Say:** When order matters, we use permutations.\n4. **Discuss combinations:**\n   **Say:** When order doesn’t matter, we use combinations.\n5. **Practice together:**\n   **Ask:** Can you think of a situation where order matters or doesn’t matter?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing combinations with permutations.\n  - **Try:** Remember, permutations care about order, combinations don’t.\n- Forgetting to divide by $r!$ in combinations.\n  - **Try:** Check if order matters to decide the formula.\n- Miscalculating factorials.\n  - **Try:** Write out the multiplication steps for clarity.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Combinations and permutations are used in planning events, like seating arrangements, or in games, like card shuffling. They help us understand the likelihood of different outcomes.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding combinations and permutations opens up a world of possibilities in problem-solving. Keep exploring and applying these concepts!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between combinations and permutations.\n- Learn how to calculate combinations and permutations.\n- Apply these concepts to real-life situations.\n**Why this matters for parents:** Understanding these concepts helps in decision-making and problem-solving, skills valuable in everyday life.",
+    "overview": "In this lesson, we explore the concepts of combinations and permutations, which are ways to count how many different arrangements or selections can be made from a set of items. Combinations focus on selections where order doesn't matter, while permutations consider arrangements where order does matter.\nThese concepts are important because they help us understand probability and make informed decisions. Whether planning seating arrangements for a party or figuring out lottery odds, combinations and permutations are practical tools.",
+    "core": "Combinations and permutations are about counting possibilities. A permutation is an arrangement of items where order matters. For example, arranging books on a shelf. A combination is a selection of items where order doesn’t matter, like choosing fruits for a salad.",
+    "demo": "1. **Gather 3 different colored socks (e.g., red, blue, green).**\n   **Say:** Let's see how many ways we can arrange these socks.\n2. **Arrange the socks in different orders.**\n   **Ask:** How many different orders can we make?\n3. **Explain permutations:**\n   **Say:** Each different order is a permutation. With 3 socks, there are 6 permutations.\n4. **Now, choose 2 socks at a time.**\n   **Ask:** How many ways can we choose 2 socks?\n5. **Explain combinations:**\n   **Say:** Here, order doesn’t matter. There are 3 combinations of 2 socks.",
+    "math": "Permutations are calculated using $n!$, where $n$ is the number of items. For example, 3 socks can be arranged in $3! = 6$ ways.\nCombinations are calculated using $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$, where $n$ is the total number of items, and $r$ is the number of items to choose. For 3 socks, choosing 2 at a time: $\\binom{3}{2} = 3$.",
+    "formulas": "- Permutations: $P(n, r) = \\frac{n!}{(n-r)!}$\n  - $n$ is the total number of items.\n  - $r$ is the number of items to arrange.\n- Combinations: $C(n, r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$\n  - $n$ is the total number of items.\n  - $r$ is the number of items to choose.",
+    "guide": "1. **Introduce the concept:**\n   **Say:** Let's explore how many ways we can arrange or choose items.\n2. **Use household objects:**\n   **Ask:** How many ways can we arrange these objects?\n3. **Discuss permutations:**\n   **Say:** When order matters, we use permutations.\n4. **Discuss combinations:**\n   **Say:** When order doesn’t matter, we use combinations.\n5. **Practice together:**\n   **Ask:** Can you think of a situation where order matters or doesn’t matter?",
+    "mistakes": "- Confusing combinations with permutations.\n  - **Try:** Remember, permutations care about order, combinations don’t.\n- Forgetting to divide by $r!$ in combinations.\n  - **Try:** Check if order matters to decide the formula.\n- Miscalculating factorials.\n  - **Try:** Write out the multiplication steps for clarity.",
+    "connection": "Combinations and permutations are used in planning events, like seating arrangements, or in games, like card shuffling. They help us understand the likelihood of different outcomes.",
+    "close": "Understanding combinations and permutations opens up a world of possibilities in problem-solving. Keep exploring and applying these concepts!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many ways can you arrange 4 books on a shelf?",
+      "hint_md": "Use the permutation formula $P(n, r) = n!$.",
+      "answer_md": "There are $4! = 24$ ways."
+    },
+    {
+      "order_index": 2,
+      "question_md": "How many ways can you choose 2 fruits from a basket of 5?",
+      "hint_md": "Use the combination formula $C(n, r) = \\binom{n}{r}$.",
+      "answer_md": "There are $\\binom{5}{2} = 10$ ways."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you have 6 different shirts, how many ways can you choose 3 to pack?",
+      "hint_md": "Use the combination formula $C(n, r) = \\binom{n}{r}$.",
+      "answer_md": "There are $\\binom{6}{3} = 20$ ways."
+    }
+  ]
+}

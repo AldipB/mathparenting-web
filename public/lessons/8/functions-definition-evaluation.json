@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "8287516b-e130-4518-892b-27ec5c687ec2",
+    "title": "Linear Algebra",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "9c158925-48f8-4b52-a565-55f0f1f18990",
+    "slug": "functions-definition-evaluation",
+    "title": "Functions: Definition & Evaluation",
+    "summary": "Functions: Definition & Evaluation — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the definition of a function.\n- Learn how to evaluate functions using specific inputs.\n- **Why this matters for parents:** Functions are foundational in math and help children develop logical thinking skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Functions are like machines that take an input, do something with it, and give an output. They are a key concept in algebra and help us understand relationships between numbers.\nUnderstanding functions helps children see patterns and make predictions. This is important not only in math but in everyday problem-solving and decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A function is a rule that assigns each input exactly one output. Think of it as a vending machine: you put in money (input), press a button (function rule), and get a snack (output). Evaluating a function means finding the output for a given input.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's pretend a function is like a blender. You put in a banana (input) and get a smoothie (output).\n2. **Ask:** What if we put in an apple instead? What do you think the output will be?\n3. Use a calculator to show how a function works: Enter a number, multiply by 2, and add 3. This is our function rule.\n4. **Say:** If we put in 4, what do we get? (4 times 2 plus 3 equals 11).\n5. **Ask:** What if we put in 5? (5 times 2 plus 3 equals 13).",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A function can be written as $f(x) = 2x + 3$. Here, $f(x)$ is the output when $x$ is the input.\nFor example, if $x = 4$, then $f(4) = 2(4) + 3 = 8 + 3 = 11$. This means the output is 11 when the input is 4.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $f(x) = 2x + 3$\n  - $f(x)$: the output of the function\n  - $x$: the input value\n  - $2x + 3$: the rule applied to the input",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What do you think a function does with an input?\n2. **Say:** Let's use the function $f(x) = 2x + 3$ to find outputs for different inputs.\n3. **Ask:** What is $f(2)$? (Calculate: $2(2) + 3 = 7$).\n4. **Say:** Now, try $f(3)$. What do you get? (Calculate: $2(3) + 3 = 9$).\n5. **Ask:** How does changing the input change the output?\n6. **Say:** Notice how each input has a unique output.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing input and output. **Try:** Remember, input is what you start with, output is what you get.\n- Forgetting to apply the function rule. **Try:** Always follow the rule step by step.\n- Mixing up operations. **Try:** Write down each step to avoid mistakes.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Functions are used in computer programming to process data. They also help in predicting trends, like how much a plant will grow over time based on sunlight and water.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding functions opens up a world of mathematical exploration. Keep practicing, and soon functions will feel like second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the definition of a function.\n- Learn how to evaluate functions using specific inputs.\n- **Why this matters for parents:** Functions are foundational in math and help children develop logical thinking skills.",
+    "overview": "Functions are like machines that take an input, do something with it, and give an output. They are a key concept in algebra and help us understand relationships between numbers.\nUnderstanding functions helps children see patterns and make predictions. This is important not only in math but in everyday problem-solving and decision-making.",
+    "core": "A function is a rule that assigns each input exactly one output. Think of it as a vending machine: you put in money (input), press a button (function rule), and get a snack (output). Evaluating a function means finding the output for a given input.",
+    "demo": "1. **Say:** Let's pretend a function is like a blender. You put in a banana (input) and get a smoothie (output).\n2. **Ask:** What if we put in an apple instead? What do you think the output will be?\n3. Use a calculator to show how a function works: Enter a number, multiply by 2, and add 3. This is our function rule.\n4. **Say:** If we put in 4, what do we get? (4 times 2 plus 3 equals 11).\n5. **Ask:** What if we put in 5? (5 times 2 plus 3 equals 13).",
+    "math": "A function can be written as $f(x) = 2x + 3$. Here, $f(x)$ is the output when $x$ is the input.\nFor example, if $x = 4$, then $f(4) = 2(4) + 3 = 8 + 3 = 11$. This means the output is 11 when the input is 4.",
+    "formulas": "- $f(x) = 2x + 3$\n  - $f(x)$: the output of the function\n  - $x$: the input value\n  - $2x + 3$: the rule applied to the input",
+    "guide": "1. **Ask:** What do you think a function does with an input?\n2. **Say:** Let's use the function $f(x) = 2x + 3$ to find outputs for different inputs.\n3. **Ask:** What is $f(2)$? (Calculate: $2(2) + 3 = 7$).\n4. **Say:** Now, try $f(3)$. What do you get? (Calculate: $2(3) + 3 = 9$).\n5. **Ask:** How does changing the input change the output?\n6. **Say:** Notice how each input has a unique output.",
+    "mistakes": "- Confusing input and output. **Try:** Remember, input is what you start with, output is what you get.\n- Forgetting to apply the function rule. **Try:** Always follow the rule step by step.\n- Mixing up operations. **Try:** Write down each step to avoid mistakes.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Functions are used in computer programming to process data. They also help in predicting trends, like how much a plant will grow over time based on sunlight and water.",
+    "close": "Understanding functions opens up a world of mathematical exploration. Keep practicing, and soon functions will feel like second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Functions: Definition & Evaluation**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Functions: Definition & Evaluation** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Functions: Definition & Evaluation**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

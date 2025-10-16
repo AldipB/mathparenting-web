@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "d5bce365-b6f8-49c7-8d46-d111092157ce",
+    "slug": "systems-of-linear-equations-graph-substitution-elimination",
+    "title": "Systems of Linear Equations (Graph/Substitution/Elimination)",
+    "summary": "Systems of Linear Equations (Graph/Substitution/Elimination) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand systems of linear equations and how to solve them using graphing, substitution, and elimination.\n- Help your child recognize the best method for different problems.\n- Build confidence in explaining math concepts.\n**Why this matters for parents:** Understanding these methods allows you to support your child's problem-solving skills and relate math to everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "A system of linear equations consists of two or more equations with the same variables. Solving these systems means finding values that satisfy all equations simultaneously.\nThis is important because it develops logical thinking and problem-solving skills. It also lays the groundwork for more advanced math topics and real-life problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll explore three methods to solve systems of linear equations: graphing, substitution, and elimination. Each method has its strengths, and understanding them helps in choosing the most efficient approach for different problems.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's solve the system using graphing. Use graph paper or draw on a piece of paper.\n2. **Ask:** What do the equations $y = 2x + 1$ and $y = -x + 4$ look like on a graph?\n3. Plot both lines by finding points. For $y = 2x + 1$, use $x = 0$ to get $y = 1$ and $x = 1$ to get $y = 3$.\n4. For $y = -x + 4$, use $x = 0$ to get $y = 4$ and $x = 1$ to get $y = 3$.\n5. **Say:** Notice where the lines intersect. That's the solution!\n6. **Ask:** What are the coordinates of the intersection point? (Answer: $(1, 3)$)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A system of linear equations can be solved by finding where the equations intersect on a graph, or by algebraic methods like substitution or elimination.\nExample: Solve using substitution:\n- Equations: $y = 2x + 1$ and $y = -x + 4$\n- Substitute $y$ from the first equation into the second: $2x + 1 = -x + 4$\n- Solve for $x$: $3x = 3 \\Rightarrow x = 1$\n- Substitute $x = 1$ back into $y = 2x + 1$: $y = 3$\n- Solution: $(1, 3)$",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $y = mx + b$\n  - $m$: slope\n  - $b$: y-intercept\n- $ax + by = c$\n  - $a, b, c$: constants",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's try solving by substitution. Which equation is easier to solve for one variable?\n2. **Ask:** Can we express $y$ in terms of $x$ or vice versa?\n3. Substitute the expression into the other equation.\n4. Solve for the remaining variable.\n5. Substitute back to find the other variable.\n6. **Say:** Great! Now we have the solution.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing which variable to substitute. **Try:** Clearly solve one equation for a variable first.\n- Forgetting to substitute back to find the second variable. **Try:** Always check both variables are found.\n- Misplotting points on a graph. **Try:** Double-check calculations for accuracy.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Solving systems of equations is like finding the meeting point of two paths. It's useful in planning events, budgeting, and even in science to predict outcomes.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring systems of equations! With practice, these methods will become second nature. Keep encouraging curiosity and problem-solving!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand systems of linear equations and how to solve them using graphing, substitution, and elimination.\n- Help your child recognize the best method for different problems.\n- Build confidence in explaining math concepts.\n**Why this matters for parents:** Understanding these methods allows you to support your child's problem-solving skills and relate math to everyday situations.",
+    "overview": "A system of linear equations consists of two or more equations with the same variables. Solving these systems means finding values that satisfy all equations simultaneously.\nThis is important because it develops logical thinking and problem-solving skills. It also lays the groundwork for more advanced math topics and real-life problem-solving.",
+    "core": "In this lesson, we'll explore three methods to solve systems of linear equations: graphing, substitution, and elimination. Each method has its strengths, and understanding them helps in choosing the most efficient approach for different problems.",
+    "demo": "1. **Say:** Let's solve the system using graphing. Use graph paper or draw on a piece of paper.\n2. **Ask:** What do the equations $y = 2x + 1$ and $y = -x + 4$ look like on a graph?\n3. Plot both lines by finding points. For $y = 2x + 1$, use $x = 0$ to get $y = 1$ and $x = 1$ to get $y = 3$.\n4. For $y = -x + 4$, use $x = 0$ to get $y = 4$ and $x = 1$ to get $y = 3$.\n5. **Say:** Notice where the lines intersect. That's the solution!\n6. **Ask:** What are the coordinates of the intersection point? (Answer: $(1, 3)$)",
+    "math": "A system of linear equations can be solved by finding where the equations intersect on a graph, or by algebraic methods like substitution or elimination.\nExample: Solve using substitution:\n- Equations: $y = 2x + 1$ and $y = -x + 4$\n- Substitute $y$ from the first equation into the second: $2x + 1 = -x + 4$\n- Solve for $x$: $3x = 3 \\Rightarrow x = 1$\n- Substitute $x = 1$ back into $y = 2x + 1$: $y = 3$\n- Solution: $(1, 3)$",
+    "formulas": "- $y = mx + b$\n  - $m$: slope\n  - $b$: y-intercept\n- $ax + by = c$\n  - $a, b, c$: constants",
+    "guide": "1. **Say:** Let's try solving by substitution. Which equation is easier to solve for one variable?\n2. **Ask:** Can we express $y$ in terms of $x$ or vice versa?\n3. Substitute the expression into the other equation.\n4. Solve for the remaining variable.\n5. Substitute back to find the other variable.\n6. **Say:** Great! Now we have the solution.",
+    "mistakes": "- Confusing which variable to substitute. **Try:** Clearly solve one equation for a variable first.\n- Forgetting to substitute back to find the second variable. **Try:** Always check both variables are found.\n- Misplotting points on a graph. **Try:** Double-check calculations for accuracy.",
+    "connection": "Solving systems of equations is like finding the meeting point of two paths. It's useful in planning events, budgeting, and even in science to predict outcomes.",
+    "close": "Great job exploring systems of equations! With practice, these methods will become second nature. Keep encouraging curiosity and problem-solving!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Solve by graphing: $y = x + 2$ and $y = -x + 4$.",
+      "hint_md": "Plot both lines and find their intersection.",
+      "answer_md": "The solution is $(1, 3)$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Solve by substitution: $y = 3x - 1$ and $2x + y = 7$.",
+      "hint_md": "Substitute $y = 3x - 1$ into $2x + y = 7$.",
+      "answer_md": "The solution is $(2, 5)$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Solve by elimination: $2x + 3y = 6$ and $4x - 3y = 12$.",
+      "hint_md": "Add the equations to eliminate $y$.",
+      "answer_md": "The solution is $(3, 0)$."
+    }
+  ]
+}

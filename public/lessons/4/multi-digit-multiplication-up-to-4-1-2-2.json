@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "2cadbc95-6027-4c91-a7d3-637d7de1550a",
+    "slug": "multi-digit-multiplication-up-to-4-1-2-2",
+    "title": "Multi-Digit Multiplication (Up to 4×1, 2×2)",
+    "summary": "Multi-Digit Multiplication (Up to 4×1, 2×2) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to multiply a 4-digit number by a 1-digit number.\n- Learn to multiply two 2-digit numbers.\n- Build confidence in solving multi-digit multiplication problems.\n- **Why this matters for parents:** Helping your child master multiplication builds a strong foundation for future math skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching children how to multiply larger numbers, specifically up to a 4-digit number by a 1-digit number and two 2-digit numbers. We'll use simple, step-by-step methods to make these calculations manageable.\nUnderstanding multi-digit multiplication is crucial because it lays the groundwork for more advanced math concepts. It also helps children develop problem-solving skills and boosts their confidence in handling numbers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll break down multiplication into smaller, easy-to-understand steps. Using everyday objects, we'll visualize the process and make it relatable. This approach helps children see the logic behind the calculations, making math less intimidating.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather 10 small objects, like buttons or coins, and a piece of paper.\n- **Say:** Let's multiply 1234 by 3. Write 1234 on the paper.\n- **Ask:** How many groups of 1234 do we need? (3)\n- Use the objects to represent each digit: 1 group of 1000, 2 groups of 100, 3 groups of 10, and 4 units.\n- **Say:** Now, multiply each group by 3. Write down the results: 3000, 600, 90, and 12.\n- Add them up: 3000 + 600 + 90 + 12 = 3702. That's our answer!",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When multiplying a 4-digit number by a 1-digit number, break it into parts. For example, $1234 \\times 3$ becomes $(1000 \\times 3) + (200 \\times 3) + (30 \\times 3) + (4 \\times 3)$. Add these results to get the final answer: $3702$.\nFor two 2-digit numbers, like $23 \\times 45$, use the distributive property: $(20 + 3) \\times (40 + 5)$. Calculate each part: $20 \\times 40$, $20 \\times 5$, $3 \\times 40$, $3 \\times 5$, and add them together.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "a \\times b = (a_1 \\times b) + (a_2 \\times b) + \\ldots\n* $a$ is the multi-digit number.\n* $b$ is the single-digit number.\n* $a_1, a_2, \\ldots$ are parts of $a$ split by place value.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Start with a simple example, like $123 \\times 4$.\n- Break down the number into hundreds, tens, and units.\n- Multiply each part by the single-digit number.\n- Add the results together to find the total.\n- Encourage your child to explain each step to reinforce understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to multiply each digit separately. **Try:** Break the number into parts.\n- Adding instead of multiplying. **Try:** Use objects to visualize multiplication.\n- Misplacing the decimal point. **Try:** Double-check each step and placement.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Think about buying multiple packs of items at a store. If each pack has 23 items and you buy 4 packs, multiplication helps you quickly find the total number of items.\nCooking is another great example. If a recipe needs 3 cups of flour and you're making 4 batches, multiplication helps you calculate the total flour needed.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Multiplication is like building blocks for math. With practice, your child will gain confidence and enjoy the challenge. Keep exploring and learning together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to multiply a 4-digit number by a 1-digit number.\n- Learn to multiply two 2-digit numbers.\n- Build confidence in solving multi-digit multiplication problems.\n- **Why this matters for parents:** Helping your child master multiplication builds a strong foundation for future math skills.",
+    "overview": "This lesson focuses on teaching children how to multiply larger numbers, specifically up to a 4-digit number by a 1-digit number and two 2-digit numbers. We'll use simple, step-by-step methods to make these calculations manageable.\nUnderstanding multi-digit multiplication is crucial because it lays the groundwork for more advanced math concepts. It also helps children develop problem-solving skills and boosts their confidence in handling numbers.",
+    "core": "In this lesson, we'll break down multiplication into smaller, easy-to-understand steps. Using everyday objects, we'll visualize the process and make it relatable. This approach helps children see the logic behind the calculations, making math less intimidating.",
+    "demo": "- Gather 10 small objects, like buttons or coins, and a piece of paper.\n- **Say:** Let's multiply 1234 by 3. Write 1234 on the paper.\n- **Ask:** How many groups of 1234 do we need? (3)\n- Use the objects to represent each digit: 1 group of 1000, 2 groups of 100, 3 groups of 10, and 4 units.\n- **Say:** Now, multiply each group by 3. Write down the results: 3000, 600, 90, and 12.\n- Add them up: 3000 + 600 + 90 + 12 = 3702. That's our answer!",
+    "math": "When multiplying a 4-digit number by a 1-digit number, break it into parts. For example, $1234 \\times 3$ becomes $(1000 \\times 3) + (200 \\times 3) + (30 \\times 3) + (4 \\times 3)$. Add these results to get the final answer: $3702$.\nFor two 2-digit numbers, like $23 \\times 45$, use the distributive property: $(20 + 3) \\times (40 + 5)$. Calculate each part: $20 \\times 40$, $20 \\times 5$, $3 \\times 40$, $3 \\times 5$, and add them together.",
+    "formulas": "a \\times b = (a_1 \\times b) + (a_2 \\times b) + \\ldots\n* $a$ is the multi-digit number.\n* $b$ is the single-digit number.\n* $a_1, a_2, \\ldots$ are parts of $a$ split by place value.",
+    "guide": "- Start with a simple example, like $123 \\times 4$.\n- Break down the number into hundreds, tens, and units.\n- Multiply each part by the single-digit number.\n- Add the results together to find the total.\n- Encourage your child to explain each step to reinforce understanding.",
+    "mistakes": "- Forgetting to multiply each digit separately. **Try:** Break the number into parts.\n- Adding instead of multiplying. **Try:** Use objects to visualize multiplication.\n- Misplacing the decimal point. **Try:** Double-check each step and placement.",
+    "connection": "Think about buying multiple packs of items at a store. If each pack has 23 items and you buy 4 packs, multiplication helps you quickly find the total number of items.\nCooking is another great example. If a recipe needs 3 cups of flour and you're making 4 batches, multiplication helps you calculate the total flour needed.",
+    "close": "Multiplication is like building blocks for math. With practice, your child will gain confidence and enjoy the challenge. Keep exploring and learning together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate $2345 \\times 2$.",
+      "hint_md": "Break it into $2000 \\times 2$, $300 \\times 2$, $40 \\times 2$, $5 \\times 2$.",
+      "answer_md": "4690"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Find the product of $56 \\times 34$.",
+      "hint_md": "Use the distributive property: $(50 + 6) \\times (30 + 4)$.",
+      "answer_md": "1904"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Multiply $789 \\times 5$.",
+      "hint_md": "Separate into $700 \\times 5$, $80 \\times 5$, $9 \\times 5$.",
+      "answer_md": "3945"
+    }
+  ]
+}

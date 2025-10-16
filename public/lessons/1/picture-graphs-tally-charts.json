@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "5c239397-41bd-4563-a26b-f38ea6cf12cf",
+    "slug": "picture-graphs-tally-charts",
+    "title": "Picture Graphs & Tally Charts",
+    "summary": "Picture Graphs & Tally Charts — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to create and interpret picture graphs and tally charts.\n- Help your child learn to organize and compare data visually.\n- **Why this matters for parents:** These skills build a foundation for data literacy, which is essential in everyday decision-making.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Picture graphs and tally charts are simple ways to organize and display data. A picture graph uses images to represent data, while a tally chart uses marks to count and compare quantities.\nUnderstanding these concepts helps children learn how to sort, count, and visually interpret information, which are key skills in math and real-life situations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Picture graphs and tally charts make it easy for children to see and compare information. By using images or tally marks, kids can quickly understand quantities and differences. This visual approach simplifies data and makes it engaging for young learners.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some small household objects like buttons, coins, or blocks.\n2. **Say:** \"Let's sort these objects by color and make a picture graph.\"\n3. Create rows for each color and place objects in each row.\n4. **Ask:** \"Which color has the most objects? Which has the least?\"\n5. Now, use tally marks to count each color. **Say:** \"Let's make a tally chart.\"\n6. Draw lines for each object and group them in fives to make counting easier.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a picture graph, each image represents a certain number of items. For example, if one apple picture represents 2 apples, and there are 3 apple pictures, then there are $3 \\times 2 = 6$ apples.\nIn a tally chart, each mark represents one item. Grouping marks in sets of five makes counting quicker. For example, |||| |||| || represents 12 items.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a simple question like, \"How many apples and bananas do we have?\"\n2. Use real fruits to create a picture graph on the table.\n3. **Ask:** \"How many more apples than bananas do we have?\"\n4. Draw tally marks on paper for each fruit.\n5. **Say:** \"Let's count the tally marks together.\"\n6. Discuss which method was easier and why.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the number of pictures with the number of items.\n  Try: Clarify that each picture can represent more than one item.\n- Miscounting tally marks when they are not grouped.\n  Try: Group marks in fives for easier counting.\n- Forgetting to label the graph or chart.\n  Try: Always add labels to clarify what each row or column represents.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Picture graphs and tally charts are used in real life to organize information, like tracking daily chores or planning a grocery list. They help simplify complex data into understandable visuals.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to notice patterns and organize information. These skills will serve them well in school and beyond!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to create and interpret picture graphs and tally charts.\n- Help your child learn to organize and compare data visually.\n- **Why this matters for parents:** These skills build a foundation for data literacy, which is essential in everyday decision-making.",
+    "overview": "Picture graphs and tally charts are simple ways to organize and display data. A picture graph uses images to represent data, while a tally chart uses marks to count and compare quantities.\nUnderstanding these concepts helps children learn how to sort, count, and visually interpret information, which are key skills in math and real-life situations.",
+    "core": "Picture graphs and tally charts make it easy for children to see and compare information. By using images or tally marks, kids can quickly understand quantities and differences. This visual approach simplifies data and makes it engaging for young learners.",
+    "demo": "1. Gather some small household objects like buttons, coins, or blocks.\n2. **Say:** \"Let's sort these objects by color and make a picture graph.\"\n3. Create rows for each color and place objects in each row.\n4. **Ask:** \"Which color has the most objects? Which has the least?\"\n5. Now, use tally marks to count each color. **Say:** \"Let's make a tally chart.\"\n6. Draw lines for each object and group them in fives to make counting easier.",
+    "math": "In a picture graph, each image represents a certain number of items. For example, if one apple picture represents 2 apples, and there are 3 apple pictures, then there are $3 \\times 2 = 6$ apples.\nIn a tally chart, each mark represents one item. Grouping marks in sets of five makes counting quicker. For example, |||| |||| || represents 12 items.",
+    "guide": "1. Start with a simple question like, \"How many apples and bananas do we have?\"\n2. Use real fruits to create a picture graph on the table.\n3. **Ask:** \"How many more apples than bananas do we have?\"\n4. Draw tally marks on paper for each fruit.\n5. **Say:** \"Let's count the tally marks together.\"\n6. Discuss which method was easier and why.",
+    "mistakes": "- Confusing the number of pictures with the number of items.\n  Try: Clarify that each picture can represent more than one item.\n- Miscounting tally marks when they are not grouped.\n  Try: Group marks in fives for easier counting.\n- Forgetting to label the graph or chart.\n  Try: Always add labels to clarify what each row or column represents.",
+    "connection": "Picture graphs and tally charts are used in real life to organize information, like tracking daily chores or planning a grocery list. They help simplify complex data into understandable visuals.",
+    "close": "Encourage your child to notice patterns and organize information. These skills will serve them well in school and beyond!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Create a tally chart for your favorite fruits. How many tally marks do you have for each fruit?",
+      "hint_md": "Remember to group your tally marks in sets of five!",
+      "answer_md": "Your tally chart should show the number of votes for each fruit."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Draw a picture graph for the snacks you like. How many pictures do you need for each snack?",
+      "hint_md": "Each picture represents one vote!",
+      "answer_md": "Your picture graph should have the same number of pictures as tally marks."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Look at your tally chart. Which snack had the most votes?",
+      "hint_md": "Count the tally marks to find out!",
+      "answer_md": "The snack with the most tally marks is the favorite!"
+    }
+  ]
+}

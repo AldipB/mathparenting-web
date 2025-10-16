@@ -1,18 +1,31 @@
 {
-  "title": "Real Numbers: Rational vs Irrational",
-  "grade": "Grade 8",
-  "overview": "Placeholder outline for \"Real Numbers: Rational vs Irrational\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Real Numbers: Rational vs Irrational.",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "bdad653e-708e-4ae4-a188-d3cd38803cec",
+    "slug": "real-numbers-rational-vs-irrational",
+    "title": "Real Numbers: Rational vs Irrational",
+    "summary": "Real Numbers: Rational vs Irrational — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+  },
+  "practice": []
 }

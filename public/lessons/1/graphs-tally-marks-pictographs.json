@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "0229a3b6-03a7-42c2-b000-edc7ae3dabf0",
+    "title": "Shapes, Graphs & Money",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "f7682c22-74d0-4176-8e20-124b803d6183",
+    "slug": "graphs-tally-marks-pictographs",
+    "title": "Graphs: Tally Marks & Pictographs",
+    "summary": "Graphs: Tally Marks & Pictographs — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to use tally marks and pictographs to represent data.\n- Help your child recognize and create simple graphs.\n- Encourage your child to interpret information visually.\n**Why this matters for parents:** Understanding graphs helps children organize information and see patterns, which are essential skills in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Graphs are visual tools that help us understand and organize information. In this lesson, we'll explore two simple types: tally marks and pictographs.\nLearning to read and create graphs helps children make sense of data. It builds foundational skills for math and science, and it's a fun way to engage with numbers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Tally marks are simple lines used to count objects. Every fifth mark is drawn diagonally to easily group sets of five. Pictographs use pictures or symbols to represent data, making it easy for children to visualize quantities.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some small household objects like buttons or coins.\n2. **Say:** \"Let's count these objects using tally marks.\"\n3. Group the objects in sets of five and draw four vertical lines, then a diagonal line across them.\n4. **Ask:** \"How many groups of five do we have? How many extra?\"\n5. **Say:** \"Now, let's use pictures. Draw a simple picture for each object.\"\n6. **Ask:** \"Which way do you like better for counting? Why?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Tally marks are grouped in sets of five for easy counting. For example, if you have 12 objects, you would draw two groups of five (10) and then two more lines (2).\nPictographs use symbols to represent numbers. If one symbol equals two objects, and you have six objects, you would draw three symbols.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a small number of objects, like 10.\n2. **Say:** \"Let's count these using tally marks.\"\n3. Draw the tally marks together, grouping in fives.\n4. **Ask:** \"How many groups of five do we have?\"\n5. Move to pictographs by drawing symbols for each object.\n6. **Say:** \"This symbol stands for one object. How many symbols do we need?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tally marks with numbers.\n  Try: Practice grouping in fives with your child.\n- Miscounting symbols in pictographs.\n  Try: Double-check by counting each symbol together.\n- Forgetting to group tally marks in fives.\n  Try: Use a different color for the diagonal line to emphasize the group.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Graphs are everywhere! When you look at a weather chart or a calendar, you're seeing data organized in a way that's easy to understand. Encourage your child to spot graphs in daily life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Graphs make numbers fun and easy to understand. Keep exploring with your child, and watch their confidence grow!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to use tally marks and pictographs to represent data.\n- Help your child recognize and create simple graphs.\n- Encourage your child to interpret information visually.\n**Why this matters for parents:** Understanding graphs helps children organize information and see patterns, which are essential skills in everyday life.",
+    "overview": "Graphs are visual tools that help us understand and organize information. In this lesson, we'll explore two simple types: tally marks and pictographs.\nLearning to read and create graphs helps children make sense of data. It builds foundational skills for math and science, and it's a fun way to engage with numbers.",
+    "core": "Tally marks are simple lines used to count objects. Every fifth mark is drawn diagonally to easily group sets of five. Pictographs use pictures or symbols to represent data, making it easy for children to visualize quantities.",
+    "demo": "1. Gather some small household objects like buttons or coins.\n2. **Say:** \"Let's count these objects using tally marks.\"\n3. Group the objects in sets of five and draw four vertical lines, then a diagonal line across them.\n4. **Ask:** \"How many groups of five do we have? How many extra?\"\n5. **Say:** \"Now, let's use pictures. Draw a simple picture for each object.\"\n6. **Ask:** \"Which way do you like better for counting? Why?\"",
+    "math": "Tally marks are grouped in sets of five for easy counting. For example, if you have 12 objects, you would draw two groups of five (10) and then two more lines (2).\nPictographs use symbols to represent numbers. If one symbol equals two objects, and you have six objects, you would draw three symbols.",
+    "guide": "1. Start with a small number of objects, like 10.\n2. **Say:** \"Let's count these using tally marks.\"\n3. Draw the tally marks together, grouping in fives.\n4. **Ask:** \"How many groups of five do we have?\"\n5. Move to pictographs by drawing symbols for each object.\n6. **Say:** \"This symbol stands for one object. How many symbols do we need?\"",
+    "mistakes": "- Confusing tally marks with numbers.\n  Try: Practice grouping in fives with your child.\n- Miscounting symbols in pictographs.\n  Try: Double-check by counting each symbol together.\n- Forgetting to group tally marks in fives.\n  Try: Use a different color for the diagonal line to emphasize the group.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Graphs are everywhere! When you look at a weather chart or a calendar, you're seeing data organized in a way that's easy to understand. Encourage your child to spot graphs in daily life.",
+    "close": "Graphs make numbers fun and easy to understand. Keep exploring with your child, and watch their confidence grow!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Graphs: Tally Marks & Pictographs**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Graphs: Tally Marks & Pictographs** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Graphs: Tally Marks & Pictographs**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

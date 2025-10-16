@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "19efaf66-7dea-4a5c-b1ff-7f329fc1af88",
+    "title": "Algebra & Equations",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "dcdbcde6-7d64-4d58-a532-7fee3aff7e8e",
+    "slug": "solving-linear-equations-inequalities",
+    "title": "Solving Linear Equations & Inequalities",
+    "summary": "Solving Linear Equations & Inequalities — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to solve linear equations and inequalities.\n- Learn to apply these skills in real-life situations.\n- Build confidence in explaining these concepts to your child.\n**Why this matters for parents:** Helping your child with math strengthens their problem-solving skills and builds their confidence.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Linear equations and inequalities are mathematical statements that show the relationship between variables and constants. Solving them involves finding the value of the variable that makes the statement true.\nUnderstanding these concepts is crucial as they form the foundation for more advanced math topics. They also help in developing logical thinking and problem-solving skills, which are valuable in everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Linear equations are like balance scales. Whatever you do to one side, you must do to the other to keep it balanced. Inequalities are similar but involve comparing values to see which is greater or lesser. Both concepts help us understand relationships between numbers and variables.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's imagine we have 3 apples and we want to find out how many more we need to have 10 apples.\n2. **Ask:** How would you write this as an equation? (3 + x = 10)\n3. Use apples or any small objects to represent the numbers.\n4. **Say:** We need to find the value of x that makes this true.\n5. Remove 3 apples from both sides to isolate x.\n6. **Say:** Now we see that x = 7, so we need 7 more apples.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve a linear equation like $3 + x = 10$, subtract 3 from both sides to isolate $x$:\n$$3 + x - 3 = 10 - 3$$\nThis simplifies to $x = 7$. For inequalities, if you have $x + 5 > 12$, subtract 5 from both sides to get $x > 7$. This tells us $x$ can be any number greater than 7.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $ax + b = c$\n  - $a$: coefficient of $x$\n  - $b$: constant term\n  - $c$: result or total\n- $ax + b > c$\n  - $a$: coefficient of $x$\n  - $b$: constant term\n  - $c$: comparison value",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What do you notice about the equation or inequality?\n2. **Say:** Let's identify what we need to do to isolate the variable.\n3. **Ask:** What operation will help us get the variable alone?\n4. **Say:** Let's perform that operation on both sides.\n5. **Ask:** Does the solution make sense when we check it?\n6. **Say:** Great job! Let's try another example.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to perform the same operation on both sides.\n  - **Try:** Always balance both sides.\n- Misinterpreting the inequality sign.\n  - **Try:** Remember, '>' means greater than, '<' means less than.\n- Not checking the solution.\n  - **Try:** Substitute back to verify.\n- Confusing variables and constants.\n  - **Try:** Identify which is which before solving.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Solving equations and inequalities is like budgeting. If you know your expenses and income, you can figure out how much you can save or spend. Similarly, understanding inequalities helps in comparing prices and making informed choices.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring linear equations and inequalities! With practice, you'll find these concepts become second nature. Keep supporting your child's learning journey!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to solve linear equations and inequalities.\n- Learn to apply these skills in real-life situations.\n- Build confidence in explaining these concepts to your child.\n**Why this matters for parents:** Helping your child with math strengthens their problem-solving skills and builds their confidence.",
+    "overview": "Linear equations and inequalities are mathematical statements that show the relationship between variables and constants. Solving them involves finding the value of the variable that makes the statement true.\nUnderstanding these concepts is crucial as they form the foundation for more advanced math topics. They also help in developing logical thinking and problem-solving skills, which are valuable in everyday decision-making.",
+    "core": "Linear equations are like balance scales. Whatever you do to one side, you must do to the other to keep it balanced. Inequalities are similar but involve comparing values to see which is greater or lesser. Both concepts help us understand relationships between numbers and variables.",
+    "demo": "1. **Say:** Let's imagine we have 3 apples and we want to find out how many more we need to have 10 apples.\n2. **Ask:** How would you write this as an equation? (3 + x = 10)\n3. Use apples or any small objects to represent the numbers.\n4. **Say:** We need to find the value of x that makes this true.\n5. Remove 3 apples from both sides to isolate x.\n6. **Say:** Now we see that x = 7, so we need 7 more apples.",
+    "math": "To solve a linear equation like $3 + x = 10$, subtract 3 from both sides to isolate $x$:\n$$3 + x - 3 = 10 - 3$$\nThis simplifies to $x = 7$. For inequalities, if you have $x + 5 > 12$, subtract 5 from both sides to get $x > 7$. This tells us $x$ can be any number greater than 7.",
+    "formulas": "- $ax + b = c$\n  - $a$: coefficient of $x$\n  - $b$: constant term\n  - $c$: result or total\n- $ax + b > c$\n  - $a$: coefficient of $x$\n  - $b$: constant term\n  - $c$: comparison value",
+    "guide": "1. **Ask:** What do you notice about the equation or inequality?\n2. **Say:** Let's identify what we need to do to isolate the variable.\n3. **Ask:** What operation will help us get the variable alone?\n4. **Say:** Let's perform that operation on both sides.\n5. **Ask:** Does the solution make sense when we check it?\n6. **Say:** Great job! Let's try another example.",
+    "mistakes": "- Forgetting to perform the same operation on both sides.\n  - **Try:** Always balance both sides.\n- Misinterpreting the inequality sign.\n  - **Try:** Remember, '>' means greater than, '<' means less than.\n- Not checking the solution.\n  - **Try:** Substitute back to verify.\n- Confusing variables and constants.\n  - **Try:** Identify which is which before solving.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Solving equations and inequalities is like budgeting. If you know your expenses and income, you can figure out how much you can save or spend. Similarly, understanding inequalities helps in comparing prices and making informed choices.",
+    "close": "Great job exploring linear equations and inequalities! With practice, you'll find these concepts become second nature. Keep supporting your child's learning journey!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Solving Linear Equations & Inequalities**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Solving Linear Equations & Inequalities** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Solving Linear Equations & Inequalities**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "83d84ec9-0c65-4a83-97d0-7e17c5c0df21",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "7445fe0c-95e5-4e44-bfba-0b792df19ffd",
+    "slug": "rational-functions-asymptotes-7445fe0c-95e5-4e44-bfba-0b792df19ffd",
+    "title": "Rational Functions & Asymptotes",
+    "summary": "Rational Functions & Asymptotes — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what rational functions are and how they behave.\n- Identify vertical and horizontal asymptotes in rational functions.\n- **Why this matters for parents:** This lesson helps you support your child in grasping complex algebraic concepts, making math more approachable and relevant.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rational functions are fractions where both the numerator and the denominator are polynomials. They often have unique features like asymptotes, which are lines that the graph approaches but never touches.\nUnderstanding rational functions and asymptotes is crucial because they appear in many real-world contexts, such as physics and economics, where they help model relationships and predict behavior.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, rational functions are like fractions in algebra. The asymptotes are invisible lines that the graph gets close to but never quite reaches. Think of them as boundaries that guide the shape of the graph.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore rational functions using a piece of string and a ruler.\n2. **Ask:** Stretch the string across the ruler. Imagine the string is the graph of a rational function.\n3. **Say:** The ruler represents an asymptote. Notice how the string can get close to the ruler but never touches it.\n4. **Ask:** What happens if you move the string closer to the ruler? It approaches but never quite reaches it.\n5. **Say:** This is how rational functions behave near their asymptotes.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A rational function is expressed as $f(x) = \\frac{p(x)}{q(x)}$, where $p(x)$ and $q(x)$ are polynomials. For example, $f(x) = \\frac{2x+3}{x-1}$ has a vertical asymptote at $x=1$ because the denominator becomes zero there. The horizontal asymptote is $y=2$, found by dividing the leading coefficients of the numerator and denominator.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "f(x) = \\frac{p(x)}{q(x)}\n* $p(x)$: numerator polynomial\n  * $q(x)$: denominator polynomial",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What happens when the denominator of a rational function is zero?\n2. **Say:** Let's find the vertical asymptote by setting the denominator equal to zero.\n3. **Ask:** How can we determine the horizontal asymptote?\n4. **Say:** Compare the degrees of the numerator and denominator.\n5. **Ask:** What do you notice about the graph near the asymptotes?\n6. **Say:** Use these observations to predict the graph's behavior.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing vertical and horizontal asymptotes. **Try:** Remember, vertical asymptotes occur where the denominator is zero.\n- Forgetting to check the degrees of polynomials for horizontal asymptotes. **Try:** Compare the highest powers of $x$ in both the numerator and denominator.\n- Thinking the graph touches asymptotes. **Try:** Visualize asymptotes as boundaries the graph approaches but never crosses.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Rational functions model real-world situations like calculating speed (distance over time) or understanding supply and demand curves in economics. Recognizing asymptotes helps predict limits and behaviors in these contexts.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring rational functions and asymptotes helps your child see the bigger picture in math. Keep encouraging their curiosity and understanding!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what rational functions are and how they behave.\n- Identify vertical and horizontal asymptotes in rational functions.\n- **Why this matters for parents:** This lesson helps you support your child in grasping complex algebraic concepts, making math more approachable and relevant.",
+    "overview": "Rational functions are fractions where both the numerator and the denominator are polynomials. They often have unique features like asymptotes, which are lines that the graph approaches but never touches.\nUnderstanding rational functions and asymptotes is crucial because they appear in many real-world contexts, such as physics and economics, where they help model relationships and predict behavior.",
+    "core": "In simple terms, rational functions are like fractions in algebra. The asymptotes are invisible lines that the graph gets close to but never quite reaches. Think of them as boundaries that guide the shape of the graph.",
+    "demo": "1. **Say:** Let's explore rational functions using a piece of string and a ruler.\n2. **Ask:** Stretch the string across the ruler. Imagine the string is the graph of a rational function.\n3. **Say:** The ruler represents an asymptote. Notice how the string can get close to the ruler but never touches it.\n4. **Ask:** What happens if you move the string closer to the ruler? It approaches but never quite reaches it.\n5. **Say:** This is how rational functions behave near their asymptotes.",
+    "math": "A rational function is expressed as $f(x) = \\frac{p(x)}{q(x)}$, where $p(x)$ and $q(x)$ are polynomials. For example, $f(x) = \\frac{2x+3}{x-1}$ has a vertical asymptote at $x=1$ because the denominator becomes zero there. The horizontal asymptote is $y=2$, found by dividing the leading coefficients of the numerator and denominator.",
+    "formulas": "f(x) = \\frac{p(x)}{q(x)}\n* $p(x)$: numerator polynomial\n  * $q(x)$: denominator polynomial",
+    "guide": "1. **Ask:** What happens when the denominator of a rational function is zero?\n2. **Say:** Let's find the vertical asymptote by setting the denominator equal to zero.\n3. **Ask:** How can we determine the horizontal asymptote?\n4. **Say:** Compare the degrees of the numerator and denominator.\n5. **Ask:** What do you notice about the graph near the asymptotes?\n6. **Say:** Use these observations to predict the graph's behavior.",
+    "mistakes": "- Confusing vertical and horizontal asymptotes. **Try:** Remember, vertical asymptotes occur where the denominator is zero.\n- Forgetting to check the degrees of polynomials for horizontal asymptotes. **Try:** Compare the highest powers of $x$ in both the numerator and denominator.\n- Thinking the graph touches asymptotes. **Try:** Visualize asymptotes as boundaries the graph approaches but never crosses.",
+    "connection": "Rational functions model real-world situations like calculating speed (distance over time) or understanding supply and demand curves in economics. Recognizing asymptotes helps predict limits and behaviors in these contexts.",
+    "close": "Exploring rational functions and asymptotes helps your child see the bigger picture in math. Keep encouraging their curiosity and understanding!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the vertical asymptote of $f(x) = \\frac{3x+2}{x-4}$.",
+      "hint_md": "Set the denominator equal to zero.",
+      "answer_md": "The vertical asymptote is at $x=4$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Determine the horizontal asymptote of $f(x) = \\frac{5x^2 + 3}{2x^2 - x}$.",
+      "hint_md": "Compare the leading coefficients of the numerator and denominator.",
+      "answer_md": "The horizontal asymptote is $y=\\frac{5}{2}$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What happens to $f(x) = \\frac{2x+1}{x-3}$ as $x$ approaches 3?",
+      "hint_md": "Consider the behavior near the vertical asymptote.",
+      "answer_md": "As $x$ approaches 3, $f(x)$ approaches infinity."
+    }
+  ]
+}

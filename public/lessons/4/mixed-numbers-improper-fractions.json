@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "e5a1c0d3-b85b-4e42-a1aa-3d60f9fbb5de",
+    "slug": "mixed-numbers-improper-fractions",
+    "title": "Mixed Numbers ↔ Improper Fractions",
+    "summary": "Mixed Numbers ↔ Improper Fractions — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to convert between mixed numbers and improper fractions.\n- Help your child visualize fractions using everyday objects.\n- **Why this matters for parents:** Strengthening your child's fraction skills builds a foundation for more advanced math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore how to convert between mixed numbers and improper fractions. A mixed number combines a whole number and a fraction, while an improper fraction has a numerator larger than its denominator.\nUnderstanding these conversions is important because it helps children grasp the concept of fractions greater than one and prepares them for operations involving fractions in higher grades.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Mixed numbers and improper fractions are two ways to express the same value. For example, 1 and 3/4 can also be written as 7/4. By learning to convert between these forms, children can better understand the size and value of fractions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A set of 12 small objects (like beans or buttons).\n2. **Say:** \"Let's make a group of 4 objects. This is our 'whole.'\"\n3. **Ask:** \"If we have 1 whole group and 3 more objects, how many objects do we have in total?\"\n4. **Explain:** \"We have 1 whole group and 3 out of 4 in another group, so that's 1 and 3/4.\"\n5. **Convert:** \"Now, count all objects: 7. So, 1 and 3/4 is the same as 7/4.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To convert a mixed number to an improper fraction, multiply the whole number by the denominator and add the numerator. For example, to convert 1 and 3/4:\n1. Multiply the whole number by the denominator: $1 \\times 4 = 4$.\n2. Add the numerator: $4 + 3 = 7$.\n3. Place the result over the original denominator: $\\frac{7}{4}$.\nTo convert back, divide the numerator by the denominator to find the whole number, and use the remainder as the new numerator.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Mixed to Improper: $a \\frac{b}{c} = \\frac{ac + b}{c}$\n  - $a$: whole number\n  - $b$: numerator\n  - $c$: denominator\n- Improper to Mixed: $\\frac{d}{c} = a \\frac{b}{c}$\n  - $d$: numerator\n  - $c$: denominator\n  - $a$: quotient\n  - $b$: remainder",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** \"A mixed number has a whole part and a fraction part.\"\n2. **Show:** Use objects to create a visual of a mixed number.\n3. **Convert:** Walk through the conversion process using the formula.\n4. **Practice:** Have your child try converting a few examples with you.\n5. **Discuss:** Talk about why both forms are useful in different situations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing numerator and denominator: **Try:** \"Remember, the numerator is the top number.\"\n- Forgetting to add the numerator after multiplying: **Try:** \"After multiplying, always add the numerator.\"\n- Misplacing the remainder: **Try:** \"The remainder becomes the new numerator in the mixed number.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking often involves fractions. If a recipe calls for 1 and 1/2 cups of flour, understanding this as 3/2 can help with measuring.\nBuilding projects use fractions to measure lengths, helping children see the practical use of mixed numbers and improper fractions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! By mastering these conversions, you’re helping your child build strong math skills that will serve them well in the future.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to convert between mixed numbers and improper fractions.\n- Help your child visualize fractions using everyday objects.\n- **Why this matters for parents:** Strengthening your child's fraction skills builds a foundation for more advanced math concepts.",
+    "overview": "In this lesson, we'll explore how to convert between mixed numbers and improper fractions. A mixed number combines a whole number and a fraction, while an improper fraction has a numerator larger than its denominator.\nUnderstanding these conversions is important because it helps children grasp the concept of fractions greater than one and prepares them for operations involving fractions in higher grades.",
+    "core": "Mixed numbers and improper fractions are two ways to express the same value. For example, 1 and 3/4 can also be written as 7/4. By learning to convert between these forms, children can better understand the size and value of fractions.",
+    "demo": "1. **Gather:** A set of 12 small objects (like beans or buttons).\n2. **Say:** \"Let's make a group of 4 objects. This is our 'whole.'\"\n3. **Ask:** \"If we have 1 whole group and 3 more objects, how many objects do we have in total?\"\n4. **Explain:** \"We have 1 whole group and 3 out of 4 in another group, so that's 1 and 3/4.\"\n5. **Convert:** \"Now, count all objects: 7. So, 1 and 3/4 is the same as 7/4.\"",
+    "math": "To convert a mixed number to an improper fraction, multiply the whole number by the denominator and add the numerator. For example, to convert 1 and 3/4:\n1. Multiply the whole number by the denominator: $1 \\times 4 = 4$.\n2. Add the numerator: $4 + 3 = 7$.\n3. Place the result over the original denominator: $\\frac{7}{4}$.\nTo convert back, divide the numerator by the denominator to find the whole number, and use the remainder as the new numerator.",
+    "formulas": "- Mixed to Improper: $a \\frac{b}{c} = \\frac{ac + b}{c}$\n  - $a$: whole number\n  - $b$: numerator\n  - $c$: denominator\n- Improper to Mixed: $\\frac{d}{c} = a \\frac{b}{c}$\n  - $d$: numerator\n  - $c$: denominator\n  - $a$: quotient\n  - $b$: remainder",
+    "guide": "1. **Explain:** \"A mixed number has a whole part and a fraction part.\"\n2. **Show:** Use objects to create a visual of a mixed number.\n3. **Convert:** Walk through the conversion process using the formula.\n4. **Practice:** Have your child try converting a few examples with you.\n5. **Discuss:** Talk about why both forms are useful in different situations.",
+    "mistakes": "- Confusing numerator and denominator: **Try:** \"Remember, the numerator is the top number.\"\n- Forgetting to add the numerator after multiplying: **Try:** \"After multiplying, always add the numerator.\"\n- Misplacing the remainder: **Try:** \"The remainder becomes the new numerator in the mixed number.\"",
+    "connection": "Cooking often involves fractions. If a recipe calls for 1 and 1/2 cups of flour, understanding this as 3/2 can help with measuring.\nBuilding projects use fractions to measure lengths, helping children see the practical use of mixed numbers and improper fractions.",
+    "close": "Great job! By mastering these conversions, you’re helping your child build strong math skills that will serve them well in the future."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Convert 2 and 1/3 to an improper fraction.",
+      "hint_md": "Multiply the whole number by the denominator, then add the numerator.",
+      "answer_md": "$\\frac{7}{3}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Convert 9/4 to a mixed number.",
+      "hint_md": "Divide the numerator by the denominator to find the whole number.",
+      "answer_md": "2 and 1/4"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Convert 3 and 2/5 to an improper fraction.",
+      "hint_md": "Use the formula: $a \\frac{b}{c} = \\frac{ac + b}{c}$.",
+      "answer_md": "$\\frac{17}{5}$"
+    }
+  ]
+}

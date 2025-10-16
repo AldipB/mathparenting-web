@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "5065afd8-2303-4cf3-8783-bf5f5f868396",
+    "title": "Fractions & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "781bed0d-51fc-49c0-846c-ca04f9ddbd32",
+    "slug": "measurement-length-weight-capacity",
+    "title": "Measurement: Length, Weight, Capacity",
+    "summary": "Measurement: Length, Weight, Capacity — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic concepts of length, weight, and capacity.\n- Use household objects to measure and compare.\n- Develop estimation skills.\n- **Why this matters for parents:** Building these skills helps children understand the world around them and lays the foundation for future math learning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to the concepts of length, weight, and capacity using everyday objects. They will learn how to measure and compare these attributes in a hands-on way.\nUnderstanding measurement is crucial because it helps children make sense of their environment. It also enhances problem-solving skills and supports learning in science and other subjects.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will explore how to measure length, weight, and capacity using items like a ruler, a scale, and measuring cups. They will learn to compare objects and understand terms like longer, shorter, heavier, lighter, more, and less.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find something to measure. How about this book?\"\n2. Use a ruler to measure the book's length. **Ask:** \"Is it longer or shorter than this pencil?\"\n3. Find a kitchen scale. **Say:** \"Let's weigh this apple.\"\n4. Compare the apple's weight to a banana. **Ask:** \"Which one is heavier?\"\n5. Use measuring cups. **Say:** \"Let's see how much water fits in this cup.\"\n6. **Ask:** \"Do you think this bowl can hold more or less water than the cup?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Measurement involves comparing objects using units. For example, if a book is 8 inches long and a pencil is 6 inches long, the book is longer. Similarly, if an apple weighs 150 grams and a banana weighs 120 grams, the apple is heavier.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with length. **Ask:** \"Can you find something longer than your shoe?\"\n2. Move to weight. **Say:** \"Let's find two things to weigh. Which is heavier?\"\n3. Explore capacity. **Ask:** \"How many cups of water do you think will fill this bowl?\"\n4. Encourage estimation. **Say:** \"Guess first, then measure to see if you're right!\"\n5. Reinforce vocabulary. **Ask:** \"What words describe these measurements?\"\n6. Celebrate discoveries. **Say:** \"Great job finding out which is bigger or smaller!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing length with weight. **Try:** Focus on one attribute at a time.\n- Using inconsistent units. **Try:** Stick to one unit, like inches or grams, for each comparison.\n- Overlooking estimation. **Try:** Encourage guessing before measuring to build intuition.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Measurement is everywhere! Cooking involves measuring ingredients, and shopping often requires comparing weights and sizes. These skills are practical and useful daily.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You're helping your child see the world in new ways. Keep exploring and measuring together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic concepts of length, weight, and capacity.\n- Use household objects to measure and compare.\n- Develop estimation skills.\n- **Why this matters for parents:** Building these skills helps children understand the world around them and lays the foundation for future math learning.",
+    "overview": "This lesson introduces your child to the concepts of length, weight, and capacity using everyday objects. They will learn how to measure and compare these attributes in a hands-on way.\nUnderstanding measurement is crucial because it helps children make sense of their environment. It also enhances problem-solving skills and supports learning in science and other subjects.",
+    "core": "Children will explore how to measure length, weight, and capacity using items like a ruler, a scale, and measuring cups. They will learn to compare objects and understand terms like longer, shorter, heavier, lighter, more, and less.",
+    "demo": "1. **Say:** \"Let's find something to measure. How about this book?\"\n2. Use a ruler to measure the book's length. **Ask:** \"Is it longer or shorter than this pencil?\"\n3. Find a kitchen scale. **Say:** \"Let's weigh this apple.\"\n4. Compare the apple's weight to a banana. **Ask:** \"Which one is heavier?\"\n5. Use measuring cups. **Say:** \"Let's see how much water fits in this cup.\"\n6. **Ask:** \"Do you think this bowl can hold more or less water than the cup?\"",
+    "math": "Measurement involves comparing objects using units. For example, if a book is 8 inches long and a pencil is 6 inches long, the book is longer. Similarly, if an apple weighs 150 grams and a banana weighs 120 grams, the apple is heavier.",
+    "guide": "1. Start with length. **Ask:** \"Can you find something longer than your shoe?\"\n2. Move to weight. **Say:** \"Let's find two things to weigh. Which is heavier?\"\n3. Explore capacity. **Ask:** \"How many cups of water do you think will fill this bowl?\"\n4. Encourage estimation. **Say:** \"Guess first, then measure to see if you're right!\"\n5. Reinforce vocabulary. **Ask:** \"What words describe these measurements?\"\n6. Celebrate discoveries. **Say:** \"Great job finding out which is bigger or smaller!\"",
+    "mistakes": "- Confusing length with weight. **Try:** Focus on one attribute at a time.\n- Using inconsistent units. **Try:** Stick to one unit, like inches or grams, for each comparison.\n- Overlooking estimation. **Try:** Encourage guessing before measuring to build intuition.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Measurement is everywhere! Cooking involves measuring ingredients, and shopping often requires comparing weights and sizes. These skills are practical and useful daily.",
+    "close": "You're helping your child see the world in new ways. Keep exploring and measuring together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Measurement: Length, Weight, Capacity**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Measurement: Length, Weight, Capacity** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Measurement: Length, Weight, Capacity**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

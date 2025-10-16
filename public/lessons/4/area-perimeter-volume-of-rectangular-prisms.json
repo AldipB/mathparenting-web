@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "9762c3d7-714a-46e6-8e4d-c500cb946943",
+    "title": "Decimals & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "98d606f0-0d10-4bd2-ac73-daff2aac5bb7",
+    "slug": "area-perimeter-volume-of-rectangular-prisms",
+    "title": "Area, Perimeter & Volume of Rectangular Prisms",
+    "summary": "Area, Perimeter & Volume of Rectangular Prisms — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of area, perimeter, and volume for rectangular prisms.\n- Learn to calculate these measurements using simple formulas.\n- **Why this matters for parents:** Helps you support your child's spatial reasoning and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores how to measure the area, perimeter, and volume of rectangular prisms. These are 3D shapes like boxes or bricks.\nUnderstanding these concepts is important because they help us describe and interact with the physical world. Knowing how to calculate these measurements can be useful in everyday tasks like packing, building, or even cooking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Area measures the surface of a shape, perimeter is the distance around a shape, and volume measures the space inside a 3D object. When we talk about a rectangular prism, think of a cereal box. We’ll learn how to calculate these using simple formulas.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the area of a cereal box face. Measure the length and width of the front.\n2. **Ask:** What is the length? What is the width? Write these down.\n3. **Say:** Multiply these numbers to find the area of the front face.\n4. **Say:** Now, let's measure the perimeter. Add the lengths of all four sides of the front face.\n5. **Say:** For volume, measure the height of the box. Multiply length, width, and height.\n6. **Ask:** What do you notice about how these measurements help describe the box?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the area of a rectangle, multiply its length ($l$) by its width ($w$). For example, if a rectangle has a length of 5 cm and a width of 3 cm, the area is $5 \\times 3 = 15$ square cm.\nThe perimeter is the sum of all sides: $2l + 2w$. For volume, multiply the length, width, and height ($h$): $l \\times w \\times h$. If $l = 5$, $w = 3$, and $h = 4$, then the volume is $5 \\times 3 \\times 4 = 60$ cubic cm.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Area: $A = l \\times w$\n- $A$: Area\n  - $l$: Length\n  - $w$: Width\nPerimeter: $P = 2l + 2w$\n- $P$: Perimeter\nVolume: $V = l \\times w \\times h$\n- $V$: Volume\n  - $h$: Height",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's measure a box together. Find a box at home.\n2. **Ask:** Can you find the length, width, and height? Use a ruler.\n3. **Say:** Calculate the area of one face using the formula.\n4. **Ask:** What is the perimeter of that face?\n5. **Say:** Now, calculate the volume using all three measurements.\n6. **Ask:** How do these numbers help us understand the box better?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing area and perimeter. **Try:** Remember, area covers the surface; perimeter goes around.\n- Forgetting to use the same units. **Try:** Always measure in the same units (e.g., cm).\n- Mixing up dimensions. **Try:** Label length, width, and height clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Calculating volume helps when packing a suitcase or filling a container. Area and perimeter are useful for tasks like wrapping gifts or fencing a garden.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring these concepts! Understanding these measurements helps us make sense of the world around us. Keep practicing and you'll see how useful they are!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of area, perimeter, and volume for rectangular prisms.\n- Learn to calculate these measurements using simple formulas.\n- **Why this matters for parents:** Helps you support your child's spatial reasoning and problem-solving skills.",
+    "overview": "This lesson explores how to measure the area, perimeter, and volume of rectangular prisms. These are 3D shapes like boxes or bricks.\nUnderstanding these concepts is important because they help us describe and interact with the physical world. Knowing how to calculate these measurements can be useful in everyday tasks like packing, building, or even cooking.",
+    "core": "Area measures the surface of a shape, perimeter is the distance around a shape, and volume measures the space inside a 3D object. When we talk about a rectangular prism, think of a cereal box. We’ll learn how to calculate these using simple formulas.",
+    "demo": "1. **Say:** Let's find the area of a cereal box face. Measure the length and width of the front.\n2. **Ask:** What is the length? What is the width? Write these down.\n3. **Say:** Multiply these numbers to find the area of the front face.\n4. **Say:** Now, let's measure the perimeter. Add the lengths of all four sides of the front face.\n5. **Say:** For volume, measure the height of the box. Multiply length, width, and height.\n6. **Ask:** What do you notice about how these measurements help describe the box?",
+    "math": "To find the area of a rectangle, multiply its length ($l$) by its width ($w$). For example, if a rectangle has a length of 5 cm and a width of 3 cm, the area is $5 \\times 3 = 15$ square cm.\nThe perimeter is the sum of all sides: $2l + 2w$. For volume, multiply the length, width, and height ($h$): $l \\times w \\times h$. If $l = 5$, $w = 3$, and $h = 4$, then the volume is $5 \\times 3 \\times 4 = 60$ cubic cm.",
+    "formulas": "Area: $A = l \\times w$\n- $A$: Area\n  - $l$: Length\n  - $w$: Width\nPerimeter: $P = 2l + 2w$\n- $P$: Perimeter\nVolume: $V = l \\times w \\times h$\n- $V$: Volume\n  - $h$: Height",
+    "guide": "1. **Say:** Let's measure a box together. Find a box at home.\n2. **Ask:** Can you find the length, width, and height? Use a ruler.\n3. **Say:** Calculate the area of one face using the formula.\n4. **Ask:** What is the perimeter of that face?\n5. **Say:** Now, calculate the volume using all three measurements.\n6. **Ask:** How do these numbers help us understand the box better?",
+    "mistakes": "- Confusing area and perimeter. **Try:** Remember, area covers the surface; perimeter goes around.\n- Forgetting to use the same units. **Try:** Always measure in the same units (e.g., cm).\n- Mixing up dimensions. **Try:** Label length, width, and height clearly.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Calculating volume helps when packing a suitcase or filling a container. Area and perimeter are useful for tasks like wrapping gifts or fencing a garden.",
+    "close": "Great job exploring these concepts! Understanding these measurements helps us make sense of the world around us. Keep practicing and you'll see how useful they are!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Area, Perimeter & Volume of Rectangular Prisms**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Area, Perimeter & Volume of Rectangular Prisms** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Area, Perimeter & Volume of Rectangular Prisms**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

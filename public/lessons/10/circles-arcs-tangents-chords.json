@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "2c477ea4-6478-443f-918d-1e62837db9db",
+    "title": "Circles & Coordinates",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "0d5e1343-71f4-4e81-9c23-cbab51c9939e",
+    "slug": "circles-arcs-tangents-chords",
+    "title": "Circles: Arcs, Tangents, Chords",
+    "summary": "Circles: Arcs, Tangents, Chords — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basic properties of circles: arcs, tangents, and chords.\n- Identify and describe these parts using household objects.\n- Explore how these concepts apply in real life.\n- **Why this matters for parents:** Understanding these concepts helps your child see geometry in everyday objects and builds spatial reasoning skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the parts of a circle: arcs, tangents, and chords. You'll learn how to identify these parts and understand their properties using simple household items.\nUnderstanding circles is important because they are everywhere in our world—from wheels to clocks. Recognizing these parts helps children connect math to real life and enhances their problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A circle is a round shape with no corners or edges. Key parts include arcs (a part of the circle's edge), tangents (a line that touches the circle at one point), and chords (a line segment connecting two points on the circle). These parts help us understand how circles work and interact with other shapes.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find a round object, like a plate. This is our circle.\n2. **Ask:** Can you find the edge of the circle? That's where arcs are!\n3. Use a string to stretch across the plate. **Say:** This is a chord. It connects two points on the circle.\n4. Take a pencil and touch the edge of the plate lightly. **Say:** This is a tangent. It just touches the circle at one point.\n5. **Ask:** How is this different from the string (chord)?\n6. **Say:** Let's build a circle using sticks or straws to see these parts in action.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a circle, an arc is a part of the circumference. A chord is a line segment with both endpoints on the circle. A tangent is a line that touches the circle at exactly one point. For example, if a circle has a radius of 5 cm, a chord might be 8 cm long, and a tangent will touch the circle at one point without crossing inside.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Circumference: C = 2\\pi r\n- \\(C\\): Circumference\n  - \\(r\\): Radius\nArc Length: L = \\frac{\\theta}{360} \\times 2\\pi r\n- \\(L\\): Arc Length\n  - \\(\\theta\\): Central Angle in degrees",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a circular object and identify its parts: arcs, chords, and tangents.\n2. Use a string to measure the chord and compare it to the diameter.\n3. **Ask:** What happens if the chord is the same as the diameter?\n4. Draw a circle and use a ruler to create a tangent. **Say:** Notice how it only touches at one point.\n5. Discuss how these parts appear in real life, like in wheels or pizza slices.\n6. **Ask:** How do these parts change if the circle gets bigger or smaller?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing a chord with a tangent. **Try:** Remember, a chord goes through the circle; a tangent just touches it.\n- Thinking an arc is a full circle. **Try:** An arc is only a part of the circle's edge.\n- Mixing up radius and diameter. **Try:** The diameter is twice as long as the radius.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Circles are everywhere! Think about bicycle wheels, clock faces, and even pizza slices. Understanding arcs, tangents, and chords helps us describe and use these everyday objects more effectively.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Circles are fascinating and full of surprises! Keep exploring and you'll see them everywhere in the world around you.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basic properties of circles: arcs, tangents, and chords.\n- Identify and describe these parts using household objects.\n- Explore how these concepts apply in real life.\n- **Why this matters for parents:** Understanding these concepts helps your child see geometry in everyday objects and builds spatial reasoning skills.",
+    "overview": "This lesson explores the parts of a circle: arcs, tangents, and chords. You'll learn how to identify these parts and understand their properties using simple household items.\nUnderstanding circles is important because they are everywhere in our world—from wheels to clocks. Recognizing these parts helps children connect math to real life and enhances their problem-solving skills.",
+    "core": "A circle is a round shape with no corners or edges. Key parts include arcs (a part of the circle's edge), tangents (a line that touches the circle at one point), and chords (a line segment connecting two points on the circle). These parts help us understand how circles work and interact with other shapes.",
+    "demo": "1. **Say:** Let's find a round object, like a plate. This is our circle.\n2. **Ask:** Can you find the edge of the circle? That's where arcs are!\n3. Use a string to stretch across the plate. **Say:** This is a chord. It connects two points on the circle.\n4. Take a pencil and touch the edge of the plate lightly. **Say:** This is a tangent. It just touches the circle at one point.\n5. **Ask:** How is this different from the string (chord)?\n6. **Say:** Let's build a circle using sticks or straws to see these parts in action.",
+    "math": "In a circle, an arc is a part of the circumference. A chord is a line segment with both endpoints on the circle. A tangent is a line that touches the circle at exactly one point. For example, if a circle has a radius of 5 cm, a chord might be 8 cm long, and a tangent will touch the circle at one point without crossing inside.",
+    "formulas": "Circumference: C = 2\\pi r\n- \\(C\\): Circumference\n  - \\(r\\): Radius\nArc Length: L = \\frac{\\theta}{360} \\times 2\\pi r\n- \\(L\\): Arc Length\n  - \\(\\theta\\): Central Angle in degrees",
+    "guide": "1. Find a circular object and identify its parts: arcs, chords, and tangents.\n2. Use a string to measure the chord and compare it to the diameter.\n3. **Ask:** What happens if the chord is the same as the diameter?\n4. Draw a circle and use a ruler to create a tangent. **Say:** Notice how it only touches at one point.\n5. Discuss how these parts appear in real life, like in wheels or pizza slices.\n6. **Ask:** How do these parts change if the circle gets bigger or smaller?",
+    "mistakes": "- Confusing a chord with a tangent. **Try:** Remember, a chord goes through the circle; a tangent just touches it.\n- Thinking an arc is a full circle. **Try:** An arc is only a part of the circle's edge.\n- Mixing up radius and diameter. **Try:** The diameter is twice as long as the radius.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Circles are everywhere! Think about bicycle wheels, clock faces, and even pizza slices. Understanding arcs, tangents, and chords helps us describe and use these everyday objects more effectively.",
+    "close": "Circles are fascinating and full of surprises! Keep exploring and you'll see them everywhere in the world around you."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Circles: Arcs, Tangents, Chords**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Circles: Arcs, Tangents, Chords** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Circles: Arcs, Tangents, Chords**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

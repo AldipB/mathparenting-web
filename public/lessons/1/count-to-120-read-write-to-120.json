@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "7115972a-6874-417a-b927-aeb5e27c4162",
+    "slug": "count-to-120-read-write-to-120",
+    "title": "Count to 120; Read & Write to 120",
+    "summary": "Count to 120; Read & Write to 120 — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Count to 120 using one-to-one correspondence.\n- Read and write numbers up to 120.\n- Understand the stable order of numbers.\n- **Why this matters for parents:** Building a strong number sense early helps children with future math skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child count, read, and write numbers up to 120. We'll use everyday objects to make counting tangible and fun.\nUnderstanding numbers and their order is crucial for your child's math development. It lays the foundation for addition, subtraction, and more complex math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Counting involves saying numbers in the correct order while matching them to objects. This is called one-to-one correspondence. We'll use snacks or toys to help your child touch and count each item, reinforcing the idea that each number corresponds to a specific quantity.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 small snacks or toys.\n2. **Say:** \"Let's count these snacks together.\"\n3. Have your child touch each item once, saying the number out loud.\n4. **Ask:** \"What number did we stop at?\"\n5. Remove 3 items. **Say:** \"If we take away 3, how many are left? Let's count again.\"\n6. **Say:** \"Now, let's write the numbers from 1 to 20 on paper.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Counting uses stable order, meaning numbers always follow the same sequence: 1, 2, 3, etc. For example, if you have 5 toys, you count them as 1, 2, 3, 4, 5. Each number represents one toy.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with 10 objects. **Say:** \"Let's count these together.\"\n2. Have your child touch each object, saying the number.\n3. Add 5 more objects. **Ask:** \"How many do we have now?\"\n4. Write numbers 1 to 20. **Say:** \"Let's read these numbers together.\"\n5. Practice writing numbers by having your child copy them.\n6. **Say:** \"Great job! Let's try counting to 30 next time.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Skipping numbers: **Try:** Encourage touching each item while counting.\n- Mixing order: **Try:** Practice counting slowly and clearly.\n- Forgetting numbers: **Try:** Use a number chart for reference.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Counting is like organizing toys on a shelf. Each toy has its place, just like each number.\nWhen shopping, counting items in a cart helps with understanding quantity and cost.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child build their counting skills! Keep practicing, and soon they'll be counting like a pro.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Count to 120 using one-to-one correspondence.\n- Read and write numbers up to 120.\n- Understand the stable order of numbers.\n- **Why this matters for parents:** Building a strong number sense early helps children with future math skills.",
+    "overview": "This lesson focuses on helping your child count, read, and write numbers up to 120. We'll use everyday objects to make counting tangible and fun.\nUnderstanding numbers and their order is crucial for your child's math development. It lays the foundation for addition, subtraction, and more complex math concepts.",
+    "core": "Counting involves saying numbers in the correct order while matching them to objects. This is called one-to-one correspondence. We'll use snacks or toys to help your child touch and count each item, reinforcing the idea that each number corresponds to a specific quantity.",
+    "demo": "1. Gather 20 small snacks or toys.\n2. **Say:** \"Let's count these snacks together.\"\n3. Have your child touch each item once, saying the number out loud.\n4. **Ask:** \"What number did we stop at?\"\n5. Remove 3 items. **Say:** \"If we take away 3, how many are left? Let's count again.\"\n6. **Say:** \"Now, let's write the numbers from 1 to 20 on paper.\"",
+    "math": "Counting uses stable order, meaning numbers always follow the same sequence: 1, 2, 3, etc. For example, if you have 5 toys, you count them as 1, 2, 3, 4, 5. Each number represents one toy.",
+    "guide": "1. Start with 10 objects. **Say:** \"Let's count these together.\"\n2. Have your child touch each object, saying the number.\n3. Add 5 more objects. **Ask:** \"How many do we have now?\"\n4. Write numbers 1 to 20. **Say:** \"Let's read these numbers together.\"\n5. Practice writing numbers by having your child copy them.\n6. **Say:** \"Great job! Let's try counting to 30 next time.\"",
+    "mistakes": "- Skipping numbers: **Try:** Encourage touching each item while counting.\n- Mixing order: **Try:** Practice counting slowly and clearly.\n- Forgetting numbers: **Try:** Use a number chart for reference.",
+    "connection": "Counting is like organizing toys on a shelf. Each toy has its place, just like each number.\nWhen shopping, counting items in a cart helps with understanding quantity and cost.",
+    "close": "Great job helping your child build their counting skills! Keep practicing, and soon they'll be counting like a pro."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What number comes after 29?",
+      "hint_md": "Think about the next number in the sequence.",
+      "answer_md": "30"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Write the number for thirty-five.",
+      "hint_md": "Remember, thirty-five is made of two parts: thirty and five.",
+      "answer_md": "35"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Count how many apples are on the table if there are 12.",
+      "hint_md": "Start from 1 and count each apple.",
+      "answer_md": "12"
+    }
+  ]
+}

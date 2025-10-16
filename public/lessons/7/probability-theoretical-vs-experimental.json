@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "bc20eed0-8420-4c06-bab3-2801b267a45c",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "cf6b71ff-8616-486e-a59c-f37397efc40f",
+    "slug": "probability-theoretical-vs-experimental",
+    "title": "Probability: Theoretical vs Experimental",
+    "summary": "Probability: Theoretical vs Experimental — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the difference between theoretical and experimental probability.\n- - Help your child conduct simple probability experiments at home.\n- - Encourage critical thinking about chance and likelihood.\n- **Why this matters for parents:** Understanding probability helps children make informed decisions and think critically about everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Probability is the study of how likely events are to happen. Theoretical probability is what we expect to happen, while experimental probability is what actually happens when we try it out.\nThis lesson matters because it helps children understand that predictions don't always match reality. By exploring both types of probability, children learn to analyze and interpret results, which is a valuable skill in many areas of life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Theoretical probability is calculated based on known possibilities. For example, the chance of rolling a 3 on a fair six-sided die is $\\frac{1}{6}$. Experimental probability is determined by conducting an experiment and recording the outcomes. If you roll a die 60 times and get a 3 ten times, the experimental probability is $\\frac{10}{60}$ or $\\frac{1}{6}$.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A six-sided die and a piece of paper.\n2. **Say:** \"Let's predict the chance of rolling a 3.\"\n3. **Ask:** \"What do you think will happen if we roll the die 30 times?\"\n4. Roll the die 30 times, recording each result.\n5. **Ask:** \"How many times did we roll a 3? What is the experimental probability?\"\n6. Compare the experimental probability to the theoretical probability of $\\frac{1}{6}$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Theoretical probability is calculated as:\n$$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\nFor a six-sided die, the probability of rolling a 3 is $\\frac{1}{6}$.\nExperimental probability is calculated as:\n$$ P(\text{event}) = \\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}} $$\nIf a 3 is rolled 5 times out of 30, the probability is $\\frac{5}{30} = \\frac{1}{6}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Theoretical Probability: $$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\n- $P(\text{event})$: Probability of the event\n- Favorable outcomes: Outcomes that match the event\n- Possible outcomes: All possible outcomes\nExperimental Probability: $$ P(\text{event}) = \\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}} $$\n- Trials: Total attempts or experiments",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** \"Theoretical probability is what we expect to happen.\"\n2. **Discuss:** \"Experimental probability is what actually happens when we try it.\"\n3. **Predict:** Ask your child to predict outcomes before trying an experiment.\n4. **Record:** Help your child keep track of results during experiments.\n5. **Compare:** Discuss how the results compare to the predictions.\n6. **Reflect:** Ask why the results might differ from the theoretical probability.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing theoretical and experimental probabilities. **Try:** Clarify that theoretical is expected, experimental is observed.\n- - Not recording results accurately. **Try:** Use a tally chart to keep track.\n- - Assuming small sample sizes will match theoretical probability. **Try:** Explain that more trials can lead to results closer to expectations.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Probability is used in weather forecasts to predict rain or sunshine. It also helps in understanding risks, like the chance of winning a game or making decisions about investments.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring probability helps your child understand the world of chance and make informed decisions. Keep experimenting and discovering together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the difference between theoretical and experimental probability.\n- - Help your child conduct simple probability experiments at home.\n- - Encourage critical thinking about chance and likelihood.\n- **Why this matters for parents:** Understanding probability helps children make informed decisions and think critically about everyday situations.",
+    "overview": "Probability is the study of how likely events are to happen. Theoretical probability is what we expect to happen, while experimental probability is what actually happens when we try it out.\nThis lesson matters because it helps children understand that predictions don't always match reality. By exploring both types of probability, children learn to analyze and interpret results, which is a valuable skill in many areas of life.",
+    "core": "Theoretical probability is calculated based on known possibilities. For example, the chance of rolling a 3 on a fair six-sided die is $\\frac{1}{6}$. Experimental probability is determined by conducting an experiment and recording the outcomes. If you roll a die 60 times and get a 3 ten times, the experimental probability is $\\frac{10}{60}$ or $\\frac{1}{6}$.",
+    "demo": "1. **Gather:** A six-sided die and a piece of paper.\n2. **Say:** \"Let's predict the chance of rolling a 3.\"\n3. **Ask:** \"What do you think will happen if we roll the die 30 times?\"\n4. Roll the die 30 times, recording each result.\n5. **Ask:** \"How many times did we roll a 3? What is the experimental probability?\"\n6. Compare the experimental probability to the theoretical probability of $\\frac{1}{6}$.",
+    "math": "Theoretical probability is calculated as:\n$$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\nFor a six-sided die, the probability of rolling a 3 is $\\frac{1}{6}$.\nExperimental probability is calculated as:\n$$ P(\text{event}) = \\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}} $$\nIf a 3 is rolled 5 times out of 30, the probability is $\\frac{5}{30} = \\frac{1}{6}$.",
+    "formulas": "Theoretical Probability: $$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\n- $P(\text{event})$: Probability of the event\n- Favorable outcomes: Outcomes that match the event\n- Possible outcomes: All possible outcomes\nExperimental Probability: $$ P(\text{event}) = \\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}} $$\n- Trials: Total attempts or experiments",
+    "guide": "1. **Explain:** \"Theoretical probability is what we expect to happen.\"\n2. **Discuss:** \"Experimental probability is what actually happens when we try it.\"\n3. **Predict:** Ask your child to predict outcomes before trying an experiment.\n4. **Record:** Help your child keep track of results during experiments.\n5. **Compare:** Discuss how the results compare to the predictions.\n6. **Reflect:** Ask why the results might differ from the theoretical probability.",
+    "mistakes": "- - Confusing theoretical and experimental probabilities. **Try:** Clarify that theoretical is expected, experimental is observed.\n- - Not recording results accurately. **Try:** Use a tally chart to keep track.\n- - Assuming small sample sizes will match theoretical probability. **Try:** Explain that more trials can lead to results closer to expectations.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Probability is used in weather forecasts to predict rain or sunshine. It also helps in understanding risks, like the chance of winning a game or making decisions about investments.",
+    "close": "Exploring probability helps your child understand the world of chance and make informed decisions. Keep experimenting and discovering together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Probability: Theoretical vs Experimental**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Probability: Theoretical vs Experimental** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Probability: Theoretical vs Experimental**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

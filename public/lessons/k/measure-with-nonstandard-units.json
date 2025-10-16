@@ -1,18 +1,98 @@
 {
-  "title": "Measure with Nonstandard Units",
-  "grade": "Kindergarten (K)",
-  "overview": "Placeholder outline for \"Measure with Nonstandard Units\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Measure with Nonstandard Units.",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "cd43879f-4de4-42cb-8b82-b4bc4765a45c",
+    "slug": "measure-with-nonstandard-units",
+    "title": "Measure with Nonstandard Units",
+    "summary": "Measure with Nonstandard Units — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 13
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to measure objects using nonstandard units.\n- Develop spatial awareness and comparison skills.\n- **Why this matters for parents:** This helps children grasp measurement concepts before using rulers or tape measures.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore measuring objects using nonstandard units like blocks, crayons, or even spoons. This is a fun and practical way to introduce measurement concepts to young children.\nUnderstanding measurement with familiar objects helps children relate math to their everyday world. It builds a foundation for more advanced measurement skills they'll encounter later.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will learn to measure by using objects they know well. This hands-on approach makes abstract concepts more concrete and understandable. By comparing lengths and sizes, they develop critical thinking and problem-solving skills.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather several identical objects like blocks or crayons.\n2. **Say:** \"Let's measure how long the table is using these blocks.\"\n3. Line up the blocks end to end along the table's edge.\n4. **Ask:** \"How many blocks long is the table?\"\n5. Count the blocks together. **Say:** \"The table is 8 blocks long.\"\n6. Try measuring a different object, like a book, using the same blocks.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Measurement with nonstandard units involves counting the number of identical objects that fit along the length of another object. For example, if a table is 8 blocks long, each block represents a unit of measure. This helps children understand that measurement is about comparing lengths.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Choose a safe, flat surface to measure.\n2. Select identical objects like spoons or toy cars.\n3. **Say:** \"Let's see how many spoons long this rug is.\"\n4. Line up the spoons without gaps or overlaps.\n5. Count together. **Ask:** \"How many spoons did we use?\"\n6. Encourage your child to try measuring another object.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Objects not aligned properly. Try: Ensure objects are end-to-end without gaps.\n- Using different-sized objects. Try: Use identical objects for accurate measurement.\n- Forgetting to count all units. Try: Count together slowly to ensure accuracy.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Measuring with nonstandard units is similar to how we estimate distances in steps or hand spans. It's a practical skill used in cooking, crafting, and home projects.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring measurement with your child! These skills will help them see math in the world around them.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to measure objects using nonstandard units.\n- Develop spatial awareness and comparison skills.\n- **Why this matters for parents:** This helps children grasp measurement concepts before using rulers or tape measures.",
+    "overview": "In this lesson, we'll explore measuring objects using nonstandard units like blocks, crayons, or even spoons. This is a fun and practical way to introduce measurement concepts to young children.\nUnderstanding measurement with familiar objects helps children relate math to their everyday world. It builds a foundation for more advanced measurement skills they'll encounter later.",
+    "core": "Children will learn to measure by using objects they know well. This hands-on approach makes abstract concepts more concrete and understandable. By comparing lengths and sizes, they develop critical thinking and problem-solving skills.",
+    "demo": "1. Gather several identical objects like blocks or crayons.\n2. **Say:** \"Let's measure how long the table is using these blocks.\"\n3. Line up the blocks end to end along the table's edge.\n4. **Ask:** \"How many blocks long is the table?\"\n5. Count the blocks together. **Say:** \"The table is 8 blocks long.\"\n6. Try measuring a different object, like a book, using the same blocks.",
+    "math": "Measurement with nonstandard units involves counting the number of identical objects that fit along the length of another object. For example, if a table is 8 blocks long, each block represents a unit of measure. This helps children understand that measurement is about comparing lengths.",
+    "guide": "1. Choose a safe, flat surface to measure.\n2. Select identical objects like spoons or toy cars.\n3. **Say:** \"Let's see how many spoons long this rug is.\"\n4. Line up the spoons without gaps or overlaps.\n5. Count together. **Ask:** \"How many spoons did we use?\"\n6. Encourage your child to try measuring another object.",
+    "mistakes": "- Objects not aligned properly. Try: Ensure objects are end-to-end without gaps.\n- Using different-sized objects. Try: Use identical objects for accurate measurement.\n- Forgetting to count all units. Try: Count together slowly to ensure accuracy.",
+    "connection": "Measuring with nonstandard units is similar to how we estimate distances in steps or hand spans. It's a practical skill used in cooking, crafting, and home projects.",
+    "close": "Great job exploring measurement with your child! These skills will help them see math in the world around them."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many crayons long is the book if you use 5 crayons?",
+      "hint_md": "Line up the crayons along the book's edge.",
+      "answer_md": "The book is 5 crayons long."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a toy car is 3 blocks long, how many blocks long are 2 toy cars?",
+      "hint_md": "Think about lining up the cars end to end.",
+      "answer_md": "2 toy cars are 6 blocks long."
+    },
+    {
+      "order_index": 3,
+      "question_md": "You measured a rug with 10 spoons. How many spoons long is half the rug?",
+      "hint_md": "Divide the total number of spoons by 2.",
+      "answer_md": "Half the rug is 5 spoons long."
+    }
+  ]
 }

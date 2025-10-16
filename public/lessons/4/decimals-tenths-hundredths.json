@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "9762c3d7-714a-46e6-8e4d-c500cb946943",
+    "title": "Decimals & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "4d112ed2-6457-49f8-a1dd-f3f00088660d",
+    "slug": "decimals-tenths-hundredths",
+    "title": "Decimals: Tenths & Hundredths",
+    "summary": "Decimals: Tenths & Hundredths — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand tenths and hundredths as parts of a whole.\n- Learn to read and write decimals up to two places.\n- Compare and order decimals.\n**Why this matters for parents:** Understanding decimals is crucial for everyday activities like shopping and cooking, where precise measurements are important.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Decimals are numbers that include a decimal point to represent a part of a whole. In this lesson, we'll focus on tenths and hundredths, which are the first two places after the decimal point.\nUnderstanding decimals helps children make sense of fractions and percentages, which are essential for math in school and everyday life. It's a step towards more complex math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals are a way to express fractions. For example, 0.1 is the same as 1/10, and 0.01 is the same as 1/100. These are called tenths and hundredths. By learning decimals, children can better understand money, measurements, and data.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's look at a dollar. Imagine it's divided into 10 equal parts. Each part is a dime, or 0.1 of a dollar.\"\n2. **Ask:** \"If we have 3 dimes, how much do we have?\" (Expected answer: 0.3 or 30 cents)\n3. **Say:** \"Now, let's divide a dollar into 100 parts. Each part is a penny, or 0.01 of a dollar.\"\n4. **Ask:** \"If we have 45 pennies, how much do we have?\" (Expected answer: 0.45 or 45 cents)\n5. Use coins to show how different combinations make up 0.1 and 0.01.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Decimals are written with a decimal point. The first place after the decimal is the tenths place, and the second is the hundredths place. For example, in 0.47:\n- The '4' is in the tenths place, meaning 4/10.\n- The '7' is in the hundredths place, meaning 7/100.\nSo, 0.47 is 47/100.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Use a dollar bill and coins to explain tenths and hundredths.\n2. **Say:** \"Let's write 0.25. How many dimes and pennies is that?\"\n3. **Ask:** \"What is 0.7 as a fraction?\" (Expected answer: 7/10)\n4. Compare 0.3 and 0.25 using coins.\n5. **Say:** \"Let's order 0.5, 0.75, and 0.25 from smallest to largest.\"\n6. Practice writing decimals with different coin combinations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tenths and hundredths. **Try:** Use coins to visualize.\n- Writing 0.1 as 1. **Try:** Emphasize the decimal point's role.\n- Comparing decimals incorrectly. **Try:** Line up decimal points to compare.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, prices often include decimals. Understanding tenths and hundredths helps children grasp the cost of items and manage money effectively.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring decimals! Your child is now better equipped to handle everyday math with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand tenths and hundredths as parts of a whole.\n- Learn to read and write decimals up to two places.\n- Compare and order decimals.\n**Why this matters for parents:** Understanding decimals is crucial for everyday activities like shopping and cooking, where precise measurements are important.",
+    "overview": "Decimals are numbers that include a decimal point to represent a part of a whole. In this lesson, we'll focus on tenths and hundredths, which are the first two places after the decimal point.\nUnderstanding decimals helps children make sense of fractions and percentages, which are essential for math in school and everyday life. It's a step towards more complex math concepts.",
+    "core": "Decimals are a way to express fractions. For example, 0.1 is the same as 1/10, and 0.01 is the same as 1/100. These are called tenths and hundredths. By learning decimals, children can better understand money, measurements, and data.",
+    "demo": "1. **Say:** \"Let's look at a dollar. Imagine it's divided into 10 equal parts. Each part is a dime, or 0.1 of a dollar.\"\n2. **Ask:** \"If we have 3 dimes, how much do we have?\" (Expected answer: 0.3 or 30 cents)\n3. **Say:** \"Now, let's divide a dollar into 100 parts. Each part is a penny, or 0.01 of a dollar.\"\n4. **Ask:** \"If we have 45 pennies, how much do we have?\" (Expected answer: 0.45 or 45 cents)\n5. Use coins to show how different combinations make up 0.1 and 0.01.",
+    "math": "Decimals are written with a decimal point. The first place after the decimal is the tenths place, and the second is the hundredths place. For example, in 0.47:\n- The '4' is in the tenths place, meaning 4/10.\n- The '7' is in the hundredths place, meaning 7/100.\nSo, 0.47 is 47/100.",
+    "guide": "1. Use a dollar bill and coins to explain tenths and hundredths.\n2. **Say:** \"Let's write 0.25. How many dimes and pennies is that?\"\n3. **Ask:** \"What is 0.7 as a fraction?\" (Expected answer: 7/10)\n4. Compare 0.3 and 0.25 using coins.\n5. **Say:** \"Let's order 0.5, 0.75, and 0.25 from smallest to largest.\"\n6. Practice writing decimals with different coin combinations.",
+    "mistakes": "- Confusing tenths and hundredths. **Try:** Use coins to visualize.\n- Writing 0.1 as 1. **Try:** Emphasize the decimal point's role.\n- Comparing decimals incorrectly. **Try:** Line up decimal points to compare.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When shopping, prices often include decimals. Understanding tenths and hundredths helps children grasp the cost of items and manage money effectively.",
+    "close": "Great job exploring decimals! Your child is now better equipped to handle everyday math with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Decimals: Tenths & Hundredths**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Decimals: Tenths & Hundredths** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Decimals: Tenths & Hundredths**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

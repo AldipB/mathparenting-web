@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "901872a7-6f1c-45b5-ba95-100d3c012c0c",
+    "title": "Number & Place Value",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "125fdb0e-dbb9-49ca-addf-46459c1d8b0a",
+    "slug": "rounding-intro",
+    "title": "Rounding (Intro)",
+    "summary": "Rounding (Intro) — summary for parents in Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of rounding numbers to the nearest ten.\n- Practice rounding with everyday examples.\n- **Why this matters for parents:** Rounding helps children estimate and make quick calculations, a skill useful in daily life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rounding is a way to simplify numbers, making them easier to work with. We round numbers to the nearest ten, hundred, or other place value.\nThis skill is important because it helps children make quick estimates and understand the size of numbers. It’s a foundational skill for mental math and problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rounding involves looking at the number to the right of the place value you’re rounding to. If it's 5 or more, you round up. If it's 4 or less, you round down. This helps simplify numbers for easier calculations.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's round 47 to the nearest ten.\"\n2. **Ask:** \"What number is in the tens place?\" (Answer: 4)\n3. **Say:** \"Now look at the number in the ones place.\" (Use a handful of beans to represent ones.)\n4. **Ask:** \"Is it 5 or more?\" (Answer: Yes, it's 7)\n5. **Say:** \"Since 7 is more than 5, we round up. 47 becomes 50.\"\n6. **Use:** A clock to show 47 minutes and discuss rounding to 50 minutes.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To round 47 to the nearest ten, identify the tens place (4) and the ones place (7). Since 7 is greater than 5, round up to 50.\nExample: Round 32 to the nearest ten. The tens place is 3, and the ones place is 2. Since 2 is less than 5, round down to 30.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What number are we rounding?\"\n2. **Say:** \"Identify the tens place and the ones place.\"\n3. **Ask:** \"Is the ones place 5 or more?\"\n4. **Say:** \"If yes, round up. If no, round down.\"\n5. **Use:** Coins to represent numbers and practice rounding.\n6. **Encourage:** \"Try rounding different numbers during shopping or cooking.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing which digit to look at: Try using a visual aid like a number line.\n- Forgetting to round up when the digit is 5: Try practicing with more examples.\n- Rounding the wrong place value: Focus on the tens place for now.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Rounding is useful when estimating costs while shopping or measuring ingredients in cooking. It helps make quick decisions without exact calculations.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! Rounding helps make math quicker and easier. Keep practicing, and you'll see how useful it can be in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of rounding numbers to the nearest ten.\n- Practice rounding with everyday examples.\n- **Why this matters for parents:** Rounding helps children estimate and make quick calculations, a skill useful in daily life.",
+    "overview": "Rounding is a way to simplify numbers, making them easier to work with. We round numbers to the nearest ten, hundred, or other place value.\nThis skill is important because it helps children make quick estimates and understand the size of numbers. It’s a foundational skill for mental math and problem-solving.",
+    "core": "Rounding involves looking at the number to the right of the place value you’re rounding to. If it's 5 or more, you round up. If it's 4 or less, you round down. This helps simplify numbers for easier calculations.",
+    "demo": "1. **Say:** \"Let's round 47 to the nearest ten.\"\n2. **Ask:** \"What number is in the tens place?\" (Answer: 4)\n3. **Say:** \"Now look at the number in the ones place.\" (Use a handful of beans to represent ones.)\n4. **Ask:** \"Is it 5 or more?\" (Answer: Yes, it's 7)\n5. **Say:** \"Since 7 is more than 5, we round up. 47 becomes 50.\"\n6. **Use:** A clock to show 47 minutes and discuss rounding to 50 minutes.",
+    "math": "To round 47 to the nearest ten, identify the tens place (4) and the ones place (7). Since 7 is greater than 5, round up to 50.\nExample: Round 32 to the nearest ten. The tens place is 3, and the ones place is 2. Since 2 is less than 5, round down to 30.",
+    "guide": "1. **Ask:** \"What number are we rounding?\"\n2. **Say:** \"Identify the tens place and the ones place.\"\n3. **Ask:** \"Is the ones place 5 or more?\"\n4. **Say:** \"If yes, round up. If no, round down.\"\n5. **Use:** Coins to represent numbers and practice rounding.\n6. **Encourage:** \"Try rounding different numbers during shopping or cooking.\"",
+    "mistakes": "- Confusing which digit to look at: Try using a visual aid like a number line.\n- Forgetting to round up when the digit is 5: Try practicing with more examples.\n- Rounding the wrong place value: Focus on the tens place for now.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Rounding is useful when estimating costs while shopping or measuring ingredients in cooking. It helps make quick decisions without exact calculations.",
+    "close": "Great job! Rounding helps make math quicker and easier. Keep practicing, and you'll see how useful it can be in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Rounding (Intro)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Rounding (Intro)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Rounding (Intro)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

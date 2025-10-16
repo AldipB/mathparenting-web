@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "fb53f7cd-3d35-4716-82eb-ab003d69bd18",
+    "slug": "exponential-functions-intro",
+    "title": "Exponential Functions (Intro)",
+    "summary": "Exponential Functions (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basic concept of exponential functions.\n- Learn how to identify exponential growth and decay.\n- **Why this matters for parents:** Understanding exponential functions helps you support your child in recognizing patterns in nature and finance, such as population growth and interest rates.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Exponential functions are mathematical expressions where a constant base is raised to a variable exponent. They model situations where quantities grow or shrink at a constant percentage rate.\nThis concept is important because it helps us understand real-world phenomena, like how populations grow or how investments increase over time. Recognizing these patterns can help children make informed decisions in the future.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Exponential functions often appear in the form $f(x) = a \times b^x$, where $a$ is the initial amount and $b$ is the growth factor. If $b > 1$, the function represents growth; if $0 < b < 1$, it represents decay.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny.\n2. **Ask:** If we double the number of pennies every day, how many will we have on the second day?\n3. **Say:** On the second day, we have $1 \times 2 = 2$ pennies.\n4. **Ask:** How many on the third day?\n5. **Say:** We have $2 \times 2 = 4$ pennies. Notice the pattern: $1, 2, 4, 8, 16, \text{and so on}$.\n6. **Ask:** What do you notice about the pattern?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In an exponential function like $f(x) = 2^x$, the base is 2, and the exponent $x$ changes. For example, if $x = 3$, then $f(3) = 2^3 = 8$. This shows how quickly numbers can grow with exponential functions.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $f(x) = a \times b^x$\n  - $a$: initial amount\n  - $b$: growth factor\n  - $x$: exponent (time or number of periods)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What happens if we change the base from 2 to 3?\n2. **Say:** Let's calculate $3^1, 3^2, 3^3$ to see the growth.\n3. **Ask:** How does this compare to our penny example?\n4. **Say:** Notice how the base affects the speed of growth.\n5. **Ask:** Can you think of a real-life example where things grow exponentially?\n6. **Say:** Discuss how understanding this can help in planning for the future.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the base and exponent. **Try:** Remember, the base is the number being multiplied.\n- Forgetting to apply the exponent to the entire base. **Try:** Calculate the base raised to the power first.\n- Mixing up growth and decay. **Try:** Check if the base is greater or less than 1.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Exponential functions are used in calculating interest on savings accounts and understanding population growth. They help us predict how quickly things can change over time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding exponential functions opens up a world of patterns and predictions. Keep exploring, and you'll see these concepts everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basic concept of exponential functions.\n- Learn how to identify exponential growth and decay.\n- **Why this matters for parents:** Understanding exponential functions helps you support your child in recognizing patterns in nature and finance, such as population growth and interest rates.",
+    "overview": "Exponential functions are mathematical expressions where a constant base is raised to a variable exponent. They model situations where quantities grow or shrink at a constant percentage rate.\nThis concept is important because it helps us understand real-world phenomena, like how populations grow or how investments increase over time. Recognizing these patterns can help children make informed decisions in the future.",
+    "core": "Exponential functions often appear in the form $f(x) = a \times b^x$, where $a$ is the initial amount and $b$ is the growth factor. If $b > 1$, the function represents growth; if $0 < b < 1$, it represents decay.",
+    "demo": "1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny.\n2. **Ask:** If we double the number of pennies every day, how many will we have on the second day?\n3. **Say:** On the second day, we have $1 \times 2 = 2$ pennies.\n4. **Ask:** How many on the third day?\n5. **Say:** We have $2 \times 2 = 4$ pennies. Notice the pattern: $1, 2, 4, 8, 16, \text{and so on}$.\n6. **Ask:** What do you notice about the pattern?",
+    "math": "In an exponential function like $f(x) = 2^x$, the base is 2, and the exponent $x$ changes. For example, if $x = 3$, then $f(3) = 2^3 = 8$. This shows how quickly numbers can grow with exponential functions.",
+    "formulas": "- $f(x) = a \times b^x$\n  - $a$: initial amount\n  - $b$: growth factor\n  - $x$: exponent (time or number of periods)",
+    "guide": "1. **Ask:** What happens if we change the base from 2 to 3?\n2. **Say:** Let's calculate $3^1, 3^2, 3^3$ to see the growth.\n3. **Ask:** How does this compare to our penny example?\n4. **Say:** Notice how the base affects the speed of growth.\n5. **Ask:** Can you think of a real-life example where things grow exponentially?\n6. **Say:** Discuss how understanding this can help in planning for the future.",
+    "mistakes": "- Confusing the base and exponent. **Try:** Remember, the base is the number being multiplied.\n- Forgetting to apply the exponent to the entire base. **Try:** Calculate the base raised to the power first.\n- Mixing up growth and decay. **Try:** Check if the base is greater or less than 1.",
+    "connection": "Exponential functions are used in calculating interest on savings accounts and understanding population growth. They help us predict how quickly things can change over time.",
+    "close": "Understanding exponential functions opens up a world of patterns and predictions. Keep exploring, and you'll see these concepts everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate $2^4$.",
+      "hint_md": "Multiply 2 by itself four times.",
+      "answer_md": "$2^4 = 16$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If $f(x) = 3^x$, what is $f(2)$?",
+      "hint_md": "Substitute 2 for $x$ and calculate.",
+      "answer_md": "$f(2) = 3^2 = 9$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Identify if the function $f(x) = 0.5^x$ represents growth or decay.",
+      "hint_md": "Check if the base is greater or less than 1.",
+      "answer_md": "Decay, because the base 0.5 is less than 1."
+    }
+  ]
+}

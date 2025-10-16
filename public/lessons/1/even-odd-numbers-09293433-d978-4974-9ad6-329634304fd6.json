@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "09293433-d978-4974-9ad6-329634304fd6",
+    "slug": "even-odd-numbers-09293433-d978-4974-9ad6-329634304fd6",
+    "title": "Even & Odd Numbers",
+    "summary": "Even & Odd Numbers — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will be able to identify even and odd numbers up to 20.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we will explore even and odd numbers using everyday objects. Understanding these concepts helps children recognize patterns in numbers and lays the foundation for more complex math skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Even numbers are those that can be divided by 2 without a remainder (like 2, 4, 6). Odd numbers cannot be divided evenly by 2 (like 1, 3, 5).",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Use a set of household items, like socks or apples.\n\n1. Gather 10 socks.\n2. Ask your child to group them in pairs.\n3. Count the pairs together.\n4. If there’s one sock left without a pair, explain that 10 is even because all socks can be paired.\n5. Try with 11 socks. If one sock is left, say: 'Since we have one sock left, 11 is odd!'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Even numbers end in 0, 2, 4, 6, or 8. Odd numbers end in 1, 3, 5, 7, or 9.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather 10 small items (like coins or buttons).,2. Ask your child to group them into pairs.,3. Count how many pairs they made.,4. Discuss if there are any items left over.,5. Explain that if there’s no leftover, it’s even; if there is, it’s odd.,6. Encourage them to practice with different sets of items.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child says 7 is even, gently correct them by saying: 'Remember, 7 can't be paired evenly.',If they think 4 is odd, say: 'Let’s try pairing them again. How many pairs can we make?',If they struggle with counting, remind them to count slowly and check each pair.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Recognizing even and odd numbers can help when sharing snacks or toys evenly with friends.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring even and odd numbers together! Keep practicing, and your child will master these concepts in no time!",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will be able to identify even and odd numbers up to 20.",
+    "overview": "In this lesson, we will explore even and odd numbers using everyday objects. Understanding these concepts helps children recognize patterns in numbers and lays the foundation for more complex math skills.",
+    "core": "Even numbers are those that can be divided by 2 without a remainder (like 2, 4, 6). Odd numbers cannot be divided evenly by 2 (like 1, 3, 5).",
+    "demo": "Use a set of household items, like socks or apples.\n\n1. Gather 10 socks.\n2. Ask your child to group them in pairs.\n3. Count the pairs together.\n4. If there’s one sock left without a pair, explain that 10 is even because all socks can be paired.\n5. Try with 11 socks. If one sock is left, say: 'Since we have one sock left, 11 is odd!'",
+    "math": "Even numbers end in 0, 2, 4, 6, or 8. Odd numbers end in 1, 3, 5, 7, or 9.",
+    "guide": "1. Gather 10 small items (like coins or buttons).,2. Ask your child to group them into pairs.,3. Count how many pairs they made.,4. Discuss if there are any items left over.,5. Explain that if there’s no leftover, it’s even; if there is, it’s odd.,6. Encourage them to practice with different sets of items.",
+    "mistakes": "If your child says 7 is even, gently correct them by saying: 'Remember, 7 can't be paired evenly.',If they think 4 is odd, say: 'Let’s try pairing them again. How many pairs can we make?',If they struggle with counting, remind them to count slowly and check each pair.",
+    "connection": "Recognizing even and odd numbers can help when sharing snacks or toys evenly with friends.",
+    "close": "Great job exploring even and odd numbers together! Keep practicing, and your child will master these concepts in no time!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Is 8 even or odd?",
+      "hint_md": "Think about whether you can pair them without leftovers.",
+      "answer_md": "8 is even."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Is 15 even or odd?",
+      "hint_md": "Count the pairs and see if there's one left over.",
+      "answer_md": "15 is odd."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Is 20 even or odd?",
+      "hint_md": "Look at the last digit. Does it pair up?",
+      "answer_md": "20 is even."
+    }
+  ]
+}

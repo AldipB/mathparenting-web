@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a4b7c999-7bba-45d5-a22b-c0ff186b55eb",
+    "slug": "polynomials-add-subtract-multiply-binomials",
+    "title": "Polynomials (Add/Subtract/Multiply binomials)",
+    "summary": "Polynomials (Add/Subtract/Multiply binomials) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to add, subtract, and multiply binomials.\n- Recognize the structure of polynomials.\n- Apply these skills to solve real-world problems.\n**Why this matters for parents:** This lesson helps your child develop algebraic thinking, which is crucial for advanced math and everyday problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Polynomials are expressions made up of variables and coefficients, combined using addition, subtraction, and multiplication. A binomial is a specific type of polynomial with exactly two terms.\nUnderstanding how to work with binomials is important because it lays the foundation for more complex algebraic concepts. It also helps in solving practical problems, like calculating areas or predicting trends.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we’ll explore how to add, subtract, and multiply binomials. These operations are similar to working with numbers but involve variables. By practicing these skills, your child will gain confidence in handling algebraic expressions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use apples and oranges to understand binomials. Imagine you have 3 apples and 2 oranges.\n2. **Ask:** If you add 2 more apples and 1 orange, how many apples and oranges do you have now?\n3. **Say:** This is like adding binomials: $(3a + 2o) + (2a + 1o) = 5a + 3o$.\n4. **Say:** Now, let's subtract. If you give away 1 apple and 1 orange, what do you have?\n5. **Say:** Subtracting binomials: $(5a + 3o) - (1a + 1o) = 4a + 2o$.\n6. **Ask:** What if we multiply? Imagine each apple costs $2, and you have 3 apples. How much do you spend? This is like multiplying: $3a \\times 2 = 6a$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add or subtract binomials, combine like terms. For example, $(3x + 2) + (2x + 5)$ becomes $5x + 7$. To multiply binomials, use the distributive property (FOIL method): $(x + 2)(x + 3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $(a + b) + (c + d) = (a + c) + (b + d)$\n  - Combine like terms.\n- $(a + b)(c + d) = ac + ad + bc + bd$\n  - Use the distributive property.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What do you notice about the terms in each binomial?\n2. **Say:** Let's try adding these binomials together and see what happens.\n3. **Ask:** How can we group similar terms?\n4. **Say:** Now, let's try multiplying them using the FOIL method.\n5. **Ask:** What patterns do you see in the results?\n6. **Say:** Practice these steps with different numbers to see how they work.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to combine like terms.\n  - Try: Group terms with the same variable.\n- Mixing up addition and multiplication.\n  - Try: Use the correct operation for each step.\n- Incorrectly applying the distributive property.\n  - Try: Carefully multiply each term in the first binomial by each term in the second.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Polynomials are used in calculating areas, like finding the area of a garden. They also help in financial planning, such as calculating interest over time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring polynomials! With practice, these skills will become second nature and help in many areas of life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to add, subtract, and multiply binomials.\n- Recognize the structure of polynomials.\n- Apply these skills to solve real-world problems.\n**Why this matters for parents:** This lesson helps your child develop algebraic thinking, which is crucial for advanced math and everyday problem-solving.",
+    "overview": "Polynomials are expressions made up of variables and coefficients, combined using addition, subtraction, and multiplication. A binomial is a specific type of polynomial with exactly two terms.\nUnderstanding how to work with binomials is important because it lays the foundation for more complex algebraic concepts. It also helps in solving practical problems, like calculating areas or predicting trends.",
+    "core": "In this lesson, we’ll explore how to add, subtract, and multiply binomials. These operations are similar to working with numbers but involve variables. By practicing these skills, your child will gain confidence in handling algebraic expressions.",
+    "demo": "1. **Say:** Let's use apples and oranges to understand binomials. Imagine you have 3 apples and 2 oranges.\n2. **Ask:** If you add 2 more apples and 1 orange, how many apples and oranges do you have now?\n3. **Say:** This is like adding binomials: $(3a + 2o) + (2a + 1o) = 5a + 3o$.\n4. **Say:** Now, let's subtract. If you give away 1 apple and 1 orange, what do you have?\n5. **Say:** Subtracting binomials: $(5a + 3o) - (1a + 1o) = 4a + 2o$.\n6. **Ask:** What if we multiply? Imagine each apple costs $2, and you have 3 apples. How much do you spend? This is like multiplying: $3a \\times 2 = 6a$.",
+    "math": "To add or subtract binomials, combine like terms. For example, $(3x + 2) + (2x + 5)$ becomes $5x + 7$. To multiply binomials, use the distributive property (FOIL method): $(x + 2)(x + 3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6$.",
+    "formulas": "- $(a + b) + (c + d) = (a + c) + (b + d)$\n  - Combine like terms.\n- $(a + b)(c + d) = ac + ad + bc + bd$\n  - Use the distributive property.",
+    "guide": "1. **Ask:** What do you notice about the terms in each binomial?\n2. **Say:** Let's try adding these binomials together and see what happens.\n3. **Ask:** How can we group similar terms?\n4. **Say:** Now, let's try multiplying them using the FOIL method.\n5. **Ask:** What patterns do you see in the results?\n6. **Say:** Practice these steps with different numbers to see how they work.",
+    "mistakes": "- Forgetting to combine like terms.\n  - Try: Group terms with the same variable.\n- Mixing up addition and multiplication.\n  - Try: Use the correct operation for each step.\n- Incorrectly applying the distributive property.\n  - Try: Carefully multiply each term in the first binomial by each term in the second.",
+    "connection": "Polynomials are used in calculating areas, like finding the area of a garden. They also help in financial planning, such as calculating interest over time.",
+    "close": "Great job exploring polynomials! With practice, these skills will become second nature and help in many areas of life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Add the binomials: $(4x + 3) + (2x + 5)$.",
+      "hint_md": "Combine the $x$ terms and the constant terms separately.",
+      "answer_md": "$6x + 8$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Subtract the binomials: $(5y + 7) - (3y + 2)$.",
+      "hint_md": "Subtract the $y$ terms and the constant terms separately.",
+      "answer_md": "$2y + 5$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Multiply the binomials: $(x + 4)(x + 2)$.",
+      "hint_md": "Use the FOIL method: First, Outer, Inner, Last.",
+      "answer_md": "$x^2 + 6x + 8$"
+    }
+  ]
+}

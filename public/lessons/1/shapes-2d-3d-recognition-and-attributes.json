@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "0229a3b6-03a7-42c2-b000-edc7ae3dabf0",
+    "title": "Shapes, Graphs & Money",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "b6ade074-cb2f-446d-9be8-aad6dd57a2f1",
+    "slug": "shapes-2d-3d-recognition-and-attributes",
+    "title": "Shapes: 2D & 3D Recognition and Attributes",
+    "summary": "Shapes: 2D & 3D Recognition and Attributes — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Recognize and name basic 2D shapes: circle, square, rectangle, triangle.\n- Identify 3D solids: sphere, cube, cylinder, cone.\n- Understand attributes like sides and corners.\n- **Why this matters for parents:** Building shape recognition skills helps children understand the world and prepares them for geometry.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson helps children identify and describe 2D shapes and 3D solids using everyday objects. They will learn to recognize shapes by their attributes, like the number of sides and corners.\nUnderstanding shapes is foundational for math and helps children make sense of their environment. Recognizing shapes improves spatial awareness and problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Shapes are all around us, from the circular face of a clock to the rectangular door. In this lesson, we'll explore these shapes using objects you have at home. We'll also look at 3D shapes, like the sphere of a ball or the cylinder of a can.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Shape Hunt:** Walk around your home with your child. **Say:** \"Let's find some shapes! Can you find something shaped like a circle?\"\n2. **Build Shapes:** Use sticks or straws to make a square and a rectangle. **Ask:** \"How are these different?\"\n3. **Square vs. Diamond:** Rotate a square 45 degrees. **Say:** \"This is still a square, even when it looks like a diamond.\"\n4. **3D Sorting:** Gather a ball, can, box, and cone. **Ask:** \"Which ones can roll? Which ones can stack?\"\n5. **Guess-the-Shape Bag:** Place a small object in a bag. **Say:** \"Feel this shape. Can you guess what it is?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "2D shapes have sides and corners. For example, a square has 4 equal sides and 4 corners. A rectangle also has 4 sides but only opposite sides are equal.\n3D solids have faces, edges, and vertices. A cube has 6 square faces, 12 edges, and 8 vertices.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explore Together:** Use a flashlight to create shadow shapes on the wall. **Ask:** \"What shape do you see?\"\n2. **Compare Shapes:** Place a square and rectangle side by side. **Say:** \"Notice how the sides are different.\"\n3. **Stack and Roll:** Test which 3D objects roll or stack. **Ask:** \"Why do you think the ball rolls but the box doesn't?\"\n4. **Shape Drawing:** Draw shapes on paper. **Say:** \"Let's draw a triangle. How many sides does it have?\"\n5. **Real-Life Shapes:** Find shapes in books or magazines. **Ask:** \"Can you find a circle in this picture?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares and rectangles. **Try:** Compare their sides.\n- Calling a rotated square a diamond. **Try:** Rotate it back and forth.\n- Mixing up 2D and 3D terms. **Try:** Use 'flat' for 2D and 'solid' for 3D.\n- Thinking all shapes can roll. **Try:** Test with different objects.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Shapes are everywhere! The wheels on a car are circles, and a cereal box is a rectangle. Recognizing these helps children understand their environment better.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring shapes with your child is a fun way to connect and learn together. Keep discovering the shapes around you!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Recognize and name basic 2D shapes: circle, square, rectangle, triangle.\n- Identify 3D solids: sphere, cube, cylinder, cone.\n- Understand attributes like sides and corners.\n- **Why this matters for parents:** Building shape recognition skills helps children understand the world and prepares them for geometry.",
+    "overview": "This lesson helps children identify and describe 2D shapes and 3D solids using everyday objects. They will learn to recognize shapes by their attributes, like the number of sides and corners.\nUnderstanding shapes is foundational for math and helps children make sense of their environment. Recognizing shapes improves spatial awareness and problem-solving skills.",
+    "core": "Shapes are all around us, from the circular face of a clock to the rectangular door. In this lesson, we'll explore these shapes using objects you have at home. We'll also look at 3D shapes, like the sphere of a ball or the cylinder of a can.",
+    "demo": "1. **Shape Hunt:** Walk around your home with your child. **Say:** \"Let's find some shapes! Can you find something shaped like a circle?\"\n2. **Build Shapes:** Use sticks or straws to make a square and a rectangle. **Ask:** \"How are these different?\"\n3. **Square vs. Diamond:** Rotate a square 45 degrees. **Say:** \"This is still a square, even when it looks like a diamond.\"\n4. **3D Sorting:** Gather a ball, can, box, and cone. **Ask:** \"Which ones can roll? Which ones can stack?\"\n5. **Guess-the-Shape Bag:** Place a small object in a bag. **Say:** \"Feel this shape. Can you guess what it is?\"",
+    "math": "2D shapes have sides and corners. For example, a square has 4 equal sides and 4 corners. A rectangle also has 4 sides but only opposite sides are equal.\n3D solids have faces, edges, and vertices. A cube has 6 square faces, 12 edges, and 8 vertices.",
+    "guide": "1. **Explore Together:** Use a flashlight to create shadow shapes on the wall. **Ask:** \"What shape do you see?\"\n2. **Compare Shapes:** Place a square and rectangle side by side. **Say:** \"Notice how the sides are different.\"\n3. **Stack and Roll:** Test which 3D objects roll or stack. **Ask:** \"Why do you think the ball rolls but the box doesn't?\"\n4. **Shape Drawing:** Draw shapes on paper. **Say:** \"Let's draw a triangle. How many sides does it have?\"\n5. **Real-Life Shapes:** Find shapes in books or magazines. **Ask:** \"Can you find a circle in this picture?\"",
+    "mistakes": "- Confusing squares and rectangles. **Try:** Compare their sides.\n- Calling a rotated square a diamond. **Try:** Rotate it back and forth.\n- Mixing up 2D and 3D terms. **Try:** Use 'flat' for 2D and 'solid' for 3D.\n- Thinking all shapes can roll. **Try:** Test with different objects.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Shapes are everywhere! The wheels on a car are circles, and a cereal box is a rectangle. Recognizing these helps children understand their environment better.",
+    "close": "Exploring shapes with your child is a fun way to connect and learn together. Keep discovering the shapes around you!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Shapes: 2D & 3D Recognition and Attributes**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Shapes: 2D & 3D Recognition and Attributes** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Shapes: 2D & 3D Recognition and Attributes**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

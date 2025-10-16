@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "66368499-f9a6-4c93-b55a-571de8d3857e",
+    "slug": "trigonometry-unit-circle-identities-graphing",
+    "title": "Trigonometry: Unit Circle, Identities, Graphing",
+    "summary": "Trigonometry: Unit Circle, Identities, Graphing — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the unit circle and basic trigonometric identities.\n- Learn to graph sine and cosine functions.\n- **Why this matters for parents:** Trigonometry is foundational for calculus and helps in understanding waves, cycles, and circular motion.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the unit circle, a key concept in trigonometry that helps us understand angles and their relationships with sine and cosine. We'll also explore basic trigonometric identities and how to graph these functions.\nUnderstanding these concepts is crucial for solving real-world problems involving periodic phenomena, like sound waves or seasonal patterns. It also sets the stage for more advanced math topics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The unit circle is a circle with a radius of 1, centered at the origin of a coordinate plane. It helps us define the sine and cosine of an angle as the y and x coordinates of a point on the circle. Trigonometric identities are equations that relate these functions to one another, making it easier to solve complex problems.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore the unit circle using a round plate. Imagine the center of the plate is the origin of a graph.\n2. **Ask:** What happens if we rotate a square around the center? Use straws to form a square and rotate it.\n3. **Say:** Notice how the corners of the square touch the circle. This shows how angles relate to the circle.\n4. **Ask:** Is a diamond a different shape from a square? Explain that a diamond is just a rotated square.\n5. **Say:** Let's compare a square and rectangle. Use books to show that a square has equal sides, while a rectangle does not.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In the unit circle, each angle $\theta$ corresponds to a point $(\text{cos}(\theta), \text{sin}(\theta))$. For example, at $\theta = 0^\text{o}$, the point is $(1, 0)$. At $\theta = 90^\text{o}$, the point is $(0, 1)$. These points help us graph the sine and cosine functions, which are periodic and repeat every $360^\text{o}$ or $2\text{π}$ radians.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\text{sin}^2(\theta) + \text{cos}^2(\theta) = 1$\n  - This identity shows the relationship between sine and cosine on the unit circle.\n- $\text{cos}(\theta) = \text{sin}(90^\text{o} - \theta)$\n  - This identity shows how sine and cosine are complementary.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's draw the unit circle on paper. Mark angles like $0^\text{o}$, $90^\text{o}$, $180^\text{o}$, and $270^\text{o}$.\n2. **Ask:** What are the coordinates of these points? Use the unit circle to find them.\n3. **Say:** Now, let's graph $\text{sin}(\theta)$ and $\text{cos}(\theta)$ using these points.\n4. **Ask:** How do these graphs repeat? Notice the wave-like pattern.\n5. **Say:** Use a flashlight to cast shadows of a straw square on the wall. Observe how the shadow changes as you rotate the square.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing sine and cosine coordinates: Try remembering sine is the y-coordinate and cosine is the x-coordinate.\n- Forgetting the unit circle radius: Try remembering the radius is always 1.\n- Mixing up angle measures: Try using a protractor to visualize angles clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Trigonometry is used in engineering to design roller coasters and in music to understand sound waves. It helps us model and predict repeating patterns in nature and technology.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Trigonometry helps us see the world in cycles and patterns. Keep exploring these concepts to unlock more of math's wonders!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the unit circle and basic trigonometric identities.\n- Learn to graph sine and cosine functions.\n- **Why this matters for parents:** Trigonometry is foundational for calculus and helps in understanding waves, cycles, and circular motion.",
+    "overview": "This lesson introduces the unit circle, a key concept in trigonometry that helps us understand angles and their relationships with sine and cosine. We'll also explore basic trigonometric identities and how to graph these functions.\nUnderstanding these concepts is crucial for solving real-world problems involving periodic phenomena, like sound waves or seasonal patterns. It also sets the stage for more advanced math topics.",
+    "core": "The unit circle is a circle with a radius of 1, centered at the origin of a coordinate plane. It helps us define the sine and cosine of an angle as the y and x coordinates of a point on the circle. Trigonometric identities are equations that relate these functions to one another, making it easier to solve complex problems.",
+    "demo": "1. **Say:** Let's explore the unit circle using a round plate. Imagine the center of the plate is the origin of a graph.\n2. **Ask:** What happens if we rotate a square around the center? Use straws to form a square and rotate it.\n3. **Say:** Notice how the corners of the square touch the circle. This shows how angles relate to the circle.\n4. **Ask:** Is a diamond a different shape from a square? Explain that a diamond is just a rotated square.\n5. **Say:** Let's compare a square and rectangle. Use books to show that a square has equal sides, while a rectangle does not.",
+    "math": "In the unit circle, each angle $\theta$ corresponds to a point $(\text{cos}(\theta), \text{sin}(\theta))$. For example, at $\theta = 0^\text{o}$, the point is $(1, 0)$. At $\theta = 90^\text{o}$, the point is $(0, 1)$. These points help us graph the sine and cosine functions, which are periodic and repeat every $360^\text{o}$ or $2\text{π}$ radians.",
+    "formulas": "- $\text{sin}^2(\theta) + \text{cos}^2(\theta) = 1$\n  - This identity shows the relationship between sine and cosine on the unit circle.\n- $\text{cos}(\theta) = \text{sin}(90^\text{o} - \theta)$\n  - This identity shows how sine and cosine are complementary.",
+    "guide": "1. **Say:** Let's draw the unit circle on paper. Mark angles like $0^\text{o}$, $90^\text{o}$, $180^\text{o}$, and $270^\text{o}$.\n2. **Ask:** What are the coordinates of these points? Use the unit circle to find them.\n3. **Say:** Now, let's graph $\text{sin}(\theta)$ and $\text{cos}(\theta)$ using these points.\n4. **Ask:** How do these graphs repeat? Notice the wave-like pattern.\n5. **Say:** Use a flashlight to cast shadows of a straw square on the wall. Observe how the shadow changes as you rotate the square.",
+    "mistakes": "- Confusing sine and cosine coordinates: Try remembering sine is the y-coordinate and cosine is the x-coordinate.\n- Forgetting the unit circle radius: Try remembering the radius is always 1.\n- Mixing up angle measures: Try using a protractor to visualize angles clearly.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Trigonometry is used in engineering to design roller coasters and in music to understand sound waves. It helps us model and predict repeating patterns in nature and technology.",
+    "close": "Trigonometry helps us see the world in cycles and patterns. Keep exploring these concepts to unlock more of math's wonders!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Trigonometry: Unit Circle, Identities, Graphing**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Trigonometry: Unit Circle, Identities, Graphing** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Trigonometry: Unit Circle, Identities, Graphing**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

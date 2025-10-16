@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a4eab55c-0b1e-4312-8324-d68aebfff2af",
+    "slug": "exponent-rules-scientific-notation",
+    "title": "Exponent Rules; Scientific Notation",
+    "summary": "Exponent Rules; Scientific Notation — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand and apply the rules of exponents.\n- Convert numbers to and from scientific notation.\n- **Why this matters for parents:** Helps your child handle large and small numbers efficiently, a skill useful in science and technology.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on the rules of exponents and how to use scientific notation. Exponents are a way to express repeated multiplication, and scientific notation helps us write very large or small numbers concisely.\nUnderstanding these concepts is crucial as they form the foundation for more advanced math and science topics. They also help in everyday situations like understanding distances in space or the size of microscopic organisms.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Exponents tell us how many times to multiply a number by itself. For example, $3^2$ means $3 \times 3$. Scientific notation expresses numbers as a product of a number between 1 and 10 and a power of 10, like $4.5 \times 10^3$ for 4500.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather 10 small objects (like beans) and a piece of paper.\n- **Say:** Let's explore $2^3$. Arrange 2 groups of 2 beans, 3 times.\n- Count the beans together: 2, 4, 8. **Ask:** How many beans do we have?\n- Explain: $2^3 = 2 \times 2 \times 2 = 8$.\n- Now, write 4500 on paper. **Say:** Let's express this in scientific notation.\n- Move the decimal to make 4.5, and count the moves: $4.5 \times 10^3$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "An exponent indicates repeated multiplication. For example, $5^3 = 5 \times 5 \times 5 = 125$. In scientific notation, 3000 is written as $3 \times 10^3$. This makes calculations with large numbers easier.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$a^m \times a^n = a^{m+n}$$\n* $a$ is the base number.\n* $m$ and $n$ are exponents.\n$$a^m / a^n = a^{m-n}$$\n* Division of like bases subtracts exponents.\n$$(a^m)^n = a^{m \times n}$$\n* Power of a power multiplies exponents.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Start with simple examples like $2^2$ and $3^3$. **Ask:** What do you notice?\n- Use household items to visualize multiplication.\n- Write a large number like 5000. **Say:** Let's convert this to scientific notation.\n- Practice converting back from scientific notation, like $6.7 \\times 10^2$ to 670.\n- Discuss why scientific notation is useful in science and technology.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing bases: Try using different objects for different bases.\n- Forgetting to add exponents when multiplying: Try writing out the multiplication.\n- Misplacing the decimal in scientific notation: Try counting the moves carefully.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Scientific notation is used in fields like astronomy to express vast distances, and in biology to describe microscopic sizes. It's a common tool in scientific research.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Mastering exponents and scientific notation empowers your child to tackle complex math and science problems with confidence. Keep exploring together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand and apply the rules of exponents.\n- Convert numbers to and from scientific notation.\n- **Why this matters for parents:** Helps your child handle large and small numbers efficiently, a skill useful in science and technology.",
+    "overview": "This lesson focuses on the rules of exponents and how to use scientific notation. Exponents are a way to express repeated multiplication, and scientific notation helps us write very large or small numbers concisely.\nUnderstanding these concepts is crucial as they form the foundation for more advanced math and science topics. They also help in everyday situations like understanding distances in space or the size of microscopic organisms.",
+    "core": "Exponents tell us how many times to multiply a number by itself. For example, $3^2$ means $3 \times 3$. Scientific notation expresses numbers as a product of a number between 1 and 10 and a power of 10, like $4.5 \times 10^3$ for 4500.",
+    "demo": "- Gather 10 small objects (like beans) and a piece of paper.\n- **Say:** Let's explore $2^3$. Arrange 2 groups of 2 beans, 3 times.\n- Count the beans together: 2, 4, 8. **Ask:** How many beans do we have?\n- Explain: $2^3 = 2 \times 2 \times 2 = 8$.\n- Now, write 4500 on paper. **Say:** Let's express this in scientific notation.\n- Move the decimal to make 4.5, and count the moves: $4.5 \times 10^3$.",
+    "math": "An exponent indicates repeated multiplication. For example, $5^3 = 5 \times 5 \times 5 = 125$. In scientific notation, 3000 is written as $3 \times 10^3$. This makes calculations with large numbers easier.",
+    "formulas": "$$a^m \times a^n = a^{m+n}$$\n* $a$ is the base number.\n* $m$ and $n$ are exponents.\n$$a^m / a^n = a^{m-n}$$\n* Division of like bases subtracts exponents.\n$$(a^m)^n = a^{m \times n}$$\n* Power of a power multiplies exponents.",
+    "guide": "- Start with simple examples like $2^2$ and $3^3$. **Ask:** What do you notice?\n- Use household items to visualize multiplication.\n- Write a large number like 5000. **Say:** Let's convert this to scientific notation.\n- Practice converting back from scientific notation, like $6.7 \\times 10^2$ to 670.\n- Discuss why scientific notation is useful in science and technology.",
+    "mistakes": "- Confusing bases: Try using different objects for different bases.\n- Forgetting to add exponents when multiplying: Try writing out the multiplication.\n- Misplacing the decimal in scientific notation: Try counting the moves carefully.",
+    "connection": "Scientific notation is used in fields like astronomy to express vast distances, and in biology to describe microscopic sizes. It's a common tool in scientific research.",
+    "close": "Mastering exponents and scientific notation empowers your child to tackle complex math and science problems with confidence. Keep exploring together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Simplify $4^2 \\times 4^3$.",
+      "hint_md": "Use the rule $a^m \\times a^n = a^{m+n}$.",
+      "answer_md": "$4^{2+3} = 4^5 = 1024$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Convert 0.00056 to scientific notation.",
+      "hint_md": "Move the decimal right until one non-zero digit is left: $5.6 \\times 10^{-4}$.",
+      "answer_md": "$5.6 \\times 10^{-4}$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is $(3^2)^3$?",
+      "hint_md": "Use the rule $(a^m)^n = a^{m \\times n}$.",
+      "answer_md": "$3^{2 \\times 3} = 3^6 = 729$."
+    }
+  ]
+}

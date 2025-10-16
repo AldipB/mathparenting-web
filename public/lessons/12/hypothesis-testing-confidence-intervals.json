@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "b4eef387-8bab-4778-b1e0-cf8a52ad1756",
+    "title": "Statistics & Data",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "4e4db545-8f0d-4b09-86b1-142e4753b325",
+    "slug": "hypothesis-testing-confidence-intervals",
+    "title": "Hypothesis Testing & Confidence Intervals",
+    "summary": "Hypothesis Testing & Confidence Intervals — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of hypothesis testing and confidence intervals.\n- Learn how to apply these concepts using simple examples.\n- Gain confidence in explaining these ideas to your child.\n- **Why this matters for parents:** These concepts help your child make informed decisions based on data, a crucial skill in many fields.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Hypothesis testing and confidence intervals are statistical tools used to make decisions based on data. Hypothesis testing helps determine if a certain assumption about a data set is true, while confidence intervals provide a range of values that likely contain the true value of a parameter.\nThese concepts are important because they allow us to make predictions and decisions with a degree of certainty. Understanding them can help your child in fields like science, economics, and even everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, hypothesis testing is like making an educated guess and then checking if the data supports it. Confidence intervals give us a range where we expect the true answer to lie, with a certain level of confidence (like 95%).\nImagine you want to know if a new recipe is better than the old one. Hypothesis testing would help you decide if the new recipe really is an improvement based on taste tests, while confidence intervals would tell you how sure you are about the average rating.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's test if a coin is fair (equal chance of heads or tails).\"\n2. Flip a coin 30 times and record the results.\n3. **Ask:** \"How many heads did we get? Was it close to 15?\"\n4. Use a measuring cup to represent the confidence interval. Fill it with 95% water to show the range.\n5. **Say:** \"If we did this many times, most results would fall within this range.\"\n6. **Ask:** \"Does our result fit inside this range? What does that tell us?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In hypothesis testing, we start with a null hypothesis (e.g., the coin is fair) and an alternative hypothesis (e.g., the coin is not fair). We calculate a test statistic and compare it to a critical value to decide if we reject the null hypothesis.\nFor confidence intervals, if we have a sample mean $\\bar{x}$ and standard deviation $s$, the 95% confidence interval is: $$\\bar{x} \\pm 1.96 \\times \\frac{s}{\\sqrt{n}}$$ where $n$ is the sample size.\nExample: If $\\bar{x} = 20$, $s = 4$, and $n = 25$, the confidence interval is $$20 \\pm 1.96 \\times \\frac{4}{5} = 20 \\pm 1.568$$, or $(18.432, 21.568)$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Test Statistic = (Sample Mean - Hypothesized Mean) / (Sample Standard Deviation / sqrt(n))\n- Sample Mean: average of the sample data\n  - Hypothesized Mean: mean value assumed in the null hypothesis\n  - Sample Standard Deviation: measure of data spread\n  - n: sample size\nConfidence Interval = Sample Mean ± (Critical Value × (Sample Standard Deviation / sqrt(n)))\n- Critical Value: number from statistical tables (e.g., 1.96 for 95% confidence)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Ask:** \"What is our hypothesis?\" Help your child define a clear null and alternative hypothesis.\n- 2. **Say:** \"Let's collect some data.\" Use simple experiments like coin flips or dice rolls.\n- 3. **Ask:** \"What do the results tell us?\" Calculate the test statistic and compare it to the critical value.\n- 4. **Say:** \"Let's find our confidence interval.\" Use the formula to calculate it.\n- 5. **Ask:** \"Does our result fit within the confidence interval?\" Discuss what this means.\n- 6. **Say:** \"Great job! Now we know how to test our ideas with data.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the null and alternative hypotheses. **Try:** Clearly define each before starting.\n- Forgetting to use the correct critical value. **Try:** Double-check with a statistical table.\n- Mixing up sample size and number of trials. **Try:** Keep a clear count of data points.\n- Misinterpreting the confidence interval. **Try:** Remember it shows a range, not a guarantee.\n- Ignoring the context of the data. **Try:** Always relate findings back to the real-world scenario.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Hypothesis testing and confidence intervals are used in medical trials to determine if a new treatment is effective. They also help businesses decide if a new product is likely to succeed based on sample feedback.\nThese tools are like a flashlight in the dark, guiding decisions with data-backed insights.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You're doing great! Helping your child understand these concepts equips them with tools to make informed decisions in life. Keep exploring and learning together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of hypothesis testing and confidence intervals.\n- Learn how to apply these concepts using simple examples.\n- Gain confidence in explaining these ideas to your child.\n- **Why this matters for parents:** These concepts help your child make informed decisions based on data, a crucial skill in many fields.",
+    "overview": "Hypothesis testing and confidence intervals are statistical tools used to make decisions based on data. Hypothesis testing helps determine if a certain assumption about a data set is true, while confidence intervals provide a range of values that likely contain the true value of a parameter.\nThese concepts are important because they allow us to make predictions and decisions with a degree of certainty. Understanding them can help your child in fields like science, economics, and even everyday decision-making.",
+    "core": "In simple terms, hypothesis testing is like making an educated guess and then checking if the data supports it. Confidence intervals give us a range where we expect the true answer to lie, with a certain level of confidence (like 95%).\nImagine you want to know if a new recipe is better than the old one. Hypothesis testing would help you decide if the new recipe really is an improvement based on taste tests, while confidence intervals would tell you how sure you are about the average rating.",
+    "demo": "1. **Say:** \"Let's test if a coin is fair (equal chance of heads or tails).\"\n2. Flip a coin 30 times and record the results.\n3. **Ask:** \"How many heads did we get? Was it close to 15?\"\n4. Use a measuring cup to represent the confidence interval. Fill it with 95% water to show the range.\n5. **Say:** \"If we did this many times, most results would fall within this range.\"\n6. **Ask:** \"Does our result fit inside this range? What does that tell us?\"",
+    "math": "In hypothesis testing, we start with a null hypothesis (e.g., the coin is fair) and an alternative hypothesis (e.g., the coin is not fair). We calculate a test statistic and compare it to a critical value to decide if we reject the null hypothesis.\nFor confidence intervals, if we have a sample mean $\\bar{x}$ and standard deviation $s$, the 95% confidence interval is: $$\\bar{x} \\pm 1.96 \\times \\frac{s}{\\sqrt{n}}$$ where $n$ is the sample size.\nExample: If $\\bar{x} = 20$, $s = 4$, and $n = 25$, the confidence interval is $$20 \\pm 1.96 \\times \\frac{4}{5} = 20 \\pm 1.568$$, or $(18.432, 21.568)$.",
+    "formulas": "Test Statistic = (Sample Mean - Hypothesized Mean) / (Sample Standard Deviation / sqrt(n))\n- Sample Mean: average of the sample data\n  - Hypothesized Mean: mean value assumed in the null hypothesis\n  - Sample Standard Deviation: measure of data spread\n  - n: sample size\nConfidence Interval = Sample Mean ± (Critical Value × (Sample Standard Deviation / sqrt(n)))\n- Critical Value: number from statistical tables (e.g., 1.96 for 95% confidence)",
+    "guide": "- 1. **Ask:** \"What is our hypothesis?\" Help your child define a clear null and alternative hypothesis.\n- 2. **Say:** \"Let's collect some data.\" Use simple experiments like coin flips or dice rolls.\n- 3. **Ask:** \"What do the results tell us?\" Calculate the test statistic and compare it to the critical value.\n- 4. **Say:** \"Let's find our confidence interval.\" Use the formula to calculate it.\n- 5. **Ask:** \"Does our result fit within the confidence interval?\" Discuss what this means.\n- 6. **Say:** \"Great job! Now we know how to test our ideas with data.\"",
+    "mistakes": "- Confusing the null and alternative hypotheses. **Try:** Clearly define each before starting.\n- Forgetting to use the correct critical value. **Try:** Double-check with a statistical table.\n- Mixing up sample size and number of trials. **Try:** Keep a clear count of data points.\n- Misinterpreting the confidence interval. **Try:** Remember it shows a range, not a guarantee.\n- Ignoring the context of the data. **Try:** Always relate findings back to the real-world scenario.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Hypothesis testing and confidence intervals are used in medical trials to determine if a new treatment is effective. They also help businesses decide if a new product is likely to succeed based on sample feedback.\nThese tools are like a flashlight in the dark, guiding decisions with data-backed insights.",
+    "close": "You're doing great! Helping your child understand these concepts equips them with tools to make informed decisions in life. Keep exploring and learning together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Hypothesis Testing & Confidence Intervals**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Hypothesis Testing & Confidence Intervals** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Hypothesis Testing & Confidence Intervals**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

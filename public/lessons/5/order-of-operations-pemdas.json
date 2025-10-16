@@ -1,18 +1,31 @@
 {
-  "title": "Order of Operations (PEMDAS)",
-  "grade": "Grade 5",
-  "overview": "Placeholder outline for \"Order of Operations (PEMDAS)\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Order of Operations (PEMDAS).",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "af2d21a3-3964-44cc-88aa-f15c549f5fc4",
+    "slug": "order-of-operations-pemdas",
+    "title": "Order of Operations (PEMDAS)",
+    "summary": "Order of Operations (PEMDAS) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+  },
+  "practice": []
 }

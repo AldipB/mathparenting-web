@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b13f639a-1739-4416-a582-46f43838d432",
+    "slug": "vectors-parametric-equations",
+    "title": "Vectors & Parametric Equations",
+    "summary": "Vectors & Parametric Equations — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand vectors and parametric equations.\n- Learn how to represent motion and direction mathematically.\n- **Why this matters for parents:** This helps your child visualize and solve real-world problems involving direction and movement.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Vectors are mathematical objects that have both a magnitude (size) and direction. They are used to represent things like velocity or force. Parametric equations allow us to express a set of related quantities as functions of an independent variable, often time.\nUnderstanding vectors and parametric equations is crucial because they provide a way to model and solve problems involving motion, such as predicting the path of a moving object. This knowledge is foundational for fields like physics, engineering, and computer graphics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Vectors can be thought of as arrows pointing in a specific direction with a certain length. Parametric equations use parameters to express coordinates, allowing us to describe paths or curves in space. Together, they help us model real-world scenarios like the flight path of an airplane.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's imagine we're tracking a toy car moving across the floor.\"\n2. Use a toy car and a ruler. **Ask:** \"How far did it move, and in which direction?\"\n3. **Say:** \"The car's movement can be represented as a vector.\"\n4. Use string to show the direction and length of the vector.\n5. **Ask:** \"If the car moves in a straight line, how can we describe its path over time?\"\n6. **Say:** \"We can use parametric equations to describe this path.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A vector can be written as $\\mathbf{v} = \\langle 3, 4 \\rangle$, where 3 is the horizontal component and 4 is the vertical component. The magnitude is $\\sqrt{3^2 + 4^2} = 5$.\nParametric equations for a line might be $x(t) = 2t + 1$ and $y(t) = 3t + 2$, where $t$ is the parameter representing time.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\mathbf{v} = \\langle a, b \\rangle$\n  - $a$: horizontal component\n  - $b$: vertical component\n- Magnitude: $||\\mathbf{v}|| = \\sqrt{a^2 + b^2}$\n  - $||\\mathbf{v}||$: magnitude of vector\n- Parametric equations: $x(t) = at + b$, $y(t) = ct + d$\n  - $t$: parameter (often time)\n  - $a, b, c, d$: constants",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What direction is the vector pointing?\"\n2. **Say:** \"Let's calculate the magnitude of this vector.\"\n3. **Ask:** \"How can we use parametric equations to describe this motion?\"\n4. **Say:** \"Let's substitute a value for $t$ to find a point on the path.\"\n5. **Ask:** \"What happens to the path if we change the parameter values?\"\n6. **Say:** \"Notice how the vector and equations work together to model movement.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing magnitude with direction. **Try:** Focus on the length for magnitude.\n- Mixing up components of the vector. **Try:** Label each component clearly.\n- Forgetting to substitute $t$ in parametric equations. **Try:** Write out each step when substituting.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Vectors and parametric equations are used in navigation systems to plot lesson and predict arrival times. They're also crucial in video game design for simulating realistic movement.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring vectors and parametric equations opens up a world of understanding about movement and direction. You're helping your child build a strong foundation for future learning!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand vectors and parametric equations.\n- Learn how to represent motion and direction mathematically.\n- **Why this matters for parents:** This helps your child visualize and solve real-world problems involving direction and movement.",
+    "overview": "Vectors are mathematical objects that have both a magnitude (size) and direction. They are used to represent things like velocity or force. Parametric equations allow us to express a set of related quantities as functions of an independent variable, often time.\nUnderstanding vectors and parametric equations is crucial because they provide a way to model and solve problems involving motion, such as predicting the path of a moving object. This knowledge is foundational for fields like physics, engineering, and computer graphics.",
+    "core": "Vectors can be thought of as arrows pointing in a specific direction with a certain length. Parametric equations use parameters to express coordinates, allowing us to describe paths or curves in space. Together, they help us model real-world scenarios like the flight path of an airplane.",
+    "demo": "1. **Say:** \"Let's imagine we're tracking a toy car moving across the floor.\"\n2. Use a toy car and a ruler. **Ask:** \"How far did it move, and in which direction?\"\n3. **Say:** \"The car's movement can be represented as a vector.\"\n4. Use string to show the direction and length of the vector.\n5. **Ask:** \"If the car moves in a straight line, how can we describe its path over time?\"\n6. **Say:** \"We can use parametric equations to describe this path.\"",
+    "math": "A vector can be written as $\\mathbf{v} = \\langle 3, 4 \\rangle$, where 3 is the horizontal component and 4 is the vertical component. The magnitude is $\\sqrt{3^2 + 4^2} = 5$.\nParametric equations for a line might be $x(t) = 2t + 1$ and $y(t) = 3t + 2$, where $t$ is the parameter representing time.",
+    "formulas": "- $\\mathbf{v} = \\langle a, b \\rangle$\n  - $a$: horizontal component\n  - $b$: vertical component\n- Magnitude: $||\\mathbf{v}|| = \\sqrt{a^2 + b^2}$\n  - $||\\mathbf{v}||$: magnitude of vector\n- Parametric equations: $x(t) = at + b$, $y(t) = ct + d$\n  - $t$: parameter (often time)\n  - $a, b, c, d$: constants",
+    "guide": "1. **Ask:** \"What direction is the vector pointing?\"\n2. **Say:** \"Let's calculate the magnitude of this vector.\"\n3. **Ask:** \"How can we use parametric equations to describe this motion?\"\n4. **Say:** \"Let's substitute a value for $t$ to find a point on the path.\"\n5. **Ask:** \"What happens to the path if we change the parameter values?\"\n6. **Say:** \"Notice how the vector and equations work together to model movement.\"",
+    "mistakes": "- Confusing magnitude with direction. **Try:** Focus on the length for magnitude.\n- Mixing up components of the vector. **Try:** Label each component clearly.\n- Forgetting to substitute $t$ in parametric equations. **Try:** Write out each step when substituting.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Vectors and parametric equations are used in navigation systems to plot lesson and predict arrival times. They're also crucial in video game design for simulating realistic movement.",
+    "close": "Exploring vectors and parametric equations opens up a world of understanding about movement and direction. You're helping your child build a strong foundation for future learning!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Vectors & Parametric Equations**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Vectors & Parametric Equations** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Vectors & Parametric Equations**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

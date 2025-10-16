@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "164200b1-0348-4155-ae1a-7fbd6b44eefa",
+    "title": "Financial Math / Data Science (Electives)",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "759709f4-881b-4ab2-a5cb-1dcdc7782520",
+    "slug": "budgeting-financial-literacy",
+    "title": "Budgeting & Financial Literacy",
+    "summary": "Budgeting & Financial Literacy — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic budgeting principles.\n- Learn to apply math skills to financial literacy.\n- Explore real-life applications of calculus in budgeting.\n**Why this matters for parents:** Teaching your child about budgeting helps them develop essential life skills for managing money wisely.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces budgeting and financial literacy, focusing on how math, particularly pre-calculus and calculus, can help manage finances. We'll explore how to create a budget using simple math concepts.\nUnderstanding budgeting is crucial as it helps in planning for future expenses, saving money, and making informed financial decisions. This lesson connects math skills to everyday life, making math more relevant and practical for your child.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Budgeting involves planning how to spend your money. It requires understanding income, expenses, and savings. By using math, we can create a budget that helps manage finances effectively. This lesson will show how calculus concepts like rates of change can apply to financial planning.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather household objects:** Use a notebook, pen, and a calculator.\n2. **Say:** \"Let's imagine you have a monthly income of $2,000.\"\n3. **Ask:** \"What are some regular expenses we might have?\" (e.g., rent, groceries, utilities)\n4. **Say:** \"Let's allocate $1,000 for rent, $300 for groceries, and $200 for utilities.\"\n5. **Calculate:** \"What's left for savings and other expenses?\"\n6. **Discuss:** \"How can we adjust if expenses change?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To create a budget, we calculate the difference between income and expenses. For example, if your income is $2,000 and expenses are $1,500, your savings would be $2,000 - $1,500 = $500.\nIn calculus, we can use the concept of rates of change to predict how changes in income or expenses affect savings. For instance, if expenses increase by $100, savings decrease by the same amount.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\text{Savings} = \\text{Income} - \\text{Expenses}$\n  - \\(\\text{Income}\\): Total money received\n  - \\(\\text{Expenses}\\): Total money spent\n  - \\(\\text{Savings}\\): Money left after expenses",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Discuss income:** \"How much do we earn each month?\"\n2. **List expenses:** \"What are our regular monthly expenses?\"\n3. **Calculate savings:** Use the formula to find out how much is left.\n4. **Adjust as needed:** \"What if our expenses increase? How can we adjust?\"\n5. **Plan for the future:** \"How can we save for unexpected expenses?\"\n6. **Reflect:** \"What did we learn about managing money?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to include all expenses.\n  Try: Double-check the list of expenses.\n- Not adjusting for changes in income or expenses.\n  Try: Regularly review and update the budget.\n- Overestimating savings.\n  Try: Be realistic about expenses and savings.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Budgeting is used in everyday life, from managing household finances to planning vacations. Understanding these concepts helps in making informed financial decisions, reducing stress, and achieving financial goals.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Budgeting is a powerful tool that helps manage money wisely. By applying math skills, your child can make informed financial decisions and plan for a secure future.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic budgeting principles.\n- Learn to apply math skills to financial literacy.\n- Explore real-life applications of calculus in budgeting.\n**Why this matters for parents:** Teaching your child about budgeting helps them develop essential life skills for managing money wisely.",
+    "overview": "This lesson introduces budgeting and financial literacy, focusing on how math, particularly pre-calculus and calculus, can help manage finances. We'll explore how to create a budget using simple math concepts.\nUnderstanding budgeting is crucial as it helps in planning for future expenses, saving money, and making informed financial decisions. This lesson connects math skills to everyday life, making math more relevant and practical for your child.",
+    "core": "Budgeting involves planning how to spend your money. It requires understanding income, expenses, and savings. By using math, we can create a budget that helps manage finances effectively. This lesson will show how calculus concepts like rates of change can apply to financial planning.",
+    "demo": "1. **Gather household objects:** Use a notebook, pen, and a calculator.\n2. **Say:** \"Let's imagine you have a monthly income of $2,000.\"\n3. **Ask:** \"What are some regular expenses we might have?\" (e.g., rent, groceries, utilities)\n4. **Say:** \"Let's allocate $1,000 for rent, $300 for groceries, and $200 for utilities.\"\n5. **Calculate:** \"What's left for savings and other expenses?\"\n6. **Discuss:** \"How can we adjust if expenses change?\"",
+    "math": "To create a budget, we calculate the difference between income and expenses. For example, if your income is $2,000 and expenses are $1,500, your savings would be $2,000 - $1,500 = $500.\nIn calculus, we can use the concept of rates of change to predict how changes in income or expenses affect savings. For instance, if expenses increase by $100, savings decrease by the same amount.",
+    "formulas": "- $\\text{Savings} = \\text{Income} - \\text{Expenses}$\n  - \\(\\text{Income}\\): Total money received\n  - \\(\\text{Expenses}\\): Total money spent\n  - \\(\\text{Savings}\\): Money left after expenses",
+    "guide": "1. **Discuss income:** \"How much do we earn each month?\"\n2. **List expenses:** \"What are our regular monthly expenses?\"\n3. **Calculate savings:** Use the formula to find out how much is left.\n4. **Adjust as needed:** \"What if our expenses increase? How can we adjust?\"\n5. **Plan for the future:** \"How can we save for unexpected expenses?\"\n6. **Reflect:** \"What did we learn about managing money?\"",
+    "mistakes": "- Forgetting to include all expenses.\n  Try: Double-check the list of expenses.\n- Not adjusting for changes in income or expenses.\n  Try: Regularly review and update the budget.\n- Overestimating savings.\n  Try: Be realistic about expenses and savings.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Budgeting is used in everyday life, from managing household finances to planning vacations. Understanding these concepts helps in making informed financial decisions, reducing stress, and achieving financial goals.",
+    "close": "Budgeting is a powerful tool that helps manage money wisely. By applying math skills, your child can make informed financial decisions and plan for a secure future."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Budgeting & Financial Literacy**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Budgeting & Financial Literacy** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Budgeting & Financial Literacy**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

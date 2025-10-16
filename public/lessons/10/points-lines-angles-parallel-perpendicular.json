@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "babcf0c4-4cbb-4583-8532-488d9df378fb",
+    "slug": "points-lines-angles-parallel-perpendicular",
+    "title": "Points, Lines, Angles; Parallel & Perpendicular",
+    "summary": "Points, Lines, Angles; Parallel & Perpendicular — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic geometric concepts: points, lines, angles, parallel, and perpendicular lines.\n- Help your child visualize and identify these concepts in everyday life.\n- **Why this matters for parents:** Geometry helps children develop spatial reasoning, which is crucial for problem-solving and critical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the fundamental concepts of geometry: points, lines, angles, and the relationships between parallel and perpendicular lines. These are the building blocks of more complex geometric ideas.\nUnderstanding these concepts is essential because they form the basis for many real-world applications, such as architecture, engineering, and art. Helping your child grasp these ideas can enhance their spatial awareness and analytical skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In geometry, a point is a precise location in space, often represented by a dot. A line is a straight path extending infinitely in both directions, while a line segment has two endpoints. Angles are formed when two lines meet at a point. Lines can be parallel (never meeting) or perpendicular (meeting at a right angle).",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find a point in our house.\"\n   - Use the corner of a table as an example of a point.\n2. **Ask:** \"Can you find something straight like a line?\"\n   - Use a ruler or a straight edge.\n3. **Say:** \"Now, let's make an angle.\"\n   - Place two pencils together at one end to form an angle.\n4. **Ask:** \"What do you notice about the pencils when they form a 'T'?\"\n   - Explain that they are perpendicular.\n5. **Say:** \"Look at the floor tiles. Are any lines parallel?\"\n   - Identify parallel lines in the tile pattern.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A point is denoted as $A$. A line through points $A$ and $B$ is written as $\\overleftrightarrow{AB}$. An angle is formed by two rays, such as $\\angle ABC$. Parallel lines are marked as $\\overleftrightarrow{AB} \\parallel \\overleftrightarrow{CD}$, and perpendicular lines are $\\overleftrightarrow{EF} \\perp \\overleftrightarrow{GH}$. For example, if $\\angle ABC = 90^\\circ$, then $\\overleftrightarrow{AB}$ is perpendicular to $\\overleftrightarrow{BC}$.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's draw a point on paper.\"\n   - Use a pencil to make a dot.\n2. **Ask:** \"Can you draw a line through the point?\"\n   - Draw a straight line through the dot.\n3. **Say:** \"Let's create an angle with two lines.\"\n   - Draw two lines meeting at a point.\n4. **Ask:** \"Are these lines parallel or perpendicular?\"\n   - Discuss their relationship.\n5. **Say:** \"Let's find examples of these in our home.\"\n   - Look for parallel and perpendicular lines in furniture.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing parallel and perpendicular lines.\n  - Try: Use a 'T' shape for perpendicular and 'railroad tracks' for parallel.\n- Thinking angles are only right angles.\n  - Try: Show different angles using clock hands.\n- Forgetting that lines extend infinitely.\n  - Try: Use a ruler to show how lines can keep going.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Parallel and perpendicular lines are everywhere! Think about train tracks (parallel) or street intersections (perpendicular). Recognizing these helps in navigation and design.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Geometry is all around us! Keep exploring and you'll see these concepts everywhere. Your support helps your child build a strong foundation in math.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic geometric concepts: points, lines, angles, parallel, and perpendicular lines.\n- Help your child visualize and identify these concepts in everyday life.\n- **Why this matters for parents:** Geometry helps children develop spatial reasoning, which is crucial for problem-solving and critical thinking.",
+    "overview": "This lesson introduces the fundamental concepts of geometry: points, lines, angles, and the relationships between parallel and perpendicular lines. These are the building blocks of more complex geometric ideas.\nUnderstanding these concepts is essential because they form the basis for many real-world applications, such as architecture, engineering, and art. Helping your child grasp these ideas can enhance their spatial awareness and analytical skills.",
+    "core": "In geometry, a point is a precise location in space, often represented by a dot. A line is a straight path extending infinitely in both directions, while a line segment has two endpoints. Angles are formed when two lines meet at a point. Lines can be parallel (never meeting) or perpendicular (meeting at a right angle).",
+    "demo": "1. **Say:** \"Let's find a point in our house.\"\n   - Use the corner of a table as an example of a point.\n2. **Ask:** \"Can you find something straight like a line?\"\n   - Use a ruler or a straight edge.\n3. **Say:** \"Now, let's make an angle.\"\n   - Place two pencils together at one end to form an angle.\n4. **Ask:** \"What do you notice about the pencils when they form a 'T'?\"\n   - Explain that they are perpendicular.\n5. **Say:** \"Look at the floor tiles. Are any lines parallel?\"\n   - Identify parallel lines in the tile pattern.",
+    "math": "A point is denoted as $A$. A line through points $A$ and $B$ is written as $\\overleftrightarrow{AB}$. An angle is formed by two rays, such as $\\angle ABC$. Parallel lines are marked as $\\overleftrightarrow{AB} \\parallel \\overleftrightarrow{CD}$, and perpendicular lines are $\\overleftrightarrow{EF} \\perp \\overleftrightarrow{GH}$. For example, if $\\angle ABC = 90^\\circ$, then $\\overleftrightarrow{AB}$ is perpendicular to $\\overleftrightarrow{BC}$.",
+    "guide": "1. **Say:** \"Let's draw a point on paper.\"\n   - Use a pencil to make a dot.\n2. **Ask:** \"Can you draw a line through the point?\"\n   - Draw a straight line through the dot.\n3. **Say:** \"Let's create an angle with two lines.\"\n   - Draw two lines meeting at a point.\n4. **Ask:** \"Are these lines parallel or perpendicular?\"\n   - Discuss their relationship.\n5. **Say:** \"Let's find examples of these in our home.\"\n   - Look for parallel and perpendicular lines in furniture.",
+    "mistakes": "- Confusing parallel and perpendicular lines.\n  - Try: Use a 'T' shape for perpendicular and 'railroad tracks' for parallel.\n- Thinking angles are only right angles.\n  - Try: Show different angles using clock hands.\n- Forgetting that lines extend infinitely.\n  - Try: Use a ruler to show how lines can keep going.",
+    "connection": "Parallel and perpendicular lines are everywhere! Think about train tracks (parallel) or street intersections (perpendicular). Recognizing these helps in navigation and design.",
+    "close": "Geometry is all around us! Keep exploring and you'll see these concepts everywhere. Your support helps your child build a strong foundation in math."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Identify if the lines $\\overleftrightarrow{AB}$ and $\\overleftrightarrow{CD}$ are parallel or perpendicular if $\\angle ABC = 90^\\circ$.",
+      "hint_md": "What does a $90^\\circ$ angle indicate about the lines?",
+      "answer_md": "The lines are perpendicular."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Draw two parallel lines and a transversal line intersecting them. How many angles are formed?",
+      "hint_md": "Think about how the lines cross each other.",
+      "answer_md": "Eight angles are formed."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If $\\overleftrightarrow{EF} \\parallel \\overleftrightarrow{GH}$, what can you say about the distance between them?",
+      "hint_md": "Parallel lines never meet.",
+      "answer_md": "The distance between them is constant."
+    }
+  ]
+}

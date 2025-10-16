@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "c2329dc3-a6f4-4657-98c2-08da4eaedb41",
+    "slug": "number-bonds-to-10",
+    "title": "Number Bonds to 10",
+    "summary": "Number Bonds to 10 — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand number bonds to 10\n- Help children visualize and create number pairs that add up to 10\n\n**Why this matters for parents:** Building a strong foundation in number bonds helps children develop mental math skills and confidence with numbers.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Number bonds to 10 are pairs of numbers that add up to 10. They are a fundamental concept in early math, helping children understand addition and subtraction.\n\nMastering number bonds to 10 is crucial because it lays the groundwork for more complex arithmetic. It helps children recognize patterns and improves their ability to solve math problems quickly.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Number bonds are like best friends that always stick together to make 10. For example, 3 and 7 are a pair because 3 + 7 = 10. Knowing these pairs helps children see how numbers work together.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** 10 small objects (like buttons or blocks).\n2. **Say:** \"Let's find two numbers that make 10.\"\n3. **Ask:** \"If we have 3 objects here, how many more do we need to make 10?\"\n4. **Show:** Move 3 objects to one side and count the remaining objects.\n5. **Say:** \"3 and 7 make 10!\"\n6. **Repeat:** Try different combinations like 4 and 6, or 5 and 5.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Number bonds are pairs of numbers that add up to a specific total, in this case, 10. For example, $$3 + 7 = 10$$ and $$6 + 4 = 10$$. These pairs help children understand addition and subtraction by visualizing how numbers combine.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a + b = 10$\n  - $a$ and $b$ are numbers that add up to 10.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with 10 objects:** Ask your child to count them.\n2. **Create a pair:** Separate some objects and ask how many more are needed to make 10.\n3. **Discuss:** Talk about different pairs like 2 and 8, 5 and 5.\n4. **Visualize:** Use fingers to show pairs, like 4 fingers on one hand and 6 on the other.\n5. **Practice:** Encourage your child to find new pairs on their own.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child struggles to find a pair, try using fewer objects first. **Try:** Start with 5 objects and build up.\n- If they miscount, gently correct them by counting together. **Try:** \"Let's count these again together.\"\n- If they forget a pair, remind them of a similar one. **Try:** \"Remember how 3 and 7 make 10? What about 4 and 6?\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Number bonds are like sharing a pizza. If you have 10 slices and give 4 to a friend, you know you have 6 left. This helps with everyday math like sharing and dividing.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring number bonds! Keep practicing, and soon these pairs will be second nature. You're building a strong math foundation!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand number bonds to 10\n- Help children visualize and create number pairs that add up to 10\n\n**Why this matters for parents:** Building a strong foundation in number bonds helps children develop mental math skills and confidence with numbers.",
+    "overview": "Number bonds to 10 are pairs of numbers that add up to 10. They are a fundamental concept in early math, helping children understand addition and subtraction.\n\nMastering number bonds to 10 is crucial because it lays the groundwork for more complex arithmetic. It helps children recognize patterns and improves their ability to solve math problems quickly.",
+    "core": "Number bonds are like best friends that always stick together to make 10. For example, 3 and 7 are a pair because 3 + 7 = 10. Knowing these pairs helps children see how numbers work together.",
+    "demo": "1. **Gather:** 10 small objects (like buttons or blocks).\n2. **Say:** \"Let's find two numbers that make 10.\"\n3. **Ask:** \"If we have 3 objects here, how many more do we need to make 10?\"\n4. **Show:** Move 3 objects to one side and count the remaining objects.\n5. **Say:** \"3 and 7 make 10!\"\n6. **Repeat:** Try different combinations like 4 and 6, or 5 and 5.",
+    "math": "Number bonds are pairs of numbers that add up to a specific total, in this case, 10. For example, $$3 + 7 = 10$$ and $$6 + 4 = 10$$. These pairs help children understand addition and subtraction by visualizing how numbers combine.",
+    "formulas": "- $a + b = 10$\n  - $a$ and $b$ are numbers that add up to 10.",
+    "guide": "1. **Start with 10 objects:** Ask your child to count them.\n2. **Create a pair:** Separate some objects and ask how many more are needed to make 10.\n3. **Discuss:** Talk about different pairs like 2 and 8, 5 and 5.\n4. **Visualize:** Use fingers to show pairs, like 4 fingers on one hand and 6 on the other.\n5. **Practice:** Encourage your child to find new pairs on their own.",
+    "mistakes": "- If your child struggles to find a pair, try using fewer objects first. **Try:** Start with 5 objects and build up.\n- If they miscount, gently correct them by counting together. **Try:** \"Let's count these again together.\"\n- If they forget a pair, remind them of a similar one. **Try:** \"Remember how 3 and 7 make 10? What about 4 and 6?\"",
+    "connection": "Number bonds are like sharing a pizza. If you have 10 slices and give 4 to a friend, you know you have 6 left. This helps with everyday math like sharing and dividing.",
+    "close": "Great job exploring number bonds! Keep practicing, and soon these pairs will be second nature. You're building a strong math foundation!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What number do you add to 5 to make 10?",
+      "hint_md": "Think of a pair that makes 10.",
+      "answer_md": "5"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have 2 apples and want 10, how many more do you need?",
+      "hint_md": "2 plus what equals 10?",
+      "answer_md": "8"
+    },
+    {
+      "order_index": 3,
+      "question_md": "You have 7 candies. How many more to make 10?",
+      "hint_md": "7 plus what equals 10?",
+      "answer_md": "3"
+    }
+  ]
+}

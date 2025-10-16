@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "de889fe4-4cd0-425f-9762-3cdccf1c82fa",
+    "slug": "integrals-area-under-a-curve",
+    "title": "Integrals & Area Under a Curve",
+    "summary": "Integrals & Area Under a Curve — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of integrals as the area under a curve.\n- Learn how to calculate simple integrals.\n- Recognize the real-life applications of integrals.\n**Why this matters for parents:** Integrals are foundational in calculus, helping us understand areas, volumes, and more in everyday contexts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Integrals are a fundamental concept in calculus, representing the area under a curve on a graph. They help us calculate things like distance traveled over time or the total accumulation of a quantity.\nUnderstanding integrals is crucial because they allow us to solve real-world problems involving rates of change and accumulation, such as calculating the total water used over time from a varying flow rate.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Think of an integral as a way to add up tiny slices of area under a curve. Imagine slicing a pie into very thin pieces and adding them up to find the total area. This is what integrals do mathematically.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's imagine we have a graph showing the speed of a car over time.\n2. **Use:** A piece of paper and a pencil to draw a simple curve.\n3. **Say:** This curve represents how the speed changes. The area under this curve tells us the total distance traveled.\n4. **Ask:** How could we find the area under this curve?\n5. **Use:** A ruler to draw rectangles under the curve to approximate the area.\n6. **Say:** By adding up the areas of these rectangles, we can estimate the total area under the curve.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The integral of a function $f(x)$ from $a$ to $b$ is written as:\n$$ \\int_{a}^{b} f(x) \\, dx $$\nThis represents the area under the curve $f(x)$ from $x = a$ to $x = b$.\n**Example:**\nCalculate the integral of $f(x) = 2x$ from $x = 0$ to $x = 3$.\n$$ \\int_{0}^{3} 2x \\, dx = \\left[ x^2 \\right]_{0}^{3} = 3^2 - 0^2 = 9 $$\nThis means the area under the curve from 0 to 3 is 9 square units.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $$ \\int_{a}^{b} f(x) \\, dx $$\n  - $\\int$: Integral symbol\n  - $a$, $b$: Limits of integration\n  - $f(x)$: Function being integrated\n  - $dx$: Indicates integration with respect to $x$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What does the curve represent in our real-life scenario?\n2. **Say:** Let's draw a simple curve to visualize the problem.\n3. **Use:** Household items like a ruler to help draw and measure.\n4. **Say:** We can approximate the area using rectangles.\n5. **Ask:** How can we make our approximation more accurate?\n6. **Say:** By using more rectangles, we get closer to the true area.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to apply limits of integration.\n  - **Try:** Always evaluate the function at both limits and subtract.\n- Confusing the function $f(x)$ with its integral.\n  - **Try:** Remember, integration finds the area under $f(x)$.\n- Not using enough rectangles for approximation.\n  - **Try:** Increase the number of rectangles for better accuracy.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Integrals are used in physics to calculate things like work done by a force or the total charge passing through a circuit over time. They help us understand how quantities accumulate in real life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Integrals unlock a deeper understanding of the world by showing us how to measure and accumulate quantities. Keep exploring, and you'll see their beauty everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of integrals as the area under a curve.\n- Learn how to calculate simple integrals.\n- Recognize the real-life applications of integrals.\n**Why this matters for parents:** Integrals are foundational in calculus, helping us understand areas, volumes, and more in everyday contexts.",
+    "overview": "Integrals are a fundamental concept in calculus, representing the area under a curve on a graph. They help us calculate things like distance traveled over time or the total accumulation of a quantity.\nUnderstanding integrals is crucial because they allow us to solve real-world problems involving rates of change and accumulation, such as calculating the total water used over time from a varying flow rate.",
+    "core": "Think of an integral as a way to add up tiny slices of area under a curve. Imagine slicing a pie into very thin pieces and adding them up to find the total area. This is what integrals do mathematically.",
+    "demo": "1. **Say:** Let's imagine we have a graph showing the speed of a car over time.\n2. **Use:** A piece of paper and a pencil to draw a simple curve.\n3. **Say:** This curve represents how the speed changes. The area under this curve tells us the total distance traveled.\n4. **Ask:** How could we find the area under this curve?\n5. **Use:** A ruler to draw rectangles under the curve to approximate the area.\n6. **Say:** By adding up the areas of these rectangles, we can estimate the total area under the curve.",
+    "math": "The integral of a function $f(x)$ from $a$ to $b$ is written as:\n$$ \\int_{a}^{b} f(x) \\, dx $$\nThis represents the area under the curve $f(x)$ from $x = a$ to $x = b$.\n**Example:**\nCalculate the integral of $f(x) = 2x$ from $x = 0$ to $x = 3$.\n$$ \\int_{0}^{3} 2x \\, dx = \\left[ x^2 \\right]_{0}^{3} = 3^2 - 0^2 = 9 $$\nThis means the area under the curve from 0 to 3 is 9 square units.",
+    "formulas": "- $$ \\int_{a}^{b} f(x) \\, dx $$\n  - $\\int$: Integral symbol\n  - $a$, $b$: Limits of integration\n  - $f(x)$: Function being integrated\n  - $dx$: Indicates integration with respect to $x$",
+    "guide": "1. **Ask:** What does the curve represent in our real-life scenario?\n2. **Say:** Let's draw a simple curve to visualize the problem.\n3. **Use:** Household items like a ruler to help draw and measure.\n4. **Say:** We can approximate the area using rectangles.\n5. **Ask:** How can we make our approximation more accurate?\n6. **Say:** By using more rectangles, we get closer to the true area.",
+    "mistakes": "- Forgetting to apply limits of integration.\n  - **Try:** Always evaluate the function at both limits and subtract.\n- Confusing the function $f(x)$ with its integral.\n  - **Try:** Remember, integration finds the area under $f(x)$.\n- Not using enough rectangles for approximation.\n  - **Try:** Increase the number of rectangles for better accuracy.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Integrals are used in physics to calculate things like work done by a force or the total charge passing through a circuit over time. They help us understand how quantities accumulate in real life.",
+    "close": "Integrals unlock a deeper understanding of the world by showing us how to measure and accumulate quantities. Keep exploring, and you'll see their beauty everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Integrals & Area Under a Curve**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Integrals & Area Under a Curve** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Integrals & Area Under a Curve**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

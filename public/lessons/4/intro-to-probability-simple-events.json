@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "ca0950ad-0684-4ebf-8f0c-d1c66e32aa34",
+    "slug": "intro-to-probability-simple-events",
+    "title": "Intro to Probability (Simple Events)",
+    "summary": "Intro to Probability (Simple Events) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 15
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of probability as a measure of likelihood.\n- Calculate the probability of simple events.\n- Use household objects to demonstrate probability.\n- **Why this matters for parents:** Understanding probability helps children make informed predictions and decisions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Probability is the study of how likely something is to happen. It helps us understand and predict outcomes in everyday situations.\nThis matters because probability is everywhere—from weather forecasts to games. Teaching your child about probability helps them develop critical thinking and decision-making skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Probability is a way to measure how likely an event is to occur. We express it as a fraction, where the numerator is the number of favorable outcomes and the denominator is the total number of possible outcomes.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a coin and a six-sided die.\n2. **Say:** \"Let's flip this coin. What are the possible outcomes?\"\n3. **Ask:** \"What is the probability of getting heads?\"\n4. Explain that there are 2 possible outcomes (heads or tails), so the probability of heads is $\\frac{1}{2}$.\n5. Roll the die. **Ask:** \"What is the probability of rolling a 3?\"\n6. Explain that there are 6 possible outcomes, so the probability of rolling a 3 is $\\frac{1}{6}$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Probability is calculated as: $$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\nFor example, the probability of flipping a coin and getting heads is $\\frac{1}{2}$ because there is 1 favorable outcome (heads) out of 2 possible outcomes (heads or tails).",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "P(\\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}\n- P(\\text{event}): Probability of the event happening\n- Number of favorable outcomes: Outcomes that satisfy the event\n- Total number of possible outcomes: All possible outcomes",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Use a deck of cards. **Ask:** \"What is the probability of drawing a heart?\"\n2. Explain there are 13 hearts in a deck of 52 cards, so the probability is $\\frac{13}{52}$ or $\\frac{1}{4}$.\n3. Use colored marbles in a bag. **Say:** \"If there are 3 red and 2 blue marbles, what is the probability of picking a red marble?\"\n4. Explain that the probability is $\\frac{3}{5}$.\n5. Repeat with different objects to reinforce the concept.\n6. Encourage your child to explain their reasoning.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the number of favorable outcomes with total outcomes. Try: Clarify the difference using simple examples.\n- Forgetting to simplify fractions. Try: Remind them to reduce fractions to simplest form.\n- Assuming all events are equally likely. Try: Discuss scenarios where outcomes have different probabilities.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Probability is used in weather forecasting to predict the chance of rain. It's also used in games to determine the likelihood of winning.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Probability helps us make sense of the world. Keep exploring and asking questions with your child to build their confidence and curiosity!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of probability as a measure of likelihood.\n- Calculate the probability of simple events.\n- Use household objects to demonstrate probability.\n- **Why this matters for parents:** Understanding probability helps children make informed predictions and decisions.",
+    "overview": "Probability is the study of how likely something is to happen. It helps us understand and predict outcomes in everyday situations.\nThis matters because probability is everywhere—from weather forecasts to games. Teaching your child about probability helps them develop critical thinking and decision-making skills.",
+    "core": "Probability is a way to measure how likely an event is to occur. We express it as a fraction, where the numerator is the number of favorable outcomes and the denominator is the total number of possible outcomes.",
+    "demo": "1. Gather a coin and a six-sided die.\n2. **Say:** \"Let's flip this coin. What are the possible outcomes?\"\n3. **Ask:** \"What is the probability of getting heads?\"\n4. Explain that there are 2 possible outcomes (heads or tails), so the probability of heads is $\\frac{1}{2}$.\n5. Roll the die. **Ask:** \"What is the probability of rolling a 3?\"\n6. Explain that there are 6 possible outcomes, so the probability of rolling a 3 is $\\frac{1}{6}$.",
+    "math": "Probability is calculated as: $$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\nFor example, the probability of flipping a coin and getting heads is $\\frac{1}{2}$ because there is 1 favorable outcome (heads) out of 2 possible outcomes (heads or tails).",
+    "formulas": "P(\\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}\n- P(\\text{event}): Probability of the event happening\n- Number of favorable outcomes: Outcomes that satisfy the event\n- Total number of possible outcomes: All possible outcomes",
+    "guide": "1. Use a deck of cards. **Ask:** \"What is the probability of drawing a heart?\"\n2. Explain there are 13 hearts in a deck of 52 cards, so the probability is $\\frac{13}{52}$ or $\\frac{1}{4}$.\n3. Use colored marbles in a bag. **Say:** \"If there are 3 red and 2 blue marbles, what is the probability of picking a red marble?\"\n4. Explain that the probability is $\\frac{3}{5}$.\n5. Repeat with different objects to reinforce the concept.\n6. Encourage your child to explain their reasoning.",
+    "mistakes": "- Confusing the number of favorable outcomes with total outcomes. Try: Clarify the difference using simple examples.\n- Forgetting to simplify fractions. Try: Remind them to reduce fractions to simplest form.\n- Assuming all events are equally likely. Try: Discuss scenarios where outcomes have different probabilities.",
+    "connection": "Probability is used in weather forecasting to predict the chance of rain. It's also used in games to determine the likelihood of winning.",
+    "close": "Probability helps us make sense of the world. Keep exploring and asking questions with your child to build their confidence and curiosity!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the probability of rolling a 4 on a six-sided die?",
+      "hint_md": "How many sides does the die have?",
+      "answer_md": "$\\frac{1}{6}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have 4 red, 3 blue, and 3 green marbles, what is the probability of picking a blue marble?",
+      "hint_md": "How many total marbles are there?",
+      "answer_md": "$\\frac{3}{10}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the probability of drawing an ace from a standard deck of 52 cards?",
+      "hint_md": "How many aces are in a deck?",
+      "answer_md": "$\\frac{1}{13}$"
+    }
+  ]
+}

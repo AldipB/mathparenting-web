@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "c890ffa9-7b1e-4615-b254-97fa6212117f",
+    "title": "Data, Patterns & Problems",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "da05fb02-73ec-4fa2-bb01-303169e4fc51",
+    "slug": "data-bar-line-graphs",
+    "title": "Data: Bar & Line Graphs",
+    "summary": "Data: Bar & Line Graphs — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to read and create bar and line graphs.\n- Learn to interpret data from graphs.\n- Identify real-life uses of graphs.\n- **Why this matters for parents:** Graphs help children visualize data, making it easier to understand and analyze information.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Bar and line graphs are tools that help us organize and understand data visually. A bar graph uses bars to show quantities, while a line graph connects data points with lines to show changes over time.\nUnderstanding graphs is important because they are used in many real-life situations, like tracking weather changes or comparing sales. They help children develop critical thinking and analytical skills by interpreting data in a visual format.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Graphs are like pictures that tell a story about numbers. Bar graphs use bars to compare different categories, while line graphs show how something changes over time. By learning to read and create these graphs, children can better understand and communicate information.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather objects:** Use colored pencils or markers and a piece of paper.\n2. **Say:** \"Let's create a bar graph using our favorite fruits.\"\n3. **Ask:** \"How many apples, bananas, and oranges do we have?\"\n4. **Draw bars:** Draw a bar for each fruit, with the height showing the number of each fruit.\n5. **Say:** \"Now, let's make a line graph to show how many fruits we eat each day.\"\n6. **Plot points:** Mark a point for each day, connecting them with lines to show changes over time.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a bar graph, each bar represents a category, and the height shows the quantity. For example, if you have 3 apples, 2 bananas, and 5 oranges, draw bars with heights of 3, 2, and 5.\nIn a line graph, plot points for each data value and connect them with lines. If you eat 2 fruits on Monday, 3 on Tuesday, and 4 on Wednesday, plot points at (Monday, 2), (Tuesday, 3), and (Wednesday, 4) and connect them.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with a question:** \"What data do we want to show?\"\n2. **Choose a graph type:** \"Should we use a bar or line graph?\"\n3. **Gather data:** \"Let's count or measure what we need.\"\n4. **Draw the graph:** \"Use a ruler to make straight lines for neatness.\"\n5. **Label everything:** \"Write labels for the axes and title the graph.\"\n6. **Discuss:** \"What does this graph tell us about our data?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing bar and line graphs: Try explaining that bars compare categories, while lines show changes over time.\n- Forgetting to label axes: Try reminding them to add labels for clarity.\n- Miscounting data points: Try double-checking the data before plotting.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Graphs are everywhere! Weather forecasts use line graphs to show temperature changes. Bar graphs can compare things like favorite ice cream flavors in a class survey.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Graphs turn numbers into stories. By learning to read and create them, your child gains a powerful tool for understanding the world!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to read and create bar and line graphs.\n- Learn to interpret data from graphs.\n- Identify real-life uses of graphs.\n- **Why this matters for parents:** Graphs help children visualize data, making it easier to understand and analyze information.",
+    "overview": "Bar and line graphs are tools that help us organize and understand data visually. A bar graph uses bars to show quantities, while a line graph connects data points with lines to show changes over time.\nUnderstanding graphs is important because they are used in many real-life situations, like tracking weather changes or comparing sales. They help children develop critical thinking and analytical skills by interpreting data in a visual format.",
+    "core": "Graphs are like pictures that tell a story about numbers. Bar graphs use bars to compare different categories, while line graphs show how something changes over time. By learning to read and create these graphs, children can better understand and communicate information.",
+    "demo": "1. **Gather objects:** Use colored pencils or markers and a piece of paper.\n2. **Say:** \"Let's create a bar graph using our favorite fruits.\"\n3. **Ask:** \"How many apples, bananas, and oranges do we have?\"\n4. **Draw bars:** Draw a bar for each fruit, with the height showing the number of each fruit.\n5. **Say:** \"Now, let's make a line graph to show how many fruits we eat each day.\"\n6. **Plot points:** Mark a point for each day, connecting them with lines to show changes over time.",
+    "math": "In a bar graph, each bar represents a category, and the height shows the quantity. For example, if you have 3 apples, 2 bananas, and 5 oranges, draw bars with heights of 3, 2, and 5.\nIn a line graph, plot points for each data value and connect them with lines. If you eat 2 fruits on Monday, 3 on Tuesday, and 4 on Wednesday, plot points at (Monday, 2), (Tuesday, 3), and (Wednesday, 4) and connect them.",
+    "guide": "1. **Start with a question:** \"What data do we want to show?\"\n2. **Choose a graph type:** \"Should we use a bar or line graph?\"\n3. **Gather data:** \"Let's count or measure what we need.\"\n4. **Draw the graph:** \"Use a ruler to make straight lines for neatness.\"\n5. **Label everything:** \"Write labels for the axes and title the graph.\"\n6. **Discuss:** \"What does this graph tell us about our data?\"",
+    "mistakes": "- Confusing bar and line graphs: Try explaining that bars compare categories, while lines show changes over time.\n- Forgetting to label axes: Try reminding them to add labels for clarity.\n- Miscounting data points: Try double-checking the data before plotting.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Graphs are everywhere! Weather forecasts use line graphs to show temperature changes. Bar graphs can compare things like favorite ice cream flavors in a class survey.",
+    "close": "Graphs turn numbers into stories. By learning to read and create them, your child gains a powerful tool for understanding the world!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Data: Bar & Line Graphs**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Data: Bar & Line Graphs** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Data: Bar & Line Graphs**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "7549483e-c3e2-41ba-8602-c6ad47444763",
+    "slug": "sort-classify-shape-size-colour",
+    "title": "Sort & Classify (Shape, Size, Colour)",
+    "summary": "Sort & Classify (Shape, Size, Colour) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child sort and classify objects by shape, size, and color.\n- Encourage recognition of 2D shapes and their properties.\n- Foster critical thinking through comparison.\n**Why this matters for parents:** Understanding sorting and classifying builds a foundation for math skills like geometry and data analysis.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, you'll guide your child to sort and classify objects based on shape, size, and color. This involves recognizing and describing 2D shapes, such as squares, rectangles, and circles, and understanding their properties like sides and corners.\nSorting and classifying are essential skills that help children make sense of the world. By learning to identify and compare shapes, your child will develop observation skills and a deeper understanding of geometry.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Sorting and classifying involve grouping objects based on shared characteristics. For example, you can sort blocks by color or classify buttons by shape. This helps children notice patterns and differences, which are crucial for problem-solving.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Shape Hunt:** Gather household objects like plates, books, and boxes. **Ask:** \"Can you find something shaped like a circle?\"\n2. **Build Shapes:** Use sticks or straws to make a square and a rectangle. **Say:** \"A square has four equal sides. How is a rectangle different?\"\n3. **Rotate a Square:** Hold a square at an angle. **Ask:** \"What shape is this now?\" Explain that it’s still a square, not a diamond.\n4. **Compare Shapes:** Place a square and rectangle side by side. **Ask:** \"Which one has equal sides?\"\n5. **Sort by Color:** Gather colored objects. **Say:** \"Let’s sort these by color.\"\n6. **Size Sorting:** Use different-sized spoons. **Ask:** \"Can you put them in order from smallest to largest?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A square has 4 equal sides and 4 corners. A rectangle also has 4 sides and 4 corners, but only opposite sides are equal. For example, a square with sides of 2 cm each has a perimeter of $2 + 2 + 2 + 2 = 8$ cm. A rectangle with sides 2 cm and 3 cm has a perimeter of $2 + 3 + 2 + 3 = 10$ cm.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Perimeter of a square: $P = 4s$\n  - $s$: side length of the square\n- Perimeter of a rectangle: $P = 2(l + w)$\n  - $l$: length, $w$: width",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Gather Objects:** Collect items of different shapes, sizes, and colors.\n2. **Explore Shapes:** Discuss the number of sides and corners of each shape. **Ask:** \"How many corners does this have?\"\n3. **Sort Together:** Work with your child to sort objects by shape, then by color, and finally by size.\n4. **Discuss Differences:** Compare a square and a rectangle. **Say:** \"Notice how the square’s sides are all the same length.\"\n5. **Rotate and Discuss:** Rotate a square and explain that its shape doesn’t change. **Ask:** \"What do you see?\"\n6. **Encourage Questions:** Invite your child to ask questions about the shapes they see.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares and rectangles: **Try:** Emphasize equal sides for squares.\n- Calling a rotated square a diamond: **Try:** Reinforce that it’s still a square.\n- Mixing up size sorting: **Try:** Use clear examples with distinct sizes.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Sorting and classifying are skills used in everyday activities like organizing toys or arranging clothes by color. Recognizing shapes helps in identifying road signs and understanding patterns in nature.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring shapes and sorting! These skills will help your child see the world in new and exciting ways. Keep discovering!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child sort and classify objects by shape, size, and color.\n- Encourage recognition of 2D shapes and their properties.\n- Foster critical thinking through comparison.\n**Why this matters for parents:** Understanding sorting and classifying builds a foundation for math skills like geometry and data analysis.",
+    "overview": "In this lesson, you'll guide your child to sort and classify objects based on shape, size, and color. This involves recognizing and describing 2D shapes, such as squares, rectangles, and circles, and understanding their properties like sides and corners.\nSorting and classifying are essential skills that help children make sense of the world. By learning to identify and compare shapes, your child will develop observation skills and a deeper understanding of geometry.",
+    "core": "Sorting and classifying involve grouping objects based on shared characteristics. For example, you can sort blocks by color or classify buttons by shape. This helps children notice patterns and differences, which are crucial for problem-solving.",
+    "demo": "1. **Shape Hunt:** Gather household objects like plates, books, and boxes. **Ask:** \"Can you find something shaped like a circle?\"\n2. **Build Shapes:** Use sticks or straws to make a square and a rectangle. **Say:** \"A square has four equal sides. How is a rectangle different?\"\n3. **Rotate a Square:** Hold a square at an angle. **Ask:** \"What shape is this now?\" Explain that it’s still a square, not a diamond.\n4. **Compare Shapes:** Place a square and rectangle side by side. **Ask:** \"Which one has equal sides?\"\n5. **Sort by Color:** Gather colored objects. **Say:** \"Let’s sort these by color.\"\n6. **Size Sorting:** Use different-sized spoons. **Ask:** \"Can you put them in order from smallest to largest?\"",
+    "math": "A square has 4 equal sides and 4 corners. A rectangle also has 4 sides and 4 corners, but only opposite sides are equal. For example, a square with sides of 2 cm each has a perimeter of $2 + 2 + 2 + 2 = 8$ cm. A rectangle with sides 2 cm and 3 cm has a perimeter of $2 + 3 + 2 + 3 = 10$ cm.",
+    "formulas": "- Perimeter of a square: $P = 4s$\n  - $s$: side length of the square\n- Perimeter of a rectangle: $P = 2(l + w)$\n  - $l$: length, $w$: width",
+    "guide": "1. **Gather Objects:** Collect items of different shapes, sizes, and colors.\n2. **Explore Shapes:** Discuss the number of sides and corners of each shape. **Ask:** \"How many corners does this have?\"\n3. **Sort Together:** Work with your child to sort objects by shape, then by color, and finally by size.\n4. **Discuss Differences:** Compare a square and a rectangle. **Say:** \"Notice how the square’s sides are all the same length.\"\n5. **Rotate and Discuss:** Rotate a square and explain that its shape doesn’t change. **Ask:** \"What do you see?\"\n6. **Encourage Questions:** Invite your child to ask questions about the shapes they see.",
+    "mistakes": "- Confusing squares and rectangles: **Try:** Emphasize equal sides for squares.\n- Calling a rotated square a diamond: **Try:** Reinforce that it’s still a square.\n- Mixing up size sorting: **Try:** Use clear examples with distinct sizes.",
+    "connection": "Sorting and classifying are skills used in everyday activities like organizing toys or arranging clothes by color. Recognizing shapes helps in identifying road signs and understanding patterns in nature.",
+    "close": "Great job exploring shapes and sorting! These skills will help your child see the world in new and exciting ways. Keep discovering!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Sort these objects by color: a red apple, a green leaf, a yellow banana.",
+      "hint_md": "Group the objects with similar colors together.",
+      "answer_md": "Red: apple; Green: leaf; Yellow: banana."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Sort these objects by size: a small coin, a large book, a medium toy car.",
+      "hint_md": "Arrange them from smallest to largest.",
+      "answer_md": "Small: coin; Medium: toy car; Large: book."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Sort these objects by shape: a round ball, a square block, a triangular slice of cheese.",
+      "hint_md": "Group objects with similar shapes.",
+      "answer_md": "Round: ball; Square: block; Triangular: slice of cheese."
+    }
+  ]
+}

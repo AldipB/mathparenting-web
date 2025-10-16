@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c6229f15-f53a-4c58-8504-3d30cfde2a86",
+    "slug": "functions-review-composition",
+    "title": "Functions (Review & Composition)",
+    "summary": "Functions (Review & Composition) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of functions and their composition.\n- Learn how to evaluate and compose functions using real-life examples.\n- **Why this matters for parents:** This helps you support your child's understanding of complex math concepts that are foundational for calculus and beyond.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Functions are mathematical relationships where each input has a specific output. They are like machines that take an input, process it, and give an output. Understanding functions is crucial as they are the building blocks of calculus.\nThis matters because functions model real-world situations, from calculating interest rates to predicting weather patterns. Knowing how to work with functions helps your child solve practical problems and prepares them for advanced math.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a function is a rule that assigns each input exactly one output. Function composition involves combining two functions, where the output of one function becomes the input of another. This is like using one machine's output as the input for another machine.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's think about a blender and a juicer. The blender (function $f$) takes fruits and makes a smoothie. The juicer (function $g$) takes the smoothie and extracts juice.\n2. **Ask:** What happens if we first use the blender and then the juicer?\n3. **Say:** This is like function composition. We use $f(x)$ first, then $g(f(x))$.\n4. **Use:** Two bowls (one for 'blender' and one for 'juicer') and some small fruits.\n5. **Demonstrate:** Put fruits in the 'blender' bowl, then transfer the result to the 'juicer' bowl.\n6. **Ask:** What is the final result? This is like $g(f(x))$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "If $f(x) = 2x + 3$ and $g(x) = x^2$, then the composition $g(f(x))$ means we first apply $f$, then $g$.\nCalculate $f(2)$:\n$$f(2) = 2(2) + 3 = 7$$\nNow, use this result in $g$:\n$$g(7) = 7^2 = 49$$\nSo, $g(f(2)) = 49$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $g(f(x))$\n  - $g$: the second function applied\n  - $f(x)$: the output of the first function",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** Functions are like machines with specific tasks.\n2. **Demonstrate:** Use the blender and juicer analogy to show function composition.\n3. **Ask:** What happens if we change the order of machines?\n4. **Try:** Use different numbers in $f(x) = 2x + 3$ and $g(x) = x^2$ to see different results.\n5. **Discuss:** How does changing the order of functions affect the outcome?\n6. **Encourage:** Practice with other function examples to build confidence.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the order of composition. **Try:** Remember $g(f(x))$ means $f$ first, then $g$.\n- Forgetting to substitute correctly. **Try:** Write down each step to avoid errors.\n- Mixing up inputs and outputs. **Try:** Clearly label each function's input and output.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Functions are used in computer programming to process data. They also help in financial calculations, like determining loan payments over time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Functions are powerful tools that help us understand and solve real-world problems. Keep exploring and practicing, and you'll see their beauty unfold!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of functions and their composition.\n- Learn how to evaluate and compose functions using real-life examples.\n- **Why this matters for parents:** This helps you support your child's understanding of complex math concepts that are foundational for calculus and beyond.",
+    "overview": "Functions are mathematical relationships where each input has a specific output. They are like machines that take an input, process it, and give an output. Understanding functions is crucial as they are the building blocks of calculus.\nThis matters because functions model real-world situations, from calculating interest rates to predicting weather patterns. Knowing how to work with functions helps your child solve practical problems and prepares them for advanced math.",
+    "core": "In simple terms, a function is a rule that assigns each input exactly one output. Function composition involves combining two functions, where the output of one function becomes the input of another. This is like using one machine's output as the input for another machine.",
+    "demo": "1. **Say:** Let's think about a blender and a juicer. The blender (function $f$) takes fruits and makes a smoothie. The juicer (function $g$) takes the smoothie and extracts juice.\n2. **Ask:** What happens if we first use the blender and then the juicer?\n3. **Say:** This is like function composition. We use $f(x)$ first, then $g(f(x))$.\n4. **Use:** Two bowls (one for 'blender' and one for 'juicer') and some small fruits.\n5. **Demonstrate:** Put fruits in the 'blender' bowl, then transfer the result to the 'juicer' bowl.\n6. **Ask:** What is the final result? This is like $g(f(x))$.",
+    "math": "If $f(x) = 2x + 3$ and $g(x) = x^2$, then the composition $g(f(x))$ means we first apply $f$, then $g$.\nCalculate $f(2)$:\n$$f(2) = 2(2) + 3 = 7$$\nNow, use this result in $g$:\n$$g(7) = 7^2 = 49$$\nSo, $g(f(2)) = 49$.",
+    "formulas": "- $g(f(x))$\n  - $g$: the second function applied\n  - $f(x)$: the output of the first function",
+    "guide": "1. **Explain:** Functions are like machines with specific tasks.\n2. **Demonstrate:** Use the blender and juicer analogy to show function composition.\n3. **Ask:** What happens if we change the order of machines?\n4. **Try:** Use different numbers in $f(x) = 2x + 3$ and $g(x) = x^2$ to see different results.\n5. **Discuss:** How does changing the order of functions affect the outcome?\n6. **Encourage:** Practice with other function examples to build confidence.",
+    "mistakes": "- Confusing the order of composition. **Try:** Remember $g(f(x))$ means $f$ first, then $g$.\n- Forgetting to substitute correctly. **Try:** Write down each step to avoid errors.\n- Mixing up inputs and outputs. **Try:** Clearly label each function's input and output.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Functions are used in computer programming to process data. They also help in financial calculations, like determining loan payments over time.",
+    "close": "Functions are powerful tools that help us understand and solve real-world problems. Keep exploring and practicing, and you'll see their beauty unfold!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Functions (Review & Composition)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Functions (Review & Composition)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Functions (Review & Composition)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "dcd5439b-ce16-4c69-990a-f7dcaa2937d6",
+    "slug": "one-step-equations-inequalities",
+    "title": "One-Step Equations & Inequalities",
+    "summary": "One-Step Equations & Inequalities — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to solve one-step equations and inequalities.\n- Use household objects to visualize these concepts.\n- Build confidence in explaining math to your child.\n**Why this matters for parents:** This lesson helps you support your child's problem-solving skills and logical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "One-step equations and inequalities are mathematical statements that can be solved with a single operation, like addition or subtraction. They form the foundation for more complex math problems.\nUnderstanding these concepts is crucial as they teach children how to think critically and solve problems efficiently. This skill will be useful in everyday decision-making and future math learning.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In one-step equations, we find the value of a variable that makes the equation true. For example, in $x + 3 = 7$, we solve for $x$. Inequalities, like $x + 3 < 7$, show a range of possible values for $x$. Both concepts use similar strategies but have different interpretations.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's solve $x + 3 = 7$ using apples. Place 3 apples on the table.\n2. **Ask:** How many more apples do we need to make 7? (Answer: 4)\n3. **Say:** We added 4 apples, so $x = 4$.\n4. **Say:** Now, let's try $x + 3 < 7$. Place 3 apples again.\n5. **Ask:** What are some numbers of apples we can add to keep the total less than 7? (Answers: 0, 1, 2, 3)\n6. **Say:** This shows $x$ can be any number less than 4.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve $x + 3 = 7$, subtract 3 from both sides:\n$$x + 3 - 3 = 7 - 3$$\nThis simplifies to $x = 4$. For inequalities like $x + 3 < 7$, subtract 3 from both sides:\n$$x + 3 - 3 < 7 - 3$$\nThis simplifies to $x < 4$. The solution is any number less than 4.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $x + a = b$\n  - $x$: the unknown number\n  - $a$: the number added to $x$\n  - $b$: the total\n- $x + a < b$\n  - $x$: the unknown number\n  - $a$: the number added to $x$\n  - $b$: the upper limit",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is the equation or inequality we need to solve?\n2. **Say:** Let's identify the operation involved (addition or subtraction).\n3. **Ask:** What do we need to do to isolate $x$?\n4. **Say:** Perform the operation on both sides of the equation or inequality.\n5. **Ask:** What is the solution? Check by substituting back into the original statement.\n6. **Say:** Great job! Let's try another example together.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to perform the operation on both sides.\n  - **Try:** Always balance the equation by doing the same thing to both sides.\n- Misinterpreting the inequality sign.\n  - **Try:** Remember, $<$ means 'less than' and $>$ means 'greater than'.\n- Not checking the solution.\n  - **Try:** Substitute your answer back into the original equation or inequality to verify.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Solving equations is like balancing a scale. If you add or remove weight from one side, you must do the same to the other. Inequalities are like setting a budget: you know the maximum you can spend, but you can choose any amount less than that.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You're doing a fantastic job guiding your child through these math concepts. Keep practicing, and soon these skills will become second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to solve one-step equations and inequalities.\n- Use household objects to visualize these concepts.\n- Build confidence in explaining math to your child.\n**Why this matters for parents:** This lesson helps you support your child's problem-solving skills and logical thinking.",
+    "overview": "One-step equations and inequalities are mathematical statements that can be solved with a single operation, like addition or subtraction. They form the foundation for more complex math problems.\nUnderstanding these concepts is crucial as they teach children how to think critically and solve problems efficiently. This skill will be useful in everyday decision-making and future math learning.",
+    "core": "In one-step equations, we find the value of a variable that makes the equation true. For example, in $x + 3 = 7$, we solve for $x$. Inequalities, like $x + 3 < 7$, show a range of possible values for $x$. Both concepts use similar strategies but have different interpretations.",
+    "demo": "1. **Say:** Let's solve $x + 3 = 7$ using apples. Place 3 apples on the table.\n2. **Ask:** How many more apples do we need to make 7? (Answer: 4)\n3. **Say:** We added 4 apples, so $x = 4$.\n4. **Say:** Now, let's try $x + 3 < 7$. Place 3 apples again.\n5. **Ask:** What are some numbers of apples we can add to keep the total less than 7? (Answers: 0, 1, 2, 3)\n6. **Say:** This shows $x$ can be any number less than 4.",
+    "math": "To solve $x + 3 = 7$, subtract 3 from both sides:\n$$x + 3 - 3 = 7 - 3$$\nThis simplifies to $x = 4$. For inequalities like $x + 3 < 7$, subtract 3 from both sides:\n$$x + 3 - 3 < 7 - 3$$\nThis simplifies to $x < 4$. The solution is any number less than 4.",
+    "formulas": "- $x + a = b$\n  - $x$: the unknown number\n  - $a$: the number added to $x$\n  - $b$: the total\n- $x + a < b$\n  - $x$: the unknown number\n  - $a$: the number added to $x$\n  - $b$: the upper limit",
+    "guide": "1. **Ask:** What is the equation or inequality we need to solve?\n2. **Say:** Let's identify the operation involved (addition or subtraction).\n3. **Ask:** What do we need to do to isolate $x$?\n4. **Say:** Perform the operation on both sides of the equation or inequality.\n5. **Ask:** What is the solution? Check by substituting back into the original statement.\n6. **Say:** Great job! Let's try another example together.",
+    "mistakes": "- Forgetting to perform the operation on both sides.\n  - **Try:** Always balance the equation by doing the same thing to both sides.\n- Misinterpreting the inequality sign.\n  - **Try:** Remember, $<$ means 'less than' and $>$ means 'greater than'.\n- Not checking the solution.\n  - **Try:** Substitute your answer back into the original equation or inequality to verify.",
+    "connection": "Solving equations is like balancing a scale. If you add or remove weight from one side, you must do the same to the other. Inequalities are like setting a budget: you know the maximum you can spend, but you can choose any amount less than that.",
+    "close": "You're doing a fantastic job guiding your child through these math concepts. Keep practicing, and soon these skills will become second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Solve: $x - 5 = 10$",
+      "hint_md": "Add 5 to both sides to isolate $x$.",
+      "answer_md": "$x = 15$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Solve: $x + 4 < 9$",
+      "hint_md": "Subtract 4 from both sides.",
+      "answer_md": "$x < 5$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Solve: $x - 2 > 3$",
+      "hint_md": "Add 2 to both sides.",
+      "answer_md": "$x > 5$"
+    }
+  ]
+}

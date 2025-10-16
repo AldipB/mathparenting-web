@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "18f2d9b3-0aef-4161-bd6b-e9f062b5b074",
+    "title": "Geometry, Data & Reasoning",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "846504b1-acea-458f-a215-0848ad958797",
+    "slug": "picture-bar-graphs-word-problems-reasoning",
+    "title": "Picture & Bar Graphs; Word Problems + Reasoning",
+    "summary": "Picture & Bar Graphs; Word Problems + Reasoning — summary for parents in Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand picture and bar graphs.\n- Solve word problems using reasoning.\n- **Why this matters for parents:** Helps children interpret data and solve problems, skills useful in everyday decision-making.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching children how to read and create picture and bar graphs, and how to solve simple word problems using reasoning. Picture graphs use images to represent data, while bar graphs use bars to show quantities.\nUnderstanding these concepts is important because they help children visualize information and develop critical thinking skills. These skills are foundational for more advanced math and everyday tasks like comparing quantities and making decisions.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, you'll guide your child through creating and interpreting simple graphs using everyday items. You'll also explore word problems that require reasoning to find solutions. This will help your child connect math to real-world situations.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some small objects like buttons, coins, or blocks.\n2. **Say:** \"Let's sort these objects by color and make a picture graph.\"\n3. Arrange the objects in rows, each row representing a different color.\n4. **Ask:** \"Which color has the most objects? Which has the least?\"\n5. Use paper and crayons to draw a bar graph representing the same data.\n6. **Say:** \"Now, let's solve a word problem: If you have 3 red blocks and 2 blue blocks, how many blocks do you have in total?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A picture graph uses images to show data. For example, if you have 3 apples and 2 bananas, you can draw 3 apple pictures and 2 banana pictures. A bar graph uses bars to show quantities. If you have 4 red blocks and 3 blue blocks, your bar graph will have a taller bar for red blocks.\nExample: If you have 5 apples and 3 oranges, a picture graph will have 5 apple pictures and 3 orange pictures.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a simple question: \"How many apples and oranges do we have?\"\n2. Use objects to create a picture graph. **Ask:** \"What does each picture represent?\"\n3. Transition to a bar graph. **Say:** \"Let's draw bars to show the same information.\"\n4. Solve a word problem together. **Ask:** \"If we add 2 more apples, how many do we have now?\"\n5. Discuss the graphs. **Ask:** \"How do they help us understand the data?\"\n6. Encourage your child to explain their reasoning.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing picture and bar graphs: Try using real objects to make it clearer.\n- Miscounting items: Try counting each item out loud together.\n- Misinterpreting graph data: Try asking questions about the graph to guide understanding.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Graphs are everywhere! In the grocery store, bar graphs can show sales trends. At home, you can use graphs to track chores or screen time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Graphs make data fun and easy to understand! Keep exploring with your child, and watch their confidence grow.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand picture and bar graphs.\n- Solve word problems using reasoning.\n- **Why this matters for parents:** Helps children interpret data and solve problems, skills useful in everyday decision-making.",
+    "overview": "This lesson focuses on teaching children how to read and create picture and bar graphs, and how to solve simple word problems using reasoning. Picture graphs use images to represent data, while bar graphs use bars to show quantities.\nUnderstanding these concepts is important because they help children visualize information and develop critical thinking skills. These skills are foundational for more advanced math and everyday tasks like comparing quantities and making decisions.",
+    "core": "In this lesson, you'll guide your child through creating and interpreting simple graphs using everyday items. You'll also explore word problems that require reasoning to find solutions. This will help your child connect math to real-world situations.",
+    "demo": "1. Gather some small objects like buttons, coins, or blocks.\n2. **Say:** \"Let's sort these objects by color and make a picture graph.\"\n3. Arrange the objects in rows, each row representing a different color.\n4. **Ask:** \"Which color has the most objects? Which has the least?\"\n5. Use paper and crayons to draw a bar graph representing the same data.\n6. **Say:** \"Now, let's solve a word problem: If you have 3 red blocks and 2 blue blocks, how many blocks do you have in total?\"",
+    "math": "A picture graph uses images to show data. For example, if you have 3 apples and 2 bananas, you can draw 3 apple pictures and 2 banana pictures. A bar graph uses bars to show quantities. If you have 4 red blocks and 3 blue blocks, your bar graph will have a taller bar for red blocks.\nExample: If you have 5 apples and 3 oranges, a picture graph will have 5 apple pictures and 3 orange pictures.",
+    "guide": "1. Start with a simple question: \"How many apples and oranges do we have?\"\n2. Use objects to create a picture graph. **Ask:** \"What does each picture represent?\"\n3. Transition to a bar graph. **Say:** \"Let's draw bars to show the same information.\"\n4. Solve a word problem together. **Ask:** \"If we add 2 more apples, how many do we have now?\"\n5. Discuss the graphs. **Ask:** \"How do they help us understand the data?\"\n6. Encourage your child to explain their reasoning.",
+    "mistakes": "- Confusing picture and bar graphs: Try using real objects to make it clearer.\n- Miscounting items: Try counting each item out loud together.\n- Misinterpreting graph data: Try asking questions about the graph to guide understanding.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Graphs are everywhere! In the grocery store, bar graphs can show sales trends. At home, you can use graphs to track chores or screen time.",
+    "close": "Graphs make data fun and easy to understand! Keep exploring with your child, and watch their confidence grow."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Picture & Bar Graphs; Word Problems + Reasoning**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Picture & Bar Graphs; Word Problems + Reasoning** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Picture & Bar Graphs; Word Problems + Reasoning**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

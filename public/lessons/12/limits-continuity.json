@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "f44562a9-8df4-4d8a-9a08-fc555e83faa6",
+    "slug": "limits-continuity",
+    "title": "Limits & Continuity",
+    "summary": "Limits & Continuity — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of limits and continuity.\n- Learn how to explain these concepts using everyday examples.\n- **Why this matters for parents:** Grasping these ideas helps your child build a strong foundation for calculus, which is crucial for advanced math and science lesson.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Limits and continuity are foundational concepts in calculus that help us understand how functions behave as they approach specific points or infinity. A limit describes the value that a function approaches, while continuity ensures that a function behaves predictably without any sudden jumps.\nThese concepts are important because they allow us to analyze and predict the behavior of functions, which is essential in fields like physics, engineering, and economics. Understanding limits and continuity helps students transition smoothly to more complex calculus topics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a limit tells us what value a function is approaching as the input gets closer to a certain point. Continuity means that a function doesn’t have any breaks or jumps at that point. Imagine a smooth road without any potholes—that's continuity!",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Imagine a toy car moving along a track. As it approaches a ramp, we want to know what happens.\"\n2. Use a toy car and a piece of cardboard as a ramp. **Ask:** \"What happens to the car as it gets closer to the ramp?\"\n3. **Say:** \"The car getting closer to the ramp is like finding the limit. We want to know what happens right at the edge.\"\n4. **Ask:** \"If the ramp is smooth, will the car continue without a jump?\"\n5. **Say:** \"If the car moves smoothly onto the ramp, the track is continuous. If it jumps, there's a break in continuity.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the limit of a function $f(x)$ as $x$ approaches a value $a$, we write it as $\\lim_{x \\to a} f(x)$. For example, if $f(x) = 2x$, then $\\lim_{x \\to 3} 2x = 6$.\nA function is continuous at a point $a$ if $\\lim_{x \\to a} f(x) = f(a)$. For example, if $f(x) = x^2$, then $\\lim_{x \\to 2} x^2 = 4$ and $f(2) = 4$, so $f(x)$ is continuous at $x = 2$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\lim_{x \\to a} f(x)$\n  - The limit of function $f(x)$ as $x$ approaches $a$.\n- $f(x)$ is continuous at $a$ if $\\lim_{x \\to a} f(x) = f(a)$\n  - The function $f(x)$ has no breaks at $x = a$.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What does it mean for a function to approach a value?\"\n2. **Say:** \"Think of it like a car getting closer to a stop sign.\"\n3. **Ask:** \"How can we tell if a function is continuous?\"\n4. **Say:** \"If there are no jumps or breaks, it’s like a smooth road.\"\n5. **Encourage:** \"Try drawing a graph and see if you can spot any breaks.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing limits with actual values. **Try:** Emphasize that limits are about approaching, not reaching.\n- Assuming all functions are continuous. **Try:** Look for jumps or holes in the graph.\n- Ignoring the direction of approach. **Try:** Consider approaching from both sides of the point.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Limits and continuity are like predicting traffic patterns. Just as we predict how cars will move, limits help us predict how functions behave.\nIn engineering, understanding these concepts helps in designing smooth transitions in structures and systems.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding limits and continuity opens the door to the fascinating world of calculus. Keep exploring, and you'll uncover even more exciting math concepts!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of limits and continuity.\n- Learn how to explain these concepts using everyday examples.\n- **Why this matters for parents:** Grasping these ideas helps your child build a strong foundation for calculus, which is crucial for advanced math and science lesson.",
+    "overview": "Limits and continuity are foundational concepts in calculus that help us understand how functions behave as they approach specific points or infinity. A limit describes the value that a function approaches, while continuity ensures that a function behaves predictably without any sudden jumps.\nThese concepts are important because they allow us to analyze and predict the behavior of functions, which is essential in fields like physics, engineering, and economics. Understanding limits and continuity helps students transition smoothly to more complex calculus topics.",
+    "core": "In simple terms, a limit tells us what value a function is approaching as the input gets closer to a certain point. Continuity means that a function doesn’t have any breaks or jumps at that point. Imagine a smooth road without any potholes—that's continuity!",
+    "demo": "1. **Say:** \"Imagine a toy car moving along a track. As it approaches a ramp, we want to know what happens.\"\n2. Use a toy car and a piece of cardboard as a ramp. **Ask:** \"What happens to the car as it gets closer to the ramp?\"\n3. **Say:** \"The car getting closer to the ramp is like finding the limit. We want to know what happens right at the edge.\"\n4. **Ask:** \"If the ramp is smooth, will the car continue without a jump?\"\n5. **Say:** \"If the car moves smoothly onto the ramp, the track is continuous. If it jumps, there's a break in continuity.\"",
+    "math": "To find the limit of a function $f(x)$ as $x$ approaches a value $a$, we write it as $\\lim_{x \\to a} f(x)$. For example, if $f(x) = 2x$, then $\\lim_{x \\to 3} 2x = 6$.\nA function is continuous at a point $a$ if $\\lim_{x \\to a} f(x) = f(a)$. For example, if $f(x) = x^2$, then $\\lim_{x \\to 2} x^2 = 4$ and $f(2) = 4$, so $f(x)$ is continuous at $x = 2$.",
+    "formulas": "- $\\lim_{x \\to a} f(x)$\n  - The limit of function $f(x)$ as $x$ approaches $a$.\n- $f(x)$ is continuous at $a$ if $\\lim_{x \\to a} f(x) = f(a)$\n  - The function $f(x)$ has no breaks at $x = a$.",
+    "guide": "1. **Ask:** \"What does it mean for a function to approach a value?\"\n2. **Say:** \"Think of it like a car getting closer to a stop sign.\"\n3. **Ask:** \"How can we tell if a function is continuous?\"\n4. **Say:** \"If there are no jumps or breaks, it’s like a smooth road.\"\n5. **Encourage:** \"Try drawing a graph and see if you can spot any breaks.\"",
+    "mistakes": "- Confusing limits with actual values. **Try:** Emphasize that limits are about approaching, not reaching.\n- Assuming all functions are continuous. **Try:** Look for jumps or holes in the graph.\n- Ignoring the direction of approach. **Try:** Consider approaching from both sides of the point.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Limits and continuity are like predicting traffic patterns. Just as we predict how cars will move, limits help us predict how functions behave.\nIn engineering, understanding these concepts helps in designing smooth transitions in structures and systems.",
+    "close": "Understanding limits and continuity opens the door to the fascinating world of calculus. Keep exploring, and you'll uncover even more exciting math concepts!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Limits & Continuity**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Limits & Continuity** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Limits & Continuity**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "0229a3b6-03a7-42c2-b000-edc7ae3dabf0",
+    "title": "Shapes, Graphs & Money",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "308796cf-8ba6-409b-b087-654784c3d2e2",
+    "slug": "simple-money-math-with-coins-308796cf-8ba6-409b-b087-654784c3d2e2",
+    "title": "Simple Money Math with Coins",
+    "summary": "Simple Money Math with Coins — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Recognize and identify coins by size, color, and design.\n- Understand the basic value of each coin.\n- Match coins to their outlines.\n**Why this matters for parents:** Understanding money helps children develop practical math skills and prepares them for real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to the basic concepts of money using coins. We will focus on recognizing different coins by their size, color, and design.\nUnderstanding money is essential for everyday life. It helps children make sense of shopping, saving, and spending, laying the groundwork for financial literacy.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "We'll use real coins or play money to help your child recognize and sort them. By focusing on the physical characteristics of coins, your child will learn to identify them easily.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a few coins: pennies, nickels, dimes, and quarters.\n2. **Say:** \"Let's look at these coins. Can you sort them by size?\"\n3. **Ask:** \"Which coin is the biggest? Which is the smallest?\"\n4. Match each coin to an outline drawn on paper.\n5. **Say:** \"Now, let's look at the pictures on the coins. Can you find the heads and tails?\"\n6. **Ask:** \"What do you notice about the edges of the coins?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Coins have different values and designs. For example, a penny is worth 1 cent and is usually copper-colored. A nickel is worth 5 cents and is larger than a penny.\n- Penny: 1 cent\n- Nickel: 5 cents\n- Dime: 10 cents\n- Quarter: 25 cents",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a few coins and introduce each one by name and value.\n2. **Ask:** \"What color is this coin? What picture do you see?\"\n3. Have your child sort the coins by size and color.\n4. **Say:** \"Let's match each coin to its outline on this paper.\"\n5. Discuss the different edges: smooth vs. ridged.\n6. **Ask:** \"Can you find the heads and tails on each coin?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing coin values: Try focusing on one coin at a time.\n- Mixing up sizes: Try sorting by size first, then by color.\n- Forgetting heads/tails: Try flipping each coin and describing the pictures.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When you go shopping, point out the coins used to pay. Let your child help count coins at a vending machine or in a piggy bank.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring coins today! Keep practicing, and soon you'll be a money expert!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Recognize and identify coins by size, color, and design.\n- Understand the basic value of each coin.\n- Match coins to their outlines.\n**Why this matters for parents:** Understanding money helps children develop practical math skills and prepares them for real-world situations.",
+    "overview": "This lesson introduces your child to the basic concepts of money using coins. We will focus on recognizing different coins by their size, color, and design.\nUnderstanding money is essential for everyday life. It helps children make sense of shopping, saving, and spending, laying the groundwork for financial literacy.",
+    "core": "We'll use real coins or play money to help your child recognize and sort them. By focusing on the physical characteristics of coins, your child will learn to identify them easily.",
+    "demo": "1. Gather a few coins: pennies, nickels, dimes, and quarters.\n2. **Say:** \"Let's look at these coins. Can you sort them by size?\"\n3. **Ask:** \"Which coin is the biggest? Which is the smallest?\"\n4. Match each coin to an outline drawn on paper.\n5. **Say:** \"Now, let's look at the pictures on the coins. Can you find the heads and tails?\"\n6. **Ask:** \"What do you notice about the edges of the coins?\"",
+    "math": "Coins have different values and designs. For example, a penny is worth 1 cent and is usually copper-colored. A nickel is worth 5 cents and is larger than a penny.\n- Penny: 1 cent\n- Nickel: 5 cents\n- Dime: 10 cents\n- Quarter: 25 cents",
+    "guide": "1. Start with a few coins and introduce each one by name and value.\n2. **Ask:** \"What color is this coin? What picture do you see?\"\n3. Have your child sort the coins by size and color.\n4. **Say:** \"Let's match each coin to its outline on this paper.\"\n5. Discuss the different edges: smooth vs. ridged.\n6. **Ask:** \"Can you find the heads and tails on each coin?\"",
+    "mistakes": "- Confusing coin values: Try focusing on one coin at a time.\n- Mixing up sizes: Try sorting by size first, then by color.\n- Forgetting heads/tails: Try flipping each coin and describing the pictures.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When you go shopping, point out the coins used to pay. Let your child help count coins at a vending machine or in a piggy bank.",
+    "close": "Great job exploring coins today! Keep practicing, and soon you'll be a money expert!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Simple Money Math with Coins**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Simple Money Math with Coins** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Simple Money Math with Coins**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

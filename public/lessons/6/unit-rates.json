@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "5681f00d-6dea-429d-a78e-7f0b1270e208",
+    "title": "Ratios, Rates & Percents",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "629438e3-272d-4bb5-94d2-cd571313ad45",
+    "slug": "unit-rates",
+    "title": "Unit Rates",
+    "summary": "Unit Rates — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what a unit rate is and how to calculate it.\n- Apply unit rates to solve real-world problems.\n- **Why this matters for parents:** Helps children make sense of everyday comparisons, like prices and speeds.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Unit rates are a way to compare quantities by expressing one quantity per single unit of another. For example, if you drive 60 miles in 2 hours, the unit rate is 30 miles per hour.\nUnderstanding unit rates is important because it helps us make informed decisions, like finding the best deals while shopping or understanding speed limits while driving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A unit rate compares a quantity to one unit of another quantity. It's like asking, 'How much for one?' This helps simplify comparisons and make better choices in daily life.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a bag of apples and a kitchen scale.\n2. **Say:** 'Let's weigh these apples. Suppose they weigh 4 pounds and cost $8.'\n3. **Ask:** 'How much does one pound of apples cost?'\n4. Divide the total cost by the total weight: $8 ÷ 4 = $2 per pound.\n5. **Say:** 'The unit rate is $2 per pound. This tells us the cost for one pound of apples.'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A unit rate is found by dividing the total quantity by the number of units. For example, if a car travels 150 miles in 3 hours, the unit rate is $$\\frac{150 \\text{ miles}}{3 \\text{ hours}} = 50 \\text{ miles per hour}$$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Unit\\ Rate = \\frac{Total\\ Quantity}{Number\\ of\\ Units}\n* Total Quantity: The overall amount you're measuring.\n* Number of Units: The number of units you're comparing to.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a scenario at home, like the cost of a pack of juice boxes.\n2. **Ask:** 'How many juice boxes are there and what is the total cost?'\n3. Divide the total cost by the number of juice boxes to find the unit rate.\n4. **Say:** 'This is the cost per juice box.'\n5. Discuss why knowing the cost per box is useful when comparing brands.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing total quantity with unit rate. Try: Clearly separate the total and the per-unit amount.\n- Forgetting to divide by the number of units. Try: Always check how many units you're comparing.\n- Mixing up units (e.g., miles and hours). Try: Keep units consistent when calculating.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Unit rates are everywhere! When you compare prices at the grocery store or calculate your car's fuel efficiency, you're using unit rates.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Unit rates help us make smart choices every day. Keep practicing, and soon you'll see them everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what a unit rate is and how to calculate it.\n- Apply unit rates to solve real-world problems.\n- **Why this matters for parents:** Helps children make sense of everyday comparisons, like prices and speeds.",
+    "overview": "Unit rates are a way to compare quantities by expressing one quantity per single unit of another. For example, if you drive 60 miles in 2 hours, the unit rate is 30 miles per hour.\nUnderstanding unit rates is important because it helps us make informed decisions, like finding the best deals while shopping or understanding speed limits while driving.",
+    "core": "A unit rate compares a quantity to one unit of another quantity. It's like asking, 'How much for one?' This helps simplify comparisons and make better choices in daily life.",
+    "demo": "1. Gather a bag of apples and a kitchen scale.\n2. **Say:** 'Let's weigh these apples. Suppose they weigh 4 pounds and cost $8.'\n3. **Ask:** 'How much does one pound of apples cost?'\n4. Divide the total cost by the total weight: $8 ÷ 4 = $2 per pound.\n5. **Say:** 'The unit rate is $2 per pound. This tells us the cost for one pound of apples.'",
+    "math": "A unit rate is found by dividing the total quantity by the number of units. For example, if a car travels 150 miles in 3 hours, the unit rate is $$\\frac{150 \\text{ miles}}{3 \\text{ hours}} = 50 \\text{ miles per hour}$$.",
+    "formulas": "Unit\\ Rate = \\frac{Total\\ Quantity}{Number\\ of\\ Units}\n* Total Quantity: The overall amount you're measuring.\n* Number of Units: The number of units you're comparing to.",
+    "guide": "1. Find a scenario at home, like the cost of a pack of juice boxes.\n2. **Ask:** 'How many juice boxes are there and what is the total cost?'\n3. Divide the total cost by the number of juice boxes to find the unit rate.\n4. **Say:** 'This is the cost per juice box.'\n5. Discuss why knowing the cost per box is useful when comparing brands.",
+    "mistakes": "- Confusing total quantity with unit rate. Try: Clearly separate the total and the per-unit amount.\n- Forgetting to divide by the number of units. Try: Always check how many units you're comparing.\n- Mixing up units (e.g., miles and hours). Try: Keep units consistent when calculating.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Unit rates are everywhere! When you compare prices at the grocery store or calculate your car's fuel efficiency, you're using unit rates.",
+    "close": "Unit rates help us make smart choices every day. Keep practicing, and soon you'll see them everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Unit Rates**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Unit Rates** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Unit Rates**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

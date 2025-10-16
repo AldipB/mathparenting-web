@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "004a5f09-8494-4bd5-9a15-87e1c2643988",
+    "slug": "theoretical-vs-experimental-probability",
+    "title": "Theoretical vs Experimental Probability",
+    "summary": "Theoretical vs Experimental Probability — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the difference between theoretical and experimental probability.\n- - Help your child apply probability concepts using everyday objects.\n- **Why this matters for parents:** Understanding probability helps children make informed decisions and think critically about chance events.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Probability is the study of how likely an event is to happen. Theoretical probability is what we expect to happen, while experimental probability is what actually happens when we try it out.\nUnderstanding these concepts helps children see the difference between expectations and real-world outcomes, which is a valuable skill in decision-making and critical thinking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Theoretical probability is calculated based on possible outcomes, while experimental probability is determined by conducting an experiment and recording the results. By comparing these, children learn to understand and predict outcomes more accurately.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather a coin and a small bowl.**\n2. **Say:** \"Let's flip this coin 10 times and see how many times it lands on heads.\"\n3. Flip the coin 10 times, recording the results each time.\n4. **Ask:** \"How many times did it land on heads? Was this what we expected?\"\n5. **Explain:** \"The theoretical probability of heads is 1/2, but our experimental probability might be different.\"\n6. **Discuss:** \"Why do you think the results might differ from what we expect?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Theoretical probability is calculated as the ratio of the number of favorable outcomes to the total number of possible outcomes. For a coin, the probability of getting heads is $\\frac{1}{2}$ because there are 2 possible outcomes (heads or tails) and 1 favorable outcome (heads).\nExperimental probability is calculated as the ratio of the number of times an event occurs to the total number of trials. If you flip a coin 10 times and get heads 6 times, the experimental probability is $\\frac{6}{10} = 0.6$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Theoretical Probability: $P(E) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}$\n  - $P(E)$: Probability of event $E$\n- Experimental Probability: $P(E) = \\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}}$\n  - $P(E)$: Probability of event $E$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with a simple question:** \"What do you think will happen if we flip this coin?\"\n2. **Perform the experiment:** Flip the coin multiple times and record the results.\n3. **Discuss the results:** Compare the experimental results with the theoretical probability.\n4. **Ask questions:** \"Why do you think we got these results?\"\n5. **Encourage reflection:** \"How might more trials affect our experimental probability?\"\n6. **Connect to real life:** \"Can you think of other situations where probability is important?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing theoretical and experimental probability. **Try:** Clarify with examples and definitions.\n- Forgetting to record results accurately. **Try:** Use a simple tally chart.\n- Assuming small experiments will always match theoretical probability. **Try:** Discuss the role of chance and sample size.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Probability is used in weather forecasting, helping us decide whether to carry an umbrella. It's also important in games of chance, like board games or sports, where understanding odds can influence strategy.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring probability helps children understand the world of chance and decision-making. Keep experimenting and discovering together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the difference between theoretical and experimental probability.\n- - Help your child apply probability concepts using everyday objects.\n- **Why this matters for parents:** Understanding probability helps children make informed decisions and think critically about chance events.",
+    "overview": "Probability is the study of how likely an event is to happen. Theoretical probability is what we expect to happen, while experimental probability is what actually happens when we try it out.\nUnderstanding these concepts helps children see the difference between expectations and real-world outcomes, which is a valuable skill in decision-making and critical thinking.",
+    "core": "Theoretical probability is calculated based on possible outcomes, while experimental probability is determined by conducting an experiment and recording the results. By comparing these, children learn to understand and predict outcomes more accurately.",
+    "demo": "1. **Gather a coin and a small bowl.**\n2. **Say:** \"Let's flip this coin 10 times and see how many times it lands on heads.\"\n3. Flip the coin 10 times, recording the results each time.\n4. **Ask:** \"How many times did it land on heads? Was this what we expected?\"\n5. **Explain:** \"The theoretical probability of heads is 1/2, but our experimental probability might be different.\"\n6. **Discuss:** \"Why do you think the results might differ from what we expect?\"",
+    "math": "Theoretical probability is calculated as the ratio of the number of favorable outcomes to the total number of possible outcomes. For a coin, the probability of getting heads is $\\frac{1}{2}$ because there are 2 possible outcomes (heads or tails) and 1 favorable outcome (heads).\nExperimental probability is calculated as the ratio of the number of times an event occurs to the total number of trials. If you flip a coin 10 times and get heads 6 times, the experimental probability is $\\frac{6}{10} = 0.6$.",
+    "formulas": "- Theoretical Probability: $P(E) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}$\n  - $P(E)$: Probability of event $E$\n- Experimental Probability: $P(E) = \\frac{\\text{Number of times event occurs}}{\\text{Total number of trials}}$\n  - $P(E)$: Probability of event $E$",
+    "guide": "1. **Start with a simple question:** \"What do you think will happen if we flip this coin?\"\n2. **Perform the experiment:** Flip the coin multiple times and record the results.\n3. **Discuss the results:** Compare the experimental results with the theoretical probability.\n4. **Ask questions:** \"Why do you think we got these results?\"\n5. **Encourage reflection:** \"How might more trials affect our experimental probability?\"\n6. **Connect to real life:** \"Can you think of other situations where probability is important?\"",
+    "mistakes": "- Confusing theoretical and experimental probability. **Try:** Clarify with examples and definitions.\n- Forgetting to record results accurately. **Try:** Use a simple tally chart.\n- Assuming small experiments will always match theoretical probability. **Try:** Discuss the role of chance and sample size.",
+    "connection": "Probability is used in weather forecasting, helping us decide whether to carry an umbrella. It's also important in games of chance, like board games or sports, where understanding odds can influence strategy.",
+    "close": "Exploring probability helps children understand the world of chance and decision-making. Keep experimenting and discovering together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the theoretical probability of rolling a 3 on a standard 6-sided die?",
+      "hint_md": "Consider how many sides the die has and how many show a 3.",
+      "answer_md": "$\\frac{1}{6}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you roll a die 12 times and get a 3 four times, what is the experimental probability of rolling a 3?",
+      "hint_md": "Use the formula for experimental probability.",
+      "answer_md": "$\\frac{4}{12} = \\frac{1}{3}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Why might the experimental probability differ from the theoretical probability?",
+      "hint_md": "Think about the role of chance and the number of trials.",
+      "answer_md": "Experimental probability can differ due to chance and the small number of trials."
+    }
+  ]
+}

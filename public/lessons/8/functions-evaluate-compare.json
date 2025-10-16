@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "29e7b5b3-afb9-42f6-bc2d-243da115295e",
+    "slug": "functions-evaluate-compare",
+    "title": "Functions: Evaluate & Compare",
+    "summary": "Functions: Evaluate & Compare — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what a function is and how to evaluate it.\n- Learn to compare functions using tables and graphs.\n- **Why this matters for parents:** Functions are foundational in math and help develop logical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Functions are like machines that take an input, do something to it, and give an output. They are a key concept in math that helps us understand relationships between numbers.\nUnderstanding functions is important because they are used in various real-life situations, like calculating expenses or predicting trends. Helping your child grasp this concept will support their problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A function is a rule that assigns each input exactly one output. Think of it like a vending machine: you put in a number (input), and it gives you a snack (output). Evaluating a function means finding the output for a given input.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use a simple function: $f(x) = 2x + 3$. This means for any number $x$, you multiply by 2 and add 3.\"\n2. **Ask:** \"What do you think $f(2)$ would be?\"\n3. Use a calculator or paper to compute: $f(2) = 2(2) + 3 = 7$.\n4. **Say:** \"Let's compare two functions. Use a table to list outputs for $f(x) = 2x + 3$ and $g(x) = x^2$.\"\n5. Use coins or buttons to represent different $x$ values and calculate outputs.\n6. **Ask:** \"Which function grows faster as $x$ increases?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To evaluate a function like $f(x) = 2x + 3$, substitute the input value for $x$. For example, if $x = 4$, then $f(4) = 2(4) + 3 = 11$. Comparing functions involves looking at how outputs change as inputs change. For instance, $f(x) = 2x + 3$ grows linearly, while $g(x) = x^2$ grows quadratically.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "f(x) = 2x + 3\n* $f(x)$: output of the function\n  * $x$: input value\n  * $2x + 3$: rule to calculate output\ng(x) = x^2\n* $g(x)$: output of the function\n  * $x$: input value\n  * $x^2$: rule to calculate output",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is a function?\" Explain it as a rule that gives one output for each input.\n2. **Say:** \"Let's evaluate $f(x) = 2x + 3$ for $x = 5$.\"\n3. Calculate together: $f(5) = 2(5) + 3 = 13$.\n4. **Ask:** \"How does $f(x) = 2x + 3$ compare to $g(x) = x^2$?\"\n5. Use a table to list outputs for $x = 1, 2, 3$ for both functions.\n6. **Say:** \"Notice how $g(x)$ grows faster than $f(x)$ as $x$ increases.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing input and output. **Try:** Clarify that input is what you put into the function, and output is what you get out.\n- Forgetting to apply the function rule. **Try:** Write down the rule each time you evaluate.\n- Mixing up function names. **Try:** Use clear labels like $f(x)$ and $g(x)$ to keep track.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Functions are used in budgeting. For example, if you earn $10 per hour, your earnings function is $E(h) = 10h$, where $h$ is hours worked.\nFunctions also help in predicting weather patterns, where temperature changes can be modeled as functions of time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding functions opens the door to many exciting math concepts. Keep exploring and enjoy the journey with your child!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what a function is and how to evaluate it.\n- Learn to compare functions using tables and graphs.\n- **Why this matters for parents:** Functions are foundational in math and help develop logical thinking.",
+    "overview": "Functions are like machines that take an input, do something to it, and give an output. They are a key concept in math that helps us understand relationships between numbers.\nUnderstanding functions is important because they are used in various real-life situations, like calculating expenses or predicting trends. Helping your child grasp this concept will support their problem-solving skills.",
+    "core": "A function is a rule that assigns each input exactly one output. Think of it like a vending machine: you put in a number (input), and it gives you a snack (output). Evaluating a function means finding the output for a given input.",
+    "demo": "1. **Say:** \"Let's use a simple function: $f(x) = 2x + 3$. This means for any number $x$, you multiply by 2 and add 3.\"\n2. **Ask:** \"What do you think $f(2)$ would be?\"\n3. Use a calculator or paper to compute: $f(2) = 2(2) + 3 = 7$.\n4. **Say:** \"Let's compare two functions. Use a table to list outputs for $f(x) = 2x + 3$ and $g(x) = x^2$.\"\n5. Use coins or buttons to represent different $x$ values and calculate outputs.\n6. **Ask:** \"Which function grows faster as $x$ increases?\"",
+    "math": "To evaluate a function like $f(x) = 2x + 3$, substitute the input value for $x$. For example, if $x = 4$, then $f(4) = 2(4) + 3 = 11$. Comparing functions involves looking at how outputs change as inputs change. For instance, $f(x) = 2x + 3$ grows linearly, while $g(x) = x^2$ grows quadratically.",
+    "formulas": "f(x) = 2x + 3\n* $f(x)$: output of the function\n  * $x$: input value\n  * $2x + 3$: rule to calculate output\ng(x) = x^2\n* $g(x)$: output of the function\n  * $x$: input value\n  * $x^2$: rule to calculate output",
+    "guide": "1. **Ask:** \"What is a function?\" Explain it as a rule that gives one output for each input.\n2. **Say:** \"Let's evaluate $f(x) = 2x + 3$ for $x = 5$.\"\n3. Calculate together: $f(5) = 2(5) + 3 = 13$.\n4. **Ask:** \"How does $f(x) = 2x + 3$ compare to $g(x) = x^2$?\"\n5. Use a table to list outputs for $x = 1, 2, 3$ for both functions.\n6. **Say:** \"Notice how $g(x)$ grows faster than $f(x)$ as $x$ increases.\"",
+    "mistakes": "- Confusing input and output. **Try:** Clarify that input is what you put into the function, and output is what you get out.\n- Forgetting to apply the function rule. **Try:** Write down the rule each time you evaluate.\n- Mixing up function names. **Try:** Use clear labels like $f(x)$ and $g(x)$ to keep track.",
+    "connection": "Functions are used in budgeting. For example, if you earn $10 per hour, your earnings function is $E(h) = 10h$, where $h$ is hours worked.\nFunctions also help in predicting weather patterns, where temperature changes can be modeled as functions of time.",
+    "close": "Understanding functions opens the door to many exciting math concepts. Keep exploring and enjoy the journey with your child!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Evaluate $f(x) = 3x - 4$ for $x = 6$.",
+      "hint_md": "Substitute $x = 6$ into the function.",
+      "answer_md": "$f(6) = 3(6) - 4 = 18 - 4 = 14$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Compare $f(x) = x + 2$ and $g(x) = 2x$ for $x = 3$. Which is larger?",
+      "hint_md": "Calculate $f(3)$ and $g(3)$ separately.",
+      "answer_md": "$f(3) = 5$, $g(3) = 6$. So, $g(3)$ is larger."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If $h(x) = x^2 - 1$, what is $h(4)$?",
+      "hint_md": "Substitute $x = 4$ into the function.",
+      "answer_md": "$h(4) = 4^2 - 1 = 16 - 1 = 15$"
+    }
+  ]
+}

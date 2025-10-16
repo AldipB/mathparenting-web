@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "5681f00d-6dea-429d-a78e-7f0b1270e208",
+    "title": "Ratios, Rates & Percents",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "111e0efe-4dc1-4084-869c-36712586d051",
+    "slug": "ratios-rates",
+    "title": "Ratios & Rates",
+    "summary": "Ratios & Rates — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of ratios and rates\n- Learn to identify and create ratios using everyday objects\n- Apply ratios to solve real-world problems\n**Why this matters for parents:** Ratios and rates are foundational for understanding proportions, which are crucial in everyday decision-making and problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Ratios compare two quantities, showing how many times one value contains another. Rates are a special type of ratio where the two quantities have different units, like miles per hour.\nUnderstanding ratios and rates helps children make sense of relationships between numbers and apply math to real-world situations, such as cooking or budgeting.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Ratios and rates are about comparing quantities. For example, if you have 3 apples and 2 oranges, the ratio of apples to oranges is 3:2. This means for every 3 apples, there are 2 oranges. Rates, like driving 60 miles in 1 hour, show how one quantity changes in relation to another over time.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 6 apples and 4 oranges.\n   **Say:** Let's compare the number of apples to oranges.\n2. **Ask:** How many apples do we have? How many oranges?\n3. **Say:** The ratio of apples to oranges is 6:4. We can simplify this to 3:2 by dividing both numbers by 2.\n4. **Ask:** What does this ratio mean? (For every 3 apples, there are 2 oranges.)\n5. **Say:** Now, let's think about a rate. If we eat 2 apples in 1 hour, the rate is 2 apples per hour.\n6. **Ask:** How many apples would we eat in 3 hours at this rate?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A ratio is written as $a:b$ or $\\frac{a}{b}$. For example, if there are 8 cookies and 4 brownies, the ratio of cookies to brownies is $8:4$, which simplifies to $2:1$.\nA rate compares two quantities with different units, like 30 miles per hour (mph). If you drive 60 miles in 2 hours, the rate is $\\frac{60}{2} = 30$ mph.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Ratio: $a:b$\n  - $a$ and $b$ are the quantities being compared\n- Rate: $\\frac{a}{b}$\n  - $a$ is the quantity of interest\n  - $b$ is the unit of measurement",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with simple objects like apples and oranges.\n   **Ask:** Can you count how many of each we have?\n2. Explain the concept of a ratio using these objects.\n   **Say:** We can compare these numbers using a ratio.\n3. Simplify the ratio if possible.\n   **Ask:** Can we divide both numbers by the same value?\n4. Introduce rates with a real-life example, like speed.\n   **Say:** If we travel 60 miles in 2 hours, what is our speed?\n5. Practice creating and interpreting ratios and rates with your child.\n   **Ask:** Can you think of another example of a rate?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing ratios with rates.\n  Try: Clarify that ratios compare similar units, while rates compare different units.\n- Not simplifying ratios.\n  Try: Encourage dividing both parts of the ratio by their greatest common factor.\n- Misinterpreting the meaning of a rate.\n  Try: Use real-life examples to illustrate how rates work.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Ratios and rates are everywhere! When cooking, recipes use ratios to balance ingredients. Rates are used when calculating speed, like how fast you drive to school.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Ratios and rates help us understand and navigate the world. Keep exploring these concepts with your child to build strong math skills!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of ratios and rates\n- Learn to identify and create ratios using everyday objects\n- Apply ratios to solve real-world problems\n**Why this matters for parents:** Ratios and rates are foundational for understanding proportions, which are crucial in everyday decision-making and problem-solving.",
+    "overview": "Ratios compare two quantities, showing how many times one value contains another. Rates are a special type of ratio where the two quantities have different units, like miles per hour.\nUnderstanding ratios and rates helps children make sense of relationships between numbers and apply math to real-world situations, such as cooking or budgeting.",
+    "core": "Ratios and rates are about comparing quantities. For example, if you have 3 apples and 2 oranges, the ratio of apples to oranges is 3:2. This means for every 3 apples, there are 2 oranges. Rates, like driving 60 miles in 1 hour, show how one quantity changes in relation to another over time.",
+    "demo": "1. Gather 6 apples and 4 oranges.\n   **Say:** Let's compare the number of apples to oranges.\n2. **Ask:** How many apples do we have? How many oranges?\n3. **Say:** The ratio of apples to oranges is 6:4. We can simplify this to 3:2 by dividing both numbers by 2.\n4. **Ask:** What does this ratio mean? (For every 3 apples, there are 2 oranges.)\n5. **Say:** Now, let's think about a rate. If we eat 2 apples in 1 hour, the rate is 2 apples per hour.\n6. **Ask:** How many apples would we eat in 3 hours at this rate?",
+    "math": "A ratio is written as $a:b$ or $\\frac{a}{b}$. For example, if there are 8 cookies and 4 brownies, the ratio of cookies to brownies is $8:4$, which simplifies to $2:1$.\nA rate compares two quantities with different units, like 30 miles per hour (mph). If you drive 60 miles in 2 hours, the rate is $\\frac{60}{2} = 30$ mph.",
+    "formulas": "- Ratio: $a:b$\n  - $a$ and $b$ are the quantities being compared\n- Rate: $\\frac{a}{b}$\n  - $a$ is the quantity of interest\n  - $b$ is the unit of measurement",
+    "guide": "1. Start with simple objects like apples and oranges.\n   **Ask:** Can you count how many of each we have?\n2. Explain the concept of a ratio using these objects.\n   **Say:** We can compare these numbers using a ratio.\n3. Simplify the ratio if possible.\n   **Ask:** Can we divide both numbers by the same value?\n4. Introduce rates with a real-life example, like speed.\n   **Say:** If we travel 60 miles in 2 hours, what is our speed?\n5. Practice creating and interpreting ratios and rates with your child.\n   **Ask:** Can you think of another example of a rate?",
+    "mistakes": "- Confusing ratios with rates.\n  Try: Clarify that ratios compare similar units, while rates compare different units.\n- Not simplifying ratios.\n  Try: Encourage dividing both parts of the ratio by their greatest common factor.\n- Misinterpreting the meaning of a rate.\n  Try: Use real-life examples to illustrate how rates work.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Ratios and rates are everywhere! When cooking, recipes use ratios to balance ingredients. Rates are used when calculating speed, like how fast you drive to school.",
+    "close": "Ratios and rates help us understand and navigate the world. Keep exploring these concepts with your child to build strong math skills!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Ratios & Rates**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Ratios & Rates** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Ratios & Rates**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

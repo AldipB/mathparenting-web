@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "8f3cd54a-b342-4df2-8277-beaf4f980922",
+    "slug": "fractions-equivalence-compare",
+    "title": "Fractions: Equivalence; Compare",
+    "summary": "Fractions: Equivalence; Compare — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand equivalent fractions.\n- Compare fractions with different numerators and denominators.\n- **Why this matters for parents:** Building a strong foundation in fractions helps children with future math topics like ratios and algebra.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Fractions represent parts of a whole. Understanding equivalent fractions means recognizing different fractions that represent the same part of a whole. Comparing fractions involves determining which fraction is larger or smaller.\nThis matters because fractions are everywhere—from cooking to budgeting. Helping your child grasp these concepts boosts their confidence and prepares them for more complex math.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Equivalent fractions are different fractions that represent the same amount. For example, $\\frac{1}{2}$ is the same as $\\frac{2}{4}$. Comparing fractions involves looking at their sizes to see which is bigger or smaller.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** 8 equal slices of apple.\n2. **Say:** \"Let's find equivalent fractions. If we have 4 slices, that's $\\frac{4}{8}$ of the apple.\"\n3. **Ask:** \"If we take 2 slices, what fraction is that?\" (Answer: $\\frac{2}{8}$)\n4. **Say:** \"Notice $\\frac{4}{8}$ is the same as $\\frac{1}{2}$, and $\\frac{2}{8}$ is the same as $\\frac{1}{4}$.\"\n5. **Compare:** \"Which is more, $\\frac{1}{2}$ or $\\frac{1}{4}$?\" Show using the slices.\n6. **Conclude:** \"$\\frac{1}{2}$ is more because it covers more of the apple.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find equivalent fractions, multiply or divide both the numerator and denominator by the same number. For example, $\\frac{1}{2}$ can become $\\frac{2}{4}$ by multiplying both by 2. To compare fractions, find a common denominator or use visual aids like apple slices.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "\\frac{a}{b} = \\frac{a \\times n}{b \\times n}\n* a, b: original numerator and denominator\n  * n: any non-zero number",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** \"Fractions are parts of a whole.\"\n2. **Show:** Use objects like apple slices to demonstrate equivalent fractions.\n3. **Ask:** \"What do you notice about these fractions?\"\n4. **Compare:** Use visual aids to compare fractions.\n5. **Encourage:** \"Try finding equivalent fractions with different numbers.\"\n6. **Discuss:** \"Why do you think fractions are useful?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing numerators and denominators. **Try:** Use visuals to clarify.\n- Thinking larger denominators mean larger fractions. **Try:** Compare using same-sized objects.\n- Not simplifying fractions. **Try:** Practice dividing both parts by the same number.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking often involves fractions, like using $\\frac{1}{2}$ cup of sugar. Budgeting uses fractions to divide expenses.\nUnderstanding fractions helps in sports, like calculating batting averages.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring fractions! Keep practicing, and soon you'll see fractions everywhere in daily life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand equivalent fractions.\n- Compare fractions with different numerators and denominators.\n- **Why this matters for parents:** Building a strong foundation in fractions helps children with future math topics like ratios and algebra.",
+    "overview": "Fractions represent parts of a whole. Understanding equivalent fractions means recognizing different fractions that represent the same part of a whole. Comparing fractions involves determining which fraction is larger or smaller.\nThis matters because fractions are everywhere—from cooking to budgeting. Helping your child grasp these concepts boosts their confidence and prepares them for more complex math.",
+    "core": "Equivalent fractions are different fractions that represent the same amount. For example, $\\frac{1}{2}$ is the same as $\\frac{2}{4}$. Comparing fractions involves looking at their sizes to see which is bigger or smaller.",
+    "demo": "1. **Gather:** 8 equal slices of apple.\n2. **Say:** \"Let's find equivalent fractions. If we have 4 slices, that's $\\frac{4}{8}$ of the apple.\"\n3. **Ask:** \"If we take 2 slices, what fraction is that?\" (Answer: $\\frac{2}{8}$)\n4. **Say:** \"Notice $\\frac{4}{8}$ is the same as $\\frac{1}{2}$, and $\\frac{2}{8}$ is the same as $\\frac{1}{4}$.\"\n5. **Compare:** \"Which is more, $\\frac{1}{2}$ or $\\frac{1}{4}$?\" Show using the slices.\n6. **Conclude:** \"$\\frac{1}{2}$ is more because it covers more of the apple.\"",
+    "math": "To find equivalent fractions, multiply or divide both the numerator and denominator by the same number. For example, $\\frac{1}{2}$ can become $\\frac{2}{4}$ by multiplying both by 2. To compare fractions, find a common denominator or use visual aids like apple slices.",
+    "formulas": "\\frac{a}{b} = \\frac{a \\times n}{b \\times n}\n* a, b: original numerator and denominator\n  * n: any non-zero number",
+    "guide": "1. **Explain:** \"Fractions are parts of a whole.\"\n2. **Show:** Use objects like apple slices to demonstrate equivalent fractions.\n3. **Ask:** \"What do you notice about these fractions?\"\n4. **Compare:** Use visual aids to compare fractions.\n5. **Encourage:** \"Try finding equivalent fractions with different numbers.\"\n6. **Discuss:** \"Why do you think fractions are useful?\"",
+    "mistakes": "- Confusing numerators and denominators. **Try:** Use visuals to clarify.\n- Thinking larger denominators mean larger fractions. **Try:** Compare using same-sized objects.\n- Not simplifying fractions. **Try:** Practice dividing both parts by the same number.",
+    "connection": "Cooking often involves fractions, like using $\\frac{1}{2}$ cup of sugar. Budgeting uses fractions to divide expenses.\nUnderstanding fractions helps in sports, like calculating batting averages.",
+    "close": "Great job exploring fractions! Keep practicing, and soon you'll see fractions everywhere in daily life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Are $\\frac{3}{6}$ and $\\frac{1}{2}$ equivalent?",
+      "hint_md": "Try folding a paper into 6 parts and shading 3.",
+      "answer_md": "Yes, $\\frac{3}{6}$ is equivalent to $\\frac{1}{2}$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Which is larger: $\\frac{2}{3}$ or $\\frac{3}{4}$?",
+      "hint_md": "Convert to a common denominator or use a visual model.",
+      "answer_md": "$\\frac{3}{4}$ is larger than $\\frac{2}{3}$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Simplify $\\frac{6}{9}$.",
+      "hint_md": "Divide both the numerator and denominator by their greatest common factor.",
+      "answer_md": "$\\frac{6}{9}$ simplifies to $\\frac{2}{3}$."
+    }
+  ]
+}

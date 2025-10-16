@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "65980ced-4cb1-4433-aa8e-4f3c4177962d",
+    "slug": "factoring-gcf-trinomials-special-products",
+    "title": "Factoring (GCF, Trinomials, Special Products)",
+    "summary": "Factoring (GCF, Trinomials, Special Products) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to factor using the Greatest Common Factor (GCF).\n- Learn to factor trinomials and recognize special products.\n- Apply factoring skills to solve algebraic expressions.\n- **Why this matters for parents:** Factoring is a foundational skill in algebra that helps with problem-solving and critical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Factoring is a way of breaking down expressions into simpler parts, making them easier to work with. It involves finding numbers or expressions that multiply together to form the original expression.\nThis skill is crucial because it simplifies complex problems and is used in various real-life situations, like calculating areas or understanding patterns.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Factoring involves identifying common factors in expressions and rewriting them as a product. This can simplify expressions and make solving equations easier. We'll explore factoring by finding the Greatest Common Factor (GCF), factoring trinomials, and recognizing special products like perfect squares.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the GCF of 12 and 18 using objects. Gather 12 and 18 small items (like beans).\n2. **Ask:** Can we group these items into equal piles? Try grouping them into piles of 6.\n3. **Say:** Both numbers can be divided by 6. So, 6 is the GCF.\n4. **Say:** Now, let's factor the trinomial $x^2 + 5x + 6$. Look for two numbers that multiply to 6 and add to 5.\n5. **Say:** The numbers 2 and 3 work. So, $x^2 + 5x + 6 = (x + 2)(x + 3)$.\n6. **Ask:** Can you see how breaking it down makes it simpler?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To factor using the GCF, find the largest number that divides all terms. For example, in $6x + 9$, the GCF is 3. So, $6x + 9 = 3(2x + 3)$.\nFor trinomials like $x^2 + 5x + 6$, find two numbers that multiply to the constant term (6) and add to the middle coefficient (5). Here, 2 and 3 work, so $x^2 + 5x + 6 = (x + 2)(x + 3)$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "GCF: $a + b = c$\n* $a$, $b$: terms in the expression\n* $c$: greatest common factor\nTrinomial: $x^2 + bx + c = (x + p)(x + q)$\n* $p$, $q$: numbers that multiply to $c$ and add to $b$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What numbers divide all terms in the expression?\n2. **Say:** Let's factor out the GCF first.\n3. **Ask:** Can we break down the trinomial into two binomials?\n4. **Say:** Look for patterns like perfect squares.\n5. **Ask:** How does factoring simplify the problem?\n6. **Say:** Practice with different expressions to get comfortable.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to factor out the GCF. **Try:** Always start by finding the GCF.\n- Mixing up signs in trinomials. **Try:** Double-check the signs when finding $p$ and $q$.\n- Not checking your work. **Try:** Multiply the factors to ensure they match the original expression.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Factoring is like organizing a messy room. By grouping similar items, you make the space more functional. Similarly, factoring organizes expressions to make them easier to understand and solve.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job on learning how to factor! Keep practicing, and soon it will feel like second nature. You've got this!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to factor using the Greatest Common Factor (GCF).\n- Learn to factor trinomials and recognize special products.\n- Apply factoring skills to solve algebraic expressions.\n- **Why this matters for parents:** Factoring is a foundational skill in algebra that helps with problem-solving and critical thinking.",
+    "overview": "Factoring is a way of breaking down expressions into simpler parts, making them easier to work with. It involves finding numbers or expressions that multiply together to form the original expression.\nThis skill is crucial because it simplifies complex problems and is used in various real-life situations, like calculating areas or understanding patterns.",
+    "core": "Factoring involves identifying common factors in expressions and rewriting them as a product. This can simplify expressions and make solving equations easier. We'll explore factoring by finding the Greatest Common Factor (GCF), factoring trinomials, and recognizing special products like perfect squares.",
+    "demo": "1. **Say:** Let's find the GCF of 12 and 18 using objects. Gather 12 and 18 small items (like beans).\n2. **Ask:** Can we group these items into equal piles? Try grouping them into piles of 6.\n3. **Say:** Both numbers can be divided by 6. So, 6 is the GCF.\n4. **Say:** Now, let's factor the trinomial $x^2 + 5x + 6$. Look for two numbers that multiply to 6 and add to 5.\n5. **Say:** The numbers 2 and 3 work. So, $x^2 + 5x + 6 = (x + 2)(x + 3)$.\n6. **Ask:** Can you see how breaking it down makes it simpler?",
+    "math": "To factor using the GCF, find the largest number that divides all terms. For example, in $6x + 9$, the GCF is 3. So, $6x + 9 = 3(2x + 3)$.\nFor trinomials like $x^2 + 5x + 6$, find two numbers that multiply to the constant term (6) and add to the middle coefficient (5). Here, 2 and 3 work, so $x^2 + 5x + 6 = (x + 2)(x + 3)$.",
+    "formulas": "GCF: $a + b = c$\n* $a$, $b$: terms in the expression\n* $c$: greatest common factor\nTrinomial: $x^2 + bx + c = (x + p)(x + q)$\n* $p$, $q$: numbers that multiply to $c$ and add to $b$",
+    "guide": "1. **Ask:** What numbers divide all terms in the expression?\n2. **Say:** Let's factor out the GCF first.\n3. **Ask:** Can we break down the trinomial into two binomials?\n4. **Say:** Look for patterns like perfect squares.\n5. **Ask:** How does factoring simplify the problem?\n6. **Say:** Practice with different expressions to get comfortable.",
+    "mistakes": "- Forgetting to factor out the GCF. **Try:** Always start by finding the GCF.\n- Mixing up signs in trinomials. **Try:** Double-check the signs when finding $p$ and $q$.\n- Not checking your work. **Try:** Multiply the factors to ensure they match the original expression.",
+    "connection": "Factoring is like organizing a messy room. By grouping similar items, you make the space more functional. Similarly, factoring organizes expressions to make them easier to understand and solve.",
+    "close": "Great job on learning how to factor! Keep practicing, and soon it will feel like second nature. You've got this!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Factor $8x + 12$.",
+      "hint_md": "Find the GCF of 8 and 12.",
+      "answer_md": "$4(2x + 3)$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Factor $x^2 + 7x + 10$.",
+      "hint_md": "Look for two numbers that multiply to 10 and add to 7.",
+      "answer_md": "$(x + 2)(x + 5)$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Factor $x^2 - 9$.",
+      "hint_md": "Recognize this as a difference of squares.",
+      "answer_md": "$(x + 3)(x - 3)$"
+    }
+  ]
+}

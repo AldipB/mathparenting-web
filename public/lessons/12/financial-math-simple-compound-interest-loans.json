@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5d6241fa-570e-499f-853b-3a322226b6d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "e1184246-7428-47a5-80ae-32885cfe039e",
+    "slug": "financial-math-simple-compound-interest-loans",
+    "title": "Financial Math: Simple/Compound Interest, Loans",
+    "summary": "Financial Math: Simple/Compound Interest, Loans — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand simple and compound interest.\n- Learn how loans work and how interest affects them.\n- Apply these concepts to real-life financial decisions.\n- **Why this matters for parents:** Equip your child with essential financial skills for adulthood.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores financial math, focusing on simple and compound interest, and how they apply to loans. Understanding these concepts helps in making informed financial decisions.\nFinancial literacy is crucial for managing personal finances, planning for the future, and avoiding debt traps. By grasping these concepts, your child will be better prepared for financial independence.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Simple interest is calculated on the original amount of money, while compound interest is calculated on the initial amount plus any interest earned. Loans often use these principles to determine how much you pay back over time.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a jar of coins and a notebook.\n2. **Say:** \"Imagine we put $100 in a savings account with a simple interest rate of 5% per year.\"\n3. **Ask:** \"How much interest will we earn in one year?\"\n4. Use the coins to show $5 as the interest earned.\n5. **Say:** \"Now, if it were compound interest, we'd earn interest on $105 next year.\"\n6. **Ask:** \"How does this change the total after two years?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Simple interest is calculated as $I = P \times r \times t$, where $P$ is the principal, $r$ is the rate, and $t$ is time.\nFor example, with $P = 100$, $r = 0.05$, and $t = 1$, the interest $I = 100 \times 0.05 \times 1 = 5$.\nCompound interest uses $A = P(1 + r)^t$. With the same $P$ and $r$, after 2 years, $A = 100(1 + 0.05)^2 = 110.25$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Simple Interest: $I = P \times r \times t$\n  - $I$: Interest\n  - $P$: Principal (initial amount)\n  - $r$: Interest rate (as a decimal)\n  - $t$: Time (in years)\n- Compound Interest: $A = P(1 + r)^t$\n  - $A$: Total amount after interest\n  - $P$: Principal\n  - $r$: Interest rate\n  - $t$: Time",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss with your child the difference between simple and compound interest.\n2. Use real-life examples, like savings accounts, to illustrate these concepts.\n3. Show how to calculate interest using the formulas.\n4. Discuss how loans work and the impact of interest rates.\n5. Encourage your child to think about how interest affects savings and debt.\n6. Reinforce learning by discussing financial goals and planning.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing simple and compound interest: Try explaining with clear examples.\n- Forgetting to convert percentage rates to decimals: Remind them to divide by 100.\n- Misapplying the time period in formulas: Ensure they understand the units (years vs. months).",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Interest calculations are used in savings accounts, credit cards, and mortgages. Understanding these helps in making smart financial choices, like choosing the best savings plan or loan.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding interest is a powerful tool for financial success. Keep exploring these concepts to build a secure financial future!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand simple and compound interest.\n- Learn how loans work and how interest affects them.\n- Apply these concepts to real-life financial decisions.\n- **Why this matters for parents:** Equip your child with essential financial skills for adulthood.",
+    "overview": "This lesson explores financial math, focusing on simple and compound interest, and how they apply to loans. Understanding these concepts helps in making informed financial decisions.\nFinancial literacy is crucial for managing personal finances, planning for the future, and avoiding debt traps. By grasping these concepts, your child will be better prepared for financial independence.",
+    "core": "Simple interest is calculated on the original amount of money, while compound interest is calculated on the initial amount plus any interest earned. Loans often use these principles to determine how much you pay back over time.",
+    "demo": "1. Gather a jar of coins and a notebook.\n2. **Say:** \"Imagine we put $100 in a savings account with a simple interest rate of 5% per year.\"\n3. **Ask:** \"How much interest will we earn in one year?\"\n4. Use the coins to show $5 as the interest earned.\n5. **Say:** \"Now, if it were compound interest, we'd earn interest on $105 next year.\"\n6. **Ask:** \"How does this change the total after two years?\"",
+    "math": "Simple interest is calculated as $I = P \times r \times t$, where $P$ is the principal, $r$ is the rate, and $t$ is time.\nFor example, with $P = 100$, $r = 0.05$, and $t = 1$, the interest $I = 100 \times 0.05 \times 1 = 5$.\nCompound interest uses $A = P(1 + r)^t$. With the same $P$ and $r$, after 2 years, $A = 100(1 + 0.05)^2 = 110.25$.",
+    "formulas": "- Simple Interest: $I = P \times r \times t$\n  - $I$: Interest\n  - $P$: Principal (initial amount)\n  - $r$: Interest rate (as a decimal)\n  - $t$: Time (in years)\n- Compound Interest: $A = P(1 + r)^t$\n  - $A$: Total amount after interest\n  - $P$: Principal\n  - $r$: Interest rate\n  - $t$: Time",
+    "guide": "1. Discuss with your child the difference between simple and compound interest.\n2. Use real-life examples, like savings accounts, to illustrate these concepts.\n3. Show how to calculate interest using the formulas.\n4. Discuss how loans work and the impact of interest rates.\n5. Encourage your child to think about how interest affects savings and debt.\n6. Reinforce learning by discussing financial goals and planning.",
+    "mistakes": "- Confusing simple and compound interest: Try explaining with clear examples.\n- Forgetting to convert percentage rates to decimals: Remind them to divide by 100.\n- Misapplying the time period in formulas: Ensure they understand the units (years vs. months).",
+    "connection": "Interest calculations are used in savings accounts, credit cards, and mortgages. Understanding these helps in making smart financial choices, like choosing the best savings plan or loan.",
+    "close": "Understanding interest is a powerful tool for financial success. Keep exploring these concepts to build a secure financial future!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate the simple interest on $200 at a 3% rate for 4 years.",
+      "hint_md": "Use the formula $I = P \\times r \\times t$.",
+      "answer_md": "$I = 200 \\times 0.03 \\times 4 = 24$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the total amount after 3 years if $150 is invested at a 4% compound interest rate?",
+      "hint_md": "Use the formula $A = P(1 + r)^t$.",
+      "answer_md": "$A = 150(1 + 0.04)^3 \\approx 168.73$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If a loan of $500 has a simple interest rate of 6% for 2 years, what is the total repayment amount?",
+      "hint_md": "Calculate the interest first, then add it to the principal.",
+      "answer_md": "Interest $I = 500 \\times 0.06 \\times 2 = 60$. Total repayment = $500 + 60 = 560$."
+    }
+  ]
+}

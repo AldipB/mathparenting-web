@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "e88871e3-d010-4b49-ab34-b9fd9eaffc84",
+    "title": "Rational Numbers & Integers",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "03976849-51b8-4e79-8dde-6d1fb32b8005",
+    "slug": "rational-numbers-fractions-decimals",
+    "title": "Rational Numbers (± Fractions & Decimals)",
+    "summary": "Rational Numbers (± Fractions & Decimals) — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand positive and negative fractions and decimals.\n- Learn to compare and order rational numbers.\n- Convert between fractions and decimals.\n- **Why this matters for parents:** Building a strong foundation in rational numbers helps your child with everyday math tasks, like budgeting and cooking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rational numbers include fractions and decimals, both positive and negative. They are numbers that can be expressed as the quotient of two integers.\nUnderstanding rational numbers is crucial because they appear in many real-life situations, such as measuring ingredients or comparing prices. Mastering these concepts helps children develop strong number sense.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rational numbers can be positive or negative. A positive fraction like $\\frac{3}{4}$ or a negative decimal like $-0.5$ are both rational numbers. Being comfortable with these numbers allows children to handle real-world problems more effectively.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A measuring cup, a ruler, and some coins.\n2. **Say:** \"Let's find a fraction using this measuring cup. If we fill it halfway, what fraction is that?\"\n3. **Ask:** \"If we have $0.5$ of a cup, how does that relate to our fraction?\"\n4. **Use the ruler:** Measure 3.5 inches and explain how $3.5$ is a rational number.\n5. **Coins:** Use coins to show $\\frac{1}{2}$ dollar and relate it to $0.5$.\n6. **Ask:** \"Can you think of a time when you used a fraction or decimal today?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A rational number can be expressed as $\\frac{a}{b}$, where $a$ and $b$ are integers and $b \\neq 0$. For example, $\\frac{3}{4}$ is a rational number. Similarly, $0.75$ is a decimal representation of the same number. Negative rational numbers, like $-\\frac{2}{3}$, work the same way.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$\\frac{a}{b}$$\n- $a$: numerator (top number)\n- $b$: denominator (bottom number, not zero)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** \"Rational numbers can be fractions or decimals.\"\n2. **Show:** Use the measuring cup to demonstrate $\\frac{1}{2}$ and $0.5$.\n3. **Discuss:** \"Negative numbers are just like positive ones, but in the opposite direction.\"\n4. **Practice:** Convert $\\frac{3}{4}$ to a decimal with your child.\n5. **Explore:** Find examples of rational numbers in your home.\n6. **Reflect:** \"Why do you think understanding these numbers is important?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up numerators and denominators. Try: Remind them the numerator is on top.\n- Thinking $0.5$ is greater than $\\frac{3}{4}$. Try: Convert $\\frac{3}{4}$ to $0.75$ to compare.\n- Forgetting the negative sign. Try: Use a number line to show direction.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Rational numbers are used in cooking recipes, where ingredients are often measured in fractions. They are also important in budgeting, where expenses and savings are calculated using decimals.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding rational numbers opens up a world of practical math skills. Keep exploring these concepts together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand positive and negative fractions and decimals.\n- Learn to compare and order rational numbers.\n- Convert between fractions and decimals.\n- **Why this matters for parents:** Building a strong foundation in rational numbers helps your child with everyday math tasks, like budgeting and cooking.",
+    "overview": "Rational numbers include fractions and decimals, both positive and negative. They are numbers that can be expressed as the quotient of two integers.\nUnderstanding rational numbers is crucial because they appear in many real-life situations, such as measuring ingredients or comparing prices. Mastering these concepts helps children develop strong number sense.",
+    "core": "Rational numbers can be positive or negative. A positive fraction like $\\frac{3}{4}$ or a negative decimal like $-0.5$ are both rational numbers. Being comfortable with these numbers allows children to handle real-world problems more effectively.",
+    "demo": "1. **Gather:** A measuring cup, a ruler, and some coins.\n2. **Say:** \"Let's find a fraction using this measuring cup. If we fill it halfway, what fraction is that?\"\n3. **Ask:** \"If we have $0.5$ of a cup, how does that relate to our fraction?\"\n4. **Use the ruler:** Measure 3.5 inches and explain how $3.5$ is a rational number.\n5. **Coins:** Use coins to show $\\frac{1}{2}$ dollar and relate it to $0.5$.\n6. **Ask:** \"Can you think of a time when you used a fraction or decimal today?\"",
+    "math": "A rational number can be expressed as $\\frac{a}{b}$, where $a$ and $b$ are integers and $b \\neq 0$. For example, $\\frac{3}{4}$ is a rational number. Similarly, $0.75$ is a decimal representation of the same number. Negative rational numbers, like $-\\frac{2}{3}$, work the same way.",
+    "formulas": "$$\\frac{a}{b}$$\n- $a$: numerator (top number)\n- $b$: denominator (bottom number, not zero)",
+    "guide": "1. **Explain:** \"Rational numbers can be fractions or decimals.\"\n2. **Show:** Use the measuring cup to demonstrate $\\frac{1}{2}$ and $0.5$.\n3. **Discuss:** \"Negative numbers are just like positive ones, but in the opposite direction.\"\n4. **Practice:** Convert $\\frac{3}{4}$ to a decimal with your child.\n5. **Explore:** Find examples of rational numbers in your home.\n6. **Reflect:** \"Why do you think understanding these numbers is important?\"",
+    "mistakes": "- Mixing up numerators and denominators. Try: Remind them the numerator is on top.\n- Thinking $0.5$ is greater than $\\frac{3}{4}$. Try: Convert $\\frac{3}{4}$ to $0.75$ to compare.\n- Forgetting the negative sign. Try: Use a number line to show direction.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Rational numbers are used in cooking recipes, where ingredients are often measured in fractions. They are also important in budgeting, where expenses and savings are calculated using decimals.",
+    "close": "Understanding rational numbers opens up a world of practical math skills. Keep exploring these concepts together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Rational Numbers (± Fractions & Decimals)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Rational Numbers (± Fractions & Decimals)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Rational Numbers (± Fractions & Decimals)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

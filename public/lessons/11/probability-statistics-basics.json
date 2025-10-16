@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "2239fef4-feb8-4f29-b5b5-5ed3eeb45086",
+    "title": "Probability & Statistics (Basics)",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "ed6706b5-b2f4-499d-b556-56a14f138337",
+    "slug": "probability-statistics-basics",
+    "title": "Probability & Statistics Basics",
+    "summary": "Probability & Statistics Basics — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic probability and statistics concepts.\n- Learn how to calculate simple probabilities.\n- Recognize the importance of statistics in daily life.\n**Why this matters for parents:** Understanding these concepts helps you guide your child through real-world decision-making and data interpretation.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Probability and statistics are branches of mathematics that deal with the likelihood of events and the analysis of data. Probability measures how likely something is to happen, while statistics involves collecting and analyzing numerical data.\nThese concepts are crucial because they help us make informed decisions based on data. Whether predicting the weather or understanding survey results, probability and statistics are everywhere in our daily lives.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Probability is the chance that a particular event will occur, expressed as a number between 0 and 1. Statistics involves gathering data and interpreting it to understand trends and patterns. Together, they help us make sense of uncertainty and variability in the world.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore probability using a coin. Grab a coin from your pocket.\n2. **Ask:** What do you think is the probability of flipping heads?\n3. **Say:** Since a coin has two sides, the probability of getting heads is 1 out of 2, or $\\frac{1}{2}$.\n4. **Ask:** What if we flip the coin twice? What are the chances of getting heads both times?\n5. **Say:** Multiply the probabilities: $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. So, there's a 25% chance.\n6. **Ask:** How might this change if we used a different object, like a die?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Probability is calculated as the number of favorable outcomes divided by the total number of possible outcomes. For example, the probability of rolling a 3 on a 6-sided die is $\\frac{1}{6}$ because there is one favorable outcome (rolling a 3) and six possible outcomes (1 through 6).",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}$\n  - $P(A)$: Probability of event A\n  - Favorable outcomes: Outcomes that satisfy the event\n  - Total outcomes: All possible outcomes",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What are some events in our daily lives that involve probability?\n2. **Say:** Let's list some examples, like the weather forecast or choosing a random card from a deck.\n3. **Ask:** How can we use probability to make decisions?\n4. **Say:** Discuss how understanding probability can help us weigh risks and benefits.\n5. **Ask:** How do statistics help us understand data from surveys or studies?\n6. **Say:** Encourage your child to think about how data is used in news or research.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing probability with certainty. **Try:** Emphasize that probability is about likelihood, not certainty.\n- Forgetting to consider all possible outcomes. **Try:** List all outcomes before calculating probability.\n- Misunderstanding independent events. **Try:** Explain that independent events don't affect each other's outcomes.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Probability and statistics are used in predicting weather patterns, understanding medical studies, and even in sports strategies. They help us make informed choices based on data.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Probability and statistics open a world of understanding about how things work. Keep exploring these concepts to make sense of the data-driven world around us!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic probability and statistics concepts.\n- Learn how to calculate simple probabilities.\n- Recognize the importance of statistics in daily life.\n**Why this matters for parents:** Understanding these concepts helps you guide your child through real-world decision-making and data interpretation.",
+    "overview": "Probability and statistics are branches of mathematics that deal with the likelihood of events and the analysis of data. Probability measures how likely something is to happen, while statistics involves collecting and analyzing numerical data.\nThese concepts are crucial because they help us make informed decisions based on data. Whether predicting the weather or understanding survey results, probability and statistics are everywhere in our daily lives.",
+    "core": "Probability is the chance that a particular event will occur, expressed as a number between 0 and 1. Statistics involves gathering data and interpreting it to understand trends and patterns. Together, they help us make sense of uncertainty and variability in the world.",
+    "demo": "1. **Say:** Let's explore probability using a coin. Grab a coin from your pocket.\n2. **Ask:** What do you think is the probability of flipping heads?\n3. **Say:** Since a coin has two sides, the probability of getting heads is 1 out of 2, or $\\frac{1}{2}$.\n4. **Ask:** What if we flip the coin twice? What are the chances of getting heads both times?\n5. **Say:** Multiply the probabilities: $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. So, there's a 25% chance.\n6. **Ask:** How might this change if we used a different object, like a die?",
+    "math": "Probability is calculated as the number of favorable outcomes divided by the total number of possible outcomes. For example, the probability of rolling a 3 on a 6-sided die is $\\frac{1}{6}$ because there is one favorable outcome (rolling a 3) and six possible outcomes (1 through 6).",
+    "formulas": "- $P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}$\n  - $P(A)$: Probability of event A\n  - Favorable outcomes: Outcomes that satisfy the event\n  - Total outcomes: All possible outcomes",
+    "guide": "1. **Ask:** What are some events in our daily lives that involve probability?\n2. **Say:** Let's list some examples, like the weather forecast or choosing a random card from a deck.\n3. **Ask:** How can we use probability to make decisions?\n4. **Say:** Discuss how understanding probability can help us weigh risks and benefits.\n5. **Ask:** How do statistics help us understand data from surveys or studies?\n6. **Say:** Encourage your child to think about how data is used in news or research.",
+    "mistakes": "- Confusing probability with certainty. **Try:** Emphasize that probability is about likelihood, not certainty.\n- Forgetting to consider all possible outcomes. **Try:** List all outcomes before calculating probability.\n- Misunderstanding independent events. **Try:** Explain that independent events don't affect each other's outcomes.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Probability and statistics are used in predicting weather patterns, understanding medical studies, and even in sports strategies. They help us make informed choices based on data.",
+    "close": "Probability and statistics open a world of understanding about how things work. Keep exploring these concepts to make sense of the data-driven world around us!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Probability & Statistics Basics**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Probability & Statistics Basics** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Probability & Statistics Basics**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

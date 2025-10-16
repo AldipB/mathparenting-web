@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "d44768f9-7d1e-4cb2-9b25-fe2bd438c9e5",
+    "title": "Operations & Problems",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "59169017-0979-4aef-8785-0b46d6dbfca7",
+    "slug": "introduction-to-multiplication-ideas-groups-of-2-5-10",
+    "title": "Introduction to Multiplication Ideas (Groups of 2, 5, 10)",
+    "summary": "Introduction to Multiplication Ideas (Groups of 2, 5, 10) — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Introduce multiplication as grouping objects. Focus on groups of 2, 5, and 10 to build a foundation for understanding multiplication.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, your child will learn to recognize multiplication as a way to count groups of the same size. We'll use everyday objects to make this concept relatable and fun.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Multiplication is simply adding the same number repeatedly. For example, 2 groups of 5 means you have 5 + 5, which equals 10. We will explore groups of 2, 5, and 10 using items around the house.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Activity: Grouping Snacks\n1. Gather small snacks like crackers or grapes.\n2. Create groups of 2, 5, and 10 snacks.\n3. Count each group together.\n4. Say: 'Look, we have 2 groups of 5 crackers. How many do we have in total?'\n5. Help your child see that 5 + 5 = 10, which is the same as 2 groups of 5.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Multiplication can be thought of as repeated addition. For example, if you have 3 groups of 2, it can be written as $2 + 2 + 2 = 6$, or as $3 \\times 2 = 6$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$a \\times b = c$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather items like coins or buttons.\n2. Create groups of 2, 5, or 10.\n3. Count the total together.\n4. Ask: 'If we have 4 groups of 2, how many do we have in total?'\n5. Encourage them to see the pattern in counting.\n6. Celebrate their understanding!",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child struggles with counting, gently guide them back to the groups.\nIf they mix up the groups, say: 'Let's count this group again together.'\nIf they forget the concept of groups, remind them: 'Multiplication is just adding the same number again and again.'",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Multiplication helps us understand how many items we have when we buy in bulk, like packs of pencils or boxes of cereal.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child explore multiplication! Every small step builds their confidence and understanding.",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "Introduce multiplication as grouping objects. Focus on groups of 2, 5, and 10 to build a foundation for understanding multiplication.",
+    "overview": "In this lesson, your child will learn to recognize multiplication as a way to count groups of the same size. We'll use everyday objects to make this concept relatable and fun.",
+    "core": "Multiplication is simply adding the same number repeatedly. For example, 2 groups of 5 means you have 5 + 5, which equals 10. We will explore groups of 2, 5, and 10 using items around the house.",
+    "demo": "Activity: Grouping Snacks\n1. Gather small snacks like crackers or grapes.\n2. Create groups of 2, 5, and 10 snacks.\n3. Count each group together.\n4. Say: 'Look, we have 2 groups of 5 crackers. How many do we have in total?'\n5. Help your child see that 5 + 5 = 10, which is the same as 2 groups of 5.",
+    "math": "Multiplication can be thought of as repeated addition. For example, if you have 3 groups of 2, it can be written as $2 + 2 + 2 = 6$, or as $3 \\times 2 = 6$.",
+    "formulas": "$a \\times b = c$",
+    "guide": "1. Gather items like coins or buttons.\n2. Create groups of 2, 5, or 10.\n3. Count the total together.\n4. Ask: 'If we have 4 groups of 2, how many do we have in total?'\n5. Encourage them to see the pattern in counting.\n6. Celebrate their understanding!",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "mistakes": "If your child struggles with counting, gently guide them back to the groups.\nIf they mix up the groups, say: 'Let's count this group again together.'\nIf they forget the concept of groups, remind them: 'Multiplication is just adding the same number again and again.'",
+    "connection": "Multiplication helps us understand how many items we have when we buy in bulk, like packs of pencils or boxes of cereal.",
+    "close": "Great job helping your child explore multiplication! Every small step builds their confidence and understanding."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Introduction to Multiplication Ideas (Groups of 2, 5, 10)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Introduction to Multiplication Ideas (Groups of 2, 5, 10)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Introduction to Multiplication Ideas (Groups of 2, 5, 10)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "88c77591-4dfc-4525-9762-e3087eacf03e",
+    "slug": "add-within-20-strategies",
+    "title": "Add within 20 (Strategies)",
+    "summary": "Add within 20 (Strategies) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child add numbers within 20 using simple strategies.\n- Build confidence with addition through everyday examples.\n- **Why this matters for parents:** Understanding addition strategies helps children solve problems efficiently and builds a strong math foundation.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching children how to add numbers within 20 using strategies like counting on, making ten, and using doubles. These strategies help children move beyond simple counting and develop mental math skills.\nUnderstanding these strategies is important because they provide children with tools to solve addition problems more quickly and with greater confidence. This foundation will support their future math learning.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Addition within 20 can be made fun and relatable by using objects around the house. By practicing these strategies, your child will learn to see numbers in different ways, making addition easier and more intuitive.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather 20 small objects** like buttons or coins.\n2. **Say:** \"Let's add 7 and 5.\"\n3. **Ask:** \"Can you count out 7 objects?\"\n4. **Say:** \"Now, let's add 5 more.\"\n5. **Ask:** \"How many do we have in total?\"\n6. **Say:** \"Great! We have 12. Let's try another way using doubles.\"\nFor example, 7 + 5 can also be seen as 7 + 3 + 2, making it 10 + 2 = 12.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When adding numbers like 7 + 5, children can use the 'make ten' strategy. First, break down 5 into 3 and 2. Add 7 and 3 to make 10, then add the remaining 2 to get 12. This helps them see addition as grouping numbers for easier calculation.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "7 + 5 = 12\n- 7: starting number\n- 5: number to add\n- 12: total sum",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with counting on:** Ask your child to start with the larger number and count up.\n2. **Introduce making ten:** Show how numbers can be broken down to make ten first.\n3. **Practice with doubles:** Use examples like 6 + 6 to show how doubles can help.\n4. **Use objects:** Reinforce these strategies with physical objects.\n5. **Encourage mental math:** Gradually move from objects to mental calculations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child counts all objects instead of starting from the larger number, try: \"Let's start from 7 and count on.\"\n- If they struggle with making ten, try: \"Can we break 5 into 3 and 2 to make ten first?\"\n- If they forget to add the remaining part after making ten, try: \"What do we have left to add after making ten?\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Adding numbers is like combining ingredients in a recipe. Just as you measure and mix, addition combines numbers to make something new. Counting change when shopping is another real-life example of addition in action.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring addition strategies! With practice, your child will become more confident and quick with numbers. Keep up the encouraging support!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child add numbers within 20 using simple strategies.\n- Build confidence with addition through everyday examples.\n- **Why this matters for parents:** Understanding addition strategies helps children solve problems efficiently and builds a strong math foundation.",
+    "overview": "This lesson focuses on teaching children how to add numbers within 20 using strategies like counting on, making ten, and using doubles. These strategies help children move beyond simple counting and develop mental math skills.\nUnderstanding these strategies is important because they provide children with tools to solve addition problems more quickly and with greater confidence. This foundation will support their future math learning.",
+    "core": "Addition within 20 can be made fun and relatable by using objects around the house. By practicing these strategies, your child will learn to see numbers in different ways, making addition easier and more intuitive.",
+    "demo": "1. **Gather 20 small objects** like buttons or coins.\n2. **Say:** \"Let's add 7 and 5.\"\n3. **Ask:** \"Can you count out 7 objects?\"\n4. **Say:** \"Now, let's add 5 more.\"\n5. **Ask:** \"How many do we have in total?\"\n6. **Say:** \"Great! We have 12. Let's try another way using doubles.\"\nFor example, 7 + 5 can also be seen as 7 + 3 + 2, making it 10 + 2 = 12.",
+    "math": "When adding numbers like 7 + 5, children can use the 'make ten' strategy. First, break down 5 into 3 and 2. Add 7 and 3 to make 10, then add the remaining 2 to get 12. This helps them see addition as grouping numbers for easier calculation.",
+    "formulas": "7 + 5 = 12\n- 7: starting number\n- 5: number to add\n- 12: total sum",
+    "guide": "1. **Start with counting on:** Ask your child to start with the larger number and count up.\n2. **Introduce making ten:** Show how numbers can be broken down to make ten first.\n3. **Practice with doubles:** Use examples like 6 + 6 to show how doubles can help.\n4. **Use objects:** Reinforce these strategies with physical objects.\n5. **Encourage mental math:** Gradually move from objects to mental calculations.",
+    "mistakes": "- If your child counts all objects instead of starting from the larger number, try: \"Let's start from 7 and count on.\"\n- If they struggle with making ten, try: \"Can we break 5 into 3 and 2 to make ten first?\"\n- If they forget to add the remaining part after making ten, try: \"What do we have left to add after making ten?\"",
+    "connection": "Adding numbers is like combining ingredients in a recipe. Just as you measure and mix, addition combines numbers to make something new. Counting change when shopping is another real-life example of addition in action.",
+    "close": "Great job exploring addition strategies! With practice, your child will become more confident and quick with numbers. Keep up the encouraging support!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is 7 + 5?",
+      "hint_md": "Try counting up from 7 five times.",
+      "answer_md": "12"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have 3 toy cars and get 4 more, how many do you have?",
+      "hint_md": "Count all the cars together.",
+      "answer_md": "7"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is 9 + 6?",
+      "hint_md": "You can break it into 9 + 1 + 5.",
+      "answer_md": "15"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "11060306-fa84-46db-9121-c3ace1407a3e",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "132ade5a-ad06-47e7-8455-42d31969d588",
+    "slug": "angles-classification-of-shapes",
+    "title": "Angles & Classification of Shapes",
+    "summary": "Angles & Classification of Shapes — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Identify and classify different types of angles and shapes.\n- Understand the properties of squares, rectangles, and other polygons.\n- Recognize rotated shapes and understand their properties.\n- **Why this matters for parents:** Understanding shapes helps children see patterns and solve problems in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores angles and the classification of 2D shapes, focusing on squares, rectangles, and other polygons. We'll learn how to identify different angles and understand the properties of these shapes.\nUnderstanding shapes and angles is crucial because it helps children develop spatial awareness and problem-solving skills. Recognizing shapes in various orientations, like rotated squares, builds flexibility in thinking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Shapes are all around us, and they can look different depending on how they're turned. A square remains a square, even if it looks like a 'diamond' when rotated. Angles, like right angles, help us understand these shapes better. We'll explore how to identify and classify these shapes using everyday objects.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. **Say:** \"Let's go on a shape hunt around the house! Can you find something that looks like a square or rectangle?\"\n- 2. **Ask:** \"What happens if we turn this square? Does it change into a different shape?\" Discuss how a rotated square is still a square.\n- 3. Use sticks or straws to build a square and a rectangle. **Say:** \"Notice how the sides and corners are different.\"\n- 4. Compare the square and rectangle. **Ask:** \"How many sides and corners does each have?\"\n- 5. **Say:** \"Let's talk about angles. A right angle looks like the corner of a book. Can you find a right angle in our shapes?\"\n- 6. Address the 'diamond' misconception by rotating the square and discussing how its properties don't change.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A square has four equal sides and four right angles. A rectangle also has four right angles, but opposite sides are equal. An angle is the space between two lines that meet at a point. A right angle is 90 degrees.\nFor example, in a square, each angle is 90 degrees, so the total sum of angles is $4 \\times 90 = 360$ degrees.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Sum of angles in a polygon = (n - 2) \\times 180\n- $n$ is the number of sides",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** \"Let's draw a square and a rectangle. How are they similar and different?\"\n- 2. **Ask:** \"Can you find objects around the house that match these shapes?\"\n- 3. **Say:** \"Let's measure the angles using a corner of a book to check for right angles.\"\n- 4. **Ask:** \"What happens if we rotate the shape? Does it change its properties?\"\n- 5. **Say:** \"Let's count the sides and corners together to classify the shape.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing a rotated square with a different shape. Try: Rotate a square and show it still has equal sides and angles.\n- Thinking rectangles and squares are the same. Try: Compare side lengths and angles.\n- Misidentifying angles. Try: Use a book corner to demonstrate a right angle.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Shapes are everywhere! From the tiles on the floor to the screens we use, recognizing shapes helps us understand and interact with the world.\nCooking involves shapes too—think about cutting a sandwich into triangles or squares.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring shapes and angles helps your child see the world in a new way. Keep discovering and having fun with shapes together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Identify and classify different types of angles and shapes.\n- Understand the properties of squares, rectangles, and other polygons.\n- Recognize rotated shapes and understand their properties.\n- **Why this matters for parents:** Understanding shapes helps children see patterns and solve problems in everyday life.",
+    "overview": "This lesson explores angles and the classification of 2D shapes, focusing on squares, rectangles, and other polygons. We'll learn how to identify different angles and understand the properties of these shapes.\nUnderstanding shapes and angles is crucial because it helps children develop spatial awareness and problem-solving skills. Recognizing shapes in various orientations, like rotated squares, builds flexibility in thinking.",
+    "core": "Shapes are all around us, and they can look different depending on how they're turned. A square remains a square, even if it looks like a 'diamond' when rotated. Angles, like right angles, help us understand these shapes better. We'll explore how to identify and classify these shapes using everyday objects.",
+    "demo": "- 1. **Say:** \"Let's go on a shape hunt around the house! Can you find something that looks like a square or rectangle?\"\n- 2. **Ask:** \"What happens if we turn this square? Does it change into a different shape?\" Discuss how a rotated square is still a square.\n- 3. Use sticks or straws to build a square and a rectangle. **Say:** \"Notice how the sides and corners are different.\"\n- 4. Compare the square and rectangle. **Ask:** \"How many sides and corners does each have?\"\n- 5. **Say:** \"Let's talk about angles. A right angle looks like the corner of a book. Can you find a right angle in our shapes?\"\n- 6. Address the 'diamond' misconception by rotating the square and discussing how its properties don't change.",
+    "math": "A square has four equal sides and four right angles. A rectangle also has four right angles, but opposite sides are equal. An angle is the space between two lines that meet at a point. A right angle is 90 degrees.\nFor example, in a square, each angle is 90 degrees, so the total sum of angles is $4 \\times 90 = 360$ degrees.",
+    "formulas": "Sum of angles in a polygon = (n - 2) \\times 180\n- $n$ is the number of sides",
+    "guide": "- 1. **Say:** \"Let's draw a square and a rectangle. How are they similar and different?\"\n- 2. **Ask:** \"Can you find objects around the house that match these shapes?\"\n- 3. **Say:** \"Let's measure the angles using a corner of a book to check for right angles.\"\n- 4. **Ask:** \"What happens if we rotate the shape? Does it change its properties?\"\n- 5. **Say:** \"Let's count the sides and corners together to classify the shape.\"",
+    "mistakes": "- Confusing a rotated square with a different shape. Try: Rotate a square and show it still has equal sides and angles.\n- Thinking rectangles and squares are the same. Try: Compare side lengths and angles.\n- Misidentifying angles. Try: Use a book corner to demonstrate a right angle.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Shapes are everywhere! From the tiles on the floor to the screens we use, recognizing shapes helps us understand and interact with the world.\nCooking involves shapes too—think about cutting a sandwich into triangles or squares.",
+    "close": "Exploring shapes and angles helps your child see the world in a new way. Keep discovering and having fun with shapes together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Angles & Classification of Shapes**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Angles & Classification of Shapes** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Angles & Classification of Shapes**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

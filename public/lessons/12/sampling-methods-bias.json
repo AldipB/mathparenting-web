@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "b4eef387-8bab-4778-b1e0-cf8a52ad1756",
+    "title": "Statistics & Data",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "bf2ccab1-4959-4b7c-82c3-90fef4a194b3",
+    "slug": "sampling-methods-bias",
+    "title": "Sampling Methods & Bias",
+    "summary": "Sampling Methods & Bias — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand different sampling methods and their potential biases.\n- Learn how to identify and minimize bias in data collection.\n- **Why this matters for parents:** This helps you guide your child in making informed decisions based on data, a crucial skill in today's world.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Sampling methods are techniques used to select a portion of a population to represent the whole. Common methods include random sampling, stratified sampling, and systematic sampling. Each method has its strengths and weaknesses, and choosing the right one is crucial for accurate results.\nUnderstanding sampling and bias is important because it affects the reliability of conclusions drawn from data. Bias can lead to incorrect assumptions, which is why recognizing and minimizing it is essential in both academic and everyday contexts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Sampling methods help us gather information without needing to survey an entire population. However, if not done carefully, these methods can introduce bias, leading to misleading results. For example, if a survey only includes morning shoppers, it might miss the opinions of those who shop in the evening.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather a bowl of mixed fruit (e.g., apples, oranges, bananas).**\n   - **Say:** \"Let's pretend these fruits are our population.\"\n2. **Randomly pick 3 fruits without looking.**\n   - **Ask:** \"Is this a fair representation of the whole bowl?\"\n3. **Now pick 3 apples intentionally.**\n   - **Say:** \"This is an example of bias.\"\n4. **Discuss how picking only apples might skew results if we wanted to know about all fruits.**\n5. **Ask:** \"How could we ensure each fruit type is represented fairly?\"\n6. **Suggest:** \"We could pick one of each fruit type.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In sampling, we often use the concept of probability to ensure fairness. For example, in a random sample of 100 people, each person should have an equal chance of being selected.\nConsider a population of 1000 people. If we want a sample of 100, each person has a $\\frac{100}{1000} = 0.1$ or 10% chance of being selected. This helps minimize bias and ensures the sample is representative.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Discuss with your child:** \"What is the goal of our survey or study?\"\n2. **Identify the population:** \"Who or what are we interested in learning about?\"\n3. **Choose a sampling method:** \"Should we use random, stratified, or another method? Why?\"\n4. **Collect data carefully:** \"How can we ensure our sample is unbiased?\"\n5. **Review results together:** \"Do our results make sense? Could there be any bias?\"\n6. **Reflect on the process:** \"What would we do differently next time?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Assuming a small sample is always representative.\n  - Try: Use a larger sample size or ensure diversity within the sample.\n- Ignoring potential sources of bias.\n  - Try: Identify and address any factors that might skew results.\n- Overlooking the importance of random selection.\n  - Try: Use randomization techniques to ensure fairness.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Sampling methods are used in everyday decisions, like political polling or market research. Understanding these concepts helps us interpret news reports and make informed choices as consumers.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding sampling and bias empowers you and your child to make informed decisions. Keep exploring and questioning data together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand different sampling methods and their potential biases.\n- Learn how to identify and minimize bias in data collection.\n- **Why this matters for parents:** This helps you guide your child in making informed decisions based on data, a crucial skill in today's world.",
+    "overview": "Sampling methods are techniques used to select a portion of a population to represent the whole. Common methods include random sampling, stratified sampling, and systematic sampling. Each method has its strengths and weaknesses, and choosing the right one is crucial for accurate results.\nUnderstanding sampling and bias is important because it affects the reliability of conclusions drawn from data. Bias can lead to incorrect assumptions, which is why recognizing and minimizing it is essential in both academic and everyday contexts.",
+    "core": "Sampling methods help us gather information without needing to survey an entire population. However, if not done carefully, these methods can introduce bias, leading to misleading results. For example, if a survey only includes morning shoppers, it might miss the opinions of those who shop in the evening.",
+    "demo": "1. **Gather a bowl of mixed fruit (e.g., apples, oranges, bananas).**\n   - **Say:** \"Let's pretend these fruits are our population.\"\n2. **Randomly pick 3 fruits without looking.**\n   - **Ask:** \"Is this a fair representation of the whole bowl?\"\n3. **Now pick 3 apples intentionally.**\n   - **Say:** \"This is an example of bias.\"\n4. **Discuss how picking only apples might skew results if we wanted to know about all fruits.**\n5. **Ask:** \"How could we ensure each fruit type is represented fairly?\"\n6. **Suggest:** \"We could pick one of each fruit type.\"",
+    "math": "In sampling, we often use the concept of probability to ensure fairness. For example, in a random sample of 100 people, each person should have an equal chance of being selected.\nConsider a population of 1000 people. If we want a sample of 100, each person has a $\\frac{100}{1000} = 0.1$ or 10% chance of being selected. This helps minimize bias and ensures the sample is representative.",
+    "guide": "1. **Discuss with your child:** \"What is the goal of our survey or study?\"\n2. **Identify the population:** \"Who or what are we interested in learning about?\"\n3. **Choose a sampling method:** \"Should we use random, stratified, or another method? Why?\"\n4. **Collect data carefully:** \"How can we ensure our sample is unbiased?\"\n5. **Review results together:** \"Do our results make sense? Could there be any bias?\"\n6. **Reflect on the process:** \"What would we do differently next time?\"",
+    "mistakes": "- Assuming a small sample is always representative.\n  - Try: Use a larger sample size or ensure diversity within the sample.\n- Ignoring potential sources of bias.\n  - Try: Identify and address any factors that might skew results.\n- Overlooking the importance of random selection.\n  - Try: Use randomization techniques to ensure fairness.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Sampling methods are used in everyday decisions, like political polling or market research. Understanding these concepts helps us interpret news reports and make informed choices as consumers.",
+    "close": "Understanding sampling and bias empowers you and your child to make informed decisions. Keep exploring and questioning data together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Sampling Methods & Bias**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Sampling Methods & Bias** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Sampling Methods & Bias**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

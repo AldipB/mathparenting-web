@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "bf7dd7b2-06ff-4fc1-9182-aa6315b25d08",
+    "slug": "fractions-unit-fractions-on-number-lines",
+    "title": "Fractions: Unit Fractions; On Number Lines",
+    "summary": "Fractions: Unit Fractions; On Number Lines — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand unit fractions and their representation on a number line.\n- Help your child visualize fractions using everyday objects.\n- **Why this matters for parents:** Building a strong foundation in fractions helps your child with future math concepts like division and ratios.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Fractions are parts of a whole. A unit fraction is a fraction where the numerator is 1, like $\\frac{1}{2}$ or $\\frac{1}{4}$. In this lesson, we’ll explore how to represent these on a number line.\nUnderstanding fractions is crucial because they are everywhere in daily life, from cooking to sharing. This lesson will help your child see fractions as numbers that can be easily visualized and understood.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Unit fractions are the building blocks of all fractions. By learning to place them on a number line, children can better grasp their size and how they relate to each other. This visual method helps make abstract concepts more concrete.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A ruler or measuring tape, paper, and a pencil.\n2. **Say:** \"Let's draw a number line from 0 to 1.\"\n3. **Draw:** A line and mark 0 at one end and 1 at the other.\n4. **Ask:** \"If we divide this line into 4 equal parts, what do we call each part?\"\n5. **Explain:** \"Each part is $\\frac{1}{4}$. Mark these on the line: $\\frac{1}{4}$, $\\frac{2}{4}$, $\\frac{3}{4}$, and $\\frac{4}{4}$ (which is 1).\"\n6. **Say:** \"See how each part is equal? That's how fractions work!\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A unit fraction like $\\frac{1}{4}$ means the whole is divided into 4 equal parts, and we take 1 of those parts. On a number line, $\\frac{1}{4}$ is the first mark after 0 when the line is divided into 4 equal sections. For example, $\\frac{1}{3}$ would be the first mark if the line is divided into 3 equal parts.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start:** Draw a number line from 0 to 1 on paper.\n2. **Divide:** Choose a denominator, like 3, and divide the line into that many equal parts.\n3. **Label:** Mark each division as $\\frac{1}{3}$, $\\frac{2}{3}$, etc.\n4. **Discuss:** Ask your child to explain what each fraction means.\n5. **Explore:** Use objects like paper strips to show these fractions physically.\n6. **Reflect:** Ask, \"How does the number line help you understand fractions?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the numerator with the denominator.\n  Try: Remind them the numerator is how many parts we have.\n- Misplacing fractions on the number line.\n  Try: Count the spaces, not the lines, between marks.\n- Thinking $\\frac{1}{4}$ is larger than $\\frac{1}{3}$.\n  Try: Use visual aids like paper strips to compare sizes.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Fractions are used in cooking when measuring ingredients. For example, $\\frac{1}{4}$ cup of sugar is a common measurement. They also appear in time, like a quarter-hour ($\\frac{1}{4}$ of an hour).",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Fractions can be fun and easy to understand with practice. Keep exploring with your child, and soon they’ll see fractions everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand unit fractions and their representation on a number line.\n- Help your child visualize fractions using everyday objects.\n- **Why this matters for parents:** Building a strong foundation in fractions helps your child with future math concepts like division and ratios.",
+    "overview": "Fractions are parts of a whole. A unit fraction is a fraction where the numerator is 1, like $\\frac{1}{2}$ or $\\frac{1}{4}$. In this lesson, we’ll explore how to represent these on a number line.\nUnderstanding fractions is crucial because they are everywhere in daily life, from cooking to sharing. This lesson will help your child see fractions as numbers that can be easily visualized and understood.",
+    "core": "Unit fractions are the building blocks of all fractions. By learning to place them on a number line, children can better grasp their size and how they relate to each other. This visual method helps make abstract concepts more concrete.",
+    "demo": "1. **Gather:** A ruler or measuring tape, paper, and a pencil.\n2. **Say:** \"Let's draw a number line from 0 to 1.\"\n3. **Draw:** A line and mark 0 at one end and 1 at the other.\n4. **Ask:** \"If we divide this line into 4 equal parts, what do we call each part?\"\n5. **Explain:** \"Each part is $\\frac{1}{4}$. Mark these on the line: $\\frac{1}{4}$, $\\frac{2}{4}$, $\\frac{3}{4}$, and $\\frac{4}{4}$ (which is 1).\"\n6. **Say:** \"See how each part is equal? That's how fractions work!\"",
+    "math": "A unit fraction like $\\frac{1}{4}$ means the whole is divided into 4 equal parts, and we take 1 of those parts. On a number line, $\\frac{1}{4}$ is the first mark after 0 when the line is divided into 4 equal sections. For example, $\\frac{1}{3}$ would be the first mark if the line is divided into 3 equal parts.",
+    "guide": "1. **Start:** Draw a number line from 0 to 1 on paper.\n2. **Divide:** Choose a denominator, like 3, and divide the line into that many equal parts.\n3. **Label:** Mark each division as $\\frac{1}{3}$, $\\frac{2}{3}$, etc.\n4. **Discuss:** Ask your child to explain what each fraction means.\n5. **Explore:** Use objects like paper strips to show these fractions physically.\n6. **Reflect:** Ask, \"How does the number line help you understand fractions?\"",
+    "mistakes": "- Confusing the numerator with the denominator.\n  Try: Remind them the numerator is how many parts we have.\n- Misplacing fractions on the number line.\n  Try: Count the spaces, not the lines, between marks.\n- Thinking $\\frac{1}{4}$ is larger than $\\frac{1}{3}$.\n  Try: Use visual aids like paper strips to compare sizes.",
+    "connection": "Fractions are used in cooking when measuring ingredients. For example, $\\frac{1}{4}$ cup of sugar is a common measurement. They also appear in time, like a quarter-hour ($\\frac{1}{4}$ of an hour).",
+    "close": "Fractions can be fun and easy to understand with practice. Keep exploring with your child, and soon they’ll see fractions everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Place $\\frac{1}{2}$ on a number line from 0 to 1.",
+      "hint_md": "Divide the line into 2 equal parts.",
+      "answer_md": "$\\frac{1}{2}$ is halfway between 0 and 1."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What fraction is at the first mark if a line is divided into 5 equal parts?",
+      "hint_md": "Each part is $\\frac{1}{5}$.",
+      "answer_md": "$\\frac{1}{5}$ is at the first mark."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you divide a line into 3 equal parts, where is $\\frac{2}{3}$?",
+      "hint_md": "Count two parts from 0.",
+      "answer_md": "$\\frac{2}{3}$ is the second mark from 0."
+    }
+  ]
+}

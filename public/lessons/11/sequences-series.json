@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "e8c9fde8-1120-4b66-9ab3-8fa3268b1524",
+    "title": "Sequences, Series & Systems",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "dae41539-ba83-452f-b4de-f6dc5a8b954f",
+    "slug": "sequences-series",
+    "title": "Sequences & Series",
+    "summary": "Sequences & Series — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between sequences and series.\n- Learn how to identify arithmetic and geometric sequences.\n- Calculate the sum of a series.\n**Why this matters for parents:** Understanding sequences and series helps your child develop logical thinking and problem-solving skills, which are crucial for advanced math and everyday decision-making.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Sequences are ordered lists of numbers following a specific pattern, while series are the sum of terms in a sequence. For example, in a sequence, you might have numbers like 2, 4, 6, 8, and in a series, you would add them: 2 + 4 + 6 + 8.\nThis topic is important because it forms the basis for understanding more complex mathematical concepts, such as calculus. It also helps in recognizing patterns and making predictions, skills useful in various real-life situations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a sequence is like a list of numbers that follow a rule. If each number increases by 2, that's an arithmetic sequence. If each number is multiplied by 2, that's a geometric sequence. A series is when you add up all the numbers in a sequence.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's look at a simple sequence using coins.\"\n2. Lay out 5 coins in a line: 1, 2, 3, 4, 5.\n3. **Ask:** \"What do you notice about the pattern?\" (Each number increases by 1.)\n4. **Say:** \"Now, let's add them up to make a series: 1 + 2 + 3 + 4 + 5.\"\n5. Count the total together: 15.\n6. **Ask:** \"What if each coin doubled? What would the sequence be?\" (1, 2, 4, 8, 16)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "An arithmetic sequence has a constant difference between terms. For example, in the sequence 3, 6, 9, 12, the difference is 3.\nA geometric sequence has a constant ratio. For example, in the sequence 2, 4, 8, 16, the ratio is 2.\nTo find the sum of an arithmetic series, use the formula: $$S_n = \\frac{n}{2} (a + l)$$ where $n$ is the number of terms, $a$ is the first term, and $l$ is the last term.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Arithmetic series sum: $$S_n = \\frac{n}{2} (a + l)$$\n  - $S_n$: sum of the series\n  - $n$: number of terms\n  - $a$: first term\n  - $l$: last term\n- Geometric series sum: $$S_n = a \\frac{1-r^n}{1-r}$$ (for $r \\neq 1$)\n  - $S_n$: sum of the series\n  - $a$: first term\n  - $r$: common ratio\n  - $n$: number of terms",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"Can you identify if this is an arithmetic or geometric sequence?\"\n2. **Say:** \"Let's find the difference or ratio between the terms.\"\n3. **Ask:** \"How many terms are there in this sequence?\"\n4. **Say:** \"Let's use the formula to find the sum of the series.\"\n5. **Ask:** \"What does this sum represent in our real-life example?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing sequences with series. **Try:** Remember, sequences list numbers; series add them.\n- Mixing up arithmetic and geometric sequences. **Try:** Check if the pattern is adding or multiplying.\n- Forgetting to count the number of terms correctly. **Try:** Double-check by listing the terms.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Sequences and series are used in calculating interest, planning savings, and even in computer algorithms. Recognizing patterns can help in budgeting and project planning.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring sequences and series! These skills will help your child see patterns and solve problems in creative ways.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between sequences and series.\n- Learn how to identify arithmetic and geometric sequences.\n- Calculate the sum of a series.\n**Why this matters for parents:** Understanding sequences and series helps your child develop logical thinking and problem-solving skills, which are crucial for advanced math and everyday decision-making.",
+    "overview": "Sequences are ordered lists of numbers following a specific pattern, while series are the sum of terms in a sequence. For example, in a sequence, you might have numbers like 2, 4, 6, 8, and in a series, you would add them: 2 + 4 + 6 + 8.\nThis topic is important because it forms the basis for understanding more complex mathematical concepts, such as calculus. It also helps in recognizing patterns and making predictions, skills useful in various real-life situations.",
+    "core": "In simple terms, a sequence is like a list of numbers that follow a rule. If each number increases by 2, that's an arithmetic sequence. If each number is multiplied by 2, that's a geometric sequence. A series is when you add up all the numbers in a sequence.",
+    "demo": "1. **Say:** \"Let's look at a simple sequence using coins.\"\n2. Lay out 5 coins in a line: 1, 2, 3, 4, 5.\n3. **Ask:** \"What do you notice about the pattern?\" (Each number increases by 1.)\n4. **Say:** \"Now, let's add them up to make a series: 1 + 2 + 3 + 4 + 5.\"\n5. Count the total together: 15.\n6. **Ask:** \"What if each coin doubled? What would the sequence be?\" (1, 2, 4, 8, 16)",
+    "math": "An arithmetic sequence has a constant difference between terms. For example, in the sequence 3, 6, 9, 12, the difference is 3.\nA geometric sequence has a constant ratio. For example, in the sequence 2, 4, 8, 16, the ratio is 2.\nTo find the sum of an arithmetic series, use the formula: $$S_n = \\frac{n}{2} (a + l)$$ where $n$ is the number of terms, $a$ is the first term, and $l$ is the last term.",
+    "formulas": "- Arithmetic series sum: $$S_n = \\frac{n}{2} (a + l)$$\n  - $S_n$: sum of the series\n  - $n$: number of terms\n  - $a$: first term\n  - $l$: last term\n- Geometric series sum: $$S_n = a \\frac{1-r^n}{1-r}$$ (for $r \\neq 1$)\n  - $S_n$: sum of the series\n  - $a$: first term\n  - $r$: common ratio\n  - $n$: number of terms",
+    "guide": "1. **Ask:** \"Can you identify if this is an arithmetic or geometric sequence?\"\n2. **Say:** \"Let's find the difference or ratio between the terms.\"\n3. **Ask:** \"How many terms are there in this sequence?\"\n4. **Say:** \"Let's use the formula to find the sum of the series.\"\n5. **Ask:** \"What does this sum represent in our real-life example?\"",
+    "mistakes": "- Confusing sequences with series. **Try:** Remember, sequences list numbers; series add them.\n- Mixing up arithmetic and geometric sequences. **Try:** Check if the pattern is adding or multiplying.\n- Forgetting to count the number of terms correctly. **Try:** Double-check by listing the terms.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Sequences and series are used in calculating interest, planning savings, and even in computer algorithms. Recognizing patterns can help in budgeting and project planning.",
+    "close": "Great job exploring sequences and series! These skills will help your child see patterns and solve problems in creative ways."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Sequences & Series**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Sequences & Series** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Sequences & Series**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

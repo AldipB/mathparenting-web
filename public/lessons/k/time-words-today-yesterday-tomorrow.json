@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a72d80de-64fd-4668-8e27-6aa462018fca",
+    "slug": "time-words-today-yesterday-tomorrow",
+    "title": "Time Words (Today, Yesterday, Tomorrow)",
+    "summary": "Time Words (Today, Yesterday, Tomorrow) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 15
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand and use time words: today, yesterday, tomorrow.\n- Sequence daily events using time words.\n- **Why this matters for parents:** Helps children grasp the concept of time, aiding in routine building and future planning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces young children to the concept of time using the words 'today', 'yesterday', and 'tomorrow'. These words help children understand the sequence of events in their daily lives.\nUnderstanding time words is crucial for children as it helps them make sense of their routines and anticipate future events. This foundational skill supports their ability to follow schedules and manage expectations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children learn best with concrete examples. Using familiar events from their daily routine, we can help them understand the sequence of time. By associating these events with 'yesterday', 'today', and 'tomorrow', children begin to grasp the concept of time passing.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather three boxes and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. Use sticky notes to write down events (e.g., 'went to the park', 'ate breakfast').\n3. **Say:** 'Let's put yesterday's events in the 'Yesterday' box.'\n4. **Ask:** 'What are we doing today?' Place today's events in the 'Today' box.\n5. **Say:** 'What will we do tomorrow?' Place future events in the 'Tomorrow' box.\n6. Count the number of sleeps until tomorrow's events happen.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Time words help children understand sequences. For example, if today is Monday, yesterday was Sunday, and tomorrow will be Tuesday. We can count days like numbers: 1 (Sunday), 2 (Monday), 3 (Tuesday).",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** 'What did we do yesterday?' Encourage your child to recall past events.\n2. **Say:** 'Today, we are doing...' and list today's activities.\n3. **Ask:** 'What do you want to do tomorrow?' Discuss future plans.\n4. Use a calendar to show the days of the week, pointing to yesterday, today, and tomorrow.\n5. Reinforce by counting sleeps until tomorrow's activities.\n6. Celebrate understanding by discussing the sequence of events at bedtime.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up 'yesterday' and 'tomorrow'.\n  - Try: Use a calendar to visually show the sequence.\n- Forgetting events.\n  - Try: Use pictures or drawings to represent events.\n- Confusing days of the week.\n  - Try: Sing a days-of-the-week song to reinforce order.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Use time words when planning family activities, like a trip to the zoo. Discuss what you did yesterday, what you're doing today, and what you'll do tomorrow.\nInvolve your child in setting the table by sequencing tasks: 'First, we put the plates, then the forks, and tomorrow we’ll bake cookies.'",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child understand time! These skills will help them feel more secure and confident in their daily routines.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand and use time words: today, yesterday, tomorrow.\n- Sequence daily events using time words.\n- **Why this matters for parents:** Helps children grasp the concept of time, aiding in routine building and future planning.",
+    "overview": "This lesson introduces young children to the concept of time using the words 'today', 'yesterday', and 'tomorrow'. These words help children understand the sequence of events in their daily lives.\nUnderstanding time words is crucial for children as it helps them make sense of their routines and anticipate future events. This foundational skill supports their ability to follow schedules and manage expectations.",
+    "core": "Children learn best with concrete examples. Using familiar events from their daily routine, we can help them understand the sequence of time. By associating these events with 'yesterday', 'today', and 'tomorrow', children begin to grasp the concept of time passing.",
+    "demo": "1. Gather three boxes and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. Use sticky notes to write down events (e.g., 'went to the park', 'ate breakfast').\n3. **Say:** 'Let's put yesterday's events in the 'Yesterday' box.'\n4. **Ask:** 'What are we doing today?' Place today's events in the 'Today' box.\n5. **Say:** 'What will we do tomorrow?' Place future events in the 'Tomorrow' box.\n6. Count the number of sleeps until tomorrow's events happen.",
+    "math": "Time words help children understand sequences. For example, if today is Monday, yesterday was Sunday, and tomorrow will be Tuesday. We can count days like numbers: 1 (Sunday), 2 (Monday), 3 (Tuesday).",
+    "guide": "1. **Ask:** 'What did we do yesterday?' Encourage your child to recall past events.\n2. **Say:** 'Today, we are doing...' and list today's activities.\n3. **Ask:** 'What do you want to do tomorrow?' Discuss future plans.\n4. Use a calendar to show the days of the week, pointing to yesterday, today, and tomorrow.\n5. Reinforce by counting sleeps until tomorrow's activities.\n6. Celebrate understanding by discussing the sequence of events at bedtime.",
+    "mistakes": "- Mixing up 'yesterday' and 'tomorrow'.\n  - Try: Use a calendar to visually show the sequence.\n- Forgetting events.\n  - Try: Use pictures or drawings to represent events.\n- Confusing days of the week.\n  - Try: Sing a days-of-the-week song to reinforce order.",
+    "connection": "Use time words when planning family activities, like a trip to the zoo. Discuss what you did yesterday, what you're doing today, and what you'll do tomorrow.\nInvolve your child in setting the table by sequencing tasks: 'First, we put the plates, then the forks, and tomorrow we’ll bake cookies.'",
+    "close": "Great job helping your child understand time! These skills will help them feel more secure and confident in their daily routines."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What day comes after today?",
+      "hint_md": "Think about what we will do when we wake up next.",
+      "answer_md": "Tomorrow"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If today is Monday, what day was yesterday?",
+      "hint_md": "Yesterday is the day before today.",
+      "answer_md": "Sunday"
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many sleeps until tomorrow?",
+      "hint_md": "Count the number of times you sleep before tomorrow.",
+      "answer_md": "1"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "8f2e0634-21d7-4351-9d4f-0b2222c08583",
+    "title": "Measurement, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "8f82a3c8-21ea-4878-a731-d2b01b9ae313",
+    "slug": "probability-of-compound-events-8f82a3c8-21ea-4878-a731-d2b01b9ae313",
+    "title": "Probability of Compound Events",
+    "summary": "Probability of Compound Events — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "**What this is:** Probability of Compound Events — explained for parents.\n**Why it matters:** Everyday usefulness and confidence-building for your child in Grade 8.",
+      "order_index": 1
+    },
+    {
+      "key": "core",
+      "md": "**Core Idea:** One friendly paragraph that states the big idea in plain language.",
+      "order_index": 2
+    },
+    {
+      "key": "demo",
+      "md": "**Household Demonstration:** A quick at-home activity (kitchen, shopping, travel, chores) to *show* the idea.",
+      "order_index": 3
+    },
+    {
+      "key": "math",
+      "md": "**The Math Behind It:** Include notation and formulas as needed. Use KaTeX: $$a^2+b^2=c^2$$ (example).",
+      "order_index": 4
+    },
+    {
+      "key": "guide",
+      "md": "**Step-by-Step Teaching Guide:** 4–6 steps with questions to ask and what to listen for.",
+      "order_index": 5
+    },
+    {
+      "key": "mistakes",
+      "md": "**Common Mistakes to Avoid:** 3–5 pitfalls and how to respond encouragingly.",
+      "order_index": 6
+    },
+    {
+      "key": "connection",
+      "md": "**Real-Life Connection or Fun Fact:** A short story or tip that makes it memorable.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "close",
+      "md": "**You’re doing great — your steady guidance matters more than perfection.**",
+      "order_index": 9
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+    "overview": "**What this is:** Probability of Compound Events — explained for parents.\n**Why it matters:** Everyday usefulness and confidence-building for your child in Grade 8.",
+    "core": "**Core Idea:** One friendly paragraph that states the big idea in plain language.",
+    "demo": "**Household Demonstration:** A quick at-home activity (kitchen, shopping, travel, chores) to *show* the idea.",
+    "math": "**The Math Behind It:** Include notation and formulas as needed. Use KaTeX: $$a^2+b^2=c^2$$ (example).",
+    "guide": "**Step-by-Step Teaching Guide:** 4–6 steps with questions to ask and what to listen for.",
+    "mistakes": "**Common Mistakes to Avoid:** 3–5 pitfalls and how to respond encouragingly.",
+    "connection": "**Real-Life Connection or Fun Fact:** A short story or tip that makes it memorable.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "close": "**You’re doing great — your steady guidance matters more than perfection.**"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Probability of Compound Events**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Probability of Compound Events** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Probability of Compound Events**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

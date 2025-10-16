@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "5065afd8-2303-4cf3-8783-bf5f5f868396",
+    "title": "Fractions & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "579a2698-eeb7-4b42-8eae-d25fca57c3a6",
+    "slug": "time-hour-half-hour",
+    "title": "Time: Hour / Half-Hour",
+    "summary": "Time: Hour / Half-Hour — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of time in terms of hours and half-hours.\n- Learn to use time words like 'yesterday', 'today', and 'tomorrow'.\n- **Why this matters for parents:** Helps children grasp daily routines and manage expectations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces children to the basics of telling time, focusing on hours and half-hours. It also explores the use of time-related words such as 'yesterday', 'today', and 'tomorrow'.\nUnderstanding time helps children organize their day and anticipate events. It builds a foundation for time management skills and enhances their ability to follow routines.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will learn to recognize the positions of the hour and minute hands on a clock for full and half hours. They'll also practice using time words to describe daily events, helping them sequence activities and understand the passage of time.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather three boxes and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. Use sticky notes to write down events like 'breakfast', 'playtime', and 'bedtime'.\n3. **Say:** 'Let's put these events in the right box.'\n4. Place sticky notes in the 'Today' box. **Ask:** 'What did we do yesterday?' Move those notes to 'Yesterday'.\n5. **Say:** 'What will we do tomorrow?' Place notes in 'Tomorrow'.\n6. Count the number of sleeps until each event. **Ask:** 'How many sleeps until we play again?'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A clock is divided into 12 hours. Each hour can be split into two halves: the first 30 minutes and the second 30 minutes. For example, if the hour hand is on 3 and the minute hand is on 6, it is 3:30, or half past three.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Show your child a clock and explain the hour and minute hands.\n2. **Say:** 'When the minute hand is on 12, it's the start of a new hour.'\n3. **Ask:** 'What time is it when the minute hand is on 6?' (Half past the hour)\n4. Practice moving the hands to show different times, like 2:00 and 2:30.\n5. Discuss daily routines using time words: **Say:** 'We have dinner at 6:00 today.'\n6. Reinforce by asking about yesterday's and tomorrow's activities.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the hour and minute hands. **Try:** Use different colors for each hand to distinguish them.\n- Misplacing events in the wrong time box. **Try:** Review the sequence of events together.\n- Forgetting the concept of 'half past'. **Try:** Use a visual aid like a paper plate clock to show 30 minutes past the hour.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Discuss daily routines like school start times or bedtime to reinforce the concept of hours and half-hours. Use a calendar to show how days connect with 'yesterday', 'today', and 'tomorrow'.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Helping your child understand time empowers them to feel more in control of their day. Keep practicing, and soon they'll be telling time like a pro!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of time in terms of hours and half-hours.\n- Learn to use time words like 'yesterday', 'today', and 'tomorrow'.\n- **Why this matters for parents:** Helps children grasp daily routines and manage expectations.",
+    "overview": "This lesson introduces children to the basics of telling time, focusing on hours and half-hours. It also explores the use of time-related words such as 'yesterday', 'today', and 'tomorrow'.\nUnderstanding time helps children organize their day and anticipate events. It builds a foundation for time management skills and enhances their ability to follow routines.",
+    "core": "Children will learn to recognize the positions of the hour and minute hands on a clock for full and half hours. They'll also practice using time words to describe daily events, helping them sequence activities and understand the passage of time.",
+    "demo": "1. Gather three boxes and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. Use sticky notes to write down events like 'breakfast', 'playtime', and 'bedtime'.\n3. **Say:** 'Let's put these events in the right box.'\n4. Place sticky notes in the 'Today' box. **Ask:** 'What did we do yesterday?' Move those notes to 'Yesterday'.\n5. **Say:** 'What will we do tomorrow?' Place notes in 'Tomorrow'.\n6. Count the number of sleeps until each event. **Ask:** 'How many sleeps until we play again?'",
+    "math": "A clock is divided into 12 hours. Each hour can be split into two halves: the first 30 minutes and the second 30 minutes. For example, if the hour hand is on 3 and the minute hand is on 6, it is 3:30, or half past three.",
+    "guide": "1. Show your child a clock and explain the hour and minute hands.\n2. **Say:** 'When the minute hand is on 12, it's the start of a new hour.'\n3. **Ask:** 'What time is it when the minute hand is on 6?' (Half past the hour)\n4. Practice moving the hands to show different times, like 2:00 and 2:30.\n5. Discuss daily routines using time words: **Say:** 'We have dinner at 6:00 today.'\n6. Reinforce by asking about yesterday's and tomorrow's activities.",
+    "mistakes": "- Confusing the hour and minute hands. **Try:** Use different colors for each hand to distinguish them.\n- Misplacing events in the wrong time box. **Try:** Review the sequence of events together.\n- Forgetting the concept of 'half past'. **Try:** Use a visual aid like a paper plate clock to show 30 minutes past the hour.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Discuss daily routines like school start times or bedtime to reinforce the concept of hours and half-hours. Use a calendar to show how days connect with 'yesterday', 'today', and 'tomorrow'.",
+    "close": "Helping your child understand time empowers them to feel more in control of their day. Keep practicing, and soon they'll be telling time like a pro!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Time: Hour / Half-Hour**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Time: Hour / Half-Hour** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Time: Hour / Half-Hour**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

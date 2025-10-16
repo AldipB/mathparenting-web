@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "14e47a66-5e00-4d33-bf22-115797b6cf7d",
+    "title": "Place Value & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "4ae3b4f2-f2e7-4d04-8129-4a4468b44bf3",
+    "slug": "multiplication-division-facts-to-10-10",
+    "title": "Multiplication & Division Facts (to 10×10)",
+    "summary": "Multiplication & Division Facts (to 10×10) — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help children memorize multiplication and division facts up to 10×10.\n- Build confidence in using these facts in everyday situations.\n- Strengthen understanding of the relationship between multiplication and division.\n**Why this matters for parents:** Mastery of these facts supports your child's math skills and boosts their confidence in solving problems quickly.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child learn and remember multiplication and division facts up to 10×10. These are the building blocks for more advanced math concepts.\nUnderstanding these facts is crucial because they form the foundation for many math operations your child will encounter. Mastery here will make future math learning smoother and more intuitive.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Multiplication is repeated addition. For example, $3 \times 4$ means adding 3, four times: $3 + 3 + 3 + 3 = 12$. Division is splitting into equal parts. For instance, $12 \\, \\div \\, 4$ asks how many times 4 fits into 12, which is 3 times.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore multiplication with objects.\"\n2. Gather 10 small items (like buttons or coins).\n3. **Ask:** \"Can you make 2 groups of 3 buttons each? How many buttons do we have in total?\"\n4. **Say:** \"That's $2 \\times 3 = 6$.\"\n5. **Ask:** \"If we have 6 buttons and want to make 2 equal groups, how many buttons are in each group?\"\n6. **Say:** \"That's division: $6 \\, \\div \\, 2 = 3$.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Multiplication and division are inverse operations. If $3 \\times 4 = 12$, then $12 \\, \\div \\, 4 = 3$. This relationship helps in checking work. For example, if your child knows $5 \\times 6 = 30$, they can also know $30 \\, \\div \\, 5 = 6$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a \\times b = c$\n  - $a$ and $b$ are factors, $c$ is the product.\n- $c \\, \\div \\, b = a$\n  - $c$ is the dividend, $b$ is the divisor, $a$ is the quotient.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's practice some multiplication facts.\"\n2. Use flashcards or write problems on paper.\n3. **Ask:** \"What is $7 \\times 8$?\"\n4. **Say:** \"Great! Now, let's try a division fact.\"\n5. **Ask:** \"What is $56 \\, \\div \\, 7$?\"\n6. **Say:** \"Remember, multiplication and division are like partners!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication with addition.\n  - Try: Use objects to show repeated addition.\n- Forgetting division facts.\n  - Try: Relate them back to multiplication facts.\n- Mixing up divisor and dividend.\n  - Try: Use simple examples to clarify roles.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Multiplication and division are everywhere! When you double a recipe, you're multiplying. When you share snacks equally, you're dividing.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Keep practicing these facts with your child. They are the key to unlocking more math adventures!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help children memorize multiplication and division facts up to 10×10.\n- Build confidence in using these facts in everyday situations.\n- Strengthen understanding of the relationship between multiplication and division.\n**Why this matters for parents:** Mastery of these facts supports your child's math skills and boosts their confidence in solving problems quickly.",
+    "overview": "This lesson focuses on helping your child learn and remember multiplication and division facts up to 10×10. These are the building blocks for more advanced math concepts.\nUnderstanding these facts is crucial because they form the foundation for many math operations your child will encounter. Mastery here will make future math learning smoother and more intuitive.",
+    "core": "Multiplication is repeated addition. For example, $3 \times 4$ means adding 3, four times: $3 + 3 + 3 + 3 = 12$. Division is splitting into equal parts. For instance, $12 \\, \\div \\, 4$ asks how many times 4 fits into 12, which is 3 times.",
+    "demo": "1. **Say:** \"Let's explore multiplication with objects.\"\n2. Gather 10 small items (like buttons or coins).\n3. **Ask:** \"Can you make 2 groups of 3 buttons each? How many buttons do we have in total?\"\n4. **Say:** \"That's $2 \\times 3 = 6$.\"\n5. **Ask:** \"If we have 6 buttons and want to make 2 equal groups, how many buttons are in each group?\"\n6. **Say:** \"That's division: $6 \\, \\div \\, 2 = 3$.\"",
+    "math": "Multiplication and division are inverse operations. If $3 \\times 4 = 12$, then $12 \\, \\div \\, 4 = 3$. This relationship helps in checking work. For example, if your child knows $5 \\times 6 = 30$, they can also know $30 \\, \\div \\, 5 = 6$.",
+    "formulas": "- $a \\times b = c$\n  - $a$ and $b$ are factors, $c$ is the product.\n- $c \\, \\div \\, b = a$\n  - $c$ is the dividend, $b$ is the divisor, $a$ is the quotient.",
+    "guide": "1. **Say:** \"Let's practice some multiplication facts.\"\n2. Use flashcards or write problems on paper.\n3. **Ask:** \"What is $7 \\times 8$?\"\n4. **Say:** \"Great! Now, let's try a division fact.\"\n5. **Ask:** \"What is $56 \\, \\div \\, 7$?\"\n6. **Say:** \"Remember, multiplication and division are like partners!\"",
+    "mistakes": "- Confusing multiplication with addition.\n  - Try: Use objects to show repeated addition.\n- Forgetting division facts.\n  - Try: Relate them back to multiplication facts.\n- Mixing up divisor and dividend.\n  - Try: Use simple examples to clarify roles.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Multiplication and division are everywhere! When you double a recipe, you're multiplying. When you share snacks equally, you're dividing.",
+    "close": "Keep practicing these facts with your child. They are the key to unlocking more math adventures!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Multiplication & Division Facts (to 10×10)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Multiplication & Division Facts (to 10×10)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Multiplication & Division Facts (to 10×10)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

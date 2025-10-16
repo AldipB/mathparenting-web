@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "164200b1-0348-4155-ae1a-7fbd6b44eefa",
+    "title": "Financial Math / Data Science (Electives)",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "3c88a38a-9bcd-47fa-a418-5063652bd23c",
+    "slug": "loans-mortgages-savings-plans",
+    "title": "Loans, Mortgages, Savings Plans",
+    "summary": "Loans, Mortgages, Savings Plans — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how loans, mortgages, and savings plans work.\n- Learn to calculate interest and payments over time.\n- Apply math skills to real-life financial decisions.\n- **Why this matters for parents:** Empower your child with financial literacy to make informed decisions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the mathematics behind loans, mortgages, and savings plans. We'll break down how interest works and how payments are calculated.\nUnderstanding these concepts is crucial for making informed financial decisions, whether it's buying a home or saving for the future. This knowledge helps your child navigate adult responsibilities with confidence.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Loans and mortgages involve borrowing money and paying it back with interest. Savings plans grow money over time through interest. Knowing how to calculate these can help you make smart financial choices.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's pretend we're buying a toy for $100 and need a loan.\"\n2. Use a calculator and paper to show a simple interest calculation: $100 at 5% interest for 1 year.\n3. **Ask:** \"How much extra do we pay after 1 year?\"\n4. **Say:** \"Now, let's see how savings work. If we save $100 at 5% interest for 1 year, how much do we have?\"\n5. Use a jar and coins to visualize adding interest to savings.\n6. **Ask:** \"What happens if we save for 5 years?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Interest can be simple or compound. Simple interest is calculated as $I = P \times r \times t$, where $P$ is the principal, $r$ is the rate, and $t$ is time.\nFor example, $100 at 5\\%$ interest for 1 year: $$I = 100 \\times 0.05 \\times 1 = 5$$\nCompound interest grows faster because it's calculated on the new total each period.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "I = P \\times r \\times t\n* $I$: Interest\n  * $P$: Principal (initial amount)\n  * $r$: Interest rate (as a decimal)\n  * $t$: Time (in years)\nA = P(1 + r/n)^{nt}\n* $A$: Total amount after interest\n  * $n$: Number of times interest is compounded per year",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's calculate interest on a loan together.\"\n2. Use a calculator to find simple interest on $200 at 4% for 3 years.\n3. **Ask:** \"How much interest do we pay?\"\n4. **Say:** \"Now, let's try compound interest.\"\n5. Calculate compound interest on $200 at 4% compounded annually for 3 years.\n6. **Ask:** \"How does compound interest compare to simple interest?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing simple and compound interest. **Try:** Remember, compound interest is calculated on the new total each time.\n- Forgetting to convert percentage to decimal. **Try:** Divide the percentage by 100.\n- Mixing up principal and interest. **Try:** Principal is the starting amount; interest is what you earn or pay.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Loans and mortgages are part of buying a home, a major life decision. Savings plans help prepare for future goals, like college or retirement.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding loans and savings empowers you to make smart financial decisions. Keep practicing to build confidence!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how loans, mortgages, and savings plans work.\n- Learn to calculate interest and payments over time.\n- Apply math skills to real-life financial decisions.\n- **Why this matters for parents:** Empower your child with financial literacy to make informed decisions.",
+    "overview": "This lesson explores the mathematics behind loans, mortgages, and savings plans. We'll break down how interest works and how payments are calculated.\nUnderstanding these concepts is crucial for making informed financial decisions, whether it's buying a home or saving for the future. This knowledge helps your child navigate adult responsibilities with confidence.",
+    "core": "Loans and mortgages involve borrowing money and paying it back with interest. Savings plans grow money over time through interest. Knowing how to calculate these can help you make smart financial choices.",
+    "demo": "1. **Say:** \"Let's pretend we're buying a toy for $100 and need a loan.\"\n2. Use a calculator and paper to show a simple interest calculation: $100 at 5% interest for 1 year.\n3. **Ask:** \"How much extra do we pay after 1 year?\"\n4. **Say:** \"Now, let's see how savings work. If we save $100 at 5% interest for 1 year, how much do we have?\"\n5. Use a jar and coins to visualize adding interest to savings.\n6. **Ask:** \"What happens if we save for 5 years?\"",
+    "math": "Interest can be simple or compound. Simple interest is calculated as $I = P \times r \times t$, where $P$ is the principal, $r$ is the rate, and $t$ is time.\nFor example, $100 at 5\\%$ interest for 1 year: $$I = 100 \\times 0.05 \\times 1 = 5$$\nCompound interest grows faster because it's calculated on the new total each period.",
+    "formulas": "I = P \\times r \\times t\n* $I$: Interest\n  * $P$: Principal (initial amount)\n  * $r$: Interest rate (as a decimal)\n  * $t$: Time (in years)\nA = P(1 + r/n)^{nt}\n* $A$: Total amount after interest\n  * $n$: Number of times interest is compounded per year",
+    "guide": "1. **Say:** \"Let's calculate interest on a loan together.\"\n2. Use a calculator to find simple interest on $200 at 4% for 3 years.\n3. **Ask:** \"How much interest do we pay?\"\n4. **Say:** \"Now, let's try compound interest.\"\n5. Calculate compound interest on $200 at 4% compounded annually for 3 years.\n6. **Ask:** \"How does compound interest compare to simple interest?\"",
+    "mistakes": "- Confusing simple and compound interest. **Try:** Remember, compound interest is calculated on the new total each time.\n- Forgetting to convert percentage to decimal. **Try:** Divide the percentage by 100.\n- Mixing up principal and interest. **Try:** Principal is the starting amount; interest is what you earn or pay.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Loans and mortgages are part of buying a home, a major life decision. Savings plans help prepare for future goals, like college or retirement.",
+    "close": "Understanding loans and savings empowers you to make smart financial decisions. Keep practicing to build confidence!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Loans, Mortgages, Savings Plans**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Loans, Mortgages, Savings Plans** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Loans, Mortgages, Savings Plans**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

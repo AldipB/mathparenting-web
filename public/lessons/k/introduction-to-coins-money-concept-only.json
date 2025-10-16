@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "d6f173a2-90a9-4d5b-8412-90ab75e1ef35",
+    "title": "Everyday Math",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "7f970b35-c62a-4e5d-9604-00b02283ffaf",
+    "slug": "introduction-to-coins-money-concept-only",
+    "title": "Introduction to Coins & Money (Concept Only)",
+    "summary": "Introduction to Coins & Money (Concept Only) — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Recognize different coins and notes by size, color, and pictures.\n- Understand the concept of heads and tails on coins.\n- Begin to associate coins with their names.\n**Why this matters for parents:** Building a basic understanding of money helps children develop financial literacy early on.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to the basic concepts of coins and money. They'll learn to identify coins by their size, color, and the images on them.\nUnderstanding money is a foundational skill that helps children in everyday life, from counting to making purchases. It also sets the stage for more complex math skills later on.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Coins and notes are different types of money. Coins have two sides: heads and tails. Each coin has unique features like size, color, and pictures that help us tell them apart. This lesson focuses on recognizing these features.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a few coins or play money (pennies, nickels, dimes, quarters).\n2. **Say:** \"Let's look at these coins. Can you find the biggest one?\"\n3. **Ask:** \"Which coin is shiny? Which one is darker?\"\n4. Place coins on paper and trace their outlines.\n5. **Say:** \"Let's match the coins to their outlines.\"\n6. Flip a coin and **ask:** \"Is this heads or tails?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Coins have different values, but today we're focusing on recognizing them. For example, a quarter is larger and thicker than a dime. A penny is copper-colored, while a nickel is silver and thicker than a dime.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by showing your child a small collection of coins.\n2. Encourage them to sort the coins by size or color.\n3. **Ask:** \"What picture do you see on this coin?\"\n4. Flip a coin and discuss which side is heads and which is tails.\n5. Repeat the activity with different coins to reinforce learning.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing coin sizes: Try comparing coins side by side.\n- Forgetting heads and tails: Try flipping the coin and naming each side.\n- Mixing up colors: Try sorting coins by color first, then size.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Next time you go shopping, point out coins and notes when paying. This helps your child see money in action and reinforces their learning.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring coins today! Recognizing money is a big step in understanding the world around us.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Recognize different coins and notes by size, color, and pictures.\n- Understand the concept of heads and tails on coins.\n- Begin to associate coins with their names.\n**Why this matters for parents:** Building a basic understanding of money helps children develop financial literacy early on.",
+    "overview": "This lesson introduces your child to the basic concepts of coins and money. They'll learn to identify coins by their size, color, and the images on them.\nUnderstanding money is a foundational skill that helps children in everyday life, from counting to making purchases. It also sets the stage for more complex math skills later on.",
+    "core": "Coins and notes are different types of money. Coins have two sides: heads and tails. Each coin has unique features like size, color, and pictures that help us tell them apart. This lesson focuses on recognizing these features.",
+    "demo": "1. Gather a few coins or play money (pennies, nickels, dimes, quarters).\n2. **Say:** \"Let's look at these coins. Can you find the biggest one?\"\n3. **Ask:** \"Which coin is shiny? Which one is darker?\"\n4. Place coins on paper and trace their outlines.\n5. **Say:** \"Let's match the coins to their outlines.\"\n6. Flip a coin and **ask:** \"Is this heads or tails?\"",
+    "math": "Coins have different values, but today we're focusing on recognizing them. For example, a quarter is larger and thicker than a dime. A penny is copper-colored, while a nickel is silver and thicker than a dime.",
+    "guide": "1. Start by showing your child a small collection of coins.\n2. Encourage them to sort the coins by size or color.\n3. **Ask:** \"What picture do you see on this coin?\"\n4. Flip a coin and discuss which side is heads and which is tails.\n5. Repeat the activity with different coins to reinforce learning.",
+    "mistakes": "- Confusing coin sizes: Try comparing coins side by side.\n- Forgetting heads and tails: Try flipping the coin and naming each side.\n- Mixing up colors: Try sorting coins by color first, then size.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Next time you go shopping, point out coins and notes when paying. This helps your child see money in action and reinforces their learning.",
+    "close": "Great job exploring coins today! Recognizing money is a big step in understanding the world around us."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Which coin is larger, a dime or a nickel?",
+      "hint_md": "Think about the size and color.",
+      "answer_md": "A nickel is larger than a dime."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What picture is on the quarter?",
+      "hint_md": "Look for a famous building or person.",
+      "answer_md": "The quarter often has a picture of George Washington."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Can you find the coin with a smooth edge?",
+      "hint_md": "Feel the edges of the coins.",
+      "answer_md": "The penny usually has a smooth edge."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "178661bc-7974-453a-a8a3-6cf62ecc9ecd",
+    "slug": "decimal-operations-add-subtract-multiply-divide-by-10s",
+    "title": "Decimal Operations (Add/Subtract/Multiply/Divide by 10s)",
+    "summary": "Decimal Operations (Add/Subtract/Multiply/Divide by 10s) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to add, subtract, multiply, and divide decimals by 10, 100, and 1,000.\n- Help your child see patterns when shifting the decimal point.\n- Build confidence in using decimals in everyday situations.\n- **Why this matters for parents:** You'll be able to support your child's understanding of decimals, a key skill in math and daily life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on performing operations with decimals when multiplying or dividing by 10, 100, and 1,000. It involves understanding how the decimal point shifts, making these calculations easier.\nMastering decimal operations helps children handle money, measurements, and other real-world math tasks. It builds a foundation for more complex math concepts they'll encounter later.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When we multiply or divide decimals by 10, 100, or 1,000, we move the decimal point. Multiplying shifts it to the right, and dividing shifts it to the left. This pattern helps simplify calculations without needing a calculator.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. **Say:** Let's use a pencil to represent the decimal point. Place it on a piece of paper.\n- 2. **Ask:** If we have 3.5 and multiply by 10, where does the decimal point move? (Right one place)\n- 3. **Say:** Move the pencil one space to the right. Now it's 35.0.\n- 4. **Ask:** What if we divide 3.5 by 10? (Left one place)\n- 5. **Say:** Move the pencil one space to the left. Now it's 0.35.\n- 6. Use a ruler to measure 3.5 cm, then multiply by 10 to see 35 cm. Repeat with division.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When multiplying a decimal by 10, 100, or 1,000, move the decimal point to the right by 1, 2, or 3 places, respectively. For example, $4.56 \\times 100 = 456$. When dividing, move it to the left. For example, $4.56 \\div 10 = 0.456$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Decimal \\times 10^n\n- Move the decimal point right by $n$ places.\nDecimal \\div 10^n\n- Move the decimal point left by $n$ places.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** Let's write down a decimal, like 2.34.\n- 2. **Ask:** What happens if we multiply by 10? (Move the decimal right)\n- 3. **Say:** Now, let's divide by 100. Where does the decimal go? (Left two places)\n- 4. Use coins to represent decimal places and move them as you multiply or divide.\n- 5. **Ask:** How does the number change when we move the decimal?\n- 6. Practice with different numbers and operations to reinforce the pattern.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to move the decimal point: **Try:** Use a pencil to physically move as a reminder.\n- Moving the decimal the wrong way: **Try:** Say 'right for multiply, left for divide' out loud.\n- Not moving enough places: **Try:** Count the zeros in 10, 100, or 1,000 to know how many places to move.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, multiplying or dividing prices by 10, 100, or 1,000 helps quickly estimate costs or discounts. It's also useful in cooking when adjusting recipes.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring decimal operations! Keep practicing, and soon your child will handle decimals like a pro.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to add, subtract, multiply, and divide decimals by 10, 100, and 1,000.\n- Help your child see patterns when shifting the decimal point.\n- Build confidence in using decimals in everyday situations.\n- **Why this matters for parents:** You'll be able to support your child's understanding of decimals, a key skill in math and daily life.",
+    "overview": "This lesson focuses on performing operations with decimals when multiplying or dividing by 10, 100, and 1,000. It involves understanding how the decimal point shifts, making these calculations easier.\nMastering decimal operations helps children handle money, measurements, and other real-world math tasks. It builds a foundation for more complex math concepts they'll encounter later.",
+    "core": "When we multiply or divide decimals by 10, 100, or 1,000, we move the decimal point. Multiplying shifts it to the right, and dividing shifts it to the left. This pattern helps simplify calculations without needing a calculator.",
+    "demo": "- 1. **Say:** Let's use a pencil to represent the decimal point. Place it on a piece of paper.\n- 2. **Ask:** If we have 3.5 and multiply by 10, where does the decimal point move? (Right one place)\n- 3. **Say:** Move the pencil one space to the right. Now it's 35.0.\n- 4. **Ask:** What if we divide 3.5 by 10? (Left one place)\n- 5. **Say:** Move the pencil one space to the left. Now it's 0.35.\n- 6. Use a ruler to measure 3.5 cm, then multiply by 10 to see 35 cm. Repeat with division.",
+    "math": "When multiplying a decimal by 10, 100, or 1,000, move the decimal point to the right by 1, 2, or 3 places, respectively. For example, $4.56 \\times 100 = 456$. When dividing, move it to the left. For example, $4.56 \\div 10 = 0.456$.",
+    "formulas": "Decimal \\times 10^n\n- Move the decimal point right by $n$ places.\nDecimal \\div 10^n\n- Move the decimal point left by $n$ places.",
+    "guide": "- 1. **Say:** Let's write down a decimal, like 2.34.\n- 2. **Ask:** What happens if we multiply by 10? (Move the decimal right)\n- 3. **Say:** Now, let's divide by 100. Where does the decimal go? (Left two places)\n- 4. Use coins to represent decimal places and move them as you multiply or divide.\n- 5. **Ask:** How does the number change when we move the decimal?\n- 6. Practice with different numbers and operations to reinforce the pattern.",
+    "mistakes": "- Forgetting to move the decimal point: **Try:** Use a pencil to physically move as a reminder.\n- Moving the decimal the wrong way: **Try:** Say 'right for multiply, left for divide' out loud.\n- Not moving enough places: **Try:** Count the zeros in 10, 100, or 1,000 to know how many places to move.",
+    "connection": "When shopping, multiplying or dividing prices by 10, 100, or 1,000 helps quickly estimate costs or discounts. It's also useful in cooking when adjusting recipes.",
+    "close": "Great job exploring decimal operations! Keep practicing, and soon your child will handle decimals like a pro."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is $5.67 \\times 10$?",
+      "hint_md": "Move the decimal one place to the right.",
+      "answer_md": "$56.7$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Calculate $12.3 \\div 100$.",
+      "hint_md": "Move the decimal two places to the left.",
+      "answer_md": "$0.123$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Find the result of $0.89 \\times 1,000$.",
+      "hint_md": "Move the decimal three places to the right.",
+      "answer_md": "$890$"
+    }
+  ]
+}

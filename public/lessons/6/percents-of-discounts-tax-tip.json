@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "9266d700-a7e8-4564-bfc6-ba70ff7dbf9c",
+    "slug": "percents-of-discounts-tax-tip",
+    "title": "Percents (of, discounts, tax, tip)",
+    "summary": "Percents (of, discounts, tax, tip) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate percentages, including discounts, tax, and tips.\n- Apply percentage calculations to real-life situations.\n- **Why this matters for parents:** Helps children make smart financial decisions and understand everyday math.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers the concept of percents, focusing on how to calculate discounts, tax, and tips. Percents are a way to express parts of a whole, similar to fractions and decimals.\nUnderstanding percents is crucial because they are used in many everyday situations, like shopping and dining out. This knowledge helps children become savvy consumers and handle money wisely.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Percents are a way to describe how much out of 100. For example, 25% means 25 out of 100. We often use percents to calculate discounts on items, add tax to purchases, or leave tips at restaurants.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find out how much a 20% discount saves on a $50 item.\n2. **Ask:** What is 20% of $50?\n3. Use a calculator or paper to multiply 50 by 0.20 (20%).\n4. **Say:** 50 times 0.20 equals 10. So, the discount is $10.\n5. **Ask:** How much do we pay after the discount?\n6. **Say:** Subtract the discount from the original price: $50 - $10 = $40.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find a percentage of a number, convert the percent to a decimal and multiply. For example, to find 15% of $60:\n$$60 \\times 0.15 = 9$$\nSo, 15% of $60 is $9.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Percentage of a number:\n  - $$\\text{Amount} \\times \\frac{\\text{Percent}}{100}$$\n  - Amount is the original number.\n  - Percent is the percentage you want to find.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is the original price of the item?\n2. **Say:** Let's calculate the discount by multiplying the price by the percentage as a decimal.\n3. **Ask:** What is the new price after subtracting the discount?\n4. **Say:** Now, let's add tax by multiplying the new price by the tax rate as a decimal.\n5. **Ask:** How much is the total cost with tax?\n6. **Say:** If we want to leave a tip, calculate it by multiplying the total cost by the tip percentage.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the decimal point: Try multiplying by 0.20 for 20%.\n- Forgetting to subtract the discount: Try subtracting the discount from the original price.\n- Mixing up tax and tip: Try calculating each separately and then adding to the total.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, use percents to find out how much you're saving during sales. At restaurants, use percents to calculate tips and understand the final bill.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding percents helps children make informed decisions about money. Keep practicing, and soon these calculations will become second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate percentages, including discounts, tax, and tips.\n- Apply percentage calculations to real-life situations.\n- **Why this matters for parents:** Helps children make smart financial decisions and understand everyday math.",
+    "overview": "This lesson covers the concept of percents, focusing on how to calculate discounts, tax, and tips. Percents are a way to express parts of a whole, similar to fractions and decimals.\nUnderstanding percents is crucial because they are used in many everyday situations, like shopping and dining out. This knowledge helps children become savvy consumers and handle money wisely.",
+    "core": "Percents are a way to describe how much out of 100. For example, 25% means 25 out of 100. We often use percents to calculate discounts on items, add tax to purchases, or leave tips at restaurants.",
+    "demo": "1. **Say:** Let's find out how much a 20% discount saves on a $50 item.\n2. **Ask:** What is 20% of $50?\n3. Use a calculator or paper to multiply 50 by 0.20 (20%).\n4. **Say:** 50 times 0.20 equals 10. So, the discount is $10.\n5. **Ask:** How much do we pay after the discount?\n6. **Say:** Subtract the discount from the original price: $50 - $10 = $40.",
+    "math": "To find a percentage of a number, convert the percent to a decimal and multiply. For example, to find 15% of $60:\n$$60 \\times 0.15 = 9$$\nSo, 15% of $60 is $9.",
+    "formulas": "- Percentage of a number:\n  - $$\\text{Amount} \\times \\frac{\\text{Percent}}{100}$$\n  - Amount is the original number.\n  - Percent is the percentage you want to find.",
+    "guide": "1. **Ask:** What is the original price of the item?\n2. **Say:** Let's calculate the discount by multiplying the price by the percentage as a decimal.\n3. **Ask:** What is the new price after subtracting the discount?\n4. **Say:** Now, let's add tax by multiplying the new price by the tax rate as a decimal.\n5. **Ask:** How much is the total cost with tax?\n6. **Say:** If we want to leave a tip, calculate it by multiplying the total cost by the tip percentage.",
+    "mistakes": "- Confusing the decimal point: Try multiplying by 0.20 for 20%.\n- Forgetting to subtract the discount: Try subtracting the discount from the original price.\n- Mixing up tax and tip: Try calculating each separately and then adding to the total.",
+    "connection": "When shopping, use percents to find out how much you're saving during sales. At restaurants, use percents to calculate tips and understand the final bill.",
+    "close": "Understanding percents helps children make informed decisions about money. Keep practicing, and soon these calculations will become second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is 25% of $80?",
+      "hint_md": "Convert 25% to a decimal and multiply by 80.",
+      "answer_md": "$$80 \\times 0.25 = 20$$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "A $40 item is on sale for 15% off. What is the sale price?",
+      "hint_md": "Find 15% of $40 and subtract from the original price.",
+      "answer_md": "$$40 - (40 \\times 0.15) = 34$$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If the sales tax is 8%, how much tax is added to a $50 purchase?",
+      "hint_md": "Multiply $50 by 0.08 to find the tax.",
+      "answer_md": "$$50 \\times 0.08 = 4$$"
+    }
+  ]
+}

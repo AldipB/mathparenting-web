@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "70bd8f23-c3f0-4a0a-88ca-7c6549210c73",
+    "slug": "applications-of-derivatives-slope-optimization",
+    "title": "Applications of Derivatives (Slope, Optimization)",
+    "summary": "Applications of Derivatives (Slope, Optimization) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how derivatives represent the slope of a function.\n- Learn how to use derivatives for optimization problems.\n- **Why this matters for parents:** This helps your child solve real-world problems involving rates of change and maximizing or minimizing values.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we explore how derivatives can be used to find the slope of a function and solve optimization problems. Derivatives are a fundamental concept in calculus that describe how a function changes at any given point.\nUnderstanding derivatives is crucial because they allow us to determine the best possible outcomes in various scenarios, such as maximizing profit or minimizing cost. This knowledge is not only useful in academics but also in everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Derivatives tell us the slope or steepness of a curve at any point. This is like finding how fast a car is going at a specific moment. Optimization uses derivatives to find the maximum or minimum values of a function, like determining the best size for a box to hold the most without wasting material.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find the slope of a curve using a simple example.\"\n2. Use a toy car and a ramp (a book propped up) to show how steepness affects speed.\n3. **Ask:** \"What happens if we make the ramp steeper?\"\n4. **Say:** \"The steeper the ramp, the faster the car goes. This is like a derivative showing a steep slope.\"\n5. Use a piece of string to form a curve on the table. **Ask:** \"Where is the string the steepest?\"\n6. **Say:** \"We use derivatives to find these steep points and solve problems.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The derivative of a function $f(x)$ at a point $x$ is the slope of the tangent line to the curve at that point. For example, if $f(x) = x^2$, then the derivative $f'(x) = 2x$. At $x = 3$, $f'(3) = 6$, meaning the slope of the curve at $x = 3$ is 6.\nIn optimization, if we want to maximize or minimize a function, we find where its derivative is zero (the slope is flat). For example, to find the maximum area of a rectangle with a fixed perimeter, we use derivatives to solve for the dimensions.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Derivative: $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$\n* $f'(x)$: Derivative of $f(x)$\n* $h$: Small change in $x$\nOptimization condition: $f'(x) = 0$\n* $f'(x) = 0$: Points where the slope is zero (potential maxima/minima)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What does the slope of a hill tell us about walking up it?\"\n2. **Say:** \"A steeper hill means more effort, just like a steeper slope means a higher derivative.\"\n3. **Ask:** \"Why might we want to know where a function is steepest or flattest?\"\n4. **Say:** \"Finding these points helps us make decisions, like where to build a road.\"\n5. **Ask:** \"How can we use this to find the best size for a box?\"\n6. **Say:** \"By using derivatives, we can optimize the box dimensions for maximum volume.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the derivative with the function itself. **Try:** Remember, the derivative is the slope, not the height.\n- Forgetting to set the derivative to zero for optimization. **Try:** Always find where the derivative equals zero to locate potential maxima or minima.\n- Ignoring the context of a problem. **Try:** Consider what the slope or optimization means in real life, like speed or cost.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Derivatives are used in engineering to design safer roads by calculating curves and slopes. They also help businesses maximize profit by optimizing production levels.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding derivatives opens up a world of possibilities in solving real-life problems. Keep exploring, and you'll see how math shapes the world around us!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how derivatives represent the slope of a function.\n- Learn how to use derivatives for optimization problems.\n- **Why this matters for parents:** This helps your child solve real-world problems involving rates of change and maximizing or minimizing values.",
+    "overview": "In this lesson, we explore how derivatives can be used to find the slope of a function and solve optimization problems. Derivatives are a fundamental concept in calculus that describe how a function changes at any given point.\nUnderstanding derivatives is crucial because they allow us to determine the best possible outcomes in various scenarios, such as maximizing profit or minimizing cost. This knowledge is not only useful in academics but also in everyday decision-making.",
+    "core": "Derivatives tell us the slope or steepness of a curve at any point. This is like finding how fast a car is going at a specific moment. Optimization uses derivatives to find the maximum or minimum values of a function, like determining the best size for a box to hold the most without wasting material.",
+    "demo": "1. **Say:** \"Let's find the slope of a curve using a simple example.\"\n2. Use a toy car and a ramp (a book propped up) to show how steepness affects speed.\n3. **Ask:** \"What happens if we make the ramp steeper?\"\n4. **Say:** \"The steeper the ramp, the faster the car goes. This is like a derivative showing a steep slope.\"\n5. Use a piece of string to form a curve on the table. **Ask:** \"Where is the string the steepest?\"\n6. **Say:** \"We use derivatives to find these steep points and solve problems.\"",
+    "math": "The derivative of a function $f(x)$ at a point $x$ is the slope of the tangent line to the curve at that point. For example, if $f(x) = x^2$, then the derivative $f'(x) = 2x$. At $x = 3$, $f'(3) = 6$, meaning the slope of the curve at $x = 3$ is 6.\nIn optimization, if we want to maximize or minimize a function, we find where its derivative is zero (the slope is flat). For example, to find the maximum area of a rectangle with a fixed perimeter, we use derivatives to solve for the dimensions.",
+    "formulas": "Derivative: $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$\n* $f'(x)$: Derivative of $f(x)$\n* $h$: Small change in $x$\nOptimization condition: $f'(x) = 0$\n* $f'(x) = 0$: Points where the slope is zero (potential maxima/minima)",
+    "guide": "1. **Ask:** \"What does the slope of a hill tell us about walking up it?\"\n2. **Say:** \"A steeper hill means more effort, just like a steeper slope means a higher derivative.\"\n3. **Ask:** \"Why might we want to know where a function is steepest or flattest?\"\n4. **Say:** \"Finding these points helps us make decisions, like where to build a road.\"\n5. **Ask:** \"How can we use this to find the best size for a box?\"\n6. **Say:** \"By using derivatives, we can optimize the box dimensions for maximum volume.\"",
+    "mistakes": "- Confusing the derivative with the function itself. **Try:** Remember, the derivative is the slope, not the height.\n- Forgetting to set the derivative to zero for optimization. **Try:** Always find where the derivative equals zero to locate potential maxima or minima.\n- Ignoring the context of a problem. **Try:** Consider what the slope or optimization means in real life, like speed or cost.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Derivatives are used in engineering to design safer roads by calculating curves and slopes. They also help businesses maximize profit by optimizing production levels.",
+    "close": "Understanding derivatives opens up a world of possibilities in solving real-life problems. Keep exploring, and you'll see how math shapes the world around us!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Applications of Derivatives (Slope, Optimization)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Applications of Derivatives (Slope, Optimization)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Applications of Derivatives (Slope, Optimization)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

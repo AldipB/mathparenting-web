@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "3c176d08-6832-4ef8-9734-304c4edcb918",
+    "slug": "solving-linear-equations-inequalities-1-step-2-step-multi-step",
+    "title": "Solving Linear Equations & Inequalities (1-step, 2-step, multi-step)",
+    "summary": "Solving Linear Equations & Inequalities (1-step, 2-step, multi-step) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to solve one-step, two-step, and multi-step linear equations and inequalities.\n- Learn to use household objects to visualize equations and inequalities.\n- Build confidence in explaining math concepts to your child.\n- **Why this matters for parents:** Helping your child with math strengthens their skills and your bond.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Linear equations and inequalities are mathematical statements that show the relationship between variables and constants. Solving them involves finding the value of the variable that makes the statement true.\nUnderstanding these concepts is crucial because they form the foundation for more advanced math topics. They also enhance logical thinking and problem-solving skills, which are valuable in everyday life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Linear equations and inequalities can be solved by performing operations that simplify the equation or inequality. This often involves 'undoing' operations to isolate the variable. For example, if a variable is multiplied by a number, you can divide by that number to solve for the variable.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather some small objects like coins or buttons to represent numbers.\n- Say: 'Let's solve the equation 3x = 12.'\n- Place 3 groups of coins, each with the same number of coins, to represent 3x.\n- Ask: 'If the total is 12 coins, how many coins are in each group?'\n- Explain: 'We divide 12 by 3 to find x. So, x = 4.'\n- Say: 'Now, let's try an inequality: x + 5 > 8. How can we find x?'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve a linear equation like $3x = 12$, divide both sides by 3 to isolate $x$: $$x = \\frac{12}{3} = 4.$$ For an inequality like $x + 5 > 8$, subtract 5 from both sides: $$x > 3.$$ This means $x$ can be any number greater than 3.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "x = \\frac{b}{a}\n* $x$ is the variable.\n* $a$ is the coefficient of $x$.\n* $b$ is the constant term.\nx > c\n* $x$ is the variable.\n* $c$ is the constant after solving the inequality.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Start with a simple equation like $x + 3 = 7$. Ask your child what operation will isolate $x$.\n- Use coins to represent the equation. Remove 3 coins from both sides to show $x = 4$.\n- Move to a two-step equation: $2x + 3 = 11$. Ask what to do first (subtract 3).\n- Divide the remaining coins into 2 equal groups to find $x = 4$.\n- For inequalities, use a number line to show solutions. Mark $x > 3$ and discuss possible values.\n- Encourage your child to explain their reasoning at each step.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to perform the same operation on both sides. Try: Use coins to visualize balance.\n- Mixing up addition and subtraction. Try: Double-check each step with your child.\n- Misinterpreting inequality signs. Try: Use a number line to clarify greater than/less than.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Solving equations is like balancing a scale. If you add or remove weight from one side, you must do the same to the other. This concept applies to budgeting and cooking, where balance is key.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You're doing great! Each step you take with your child builds their confidence and yours. Keep exploring and enjoy the journey together.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to solve one-step, two-step, and multi-step linear equations and inequalities.\n- Learn to use household objects to visualize equations and inequalities.\n- Build confidence in explaining math concepts to your child.\n- **Why this matters for parents:** Helping your child with math strengthens their skills and your bond.",
+    "overview": "Linear equations and inequalities are mathematical statements that show the relationship between variables and constants. Solving them involves finding the value of the variable that makes the statement true.\nUnderstanding these concepts is crucial because they form the foundation for more advanced math topics. They also enhance logical thinking and problem-solving skills, which are valuable in everyday life.",
+    "core": "Linear equations and inequalities can be solved by performing operations that simplify the equation or inequality. This often involves 'undoing' operations to isolate the variable. For example, if a variable is multiplied by a number, you can divide by that number to solve for the variable.",
+    "demo": "- Gather some small objects like coins or buttons to represent numbers.\n- Say: 'Let's solve the equation 3x = 12.'\n- Place 3 groups of coins, each with the same number of coins, to represent 3x.\n- Ask: 'If the total is 12 coins, how many coins are in each group?'\n- Explain: 'We divide 12 by 3 to find x. So, x = 4.'\n- Say: 'Now, let's try an inequality: x + 5 > 8. How can we find x?'",
+    "math": "To solve a linear equation like $3x = 12$, divide both sides by 3 to isolate $x$: $$x = \\frac{12}{3} = 4.$$ For an inequality like $x + 5 > 8$, subtract 5 from both sides: $$x > 3.$$ This means $x$ can be any number greater than 3.",
+    "formulas": "x = \\frac{b}{a}\n* $x$ is the variable.\n* $a$ is the coefficient of $x$.\n* $b$ is the constant term.\nx > c\n* $x$ is the variable.\n* $c$ is the constant after solving the inequality.",
+    "guide": "- Start with a simple equation like $x + 3 = 7$. Ask your child what operation will isolate $x$.\n- Use coins to represent the equation. Remove 3 coins from both sides to show $x = 4$.\n- Move to a two-step equation: $2x + 3 = 11$. Ask what to do first (subtract 3).\n- Divide the remaining coins into 2 equal groups to find $x = 4$.\n- For inequalities, use a number line to show solutions. Mark $x > 3$ and discuss possible values.\n- Encourage your child to explain their reasoning at each step.",
+    "mistakes": "- Forgetting to perform the same operation on both sides. Try: Use coins to visualize balance.\n- Mixing up addition and subtraction. Try: Double-check each step with your child.\n- Misinterpreting inequality signs. Try: Use a number line to clarify greater than/less than.",
+    "connection": "Solving equations is like balancing a scale. If you add or remove weight from one side, you must do the same to the other. This concept applies to budgeting and cooking, where balance is key.",
+    "close": "You're doing great! Each step you take with your child builds their confidence and yours. Keep exploring and enjoy the journey together."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Solve: $5x = 20$",
+      "hint_md": "Divide both sides by 5.",
+      "answer_md": "$x = 4$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Solve: $x - 7 = 10$",
+      "hint_md": "Add 7 to both sides.",
+      "answer_md": "$x = 17$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Solve the inequality: $x + 4 < 9$",
+      "hint_md": "Subtract 4 from both sides.",
+      "answer_md": "$x < 5$"
+    }
+  ]
+}

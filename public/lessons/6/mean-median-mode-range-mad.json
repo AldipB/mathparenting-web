@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f40ac1fe-dbc9-49f6-ae80-64b620ab011f",
+    "slug": "mean-median-mode-range-mad",
+    "title": "Mean/Median/Mode/Range; MAD",
+    "summary": "Mean/Median/Mode/Range; MAD — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 13
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand and calculate mean, median, mode, range, and Mean Absolute Deviation (MAD).\n- Help your child apply these concepts to real-life situations.\n- **Why this matters for parents:** These skills are foundational for data analysis, which is increasingly important in many fields.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers the basics of mean, median, mode, range, and Mean Absolute Deviation (MAD). These are statistical tools used to summarize and understand data sets.\nUnderstanding these concepts helps children make sense of numbers in everyday life, from analyzing sports statistics to understanding grades. It builds a foundation for more advanced math and critical thinking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Mean, median, mode, and range are ways to describe a set of numbers. The Mean Absolute Deviation (MAD) measures how spread out the numbers are. These concepts help us understand data more clearly.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a set of 5-7 small household objects (e.g., toy cars, blocks) and assign each a number (e.g., 2, 4, 4, 5, 7).\n2. **Say:** \"Let's find the mean. Add all the numbers and divide by how many there are.\"\n3. **Ask:** \"Which number appears most often? That's the mode.\"\n4. **Say:** \"To find the median, arrange the numbers in order and find the middle one.\"\n5. **Ask:** \"What's the difference between the highest and lowest numbers? That's the range.\"\n6. **Say:** \"For MAD, find how far each number is from the mean, then average those distances.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the mean, add all the numbers and divide by the count. For example, with the numbers 2, 4, 4, 5, 7:\n$$\\text{Mean} = \\frac{2 + 4 + 4 + 5 + 7}{5} = 4.4$$\nThe median is the middle number when arranged in order. Here, it's 4.\nThe mode is the number that appears most frequently, which is 4.\nThe range is the difference between the highest and lowest numbers: $7 - 2 = 5$.\nMAD is the average of the absolute differences from the mean.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Mean: $$\\text{Mean} = \\frac{\\sum x}{n}$$\n  - \\(\\sum x\\): sum of all numbers\n  - \\(n\\): number of values\n- Median: \"\"\n- Mode: \"\"\n- Range: $$\\text{Range} = \\text{max} - \\text{min}$$\n  - max: highest number\n  - min: lowest number\n- MAD: $$\\text{MAD} = \\frac{\\sum |x - \\text{mean}|}{n}$$\n  - \\(|x - \\text{mean}|\\): absolute difference from the mean",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's add these numbers together.\"\n2. **Ask:** \"How many numbers do we have?\"\n3. **Say:** \"Now, divide the total by that number to find the mean.\"\n4. **Ask:** \"Which number is in the middle? That's the median.\"\n5. **Say:** \"Look for the number that appears most often for the mode.\"\n6. **Ask:** \"Can you subtract the smallest number from the largest for the range?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to arrange numbers in order for the median.\n  - Try: Always list numbers from smallest to largest first.\n- Confusing mode with mean.\n  - Try: Mode is the most frequent number.\n- Mixing up range and mean.\n  - Try: Range is a subtraction, not an average.\n- Ignoring negative differences in MAD.\n  - Try: Use absolute values for differences.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "These concepts are used in sports to calculate averages and in weather forecasts to understand temperature variations. They help make sense of data in everyday life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these concepts helps your child make sense of the world through numbers. Keep practicing, and soon they'll be a data detective!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand and calculate mean, median, mode, range, and Mean Absolute Deviation (MAD).\n- Help your child apply these concepts to real-life situations.\n- **Why this matters for parents:** These skills are foundational for data analysis, which is increasingly important in many fields.",
+    "overview": "This lesson covers the basics of mean, median, mode, range, and Mean Absolute Deviation (MAD). These are statistical tools used to summarize and understand data sets.\nUnderstanding these concepts helps children make sense of numbers in everyday life, from analyzing sports statistics to understanding grades. It builds a foundation for more advanced math and critical thinking.",
+    "core": "Mean, median, mode, and range are ways to describe a set of numbers. The Mean Absolute Deviation (MAD) measures how spread out the numbers are. These concepts help us understand data more clearly.",
+    "demo": "1. Gather a set of 5-7 small household objects (e.g., toy cars, blocks) and assign each a number (e.g., 2, 4, 4, 5, 7).\n2. **Say:** \"Let's find the mean. Add all the numbers and divide by how many there are.\"\n3. **Ask:** \"Which number appears most often? That's the mode.\"\n4. **Say:** \"To find the median, arrange the numbers in order and find the middle one.\"\n5. **Ask:** \"What's the difference between the highest and lowest numbers? That's the range.\"\n6. **Say:** \"For MAD, find how far each number is from the mean, then average those distances.\"",
+    "math": "To find the mean, add all the numbers and divide by the count. For example, with the numbers 2, 4, 4, 5, 7:\n$$\\text{Mean} = \\frac{2 + 4 + 4 + 5 + 7}{5} = 4.4$$\nThe median is the middle number when arranged in order. Here, it's 4.\nThe mode is the number that appears most frequently, which is 4.\nThe range is the difference between the highest and lowest numbers: $7 - 2 = 5$.\nMAD is the average of the absolute differences from the mean.",
+    "formulas": "- Mean: $$\\text{Mean} = \\frac{\\sum x}{n}$$\n  - \\(\\sum x\\): sum of all numbers\n  - \\(n\\): number of values\n- Median: \"\"\n- Mode: \"\"\n- Range: $$\\text{Range} = \\text{max} - \\text{min}$$\n  - max: highest number\n  - min: lowest number\n- MAD: $$\\text{MAD} = \\frac{\\sum |x - \\text{mean}|}{n}$$\n  - \\(|x - \\text{mean}|\\): absolute difference from the mean",
+    "guide": "1. **Say:** \"Let's add these numbers together.\"\n2. **Ask:** \"How many numbers do we have?\"\n3. **Say:** \"Now, divide the total by that number to find the mean.\"\n4. **Ask:** \"Which number is in the middle? That's the median.\"\n5. **Say:** \"Look for the number that appears most often for the mode.\"\n6. **Ask:** \"Can you subtract the smallest number from the largest for the range?\"",
+    "mistakes": "- Forgetting to arrange numbers in order for the median.\n  - Try: Always list numbers from smallest to largest first.\n- Confusing mode with mean.\n  - Try: Mode is the most frequent number.\n- Mixing up range and mean.\n  - Try: Range is a subtraction, not an average.\n- Ignoring negative differences in MAD.\n  - Try: Use absolute values for differences.",
+    "connection": "These concepts are used in sports to calculate averages and in weather forecasts to understand temperature variations. They help make sense of data in everyday life.",
+    "close": "Understanding these concepts helps your child make sense of the world through numbers. Keep practicing, and soon they'll be a data detective!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the mean of the numbers: 3, 8, 10, 15.",
+      "hint_md": "Add all the numbers and divide by how many there are.",
+      "answer_md": "Mean = \\(\\frac{3 + 8 + 10 + 15}{4} = 9\\)."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the median of the set: 5, 3, 9, 7?",
+      "hint_md": "Arrange the numbers in order first.",
+      "answer_md": "Median = 6 (arranged: 3, 5, 7, 9)."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Determine the mode of the numbers: 4, 4, 6, 8, 9.",
+      "hint_md": "Look for the number that appears most often.",
+      "answer_md": "Mode = 4."
+    }
+  ]
+}

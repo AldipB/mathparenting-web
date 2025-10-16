@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "11060306-fa84-46db-9121-c3ace1407a3e",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "32041861-7674-4c93-bc53-2c25b91ef347",
+    "slug": "graphing-interpreting-data-intro-to-basic-probability",
+    "title": "Graphing & Interpreting Data; Intro to Basic Probability",
+    "summary": "Graphing & Interpreting Data; Intro to Basic Probability — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to create and interpret simple bar graphs.\n- Introduce basic probability concepts using everyday examples.\n- **Why this matters for parents:** These skills help children make sense of data and chance, which are essential in decision-making and problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to graphing data using bar graphs and understanding basic probability. Graphs are visual tools that help us see patterns and compare information easily. Probability teaches us about the likelihood of events happening, which is a key part of making predictions.\nUnderstanding these concepts helps children organize information and make informed decisions, both in school and in everyday life. It also lays the groundwork for more advanced math topics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll use simple household items to create a bar graph and explore probability. A bar graph is a way to show information using bars of different heights. Probability is the chance that something will happen, like flipping a coin and getting heads.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather objects:** Collect different colored socks (e.g., 3 red, 2 blue, 5 white).\n2. **Create a bar graph:** Use paper and crayons to draw a bar graph showing the number of each color sock.\n   - **Say:** \"Let's draw a bar for each color.\"\n3. **Ask:** \"Which color has the most socks? Which has the least?\"\n4. **Introduce probability:** Put the socks in a bag and pull one out without looking.\n5. **Ask:** \"What's the chance of pulling out a red sock?\"\n6. **Discuss:** Count the total socks and calculate the probability (e.g., 3 red out of 10 total).",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A bar graph uses bars to show quantities. Each bar represents a category, and its height shows the quantity.\nProbability is calculated as the number of successful outcomes divided by the total number of possible outcomes. For example, if there are 3 red socks and 10 total socks, the probability of picking a red sock is $\\frac{3}{10}$ or 30%.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Probability = \\frac{\\text{Number of successful outcomes}}{\\text{Total number of possible outcomes}}\n- Number of successful outcomes: The specific outcome you're interested in.\n- Total number of possible outcomes: All possible outcomes.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain graphs:** Show how each bar represents a different sock color.\n2. **Discuss data:** Ask which color is most or least common.\n3. **Introduce probability:** Explain how to calculate the chance of picking a specific sock.\n4. **Practice:** Have your child draw their own bar graph with different objects.\n5. **Explore:** Try different scenarios with the socks to see how probability changes.\n6. **Reflect:** Discuss why understanding graphs and probability is useful.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing bar heights: Try measuring each bar carefully to match the quantity.\n- Miscounting total outcomes: Try recounting all items to ensure accuracy.\n- Ignoring zero probability: Try explaining that some outcomes may not be possible.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Graphs are used in weather forecasts to show temperature changes. Probability helps in games like rolling dice or drawing cards, where chance determines the outcome.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring graphs and probability! These skills will help your child make sense of the world in a fun and practical way.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to create and interpret simple bar graphs.\n- Introduce basic probability concepts using everyday examples.\n- **Why this matters for parents:** These skills help children make sense of data and chance, which are essential in decision-making and problem-solving.",
+    "overview": "This lesson introduces your child to graphing data using bar graphs and understanding basic probability. Graphs are visual tools that help us see patterns and compare information easily. Probability teaches us about the likelihood of events happening, which is a key part of making predictions.\nUnderstanding these concepts helps children organize information and make informed decisions, both in school and in everyday life. It also lays the groundwork for more advanced math topics.",
+    "core": "In this lesson, we'll use simple household items to create a bar graph and explore probability. A bar graph is a way to show information using bars of different heights. Probability is the chance that something will happen, like flipping a coin and getting heads.",
+    "demo": "1. **Gather objects:** Collect different colored socks (e.g., 3 red, 2 blue, 5 white).\n2. **Create a bar graph:** Use paper and crayons to draw a bar graph showing the number of each color sock.\n   - **Say:** \"Let's draw a bar for each color.\"\n3. **Ask:** \"Which color has the most socks? Which has the least?\"\n4. **Introduce probability:** Put the socks in a bag and pull one out without looking.\n5. **Ask:** \"What's the chance of pulling out a red sock?\"\n6. **Discuss:** Count the total socks and calculate the probability (e.g., 3 red out of 10 total).",
+    "math": "A bar graph uses bars to show quantities. Each bar represents a category, and its height shows the quantity.\nProbability is calculated as the number of successful outcomes divided by the total number of possible outcomes. For example, if there are 3 red socks and 10 total socks, the probability of picking a red sock is $\\frac{3}{10}$ or 30%.",
+    "formulas": "Probability = \\frac{\\text{Number of successful outcomes}}{\\text{Total number of possible outcomes}}\n- Number of successful outcomes: The specific outcome you're interested in.\n- Total number of possible outcomes: All possible outcomes.",
+    "guide": "1. **Explain graphs:** Show how each bar represents a different sock color.\n2. **Discuss data:** Ask which color is most or least common.\n3. **Introduce probability:** Explain how to calculate the chance of picking a specific sock.\n4. **Practice:** Have your child draw their own bar graph with different objects.\n5. **Explore:** Try different scenarios with the socks to see how probability changes.\n6. **Reflect:** Discuss why understanding graphs and probability is useful.",
+    "mistakes": "- Confusing bar heights: Try measuring each bar carefully to match the quantity.\n- Miscounting total outcomes: Try recounting all items to ensure accuracy.\n- Ignoring zero probability: Try explaining that some outcomes may not be possible.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Graphs are used in weather forecasts to show temperature changes. Probability helps in games like rolling dice or drawing cards, where chance determines the outcome.",
+    "close": "Great job exploring graphs and probability! These skills will help your child make sense of the world in a fun and practical way."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Graphing & Interpreting Data; Intro to Basic Probability**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Graphing & Interpreting Data; Intro to Basic Probability** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Graphing & Interpreting Data; Intro to Basic Probability**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "8e47722e-8589-453a-9913-a5d6ef2ed908",
+    "slug": "ratios-rates-unit-rates",
+    "title": "Ratios, Rates & Unit Rates",
+    "summary": "Ratios, Rates & Unit Rates — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand ratios, rates, and unit rates\n- Learn to compare quantities using ratios\n- Solve real-life problems involving rates\n**Why this matters for parents:** Understanding these concepts helps children make sense of everyday situations, like comparing prices or speeds.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Ratios, rates, and unit rates are ways to compare quantities. A ratio tells us how much of one thing there is compared to another. A rate is a specific type of ratio where the two quantities have different units, like miles per hour.\nThese concepts are important because they help us make informed decisions, like choosing the best deal at the store or understanding travel times. They are foundational for more advanced math and everyday problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Ratios compare two quantities, like 3 apples to 2 oranges, written as 3:2. Rates compare two quantities with different units, like 60 miles per hour. A unit rate is a rate with a denominator of 1, such as $5 per 1 pound of apples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 apples and 5 oranges.\n   **Say:** Let's compare apples to oranges.\n2. **Ask:** How many apples do we have for every orange?\n3. **Say:** We have a ratio of 10:5, which simplifies to 2:1.\n4. Use a clock and a toy car. Roll the car for 10 seconds and measure the distance.\n5. **Say:** If the car traveled 20 feet in 10 seconds, the rate is 20 feet per 10 seconds.\n6. **Ask:** What is the unit rate? (Answer: 2 feet per second)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A ratio compares two numbers, like $3:2$. A rate compares two quantities with different units, such as 60 miles per hour (mph). To find a unit rate, divide the first quantity by the second. For example, if you drive 120 miles in 2 hours, the unit rate is $\\frac{120}{2} = 60$ mph.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Unit Rate: $\\frac{a}{b}$\n  - $a$: quantity of interest\n  - $b$: one unit of another quantity",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with simple objects like fruits to explain ratios.\n   **Say:** Let's count and compare.\n2. Use real-life examples, like speed or price per item.\n   **Ask:** How many miles per hour?\n3. Simplify ratios by dividing both numbers by their greatest common factor.\n   **Say:** Let's simplify 10:5 to 2:1.\n4. Practice finding unit rates with household tasks.\n   **Ask:** How much does one apple cost if 5 cost $10?\n5. Encourage your child to explain their thinking.\n   **Say:** Tell me how you found that answer.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing ratios with rates.\n  Try: Clarify that ratios compare similar items, rates compare different units.\n- Forgetting to simplify ratios.\n  Try: Divide both numbers by their greatest common factor.\n- Miscalculating unit rates.\n  Try: Ensure you divide correctly to find the rate per one unit.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Ratios and rates are everywhere! When shopping, compare prices to find the best deal. When traveling, use rates to estimate travel time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring ratios and rates! These skills will help your child make smart choices in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand ratios, rates, and unit rates\n- Learn to compare quantities using ratios\n- Solve real-life problems involving rates\n**Why this matters for parents:** Understanding these concepts helps children make sense of everyday situations, like comparing prices or speeds.",
+    "overview": "Ratios, rates, and unit rates are ways to compare quantities. A ratio tells us how much of one thing there is compared to another. A rate is a specific type of ratio where the two quantities have different units, like miles per hour.\nThese concepts are important because they help us make informed decisions, like choosing the best deal at the store or understanding travel times. They are foundational for more advanced math and everyday problem-solving.",
+    "core": "Ratios compare two quantities, like 3 apples to 2 oranges, written as 3:2. Rates compare two quantities with different units, like 60 miles per hour. A unit rate is a rate with a denominator of 1, such as $5 per 1 pound of apples.",
+    "demo": "1. Gather 10 apples and 5 oranges.\n   **Say:** Let's compare apples to oranges.\n2. **Ask:** How many apples do we have for every orange?\n3. **Say:** We have a ratio of 10:5, which simplifies to 2:1.\n4. Use a clock and a toy car. Roll the car for 10 seconds and measure the distance.\n5. **Say:** If the car traveled 20 feet in 10 seconds, the rate is 20 feet per 10 seconds.\n6. **Ask:** What is the unit rate? (Answer: 2 feet per second)",
+    "math": "A ratio compares two numbers, like $3:2$. A rate compares two quantities with different units, such as 60 miles per hour (mph). To find a unit rate, divide the first quantity by the second. For example, if you drive 120 miles in 2 hours, the unit rate is $\\frac{120}{2} = 60$ mph.",
+    "formulas": "- Unit Rate: $\\frac{a}{b}$\n  - $a$: quantity of interest\n  - $b$: one unit of another quantity",
+    "guide": "1. Start with simple objects like fruits to explain ratios.\n   **Say:** Let's count and compare.\n2. Use real-life examples, like speed or price per item.\n   **Ask:** How many miles per hour?\n3. Simplify ratios by dividing both numbers by their greatest common factor.\n   **Say:** Let's simplify 10:5 to 2:1.\n4. Practice finding unit rates with household tasks.\n   **Ask:** How much does one apple cost if 5 cost $10?\n5. Encourage your child to explain their thinking.\n   **Say:** Tell me how you found that answer.",
+    "mistakes": "- Confusing ratios with rates.\n  Try: Clarify that ratios compare similar items, rates compare different units.\n- Forgetting to simplify ratios.\n  Try: Divide both numbers by their greatest common factor.\n- Miscalculating unit rates.\n  Try: Ensure you divide correctly to find the rate per one unit.",
+    "connection": "Ratios and rates are everywhere! When shopping, compare prices to find the best deal. When traveling, use rates to estimate travel time.",
+    "close": "Great job exploring ratios and rates! These skills will help your child make smart choices in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If a car travels 150 miles in 3 hours, what is the unit rate in miles per hour?",
+      "hint_md": "Divide the total miles by the total hours.",
+      "answer_md": "The unit rate is 50 miles per hour."
+    },
+    {
+      "order_index": 2,
+      "question_md": "You buy 8 apples for $4. What is the cost per apple?",
+      "hint_md": "Divide the total cost by the number of apples.",
+      "answer_md": "The cost per apple is $0.50."
+    },
+    {
+      "order_index": 3,
+      "question_md": "A recipe uses 4 cups of flour for every 2 cups of sugar. What is the ratio of flour to sugar?",
+      "hint_md": "Write the ratio as 4:2 and simplify.",
+      "answer_md": "The simplified ratio is 2:1."
+    }
+  ]
+}

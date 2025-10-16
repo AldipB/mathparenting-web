@@ -1,0 +1,31 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "9c6f36be-bd85-48cb-ab96-fca9fed4e104",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "6facf278-a933-4a87-acab-a35d9f15f76a",
+    "slug": "add-subtract-within-100-regrouping",
+    "title": "Add & Subtract within 100 (Regrouping)",
+    "summary": "Add & Subtract within 100 (Regrouping) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+  },
+  "practice": []
+}

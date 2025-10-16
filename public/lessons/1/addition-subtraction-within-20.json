@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "d44768f9-7d1e-4cb2-9b25-fe2bd438c9e5",
+    "title": "Operations & Problems",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "4367f797-1745-45f4-856a-9878bdffd783",
+    "slug": "addition-subtraction-within-20",
+    "title": "Addition & Subtraction within 20",
+    "summary": "Addition & Subtraction within 20 — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, children will be able to add and subtract numbers within 20 using everyday objects.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on addition and subtraction within 20, helping children understand these concepts through hands-on activities. Using familiar items, children will learn to combine and separate quantities, reinforcing their math skills in a fun way.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Addition is combining two or more groups to find a total. Subtraction is taking away from a group to find what remains. Both operations are essential for building a strong math foundation.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "### Household Activity: Snack Math\n1. Gather small snacks (like raisins or crackers).\n2. Start with 10 snacks on a plate.\n3. Say: \"Let’s add 5 more snacks. How many do we have now?\"\n4. Count together: 10 + 5 = 15.\n5. Now, say: \"If we eat 3 snacks, how many are left?\"\n6. Count together: 15 - 3 = 12.\n7. Repeat with different numbers of snacks to practice more.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Addition and subtraction can be visualized with objects. For example, if you have 3 apples and you add 2 more, you can see that you have 5 apples. Similarly, if you take away 1 apple from 5, you can count to see that 4 apples remain.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Addition: $a + b = c$,Subtraction: $c - b = a$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather 10 small objects (like coins or blocks).,2. Show your child how to group them into two sets.,3. Ask: 'How many are in the first group? How many in the second?',4. Say: 'Let’s add them together. Count all the objects.',5. For subtraction, say: 'If we take away some, how many are left?',6. Encourage them to use objects to solve problems.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child counts incorrectly, gently say: 'Let’s count together again.',If they struggle with subtraction, ask: 'How many do we have if we take some away?',If they mix up addition and subtraction, remind them: 'Addition means putting together, subtraction means taking away.'",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Everyday activities like cooking or shopping can involve addition and subtraction. For example, counting items in your cart or measuring ingredients.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job supporting your child's learning! Every little bit of practice helps them grow in confidence and skill.",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, children will be able to add and subtract numbers within 20 using everyday objects.",
+    "overview": "This lesson focuses on addition and subtraction within 20, helping children understand these concepts through hands-on activities. Using familiar items, children will learn to combine and separate quantities, reinforcing their math skills in a fun way.",
+    "core": "Addition is combining two or more groups to find a total. Subtraction is taking away from a group to find what remains. Both operations are essential for building a strong math foundation.",
+    "demo": "### Household Activity: Snack Math\n1. Gather small snacks (like raisins or crackers).\n2. Start with 10 snacks on a plate.\n3. Say: \"Let’s add 5 more snacks. How many do we have now?\"\n4. Count together: 10 + 5 = 15.\n5. Now, say: \"If we eat 3 snacks, how many are left?\"\n6. Count together: 15 - 3 = 12.\n7. Repeat with different numbers of snacks to practice more.",
+    "math": "Addition and subtraction can be visualized with objects. For example, if you have 3 apples and you add 2 more, you can see that you have 5 apples. Similarly, if you take away 1 apple from 5, you can count to see that 4 apples remain.",
+    "formulas": "Addition: $a + b = c$,Subtraction: $c - b = a$",
+    "guide": "1. Gather 10 small objects (like coins or blocks).,2. Show your child how to group them into two sets.,3. Ask: 'How many are in the first group? How many in the second?',4. Say: 'Let’s add them together. Count all the objects.',5. For subtraction, say: 'If we take away some, how many are left?',6. Encourage them to use objects to solve problems.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "mistakes": "If your child counts incorrectly, gently say: 'Let’s count together again.',If they struggle with subtraction, ask: 'How many do we have if we take some away?',If they mix up addition and subtraction, remind them: 'Addition means putting together, subtraction means taking away.'",
+    "connection": "Everyday activities like cooking or shopping can involve addition and subtraction. For example, counting items in your cart or measuring ingredients.",
+    "close": "Great job supporting your child's learning! Every little bit of practice helps them grow in confidence and skill."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Addition & Subtraction within 20**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Addition & Subtraction within 20** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Addition & Subtraction within 20**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

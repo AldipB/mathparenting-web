@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "0a9025b5-f3ba-45bb-894e-a16d164cac70",
+    "slug": "radicals-simplify-operations",
+    "title": "Radicals: Simplify & Operations",
+    "summary": "Radicals: Simplify & Operations — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to simplify and perform operations with radicals.\n- Help your child recognize and apply properties of radicals.\n- **Why this matters for parents:** This lesson helps you support your child in mastering a foundational algebra skill, boosting their confidence and problem-solving abilities.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Radicals, often called square roots, are numbers that, when multiplied by themselves, give the original number. Simplifying radicals means expressing them in their simplest form.\nUnderstanding radicals is crucial because they appear in various math problems, from geometry to advanced algebra. Mastery of radicals helps students solve equations and understand mathematical relationships more deeply.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Radicals can seem tricky, but they follow simple rules. Simplifying them involves finding the largest square factor of the number under the radical sign. Operations with radicals include adding, subtracting, multiplying, and dividing, similar to how we handle regular numbers.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore radicals using a simple example.\"\n2. **Use:** A set of 16 small objects (like beans or buttons).\n3. **Ask:** \"How many groups of 4 can we make?\" (Answer: 4)\n4. **Say:** \"This is like finding the square root of 16, which is 4.\"\n5. **Ask:** \"What if we had 25 objects? How many groups of 5?\" (Answer: 5)\n6. **Say:** \"That's the square root of 25, which is 5.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The square root of a number $n$ is a value that, when multiplied by itself, equals $n$. For example, $\\sqrt{16} = 4$ because $4 \\times 4 = 16$. To simplify $\\sqrt{50}$, find the largest square factor: $\\sqrt{50} = \\sqrt{25 \\times 2} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$\n  - $a$ and $b$ are numbers under the radical.\n- $\\sqrt{a^2} = a$\n  - $a$ is a number squared.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is the largest perfect square factor of 50?\" (Answer: 25)\n2. **Say:** \"Let's break down $\\sqrt{50}$ into $\\sqrt{25 \\times 2}$.\"\n3. **Ask:** \"What is $\\sqrt{25}$?\" (Answer: 5)\n4. **Say:** \"So, $\\sqrt{50} = 5\\sqrt{2}$.\"\n5. **Ask:** \"Can you try simplifying $\\sqrt{72}$?\"\n6. **Say:** \"Great! Remember, practice makes perfect.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication with addition under the radical. **Try:** \"Focus on multiplying the factors.\"\n- Forgetting to simplify completely. **Try:** \"Check for the largest square factor.\"\n- Mixing up square roots and squares. **Try:** \"Remember, square roots undo squaring.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Radicals are used in calculating distances, like finding the diagonal of a square room. They also appear in science, such as in formulas for energy and physics.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring radicals! With practice, these concepts will become second nature. Keep encouraging your child's curiosity and confidence in math.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to simplify and perform operations with radicals.\n- Help your child recognize and apply properties of radicals.\n- **Why this matters for parents:** This lesson helps you support your child in mastering a foundational algebra skill, boosting their confidence and problem-solving abilities.",
+    "overview": "Radicals, often called square roots, are numbers that, when multiplied by themselves, give the original number. Simplifying radicals means expressing them in their simplest form.\nUnderstanding radicals is crucial because they appear in various math problems, from geometry to advanced algebra. Mastery of radicals helps students solve equations and understand mathematical relationships more deeply.",
+    "core": "Radicals can seem tricky, but they follow simple rules. Simplifying them involves finding the largest square factor of the number under the radical sign. Operations with radicals include adding, subtracting, multiplying, and dividing, similar to how we handle regular numbers.",
+    "demo": "1. **Say:** \"Let's explore radicals using a simple example.\"\n2. **Use:** A set of 16 small objects (like beans or buttons).\n3. **Ask:** \"How many groups of 4 can we make?\" (Answer: 4)\n4. **Say:** \"This is like finding the square root of 16, which is 4.\"\n5. **Ask:** \"What if we had 25 objects? How many groups of 5?\" (Answer: 5)\n6. **Say:** \"That's the square root of 25, which is 5.\"",
+    "math": "The square root of a number $n$ is a value that, when multiplied by itself, equals $n$. For example, $\\sqrt{16} = 4$ because $4 \\times 4 = 16$. To simplify $\\sqrt{50}$, find the largest square factor: $\\sqrt{50} = \\sqrt{25 \\times 2} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$.",
+    "formulas": "- $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$\n  - $a$ and $b$ are numbers under the radical.\n- $\\sqrt{a^2} = a$\n  - $a$ is a number squared.",
+    "guide": "1. **Ask:** \"What is the largest perfect square factor of 50?\" (Answer: 25)\n2. **Say:** \"Let's break down $\\sqrt{50}$ into $\\sqrt{25 \\times 2}$.\"\n3. **Ask:** \"What is $\\sqrt{25}$?\" (Answer: 5)\n4. **Say:** \"So, $\\sqrt{50} = 5\\sqrt{2}$.\"\n5. **Ask:** \"Can you try simplifying $\\sqrt{72}$?\"\n6. **Say:** \"Great! Remember, practice makes perfect.\"",
+    "mistakes": "- Confusing multiplication with addition under the radical. **Try:** \"Focus on multiplying the factors.\"\n- Forgetting to simplify completely. **Try:** \"Check for the largest square factor.\"\n- Mixing up square roots and squares. **Try:** \"Remember, square roots undo squaring.\"",
+    "connection": "Radicals are used in calculating distances, like finding the diagonal of a square room. They also appear in science, such as in formulas for energy and physics.",
+    "close": "Great job exploring radicals! With practice, these concepts will become second nature. Keep encouraging your child's curiosity and confidence in math."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Simplify $\\sqrt{18}$.",
+      "hint_md": "Find the largest perfect square factor of 18.",
+      "answer_md": "$\\sqrt{18} = 3\\sqrt{2}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Simplify $\\sqrt{45}$.",
+      "hint_md": "Think about the largest square number that divides 45.",
+      "answer_md": "$\\sqrt{45} = 3\\sqrt{5}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Simplify $\\sqrt{98}$.",
+      "hint_md": "Look for the largest perfect square factor of 98.",
+      "answer_md": "$\\sqrt{98} = 7\\sqrt{2}$"
+    }
+  ]
+}

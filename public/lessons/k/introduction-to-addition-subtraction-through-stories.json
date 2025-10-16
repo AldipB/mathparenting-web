@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "63d4846f-2c83-4e64-908f-39710b11f23f",
+    "title": "Counting & Quantity",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "99616ceb-8f80-4120-92a8-c9d3061902d7",
+    "slug": "introduction-to-addition-subtraction-through-stories",
+    "title": "Introduction to Addition/Subtraction through Stories",
+    "summary": "Introduction to Addition/Subtraction through Stories — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help children understand basic addition and subtraction through storytelling.\n- Encourage the use of household objects to visualize math problems.\n- Foster a positive attitude towards math in everyday life.\n**Why this matters for parents:** Building a strong math foundation early on supports future learning and confidence.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces young children to the concepts of addition and subtraction using simple stories and household objects. By creating relatable scenarios, children can visualize and understand how numbers work together.\nUnderstanding addition and subtraction is crucial as they are the building blocks for all future math learning. By using stories, children can connect math to real-life situations, making it more engaging and less intimidating.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Addition and subtraction are ways to combine or separate groups of objects. By using stories, children can see these operations in action. For example, if you have 3 apples and get 2 more, how many do you have in total? Stories make these concepts relatable and fun.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 5 small objects, like toy cars or blocks.\n2. **Say:** \"Imagine you have 3 toy cars. Now, let's add 2 more cars. How many cars do you have now?\"\n3. Count the cars together: 1, 2, 3, 4, 5.\n4. **Ask:** \"What if we take away 1 car? How many are left?\"\n5. Remove 1 car and count again: 1, 2, 3, 4.\n6. **Say:** \"Great! We just did addition and subtraction with our cars!\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Addition is combining two or more numbers to find a total. Subtraction is taking away from a group to see what remains. For example, if you have 3 apples and add 2 more, you have $3 + 2 = 5$ apples. If you then take away 1 apple, you have $5 - 1 = 4$ apples.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a + b = c$\n  - $a$: starting number\n  - $b$: number added\n  - $c$: total after addition\n- $c - b = a$\n  - $c$: starting number\n  - $b$: number taken away\n  - $a$: total after subtraction",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Choose a story or scenario your child enjoys.\n2. Use household objects to represent numbers in the story.\n3. **Say:** \"Let's see how many we have now.\"\n4. Encourage your child to count the objects.\n5. **Ask:** \"What happens if we add more or take some away?\"\n6. Celebrate their efforts and correct gently if needed.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child miscounts, try: \"Let's count together slowly.\"\n- If they add instead of subtracting, try: \"What if we take some away instead?\"\n- If they seem confused, try: \"Let's use our fingers to help us see.\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Addition and subtraction are everywhere! When shopping, ask your child to count items in the cart or subtract items as you put them away. Cooking can also be a fun way to practice by adding or removing ingredients.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring addition and subtraction through stories! Keep using everyday moments to practice, and watch your child's confidence grow.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help children understand basic addition and subtraction through storytelling.\n- Encourage the use of household objects to visualize math problems.\n- Foster a positive attitude towards math in everyday life.\n**Why this matters for parents:** Building a strong math foundation early on supports future learning and confidence.",
+    "overview": "This lesson introduces young children to the concepts of addition and subtraction using simple stories and household objects. By creating relatable scenarios, children can visualize and understand how numbers work together.\nUnderstanding addition and subtraction is crucial as they are the building blocks for all future math learning. By using stories, children can connect math to real-life situations, making it more engaging and less intimidating.",
+    "core": "Addition and subtraction are ways to combine or separate groups of objects. By using stories, children can see these operations in action. For example, if you have 3 apples and get 2 more, how many do you have in total? Stories make these concepts relatable and fun.",
+    "demo": "1. Gather 5 small objects, like toy cars or blocks.\n2. **Say:** \"Imagine you have 3 toy cars. Now, let's add 2 more cars. How many cars do you have now?\"\n3. Count the cars together: 1, 2, 3, 4, 5.\n4. **Ask:** \"What if we take away 1 car? How many are left?\"\n5. Remove 1 car and count again: 1, 2, 3, 4.\n6. **Say:** \"Great! We just did addition and subtraction with our cars!\"",
+    "math": "Addition is combining two or more numbers to find a total. Subtraction is taking away from a group to see what remains. For example, if you have 3 apples and add 2 more, you have $3 + 2 = 5$ apples. If you then take away 1 apple, you have $5 - 1 = 4$ apples.",
+    "formulas": "- $a + b = c$\n  - $a$: starting number\n  - $b$: number added\n  - $c$: total after addition\n- $c - b = a$\n  - $c$: starting number\n  - $b$: number taken away\n  - $a$: total after subtraction",
+    "guide": "1. Choose a story or scenario your child enjoys.\n2. Use household objects to represent numbers in the story.\n3. **Say:** \"Let's see how many we have now.\"\n4. Encourage your child to count the objects.\n5. **Ask:** \"What happens if we add more or take some away?\"\n6. Celebrate their efforts and correct gently if needed.",
+    "mistakes": "- If your child miscounts, try: \"Let's count together slowly.\"\n- If they add instead of subtracting, try: \"What if we take some away instead?\"\n- If they seem confused, try: \"Let's use our fingers to help us see.\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Addition and subtraction are everywhere! When shopping, ask your child to count items in the cart or subtract items as you put them away. Cooking can also be a fun way to practice by adding or removing ingredients.",
+    "close": "Great job exploring addition and subtraction through stories! Keep using everyday moments to practice, and watch your child's confidence grow."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Introduction to Addition/Subtraction through Stories**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Introduction to Addition/Subtraction through Stories** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Introduction to Addition/Subtraction through Stories**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

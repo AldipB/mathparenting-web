@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "6f4c538a-c695-410c-ba88-04b753f9a250",
+    "slug": "properties-commutative-associative-distributive",
+    "title": "Properties (Commutative, Associative, Distributive)",
+    "summary": "Properties (Commutative, Associative, Distributive) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the commutative, associative, and distributive properties of addition and multiplication.\n- Use these properties to simplify calculations.\n- **Why this matters for parents:** These properties help children develop mental math skills, making calculations faster and more intuitive.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Properties in math are like rules that help us simplify and solve problems more easily. The commutative, associative, and distributive properties apply to addition and multiplication.\nUnderstanding these properties helps children recognize patterns and relationships in numbers, which is essential for building strong math skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The commutative property tells us that the order of numbers doesn't matter in addition or multiplication. The associative property shows that how we group numbers doesn't change the result. The distributive property connects addition and multiplication, showing how to break down problems into simpler parts.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore the commutative property with apples.\"\n   - Use 3 apples and 2 oranges.\n   - **Ask:** \"If we add 3 apples and 2 oranges, how many fruits do we have?\"\n   - Rearrange them and ask again.\n2. **Say:** \"Now, let's try the associative property with blocks.\"\n   - Use 3 red blocks, 2 blue blocks, and 1 green block.\n   - Group them differently and count.\n3. **Say:** \"For the distributive property, let's use cookies.\"\n   - Use 2 plates with 3 cookies each.\n   - **Ask:** \"How many cookies if we add 2 more to each plate?\"\n   - Break it down: (2 plates × 3 cookies) + (2 plates × 2 cookies).",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The commutative property means $a + b = b + a$ and $a \times b = b \times a$. For example, $3 + 5 = 5 + 3$ and $4 \times 2 = 2 \times 4$.\nThe associative property means $(a + b) + c = a + (b + c)$ and $(a \times b) \times c = a \times (b \times c)$. For example, $(2 + 3) + 4 = 2 + (3 + 4)$.\nThe distributive property means $a \times (b + c) = a \times b + a \times c$. For example, $2 \times (3 + 4) = 2 \times 3 + 2 \times 4$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Commutative Property: $a + b = b + a$\n  - $a, b$: numbers\n- Associative Property: $(a + b) + c = a + (b + c)$\n  - $a, b, c$: numbers\n- Distributive Property: $a \times (b + c) = a \times b + a \times c$\n  - $a, b, c$: numbers",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's practice the commutative property with your toys.\"\n   - Rearrange them and count.\n2. **Ask:** \"Can you group these snacks differently and still get the same total?\"\n   - Use associative property.\n3. **Say:** \"Let's distribute these candies into bags.\"\n   - Use distributive property.\n4. **Ask:** \"How does changing the order or grouping help?\"\n   - Discuss observations.\n5. **Say:** \"Try using these properties when you do homework.\"\n   - Encourage practice.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing properties: Try using specific examples to clarify each.\n- Forgetting to apply properties: Try practicing with real objects.\n- Overcomplicating problems: Try breaking them down using properties.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "These properties are like organizing a backpack. Whether you put books in first or last, the total weight is the same. Grouping items differently can make packing easier.\nWhen shopping, you can use these properties to quickly calculate totals by rearranging or grouping items.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these properties makes math feel like a fun puzzle. Keep exploring and see how they simplify your world!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the commutative, associative, and distributive properties of addition and multiplication.\n- Use these properties to simplify calculations.\n- **Why this matters for parents:** These properties help children develop mental math skills, making calculations faster and more intuitive.",
+    "overview": "Properties in math are like rules that help us simplify and solve problems more easily. The commutative, associative, and distributive properties apply to addition and multiplication.\nUnderstanding these properties helps children recognize patterns and relationships in numbers, which is essential for building strong math skills.",
+    "core": "The commutative property tells us that the order of numbers doesn't matter in addition or multiplication. The associative property shows that how we group numbers doesn't change the result. The distributive property connects addition and multiplication, showing how to break down problems into simpler parts.",
+    "demo": "1. **Say:** \"Let's explore the commutative property with apples.\"\n   - Use 3 apples and 2 oranges.\n   - **Ask:** \"If we add 3 apples and 2 oranges, how many fruits do we have?\"\n   - Rearrange them and ask again.\n2. **Say:** \"Now, let's try the associative property with blocks.\"\n   - Use 3 red blocks, 2 blue blocks, and 1 green block.\n   - Group them differently and count.\n3. **Say:** \"For the distributive property, let's use cookies.\"\n   - Use 2 plates with 3 cookies each.\n   - **Ask:** \"How many cookies if we add 2 more to each plate?\"\n   - Break it down: (2 plates × 3 cookies) + (2 plates × 2 cookies).",
+    "math": "The commutative property means $a + b = b + a$ and $a \times b = b \times a$. For example, $3 + 5 = 5 + 3$ and $4 \times 2 = 2 \times 4$.\nThe associative property means $(a + b) + c = a + (b + c)$ and $(a \times b) \times c = a \times (b \times c)$. For example, $(2 + 3) + 4 = 2 + (3 + 4)$.\nThe distributive property means $a \times (b + c) = a \times b + a \times c$. For example, $2 \times (3 + 4) = 2 \times 3 + 2 \times 4$.",
+    "formulas": "- Commutative Property: $a + b = b + a$\n  - $a, b$: numbers\n- Associative Property: $(a + b) + c = a + (b + c)$\n  - $a, b, c$: numbers\n- Distributive Property: $a \times (b + c) = a \times b + a \times c$\n  - $a, b, c$: numbers",
+    "guide": "1. **Say:** \"Let's practice the commutative property with your toys.\"\n   - Rearrange them and count.\n2. **Ask:** \"Can you group these snacks differently and still get the same total?\"\n   - Use associative property.\n3. **Say:** \"Let's distribute these candies into bags.\"\n   - Use distributive property.\n4. **Ask:** \"How does changing the order or grouping help?\"\n   - Discuss observations.\n5. **Say:** \"Try using these properties when you do homework.\"\n   - Encourage practice.",
+    "mistakes": "- Confusing properties: Try using specific examples to clarify each.\n- Forgetting to apply properties: Try practicing with real objects.\n- Overcomplicating problems: Try breaking them down using properties.",
+    "connection": "These properties are like organizing a backpack. Whether you put books in first or last, the total weight is the same. Grouping items differently can make packing easier.\nWhen shopping, you can use these properties to quickly calculate totals by rearranging or grouping items.",
+    "close": "Understanding these properties makes math feel like a fun puzzle. Keep exploring and see how they simplify your world!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Use the commutative property to find another way to write $7 + 4$.",
+      "hint_md": "Switch the order of the numbers.",
+      "answer_md": "$4 + 7$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Use the associative property to simplify $(2 + 3) + 5$.",
+      "hint_md": "Regroup the numbers.",
+      "answer_md": "$2 + (3 + 5) = 2 + 8 = 10$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Use the distributive property to simplify $3 \\times (4 + 2)$.",
+      "hint_md": "Break it into two separate multiplications.",
+      "answer_md": "$3 \\times 4 + 3 \\times 2 = 12 + 6 = 18$"
+    }
+  ]
+}

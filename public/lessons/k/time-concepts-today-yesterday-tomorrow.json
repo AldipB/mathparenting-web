@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "6084f3bc-02db-44aa-8f22-8816b225459a",
+    "title": "Measurement, Position & Time",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "80a1177f-ae45-4f35-9af6-96ad2868eadc",
+    "slug": "time-concepts-today-yesterday-tomorrow",
+    "title": "Time Concepts: Today, Yesterday, Tomorrow",
+    "summary": "Time Concepts: Today, Yesterday, Tomorrow — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of today, yesterday, and tomorrow.\n- Use simple events to sequence time.\n**Why this matters for parents:** Building a foundation in time concepts helps children understand routines and develop a sense of order.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the basic concepts of time: today, yesterday, and tomorrow. Children will learn how to sequence events using these terms.\nUnderstanding time helps children make sense of their daily routines and prepares them for more complex time concepts in the future.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children often hear words like today, yesterday, and tomorrow, but they might not fully understand them. By using familiar events, you can help your child grasp these concepts and see how they fit into their daily life.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather three boxes** and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. **Use sticky notes** to write down simple events like 'went to the park', 'school day', or 'visit grandma'.\n3. **Say:** 'Let's think about what we did yesterday.' Place the note in the 'Yesterday' box.\n4. **Ask:** 'What are we doing today?' Place the note in the 'Today' box.\n5. **Ask:** 'What will we do tomorrow?' Place the note in the 'Tomorrow' box.\n6. **Count sleeps:** 'How many sleeps until tomorrow?'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Time concepts can be thought of as simple sequences. For example, if today is Monday, yesterday was Sunday, and tomorrow will be Tuesday. This helps children understand the order of days:\n- Today: Monday\n- Yesterday: Sunday\n- Tomorrow: Tuesday",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with today:** Ask your child what day it is and what they are doing today.\n2. **Discuss yesterday:** Talk about what happened yesterday and place the event in the 'Yesterday' box.\n3. **Plan for tomorrow:** Ask what they will do tomorrow and place the event in the 'Tomorrow' box.\n4. **Reinforce with routine:** Use daily routines like bedtime to discuss time concepts.\n5. **Use a calendar:** Show them a calendar to visualize the sequence of days.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing yesterday and tomorrow.\n  - Try: Use a calendar to show the sequence of days.\n- Forgetting events.\n  - Try: Use pictures or drawings to represent events.\n- Mixing up the order of days.\n  - Try: Practice regularly with real-life examples.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Use meal times to discuss time concepts. For example, 'Yesterday we had pasta for dinner, today we have chicken, and tomorrow we'll have pizza.'\nTalk about bedtime routines: 'Yesterday you went to bed after your story, today you'll do the same, and tomorrow too!'",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Helping your child understand time concepts builds confidence in their daily routines. Keep exploring these ideas together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of today, yesterday, and tomorrow.\n- Use simple events to sequence time.\n**Why this matters for parents:** Building a foundation in time concepts helps children understand routines and develop a sense of order.",
+    "overview": "This lesson introduces the basic concepts of time: today, yesterday, and tomorrow. Children will learn how to sequence events using these terms.\nUnderstanding time helps children make sense of their daily routines and prepares them for more complex time concepts in the future.",
+    "core": "Children often hear words like today, yesterday, and tomorrow, but they might not fully understand them. By using familiar events, you can help your child grasp these concepts and see how they fit into their daily life.",
+    "demo": "1. **Gather three boxes** and label them 'Yesterday', 'Today', and 'Tomorrow'.\n2. **Use sticky notes** to write down simple events like 'went to the park', 'school day', or 'visit grandma'.\n3. **Say:** 'Let's think about what we did yesterday.' Place the note in the 'Yesterday' box.\n4. **Ask:** 'What are we doing today?' Place the note in the 'Today' box.\n5. **Ask:** 'What will we do tomorrow?' Place the note in the 'Tomorrow' box.\n6. **Count sleeps:** 'How many sleeps until tomorrow?'",
+    "math": "Time concepts can be thought of as simple sequences. For example, if today is Monday, yesterday was Sunday, and tomorrow will be Tuesday. This helps children understand the order of days:\n- Today: Monday\n- Yesterday: Sunday\n- Tomorrow: Tuesday",
+    "guide": "1. **Start with today:** Ask your child what day it is and what they are doing today.\n2. **Discuss yesterday:** Talk about what happened yesterday and place the event in the 'Yesterday' box.\n3. **Plan for tomorrow:** Ask what they will do tomorrow and place the event in the 'Tomorrow' box.\n4. **Reinforce with routine:** Use daily routines like bedtime to discuss time concepts.\n5. **Use a calendar:** Show them a calendar to visualize the sequence of days.",
+    "mistakes": "- Confusing yesterday and tomorrow.\n  - Try: Use a calendar to show the sequence of days.\n- Forgetting events.\n  - Try: Use pictures or drawings to represent events.\n- Mixing up the order of days.\n  - Try: Practice regularly with real-life examples.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Use meal times to discuss time concepts. For example, 'Yesterday we had pasta for dinner, today we have chicken, and tomorrow we'll have pizza.'\nTalk about bedtime routines: 'Yesterday you went to bed after your story, today you'll do the same, and tomorrow too!'",
+    "close": "Helping your child understand time concepts builds confidence in their daily routines. Keep exploring these ideas together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What day comes after today if today is Tuesday?",
+      "hint_md": "Think about the sequence: Monday, Tuesday, ...",
+      "answer_md": "Wednesday"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If today is Friday, how many sleeps until Sunday?",
+      "hint_md": "Count the days: Friday (today), Saturday (1 sleep), Sunday (2 sleeps).",
+      "answer_md": "2 sleeps"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What day was yesterday if today is Thursday?",
+      "hint_md": "Think about the sequence: ..., Wednesday, Thursday.",
+      "answer_md": "Wednesday"
+    }
+  ]
+}

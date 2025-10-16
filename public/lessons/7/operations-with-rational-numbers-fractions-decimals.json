@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "98d8e65a-85e6-4ca6-a11c-576b4c9d2e68",
+    "slug": "operations-with-rational-numbers-fractions-decimals",
+    "title": "Operations with Rational Numbers (±×÷ Fractions/Decimals)",
+    "summary": "Operations with Rational Numbers (±×÷ Fractions/Decimals) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to perform operations with fractions and decimals.\n- Build confidence in guiding your child through math problems.\n- **Why this matters for parents:** Strengthening your child's math skills prepares them for real-world problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers how to add, subtract, multiply, and divide fractions and decimals. These operations are essential for understanding more complex math concepts.\nMastering these skills helps your child handle everyday tasks like cooking, budgeting, and measuring. It also builds a strong foundation for future math lesson.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rational numbers include fractions and decimals. Performing operations on these numbers involves understanding how to manipulate parts of a whole. This lesson will guide you through practical steps to help your child grasp these concepts using everyday items.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's add fractions using something we have at home.\"\n2. Use measuring cups to show $\frac{1}{2}$ cup and $\frac{1}{4}$ cup.\n3. **Ask:** \"If we combine these, how much do we have?\"\n4. Pour both into a larger measuring cup to show $\frac{3}{4}$ cup.\n5. **Say:** \"Now, let's multiply decimals using coins.\"\n6. Use dimes to show $0.1 \\times 3 = 0.3$ by laying out three dimes.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add fractions, find a common denominator. For example, $\frac{1}{2} + \frac{1}{4}$ becomes $\frac{2}{4} + \frac{1}{4} = \frac{3}{4}$. For decimals, align the decimal points and add normally: $0.5 + 0.25 = 0.75$. Multiplying fractions involves multiplying the numerators and denominators: $\frac{1}{2} \\times \frac{3}{4} = \\frac{3}{8}$. For decimals, multiply as whole numbers and count decimal places: $0.2 \\times 0.3 = 0.06$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Addition of fractions: $\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}$\n  - $a, b, c, d$ are integers; $b, d \\neq 0$.\n- Multiplication of decimals: $a \\times b$\n  - Multiply as whole numbers, then place the decimal.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What do you notice about the fractions?\"\n2. **Say:** \"Let's find a common denominator.\"\n3. **Ask:** \"How do we align decimals?\"\n4. **Say:** \"Try multiplying these fractions.\"\n5. **Ask:** \"What happens when we multiply decimals?\"\n6. **Say:** \"Great job! Let's practice more.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing numerators and denominators. **Try:** Use visuals like pie charts.\n- Misaligning decimal points. **Try:** Use graph paper to keep columns straight.\n- Forgetting to simplify fractions. **Try:** Always check if the fraction can be reduced.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking often involves adding and multiplying fractions, like combining ingredients. Shopping requires understanding decimals, especially when calculating discounts.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great work! With these skills, your child is ready to tackle real-world math challenges with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to perform operations with fractions and decimals.\n- Build confidence in guiding your child through math problems.\n- **Why this matters for parents:** Strengthening your child's math skills prepares them for real-world problem-solving.",
+    "overview": "This lesson covers how to add, subtract, multiply, and divide fractions and decimals. These operations are essential for understanding more complex math concepts.\nMastering these skills helps your child handle everyday tasks like cooking, budgeting, and measuring. It also builds a strong foundation for future math lesson.",
+    "core": "Rational numbers include fractions and decimals. Performing operations on these numbers involves understanding how to manipulate parts of a whole. This lesson will guide you through practical steps to help your child grasp these concepts using everyday items.",
+    "demo": "1. **Say:** \"Let's add fractions using something we have at home.\"\n2. Use measuring cups to show $\frac{1}{2}$ cup and $\frac{1}{4}$ cup.\n3. **Ask:** \"If we combine these, how much do we have?\"\n4. Pour both into a larger measuring cup to show $\frac{3}{4}$ cup.\n5. **Say:** \"Now, let's multiply decimals using coins.\"\n6. Use dimes to show $0.1 \\times 3 = 0.3$ by laying out three dimes.",
+    "math": "To add fractions, find a common denominator. For example, $\frac{1}{2} + \frac{1}{4}$ becomes $\frac{2}{4} + \frac{1}{4} = \frac{3}{4}$. For decimals, align the decimal points and add normally: $0.5 + 0.25 = 0.75$. Multiplying fractions involves multiplying the numerators and denominators: $\frac{1}{2} \\times \frac{3}{4} = \\frac{3}{8}$. For decimals, multiply as whole numbers and count decimal places: $0.2 \\times 0.3 = 0.06$.",
+    "formulas": "- Addition of fractions: $\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}$\n  - $a, b, c, d$ are integers; $b, d \\neq 0$.\n- Multiplication of decimals: $a \\times b$\n  - Multiply as whole numbers, then place the decimal.",
+    "guide": "1. **Ask:** \"What do you notice about the fractions?\"\n2. **Say:** \"Let's find a common denominator.\"\n3. **Ask:** \"How do we align decimals?\"\n4. **Say:** \"Try multiplying these fractions.\"\n5. **Ask:** \"What happens when we multiply decimals?\"\n6. **Say:** \"Great job! Let's practice more.\"",
+    "mistakes": "- Confusing numerators and denominators. **Try:** Use visuals like pie charts.\n- Misaligning decimal points. **Try:** Use graph paper to keep columns straight.\n- Forgetting to simplify fractions. **Try:** Always check if the fraction can be reduced.",
+    "connection": "Cooking often involves adding and multiplying fractions, like combining ingredients. Shopping requires understanding decimals, especially when calculating discounts.",
+    "close": "Great work! With these skills, your child is ready to tackle real-world math challenges with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is $\\frac{3}{5} + \\frac{2}{5}$?",
+      "hint_md": "Add the numerators since the denominators are the same.",
+      "answer_md": "$\\frac{5}{5} = 1$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Calculate $0.4 \\times 0.2$.",
+      "hint_md": "Multiply as whole numbers, then count decimal places.",
+      "answer_md": "$0.08$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Subtract $\\frac{7}{8} - \\frac{3}{8}$.",
+      "hint_md": "Subtract the numerators.",
+      "answer_md": "$\\frac{4}{8} = \\frac{1}{2}$"
+    }
+  ]
+}

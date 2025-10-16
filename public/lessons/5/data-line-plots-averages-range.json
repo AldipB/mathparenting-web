@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "00a45ef3-45ca-48df-9498-4b5284b23f0a",
+    "title": "Data, Ratio & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "9ba621a2-22a8-4439-bc3c-40d1b490a3e6",
+    "slug": "data-line-plots-averages-range",
+    "title": "Data: Line Plots, Averages, Range",
+    "summary": "Data: Line Plots, Averages, Range — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to create and interpret line plots.\n- Calculate averages and ranges from data sets.\n- **Why this matters for parents:** You'll be able to help your child make sense of data in everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore how to organize data using line plots and calculate averages and ranges. A line plot is a simple way to display data along a number line, showing frequency of data points.\nUnderstanding these concepts helps children make sense of data they encounter daily, such as tracking weather temperatures or comparing scores in games. It builds foundational skills for more advanced math topics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Line plots visually represent data, making it easier to see patterns. The average, or mean, gives a central value of the data, while the range shows the spread. These tools help children summarize and analyze information efficiently.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some coins (e.g., pennies) and count the number of coins in each of 5 small piles.\n   **Say:** Let's make a line plot of our coin piles.\n2. Draw a horizontal line on paper and mark numbers for the possible counts (e.g., 1 to 5).\n3. For each pile, place an 'X' above the corresponding number on the line plot.\n   **Ask:** What do you notice about the piles?\n4. To find the average, add the total number of coins and divide by the number of piles.\n   **Say:** Let's calculate the average number of coins per pile.\n5. Identify the range by subtracting the smallest pile count from the largest.\n   **Ask:** What does the range tell us about our piles?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the average (mean), add all data points and divide by the number of points. For example, if the piles have 2, 3, 3, 4, and 5 coins, the total is $2 + 3 + 3 + 4 + 5 = 17$. The average is $\\frac{17}{5} = 3.4$. The range is the difference between the largest and smallest values: $5 - 2 = 3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Average (Mean) = \\frac{\\text{Sum of all data points}}{\\text{Number of data points}}\n- Sum of all data points: Add all the values together.\n- Number of data points: Count of values in the data set.\nRange = \\text{Largest value} - \\text{Smallest value}\n- Largest value: The highest number in the data set.\n- Smallest value: The lowest number in the data set.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What data can we collect at home? (e.g., shoe sizes, daily temperatures)\n2. **Say:** Let's create a line plot with this data.\n3. **Guide:** Help your child draw a number line and mark data points.\n4. **Calculate:** Work together to find the average and range.\n5. **Discuss:** Talk about what these numbers tell us about the data.\n6. **Reflect:** Encourage your child to think about how this skill might be useful in other areas.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the range with the average. Try: Explain that the range shows spread, while the average shows central tendency.\n- Forgetting to divide by the correct number of data points. Try: Count the data points together before dividing.\n- Misplacing data points on the line plot. Try: Double-check each data point's position with your child.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Line plots and averages are used in real life to analyze sports statistics, track expenses, and even in cooking to understand recipe measurements. These skills help children make informed decisions based on data.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring data with your child! These skills will help them understand the world through numbers. Keep practicing and discovering new data together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to create and interpret line plots.\n- Calculate averages and ranges from data sets.\n- **Why this matters for parents:** You'll be able to help your child make sense of data in everyday situations.",
+    "overview": "In this lesson, we'll explore how to organize data using line plots and calculate averages and ranges. A line plot is a simple way to display data along a number line, showing frequency of data points.\nUnderstanding these concepts helps children make sense of data they encounter daily, such as tracking weather temperatures or comparing scores in games. It builds foundational skills for more advanced math topics.",
+    "core": "Line plots visually represent data, making it easier to see patterns. The average, or mean, gives a central value of the data, while the range shows the spread. These tools help children summarize and analyze information efficiently.",
+    "demo": "1. Gather some coins (e.g., pennies) and count the number of coins in each of 5 small piles.\n   **Say:** Let's make a line plot of our coin piles.\n2. Draw a horizontal line on paper and mark numbers for the possible counts (e.g., 1 to 5).\n3. For each pile, place an 'X' above the corresponding number on the line plot.\n   **Ask:** What do you notice about the piles?\n4. To find the average, add the total number of coins and divide by the number of piles.\n   **Say:** Let's calculate the average number of coins per pile.\n5. Identify the range by subtracting the smallest pile count from the largest.\n   **Ask:** What does the range tell us about our piles?",
+    "math": "To find the average (mean), add all data points and divide by the number of points. For example, if the piles have 2, 3, 3, 4, and 5 coins, the total is $2 + 3 + 3 + 4 + 5 = 17$. The average is $\\frac{17}{5} = 3.4$. The range is the difference between the largest and smallest values: $5 - 2 = 3$.",
+    "formulas": "Average (Mean) = \\frac{\\text{Sum of all data points}}{\\text{Number of data points}}\n- Sum of all data points: Add all the values together.\n- Number of data points: Count of values in the data set.\nRange = \\text{Largest value} - \\text{Smallest value}\n- Largest value: The highest number in the data set.\n- Smallest value: The lowest number in the data set.",
+    "guide": "1. **Ask:** What data can we collect at home? (e.g., shoe sizes, daily temperatures)\n2. **Say:** Let's create a line plot with this data.\n3. **Guide:** Help your child draw a number line and mark data points.\n4. **Calculate:** Work together to find the average and range.\n5. **Discuss:** Talk about what these numbers tell us about the data.\n6. **Reflect:** Encourage your child to think about how this skill might be useful in other areas.",
+    "mistakes": "- Confusing the range with the average. Try: Explain that the range shows spread, while the average shows central tendency.\n- Forgetting to divide by the correct number of data points. Try: Count the data points together before dividing.\n- Misplacing data points on the line plot. Try: Double-check each data point's position with your child.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Line plots and averages are used in real life to analyze sports statistics, track expenses, and even in cooking to understand recipe measurements. These skills help children make informed decisions based on data.",
+    "close": "Great job exploring data with your child! These skills will help them understand the world through numbers. Keep practicing and discovering new data together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Data: Line Plots, Averages, Range**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Data: Line Plots, Averages, Range** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Data: Line Plots, Averages, Range**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

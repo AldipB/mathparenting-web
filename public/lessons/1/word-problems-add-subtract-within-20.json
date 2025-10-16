@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "032dfb7a-8376-408e-9ad6-114691ed4aa0",
+    "slug": "word-problems-add-subtract-within-20",
+    "title": "Word Problems (Add/Subtract within 20)",
+    "summary": "Word Problems (Add/Subtract within 20) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 13
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child understand and solve word problems involving addition and subtraction within 20.\n- Build your child's confidence in using math in everyday situations.\n- **Why this matters for parents:** Strengthening these skills early on supports problem-solving abilities and logical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on solving word problems that involve adding and subtracting numbers up to 20. Word problems help children apply math to real-life scenarios, making it more meaningful.\nUnderstanding how to break down a word problem into manageable steps is crucial. It helps children see math as a tool for solving everyday problems, like sharing toys or counting snacks.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Word problems are short stories that use math to find an answer. They teach children to identify key information and decide whether to add or subtract. Using familiar objects can make these problems more relatable and easier to solve.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use some apples to solve a problem.\"\n2. Place 5 apples on the table. **Say:** \"We have 5 apples.\"\n3. **Ask:** \"If we add 3 more apples, how many do we have now?\"\n4. Encourage your child to count the apples. **Say:** \"Let's count together: 5, 6, 7, 8.\"\n5. **Ask:** \"What if we eat 2 apples? How many are left?\"\n6. Remove 2 apples and count again. **Say:** \"We have 6 apples now.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In word problems, identify the numbers and what operation to use. For example, \"You have 7 candies and get 5 more. How many do you have?\" means you add: $7 + 5 = 12$. If the problem is \"You have 10 candies and eat 3,\" you subtract: $10 - 3 = 7$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Addition: $a + b = c$\n  - $a$: starting number\n  - $b$: number added\n  - $c$: total\n- Subtraction: $a - b = c$\n  - $a$: starting number\n  - $b$: number taken away\n  - $c$: remaining number",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Read the problem with your child. **Ask:** \"What do we need to find out?\"\n2. Identify the numbers and keywords like 'more' or 'left'. **Say:** \"These words tell us what to do.\"\n3. Use objects to represent the problem. **Say:** \"Let's use blocks to see it.\"\n4. Solve together, counting out loud. **Ask:** \"What happens when we add or take away?\"\n5. Check the answer by counting again. **Say:** \"Let's make sure it's right.\"\n6. Praise their effort. **Say:** \"Great job thinking it through!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing addition and subtraction. **Try:** Use words like 'more' for addition and 'less' for subtraction.\n- Miscounting objects. **Try:** Count slowly together, pointing to each object.\n- Skipping steps. **Try:** Encourage them to explain each step out loud.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Word problems are everywhere! When shopping, ask your child to help count items or figure out how many more you need. Cooking together can also involve adding or subtracting ingredients.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child see math in everyday life! Keep practicing, and soon they'll be solving problems with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child understand and solve word problems involving addition and subtraction within 20.\n- Build your child's confidence in using math in everyday situations.\n- **Why this matters for parents:** Strengthening these skills early on supports problem-solving abilities and logical thinking.",
+    "overview": "This lesson focuses on solving word problems that involve adding and subtracting numbers up to 20. Word problems help children apply math to real-life scenarios, making it more meaningful.\nUnderstanding how to break down a word problem into manageable steps is crucial. It helps children see math as a tool for solving everyday problems, like sharing toys or counting snacks.",
+    "core": "Word problems are short stories that use math to find an answer. They teach children to identify key information and decide whether to add or subtract. Using familiar objects can make these problems more relatable and easier to solve.",
+    "demo": "1. **Say:** \"Let's use some apples to solve a problem.\"\n2. Place 5 apples on the table. **Say:** \"We have 5 apples.\"\n3. **Ask:** \"If we add 3 more apples, how many do we have now?\"\n4. Encourage your child to count the apples. **Say:** \"Let's count together: 5, 6, 7, 8.\"\n5. **Ask:** \"What if we eat 2 apples? How many are left?\"\n6. Remove 2 apples and count again. **Say:** \"We have 6 apples now.\"",
+    "math": "In word problems, identify the numbers and what operation to use. For example, \"You have 7 candies and get 5 more. How many do you have?\" means you add: $7 + 5 = 12$. If the problem is \"You have 10 candies and eat 3,\" you subtract: $10 - 3 = 7$.",
+    "formulas": "- Addition: $a + b = c$\n  - $a$: starting number\n  - $b$: number added\n  - $c$: total\n- Subtraction: $a - b = c$\n  - $a$: starting number\n  - $b$: number taken away\n  - $c$: remaining number",
+    "guide": "1. Read the problem with your child. **Ask:** \"What do we need to find out?\"\n2. Identify the numbers and keywords like 'more' or 'left'. **Say:** \"These words tell us what to do.\"\n3. Use objects to represent the problem. **Say:** \"Let's use blocks to see it.\"\n4. Solve together, counting out loud. **Ask:** \"What happens when we add or take away?\"\n5. Check the answer by counting again. **Say:** \"Let's make sure it's right.\"\n6. Praise their effort. **Say:** \"Great job thinking it through!\"",
+    "mistakes": "- Confusing addition and subtraction. **Try:** Use words like 'more' for addition and 'less' for subtraction.\n- Miscounting objects. **Try:** Count slowly together, pointing to each object.\n- Skipping steps. **Try:** Encourage them to explain each step out loud.",
+    "connection": "Word problems are everywhere! When shopping, ask your child to help count items or figure out how many more you need. Cooking together can also involve adding or subtracting ingredients.",
+    "close": "Great job helping your child see math in everyday life! Keep practicing, and soon they'll be solving problems with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "There are 7 birds on a tree. 3 fly away. How many are left?",
+      "hint_md": "Think about how many birds you have after some leave.",
+      "answer_md": "4 birds"
+    },
+    {
+      "order_index": 2,
+      "question_md": "You have 4 toy cars. Your friend gives you 5 more. How many do you have now?",
+      "hint_md": "Count all the cars together.",
+      "answer_md": "9 toy cars"
+    },
+    {
+      "order_index": 3,
+      "question_md": "You had 10 cookies. You ate 2. How many cookies are left?",
+      "hint_md": "Subtract the cookies you ate from the total.",
+      "answer_md": "8 cookies"
+    }
+  ]
+}

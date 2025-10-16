@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "76a1e64c-3a6a-4df2-b3eb-23630c172915",
+    "title": "Logic & Proof",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "31151a60-1d54-4bda-b52e-a26ac7be5da3",
+    "slug": "parallel-perpendicular",
+    "title": "Parallel & Perpendicular",
+    "summary": "Parallel & Perpendicular — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand parallel and perpendicular lines.\n- Identify these lines in everyday objects.\n- **Why this matters for parents:** Helps you support your child's spatial reasoning and geometry skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Parallel lines are lines in a plane that never meet, no matter how far they are extended. Perpendicular lines are lines that intersect at a right angle (90 degrees).\nUnderstanding these concepts is crucial because they form the basis of many geometric principles and are used in various real-world applications, such as construction and design.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Parallel and perpendicular lines are everywhere in our world. Think about the lines on a notebook or the edges of a table. Recognizing these lines helps children understand how shapes and spaces are organized.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Find two pencils.** Place them side by side on a table.\n   - **Say:** \"These pencils are like parallel lines. They never meet.\"\n2. **Use a book.** Stand it upright on the table.\n   - **Ask:** \"What do you notice about the book and the table?\"\n   - **Say:** \"The book is perpendicular to the table because it stands at a right angle.\"\n3. **Draw on paper.** Use a ruler to draw two parallel lines and then a line perpendicular to them.\n   - **Ask:** \"Can you see where the lines meet or don’t meet?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Parallel lines have the same slope. If two lines are parallel, their slopes are equal. For example, lines with equations $y = 2x + 3$ and $y = 2x - 4$ are parallel because both have a slope of 2.\nPerpendicular lines have slopes that are negative reciprocals. If one line has a slope of $m$, the perpendicular line will have a slope of $-1/m$. For example, if one line has a slope of 3, a perpendicular line will have a slope of $-1/3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Parallel lines: $m_1 = m_2$\n  - $m_1, m_2$: slopes of the lines\n- Perpendicular lines: $m_1 \times m_2 = -1$\n  - $m_1, m_2$: slopes of the lines",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Identify:** Look around your home for parallel lines (e.g., shelves).\n   - **Ask:** \"What makes these lines parallel?\"\n2. **Explore:** Find perpendicular lines (e.g., walls meeting the floor).\n   - **Say:** \"Notice the right angle here.\"\n3. **Draw:** Create your own parallel and perpendicular lines on paper.\n   - **Ask:** \"How can you tell they are parallel or perpendicular?\"\n4. **Discuss:** Talk about why these lines are important in building and design.\n   - **Say:** \"Imagine if walls weren’t perpendicular!\"\n5. **Review:** Go over the slope concept with your child.\n   - **Ask:** \"What happens to the slopes of parallel and perpendicular lines?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing parallel with perpendicular: **Try:** \"Remember, parallel lines never meet.\"\n- Forgetting slope relationships: **Try:** \"Check if the slopes are equal or negative reciprocals.\"\n- Misidentifying angles: **Try:** \"Use a protractor to confirm right angles.\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Parallel and perpendicular lines are used in architecture to ensure buildings are stable and aesthetically pleasing. Roads and railways also rely on these concepts for safety and efficiency.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding parallel and perpendicular lines helps your child see the world in a new way. Keep exploring these concepts together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand parallel and perpendicular lines.\n- Identify these lines in everyday objects.\n- **Why this matters for parents:** Helps you support your child's spatial reasoning and geometry skills.",
+    "overview": "Parallel lines are lines in a plane that never meet, no matter how far they are extended. Perpendicular lines are lines that intersect at a right angle (90 degrees).\nUnderstanding these concepts is crucial because they form the basis of many geometric principles and are used in various real-world applications, such as construction and design.",
+    "core": "Parallel and perpendicular lines are everywhere in our world. Think about the lines on a notebook or the edges of a table. Recognizing these lines helps children understand how shapes and spaces are organized.",
+    "demo": "1. **Find two pencils.** Place them side by side on a table.\n   - **Say:** \"These pencils are like parallel lines. They never meet.\"\n2. **Use a book.** Stand it upright on the table.\n   - **Ask:** \"What do you notice about the book and the table?\"\n   - **Say:** \"The book is perpendicular to the table because it stands at a right angle.\"\n3. **Draw on paper.** Use a ruler to draw two parallel lines and then a line perpendicular to them.\n   - **Ask:** \"Can you see where the lines meet or don’t meet?\"",
+    "math": "Parallel lines have the same slope. If two lines are parallel, their slopes are equal. For example, lines with equations $y = 2x + 3$ and $y = 2x - 4$ are parallel because both have a slope of 2.\nPerpendicular lines have slopes that are negative reciprocals. If one line has a slope of $m$, the perpendicular line will have a slope of $-1/m$. For example, if one line has a slope of 3, a perpendicular line will have a slope of $-1/3$.",
+    "formulas": "- Parallel lines: $m_1 = m_2$\n  - $m_1, m_2$: slopes of the lines\n- Perpendicular lines: $m_1 \times m_2 = -1$\n  - $m_1, m_2$: slopes of the lines",
+    "guide": "1. **Identify:** Look around your home for parallel lines (e.g., shelves).\n   - **Ask:** \"What makes these lines parallel?\"\n2. **Explore:** Find perpendicular lines (e.g., walls meeting the floor).\n   - **Say:** \"Notice the right angle here.\"\n3. **Draw:** Create your own parallel and perpendicular lines on paper.\n   - **Ask:** \"How can you tell they are parallel or perpendicular?\"\n4. **Discuss:** Talk about why these lines are important in building and design.\n   - **Say:** \"Imagine if walls weren’t perpendicular!\"\n5. **Review:** Go over the slope concept with your child.\n   - **Ask:** \"What happens to the slopes of parallel and perpendicular lines?\"",
+    "mistakes": "- Confusing parallel with perpendicular: **Try:** \"Remember, parallel lines never meet.\"\n- Forgetting slope relationships: **Try:** \"Check if the slopes are equal or negative reciprocals.\"\n- Misidentifying angles: **Try:** \"Use a protractor to confirm right angles.\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Parallel and perpendicular lines are used in architecture to ensure buildings are stable and aesthetically pleasing. Roads and railways also rely on these concepts for safety and efficiency.",
+    "close": "Understanding parallel and perpendicular lines helps your child see the world in a new way. Keep exploring these concepts together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Parallel & Perpendicular**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Parallel & Perpendicular** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Parallel & Perpendicular**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

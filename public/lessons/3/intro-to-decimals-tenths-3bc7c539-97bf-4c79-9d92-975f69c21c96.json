@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "3bc7c539-97bf-4c79-9d92-975f69c21c96",
+    "slug": "intro-to-decimals-tenths-3bc7c539-97bf-4c79-9d92-975f69c21c96",
+    "title": "Intro to Decimals (Tenths)",
+    "summary": "Intro to Decimals (Tenths) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of decimals, focusing on tenths.\n- Recognize and write decimals in the form of tenths.\n- **Why this matters for parents:** Decimals are foundational for understanding money, measurements, and more advanced math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Decimals are a way to represent numbers that are not whole, using a point called a decimal point. In this lesson, we'll focus on tenths, which are the first place to the right of the decimal point.\nUnderstanding decimals is crucial because they appear in everyday life, such as in money and measurements. Helping your child grasp this concept will build their confidence in handling real-world math problems.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals are numbers that include a decimal point to show values less than one. The first place after the decimal point is the tenths place. For example, 0.1 means one-tenth.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather ten small objects, like buttons or coins.\n2. **Say:** \"Let's imagine these ten objects are one whole.\"\n3. Divide them into ten equal parts, placing one object in each part.\n4. **Ask:** \"If we take one part, how much of the whole do we have?\" (Answer: One-tenth)\n5. **Say:** \"We write one-tenth as 0.1.\"\n6. Repeat with different numbers of objects to show 0.2, 0.3, etc.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Decimals use a decimal point to separate the whole number from the fractional part. In 0.1, the '0' is the whole number, and the '1' is in the tenths place, meaning one-tenth. For example, 0.3 means three-tenths.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with ten identical objects.\n2. Explain that these objects together make one whole.\n3. Divide them into ten equal parts.\n4. Show how taking one part is 0.1, two parts is 0.2, etc.\n5. Encourage your child to write these as decimals.\n6. Discuss where they see decimals in daily life, like money.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tenths with whole numbers.\n  - Try: Emphasize the decimal point's role in separating whole numbers from fractions.\n- Writing 0.10 instead of 0.1.\n  - Try: Explain that both are the same, but 0.1 is simpler.\n- Misplacing the decimal point.\n  - Try: Use a visual aid to show the tenths place.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Decimals are used in money. For example, $0.5 is half a dollar, or 50 cents. They also appear in measurements, like 0.3 meters.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job introducing your child to decimals! This understanding will help them in many real-life situations. Keep exploring and practicing together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of decimals, focusing on tenths.\n- Recognize and write decimals in the form of tenths.\n- **Why this matters for parents:** Decimals are foundational for understanding money, measurements, and more advanced math concepts.",
+    "overview": "Decimals are a way to represent numbers that are not whole, using a point called a decimal point. In this lesson, we'll focus on tenths, which are the first place to the right of the decimal point.\nUnderstanding decimals is crucial because they appear in everyday life, such as in money and measurements. Helping your child grasp this concept will build their confidence in handling real-world math problems.",
+    "core": "Decimals are numbers that include a decimal point to show values less than one. The first place after the decimal point is the tenths place. For example, 0.1 means one-tenth.",
+    "demo": "1. Gather ten small objects, like buttons or coins.\n2. **Say:** \"Let's imagine these ten objects are one whole.\"\n3. Divide them into ten equal parts, placing one object in each part.\n4. **Ask:** \"If we take one part, how much of the whole do we have?\" (Answer: One-tenth)\n5. **Say:** \"We write one-tenth as 0.1.\"\n6. Repeat with different numbers of objects to show 0.2, 0.3, etc.",
+    "math": "Decimals use a decimal point to separate the whole number from the fractional part. In 0.1, the '0' is the whole number, and the '1' is in the tenths place, meaning one-tenth. For example, 0.3 means three-tenths.",
+    "guide": "1. Start with ten identical objects.\n2. Explain that these objects together make one whole.\n3. Divide them into ten equal parts.\n4. Show how taking one part is 0.1, two parts is 0.2, etc.\n5. Encourage your child to write these as decimals.\n6. Discuss where they see decimals in daily life, like money.",
+    "mistakes": "- Confusing tenths with whole numbers.\n  - Try: Emphasize the decimal point's role in separating whole numbers from fractions.\n- Writing 0.10 instead of 0.1.\n  - Try: Explain that both are the same, but 0.1 is simpler.\n- Misplacing the decimal point.\n  - Try: Use a visual aid to show the tenths place.",
+    "connection": "Decimals are used in money. For example, $0.5 is half a dollar, or 50 cents. They also appear in measurements, like 0.3 meters.",
+    "close": "Great job introducing your child to decimals! This understanding will help them in many real-life situations. Keep exploring and practicing together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Write the decimal for three-tenths.",
+      "hint_md": "Think about how many parts out of ten.",
+      "answer_md": "0.3"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have 7 out of 10 apples, what is this as a decimal?",
+      "hint_md": "Consider the tenths place.",
+      "answer_md": "0.7"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Convert 5/10 to a decimal.",
+      "hint_md": "How many tenths is this?",
+      "answer_md": "0.5"
+    }
+  ]
+}

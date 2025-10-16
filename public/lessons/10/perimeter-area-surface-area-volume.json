@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "bb0f7394-f382-4102-8431-91002358c03a",
+    "title": "Measurement & Trig",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "41582f1f-5f1b-4376-938e-9b8cbc7516ba",
+    "slug": "perimeter-area-surface-area-volume",
+    "title": "Perimeter, Area, Surface Area, Volume",
+    "summary": "Perimeter, Area, Surface Area, Volume — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of perimeter, area, surface area, and volume.\n- Learn how to calculate these measurements for basic shapes.\n- Apply these concepts to real-life situations.\n- **Why this matters for parents:** Helps support your child's understanding of space and measurement, useful in everyday tasks like home improvement or crafting.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers the fundamental concepts of perimeter, area, surface area, and volume. These are measurements that help us understand the size and space of different shapes and objects.\nUnderstanding these concepts is crucial because they are used in various real-life situations, from calculating the amount of paint needed for a wall to determining the volume of a storage box.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Perimeter is the distance around a shape. Area measures the space inside a 2D shape. Surface area is the total area covering a 3D object, and volume measures the space inside a 3D object. These measurements help us quantify and compare different shapes and objects.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the perimeter of a rectangle using a book. Measure the length and width of the book with a ruler.\n2. **Ask:** What are the length and width?\n3. **Say:** Add the lengths of all sides to find the perimeter.\n4. **Say:** Now, let's find the area. Multiply the length by the width.\n5. **Say:** For volume, imagine the book as a box. Measure the height and multiply length, width, and height.\n6. **Ask:** How do these measurements help us understand the book's size?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the perimeter of a rectangle, add up all sides: $P = 2(l + w)$. For example, if a rectangle has a length of 5 cm and a width of 3 cm, $P = 2(5 + 3) = 16$ cm.\nThe area of a rectangle is $A = l \times w$. Using the same rectangle, $A = 5 \times 3 = 15$ cm².\nFor volume, use $V = l \times w \times h$. If the height is 2 cm, $V = 5 \times 3 \times 2 = 30$ cm³.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Perimeter of a rectangle: $P = 2(l + w)$\n  - $l$: length\n  - $w$: width\n- Area of a rectangle: $A = l \times w$\n  - $l$: length\n  - $w$: width\n- Volume of a rectangular prism: $V = l \times w \times h$\n  - $l$: length\n  - $w$: width\n  - $h$: height",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's measure a rectangular table. Use a tape measure to find the length and width.\n2. **Ask:** Can you calculate the perimeter using the formula?\n3. **Say:** Now, let's find the area. Multiply the length by the width.\n4. **Say:** Imagine the table as a box. Measure the height and calculate the volume.\n5. **Ask:** How would knowing these measurements help if we wanted to cover the table with a cloth?\n6. **Say:** Practice these calculations with different household objects.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing perimeter with area. **Try:** Remember, perimeter is the distance around, while area is the space inside.\n- Forgetting to multiply all dimensions for volume. **Try:** Always use length, width, and height.\n- Mixing up units. **Try:** Keep units consistent (e.g., all in cm or m).",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Understanding these concepts helps when buying materials for home projects, like flooring or paint. It also aids in packing efficiently by knowing the volume of boxes.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these measurements empowers you to tackle everyday tasks with confidence. Keep practicing, and you'll see how useful these skills can be!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of perimeter, area, surface area, and volume.\n- Learn how to calculate these measurements for basic shapes.\n- Apply these concepts to real-life situations.\n- **Why this matters for parents:** Helps support your child's understanding of space and measurement, useful in everyday tasks like home improvement or crafting.",
+    "overview": "This lesson covers the fundamental concepts of perimeter, area, surface area, and volume. These are measurements that help us understand the size and space of different shapes and objects.\nUnderstanding these concepts is crucial because they are used in various real-life situations, from calculating the amount of paint needed for a wall to determining the volume of a storage box.",
+    "core": "Perimeter is the distance around a shape. Area measures the space inside a 2D shape. Surface area is the total area covering a 3D object, and volume measures the space inside a 3D object. These measurements help us quantify and compare different shapes and objects.",
+    "demo": "1. **Say:** Let's find the perimeter of a rectangle using a book. Measure the length and width of the book with a ruler.\n2. **Ask:** What are the length and width?\n3. **Say:** Add the lengths of all sides to find the perimeter.\n4. **Say:** Now, let's find the area. Multiply the length by the width.\n5. **Say:** For volume, imagine the book as a box. Measure the height and multiply length, width, and height.\n6. **Ask:** How do these measurements help us understand the book's size?",
+    "math": "To find the perimeter of a rectangle, add up all sides: $P = 2(l + w)$. For example, if a rectangle has a length of 5 cm and a width of 3 cm, $P = 2(5 + 3) = 16$ cm.\nThe area of a rectangle is $A = l \times w$. Using the same rectangle, $A = 5 \times 3 = 15$ cm².\nFor volume, use $V = l \times w \times h$. If the height is 2 cm, $V = 5 \times 3 \times 2 = 30$ cm³.",
+    "formulas": "- Perimeter of a rectangle: $P = 2(l + w)$\n  - $l$: length\n  - $w$: width\n- Area of a rectangle: $A = l \times w$\n  - $l$: length\n  - $w$: width\n- Volume of a rectangular prism: $V = l \times w \times h$\n  - $l$: length\n  - $w$: width\n  - $h$: height",
+    "guide": "1. **Say:** Let's measure a rectangular table. Use a tape measure to find the length and width.\n2. **Ask:** Can you calculate the perimeter using the formula?\n3. **Say:** Now, let's find the area. Multiply the length by the width.\n4. **Say:** Imagine the table as a box. Measure the height and calculate the volume.\n5. **Ask:** How would knowing these measurements help if we wanted to cover the table with a cloth?\n6. **Say:** Practice these calculations with different household objects.",
+    "mistakes": "- Confusing perimeter with area. **Try:** Remember, perimeter is the distance around, while area is the space inside.\n- Forgetting to multiply all dimensions for volume. **Try:** Always use length, width, and height.\n- Mixing up units. **Try:** Keep units consistent (e.g., all in cm or m).",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Understanding these concepts helps when buying materials for home projects, like flooring or paint. It also aids in packing efficiently by knowing the volume of boxes.",
+    "close": "Understanding these measurements empowers you to tackle everyday tasks with confidence. Keep practicing, and you'll see how useful these skills can be!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Perimeter, Area, Surface Area, Volume**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Perimeter, Area, Surface Area, Volume** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Perimeter, Area, Surface Area, Volume**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

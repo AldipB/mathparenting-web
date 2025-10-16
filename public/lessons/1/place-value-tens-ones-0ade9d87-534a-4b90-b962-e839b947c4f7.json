@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "0ade9d87-534a-4b90-b962-e839b947c4f7",
+    "slug": "place-value-tens-ones-0ade9d87-534a-4b90-b962-e839b947c4f7",
+    "title": "Place Value: Tens & Ones",
+    "summary": "Place Value: Tens & Ones — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of place value using tens and ones.\n- Identify and group numbers into tens and ones.\n- **Why this matters for parents:** Building a strong foundation in place value helps children with addition, subtraction, and understanding larger numbers.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Place value is the system we use to understand the value of digits in a number. In first grade, children learn to see numbers as groups of tens and ones.\nUnderstanding place value is crucial because it helps children make sense of numbers and prepares them for more complex math concepts like addition and subtraction.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll explore how numbers are made up of tens and ones. For example, the number 23 is made up of 2 tens and 3 ones. This concept helps children see numbers as more than just individual digits.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 small objects like buttons or coins.\n2. **Say:** \"Let's make groups of ten.\"\n3. Count out 10 objects and group them together. **Ask:** \"How many groups of ten do we have?\"\n4. Count the remaining objects. **Say:** \"These are the ones.\"\n5. **Ask:** \"If we have 2 groups of ten and 3 ones, what number do we have?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Place value helps us understand that in the number 45, the '4' is in the tens place and represents 40 (or 4 tens), while the '5' is in the ones place and represents 5 ones. So, 45 is 4 tens plus 5 ones.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Number = (Tens \\times 10) + Ones\n* Tens: Number of groups of ten\n* Ones: Remaining single units",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Use a set of objects to form groups of ten.\n2. **Say:** \"Let's count how many groups of ten we have.\"\n3. Count any leftover objects as ones.\n4. **Ask:** \"What number do these tens and ones make?\"\n5. Practice with different numbers to reinforce the concept.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up tens and ones. **Try:** Use different colored objects for tens and ones.\n- Counting tens as ones. **Try:** Emphasize grouping by tens first.\n- Forgetting leftover ones. **Try:** Count ones separately after grouping tens.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Place value is like organizing a closet. Tens are like hangers that hold groups of clothes, while ones are single items on a shelf. This helps children see how numbers are organized.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring place value! Understanding tens and ones opens the door to more exciting math adventures.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of place value using tens and ones.\n- Identify and group numbers into tens and ones.\n- **Why this matters for parents:** Building a strong foundation in place value helps children with addition, subtraction, and understanding larger numbers.",
+    "overview": "Place value is the system we use to understand the value of digits in a number. In first grade, children learn to see numbers as groups of tens and ones.\nUnderstanding place value is crucial because it helps children make sense of numbers and prepares them for more complex math concepts like addition and subtraction.",
+    "core": "In this lesson, we'll explore how numbers are made up of tens and ones. For example, the number 23 is made up of 2 tens and 3 ones. This concept helps children see numbers as more than just individual digits.",
+    "demo": "1. Gather 20 small objects like buttons or coins.\n2. **Say:** \"Let's make groups of ten.\"\n3. Count out 10 objects and group them together. **Ask:** \"How many groups of ten do we have?\"\n4. Count the remaining objects. **Say:** \"These are the ones.\"\n5. **Ask:** \"If we have 2 groups of ten and 3 ones, what number do we have?\"",
+    "math": "Place value helps us understand that in the number 45, the '4' is in the tens place and represents 40 (or 4 tens), while the '5' is in the ones place and represents 5 ones. So, 45 is 4 tens plus 5 ones.",
+    "formulas": "Number = (Tens \\times 10) + Ones\n* Tens: Number of groups of ten\n* Ones: Remaining single units",
+    "guide": "1. Use a set of objects to form groups of ten.\n2. **Say:** \"Let's count how many groups of ten we have.\"\n3. Count any leftover objects as ones.\n4. **Ask:** \"What number do these tens and ones make?\"\n5. Practice with different numbers to reinforce the concept.",
+    "mistakes": "- Mixing up tens and ones. **Try:** Use different colored objects for tens and ones.\n- Counting tens as ones. **Try:** Emphasize grouping by tens first.\n- Forgetting leftover ones. **Try:** Count ones separately after grouping tens.",
+    "connection": "Place value is like organizing a closet. Tens are like hangers that hold groups of clothes, while ones are single items on a shelf. This helps children see how numbers are organized.",
+    "close": "Great job exploring place value! Understanding tens and ones opens the door to more exciting math adventures."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many tens and ones are in the number 23?",
+      "hint_md": "Think about how many groups of 10 you can make.",
+      "answer_md": "2 tens and 3 ones."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is 45 in terms of tens and ones?",
+      "hint_md": "Count how many full groups of 10 are in 45.",
+      "answer_md": "4 tens and 5 ones."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you have 17, how many tens and ones do you have?",
+      "hint_md": "Remember, 10 is one group of ten.",
+      "answer_md": "1 ten and 7 ones."
+    }
+  ]
+}

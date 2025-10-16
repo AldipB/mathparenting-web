@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "bc20eed0-8420-4c06-bab3-2801b267a45c",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "ebefe5b2-4c1f-42b5-9738-a4eef4bb7a1a",
+    "slug": "area-surface-area-volume-cylinders-pyramids-ebefe5b2-4c1f-42b5-9738-a4eef4bb7a1a",
+    "title": "Area, Surface Area, Volume (Cylinders, Pyramids)",
+    "summary": "Area, Surface Area, Volume (Cylinders, Pyramids) — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate the area, surface area, and volume of cylinders and pyramids.\n- Help your child connect math concepts to real-world objects.\n- Build confidence in guiding your child through math problems.\n**Why this matters for parents:** These concepts are foundational for understanding geometry and are used in many real-life situations, from cooking to construction.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on understanding and calculating the area, surface area, and volume of cylinders and pyramids. These are 3D shapes that we encounter frequently in everyday life, like cans and tents.\nUnderstanding these concepts helps children visualize and solve real-world problems, enhancing their spatial reasoning and problem-solving skills. As a parent, guiding your child through these ideas can make math more relatable and less intimidating.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Cylinders and pyramids are common 3D shapes. A cylinder looks like a can, while a pyramid looks like a tent. Calculating their area, surface area, and volume helps us understand how much space they occupy or cover. These calculations are essential for tasks like packing, building, or even cooking.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather objects:** Find a can (cylinder) and a small tent or pyramid-shaped toy.\n2. **Sort by shape:** Ask your child to identify which is the cylinder and which is the pyramid.\n3. **Roll vs. stack test:** Roll the can and try to stack the pyramid. **Ask:** Why does the can roll but the pyramid doesn't?\n4. **Guess-the-shape bag game:** Place a few objects in a bag. Have your child feel and guess the shape without looking.\n5. **Say:** Notice how these shapes are different and think about how much space they take up.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the volume of a cylinder, use the formula $V = \text{Base Area} \times \text{Height} = \text{π}r^2h$. For example, if a can has a radius of 3 cm and a height of 10 cm, the volume is $V = \text{π} \times 3^2 \times 10 = 90\text{π}$ cm³.\nFor a pyramid, the volume is $V = \frac{1}{3} \times \text{Base Area} \times \text{Height}$. If the base is a square with side 4 cm and height 9 cm, then $V = \frac{1}{3} \times 4^2 \times 9 = 48$ cm³.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Cylinder Volume: $V = \text{π}r^2h$\n  - $r$: radius of the base\n  - $h$: height of the cylinder\n- Pyramid Volume: $V = \\frac{1}{3}Bh$\n  - $B$: area of the base\n  - $h$: height of the pyramid",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Discuss shapes:** Talk about where you see cylinders and pyramids in daily life.\n2. **Calculate together:** Use the formulas to find the volume of a can and a toy pyramid.\n3. **Use real measurements:** Measure a real can's radius and height with a ruler.\n4. **Draw and label:** Have your child draw a cylinder and pyramid, labeling the parts.\n5. **Reflect:** **Ask:** How do these calculations help us in real life?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing radius with diameter. **Try:** Remind them the radius is half the diameter.\n- Forgetting to square the radius in the cylinder formula. **Try:** Write out $r^2$ as $r \times r$.\n- Mixing up base area and height in pyramid calculations. **Try:** Draw the base and height to visualize.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cylinders are everywhere, from soup cans to water bottles. Pyramids can be seen in architecture, like the Louvre Pyramid. Understanding these shapes helps in tasks like packing and designing.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring cylinders and pyramids! Understanding these shapes opens up a world of possibilities in math and beyond.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate the area, surface area, and volume of cylinders and pyramids.\n- Help your child connect math concepts to real-world objects.\n- Build confidence in guiding your child through math problems.\n**Why this matters for parents:** These concepts are foundational for understanding geometry and are used in many real-life situations, from cooking to construction.",
+    "overview": "This lesson focuses on understanding and calculating the area, surface area, and volume of cylinders and pyramids. These are 3D shapes that we encounter frequently in everyday life, like cans and tents.\nUnderstanding these concepts helps children visualize and solve real-world problems, enhancing their spatial reasoning and problem-solving skills. As a parent, guiding your child through these ideas can make math more relatable and less intimidating.",
+    "core": "Cylinders and pyramids are common 3D shapes. A cylinder looks like a can, while a pyramid looks like a tent. Calculating their area, surface area, and volume helps us understand how much space they occupy or cover. These calculations are essential for tasks like packing, building, or even cooking.",
+    "demo": "1. **Gather objects:** Find a can (cylinder) and a small tent or pyramid-shaped toy.\n2. **Sort by shape:** Ask your child to identify which is the cylinder and which is the pyramid.\n3. **Roll vs. stack test:** Roll the can and try to stack the pyramid. **Ask:** Why does the can roll but the pyramid doesn't?\n4. **Guess-the-shape bag game:** Place a few objects in a bag. Have your child feel and guess the shape without looking.\n5. **Say:** Notice how these shapes are different and think about how much space they take up.",
+    "math": "To find the volume of a cylinder, use the formula $V = \text{Base Area} \times \text{Height} = \text{π}r^2h$. For example, if a can has a radius of 3 cm and a height of 10 cm, the volume is $V = \text{π} \times 3^2 \times 10 = 90\text{π}$ cm³.\nFor a pyramid, the volume is $V = \frac{1}{3} \times \text{Base Area} \times \text{Height}$. If the base is a square with side 4 cm and height 9 cm, then $V = \frac{1}{3} \times 4^2 \times 9 = 48$ cm³.",
+    "formulas": "- Cylinder Volume: $V = \text{π}r^2h$\n  - $r$: radius of the base\n  - $h$: height of the cylinder\n- Pyramid Volume: $V = \\frac{1}{3}Bh$\n  - $B$: area of the base\n  - $h$: height of the pyramid",
+    "guide": "1. **Discuss shapes:** Talk about where you see cylinders and pyramids in daily life.\n2. **Calculate together:** Use the formulas to find the volume of a can and a toy pyramid.\n3. **Use real measurements:** Measure a real can's radius and height with a ruler.\n4. **Draw and label:** Have your child draw a cylinder and pyramid, labeling the parts.\n5. **Reflect:** **Ask:** How do these calculations help us in real life?",
+    "mistakes": "- Confusing radius with diameter. **Try:** Remind them the radius is half the diameter.\n- Forgetting to square the radius in the cylinder formula. **Try:** Write out $r^2$ as $r \times r$.\n- Mixing up base area and height in pyramid calculations. **Try:** Draw the base and height to visualize.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Cylinders are everywhere, from soup cans to water bottles. Pyramids can be seen in architecture, like the Louvre Pyramid. Understanding these shapes helps in tasks like packing and designing.",
+    "close": "Great job exploring cylinders and pyramids! Understanding these shapes opens up a world of possibilities in math and beyond."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Area, Surface Area, Volume (Cylinders, Pyramids)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Area, Surface Area, Volume (Cylinders, Pyramids)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Area, Surface Area, Volume (Cylinders, Pyramids)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "c3a1a301-d1c7-4aa8-853f-46dedbb0d736",
+    "slug": "proportions-percent-problems-discount-tax-tip",
+    "title": "Proportions & Percent Problems (Discount, Tax, Tip)",
+    "summary": "Proportions & Percent Problems (Discount, Tax, Tip) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to solve proportion and percent problems related to discounts, tax, and tips.\n- Apply these concepts to real-life situations like shopping and dining.\n- **Why this matters for parents:** Helps children make informed financial decisions and understand everyday math applications.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Proportions and percent problems are all about comparing parts to a whole. They help us understand how much we save with discounts, how much extra we pay with tax, and how much to tip for services.\nThese skills are important because they are used in everyday life. Whether shopping for groceries or dining out, understanding these concepts helps manage money wisely.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Proportions compare two ratios, like the relationship between part of a whole and the whole itself. Percent problems often involve finding a part of a whole based on a percentage, such as calculating a discount or tax.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find out how much we save with a discount.\"\n2. Use a $10 item and say it's 20% off.\n3. **Ask:** \"What is 20% of $10?\"\n4. Calculate: $10 \times 0.20 = $2.\n5. **Say:** \"We save $2, so the item costs $8.\"\n6. Use a calculator or pencil and paper if needed.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve percent problems, convert the percentage to a decimal and multiply by the total. For example, to find 15% of $50:\n$$50 \\times 0.15 = 7.5$$\nThis means 15% of $50 is $7.50.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Discount = Original Price \\( \\times \\) Discount Rate\n  - Original Price: the initial price before discount\n  - Discount Rate: the percentage off\n- Final Price = Original Price - Discount\n- Tax = Purchase Price \\( \\times \\) Tax Rate\n  - Purchase Price: the price after any discounts\n  - Tax Rate: the percentage of tax\n- Tip = Bill Amount \\( \\times \\) Tip Rate\n  - Bill Amount: the total before tip\n  - Tip Rate: the percentage you choose to tip",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"How much is the discount on this item?\"\n2. Help your child convert the percentage to a decimal.\n3. **Say:** \"Now multiply it by the original price.\"\n4. **Ask:** \"What is the final price after the discount?\"\n5. Repeat with tax and tip examples.\n6. Encourage your child to check their work with a calculator.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing percent and decimal: Try converting 20% to 0.20.\n- Forgetting to subtract the discount: Try writing down each step.\n- Mixing up tax and tip rates: Try labeling each calculation clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, use these skills to calculate discounts and final prices. At restaurants, practice calculating tips to ensure fair payment.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding proportions and percent problems empowers your child to make smart financial decisions. Keep practicing, and these skills will become second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to solve proportion and percent problems related to discounts, tax, and tips.\n- Apply these concepts to real-life situations like shopping and dining.\n- **Why this matters for parents:** Helps children make informed financial decisions and understand everyday math applications.",
+    "overview": "Proportions and percent problems are all about comparing parts to a whole. They help us understand how much we save with discounts, how much extra we pay with tax, and how much to tip for services.\nThese skills are important because they are used in everyday life. Whether shopping for groceries or dining out, understanding these concepts helps manage money wisely.",
+    "core": "Proportions compare two ratios, like the relationship between part of a whole and the whole itself. Percent problems often involve finding a part of a whole based on a percentage, such as calculating a discount or tax.",
+    "demo": "1. **Say:** \"Let's find out how much we save with a discount.\"\n2. Use a $10 item and say it's 20% off.\n3. **Ask:** \"What is 20% of $10?\"\n4. Calculate: $10 \times 0.20 = $2.\n5. **Say:** \"We save $2, so the item costs $8.\"\n6. Use a calculator or pencil and paper if needed.",
+    "math": "To solve percent problems, convert the percentage to a decimal and multiply by the total. For example, to find 15% of $50:\n$$50 \\times 0.15 = 7.5$$\nThis means 15% of $50 is $7.50.",
+    "formulas": "- Discount = Original Price \\( \\times \\) Discount Rate\n  - Original Price: the initial price before discount\n  - Discount Rate: the percentage off\n- Final Price = Original Price - Discount\n- Tax = Purchase Price \\( \\times \\) Tax Rate\n  - Purchase Price: the price after any discounts\n  - Tax Rate: the percentage of tax\n- Tip = Bill Amount \\( \\times \\) Tip Rate\n  - Bill Amount: the total before tip\n  - Tip Rate: the percentage you choose to tip",
+    "guide": "1. **Ask:** \"How much is the discount on this item?\"\n2. Help your child convert the percentage to a decimal.\n3. **Say:** \"Now multiply it by the original price.\"\n4. **Ask:** \"What is the final price after the discount?\"\n5. Repeat with tax and tip examples.\n6. Encourage your child to check their work with a calculator.",
+    "mistakes": "- Confusing percent and decimal: Try converting 20% to 0.20.\n- Forgetting to subtract the discount: Try writing down each step.\n- Mixing up tax and tip rates: Try labeling each calculation clearly.",
+    "connection": "When shopping, use these skills to calculate discounts and final prices. At restaurants, practice calculating tips to ensure fair payment.",
+    "close": "Understanding proportions and percent problems empowers your child to make smart financial decisions. Keep practicing, and these skills will become second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "A $40 shirt is on sale for 25% off. What is the sale price?",
+      "hint_md": "Convert 25% to a decimal and multiply by $40.",
+      "answer_md": "$40 \\times 0.25 = $10. \\text{ Sale price is } $40 - $10 = $30."
+    },
+    {
+      "order_index": 2,
+      "question_md": "A meal costs $60 and the tax rate is 8%. How much is the tax?",
+      "hint_md": "Convert 8% to a decimal and multiply by $60.",
+      "answer_md": "$60 \\times 0.08 = $4.80. \\text{ Tax is } $4.80."
+    },
+    {
+      "order_index": 3,
+      "question_md": "You want to leave a 15% tip on a $50 bill. How much is the tip?",
+      "hint_md": "Convert 15% to a decimal and multiply by $50.",
+      "answer_md": "$50 \\times 0.15 = $7.50. \\text{ Tip is } $7.50."
+    }
+  ]
+}

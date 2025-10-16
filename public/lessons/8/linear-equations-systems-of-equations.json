@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "8287516b-e130-4518-892b-27ec5c687ec2",
+    "title": "Linear Algebra",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "10dc504f-c4a5-4493-b2a5-aa7350b128b0",
+    "slug": "linear-equations-systems-of-equations",
+    "title": "Linear Equations & Systems of Equations",
+    "summary": "Linear Equations & Systems of Equations — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what linear equations and systems of equations are.\n- Learn how to solve simple linear equations and systems of equations.\n- Apply these concepts to real-life situations.\n- **Why this matters for parents:** This lesson helps you guide your child through solving problems that involve relationships between numbers, which is a crucial skill in many aspects of life and future studies.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Linear equations are mathematical statements that show a relationship between two variables, usually in the form of $y = mx + b$. Systems of equations involve finding values that satisfy more than one equation at the same time.\nUnderstanding these concepts is important because they form the basis for more complex math topics and are used in various real-world applications, such as budgeting and planning.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Linear equations represent straight lines when graphed. They show how one quantity changes with another. Systems of equations involve two or more equations that share variables. Solving them means finding values that work for all equations involved.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use a ruler and a piece of string to explore a linear equation.\"\n2. **Ask:** \"If we stretch the string from 0 to 10 on the ruler, how does the length of the string change?\"\n3. **Say:** \"This is like a linear equation where the string's length changes as we move along the ruler.\"\n4. **Ask:** \"What if we have two strings and want them to meet at the same point? This is like solving a system of equations.\"\n5. **Say:** \"Let's draw two lines on paper and see where they intersect. That's the solution to the system.\"\n6. **Ask:** \"Can you find the point where both lines meet?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A linear equation looks like $y = 2x + 3$. Here, $y$ changes with $x$. For example, if $x = 1$, then $y = 2(1) + 3 = 5$. A system of equations might look like:\n$$\\begin{align*}\ny &= 2x + 3 \\\\\ny &= -x + 1\n\\end{align*}$$\nTo solve, find $x$ and $y$ that satisfy both equations. For example, $x = -1, y = 1$ works for both.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "y = mx + b\n- $y$: dependent variable\n  - $m$: slope\n  - $x$: independent variable\n  - $b$: y-intercept",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** \"Let's write down a simple equation like $y = 2x + 3$.\"\n2. **Ask:** \"What happens to $y$ if $x$ is 2?\"\n3. **Say:** \"Now, let's add another equation, $y = -x + 1$.\"\n4. **Ask:** \"Can we find a point where both equations are true?\"\n5. **Say:** \"Let's graph these equations on paper to see where they intersect.\"\n6. **Ask:** \"What do you notice about the point where they meet?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the slope and y-intercept. **Try:** Remember, the slope ($m$) is how steep the line is, and the y-intercept ($b$) is where it crosses the y-axis.\n- Forgetting to check both equations in a system. **Try:** Substitute the solution back into both equations to ensure it works.\n- Mixing up $x$ and $y$ values. **Try:** Label your points clearly and double-check which variable is which.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Linear equations are used in budgeting, where you need to plan expenses based on income. Systems of equations can help in situations like comparing phone plans to find the best deal.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring linear equations and systems! These skills will help your child solve real-world problems with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what linear equations and systems of equations are.\n- Learn how to solve simple linear equations and systems of equations.\n- Apply these concepts to real-life situations.\n- **Why this matters for parents:** This lesson helps you guide your child through solving problems that involve relationships between numbers, which is a crucial skill in many aspects of life and future studies.",
+    "overview": "Linear equations are mathematical statements that show a relationship between two variables, usually in the form of $y = mx + b$. Systems of equations involve finding values that satisfy more than one equation at the same time.\nUnderstanding these concepts is important because they form the basis for more complex math topics and are used in various real-world applications, such as budgeting and planning.",
+    "core": "Linear equations represent straight lines when graphed. They show how one quantity changes with another. Systems of equations involve two or more equations that share variables. Solving them means finding values that work for all equations involved.",
+    "demo": "1. **Say:** \"Let's use a ruler and a piece of string to explore a linear equation.\"\n2. **Ask:** \"If we stretch the string from 0 to 10 on the ruler, how does the length of the string change?\"\n3. **Say:** \"This is like a linear equation where the string's length changes as we move along the ruler.\"\n4. **Ask:** \"What if we have two strings and want them to meet at the same point? This is like solving a system of equations.\"\n5. **Say:** \"Let's draw two lines on paper and see where they intersect. That's the solution to the system.\"\n6. **Ask:** \"Can you find the point where both lines meet?\"",
+    "math": "A linear equation looks like $y = 2x + 3$. Here, $y$ changes with $x$. For example, if $x = 1$, then $y = 2(1) + 3 = 5$. A system of equations might look like:\n$$\\begin{align*}\ny &= 2x + 3 \\\\\ny &= -x + 1\n\\end{align*}$$\nTo solve, find $x$ and $y$ that satisfy both equations. For example, $x = -1, y = 1$ works for both.",
+    "formulas": "y = mx + b\n- $y$: dependent variable\n  - $m$: slope\n  - $x$: independent variable\n  - $b$: y-intercept",
+    "guide": "- 1. **Say:** \"Let's write down a simple equation like $y = 2x + 3$.\"\n2. **Ask:** \"What happens to $y$ if $x$ is 2?\"\n3. **Say:** \"Now, let's add another equation, $y = -x + 1$.\"\n4. **Ask:** \"Can we find a point where both equations are true?\"\n5. **Say:** \"Let's graph these equations on paper to see where they intersect.\"\n6. **Ask:** \"What do you notice about the point where they meet?\"",
+    "mistakes": "- Confusing the slope and y-intercept. **Try:** Remember, the slope ($m$) is how steep the line is, and the y-intercept ($b$) is where it crosses the y-axis.\n- Forgetting to check both equations in a system. **Try:** Substitute the solution back into both equations to ensure it works.\n- Mixing up $x$ and $y$ values. **Try:** Label your points clearly and double-check which variable is which.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Linear equations are used in budgeting, where you need to plan expenses based on income. Systems of equations can help in situations like comparing phone plans to find the best deal.",
+    "close": "Great job exploring linear equations and systems! These skills will help your child solve real-world problems with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Linear Equations & Systems of Equations**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Linear Equations & Systems of Equations** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Linear Equations & Systems of Equations**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

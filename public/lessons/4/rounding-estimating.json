@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "b8025cc9-5d56-41d8-b50d-d16c5bce3e46",
+    "title": "Number & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "36366e00-b8e1-4709-8a0c-1b009619c48a",
+    "slug": "rounding-estimating",
+    "title": "Rounding & Estimating",
+    "summary": "Rounding & Estimating — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to round numbers to the nearest ten and hundred.\n- Use rounding to estimate sums and differences.\n- **Why this matters for parents:** Rounding helps children make quick calculations and understand the size of numbers in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rounding is a way to simplify numbers, making them easier to work with. It involves adjusting a number to the nearest ten, hundred, or other place value.\nThis skill is important because it helps children make quick estimates, which can be useful in real-life situations like shopping or cooking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When we round a number, we look at the digit to the right of the place value we're rounding to. If it's 5 or more, we round up. If it's less than 5, we round down. Estimating with rounded numbers helps us quickly check if our answers are reasonable.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Find a small pile of coins or buttons. Count them together with your child.\n- **Say:** Let's round this number to the nearest ten.\n- If you have 47 coins, **Ask:** Is the digit in the ones place 5 or more?\n- **Say:** Since 7 is more than 5, we round up to 50.\n- Now, use the same method to round 34 coins. **Ask:** What do we do with 4?\n- **Say:** Since 4 is less than 5, we round down to 30.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To round 47 to the nearest ten, look at the ones digit (7). Since 7 is 5 or more, round up to 50. For 34, the ones digit is 4, which is less than 5, so round down to 30. Estimating helps us quickly find sums: $47 + 34 \\approx 50 + 30 = 80$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Rounding Rule\n- If the digit is 5 or more, round up.\n- If the digit is less than 5, round down.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Choose a number with your child, like 76.\n- **Ask:** What is the digit in the ones place?\n- **Say:** Since 6 is more than 5, we round up to 80.\n- Try another number, like 82. **Ask:** What do we do with 2?\n- **Say:** Since 2 is less than 5, we round down to 80.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Rounding 43 to 50: Try rounding down since 3 is less than 5.\n- Rounding 68 to 60: Try rounding up since 8 is more than 5.\n- Forgetting to change the tens place: Remember to adjust it when rounding up.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, use rounding to estimate the total cost. If an item costs $47, round it to $50 to quickly add up prices.\nCooking often requires estimating measurements. Rounding helps decide if you have enough ingredients.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Rounding and estimating are powerful tools for making math easier and more intuitive. Keep practicing, and you'll find it becomes second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to round numbers to the nearest ten and hundred.\n- Use rounding to estimate sums and differences.\n- **Why this matters for parents:** Rounding helps children make quick calculations and understand the size of numbers in everyday life.",
+    "overview": "Rounding is a way to simplify numbers, making them easier to work with. It involves adjusting a number to the nearest ten, hundred, or other place value.\nThis skill is important because it helps children make quick estimates, which can be useful in real-life situations like shopping or cooking.",
+    "core": "When we round a number, we look at the digit to the right of the place value we're rounding to. If it's 5 or more, we round up. If it's less than 5, we round down. Estimating with rounded numbers helps us quickly check if our answers are reasonable.",
+    "demo": "- Find a small pile of coins or buttons. Count them together with your child.\n- **Say:** Let's round this number to the nearest ten.\n- If you have 47 coins, **Ask:** Is the digit in the ones place 5 or more?\n- **Say:** Since 7 is more than 5, we round up to 50.\n- Now, use the same method to round 34 coins. **Ask:** What do we do with 4?\n- **Say:** Since 4 is less than 5, we round down to 30.",
+    "math": "To round 47 to the nearest ten, look at the ones digit (7). Since 7 is 5 or more, round up to 50. For 34, the ones digit is 4, which is less than 5, so round down to 30. Estimating helps us quickly find sums: $47 + 34 \\approx 50 + 30 = 80$.",
+    "formulas": "Rounding Rule\n- If the digit is 5 or more, round up.\n- If the digit is less than 5, round down.",
+    "guide": "- Choose a number with your child, like 76.\n- **Ask:** What is the digit in the ones place?\n- **Say:** Since 6 is more than 5, we round up to 80.\n- Try another number, like 82. **Ask:** What do we do with 2?\n- **Say:** Since 2 is less than 5, we round down to 80.",
+    "mistakes": "- Rounding 43 to 50: Try rounding down since 3 is less than 5.\n- Rounding 68 to 60: Try rounding up since 8 is more than 5.\n- Forgetting to change the tens place: Remember to adjust it when rounding up.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When shopping, use rounding to estimate the total cost. If an item costs $47, round it to $50 to quickly add up prices.\nCooking often requires estimating measurements. Rounding helps decide if you have enough ingredients.",
+    "close": "Rounding and estimating are powerful tools for making math easier and more intuitive. Keep practicing, and you'll find it becomes second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Rounding & Estimating**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Rounding & Estimating** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Rounding & Estimating**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

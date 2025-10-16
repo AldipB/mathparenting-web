@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "ab98fcea-9d49-43ce-be80-f1db0eaca234",
+    "slug": "integers-on-number-line-absolute-value",
+    "title": "Integers on Number Line; Absolute Value",
+    "summary": "Integers on Number Line; Absolute Value — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand integers and their positions on a number line.\n- Learn about absolute value and how it represents distance.\n- **Why this matters for parents:** This helps children grasp positive and negative numbers, crucial for advanced math and real-life situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Integers are whole numbers that can be positive, negative, or zero. They are represented on a number line, which helps visualize their relationships. Absolute value is the distance of a number from zero, always a positive number.\nUnderstanding integers and absolute value is important because it lays the foundation for algebra and helps in understanding real-world concepts like temperature changes and bank account balances.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Integers include numbers like -3, 0, and 4. On a number line, positive numbers are to the right of zero, and negative numbers are to the left. Absolute value is how far a number is from zero, ignoring direction. For example, both 3 and -3 have an absolute value of 3.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use a ruler as a number line. Place it on the table.\n2. **Ask:** Where would zero be on this ruler? (Point to the middle.)\n3. **Say:** Let's place some coins at -3, 0, and 4.\n4. **Ask:** How far is each coin from zero? (Count spaces.)\n5. **Say:** Notice that -3 and 3 are the same distance from zero, which is their absolute value.\n6. **Ask:** What do you think the absolute value of -5 is? (Guide them to count 5 spaces from zero.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Integers are represented on a number line with zero in the center. Positive numbers are to the right, negative to the left. Absolute value, denoted as $|x|$, is the distance from zero. For example, $|-4| = 4$ because -4 is 4 units away from zero.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "|x|\n- $x$ is any integer.\n- $|x|$ is the absolute value of $x$.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Draw a number line on paper with your child, marking -5 to 5.\n2. **Ask:** Where would you place -2? (Guide them to the left of zero.)\n3. **Say:** Let's find the absolute value of -2. How many steps to zero?\n4. **Ask:** What about the absolute value of 3? (Count steps from zero.)\n5. **Say:** Notice how absolute value is always positive.\n6. **Ask:** Can you think of a real-life example where we use negative numbers?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing direction with distance. **Try:** Emphasize counting spaces from zero.\n- Thinking absolute value can be negative. **Try:** Reinforce that distance is always positive.\n- Placing zero incorrectly on the number line. **Try:** Use a ruler to show zero in the middle.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Integers are used in real life when checking temperatures (above/below zero) or managing finances (debits/credits). Absolute value helps understand how far something is from a starting point, like a bank balance from zero.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding integers and absolute value builds confidence in math and helps children relate math to everyday life. Keep exploring and asking questions!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand integers and their positions on a number line.\n- Learn about absolute value and how it represents distance.\n- **Why this matters for parents:** This helps children grasp positive and negative numbers, crucial for advanced math and real-life situations.",
+    "overview": "Integers are whole numbers that can be positive, negative, or zero. They are represented on a number line, which helps visualize their relationships. Absolute value is the distance of a number from zero, always a positive number.\nUnderstanding integers and absolute value is important because it lays the foundation for algebra and helps in understanding real-world concepts like temperature changes and bank account balances.",
+    "core": "Integers include numbers like -3, 0, and 4. On a number line, positive numbers are to the right of zero, and negative numbers are to the left. Absolute value is how far a number is from zero, ignoring direction. For example, both 3 and -3 have an absolute value of 3.",
+    "demo": "1. **Say:** Let's use a ruler as a number line. Place it on the table.\n2. **Ask:** Where would zero be on this ruler? (Point to the middle.)\n3. **Say:** Let's place some coins at -3, 0, and 4.\n4. **Ask:** How far is each coin from zero? (Count spaces.)\n5. **Say:** Notice that -3 and 3 are the same distance from zero, which is their absolute value.\n6. **Ask:** What do you think the absolute value of -5 is? (Guide them to count 5 spaces from zero.)",
+    "math": "Integers are represented on a number line with zero in the center. Positive numbers are to the right, negative to the left. Absolute value, denoted as $|x|$, is the distance from zero. For example, $|-4| = 4$ because -4 is 4 units away from zero.",
+    "formulas": "|x|\n- $x$ is any integer.\n- $|x|$ is the absolute value of $x$.",
+    "guide": "1. Draw a number line on paper with your child, marking -5 to 5.\n2. **Ask:** Where would you place -2? (Guide them to the left of zero.)\n3. **Say:** Let's find the absolute value of -2. How many steps to zero?\n4. **Ask:** What about the absolute value of 3? (Count steps from zero.)\n5. **Say:** Notice how absolute value is always positive.\n6. **Ask:** Can you think of a real-life example where we use negative numbers?",
+    "mistakes": "- Confusing direction with distance. **Try:** Emphasize counting spaces from zero.\n- Thinking absolute value can be negative. **Try:** Reinforce that distance is always positive.\n- Placing zero incorrectly on the number line. **Try:** Use a ruler to show zero in the middle.",
+    "connection": "Integers are used in real life when checking temperatures (above/below zero) or managing finances (debits/credits). Absolute value helps understand how far something is from a starting point, like a bank balance from zero.",
+    "close": "Understanding integers and absolute value builds confidence in math and helps children relate math to everyday life. Keep exploring and asking questions!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the absolute value of -7?",
+      "hint_md": "Think about how far -7 is from zero.",
+      "answer_md": "7"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Place the number -4 on a number line from -5 to 5.",
+      "hint_md": "Find zero first, then count four spaces to the left.",
+      "answer_md": "-4 is four spaces to the left of zero."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If a bank account is overdrawn by $5, what is the absolute value of the balance?",
+      "hint_md": "Consider the distance from zero.",
+      "answer_md": "5"
+    }
+  ]
+}

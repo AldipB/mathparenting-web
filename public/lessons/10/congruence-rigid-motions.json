@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "396ecee9-5aaf-426d-afb8-283cd713b7da",
+    "slug": "congruence-rigid-motions",
+    "title": "Congruence (Rigid Motions)",
+    "summary": "Congruence (Rigid Motions) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of congruence through rigid motions.\n- Learn how to demonstrate congruence using transformations.\n- **Why this matters for parents:** Helps you support your child in visualizing and understanding geometric concepts, which are foundational for advanced math.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Congruence in geometry means that two shapes are identical in form and size. We can prove congruence using rigid motions, which include translations, rotations, and reflections.\nUnderstanding congruence is crucial because it helps in solving problems related to shapes and patterns. It builds a foundation for more complex geometric concepts and real-world applications like design and engineering.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rigid motions are transformations that preserve the size and shape of figures. When a shape undergoes a rigid motion, it remains congruent to its original form. These motions include sliding (translation), turning (rotation), and flipping (reflection).",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore congruence using a piece of paper and a small book.\n2. Place the book on the paper and trace its outline.\n3. **Ask:** What happens if we slide the book to a different spot on the paper? Is the shape still the same?\n4. Slide the book and trace again. Compare the shapes.\n5. **Say:** Notice how the shape remains the same size and form. This is congruence through translation.\n6. **Ask:** What if we rotate or flip the book? Try it and observe.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Congruence through rigid motions means two figures are identical in size and shape. For example, if triangle $ABC$ is translated 3 units right and 2 units up, it remains congruent to its original position. This is because translation doesn't alter the size or shape.\nMathematically, if $A(1, 2)$ moves to $A'(4, 4)$, $B(3, 5)$ to $B'(6, 7)$, and $C(5, 1)$ to $C'(8, 3)$, the triangles are congruent.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** Can you identify any objects at home that are congruent?\n2. **Say:** Let's use two identical cups. Place them side by side.\n3. **Ask:** What happens if we slide one cup to a different spot?\n4. **Say:** Notice how the cups remain the same. This is congruence.\n5. **Ask:** Can you think of any other transformations that keep the cups congruent?\n6. **Say:** Try rotating or flipping one cup and see if it still matches the other.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing congruence with similarity. **Try:** Emphasize that congruent shapes are identical in size and shape.\n- Forgetting that rigid motions don't change size. **Try:** Use physical objects to demonstrate.\n- Assuming congruence without checking all parts. **Try:** Verify each transformation step.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Congruence is used in designing objects that need to fit together perfectly, like puzzle pieces or tiles. Architects use congruence to ensure buildings are symmetrical and aesthetically pleasing.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Congruence helps us see the world in a structured way. By understanding these concepts, you're empowering your child to tackle more complex math with confidence!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of congruence through rigid motions.\n- Learn how to demonstrate congruence using transformations.\n- **Why this matters for parents:** Helps you support your child in visualizing and understanding geometric concepts, which are foundational for advanced math.",
+    "overview": "Congruence in geometry means that two shapes are identical in form and size. We can prove congruence using rigid motions, which include translations, rotations, and reflections.\nUnderstanding congruence is crucial because it helps in solving problems related to shapes and patterns. It builds a foundation for more complex geometric concepts and real-world applications like design and engineering.",
+    "core": "Rigid motions are transformations that preserve the size and shape of figures. When a shape undergoes a rigid motion, it remains congruent to its original form. These motions include sliding (translation), turning (rotation), and flipping (reflection).",
+    "demo": "1. **Say:** Let's explore congruence using a piece of paper and a small book.\n2. Place the book on the paper and trace its outline.\n3. **Ask:** What happens if we slide the book to a different spot on the paper? Is the shape still the same?\n4. Slide the book and trace again. Compare the shapes.\n5. **Say:** Notice how the shape remains the same size and form. This is congruence through translation.\n6. **Ask:** What if we rotate or flip the book? Try it and observe.",
+    "math": "Congruence through rigid motions means two figures are identical in size and shape. For example, if triangle $ABC$ is translated 3 units right and 2 units up, it remains congruent to its original position. This is because translation doesn't alter the size or shape.\nMathematically, if $A(1, 2)$ moves to $A'(4, 4)$, $B(3, 5)$ to $B'(6, 7)$, and $C(5, 1)$ to $C'(8, 3)$, the triangles are congruent.",
+    "guide": "1. **Ask:** Can you identify any objects at home that are congruent?\n2. **Say:** Let's use two identical cups. Place them side by side.\n3. **Ask:** What happens if we slide one cup to a different spot?\n4. **Say:** Notice how the cups remain the same. This is congruence.\n5. **Ask:** Can you think of any other transformations that keep the cups congruent?\n6. **Say:** Try rotating or flipping one cup and see if it still matches the other.",
+    "mistakes": "- Confusing congruence with similarity. **Try:** Emphasize that congruent shapes are identical in size and shape.\n- Forgetting that rigid motions don't change size. **Try:** Use physical objects to demonstrate.\n- Assuming congruence without checking all parts. **Try:** Verify each transformation step.",
+    "connection": "Congruence is used in designing objects that need to fit together perfectly, like puzzle pieces or tiles. Architects use congruence to ensure buildings are symmetrical and aesthetically pleasing.",
+    "close": "Congruence helps us see the world in a structured way. By understanding these concepts, you're empowering your child to tackle more complex math with confidence!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If triangle $XYZ$ is congruent to triangle $PQR$, and $XY = 8$, what is $PQ$?",
+      "hint_md": "Remember, congruent sides are equal.",
+      "answer_md": "$PQ = 8$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "A square is rotated 90 degrees. Is it still congruent to its original position?",
+      "hint_md": "Consider if the shape or size changed.",
+      "answer_md": "Yes, it is still congruent."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Reflect a triangle over a line. Are the original and reflected triangles congruent?",
+      "hint_md": "Think about the shape and size after reflection.",
+      "answer_md": "Yes, they are congruent."
+    }
+  ]
+}

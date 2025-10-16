@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "b4eef387-8bab-4778-b1e0-cf8a52ad1756",
+    "title": "Statistics & Data",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "d43585d4-3c2a-4dc6-9b32-58143749f4a3",
+    "slug": "descriptive-statistics-mean-sd-variance",
+    "title": "Descriptive Statistics (Mean, SD, Variance)",
+    "summary": "Descriptive Statistics (Mean, SD, Variance) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate mean, standard deviation, and variance.\n- Learn to explain these concepts using everyday examples.\n- **Why this matters for parents:** Helps you support your child in understanding data analysis, a key skill in many fields.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Descriptive statistics involve summarizing and understanding data using measures like mean, standard deviation, and variance. These concepts help us make sense of large sets of numbers by providing a snapshot of the data.\nUnderstanding these statistics is crucial as they form the foundation for more complex data analysis. They help us interpret data trends and variability, which is essential in fields like science, economics, and everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The mean is the average of a set of numbers, giving us a central value. Standard deviation tells us how spread out the numbers are, and variance is the square of the standard deviation. Together, they help us understand the data's central tendency and variability.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 5 small objects like apples or oranges.\n2. **Say:** \"Let's find the average weight of these apples.\"\n3. Weigh each apple and note the weights: 100g, 110g, 105g, 95g, 90g.\n4. **Ask:** \"What do you think the average weight is?\"\n5. Calculate the mean: (100 + 110 + 105 + 95 + 90) / 5 = 100g.\n6. **Say:** \"Now, let's see how much these weights vary from the average.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The mean is calculated by adding all the numbers and dividing by the count. For example, with weights 100g, 110g, 105g, 95g, 90g, the mean is:\n$$ \\text{Mean} = \\frac{100 + 110 + 105 + 95 + 90}{5} = 100 $$\nStandard deviation measures how spread out the numbers are. Variance is the standard deviation squared. For our weights:\n1. Find deviations: (0, 10, 5, -5, -10)\n2. Square deviations: (0, 100, 25, 25, 100)\n3. Variance: $$ \\frac{0 + 100 + 25 + 25 + 100}{5} = 50 $$\n4. Standard deviation: $$ \\sqrt{50} \\approx 7.07 $$",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Mean: $$ \\bar{x} = \\frac{\\sum x}{n} $$\n  - \\( \\bar{x} \\): mean\n  - \\( \\sum x \\): sum of all data points\n  - \\( n \\): number of data points\n- Variance: $$ \\sigma^2 = \\frac{\\sum (x - \\bar{x})^2}{n} $$\n  - \\( \\sigma^2 \\): variance\n  - \\( x \\): each data point\n- Standard Deviation: $$ \\sigma = \\sqrt{\\sigma^2} $$\n  - \\( \\sigma \\): standard deviation",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's calculate the mean together.\"\n2. Add the numbers and divide by the count.\n3. **Ask:** \"What do you notice about the numbers and the mean?\"\n4. Calculate deviations from the mean.\n5. **Say:** \"Let's square these deviations and find the variance.\"\n6. Calculate the standard deviation by taking the square root of the variance.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to divide by the number of data points for the mean.\n  - Try: Double-check the count of numbers.\n- Mixing up variance and standard deviation.\n  - Try: Remember, standard deviation is the square root of variance.\n- Not squaring deviations when calculating variance.\n  - Try: Ensure each deviation is squared before summing.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Statistics are used in everyday life, like understanding weather patterns or analyzing sports performance. Knowing how to interpret data helps in making informed decisions, whether it's budgeting or planning a family trip.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these statistics empowers you and your child to make sense of data in everyday life. Keep exploring and practicing together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate mean, standard deviation, and variance.\n- Learn to explain these concepts using everyday examples.\n- **Why this matters for parents:** Helps you support your child in understanding data analysis, a key skill in many fields.",
+    "overview": "Descriptive statistics involve summarizing and understanding data using measures like mean, standard deviation, and variance. These concepts help us make sense of large sets of numbers by providing a snapshot of the data.\nUnderstanding these statistics is crucial as they form the foundation for more complex data analysis. They help us interpret data trends and variability, which is essential in fields like science, economics, and everyday decision-making.",
+    "core": "The mean is the average of a set of numbers, giving us a central value. Standard deviation tells us how spread out the numbers are, and variance is the square of the standard deviation. Together, they help us understand the data's central tendency and variability.",
+    "demo": "1. Gather 5 small objects like apples or oranges.\n2. **Say:** \"Let's find the average weight of these apples.\"\n3. Weigh each apple and note the weights: 100g, 110g, 105g, 95g, 90g.\n4. **Ask:** \"What do you think the average weight is?\"\n5. Calculate the mean: (100 + 110 + 105 + 95 + 90) / 5 = 100g.\n6. **Say:** \"Now, let's see how much these weights vary from the average.\"",
+    "math": "The mean is calculated by adding all the numbers and dividing by the count. For example, with weights 100g, 110g, 105g, 95g, 90g, the mean is:\n$$ \\text{Mean} = \\frac{100 + 110 + 105 + 95 + 90}{5} = 100 $$\nStandard deviation measures how spread out the numbers are. Variance is the standard deviation squared. For our weights:\n1. Find deviations: (0, 10, 5, -5, -10)\n2. Square deviations: (0, 100, 25, 25, 100)\n3. Variance: $$ \\frac{0 + 100 + 25 + 25 + 100}{5} = 50 $$\n4. Standard deviation: $$ \\sqrt{50} \\approx 7.07 $$",
+    "formulas": "- Mean: $$ \\bar{x} = \\frac{\\sum x}{n} $$\n  - \\( \\bar{x} \\): mean\n  - \\( \\sum x \\): sum of all data points\n  - \\( n \\): number of data points\n- Variance: $$ \\sigma^2 = \\frac{\\sum (x - \\bar{x})^2}{n} $$\n  - \\( \\sigma^2 \\): variance\n  - \\( x \\): each data point\n- Standard Deviation: $$ \\sigma = \\sqrt{\\sigma^2} $$\n  - \\( \\sigma \\): standard deviation",
+    "guide": "1. **Say:** \"Let's calculate the mean together.\"\n2. Add the numbers and divide by the count.\n3. **Ask:** \"What do you notice about the numbers and the mean?\"\n4. Calculate deviations from the mean.\n5. **Say:** \"Let's square these deviations and find the variance.\"\n6. Calculate the standard deviation by taking the square root of the variance.",
+    "mistakes": "- Forgetting to divide by the number of data points for the mean.\n  - Try: Double-check the count of numbers.\n- Mixing up variance and standard deviation.\n  - Try: Remember, standard deviation is the square root of variance.\n- Not squaring deviations when calculating variance.\n  - Try: Ensure each deviation is squared before summing.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Statistics are used in everyday life, like understanding weather patterns or analyzing sports performance. Knowing how to interpret data helps in making informed decisions, whether it's budgeting or planning a family trip.",
+    "close": "Understanding these statistics empowers you and your child to make sense of data in everyday life. Keep exploring and practicing together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Descriptive Statistics (Mean, SD, Variance)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Descriptive Statistics (Mean, SD, Variance)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Descriptive Statistics (Mean, SD, Variance)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

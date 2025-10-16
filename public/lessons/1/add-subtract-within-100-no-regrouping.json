@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "980adfb6-174c-4c74-8774-40183a9c711b",
+    "slug": "add-subtract-within-100-no-regrouping",
+    "title": "Add/Subtract within 100 (No Regrouping)",
+    "summary": "Add/Subtract within 100 (No Regrouping) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child add and subtract numbers up to 100 without regrouping.\n- Build confidence in basic arithmetic skills.\n- Foster a positive attitude towards math.\n**Why this matters for parents:** Building a strong foundation in basic math helps your child succeed in more complex math later.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on adding and subtracting numbers within 100 without needing to regroup or carry over numbers. This means your child will work with numbers where each digit can be added or subtracted directly without borrowing from another place value.\nUnderstanding addition and subtraction within 100 is crucial as it lays the groundwork for more advanced math concepts. It helps children develop number sense and boosts their confidence in handling everyday math tasks.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll use simple household objects to make math tangible. By practicing with objects like buttons or coins, your child can visualize the math process. This hands-on approach helps solidify their understanding of adding and subtracting numbers.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 buttons or coins.\n2. **Say:** \"Let's add 23 and 15.\"\n3. Count out 23 buttons and then 15 more.\n4. **Ask:** \"How many do we have now?\"\n5. Count all the buttons together to find the total: 38.\n6. **Say:** \"Now, let's subtract 15 from 38.\"\n7. Remove 15 buttons and count the remaining: 23.\n8. **Ask:** \"What did we start with? What did we end with?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Adding and subtracting within 100 involves combining or taking away numbers without needing to adjust for tens. For example, to add 23 + 15, you add the tens (20 + 10 = 30) and the ones (3 + 5 = 8), resulting in 38. Subtraction works similarly: 38 - 15 involves subtracting the tens (30 - 10 = 20) and the ones (8 - 5 = 3), resulting in 23.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's practice adding and subtracting with these coins.\"\n2. Show how to group tens and ones separately.\n3. **Ask:** \"How many tens do we have? How many ones?\"\n4. Encourage your child to count out loud as they add or subtract.\n5. **Say:** \"Great job! Let's try another one.\"\n6. Use different numbers to practice, like 45 + 12 or 67 - 24.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tens and ones: Try using different colored objects for tens and ones.\n- Miscounting: Encourage counting out loud and double-checking.\n- Forgetting to subtract: Remind them to take away the correct number of objects.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Adding and subtracting are skills used in everyday activities like shopping or cooking. For example, if you have 50 apples and use 20 to make a pie, you need to subtract to know how many are left.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great work today! Your child is building a strong math foundation. Keep practicing, and they'll become even more confident with numbers.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child add and subtract numbers up to 100 without regrouping.\n- Build confidence in basic arithmetic skills.\n- Foster a positive attitude towards math.\n**Why this matters for parents:** Building a strong foundation in basic math helps your child succeed in more complex math later.",
+    "overview": "This lesson focuses on adding and subtracting numbers within 100 without needing to regroup or carry over numbers. This means your child will work with numbers where each digit can be added or subtracted directly without borrowing from another place value.\nUnderstanding addition and subtraction within 100 is crucial as it lays the groundwork for more advanced math concepts. It helps children develop number sense and boosts their confidence in handling everyday math tasks.",
+    "core": "In this lesson, we'll use simple household objects to make math tangible. By practicing with objects like buttons or coins, your child can visualize the math process. This hands-on approach helps solidify their understanding of adding and subtracting numbers.",
+    "demo": "1. Gather 20 buttons or coins.\n2. **Say:** \"Let's add 23 and 15.\"\n3. Count out 23 buttons and then 15 more.\n4. **Ask:** \"How many do we have now?\"\n5. Count all the buttons together to find the total: 38.\n6. **Say:** \"Now, let's subtract 15 from 38.\"\n7. Remove 15 buttons and count the remaining: 23.\n8. **Ask:** \"What did we start with? What did we end with?\"",
+    "math": "Adding and subtracting within 100 involves combining or taking away numbers without needing to adjust for tens. For example, to add 23 + 15, you add the tens (20 + 10 = 30) and the ones (3 + 5 = 8), resulting in 38. Subtraction works similarly: 38 - 15 involves subtracting the tens (30 - 10 = 20) and the ones (8 - 5 = 3), resulting in 23.",
+    "guide": "1. **Say:** \"Let's practice adding and subtracting with these coins.\"\n2. Show how to group tens and ones separately.\n3. **Ask:** \"How many tens do we have? How many ones?\"\n4. Encourage your child to count out loud as they add or subtract.\n5. **Say:** \"Great job! Let's try another one.\"\n6. Use different numbers to practice, like 45 + 12 or 67 - 24.",
+    "mistakes": "- Confusing tens and ones: Try using different colored objects for tens and ones.\n- Miscounting: Encourage counting out loud and double-checking.\n- Forgetting to subtract: Remind them to take away the correct number of objects.",
+    "connection": "Adding and subtracting are skills used in everyday activities like shopping or cooking. For example, if you have 50 apples and use 20 to make a pie, you need to subtract to know how many are left.",
+    "close": "Great work today! Your child is building a strong math foundation. Keep practicing, and they'll become even more confident with numbers."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is $7 + 4$?",
+      "hint_md": "Count out 7 objects, then add 4 more.",
+      "answer_md": "The answer is $11$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is $10 - 3$?",
+      "hint_md": "Start with 10 objects and take away 3.",
+      "answer_md": "The answer is $7$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is $5 + 6$?",
+      "hint_md": "Count 5 objects and then add 6 more.",
+      "answer_md": "The answer is $11$."
+    }
+  ]
+}

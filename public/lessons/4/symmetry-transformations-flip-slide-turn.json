@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "11060306-fa84-46db-9121-c3ace1407a3e",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "28b6b37a-8561-4fc3-af39-33a8df4af5de",
+    "slug": "symmetry-transformations-flip-slide-turn",
+    "title": "Symmetry & Transformations (Flip, Slide, Turn)",
+    "summary": "Symmetry & Transformations (Flip, Slide, Turn) — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand symmetry and transformations: flip, slide, and turn.\n- Identify symmetrical objects and perform transformations.\n- **Why this matters for parents:** Helps children recognize patterns and spatial relationships, crucial for problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Symmetry and transformations are about understanding how shapes and objects can be manipulated. Symmetry means an object looks the same on both sides of a dividing line. Transformations include flipping (reflecting), sliding (translating), and turning (rotating) shapes.\nThese concepts help children develop spatial awareness and problem-solving skills. Recognizing symmetry and transformations is foundational for geometry and real-world applications, like design and architecture.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we explore symmetry and how shapes can be transformed. A symmetrical object is one that can be divided into two identical parts. Transformations allow us to move shapes in different ways: flipping them over a line, sliding them across a surface, or turning them around a point.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Find a symmetrical object:** Use a book. **Ask:** 'If we draw a line down the middle, do both sides look the same?'\n2. **Flip:** Use a playing card. **Say:** 'Let's flip it over. Does it look the same?'\n3. **Slide:** Use a coaster. **Say:** 'Slide it across the table. Notice how it moves but doesn't change shape.'\n4. **Turn:** Use a plate. **Say:** 'Turn it around. Does it look different or the same?'\n5. **Ask:** 'Can you find something else in the room that is symmetrical?'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Symmetry involves dividing an object into two identical parts. For example, a square has four lines of symmetry. Transformations include:\n- **Flip (Reflection):** Imagine flipping a pancake.\n- **Slide (Translation):** Moving a book across a table.\n- **Turn (Rotation):** Rotating a clock hand.\nExample: A rectangle flipped over its longer side remains unchanged.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Introduce symmetry:** Show a butterfly image. **Ask:** 'What do you notice about its wings?'\n2. **Explore flipping:** Use a mirror. **Say:** 'See how your reflection flips?'\n3. **Practice sliding:** Use a toy car. **Say:** 'Slide it across the floor. What changes?'\n4. **Try turning:** Use a spoon. **Say:** 'Turn it around. Does it look the same from different angles?'\n5. **Discuss:** 'How do these movements help us in daily life?'",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing flip with turn. **Try:** Use a mirror to show a flip.\n- Thinking a slide changes shape. **Try:** Slide a book and observe.\n- Missing symmetry in objects. **Try:** Fold paper to find symmetry lines.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Symmetry is everywhere: in nature (like leaves and flowers) and in art (like patterns and designs). Transformations help in understanding how objects move, like cars on a road or dancers on a stage.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring symmetry and transformations opens a world of patterns and movements. Encourage your child to find these in everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand symmetry and transformations: flip, slide, and turn.\n- Identify symmetrical objects and perform transformations.\n- **Why this matters for parents:** Helps children recognize patterns and spatial relationships, crucial for problem-solving.",
+    "overview": "Symmetry and transformations are about understanding how shapes and objects can be manipulated. Symmetry means an object looks the same on both sides of a dividing line. Transformations include flipping (reflecting), sliding (translating), and turning (rotating) shapes.\nThese concepts help children develop spatial awareness and problem-solving skills. Recognizing symmetry and transformations is foundational for geometry and real-world applications, like design and architecture.",
+    "core": "In this lesson, we explore symmetry and how shapes can be transformed. A symmetrical object is one that can be divided into two identical parts. Transformations allow us to move shapes in different ways: flipping them over a line, sliding them across a surface, or turning them around a point.",
+    "demo": "1. **Find a symmetrical object:** Use a book. **Ask:** 'If we draw a line down the middle, do both sides look the same?'\n2. **Flip:** Use a playing card. **Say:** 'Let's flip it over. Does it look the same?'\n3. **Slide:** Use a coaster. **Say:** 'Slide it across the table. Notice how it moves but doesn't change shape.'\n4. **Turn:** Use a plate. **Say:** 'Turn it around. Does it look different or the same?'\n5. **Ask:** 'Can you find something else in the room that is symmetrical?'",
+    "math": "Symmetry involves dividing an object into two identical parts. For example, a square has four lines of symmetry. Transformations include:\n- **Flip (Reflection):** Imagine flipping a pancake.\n- **Slide (Translation):** Moving a book across a table.\n- **Turn (Rotation):** Rotating a clock hand.\nExample: A rectangle flipped over its longer side remains unchanged.",
+    "guide": "1. **Introduce symmetry:** Show a butterfly image. **Ask:** 'What do you notice about its wings?'\n2. **Explore flipping:** Use a mirror. **Say:** 'See how your reflection flips?'\n3. **Practice sliding:** Use a toy car. **Say:** 'Slide it across the floor. What changes?'\n4. **Try turning:** Use a spoon. **Say:** 'Turn it around. Does it look the same from different angles?'\n5. **Discuss:** 'How do these movements help us in daily life?'",
+    "mistakes": "- Confusing flip with turn. **Try:** Use a mirror to show a flip.\n- Thinking a slide changes shape. **Try:** Slide a book and observe.\n- Missing symmetry in objects. **Try:** Fold paper to find symmetry lines.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Symmetry is everywhere: in nature (like leaves and flowers) and in art (like patterns and designs). Transformations help in understanding how objects move, like cars on a road or dancers on a stage.",
+    "close": "Exploring symmetry and transformations opens a world of patterns and movements. Encourage your child to find these in everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Symmetry & Transformations (Flip, Slide, Turn)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Symmetry & Transformations (Flip, Slide, Turn)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Symmetry & Transformations (Flip, Slide, Turn)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

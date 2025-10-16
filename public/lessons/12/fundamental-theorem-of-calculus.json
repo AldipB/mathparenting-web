@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "99b5e55f-1573-4257-b3a5-31f9009feb76",
+    "slug": "fundamental-theorem-of-calculus",
+    "title": "Fundamental Theorem of Calculus",
+    "summary": "Fundamental Theorem of Calculus — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the Fundamental Theorem of Calculus and its components.\n- Connect the concept of integration with differentiation.\n- **Why this matters for parents:** This helps you support your child's understanding of how calculus connects different mathematical ideas, making it more intuitive.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "The Fundamental Theorem of Calculus links two main concepts in calculus: differentiation and integration. It shows how finding the area under a curve (integration) is related to finding the slope of a curve (differentiation).\nThis matters because it provides a powerful tool for solving real-world problems involving rates of change and accumulated quantities, such as calculating distances from velocity data.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The Fundamental Theorem of Calculus has two parts. The first part tells us that if we have a continuous function, we can find its antiderivative using a definite integral. The second part states that if we have an antiderivative, we can find the value of a definite integral using it. This connection simplifies many calculations.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. **Say:** Let's imagine we have a graph of speed over time. We want to find out how far we've traveled. This is like finding the area under the curve.\n- 2. Use a piece of paper and a pencil to draw a simple curve. Label the x-axis as time and the y-axis as speed.\n- 3. **Ask:** How can we find the area under this curve? (Guide them to think about summing small rectangles under the curve.)\n- 4. **Say:** Now, let's connect this to what happens when we differentiate. If we know the distance function, differentiating gives us speed.\n- 5. **Ask:** Can you see how these two processes are connected? (Encourage them to see integration and differentiation as reverse processes.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The Fundamental Theorem of Calculus states:\n1. If $f$ is continuous on $[a, b]$ and $F$ is an antiderivative of $f$, then:\n   $$\\int_a^b f(x) \\, dx = F(b) - F(a)$$\nExample: If $f(x) = 2x$, then an antiderivative is $F(x) = x^2$. So, $$\\int_1^3 2x \\, dx = 3^2 - 1^2 = 9 - 1 = 8$$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$\\int_a^b f(x) \\, dx = F(b) - F(a)$$\n- $f(x)$: the function being integrated\n- $F(x)$: an antiderivative of $f(x)$\n- $a$, $b$: the limits of integration",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Ask:** What does the graph of a function tell us about its rate of change?\n- 2. **Say:** Let's connect this to real life. If you know how fast you're going, you can figure out how far you've traveled.\n- 3. **Ask:** How does finding an antiderivative help us solve problems?\n- 4. **Say:** Remember, integration and differentiation are like undoing each other.\n- 5. **Ask:** Can you think of other situations where you might need to find an area under a curve?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the limits of integration: **Try:** Carefully label your limits on the graph.\n- Forgetting to find the antiderivative: **Try:** Double-check your function before evaluating.\n- Mixing up differentiation and integration: **Try:** Remember, integration finds areas; differentiation finds slopes.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Think about filling a bathtub. The rate at which water flows in is like the derivative, while the total amount of water is like the integral. This connection helps us understand how rates and totals relate in everyday life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding the Fundamental Theorem of Calculus opens up a world of connections in math and beyond. Keep exploring these ideas, and you'll see how they apply to many aspects of life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the Fundamental Theorem of Calculus and its components.\n- Connect the concept of integration with differentiation.\n- **Why this matters for parents:** This helps you support your child's understanding of how calculus connects different mathematical ideas, making it more intuitive.",
+    "overview": "The Fundamental Theorem of Calculus links two main concepts in calculus: differentiation and integration. It shows how finding the area under a curve (integration) is related to finding the slope of a curve (differentiation).\nThis matters because it provides a powerful tool for solving real-world problems involving rates of change and accumulated quantities, such as calculating distances from velocity data.",
+    "core": "The Fundamental Theorem of Calculus has two parts. The first part tells us that if we have a continuous function, we can find its antiderivative using a definite integral. The second part states that if we have an antiderivative, we can find the value of a definite integral using it. This connection simplifies many calculations.",
+    "demo": "- 1. **Say:** Let's imagine we have a graph of speed over time. We want to find out how far we've traveled. This is like finding the area under the curve.\n- 2. Use a piece of paper and a pencil to draw a simple curve. Label the x-axis as time and the y-axis as speed.\n- 3. **Ask:** How can we find the area under this curve? (Guide them to think about summing small rectangles under the curve.)\n- 4. **Say:** Now, let's connect this to what happens when we differentiate. If we know the distance function, differentiating gives us speed.\n- 5. **Ask:** Can you see how these two processes are connected? (Encourage them to see integration and differentiation as reverse processes.)",
+    "math": "The Fundamental Theorem of Calculus states:\n1. If $f$ is continuous on $[a, b]$ and $F$ is an antiderivative of $f$, then:\n   $$\\int_a^b f(x) \\, dx = F(b) - F(a)$$\nExample: If $f(x) = 2x$, then an antiderivative is $F(x) = x^2$. So, $$\\int_1^3 2x \\, dx = 3^2 - 1^2 = 9 - 1 = 8$$.",
+    "formulas": "$$\\int_a^b f(x) \\, dx = F(b) - F(a)$$\n- $f(x)$: the function being integrated\n- $F(x)$: an antiderivative of $f(x)$\n- $a$, $b$: the limits of integration",
+    "guide": "- 1. **Ask:** What does the graph of a function tell us about its rate of change?\n- 2. **Say:** Let's connect this to real life. If you know how fast you're going, you can figure out how far you've traveled.\n- 3. **Ask:** How does finding an antiderivative help us solve problems?\n- 4. **Say:** Remember, integration and differentiation are like undoing each other.\n- 5. **Ask:** Can you think of other situations where you might need to find an area under a curve?",
+    "mistakes": "- Confusing the limits of integration: **Try:** Carefully label your limits on the graph.\n- Forgetting to find the antiderivative: **Try:** Double-check your function before evaluating.\n- Mixing up differentiation and integration: **Try:** Remember, integration finds areas; differentiation finds slopes.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Think about filling a bathtub. The rate at which water flows in is like the derivative, while the total amount of water is like the integral. This connection helps us understand how rates and totals relate in everyday life.",
+    "close": "Understanding the Fundamental Theorem of Calculus opens up a world of connections in math and beyond. Keep exploring these ideas, and you'll see how they apply to many aspects of life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Fundamental Theorem of Calculus**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Fundamental Theorem of Calculus** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Fundamental Theorem of Calculus**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

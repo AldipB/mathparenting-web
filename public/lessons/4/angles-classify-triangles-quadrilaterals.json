@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "c4bc5426-3b3f-4115-ae8f-c5db00ec5ce7",
+    "slug": "angles-classify-triangles-quadrilaterals",
+    "title": "Angles; Classify Triangles & Quadrilaterals",
+    "summary": "Angles; Classify Triangles & Quadrilaterals — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Identify and classify angles, triangles, and quadrilaterals.\n- Understand the properties of different shapes.\n- **Why this matters for parents:** Helps children recognize shapes in everyday life and understand basic geometry.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on understanding angles and classifying triangles and quadrilaterals. Children will learn to identify different shapes and their properties using simple household objects.\nUnderstanding these shapes is crucial as it builds a foundation for more advanced geometry and helps children see the world in a structured way. Recognizing shapes helps in problem-solving and logical thinking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Angles are where two lines meet. Triangles have three sides and three angles, while quadrilaterals have four sides and four angles. By classifying these shapes, children learn to see patterns and relationships in geometry.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some shapes around the house!\"\n2. Look for objects like a book (rectangle), a slice of pizza (triangle), or a clock (circle).\n3. **Ask:** \"What shape is this? How many sides does it have?\"\n4. Use straws or sticks to build a triangle and a quadrilateral. Compare them.\n5. **Say:** \"A square can look like a diamond if you turn it, but it’s still a square!\"\n6. Compare a square and a rectangle. **Ask:** \"What’s the same? What’s different?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "An angle is measured in degrees. A right angle is 90°. Triangles can be classified by their angles: right (one 90° angle), acute (all angles < 90°), and obtuse (one angle > 90°). Quadrilaterals include squares, rectangles, and trapezoids. For example, a square has four equal sides and four right angles.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying angles in your home. **Ask:** \"Where do two lines meet?\"\n2. Use a protractor to measure angles of a book corner. **Say:** \"This is a right angle.\"\n3. Build a triangle with straws. **Ask:** \"What kind of triangle is this?\"\n4. Compare a square and a rectangle. **Say:** \"Both have four sides, but are they the same?\"\n5. Rotate a square and discuss how it looks like a diamond. **Ask:** \"Is it still a square?\"\n6. Reinforce by drawing different triangles and quadrilaterals.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing a rotated square with a different shape. Try: Rotate it back to see it’s still a square.\n- Thinking all triangles are the same. Try: Compare angles and sides.\n- Mixing up quadrilaterals. Try: Count sides and angles to classify.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Shapes are everywhere! Road signs, tiles, and even slices of bread are shapes. Recognizing them helps in art, design, and everyday tasks like packing.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring shapes! Keep looking for them around you. Geometry is all about seeing the world in new ways.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Identify and classify angles, triangles, and quadrilaterals.\n- Understand the properties of different shapes.\n- **Why this matters for parents:** Helps children recognize shapes in everyday life and understand basic geometry.",
+    "overview": "This lesson focuses on understanding angles and classifying triangles and quadrilaterals. Children will learn to identify different shapes and their properties using simple household objects.\nUnderstanding these shapes is crucial as it builds a foundation for more advanced geometry and helps children see the world in a structured way. Recognizing shapes helps in problem-solving and logical thinking.",
+    "core": "Angles are where two lines meet. Triangles have three sides and three angles, while quadrilaterals have four sides and four angles. By classifying these shapes, children learn to see patterns and relationships in geometry.",
+    "demo": "1. **Say:** \"Let's find some shapes around the house!\"\n2. Look for objects like a book (rectangle), a slice of pizza (triangle), or a clock (circle).\n3. **Ask:** \"What shape is this? How many sides does it have?\"\n4. Use straws or sticks to build a triangle and a quadrilateral. Compare them.\n5. **Say:** \"A square can look like a diamond if you turn it, but it’s still a square!\"\n6. Compare a square and a rectangle. **Ask:** \"What’s the same? What’s different?\"",
+    "math": "An angle is measured in degrees. A right angle is 90°. Triangles can be classified by their angles: right (one 90° angle), acute (all angles < 90°), and obtuse (one angle > 90°). Quadrilaterals include squares, rectangles, and trapezoids. For example, a square has four equal sides and four right angles.",
+    "guide": "1. Start by identifying angles in your home. **Ask:** \"Where do two lines meet?\"\n2. Use a protractor to measure angles of a book corner. **Say:** \"This is a right angle.\"\n3. Build a triangle with straws. **Ask:** \"What kind of triangle is this?\"\n4. Compare a square and a rectangle. **Say:** \"Both have four sides, but are they the same?\"\n5. Rotate a square and discuss how it looks like a diamond. **Ask:** \"Is it still a square?\"\n6. Reinforce by drawing different triangles and quadrilaterals.",
+    "mistakes": "- Confusing a rotated square with a different shape. Try: Rotate it back to see it’s still a square.\n- Thinking all triangles are the same. Try: Compare angles and sides.\n- Mixing up quadrilaterals. Try: Count sides and angles to classify.",
+    "connection": "Shapes are everywhere! Road signs, tiles, and even slices of bread are shapes. Recognizing them helps in art, design, and everyday tasks like packing.",
+    "close": "Great job exploring shapes! Keep looking for them around you. Geometry is all about seeing the world in new ways."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What type of triangle has angles of $90^\\circ$, $45^\\circ$, and $45^\\circ$?",
+      "hint_md": "One angle is $90^\\circ$. What does that tell you?",
+      "answer_md": "A right triangle."
+    },
+    {
+      "order_index": 2,
+      "question_md": "How many sides does a quadrilateral have?",
+      "hint_md": "Think of a square or a rectangle.",
+      "answer_md": "Four sides."
+    },
+    {
+      "order_index": 3,
+      "question_md": "If a shape has four equal sides and angles, what is it?",
+      "hint_md": "Think about a square.",
+      "answer_md": "A square."
+    }
+  ]
+}

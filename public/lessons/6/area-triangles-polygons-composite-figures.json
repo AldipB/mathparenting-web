@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "72459a35-cef8-4b51-9469-ea476983b674",
+    "slug": "area-triangles-polygons-composite-figures",
+    "title": "Area (Triangles, Polygons) & Composite Figures",
+    "summary": "Area (Triangles, Polygons) & Composite Figures — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate the area of triangles, polygons, and composite figures.\n- Use household objects to visualize and build understanding of shapes.\n- Recognize and correct common misconceptions about shapes.\n**Why this matters for parents:** This lesson helps you support your child in visualizing and calculating areas, a skill useful in real-life tasks like home projects and crafts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers how to find the area of various 2D shapes, including triangles, polygons, and composite figures. We'll explore these concepts using everyday objects to make learning tangible and fun.\nUnderstanding area helps children see how math applies to the world around them. It's a foundational skill for geometry, which is used in many practical situations, like planning a garden or arranging furniture.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Area is the amount of space inside a shape. For rectangles and squares, it's straightforward, but for triangles and irregular shapes, it requires a bit more calculation. We'll break it down using simple terms and objects you have at home.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's go on a shape hunt!\" Find objects like books (rectangles), coasters (squares), and a triangular slice of pizza.\n2. **Ask:** \"What do you notice about these shapes?\" Discuss sides and corners.\n3. Use straws or sticks to build a triangle and a rectangle. Compare their shapes.\n4. **Say:** \"Let's rotate this square. Does it become a diamond?\" Discuss how it's still a square.\n5. Measure a book's length and width with a ruler. Calculate its area by multiplying.\n6. **Ask:** \"How can we find the area of this triangle?\" Guide them to use the formula.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the area of a rectangle, multiply its length by its width: $A = l \times w$. For a triangle, use $A = \\frac{1}{2} \\times b \\times h$, where $b$ is the base and $h$ is the height.\n**Example:** A triangle with a base of 4 cm and a height of 3 cm has an area of $A = \\frac{1}{2} \\times 4 \\times 3 = 6$ square cm.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Rectangle: $A = l \\times w$\n  - $l$: length\n  - $w$: width\n- Triangle: $A = \\frac{1}{2} \\times b \\times h$\n  - $b$: base\n  - $h$: height\n- Composite Figure: Sum of individual areas\n  - Break down into known shapes",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a rectangle at home, like a table. Measure its sides.\n2. **Ask:** \"How do we find its area?\" Guide them to multiply length by width.\n3. Use a triangular object, like a slice of pizza. Measure base and height.\n4. **Say:** \"Let's calculate the triangle's area using the formula.\"\n5. Draw a composite shape on paper. Break it into rectangles and triangles.\n6. **Ask:** \"How can we find the total area?\" Add up the areas of each part.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing base and height in triangles. **Try:** Use a ruler to clearly identify each.\n- Rotating squares and calling them diamonds. **Try:** Discuss how rotation doesn't change the shape.\n- Forgetting to halve the product for triangle area. **Try:** Emphasize the formula step-by-step.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Calculating area is useful when buying carpet or tiles for a room. It helps in determining how much material you'll need.\nUnderstanding shapes and their areas can also be fun in crafting, like making quilts or designing cards.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring the world of shapes and areas! Keep practicing, and you'll find these skills handy in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate the area of triangles, polygons, and composite figures.\n- Use household objects to visualize and build understanding of shapes.\n- Recognize and correct common misconceptions about shapes.\n**Why this matters for parents:** This lesson helps you support your child in visualizing and calculating areas, a skill useful in real-life tasks like home projects and crafts.",
+    "overview": "This lesson covers how to find the area of various 2D shapes, including triangles, polygons, and composite figures. We'll explore these concepts using everyday objects to make learning tangible and fun.\nUnderstanding area helps children see how math applies to the world around them. It's a foundational skill for geometry, which is used in many practical situations, like planning a garden or arranging furniture.",
+    "core": "Area is the amount of space inside a shape. For rectangles and squares, it's straightforward, but for triangles and irregular shapes, it requires a bit more calculation. We'll break it down using simple terms and objects you have at home.",
+    "demo": "1. **Say:** \"Let's go on a shape hunt!\" Find objects like books (rectangles), coasters (squares), and a triangular slice of pizza.\n2. **Ask:** \"What do you notice about these shapes?\" Discuss sides and corners.\n3. Use straws or sticks to build a triangle and a rectangle. Compare their shapes.\n4. **Say:** \"Let's rotate this square. Does it become a diamond?\" Discuss how it's still a square.\n5. Measure a book's length and width with a ruler. Calculate its area by multiplying.\n6. **Ask:** \"How can we find the area of this triangle?\" Guide them to use the formula.",
+    "math": "To find the area of a rectangle, multiply its length by its width: $A = l \times w$. For a triangle, use $A = \\frac{1}{2} \\times b \\times h$, where $b$ is the base and $h$ is the height.\n**Example:** A triangle with a base of 4 cm and a height of 3 cm has an area of $A = \\frac{1}{2} \\times 4 \\times 3 = 6$ square cm.",
+    "formulas": "- Rectangle: $A = l \\times w$\n  - $l$: length\n  - $w$: width\n- Triangle: $A = \\frac{1}{2} \\times b \\times h$\n  - $b$: base\n  - $h$: height\n- Composite Figure: Sum of individual areas\n  - Break down into known shapes",
+    "guide": "1. Find a rectangle at home, like a table. Measure its sides.\n2. **Ask:** \"How do we find its area?\" Guide them to multiply length by width.\n3. Use a triangular object, like a slice of pizza. Measure base and height.\n4. **Say:** \"Let's calculate the triangle's area using the formula.\"\n5. Draw a composite shape on paper. Break it into rectangles and triangles.\n6. **Ask:** \"How can we find the total area?\" Add up the areas of each part.",
+    "mistakes": "- Confusing base and height in triangles. **Try:** Use a ruler to clearly identify each.\n- Rotating squares and calling them diamonds. **Try:** Discuss how rotation doesn't change the shape.\n- Forgetting to halve the product for triangle area. **Try:** Emphasize the formula step-by-step.",
+    "connection": "Calculating area is useful when buying carpet or tiles for a room. It helps in determining how much material you'll need.\nUnderstanding shapes and their areas can also be fun in crafting, like making quilts or designing cards.",
+    "close": "Great job exploring the world of shapes and areas! Keep practicing, and you'll find these skills handy in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the area of a rectangle with a length of 5 cm and a width of 3 cm.",
+      "hint_md": "Use the formula $A = l \\times w$.",
+      "answer_md": "The area is $5 \\times 3 = 15$ square cm."
+    },
+    {
+      "order_index": 2,
+      "question_md": "A triangle has a base of 6 cm and a height of 4 cm. What is its area?",
+      "hint_md": "Use the formula $A = \\frac{1}{2} \\times b \\times h$.",
+      "answer_md": "The area is $\\frac{1}{2} \\times 6 \\times 4 = 12$ square cm."
+    },
+    {
+      "order_index": 3,
+      "question_md": "A composite figure is made of a rectangle (4 cm by 3 cm) and a triangle (base 4 cm, height 2 cm). Find the total area.",
+      "hint_md": "Find each area separately, then add them.",
+      "answer_md": "Rectangle: $4 \\times 3 = 12$ sq cm; Triangle: $\\frac{1}{2} \\times 4 \\times 2 = 4$ sq cm; Total: $12 + 4 = 16$ sq cm."
+    }
+  ]
+}

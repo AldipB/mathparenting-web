@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "2c5124b8-a339-4cab-bed4-f31c2ae09831",
+    "slug": "roots-radicals-simplify",
+    "title": "Roots & Radicals; Simplify",
+    "summary": "Roots & Radicals; Simplify — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of roots and radicals.\n- Learn to simplify square roots.\n- **Why this matters for parents:** Helps your child develop problem-solving skills and prepares them for advanced math topics.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Roots and radicals are mathematical concepts that help us find numbers that, when multiplied by themselves, give a certain value. The square root is the most common type of root.\nUnderstanding roots and radicals is important because they appear in many real-life situations, such as calculating areas and understanding scientific formulas.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Roots and radicals simplify the process of finding numbers that multiply to a given value. For example, the square root of 16 is 4, because $4 \\times 4 = 16$. Simplifying radicals means expressing them in their simplest form.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the square root of 25 using objects. Gather 25 small items, like beans.\n2. **Ask:** Can we arrange these beans into a perfect square?\n3. Arrange them into a 5x5 square. **Say:** We made a square with 5 beans on each side.\n4. **Ask:** What number multiplied by itself gives us 25? (Answer: 5)\n5. **Say:** So, the square root of 25 is 5. This is simplifying the radical.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The square root of a number $x$ is a value $y$ such that $y^2 = x$. For example, $\\sqrt{36} = 6$ because $6 \\times 6 = 36$. Simplifying means finding the simplest form of a radical, like $\\sqrt{50} = 5\\sqrt{2}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\sqrt{x}$\n  - $x$: the number you want to find the root of\n- $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$\n  - $a, b$: numbers inside the radical",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's explore square roots with a simple example.\n2. **Ask:** What is the square root of 9? (Guide them to see $3 \\times 3 = 9$)\n3. **Say:** Now, let's simplify $\\sqrt{18}$.\n4. **Ask:** Can we break 18 into smaller factors? (Guide to $\\sqrt{9 \\times 2}$)\n5. **Say:** Simplify to $3\\sqrt{2}$ because $\\sqrt{9} = 3$.\n6. **Ask:** How does this help us understand larger numbers?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication with addition. **Try:** Remember, roots involve multiplication.\n- Forgetting to simplify completely. **Try:** Break down the number into its smallest factors.\n- Mixing up square and cube roots. **Try:** Focus on the exponent (2 for square, 3 for cube).",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Square roots are used in calculating areas, like finding the side length of a square plot of land. They're also important in science, such as understanding formulas in physics.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring roots and radicals! Keep practicing, and you'll find these concepts become second nature.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of roots and radicals.\n- Learn to simplify square roots.\n- **Why this matters for parents:** Helps your child develop problem-solving skills and prepares them for advanced math topics.",
+    "overview": "Roots and radicals are mathematical concepts that help us find numbers that, when multiplied by themselves, give a certain value. The square root is the most common type of root.\nUnderstanding roots and radicals is important because they appear in many real-life situations, such as calculating areas and understanding scientific formulas.",
+    "core": "Roots and radicals simplify the process of finding numbers that multiply to a given value. For example, the square root of 16 is 4, because $4 \\times 4 = 16$. Simplifying radicals means expressing them in their simplest form.",
+    "demo": "1. **Say:** Let's find the square root of 25 using objects. Gather 25 small items, like beans.\n2. **Ask:** Can we arrange these beans into a perfect square?\n3. Arrange them into a 5x5 square. **Say:** We made a square with 5 beans on each side.\n4. **Ask:** What number multiplied by itself gives us 25? (Answer: 5)\n5. **Say:** So, the square root of 25 is 5. This is simplifying the radical.",
+    "math": "The square root of a number $x$ is a value $y$ such that $y^2 = x$. For example, $\\sqrt{36} = 6$ because $6 \\times 6 = 36$. Simplifying means finding the simplest form of a radical, like $\\sqrt{50} = 5\\sqrt{2}$.",
+    "formulas": "- $\\sqrt{x}$\n  - $x$: the number you want to find the root of\n- $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$\n  - $a, b$: numbers inside the radical",
+    "guide": "1. **Say:** Let's explore square roots with a simple example.\n2. **Ask:** What is the square root of 9? (Guide them to see $3 \\times 3 = 9$)\n3. **Say:** Now, let's simplify $\\sqrt{18}$.\n4. **Ask:** Can we break 18 into smaller factors? (Guide to $\\sqrt{9 \\times 2}$)\n5. **Say:** Simplify to $3\\sqrt{2}$ because $\\sqrt{9} = 3$.\n6. **Ask:** How does this help us understand larger numbers?",
+    "mistakes": "- Confusing multiplication with addition. **Try:** Remember, roots involve multiplication.\n- Forgetting to simplify completely. **Try:** Break down the number into its smallest factors.\n- Mixing up square and cube roots. **Try:** Focus on the exponent (2 for square, 3 for cube).",
+    "connection": "Square roots are used in calculating areas, like finding the side length of a square plot of land. They're also important in science, such as understanding formulas in physics.",
+    "close": "Great job exploring roots and radicals! Keep practicing, and you'll find these concepts become second nature."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Simplify $\\sqrt{72}$.",
+      "hint_md": "Break 72 into smaller factors: $\\sqrt{36 \\times 2}$.",
+      "answer_md": "$6\\sqrt{2}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is $\\sqrt{49}$?",
+      "hint_md": "Think of a number that multiplies by itself to get 49.",
+      "answer_md": "7"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Simplify $\\sqrt{32}$.",
+      "hint_md": "Break 32 into $\\sqrt{16 \\times 2}$.",
+      "answer_md": "$4\\sqrt{2}$"
+    }
+  ]
+}

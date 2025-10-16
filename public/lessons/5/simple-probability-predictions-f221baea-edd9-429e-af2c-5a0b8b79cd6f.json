@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f221baea-edd9-429e-af2c-5a0b8b79cd6f",
+    "slug": "simple-probability-predictions-f221baea-edd9-429e-af2c-5a0b8b79cd6f",
+    "title": "Simple Probability & Predictions",
+    "summary": "Simple Probability & Predictions — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 15
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand basic probability concepts.\n- - Use everyday objects to predict outcomes.\n- - Encourage logical thinking and decision-making.\n- **Why this matters for parents:** Understanding probability helps children make informed decisions and recognize patterns in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Probability is the study of how likely an event is to happen. It helps us predict outcomes based on known possibilities. For example, when flipping a coin, we can predict that it will land on heads or tails.\nThis matters because probability is everywhere—from weather forecasts to games. Teaching children about probability helps them understand the world better and make decisions based on likelihoods.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Probability is a way to measure the chance of something happening. It's expressed as a fraction, where the numerator is the number of favorable outcomes, and the denominator is the total number of possible outcomes. For instance, the probability of rolling a 3 on a six-sided die is $\\frac{1}{6}$.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. Gather a coin, a six-sided die, and a small bag with 5 red and 5 blue marbles.\n- 2. **Say:** Let's flip the coin. What are the possible outcomes?\n- 3. **Ask:** What is the probability of getting heads? (Answer: $\\frac{1}{2}$)\n- 4. Roll the die. **Say:** What is the probability of rolling a 4? (Answer: $\\frac{1}{6}$)\n- 5. Pull a marble from the bag. **Ask:** What is the probability of picking a red marble? (Answer: $\\frac{5}{10}$ or $\\frac{1}{2}$)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Probability is calculated as the ratio of the number of favorable outcomes to the total number of possible outcomes. For example, if you roll a six-sided die, the probability of rolling a 3 is $\\frac{1}{6}$ because there is one '3' and six possible outcomes.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}\n- \\(P(A)\\) is the probability of event A.\n- Favorable outcomes are the outcomes you are interested in.\n- Total outcomes are all possible outcomes.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. Use a coin to explain probability. **Say:** Let's flip it and see what happens.\n- 2. Discuss the outcomes. **Ask:** What are the chances of getting heads?\n- 3. Use a die to show different probabilities. **Say:** Let's roll it and predict the outcome.\n- 4. Use marbles to show probability with multiple outcomes. **Ask:** How many red marbles are there?\n- 5. Relate to real-life examples, like weather forecasts. **Say:** How likely is it to rain today?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing probability with certainty. Try: Explain that probability is about likelihood, not certainty.\n- - Forgetting to count all possible outcomes. Try: List all outcomes before calculating probability.\n- - Mixing up favorable and total outcomes. Try: Clearly define what a 'favorable' outcome is.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Probability is used in weather forecasts to predict rain or sunshine. It's also used in games, like predicting the next card in a deck.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Probability is a fun way to explore the world of chance. Keep practicing, and soon your child will be predicting outcomes like a pro!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand basic probability concepts.\n- - Use everyday objects to predict outcomes.\n- - Encourage logical thinking and decision-making.\n- **Why this matters for parents:** Understanding probability helps children make informed decisions and recognize patterns in everyday life.",
+    "overview": "Probability is the study of how likely an event is to happen. It helps us predict outcomes based on known possibilities. For example, when flipping a coin, we can predict that it will land on heads or tails.\nThis matters because probability is everywhere—from weather forecasts to games. Teaching children about probability helps them understand the world better and make decisions based on likelihoods.",
+    "core": "Probability is a way to measure the chance of something happening. It's expressed as a fraction, where the numerator is the number of favorable outcomes, and the denominator is the total number of possible outcomes. For instance, the probability of rolling a 3 on a six-sided die is $\\frac{1}{6}$.",
+    "demo": "- 1. Gather a coin, a six-sided die, and a small bag with 5 red and 5 blue marbles.\n- 2. **Say:** Let's flip the coin. What are the possible outcomes?\n- 3. **Ask:** What is the probability of getting heads? (Answer: $\\frac{1}{2}$)\n- 4. Roll the die. **Say:** What is the probability of rolling a 4? (Answer: $\\frac{1}{6}$)\n- 5. Pull a marble from the bag. **Ask:** What is the probability of picking a red marble? (Answer: $\\frac{5}{10}$ or $\\frac{1}{2}$)",
+    "math": "Probability is calculated as the ratio of the number of favorable outcomes to the total number of possible outcomes. For example, if you roll a six-sided die, the probability of rolling a 3 is $\\frac{1}{6}$ because there is one '3' and six possible outcomes.",
+    "formulas": "P(A) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}\n- \\(P(A)\\) is the probability of event A.\n- Favorable outcomes are the outcomes you are interested in.\n- Total outcomes are all possible outcomes.",
+    "guide": "- 1. Use a coin to explain probability. **Say:** Let's flip it and see what happens.\n- 2. Discuss the outcomes. **Ask:** What are the chances of getting heads?\n- 3. Use a die to show different probabilities. **Say:** Let's roll it and predict the outcome.\n- 4. Use marbles to show probability with multiple outcomes. **Ask:** How many red marbles are there?\n- 5. Relate to real-life examples, like weather forecasts. **Say:** How likely is it to rain today?",
+    "mistakes": "- - Confusing probability with certainty. Try: Explain that probability is about likelihood, not certainty.\n- - Forgetting to count all possible outcomes. Try: List all outcomes before calculating probability.\n- - Mixing up favorable and total outcomes. Try: Clearly define what a 'favorable' outcome is.",
+    "connection": "Probability is used in weather forecasts to predict rain or sunshine. It's also used in games, like predicting the next card in a deck.",
+    "close": "Probability is a fun way to explore the world of chance. Keep practicing, and soon your child will be predicting outcomes like a pro!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the probability of drawing a red marble from a bag with 3 red and 7 blue marbles?",
+      "hint_md": "Count the total marbles and the red marbles.",
+      "answer_md": "$\\frac{3}{10}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you roll a die, what is the probability of rolling an even number?",
+      "hint_md": "How many even numbers are on a die?",
+      "answer_md": "$\\frac{3}{6}$ or $\\frac{1}{2}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the probability of flipping two heads in a row with a coin?",
+      "hint_md": "Calculate the probability for each flip and multiply.",
+      "answer_md": "$\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$"
+    }
+  ]
+}

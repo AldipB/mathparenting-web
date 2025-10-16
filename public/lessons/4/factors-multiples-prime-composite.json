@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "370f45ed-fc28-462c-ba7e-c343cef8034c",
+    "slug": "factors-multiples-prime-composite",
+    "title": "Factors, Multiples; Prime & Composite",
+    "summary": "Factors, Multiples; Prime & Composite — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand factors and multiples.\n- Identify prime and composite numbers.\n- **Why this matters for parents:** Helps children build a foundation for division, fractions, and problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Factors are numbers that divide another number evenly, while multiples are the result of multiplying a number by an integer. Prime numbers have only two factors: 1 and themselves, whereas composite numbers have more than two factors.\nUnderstanding these concepts is crucial as they form the basis for more advanced math topics like fractions, division, and algebra. This knowledge also helps in everyday problem-solving and logical thinking.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Factors and multiples are like the building blocks of numbers. A factor is a number that can be multiplied by another to get a specific number. A multiple is what you get when you multiply a number by an integer. Prime numbers are special because they only have two factors: 1 and themselves. Composite numbers have more than two factors.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the factors of 12 using spoons. Lay out 12 spoons.\n2. **Ask:** Can we group these spoons into equal parts? Try groups of 2, 3, 4, and 6.\n3. **Say:** Notice how 12 can be divided into these groups without leftovers. These are factors of 12.\n4. **Say:** Now, let's find multiples of 3. Use a toy car to 'jump' 3 spaces on a number line drawn on paper.\n5. **Ask:** Where does the car land? (3, 6, 9, 12...) These are multiples of 3.\n6. **Say:** A prime number, like 5, can only be grouped as 1 group of 5 or 5 groups of 1.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A factor of a number divides it evenly. For example, factors of 12 are 1, 2, 3, 4, 6, and 12. A multiple of a number is found by multiplying it by an integer. For example, multiples of 3 are 3, 6, 9, 12, etc. A prime number, like 7, has only two factors: 1 and 7. A composite number, like 8, has more than two factors: 1, 2, 4, and 8.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "n = a \\times b\n- $n$ is the number, $a$ and $b$ are factors.\nm = n \\times k\n- $m$ is a multiple, $n$ is the number, $k$ is an integer.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What are the factors of 18? Use small objects like buttons to group them.\n2. **Say:** Let's list the multiples of 4 up to 20. Use a ruler to measure 4 cm jumps.\n3. **Ask:** Is 11 a prime number? Try dividing it by numbers other than 1 and 11.\n4. **Say:** Use a deck of cards to find composite numbers. Group them into equal piles.\n5. **Ask:** Can you find a number that is both a factor and a multiple of 6?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing factors with multiples. **Try:** Use grouping objects to visualize factors.\n- Thinking 1 is a prime number. **Try:** Explain that primes need exactly two distinct factors.\n- Forgetting 1 as a factor. **Try:** Always start factor lists with 1.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When cooking, dividing ingredients evenly among servings uses factors. Scheduling events at regular intervals uses multiples.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding factors and multiples opens the door to mastering math. Keep exploring these concepts with your child!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand factors and multiples.\n- Identify prime and composite numbers.\n- **Why this matters for parents:** Helps children build a foundation for division, fractions, and problem-solving.",
+    "overview": "Factors are numbers that divide another number evenly, while multiples are the result of multiplying a number by an integer. Prime numbers have only two factors: 1 and themselves, whereas composite numbers have more than two factors.\nUnderstanding these concepts is crucial as they form the basis for more advanced math topics like fractions, division, and algebra. This knowledge also helps in everyday problem-solving and logical thinking.",
+    "core": "Factors and multiples are like the building blocks of numbers. A factor is a number that can be multiplied by another to get a specific number. A multiple is what you get when you multiply a number by an integer. Prime numbers are special because they only have two factors: 1 and themselves. Composite numbers have more than two factors.",
+    "demo": "1. **Say:** Let's find the factors of 12 using spoons. Lay out 12 spoons.\n2. **Ask:** Can we group these spoons into equal parts? Try groups of 2, 3, 4, and 6.\n3. **Say:** Notice how 12 can be divided into these groups without leftovers. These are factors of 12.\n4. **Say:** Now, let's find multiples of 3. Use a toy car to 'jump' 3 spaces on a number line drawn on paper.\n5. **Ask:** Where does the car land? (3, 6, 9, 12...) These are multiples of 3.\n6. **Say:** A prime number, like 5, can only be grouped as 1 group of 5 or 5 groups of 1.",
+    "math": "A factor of a number divides it evenly. For example, factors of 12 are 1, 2, 3, 4, 6, and 12. A multiple of a number is found by multiplying it by an integer. For example, multiples of 3 are 3, 6, 9, 12, etc. A prime number, like 7, has only two factors: 1 and 7. A composite number, like 8, has more than two factors: 1, 2, 4, and 8.",
+    "formulas": "n = a \\times b\n- $n$ is the number, $a$ and $b$ are factors.\nm = n \\times k\n- $m$ is a multiple, $n$ is the number, $k$ is an integer.",
+    "guide": "1. **Ask:** What are the factors of 18? Use small objects like buttons to group them.\n2. **Say:** Let's list the multiples of 4 up to 20. Use a ruler to measure 4 cm jumps.\n3. **Ask:** Is 11 a prime number? Try dividing it by numbers other than 1 and 11.\n4. **Say:** Use a deck of cards to find composite numbers. Group them into equal piles.\n5. **Ask:** Can you find a number that is both a factor and a multiple of 6?",
+    "mistakes": "- Confusing factors with multiples. **Try:** Use grouping objects to visualize factors.\n- Thinking 1 is a prime number. **Try:** Explain that primes need exactly two distinct factors.\n- Forgetting 1 as a factor. **Try:** Always start factor lists with 1.",
+    "connection": "When cooking, dividing ingredients evenly among servings uses factors. Scheduling events at regular intervals uses multiples.",
+    "close": "Understanding factors and multiples opens the door to mastering math. Keep exploring these concepts with your child!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "List all the factors of 15.",
+      "hint_md": "Start with 1 and the number itself.",
+      "answer_md": "1, 3, 5, 15"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Is 17 a prime or composite number?",
+      "hint_md": "Check if it has any divisors other than 1 and itself.",
+      "answer_md": "Prime"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Find the first three multiples of 7.",
+      "hint_md": "Multiply 7 by 1, 2, and 3.",
+      "answer_md": "7, 14, 21"
+    }
+  ]
+}

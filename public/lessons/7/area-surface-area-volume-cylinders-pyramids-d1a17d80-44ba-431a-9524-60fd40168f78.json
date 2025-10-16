@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "d1a17d80-44ba-431a-9524-60fd40168f78",
+    "slug": "area-surface-area-volume-cylinders-pyramids-d1a17d80-44ba-431a-9524-60fd40168f78",
+    "title": "Area/Surface Area/Volume (Cylinders, Pyramids)",
+    "summary": "Area/Surface Area/Volume (Cylinders, Pyramids) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate the area, surface area, and volume of cylinders and pyramids.\n- Use household objects to visualize these concepts.\n- **Why this matters for parents:** Helps you support your child's understanding of geometry in everyday contexts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores how to find the area, surface area, and volume of cylinders and pyramids. These are 3D shapes that we often encounter in daily life, like cans and tents.\nUnderstanding these concepts helps children see the math in the world around them, making it more relatable and less abstract.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Cylinders and pyramids are 3D shapes. A cylinder looks like a can, while a pyramid has a base and triangular sides, like a tent. Knowing how to calculate their surface area and volume helps us understand how much space they occupy and how much material is needed to cover them.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a can (cylinder) and a small tent or pyramid-shaped object.\n2. **Say:** “Let’s sort these by shape. Which one can roll?”\n3. **Ask:** “What do you notice about the sides of the can compared to the pyramid?”\n4. Place objects in a bag. **Say:** “Feel inside and guess the shape.”\n5. Discuss how the shapes are different in terms of flat and curved surfaces.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the volume of a cylinder, use $V = \text{Base Area} \times \text{Height} = \text{π}r^2h$. For example, a can with radius 3 cm and height 10 cm has a volume of $V = \text{π}(3)^2(10) = 90\text{π}$ cm³.\nFor a pyramid, the volume is $V = \frac{1}{3} \times \text{Base Area} \times \text{Height}$. If the base is 4 cm by 4 cm and the height is 9 cm, then $V = \frac{1}{3} \times 16 \times 9 = 48$ cm³.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Cylinder Volume: $V = \text{π}r^2h$\n  - $r$: radius of the base\n  - $h$: height of the cylinder\n- Pyramid Volume: $V = \frac{1}{3} \times \text{Base Area} \times \text{Height}$\n  - Base Area: area of the base shape\n  - Height: perpendicular height from base to apex",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a cylinder (like a can) and measure its radius and height.\n2. **Ask:** “How can we use these measurements to find the volume?”\n3. Calculate the volume together using the formula.\n4. Find a pyramid-shaped object and measure its base and height.\n5. **Say:** “Let’s calculate the volume of this pyramid.”\n6. Discuss how the shapes differ in terms of space they occupy.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to square the radius in the cylinder formula.\n  Try: Remind them to multiply the radius by itself.\n- Mixing up height and slant height in pyramids.\n  Try: Clarify that height is perpendicular to the base.\n- Using incorrect units.\n  Try: Ensure all measurements are in the same unit before calculating.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cylinders are everywhere, from soup cans to water bottles. Pyramids can be seen in architecture, like the Louvre in Paris. Understanding these shapes helps us make sense of the space and materials around us.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring these shapes helps children see math in everyday objects. Keep encouraging their curiosity!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate the area, surface area, and volume of cylinders and pyramids.\n- Use household objects to visualize these concepts.\n- **Why this matters for parents:** Helps you support your child's understanding of geometry in everyday contexts.",
+    "overview": "This lesson explores how to find the area, surface area, and volume of cylinders and pyramids. These are 3D shapes that we often encounter in daily life, like cans and tents.\nUnderstanding these concepts helps children see the math in the world around them, making it more relatable and less abstract.",
+    "core": "Cylinders and pyramids are 3D shapes. A cylinder looks like a can, while a pyramid has a base and triangular sides, like a tent. Knowing how to calculate their surface area and volume helps us understand how much space they occupy and how much material is needed to cover them.",
+    "demo": "1. Gather a can (cylinder) and a small tent or pyramid-shaped object.\n2. **Say:** “Let’s sort these by shape. Which one can roll?”\n3. **Ask:** “What do you notice about the sides of the can compared to the pyramid?”\n4. Place objects in a bag. **Say:** “Feel inside and guess the shape.”\n5. Discuss how the shapes are different in terms of flat and curved surfaces.",
+    "math": "To find the volume of a cylinder, use $V = \text{Base Area} \times \text{Height} = \text{π}r^2h$. For example, a can with radius 3 cm and height 10 cm has a volume of $V = \text{π}(3)^2(10) = 90\text{π}$ cm³.\nFor a pyramid, the volume is $V = \frac{1}{3} \times \text{Base Area} \times \text{Height}$. If the base is 4 cm by 4 cm and the height is 9 cm, then $V = \frac{1}{3} \times 16 \times 9 = 48$ cm³.",
+    "formulas": "- Cylinder Volume: $V = \text{π}r^2h$\n  - $r$: radius of the base\n  - $h$: height of the cylinder\n- Pyramid Volume: $V = \frac{1}{3} \times \text{Base Area} \times \text{Height}$\n  - Base Area: area of the base shape\n  - Height: perpendicular height from base to apex",
+    "guide": "1. Find a cylinder (like a can) and measure its radius and height.\n2. **Ask:** “How can we use these measurements to find the volume?”\n3. Calculate the volume together using the formula.\n4. Find a pyramid-shaped object and measure its base and height.\n5. **Say:** “Let’s calculate the volume of this pyramid.”\n6. Discuss how the shapes differ in terms of space they occupy.",
+    "mistakes": "- Forgetting to square the radius in the cylinder formula.\n  Try: Remind them to multiply the radius by itself.\n- Mixing up height and slant height in pyramids.\n  Try: Clarify that height is perpendicular to the base.\n- Using incorrect units.\n  Try: Ensure all measurements are in the same unit before calculating.",
+    "connection": "Cylinders are everywhere, from soup cans to water bottles. Pyramids can be seen in architecture, like the Louvre in Paris. Understanding these shapes helps us make sense of the space and materials around us.",
+    "close": "Exploring these shapes helps children see math in everyday objects. Keep encouraging their curiosity!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate the volume of a cylinder with a radius of 5 cm and height of 12 cm.",
+      "hint_md": "Use the formula $V = \text{π}r^2h$.",
+      "answer_md": "$V = \text{π}(5)^2(12) = 300\text{π}$ cm³"
+    },
+    {
+      "order_index": 2,
+      "question_md": "A pyramid has a square base of 6 cm and a height of 10 cm. Find its volume.",
+      "hint_md": "Use the formula $V = \\frac{1}{3} \\times \text{Base Area} \\times \text{Height}$.",
+      "answer_md": "$V = \\frac{1}{3} \\times 36 \\times 10 = 120$ cm³"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If a cylinder has a volume of $150\text{π}$ cm³ and a height of 5 cm, find the radius.",
+      "hint_md": "Rearrange the formula $V = \text{π}r^2h$ to solve for $r$.",
+      "answer_md": "$r = \\sqrt{\\frac{150}{5}} = \\sqrt{30}$ cm"
+    }
+  ]
+}

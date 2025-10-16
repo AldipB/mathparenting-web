@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "781f32b1-9c40-4795-854f-2945512db07d",
+    "slug": "subtract-within-20-strategies",
+    "title": "Subtract within 20 (Strategies)",
+    "summary": "Subtract within 20 (Strategies) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will be able to subtract numbers within 20 using various strategies, enhancing their understanding of subtraction.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we will explore different strategies to help your child subtract numbers within 20. These strategies include using objects, drawing pictures, and counting backward. Engaging in hands-on activities will make learning subtraction fun and relatable.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Subtraction is taking away a number from another. For example, if you have 10 apples and take away 4, you are left with 6 apples. We will use everyday items to visualize and practice this concept.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "### Household Activity: Apple Subtraction\n1. Gather 10 small objects (like apples, blocks, or coins).\n2. Say: \"Let’s start with 10 apples.\"\n3. Take away a few objects (e.g., 3) and say: \"Now, I’m taking away 3 apples. How many do we have left?\"\n4. Count the remaining objects together.\n5. Repeat with different numbers to practice.\n6. Encourage your child to explain what they did.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Subtraction can be represented as: \n$$a - b = c$$ \nwhere:\n- $a$ is the total number of items,\n- $b$ is the number of items taken away,\n- $c$ is the number of items left.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$a - b = c$$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather 10 small objects for counting.\n2. Explain what subtraction means using the objects.\n3. Demonstrate taking away some objects and counting what’s left.\n4. Encourage your child to try it on their own with different numbers.\n5. Ask: \"What happens when we take away more?\" \n6. Celebrate their successes and encourage them to keep practicing!",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child counts incorrectly, gently say: \"Let’s count together again to make sure we have the right number!\",If they struggle to understand taking away, say: \"Remember, we are just removing some apples from our group!\",If they forget the numbers, remind them: \"What was our starting number? Let’s look at our objects!\"",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Subtraction is everywhere! When you share snacks, you are subtracting from your total. Try it out during snack time!",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job supporting your child's learning! Keep practicing subtraction with everyday activities.",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will be able to subtract numbers within 20 using various strategies, enhancing their understanding of subtraction.",
+    "overview": "In this lesson, we will explore different strategies to help your child subtract numbers within 20. These strategies include using objects, drawing pictures, and counting backward. Engaging in hands-on activities will make learning subtraction fun and relatable.",
+    "core": "Subtraction is taking away a number from another. For example, if you have 10 apples and take away 4, you are left with 6 apples. We will use everyday items to visualize and practice this concept.",
+    "demo": "### Household Activity: Apple Subtraction\n1. Gather 10 small objects (like apples, blocks, or coins).\n2. Say: \"Let’s start with 10 apples.\"\n3. Take away a few objects (e.g., 3) and say: \"Now, I’m taking away 3 apples. How many do we have left?\"\n4. Count the remaining objects together.\n5. Repeat with different numbers to practice.\n6. Encourage your child to explain what they did.",
+    "math": "Subtraction can be represented as: \n$$a - b = c$$ \nwhere:\n- $a$ is the total number of items,\n- $b$ is the number of items taken away,\n- $c$ is the number of items left.",
+    "formulas": "$$a - b = c$$",
+    "guide": "1. Gather 10 small objects for counting.\n2. Explain what subtraction means using the objects.\n3. Demonstrate taking away some objects and counting what’s left.\n4. Encourage your child to try it on their own with different numbers.\n5. Ask: \"What happens when we take away more?\" \n6. Celebrate their successes and encourage them to keep practicing!",
+    "mistakes": "If your child counts incorrectly, gently say: \"Let’s count together again to make sure we have the right number!\",If they struggle to understand taking away, say: \"Remember, we are just removing some apples from our group!\",If they forget the numbers, remind them: \"What was our starting number? Let’s look at our objects!\"",
+    "connection": "Subtraction is everywhere! When you share snacks, you are subtracting from your total. Try it out during snack time!",
+    "close": "Great job supporting your child's learning! Keep practicing subtraction with everyday activities."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If you have 15 cookies and eat 4, how many cookies are left?",
+      "hint_md": "Think about how many cookies you started with and take away the ones you ate.",
+      "answer_md": "11 cookies"
+    },
+    {
+      "order_index": 2,
+      "question_md": "You have 12 crayons and give away 5. How many crayons do you have now?",
+      "hint_md": "Count the crayons you started with and subtract the ones you gave away.",
+      "answer_md": "7 crayons"
+    },
+    {
+      "order_index": 3,
+      "question_md": "There are 18 balloons, and 9 fly away. How many are still here?",
+      "hint_md": "Start with the total number of balloons and take away the ones that flew away.",
+      "answer_md": "9 balloons"
+    }
+  ]
+}

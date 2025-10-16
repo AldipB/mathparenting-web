@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "80e49b9f-4f09-4759-9a52-da9509f2ff5c",
+    "slug": "geometry-angle-relationships-triangles",
+    "title": "Geometry: Angle Relationships; Triangles",
+    "summary": "Geometry: Angle Relationships; Triangles — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic angle relationships and triangle properties.\n- Identify and differentiate between squares and rectangles, even when rotated.\n- **Why this matters for parents:** Helps you guide your child in visualizing and understanding geometry in everyday objects.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the relationships between angles and the properties of triangles. We'll also look at how squares and rectangles are similar and different, even when rotated.\nUnderstanding these concepts is crucial for developing spatial awareness and problem-solving skills. It helps children see geometry in the world around them, from art to architecture.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Geometry involves understanding shapes and their properties. Angles are where two lines meet, and knowing how they work helps us understand shapes better. Triangles, with their three sides and angles, are a fundamental shape. Recognizing squares and rectangles, even when turned, is key to understanding symmetry and design.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some shapes around the house.\"\n2. **Ask:** \"Can you find a square and a rectangle?\"\n3. Use sticks or straws to build a triangle. **Say:** \"Notice how it has three sides and three corners.\"\n4. Rotate a square object (like a coaster) 45 degrees. **Ask:** \"Does it change from a square to a diamond?\"\n5. Compare the square and rectangle. **Say:** \"Both have four sides, but notice how their angles and side lengths differ.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Angles in a triangle always add up to $180^\\circ$. For example, in a triangle with angles $60^\\circ$, $60^\\circ$, and $60^\\circ$, they sum to $180^\\circ$. A square has four equal sides and angles, while a rectangle has opposite sides equal and all angles $90^\\circ$. Rotating a square doesn't change its properties.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Sum of angles in a triangle: $a + b + c = 180^\\circ$\n  - $a, b, c$ are the angles in a triangle.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What shapes do you see in this room?\"\n2. **Say:** \"Let's draw a triangle and measure its angles.\"\n3. **Ask:** \"If we rotate this square, does it change?\"\n4. **Say:** \"Let's build a rectangle with straws and compare it to a square.\"\n5. **Ask:** \"How are the angles in these shapes similar or different?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing a rotated square with a diamond. **Try:** \"Rotate it back and see if the sides and angles are equal.\"\n- Thinking rectangles and squares are the same. **Try:** \"Compare the side lengths and angles.\"\n- Forgetting the sum of angles in a triangle. **Try:** \"Add them up to check if they equal $180^\\circ$.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Geometry is everywhere! Notice the tiles on the floor or the windows in your home. Understanding these shapes helps in design and construction, from creating art to building houses.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring geometry! Keep looking for shapes around you, and remember, math is everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic angle relationships and triangle properties.\n- Identify and differentiate between squares and rectangles, even when rotated.\n- **Why this matters for parents:** Helps you guide your child in visualizing and understanding geometry in everyday objects.",
+    "overview": "This lesson explores the relationships between angles and the properties of triangles. We'll also look at how squares and rectangles are similar and different, even when rotated.\nUnderstanding these concepts is crucial for developing spatial awareness and problem-solving skills. It helps children see geometry in the world around them, from art to architecture.",
+    "core": "Geometry involves understanding shapes and their properties. Angles are where two lines meet, and knowing how they work helps us understand shapes better. Triangles, with their three sides and angles, are a fundamental shape. Recognizing squares and rectangles, even when turned, is key to understanding symmetry and design.",
+    "demo": "1. **Say:** \"Let's find some shapes around the house.\"\n2. **Ask:** \"Can you find a square and a rectangle?\"\n3. Use sticks or straws to build a triangle. **Say:** \"Notice how it has three sides and three corners.\"\n4. Rotate a square object (like a coaster) 45 degrees. **Ask:** \"Does it change from a square to a diamond?\"\n5. Compare the square and rectangle. **Say:** \"Both have four sides, but notice how their angles and side lengths differ.\"",
+    "math": "Angles in a triangle always add up to $180^\\circ$. For example, in a triangle with angles $60^\\circ$, $60^\\circ$, and $60^\\circ$, they sum to $180^\\circ$. A square has four equal sides and angles, while a rectangle has opposite sides equal and all angles $90^\\circ$. Rotating a square doesn't change its properties.",
+    "formulas": "- Sum of angles in a triangle: $a + b + c = 180^\\circ$\n  - $a, b, c$ are the angles in a triangle.",
+    "guide": "1. **Ask:** \"What shapes do you see in this room?\"\n2. **Say:** \"Let's draw a triangle and measure its angles.\"\n3. **Ask:** \"If we rotate this square, does it change?\"\n4. **Say:** \"Let's build a rectangle with straws and compare it to a square.\"\n5. **Ask:** \"How are the angles in these shapes similar or different?\"",
+    "mistakes": "- Confusing a rotated square with a diamond. **Try:** \"Rotate it back and see if the sides and angles are equal.\"\n- Thinking rectangles and squares are the same. **Try:** \"Compare the side lengths and angles.\"\n- Forgetting the sum of angles in a triangle. **Try:** \"Add them up to check if they equal $180^\\circ$.\"",
+    "connection": "Geometry is everywhere! Notice the tiles on the floor or the windows in your home. Understanding these shapes helps in design and construction, from creating art to building houses.",
+    "close": "Great job exploring geometry! Keep looking for shapes around you, and remember, math is everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the sum of angles in a triangle with angles $50^\\circ$, $60^\\circ$, and $70^\\circ$?",
+      "hint_md": "Add the angles together.",
+      "answer_md": "$180^\\circ$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a square is rotated, what happens to its angles?",
+      "hint_md": "Think about the properties of a square.",
+      "answer_md": "The angles remain $90^\\circ$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "How do you know a shape is a rectangle?",
+      "hint_md": "Check the side lengths and angles.",
+      "answer_md": "Opposite sides are equal and all angles are $90^\\circ$."
+    }
+  ]
+}

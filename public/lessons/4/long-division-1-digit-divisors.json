@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "98b16496-346a-4a67-aad7-7cf760649a32",
+    "slug": "long-division-1-digit-divisors",
+    "title": "Long Division (1-Digit Divisors)",
+    "summary": "Long Division (1-Digit Divisors) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand long division with 1-digit divisors.\n- Practice dividing larger numbers step-by-step.\n- Build confidence in solving division problems.\n**Why this matters for parents:** Helping your child with long division strengthens their problem-solving skills and builds a foundation for more complex math.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Long division is a method for dividing larger numbers by breaking them down into simpler steps. In this lesson, we'll focus on dividing numbers by a single-digit divisor.\nThis skill is important because it helps children understand how numbers work together and prepares them for more advanced math concepts. It also enhances their ability to solve real-world problems.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Long division involves dividing a larger number (the dividend) by a smaller number (the divisor) to find out how many times the divisor fits into the dividend. We'll use everyday objects to make this process clear and engaging for your child.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's divide 84 by 3 using long division.\"\n2. Use 84 small objects (like beans) and group them into sets of 3.\n3. **Ask:** \"How many groups of 3 can we make?\"\n4. Write 84 under a division bracket with 3 outside.\n5. **Say:** \"Let's see how many times 3 fits into 8.\" Write 2 above the 8.\n6. **Say:** \"Now multiply 2 by 3, subtract from 8, and bring down the next digit.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In long division, we divide step-by-step:\n1. Divide the first digit of the dividend by the divisor.\n2. Multiply the result by the divisor and subtract from the dividend.\n3. Bring down the next digit and repeat.\nExample: Divide 84 by 3.\n1. 3 goes into 8 two times (write 2 above 8).\n2. Multiply: $2 \\times 3 = 6$. Subtract from 8 to get 2.\n3. Bring down 4, making 24.\n4. 3 goes into 24 eight times (write 8 above 4).\n5. Multiply: $8 \\times 3 = 24$. Subtract to get 0.\nSo, $84 \\div 3 = 28$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\text{Dividend} \\div \\text{Divisor} = \\text{Quotient}$\n  - Dividend: the number being divided\n  - Divisor: the number you are dividing by\n  - Quotient: the result of the division",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's start with a simple example: 84 divided by 3.\"\n2. Write the division problem and explain each step.\n3. **Ask:** \"How many times does 3 fit into the first digit?\"\n4. Guide them to multiply and subtract, then bring down the next digit.\n5. **Say:** \"Repeat until there are no more digits to bring down.\"\n6. **Ask:** \"What is our final answer?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to bring down the next digit.\n  - Try: \"Remember to bring down the next number after subtracting.\"\n- Misplacing the quotient above the wrong digit.\n  - Try: \"Align each number in the quotient with the digit you're dividing.\"\n- Incorrect subtraction.\n  - Try: \"Double-check your subtraction before moving to the next step.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Long division is useful in everyday situations, like dividing a pizza among friends or calculating how many boxes are needed for packing items. It helps children understand sharing and distribution.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job guiding your child through long division! With practice, they'll become more confident and ready for new challenges.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand long division with 1-digit divisors.\n- Practice dividing larger numbers step-by-step.\n- Build confidence in solving division problems.\n**Why this matters for parents:** Helping your child with long division strengthens their problem-solving skills and builds a foundation for more complex math.",
+    "overview": "Long division is a method for dividing larger numbers by breaking them down into simpler steps. In this lesson, we'll focus on dividing numbers by a single-digit divisor.\nThis skill is important because it helps children understand how numbers work together and prepares them for more advanced math concepts. It also enhances their ability to solve real-world problems.",
+    "core": "Long division involves dividing a larger number (the dividend) by a smaller number (the divisor) to find out how many times the divisor fits into the dividend. We'll use everyday objects to make this process clear and engaging for your child.",
+    "demo": "1. **Say:** \"Let's divide 84 by 3 using long division.\"\n2. Use 84 small objects (like beans) and group them into sets of 3.\n3. **Ask:** \"How many groups of 3 can we make?\"\n4. Write 84 under a division bracket with 3 outside.\n5. **Say:** \"Let's see how many times 3 fits into 8.\" Write 2 above the 8.\n6. **Say:** \"Now multiply 2 by 3, subtract from 8, and bring down the next digit.\"",
+    "math": "In long division, we divide step-by-step:\n1. Divide the first digit of the dividend by the divisor.\n2. Multiply the result by the divisor and subtract from the dividend.\n3. Bring down the next digit and repeat.\nExample: Divide 84 by 3.\n1. 3 goes into 8 two times (write 2 above 8).\n2. Multiply: $2 \\times 3 = 6$. Subtract from 8 to get 2.\n3. Bring down 4, making 24.\n4. 3 goes into 24 eight times (write 8 above 4).\n5. Multiply: $8 \\times 3 = 24$. Subtract to get 0.\nSo, $84 \\div 3 = 28$.",
+    "formulas": "- $\\text{Dividend} \\div \\text{Divisor} = \\text{Quotient}$\n  - Dividend: the number being divided\n  - Divisor: the number you are dividing by\n  - Quotient: the result of the division",
+    "guide": "1. **Say:** \"Let's start with a simple example: 84 divided by 3.\"\n2. Write the division problem and explain each step.\n3. **Ask:** \"How many times does 3 fit into the first digit?\"\n4. Guide them to multiply and subtract, then bring down the next digit.\n5. **Say:** \"Repeat until there are no more digits to bring down.\"\n6. **Ask:** \"What is our final answer?\"",
+    "mistakes": "- Forgetting to bring down the next digit.\n  - Try: \"Remember to bring down the next number after subtracting.\"\n- Misplacing the quotient above the wrong digit.\n  - Try: \"Align each number in the quotient with the digit you're dividing.\"\n- Incorrect subtraction.\n  - Try: \"Double-check your subtraction before moving to the next step.\"",
+    "connection": "Long division is useful in everyday situations, like dividing a pizza among friends or calculating how many boxes are needed for packing items. It helps children understand sharing and distribution.",
+    "close": "Great job guiding your child through long division! With practice, they'll become more confident and ready for new challenges."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Divide 72 by 4.",
+      "hint_md": "Start by seeing how many times 4 fits into the first digit of 72.",
+      "answer_md": "$72 \\div 4 = 18$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Divide 56 by 7.",
+      "hint_md": "How many times does 7 go into the first digit of 56?",
+      "answer_md": "$56 \\div 7 = 8$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Divide 93 by 3.",
+      "hint_md": "Begin with the first digit of 93 and see how many times 3 fits.",
+      "answer_md": "$93 \\div 3 = 31$"
+    }
+  ]
+}

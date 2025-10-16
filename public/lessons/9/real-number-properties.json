@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "b3fc4164-8aca-4f20-8964-3cafc80343e4",
+    "title": "Foundations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d8cd7685-e1e8-43d4-ad8f-d0a38fead014",
+    "slug": "real-number-properties",
+    "title": "Real Number Properties",
+    "summary": "Real Number Properties — summary for parents in Grade 9 — Algebra I Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the properties of real numbers: commutative, associative, distributive, identity, and inverse.\n- Apply these properties to simplify algebraic expressions.\n- **Why this matters for parents:** These properties form the foundation for solving equations and understanding more complex math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Real number properties are rules that apply to numbers and operations, helping us simplify and solve equations more easily. These include the commutative, associative, distributive, identity, and inverse properties.\nUnderstanding these properties is crucial because they allow us to manipulate numbers and expressions confidently, making problem-solving more efficient. As your child progresses in math, these foundational concepts will support their learning in algebra and beyond.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Real number properties are like the rules of a game. They help us know what moves are possible when working with numbers. For example, knowing that $a + b = b + a$ (commutative property) means we can rearrange numbers to make calculations easier.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use some apples to explore these properties. Grab 5 apples and 3 oranges.\n2. **Ask:** If we add 5 apples and 3 oranges, is it the same as adding 3 oranges and 5 apples?\n3. **Say:** Yes, that's the commutative property of addition.\n4. **Ask:** Now, group the apples and oranges differently. Does the total change?\n5. **Say:** No, that's the associative property. The way we group them doesn't change the total.\n6. **Say:** If we distribute 2 baskets to each fruit, we use the distributive property: $2(5 + 3) = 2 \\times 5 + 2 \\times 3$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The commutative property states that $a + b = b + a$ and $a \\times b = b \\times a$. For example, $3 + 5 = 5 + 3$ and $4 \\times 2 = 2 \\times 4$.\nThe associative property states that $(a + b) + c = a + (b + c)$ and $(a \\times b) \\times c = a \\times (b \\times c)$. For example, $(2 + 3) + 4 = 2 + (3 + 4)$.\nThe distributive property states that $a(b + c) = ab + ac$. For example, $2(3 + 4) = 2 \\times 3 + 2 \\times 4$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Commutative: $a + b = b + a$\n  - $a$ and $b$ are any real numbers.\n- Associative: $(a + b) + c = a + (b + c)$\n  - $a$, $b$, and $c$ are any real numbers.\n- Distributive: $a(b + c) = ab + ac$\n  - $a$, $b$, and $c$ are any real numbers.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's review the commutative property. Can you think of a time when you rearranged numbers to make math easier?\n2. **Ask:** How does grouping numbers help in calculations? Try using the associative property with household items.\n3. **Say:** Let's practice the distributive property with some coins. If you have 3 groups of 4 coins, how can you distribute them?\n4. **Ask:** What happens if you multiply a number by 1 or add 0? Discuss the identity property.\n5. **Say:** Now, let's find the inverse. What do you add to 5 to get 0? What do you multiply by 5 to get 1?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to apply the distributive property: Try breaking down the expression into smaller parts.\n- Confusing commutative and associative properties: Remember, commutative is about order, associative is about grouping.\n- Overlooking identity elements: Try using 1 for multiplication and 0 for addition to see their effects.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When cooking, you often rearrange ingredients or steps to make the process smoother. Similarly, in math, these properties help rearrange and simplify expressions.\nBudgeting involves grouping expenses differently to see totals clearly, much like using the associative property.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these properties makes math feel less like a puzzle and more like a game you can win. Keep exploring and enjoy the journey!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the properties of real numbers: commutative, associative, distributive, identity, and inverse.\n- Apply these properties to simplify algebraic expressions.\n- **Why this matters for parents:** These properties form the foundation for solving equations and understanding more complex math concepts.",
+    "overview": "Real number properties are rules that apply to numbers and operations, helping us simplify and solve equations more easily. These include the commutative, associative, distributive, identity, and inverse properties.\nUnderstanding these properties is crucial because they allow us to manipulate numbers and expressions confidently, making problem-solving more efficient. As your child progresses in math, these foundational concepts will support their learning in algebra and beyond.",
+    "core": "Real number properties are like the rules of a game. They help us know what moves are possible when working with numbers. For example, knowing that $a + b = b + a$ (commutative property) means we can rearrange numbers to make calculations easier.",
+    "demo": "1. **Say:** Let's use some apples to explore these properties. Grab 5 apples and 3 oranges.\n2. **Ask:** If we add 5 apples and 3 oranges, is it the same as adding 3 oranges and 5 apples?\n3. **Say:** Yes, that's the commutative property of addition.\n4. **Ask:** Now, group the apples and oranges differently. Does the total change?\n5. **Say:** No, that's the associative property. The way we group them doesn't change the total.\n6. **Say:** If we distribute 2 baskets to each fruit, we use the distributive property: $2(5 + 3) = 2 \\times 5 + 2 \\times 3$.",
+    "math": "The commutative property states that $a + b = b + a$ and $a \\times b = b \\times a$. For example, $3 + 5 = 5 + 3$ and $4 \\times 2 = 2 \\times 4$.\nThe associative property states that $(a + b) + c = a + (b + c)$ and $(a \\times b) \\times c = a \\times (b \\times c)$. For example, $(2 + 3) + 4 = 2 + (3 + 4)$.\nThe distributive property states that $a(b + c) = ab + ac$. For example, $2(3 + 4) = 2 \\times 3 + 2 \\times 4$.",
+    "formulas": "- Commutative: $a + b = b + a$\n  - $a$ and $b$ are any real numbers.\n- Associative: $(a + b) + c = a + (b + c)$\n  - $a$, $b$, and $c$ are any real numbers.\n- Distributive: $a(b + c) = ab + ac$\n  - $a$, $b$, and $c$ are any real numbers.",
+    "guide": "1. **Say:** Let's review the commutative property. Can you think of a time when you rearranged numbers to make math easier?\n2. **Ask:** How does grouping numbers help in calculations? Try using the associative property with household items.\n3. **Say:** Let's practice the distributive property with some coins. If you have 3 groups of 4 coins, how can you distribute them?\n4. **Ask:** What happens if you multiply a number by 1 or add 0? Discuss the identity property.\n5. **Say:** Now, let's find the inverse. What do you add to 5 to get 0? What do you multiply by 5 to get 1?",
+    "mistakes": "- Forgetting to apply the distributive property: Try breaking down the expression into smaller parts.\n- Confusing commutative and associative properties: Remember, commutative is about order, associative is about grouping.\n- Overlooking identity elements: Try using 1 for multiplication and 0 for addition to see their effects.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When cooking, you often rearrange ingredients or steps to make the process smoother. Similarly, in math, these properties help rearrange and simplify expressions.\nBudgeting involves grouping expenses differently to see totals clearly, much like using the associative property.",
+    "close": "Understanding these properties makes math feel less like a puzzle and more like a game you can win. Keep exploring and enjoy the journey!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Real Number Properties**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Real Number Properties** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Real Number Properties**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

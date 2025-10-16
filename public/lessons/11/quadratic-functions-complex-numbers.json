@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "b49bbcca-dcd5-41c3-8bb9-826692c64b1b",
+    "title": "Quadratics & Complex",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d8cc0d22-2c7b-4b22-8b17-c8df3c4af108",
+    "slug": "quadratic-functions-complex-numbers",
+    "title": "Quadratic Functions & Complex Numbers",
+    "summary": "Quadratic Functions & Complex Numbers — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand quadratic functions and their graphs.\n- Learn about complex numbers and their role in solving quadratic equations.\n- **Why this matters for parents:** This helps your child tackle real-world problems involving parabolic paths and electrical engineering concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Quadratic functions are mathematical expressions of the form $ax^2 + bx + c$. They create parabolic graphs, which are U-shaped curves. Complex numbers, like $3 + 4i$, are numbers that include a real part and an imaginary part.\nUnderstanding these concepts is crucial because they appear in various real-world scenarios, such as calculating projectile motion and in electrical engineering. They also form the foundation for more advanced math topics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Quadratic functions can model real-world situations, like the path of a thrown ball. Sometimes, these functions have solutions that aren't real numbers, which is where complex numbers come in. They help us find solutions to equations that don't intersect the x-axis.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore how a quadratic function looks using a flashlight and a wall.\n2. **Use:** A flashlight to create a parabolic shadow on the wall.\n3. **Ask:** What shape do you see? (A parabola)\n4. **Say:** This is similar to the graph of a quadratic function.\n5. **Use:** A calculator to solve $x^2 + 1 = 0$.\n6. **Ask:** What happens when you try to solve it? (No real solutions, leading to complex numbers)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A quadratic function is expressed as $f(x) = ax^2 + bx + c$. For example, $f(x) = 2x^2 + 3x + 1$ creates a parabola. To solve $x^2 + 1 = 0$, we find $x = \text{±}i$, where $i$ is the imaginary unit, defined as $i^2 = -1$. This shows how complex numbers provide solutions when real numbers don't suffice.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n  - $a$, $b$, and $c$ are coefficients from the quadratic equation $ax^2 + bx + c = 0$.\n  - The discriminant $b^2 - 4ac$ determines the nature of the roots.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is a quadratic function? (A function of the form $ax^2 + bx + c$)\n2. **Say:** Let's graph $y = x^2 - 4x + 3$ using graph paper.\n3. **Use:** Household objects like a ball to demonstrate a parabolic path.\n4. **Ask:** What happens when we solve $x^2 + 1 = 0$? (We use complex numbers)\n5. **Say:** Complex numbers help us solve equations without real solutions.\n6. **Encourage:** Explore more examples with your child to build confidence.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the terms: Try to remember that a quadratic is always $ax^2 + bx + c$.\n- Forgetting the imaginary unit: Remember $i^2 = -1$.\n- Misplacing negative signs in the quadratic formula: Double-check each step.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Quadratic functions model the path of projectiles, like a basketball shot. Complex numbers are used in electrical engineering to analyze circuits.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Quadratic functions and complex numbers open doors to understanding the world around us. Keep exploring, and you'll see math's beauty in everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand quadratic functions and their graphs.\n- Learn about complex numbers and their role in solving quadratic equations.\n- **Why this matters for parents:** This helps your child tackle real-world problems involving parabolic paths and electrical engineering concepts.",
+    "overview": "Quadratic functions are mathematical expressions of the form $ax^2 + bx + c$. They create parabolic graphs, which are U-shaped curves. Complex numbers, like $3 + 4i$, are numbers that include a real part and an imaginary part.\nUnderstanding these concepts is crucial because they appear in various real-world scenarios, such as calculating projectile motion and in electrical engineering. They also form the foundation for more advanced math topics.",
+    "core": "Quadratic functions can model real-world situations, like the path of a thrown ball. Sometimes, these functions have solutions that aren't real numbers, which is where complex numbers come in. They help us find solutions to equations that don't intersect the x-axis.",
+    "demo": "1. **Say:** Let's explore how a quadratic function looks using a flashlight and a wall.\n2. **Use:** A flashlight to create a parabolic shadow on the wall.\n3. **Ask:** What shape do you see? (A parabola)\n4. **Say:** This is similar to the graph of a quadratic function.\n5. **Use:** A calculator to solve $x^2 + 1 = 0$.\n6. **Ask:** What happens when you try to solve it? (No real solutions, leading to complex numbers)",
+    "math": "A quadratic function is expressed as $f(x) = ax^2 + bx + c$. For example, $f(x) = 2x^2 + 3x + 1$ creates a parabola. To solve $x^2 + 1 = 0$, we find $x = \text{±}i$, where $i$ is the imaginary unit, defined as $i^2 = -1$. This shows how complex numbers provide solutions when real numbers don't suffice.",
+    "formulas": "- Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n  - $a$, $b$, and $c$ are coefficients from the quadratic equation $ax^2 + bx + c = 0$.\n  - The discriminant $b^2 - 4ac$ determines the nature of the roots.",
+    "guide": "1. **Ask:** What is a quadratic function? (A function of the form $ax^2 + bx + c$)\n2. **Say:** Let's graph $y = x^2 - 4x + 3$ using graph paper.\n3. **Use:** Household objects like a ball to demonstrate a parabolic path.\n4. **Ask:** What happens when we solve $x^2 + 1 = 0$? (We use complex numbers)\n5. **Say:** Complex numbers help us solve equations without real solutions.\n6. **Encourage:** Explore more examples with your child to build confidence.",
+    "mistakes": "- Confusing the terms: Try to remember that a quadratic is always $ax^2 + bx + c$.\n- Forgetting the imaginary unit: Remember $i^2 = -1$.\n- Misplacing negative signs in the quadratic formula: Double-check each step.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Quadratic functions model the path of projectiles, like a basketball shot. Complex numbers are used in electrical engineering to analyze circuits.",
+    "close": "Quadratic functions and complex numbers open doors to understanding the world around us. Keep exploring, and you'll see math's beauty in everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Quadratic Functions & Complex Numbers**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Quadratic Functions & Complex Numbers** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Quadratic Functions & Complex Numbers**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

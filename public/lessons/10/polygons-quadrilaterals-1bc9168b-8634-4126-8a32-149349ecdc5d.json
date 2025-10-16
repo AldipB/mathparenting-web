@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "7fface93-c890-405f-8c70-eca7f1bc4337",
+    "title": "Congruence & Similarity",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "1bc9168b-8634-4126-8a32-149349ecdc5d",
+    "slug": "polygons-quadrilaterals-1bc9168b-8634-4126-8a32-149349ecdc5d",
+    "title": "Polygons & Quadrilaterals",
+    "summary": "Polygons & Quadrilaterals — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the properties of polygons and quadrilaterals.\n- Identify different types of quadrilaterals and their characteristics.\n- Apply knowledge to solve geometric problems.\n**Why this matters for parents:** Understanding these concepts helps you support your child's geometry learning and connects math to real-world shapes.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Polygons are shapes with straight sides, and quadrilaterals are a type of polygon with four sides. This lesson focuses on understanding these shapes and their properties.\nKnowing about polygons and quadrilaterals helps children recognize patterns and structures in the world, from architecture to art. It builds spatial reasoning and problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Polygons are closed shapes with straight sides. Quadrilaterals, like squares and rectangles, have four sides. Each type of quadrilateral has unique properties, such as equal sides or angles. Recognizing these helps in solving geometric problems and understanding the world around us.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A piece of paper, scissors, and a ruler.\n2. **Say:** \"Let's make a quadrilateral. Cut a piece of paper into any four-sided shape.\"\n3. **Ask:** \"What do you notice about the sides and angles?\"\n4. **Say:** \"Now, let's make a rectangle. Cut another piece with opposite sides equal.\"\n5. **Ask:** \"How is this different from the first shape?\"\n6. **Discuss:** The properties of each shape, like equal sides or angles.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A quadrilateral has four sides and the sum of its interior angles is always $360^\\circ$. For example, in a rectangle, each angle is $90^\\circ$, so $4 \\times 90^\\circ = 360^\\circ$. This property helps identify and classify quadrilaterals.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Sum of interior angles of a quadrilateral: $360^\\circ$\n  - Total measure of all angles inside a four-sided shape.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explore:** Look around your home for quadrilateral shapes (e.g., tables, books).\n2. **Discuss:** \"What type of quadrilateral is this? How do you know?\"\n3. **Measure:** Use a ruler to check if opposite sides are equal.\n4. **Compare:** \"How is this shape similar or different from others?\"\n5. **Reflect:** \"Why do you think these shapes are used in design?\"\n6. **Connect:** Relate these shapes to real-world objects.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing different quadrilaterals: Try identifying properties like equal sides or angles.\n- Forgetting the angle sum: Remember, it's always $360^\\circ$ for quadrilaterals.\n- Assuming all four-sided shapes are rectangles: Explore other types like trapezoids.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Quadrilaterals are everywhere: in the design of buildings, furniture, and even in art. Recognizing these shapes helps children appreciate and understand the structure and design around them.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring polygons and quadrilaterals helps children see the beauty and logic in everyday shapes. Keep encouraging their curiosity and discovery!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the properties of polygons and quadrilaterals.\n- Identify different types of quadrilaterals and their characteristics.\n- Apply knowledge to solve geometric problems.\n**Why this matters for parents:** Understanding these concepts helps you support your child's geometry learning and connects math to real-world shapes.",
+    "overview": "Polygons are shapes with straight sides, and quadrilaterals are a type of polygon with four sides. This lesson focuses on understanding these shapes and their properties.\nKnowing about polygons and quadrilaterals helps children recognize patterns and structures in the world, from architecture to art. It builds spatial reasoning and problem-solving skills.",
+    "core": "Polygons are closed shapes with straight sides. Quadrilaterals, like squares and rectangles, have four sides. Each type of quadrilateral has unique properties, such as equal sides or angles. Recognizing these helps in solving geometric problems and understanding the world around us.",
+    "demo": "1. **Gather:** A piece of paper, scissors, and a ruler.\n2. **Say:** \"Let's make a quadrilateral. Cut a piece of paper into any four-sided shape.\"\n3. **Ask:** \"What do you notice about the sides and angles?\"\n4. **Say:** \"Now, let's make a rectangle. Cut another piece with opposite sides equal.\"\n5. **Ask:** \"How is this different from the first shape?\"\n6. **Discuss:** The properties of each shape, like equal sides or angles.",
+    "math": "A quadrilateral has four sides and the sum of its interior angles is always $360^\\circ$. For example, in a rectangle, each angle is $90^\\circ$, so $4 \\times 90^\\circ = 360^\\circ$. This property helps identify and classify quadrilaterals.",
+    "formulas": "- Sum of interior angles of a quadrilateral: $360^\\circ$\n  - Total measure of all angles inside a four-sided shape.",
+    "guide": "1. **Explore:** Look around your home for quadrilateral shapes (e.g., tables, books).\n2. **Discuss:** \"What type of quadrilateral is this? How do you know?\"\n3. **Measure:** Use a ruler to check if opposite sides are equal.\n4. **Compare:** \"How is this shape similar or different from others?\"\n5. **Reflect:** \"Why do you think these shapes are used in design?\"\n6. **Connect:** Relate these shapes to real-world objects.",
+    "mistakes": "- Confusing different quadrilaterals: Try identifying properties like equal sides or angles.\n- Forgetting the angle sum: Remember, it's always $360^\\circ$ for quadrilaterals.\n- Assuming all four-sided shapes are rectangles: Explore other types like trapezoids.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Quadrilaterals are everywhere: in the design of buildings, furniture, and even in art. Recognizing these shapes helps children appreciate and understand the structure and design around them.",
+    "close": "Exploring polygons and quadrilaterals helps children see the beauty and logic in everyday shapes. Keep encouraging their curiosity and discovery!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Polygons & Quadrilaterals**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Polygons & Quadrilaterals** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Polygons & Quadrilaterals**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

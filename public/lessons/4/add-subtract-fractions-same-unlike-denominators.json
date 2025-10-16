@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "90a73551-e4f8-4779-bff8-4c63a5e2618e",
+    "slug": "add-subtract-fractions-same-unlike-denominators",
+    "title": "Add/Subtract Fractions (Same & Unlike Denominators)",
+    "summary": "Add/Subtract Fractions (Same & Unlike Denominators) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to add and subtract fractions with the same and unlike denominators.\n- Help your child recognize and work with fractions in everyday situations.\n- **Why this matters for parents:** Strengthening your child's fraction skills builds a foundation for more advanced math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on adding and subtracting fractions, both with the same and different denominators. Fractions represent parts of a whole, and understanding how to manipulate them is crucial for math proficiency.\nMastering fractions helps children in real-life situations, like cooking or dividing items, and sets the stage for algebra and beyond.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Adding and subtracting fractions involves combining or separating parts of a whole. When denominators are the same, it's straightforward. With different denominators, we find a common denominator first. This lesson will guide you through both processes using simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's add \\( \\frac{1}{4} + \\frac{1}{4} \\).\"\n   - Use two pieces of paper, each cut into 4 equal parts.\n   - **Ask:** \"How many parts do we have now?\"\n   - Show that \\( \\frac{1}{4} + \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2} \\).\n2. **Say:** \"Now, let's add \\( \\frac{1}{3} + \\frac{1}{6} \\).\"\n   - Use a chocolate bar divided into 6 pieces.\n   - **Ask:** \"How can we make the pieces the same size?\"\n   - Show that \\( \\frac{1}{3} = \\frac{2}{6} \\), so \\( \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2} \\).\n3. **Say:** \"Let's subtract \\( \\frac{3}{4} - \\frac{1}{2} \\).\"\n   - Use a pizza cut into 4 slices.\n   - **Ask:** \"How many slices are left if we take away half?\"\n   - Show that \\( \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4} \\).",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To add or subtract fractions with the same denominator, simply add or subtract the numerators. For example, \\( \\frac{2}{5} + \\frac{1}{5} = \\frac{3}{5} \\).\nFor unlike denominators, find a common denominator. Convert each fraction, then add or subtract. For example, \\( \\frac{1}{3} + \\frac{1}{4} \\) becomes \\( \\frac{4}{12} + \\frac{3}{12} = \\frac{7}{12} \\).",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- \\( \\frac{a}{b} + \\frac{c}{b} = \\frac{a+c}{b} \\)\n  - \\( a, c \\) are numerators\n  - \\( b \\) is the common denominator\n- \\( \\frac{a}{b} + \\frac{c}{d} = \\frac{ad+bc}{bd} \\)\n  - \\( a, c \\) are numerators\n  - \\( b, d \\) are denominators",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is the denominator?\" to identify if fractions are like or unlike.\n2. **Say:** \"Let's find a common denominator\" when denominators differ.\n3. **Use:** Paper or food items to visualize fractions.\n4. **Encourage:** Your child to simplify fractions when possible.\n5. **Practice:** With real-life examples like sharing snacks.\n6. **Celebrate:** Each correct answer to build confidence.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing numerators and denominators.\n  - Try: Use visuals to reinforce the difference.\n- Adding fractions without a common denominator.\n  - Try: Always find a common denominator first.\n- Forgetting to simplify fractions.\n  - Try: Remind to check if the fraction can be simplified.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking is a great way to practice fractions. Measuring ingredients often involves adding or subtracting fractions.\nSharing food, like pizza or cake, can help children visualize and understand fractions in a fun way.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child with fractions! Keep practicing, and soon they'll be fraction experts.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to add and subtract fractions with the same and unlike denominators.\n- Help your child recognize and work with fractions in everyday situations.\n- **Why this matters for parents:** Strengthening your child's fraction skills builds a foundation for more advanced math concepts.",
+    "overview": "This lesson focuses on adding and subtracting fractions, both with the same and different denominators. Fractions represent parts of a whole, and understanding how to manipulate them is crucial for math proficiency.\nMastering fractions helps children in real-life situations, like cooking or dividing items, and sets the stage for algebra and beyond.",
+    "core": "Adding and subtracting fractions involves combining or separating parts of a whole. When denominators are the same, it's straightforward. With different denominators, we find a common denominator first. This lesson will guide you through both processes using simple examples.",
+    "demo": "1. **Say:** \"Let's add \\( \\frac{1}{4} + \\frac{1}{4} \\).\"\n   - Use two pieces of paper, each cut into 4 equal parts.\n   - **Ask:** \"How many parts do we have now?\"\n   - Show that \\( \\frac{1}{4} + \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2} \\).\n2. **Say:** \"Now, let's add \\( \\frac{1}{3} + \\frac{1}{6} \\).\"\n   - Use a chocolate bar divided into 6 pieces.\n   - **Ask:** \"How can we make the pieces the same size?\"\n   - Show that \\( \\frac{1}{3} = \\frac{2}{6} \\), so \\( \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2} \\).\n3. **Say:** \"Let's subtract \\( \\frac{3}{4} - \\frac{1}{2} \\).\"\n   - Use a pizza cut into 4 slices.\n   - **Ask:** \"How many slices are left if we take away half?\"\n   - Show that \\( \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4} \\).",
+    "math": "To add or subtract fractions with the same denominator, simply add or subtract the numerators. For example, \\( \\frac{2}{5} + \\frac{1}{5} = \\frac{3}{5} \\).\nFor unlike denominators, find a common denominator. Convert each fraction, then add or subtract. For example, \\( \\frac{1}{3} + \\frac{1}{4} \\) becomes \\( \\frac{4}{12} + \\frac{3}{12} = \\frac{7}{12} \\).",
+    "formulas": "- \\( \\frac{a}{b} + \\frac{c}{b} = \\frac{a+c}{b} \\)\n  - \\( a, c \\) are numerators\n  - \\( b \\) is the common denominator\n- \\( \\frac{a}{b} + \\frac{c}{d} = \\frac{ad+bc}{bd} \\)\n  - \\( a, c \\) are numerators\n  - \\( b, d \\) are denominators",
+    "guide": "1. **Ask:** \"What is the denominator?\" to identify if fractions are like or unlike.\n2. **Say:** \"Let's find a common denominator\" when denominators differ.\n3. **Use:** Paper or food items to visualize fractions.\n4. **Encourage:** Your child to simplify fractions when possible.\n5. **Practice:** With real-life examples like sharing snacks.\n6. **Celebrate:** Each correct answer to build confidence.",
+    "mistakes": "- Confusing numerators and denominators.\n  - Try: Use visuals to reinforce the difference.\n- Adding fractions without a common denominator.\n  - Try: Always find a common denominator first.\n- Forgetting to simplify fractions.\n  - Try: Remind to check if the fraction can be simplified.",
+    "connection": "Cooking is a great way to practice fractions. Measuring ingredients often involves adding or subtracting fractions.\nSharing food, like pizza or cake, can help children visualize and understand fractions in a fun way.",
+    "close": "Great job helping your child with fractions! Keep practicing, and soon they'll be fraction experts."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Add \\( \\frac{2}{5} + \\frac{1}{5} \\).",
+      "hint_md": "The denominators are the same. Just add the numerators.",
+      "answer_md": "\\( \\frac{3}{5} \\)"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Subtract \\( \\frac{3}{4} - \\frac{1}{2} \\).",
+      "hint_md": "Convert \\( \\frac{1}{2} \\) to \\( \\frac{2}{4} \\) first.",
+      "answer_md": "\\( \\frac{1}{4} \\)"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Add \\( \\frac{1}{3} + \\frac{1}{6} \\).",
+      "hint_md": "Find a common denominator, like 6.",
+      "answer_md": "\\( \\frac{1}{2} \\)"
+    }
+  ]
+}

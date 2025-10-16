@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "ff87cfeb-f75c-4d19-91f3-f922b6c9734e",
+    "slug": "pythagorean-theorem-distance",
+    "title": "Pythagorean Theorem & Distance",
+    "summary": "Pythagorean Theorem & Distance — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the Pythagorean Theorem.\n- Apply the theorem to find distances.\n- Use household objects to visualize concepts.\n- **Why this matters for parents:** Helping your child grasp these concepts builds a strong foundation for geometry and real-world problem-solving.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "The Pythagorean Theorem is a fundamental principle in geometry that relates the sides of a right triangle. It states that the square of the hypotenuse (the longest side) is equal to the sum of the squares of the other two sides.\nThis theorem is crucial because it helps us calculate distances, not just in math problems but also in real-world situations, like finding the shortest path between two points.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The Pythagorean Theorem is written as $a^2 + b^2 = c^2$, where $c$ is the hypotenuse. This relationship helps us find unknown side lengths in right triangles. It's a powerful tool for solving problems involving distance.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore the Pythagorean Theorem using a piece of paper. Fold it to create a right triangle.\n2. **Ask:** Can you identify the longest side? This is the hypotenuse.\n3. Use a ruler to measure the two shorter sides. Label them $a$ and $b$.\n4. **Say:** Now, let's calculate $a^2 + b^2$ and compare it to $c^2$.\n5. **Ask:** Does the sum of $a^2$ and $b^2$ equal $c^2$? This confirms the theorem.\n6. Use a tape measure to find the diagonal distance across a room, applying the theorem to check your work.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The Pythagorean Theorem states $a^2 + b^2 = c^2$. For example, if a right triangle has sides $a = 3$ and $b = 4$, then $c^2 = 3^2 + 4^2 = 9 + 16 = 25$. Thus, $c = 5$. This shows how the theorem helps find the hypotenuse.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$a^2 + b^2 = c^2$$\n- $a$, $b$: the two shorter sides of the triangle\n  - $c$: the hypotenuse (longest side)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What shapes can you find at home that form right triangles?\n2. Measure the sides of a triangular object, like a book corner.\n3. Use the Pythagorean Theorem to calculate the hypotenuse.\n4. **Say:** Let's check if our calculation matches the actual measurement.\n5. Discuss how this method can help in real-life scenarios, like finding the shortest path.\n6. Encourage your child to solve a problem using these steps.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing which side is the hypotenuse. **Try:** Always identify the longest side first.\n- Forgetting to square the sides. **Try:** Remember $a^2 + b^2 = c^2$, not $a + b = c$.\n- Mixing up side lengths. **Try:** Label sides clearly as $a$, $b$, and $c$.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "The Pythagorean Theorem is used in navigation to find the shortest path. It's also applied in construction to ensure structures are level and square.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding the Pythagorean Theorem opens up a world of problem-solving possibilities. Keep exploring and applying this powerful tool!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the Pythagorean Theorem.\n- Apply the theorem to find distances.\n- Use household objects to visualize concepts.\n- **Why this matters for parents:** Helping your child grasp these concepts builds a strong foundation for geometry and real-world problem-solving.",
+    "overview": "The Pythagorean Theorem is a fundamental principle in geometry that relates the sides of a right triangle. It states that the square of the hypotenuse (the longest side) is equal to the sum of the squares of the other two sides.\nThis theorem is crucial because it helps us calculate distances, not just in math problems but also in real-world situations, like finding the shortest path between two points.",
+    "core": "The Pythagorean Theorem is written as $a^2 + b^2 = c^2$, where $c$ is the hypotenuse. This relationship helps us find unknown side lengths in right triangles. It's a powerful tool for solving problems involving distance.",
+    "demo": "1. **Say:** Let's explore the Pythagorean Theorem using a piece of paper. Fold it to create a right triangle.\n2. **Ask:** Can you identify the longest side? This is the hypotenuse.\n3. Use a ruler to measure the two shorter sides. Label them $a$ and $b$.\n4. **Say:** Now, let's calculate $a^2 + b^2$ and compare it to $c^2$.\n5. **Ask:** Does the sum of $a^2$ and $b^2$ equal $c^2$? This confirms the theorem.\n6. Use a tape measure to find the diagonal distance across a room, applying the theorem to check your work.",
+    "math": "The Pythagorean Theorem states $a^2 + b^2 = c^2$. For example, if a right triangle has sides $a = 3$ and $b = 4$, then $c^2 = 3^2 + 4^2 = 9 + 16 = 25$. Thus, $c = 5$. This shows how the theorem helps find the hypotenuse.",
+    "formulas": "$$a^2 + b^2 = c^2$$\n- $a$, $b$: the two shorter sides of the triangle\n  - $c$: the hypotenuse (longest side)",
+    "guide": "1. **Ask:** What shapes can you find at home that form right triangles?\n2. Measure the sides of a triangular object, like a book corner.\n3. Use the Pythagorean Theorem to calculate the hypotenuse.\n4. **Say:** Let's check if our calculation matches the actual measurement.\n5. Discuss how this method can help in real-life scenarios, like finding the shortest path.\n6. Encourage your child to solve a problem using these steps.",
+    "mistakes": "- Confusing which side is the hypotenuse. **Try:** Always identify the longest side first.\n- Forgetting to square the sides. **Try:** Remember $a^2 + b^2 = c^2$, not $a + b = c$.\n- Mixing up side lengths. **Try:** Label sides clearly as $a$, $b$, and $c$.",
+    "connection": "The Pythagorean Theorem is used in navigation to find the shortest path. It's also applied in construction to ensure structures are level and square.",
+    "close": "Understanding the Pythagorean Theorem opens up a world of problem-solving possibilities. Keep exploring and applying this powerful tool!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "A right triangle has sides $a = 5$ and $b = 12$. Find $c$.",
+      "hint_md": "Use $a^2 + b^2 = c^2$.",
+      "answer_md": "$c = 13$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If $c = 10$ and $a = 6$, find $b$.",
+      "hint_md": "Rearrange to find $b^2 = c^2 - a^2$.",
+      "answer_md": "$b = 8$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "A triangle has sides $a = 8$, $b = 15$. Is it a right triangle if $c = 17$?",
+      "hint_md": "Check if $a^2 + b^2 = c^2$.",
+      "answer_md": "Yes, it is a right triangle."
+    }
+  ]
+}

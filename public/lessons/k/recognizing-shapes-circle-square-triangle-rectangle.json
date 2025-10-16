@@ -1,18 +1,104 @@
 {
-  "title": "Recognizing Shapes (Circle, Square, Triangle, Rectangle)",
-  "grade": "Kindergarten (K)",
-  "overview": "Placeholder outline for \"Recognizing Shapes (Circle, Square, Triangle, Rectangle)\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Recognizing Shapes (Circle, Square, Triangle, Rectangle).",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "94a82428-6f83-4c52-b905-94af3bd279ce",
+    "title": "Shapes, Sorting & Patterns",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "653f8ae9-1495-4f82-b7d3-2e2487d0c5a2",
+    "slug": "recognizing-shapes-circle-square-triangle-rectangle",
+    "title": "Recognizing Shapes (Circle, Square, Triangle, Rectangle)",
+    "summary": "Recognizing Shapes (Circle, Square, Triangle, Rectangle) — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child recognize and name basic shapes: circle, square, triangle, and rectangle.\n- Encourage understanding of shapes in different orientations.\n- Develop vocabulary: sides, corners, and compare shapes.\n\n**Why this matters for parents:** Understanding shapes is foundational for geometry and helps children describe the world around them.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to four basic shapes: circle, square, triangle, and rectangle. They will learn to identify these shapes and understand their characteristics, such as the number of sides and corners.\n\nRecognizing shapes is important because it helps children make sense of their environment. It also lays the groundwork for more advanced math concepts, like geometry and spatial reasoning.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Shapes are everywhere! A circle is round with no corners, a square has four equal sides and four corners, a triangle has three sides and three corners, and a rectangle has four sides with opposite sides equal. Understanding these shapes helps children describe and organize what they see.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's go on a shape hunt around the house! Can you find something shaped like a circle?\"\n2. **Ask:** \"What about a square? How many sides does it have?\"\n3. **Say:** \"Now, let's build shapes using straws or sticks. Can you make a triangle? How many corners does it have?\"\n4. **Ask:** \"Can you make a square and a rectangle? How are they different?\"\n5. **Say:** \"Let's look at a square turned like a diamond. It's still a square because it has four equal sides.\"\n6. **Ask:** \"What shape is a cereal box? Why isn't it a square?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A square has four equal sides, while a rectangle has two pairs of equal sides. For example, a square with sides of 2 inches has all sides equal: $2 + 2 + 2 + 2 = 8$ inches total. A rectangle might have sides of 2 inches and 4 inches: $2 + 4 + 2 + 4 = 12$ inches total.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by showing your child different household objects and ask them to identify the shapes.\n2. Use straws or sticks to build shapes together, discussing the number of sides and corners.\n3. Rotate a square and ask if it’s still a square, explaining why it is.\n4. Compare a square and a rectangle, emphasizing the equal sides of a square.\n5. Encourage your child to draw each shape and count the sides and corners.\n6. Reinforce learning by pointing out shapes during daily activities, like a round clock or a rectangular door.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares and rectangles: Try comparing side lengths to show differences.\n- Calling a rotated square a diamond: Try explaining that the sides are still equal.\n- Forgetting corners: Try counting corners together for each shape.\n- Mixing up triangle sides: Try building with sticks to see three sides clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Shapes are everywhere in real life. A pizza is a circle, a book is a rectangle, and a slice of cheese might be a triangle. Recognizing these helps children relate math to their world.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring shapes with your child! Keep noticing and talking about shapes in your everyday life to strengthen their understanding.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child recognize and name basic shapes: circle, square, triangle, and rectangle.\n- Encourage understanding of shapes in different orientations.\n- Develop vocabulary: sides, corners, and compare shapes.\n\n**Why this matters for parents:** Understanding shapes is foundational for geometry and helps children describe the world around them.",
+    "overview": "This lesson introduces your child to four basic shapes: circle, square, triangle, and rectangle. They will learn to identify these shapes and understand their characteristics, such as the number of sides and corners.\n\nRecognizing shapes is important because it helps children make sense of their environment. It also lays the groundwork for more advanced math concepts, like geometry and spatial reasoning.",
+    "core": "Shapes are everywhere! A circle is round with no corners, a square has four equal sides and four corners, a triangle has three sides and three corners, and a rectangle has four sides with opposite sides equal. Understanding these shapes helps children describe and organize what they see.",
+    "demo": "1. **Say:** \"Let's go on a shape hunt around the house! Can you find something shaped like a circle?\"\n2. **Ask:** \"What about a square? How many sides does it have?\"\n3. **Say:** \"Now, let's build shapes using straws or sticks. Can you make a triangle? How many corners does it have?\"\n4. **Ask:** \"Can you make a square and a rectangle? How are they different?\"\n5. **Say:** \"Let's look at a square turned like a diamond. It's still a square because it has four equal sides.\"\n6. **Ask:** \"What shape is a cereal box? Why isn't it a square?\"",
+    "math": "A square has four equal sides, while a rectangle has two pairs of equal sides. For example, a square with sides of 2 inches has all sides equal: $2 + 2 + 2 + 2 = 8$ inches total. A rectangle might have sides of 2 inches and 4 inches: $2 + 4 + 2 + 4 = 12$ inches total.",
+    "guide": "1. Start by showing your child different household objects and ask them to identify the shapes.\n2. Use straws or sticks to build shapes together, discussing the number of sides and corners.\n3. Rotate a square and ask if it’s still a square, explaining why it is.\n4. Compare a square and a rectangle, emphasizing the equal sides of a square.\n5. Encourage your child to draw each shape and count the sides and corners.\n6. Reinforce learning by pointing out shapes during daily activities, like a round clock or a rectangular door.",
+    "mistakes": "- Confusing squares and rectangles: Try comparing side lengths to show differences.\n- Calling a rotated square a diamond: Try explaining that the sides are still equal.\n- Forgetting corners: Try counting corners together for each shape.\n- Mixing up triangle sides: Try building with sticks to see three sides clearly.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Shapes are everywhere in real life. A pizza is a circle, a book is a rectangle, and a slice of cheese might be a triangle. Recognizing these helps children relate math to their world.",
+    "close": "Great job exploring shapes with your child! Keep noticing and talking about shapes in your everyday life to strengthen their understanding."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What shape has three sides and three corners?",
+      "hint_md": "Think of a slice of pizza.",
+      "answer_md": "A triangle."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a shape has four equal sides, what is it?",
+      "hint_md": "It looks the same even if you turn it.",
+      "answer_md": "A square."
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many corners does a rectangle have?",
+      "hint_md": "Count the corners on a cereal box.",
+      "answer_md": "Four corners."
+    }
+  ]
 }

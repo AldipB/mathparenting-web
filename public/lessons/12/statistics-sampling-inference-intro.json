@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5d6241fa-570e-499f-853b-3a322226b6d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "213940ed-9bcc-49cc-83ab-d47416080774",
+    "slug": "statistics-sampling-inference-intro",
+    "title": "Statistics: Sampling, Inference (Intro)",
+    "summary": "Statistics: Sampling, Inference (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic concepts of sampling and inference in statistics.\n- Learn how to explain these concepts using everyday examples.\n- **Why this matters for parents:** Equip your child with skills to analyze data, a crucial ability in today's data-driven world.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore the basics of sampling and inference in statistics. Sampling involves selecting a subset of individuals from a population to estimate characteristics of the whole group. Inference is the process of drawing conclusions about the population based on the sample.\nUnderstanding these concepts helps us make informed decisions based on data. Whether it's predicting election outcomes or determining the effectiveness of a new medication, sampling and inference play a critical role in interpreting information accurately.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Sampling is like tasting a spoonful of soup to decide if the whole pot needs more salt. Inference is using that taste to conclude about the entire pot. By learning these concepts, your child can better understand how data is used to make predictions and decisions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather a jar of mixed beans (e.g., kidney, black, and pinto beans).**\n   - **Say:** \"Imagine this jar is a population.\"\n2. **Take a small handful of beans.**\n   - **Say:** \"This handful is a sample.\"\n3. **Count the types of beans in your sample.**\n   - **Ask:** \"What can we infer about the whole jar based on this sample?\"\n4. **Discuss the results.**\n   - **Say:** \"If most beans in our sample are black, we might infer the jar has many black beans.\"\n5. **Repeat with a different sample size.**\n   - **Ask:** \"Does a larger sample change our inference? Why?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In statistics, a sample mean ($\\bar{x}$) can estimate the population mean ($\\mu$). For example, if you sample 10 students' test scores and find an average of 85, you might infer the average score for all students is close to 85. The larger the sample, the more reliable the inference.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Sample Mean: $$\\bar{x} = \\frac{1}{n} \\sum_{i=1}^{n} x_i$$\n  - $\\bar{x}$: sample mean\n  - $n$: number of observations in the sample\n  - $x_i$: each individual observation",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain sampling using a familiar context.**\n   - **Say:** \"Sampling is like trying a few cookies from a batch to see if they're all good.\"\n2. **Discuss the importance of sample size.**\n   - **Ask:** \"Why might a larger sample give us a better idea of the whole?\"\n3. **Introduce inference with a simple example.**\n   - **Say:** \"If the cookies you try are sweet, you might infer the whole batch is sweet.\"\n4. **Connect to real-life scenarios.**\n   - **Ask:** \"How do you think companies use sampling to test products?\"\n5. **Encourage questions and curiosity.**\n   - **Say:** \"What else could we sample to learn about a larger group?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing sample with population.\n  - **Try:** Emphasize that a sample is just a part of the whole.\n- Assuming small samples are always accurate.\n  - **Try:** Discuss how larger samples generally provide better estimates.\n- Overgeneralizing from a single sample.\n  - **Try:** Explain the need for multiple samples to confirm results.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Sampling and inference are used in everyday life, from quality control in factories to political polling. Understanding these concepts helps us make sense of the world and the information we encounter.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding sampling and inference empowers your child to make informed decisions and interpret data wisely. Keep exploring these concepts together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic concepts of sampling and inference in statistics.\n- Learn how to explain these concepts using everyday examples.\n- **Why this matters for parents:** Equip your child with skills to analyze data, a crucial ability in today's data-driven world.",
+    "overview": "In this lesson, we'll explore the basics of sampling and inference in statistics. Sampling involves selecting a subset of individuals from a population to estimate characteristics of the whole group. Inference is the process of drawing conclusions about the population based on the sample.\nUnderstanding these concepts helps us make informed decisions based on data. Whether it's predicting election outcomes or determining the effectiveness of a new medication, sampling and inference play a critical role in interpreting information accurately.",
+    "core": "Sampling is like tasting a spoonful of soup to decide if the whole pot needs more salt. Inference is using that taste to conclude about the entire pot. By learning these concepts, your child can better understand how data is used to make predictions and decisions.",
+    "demo": "1. **Gather a jar of mixed beans (e.g., kidney, black, and pinto beans).**\n   - **Say:** \"Imagine this jar is a population.\"\n2. **Take a small handful of beans.**\n   - **Say:** \"This handful is a sample.\"\n3. **Count the types of beans in your sample.**\n   - **Ask:** \"What can we infer about the whole jar based on this sample?\"\n4. **Discuss the results.**\n   - **Say:** \"If most beans in our sample are black, we might infer the jar has many black beans.\"\n5. **Repeat with a different sample size.**\n   - **Ask:** \"Does a larger sample change our inference? Why?\"",
+    "math": "In statistics, a sample mean ($\\bar{x}$) can estimate the population mean ($\\mu$). For example, if you sample 10 students' test scores and find an average of 85, you might infer the average score for all students is close to 85. The larger the sample, the more reliable the inference.",
+    "formulas": "- Sample Mean: $$\\bar{x} = \\frac{1}{n} \\sum_{i=1}^{n} x_i$$\n  - $\\bar{x}$: sample mean\n  - $n$: number of observations in the sample\n  - $x_i$: each individual observation",
+    "guide": "1. **Explain sampling using a familiar context.**\n   - **Say:** \"Sampling is like trying a few cookies from a batch to see if they're all good.\"\n2. **Discuss the importance of sample size.**\n   - **Ask:** \"Why might a larger sample give us a better idea of the whole?\"\n3. **Introduce inference with a simple example.**\n   - **Say:** \"If the cookies you try are sweet, you might infer the whole batch is sweet.\"\n4. **Connect to real-life scenarios.**\n   - **Ask:** \"How do you think companies use sampling to test products?\"\n5. **Encourage questions and curiosity.**\n   - **Say:** \"What else could we sample to learn about a larger group?\"",
+    "mistakes": "- Confusing sample with population.\n  - **Try:** Emphasize that a sample is just a part of the whole.\n- Assuming small samples are always accurate.\n  - **Try:** Discuss how larger samples generally provide better estimates.\n- Overgeneralizing from a single sample.\n  - **Try:** Explain the need for multiple samples to confirm results.",
+    "connection": "Sampling and inference are used in everyday life, from quality control in factories to political polling. Understanding these concepts helps us make sense of the world and the information we encounter.",
+    "close": "Understanding sampling and inference empowers your child to make informed decisions and interpret data wisely. Keep exploring these concepts together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If 8 out of 20 surveyed students prefer online classes, estimate how many out of 200 might prefer online classes.",
+      "hint_md": "Use proportions: $\\frac{8}{20} = \\frac{x}{200}$.",
+      "answer_md": "80 students might prefer online classes."
+    },
+    {
+      "order_index": 2,
+      "question_md": "A sample of 50 people shows 30 like chocolate ice cream. Predict the preference in a group of 500.",
+      "hint_md": "Set up a proportion: $\\frac{30}{50} = \\frac{x}{500}$.",
+      "answer_md": "300 people might like chocolate ice cream."
+    },
+    {
+      "order_index": 3,
+      "question_md": "In a survey, 15 out of 25 people prefer tea over coffee. How many out of 100 might prefer tea?",
+      "hint_md": "Use the ratio $\\frac{15}{25} = \\frac{x}{100}$.",
+      "answer_md": "60 people might prefer tea."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "ee5b4342-d38c-4304-bf56-04900dc9ef98",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "5e088645-9e3c-4a29-b276-40c64912c47b",
+    "slug": "transformations-similarity-congruence",
+    "title": "Transformations; Similarity; Congruence",
+    "summary": "Transformations; Similarity; Congruence — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand transformations: translation, rotation, reflection, and dilation.\n- Recognize similarity and congruence in shapes.\n- **Why this matters for parents:** Helps children see patterns and relationships in the world, enhancing spatial reasoning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Transformations involve changing a shape's position or size. These include translation (sliding), rotation (turning), reflection (flipping), and dilation (resizing). Similarity means shapes have the same form but different sizes, while congruence means they are identical in shape and size.\nUnderstanding these concepts helps children grasp geometry's role in everyday life, from art to architecture. It builds a foundation for more advanced math and problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Transformations help us understand how shapes move and change. Similarity and congruence teach us about the relationships between shapes. These concepts are like a puzzle, showing how pieces fit together in different ways.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore transformations with paper and scissors.\"\n2. Cut out a triangle from paper.\n3. **Ask:** \"What happens if we slide this triangle across the table?\" (Translation)\n4. Rotate the triangle. **Ask:** \"How does it look when we turn it?\" (Rotation)\n5. Flip the triangle over. **Say:** \"This is a reflection.\"\n6. **Ask:** \"If we make a bigger triangle with the same shape, is it similar or congruent?\" (Similarity)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A translation moves a shape without changing its size or orientation. For example, moving a triangle 3 units right is a translation.\nA rotation turns a shape around a point. Rotating a square 90° around its center keeps its shape.\nReflection flips a shape over a line, like a mirror image.\nDilation changes a shape's size. A triangle with sides 3, 4, 5 scaled by 2 becomes 6, 8, 10.\nSimilarity means shapes have proportional sides and identical angles. Congruence means identical size and shape.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Translation: $(x, y) \\rightarrow (x+a, y+b)$\n  - $a$ and $b$ are the horizontal and vertical shifts.\n- Rotation: $90^\\circ$ clockwise $(x, y) \\rightarrow (y, -x)$\n  - Rotates points around the origin.\n- Dilation: $(x, y) \\rightarrow (kx, ky)$\n  - $k$ is the scale factor.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"Can you find an object in the house that looks the same when flipped?\"\n2. **Say:** \"Let's draw a shape and see how it changes when we move it.\"\n3. Use a mirror to show reflection with a toy. **Ask:** \"What do you see?\"\n4. **Say:** \"Let's measure two similar objects and compare their sizes.\"\n5. **Ask:** \"Can you find two identical objects? Are they congruent?\"\n6. **Say:** \"Let's create a pattern using transformations.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing similarity with congruence. **Try:** \"Check if the sizes match exactly.\"\n- Forgetting to change both coordinates in a translation. **Try:** \"Move both $x$ and $y$.\"\n- Misplacing the center of rotation. **Try:** \"Rotate around the correct point.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Transformations are used in video game graphics to move characters and objects. Architects use similarity and congruence to design buildings and structures.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to see the beauty in shapes and patterns around them. Math is everywhere, and these concepts help us understand the world better!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand transformations: translation, rotation, reflection, and dilation.\n- Recognize similarity and congruence in shapes.\n- **Why this matters for parents:** Helps children see patterns and relationships in the world, enhancing spatial reasoning.",
+    "overview": "Transformations involve changing a shape's position or size. These include translation (sliding), rotation (turning), reflection (flipping), and dilation (resizing). Similarity means shapes have the same form but different sizes, while congruence means they are identical in shape and size.\nUnderstanding these concepts helps children grasp geometry's role in everyday life, from art to architecture. It builds a foundation for more advanced math and problem-solving skills.",
+    "core": "Transformations help us understand how shapes move and change. Similarity and congruence teach us about the relationships between shapes. These concepts are like a puzzle, showing how pieces fit together in different ways.",
+    "demo": "1. **Say:** \"Let's explore transformations with paper and scissors.\"\n2. Cut out a triangle from paper.\n3. **Ask:** \"What happens if we slide this triangle across the table?\" (Translation)\n4. Rotate the triangle. **Ask:** \"How does it look when we turn it?\" (Rotation)\n5. Flip the triangle over. **Say:** \"This is a reflection.\"\n6. **Ask:** \"If we make a bigger triangle with the same shape, is it similar or congruent?\" (Similarity)",
+    "math": "A translation moves a shape without changing its size or orientation. For example, moving a triangle 3 units right is a translation.\nA rotation turns a shape around a point. Rotating a square 90° around its center keeps its shape.\nReflection flips a shape over a line, like a mirror image.\nDilation changes a shape's size. A triangle with sides 3, 4, 5 scaled by 2 becomes 6, 8, 10.\nSimilarity means shapes have proportional sides and identical angles. Congruence means identical size and shape.",
+    "formulas": "- Translation: $(x, y) \\rightarrow (x+a, y+b)$\n  - $a$ and $b$ are the horizontal and vertical shifts.\n- Rotation: $90^\\circ$ clockwise $(x, y) \\rightarrow (y, -x)$\n  - Rotates points around the origin.\n- Dilation: $(x, y) \\rightarrow (kx, ky)$\n  - $k$ is the scale factor.",
+    "guide": "1. **Ask:** \"Can you find an object in the house that looks the same when flipped?\"\n2. **Say:** \"Let's draw a shape and see how it changes when we move it.\"\n3. Use a mirror to show reflection with a toy. **Ask:** \"What do you see?\"\n4. **Say:** \"Let's measure two similar objects and compare their sizes.\"\n5. **Ask:** \"Can you find two identical objects? Are they congruent?\"\n6. **Say:** \"Let's create a pattern using transformations.\"",
+    "mistakes": "- Confusing similarity with congruence. **Try:** \"Check if the sizes match exactly.\"\n- Forgetting to change both coordinates in a translation. **Try:** \"Move both $x$ and $y$.\"\n- Misplacing the center of rotation. **Try:** \"Rotate around the correct point.\"",
+    "connection": "Transformations are used in video game graphics to move characters and objects. Architects use similarity and congruence to design buildings and structures.",
+    "close": "Encourage your child to see the beauty in shapes and patterns around them. Math is everywhere, and these concepts help us understand the world better!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Translate the point $(2, 3)$ by 4 units right and 2 units up.",
+      "hint_md": "Add 4 to the $x$-coordinate and 2 to the $y$-coordinate.",
+      "answer_md": "$(6, 5)$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Is a triangle with sides 3, 4, 5 similar to one with sides 6, 8, 10?",
+      "hint_md": "Check if the sides are proportional.",
+      "answer_md": "Yes, they are similar."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Rotate the point $(1, 2)$ 90° clockwise around the origin.",
+      "hint_md": "Use the rule $(x, y) \\rightarrow (y, -x)$.",
+      "answer_md": "$(2, -1)$"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "5f5968c5-c043-4077-92a6-37e315de5b6a",
+    "slug": "real-world-applications-physics-economics-motion",
+    "title": "Real-World Applications (Physics, Economics, Motion)",
+    "summary": "Real-World Applications (Physics, Economics, Motion) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how calculus concepts apply to real-world scenarios like physics, economics, and motion.\n- Help your child see the practical use of derivatives and integrals.\n- **Why this matters for parents:** This lesson equips you to connect math to everyday life, making it more engaging for your child.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores how calculus is used in real-world applications such as physics, economics, and motion. We will focus on understanding how derivatives and integrals help us analyze and predict changes.\nUnderstanding these applications is crucial because it shows your child how math is not just abstract numbers but a tool for solving real problems. This connection can motivate them to learn and appreciate the subject more deeply.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, you'll guide your child through examples of how calculus is used to describe motion, optimize economic decisions, and understand physical phenomena. By using simple household objects, you can make these concepts tangible and relatable.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore how calculus helps us understand motion.\"\n2. Use a toy car to demonstrate motion. Roll it across the floor.\n3. **Ask:** \"How fast do you think the car is moving at different points?\"\n4. Explain that the car's speed at any moment is its velocity, which can be found using derivatives.\n5. **Say:** \"If we know how far the car travels over time, we can calculate its speed at any point.\"\n6. Use a stopwatch to measure time and a ruler for distance to create a simple data set.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The derivative of a function gives us the rate of change. For example, if $s(t) = 3t^2 + 2t$ represents the position of a car over time, the velocity $v(t)$ is the derivative: $v(t) = \\frac{ds}{dt} = 6t + 2$. At $t = 2$ seconds, $v(2) = 6(2) + 2 = 14$ units/second.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $v(t) = \\frac{ds}{dt}$\n  - $v(t)$: velocity\n  - $s(t)$: position function\n  - $\\frac{ds}{dt}$: derivative of position with respect to time\n- $\\int v(t) \\, dt = s(t) + C$\n  - $\\int$: integral symbol\n  - $C$: constant of integration",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss a real-world scenario, like a car trip, and relate it to calculus.\n2. **Ask:** \"How can we use math to predict how long the trip will take?\"\n3. Use the toy car and stopwatch to gather data on distance and time.\n4. Calculate the velocity using the derivative of the position function.\n5. **Say:** \"Now we can predict how fast the car will go at any moment.\"\n6. Discuss how this applies to other areas like economics or physics.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing velocity with speed. **Try:** Clarify that velocity includes direction.\n- Forgetting to include units. **Try:** Always attach units to your answers.\n- Misinterpreting the derivative as the original function. **Try:** Emphasize that the derivative shows change.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Calculus is used in designing roller coasters to ensure they are safe and thrilling. Economists use calculus to find optimal pricing strategies for businesses.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "By connecting calculus to real-world situations, you help your child see its value and relevance. Keep exploring and making math a part of everyday conversations!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how calculus concepts apply to real-world scenarios like physics, economics, and motion.\n- Help your child see the practical use of derivatives and integrals.\n- **Why this matters for parents:** This lesson equips you to connect math to everyday life, making it more engaging for your child.",
+    "overview": "This lesson explores how calculus is used in real-world applications such as physics, economics, and motion. We will focus on understanding how derivatives and integrals help us analyze and predict changes.\nUnderstanding these applications is crucial because it shows your child how math is not just abstract numbers but a tool for solving real problems. This connection can motivate them to learn and appreciate the subject more deeply.",
+    "core": "In this lesson, you'll guide your child through examples of how calculus is used to describe motion, optimize economic decisions, and understand physical phenomena. By using simple household objects, you can make these concepts tangible and relatable.",
+    "demo": "1. **Say:** \"Let's explore how calculus helps us understand motion.\"\n2. Use a toy car to demonstrate motion. Roll it across the floor.\n3. **Ask:** \"How fast do you think the car is moving at different points?\"\n4. Explain that the car's speed at any moment is its velocity, which can be found using derivatives.\n5. **Say:** \"If we know how far the car travels over time, we can calculate its speed at any point.\"\n6. Use a stopwatch to measure time and a ruler for distance to create a simple data set.",
+    "math": "The derivative of a function gives us the rate of change. For example, if $s(t) = 3t^2 + 2t$ represents the position of a car over time, the velocity $v(t)$ is the derivative: $v(t) = \\frac{ds}{dt} = 6t + 2$. At $t = 2$ seconds, $v(2) = 6(2) + 2 = 14$ units/second.",
+    "formulas": "- $v(t) = \\frac{ds}{dt}$\n  - $v(t)$: velocity\n  - $s(t)$: position function\n  - $\\frac{ds}{dt}$: derivative of position with respect to time\n- $\\int v(t) \\, dt = s(t) + C$\n  - $\\int$: integral symbol\n  - $C$: constant of integration",
+    "guide": "1. Discuss a real-world scenario, like a car trip, and relate it to calculus.\n2. **Ask:** \"How can we use math to predict how long the trip will take?\"\n3. Use the toy car and stopwatch to gather data on distance and time.\n4. Calculate the velocity using the derivative of the position function.\n5. **Say:** \"Now we can predict how fast the car will go at any moment.\"\n6. Discuss how this applies to other areas like economics or physics.",
+    "mistakes": "- Confusing velocity with speed. **Try:** Clarify that velocity includes direction.\n- Forgetting to include units. **Try:** Always attach units to your answers.\n- Misinterpreting the derivative as the original function. **Try:** Emphasize that the derivative shows change.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Calculus is used in designing roller coasters to ensure they are safe and thrilling. Economists use calculus to find optimal pricing strategies for businesses.",
+    "close": "By connecting calculus to real-world situations, you help your child see its value and relevance. Keep exploring and making math a part of everyday conversations!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Real-World Applications (Physics, Economics, Motion)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Real-World Applications (Physics, Economics, Motion)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Real-World Applications (Physics, Economics, Motion)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

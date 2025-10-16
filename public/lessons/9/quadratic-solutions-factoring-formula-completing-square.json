@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "1cc74fc2-3e02-40d5-b2e9-49451bbb482c",
+    "slug": "quadratic-solutions-factoring-formula-completing-square",
+    "title": "Quadratic Solutions (Factoring, Formula, Completing Square)",
+    "summary": "Quadratic Solutions (Factoring, Formula, Completing Square) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand how to solve quadratic equations using factoring, the quadratic formula, and completing the square.\n- - Help your child recognize different methods and choose the most effective one.\n- **Why this matters for parents:** Quadratics are foundational for advanced math and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Quadratic equations are equations of the form $ax^2 + bx + c = 0$. Solving them helps us find the values of $x$ that make the equation true.\nUnderstanding these solutions is important because it builds a foundation for future math topics and helps develop logical thinking skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Quadratic equations can be solved using different methods: factoring, the quadratic formula, and completing the square. Each method has its own strengths, and knowing when to use each one is valuable.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some shapes around the house. Look for squares and rectangles.\"\n2. **Ask:** \"How is a square different from a rectangle?\" Discuss that all sides of a square are equal, while a rectangle has opposite sides equal.\n3. Use straws or sticks to build a square and a rectangle. Rotate the square to show it still remains a square, not a 'diamond.'\n4. **Say:** \"Now, let's solve a quadratic equation like building these shapes.\"\n5. **Ask:** \"What do you notice about the sides and corners?\" Relate this to the structure of quadratic equations.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Consider the quadratic equation $x^2 - 5x + 6 = 0$.\n- **Factoring:** Find two numbers that multiply to 6 and add to -5. These are -2 and -3, so $(x-2)(x-3)=0$.\n- **Quadratic Formula:** $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$. Plug in $a=1$, $b=-5$, $c=6$ to find $x = 2$ and $x = 3$.\n- **Completing the Square:** Rewrite $x^2 - 5x + 6 = 0$ as $(x-2.5)^2 - 0.25 = 0$ to find $x = 2$ and $x = 3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n- $a$, $b$, $c$ are coefficients from $ax^2 + bx + c = 0$\n- $\\pm$ means 'plus or minus'\n- $\\sqrt{}$ denotes the square root",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Say:** \"Let's solve $x^2 - 5x + 6 = 0$ by factoring.\"\n2. **Ask:** \"What two numbers multiply to 6 and add to -5?\"\n3. **Say:** \"Great! Now let's use the quadratic formula.\"\n4. **Ask:** \"What are $a$, $b$, and $c$ in our equation?\"\n5. **Say:** \"Finally, let's complete the square.\"\n6. **Ask:** \"How can we rewrite $x^2 - 5x + 6$ to make it a perfect square?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Forgetting to set the equation to zero. **Try:** Always start with $ax^2 + bx + c = 0$.\n- - Mixing up signs when factoring. **Try:** Double-check the signs of your factors.\n- - Misapplying the quadratic formula. **Try:** Carefully substitute $a$, $b$, and $c$ into the formula.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Quadratic equations are used in physics to calculate projectile motion, like when you throw a ball. They also appear in business for profit calculations.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "You're doing great! Helping your child with quadratics builds their confidence and problem-solving skills. Keep exploring!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand how to solve quadratic equations using factoring, the quadratic formula, and completing the square.\n- - Help your child recognize different methods and choose the most effective one.\n- **Why this matters for parents:** Quadratics are foundational for advanced math and problem-solving skills.",
+    "overview": "Quadratic equations are equations of the form $ax^2 + bx + c = 0$. Solving them helps us find the values of $x$ that make the equation true.\nUnderstanding these solutions is important because it builds a foundation for future math topics and helps develop logical thinking skills.",
+    "core": "Quadratic equations can be solved using different methods: factoring, the quadratic formula, and completing the square. Each method has its own strengths, and knowing when to use each one is valuable.",
+    "demo": "1. **Say:** \"Let's find some shapes around the house. Look for squares and rectangles.\"\n2. **Ask:** \"How is a square different from a rectangle?\" Discuss that all sides of a square are equal, while a rectangle has opposite sides equal.\n3. Use straws or sticks to build a square and a rectangle. Rotate the square to show it still remains a square, not a 'diamond.'\n4. **Say:** \"Now, let's solve a quadratic equation like building these shapes.\"\n5. **Ask:** \"What do you notice about the sides and corners?\" Relate this to the structure of quadratic equations.",
+    "math": "Consider the quadratic equation $x^2 - 5x + 6 = 0$.\n- **Factoring:** Find two numbers that multiply to 6 and add to -5. These are -2 and -3, so $(x-2)(x-3)=0$.\n- **Quadratic Formula:** $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$. Plug in $a=1$, $b=-5$, $c=6$ to find $x = 2$ and $x = 3$.\n- **Completing the Square:** Rewrite $x^2 - 5x + 6 = 0$ as $(x-2.5)^2 - 0.25 = 0$ to find $x = 2$ and $x = 3$.",
+    "formulas": "Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n- $a$, $b$, $c$ are coefficients from $ax^2 + bx + c = 0$\n- $\\pm$ means 'plus or minus'\n- $\\sqrt{}$ denotes the square root",
+    "guide": "- 1. **Say:** \"Let's solve $x^2 - 5x + 6 = 0$ by factoring.\"\n2. **Ask:** \"What two numbers multiply to 6 and add to -5?\"\n3. **Say:** \"Great! Now let's use the quadratic formula.\"\n4. **Ask:** \"What are $a$, $b$, and $c$ in our equation?\"\n5. **Say:** \"Finally, let's complete the square.\"\n6. **Ask:** \"How can we rewrite $x^2 - 5x + 6$ to make it a perfect square?\"",
+    "mistakes": "- - Forgetting to set the equation to zero. **Try:** Always start with $ax^2 + bx + c = 0$.\n- - Mixing up signs when factoring. **Try:** Double-check the signs of your factors.\n- - Misapplying the quadratic formula. **Try:** Carefully substitute $a$, $b$, and $c$ into the formula.",
+    "connection": "Quadratic equations are used in physics to calculate projectile motion, like when you throw a ball. They also appear in business for profit calculations.",
+    "close": "You're doing great! Helping your child with quadratics builds their confidence and problem-solving skills. Keep exploring!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Solve $x^2 - 4x - 5 = 0$ by factoring.",
+      "hint_md": "Look for two numbers that multiply to -5 and add to -4.",
+      "answer_md": "$(x-5)(x+1)=0$, so $x=5$ or $x=-1$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Use the quadratic formula to solve $2x^2 + 3x - 2 = 0$.",
+      "hint_md": "Identify $a=2$, $b=3$, $c=-2$ and substitute into the formula.",
+      "answer_md": "$x = \\frac{-3 \\pm \\sqrt{3^2 - 4 \\cdot 2 \\cdot (-2)}}{2 \\cdot 2}$, so $x = \\frac{1}{2}$ or $x = -2$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Complete the square for $x^2 + 6x + 8 = 0$.",
+      "hint_md": "Rewrite as $(x+3)^2 - 1 = 0$.",
+      "answer_md": "$(x+3)^2 = 1$, so $x = -2$ or $x = -4$."
+    }
+  ]
+}

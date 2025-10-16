@@ -1,18 +1,31 @@
 {
-  "title": "Multiply Fraction × Fraction",
-  "grade": "Grade 5",
-  "overview": "Placeholder outline for \"Multiply Fraction × Fraction\".",
-  "content": {
-    "introduction": "This is an auto-generated fallback for Multiply Fraction × Fraction.",
-    "demo": [
-      {
-        "step": 1,
-        "instruction": "Gather a few household items (coins, buttons, blocks)."
-      },
-      {
-        "step": 2,
-        "instruction": "Walk through a simple example related to the topic."
-      }
-    ]
-  }
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "fe9fa331-6bb3-4218-ae3e-0db0ebf6323a",
+    "slug": "multiply-fraction-fraction",
+    "title": "Multiply Fraction × Fraction",
+    "summary": "Multiply Fraction × Fraction — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+  },
+  "practice": []
 }

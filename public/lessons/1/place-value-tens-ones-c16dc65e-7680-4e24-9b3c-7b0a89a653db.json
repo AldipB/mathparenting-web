@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "d44d27b4-5d9e-40d6-896c-9fd7ddb46ee2",
+    "title": "Number Sense",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c16dc65e-7680-4e24-9b3c-7b0a89a653db",
+    "slug": "place-value-tens-ones-c16dc65e-7680-4e24-9b3c-7b0a89a653db",
+    "title": "Place Value (Tens & Ones)",
+    "summary": "Place Value (Tens & Ones) — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of place value using tens and ones.\n- Identify and represent numbers using tens and ones.\n- **Why this matters for parents:** Understanding place value is foundational for your child's math skills, helping them with addition, subtraction, and beyond.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Place value is a way to understand the value of each digit in a number. In first grade, we focus on tens and ones. For example, in the number 42, the '4' represents 4 tens, and the '2' represents 2 ones.\nThis concept is crucial because it helps children grasp how numbers work and prepares them for more complex math. Recognizing tens and ones makes it easier to add, subtract, and understand larger numbers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Place value helps children see that numbers are not just a series of digits but have meaning based on their position. By using objects like blocks or sticks, children can visualize how tens and ones build numbers.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 small objects (like buttons) and two bowls.\n2. **Say:** \"Let's count 12 buttons.\"\n3. Place 10 buttons in one bowl and 2 in the other.\n4. **Ask:** \"How many tens and ones do we have?\"\n5. **Say:** \"We have 1 ten and 2 ones, which makes 12.\"\n6. Repeat with different numbers, like 25 or 37, to reinforce the idea.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In place value, each digit has a value based on its position. For example, in the number 34, the '3' is in the tens place, so it represents 30 (3 tens), and the '4' is in the ones place, representing 4 ones. Therefore, 34 is 3 tens plus 4 ones.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Number = (Tens \\times 10) + Ones\n* Tens: Number of tens in the number\n* Ones: Number of ones in the number",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Use 10 small objects to form a group, explaining that this is a 'ten'.\n2. **Ask:** \"How many tens do we have if we have 20 objects?\"\n3. Show that 20 is 2 tens and 0 ones.\n4. Practice with different numbers, like 15 or 23.\n5. **Say:** \"Let's write the number using tens and ones.\"\n6. Encourage your child to draw or write the numbers to visualize them.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tens and ones: Try using physical objects to separate tens and ones clearly.\n- Counting objects incorrectly: Try counting slowly and grouping in tens first.\n- Mixing up numbers like 21 and 12: Try writing the numbers and matching them with objects.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Place value is used in everyday life, like counting money. Ten dimes make a dollar, just like ten ones make a ten. This helps children understand the value of money and other grouped items.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding place value opens the door to more advanced math. Keep practicing, and your child will build a strong math foundation!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of place value using tens and ones.\n- Identify and represent numbers using tens and ones.\n- **Why this matters for parents:** Understanding place value is foundational for your child's math skills, helping them with addition, subtraction, and beyond.",
+    "overview": "Place value is a way to understand the value of each digit in a number. In first grade, we focus on tens and ones. For example, in the number 42, the '4' represents 4 tens, and the '2' represents 2 ones.\nThis concept is crucial because it helps children grasp how numbers work and prepares them for more complex math. Recognizing tens and ones makes it easier to add, subtract, and understand larger numbers.",
+    "core": "Place value helps children see that numbers are not just a series of digits but have meaning based on their position. By using objects like blocks or sticks, children can visualize how tens and ones build numbers.",
+    "demo": "1. Gather 20 small objects (like buttons) and two bowls.\n2. **Say:** \"Let's count 12 buttons.\"\n3. Place 10 buttons in one bowl and 2 in the other.\n4. **Ask:** \"How many tens and ones do we have?\"\n5. **Say:** \"We have 1 ten and 2 ones, which makes 12.\"\n6. Repeat with different numbers, like 25 or 37, to reinforce the idea.",
+    "math": "In place value, each digit has a value based on its position. For example, in the number 34, the '3' is in the tens place, so it represents 30 (3 tens), and the '4' is in the ones place, representing 4 ones. Therefore, 34 is 3 tens plus 4 ones.",
+    "formulas": "Number = (Tens \\times 10) + Ones\n* Tens: Number of tens in the number\n* Ones: Number of ones in the number",
+    "guide": "1. Use 10 small objects to form a group, explaining that this is a 'ten'.\n2. **Ask:** \"How many tens do we have if we have 20 objects?\"\n3. Show that 20 is 2 tens and 0 ones.\n4. Practice with different numbers, like 15 or 23.\n5. **Say:** \"Let's write the number using tens and ones.\"\n6. Encourage your child to draw or write the numbers to visualize them.",
+    "mistakes": "- Confusing tens and ones: Try using physical objects to separate tens and ones clearly.\n- Counting objects incorrectly: Try counting slowly and grouping in tens first.\n- Mixing up numbers like 21 and 12: Try writing the numbers and matching them with objects.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Place value is used in everyday life, like counting money. Ten dimes make a dollar, just like ten ones make a ten. This helps children understand the value of money and other grouped items.",
+    "close": "Understanding place value opens the door to more advanced math. Keep practicing, and your child will build a strong math foundation!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Place Value (Tens & Ones)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Place Value (Tens & Ones)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Place Value (Tens & Ones)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "01a64807-20d8-4eea-93ad-dc0bcff0c24d",
+    "slug": "read-write-numbers-0-20",
+    "title": "Read & Write Numbers (0–20)",
+    "summary": "Read & Write Numbers (0–20) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child recognize and write numbers from 0 to 20.\n- Develop counting skills using everyday objects.\n- Foster an understanding of number order and quantity.\n**Why this matters for parents:** Building a strong number sense early on sets the foundation for future math learning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child read and write numbers from 0 to 20. By using familiar objects, your child will learn to count with one-to-one correspondence, ensuring they understand that each number represents a specific quantity.\nUnderstanding numbers and their order is crucial for your child's math development. It helps them make sense of the world and prepares them for more complex math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children learn best when they can see and touch what they're counting. Using snacks or toys, your child will practice counting each item once, understanding that the last number they say represents the total amount.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 small snacks or toys.\n2. **Say:** \"Let's count these together!\"\n3. Touch each item one by one, counting aloud from 0 to 20.\n4. **Ask:** \"How many do we have?\"\n5. **Say:** \"Let's write the number 20.\"\n6. **Ask:** \"Can you show me 5 snacks? How about 10?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Counting involves saying numbers in order and matching each number to an object. For example, if you have 3 apples, you count each apple once: 1, 2, 3. The number 3 tells you how many apples there are.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with 5 objects. **Say:** \"Let's count these together.\"\n2. Encourage your child to touch each object as they count.\n3. Gradually increase the number of objects up to 20.\n4. **Ask:** \"What number comes after 10? After 15?\"\n5. Practice writing numbers with your child using a pencil and paper.\n6. **Say:** \"Let's make a story. If you have 3 toys and get 2 more, how many do you have?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Counting too fast: Try slowing down and touching each item.\n- Skipping numbers: Try counting along with them to reinforce order.\n- Miswriting numbers: Try tracing numbers together to practice.\n- Losing track: Try using fewer objects to build confidence.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Counting is everywhere! When setting the table, ask your child to count the forks or plates. During grocery shopping, count apples or oranges together.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child explore numbers! Keep practicing, and soon they'll be counting with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child recognize and write numbers from 0 to 20.\n- Develop counting skills using everyday objects.\n- Foster an understanding of number order and quantity.\n**Why this matters for parents:** Building a strong number sense early on sets the foundation for future math learning.",
+    "overview": "This lesson focuses on helping your child read and write numbers from 0 to 20. By using familiar objects, your child will learn to count with one-to-one correspondence, ensuring they understand that each number represents a specific quantity.\nUnderstanding numbers and their order is crucial for your child's math development. It helps them make sense of the world and prepares them for more complex math concepts.",
+    "core": "Children learn best when they can see and touch what they're counting. Using snacks or toys, your child will practice counting each item once, understanding that the last number they say represents the total amount.",
+    "demo": "1. Gather 20 small snacks or toys.\n2. **Say:** \"Let's count these together!\"\n3. Touch each item one by one, counting aloud from 0 to 20.\n4. **Ask:** \"How many do we have?\"\n5. **Say:** \"Let's write the number 20.\"\n6. **Ask:** \"Can you show me 5 snacks? How about 10?\"",
+    "math": "Counting involves saying numbers in order and matching each number to an object. For example, if you have 3 apples, you count each apple once: 1, 2, 3. The number 3 tells you how many apples there are.",
+    "guide": "1. Start with 5 objects. **Say:** \"Let's count these together.\"\n2. Encourage your child to touch each object as they count.\n3. Gradually increase the number of objects up to 20.\n4. **Ask:** \"What number comes after 10? After 15?\"\n5. Practice writing numbers with your child using a pencil and paper.\n6. **Say:** \"Let's make a story. If you have 3 toys and get 2 more, how many do you have?\"",
+    "mistakes": "- Counting too fast: Try slowing down and touching each item.\n- Skipping numbers: Try counting along with them to reinforce order.\n- Miswriting numbers: Try tracing numbers together to practice.\n- Losing track: Try using fewer objects to build confidence.",
+    "connection": "Counting is everywhere! When setting the table, ask your child to count the forks or plates. During grocery shopping, count apples or oranges together.",
+    "close": "Great job helping your child explore numbers! Keep practicing, and soon they'll be counting with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many apples are there if you see 7 on the table?",
+      "hint_md": "Count each apple one by one.",
+      "answer_md": "7"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Write the number that comes after 15.",
+      "hint_md": "Count up from 15.",
+      "answer_md": "16"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you have 5 candies and get 2 more, how many do you have now?",
+      "hint_md": "Add the candies together.",
+      "answer_md": "7"
+    }
+  ]
+}

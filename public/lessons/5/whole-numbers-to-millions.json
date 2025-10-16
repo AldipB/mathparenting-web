@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "ccfdbbdc-1aa0-4ad8-b0e1-8a7f891035e4",
+    "title": "Whole Numbers & Expressions",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d3c7940b-1604-4f61-aaee-7d03658bca30",
+    "slug": "whole-numbers-to-millions",
+    "title": "Whole Numbers to Millions",
+    "summary": "Whole Numbers to Millions — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand whole numbers up to millions\n- Read and write large numbers\n- Recognize the place value of digits\n**Why this matters for parents:** Understanding large numbers helps children with real-world math, like reading prices or understanding population data.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child understand whole numbers up to millions. They will learn to read, write, and comprehend the value of each digit in large numbers.\nGrasping large numbers is crucial as it lays the foundation for more advanced math concepts. It also helps children make sense of everyday information, like distances or financial figures.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Whole numbers up to millions include digits in the ones, tens, hundreds, thousands, ten-thousands, hundred-thousands, and millions places. Each digit has a specific value based on its position.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** Use small objects like beans or buttons.\n2. **Say:** \"Let's count these objects and group them into tens and hundreds.\"\n3. **Ask:** \"If we have 1,000 beans, how many groups of 100 do we have?\"\n4. **Show:** Write the number 1,234,567 on paper.\n5. **Explain:** \"This is one million, two hundred thirty-four thousand, five hundred sixty-seven.\"\n6. **Ask:** \"What is the value of the digit '3' in this number?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In the number 1,234,567, each digit has a place value. The '1' is in the millions place, meaning 1 million. The '2' is in the hundred-thousands place, meaning 200,000. Understanding place value helps in reading and writing large numbers correctly.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Write a large number, like 3,456,789, on paper.\n2. **Ask:** \"What is the value of the digit '4'?\"\n3. **Explain:** \"The '4' is in the hundred-thousands place, so it represents 400,000.\"\n4. **Say:** \"Let's write this number in words: Three million, four hundred fifty-six thousand, seven hundred eighty-nine.\"\n5. **Ask:** \"Can you find the value of the digit '5'?\"\n6. **Encourage:** \"Practice with different numbers to build confidence.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing place value: Try using a place value chart.\n- Misreading numbers: Try reading slowly and pointing to each digit.\n- Writing numbers incorrectly: Try breaking the number into smaller parts.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Reading large numbers is useful when looking at distances on maps or understanding population statistics. It also helps in managing finances, like reading bank statements.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding large numbers opens up a world of information. Keep exploring and practicing to build strong math skills!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand whole numbers up to millions\n- Read and write large numbers\n- Recognize the place value of digits\n**Why this matters for parents:** Understanding large numbers helps children with real-world math, like reading prices or understanding population data.",
+    "overview": "This lesson focuses on helping your child understand whole numbers up to millions. They will learn to read, write, and comprehend the value of each digit in large numbers.\nGrasping large numbers is crucial as it lays the foundation for more advanced math concepts. It also helps children make sense of everyday information, like distances or financial figures.",
+    "core": "Whole numbers up to millions include digits in the ones, tens, hundreds, thousands, ten-thousands, hundred-thousands, and millions places. Each digit has a specific value based on its position.",
+    "demo": "1. **Gather:** Use small objects like beans or buttons.\n2. **Say:** \"Let's count these objects and group them into tens and hundreds.\"\n3. **Ask:** \"If we have 1,000 beans, how many groups of 100 do we have?\"\n4. **Show:** Write the number 1,234,567 on paper.\n5. **Explain:** \"This is one million, two hundred thirty-four thousand, five hundred sixty-seven.\"\n6. **Ask:** \"What is the value of the digit '3' in this number?\"",
+    "math": "In the number 1,234,567, each digit has a place value. The '1' is in the millions place, meaning 1 million. The '2' is in the hundred-thousands place, meaning 200,000. Understanding place value helps in reading and writing large numbers correctly.",
+    "guide": "1. Write a large number, like 3,456,789, on paper.\n2. **Ask:** \"What is the value of the digit '4'?\"\n3. **Explain:** \"The '4' is in the hundred-thousands place, so it represents 400,000.\"\n4. **Say:** \"Let's write this number in words: Three million, four hundred fifty-six thousand, seven hundred eighty-nine.\"\n5. **Ask:** \"Can you find the value of the digit '5'?\"\n6. **Encourage:** \"Practice with different numbers to build confidence.\"",
+    "mistakes": "- Confusing place value: Try using a place value chart.\n- Misreading numbers: Try reading slowly and pointing to each digit.\n- Writing numbers incorrectly: Try breaking the number into smaller parts.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Reading large numbers is useful when looking at distances on maps or understanding population statistics. It also helps in managing finances, like reading bank statements.",
+    "close": "Understanding large numbers opens up a world of information. Keep exploring and practicing to build strong math skills!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Whole Numbers to Millions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Whole Numbers to Millions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Whole Numbers to Millions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

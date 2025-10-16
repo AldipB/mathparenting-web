@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "0229a3b6-03a7-42c2-b000-edc7ae3dabf0",
+    "title": "Shapes, Graphs & Money",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "151dba86-a3b4-4514-b5c5-26226c9017d0",
+    "slug": "patterns-increasing-decreasing",
+    "title": "Patterns: Increasing & Decreasing",
+    "summary": "Patterns: Increasing & Decreasing — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand and identify simple repeating patterns: AB, AAB, ABB, ABC.\n- Create and extend patterns using household objects.\n- **Why this matters for parents:** Recognizing patterns helps children develop critical thinking and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Patterns are sequences that repeat in a predictable way. In this lesson, we'll explore simple repeating patterns like AB, AAB, ABB, and ABC using claps, taps, and colored blocks.\nLearning to identify and create patterns is essential for developing mathematical thinking. It helps children recognize order and predictability in their environment.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Patterns are all around us, from the stripes on a zebra to the rhythm of a song. By understanding patterns, children learn to anticipate what comes next, an important skill in math and everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's make a pattern with sounds: clap, tap (AB).\" Repeat this sequence four times.\n2. **Ask:** \"What comes next?\" Wait for the answer: \"Tap.\"\n3. Use colored blocks: **Say:** \"Red, blue, red, blue (AB).\" Repeat twice.\n4. **Ask:** \"What color comes next?\" Answer: \"Blue.\"\n5. **Say:** \"Now, let's try: red, red, blue (AAB).\" Repeat twice.\n6. **Ask:** \"What comes next?\" Answer: \"Blue.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Patterns like AB, AAB, and ABB are sequences that repeat. For example, in an AB pattern, two elements alternate: red, blue, red, blue. In an AAB pattern, two of the same elements are followed by a different one: red, red, blue.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather colored blocks or any two different objects.\n2. **Say:** \"Let's make an AB pattern with these blocks.\"\n3. Arrange the blocks: red, blue, red, blue.\n4. **Ask:** \"What comes next?\" Encourage your child to continue the pattern.\n5. Try a new pattern: **Say:** \"Let's do AAB: red, red, blue.\"\n6. **Ask:** \"What comes next?\" Help your child extend the pattern.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up the sequence: Try repeating the pattern out loud together.\n- Forgetting the order: Use physical objects to visualize the pattern.\n- Skipping elements: Slow down and check each step with your child.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Patterns are everywhere! Notice them in daily routines, like the days of the week or the pattern of traffic lights. Recognizing these helps children feel more connected to their world.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Patterns are fun and everywhere! Keep exploring them with your child to build their confidence and curiosity in math.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand and identify simple repeating patterns: AB, AAB, ABB, ABC.\n- Create and extend patterns using household objects.\n- **Why this matters for parents:** Recognizing patterns helps children develop critical thinking and problem-solving skills.",
+    "overview": "Patterns are sequences that repeat in a predictable way. In this lesson, we'll explore simple repeating patterns like AB, AAB, ABB, and ABC using claps, taps, and colored blocks.\nLearning to identify and create patterns is essential for developing mathematical thinking. It helps children recognize order and predictability in their environment.",
+    "core": "Patterns are all around us, from the stripes on a zebra to the rhythm of a song. By understanding patterns, children learn to anticipate what comes next, an important skill in math and everyday life.",
+    "demo": "1. **Say:** \"Let's make a pattern with sounds: clap, tap (AB).\" Repeat this sequence four times.\n2. **Ask:** \"What comes next?\" Wait for the answer: \"Tap.\"\n3. Use colored blocks: **Say:** \"Red, blue, red, blue (AB).\" Repeat twice.\n4. **Ask:** \"What color comes next?\" Answer: \"Blue.\"\n5. **Say:** \"Now, let's try: red, red, blue (AAB).\" Repeat twice.\n6. **Ask:** \"What comes next?\" Answer: \"Blue.\"",
+    "math": "Patterns like AB, AAB, and ABB are sequences that repeat. For example, in an AB pattern, two elements alternate: red, blue, red, blue. In an AAB pattern, two of the same elements are followed by a different one: red, red, blue.",
+    "guide": "1. Gather colored blocks or any two different objects.\n2. **Say:** \"Let's make an AB pattern with these blocks.\"\n3. Arrange the blocks: red, blue, red, blue.\n4. **Ask:** \"What comes next?\" Encourage your child to continue the pattern.\n5. Try a new pattern: **Say:** \"Let's do AAB: red, red, blue.\"\n6. **Ask:** \"What comes next?\" Help your child extend the pattern.",
+    "mistakes": "- Mixing up the sequence: Try repeating the pattern out loud together.\n- Forgetting the order: Use physical objects to visualize the pattern.\n- Skipping elements: Slow down and check each step with your child.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Patterns are everywhere! Notice them in daily routines, like the days of the week or the pattern of traffic lights. Recognizing these helps children feel more connected to their world.",
+    "close": "Patterns are fun and everywhere! Keep exploring them with your child to build their confidence and curiosity in math."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Patterns: Increasing & Decreasing**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Patterns: Increasing & Decreasing** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Patterns: Increasing & Decreasing**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

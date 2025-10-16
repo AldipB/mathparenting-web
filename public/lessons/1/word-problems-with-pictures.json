@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "d44768f9-7d1e-4cb2-9b25-fe2bd438c9e5",
+    "title": "Operations & Problems",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "923a9dda-5aee-4d32-89e0-1f874b624aab",
+    "slug": "word-problems-with-pictures",
+    "title": "Word Problems with Pictures",
+    "summary": "Word Problems with Pictures — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will be able to solve simple word problems using pictures to represent the situation.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child understand word problems by visualizing them with pictures. Using everyday objects, we will create scenarios that your child can relate to, making math more engaging and understandable.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Word problems are math questions presented in a story format. They often involve everyday situations, making them easier to grasp. By drawing pictures, your child can visualize the problem, which helps in finding the solution.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Activity: Counting Fruits\n1. Gather 5 apples and 3 bananas.\n2. Ask your child to draw a picture of the apples and bananas.\n3. Say: 'How many fruits do we have in total?'\n4. Encourage your child to count the apples and bananas in their drawing.\n5. Help them write the equation: $5 + 3 = ?$.\n6. Celebrate their answer together!",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In this lesson, we will focus on addition through word problems. For example, if you have 5 apples and 3 bananas, you can find the total number of fruits by adding: $5 + 3 = 8$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$a + b = c$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather some household items (like fruits or toys).\n2. Create a simple scenario (e.g., 'You have 4 toy cars and 2 toy trucks').\n3. Ask your child to draw the items.\n4. Help them write the addition equation based on their drawing.\n5. Solve the equation together, counting the items.\n6. Encourage them to share their own word problems!",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child counts incorrectly, gently say: 'Let's count them together again!'\nIf they forget to draw, remind them: 'Drawing can help us see the problem better!'\nIf they struggle with the equation, say: 'Let's write it down together!'\nIf they mix up addition and subtraction, clarify: 'We are combining these items, so we add!'",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Everyday situations, like sharing snacks or toys, can be great opportunities to practice word problems.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job supporting your child in learning math! Remember, practice makes perfect, and you're doing wonderfully!",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will be able to solve simple word problems using pictures to represent the situation.",
+    "overview": "This lesson focuses on helping your child understand word problems by visualizing them with pictures. Using everyday objects, we will create scenarios that your child can relate to, making math more engaging and understandable.",
+    "core": "Word problems are math questions presented in a story format. They often involve everyday situations, making them easier to grasp. By drawing pictures, your child can visualize the problem, which helps in finding the solution.",
+    "demo": "Activity: Counting Fruits\n1. Gather 5 apples and 3 bananas.\n2. Ask your child to draw a picture of the apples and bananas.\n3. Say: 'How many fruits do we have in total?'\n4. Encourage your child to count the apples and bananas in their drawing.\n5. Help them write the equation: $5 + 3 = ?$.\n6. Celebrate their answer together!",
+    "math": "In this lesson, we will focus on addition through word problems. For example, if you have 5 apples and 3 bananas, you can find the total number of fruits by adding: $5 + 3 = 8$.",
+    "formulas": "$a + b = c$",
+    "guide": "1. Gather some household items (like fruits or toys).\n2. Create a simple scenario (e.g., 'You have 4 toy cars and 2 toy trucks').\n3. Ask your child to draw the items.\n4. Help them write the addition equation based on their drawing.\n5. Solve the equation together, counting the items.\n6. Encourage them to share their own word problems!",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "mistakes": "If your child counts incorrectly, gently say: 'Let's count them together again!'\nIf they forget to draw, remind them: 'Drawing can help us see the problem better!'\nIf they struggle with the equation, say: 'Let's write it down together!'\nIf they mix up addition and subtraction, clarify: 'We are combining these items, so we add!'",
+    "connection": "Everyday situations, like sharing snacks or toys, can be great opportunities to practice word problems.",
+    "close": "Great job supporting your child in learning math! Remember, practice makes perfect, and you're doing wonderfully!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Word Problems with Pictures**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Word Problems with Pictures** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Word Problems with Pictures**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

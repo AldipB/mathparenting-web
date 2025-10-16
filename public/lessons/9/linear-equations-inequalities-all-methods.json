@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "b90bc8e4-89ce-4700-ba41-aa8c676ec2a9",
+    "slug": "linear-equations-inequalities-all-methods",
+    "title": "Linear Equations & Inequalities (All Methods)",
+    "summary": "Linear Equations & Inequalities (All Methods) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to solve linear equations and inequalities using various methods.\n- Help your child recognize and apply these concepts in real-life situations.\n- **Why this matters for parents:** Building a strong foundation in algebra helps your child develop critical thinking and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Linear equations and inequalities are mathematical statements that show the relationship between variables and constants. They form the basis for understanding more complex algebraic concepts.\nUnderstanding these concepts is crucial because they appear in everyday situations, like budgeting or planning travel times, and help develop logical reasoning skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Linear equations are like balance scales, where both sides need to be equal. Inequalities show when one side is greater or less than the other. We solve these using methods like graphing, substitution, and elimination.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use a kitchen scale to understand balance.\"\n2. Place equal weights on both sides of the scale to show balance (like an equation).\n3. **Ask:** \"What happens if we add weight to one side?\"\n4. Add weight to one side to show imbalance (like an inequality).\n5. **Say:** \"To solve, we need to adjust until both sides are balanced again.\"\n6. **Ask:** \"How can we make both sides equal again?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A linear equation looks like $2x + 3 = 7$. To solve, subtract 3 from both sides: $2x = 4$. Then divide by 2: $x = 2$. For an inequality like $x + 5 > 8$, subtract 5: $x > 3$. This means $x$ can be any number greater than 3.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $ax + b = c$\n  - $a$, $b$, and $c$ are constants; $x$ is the variable.\n- $ax + b > c$\n  - Represents an inequality where the left side is greater than the right.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's solve $3x + 2 = 11$ together.\"\n2. Subtract 2 from both sides: **Ask:** \"What do we get?\"\n3. Divide by 3: **Say:** \"Now, what is $x$?\"\n4. **Ask:** \"How would this change if it was $3x + 2 > 11$?\"\n5. Discuss how the solution set changes for inequalities.\n6. **Say:** \"Great job! Let's try another one.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to flip the inequality sign when multiplying/dividing by a negative. Try: \"Remember to flip the sign!\"\n- Not isolating the variable completely. Try: \"Ensure $x$ is by itself.\"\n- Mixing up addition and subtraction steps. Try: \"Double-check each step.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Linear equations are used in budgeting to ensure expenses don't exceed income. Inequalities help in planning travel times, ensuring you leave early enough to arrive on time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great work! Understanding linear equations and inequalities opens doors to solving real-world problems with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to solve linear equations and inequalities using various methods.\n- Help your child recognize and apply these concepts in real-life situations.\n- **Why this matters for parents:** Building a strong foundation in algebra helps your child develop critical thinking and problem-solving skills.",
+    "overview": "Linear equations and inequalities are mathematical statements that show the relationship between variables and constants. They form the basis for understanding more complex algebraic concepts.\nUnderstanding these concepts is crucial because they appear in everyday situations, like budgeting or planning travel times, and help develop logical reasoning skills.",
+    "core": "Linear equations are like balance scales, where both sides need to be equal. Inequalities show when one side is greater or less than the other. We solve these using methods like graphing, substitution, and elimination.",
+    "demo": "1. **Say:** \"Let's use a kitchen scale to understand balance.\"\n2. Place equal weights on both sides of the scale to show balance (like an equation).\n3. **Ask:** \"What happens if we add weight to one side?\"\n4. Add weight to one side to show imbalance (like an inequality).\n5. **Say:** \"To solve, we need to adjust until both sides are balanced again.\"\n6. **Ask:** \"How can we make both sides equal again?\"",
+    "math": "A linear equation looks like $2x + 3 = 7$. To solve, subtract 3 from both sides: $2x = 4$. Then divide by 2: $x = 2$. For an inequality like $x + 5 > 8$, subtract 5: $x > 3$. This means $x$ can be any number greater than 3.",
+    "formulas": "- $ax + b = c$\n  - $a$, $b$, and $c$ are constants; $x$ is the variable.\n- $ax + b > c$\n  - Represents an inequality where the left side is greater than the right.",
+    "guide": "1. **Say:** \"Let's solve $3x + 2 = 11$ together.\"\n2. Subtract 2 from both sides: **Ask:** \"What do we get?\"\n3. Divide by 3: **Say:** \"Now, what is $x$?\"\n4. **Ask:** \"How would this change if it was $3x + 2 > 11$?\"\n5. Discuss how the solution set changes for inequalities.\n6. **Say:** \"Great job! Let's try another one.\"",
+    "mistakes": "- Forgetting to flip the inequality sign when multiplying/dividing by a negative. Try: \"Remember to flip the sign!\"\n- Not isolating the variable completely. Try: \"Ensure $x$ is by itself.\"\n- Mixing up addition and subtraction steps. Try: \"Double-check each step.\"",
+    "connection": "Linear equations are used in budgeting to ensure expenses don't exceed income. Inequalities help in planning travel times, ensuring you leave early enough to arrive on time.",
+    "close": "Great work! Understanding linear equations and inequalities opens doors to solving real-world problems with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Solve $4x - 5 = 11$.",
+      "hint_md": "Add 5 to both sides first.",
+      "answer_md": "$x = 4$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Solve $2x + 3 > 7$.",
+      "hint_md": "Subtract 3 from both sides.",
+      "answer_md": "$x > 2$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If $5x = 20$, what is $x$?",
+      "hint_md": "Divide both sides by 5.",
+      "answer_md": "$x = 4$"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "63d4846f-2c83-4e64-908f-39710b11f23f",
+    "title": "Counting & Quantity",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8f8cadb6-c2fb-48a1-9081-9a19af155017",
+    "slug": "understanding-quantity-and-how-many",
+    "title": "Understanding Quantity and “How Many”",
+    "summary": "Understanding Quantity and “How Many” — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child count objects up to 20 using one-to-one correspondence.\n- Ensure your child understands the total number of items (cardinality).\n- Reinforce counting in a stable order.\n- **Why this matters for parents:** Building a strong foundation in counting helps children develop math skills essential for everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child understand the concept of quantity by counting objects up to 20. We'll use everyday items to make learning engaging and relatable.\nCounting accurately is crucial for developing math skills. It helps children understand numbers as representations of quantity, which is foundational for future math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children learn best through hands-on activities. By counting physical objects, they can see and feel the numbers. This lesson will guide you in teaching your child to count each item once, understand the total count, and maintain the correct order.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small snacks (like crackers) and place them in a line.\n2. **Say:** \"Let's count these snacks together.\"\n3. Touch each snack once as you count aloud: \"1, 2, 3...\"\n4. **Ask:** \"How many snacks do we have?\"\n5. After counting, **say:** \"We have 10 snacks.\"\n6. Remove 2 snacks and **ask:** \"How many are left now? Let's count again.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Counting involves assigning a number to each object in a group. For example, if you have 5 toys, you count each one: 1, 2, 3, 4, 5. The last number you say tells you how many toys there are in total.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a small number of objects, like 5 toys.\n2. **Say:** \"Let's count these toys together.\"\n3. Encourage your child to touch each toy as they count.\n4. **Ask:** \"How many toys do we have?\"\n5. Gradually increase the number of objects up to 20.\n6. Reinforce by asking: \"What happens if we add one more?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child skips an object, try: \"Let's count again, touching each one.\"\n- If they repeat a number, try: \"Remember, each object gets one number.\"\n- If they forget the total, try: \"What was the last number we said? That's how many there are.\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Counting is everywhere! Ask your child to count apples in a bowl or steps as you walk. It helps them see math in everyday life.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child explore numbers! Keep counting fun and part of your daily routine.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child count objects up to 20 using one-to-one correspondence.\n- Ensure your child understands the total number of items (cardinality).\n- Reinforce counting in a stable order.\n- **Why this matters for parents:** Building a strong foundation in counting helps children develop math skills essential for everyday life.",
+    "overview": "This lesson focuses on helping your child understand the concept of quantity by counting objects up to 20. We'll use everyday items to make learning engaging and relatable.\nCounting accurately is crucial for developing math skills. It helps children understand numbers as representations of quantity, which is foundational for future math concepts.",
+    "core": "Children learn best through hands-on activities. By counting physical objects, they can see and feel the numbers. This lesson will guide you in teaching your child to count each item once, understand the total count, and maintain the correct order.",
+    "demo": "1. Gather 10 small snacks (like crackers) and place them in a line.\n2. **Say:** \"Let's count these snacks together.\"\n3. Touch each snack once as you count aloud: \"1, 2, 3...\"\n4. **Ask:** \"How many snacks do we have?\"\n5. After counting, **say:** \"We have 10 snacks.\"\n6. Remove 2 snacks and **ask:** \"How many are left now? Let's count again.\"",
+    "math": "Counting involves assigning a number to each object in a group. For example, if you have 5 toys, you count each one: 1, 2, 3, 4, 5. The last number you say tells you how many toys there are in total.",
+    "guide": "1. Start with a small number of objects, like 5 toys.\n2. **Say:** \"Let's count these toys together.\"\n3. Encourage your child to touch each toy as they count.\n4. **Ask:** \"How many toys do we have?\"\n5. Gradually increase the number of objects up to 20.\n6. Reinforce by asking: \"What happens if we add one more?\"",
+    "mistakes": "- If your child skips an object, try: \"Let's count again, touching each one.\"\n- If they repeat a number, try: \"Remember, each object gets one number.\"\n- If they forget the total, try: \"What was the last number we said? That's how many there are.\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Counting is everywhere! Ask your child to count apples in a bowl or steps as you walk. It helps them see math in everyday life.",
+    "close": "Great job helping your child explore numbers! Keep counting fun and part of your daily routine."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Understanding Quantity and “How Many”**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Understanding Quantity and “How Many”** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Understanding Quantity and “How Many”**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

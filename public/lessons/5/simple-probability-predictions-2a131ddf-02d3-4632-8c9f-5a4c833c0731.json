@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "00a45ef3-45ca-48df-9498-4b5284b23f0a",
+    "title": "Data, Ratio & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "2a131ddf-02d3-4632-8c9f-5a4c833c0731",
+    "slug": "simple-probability-predictions-2a131ddf-02d3-4632-8c9f-5a4c833c0731",
+    "title": "Simple Probability & Predictions",
+    "summary": "Simple Probability & Predictions — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand basic probability concepts.\n- - Use household items to demonstrate probability.\n- - Make predictions based on probability.\n- **Why this matters for parents:** Helping your child grasp probability builds critical thinking and decision-making skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Probability is the study of how likely something is to happen. It helps us make predictions about everyday events, like the chance of rain or picking a certain color of sock from a drawer.\nUnderstanding probability is important because it allows children to make informed decisions and understand the world around them. It also lays the groundwork for more advanced math concepts they'll encounter later.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Probability is about predicting the chance of an event happening. We often express this chance as a fraction, where the numerator is the number of favorable outcomes, and the denominator is the total number of possible outcomes. For example, if you have 3 red marbles and 2 blue marbles in a bag, the probability of picking a red marble is the number of red marbles divided by the total number of marbles.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. Gather 5 coins and a small bowl.\n- 2. **Say:** \"Let's see how likely it is to get heads when we flip a coin.\"\n- 3. Flip one coin 10 times, recording heads or tails each time.\n- 4. **Ask:** \"How many times did we get heads?\"\n- 5. **Say:** \"The probability of getting heads is the number of heads divided by the total flips.\"\n- 6. Discuss how this probability might change with more flips.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Probability is calculated as: $$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\nFor example, if you have a bag with 3 red marbles and 2 blue marbles, the probability of picking a red marble is: $$ P(\text{red}) = \\frac{3}{5} $$",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}\n- \\(P(\\text{event})\\): Probability of the event\n- \\(\\text{Number of favorable outcomes}\\): Outcomes that match the event\n- \\(\\text{Total number of possible outcomes}\\): All possible outcomes",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. Gather a mix of colored socks (e.g., 3 red, 2 blue, 1 green).\n- 2. **Ask:** \"What is the probability of picking a red sock?\"\n- 3. Count the total socks and the red socks.\n- 4. **Say:** \"The probability is \\(\\frac{3}{6}\\) or \\(\\frac{1}{2}\\).\"\n- 5. Mix the socks and let your child pick one without looking.\n- 6. Discuss if the result matches the prediction and why.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing the numerator and denominator. **Try:** Remind them the numerator is the favorable outcomes.\n- - Forgetting to count all possible outcomes. **Try:** Count all items before calculating.\n- - Assuming probability guarantees an outcome. **Try:** Explain probability shows likelihood, not certainty.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Probability is used in weather forecasts to predict rain chances. It's also used in games, like predicting the roll of a dice or the draw of a card.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Probability helps us make sense of uncertainty. Keep exploring with your child to build their confidence in predicting outcomes!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand basic probability concepts.\n- - Use household items to demonstrate probability.\n- - Make predictions based on probability.\n- **Why this matters for parents:** Helping your child grasp probability builds critical thinking and decision-making skills.",
+    "overview": "Probability is the study of how likely something is to happen. It helps us make predictions about everyday events, like the chance of rain or picking a certain color of sock from a drawer.\nUnderstanding probability is important because it allows children to make informed decisions and understand the world around them. It also lays the groundwork for more advanced math concepts they'll encounter later.",
+    "core": "Probability is about predicting the chance of an event happening. We often express this chance as a fraction, where the numerator is the number of favorable outcomes, and the denominator is the total number of possible outcomes. For example, if you have 3 red marbles and 2 blue marbles in a bag, the probability of picking a red marble is the number of red marbles divided by the total number of marbles.",
+    "demo": "- 1. Gather 5 coins and a small bowl.\n- 2. **Say:** \"Let's see how likely it is to get heads when we flip a coin.\"\n- 3. Flip one coin 10 times, recording heads or tails each time.\n- 4. **Ask:** \"How many times did we get heads?\"\n- 5. **Say:** \"The probability of getting heads is the number of heads divided by the total flips.\"\n- 6. Discuss how this probability might change with more flips.",
+    "math": "Probability is calculated as: $$ P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}} $$\nFor example, if you have a bag with 3 red marbles and 2 blue marbles, the probability of picking a red marble is: $$ P(\text{red}) = \\frac{3}{5} $$",
+    "formulas": "P(\text{event}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total number of possible outcomes}}\n- \\(P(\\text{event})\\): Probability of the event\n- \\(\\text{Number of favorable outcomes}\\): Outcomes that match the event\n- \\(\\text{Total number of possible outcomes}\\): All possible outcomes",
+    "guide": "- 1. Gather a mix of colored socks (e.g., 3 red, 2 blue, 1 green).\n- 2. **Ask:** \"What is the probability of picking a red sock?\"\n- 3. Count the total socks and the red socks.\n- 4. **Say:** \"The probability is \\(\\frac{3}{6}\\) or \\(\\frac{1}{2}\\).\"\n- 5. Mix the socks and let your child pick one without looking.\n- 6. Discuss if the result matches the prediction and why.",
+    "mistakes": "- - Confusing the numerator and denominator. **Try:** Remind them the numerator is the favorable outcomes.\n- - Forgetting to count all possible outcomes. **Try:** Count all items before calculating.\n- - Assuming probability guarantees an outcome. **Try:** Explain probability shows likelihood, not certainty.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Probability is used in weather forecasts to predict rain chances. It's also used in games, like predicting the roll of a dice or the draw of a card.",
+    "close": "Probability helps us make sense of uncertainty. Keep exploring with your child to build their confidence in predicting outcomes!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Simple Probability & Predictions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Simple Probability & Predictions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Simple Probability & Predictions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

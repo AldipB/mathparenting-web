@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "2c477ea4-6478-443f-918d-1e62837db9db",
+    "title": "Circles & Coordinates",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "a6317cd2-3d0e-4466-93a3-08d27a0284cc",
+    "slug": "coordinate-geometry",
+    "title": "Coordinate Geometry",
+    "summary": "Coordinate Geometry — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of coordinate geometry.\n- Learn how to plot points and find distances on a coordinate plane.\n- **Why this matters for parents:** Coordinate geometry helps your child visualize math and solve real-world problems involving space and distance.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Coordinate geometry is a branch of geometry where we use a coordinate plane to represent geometric figures and analyze their properties. It involves plotting points, lines, and shapes using pairs of numbers called coordinates.\nThis matters because it connects algebra and geometry, allowing us to solve problems involving distance, midpoint, and slope. It's a foundational skill for advanced math and everyday problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In coordinate geometry, we use a grid called the coordinate plane. It has two axes: the horizontal x-axis and the vertical y-axis. Each point on this plane is represented by an ordered pair (x, y). Understanding how to navigate this grid helps in visualizing and solving geometric problems.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's imagine our living room floor as a giant grid.\"\n2. **Ask:** \"Can you place a book at the point (2, 3)?\"\n3. Use tape to mark the x-axis and y-axis on the floor.\n4. **Say:** \"The point (2, 3) means 2 steps along the x-axis and 3 steps up the y-axis.\"\n5. Place a small object, like a toy, at the marked point.\n6. **Ask:** \"How far is this point from the origin (0, 0)?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the distance between two points, use the distance formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$. For example, between points (1, 2) and (4, 6), the distance is: $$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5$$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Distance Formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n* $d$: distance between points\n* $(x_1, y_1)$ and $(x_2, y_2)$: coordinates of the two points",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What are the coordinates of our starting point?\"\n2. **Say:** \"Let's find the distance to another point, like (5, 7).\"\n3. **Guide:** Use the distance formula together.\n4. **Ask:** \"What do you notice about the distance calculation?\"\n5. **Say:** \"Try plotting different points and calculate their distances.\"\n6. **Encourage:** \"Practice helps make these steps feel natural!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up x and y coordinates. **Try:** Label axes clearly.\n- Forgetting to square differences in the distance formula. **Try:** Write each step out.\n- Not using the square root in the final step. **Try:** Double-check calculations.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Coordinate geometry is used in navigation systems like GPS to calculate distances and directions. It's also essential in computer graphics for designing and animating objects.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Coordinate geometry opens up a world of understanding in math and beyond. Keep exploring and enjoy the journey!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of coordinate geometry.\n- Learn how to plot points and find distances on a coordinate plane.\n- **Why this matters for parents:** Coordinate geometry helps your child visualize math and solve real-world problems involving space and distance.",
+    "overview": "Coordinate geometry is a branch of geometry where we use a coordinate plane to represent geometric figures and analyze their properties. It involves plotting points, lines, and shapes using pairs of numbers called coordinates.\nThis matters because it connects algebra and geometry, allowing us to solve problems involving distance, midpoint, and slope. It's a foundational skill for advanced math and everyday problem-solving.",
+    "core": "In coordinate geometry, we use a grid called the coordinate plane. It has two axes: the horizontal x-axis and the vertical y-axis. Each point on this plane is represented by an ordered pair (x, y). Understanding how to navigate this grid helps in visualizing and solving geometric problems.",
+    "demo": "1. **Say:** \"Let's imagine our living room floor as a giant grid.\"\n2. **Ask:** \"Can you place a book at the point (2, 3)?\"\n3. Use tape to mark the x-axis and y-axis on the floor.\n4. **Say:** \"The point (2, 3) means 2 steps along the x-axis and 3 steps up the y-axis.\"\n5. Place a small object, like a toy, at the marked point.\n6. **Ask:** \"How far is this point from the origin (0, 0)?\"",
+    "math": "To find the distance between two points, use the distance formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$. For example, between points (1, 2) and (4, 6), the distance is: $$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5$$.",
+    "formulas": "Distance Formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n* $d$: distance between points\n* $(x_1, y_1)$ and $(x_2, y_2)$: coordinates of the two points",
+    "guide": "1. **Ask:** \"What are the coordinates of our starting point?\"\n2. **Say:** \"Let's find the distance to another point, like (5, 7).\"\n3. **Guide:** Use the distance formula together.\n4. **Ask:** \"What do you notice about the distance calculation?\"\n5. **Say:** \"Try plotting different points and calculate their distances.\"\n6. **Encourage:** \"Practice helps make these steps feel natural!\"",
+    "mistakes": "- Mixing up x and y coordinates. **Try:** Label axes clearly.\n- Forgetting to square differences in the distance formula. **Try:** Write each step out.\n- Not using the square root in the final step. **Try:** Double-check calculations.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Coordinate geometry is used in navigation systems like GPS to calculate distances and directions. It's also essential in computer graphics for designing and animating objects.",
+    "close": "Coordinate geometry opens up a world of understanding in math and beyond. Keep exploring and enjoy the journey!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Coordinate Geometry**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Coordinate Geometry** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Coordinate Geometry**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

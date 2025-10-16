@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "309f5d35-2d0a-44d6-babd-eb4e04b29870",
+    "slug": "coins-and-notes-recognize-no-calculations",
+    "title": "Coins and Notes (Recognize, No Calculations)",
+    "summary": "Coins and Notes (Recognize, No Calculations) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 16
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child recognize different coins and notes.\n- Use everyday objects to make learning fun and relatable.\n- **Why this matters for parents:** Understanding money is a key life skill that starts with simple recognition.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson helps your child recognize and differentiate between coins and notes. We'll focus on identifying them by size, color, and pictures, without doing any math calculations.\nRecognizing money is an essential skill that lays the foundation for future financial literacy. It helps children understand the value of objects and the concept of exchange.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will learn to identify coins and notes by observing their physical characteristics. We'll use real or play money to make this hands-on and engaging. This is about recognizing and naming, not counting or adding.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a mix of coins and notes (real or play money) and some paper.\n2. **Say:** \"Let's look at these coins. Can you find the biggest one?\"\n3. Place each coin on a piece of paper and trace around it.\n4. **Ask:** \"Which coin fits this outline?\"\n5. Flip the coins to show heads and tails. **Say:** \"See how the pictures are different on each side.\"\n6. Match coins to their outlines and talk about the pictures and edges.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Coins and notes have unique features that help us recognize them. For example, a quarter is larger than a dime and has ridged edges. A $1 bill is smaller than a $5 bill and has different images.\nExample: A quarter is larger than a dime. If you have both, the quarter will cover the dime completely.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by showing your child a coin or note. **Say:** \"This is a quarter.\"\n2. Point out its size and color. **Ask:** \"What do you notice about it?\"\n3. Compare it with another coin. **Say:** \"This dime is smaller.\"\n4. Discuss the pictures on each side. **Ask:** \"What picture do you see?\"\n5. Encourage your child to match coins to outlines you traced earlier.\n6. Reinforce learning by repeating with different coins and notes.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child confuses coins, try: \"Let's look at the size and edges again.\"\n- If they mix up heads and tails, try: \"Can you find the picture side?\"\n- If they struggle with matching, try: \"Let's trace it again together.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, point out coins and notes used in transactions. At home, use play money during pretend play to reinforce recognition.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child recognize coins and notes! This is a big step towards understanding money and its role in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child recognize different coins and notes.\n- Use everyday objects to make learning fun and relatable.\n- **Why this matters for parents:** Understanding money is a key life skill that starts with simple recognition.",
+    "overview": "This lesson helps your child recognize and differentiate between coins and notes. We'll focus on identifying them by size, color, and pictures, without doing any math calculations.\nRecognizing money is an essential skill that lays the foundation for future financial literacy. It helps children understand the value of objects and the concept of exchange.",
+    "core": "Children will learn to identify coins and notes by observing their physical characteristics. We'll use real or play money to make this hands-on and engaging. This is about recognizing and naming, not counting or adding.",
+    "demo": "1. Gather a mix of coins and notes (real or play money) and some paper.\n2. **Say:** \"Let's look at these coins. Can you find the biggest one?\"\n3. Place each coin on a piece of paper and trace around it.\n4. **Ask:** \"Which coin fits this outline?\"\n5. Flip the coins to show heads and tails. **Say:** \"See how the pictures are different on each side.\"\n6. Match coins to their outlines and talk about the pictures and edges.",
+    "math": "Coins and notes have unique features that help us recognize them. For example, a quarter is larger than a dime and has ridged edges. A $1 bill is smaller than a $5 bill and has different images.\nExample: A quarter is larger than a dime. If you have both, the quarter will cover the dime completely.",
+    "guide": "1. Start by showing your child a coin or note. **Say:** \"This is a quarter.\"\n2. Point out its size and color. **Ask:** \"What do you notice about it?\"\n3. Compare it with another coin. **Say:** \"This dime is smaller.\"\n4. Discuss the pictures on each side. **Ask:** \"What picture do you see?\"\n5. Encourage your child to match coins to outlines you traced earlier.\n6. Reinforce learning by repeating with different coins and notes.",
+    "mistakes": "- If your child confuses coins, try: \"Let's look at the size and edges again.\"\n- If they mix up heads and tails, try: \"Can you find the picture side?\"\n- If they struggle with matching, try: \"Let's trace it again together.\"",
+    "connection": "When shopping, point out coins and notes used in transactions. At home, use play money during pretend play to reinforce recognition.",
+    "close": "Great job helping your child recognize coins and notes! This is a big step towards understanding money and its role in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Which coin is larger, a penny or a nickel?",
+      "hint_md": "Think about the size and color of each coin.",
+      "answer_md": "A nickel is larger than a penny."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What color is a dime?",
+      "hint_md": "Look at the metal color.",
+      "answer_md": "A dime is silver-colored."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is on the heads side of a quarter?",
+      "hint_md": "Look for a face or a symbol.",
+      "answer_md": "The heads side of a quarter usually has a face, like George Washington."
+    }
+  ]
+}

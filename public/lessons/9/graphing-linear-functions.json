@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "16869df7-6718-49df-a49f-1c1ac7a428c5",
+    "title": "Linear Relationships",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "7347560d-a417-4c54-8a31-07e4eacd9fe1",
+    "slug": "graphing-linear-functions",
+    "title": "Graphing Linear Functions",
+    "summary": "Graphing Linear Functions — summary for parents in Grade 9 — Algebra I Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to graph linear functions.\n- Learn to interpret the slope and y-intercept.\n- **Why this matters for parents:** You'll be able to help your child visualize math concepts, making them more relatable and less abstract.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Graphing linear functions involves plotting points on a coordinate plane to represent equations of the form $y = mx + b$. This helps visualize how changes in variables affect the line.\nUnderstanding graphing is crucial because it connects algebraic equations to visual representations, making it easier for students to grasp relationships between variables.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Linear functions create straight lines when graphed. The equation $y = mx + b$ describes these lines, where $m$ is the slope and $b$ is the y-intercept. The slope indicates the line's steepness, while the y-intercept is where the line crosses the y-axis.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** Graph paper, a ruler, and a pencil.\n2. **Say:** \"Let's graph the equation $y = 2x + 1$.\"\n3. **Ask:** \"What is the y-intercept?\" (Answer: 1)\n4. Plot the point (0, 1) on the y-axis.\n5. **Say:** \"The slope is 2, meaning 'rise over run' is 2/1.\"\n6. From (0, 1), move up 2 units and right 1 unit to plot the next point. Draw a line through these points.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The equation $y = mx + b$ is key. For example, in $y = 3x + 2$, the slope $m$ is 3, and the y-intercept $b$ is 2. This means the line crosses the y-axis at 2 and rises 3 units for every 1 unit it moves to the right.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $y = mx + b$\n  - $y$: dependent variable (vertical axis)\n  - $m$: slope (rise/run)\n  - $x$: independent variable (horizontal axis)\n  - $b$: y-intercept (where line crosses y-axis)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** \"The y-intercept is where the line starts on the y-axis.\"\n2. **Show:** \"The slope tells us how steep the line is.\"\n3. **Plot:** Start with the y-intercept, then use the slope to find another point.\n4. **Draw:** Connect the points with a straight line using a ruler.\n5. **Discuss:** \"Notice how the line extends in both directions.\"\n6. **Reflect:** \"How does changing the slope or intercept change the line?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing slope direction: Try using 'rise over run' to clarify.\n- Misplacing the y-intercept: Try starting at the y-axis.\n- Incorrect slope calculation: Try counting units carefully.\n- Forgetting to draw a straight line: Try using a ruler.\n- Mixing up axes: Try labeling x and y axes clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Graphing linear functions is like mapping a route. Just as a map shows a path, a graph shows how variables relate. It's used in budgeting, where expenses and income are plotted to visualize financial health.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Graphing linear functions helps your child see math in action. With practice, these concepts will become second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to graph linear functions.\n- Learn to interpret the slope and y-intercept.\n- **Why this matters for parents:** You'll be able to help your child visualize math concepts, making them more relatable and less abstract.",
+    "overview": "Graphing linear functions involves plotting points on a coordinate plane to represent equations of the form $y = mx + b$. This helps visualize how changes in variables affect the line.\nUnderstanding graphing is crucial because it connects algebraic equations to visual representations, making it easier for students to grasp relationships between variables.",
+    "core": "Linear functions create straight lines when graphed. The equation $y = mx + b$ describes these lines, where $m$ is the slope and $b$ is the y-intercept. The slope indicates the line's steepness, while the y-intercept is where the line crosses the y-axis.",
+    "demo": "1. **Gather:** Graph paper, a ruler, and a pencil.\n2. **Say:** \"Let's graph the equation $y = 2x + 1$.\"\n3. **Ask:** \"What is the y-intercept?\" (Answer: 1)\n4. Plot the point (0, 1) on the y-axis.\n5. **Say:** \"The slope is 2, meaning 'rise over run' is 2/1.\"\n6. From (0, 1), move up 2 units and right 1 unit to plot the next point. Draw a line through these points.",
+    "math": "The equation $y = mx + b$ is key. For example, in $y = 3x + 2$, the slope $m$ is 3, and the y-intercept $b$ is 2. This means the line crosses the y-axis at 2 and rises 3 units for every 1 unit it moves to the right.",
+    "formulas": "- $y = mx + b$\n  - $y$: dependent variable (vertical axis)\n  - $m$: slope (rise/run)\n  - $x$: independent variable (horizontal axis)\n  - $b$: y-intercept (where line crosses y-axis)",
+    "guide": "1. **Explain:** \"The y-intercept is where the line starts on the y-axis.\"\n2. **Show:** \"The slope tells us how steep the line is.\"\n3. **Plot:** Start with the y-intercept, then use the slope to find another point.\n4. **Draw:** Connect the points with a straight line using a ruler.\n5. **Discuss:** \"Notice how the line extends in both directions.\"\n6. **Reflect:** \"How does changing the slope or intercept change the line?\"",
+    "mistakes": "- Confusing slope direction: Try using 'rise over run' to clarify.\n- Misplacing the y-intercept: Try starting at the y-axis.\n- Incorrect slope calculation: Try counting units carefully.\n- Forgetting to draw a straight line: Try using a ruler.\n- Mixing up axes: Try labeling x and y axes clearly.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Graphing linear functions is like mapping a route. Just as a map shows a path, a graph shows how variables relate. It's used in budgeting, where expenses and income are plotted to visualize financial health.",
+    "close": "Graphing linear functions helps your child see math in action. With practice, these concepts will become second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Graphing Linear Functions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Graphing Linear Functions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Graphing Linear Functions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

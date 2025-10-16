@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "ab327d02-5cf8-4fc4-abba-1180ffbcd7fa",
+    "title": "Measurement & Geometry",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "7cd2e631-17c9-4045-8f1b-d9a9b80a4523",
+    "slug": "area-perimeter-rectangles-irregular",
+    "title": "Area & Perimeter (Rectangles & Irregular)",
+    "summary": "Area & Perimeter (Rectangles & Irregular) — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of area and perimeter for rectangles and irregular shapes.\n- Use household objects to visualize and calculate area and perimeter.\n- **Why this matters for parents:** Helps children connect math to everyday life, enhancing problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores how to measure the space inside a shape (area) and the distance around it (perimeter). We'll focus on rectangles and irregular shapes using simple household items.\nUnderstanding area and perimeter is crucial because it helps children grasp how space and boundaries work, which is useful in real-life situations like planning a garden or arranging furniture.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Area is the amount of space inside a shape, while perimeter is the distance around it. By using objects like sticks or straws, children can build and measure shapes, making these concepts tangible and fun.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some rectangles around the house!\" Look for books, tables, or picture frames.\n2. **Ask:** \"How many sides does this rectangle have?\" (4 sides)\n3. Use straws or sticks to build a rectangle. **Say:** \"Let's measure the sides.\"\n4. Compare a square and a rectangle. **Ask:** \"What’s different? What’s the same?\"\n5. **Say:** \"Let's make a 'diamond' by rotating the square. Is it still a square? Why?\"\n6. Measure the perimeter by adding the lengths of all sides. Use a ruler to find the area by multiplying length and width.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the perimeter of a rectangle, add up all the sides: $P = 2(l + w)$. For area, multiply the length by the width: $A = l \times w$.\nExample: For a rectangle with length 5 units and width 3 units:\n- Perimeter: $P = 2(5 + 3) = 16$ units\n- Area: $A = 5 \times 3 = 15$ square units",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Perimeter of a rectangle: $P = 2(l + w)$\n  - $P$: Perimeter\n  - $l$: Length\n  - $w$: Width\n- Area of a rectangle: $A = l \\times w$\n  - $A$: Area\n  - $l$: Length\n  - $w$: Width",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a rectangular object. **Ask:** \"What shape is this? How many sides?\"\n2. Measure the length and width using a ruler. **Say:** \"Let's write these down.\"\n3. Calculate the perimeter together. **Ask:** \"What do we get when we add all the sides?\"\n4. Calculate the area. **Say:** \"Multiply the length by the width.\"\n5. Discuss irregular shapes. **Ask:** \"How can we find the perimeter of this shape?\"\n6. Encourage your child to draw and measure their own shapes.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing area with perimeter. **Try:** \"Remember, area is inside, perimeter is around.\"\n- Forgetting to multiply for area. **Try:** \"Use length times width for area.\"\n- Miscounting sides. **Try:** \"Count each side carefully, especially on irregular shapes.\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When planning a garden, knowing the area helps decide how many plants fit. Perimeter helps determine the length of fencing needed.\nIn art, understanding these concepts aids in framing pictures or designing layouts.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring area and perimeter! These skills will help your child understand the world around them. Keep measuring and discovering!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of area and perimeter for rectangles and irregular shapes.\n- Use household objects to visualize and calculate area and perimeter.\n- **Why this matters for parents:** Helps children connect math to everyday life, enhancing problem-solving skills.",
+    "overview": "This lesson explores how to measure the space inside a shape (area) and the distance around it (perimeter). We'll focus on rectangles and irregular shapes using simple household items.\nUnderstanding area and perimeter is crucial because it helps children grasp how space and boundaries work, which is useful in real-life situations like planning a garden or arranging furniture.",
+    "core": "Area is the amount of space inside a shape, while perimeter is the distance around it. By using objects like sticks or straws, children can build and measure shapes, making these concepts tangible and fun.",
+    "demo": "1. **Say:** \"Let's find some rectangles around the house!\" Look for books, tables, or picture frames.\n2. **Ask:** \"How many sides does this rectangle have?\" (4 sides)\n3. Use straws or sticks to build a rectangle. **Say:** \"Let's measure the sides.\"\n4. Compare a square and a rectangle. **Ask:** \"What’s different? What’s the same?\"\n5. **Say:** \"Let's make a 'diamond' by rotating the square. Is it still a square? Why?\"\n6. Measure the perimeter by adding the lengths of all sides. Use a ruler to find the area by multiplying length and width.",
+    "math": "To find the perimeter of a rectangle, add up all the sides: $P = 2(l + w)$. For area, multiply the length by the width: $A = l \times w$.\nExample: For a rectangle with length 5 units and width 3 units:\n- Perimeter: $P = 2(5 + 3) = 16$ units\n- Area: $A = 5 \times 3 = 15$ square units",
+    "formulas": "- Perimeter of a rectangle: $P = 2(l + w)$\n  - $P$: Perimeter\n  - $l$: Length\n  - $w$: Width\n- Area of a rectangle: $A = l \\times w$\n  - $A$: Area\n  - $l$: Length\n  - $w$: Width",
+    "guide": "1. Find a rectangular object. **Ask:** \"What shape is this? How many sides?\"\n2. Measure the length and width using a ruler. **Say:** \"Let's write these down.\"\n3. Calculate the perimeter together. **Ask:** \"What do we get when we add all the sides?\"\n4. Calculate the area. **Say:** \"Multiply the length by the width.\"\n5. Discuss irregular shapes. **Ask:** \"How can we find the perimeter of this shape?\"\n6. Encourage your child to draw and measure their own shapes.",
+    "mistakes": "- Confusing area with perimeter. **Try:** \"Remember, area is inside, perimeter is around.\"\n- Forgetting to multiply for area. **Try:** \"Use length times width for area.\"\n- Miscounting sides. **Try:** \"Count each side carefully, especially on irregular shapes.\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When planning a garden, knowing the area helps decide how many plants fit. Perimeter helps determine the length of fencing needed.\nIn art, understanding these concepts aids in framing pictures or designing layouts.",
+    "close": "Great job exploring area and perimeter! These skills will help your child understand the world around them. Keep measuring and discovering!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Area & Perimeter (Rectangles & Irregular)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Area & Perimeter (Rectangles & Irregular)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Area & Perimeter (Rectangles & Irregular)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

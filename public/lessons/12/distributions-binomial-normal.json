@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "b4eef387-8bab-4778-b1e0-cf8a52ad1756",
+    "title": "Statistics & Data",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "34022d6c-60b7-4b3e-a356-6d5cdc2307a2",
+    "slug": "distributions-binomial-normal",
+    "title": "Distributions (Binomial, Normal)",
+    "summary": "Distributions (Binomial, Normal) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the basics of binomial and normal distributions.\n- - Recognize real-life situations where these distributions apply.\n- - **Why this matters for parents:** This knowledge helps you support your child in understanding probability and statistics, crucial for many fields.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Distributions describe how data is spread out. In this lesson, we'll explore two types: binomial and normal. The binomial distribution models situations with two possible outcomes, like flipping a coin. The normal distribution, or bell curve, describes data that clusters around a mean.\nUnderstanding these distributions is important because they help us make predictions and understand variability in data. This is useful in fields like science, finance, and even everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The binomial distribution is used when there are a fixed number of independent trials, each with two possible outcomes (success or failure). The normal distribution is a continuous probability distribution that is symmetric around the mean, showing that data near the mean are more frequent in occurrence.\nThese concepts help us understand how likely certain outcomes are and how data behaves in the real world.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore binomial distribution using a coin. We'll flip it 10 times.\n2. **Ask:** How many heads do you think we'll get? Record your guess.\n3. Flip the coin 10 times and record the results.\n4. **Say:** This is a simple binomial distribution. We had 10 trials with two outcomes: heads or tails.\n5. **Ask:** What did you notice about the results? Were they close to your guess?\n6. **Say:** Now, imagine doing this 1000 times. The results would form a pattern, often resembling a bell curve.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a binomial distribution, the probability of getting exactly $k$ successes in $n$ trials is given by:\n$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\nFor example, if you flip a coin 10 times ($n = 10$) with a probability of heads $p = 0.5$, the probability of getting exactly 5 heads is:\n$$P(X = 5) = \\binom{10}{5} (0.5)^5 (0.5)^5 = 0.246$$\nThe normal distribution is characterized by its mean ($\\mu$) and standard deviation ($\\sigma$). It describes how data is spread around the mean.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\n- $n$: number of trials\n- $k$: number of successes\n- $p$: probability of success on a single trial",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's think about a simple experiment, like rolling a die.\n2. **Ask:** What are the possible outcomes?\n3. **Say:** If we roll it multiple times, we can see a pattern in the results.\n4. **Ask:** How might this relate to the binomial or normal distribution?\n5. **Say:** Notice how repeated trials can show us a distribution pattern.\n6. **Ask:** How can understanding these patterns help us in real life?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing the number of trials with the number of successes. **Try:** Clearly define each term before solving.\n- - Forgetting that binomial distribution requires independent trials. **Try:** Ensure each trial doesn't affect the others.\n- - Assuming normal distribution applies to small sample sizes. **Try:** Use larger samples for a clearer bell curve.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Binomial distributions can model situations like predicting the likelihood of rain on a given day. Normal distributions are used in grading systems to understand student performance.\nThese distributions help us make informed decisions, like assessing risks in investments or understanding health statistics.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding distributions helps us see patterns in randomness. Keep exploring these concepts to unlock the power of data in everyday life!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the basics of binomial and normal distributions.\n- - Recognize real-life situations where these distributions apply.\n- - **Why this matters for parents:** This knowledge helps you support your child in understanding probability and statistics, crucial for many fields.",
+    "overview": "Distributions describe how data is spread out. In this lesson, we'll explore two types: binomial and normal. The binomial distribution models situations with two possible outcomes, like flipping a coin. The normal distribution, or bell curve, describes data that clusters around a mean.\nUnderstanding these distributions is important because they help us make predictions and understand variability in data. This is useful in fields like science, finance, and even everyday decision-making.",
+    "core": "The binomial distribution is used when there are a fixed number of independent trials, each with two possible outcomes (success or failure). The normal distribution is a continuous probability distribution that is symmetric around the mean, showing that data near the mean are more frequent in occurrence.\nThese concepts help us understand how likely certain outcomes are and how data behaves in the real world.",
+    "demo": "1. **Say:** Let's explore binomial distribution using a coin. We'll flip it 10 times.\n2. **Ask:** How many heads do you think we'll get? Record your guess.\n3. Flip the coin 10 times and record the results.\n4. **Say:** This is a simple binomial distribution. We had 10 trials with two outcomes: heads or tails.\n5. **Ask:** What did you notice about the results? Were they close to your guess?\n6. **Say:** Now, imagine doing this 1000 times. The results would form a pattern, often resembling a bell curve.",
+    "math": "In a binomial distribution, the probability of getting exactly $k$ successes in $n$ trials is given by:\n$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\nFor example, if you flip a coin 10 times ($n = 10$) with a probability of heads $p = 0.5$, the probability of getting exactly 5 heads is:\n$$P(X = 5) = \\binom{10}{5} (0.5)^5 (0.5)^5 = 0.246$$\nThe normal distribution is characterized by its mean ($\\mu$) and standard deviation ($\\sigma$). It describes how data is spread around the mean.",
+    "formulas": "$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\n- $n$: number of trials\n- $k$: number of successes\n- $p$: probability of success on a single trial",
+    "guide": "1. **Say:** Let's think about a simple experiment, like rolling a die.\n2. **Ask:** What are the possible outcomes?\n3. **Say:** If we roll it multiple times, we can see a pattern in the results.\n4. **Ask:** How might this relate to the binomial or normal distribution?\n5. **Say:** Notice how repeated trials can show us a distribution pattern.\n6. **Ask:** How can understanding these patterns help us in real life?",
+    "mistakes": "- - Confusing the number of trials with the number of successes. **Try:** Clearly define each term before solving.\n- - Forgetting that binomial distribution requires independent trials. **Try:** Ensure each trial doesn't affect the others.\n- - Assuming normal distribution applies to small sample sizes. **Try:** Use larger samples for a clearer bell curve.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Binomial distributions can model situations like predicting the likelihood of rain on a given day. Normal distributions are used in grading systems to understand student performance.\nThese distributions help us make informed decisions, like assessing risks in investments or understanding health statistics.",
+    "close": "Understanding distributions helps us see patterns in randomness. Keep exploring these concepts to unlock the power of data in everyday life!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Distributions (Binomial, Normal)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Distributions (Binomial, Normal)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Distributions (Binomial, Normal)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a576fcb1-c842-4511-a369-d0464f9266e7",
+    "slug": "skip-counting-by-2s-5s-10s",
+    "title": "Skip Counting by 2s, 5s, 10s",
+    "summary": "Skip Counting by 2s, 5s, 10s — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 14
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child understand skip counting by 2s, 5s, and 10s.\n- Build a foundation for addition and multiplication.\n- **Why this matters for parents:** Skip counting is a key math skill that helps children understand patterns and prepare for more complex math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Skip counting is counting forward by numbers other than one. In this lesson, we'll focus on counting by 2s, 5s, and 10s. This helps children recognize patterns and understand grouping.\nSkip counting is important because it lays the groundwork for addition, multiplication, and understanding number sequences. It also helps children count larger quantities more efficiently.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Skip counting is like taking bigger steps on the number line. Instead of counting one by one, we jump by 2s, 5s, or 10s. This makes counting quicker and helps children see patterns in numbers.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 20 small snacks (like grapes) and a toy.\n2. **Say:** \"Let's count these snacks by 2s. Touch two grapes at a time and count: 2, 4, 6...\"\n3. **Ask:** \"What number comes next if we keep counting by 2s?\"\n4. Line up 10 toys. **Say:** \"Now let's count by 5s. Touch each group of 5 toys: 5, 10...\"\n5. **Ask:** \"How many toys do we have if we count by 10s?\"\n6. **Say:** \"Great! We can use skip counting to count quickly and find patterns.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Skip counting by 2s means adding 2 each time: 2, 4, 6, 8, 10. For example, starting at 0 and adding 2 repeatedly gives us 0, 2, 4, 6, 8.\nSkip counting by 5s means adding 5 each time: 5, 10, 15, 20.\nSkip counting by 10s means adding 10 each time: 10, 20, 30.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with counting by 2s using snacks. **Say:** \"Let's count these grapes by 2s.\"\n2. Move to counting by 5s with toys. **Say:** \"Now, let's count these toys by 5s.\"\n3. Use a number line if needed. **Ask:** \"Can you see the pattern?\"\n4. Practice counting by 10s with fingers. **Say:** \"Let's count our fingers by 10s.\"\n5. Reinforce by asking questions. **Ask:** \"What comes after 10 if we skip count by 2s?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child skips a number, try using a number line to visualize the jumps.\n- If they lose track, use physical objects like snacks to keep count.\n- If they struggle with the pattern, repeat the sequence together and emphasize the rhythm.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Skip counting is like counting money. For example, counting nickels (5 cents) or dimes (10 cents) uses skip counting.\nWhen setting the table, skip count by 2s to count pairs of utensils.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring skip counting! Keep practicing, and soon your child will see patterns everywhere.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child understand skip counting by 2s, 5s, and 10s.\n- Build a foundation for addition and multiplication.\n- **Why this matters for parents:** Skip counting is a key math skill that helps children understand patterns and prepare for more complex math concepts.",
+    "overview": "Skip counting is counting forward by numbers other than one. In this lesson, we'll focus on counting by 2s, 5s, and 10s. This helps children recognize patterns and understand grouping.\nSkip counting is important because it lays the groundwork for addition, multiplication, and understanding number sequences. It also helps children count larger quantities more efficiently.",
+    "core": "Skip counting is like taking bigger steps on the number line. Instead of counting one by one, we jump by 2s, 5s, or 10s. This makes counting quicker and helps children see patterns in numbers.",
+    "demo": "1. Gather 20 small snacks (like grapes) and a toy.\n2. **Say:** \"Let's count these snacks by 2s. Touch two grapes at a time and count: 2, 4, 6...\"\n3. **Ask:** \"What number comes next if we keep counting by 2s?\"\n4. Line up 10 toys. **Say:** \"Now let's count by 5s. Touch each group of 5 toys: 5, 10...\"\n5. **Ask:** \"How many toys do we have if we count by 10s?\"\n6. **Say:** \"Great! We can use skip counting to count quickly and find patterns.\"",
+    "math": "Skip counting by 2s means adding 2 each time: 2, 4, 6, 8, 10. For example, starting at 0 and adding 2 repeatedly gives us 0, 2, 4, 6, 8.\nSkip counting by 5s means adding 5 each time: 5, 10, 15, 20.\nSkip counting by 10s means adding 10 each time: 10, 20, 30.",
+    "guide": "1. Start with counting by 2s using snacks. **Say:** \"Let's count these grapes by 2s.\"\n2. Move to counting by 5s with toys. **Say:** \"Now, let's count these toys by 5s.\"\n3. Use a number line if needed. **Ask:** \"Can you see the pattern?\"\n4. Practice counting by 10s with fingers. **Say:** \"Let's count our fingers by 10s.\"\n5. Reinforce by asking questions. **Ask:** \"What comes after 10 if we skip count by 2s?\"",
+    "mistakes": "- If your child skips a number, try using a number line to visualize the jumps.\n- If they lose track, use physical objects like snacks to keep count.\n- If they struggle with the pattern, repeat the sequence together and emphasize the rhythm.",
+    "connection": "Skip counting is like counting money. For example, counting nickels (5 cents) or dimes (10 cents) uses skip counting.\nWhen setting the table, skip count by 2s to count pairs of utensils.",
+    "close": "Great job exploring skip counting! Keep practicing, and soon your child will see patterns everywhere."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What are the next two numbers when skip counting by 2s starting from 10?",
+      "hint_md": "Remember, you add 2 each time.",
+      "answer_md": "12, 14"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What are the next two numbers when skip counting by 5s starting from 15?",
+      "hint_md": "Add 5 to the last number.",
+      "answer_md": "20, 25"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What are the next two numbers when skip counting by 10s starting from 30?",
+      "hint_md": "Think of groups of ten.",
+      "answer_md": "40, 50"
+    }
+  ]
+}

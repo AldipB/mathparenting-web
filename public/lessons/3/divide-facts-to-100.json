@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "bccce2dd-181d-4a2d-8580-a2fa81c65306",
+    "slug": "divide-facts-to-100",
+    "title": "Divide Facts to 100",
+    "summary": "Divide Facts to 100 — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand division facts up to 100\n- Solve simple division problems\n- Build confidence in using division in daily life\n**Why this matters for parents:** Division is a key math skill that helps children solve problems and understand how things are shared or grouped.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on helping your child understand division facts up to 100. Division is the process of splitting a number into equal parts or groups.\nUnderstanding division is important because it lays the foundation for more advanced math concepts. It also helps children in everyday situations, like sharing snacks or dividing chores.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Division is like sharing. If you have 12 apples and 4 friends, you can divide the apples so each friend gets the same amount. This is what division is all about—fair sharing or grouping.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 12 small objects, like buttons or coins.\n2. **Say:** \"Let's share these 12 objects with 3 friends.\"\n3. Divide the objects into 3 equal groups.\n4. **Ask:** \"How many objects are in each group?\"\n5. **Say:** \"Each friend gets 4 objects. So, 12 divided by 3 is 4.\"\n6. Repeat with different numbers to practice.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Division is represented by the symbol $\\div$. For example, $12 \\div 3 = 4$ means 12 objects divided into 3 groups gives 4 objects per group. This is a basic division fact.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a \\div b = c$\n  - $a$: total number of items\n  - $b$: number of groups\n  - $c$: items per group",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a small number of objects, like 10.\n2. **Ask:** \"How can we share these among 2 people?\"\n3. Divide the objects and count together.\n4. **Say:** \"We divided 10 by 2 and got 5.\"\n5. Try different numbers and group sizes.\n6. Encourage your child to explain their thinking.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication with division: Try using objects to show the difference.\n- Forgetting to divide equally: Try counting objects into each group one by one.\n- Miscounting groups: Try using fewer objects to simplify.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Division is used when sharing food, like cutting a pizza into slices. It helps in understanding how many slices each person gets.\nIt's also useful in organizing items, like placing books on shelves evenly.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring division! Keep practicing, and soon dividing will feel as easy as sharing your favorite snack.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand division facts up to 100\n- Solve simple division problems\n- Build confidence in using division in daily life\n**Why this matters for parents:** Division is a key math skill that helps children solve problems and understand how things are shared or grouped.",
+    "overview": "This lesson focuses on helping your child understand division facts up to 100. Division is the process of splitting a number into equal parts or groups.\nUnderstanding division is important because it lays the foundation for more advanced math concepts. It also helps children in everyday situations, like sharing snacks or dividing chores.",
+    "core": "Division is like sharing. If you have 12 apples and 4 friends, you can divide the apples so each friend gets the same amount. This is what division is all about—fair sharing or grouping.",
+    "demo": "1. Gather 12 small objects, like buttons or coins.\n2. **Say:** \"Let's share these 12 objects with 3 friends.\"\n3. Divide the objects into 3 equal groups.\n4. **Ask:** \"How many objects are in each group?\"\n5. **Say:** \"Each friend gets 4 objects. So, 12 divided by 3 is 4.\"\n6. Repeat with different numbers to practice.",
+    "math": "Division is represented by the symbol $\\div$. For example, $12 \\div 3 = 4$ means 12 objects divided into 3 groups gives 4 objects per group. This is a basic division fact.",
+    "formulas": "- $a \\div b = c$\n  - $a$: total number of items\n  - $b$: number of groups\n  - $c$: items per group",
+    "guide": "1. Start with a small number of objects, like 10.\n2. **Ask:** \"How can we share these among 2 people?\"\n3. Divide the objects and count together.\n4. **Say:** \"We divided 10 by 2 and got 5.\"\n5. Try different numbers and group sizes.\n6. Encourage your child to explain their thinking.",
+    "mistakes": "- Confusing multiplication with division: Try using objects to show the difference.\n- Forgetting to divide equally: Try counting objects into each group one by one.\n- Miscounting groups: Try using fewer objects to simplify.",
+    "connection": "Division is used when sharing food, like cutting a pizza into slices. It helps in understanding how many slices each person gets.\nIt's also useful in organizing items, like placing books on shelves evenly.",
+    "close": "Great job exploring division! Keep practicing, and soon dividing will feel as easy as sharing your favorite snack."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is $20 \\div 4$?",
+      "hint_md": "Think about how many groups of 4 are in 20.",
+      "answer_md": "5"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have 15 candies and 3 friends, how many candies does each friend get?",
+      "hint_md": "Divide 15 by the number of friends.",
+      "answer_md": "5"
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many groups of 6 are in 24?",
+      "hint_md": "Divide 24 by 6.",
+      "answer_md": "4"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "5681f00d-6dea-429d-a78e-7f0b1270e208",
+    "title": "Ratios, Rates & Percents",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "0c60fc92-3309-4c2e-82e4-8fcb709b1cbc",
+    "slug": "percent-percentage-problems",
+    "title": "Percent & Percentage Problems",
+    "summary": "Percent & Percentage Problems — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of percent and how to calculate percentages.\n- Solve real-world problems involving percentages.\n- **Why this matters for parents:** Helping your child understand percentages builds their confidence in math and prepares them for everyday tasks like shopping and budgeting.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Percentages are a way to express a number as a fraction of 100. They are used in many aspects of daily life, from calculating discounts to understanding statistics.\nUnderstanding percentages is important because they help us make sense of information quickly. For example, knowing that a 20% discount on a $50 item saves you $10 can help you make smart shopping decisions.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Percent means 'per hundred.' So, when we say 50%, we mean 50 out of 100. This concept helps us compare numbers easily. For example, if your child scores 80% on a test, it means they got 80 out of 100 questions correct.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** 'Let's find 20% of 50 using objects.'\n2. Gather 50 small items, like beans or buttons.\n3. **Ask:** 'What is 10% of 50?' (Divide into 10 equal groups of 5.)\n4. **Say:** '20% is twice 10%, so we take two groups.'\n5. Count out 10 items (2 groups of 5) to show 20% of 50 is 10.\n6. **Ask:** 'What if we wanted 30%? How many groups would we need?'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find a percentage of a number, multiply the number by the percentage (as a decimal). For example, to find 20% of 50:\n$$50 \\times 0.20 = 10$$\nThis means 20% of 50 is 10.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Percentage = \\frac{Part}{Whole} \\times 100\nPart = Whole \\times \\frac{Percentage}{100}\nWhole = \\frac{Part}{Percentage} \\times 100",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** 'What is the whole or total amount we are working with?'\n2. **Say:** 'Let's convert the percentage to a decimal by dividing by 100.'\n3. **Ask:** 'What is the part we are trying to find?'\n4. **Say:** 'Multiply the whole by the decimal to find the part.'\n5. **Ask:** 'Does this answer make sense in the context of the problem?'",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing part and whole. **Try:** Clearly identify the total amount first.\n- Forgetting to convert percentage to decimal. **Try:** Divide the percentage by 100 before multiplying.\n- Mixing up multiplication and division. **Try:** Use multiplication to find the part from the whole.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Percentages are everywhere! When you see a sale sign in a store, you're using percentages to figure out how much you'll save. They also help in understanding nutrition labels and interest rates on savings.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring percentages! Understanding them helps make everyday decisions easier and more informed. Keep practicing, and soon it will feel like second nature.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of percent and how to calculate percentages.\n- Solve real-world problems involving percentages.\n- **Why this matters for parents:** Helping your child understand percentages builds their confidence in math and prepares them for everyday tasks like shopping and budgeting.",
+    "overview": "Percentages are a way to express a number as a fraction of 100. They are used in many aspects of daily life, from calculating discounts to understanding statistics.\nUnderstanding percentages is important because they help us make sense of information quickly. For example, knowing that a 20% discount on a $50 item saves you $10 can help you make smart shopping decisions.",
+    "core": "Percent means 'per hundred.' So, when we say 50%, we mean 50 out of 100. This concept helps us compare numbers easily. For example, if your child scores 80% on a test, it means they got 80 out of 100 questions correct.",
+    "demo": "1. **Say:** 'Let's find 20% of 50 using objects.'\n2. Gather 50 small items, like beans or buttons.\n3. **Ask:** 'What is 10% of 50?' (Divide into 10 equal groups of 5.)\n4. **Say:** '20% is twice 10%, so we take two groups.'\n5. Count out 10 items (2 groups of 5) to show 20% of 50 is 10.\n6. **Ask:** 'What if we wanted 30%? How many groups would we need?'",
+    "math": "To find a percentage of a number, multiply the number by the percentage (as a decimal). For example, to find 20% of 50:\n$$50 \\times 0.20 = 10$$\nThis means 20% of 50 is 10.",
+    "formulas": "Percentage = \\frac{Part}{Whole} \\times 100\nPart = Whole \\times \\frac{Percentage}{100}\nWhole = \\frac{Part}{Percentage} \\times 100",
+    "guide": "1. **Ask:** 'What is the whole or total amount we are working with?'\n2. **Say:** 'Let's convert the percentage to a decimal by dividing by 100.'\n3. **Ask:** 'What is the part we are trying to find?'\n4. **Say:** 'Multiply the whole by the decimal to find the part.'\n5. **Ask:** 'Does this answer make sense in the context of the problem?'",
+    "mistakes": "- Confusing part and whole. **Try:** Clearly identify the total amount first.\n- Forgetting to convert percentage to decimal. **Try:** Divide the percentage by 100 before multiplying.\n- Mixing up multiplication and division. **Try:** Use multiplication to find the part from the whole.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Percentages are everywhere! When you see a sale sign in a store, you're using percentages to figure out how much you'll save. They also help in understanding nutrition labels and interest rates on savings.",
+    "close": "Great job exploring percentages! Understanding them helps make everyday decisions easier and more informed. Keep practicing, and soon it will feel like second nature."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Percent & Percentage Problems**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Percent & Percentage Problems** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Percent & Percentage Problems**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

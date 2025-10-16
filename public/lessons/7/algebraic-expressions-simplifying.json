@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "19efaf66-7dea-4a5c-b1ff-7f329fc1af88",
+    "title": "Algebra & Equations",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "1ca8427d-6d3b-423f-a7e1-120fad0c93a4",
+    "slug": "algebraic-expressions-simplifying",
+    "title": "Algebraic Expressions & Simplifying",
+    "summary": "Algebraic Expressions & Simplifying — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand algebraic expressions and how to simplify them.\n- Practice using household objects to visualize expressions.\n- Build confidence in explaining algebra to your child.\n**Why this matters for parents:** Algebra is foundational for future math skills. Helping your child now strengthens their problem-solving abilities.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Algebraic expressions are combinations of numbers, variables, and operations (like addition or multiplication). Simplifying these expressions means making them as simple as possible without changing their value.\nThis matters because simplifying expressions is a key skill in algebra. It helps students solve equations more easily and understand mathematical relationships.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Think of algebraic expressions like a recipe. Each ingredient (number or variable) plays a role. Simplifying is like combining similar ingredients to make the recipe easier to follow. For example, $3x + 2x$ can be simplified to $5x$ by combining like terms.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use some apples and oranges to understand expressions.\"\n2. Place 3 apples and 2 apples on the table. **Ask:** \"How many apples do we have in total?\"\n3. **Say:** \"This is like $3x + 2x$. We combine the apples to get $5x$.\"\n4. Now, place 3 apples and 2 oranges. **Ask:** \"Can we combine these?\"\n5. **Say:** \"No, because they're different. This is like $3x + 2y$. We can't combine them.\"\n6. **Ask:** \"What if we have $3x + 2x + 4y$? How can we simplify it?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In algebra, expressions like $3x + 2x$ can be simplified by combining like terms. Here, $3x$ and $2x$ are like terms because they both have the variable $x$. So, $3x + 2x = 5x$.\nExample: Simplify $4a + 3b + 2a$. Combine $4a$ and $2a$ to get $6a + 3b$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $ax + bx = (a + b)x$\n  - $a$ and $b$ are coefficients, $x$ is the variable.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What do we have more of, apples or oranges?\" Relate this to identifying like terms.\n2. **Say:** \"Let's write down $3x + 2x$. What do we do with the $x$ terms?\"\n3. **Guide:** \"Combine them to get $5x$.\"\n4. **Ask:** \"If we have $4y + 3y$, what do we get?\"\n5. **Encourage:** \"Try simplifying $5a + 3b + 2a$ together.\"\n6. **Reflect:** \"How does simplifying make solving problems easier?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing different variables: Try using different objects for different variables.\n- Forgetting to combine coefficients: Try counting objects to visualize combining.\n- Combining unlike terms: Try sorting objects first to see which can be combined.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Simplifying expressions is like organizing a grocery list. Grouping similar items makes shopping easier. Similarly, simplifying makes solving equations more straightforward.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! Simplifying expressions is like tidying up a room—everything in its place makes it easier to find what you need.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand algebraic expressions and how to simplify them.\n- Practice using household objects to visualize expressions.\n- Build confidence in explaining algebra to your child.\n**Why this matters for parents:** Algebra is foundational for future math skills. Helping your child now strengthens their problem-solving abilities.",
+    "overview": "Algebraic expressions are combinations of numbers, variables, and operations (like addition or multiplication). Simplifying these expressions means making them as simple as possible without changing their value.\nThis matters because simplifying expressions is a key skill in algebra. It helps students solve equations more easily and understand mathematical relationships.",
+    "core": "Think of algebraic expressions like a recipe. Each ingredient (number or variable) plays a role. Simplifying is like combining similar ingredients to make the recipe easier to follow. For example, $3x + 2x$ can be simplified to $5x$ by combining like terms.",
+    "demo": "1. **Say:** \"Let's use some apples and oranges to understand expressions.\"\n2. Place 3 apples and 2 apples on the table. **Ask:** \"How many apples do we have in total?\"\n3. **Say:** \"This is like $3x + 2x$. We combine the apples to get $5x$.\"\n4. Now, place 3 apples and 2 oranges. **Ask:** \"Can we combine these?\"\n5. **Say:** \"No, because they're different. This is like $3x + 2y$. We can't combine them.\"\n6. **Ask:** \"What if we have $3x + 2x + 4y$? How can we simplify it?\"",
+    "math": "In algebra, expressions like $3x + 2x$ can be simplified by combining like terms. Here, $3x$ and $2x$ are like terms because they both have the variable $x$. So, $3x + 2x = 5x$.\nExample: Simplify $4a + 3b + 2a$. Combine $4a$ and $2a$ to get $6a + 3b$.",
+    "formulas": "- $ax + bx = (a + b)x$\n  - $a$ and $b$ are coefficients, $x$ is the variable.",
+    "guide": "1. **Ask:** \"What do we have more of, apples or oranges?\" Relate this to identifying like terms.\n2. **Say:** \"Let's write down $3x + 2x$. What do we do with the $x$ terms?\"\n3. **Guide:** \"Combine them to get $5x$.\"\n4. **Ask:** \"If we have $4y + 3y$, what do we get?\"\n5. **Encourage:** \"Try simplifying $5a + 3b + 2a$ together.\"\n6. **Reflect:** \"How does simplifying make solving problems easier?\"",
+    "mistakes": "- Confusing different variables: Try using different objects for different variables.\n- Forgetting to combine coefficients: Try counting objects to visualize combining.\n- Combining unlike terms: Try sorting objects first to see which can be combined.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Simplifying expressions is like organizing a grocery list. Grouping similar items makes shopping easier. Similarly, simplifying makes solving equations more straightforward.",
+    "close": "Great job! Simplifying expressions is like tidying up a room—everything in its place makes it easier to find what you need."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Algebraic Expressions & Simplifying**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Algebraic Expressions & Simplifying** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Algebraic Expressions & Simplifying**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

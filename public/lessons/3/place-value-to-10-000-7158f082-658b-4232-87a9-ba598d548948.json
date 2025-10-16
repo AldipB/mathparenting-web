@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "7158f082-658b-4232-87a9-ba598d548948",
+    "slug": "place-value-to-10-000-7158f082-658b-4232-87a9-ba598d548948",
+    "title": "Place Value to 10,000",
+    "summary": "Place Value to 10,000 — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand place value up to 10,000.\n- Identify the value of each digit in a four-digit number.\n- **Why this matters for parents:** Understanding place value helps children grasp larger numbers and perform operations like addition and subtraction.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Place value is the value of where a digit is in a number. For example, in the number 3,482, the '3' is in the thousands place, meaning it represents 3,000.\nThis concept is crucial because it forms the foundation for understanding larger numbers and performing arithmetic operations. It helps children see numbers as more than just digits, but as parts of a whole.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Place value helps children understand that in the number 4,567, the '4' is not just a 4, but represents 4,000. This understanding is key to performing math operations and solving problems involving large numbers.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small objects (like beans) and a few bowls.\n2. **Say:** \"Each bowl represents a place: ones, tens, hundreds, and thousands.\"\n3. Place 3 beans in the thousands bowl, 4 in the hundreds, 5 in the tens, and 6 in the ones.\n4. **Ask:** \"What number do we have?\" (Answer: 3,456)\n5. **Say:** \"The '3' is in the thousands place, so it means 3,000.\"\n6. Repeat with different numbers to reinforce understanding.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In the number 7,892, each digit has a place value:\n- '7' is in the thousands place, so it represents 7,000.\n- '8' is in the hundreds place, so it represents 800.\n- '9' is in the tens place, so it represents 90.\n- '2' is in the ones place, so it represents 2.\nThis means 7,892 is the sum of 7,000 + 800 + 90 + 2.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Place Value = Digit \\times Position Value\n- Digit: The number in the place (e.g., 4 in 4,567)\n- Position Value: The value of the place (e.g., 1,000 for thousands)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Write a four-digit number, like 5,321, on paper.\n2. **Ask:** \"What does the '5' represent?\" (Answer: 5,000)\n3. **Ask:** \"What about the '3'?\" (Answer: 300)\n4. **Say:** \"Let's add them: 5,000 + 300 + 20 + 1 = 5,321.\"\n5. Practice with different numbers, emphasizing the value of each digit.\n6. Use household items to represent each place value for hands-on learning.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the place value: Try using objects to visualize each place.\n- Misreading numbers: Try reading each digit's value aloud.\n- Forgetting zero's role: Try explaining that zero holds a place, like in 4,506.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Understanding place value helps with money management. For example, knowing that $2,345 is two thousand dollars helps in budgeting and spending wisely.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring place value! This understanding will help your child tackle bigger math challenges with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand place value up to 10,000.\n- Identify the value of each digit in a four-digit number.\n- **Why this matters for parents:** Understanding place value helps children grasp larger numbers and perform operations like addition and subtraction.",
+    "overview": "Place value is the value of where a digit is in a number. For example, in the number 3,482, the '3' is in the thousands place, meaning it represents 3,000.\nThis concept is crucial because it forms the foundation for understanding larger numbers and performing arithmetic operations. It helps children see numbers as more than just digits, but as parts of a whole.",
+    "core": "Place value helps children understand that in the number 4,567, the '4' is not just a 4, but represents 4,000. This understanding is key to performing math operations and solving problems involving large numbers.",
+    "demo": "1. Gather 10 small objects (like beans) and a few bowls.\n2. **Say:** \"Each bowl represents a place: ones, tens, hundreds, and thousands.\"\n3. Place 3 beans in the thousands bowl, 4 in the hundreds, 5 in the tens, and 6 in the ones.\n4. **Ask:** \"What number do we have?\" (Answer: 3,456)\n5. **Say:** \"The '3' is in the thousands place, so it means 3,000.\"\n6. Repeat with different numbers to reinforce understanding.",
+    "math": "In the number 7,892, each digit has a place value:\n- '7' is in the thousands place, so it represents 7,000.\n- '8' is in the hundreds place, so it represents 800.\n- '9' is in the tens place, so it represents 90.\n- '2' is in the ones place, so it represents 2.\nThis means 7,892 is the sum of 7,000 + 800 + 90 + 2.",
+    "formulas": "Place Value = Digit \\times Position Value\n- Digit: The number in the place (e.g., 4 in 4,567)\n- Position Value: The value of the place (e.g., 1,000 for thousands)",
+    "guide": "1. Write a four-digit number, like 5,321, on paper.\n2. **Ask:** \"What does the '5' represent?\" (Answer: 5,000)\n3. **Ask:** \"What about the '3'?\" (Answer: 300)\n4. **Say:** \"Let's add them: 5,000 + 300 + 20 + 1 = 5,321.\"\n5. Practice with different numbers, emphasizing the value of each digit.\n6. Use household items to represent each place value for hands-on learning.",
+    "mistakes": "- Confusing the place value: Try using objects to visualize each place.\n- Misreading numbers: Try reading each digit's value aloud.\n- Forgetting zero's role: Try explaining that zero holds a place, like in 4,506.",
+    "connection": "Understanding place value helps with money management. For example, knowing that $2,345 is two thousand dollars helps in budgeting and spending wisely.",
+    "close": "Great job exploring place value! This understanding will help your child tackle bigger math challenges with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the place value of '6' in 6,789?",
+      "hint_md": "Think about what place the '6' is in.",
+      "answer_md": "6,000"
+    },
+    {
+      "order_index": 2,
+      "question_md": "In the number 4,052, what does the '0' represent?",
+      "hint_md": "Consider what place the '0' is holding.",
+      "answer_md": "0 hundreds"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Write the number 3,210 in expanded form.",
+      "hint_md": "Break down each digit by its place value.",
+      "answer_md": "3,000 + 200 + 10 + 0"
+    }
+  ]
+}

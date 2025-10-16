@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "76a1e64c-3a6a-4df2-b3eb-23630c172915",
+    "title": "Logic & Proof",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "912e20ab-3bc2-48f4-9dd6-a543e49b48ae",
+    "slug": "points-lines-angles",
+    "title": "Points, Lines, Angles",
+    "summary": "Points, Lines, Angles — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basic concepts of points, lines, and angles.\n- Learn how to identify and describe these elements in everyday life.\n- **Why this matters for parents:** Helping your child grasp these concepts builds a strong foundation for more advanced geometry.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we will explore the fundamental elements of geometry: points, lines, and angles. These are the building blocks for understanding more complex geometric concepts.\nUnderstanding points, lines, and angles is crucial because they form the basis of shapes and structures in the world around us. Recognizing these elements helps children develop spatial awareness and problem-solving skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A point is a precise location in space, often represented by a dot. A line is a straight path extending in both directions without end. An angle is formed when two lines meet at a point. These concepts help us describe and understand the world geometrically.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find a point in our home.\"\n   - Use a small sticker or a dot on a piece of paper to represent a point.\n2. **Ask:** \"Can you show me a line?\"\n   - Use a string stretched between two chairs to illustrate a line.\n3. **Say:** \"Now, let's create an angle.\"\n   - Use two pencils meeting at one end to form an angle.\n4. **Ask:** \"What happens if we change the angle?\"\n   - Adjust the pencils to show different angles.\n5. **Say:** \"See how these basic shapes are everywhere?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In geometry, a point is denoted by a capital letter, like $A$. A line can be named by any two points on it, such as $\\overleftrightarrow{AB}$. An angle is formed by two rays with a common endpoint, called the vertex. For example, if two rays $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$ meet at $A$, the angle is $\\angle BAC$. If $\\angle BAC = 45^\\circ$, it is an acute angle.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is a point?\"\n   - Encourage your child to describe it in their own words.\n2. **Say:** \"Let's find lines around us.\"\n   - Look for edges of tables or books.\n3. **Ask:** \"Can you show me an angle?\"\n   - Use your arms to form an angle.\n4. **Say:** \"Let's measure this angle.\"\n   - Use a protractor if available.\n5. **Ask:** \"How do these shapes help us understand objects?\"\n   - Discuss how these elements make up everyday items.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing lines with line segments.\n  - Try: Emphasize that lines extend infinitely.\n- Misidentifying angles.\n  - Try: Use a protractor to measure angles.\n- Forgetting that points have no size.\n  - Try: Reinforce that points are locations, not objects.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Geometry is everywhere! When you look at a road map, the intersections are points, the roads are lines, and the corners are angles. Architects use these concepts to design buildings.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring the basics of geometry! Keep looking for points, lines, and angles in your world. They're everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basic concepts of points, lines, and angles.\n- Learn how to identify and describe these elements in everyday life.\n- **Why this matters for parents:** Helping your child grasp these concepts builds a strong foundation for more advanced geometry.",
+    "overview": "In this lesson, we will explore the fundamental elements of geometry: points, lines, and angles. These are the building blocks for understanding more complex geometric concepts.\nUnderstanding points, lines, and angles is crucial because they form the basis of shapes and structures in the world around us. Recognizing these elements helps children develop spatial awareness and problem-solving skills.",
+    "core": "A point is a precise location in space, often represented by a dot. A line is a straight path extending in both directions without end. An angle is formed when two lines meet at a point. These concepts help us describe and understand the world geometrically.",
+    "demo": "1. **Say:** \"Let's find a point in our home.\"\n   - Use a small sticker or a dot on a piece of paper to represent a point.\n2. **Ask:** \"Can you show me a line?\"\n   - Use a string stretched between two chairs to illustrate a line.\n3. **Say:** \"Now, let's create an angle.\"\n   - Use two pencils meeting at one end to form an angle.\n4. **Ask:** \"What happens if we change the angle?\"\n   - Adjust the pencils to show different angles.\n5. **Say:** \"See how these basic shapes are everywhere?\"",
+    "math": "In geometry, a point is denoted by a capital letter, like $A$. A line can be named by any two points on it, such as $\\overleftrightarrow{AB}$. An angle is formed by two rays with a common endpoint, called the vertex. For example, if two rays $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$ meet at $A$, the angle is $\\angle BAC$. If $\\angle BAC = 45^\\circ$, it is an acute angle.",
+    "guide": "1. **Ask:** \"What is a point?\"\n   - Encourage your child to describe it in their own words.\n2. **Say:** \"Let's find lines around us.\"\n   - Look for edges of tables or books.\n3. **Ask:** \"Can you show me an angle?\"\n   - Use your arms to form an angle.\n4. **Say:** \"Let's measure this angle.\"\n   - Use a protractor if available.\n5. **Ask:** \"How do these shapes help us understand objects?\"\n   - Discuss how these elements make up everyday items.",
+    "mistakes": "- Confusing lines with line segments.\n  - Try: Emphasize that lines extend infinitely.\n- Misidentifying angles.\n  - Try: Use a protractor to measure angles.\n- Forgetting that points have no size.\n  - Try: Reinforce that points are locations, not objects.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Geometry is everywhere! When you look at a road map, the intersections are points, the roads are lines, and the corners are angles. Architects use these concepts to design buildings.",
+    "close": "Great job exploring the basics of geometry! Keep looking for points, lines, and angles in your world. They're everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Points, Lines, Angles**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Points, Lines, Angles** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Points, Lines, Angles**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

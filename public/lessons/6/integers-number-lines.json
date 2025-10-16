@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "1b2d7a7f-7ed7-441a-b2e8-7ed1e0d3ed1f",
+    "title": "Numbers & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d2253b6c-5606-489d-8207-8e3fc48c217a",
+    "slug": "integers-number-lines",
+    "title": "Integers & Number Lines",
+    "summary": "Integers & Number Lines — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand integers and their placement on a number line.\n- Learn how to add and subtract integers using a number line.\n- **Why this matters for parents:** Helps children grasp positive and negative numbers, a foundation for future math topics.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Integers are whole numbers that can be positive, negative, or zero. They are used in everyday life, like temperatures or bank balances.\nUnderstanding integers and how to use a number line helps children visualize math problems, making abstract concepts more concrete.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Integers include numbers like -3, 0, and 4. A number line is a visual tool where numbers are placed in order from left (negative) to right (positive). This helps children see how numbers relate to each other.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use a ruler as our number line.\"\n2. Place the ruler on the table, marking the middle as 0.\n3. **Ask:** \"Where would -2 be?\" (Point to the left of 0.)\n4. **Say:** \"Now, where is +3?\" (Point to the right of 0.)\n5. Use small objects (like coins) to mark -2 and +3.\n6. **Say:** \"Adding -2 and +3 means moving left 2 spaces, then right 3 spaces.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Integers are numbers without fractions or decimals. On a number line, positive numbers are right of zero, and negative numbers are left. For example, to add -2 and 3, start at -2 and move 3 spaces right, landing on 1.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Draw a number line on paper with 0 in the center.\n2. **Ask:** \"What happens if we add 2 to -3?\"\n3. Use a finger to move left to -3, then right 2 spaces.\n4. **Say:** \"We land on -1.\"\n5. **Ask:** \"What if we subtract 4 from 2?\"\n6. Move right to 2, then left 4 spaces to -2.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing direction: Try using a ruler to show left and right clearly.\n- Forgetting zero: Try starting from zero each time.\n- Miscounting spaces: Try using small objects to count movements.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Integers are used in real life, like tracking temperature changes or managing a budget. Understanding them helps with everyday decisions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring integers and number lines! These skills will help your child tackle more complex math with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand integers and their placement on a number line.\n- Learn how to add and subtract integers using a number line.\n- **Why this matters for parents:** Helps children grasp positive and negative numbers, a foundation for future math topics.",
+    "overview": "Integers are whole numbers that can be positive, negative, or zero. They are used in everyday life, like temperatures or bank balances.\nUnderstanding integers and how to use a number line helps children visualize math problems, making abstract concepts more concrete.",
+    "core": "Integers include numbers like -3, 0, and 4. A number line is a visual tool where numbers are placed in order from left (negative) to right (positive). This helps children see how numbers relate to each other.",
+    "demo": "1. **Say:** \"Let's use a ruler as our number line.\"\n2. Place the ruler on the table, marking the middle as 0.\n3. **Ask:** \"Where would -2 be?\" (Point to the left of 0.)\n4. **Say:** \"Now, where is +3?\" (Point to the right of 0.)\n5. Use small objects (like coins) to mark -2 and +3.\n6. **Say:** \"Adding -2 and +3 means moving left 2 spaces, then right 3 spaces.\"",
+    "math": "Integers are numbers without fractions or decimals. On a number line, positive numbers are right of zero, and negative numbers are left. For example, to add -2 and 3, start at -2 and move 3 spaces right, landing on 1.",
+    "guide": "1. Draw a number line on paper with 0 in the center.\n2. **Ask:** \"What happens if we add 2 to -3?\"\n3. Use a finger to move left to -3, then right 2 spaces.\n4. **Say:** \"We land on -1.\"\n5. **Ask:** \"What if we subtract 4 from 2?\"\n6. Move right to 2, then left 4 spaces to -2.",
+    "mistakes": "- Confusing direction: Try using a ruler to show left and right clearly.\n- Forgetting zero: Try starting from zero each time.\n- Miscounting spaces: Try using small objects to count movements.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Integers are used in real life, like tracking temperature changes or managing a budget. Understanding them helps with everyday decisions.",
+    "close": "Great job exploring integers and number lines! These skills will help your child tackle more complex math with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Integers & Number Lines**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Integers & Number Lines** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Integers & Number Lines**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

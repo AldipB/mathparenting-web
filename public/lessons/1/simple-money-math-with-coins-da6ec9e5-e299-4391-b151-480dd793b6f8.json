@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "da6ec9e5-e299-4391-b151-480dd793b6f8",
+    "slug": "simple-money-math-with-coins-da6ec9e5-e299-4391-b151-480dd793b6f8",
+    "title": "Simple Money Math with Coins",
+    "summary": "Simple Money Math with Coins — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 15
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will be able to identify coins, understand their values, and perform simple addition with them.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we will explore the world of coins. Your child will learn how to recognize different coins and their values, and practice simple addition using these coins. This hands-on activity will help them connect math to real-life situations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Understanding money is a key life skill. By using coins, your child will practice counting and adding, which are foundational math skills. This lesson will make learning fun and practical.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "### Household Activity: Coin Counting\n1. **Gather coins**: Collect pennies, nickels, dimes, and quarters from around the house.\n2. **Sort the coins**: Ask your child to sort them by type.\n3. **Count each type**: Say: \"How many pennies do we have? Let's count together!\"\n4. **Add values**: Use the values: pennies = 1 cent, nickels = 5 cents, dimes = 10 cents, quarters = 25 cents. Ask: \"If we have 3 dimes, how much money is that? Let's add it up!\"\n5. **Create combinations**: Challenge your child to make different amounts using the coins. Say: \"Can you make 30 cents using these coins?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Coins have different values: \n- Penny = 1 cent \n- Nickel = 5 cents \n- Dime = 10 cents \n- Quarter = 25 cents\n\nWhen you add coins together, you find the total value. For example, if you have 2 dimes and 1 nickel, you add: \n$$2 \times 10 + 1 \times 5 = 20 + 5 = 25$$ cents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$Total = (Number\text{ of dimes} \\times 10) + (Number\text{ of nickels} \\times 5) + (Number\text{ of pennies} \\times 1) + (Number\text{ of quarters} \\times 25)$$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather different coins from around the house.,2. Help your child sort the coins by type.,3. Count each type of coin together.,4. Use the values of the coins to practice addition.,5. Challenge your child to create specific amounts with the coins.,6. Celebrate their successes and encourage further practice!",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child miscounts, gently say: \"Let's count those pennies again together!\",If they confuse coin values, remind them: \"A dime is worth 10 cents, not 5!\",If they struggle with addition, say: \"Let's break it down step by step!\"",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Using money in everyday situations, like shopping, helps children understand its value and importance.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job supporting your child's learning! Every small step in math builds their confidence and skills.",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will be able to identify coins, understand their values, and perform simple addition with them.",
+    "overview": "In this lesson, we will explore the world of coins. Your child will learn how to recognize different coins and their values, and practice simple addition using these coins. This hands-on activity will help them connect math to real-life situations.",
+    "core": "Understanding money is a key life skill. By using coins, your child will practice counting and adding, which are foundational math skills. This lesson will make learning fun and practical.",
+    "demo": "### Household Activity: Coin Counting\n1. **Gather coins**: Collect pennies, nickels, dimes, and quarters from around the house.\n2. **Sort the coins**: Ask your child to sort them by type.\n3. **Count each type**: Say: \"How many pennies do we have? Let's count together!\"\n4. **Add values**: Use the values: pennies = 1 cent, nickels = 5 cents, dimes = 10 cents, quarters = 25 cents. Ask: \"If we have 3 dimes, how much money is that? Let's add it up!\"\n5. **Create combinations**: Challenge your child to make different amounts using the coins. Say: \"Can you make 30 cents using these coins?\"",
+    "math": "Coins have different values: \n- Penny = 1 cent \n- Nickel = 5 cents \n- Dime = 10 cents \n- Quarter = 25 cents\n\nWhen you add coins together, you find the total value. For example, if you have 2 dimes and 1 nickel, you add: \n$$2 \times 10 + 1 \times 5 = 20 + 5 = 25$$ cents.",
+    "formulas": "$$Total = (Number\text{ of dimes} \\times 10) + (Number\text{ of nickels} \\times 5) + (Number\text{ of pennies} \\times 1) + (Number\text{ of quarters} \\times 25)$$",
+    "guide": "1. Gather different coins from around the house.,2. Help your child sort the coins by type.,3. Count each type of coin together.,4. Use the values of the coins to practice addition.,5. Challenge your child to create specific amounts with the coins.,6. Celebrate their successes and encourage further practice!",
+    "mistakes": "If your child miscounts, gently say: \"Let's count those pennies again together!\",If they confuse coin values, remind them: \"A dime is worth 10 cents, not 5!\",If they struggle with addition, say: \"Let's break it down step by step!\"",
+    "connection": "Using money in everyday situations, like shopping, helps children understand its value and importance.",
+    "close": "Great job supporting your child's learning! Every small step in math builds their confidence and skills."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If you have 4 quarters, how much money do you have?",
+      "hint_md": "Remember, each quarter is worth 25 cents.",
+      "answer_md": "$$4 \\times 25 = 100$$ cents or $1.00"
+    },
+    {
+      "order_index": 2,
+      "question_md": "You have 3 dimes and 2 nickels. What is the total value?",
+      "hint_md": "Count the dimes first, then the nickels.",
+      "answer_md": "$$3 \\times 10 + 2 \\times 5 = 30 + 10 = 40$$ cents"
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many cents are in 5 nickels?",
+      "hint_md": "Each nickel is worth 5 cents.",
+      "answer_md": "$$5 \\times 5 = 25$$ cents"
+    }
+  ]
+}

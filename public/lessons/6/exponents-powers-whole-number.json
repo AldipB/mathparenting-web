@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "6498b9dd-ddb8-45c2-b9d3-0fe48d20e37c",
+    "slug": "exponents-powers-whole-number",
+    "title": "Exponents & Powers (Whole Number)",
+    "summary": "Exponents & Powers (Whole Number) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand what exponents and powers are.\n- - Learn how to calculate powers of whole numbers.\n- - Recognize the importance of exponents in daily life.\n- **Why this matters for parents:** Understanding exponents helps your child grasp more complex math concepts and see patterns in numbers.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Exponents are a way to express repeated multiplication of the same number. For example, instead of writing $2 \\times 2 \\times 2$, we can write $2^3$. The number 2 is the base, and 3 is the exponent.\nExponents are important because they simplify expressions and are used in various real-life situations, such as calculating areas, volumes, and understanding scientific notation.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, an exponent tells you how many times to multiply a number by itself. If you have $3^4$, it means you multiply 3 by itself 4 times: $3 \\times 3 \\times 3 \\times 3$. This makes calculations easier and helps in recognizing patterns.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore exponents using some coins. Take 3 coins and stack them. This represents $3^1$.\n2. **Ask:** What if we stack 3 more coins on top of each stack? Now we have $3 \\times 3$ or $3^2$.\n3. **Say:** Let's add another layer of 3 coins on each stack. Now we have $3^3$.\n4. **Ask:** How many coins are there in total? (Count them together.)\n5. **Say:** This is how exponents work. They show repeated multiplication.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When you see $5^3$, it means $5 \\times 5 \\times 5$. The base is 5, and the exponent is 3. This equals 125. Exponents help simplify repeated multiplication and make calculations more efficient.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$a^n$$\n- $a$: the base number\n  - $n$: the exponent, indicating how many times to multiply the base by itself",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What does $4^2$ mean? (Guide them to say $4 \\times 4$.)\n2. **Say:** Let's calculate $4^2$ together. (It's 16.)\n3. **Ask:** How about $2^3$? (Encourage them to think $2 \\times 2 \\times 2$.)\n4. **Say:** Practice with $3^2$ and $5^2$. (Help them calculate.)\n5. **Ask:** Can you think of where we use this in real life? (Guide them to ideas like area calculation.)",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing the base and exponent. **Try:** Remember, the base is the number being multiplied.\n- - Calculating $3^2$ as $3 \\times 2$. **Try:** Think of $3^2$ as $3 \\times 3$.\n- - Forgetting to multiply enough times. **Try:** Count the number of times you multiply the base.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Exponents are used in calculating areas, like finding the area of a square (side length squared). They also appear in scientific notation, which helps in understanding large numbers.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring exponents! Keep practicing, and soon these will become second nature. You're building a strong math foundation!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand what exponents and powers are.\n- - Learn how to calculate powers of whole numbers.\n- - Recognize the importance of exponents in daily life.\n- **Why this matters for parents:** Understanding exponents helps your child grasp more complex math concepts and see patterns in numbers.",
+    "overview": "Exponents are a way to express repeated multiplication of the same number. For example, instead of writing $2 \\times 2 \\times 2$, we can write $2^3$. The number 2 is the base, and 3 is the exponent.\nExponents are important because they simplify expressions and are used in various real-life situations, such as calculating areas, volumes, and understanding scientific notation.",
+    "core": "In simple terms, an exponent tells you how many times to multiply a number by itself. If you have $3^4$, it means you multiply 3 by itself 4 times: $3 \\times 3 \\times 3 \\times 3$. This makes calculations easier and helps in recognizing patterns.",
+    "demo": "1. **Say:** Let's explore exponents using some coins. Take 3 coins and stack them. This represents $3^1$.\n2. **Ask:** What if we stack 3 more coins on top of each stack? Now we have $3 \\times 3$ or $3^2$.\n3. **Say:** Let's add another layer of 3 coins on each stack. Now we have $3^3$.\n4. **Ask:** How many coins are there in total? (Count them together.)\n5. **Say:** This is how exponents work. They show repeated multiplication.",
+    "math": "When you see $5^3$, it means $5 \\times 5 \\times 5$. The base is 5, and the exponent is 3. This equals 125. Exponents help simplify repeated multiplication and make calculations more efficient.",
+    "formulas": "$$a^n$$\n- $a$: the base number\n  - $n$: the exponent, indicating how many times to multiply the base by itself",
+    "guide": "1. **Ask:** What does $4^2$ mean? (Guide them to say $4 \\times 4$.)\n2. **Say:** Let's calculate $4^2$ together. (It's 16.)\n3. **Ask:** How about $2^3$? (Encourage them to think $2 \\times 2 \\times 2$.)\n4. **Say:** Practice with $3^2$ and $5^2$. (Help them calculate.)\n5. **Ask:** Can you think of where we use this in real life? (Guide them to ideas like area calculation.)",
+    "mistakes": "- - Confusing the base and exponent. **Try:** Remember, the base is the number being multiplied.\n- - Calculating $3^2$ as $3 \\times 2$. **Try:** Think of $3^2$ as $3 \\times 3$.\n- - Forgetting to multiply enough times. **Try:** Count the number of times you multiply the base.",
+    "connection": "Exponents are used in calculating areas, like finding the area of a square (side length squared). They also appear in scientific notation, which helps in understanding large numbers.",
+    "close": "Great job exploring exponents! Keep practicing, and soon these will become second nature. You're building a strong math foundation!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate $2^4$.",
+      "hint_md": "Multiply 2 by itself 4 times.",
+      "answer_md": "16"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is $5^2$?",
+      "hint_md": "Think of $5 \\times 5$.",
+      "answer_md": "25"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Find the value of $3^3$.",
+      "hint_md": "Multiply 3 by itself 3 times.",
+      "answer_md": "27"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "25634e1e-00f6-4667-b723-fad25afe72f6",
+    "slug": "simple-compound-interest-intro",
+    "title": "Simple/Compound Interest (Intro)",
+    "summary": "Simple/Compound Interest (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between simple and compound interest.\n- Calculate simple and compound interest using basic formulas.\n- **Why this matters for parents:** This knowledge helps children understand savings, loans, and financial growth.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Interest is the extra money earned or paid on an amount of money over time. Simple interest is calculated on the original amount, while compound interest is calculated on the original amount plus any interest earned.\nUnderstanding interest is crucial because it affects savings and loans. Knowing how interest works helps children make informed financial decisions in the future.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Simple interest is straightforward: it's a fixed percentage of the original amount. Compound interest, however, grows faster because it includes interest on interest. This lesson will help your child see how money can grow over time, whether in a savings account or a loan.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's pretend you have $100 in a savings jar.\"\n2. **Ask:** \"If you earn 5% simple interest each year, how much will you have after one year?\"\n3. Use a calculator or paper to show: $100 + (0.05 \\times 100) = $105.\n4. **Say:** \"Now, let's see compound interest.\"\n5. **Ask:** \"If you earn 5% compound interest, how much will you have after one year?\"\n6. Show: $100 \\times (1 + 0.05) = $105. After two years: $105 \\times (1 + 0.05) = $110.25.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Simple interest is calculated using the formula $I = P \\times r \\times t$, where $I$ is the interest, $P$ is the principal, $r$ is the rate, and $t$ is time. For example, if $P = 100$, $r = 0.05$, and $t = 1$, then $I = 100 \\times 0.05 \\times 1 = 5$.\nCompound interest uses $A = P \\times (1 + r)^t$, where $A$ is the amount after time $t$. Using the same values, after one year: $A = 100 \\times (1 + 0.05)^1 = 105$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Simple Interest: $I = P \\times r \\times t$\n  - $I$: Interest\n  - $P$: Principal (initial amount)\n  - $r$: Rate (as a decimal)\n  - $t$: Time (in years)\n- Compound Interest: $A = P \\times (1 + r)^t$\n  - $A$: Amount after time $t$\n  - $P$: Principal\n  - $r$: Rate (as a decimal)\n  - $t$: Time (in years)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is the principal amount we are starting with?\"\n2. **Say:** \"Let's calculate simple interest first.\"\n3. **Guide:** Use the simple interest formula with your child.\n4. **Ask:** \"Now, how about compound interest?\"\n5. **Guide:** Use the compound interest formula together.\n6. **Discuss:** \"Which grows faster over time, and why?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing simple and compound interest: **Try:** Review the formulas and their differences.\n- Forgetting to convert percentage to decimal: **Try:** Remember to divide by 100.\n- Misapplying the time period: **Try:** Ensure $t$ is in years.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Interest is everywhere: in bank accounts, loans, and investments. Understanding it helps your child see how money can grow or how debt can increase over time.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring interest helps children understand how money can work for them. Keep practicing, and soon they'll be savvy savers!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between simple and compound interest.\n- Calculate simple and compound interest using basic formulas.\n- **Why this matters for parents:** This knowledge helps children understand savings, loans, and financial growth.",
+    "overview": "Interest is the extra money earned or paid on an amount of money over time. Simple interest is calculated on the original amount, while compound interest is calculated on the original amount plus any interest earned.\nUnderstanding interest is crucial because it affects savings and loans. Knowing how interest works helps children make informed financial decisions in the future.",
+    "core": "Simple interest is straightforward: it's a fixed percentage of the original amount. Compound interest, however, grows faster because it includes interest on interest. This lesson will help your child see how money can grow over time, whether in a savings account or a loan.",
+    "demo": "1. **Say:** \"Let's pretend you have $100 in a savings jar.\"\n2. **Ask:** \"If you earn 5% simple interest each year, how much will you have after one year?\"\n3. Use a calculator or paper to show: $100 + (0.05 \\times 100) = $105.\n4. **Say:** \"Now, let's see compound interest.\"\n5. **Ask:** \"If you earn 5% compound interest, how much will you have after one year?\"\n6. Show: $100 \\times (1 + 0.05) = $105. After two years: $105 \\times (1 + 0.05) = $110.25.",
+    "math": "Simple interest is calculated using the formula $I = P \\times r \\times t$, where $I$ is the interest, $P$ is the principal, $r$ is the rate, and $t$ is time. For example, if $P = 100$, $r = 0.05$, and $t = 1$, then $I = 100 \\times 0.05 \\times 1 = 5$.\nCompound interest uses $A = P \\times (1 + r)^t$, where $A$ is the amount after time $t$. Using the same values, after one year: $A = 100 \\times (1 + 0.05)^1 = 105$.",
+    "formulas": "- Simple Interest: $I = P \\times r \\times t$\n  - $I$: Interest\n  - $P$: Principal (initial amount)\n  - $r$: Rate (as a decimal)\n  - $t$: Time (in years)\n- Compound Interest: $A = P \\times (1 + r)^t$\n  - $A$: Amount after time $t$\n  - $P$: Principal\n  - $r$: Rate (as a decimal)\n  - $t$: Time (in years)",
+    "guide": "1. **Ask:** \"What is the principal amount we are starting with?\"\n2. **Say:** \"Let's calculate simple interest first.\"\n3. **Guide:** Use the simple interest formula with your child.\n4. **Ask:** \"Now, how about compound interest?\"\n5. **Guide:** Use the compound interest formula together.\n6. **Discuss:** \"Which grows faster over time, and why?\"",
+    "mistakes": "- Confusing simple and compound interest: **Try:** Review the formulas and their differences.\n- Forgetting to convert percentage to decimal: **Try:** Remember to divide by 100.\n- Misapplying the time period: **Try:** Ensure $t$ is in years.",
+    "connection": "Interest is everywhere: in bank accounts, loans, and investments. Understanding it helps your child see how money can grow or how debt can increase over time.",
+    "close": "Exploring interest helps children understand how money can work for them. Keep practicing, and soon they'll be savvy savers!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Calculate the simple interest on $200 at 3% for 2 years.",
+      "hint_md": "Use $I = P \\times r \\times t$.",
+      "answer_md": "$I = 200 \\times 0.03 \\times 2 = 12$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the compound interest on $150 at 4% for 3 years?",
+      "hint_md": "Use $A = P \\times (1 + r)^t$ and subtract the principal.",
+      "answer_md": "$A = 150 \\times (1 + 0.04)^3 = 168.86$; Compound interest = $168.86 - 150 = 18.86$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you have $500 and earn 6% compound interest annually, how much will you have in 2 years?",
+      "hint_md": "Use $A = P \\times (1 + r)^t$.",
+      "answer_md": "$A = 500 \\times (1 + 0.06)^2 = 561.80$"
+    }
+  ]
+}

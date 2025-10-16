@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "3a13ffdd-c218-4fcc-b409-9713883a4ee4",
+    "title": "Rational, Exponential & Log",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "2ea2e0f9-9612-461a-8a3e-6c1aeb240e0a",
+    "slug": "exponential-logarithmic-functions-2ea2e0f9-9612-461a-8a3e-6c1aeb240e0a",
+    "title": "Exponential & Logarithmic Functions",
+    "summary": "Exponential & Logarithmic Functions — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of exponential and logarithmic functions.\n- Learn how to apply these functions to solve real-life problems.\n- Help your child recognize the relationship between exponentials and logarithms.\n- **Why this matters for parents:** Understanding these concepts can help you support your child in tackling complex math problems and relate them to everyday situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Exponential functions involve numbers raised to a power, like $2^x$. Logarithmic functions are the inverse, helping us find the power needed to reach a certain number. These functions are essential in many fields, from science to finance.\nUnderstanding these functions helps us model growth and decay, such as population growth or radioactive decay. They also play a crucial role in calculating interest and understanding scales like the Richter scale for earthquakes.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Exponential functions grow rapidly, while logarithmic functions grow slowly. They are two sides of the same coin. If you know one, you can find the other. This relationship is key to solving many real-world problems, such as calculating how long it takes for an investment to double.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny.\n2. **Ask:** If we double the number of pennies each day, how many will we have after 3 days?\n3. **Use:** Pennies or small objects to represent the growth. Day 1: 1 penny, Day 2: 2 pennies, Day 3: 4 pennies, Day 4: 8 pennies.\n4. **Say:** This is exponential growth. Each day, the number of pennies is $2^n$, where $n$ is the number of days.\n5. **Ask:** What if we want to find out how many days it takes to reach 16 pennies? This is where logarithms help.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Exponential functions are written as $f(x) = a \times b^x$, where $a$ is the initial amount and $b$ is the base. For example, $f(x) = 2^x$ doubles each time $x$ increases by 1.\nLogarithmic functions are the inverse: $g(x) = \text{log}_b(x)$, which tells us what power we need to raise $b$ to get $x$. For example, if $2^3 = 8$, then $\text{log}_2(8) = 3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "f(x) = a \\times b^x\n- $a$: initial amount\n  - $b$: base of the exponential function\n  - $x$: exponent\ng(x) = \\text{log}_b(x)\n- $b$: base of the logarithm\n  - $x$: result of the exponential expression",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain:** Start by discussing how exponential growth appears in real life, like savings accounts.\n2. **Demonstrate:** Use the penny example to show how quickly numbers grow.\n3. **Connect:** Explain that logarithms help us find out how long it takes to reach a certain amount.\n4. **Practice:** Work through a simple example with your child, like doubling a number.\n5. **Explore:** Discuss where they might see these functions in real life, such as in technology or nature.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing exponential growth with linear growth. **Try:** Use a graph to show the difference.\n- Mixing up the base and the exponent. **Try:** Write out the formula and identify each part.\n- Forgetting that logarithms are inverses of exponentials. **Try:** Practice converting between the two.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Exponential functions model things like population growth and compound interest, while logarithms help us understand scales like sound intensity and earthquake magnitude.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding exponential and logarithmic functions opens up a world of possibilities in math and beyond. Keep exploring these concepts with your child to see how they shape the world around us!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of exponential and logarithmic functions.\n- Learn how to apply these functions to solve real-life problems.\n- Help your child recognize the relationship between exponentials and logarithms.\n- **Why this matters for parents:** Understanding these concepts can help you support your child in tackling complex math problems and relate them to everyday situations.",
+    "overview": "Exponential functions involve numbers raised to a power, like $2^x$. Logarithmic functions are the inverse, helping us find the power needed to reach a certain number. These functions are essential in many fields, from science to finance.\nUnderstanding these functions helps us model growth and decay, such as population growth or radioactive decay. They also play a crucial role in calculating interest and understanding scales like the Richter scale for earthquakes.",
+    "core": "Exponential functions grow rapidly, while logarithmic functions grow slowly. They are two sides of the same coin. If you know one, you can find the other. This relationship is key to solving many real-world problems, such as calculating how long it takes for an investment to double.",
+    "demo": "1. **Say:** Let's explore exponential growth using pennies. Start with 1 penny.\n2. **Ask:** If we double the number of pennies each day, how many will we have after 3 days?\n3. **Use:** Pennies or small objects to represent the growth. Day 1: 1 penny, Day 2: 2 pennies, Day 3: 4 pennies, Day 4: 8 pennies.\n4. **Say:** This is exponential growth. Each day, the number of pennies is $2^n$, where $n$ is the number of days.\n5. **Ask:** What if we want to find out how many days it takes to reach 16 pennies? This is where logarithms help.",
+    "math": "Exponential functions are written as $f(x) = a \times b^x$, where $a$ is the initial amount and $b$ is the base. For example, $f(x) = 2^x$ doubles each time $x$ increases by 1.\nLogarithmic functions are the inverse: $g(x) = \text{log}_b(x)$, which tells us what power we need to raise $b$ to get $x$. For example, if $2^3 = 8$, then $\text{log}_2(8) = 3$.",
+    "formulas": "f(x) = a \\times b^x\n- $a$: initial amount\n  - $b$: base of the exponential function\n  - $x$: exponent\ng(x) = \\text{log}_b(x)\n- $b$: base of the logarithm\n  - $x$: result of the exponential expression",
+    "guide": "1. **Explain:** Start by discussing how exponential growth appears in real life, like savings accounts.\n2. **Demonstrate:** Use the penny example to show how quickly numbers grow.\n3. **Connect:** Explain that logarithms help us find out how long it takes to reach a certain amount.\n4. **Practice:** Work through a simple example with your child, like doubling a number.\n5. **Explore:** Discuss where they might see these functions in real life, such as in technology or nature.",
+    "mistakes": "- Confusing exponential growth with linear growth. **Try:** Use a graph to show the difference.\n- Mixing up the base and the exponent. **Try:** Write out the formula and identify each part.\n- Forgetting that logarithms are inverses of exponentials. **Try:** Practice converting between the two.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Exponential functions model things like population growth and compound interest, while logarithms help us understand scales like sound intensity and earthquake magnitude.",
+    "close": "Understanding exponential and logarithmic functions opens up a world of possibilities in math and beyond. Keep exploring these concepts with your child to see how they shape the world around us!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Exponential & Logarithmic Functions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Exponential & Logarithmic Functions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Exponential & Logarithmic Functions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

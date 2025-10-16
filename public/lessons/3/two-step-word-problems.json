@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "a7c4bb60-08d0-455f-b598-6e4db80d4e6c",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "434b36b6-9523-4589-b539-096a5141d2a2",
+    "slug": "two-step-word-problems",
+    "title": "Two-Step Word Problems (×, ÷, +, −)",
+    "summary": "Two-Step Word Problems (×, ÷, +, −) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help children solve two-step word problems using addition, subtraction, multiplication, and division.\n- Build confidence in breaking down complex problems into manageable steps.\n- **Why this matters for parents:** Understanding these skills helps children tackle real-world problems and enhances critical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on solving two-step word problems that require using a combination of operations: addition, subtraction, multiplication, and division. Children will learn to identify the steps needed to find a solution.\nMastering two-step word problems is crucial because it develops logical thinking and problem-solving skills. These skills are foundational for more advanced math and everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Two-step word problems involve solving problems that require more than one operation. For example, you might need to add and then multiply, or subtract and then divide. The key is to break down the problem into smaller parts and solve each step one at a time.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's solve a problem together. Imagine you have 3 bags of apples, and each bag has 4 apples. Then, you give 5 apples to a friend. How many apples do you have left?\n2. **Ask:** What do we need to find first? (The total number of apples.)\n3. **Use:** Small objects like buttons or coins to represent apples.\n4. **Say:** First, multiply the number of bags by the apples in each bag: $3 \\times 4 = 12$.\n5. **Say:** Now, subtract the apples given away: $12 - 5 = 7$.\n6. **Ask:** How many apples do you have left? (7 apples.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve two-step word problems, identify the operations needed and perform them in sequence. For example, if you have 3 bags with 4 apples each, and you give away 5 apples, you first calculate the total apples: $3 \\times 4 = 12$. Then subtract the apples given away: $12 - 5 = 7$. This approach ensures you solve each part of the problem accurately.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Total = (Number \\ of \\ Groups) \\times (Items \\ per \\ Group)\nRemaining = Total - Given \\ Away",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Read the problem together:** Identify what is being asked.\n2. **Ask:** What operations do we need to use? (Addition, subtraction, multiplication, division.)\n3. **Break it down:** Solve the first step and then the second.\n4. **Use objects:** Represent the problem with household items if needed.\n5. **Check:** Review each step to ensure accuracy.\n6. **Celebrate:** Praise your child for solving the problem!",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing operations: Try identifying keywords like 'total' for addition or 'left' for subtraction.\n- Skipping steps: Try solving one part of the problem before moving to the next.\n- Misreading the problem: Try reading the problem out loud together to ensure understanding.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Two-step problems are like planning a trip: first, you pack your bags, then you decide how to get to your destination. Both steps are needed to succeed.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! Solving two-step word problems builds strong math skills. Keep practicing, and you'll find these problems easier and more fun!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help children solve two-step word problems using addition, subtraction, multiplication, and division.\n- Build confidence in breaking down complex problems into manageable steps.\n- **Why this matters for parents:** Understanding these skills helps children tackle real-world problems and enhances critical thinking.",
+    "overview": "This lesson focuses on solving two-step word problems that require using a combination of operations: addition, subtraction, multiplication, and division. Children will learn to identify the steps needed to find a solution.\nMastering two-step word problems is crucial because it develops logical thinking and problem-solving skills. These skills are foundational for more advanced math and everyday decision-making.",
+    "core": "Two-step word problems involve solving problems that require more than one operation. For example, you might need to add and then multiply, or subtract and then divide. The key is to break down the problem into smaller parts and solve each step one at a time.",
+    "demo": "1. **Say:** Let's solve a problem together. Imagine you have 3 bags of apples, and each bag has 4 apples. Then, you give 5 apples to a friend. How many apples do you have left?\n2. **Ask:** What do we need to find first? (The total number of apples.)\n3. **Use:** Small objects like buttons or coins to represent apples.\n4. **Say:** First, multiply the number of bags by the apples in each bag: $3 \\times 4 = 12$.\n5. **Say:** Now, subtract the apples given away: $12 - 5 = 7$.\n6. **Ask:** How many apples do you have left? (7 apples.)",
+    "math": "To solve two-step word problems, identify the operations needed and perform them in sequence. For example, if you have 3 bags with 4 apples each, and you give away 5 apples, you first calculate the total apples: $3 \\times 4 = 12$. Then subtract the apples given away: $12 - 5 = 7$. This approach ensures you solve each part of the problem accurately.",
+    "formulas": "Total = (Number \\ of \\ Groups) \\times (Items \\ per \\ Group)\nRemaining = Total - Given \\ Away",
+    "guide": "1. **Read the problem together:** Identify what is being asked.\n2. **Ask:** What operations do we need to use? (Addition, subtraction, multiplication, division.)\n3. **Break it down:** Solve the first step and then the second.\n4. **Use objects:** Represent the problem with household items if needed.\n5. **Check:** Review each step to ensure accuracy.\n6. **Celebrate:** Praise your child for solving the problem!",
+    "mistakes": "- Confusing operations: Try identifying keywords like 'total' for addition or 'left' for subtraction.\n- Skipping steps: Try solving one part of the problem before moving to the next.\n- Misreading the problem: Try reading the problem out loud together to ensure understanding.",
+    "connection": "Two-step problems are like planning a trip: first, you pack your bags, then you decide how to get to your destination. Both steps are needed to succeed.",
+    "close": "Great job! Solving two-step word problems builds strong math skills. Keep practicing, and you'll find these problems easier and more fun!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "You have 5 packs of stickers, with 6 stickers in each pack. You give 8 stickers to a friend. How many stickers do you have left?",
+      "hint_md": "First, find the total number of stickers. Then subtract the stickers given away.",
+      "answer_md": "Total stickers: $5 \\times 6 = 30$. Stickers left: $30 - 8 = 22$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "A baker makes 4 batches of cookies, with 10 cookies in each batch. She sells 15 cookies. How many cookies are left?",
+      "hint_md": "Calculate the total cookies first, then subtract the cookies sold.",
+      "answer_md": "Total cookies: $4 \\times 10 = 40$. Cookies left: $40 - 15 = 25$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "You buy 7 boxes of pencils, with 12 pencils in each box. You give 10 pencils to your friend. How many pencils do you have now?",
+      "hint_md": "Find the total pencils first, then subtract the pencils given away.",
+      "answer_md": "Total pencils: $7 \\times 12 = 84$. Pencils left: $84 - 10 = 74$."
+    }
+  ]
+}

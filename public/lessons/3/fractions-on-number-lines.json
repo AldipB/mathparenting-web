@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "c729799a-5eab-4ac1-b2be-f49182f305a6",
+    "title": "Fractions & Decimals",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "8a088325-c20d-4367-981b-3d5adf7e5014",
+    "slug": "fractions-on-number-lines",
+    "title": "Fractions on Number Lines",
+    "summary": "Fractions on Number Lines — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to place fractions on a number line.\n- Recognize fractions as parts of a whole.\n- **Why this matters for parents:** Helps children visualize and compare fractions, a key skill for future math concepts.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Fractions on a number line represent parts of a whole divided into equal parts. By placing fractions on a number line, children learn to see them as numbers that have a specific place and value.\nThis understanding is crucial because it helps children grasp the concept of fractions as numbers, not just parts of a pizza or pie. It builds a foundation for comparing fractions and understanding their size relative to each other.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When we place fractions on a number line, we divide the space between whole numbers into equal parts. Each part represents a fraction. For example, between 0 and 1, if we divide the line into 4 equal parts, each part is 1/4.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A ruler or a strip of paper, a pencil, and small objects like buttons or coins.\n2. **Say:** \"Let's draw a number line from 0 to 1 on this paper.\"\n3. **Ask:** \"If we want to divide this line into 4 equal parts, how many sections will we have?\"\n4. **Place:** Use the objects to mark each section: 1/4, 2/4, 3/4, and 1.\n5. **Explain:** \"Each section is a fraction of the whole line from 0 to 1.\"\n6. **Ask:** \"Where would 2/4 be on this line?\" Help them place it correctly.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A fraction like \\( \\frac{1}{4} \\) means 1 part out of 4 equal parts. On a number line from 0 to 1, \\( \\frac{1}{4} \\) is one-quarter of the way from 0. For example, \\( \\frac{2}{4} \\) is halfway, or equivalent to \\( \\frac{1}{2} \\).",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Draw a number line from 0 to 1.\n2. Divide the line into equal parts based on the denominator.\n3. Label each part with the corresponding fraction.\n4. **Ask:** \"What fraction is halfway?\"\n5. **Say:** \"Let's find \\( \\frac{3}{4} \\) on our line.\"\n6. Encourage your child to place fractions on the line themselves.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misplacing fractions: Try dividing the line into equal parts first.\n- Confusing numerators and denominators: Try explaining that the denominator tells how many parts the whole is divided into.\n- Overlapping fractions: Try using objects to clearly mark each fraction.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Fractions are everywhere! When you cut a pizza or share a chocolate bar, you’re using fractions. Understanding them on a number line helps in measuring and comparing sizes.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring fractions on a number line! This skill will help your child see fractions as numbers and compare them easily.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to place fractions on a number line.\n- Recognize fractions as parts of a whole.\n- **Why this matters for parents:** Helps children visualize and compare fractions, a key skill for future math concepts.",
+    "overview": "Fractions on a number line represent parts of a whole divided into equal parts. By placing fractions on a number line, children learn to see them as numbers that have a specific place and value.\nThis understanding is crucial because it helps children grasp the concept of fractions as numbers, not just parts of a pizza or pie. It builds a foundation for comparing fractions and understanding their size relative to each other.",
+    "core": "When we place fractions on a number line, we divide the space between whole numbers into equal parts. Each part represents a fraction. For example, between 0 and 1, if we divide the line into 4 equal parts, each part is 1/4.",
+    "demo": "1. **Gather:** A ruler or a strip of paper, a pencil, and small objects like buttons or coins.\n2. **Say:** \"Let's draw a number line from 0 to 1 on this paper.\"\n3. **Ask:** \"If we want to divide this line into 4 equal parts, how many sections will we have?\"\n4. **Place:** Use the objects to mark each section: 1/4, 2/4, 3/4, and 1.\n5. **Explain:** \"Each section is a fraction of the whole line from 0 to 1.\"\n6. **Ask:** \"Where would 2/4 be on this line?\" Help them place it correctly.",
+    "math": "A fraction like \\( \\frac{1}{4} \\) means 1 part out of 4 equal parts. On a number line from 0 to 1, \\( \\frac{1}{4} \\) is one-quarter of the way from 0. For example, \\( \\frac{2}{4} \\) is halfway, or equivalent to \\( \\frac{1}{2} \\).",
+    "guide": "1. Draw a number line from 0 to 1.\n2. Divide the line into equal parts based on the denominator.\n3. Label each part with the corresponding fraction.\n4. **Ask:** \"What fraction is halfway?\"\n5. **Say:** \"Let's find \\( \\frac{3}{4} \\) on our line.\"\n6. Encourage your child to place fractions on the line themselves.",
+    "mistakes": "- Misplacing fractions: Try dividing the line into equal parts first.\n- Confusing numerators and denominators: Try explaining that the denominator tells how many parts the whole is divided into.\n- Overlapping fractions: Try using objects to clearly mark each fraction.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Fractions are everywhere! When you cut a pizza or share a chocolate bar, you’re using fractions. Understanding them on a number line helps in measuring and comparing sizes.",
+    "close": "Great job exploring fractions on a number line! This skill will help your child see fractions as numbers and compare them easily."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Fractions on Number Lines**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Fractions on Number Lines** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Fractions on Number Lines**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

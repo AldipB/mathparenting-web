@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "9c6f36be-bd85-48cb-ab96-fca9fed4e104",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "fdcf0efe-e428-4eac-a445-53930dd75d84",
+    "slug": "fractions-1-2-1-3-1-4-3-4-area-set-models",
+    "title": "Fractions: 1/2, 1/3, 1/4, 3/4 (Area & Set Models)",
+    "summary": "Fractions: 1/2, 1/3, 1/4, 3/4 (Area & Set Models) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand fractions as parts of a whole using area and set models.\n- - Recognize and create fractions: 1/2, 1/3, 1/4, and 3/4.\n- - **Why this matters for parents:** Building a strong foundation in fractions helps children with future math concepts like division and ratios.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Fractions represent parts of a whole. In this lesson, we'll explore fractions using everyday objects to help your child see and understand how parts make up a whole.\nUnderstanding fractions is crucial because it lays the groundwork for more advanced math topics. By using familiar items, your child can visualize and grasp these concepts more easily.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Fractions like 1/2, 1/3, and 1/4 show how a whole can be divided into equal parts. For example, if you cut a pizza into 4 equal slices, each slice is 1/4 of the pizza. We'll also explore 3/4, which means three out of four equal parts.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A pizza or a round object like a paper plate.\n2. **Say:** \"Let's cut this pizza into 4 equal parts.\"\n3. **Cut:** Divide the pizza into 4 slices.\n4. **Ask:** \"If we take one slice, what fraction of the pizza do we have?\" (1/4)\n5. **Ask:** \"What if we take three slices?\" (3/4)\n6. **Discuss:** How 1/2, 1/3, and 1/4 look different using the pizza.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Fractions are written as $\\frac{a}{b}$, where $a$ is the number of parts you have, and $b$ is the total number of equal parts. For example, $\\frac{1}{2}$ means 1 part out of 2 equal parts. If you have 3 out of 4 parts, it's $\\frac{3}{4}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$\\frac{a}{b}$\n- $a$: Number of parts you have\n- $b$: Total number of equal parts",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Use a chocolate bar divided into pieces. **Ask:** \"If we eat 1 piece out of 4, what fraction is that?\"\n2. Use a set of 6 crayons. **Say:** \"Let's group them into 3 equal sets. What fraction is each set?\"\n3. Draw a circle and divide it into 3 equal parts. Shade one part. **Ask:** \"What fraction is shaded?\"\n4. Use a measuring cup. Fill it halfway. **Ask:** \"What fraction of the cup is filled?\"\n5. **Discuss:** How fractions are used in recipes or sharing snacks.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the numerator and denominator. **Try:** Remind them that the denominator is the total number of parts.\n- Thinking fractions are only about circles. **Try:** Use different shapes like rectangles or squares.\n- Believing larger denominators mean larger pieces. **Try:** Show how more parts mean smaller pieces.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Fractions are everywhere! When you share a pizza, cut a cake, or divide chores, you're using fractions. They help us understand how to share and divide things equally.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring fractions! Keep practicing with everyday objects, and soon fractions will feel as easy as pie!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand fractions as parts of a whole using area and set models.\n- - Recognize and create fractions: 1/2, 1/3, 1/4, and 3/4.\n- - **Why this matters for parents:** Building a strong foundation in fractions helps children with future math concepts like division and ratios.",
+    "overview": "Fractions represent parts of a whole. In this lesson, we'll explore fractions using everyday objects to help your child see and understand how parts make up a whole.\nUnderstanding fractions is crucial because it lays the groundwork for more advanced math topics. By using familiar items, your child can visualize and grasp these concepts more easily.",
+    "core": "Fractions like 1/2, 1/3, and 1/4 show how a whole can be divided into equal parts. For example, if you cut a pizza into 4 equal slices, each slice is 1/4 of the pizza. We'll also explore 3/4, which means three out of four equal parts.",
+    "demo": "1. **Gather:** A pizza or a round object like a paper plate.\n2. **Say:** \"Let's cut this pizza into 4 equal parts.\"\n3. **Cut:** Divide the pizza into 4 slices.\n4. **Ask:** \"If we take one slice, what fraction of the pizza do we have?\" (1/4)\n5. **Ask:** \"What if we take three slices?\" (3/4)\n6. **Discuss:** How 1/2, 1/3, and 1/4 look different using the pizza.",
+    "math": "Fractions are written as $\\frac{a}{b}$, where $a$ is the number of parts you have, and $b$ is the total number of equal parts. For example, $\\frac{1}{2}$ means 1 part out of 2 equal parts. If you have 3 out of 4 parts, it's $\\frac{3}{4}$.",
+    "formulas": "$\\frac{a}{b}$\n- $a$: Number of parts you have\n- $b$: Total number of equal parts",
+    "guide": "1. Use a chocolate bar divided into pieces. **Ask:** \"If we eat 1 piece out of 4, what fraction is that?\"\n2. Use a set of 6 crayons. **Say:** \"Let's group them into 3 equal sets. What fraction is each set?\"\n3. Draw a circle and divide it into 3 equal parts. Shade one part. **Ask:** \"What fraction is shaded?\"\n4. Use a measuring cup. Fill it halfway. **Ask:** \"What fraction of the cup is filled?\"\n5. **Discuss:** How fractions are used in recipes or sharing snacks.",
+    "mistakes": "- Confusing the numerator and denominator. **Try:** Remind them that the denominator is the total number of parts.\n- Thinking fractions are only about circles. **Try:** Use different shapes like rectangles or squares.\n- Believing larger denominators mean larger pieces. **Try:** Show how more parts mean smaller pieces.",
+    "connection": "Fractions are everywhere! When you share a pizza, cut a cake, or divide chores, you're using fractions. They help us understand how to share and divide things equally.",
+    "close": "Great job exploring fractions! Keep practicing with everyday objects, and soon fractions will feel as easy as pie!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What fraction of a pizza is left if you eat 2 out of 4 slices?",
+      "hint_md": "Think about how many slices remain.",
+      "answer_md": "$\\frac{2}{4}$ or $\\frac{1}{2}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you have 3 out of 6 crayons, what fraction do you have?",
+      "hint_md": "How many crayons are in total?",
+      "answer_md": "$\\frac{3}{6}$ or $\\frac{1}{2}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Shade 1/3 of a rectangle divided into 3 equal parts.",
+      "hint_md": "How many parts should be shaded?",
+      "answer_md": "Shade 1 out of 3 parts."
+    }
+  ]
+}

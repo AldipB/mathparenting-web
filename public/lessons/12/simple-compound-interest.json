@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "164200b1-0348-4155-ae1a-7fbd6b44eefa",
+    "title": "Financial Math / Data Science (Electives)",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "db60bc0f-a9ff-40c7-a2e0-9e494f426f0a",
+    "slug": "simple-compound-interest",
+    "title": "Simple & Compound Interest",
+    "summary": "Simple & Compound Interest — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between simple and compound interest.\n- Calculate interest using both methods.\n- **Why this matters for parents:** This helps you guide your child in making informed financial decisions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Simple and compound interest are ways to calculate how money grows over time. Simple interest is calculated on the original amount, while compound interest is calculated on the amount plus any interest earned.\nUnderstanding these concepts is crucial for managing savings, loans, and investments. It helps in making informed decisions about where to save or invest money.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Simple interest is straightforward: you earn interest only on the original amount. Compound interest, however, grows faster because you earn interest on both the original amount and any accumulated interest. This can significantly impact savings and investments over time.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's explore simple interest using a jar of coins.\"\n2. Use 10 coins to represent $100. Add 1 coin to show 10% interest.\n3. **Ask:** \"How much interest do we earn each year if it's simple interest?\" (1 coin)\n4. **Say:** \"Now, let's look at compound interest.\"\n5. Add another coin for interest on the new total (11 coins), showing how it grows faster.\n6. **Ask:** \"What do you notice about the growth with compound interest?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Simple interest is calculated as $I = P \times r \times t$, where $P$ is the principal, $r$ is the rate, and $t$ is time.\nCompound interest uses the formula $A = P(1 + r)^t$, where $A$ is the amount after time $t$.\nFor example, with $P = 100$, $r = 0.1$, and $t = 2$ years:\n- Simple interest: $I = 100 \times 0.1 \times 2 = 20$.\n- Compound interest: $A = 100(1 + 0.1)^2 = 121$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Simple Interest: $I = P \times r \times t$\n  - $I$: Interest\n  - $P$: Principal amount\n  - $r$: Interest rate (as a decimal)\n  - $t$: Time in years\n- Compound Interest: $A = P(1 + r)^t$\n  - $A$: Total amount after time $t$\n  - $P$: Principal amount\n  - $r$: Interest rate (as a decimal)\n  - $t$: Time in years",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's calculate simple interest together.\"\n2. Use a calculator to find interest on $100 at 5% for 3 years.\n3. **Ask:** \"How much interest did we earn?\"\n4. **Say:** \"Now, let's try compound interest.\"\n5. Calculate the compound interest for the same scenario.\n6. **Ask:** \"Which method gave us more money? Why?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing simple with compound interest. **Try:** Use different objects to represent each type.\n- Forgetting to convert percentage to decimal. **Try:** Divide the percentage by 100.\n- Misapplying the compound interest formula. **Try:** Carefully follow the order of operations.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Interest calculations are crucial when choosing savings accounts or loans. Understanding these can help your child make better financial decisions in adulthood.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding interest is a powerful tool for financial literacy. Keep exploring these concepts to help your child make smart financial choices!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between simple and compound interest.\n- Calculate interest using both methods.\n- **Why this matters for parents:** This helps you guide your child in making informed financial decisions.",
+    "overview": "Simple and compound interest are ways to calculate how money grows over time. Simple interest is calculated on the original amount, while compound interest is calculated on the amount plus any interest earned.\nUnderstanding these concepts is crucial for managing savings, loans, and investments. It helps in making informed decisions about where to save or invest money.",
+    "core": "Simple interest is straightforward: you earn interest only on the original amount. Compound interest, however, grows faster because you earn interest on both the original amount and any accumulated interest. This can significantly impact savings and investments over time.",
+    "demo": "1. **Say:** \"Let's explore simple interest using a jar of coins.\"\n2. Use 10 coins to represent $100. Add 1 coin to show 10% interest.\n3. **Ask:** \"How much interest do we earn each year if it's simple interest?\" (1 coin)\n4. **Say:** \"Now, let's look at compound interest.\"\n5. Add another coin for interest on the new total (11 coins), showing how it grows faster.\n6. **Ask:** \"What do you notice about the growth with compound interest?\"",
+    "math": "Simple interest is calculated as $I = P \times r \times t$, where $P$ is the principal, $r$ is the rate, and $t$ is time.\nCompound interest uses the formula $A = P(1 + r)^t$, where $A$ is the amount after time $t$.\nFor example, with $P = 100$, $r = 0.1$, and $t = 2$ years:\n- Simple interest: $I = 100 \times 0.1 \times 2 = 20$.\n- Compound interest: $A = 100(1 + 0.1)^2 = 121$.",
+    "formulas": "- Simple Interest: $I = P \times r \times t$\n  - $I$: Interest\n  - $P$: Principal amount\n  - $r$: Interest rate (as a decimal)\n  - $t$: Time in years\n- Compound Interest: $A = P(1 + r)^t$\n  - $A$: Total amount after time $t$\n  - $P$: Principal amount\n  - $r$: Interest rate (as a decimal)\n  - $t$: Time in years",
+    "guide": "1. **Say:** \"Let's calculate simple interest together.\"\n2. Use a calculator to find interest on $100 at 5% for 3 years.\n3. **Ask:** \"How much interest did we earn?\"\n4. **Say:** \"Now, let's try compound interest.\"\n5. Calculate the compound interest for the same scenario.\n6. **Ask:** \"Which method gave us more money? Why?\"",
+    "mistakes": "- Confusing simple with compound interest. **Try:** Use different objects to represent each type.\n- Forgetting to convert percentage to decimal. **Try:** Divide the percentage by 100.\n- Misapplying the compound interest formula. **Try:** Carefully follow the order of operations.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Interest calculations are crucial when choosing savings accounts or loans. Understanding these can help your child make better financial decisions in adulthood.",
+    "close": "Understanding interest is a powerful tool for financial literacy. Keep exploring these concepts to help your child make smart financial choices!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Simple & Compound Interest**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Simple & Compound Interest** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Simple & Compound Interest**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

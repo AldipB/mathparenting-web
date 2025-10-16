@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "c780c79f-eabb-4592-84c3-453f64bb5087",
+    "slug": "rates-ratios-intro",
+    "title": "Rates & Ratios (Intro)",
+    "summary": "Rates & Ratios (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 14
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of rates and ratios\n- Learn to compare quantities using ratios\n- Apply rates and ratios to real-life situations\n**Why this matters for parents:** Understanding rates and ratios helps children make sense of everyday comparisons, like speed or price per item.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rates and ratios are ways to compare two quantities. A ratio shows how many times one number contains another, while a rate is a specific type of ratio that compares different units, like miles per hour.\nThese concepts are important because they help us understand relationships between numbers in daily life, such as cooking recipes or shopping deals.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A ratio is a comparison between two numbers, like 3:2, which means for every 3 of one thing, there are 2 of another. A rate is a ratio that compares two different units, like 60 miles per hour, which tells us how fast something is moving.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use apples and oranges to understand ratios. If we have 3 apples and 2 oranges, the ratio of apples to oranges is 3:2.\n2. **Ask:** If we double the apples and oranges, what is the new ratio? (6:4)\n3. **Say:** Now, let's talk about rates. Imagine we drive 60 miles in 2 hours. The rate is 30 miles per hour.\n4. **Ask:** If we drive 120 miles in 4 hours, what is the rate? (30 miles per hour)\n5. Use a measuring cup and water to show a 2:1 ratio by filling one cup with water and another with half as much.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A ratio compares two numbers, written as $a:b$ or $\\frac{a}{b}$. For example, if there are 4 red marbles and 6 blue marbles, the ratio of red to blue is $4:6$, which simplifies to $2:3$.\nA rate is a ratio that compares different units, like speed. If a car travels 100 miles in 2 hours, the rate is $\\frac{100 \\text{ miles}}{2 \\text{ hours}} = 50 \\text{ miles per hour}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Ratio: $a:b$\n  - $a$: first quantity\n  - $b$: second quantity\n- Rate: $\\frac{a}{b}$\n  - $a$: quantity in the first unit\n  - $b$: quantity in the second unit",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is a real-life example of a ratio you can think of?\n2. **Say:** Let's compare the number of spoons to forks in the drawer.\n3. Count the spoons and forks together, then write the ratio.\n4. **Say:** Now, let's find a rate. How long does it take to walk one block?\n5. Time the walk, then calculate the rate in minutes per block.\n6. **Ask:** How does understanding this help us in daily life?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the order of numbers in a ratio. **Try:** Always write the first quantity first.\n- Mixing units in rates. **Try:** Keep units consistent when calculating rates.\n- Forgetting to simplify ratios. **Try:** Divide both numbers by their greatest common factor.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Rates and ratios are everywhere! When you cook, you use ratios to mix ingredients. When you shop, you compare prices per unit to find the best deals.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding rates and ratios helps children see the world mathematically. Keep exploring these concepts in everyday activities!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of rates and ratios\n- Learn to compare quantities using ratios\n- Apply rates and ratios to real-life situations\n**Why this matters for parents:** Understanding rates and ratios helps children make sense of everyday comparisons, like speed or price per item.",
+    "overview": "Rates and ratios are ways to compare two quantities. A ratio shows how many times one number contains another, while a rate is a specific type of ratio that compares different units, like miles per hour.\nThese concepts are important because they help us understand relationships between numbers in daily life, such as cooking recipes or shopping deals.",
+    "core": "A ratio is a comparison between two numbers, like 3:2, which means for every 3 of one thing, there are 2 of another. A rate is a ratio that compares two different units, like 60 miles per hour, which tells us how fast something is moving.",
+    "demo": "1. **Say:** Let's use apples and oranges to understand ratios. If we have 3 apples and 2 oranges, the ratio of apples to oranges is 3:2.\n2. **Ask:** If we double the apples and oranges, what is the new ratio? (6:4)\n3. **Say:** Now, let's talk about rates. Imagine we drive 60 miles in 2 hours. The rate is 30 miles per hour.\n4. **Ask:** If we drive 120 miles in 4 hours, what is the rate? (30 miles per hour)\n5. Use a measuring cup and water to show a 2:1 ratio by filling one cup with water and another with half as much.",
+    "math": "A ratio compares two numbers, written as $a:b$ or $\\frac{a}{b}$. For example, if there are 4 red marbles and 6 blue marbles, the ratio of red to blue is $4:6$, which simplifies to $2:3$.\nA rate is a ratio that compares different units, like speed. If a car travels 100 miles in 2 hours, the rate is $\\frac{100 \\text{ miles}}{2 \\text{ hours}} = 50 \\text{ miles per hour}$.",
+    "formulas": "- Ratio: $a:b$\n  - $a$: first quantity\n  - $b$: second quantity\n- Rate: $\\frac{a}{b}$\n  - $a$: quantity in the first unit\n  - $b$: quantity in the second unit",
+    "guide": "1. **Ask:** What is a real-life example of a ratio you can think of?\n2. **Say:** Let's compare the number of spoons to forks in the drawer.\n3. Count the spoons and forks together, then write the ratio.\n4. **Say:** Now, let's find a rate. How long does it take to walk one block?\n5. Time the walk, then calculate the rate in minutes per block.\n6. **Ask:** How does understanding this help us in daily life?",
+    "mistakes": "- Confusing the order of numbers in a ratio. **Try:** Always write the first quantity first.\n- Mixing units in rates. **Try:** Keep units consistent when calculating rates.\n- Forgetting to simplify ratios. **Try:** Divide both numbers by their greatest common factor.",
+    "connection": "Rates and ratios are everywhere! When you cook, you use ratios to mix ingredients. When you shop, you compare prices per unit to find the best deals.",
+    "close": "Understanding rates and ratios helps children see the world mathematically. Keep exploring these concepts in everyday activities!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the ratio of 8 cats to 12 dogs?",
+      "hint_md": "Simplify the ratio by dividing both numbers by their greatest common factor.",
+      "answer_md": "The ratio is $2:3$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a car travels 150 miles in 3 hours, what is the rate in miles per hour?",
+      "hint_md": "Divide the total miles by the total hours.",
+      "answer_md": "The rate is $50$ miles per hour."
+    },
+    {
+      "order_index": 3,
+      "question_md": "You have 5 cups of flour and 10 cups of sugar. What is the ratio of flour to sugar?",
+      "hint_md": "Write the ratio as $5:10$ and simplify.",
+      "answer_md": "The ratio is $1:2$."
+    }
+  ]
+}

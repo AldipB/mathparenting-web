@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "1967a190-1d37-4b49-939a-0a3856fa2ddf",
+    "slug": "area-perimeter-intro-to-volume",
+    "title": "Area & Perimeter; Intro to Volume",
+    "summary": "Area & Perimeter; Intro to Volume — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concepts of area, perimeter, and an introduction to volume.\n- Learn to calculate area and perimeter of rectangles and squares.\n- Begin exploring volume with simple 3D shapes.\n- **Why this matters for parents:** These concepts are foundational for geometry and help children understand space and measurement in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the concepts of area and perimeter, which are measurements of space and boundary for 2D shapes. We will also touch on volume, which measures the space inside 3D objects.\nUnderstanding these concepts helps children make sense of the world around them, from calculating how much paint is needed for a wall to determining how much water a container can hold.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Area is the amount of space inside a shape, like a rug on the floor. Perimeter is the distance around a shape, like a fence around a yard. Volume measures how much space is inside a 3D object, like how much water fits in a bottle.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the area and perimeter of a rectangle using a book.\n2. Use a ruler to measure the length and width of the book. **Say:** This book is 8 inches long and 5 inches wide.\n3. **Ask:** How do we find the area? (Multiply length by width.)\n4. **Say:** The area is $8 \\times 5 = 40$ square inches.\n5. **Ask:** How do we find the perimeter? (Add all sides.)\n6. **Say:** The perimeter is $8 + 5 + 8 + 5 = 26$ inches.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the area of a rectangle, multiply its length by its width: $A = l \\times w$. For example, if a rectangle is 8 inches long and 5 inches wide, its area is $8 \\times 5 = 40$ square inches.\nThe perimeter is the sum of all sides: $P = 2l + 2w$. For the same rectangle, $P = 2(8) + 2(5) = 26$ inches.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Area of rectangle: $A = l \\times w$\n  - $A$: area\n  - $l$: length\n  - $w$: width\n- Perimeter of rectangle: $P = 2l + 2w$\n  - $P$: perimeter\n  - $l$: length\n  - $w$: width",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Measure a room's length and width with your child using a tape measure.\n2. **Ask:** How can we find the area of the floor?\n3. Calculate the area together. **Say:** Multiply the length by the width.\n4. **Ask:** How can we find the perimeter?\n5. Walk around the room's edge to visualize the perimeter.\n6. **Say:** Add all the sides together to find the perimeter.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing area with perimeter. **Try:** Use different colors to highlight area (inside) and perimeter (border).\n- Forgetting to multiply for area. **Try:** Repeat the formula: length times width.\n- Mixing units. **Try:** Always write units next to numbers (e.g., inches, square inches).",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When planning a garden, knowing the area helps determine how many plants fit. Calculating perimeter helps decide how much fencing is needed.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding area, perimeter, and volume opens up a world of practical applications. Keep exploring these concepts together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concepts of area, perimeter, and an introduction to volume.\n- Learn to calculate area and perimeter of rectangles and squares.\n- Begin exploring volume with simple 3D shapes.\n- **Why this matters for parents:** These concepts are foundational for geometry and help children understand space and measurement in everyday life.",
+    "overview": "This lesson introduces the concepts of area and perimeter, which are measurements of space and boundary for 2D shapes. We will also touch on volume, which measures the space inside 3D objects.\nUnderstanding these concepts helps children make sense of the world around them, from calculating how much paint is needed for a wall to determining how much water a container can hold.",
+    "core": "Area is the amount of space inside a shape, like a rug on the floor. Perimeter is the distance around a shape, like a fence around a yard. Volume measures how much space is inside a 3D object, like how much water fits in a bottle.",
+    "demo": "1. **Say:** Let's find the area and perimeter of a rectangle using a book.\n2. Use a ruler to measure the length and width of the book. **Say:** This book is 8 inches long and 5 inches wide.\n3. **Ask:** How do we find the area? (Multiply length by width.)\n4. **Say:** The area is $8 \\times 5 = 40$ square inches.\n5. **Ask:** How do we find the perimeter? (Add all sides.)\n6. **Say:** The perimeter is $8 + 5 + 8 + 5 = 26$ inches.",
+    "math": "To find the area of a rectangle, multiply its length by its width: $A = l \\times w$. For example, if a rectangle is 8 inches long and 5 inches wide, its area is $8 \\times 5 = 40$ square inches.\nThe perimeter is the sum of all sides: $P = 2l + 2w$. For the same rectangle, $P = 2(8) + 2(5) = 26$ inches.",
+    "formulas": "- Area of rectangle: $A = l \\times w$\n  - $A$: area\n  - $l$: length\n  - $w$: width\n- Perimeter of rectangle: $P = 2l + 2w$\n  - $P$: perimeter\n  - $l$: length\n  - $w$: width",
+    "guide": "1. Measure a room's length and width with your child using a tape measure.\n2. **Ask:** How can we find the area of the floor?\n3. Calculate the area together. **Say:** Multiply the length by the width.\n4. **Ask:** How can we find the perimeter?\n5. Walk around the room's edge to visualize the perimeter.\n6. **Say:** Add all the sides together to find the perimeter.",
+    "mistakes": "- Confusing area with perimeter. **Try:** Use different colors to highlight area (inside) and perimeter (border).\n- Forgetting to multiply for area. **Try:** Repeat the formula: length times width.\n- Mixing units. **Try:** Always write units next to numbers (e.g., inches, square inches).",
+    "connection": "When planning a garden, knowing the area helps determine how many plants fit. Calculating perimeter helps decide how much fencing is needed.",
+    "close": "Understanding area, perimeter, and volume opens up a world of practical applications. Keep exploring these concepts together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the area of a rectangle with length 10 cm and width 4 cm.",
+      "hint_md": "Use the formula $A = l \\times w$.",
+      "answer_md": "$A = 10 \\times 4 = 40$ square cm."
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the perimeter of a square with sides of 6 m?",
+      "hint_md": "A square has four equal sides.",
+      "answer_md": "$P = 4 \\times 6 = 24$ meters."
+    },
+    {
+      "order_index": 3,
+      "question_md": "A room is 12 feet long and 9 feet wide. What is the perimeter?",
+      "hint_md": "Add all the sides: $2l + 2w$.",
+      "answer_md": "$P = 2(12) + 2(9) = 42$ feet."
+    }
+  ]
+}

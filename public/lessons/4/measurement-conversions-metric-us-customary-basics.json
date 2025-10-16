@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "52bba603-4bcf-4ce5-a919-5e0592119773",
+    "slug": "measurement-conversions-metric-us-customary-basics",
+    "title": "Measurement Conversions (metric/US customary basics)",
+    "summary": "Measurement Conversions (metric/US customary basics) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic metric and US customary units for length, weight, and volume.\n- Convert between units within the same system.\n- **Why this matters for parents:** Helps you guide your child in everyday situations like cooking or shopping.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore how to convert measurements within the metric and US customary systems. We'll focus on length, weight, and volume, using simple household objects to make these concepts relatable.\nUnderstanding measurement conversions is crucial because it helps children apply math in real-world situations, like following a recipe or measuring furniture for a room.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Measurement conversions involve changing a quantity from one unit to another within the same system. For example, converting inches to feet or grams to kilograms. This skill helps children understand the relationships between different units and apply them practically.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's measure the length of this table in inches.\"\n2. Use a ruler to measure the table's length in inches.\n3. **Ask:** \"How many inches did we measure?\"\n4. **Say:** \"Now, let's convert that to feet. Remember, 12 inches equals 1 foot.\"\n5. Divide the number of inches by 12 to find the length in feet.\n6. **Ask:** \"What is the length of the table in feet?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To convert inches to feet, divide the number of inches by 12. For example, if a table is 36 inches long, you calculate:\n$$36 \\text{ inches} \\div 12 = 3 \\text{ feet}$$\nThis shows how many feet the table measures.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Inches to feet: $\\text{feet} = \\frac{\\text{inches}}{12}$\n  - Inches: the length in inches\n  - Feet: the length in feet\n- Grams to kilograms: $\\text{kilograms} = \\frac{\\text{grams}}{1000}$\n  - Grams: the weight in grams\n  - Kilograms: the weight in kilograms",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Choose a household object to measure, like a book.\n2. **Say:** \"Let's measure the book's length in centimeters.\"\n3. Measure the book using a ruler.\n4. **Ask:** \"How many centimeters did we measure?\"\n5. **Say:** \"Now, let's convert that to meters. Remember, 100 centimeters equals 1 meter.\"\n6. Divide the number of centimeters by 100 to find the length in meters.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing units: Try using a chart to visualize the conversion.\n- Forgetting to divide: Remind them that conversion often involves division.\n- Mixing systems: Focus on one system at a time to avoid confusion.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking often requires measurement conversions, like converting cups to ounces. Understanding these conversions can make following recipes easier.\nWhen shopping, knowing how to convert units can help compare product sizes and prices effectively.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring measurement conversions! These skills will help your child tackle real-world problems with confidence. Keep practicing!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic metric and US customary units for length, weight, and volume.\n- Convert between units within the same system.\n- **Why this matters for parents:** Helps you guide your child in everyday situations like cooking or shopping.",
+    "overview": "In this lesson, we'll explore how to convert measurements within the metric and US customary systems. We'll focus on length, weight, and volume, using simple household objects to make these concepts relatable.\nUnderstanding measurement conversions is crucial because it helps children apply math in real-world situations, like following a recipe or measuring furniture for a room.",
+    "core": "Measurement conversions involve changing a quantity from one unit to another within the same system. For example, converting inches to feet or grams to kilograms. This skill helps children understand the relationships between different units and apply them practically.",
+    "demo": "1. **Say:** \"Let's measure the length of this table in inches.\"\n2. Use a ruler to measure the table's length in inches.\n3. **Ask:** \"How many inches did we measure?\"\n4. **Say:** \"Now, let's convert that to feet. Remember, 12 inches equals 1 foot.\"\n5. Divide the number of inches by 12 to find the length in feet.\n6. **Ask:** \"What is the length of the table in feet?\"",
+    "math": "To convert inches to feet, divide the number of inches by 12. For example, if a table is 36 inches long, you calculate:\n$$36 \\text{ inches} \\div 12 = 3 \\text{ feet}$$\nThis shows how many feet the table measures.",
+    "formulas": "- Inches to feet: $\\text{feet} = \\frac{\\text{inches}}{12}$\n  - Inches: the length in inches\n  - Feet: the length in feet\n- Grams to kilograms: $\\text{kilograms} = \\frac{\\text{grams}}{1000}$\n  - Grams: the weight in grams\n  - Kilograms: the weight in kilograms",
+    "guide": "1. Choose a household object to measure, like a book.\n2. **Say:** \"Let's measure the book's length in centimeters.\"\n3. Measure the book using a ruler.\n4. **Ask:** \"How many centimeters did we measure?\"\n5. **Say:** \"Now, let's convert that to meters. Remember, 100 centimeters equals 1 meter.\"\n6. Divide the number of centimeters by 100 to find the length in meters.",
+    "mistakes": "- Confusing units: Try using a chart to visualize the conversion.\n- Forgetting to divide: Remind them that conversion often involves division.\n- Mixing systems: Focus on one system at a time to avoid confusion.",
+    "connection": "Cooking often requires measurement conversions, like converting cups to ounces. Understanding these conversions can make following recipes easier.\nWhen shopping, knowing how to convert units can help compare product sizes and prices effectively.",
+    "close": "Great job exploring measurement conversions! These skills will help your child tackle real-world problems with confidence. Keep practicing!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Convert 48 inches to feet.",
+      "hint_md": "Remember, 12 inches equals 1 foot.",
+      "answer_md": "$$48 \\div 12 = 4$$ feet"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Convert 2500 grams to kilograms.",
+      "hint_md": "1000 grams equals 1 kilogram.",
+      "answer_md": "$$2500 \\div 1000 = 2.5$$ kilograms"
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many meters are in 150 centimeters?",
+      "hint_md": "100 centimeters equals 1 meter.",
+      "answer_md": "$$150 \\div 100 = 1.5$$ meters"
+    }
+  ]
+}

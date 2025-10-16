@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "d6f173a2-90a9-4d5b-8412-90ab75e1ef35",
+    "title": "Everyday Math",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "6ba1980e-f718-4e58-b236-66ff3da42936",
+    "slug": "real-world-math-through-play-toys-snacks-blocks",
+    "title": "Real-World Math through Play (Toys, Snacks, Blocks)",
+    "summary": "Real-World Math through Play (Toys, Snacks, Blocks) — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help children recognize numbers and simple math concepts through play.\n- Encourage counting, sorting, and basic addition using everyday items.\n- Foster a positive attitude towards math by integrating it into daily activities.\n**Why this matters for parents:** Building a strong math foundation early helps children develop confidence and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This Parent Guide focuses on teaching math concepts to kindergarteners using toys, snacks, and blocks. By incorporating math into play, children can learn in a fun and engaging way.\nMath is all around us, and introducing it through familiar objects helps children see its relevance. This approach encourages curiosity and makes learning enjoyable.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children learn best through play and exploration. By using toys, snacks, and blocks, you can introduce counting, sorting, and basic addition in a natural setting. This method helps children understand math concepts without feeling pressured.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some small toys, like cars or dolls.\n   **Say:** \"Let's count how many toys we have.\"\n2. Line up the toys and count them together.\n   **Ask:** \"How many toys do we have?\"\n3. Use snacks like crackers or grapes.\n   **Say:** \"Let's make two groups and see how many are in each.\"\n4. Count each group and add them together.\n   **Ask:** \"How many snacks do we have in total?\"\n5. Build a small tower with blocks.\n   **Say:** \"Let's see how tall we can make it by adding more blocks.\"\n6. Count the blocks as you add them.\n   **Ask:** \"How many blocks are in our tower now?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Counting and adding are foundational math skills. For example, if you have 3 toy cars and add 2 more, you can count them to find the total: $$3 + 2 = 5$$. This helps children understand that addition is combining groups.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $a + b = c$\n  - $a$: first group of items\n  - $b$: second group of items\n  - $c$: total number of items",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a small number of items, like 5 toys.\n   **Prompt:** \"Can you count these for me?\"\n2. Introduce more items gradually.\n   **Prompt:** \"What happens if we add 2 more?\"\n3. Use snacks to practice addition.\n   **Prompt:** \"How many do we have if we eat one?\"\n4. Encourage sorting by color or size.\n   **Prompt:** \"Can you group these by color?\"\n5. Build with blocks and count as you go.\n   **Prompt:** \"How many blocks are in our tower now?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Counting too quickly and missing items.\n  Try: Encourage slower counting, touching each item.\n- Mixing up addition and subtraction.\n  Try: Use clear language like \"adding more\" or \"taking away.\"\n- Confusing numbers when counting.\n  Try: Practice counting regularly with different objects.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Counting and adding are used in everyday activities, like setting the table or packing a bag. These skills help children understand quantities and make decisions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Math is a part of everyday life. By playing and exploring with your child, you're helping them build a strong foundation for future learning. Keep it fun and engaging!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help children recognize numbers and simple math concepts through play.\n- Encourage counting, sorting, and basic addition using everyday items.\n- Foster a positive attitude towards math by integrating it into daily activities.\n**Why this matters for parents:** Building a strong math foundation early helps children develop confidence and problem-solving skills.",
+    "overview": "This Parent Guide focuses on teaching math concepts to kindergarteners using toys, snacks, and blocks. By incorporating math into play, children can learn in a fun and engaging way.\nMath is all around us, and introducing it through familiar objects helps children see its relevance. This approach encourages curiosity and makes learning enjoyable.",
+    "core": "Children learn best through play and exploration. By using toys, snacks, and blocks, you can introduce counting, sorting, and basic addition in a natural setting. This method helps children understand math concepts without feeling pressured.",
+    "demo": "1. Gather some small toys, like cars or dolls.\n   **Say:** \"Let's count how many toys we have.\"\n2. Line up the toys and count them together.\n   **Ask:** \"How many toys do we have?\"\n3. Use snacks like crackers or grapes.\n   **Say:** \"Let's make two groups and see how many are in each.\"\n4. Count each group and add them together.\n   **Ask:** \"How many snacks do we have in total?\"\n5. Build a small tower with blocks.\n   **Say:** \"Let's see how tall we can make it by adding more blocks.\"\n6. Count the blocks as you add them.\n   **Ask:** \"How many blocks are in our tower now?\"",
+    "math": "Counting and adding are foundational math skills. For example, if you have 3 toy cars and add 2 more, you can count them to find the total: $$3 + 2 = 5$$. This helps children understand that addition is combining groups.",
+    "formulas": "- $a + b = c$\n  - $a$: first group of items\n  - $b$: second group of items\n  - $c$: total number of items",
+    "guide": "1. Start with a small number of items, like 5 toys.\n   **Prompt:** \"Can you count these for me?\"\n2. Introduce more items gradually.\n   **Prompt:** \"What happens if we add 2 more?\"\n3. Use snacks to practice addition.\n   **Prompt:** \"How many do we have if we eat one?\"\n4. Encourage sorting by color or size.\n   **Prompt:** \"Can you group these by color?\"\n5. Build with blocks and count as you go.\n   **Prompt:** \"How many blocks are in our tower now?\"",
+    "mistakes": "- Counting too quickly and missing items.\n  Try: Encourage slower counting, touching each item.\n- Mixing up addition and subtraction.\n  Try: Use clear language like \"adding more\" or \"taking away.\"\n- Confusing numbers when counting.\n  Try: Practice counting regularly with different objects.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Counting and adding are used in everyday activities, like setting the table or packing a bag. These skills help children understand quantities and make decisions.",
+    "close": "Math is a part of everyday life. By playing and exploring with your child, you're helping them build a strong foundation for future learning. Keep it fun and engaging!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Real-World Math through Play (Toys, Snacks, Blocks)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Real-World Math through Play (Toys, Snacks, Blocks)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Real-World Math through Play (Toys, Snacks, Blocks)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

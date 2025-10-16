@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "b1bfd0fd-882f-4796-8bc5-248328ce778e",
+    "title": "Quadratics & Factoring (Intro)",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "f7287dde-0b66-4d3f-a3e3-b53d7d90d62a",
+    "slug": "factoring-techniques-intro",
+    "title": "Factoring Techniques (Intro)",
+    "summary": "Factoring Techniques (Intro) — summary for parents in Grade 9 — Algebra I Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic factoring techniques for quadratic expressions.\n- Recognize patterns in numbers and expressions.\n- **Why this matters for parents:** Helps you support your child in developing problem-solving skills that are useful in everyday life.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Factoring is a method used to simplify algebraic expressions, particularly quadratics. It involves breaking down an expression into simpler parts that, when multiplied together, give the original expression.\nThis skill is crucial because it lays the foundation for solving quadratic equations, which appear in various real-world contexts, such as calculating areas and optimizing resources.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Factoring is like finding the pieces that multiply together to make a whole. For example, with numbers, 6 can be factored into 2 and 3 because $2 \\times 3 = 6$. In algebra, we do something similar with expressions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's factor the expression $x^2 + 5x + 6$ using objects like small blocks.\n2. **Ask:** Can you arrange 11 blocks into two groups that multiply to make 6?\n3. **Say:** Try grouping them as 2 and 3 blocks. Notice $2 \\times 3 = 6$.\n4. **Say:** Similarly, for $x^2 + 5x + 6$, we look for numbers that add to 5 and multiply to 6.\n5. **Say:** These numbers are 2 and 3, so the factors are $(x + 2)(x + 3)$.\n6. **Ask:** Can you see how these groups relate to the expression?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To factor $x^2 + 5x + 6$, look for two numbers that add to 5 (the coefficient of $x$) and multiply to 6 (the constant term). These numbers are 2 and 3. Thus, the expression factors to $(x + 2)(x + 3)$.\nExample: Factor $x^2 + 7x + 10$. The numbers 2 and 5 add to 7 and multiply to 10, so the factors are $(x + 2)(x + 5)$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $x^2 + bx + c = (x + p)(x + q)$\n  - $p + q = b$\n  - $p \\times q = c$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's start by identifying the coefficients in the expression.\n2. **Ask:** What are the numbers that add to the middle term and multiply to the constant?\n3. **Say:** Write down the factors you found.\n4. **Ask:** Can you verify by expanding the factors to see if they match the original expression?\n5. **Say:** Practice with different expressions to build confidence.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing addition and multiplication: **Try:** Write down what each number should do (add/multiply).\n- Forgetting to check work: **Try:** Expand the factors to ensure they match the original expression.\n- Choosing incorrect numbers: **Try:** List all factor pairs of the constant term.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Factoring is useful in budgeting, where you need to break down expenses into manageable parts. It also helps in planning layouts, like arranging furniture in a room to fit perfectly.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Factoring is like solving a puzzle. With practice, you'll help your child see patterns and solve problems with confidence!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic factoring techniques for quadratic expressions.\n- Recognize patterns in numbers and expressions.\n- **Why this matters for parents:** Helps you support your child in developing problem-solving skills that are useful in everyday life.",
+    "overview": "Factoring is a method used to simplify algebraic expressions, particularly quadratics. It involves breaking down an expression into simpler parts that, when multiplied together, give the original expression.\nThis skill is crucial because it lays the foundation for solving quadratic equations, which appear in various real-world contexts, such as calculating areas and optimizing resources.",
+    "core": "Factoring is like finding the pieces that multiply together to make a whole. For example, with numbers, 6 can be factored into 2 and 3 because $2 \\times 3 = 6$. In algebra, we do something similar with expressions.",
+    "demo": "1. **Say:** Let's factor the expression $x^2 + 5x + 6$ using objects like small blocks.\n2. **Ask:** Can you arrange 11 blocks into two groups that multiply to make 6?\n3. **Say:** Try grouping them as 2 and 3 blocks. Notice $2 \\times 3 = 6$.\n4. **Say:** Similarly, for $x^2 + 5x + 6$, we look for numbers that add to 5 and multiply to 6.\n5. **Say:** These numbers are 2 and 3, so the factors are $(x + 2)(x + 3)$.\n6. **Ask:** Can you see how these groups relate to the expression?",
+    "math": "To factor $x^2 + 5x + 6$, look for two numbers that add to 5 (the coefficient of $x$) and multiply to 6 (the constant term). These numbers are 2 and 3. Thus, the expression factors to $(x + 2)(x + 3)$.\nExample: Factor $x^2 + 7x + 10$. The numbers 2 and 5 add to 7 and multiply to 10, so the factors are $(x + 2)(x + 5)$.",
+    "formulas": "- $x^2 + bx + c = (x + p)(x + q)$\n  - $p + q = b$\n  - $p \\times q = c$",
+    "guide": "1. **Say:** Let's start by identifying the coefficients in the expression.\n2. **Ask:** What are the numbers that add to the middle term and multiply to the constant?\n3. **Say:** Write down the factors you found.\n4. **Ask:** Can you verify by expanding the factors to see if they match the original expression?\n5. **Say:** Practice with different expressions to build confidence.",
+    "mistakes": "- Confusing addition and multiplication: **Try:** Write down what each number should do (add/multiply).\n- Forgetting to check work: **Try:** Expand the factors to ensure they match the original expression.\n- Choosing incorrect numbers: **Try:** List all factor pairs of the constant term.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Factoring is useful in budgeting, where you need to break down expenses into manageable parts. It also helps in planning layouts, like arranging furniture in a room to fit perfectly.",
+    "close": "Factoring is like solving a puzzle. With practice, you'll help your child see patterns and solve problems with confidence!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Factoring Techniques (Intro)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Factoring Techniques (Intro)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Factoring Techniques (Intro)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

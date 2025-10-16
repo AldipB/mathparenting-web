@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f48b80f3-5025-4246-a6d2-2c7b06e79d98",
+    "slug": "volume-of-rectangular-prisms-surface-area-intro",
+    "title": "Volume of Rectangular Prisms; Surface Area (intro)",
+    "summary": "Volume of Rectangular Prisms; Surface Area (intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to calculate the volume of rectangular prisms.\n- Introduce the concept of surface area.\n- **Why this matters for parents:** Helps children grasp spatial reasoning and apply math to real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the volume of rectangular prisms and gives a brief introduction to surface area. Volume measures how much space an object occupies, while surface area is the total area of all the surfaces of a 3D object.\nUnderstanding these concepts helps children visualize and solve problems involving space and capacity, such as packing boxes or filling containers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Volume tells us how much space is inside a 3D object, like a box. Surface area is about the outside surfaces. Both are important for understanding the size and capacity of objects.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find the volume of a box using a tissue box.\"\n2. Measure the length, width, and height of the box with a ruler.\n3. **Ask:** \"What do you think happens when we multiply these numbers?\"\n4. Multiply the three measurements to find the volume.\n5. **Say:** \"This number tells us how much space is inside the box.\"\n6. **Ask:** \"How might we use this information when packing or storing things?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Volume of a rectangular prism is calculated by multiplying its length ($l$), width ($w$), and height ($h$):\n$$V = l \times w \times h$$\nFor example, if a box is 5 cm long, 3 cm wide, and 2 cm high, the volume is:\n$$V = 5 \times 3 \times 2 = 30 \text{ cubic centimeters}$$",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Volume: $$V = l \\times w \\times h$$\n  - $V$: Volume\n  - $l$: Length\n  - $w$: Width\n  - $h$: Height\n- Surface Area: (Introductory, no formula yet)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Find a small box and measure its dimensions with your child.\n2. **Ask:** \"What do we need to do to find the volume?\"\n3. Multiply the length, width, and height together.\n4. **Say:** \"Now we know how much space is inside the box.\"\n5. Discuss where this might be useful, like in packing or storage.\n6. **Ask:** \"How do you think surface area might be different?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to multiply all three dimensions.\n  - Try: \"Remember, volume needs all three: length, width, and height.\"\n- Mixing up units (e.g., cm and inches).\n  - Try: \"Check that all measurements use the same units.\"\n- Confusing volume with surface area.\n  - Try: \"Volume is inside space; surface area is outside space.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Think about packing a suitcase. Knowing the volume helps us understand how much we can fit inside. Surface area helps when wrapping gifts, as it tells us how much wrapping paper is needed.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring volume! Keep practicing, and soon you'll see how these ideas fit into everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to calculate the volume of rectangular prisms.\n- Introduce the concept of surface area.\n- **Why this matters for parents:** Helps children grasp spatial reasoning and apply math to real-world situations.",
+    "overview": "This lesson introduces the volume of rectangular prisms and gives a brief introduction to surface area. Volume measures how much space an object occupies, while surface area is the total area of all the surfaces of a 3D object.\nUnderstanding these concepts helps children visualize and solve problems involving space and capacity, such as packing boxes or filling containers.",
+    "core": "Volume tells us how much space is inside a 3D object, like a box. Surface area is about the outside surfaces. Both are important for understanding the size and capacity of objects.",
+    "demo": "1. **Say:** \"Let's find the volume of a box using a tissue box.\"\n2. Measure the length, width, and height of the box with a ruler.\n3. **Ask:** \"What do you think happens when we multiply these numbers?\"\n4. Multiply the three measurements to find the volume.\n5. **Say:** \"This number tells us how much space is inside the box.\"\n6. **Ask:** \"How might we use this information when packing or storing things?\"",
+    "math": "Volume of a rectangular prism is calculated by multiplying its length ($l$), width ($w$), and height ($h$):\n$$V = l \times w \times h$$\nFor example, if a box is 5 cm long, 3 cm wide, and 2 cm high, the volume is:\n$$V = 5 \times 3 \times 2 = 30 \text{ cubic centimeters}$$",
+    "formulas": "- Volume: $$V = l \\times w \\times h$$\n  - $V$: Volume\n  - $l$: Length\n  - $w$: Width\n  - $h$: Height\n- Surface Area: (Introductory, no formula yet)",
+    "guide": "1. Find a small box and measure its dimensions with your child.\n2. **Ask:** \"What do we need to do to find the volume?\"\n3. Multiply the length, width, and height together.\n4. **Say:** \"Now we know how much space is inside the box.\"\n5. Discuss where this might be useful, like in packing or storage.\n6. **Ask:** \"How do you think surface area might be different?\"",
+    "mistakes": "- Forgetting to multiply all three dimensions.\n  - Try: \"Remember, volume needs all three: length, width, and height.\"\n- Mixing up units (e.g., cm and inches).\n  - Try: \"Check that all measurements use the same units.\"\n- Confusing volume with surface area.\n  - Try: \"Volume is inside space; surface area is outside space.\"",
+    "connection": "Think about packing a suitcase. Knowing the volume helps us understand how much we can fit inside. Surface area helps when wrapping gifts, as it tells us how much wrapping paper is needed.",
+    "close": "Great job exploring volume! Keep practicing, and soon you'll see how these ideas fit into everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "A box is 4 cm long, 3 cm wide, and 2 cm high. What is its volume?",
+      "hint_md": "Use the formula $V = l \\times w \\times h$.",
+      "answer_md": "The volume is $4 \\times 3 \\times 2 = 24$ cubic centimeters."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a box has a volume of 60 cubic centimeters and is 5 cm long and 3 cm wide, what is its height?",
+      "hint_md": "Rearrange the formula: $h = \\frac{V}{l \\times w}$.",
+      "answer_md": "The height is $\\frac{60}{5 \\times 3} = 4$ cm."
+    },
+    {
+      "order_index": 3,
+      "question_md": "A rectangular prism has dimensions 7 cm, 5 cm, and 2 cm. Calculate its volume.",
+      "hint_md": "Multiply the length, width, and height.",
+      "answer_md": "The volume is $7 \\times 5 \\times 2 = 70$ cubic centimeters."
+    }
+  ]
+}

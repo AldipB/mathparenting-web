@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "b8025cc9-5d56-41d8-b50d-d16c5bce3e46",
+    "title": "Number & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "405ba39d-d246-401c-b686-be6f891a49ba",
+    "slug": "place-value-to-1-000-000",
+    "title": "Place Value to 1 000 000",
+    "summary": "Place Value to 1 000 000 — summary for parents in Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand place value up to 1,000,000.\n- Recognize the value of each digit in a large number.\n- **Why this matters for parents:** Helps children develop a strong foundation in number sense, crucial for future math skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Place value helps us understand the value of each digit in a number based on its position. In this lesson, we'll explore numbers up to 1,000,000, breaking them down into units, tens, hundreds, thousands, and beyond.\nUnderstanding place value is essential because it forms the basis for addition, subtraction, and more complex math operations. It also helps children make sense of large numbers they encounter in everyday life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Place value means that the position of a digit in a number determines its value. For example, in the number 345, the '3' is in the hundreds place, so it represents 300. We'll use everyday objects to make this concept clear and relatable.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's look at the number 1,234,567.\"\n2. Use small objects like beans or buttons to represent each place value. Group them into ones, tens, hundreds, thousands, etc.\n3. **Ask:** \"How many groups of thousands do we have?\"\n4. **Say:** \"The '1' in 1,234,567 is in the millions place, so it represents 1,000,000.\"\n5. Use a piece of paper to write the number and label each place value.\n6. **Ask:** \"What does the '5' represent in this number?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In the number 1,234,567, each digit has a specific place value:\n- The '1' is in the millions place, representing 1,000,000.\n- The '2' is in the hundred thousands place, representing 200,000.\n- The '3' is in the ten thousands place, representing 30,000.\nThis breakdown helps us understand the total value of the number.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Write down a large number, like 456,789.\n2. **Ask:** \"What is the value of the '4'?\"\n3. **Say:** \"The '4' is in the hundred thousands place, so it represents 400,000.\"\n4. Use objects to represent each place value, grouping them accordingly.\n5. **Ask:** \"Can you find the value of the '7' in this number?\"\n6. **Say:** \"Great! The '7' is in the thousands place, representing 7,000.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the place value positions. **Try:** Use a place value chart.\n- Forgetting to multiply the digit by its place value. **Try:** Write down the multiplication for each digit.\n- Misplacing commas in large numbers. **Try:** Count three digits from the right and place a comma.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Place value is used when reading large numbers like population counts or distances in kilometers. It helps in understanding the size and scale of these numbers.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding place value builds confidence in handling large numbers. Keep exploring numbers together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand place value up to 1,000,000.\n- Recognize the value of each digit in a large number.\n- **Why this matters for parents:** Helps children develop a strong foundation in number sense, crucial for future math skills.",
+    "overview": "Place value helps us understand the value of each digit in a number based on its position. In this lesson, we'll explore numbers up to 1,000,000, breaking them down into units, tens, hundreds, thousands, and beyond.\nUnderstanding place value is essential because it forms the basis for addition, subtraction, and more complex math operations. It also helps children make sense of large numbers they encounter in everyday life.",
+    "core": "Place value means that the position of a digit in a number determines its value. For example, in the number 345, the '3' is in the hundreds place, so it represents 300. We'll use everyday objects to make this concept clear and relatable.",
+    "demo": "1. **Say:** \"Let's look at the number 1,234,567.\"\n2. Use small objects like beans or buttons to represent each place value. Group them into ones, tens, hundreds, thousands, etc.\n3. **Ask:** \"How many groups of thousands do we have?\"\n4. **Say:** \"The '1' in 1,234,567 is in the millions place, so it represents 1,000,000.\"\n5. Use a piece of paper to write the number and label each place value.\n6. **Ask:** \"What does the '5' represent in this number?\"",
+    "math": "In the number 1,234,567, each digit has a specific place value:\n- The '1' is in the millions place, representing 1,000,000.\n- The '2' is in the hundred thousands place, representing 200,000.\n- The '3' is in the ten thousands place, representing 30,000.\nThis breakdown helps us understand the total value of the number.",
+    "guide": "1. Write down a large number, like 456,789.\n2. **Ask:** \"What is the value of the '4'?\"\n3. **Say:** \"The '4' is in the hundred thousands place, so it represents 400,000.\"\n4. Use objects to represent each place value, grouping them accordingly.\n5. **Ask:** \"Can you find the value of the '7' in this number?\"\n6. **Say:** \"Great! The '7' is in the thousands place, representing 7,000.\"",
+    "mistakes": "- Confusing the place value positions. **Try:** Use a place value chart.\n- Forgetting to multiply the digit by its place value. **Try:** Write down the multiplication for each digit.\n- Misplacing commas in large numbers. **Try:** Count three digits from the right and place a comma.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Place value is used when reading large numbers like population counts or distances in kilometers. It helps in understanding the size and scale of these numbers.",
+    "close": "Understanding place value builds confidence in handling large numbers. Keep exploring numbers together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Place Value to 1 000 000**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Place Value to 1 000 000** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Place Value to 1 000 000**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

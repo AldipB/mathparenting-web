@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "16121e6f-edcd-4ede-aee4-f4b6ba7769a4",
+    "title": "Real Numbers & Exponents",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "bb57019c-1c3f-4c0a-8c5b-4fe6cfa7e999",
+    "slug": "real-numbers-rational-irrational",
+    "title": "Real Numbers: Rational & Irrational",
+    "summary": "Real Numbers: Rational & Irrational — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between rational and irrational numbers.\n- Identify examples of each type of number.\n- **Why this matters for parents:** Helping your child grasp these concepts builds a strong foundation for algebra and beyond.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Real numbers include all the numbers on the number line. They can be divided into two categories: rational and irrational numbers. Rational numbers are those that can be expressed as a fraction, while irrational numbers cannot.\nUnderstanding these concepts is crucial because they form the basis for more advanced math topics. Recognizing the difference helps in solving equations and understanding the properties of numbers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rational numbers are numbers that can be written as a fraction, such as $\\frac{1}{2}$ or $3$. Irrational numbers cannot be written as a simple fraction. Examples include $\\pi$ and $\\sqrt{2}$. Both types of numbers are part of the real number system.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore rational numbers using household objects. Take 4 apples and divide them into 2 equal groups.\n2. **Ask:** How many apples are in each group? (Expected answer: 2)\n3. **Say:** This shows that 4 divided by 2 is a rational number because it can be expressed as a fraction: $\\frac{4}{2}$.\n4. **Say:** Now, think about the number $\\pi$. We can't express it as a simple fraction, which makes it irrational.\n5. **Ask:** Can you think of another number that can't be written as a fraction? (Hint: Think about $\\sqrt{2}$.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Rational numbers can be expressed as $\\frac{a}{b}$ where $a$ and $b$ are integers and $b \\neq 0$. For example, $\\frac{3}{4}$ is a rational number. Irrational numbers, like $\\pi$ or $\\sqrt{2}$, cannot be expressed this way. They have non-repeating, non-terminating decimal expansions.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$\\frac{a}{b}$$\n* $a$ is the numerator (an integer)\n  * $b$ is the denominator (a non-zero integer)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is a rational number you use every day? (Example: money, like $\\frac{1}{2}$ dollar)\n2. **Say:** Let's find a number that can't be written as a fraction. Think about $\\pi$.\n3. **Ask:** Can you find the square root of 2 using a calculator? Notice how it never ends or repeats.\n4. **Say:** These are examples of irrational numbers.\n5. **Ask:** Why do you think it's important to know the difference?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing rational with whole numbers. **Try:** Remember, rational numbers include fractions.\n- Thinking all decimals are irrational. **Try:** Check if the decimal repeats or ends.\n- Assuming all roots are irrational. **Try:** Check if the root is a perfect square, like $\\sqrt{4} = 2$.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Cooking often involves fractions, like $\\frac{1}{3}$ cup of sugar. This is a rational number. The concept of irrational numbers appears in nature, such as the spiral of a seashell, which relates to $\\pi$.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding real numbers opens the door to exploring the beauty of math in everyday life. Keep encouraging curiosity and exploration!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between rational and irrational numbers.\n- Identify examples of each type of number.\n- **Why this matters for parents:** Helping your child grasp these concepts builds a strong foundation for algebra and beyond.",
+    "overview": "Real numbers include all the numbers on the number line. They can be divided into two categories: rational and irrational numbers. Rational numbers are those that can be expressed as a fraction, while irrational numbers cannot.\nUnderstanding these concepts is crucial because they form the basis for more advanced math topics. Recognizing the difference helps in solving equations and understanding the properties of numbers.",
+    "core": "Rational numbers are numbers that can be written as a fraction, such as $\\frac{1}{2}$ or $3$. Irrational numbers cannot be written as a simple fraction. Examples include $\\pi$ and $\\sqrt{2}$. Both types of numbers are part of the real number system.",
+    "demo": "1. **Say:** Let's explore rational numbers using household objects. Take 4 apples and divide them into 2 equal groups.\n2. **Ask:** How many apples are in each group? (Expected answer: 2)\n3. **Say:** This shows that 4 divided by 2 is a rational number because it can be expressed as a fraction: $\\frac{4}{2}$.\n4. **Say:** Now, think about the number $\\pi$. We can't express it as a simple fraction, which makes it irrational.\n5. **Ask:** Can you think of another number that can't be written as a fraction? (Hint: Think about $\\sqrt{2}$.)",
+    "math": "Rational numbers can be expressed as $\\frac{a}{b}$ where $a$ and $b$ are integers and $b \\neq 0$. For example, $\\frac{3}{4}$ is a rational number. Irrational numbers, like $\\pi$ or $\\sqrt{2}$, cannot be expressed this way. They have non-repeating, non-terminating decimal expansions.",
+    "formulas": "$$\\frac{a}{b}$$\n* $a$ is the numerator (an integer)\n  * $b$ is the denominator (a non-zero integer)",
+    "guide": "1. **Ask:** What is a rational number you use every day? (Example: money, like $\\frac{1}{2}$ dollar)\n2. **Say:** Let's find a number that can't be written as a fraction. Think about $\\pi$.\n3. **Ask:** Can you find the square root of 2 using a calculator? Notice how it never ends or repeats.\n4. **Say:** These are examples of irrational numbers.\n5. **Ask:** Why do you think it's important to know the difference?",
+    "mistakes": "- Confusing rational with whole numbers. **Try:** Remember, rational numbers include fractions.\n- Thinking all decimals are irrational. **Try:** Check if the decimal repeats or ends.\n- Assuming all roots are irrational. **Try:** Check if the root is a perfect square, like $\\sqrt{4} = 2$.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Cooking often involves fractions, like $\\frac{1}{3}$ cup of sugar. This is a rational number. The concept of irrational numbers appears in nature, such as the spiral of a seashell, which relates to $\\pi$.",
+    "close": "Understanding real numbers opens the door to exploring the beauty of math in everyday life. Keep encouraging curiosity and exploration!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Real Numbers: Rational & Irrational**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Real Numbers: Rational & Irrational** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Real Numbers: Rational & Irrational**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

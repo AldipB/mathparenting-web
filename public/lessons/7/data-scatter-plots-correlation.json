@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "bc20eed0-8420-4c06-bab3-2801b267a45c",
+    "title": "Geometry, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "8959e7c4-9dca-4b3f-a5f5-c8d1ca818033",
+    "slug": "data-scatter-plots-correlation",
+    "title": "Data: Scatter Plots & Correlation",
+    "summary": "Data: Scatter Plots & Correlation — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand what scatter plots are and how they show relationships between two sets of data.\n- Learn how to identify positive, negative, and no correlation.\n- **Why this matters for parents:** Understanding scatter plots helps you support your child's ability to interpret data, a key skill in today's data-driven world.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Scatter plots are graphs that show the relationship between two different sets of data. Each point on the graph represents a pair of values.\nThis matters because scatter plots help us see patterns and trends, like how study time might relate to test scores. Recognizing these patterns can help your child make informed decisions.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Scatter plots use dots to represent data points on a graph. By looking at how these dots are arranged, we can see if there's a pattern. If the dots form a line going up, that's a positive correlation. If they form a line going down, that's a negative correlation. If there's no clear line, there's no correlation.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather objects:** Use coins or buttons to represent data points.\n2. **Create a simple scatter plot:** Draw a grid on paper. Label the horizontal axis 'Hours Studied' and the vertical axis 'Test Score'.\n3. **Place the coins:** For example, place a coin at (1, 50), (2, 60), (3, 70), (4, 80).\n4. **Say:** 'Notice how the coins form a line going up. This shows a positive correlation.'\n5. **Ask:** 'What do you think would happen if we added a point at (5, 50)?'\n6. **Discuss:** Explain how this new point might change the pattern.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a scatter plot, each point is an ordered pair $(x, y)$. For example, if $x$ is hours studied and $y$ is test score, a point (3, 70) means 3 hours of study resulted in a score of 70.\nIf points tend to rise from left to right, it's a positive correlation. If they fall, it's negative. If there's no clear trend, there's no correlation.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Introduce scatter plots:** 'Let's explore how two things might relate, like time spent studying and test scores.'\n2. **Create a plot:** Use graph paper or draw a simple grid.\n3. **Plot points together:** Use real data or make up numbers.\n4. **Discuss patterns:** 'Do the points form a line or are they scattered?'\n5. **Identify correlation:** 'Is it positive, negative, or none?'\n6. **Reflect:** 'How could this information be useful?'",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing axes: Try labeling each axis clearly with what it represents.\n- Ignoring outliers: Try discussing how unusual points might affect the pattern.\n- Assuming correlation implies causation: Try explaining that just because two things are related doesn't mean one causes the other.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Scatter plots are used in many fields, like economics to show trends in sales or in health to track the relationship between exercise and weight loss.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding scatter plots opens up a world of data interpretation. Keep exploring patterns together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand what scatter plots are and how they show relationships between two sets of data.\n- Learn how to identify positive, negative, and no correlation.\n- **Why this matters for parents:** Understanding scatter plots helps you support your child's ability to interpret data, a key skill in today's data-driven world.",
+    "overview": "Scatter plots are graphs that show the relationship between two different sets of data. Each point on the graph represents a pair of values.\nThis matters because scatter plots help us see patterns and trends, like how study time might relate to test scores. Recognizing these patterns can help your child make informed decisions.",
+    "core": "Scatter plots use dots to represent data points on a graph. By looking at how these dots are arranged, we can see if there's a pattern. If the dots form a line going up, that's a positive correlation. If they form a line going down, that's a negative correlation. If there's no clear line, there's no correlation.",
+    "demo": "1. **Gather objects:** Use coins or buttons to represent data points.\n2. **Create a simple scatter plot:** Draw a grid on paper. Label the horizontal axis 'Hours Studied' and the vertical axis 'Test Score'.\n3. **Place the coins:** For example, place a coin at (1, 50), (2, 60), (3, 70), (4, 80).\n4. **Say:** 'Notice how the coins form a line going up. This shows a positive correlation.'\n5. **Ask:** 'What do you think would happen if we added a point at (5, 50)?'\n6. **Discuss:** Explain how this new point might change the pattern.",
+    "math": "In a scatter plot, each point is an ordered pair $(x, y)$. For example, if $x$ is hours studied and $y$ is test score, a point (3, 70) means 3 hours of study resulted in a score of 70.\nIf points tend to rise from left to right, it's a positive correlation. If they fall, it's negative. If there's no clear trend, there's no correlation.",
+    "guide": "1. **Introduce scatter plots:** 'Let's explore how two things might relate, like time spent studying and test scores.'\n2. **Create a plot:** Use graph paper or draw a simple grid.\n3. **Plot points together:** Use real data or make up numbers.\n4. **Discuss patterns:** 'Do the points form a line or are they scattered?'\n5. **Identify correlation:** 'Is it positive, negative, or none?'\n6. **Reflect:** 'How could this information be useful?'",
+    "mistakes": "- Confusing axes: Try labeling each axis clearly with what it represents.\n- Ignoring outliers: Try discussing how unusual points might affect the pattern.\n- Assuming correlation implies causation: Try explaining that just because two things are related doesn't mean one causes the other.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Scatter plots are used in many fields, like economics to show trends in sales or in health to track the relationship between exercise and weight loss.",
+    "close": "Understanding scatter plots opens up a world of data interpretation. Keep exploring patterns together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Data: Scatter Plots & Correlation**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Data: Scatter Plots & Correlation** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Data: Scatter Plots & Correlation**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

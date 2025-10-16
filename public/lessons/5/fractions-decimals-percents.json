@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "1eb612ac-db10-45fa-825b-0eda3d069ae5",
+    "slug": "fractions-decimals-percents",
+    "title": "Fractions ↔ Decimals ↔ Percents",
+    "summary": "Fractions ↔ Decimals ↔ Percents — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to convert between fractions, decimals, and percents.\n- Help your child see the connections between these forms.\n- **Why this matters for parents:** Strengthening your child's number sense and real-world math skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on converting between fractions, decimals, and percents. These are different ways to represent parts of a whole.\nUnderstanding these conversions helps children in everyday situations, like shopping discounts or measuring ingredients, and builds a strong foundation for future math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Fractions, decimals, and percents are all ways to express the same idea: parts of a whole. A fraction like $\\frac{1}{2}$ can also be written as 0.5 in decimal form and 50% in percent form. Learning to switch between these forms helps children understand and compare quantities more easily.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's use a pizza to understand this. Imagine a pizza cut into 4 equal slices.\"\n2. **Ask:** \"If we eat 1 slice, what fraction of the pizza is gone?\" (Answer: $\\frac{1}{4}$)\n3. **Say:** \"Now, let's convert $\\frac{1}{4}$ to a decimal. Divide 1 by 4 to get 0.25.\"\n4. **Say:** \"To find the percent, multiply 0.25 by 100. That gives us 25%.\"\n5. **Ask:** \"What does 25% mean in terms of the pizza?\" (Answer: 25% of the pizza is eaten.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To convert a fraction to a decimal, divide the numerator by the denominator. For example, $\\frac{3}{4}$ becomes 0.75. To convert a decimal to a percent, multiply by 100. So, 0.75 becomes 75%. To convert a percent to a fraction, write the percent over 100 and simplify if possible. For example, 50% becomes $\\frac{50}{100}$, which simplifies to $\\frac{1}{2}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Decimal = \\frac{Numerator}{Denominator}\n- Divide the top number by the bottom number.\nPercent = Decimal \\times 100\n- Multiply the decimal by 100 to get the percent.\nFraction = \\frac{Percent}{100}\n- Write the percent over 100 and simplify.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's practice converting $\\frac{3}{5}$ to a decimal.\"\n2. **Ask:** \"What do we do first?\" (Answer: Divide 3 by 5)\n3. **Say:** \"Great! 3 divided by 5 is 0.6.\"\n4. **Ask:** \"How do we turn 0.6 into a percent?\" (Answer: Multiply by 100)\n5. **Say:** \"Exactly! 0.6 times 100 is 60%.\"\n6. **Ask:** \"What does 60% represent in a real-world scenario?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing numerator and denominator. **Try:** Remind them the numerator is the top number.\n- Forgetting to multiply by 100 to convert to percent. **Try:** Use a calculator to reinforce the step.\n- Not simplifying fractions. **Try:** Practice with simple examples like $\\frac{50}{100}$.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, discounts are often given as percents. Understanding these conversions helps children calculate savings. Cooking often requires measuring ingredients, which can involve fractions and decimals.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring fractions, decimals, and percents! These skills will help your child in many real-life situations. Keep practicing together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to convert between fractions, decimals, and percents.\n- Help your child see the connections between these forms.\n- **Why this matters for parents:** Strengthening your child's number sense and real-world math skills.",
+    "overview": "This lesson focuses on converting between fractions, decimals, and percents. These are different ways to represent parts of a whole.\nUnderstanding these conversions helps children in everyday situations, like shopping discounts or measuring ingredients, and builds a strong foundation for future math concepts.",
+    "core": "Fractions, decimals, and percents are all ways to express the same idea: parts of a whole. A fraction like $\\frac{1}{2}$ can also be written as 0.5 in decimal form and 50% in percent form. Learning to switch between these forms helps children understand and compare quantities more easily.",
+    "demo": "1. **Say:** \"Let's use a pizza to understand this. Imagine a pizza cut into 4 equal slices.\"\n2. **Ask:** \"If we eat 1 slice, what fraction of the pizza is gone?\" (Answer: $\\frac{1}{4}$)\n3. **Say:** \"Now, let's convert $\\frac{1}{4}$ to a decimal. Divide 1 by 4 to get 0.25.\"\n4. **Say:** \"To find the percent, multiply 0.25 by 100. That gives us 25%.\"\n5. **Ask:** \"What does 25% mean in terms of the pizza?\" (Answer: 25% of the pizza is eaten.)",
+    "math": "To convert a fraction to a decimal, divide the numerator by the denominator. For example, $\\frac{3}{4}$ becomes 0.75. To convert a decimal to a percent, multiply by 100. So, 0.75 becomes 75%. To convert a percent to a fraction, write the percent over 100 and simplify if possible. For example, 50% becomes $\\frac{50}{100}$, which simplifies to $\\frac{1}{2}$.",
+    "formulas": "Decimal = \\frac{Numerator}{Denominator}\n- Divide the top number by the bottom number.\nPercent = Decimal \\times 100\n- Multiply the decimal by 100 to get the percent.\nFraction = \\frac{Percent}{100}\n- Write the percent over 100 and simplify.",
+    "guide": "1. **Say:** \"Let's practice converting $\\frac{3}{5}$ to a decimal.\"\n2. **Ask:** \"What do we do first?\" (Answer: Divide 3 by 5)\n3. **Say:** \"Great! 3 divided by 5 is 0.6.\"\n4. **Ask:** \"How do we turn 0.6 into a percent?\" (Answer: Multiply by 100)\n5. **Say:** \"Exactly! 0.6 times 100 is 60%.\"\n6. **Ask:** \"What does 60% represent in a real-world scenario?\"",
+    "mistakes": "- Confusing numerator and denominator. **Try:** Remind them the numerator is the top number.\n- Forgetting to multiply by 100 to convert to percent. **Try:** Use a calculator to reinforce the step.\n- Not simplifying fractions. **Try:** Practice with simple examples like $\\frac{50}{100}$.",
+    "connection": "When shopping, discounts are often given as percents. Understanding these conversions helps children calculate savings. Cooking often requires measuring ingredients, which can involve fractions and decimals.",
+    "close": "Great job exploring fractions, decimals, and percents! These skills will help your child in many real-life situations. Keep practicing together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Convert $\\frac{2}{5}$ to a decimal and a percent.",
+      "hint_md": "Divide 2 by 5, then multiply by 100.",
+      "answer_md": "0.4 and 40%"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is 75% as a fraction and a decimal?",
+      "hint_md": "Write 75 over 100 and simplify.",
+      "answer_md": "$\\frac{3}{4}$ and 0.75"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Convert 0.2 to a fraction and a percent.",
+      "hint_md": "Multiply by 100 for percent; write over 1 and simplify for fraction.",
+      "answer_md": "$\\frac{1}{5}$ and 20%"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "83d84ec9-0c65-4a83-97d0-7e17c5c0df21",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "7f8fba62-07be-441b-9902-7fc8f70e66e1",
+    "slug": "systems-non-linear-2-var-3-var",
+    "title": "Systems (Non-Linear, 2-var/3-var)",
+    "summary": "Systems (Non-Linear, 2-var/3-var) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand systems of non-linear equations with two or three variables.\n- Learn how to solve these systems using substitution or elimination.\n- **Why this matters for parents:** This helps your child develop problem-solving skills and logical thinking.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we'll explore systems of non-linear equations, which involve equations that aren't just straight lines. These systems can include curves like parabolas or circles. Solving them means finding points where these curves intersect.\nUnderstanding these systems is crucial because it extends the concept of solving linear equations to more complex situations. This skill is valuable in fields like engineering, economics, and computer science.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A system of non-linear equations involves two or more equations that include at least one equation that isn't a straight line. Solving these systems means finding the values of variables that satisfy all equations simultaneously.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's use a bowl and a small ball to imagine a system of equations. The bowl represents a curve, like a parabola, and the ball represents a point.\n2. **Ask:** Where do you think the ball touches the bowl? That's like finding where two curves meet.\n3. **Say:** Now, let's use a piece of string to represent another curve, like a circle.\n4. **Ask:** Can you find where the string and the bowl touch? These are the solutions to our system.\n5. **Say:** We'll solve a system with equations like $y = x^2$ and $x^2 + y^2 = 1$ to find these intersection points.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Consider the system:\n1. $y = x^2$\n2. $x^2 + y^2 = 1$\nSubstitute $y = x^2$ into the second equation:\n$$x^2 + (x^2)^2 = 1$$\nThis simplifies to $x^2 + x^4 = 1$. Solving this gives possible $x$ values, which can then be used to find corresponding $y$ values.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $x^2 + y^2 = 1$\n  - Represents a circle with radius 1 centered at the origin.\n- $y = x^2$\n  - Represents a parabola opening upwards.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What do you notice about the shapes of these equations?\n2. **Say:** Let's substitute one equation into the other to simplify.\n3. **Ask:** Can you solve for one variable first?\n4. **Say:** Now, let's find the corresponding value for the other variable.\n5. **Ask:** Does this solution make sense when plugged back into both equations?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to substitute correctly. **Try:** Double-check each substitution step.\n- Ignoring possible solutions. **Try:** Consider all potential solutions, especially with squares.\n- Misinterpreting the graph. **Try:** Sketch the curves to visualize intersections.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Systems of non-linear equations can model real-world scenarios like the path of a thrown ball intersecting with a hill or the orbits of planets.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring these complex systems! Your support helps your child tackle challenging problems with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand systems of non-linear equations with two or three variables.\n- Learn how to solve these systems using substitution or elimination.\n- **Why this matters for parents:** This helps your child develop problem-solving skills and logical thinking.",
+    "overview": "In this lesson, we'll explore systems of non-linear equations, which involve equations that aren't just straight lines. These systems can include curves like parabolas or circles. Solving them means finding points where these curves intersect.\nUnderstanding these systems is crucial because it extends the concept of solving linear equations to more complex situations. This skill is valuable in fields like engineering, economics, and computer science.",
+    "core": "A system of non-linear equations involves two or more equations that include at least one equation that isn't a straight line. Solving these systems means finding the values of variables that satisfy all equations simultaneously.",
+    "demo": "1. **Say:** Let's use a bowl and a small ball to imagine a system of equations. The bowl represents a curve, like a parabola, and the ball represents a point.\n2. **Ask:** Where do you think the ball touches the bowl? That's like finding where two curves meet.\n3. **Say:** Now, let's use a piece of string to represent another curve, like a circle.\n4. **Ask:** Can you find where the string and the bowl touch? These are the solutions to our system.\n5. **Say:** We'll solve a system with equations like $y = x^2$ and $x^2 + y^2 = 1$ to find these intersection points.",
+    "math": "Consider the system:\n1. $y = x^2$\n2. $x^2 + y^2 = 1$\nSubstitute $y = x^2$ into the second equation:\n$$x^2 + (x^2)^2 = 1$$\nThis simplifies to $x^2 + x^4 = 1$. Solving this gives possible $x$ values, which can then be used to find corresponding $y$ values.",
+    "formulas": "- $x^2 + y^2 = 1$\n  - Represents a circle with radius 1 centered at the origin.\n- $y = x^2$\n  - Represents a parabola opening upwards.",
+    "guide": "1. **Ask:** What do you notice about the shapes of these equations?\n2. **Say:** Let's substitute one equation into the other to simplify.\n3. **Ask:** Can you solve for one variable first?\n4. **Say:** Now, let's find the corresponding value for the other variable.\n5. **Ask:** Does this solution make sense when plugged back into both equations?",
+    "mistakes": "- Forgetting to substitute correctly. **Try:** Double-check each substitution step.\n- Ignoring possible solutions. **Try:** Consider all potential solutions, especially with squares.\n- Misinterpreting the graph. **Try:** Sketch the curves to visualize intersections.",
+    "connection": "Systems of non-linear equations can model real-world scenarios like the path of a thrown ball intersecting with a hill or the orbits of planets.",
+    "close": "Great job exploring these complex systems! Your support helps your child tackle challenging problems with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Solve the system: $y = x^2$ and $x^2 + y^2 = 4$.",
+      "hint_md": "Substitute $y = x^2$ into the second equation.",
+      "answer_md": "The solutions are $(\frac{2\text{, }2})$ and $(-\frac{2\text{, }2})$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Find the intersection of $y = x^2 + 1$ and $x^2 + y^2 = 5$.",
+      "hint_md": "Substitute $y = x^2 + 1$ into the second equation.",
+      "answer_md": "The solutions are $(1, 2)$ and $(-1, 2)$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Solve for $x$ and $y$: $y = 2x^2$ and $x^2 + y^2 = 8$.",
+      "hint_md": "Substitute $y = 2x^2$ into the second equation.",
+      "answer_md": "The solutions are $(1, 2)$ and $(-1, 2)$."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "00a45ef3-45ca-48df-9498-4b5284b23f0a",
+    "title": "Data, Ratio & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "3154054a-c664-45c9-896f-6c658ceb5fe6",
+    "slug": "intro-to-ratio-rate",
+    "title": "Intro to Ratio & Rate",
+    "summary": "Intro to Ratio & Rate — summary for parents in Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the concept of ratios and rates.\n- Identify and create simple ratios using household objects.\n- Apply ratios to solve basic problems.\n- **Why this matters for parents:** Understanding ratios helps children make sense of relationships between quantities, a skill used in cooking, shopping, and budgeting.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Ratios and rates are ways to compare two quantities. A ratio is a comparison of two numbers by division, while a rate is a specific type of ratio where the two quantities have different units.\nUnderstanding ratios and rates is important because they are used in everyday life, from cooking recipes to comparing prices at the store. This lesson will help your child recognize and use these concepts confidently.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Ratios show how much of one thing there is compared to another. For example, if you have 2 apples and 3 oranges, the ratio of apples to oranges is 2:3. Rates are similar but involve different units, like miles per hour or price per item.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather 6 apples and 4 oranges.\n- **Say:** Let's compare the number of apples to oranges.\n- **Ask:** How many apples do we have? How many oranges?\n- **Say:** We have 6 apples and 4 oranges. The ratio of apples to oranges is 6:4.\n- **Ask:** Can we simplify this ratio? (Yes, to 3:2 by dividing both numbers by 2.)\n- **Say:** This means for every 3 apples, there are 2 oranges.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A ratio is written as $a:b$ or $\\frac{a}{b}$. For example, if there are 8 red marbles and 4 blue marbles, the ratio of red to blue is $8:4$. Simplifying gives $2:1$, meaning for every 2 red marbles, there is 1 blue marble.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Ratio: $a:b$\nRate: $\\frac{a}{b}$\nSimplified Ratio: $\\frac{a}{b}$\n* $a$ and $b$ are numbers being compared",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Ask:** What two things are we comparing? (e.g., apples and oranges)\n- 2. **Say:** Count each item and write down the numbers.\n- 3. **Ask:** Can we simplify the ratio? How?\n- 4. **Say:** Let's write the ratio in simplest form.\n- 5. **Ask:** How would this ratio look if we used different units (e.g., per item)?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the order of numbers in a ratio. **Try:** Always keep the order consistent with the question.\n- Not simplifying ratios. **Try:** Divide both numbers by their greatest common factor.\n- Mixing up units in rates. **Try:** Make sure to label units clearly (e.g., miles per hour).",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Ratios are everywhere! When cooking, you might use a ratio of 2 cups of flour to 1 cup of sugar. Rates are used when driving, like traveling at 60 miles per hour.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Ratios and rates are powerful tools for understanding the world around us. Keep practicing, and you'll see them everywhere!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the concept of ratios and rates.\n- Identify and create simple ratios using household objects.\n- Apply ratios to solve basic problems.\n- **Why this matters for parents:** Understanding ratios helps children make sense of relationships between quantities, a skill used in cooking, shopping, and budgeting.",
+    "overview": "Ratios and rates are ways to compare two quantities. A ratio is a comparison of two numbers by division, while a rate is a specific type of ratio where the two quantities have different units.\nUnderstanding ratios and rates is important because they are used in everyday life, from cooking recipes to comparing prices at the store. This lesson will help your child recognize and use these concepts confidently.",
+    "core": "Ratios show how much of one thing there is compared to another. For example, if you have 2 apples and 3 oranges, the ratio of apples to oranges is 2:3. Rates are similar but involve different units, like miles per hour or price per item.",
+    "demo": "- Gather 6 apples and 4 oranges.\n- **Say:** Let's compare the number of apples to oranges.\n- **Ask:** How many apples do we have? How many oranges?\n- **Say:** We have 6 apples and 4 oranges. The ratio of apples to oranges is 6:4.\n- **Ask:** Can we simplify this ratio? (Yes, to 3:2 by dividing both numbers by 2.)\n- **Say:** This means for every 3 apples, there are 2 oranges.",
+    "math": "A ratio is written as $a:b$ or $\\frac{a}{b}$. For example, if there are 8 red marbles and 4 blue marbles, the ratio of red to blue is $8:4$. Simplifying gives $2:1$, meaning for every 2 red marbles, there is 1 blue marble.",
+    "formulas": "Ratio: $a:b$\nRate: $\\frac{a}{b}$\nSimplified Ratio: $\\frac{a}{b}$\n* $a$ and $b$ are numbers being compared",
+    "guide": "- 1. **Ask:** What two things are we comparing? (e.g., apples and oranges)\n- 2. **Say:** Count each item and write down the numbers.\n- 3. **Ask:** Can we simplify the ratio? How?\n- 4. **Say:** Let's write the ratio in simplest form.\n- 5. **Ask:** How would this ratio look if we used different units (e.g., per item)?",
+    "mistakes": "- Confusing the order of numbers in a ratio. **Try:** Always keep the order consistent with the question.\n- Not simplifying ratios. **Try:** Divide both numbers by their greatest common factor.\n- Mixing up units in rates. **Try:** Make sure to label units clearly (e.g., miles per hour).",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Ratios are everywhere! When cooking, you might use a ratio of 2 cups of flour to 1 cup of sugar. Rates are used when driving, like traveling at 60 miles per hour.",
+    "close": "Ratios and rates are powerful tools for understanding the world around us. Keep practicing, and you'll see them everywhere!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Intro to Ratio & Rate**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Intro to Ratio & Rate** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Intro to Ratio & Rate**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

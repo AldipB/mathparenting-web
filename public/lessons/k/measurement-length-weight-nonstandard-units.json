@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "6084f3bc-02db-44aa-8f22-8816b225459a",
+    "title": "Measurement, Position & Time",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "2aea317b-143d-4b65-b0b8-0601f239e9bc",
+    "slug": "measurement-length-weight-nonstandard-units",
+    "title": "Measurement: Length & Weight (Nonstandard Units)",
+    "summary": "Measurement: Length & Weight (Nonstandard Units) — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to measure length and weight using nonstandard units.\n- Develop comparison skills by observing differences in size and weight.\n- Encourage estimation and reasoning.\n**Why this matters for parents:** Building these skills helps children understand measurement concepts, which are foundational for future math learning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces children to measuring length and weight using objects like blocks or spoons instead of rulers or scales. It helps them grasp the idea of measurement through hands-on activities.\nUnderstanding measurement is crucial because it connects math to the real world. It helps children make sense of their environment and lays the groundwork for more advanced math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children will learn to measure objects by comparing them to other items. For example, they might use blocks to see how long a book is or use spoons to weigh a toy. This approach makes abstract concepts more tangible and fun.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some blocks and a small toy.\n2. **Say:** \"Let's see how many blocks long this book is.\"\n3. Line up blocks next to the book, counting as you go.\n4. **Ask:** \"How many blocks did we use?\"\n5. Now, use spoons to weigh a small toy. **Say:** \"Let's see how many spoons heavy this toy is.\"\n6. Count the spoons and compare with another toy.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Using nonstandard units helps children understand measurement concepts. For example, if a book is 5 blocks long and a toy is 3 blocks long, they can see that the book is longer. Similarly, if a toy weighs 4 spoons and another weighs 2, they can tell which is heavier.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Choose objects to measure, like a book or a toy.\n2. Select nonstandard units, such as blocks or spoons.\n3. **Say:** \"Let's measure this object using our blocks.\"\n4. Line up the blocks and count them together.\n5. **Ask:** \"Which is longer or heavier? How do you know?\"\n6. Encourage your child to try measuring different objects.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing length with weight.\n  - Try: Emphasize using blocks for length and spoons for weight.\n- Not aligning blocks or spoons properly.\n  - Try: Show how to place them end-to-end without gaps.\n- Forgetting to count accurately.\n  - Try: Count together slowly and clearly.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, you can compare the weight of different fruits using your hands. At home, measure ingredients with cups or spoons when cooking together.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to explore measurement with curiosity. These skills will grow with them, opening doors to understanding the world through math.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to measure length and weight using nonstandard units.\n- Develop comparison skills by observing differences in size and weight.\n- Encourage estimation and reasoning.\n**Why this matters for parents:** Building these skills helps children understand measurement concepts, which are foundational for future math learning.",
+    "overview": "This lesson introduces children to measuring length and weight using objects like blocks or spoons instead of rulers or scales. It helps them grasp the idea of measurement through hands-on activities.\nUnderstanding measurement is crucial because it connects math to the real world. It helps children make sense of their environment and lays the groundwork for more advanced math concepts.",
+    "core": "Children will learn to measure objects by comparing them to other items. For example, they might use blocks to see how long a book is or use spoons to weigh a toy. This approach makes abstract concepts more tangible and fun.",
+    "demo": "1. Gather some blocks and a small toy.\n2. **Say:** \"Let's see how many blocks long this book is.\"\n3. Line up blocks next to the book, counting as you go.\n4. **Ask:** \"How many blocks did we use?\"\n5. Now, use spoons to weigh a small toy. **Say:** \"Let's see how many spoons heavy this toy is.\"\n6. Count the spoons and compare with another toy.",
+    "math": "Using nonstandard units helps children understand measurement concepts. For example, if a book is 5 blocks long and a toy is 3 blocks long, they can see that the book is longer. Similarly, if a toy weighs 4 spoons and another weighs 2, they can tell which is heavier.",
+    "guide": "1. Choose objects to measure, like a book or a toy.\n2. Select nonstandard units, such as blocks or spoons.\n3. **Say:** \"Let's measure this object using our blocks.\"\n4. Line up the blocks and count them together.\n5. **Ask:** \"Which is longer or heavier? How do you know?\"\n6. Encourage your child to try measuring different objects.",
+    "mistakes": "- Confusing length with weight.\n  - Try: Emphasize using blocks for length and spoons for weight.\n- Not aligning blocks or spoons properly.\n  - Try: Show how to place them end-to-end without gaps.\n- Forgetting to count accurately.\n  - Try: Count together slowly and clearly.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When shopping, you can compare the weight of different fruits using your hands. At home, measure ingredients with cups or spoons when cooking together.",
+    "close": "Encourage your child to explore measurement with curiosity. These skills will grow with them, opening doors to understanding the world through math."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "How many blocks long is your favorite toy?",
+      "hint_md": "Line up blocks next to the toy and count them.",
+      "answer_md": "The toy is _ blocks long."
+    },
+    {
+      "order_index": 2,
+      "question_md": "How many spoons does it take to balance a small ball?",
+      "hint_md": "Use a seesaw or balance to compare the weight.",
+      "answer_md": "It takes _ spoons to balance the ball."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Which is heavier, a spoon or a small toy car?",
+      "hint_md": "Use a balance to compare their weights.",
+      "answer_md": "The _ is heavier."
+    }
+  ]
+}

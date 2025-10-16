@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "bb0f7394-f382-4102-8431-91002358c03a",
+    "title": "Measurement & Trig",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "94f72543-15b9-4050-838c-35db283e1c60",
+    "slug": "transformations-symmetry-94f72543-15b9-4050-838c-35db283e1c60",
+    "title": "Transformations & Symmetry",
+    "summary": "Transformations & Symmetry — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand geometric transformations: translation, rotation, reflection, and dilation.\n- Recognize symmetry in shapes and objects.\n- **Why this matters for parents:** Helps your child develop spatial reasoning and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Transformations in geometry involve moving or changing shapes while maintaining certain properties. This includes translation (sliding), rotation (turning), reflection (flipping), and dilation (resizing).\nUnderstanding transformations and symmetry is crucial because they are foundational concepts in geometry that help in visualizing and solving complex problems. These skills are applicable in fields like engineering, art, and architecture.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Transformations change the position or size of a shape without altering its essential properties. Symmetry is when a shape looks the same after a transformation, like a mirror reflection. These concepts help us understand how objects relate to each other in space.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather:** A small mirror, a piece of paper, and a pencil.\n2. **Draw** a simple shape, like a triangle, on the paper.\n3. **Say:** \"Let's slide this shape to a new spot.\" Move the paper sideways.\n4. **Ask:** \"What changed about the triangle?\" (Position, not shape)\n5. **Place** the mirror along one side of the triangle.\n6. **Ask:** \"What do you see in the mirror?\" (A reflection that shows symmetry)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A translation moves a shape without rotating or flipping it. For example, moving a point from $(2, 3)$ to $(5, 7)$ is a translation.\nA reflection flips a shape over a line, like a mirror image. If you reflect a point $(x, y)$ over the y-axis, it becomes $(-x, y)$.\nSymmetry means a shape looks the same after a transformation, like a square rotated by 90 degrees.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Translation: $(x, y) \\rightarrow (x+a, y+b)$\n- $a$: horizontal shift\n  - $b$: vertical shift\nReflection over x-axis: $(x, y) \\rightarrow (x, -y)$\n- Reflects point across the x-axis",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explain** what each transformation does using simple terms.\n2. **Use** household objects to demonstrate sliding, turning, and flipping.\n3. **Encourage** your child to draw shapes and perform transformations on paper.\n4. **Discuss** symmetry by finding symmetrical objects at home, like a butterfly.\n5. **Practice** transformations with your child using graph paper.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing translation with rotation.\n  - Try: Emphasize that translation is sliding, not turning.\n- Forgetting to change signs in reflections.\n  - Try: Use a mirror to show how reflections work.\n- Mixing up symmetry types.\n  - Try: Use clear examples like a butterfly for mirror symmetry.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Transformations are used in video game graphics to move characters and objects. Symmetry is found in nature, like in leaves and flowers, and is used in design and art.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring transformations and symmetry opens up a world of patterns and designs. Keep encouraging your child to see the beauty in math!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand geometric transformations: translation, rotation, reflection, and dilation.\n- Recognize symmetry in shapes and objects.\n- **Why this matters for parents:** Helps your child develop spatial reasoning and problem-solving skills.",
+    "overview": "Transformations in geometry involve moving or changing shapes while maintaining certain properties. This includes translation (sliding), rotation (turning), reflection (flipping), and dilation (resizing).\nUnderstanding transformations and symmetry is crucial because they are foundational concepts in geometry that help in visualizing and solving complex problems. These skills are applicable in fields like engineering, art, and architecture.",
+    "core": "Transformations change the position or size of a shape without altering its essential properties. Symmetry is when a shape looks the same after a transformation, like a mirror reflection. These concepts help us understand how objects relate to each other in space.",
+    "demo": "1. **Gather:** A small mirror, a piece of paper, and a pencil.\n2. **Draw** a simple shape, like a triangle, on the paper.\n3. **Say:** \"Let's slide this shape to a new spot.\" Move the paper sideways.\n4. **Ask:** \"What changed about the triangle?\" (Position, not shape)\n5. **Place** the mirror along one side of the triangle.\n6. **Ask:** \"What do you see in the mirror?\" (A reflection that shows symmetry)",
+    "math": "A translation moves a shape without rotating or flipping it. For example, moving a point from $(2, 3)$ to $(5, 7)$ is a translation.\nA reflection flips a shape over a line, like a mirror image. If you reflect a point $(x, y)$ over the y-axis, it becomes $(-x, y)$.\nSymmetry means a shape looks the same after a transformation, like a square rotated by 90 degrees.",
+    "formulas": "Translation: $(x, y) \\rightarrow (x+a, y+b)$\n- $a$: horizontal shift\n  - $b$: vertical shift\nReflection over x-axis: $(x, y) \\rightarrow (x, -y)$\n- Reflects point across the x-axis",
+    "guide": "1. **Explain** what each transformation does using simple terms.\n2. **Use** household objects to demonstrate sliding, turning, and flipping.\n3. **Encourage** your child to draw shapes and perform transformations on paper.\n4. **Discuss** symmetry by finding symmetrical objects at home, like a butterfly.\n5. **Practice** transformations with your child using graph paper.",
+    "mistakes": "- Confusing translation with rotation.\n  - Try: Emphasize that translation is sliding, not turning.\n- Forgetting to change signs in reflections.\n  - Try: Use a mirror to show how reflections work.\n- Mixing up symmetry types.\n  - Try: Use clear examples like a butterfly for mirror symmetry.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Transformations are used in video game graphics to move characters and objects. Symmetry is found in nature, like in leaves and flowers, and is used in design and art.",
+    "close": "Exploring transformations and symmetry opens up a world of patterns and designs. Keep encouraging your child to see the beauty in math!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Transformations & Symmetry**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Transformations & Symmetry** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Transformations & Symmetry**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

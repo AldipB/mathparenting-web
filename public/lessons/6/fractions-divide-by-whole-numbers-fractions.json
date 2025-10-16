@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "1b2d7a7f-7ed7-441a-b2e8-7ed1e0d3ed1f",
+    "title": "Numbers & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "ff1e28cb-e44c-4446-8763-69ae5c2d1e81",
+    "slug": "fractions-divide-by-whole-numbers-fractions",
+    "title": "Fractions: Divide by Whole Numbers & Fractions",
+    "summary": "Fractions: Divide by Whole Numbers & Fractions — summary for parents in Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to divide fractions by whole numbers.\n- Learn to divide fractions by other fractions.\n- **Why this matters for parents:** This helps children solve real-world problems involving sharing and dividing.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Dividing fractions by whole numbers and other fractions can seem tricky at first, but it's a skill that builds on what your child already knows about fractions and division. We'll use simple examples and household objects to make it clear.\nThis lesson is important because dividing fractions is a practical skill used in cooking, budgeting, and sharing items equally. It helps children think critically and solve problems efficiently.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "When dividing fractions, we use the concept of 'reciprocal,' which means flipping the fraction. For example, the reciprocal of $\\frac{2}{3}$ is $\\frac{3}{2}$. Dividing by a fraction is the same as multiplying by its reciprocal.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather 6 apples. **Say:** 'Let's divide these 6 apples among $\\frac{1}{2}$ of a person.'\n- Explain that dividing by $\\frac{1}{2}$ is like asking how many halves fit into 6.\n- Show that $6 \\div \\frac{1}{2}$ is the same as $6 \\times 2$. **Ask:** 'How many halves are in 6?'\n- Count the halves together: 12 halves. **Say:** 'So, 6 divided by $\\frac{1}{2}$ is 12.'\n- Use a measuring cup to show $\\frac{1}{2}$ cup and fill it with water to visualize halves.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To divide a fraction by a whole number, multiply the fraction by the reciprocal of the whole number. For example, $\\frac{3}{4} \\div 2$ becomes $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$.\nTo divide a fraction by another fraction, multiply by the reciprocal of the divisor. For example, $\\frac{3}{4} \\div \\frac{2}{3}$ becomes $\\frac{3}{4} \\times \\frac{3}{2} = \\frac{9}{8}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$$\\frac{a}{b} \\div c = \\frac{a}{b} \\times \\frac{1}{c}$$\n- $\\frac{a}{b}$: the fraction being divided\n  - $c$: the whole number\n  - $\\frac{1}{c}$: the reciprocal of the whole number\n$$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$$\n- $\\frac{a}{b}$: the fraction being divided\n  - $\\frac{c}{d}$: the divisor fraction\n  - $\\frac{d}{c}$: the reciprocal of the divisor fraction",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Start with a simple example using objects like apples or blocks.\n- Explain the concept of reciprocal by flipping a fraction.\n- Practice dividing a fraction by a whole number using the reciprocal.\n- Move on to dividing a fraction by another fraction, using the reciprocal.\n- Encourage your child to explain the process back to you.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication with division. **Try:** Remind them to flip the divisor.\n- Forgetting to flip the fraction. **Try:** Practice flipping with simple fractions.\n- Mixing up numerators and denominators. **Try:** Use visual aids like fraction strips.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Dividing fractions is useful in cooking, like halving a recipe or splitting ingredients. It's also handy in budgeting, such as dividing expenses among friends.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job! Understanding how to divide fractions opens up a world of practical math skills. Keep practicing, and you'll master it in no time!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to divide fractions by whole numbers.\n- Learn to divide fractions by other fractions.\n- **Why this matters for parents:** This helps children solve real-world problems involving sharing and dividing.",
+    "overview": "Dividing fractions by whole numbers and other fractions can seem tricky at first, but it's a skill that builds on what your child already knows about fractions and division. We'll use simple examples and household objects to make it clear.\nThis lesson is important because dividing fractions is a practical skill used in cooking, budgeting, and sharing items equally. It helps children think critically and solve problems efficiently.",
+    "core": "When dividing fractions, we use the concept of 'reciprocal,' which means flipping the fraction. For example, the reciprocal of $\\frac{2}{3}$ is $\\frac{3}{2}$. Dividing by a fraction is the same as multiplying by its reciprocal.",
+    "demo": "- Gather 6 apples. **Say:** 'Let's divide these 6 apples among $\\frac{1}{2}$ of a person.'\n- Explain that dividing by $\\frac{1}{2}$ is like asking how many halves fit into 6.\n- Show that $6 \\div \\frac{1}{2}$ is the same as $6 \\times 2$. **Ask:** 'How many halves are in 6?'\n- Count the halves together: 12 halves. **Say:** 'So, 6 divided by $\\frac{1}{2}$ is 12.'\n- Use a measuring cup to show $\\frac{1}{2}$ cup and fill it with water to visualize halves.",
+    "math": "To divide a fraction by a whole number, multiply the fraction by the reciprocal of the whole number. For example, $\\frac{3}{4} \\div 2$ becomes $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$.\nTo divide a fraction by another fraction, multiply by the reciprocal of the divisor. For example, $\\frac{3}{4} \\div \\frac{2}{3}$ becomes $\\frac{3}{4} \\times \\frac{3}{2} = \\frac{9}{8}$.",
+    "formulas": "$$\\frac{a}{b} \\div c = \\frac{a}{b} \\times \\frac{1}{c}$$\n- $\\frac{a}{b}$: the fraction being divided\n  - $c$: the whole number\n  - $\\frac{1}{c}$: the reciprocal of the whole number\n$$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$$\n- $\\frac{a}{b}$: the fraction being divided\n  - $\\frac{c}{d}$: the divisor fraction\n  - $\\frac{d}{c}$: the reciprocal of the divisor fraction",
+    "guide": "- Start with a simple example using objects like apples or blocks.\n- Explain the concept of reciprocal by flipping a fraction.\n- Practice dividing a fraction by a whole number using the reciprocal.\n- Move on to dividing a fraction by another fraction, using the reciprocal.\n- Encourage your child to explain the process back to you.",
+    "mistakes": "- Confusing multiplication with division. **Try:** Remind them to flip the divisor.\n- Forgetting to flip the fraction. **Try:** Practice flipping with simple fractions.\n- Mixing up numerators and denominators. **Try:** Use visual aids like fraction strips.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Dividing fractions is useful in cooking, like halving a recipe or splitting ingredients. It's also handy in budgeting, such as dividing expenses among friends.",
+    "close": "Great job! Understanding how to divide fractions opens up a world of practical math skills. Keep practicing, and you'll master it in no time!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Fractions: Divide by Whole Numbers & Fractions**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Fractions: Divide by Whole Numbers & Fractions** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Fractions: Divide by Whole Numbers & Fractions**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

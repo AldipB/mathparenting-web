@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "c2455732-c028-414a-bd39-3b711a15ce90",
+    "title": "Proportions & Percents",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "dcc544af-40ea-4c6d-bb8c-5ea7b1ec9345",
+    "slug": "rates-in-real-life",
+    "title": "Rates in Real Life",
+    "summary": "Rates in Real Life — summary for parents in Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand and calculate rates using everyday examples.\n- Apply rate concepts to solve real-world problems.\n**Why this matters for parents:** Understanding rates helps children make sense of everyday situations like speed, cost per item, and more.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Rates are a way to compare two different quantities, like miles per hour or dollars per pound. They help us understand how one thing changes in relation to another.\nUnderstanding rates is important because they are everywhere in daily life. From calculating the best deal at the grocery store to understanding travel time, rates help us make informed decisions.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A rate is a ratio that compares two different kinds of quantities. For example, if a car travels 60 miles in 2 hours, the rate is 30 miles per hour. This tells us how many miles the car travels in one hour.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find out how fast water fills a cup. Use a measuring cup and a stopwatch.\n2. **Ask:** How many seconds does it take to fill 1 cup of water?\n3. Start the stopwatch as you begin pouring water and stop when the cup is full.\n4. **Say:** If it takes 10 seconds to fill 1 cup, the rate is 1 cup per 10 seconds.\n5. **Ask:** How many cups would fill in 30 seconds at this rate?\n6. **Say:** At 1 cup per 10 seconds, you would fill 3 cups in 30 seconds.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Rates are expressed as a fraction or division. For example, if a car travels 120 miles in 3 hours, the rate is $$\\frac{120 \\text{ miles}}{3 \\text{ hours}} = 40 \\text{ miles per hour}$$. This means the car travels 40 miles in one hour.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $$\\text{Rate} = \\frac{\\text{Quantity 1}}{\\text{Quantity 2}}$$\n  - Quantity 1: The first measured amount (e.g., miles, dollars)\n  - Quantity 2: The second measured amount (e.g., hours, items)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is a rate you see in daily life? (e.g., speed, cost per item)\n2. **Say:** Let's calculate the rate of something simple, like cost per apple.\n3. **Ask:** If 5 apples cost $10, what is the cost per apple?\n4. **Say:** Divide $10 by 5 apples to find the rate: $2 per apple.\n5. **Ask:** How does knowing this rate help us when shopping?\n6. **Say:** It helps us compare prices and find the best deal.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing units: Try to clearly identify and label each unit.\n- Forgetting to divide: Try dividing the total by the number of units.\n- Mixing up quantities: Try writing down what each number represents before calculating.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Rates are used in cooking (e.g., teaspoons per minute) and budgeting (e.g., dollars per week). Understanding rates helps in planning and efficiency.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding rates helps us make smart choices every day. Keep exploring and applying these concepts to see the world in a new way!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand and calculate rates using everyday examples.\n- Apply rate concepts to solve real-world problems.\n**Why this matters for parents:** Understanding rates helps children make sense of everyday situations like speed, cost per item, and more.",
+    "overview": "Rates are a way to compare two different quantities, like miles per hour or dollars per pound. They help us understand how one thing changes in relation to another.\nUnderstanding rates is important because they are everywhere in daily life. From calculating the best deal at the grocery store to understanding travel time, rates help us make informed decisions.",
+    "core": "A rate is a ratio that compares two different kinds of quantities. For example, if a car travels 60 miles in 2 hours, the rate is 30 miles per hour. This tells us how many miles the car travels in one hour.",
+    "demo": "1. **Say:** Let's find out how fast water fills a cup. Use a measuring cup and a stopwatch.\n2. **Ask:** How many seconds does it take to fill 1 cup of water?\n3. Start the stopwatch as you begin pouring water and stop when the cup is full.\n4. **Say:** If it takes 10 seconds to fill 1 cup, the rate is 1 cup per 10 seconds.\n5. **Ask:** How many cups would fill in 30 seconds at this rate?\n6. **Say:** At 1 cup per 10 seconds, you would fill 3 cups in 30 seconds.",
+    "math": "Rates are expressed as a fraction or division. For example, if a car travels 120 miles in 3 hours, the rate is $$\\frac{120 \\text{ miles}}{3 \\text{ hours}} = 40 \\text{ miles per hour}$$. This means the car travels 40 miles in one hour.",
+    "formulas": "- $$\\text{Rate} = \\frac{\\text{Quantity 1}}{\\text{Quantity 2}}$$\n  - Quantity 1: The first measured amount (e.g., miles, dollars)\n  - Quantity 2: The second measured amount (e.g., hours, items)",
+    "guide": "1. **Ask:** What is a rate you see in daily life? (e.g., speed, cost per item)\n2. **Say:** Let's calculate the rate of something simple, like cost per apple.\n3. **Ask:** If 5 apples cost $10, what is the cost per apple?\n4. **Say:** Divide $10 by 5 apples to find the rate: $2 per apple.\n5. **Ask:** How does knowing this rate help us when shopping?\n6. **Say:** It helps us compare prices and find the best deal.",
+    "mistakes": "- Confusing units: Try to clearly identify and label each unit.\n- Forgetting to divide: Try dividing the total by the number of units.\n- Mixing up quantities: Try writing down what each number represents before calculating.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Rates are used in cooking (e.g., teaspoons per minute) and budgeting (e.g., dollars per week). Understanding rates helps in planning and efficiency.",
+    "close": "Understanding rates helps us make smart choices every day. Keep exploring and applying these concepts to see the world in a new way!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Rates in Real Life**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Rates in Real Life** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Rates in Real Life**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

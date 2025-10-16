@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "88973646-cd3d-45f9-af11-65fd58e5e9a8",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "901872a7-6f1c-45b5-ba95-100d3c012c0c",
+    "title": "Number & Place Value",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "76be8efb-1d18-44e3-ba91-7d8b51d4787b",
+    "slug": "skip-counting-by-2s-3s-4s-5s-10s",
+    "title": "Skip Counting by 2s, 3s, 4s, 5s, 10s",
+    "summary": "Skip Counting by 2s, 3s, 4s, 5s, 10s — summary for parents in Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand skip counting by 2s, 3s, 4s, 5s, and 10s.\n- Recognize patterns in numbers.\n- Apply skip counting in real-life situations.\n- **Why this matters for parents:** Skip counting builds a foundation for multiplication and helps with quick mental math.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Skip counting is counting forward by numbers other than 1. For example, counting by 2s means saying every second number: 2, 4, 6, and so on. This skill helps children recognize number patterns and prepares them for multiplication.\nUnderstanding skip counting is important because it makes math easier and faster. It helps children see relationships between numbers and is a stepping stone to more complex math concepts like multiplication and division.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Skip counting is like taking bigger steps on the number line. Instead of counting each number one by one, we jump over some numbers. This is a fun way to count and can be practiced with everyday objects like snacks or toys.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather 20 small snacks or toys.\n- Line them up in a row on the table.\n- **Say:** Let's count by 2s. Touch every second item and count out loud: 2, 4, 6, 8, 10.\n- **Ask:** What do you notice about the numbers we say? (They are all even numbers.)\n- Now, try counting by 3s. Touch every third item: 3, 6, 9, 12, 15.\n- **Say:** Great! We’re jumping over some numbers to count faster.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Skip counting involves adding the same number repeatedly. For example, when counting by 2s: 2, 4, 6, 8, 10. Here, we add 2 each time. This is a simple form of addition and helps in understanding multiplication.\nExample: Counting by 5s: 5, 10, 15, 20. We add 5 each time.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "n + x = next number\nn: current number\nx: step size (2, 3, 4, 5, 10)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Start with counting by 2s. Use snacks and touch each second snack while counting.\n- Move to counting by 3s. Touch every third snack and say the numbers out loud.\n- Try counting by 4s and 5s using the same method.\n- Finally, count by 10s. Line up 10 items and count them as one group.\n- **Ask:** How does skip counting make counting faster?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Skipping the wrong number: Try using your finger to touch each item as you count.\n- Losing track: Try counting out loud slowly and clearly.\n- Mixing up steps: Focus on one step size at a time before moving to the next.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Skip counting is useful in real life, like counting pairs of socks or eggs in a carton. It helps with quick calculations, like figuring out how many fingers are in a group of people.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring skip counting! Keep practicing, and soon you'll be a counting pro. Remember, these skills will help with bigger math adventures ahead.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand skip counting by 2s, 3s, 4s, 5s, and 10s.\n- Recognize patterns in numbers.\n- Apply skip counting in real-life situations.\n- **Why this matters for parents:** Skip counting builds a foundation for multiplication and helps with quick mental math.",
+    "overview": "Skip counting is counting forward by numbers other than 1. For example, counting by 2s means saying every second number: 2, 4, 6, and so on. This skill helps children recognize number patterns and prepares them for multiplication.\nUnderstanding skip counting is important because it makes math easier and faster. It helps children see relationships between numbers and is a stepping stone to more complex math concepts like multiplication and division.",
+    "core": "Skip counting is like taking bigger steps on the number line. Instead of counting each number one by one, we jump over some numbers. This is a fun way to count and can be practiced with everyday objects like snacks or toys.",
+    "demo": "- Gather 20 small snacks or toys.\n- Line them up in a row on the table.\n- **Say:** Let's count by 2s. Touch every second item and count out loud: 2, 4, 6, 8, 10.\n- **Ask:** What do you notice about the numbers we say? (They are all even numbers.)\n- Now, try counting by 3s. Touch every third item: 3, 6, 9, 12, 15.\n- **Say:** Great! We’re jumping over some numbers to count faster.",
+    "math": "Skip counting involves adding the same number repeatedly. For example, when counting by 2s: 2, 4, 6, 8, 10. Here, we add 2 each time. This is a simple form of addition and helps in understanding multiplication.\nExample: Counting by 5s: 5, 10, 15, 20. We add 5 each time.",
+    "formulas": "n + x = next number\nn: current number\nx: step size (2, 3, 4, 5, 10)",
+    "guide": "- Start with counting by 2s. Use snacks and touch each second snack while counting.\n- Move to counting by 3s. Touch every third snack and say the numbers out loud.\n- Try counting by 4s and 5s using the same method.\n- Finally, count by 10s. Line up 10 items and count them as one group.\n- **Ask:** How does skip counting make counting faster?",
+    "mistakes": "- Skipping the wrong number: Try using your finger to touch each item as you count.\n- Losing track: Try counting out loud slowly and clearly.\n- Mixing up steps: Focus on one step size at a time before moving to the next.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Skip counting is useful in real life, like counting pairs of socks or eggs in a carton. It helps with quick calculations, like figuring out how many fingers are in a group of people.",
+    "close": "Great job exploring skip counting! Keep practicing, and soon you'll be a counting pro. Remember, these skills will help with bigger math adventures ahead."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Skip Counting by 2s, 3s, 4s, 5s, 10s**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Skip Counting by 2s, 3s, 4s, 5s, 10s** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Skip Counting by 2s, 3s, 4s, 5s, 10s**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

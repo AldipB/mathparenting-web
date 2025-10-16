@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "3cefd557-bbe0-42f0-8d03-37cc86e24664",
+    "slug": "polar-coordinates-optional",
+    "title": "Polar Coordinates (Optional)",
+    "summary": "Polar Coordinates (Optional) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the concept of polar coordinates.\n- - Convert between polar and Cartesian coordinates.\n- - Visualize points using polar coordinates.\n- **Why this matters for parents:** Understanding polar coordinates helps your child grasp more complex math concepts and enhances spatial reasoning.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Polar coordinates offer a different way to describe the location of a point in a plane, using a distance and an angle instead of x and y coordinates. This system is especially useful in fields like physics and engineering.\nPolar coordinates matter because they provide a new perspective on geometry and can simplify problems involving circles and angles. They are foundational for advanced studies in mathematics and science.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In polar coordinates, a point is defined by two values: the radius (distance from the origin) and the angle (direction from the positive x-axis). This is different from Cartesian coordinates, which use x and y values to describe a point's location.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Imagine a clock face. The center is the origin.\"\n2. **Ask:** \"What if we describe a point by how far it is from the center and the angle it makes with the 3 o'clock position?\"\n3. Use a piece of string and a protractor. Place the string at the center of a circular object (like a plate) and measure an angle with the protractor.\n4. **Say:** \"This is like saying the point is 5 cm from the center at a 30-degree angle.\"\n5. **Ask:** \"How does this compare to using x and y coordinates?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In polar coordinates, a point is represented as $(r, \\theta)$ where $r$ is the radius and $\\theta$ is the angle in radians or degrees. For example, the point $(5, 30^\text{o})$ means the point is 5 units from the origin at a 30-degree angle from the positive x-axis.\nTo convert to Cartesian coordinates:\n- $x = r \\cos(\\theta)$\n- $y = r \\sin(\\theta)$\nFor $(5, 30^\text{o})$, $x = 5 \\cos(30^\text{o}) \\approx 4.33$ and $y = 5 \\sin(30^\text{o}) \\approx 2.5$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "x = r \\cos(\\theta)\n- $x$: x-coordinate in Cartesian system\n- $r$: radius in polar system\n- $\\theta$: angle in polar system\ny = r \\sin(\\theta)\n- $y$: y-coordinate in Cartesian system\n- $r$: radius in polar system\n- $\\theta$: angle in polar system",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What is the radius and angle for this point?\"\n2. **Say:** \"Let's convert these to x and y coordinates using the formulas.\"\n3. **Guide:** Help your child use a calculator to find $\\cos(\\theta)$ and $\\sin(\\theta)$.\n4. **Ask:** \"What do you notice about the x and y values?\"\n5. **Say:** \"Try plotting both polar and Cartesian points on graph paper to see the relationship.\"\n6. **Encourage:** \"How might this be useful in real-world scenarios?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing radius with diameter. **Try:** Remember, radius is half the diameter.\n- - Using degrees instead of radians without conversion. **Try:** Check if the calculator is in the correct mode.\n- - Mixing up $\\cos(\\theta)$ and $\\sin(\\theta)$. **Try:** Recall that $\\cos$ relates to x and $\\sin$ to y.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Polar coordinates are used in navigation and robotics to determine direction and distance. They are also crucial in designing circular objects like wheels and gears.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring polar coordinates opens up new ways of thinking about space and direction. Keep encouraging your child's curiosity and problem-solving skills!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the concept of polar coordinates.\n- - Convert between polar and Cartesian coordinates.\n- - Visualize points using polar coordinates.\n- **Why this matters for parents:** Understanding polar coordinates helps your child grasp more complex math concepts and enhances spatial reasoning.",
+    "overview": "Polar coordinates offer a different way to describe the location of a point in a plane, using a distance and an angle instead of x and y coordinates. This system is especially useful in fields like physics and engineering.\nPolar coordinates matter because they provide a new perspective on geometry and can simplify problems involving circles and angles. They are foundational for advanced studies in mathematics and science.",
+    "core": "In polar coordinates, a point is defined by two values: the radius (distance from the origin) and the angle (direction from the positive x-axis). This is different from Cartesian coordinates, which use x and y values to describe a point's location.",
+    "demo": "1. **Say:** \"Imagine a clock face. The center is the origin.\"\n2. **Ask:** \"What if we describe a point by how far it is from the center and the angle it makes with the 3 o'clock position?\"\n3. Use a piece of string and a protractor. Place the string at the center of a circular object (like a plate) and measure an angle with the protractor.\n4. **Say:** \"This is like saying the point is 5 cm from the center at a 30-degree angle.\"\n5. **Ask:** \"How does this compare to using x and y coordinates?\"",
+    "math": "In polar coordinates, a point is represented as $(r, \\theta)$ where $r$ is the radius and $\\theta$ is the angle in radians or degrees. For example, the point $(5, 30^\text{o})$ means the point is 5 units from the origin at a 30-degree angle from the positive x-axis.\nTo convert to Cartesian coordinates:\n- $x = r \\cos(\\theta)$\n- $y = r \\sin(\\theta)$\nFor $(5, 30^\text{o})$, $x = 5 \\cos(30^\text{o}) \\approx 4.33$ and $y = 5 \\sin(30^\text{o}) \\approx 2.5$.",
+    "formulas": "x = r \\cos(\\theta)\n- $x$: x-coordinate in Cartesian system\n- $r$: radius in polar system\n- $\\theta$: angle in polar system\ny = r \\sin(\\theta)\n- $y$: y-coordinate in Cartesian system\n- $r$: radius in polar system\n- $\\theta$: angle in polar system",
+    "guide": "1. **Ask:** \"What is the radius and angle for this point?\"\n2. **Say:** \"Let's convert these to x and y coordinates using the formulas.\"\n3. **Guide:** Help your child use a calculator to find $\\cos(\\theta)$ and $\\sin(\\theta)$.\n4. **Ask:** \"What do you notice about the x and y values?\"\n5. **Say:** \"Try plotting both polar and Cartesian points on graph paper to see the relationship.\"\n6. **Encourage:** \"How might this be useful in real-world scenarios?\"",
+    "mistakes": "- - Confusing radius with diameter. **Try:** Remember, radius is half the diameter.\n- - Using degrees instead of radians without conversion. **Try:** Check if the calculator is in the correct mode.\n- - Mixing up $\\cos(\\theta)$ and $\\sin(\\theta)$. **Try:** Recall that $\\cos$ relates to x and $\\sin$ to y.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Polar coordinates are used in navigation and robotics to determine direction and distance. They are also crucial in designing circular objects like wheels and gears.",
+    "close": "Exploring polar coordinates opens up new ways of thinking about space and direction. Keep encouraging your child's curiosity and problem-solving skills!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Polar Coordinates (Optional)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Polar Coordinates (Optional)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Polar Coordinates (Optional)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

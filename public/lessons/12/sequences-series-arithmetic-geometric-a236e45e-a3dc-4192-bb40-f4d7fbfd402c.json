@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "32002ffb-5a2b-44db-9aa8-544410f8bb7d",
+    "title": "Pre-Calculus",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "a236e45e-a3dc-4192-bb40-f4d7fbfd402c",
+    "slug": "sequences-series-arithmetic-geometric-a236e45e-a3dc-4192-bb40-f4d7fbfd402c",
+    "title": "Sequences & Series (Arithmetic, Geometric)",
+    "summary": "Sequences & Series (Arithmetic, Geometric) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between arithmetic and geometric sequences.\n- Learn how to find the sum of a series.\n- **Why this matters for parents:** This helps your child recognize patterns and solve problems in everyday life and future studies.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Sequences and series are lists of numbers that follow a specific pattern. In this lesson, we'll explore two types: arithmetic and geometric.\nUnderstanding sequences and series is crucial because they form the foundation for more advanced math topics and are used in real-world applications like finance and computer science.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "An arithmetic sequence is a list of numbers where each term increases by a constant amount. A geometric sequence multiplies each term by a constant factor. Recognizing these patterns helps solve complex problems by breaking them into simpler parts.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a set of coins.\n2. **Say:** \"Let's make a pattern by adding 2 coins each time.\"\n3. Lay out 1 coin, then 3, then 5, and so on.\n4. **Ask:** \"What do you notice about how many coins we add each time?\"\n5. Now, start with 1 coin and double it each time: 1, 2, 4, 8.\n6. **Ask:** \"How is this pattern different from the first?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In an arithmetic sequence, each term is found by adding a constant, called the common difference ($d$), to the previous term. For example, in the sequence 2, 5, 8, 11, the common difference is 3.\nIn a geometric sequence, each term is found by multiplying the previous term by a constant, called the common ratio ($r$). For example, in the sequence 3, 6, 12, 24, the common ratio is 2.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Arithmetic sequence: $a_n = a_1 + (n-1)d$\n  - $a_n$: nth term\n  - $a_1$: first term\n  - $d$: common difference\n- Geometric sequence: $a_n = a_1 \\, r^{(n-1)}$\n  - $a_n$: nth term\n  - $a_1$: first term\n  - $r$: common ratio",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"Can you identify the pattern in this sequence: 4, 7, 10, 13?\"\n2. **Say:** \"Great, it's an arithmetic sequence with a common difference of 3.\"\n3. **Ask:** \"What about this one: 5, 10, 20, 40?\"\n4. **Say:** \"Yes, it's geometric with a common ratio of 2.\"\n5. **Ask:** \"How would you find the 10th term of each sequence?\"\n6. **Say:** \"Let's use the formulas to find out.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the common difference with the common ratio. Try: Identify if you're adding or multiplying.\n- Mixing up sequence types. Try: Look for the pattern in how terms change.\n- Forgetting the first term in the formula. Try: Always start with $a_1$.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Sequences are used in calculating interest in finance and in computer algorithms. Recognizing these patterns can help in budgeting and planning.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring sequences and series! These patterns are powerful tools in math and beyond. Keep practicing, and you'll see them everywhere.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between arithmetic and geometric sequences.\n- Learn how to find the sum of a series.\n- **Why this matters for parents:** This helps your child recognize patterns and solve problems in everyday life and future studies.",
+    "overview": "Sequences and series are lists of numbers that follow a specific pattern. In this lesson, we'll explore two types: arithmetic and geometric.\nUnderstanding sequences and series is crucial because they form the foundation for more advanced math topics and are used in real-world applications like finance and computer science.",
+    "core": "An arithmetic sequence is a list of numbers where each term increases by a constant amount. A geometric sequence multiplies each term by a constant factor. Recognizing these patterns helps solve complex problems by breaking them into simpler parts.",
+    "demo": "1. Gather a set of coins.\n2. **Say:** \"Let's make a pattern by adding 2 coins each time.\"\n3. Lay out 1 coin, then 3, then 5, and so on.\n4. **Ask:** \"What do you notice about how many coins we add each time?\"\n5. Now, start with 1 coin and double it each time: 1, 2, 4, 8.\n6. **Ask:** \"How is this pattern different from the first?\"",
+    "math": "In an arithmetic sequence, each term is found by adding a constant, called the common difference ($d$), to the previous term. For example, in the sequence 2, 5, 8, 11, the common difference is 3.\nIn a geometric sequence, each term is found by multiplying the previous term by a constant, called the common ratio ($r$). For example, in the sequence 3, 6, 12, 24, the common ratio is 2.",
+    "formulas": "- Arithmetic sequence: $a_n = a_1 + (n-1)d$\n  - $a_n$: nth term\n  - $a_1$: first term\n  - $d$: common difference\n- Geometric sequence: $a_n = a_1 \\, r^{(n-1)}$\n  - $a_n$: nth term\n  - $a_1$: first term\n  - $r$: common ratio",
+    "guide": "1. **Ask:** \"Can you identify the pattern in this sequence: 4, 7, 10, 13?\"\n2. **Say:** \"Great, it's an arithmetic sequence with a common difference of 3.\"\n3. **Ask:** \"What about this one: 5, 10, 20, 40?\"\n4. **Say:** \"Yes, it's geometric with a common ratio of 2.\"\n5. **Ask:** \"How would you find the 10th term of each sequence?\"\n6. **Say:** \"Let's use the formulas to find out.\"",
+    "mistakes": "- Confusing the common difference with the common ratio. Try: Identify if you're adding or multiplying.\n- Mixing up sequence types. Try: Look for the pattern in how terms change.\n- Forgetting the first term in the formula. Try: Always start with $a_1$.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Sequences are used in calculating interest in finance and in computer algorithms. Recognizing these patterns can help in budgeting and planning.",
+    "close": "Great job exploring sequences and series! These patterns are powerful tools in math and beyond. Keep practicing, and you'll see them everywhere."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Sequences & Series (Arithmetic, Geometric)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Sequences & Series (Arithmetic, Geometric)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Sequences & Series (Arithmetic, Geometric)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "62ebc0ef-a71d-46a8-a6b1-52c900a8b342",
+    "slug": "statistical-questions-dot-box-plots-histograms",
+    "title": "Statistical Questions; Dot/Box Plots & Histograms",
+    "summary": "Statistical Questions; Dot/Box Plots & Histograms — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand statistical questions and how to represent data using dot plots, box plots, and histograms.\n- Learn to interpret data visually and make informed decisions.\n- **Why this matters for parents:** This helps you support your child's ability to analyze data, a crucial skill in today's information-rich world.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Statistical questions are those that anticipate variability in the data and can be answered by collecting data. For example, 'How many hours do students in our neighborhood spend on homework each week?' is a statistical question because the answer can vary.\nUnderstanding how to represent data visually using dot plots, box plots, and histograms is important because it allows us to see patterns and make sense of information quickly. These skills are foundational for more advanced math and real-world problem-solving.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In this lesson, we'll explore how to ask statistical questions and represent data using different types of plots. Using simple household objects, we'll create visual representations to help your child grasp these concepts. This will make data analysis more intuitive and engaging.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Ask:** 'What is a question we can ask that might have different answers?' For example, 'How many apples do we have in the house each week?'\n2. Gather a collection of small items like coins or buttons to represent data points.\n3. **Say:** 'Let's create a dot plot. Each item represents one data point.' Arrange them in a line to show frequency.\n4. **Say:** 'Now, let's make a box plot.' Use a ruler to mark the median and quartiles on a piece of paper.\n5. **Ask:** 'What patterns do you see in our data?' Encourage your child to describe any trends.\n6. **Say:** 'Finally, let's create a histogram.' Use a piece of graph paper to group data into intervals and draw bars.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A statistical question anticipates variability. For example, 'How many books do students read in a month?' can have different answers.\nA dot plot shows each data point as a dot along a number line. A box plot summarizes data using five key numbers: minimum, first quartile, median, third quartile, and maximum. A histogram groups data into intervals and uses bars to show frequency.\nExample: If we have data on the number of books read by students: 3, 4, 4, 5, 7, 8, 8, 9, a dot plot will show dots above each number, a box plot will highlight the median (6), and a histogram will group these into intervals like 0-3, 4-6, 7-9.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask your child:** 'What is a statistical question we could ask about our family or neighborhood?'\n2. **Collect data:** Use household items to represent different data points.\n3. **Create a dot plot:** Line up items to show frequency of each data point.\n4. **Draw a box plot:** Use paper and a ruler to mark the median and quartiles.\n5. **Make a histogram:** Group data into intervals and draw bars on graph paper.\n6. **Discuss:** 'What do these plots tell us about our data?' Encourage your child to share insights.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing statistical and non-statistical questions. **Try:** Emphasize that statistical questions expect varied answers.\n- Misplacing data points on plots. **Try:** Double-check each point's position on the number line.\n- Incorrectly identifying quartiles. **Try:** Use a ruler to measure and mark accurately.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Understanding data representation is useful in everyday decisions, like comparing prices or evaluating product reviews. It also helps in fields like science, business, and technology, where data-driven decisions are crucial.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Encourage your child to ask questions about the world around them and explore data. This curiosity will build strong analytical skills!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand statistical questions and how to represent data using dot plots, box plots, and histograms.\n- Learn to interpret data visually and make informed decisions.\n- **Why this matters for parents:** This helps you support your child's ability to analyze data, a crucial skill in today's information-rich world.",
+    "overview": "Statistical questions are those that anticipate variability in the data and can be answered by collecting data. For example, 'How many hours do students in our neighborhood spend on homework each week?' is a statistical question because the answer can vary.\nUnderstanding how to represent data visually using dot plots, box plots, and histograms is important because it allows us to see patterns and make sense of information quickly. These skills are foundational for more advanced math and real-world problem-solving.",
+    "core": "In this lesson, we'll explore how to ask statistical questions and represent data using different types of plots. Using simple household objects, we'll create visual representations to help your child grasp these concepts. This will make data analysis more intuitive and engaging.",
+    "demo": "1. **Ask:** 'What is a question we can ask that might have different answers?' For example, 'How many apples do we have in the house each week?'\n2. Gather a collection of small items like coins or buttons to represent data points.\n3. **Say:** 'Let's create a dot plot. Each item represents one data point.' Arrange them in a line to show frequency.\n4. **Say:** 'Now, let's make a box plot.' Use a ruler to mark the median and quartiles on a piece of paper.\n5. **Ask:** 'What patterns do you see in our data?' Encourage your child to describe any trends.\n6. **Say:** 'Finally, let's create a histogram.' Use a piece of graph paper to group data into intervals and draw bars.",
+    "math": "A statistical question anticipates variability. For example, 'How many books do students read in a month?' can have different answers.\nA dot plot shows each data point as a dot along a number line. A box plot summarizes data using five key numbers: minimum, first quartile, median, third quartile, and maximum. A histogram groups data into intervals and uses bars to show frequency.\nExample: If we have data on the number of books read by students: 3, 4, 4, 5, 7, 8, 8, 9, a dot plot will show dots above each number, a box plot will highlight the median (6), and a histogram will group these into intervals like 0-3, 4-6, 7-9.",
+    "guide": "1. **Ask your child:** 'What is a statistical question we could ask about our family or neighborhood?'\n2. **Collect data:** Use household items to represent different data points.\n3. **Create a dot plot:** Line up items to show frequency of each data point.\n4. **Draw a box plot:** Use paper and a ruler to mark the median and quartiles.\n5. **Make a histogram:** Group data into intervals and draw bars on graph paper.\n6. **Discuss:** 'What do these plots tell us about our data?' Encourage your child to share insights.",
+    "mistakes": "- Confusing statistical and non-statistical questions. **Try:** Emphasize that statistical questions expect varied answers.\n- Misplacing data points on plots. **Try:** Double-check each point's position on the number line.\n- Incorrectly identifying quartiles. **Try:** Use a ruler to measure and mark accurately.",
+    "connection": "Understanding data representation is useful in everyday decisions, like comparing prices or evaluating product reviews. It also helps in fields like science, business, and technology, where data-driven decisions are crucial.",
+    "close": "Encourage your child to ask questions about the world around them and explore data. This curiosity will build strong analytical skills!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Is 'How tall is the tallest student in the class?' a statistical question?",
+      "hint_md": "Consider if the question expects a range of answers.",
+      "answer_md": "No, it expects a single answer."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Create a dot plot for the data: 2, 3, 3, 4, 5.",
+      "hint_md": "Place dots above each number on a number line.",
+      "answer_md": "A dot plot with one dot above 2, two dots above 3, one dot above 4, and one dot above 5."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What does the median represent in a box plot?",
+      "hint_md": "Think about the middle value of the data.",
+      "answer_md": "The median represents the middle value of the data set."
+    }
+  ]
+}

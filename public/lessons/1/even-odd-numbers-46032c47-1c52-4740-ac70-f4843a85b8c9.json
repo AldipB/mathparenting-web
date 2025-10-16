@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "d44d27b4-5d9e-40d6-896c-9fd7ddb46ee2",
+    "title": "Number Sense",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "46032c47-1c52-4740-ac70-f4843a85b8c9",
+    "slug": "even-odd-numbers-46032c47-1c52-4740-ac70-f4843a85b8c9",
+    "title": "Even & Odd Numbers",
+    "summary": "Even & Odd Numbers — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will be able to:\n- Identify even and odd numbers.\n- Understand the concept of pairs using everyday objects.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we will explore even and odd numbers. Even numbers can be paired up perfectly, while odd numbers have one left over. Using everyday items, we will make this concept clear and fun!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Even numbers are those that can be divided into two equal groups without any leftovers (like 2, 4, 6). Odd numbers have one leftover when trying to pair them (like 1, 3, 5).",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Activity: Pairing Socks\n1. Gather a few pairs of socks from your laundry basket.\n2. Count the total number of socks.\n3. Start pairing them up.\n4. Ask your child if there are any socks left unpaired.\n\nSay: \"Look, we can pair these socks! How many pairs do we have? Are there any left?\" This helps them see that even numbers can be paired perfectly, while odd numbers cannot.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Even numbers end in 0, 2, 4, 6, or 8. Odd numbers end in 1, 3, 5, 7, or 9.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather 10 small objects (like buttons or coins).\n2. Count them together with your child.\n3. Start pairing them up and see if any are left.\n4. Explain that if there’s one left, it’s odd; if they all pair up, it’s even.\n\nAsk: \"How many pairs did we make? Is there one left? What does that mean?\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child says 3 is even, gently correct them by saying, \"Let’s try to pair them up. Do we have any left?\",If they think 4 is odd, say, \"Let’s count them together. Can we make pairs?\",If they struggle with pairing, remind them to take their time and count carefully.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Understanding even and odd numbers helps in daily activities, like sharing snacks or toys equally.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring even and odd numbers! Keep practicing, and soon your child will be a number expert!",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will be able to:\n- Identify even and odd numbers.\n- Understand the concept of pairs using everyday objects.",
+    "overview": "In this lesson, we will explore even and odd numbers. Even numbers can be paired up perfectly, while odd numbers have one left over. Using everyday items, we will make this concept clear and fun!",
+    "core": "Even numbers are those that can be divided into two equal groups without any leftovers (like 2, 4, 6). Odd numbers have one leftover when trying to pair them (like 1, 3, 5).",
+    "demo": "Activity: Pairing Socks\n1. Gather a few pairs of socks from your laundry basket.\n2. Count the total number of socks.\n3. Start pairing them up.\n4. Ask your child if there are any socks left unpaired.\n\nSay: \"Look, we can pair these socks! How many pairs do we have? Are there any left?\" This helps them see that even numbers can be paired perfectly, while odd numbers cannot.",
+    "math": "Even numbers end in 0, 2, 4, 6, or 8. Odd numbers end in 1, 3, 5, 7, or 9.",
+    "guide": "1. Gather 10 small objects (like buttons or coins).\n2. Count them together with your child.\n3. Start pairing them up and see if any are left.\n4. Explain that if there’s one left, it’s odd; if they all pair up, it’s even.\n\nAsk: \"How many pairs did we make? Is there one left? What does that mean?\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "mistakes": "If your child says 3 is even, gently correct them by saying, \"Let’s try to pair them up. Do we have any left?\",If they think 4 is odd, say, \"Let’s count them together. Can we make pairs?\",If they struggle with pairing, remind them to take their time and count carefully.",
+    "connection": "Understanding even and odd numbers helps in daily activities, like sharing snacks or toys equally.",
+    "close": "Great job exploring even and odd numbers! Keep practicing, and soon your child will be a number expert!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Even & Odd Numbers**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Even & Odd Numbers** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Even & Odd Numbers**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "5065afd8-2303-4cf3-8783-bf5f5f868396",
+    "title": "Fractions & Measurement",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "d0580107-fa04-4792-8c11-0c345d1eba88",
+    "slug": "fractions-halves-quarters",
+    "title": "Fractions: Halves & Quarters",
+    "summary": "Fractions: Halves & Quarters — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will understand the concepts of halves and quarters, recognizing and creating these fractions using everyday objects.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Fractions represent parts of a whole. In this lesson, we will focus on two simple fractions: halves (2 equal parts) and quarters (4 equal parts). Using familiar items will help your child visualize and grasp these concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Understanding halves and quarters is essential for building a foundation in math. These fractions are all around us, from food to toys, making them relatable and easy to learn.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Activity: Fraction Pizza\n1. Gather a round object (like a paper plate or a pizza).\n2. Cut it in half. Say: \"Look, we have 2 equal parts. Each part is a half!\"\n3. Next, cut one of those halves into 2 equal pieces. Say: \"Now we have 4 equal parts. Each part is a quarter!\"\n4. Show the pieces and ask: \"How many halves do we have? How many quarters?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Fractions are written as \\\\( \\frac{a}{b} \\\\), where \\(a\\) is the number of parts we have, and \\(b\\) is the total number of equal parts in the whole.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "\\( \\frac{1}{2} \\) for halves,\\( \\frac{1}{4} \\) for quarters",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather a round object to cut, like a pizza or a fruit.\n2. Explain what a whole is before cutting.\n3. Cut the object in half and show the two pieces.\n4. Discuss how each piece is a half.\n5. Cut one of the halves into two more pieces to show quarters.\n6. Reinforce by asking your child to identify halves and quarters in other objects around the house.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child says a half is one piece of a whole, gently correct them by saying: 'A half means we have 2 equal pieces, not just one.',If they confuse halves and quarters, remind them: 'Quarters are smaller pieces; we need 4 to make a whole.',If they struggle to identify halves, encourage them: 'Remember, we need to cut it into 2 equal parts.'",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Fractions are everywhere! When you share a pizza or cut a cake, you’re using halves and quarters.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring fractions with your child! Keep practicing, and they'll master these concepts in no time!",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will understand the concepts of halves and quarters, recognizing and creating these fractions using everyday objects.",
+    "overview": "Fractions represent parts of a whole. In this lesson, we will focus on two simple fractions: halves (2 equal parts) and quarters (4 equal parts). Using familiar items will help your child visualize and grasp these concepts.",
+    "core": "Understanding halves and quarters is essential for building a foundation in math. These fractions are all around us, from food to toys, making them relatable and easy to learn.",
+    "demo": "Activity: Fraction Pizza\n1. Gather a round object (like a paper plate or a pizza).\n2. Cut it in half. Say: \"Look, we have 2 equal parts. Each part is a half!\"\n3. Next, cut one of those halves into 2 equal pieces. Say: \"Now we have 4 equal parts. Each part is a quarter!\"\n4. Show the pieces and ask: \"How many halves do we have? How many quarters?\"",
+    "math": "Fractions are written as \\\\( \\frac{a}{b} \\\\), where \\(a\\) is the number of parts we have, and \\(b\\) is the total number of equal parts in the whole.",
+    "formulas": "\\( \\frac{1}{2} \\) for halves,\\( \\frac{1}{4} \\) for quarters",
+    "guide": "1. Gather a round object to cut, like a pizza or a fruit.\n2. Explain what a whole is before cutting.\n3. Cut the object in half and show the two pieces.\n4. Discuss how each piece is a half.\n5. Cut one of the halves into two more pieces to show quarters.\n6. Reinforce by asking your child to identify halves and quarters in other objects around the house.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "mistakes": "If your child says a half is one piece of a whole, gently correct them by saying: 'A half means we have 2 equal pieces, not just one.',If they confuse halves and quarters, remind them: 'Quarters are smaller pieces; we need 4 to make a whole.',If they struggle to identify halves, encourage them: 'Remember, we need to cut it into 2 equal parts.'",
+    "connection": "Fractions are everywhere! When you share a pizza or cut a cake, you’re using halves and quarters.",
+    "close": "Great job exploring fractions with your child! Keep practicing, and they'll master these concepts in no time!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Fractions: Halves & Quarters**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Fractions: Halves & Quarters** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Fractions: Halves & Quarters**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

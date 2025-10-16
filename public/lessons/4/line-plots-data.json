@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "8ae8dbd1-6342-4de7-9c56-6ed3e441b3a4",
+    "slug": "line-plots-data",
+    "title": "Line Plots & Data",
+    "summary": "Line Plots & Data — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 14
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to create and interpret line plots.\n- Learn to organize data using household objects.\n- **Why this matters for parents:** Line plots help children visualize data and develop analytical skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Line plots are simple graphs that display data along a number line. They help us see patterns and make sense of information quickly.\nUnderstanding line plots is important because they are a foundation for more complex data analysis skills. This skill will help your child in school and in everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Line plots use a number line to show the frequency of data points. Each 'X' or mark above a number represents one occurrence of that value. This visual tool makes it easy to see which numbers appear most often.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some coins and sort them by year.\n2. **Say:** \"Let's make a line plot of the coin years.\"\n3. Draw a number line on paper, labeling it with the years of the coins.\n4. Place an 'X' above each year for every coin from that year.\n5. **Ask:** \"Which year has the most coins? What does that tell us?\"\n6. Discuss any patterns or trends you notice.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A line plot is a way to display data along a number line. For example, if you have coins from the years 2018, 2019, and 2020, and you have 3 coins from 2018, 2 from 2019, and 5 from 2020, your line plot will have 3 'X's above 2018, 2 'X's above 2019, and 5 'X's above 2020.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Choose a simple data set, like shoe sizes of family members.\n2. **Say:** \"Let's list the shoe sizes on a number line.\"\n3. Mark an 'X' above each shoe size for each family member.\n4. **Ask:** \"Which shoe size is most common?\"\n5. Discuss why some sizes might be more frequent.\n6. Encourage your child to think of other data they could plot.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to label the number line. Try: \"Always start by labeling your number line clearly.\"\n- Misplacing 'X's. Try: \"Double-check each 'X' matches the data point.\"\n- Overlooking patterns. Try: \"Ask questions about what the plot shows.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Line plots are useful in real life for tracking things like daily temperatures or the number of books read each month. They help us see trends and make informed decisions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Line plots are a fun way to explore data with your child. Keep practicing, and soon they'll be spotting trends like a pro!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to create and interpret line plots.\n- Learn to organize data using household objects.\n- **Why this matters for parents:** Line plots help children visualize data and develop analytical skills.",
+    "overview": "Line plots are simple graphs that display data along a number line. They help us see patterns and make sense of information quickly.\nUnderstanding line plots is important because they are a foundation for more complex data analysis skills. This skill will help your child in school and in everyday decision-making.",
+    "core": "Line plots use a number line to show the frequency of data points. Each 'X' or mark above a number represents one occurrence of that value. This visual tool makes it easy to see which numbers appear most often.",
+    "demo": "1. Gather some coins and sort them by year.\n2. **Say:** \"Let's make a line plot of the coin years.\"\n3. Draw a number line on paper, labeling it with the years of the coins.\n4. Place an 'X' above each year for every coin from that year.\n5. **Ask:** \"Which year has the most coins? What does that tell us?\"\n6. Discuss any patterns or trends you notice.",
+    "math": "A line plot is a way to display data along a number line. For example, if you have coins from the years 2018, 2019, and 2020, and you have 3 coins from 2018, 2 from 2019, and 5 from 2020, your line plot will have 3 'X's above 2018, 2 'X's above 2019, and 5 'X's above 2020.",
+    "guide": "1. Choose a simple data set, like shoe sizes of family members.\n2. **Say:** \"Let's list the shoe sizes on a number line.\"\n3. Mark an 'X' above each shoe size for each family member.\n4. **Ask:** \"Which shoe size is most common?\"\n5. Discuss why some sizes might be more frequent.\n6. Encourage your child to think of other data they could plot.",
+    "mistakes": "- Forgetting to label the number line. Try: \"Always start by labeling your number line clearly.\"\n- Misplacing 'X's. Try: \"Double-check each 'X' matches the data point.\"\n- Overlooking patterns. Try: \"Ask questions about what the plot shows.\"",
+    "connection": "Line plots are useful in real life for tracking things like daily temperatures or the number of books read each month. They help us see trends and make informed decisions.",
+    "close": "Line plots are a fun way to explore data with your child. Keep practicing, and soon they'll be spotting trends like a pro!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Create a line plot for the following data: 4 apples, 2 bananas, 5 oranges.",
+      "hint_md": "Draw a number line and use 'X's to represent each fruit.",
+      "answer_md": "Apples: XXXX\nBananas: XX\nOranges: XXXXX"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you add 2 more apples, how does the line plot change?",
+      "hint_md": "Add two more 'X's above the apples.",
+      "answer_md": "Apples: XXXXXX"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What does the line plot show about which fruit you have the most?",
+      "hint_md": "Look for the row with the most 'X's.",
+      "answer_md": "Oranges have the most with 5 'X's."
+    }
+  ]
+}

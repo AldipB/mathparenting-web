@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "c0b4ccfe-77b9-4dca-97c0-81304dd9b24a",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "8f2e0634-21d7-4351-9d4f-0b2222c08583",
+    "title": "Measurement, Data & Probability",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "7006b5db-8fa2-43cb-b270-c750429d354e",
+    "slug": "statistics-bivariate-data-line-of-best-fit",
+    "title": "Statistics: Bivariate Data & Line of Best Fit",
+    "summary": "Statistics: Bivariate Data & Line of Best Fit — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand bivariate data and how to interpret it.\n- - Learn to find and use the line of best fit.\n- - Develop skills to analyze relationships between two variables.\n- **Why this matters for parents:** Understanding these concepts helps you support your child's analytical skills, useful in many real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Bivariate data involves two variables and helps us explore relationships between them. For example, you might look at the relationship between hours studied and test scores.\nThis matters because it teaches children how to analyze data and make predictions, skills that are valuable in science, business, and everyday decision-making.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Bivariate data is simply data that involves two different variables. We often use a scatter plot to visualize this data. The line of best fit is a straight line that best represents the data on a scatter plot, showing the trend or relationship between the variables.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Gather two sets of related data:** Use household objects like books and their weights. Weigh 5 books and note their thickness.\n2. **Create a scatter plot:** On graph paper, plot thickness on the x-axis and weight on the y-axis.\n3. **Draw the line of best fit:** Use a ruler to draw a line that best fits the data points.\n4. **Say:** 'Notice how the line shows a trend. What happens to the weight as the thickness increases?'\n5. **Ask:** 'Can you predict the weight of a book if you know its thickness?'",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the line of best fit, we use a method called linear regression. This line minimizes the distance between itself and all data points. For example, if you have data points (1, 2), (2, 3), and (3, 5), the line of best fit might be $y = 1.5x + 0.5$. This means for every increase in $x$, $y$ increases by 1.5.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "y = mx + b\n- $y$: dependent variable\n- $x$: independent variable\n- $m$: slope of the line\n- $b$: y-intercept",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Start with a question:** 'What two things do you want to compare?'\n2. **Collect data:** Help your child gather data from a simple experiment or observation.\n3. **Plot the data:** Use graph paper or an online tool to create a scatter plot.\n4. **Draw the line of best fit:** Guide them to draw a line that seems to best represent the data.\n5. **Discuss the trend:** Ask what the line tells them about the relationship between the variables.\n6. **Predict:** Use the line to make predictions about future data points.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing the axes: Try labeling each axis clearly with the variable it represents.\n- - Drawing the line through all points: Try finding the line that best represents the overall trend, not just individual points.\n- - Ignoring outliers: Try discussing why some points don't fit the trend and what they might mean.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Bivariate data analysis is used in weather forecasting, where temperature and humidity might be compared to predict rain. It's also used in economics to study the relationship between supply and demand.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring bivariate data helps children see patterns and make predictions. Keep encouraging their curiosity and analytical thinking!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand bivariate data and how to interpret it.\n- - Learn to find and use the line of best fit.\n- - Develop skills to analyze relationships between two variables.\n- **Why this matters for parents:** Understanding these concepts helps you support your child's analytical skills, useful in many real-world situations.",
+    "overview": "Bivariate data involves two variables and helps us explore relationships between them. For example, you might look at the relationship between hours studied and test scores.\nThis matters because it teaches children how to analyze data and make predictions, skills that are valuable in science, business, and everyday decision-making.",
+    "core": "Bivariate data is simply data that involves two different variables. We often use a scatter plot to visualize this data. The line of best fit is a straight line that best represents the data on a scatter plot, showing the trend or relationship between the variables.",
+    "demo": "1. **Gather two sets of related data:** Use household objects like books and their weights. Weigh 5 books and note their thickness.\n2. **Create a scatter plot:** On graph paper, plot thickness on the x-axis and weight on the y-axis.\n3. **Draw the line of best fit:** Use a ruler to draw a line that best fits the data points.\n4. **Say:** 'Notice how the line shows a trend. What happens to the weight as the thickness increases?'\n5. **Ask:** 'Can you predict the weight of a book if you know its thickness?'",
+    "math": "To find the line of best fit, we use a method called linear regression. This line minimizes the distance between itself and all data points. For example, if you have data points (1, 2), (2, 3), and (3, 5), the line of best fit might be $y = 1.5x + 0.5$. This means for every increase in $x$, $y$ increases by 1.5.",
+    "formulas": "y = mx + b\n- $y$: dependent variable\n- $x$: independent variable\n- $m$: slope of the line\n- $b$: y-intercept",
+    "guide": "1. **Start with a question:** 'What two things do you want to compare?'\n2. **Collect data:** Help your child gather data from a simple experiment or observation.\n3. **Plot the data:** Use graph paper or an online tool to create a scatter plot.\n4. **Draw the line of best fit:** Guide them to draw a line that seems to best represent the data.\n5. **Discuss the trend:** Ask what the line tells them about the relationship between the variables.\n6. **Predict:** Use the line to make predictions about future data points.",
+    "mistakes": "- - Confusing the axes: Try labeling each axis clearly with the variable it represents.\n- - Drawing the line through all points: Try finding the line that best represents the overall trend, not just individual points.\n- - Ignoring outliers: Try discussing why some points don't fit the trend and what they might mean.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Bivariate data analysis is used in weather forecasting, where temperature and humidity might be compared to predict rain. It's also used in economics to study the relationship between supply and demand.",
+    "close": "Exploring bivariate data helps children see patterns and make predictions. Keep encouraging their curiosity and analytical thinking!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Statistics: Bivariate Data & Line of Best Fit**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Statistics: Bivariate Data & Line of Best Fit** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Statistics: Bivariate Data & Line of Best Fit**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

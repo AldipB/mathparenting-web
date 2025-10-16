@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "7fface93-c890-405f-8c70-eca7f1bc4337",
+    "title": "Congruence & Similarity",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "6bb8258b-dff2-46a3-bded-49013178907b",
+    "slug": "congruent-similar-triangles",
+    "title": "Congruent & Similar Triangles",
+    "summary": "Congruent & Similar Triangles — summary for parents in Grade 10 — Geometry Focus.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the difference between congruent and similar triangles.\n- Help your child identify these triangles in everyday objects.\n- Build confidence in explaining geometric concepts.\n**Why this matters for parents:** Geometry helps children develop spatial reasoning and problem-solving skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Congruent triangles are triangles that are exactly the same in size and shape. Similar triangles have the same shape but can be different sizes. Understanding these concepts helps children recognize patterns and relationships in geometry.\nThis lesson matters because it builds a foundation for more advanced math topics. Recognizing congruence and similarity helps in real-life tasks like design and architecture, where precise measurements are crucial.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Congruent triangles are identical in every way: same angles and side lengths. Similar triangles have the same angles but different side lengths, maintaining the same shape. Think of congruent as identical twins and similar as siblings of different ages.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some triangles around the house!\" Look for triangular objects like a slice of pizza or a triangular ruler.\n2. **Ask:** \"Are these triangles the same size and shape?\" Discuss if they are congruent or similar.\n3. Use straws or sticks to build two triangles. Make one larger but with the same angles.\n4. **Say:** \"These triangles look alike but are different sizes. They're similar!\"\n5. Compare a square and a rectangle. **Ask:** \"Is a square a diamond?\" Explain that a square can be rotated but remains a square.\n6. **Say:** \"A square is a special rectangle with all sides equal.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "For congruent triangles, all corresponding sides and angles are equal. For example, if triangle ABC has sides 3 cm, 4 cm, and 5 cm, and triangle DEF has sides 3 cm, 4 cm, and 5 cm, they are congruent.\nFor similar triangles, the corresponding angles are equal, and the sides are proportional. If triangle GHI has sides 3 cm, 4 cm, and 5 cm, and triangle JKL has sides 6 cm, 8 cm, and 10 cm, they are similar because each side of JKL is twice the length of GHI.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Congruent Triangles: $\\triangle ABC \\cong \\triangle DEF$\n  - $\\cong$: Congruent symbol, meaning identical in shape and size.\n- Similar Triangles: $\\triangle ABC \\sim \\triangle DEF$\n  - $\\sim$: Similar symbol, meaning same shape, different size.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"Can you find two objects that are the same shape and size?\"\n2. **Say:** \"Let's measure the sides to see if they're congruent.\"\n3. **Ask:** \"What about objects that look the same but are different sizes?\"\n4. **Say:** \"These are similar because they have the same shape.\"\n5. **Ask:** \"How can we use this in real life?\"\n6. **Say:** \"Understanding these concepts helps in designing and building things accurately.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing congruent with similar. **Try:** Emphasize size and shape differences.\n- Thinking a rotated square is a different shape. **Try:** Rotate a square object to show it remains a square.\n- Assuming all rectangles are squares. **Try:** Compare side lengths to clarify.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "In architecture, congruent and similar shapes are used to create balanced and aesthetically pleasing designs. In fashion, patterns often use similar shapes to create harmony in clothing.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Geometry is all around us! Recognizing congruent and similar shapes helps us appreciate the beauty and function in design. Keep exploring!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the difference between congruent and similar triangles.\n- Help your child identify these triangles in everyday objects.\n- Build confidence in explaining geometric concepts.\n**Why this matters for parents:** Geometry helps children develop spatial reasoning and problem-solving skills.",
+    "overview": "Congruent triangles are triangles that are exactly the same in size and shape. Similar triangles have the same shape but can be different sizes. Understanding these concepts helps children recognize patterns and relationships in geometry.\nThis lesson matters because it builds a foundation for more advanced math topics. Recognizing congruence and similarity helps in real-life tasks like design and architecture, where precise measurements are crucial.",
+    "core": "Congruent triangles are identical in every way: same angles and side lengths. Similar triangles have the same angles but different side lengths, maintaining the same shape. Think of congruent as identical twins and similar as siblings of different ages.",
+    "demo": "1. **Say:** \"Let's find some triangles around the house!\" Look for triangular objects like a slice of pizza or a triangular ruler.\n2. **Ask:** \"Are these triangles the same size and shape?\" Discuss if they are congruent or similar.\n3. Use straws or sticks to build two triangles. Make one larger but with the same angles.\n4. **Say:** \"These triangles look alike but are different sizes. They're similar!\"\n5. Compare a square and a rectangle. **Ask:** \"Is a square a diamond?\" Explain that a square can be rotated but remains a square.\n6. **Say:** \"A square is a special rectangle with all sides equal.\"",
+    "math": "For congruent triangles, all corresponding sides and angles are equal. For example, if triangle ABC has sides 3 cm, 4 cm, and 5 cm, and triangle DEF has sides 3 cm, 4 cm, and 5 cm, they are congruent.\nFor similar triangles, the corresponding angles are equal, and the sides are proportional. If triangle GHI has sides 3 cm, 4 cm, and 5 cm, and triangle JKL has sides 6 cm, 8 cm, and 10 cm, they are similar because each side of JKL is twice the length of GHI.",
+    "formulas": "- Congruent Triangles: $\\triangle ABC \\cong \\triangle DEF$\n  - $\\cong$: Congruent symbol, meaning identical in shape and size.\n- Similar Triangles: $\\triangle ABC \\sim \\triangle DEF$\n  - $\\sim$: Similar symbol, meaning same shape, different size.",
+    "guide": "1. **Ask:** \"Can you find two objects that are the same shape and size?\"\n2. **Say:** \"Let's measure the sides to see if they're congruent.\"\n3. **Ask:** \"What about objects that look the same but are different sizes?\"\n4. **Say:** \"These are similar because they have the same shape.\"\n5. **Ask:** \"How can we use this in real life?\"\n6. **Say:** \"Understanding these concepts helps in designing and building things accurately.\"",
+    "mistakes": "- Confusing congruent with similar. **Try:** Emphasize size and shape differences.\n- Thinking a rotated square is a different shape. **Try:** Rotate a square object to show it remains a square.\n- Assuming all rectangles are squares. **Try:** Compare side lengths to clarify.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "In architecture, congruent and similar shapes are used to create balanced and aesthetically pleasing designs. In fashion, patterns often use similar shapes to create harmony in clothing.",
+    "close": "Geometry is all around us! Recognizing congruent and similar shapes helps us appreciate the beauty and function in design. Keep exploring!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Congruent & Similar Triangles**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Congruent & Similar Triangles** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Congruent & Similar Triangles**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

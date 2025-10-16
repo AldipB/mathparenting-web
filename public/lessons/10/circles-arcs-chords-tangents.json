@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "e0c483c3-1673-421f-a62e-155edebae0a9",
+    "slug": "circles-arcs-chords-tangents",
+    "title": "Circles: Arcs, Chords, Tangents",
+    "summary": "Circles: Arcs, Chords, Tangents — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand arcs, chords, and tangents in circles\n- Learn to identify these parts in everyday objects\n- Build confidence in explaining these concepts to your child\n**Why this matters for parents:** Understanding these concepts helps you support your child's learning and connect math to the real world.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the parts of a circle: arcs, chords, and tangents. These are important geometric concepts that help us understand the properties and relationships within circles.\nUnderstanding these elements is crucial because they appear in various real-life contexts, from wheels to clocks. By recognizing these parts, you can help your child see geometry in the world around them.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "An arc is a part of the circumference of a circle. A chord is a line segment with both endpoints on the circle. A tangent is a line that touches the circle at exactly one point. These terms help us describe and analyze circles more precisely.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's find some circles around the house.\" Look for objects like plates or lids.\n2. **Ask:** \"Can you trace a part of the circle with your finger? That's an arc!\"\n3. Use two straws to connect two points on the circle's edge. **Say:** \"This is a chord.\"\n4. Place a pencil so it just touches the edge of the circle. **Say:** \"This pencil is a tangent.\"\n5. **Ask:** \"How is a square different from a rectangle?\" Use paper squares and rectangles to compare.\n6. **Say:** \"A rotated square is still a square, not a 'diamond.'\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a circle with radius $r$, an arc is a portion of the circumference. For example, if the circle's circumference is $20$ cm and the arc is a quarter of the circle, the arc length is $5$ cm.\nA chord divides the circle into two segments. If a chord is $8$ cm long in a circle with a radius of $5$ cm, we can use the Pythagorean theorem to find distances related to the chord.\nA tangent touches the circle at one point. If a tangent is drawn from a point $10$ cm from the circle's center, it forms a right triangle with the radius.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Arc Length: $L = \\frac{\\theta}{360} \\times 2\\pi r$\n  - $L$: arc length\n  - $\\theta$: central angle in degrees\n  - $r$: radius of the circle\n- Chord Length: $c = 2r \\sin(\\frac{\\theta}{2})$\n  - $c$: chord length\n  - $r$: radius\n  - $\\theta$: central angle in radians\n- Tangent Line: $\\text{Tangent}^2 = \\text{External Point}^2 - r^2$\n  - $r$: radius",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying circles in your home. **Ask:** \"What objects are perfectly round?\"\n2. Discuss arcs by tracing parts of these circles. **Say:** \"This is an arc.\"\n3. Use straws to create chords. **Ask:** \"Can you make a line that connects two points on the circle?\"\n4. Demonstrate tangents with a pencil. **Say:** \"See how this just touches the circle?\"\n5. Compare squares and rectangles using paper shapes. **Ask:** \"What makes a square different?\"\n6. Rotate a square and discuss why it's still a square. **Say:** \"It's not a diamond!\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing arcs with chords. **Try:** Emphasize that arcs are curved, chords are straight.\n- Thinking a tangent goes through the circle. **Try:** Show it only touches at one point.\n- Calling a rotated square a diamond. **Try:** Reinforce that orientation doesn't change shape.\n- Misidentifying rectangles as squares. **Try:** Highlight equal sides in squares.\n- Overlooking the circle's center in chord discussions. **Try:** Use the center to explain chord placement.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Circles are everywhere: wheels, clocks, and even pizza! Recognizing arcs, chords, and tangents helps us understand these objects better.\nWhen designing roads or tracks, engineers use these concepts to ensure smooth curves and safe paths.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring circles can be fun and insightful! Keep finding these shapes around you, and enjoy the math in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand arcs, chords, and tangents in circles\n- Learn to identify these parts in everyday objects\n- Build confidence in explaining these concepts to your child\n**Why this matters for parents:** Understanding these concepts helps you support your child's learning and connect math to the real world.",
+    "overview": "This lesson explores the parts of a circle: arcs, chords, and tangents. These are important geometric concepts that help us understand the properties and relationships within circles.\nUnderstanding these elements is crucial because they appear in various real-life contexts, from wheels to clocks. By recognizing these parts, you can help your child see geometry in the world around them.",
+    "core": "An arc is a part of the circumference of a circle. A chord is a line segment with both endpoints on the circle. A tangent is a line that touches the circle at exactly one point. These terms help us describe and analyze circles more precisely.",
+    "demo": "1. **Say:** \"Let's find some circles around the house.\" Look for objects like plates or lids.\n2. **Ask:** \"Can you trace a part of the circle with your finger? That's an arc!\"\n3. Use two straws to connect two points on the circle's edge. **Say:** \"This is a chord.\"\n4. Place a pencil so it just touches the edge of the circle. **Say:** \"This pencil is a tangent.\"\n5. **Ask:** \"How is a square different from a rectangle?\" Use paper squares and rectangles to compare.\n6. **Say:** \"A rotated square is still a square, not a 'diamond.'\"",
+    "math": "In a circle with radius $r$, an arc is a portion of the circumference. For example, if the circle's circumference is $20$ cm and the arc is a quarter of the circle, the arc length is $5$ cm.\nA chord divides the circle into two segments. If a chord is $8$ cm long in a circle with a radius of $5$ cm, we can use the Pythagorean theorem to find distances related to the chord.\nA tangent touches the circle at one point. If a tangent is drawn from a point $10$ cm from the circle's center, it forms a right triangle with the radius.",
+    "formulas": "- Arc Length: $L = \\frac{\\theta}{360} \\times 2\\pi r$\n  - $L$: arc length\n  - $\\theta$: central angle in degrees\n  - $r$: radius of the circle\n- Chord Length: $c = 2r \\sin(\\frac{\\theta}{2})$\n  - $c$: chord length\n  - $r$: radius\n  - $\\theta$: central angle in radians\n- Tangent Line: $\\text{Tangent}^2 = \\text{External Point}^2 - r^2$\n  - $r$: radius",
+    "guide": "1. Start by identifying circles in your home. **Ask:** \"What objects are perfectly round?\"\n2. Discuss arcs by tracing parts of these circles. **Say:** \"This is an arc.\"\n3. Use straws to create chords. **Ask:** \"Can you make a line that connects two points on the circle?\"\n4. Demonstrate tangents with a pencil. **Say:** \"See how this just touches the circle?\"\n5. Compare squares and rectangles using paper shapes. **Ask:** \"What makes a square different?\"\n6. Rotate a square and discuss why it's still a square. **Say:** \"It's not a diamond!\"",
+    "mistakes": "- Confusing arcs with chords. **Try:** Emphasize that arcs are curved, chords are straight.\n- Thinking a tangent goes through the circle. **Try:** Show it only touches at one point.\n- Calling a rotated square a diamond. **Try:** Reinforce that orientation doesn't change shape.\n- Misidentifying rectangles as squares. **Try:** Highlight equal sides in squares.\n- Overlooking the circle's center in chord discussions. **Try:** Use the center to explain chord placement.",
+    "connection": "Circles are everywhere: wheels, clocks, and even pizza! Recognizing arcs, chords, and tangents helps us understand these objects better.\nWhen designing roads or tracks, engineers use these concepts to ensure smooth curves and safe paths.",
+    "close": "Exploring circles can be fun and insightful! Keep finding these shapes around you, and enjoy the math in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the length of an arc with a central angle of $90^\\circ$ in a circle with a radius of $10$ cm?",
+      "hint_md": "Use the arc length formula: $L = \\frac{\\theta}{360} \\times 2\\pi r$.",
+      "answer_md": "$L = \\frac{90}{360} \\times 2\\pi \\times 10 = 5\\pi \\approx 15.7$ cm"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If a chord is $12$ cm long in a circle with a radius of $10$ cm, what is the distance from the center to the chord?",
+      "hint_md": "Use the Pythagorean theorem in the triangle formed by the radius and half the chord.",
+      "answer_md": "Distance = $\\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$ cm"
+    },
+    {
+      "order_index": 3,
+      "question_md": "A tangent is drawn from a point $13$ cm from the center of a circle with a radius of $5$ cm. What is the length of the tangent?",
+      "hint_md": "Use the formula: $\\text{Tangent}^2 = \\text{External Point}^2 - r^2$.",
+      "answer_md": "Tangent length = $\\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$ cm"
+    }
+  ]
+}

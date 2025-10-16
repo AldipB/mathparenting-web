@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0827b156-ae1a-43bf-95c9-7693ee3383de",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "a1c75221-0510-4dfb-b8df-94007ba475ec",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "b4d7ca75-c8e3-42b4-9e35-95dde80dd738",
+    "slug": "line-plots-mean-median-mode-range-intro",
+    "title": "Line Plots; Mean/Median/Mode/Range (Intro)",
+    "summary": "Line Plots; Mean/Median/Mode/Range (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 13
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to create and interpret line plots.\n- Learn to calculate mean, median, mode, and range.\n- **Why this matters for parents:** These skills help children analyze data, a key skill in everyday decision-making.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Line plots are simple graphs that show data points along a number line. They help visualize how often each value occurs. Understanding mean, median, mode, and range gives insight into data by summarizing it in different ways.\nThese concepts are foundational for more advanced math and are useful in real-life situations like budgeting or planning. They help children make sense of numbers and patterns they encounter daily.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Line plots are a way to display data visually. Each 'X' on the plot represents a data point. Mean, median, mode, and range are measures that summarize data. The mean is the average, the median is the middle value, the mode is the most frequent value, and the range is the difference between the highest and lowest values.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. Gather 10 small objects (like coins) and a ruler.\n- 2. **Say:** 'Let's measure the length of each coin in centimeters and write down the numbers.'\n- 3. **Ask:** 'How can we show these measurements on a line plot?'\n- 4. Draw a number line on paper and mark the measurements with 'X's above each value.\n- 5. **Say:** 'Now, let's find the mean, median, mode, and range of these measurements.'\n- 6. Calculate each measure together, explaining each step.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To find the mean, add all the numbers and divide by the count. For example, if the measurements are 2, 3, 3, 4, and 5, the mean is $\\frac{2 + 3 + 3 + 4 + 5}{5} = 3.4$. The median is the middle value, which is 3. The mode is the most frequent value, also 3. The range is $5 - 2 = 3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Mean = \\frac{\\text{Sum of all data points}}{\\text{Number of data points}}\n* Sum of all data points: Add all the numbers together.\n* Number of data points: Count how many numbers there are.\nMedian = \\text{Middle value of ordered data}\n* Middle value: Arrange numbers in order and find the center.\nMode = \\text{Most frequent value}\n* Most frequent: The number that appears most often.\nRange = \\text{Maximum value} - \\text{Minimum value}\n* Maximum value: Largest number.\n* Minimum value: Smallest number.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. Collect a small set of data with your child (like shoe sizes).\n- 2. Draw a number line and help your child mark each data point with an 'X'.\n- 3. **Ask:** 'What do you notice about the data on the line plot?'\n- 4. Calculate the mean together. **Say:** 'Let's add these numbers and divide by how many there are.'\n- 5. Find the median by arranging the numbers in order. **Ask:** 'Which number is in the middle?'\n- 6. Identify the mode and range. **Say:** 'Let's see which number appears most and find the difference between the largest and smallest.'",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing mean with median. **Try:** Clarify that mean is the average, while median is the middle value.\n- Forgetting to order numbers for the median. **Try:** Always arrange numbers from smallest to largest first.\n- Mixing up mode and range. **Try:** Remember mode is about frequency, range is about difference.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Line plots and these measures are used in sports to track player statistics, like average scores. They also help in understanding weather patterns by summarizing temperature data.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring line plots and data measures! These skills will help your child make sense of numbers in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to create and interpret line plots.\n- Learn to calculate mean, median, mode, and range.\n- **Why this matters for parents:** These skills help children analyze data, a key skill in everyday decision-making.",
+    "overview": "Line plots are simple graphs that show data points along a number line. They help visualize how often each value occurs. Understanding mean, median, mode, and range gives insight into data by summarizing it in different ways.\nThese concepts are foundational for more advanced math and are useful in real-life situations like budgeting or planning. They help children make sense of numbers and patterns they encounter daily.",
+    "core": "Line plots are a way to display data visually. Each 'X' on the plot represents a data point. Mean, median, mode, and range are measures that summarize data. The mean is the average, the median is the middle value, the mode is the most frequent value, and the range is the difference between the highest and lowest values.",
+    "demo": "- 1. Gather 10 small objects (like coins) and a ruler.\n- 2. **Say:** 'Let's measure the length of each coin in centimeters and write down the numbers.'\n- 3. **Ask:** 'How can we show these measurements on a line plot?'\n- 4. Draw a number line on paper and mark the measurements with 'X's above each value.\n- 5. **Say:** 'Now, let's find the mean, median, mode, and range of these measurements.'\n- 6. Calculate each measure together, explaining each step.",
+    "math": "To find the mean, add all the numbers and divide by the count. For example, if the measurements are 2, 3, 3, 4, and 5, the mean is $\\frac{2 + 3 + 3 + 4 + 5}{5} = 3.4$. The median is the middle value, which is 3. The mode is the most frequent value, also 3. The range is $5 - 2 = 3$.",
+    "formulas": "Mean = \\frac{\\text{Sum of all data points}}{\\text{Number of data points}}\n* Sum of all data points: Add all the numbers together.\n* Number of data points: Count how many numbers there are.\nMedian = \\text{Middle value of ordered data}\n* Middle value: Arrange numbers in order and find the center.\nMode = \\text{Most frequent value}\n* Most frequent: The number that appears most often.\nRange = \\text{Maximum value} - \\text{Minimum value}\n* Maximum value: Largest number.\n* Minimum value: Smallest number.",
+    "guide": "- 1. Collect a small set of data with your child (like shoe sizes).\n- 2. Draw a number line and help your child mark each data point with an 'X'.\n- 3. **Ask:** 'What do you notice about the data on the line plot?'\n- 4. Calculate the mean together. **Say:** 'Let's add these numbers and divide by how many there are.'\n- 5. Find the median by arranging the numbers in order. **Ask:** 'Which number is in the middle?'\n- 6. Identify the mode and range. **Say:** 'Let's see which number appears most and find the difference between the largest and smallest.'",
+    "mistakes": "- Confusing mean with median. **Try:** Clarify that mean is the average, while median is the middle value.\n- Forgetting to order numbers for the median. **Try:** Always arrange numbers from smallest to largest first.\n- Mixing up mode and range. **Try:** Remember mode is about frequency, range is about difference.",
+    "connection": "Line plots and these measures are used in sports to track player statistics, like average scores. They also help in understanding weather patterns by summarizing temperature data.",
+    "close": "Great job exploring line plots and data measures! These skills will help your child make sense of numbers in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Create a line plot for the data: 4, 5, 5, 6, 7.",
+      "hint_md": "Draw a number line and mark each data point with an 'X'.",
+      "answer_md": "The line plot should have 'X's above 4, two 'X's above 5, one 'X' above 6, and one 'X' above 7."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Find the mean of the numbers: 10, 15, 10, 20.",
+      "hint_md": "Add all numbers and divide by the count.",
+      "answer_md": "Mean = $\\frac{10 + 15 + 10 + 20}{4} = 13.75$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the mode of the data set: 8, 9, 9, 10, 11?",
+      "hint_md": "Look for the number that appears most frequently.",
+      "answer_md": "The mode is 9."
+    }
+  ]
+}

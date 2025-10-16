@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "14e47a66-5e00-4d33-bf22-115797b6cf7d",
+    "title": "Place Value & Operations",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "5f5d451a-f56a-492b-b176-fa69167470ec",
+    "slug": "properties-of-operations",
+    "title": "Properties of Operations",
+    "summary": "Properties of Operations — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the properties of operations: commutative, associative, and distributive.\n- Use these properties to simplify calculations.\n- **Why this matters for parents:** Helps children develop mental math skills and problem-solving strategies.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson explores the properties of operations: commutative, associative, and distributive. These properties help simplify calculations and make math more intuitive.\nUnderstanding these properties is important because they form the foundation for more complex math concepts. They also help children solve problems more efficiently and confidently.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The properties of operations are rules that apply to addition and multiplication. They help us rearrange and group numbers to make calculations easier. For example, knowing that $3 + 5$ is the same as $5 + 3$ can simplify addition.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small objects like buttons or coins.\n2. **Say:** \"Let's explore how we can add these objects in different ways.\"\n3. Divide them into two groups of 3 and 7.\n4. **Ask:** \"What happens if we add 3 + 7 and 7 + 3?\"\n5. Rearrange and count them to show both equal 10.\n6. **Say:** \"This shows the commutative property of addition.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The commutative property means you can change the order of numbers when adding or multiplying, and the result stays the same. For example, $4 + 6 = 6 + 4$ and $2 \\times 3 = 3 \\times 2$. The associative property allows you to change the grouping of numbers. For example, $(2 + 3) + 4 = 2 + (3 + 4)$. The distributive property connects addition and multiplication: $2 \\times (3 + 4) = 2 \\times 3 + 2 \\times 4$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Commutative Property: $a + b = b + a$\n  - $a$ and $b$ are any numbers.\n- Associative Property: $(a + b) + c = a + (b + c)$\n  - $a$, $b$, and $c$ are any numbers.\n- Distributive Property: $a \\times (b + c) = a \\times b + a \\times c$\n  - $a$, $b$, and $c$ are any numbers.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"Can you think of a time when you rearranged things to make it easier?\"\n2. **Say:** \"Let's try adding 5 + 8 and 8 + 5 to see if they are the same.\"\n3. Use objects to show $(2 + 3) + 4$ and $2 + (3 + 4)$.\n4. **Ask:** \"What do you notice about the totals?\"\n5. **Say:** \"Now, let's see how $2 \\times (3 + 4)$ works.\"\n6. Use objects to show $2 \\times 3 + 2 \\times 4$ and compare.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the properties: Try focusing on one property at a time with examples.\n- Forgetting to apply the distributive property: Try breaking down the multiplication into smaller parts.\n- Mixing up addition and multiplication rules: Try using objects to visualize each operation separately.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When cooking, you might rearrange ingredients to make the process smoother. Similarly, using these properties can make math calculations easier and faster.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding these properties builds a strong math foundation. Keep practicing, and soon these will become second nature!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the properties of operations: commutative, associative, and distributive.\n- Use these properties to simplify calculations.\n- **Why this matters for parents:** Helps children develop mental math skills and problem-solving strategies.",
+    "overview": "This lesson explores the properties of operations: commutative, associative, and distributive. These properties help simplify calculations and make math more intuitive.\nUnderstanding these properties is important because they form the foundation for more complex math concepts. They also help children solve problems more efficiently and confidently.",
+    "core": "The properties of operations are rules that apply to addition and multiplication. They help us rearrange and group numbers to make calculations easier. For example, knowing that $3 + 5$ is the same as $5 + 3$ can simplify addition.",
+    "demo": "1. Gather 10 small objects like buttons or coins.\n2. **Say:** \"Let's explore how we can add these objects in different ways.\"\n3. Divide them into two groups of 3 and 7.\n4. **Ask:** \"What happens if we add 3 + 7 and 7 + 3?\"\n5. Rearrange and count them to show both equal 10.\n6. **Say:** \"This shows the commutative property of addition.\"",
+    "math": "The commutative property means you can change the order of numbers when adding or multiplying, and the result stays the same. For example, $4 + 6 = 6 + 4$ and $2 \\times 3 = 3 \\times 2$. The associative property allows you to change the grouping of numbers. For example, $(2 + 3) + 4 = 2 + (3 + 4)$. The distributive property connects addition and multiplication: $2 \\times (3 + 4) = 2 \\times 3 + 2 \\times 4$.",
+    "formulas": "- Commutative Property: $a + b = b + a$\n  - $a$ and $b$ are any numbers.\n- Associative Property: $(a + b) + c = a + (b + c)$\n  - $a$, $b$, and $c$ are any numbers.\n- Distributive Property: $a \\times (b + c) = a \\times b + a \\times c$\n  - $a$, $b$, and $c$ are any numbers.",
+    "guide": "1. **Ask:** \"Can you think of a time when you rearranged things to make it easier?\"\n2. **Say:** \"Let's try adding 5 + 8 and 8 + 5 to see if they are the same.\"\n3. Use objects to show $(2 + 3) + 4$ and $2 + (3 + 4)$.\n4. **Ask:** \"What do you notice about the totals?\"\n5. **Say:** \"Now, let's see how $2 \\times (3 + 4)$ works.\"\n6. Use objects to show $2 \\times 3 + 2 \\times 4$ and compare.",
+    "mistakes": "- Confusing the properties: Try focusing on one property at a time with examples.\n- Forgetting to apply the distributive property: Try breaking down the multiplication into smaller parts.\n- Mixing up addition and multiplication rules: Try using objects to visualize each operation separately.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "When cooking, you might rearrange ingredients to make the process smoother. Similarly, using these properties can make math calculations easier and faster.",
+    "close": "Understanding these properties builds a strong math foundation. Keep practicing, and soon these will become second nature!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Properties of Operations**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Properties of Operations** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Properties of Operations**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

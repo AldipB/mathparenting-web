@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a3841dd3-be5d-4802-8d05-24c5f6f91dea",
+    "slug": "decimals-tenths-hundredths-compare-round",
+    "title": "Decimals (Tenths, Hundredths); Compare & Round",
+    "summary": "Decimals (Tenths, Hundredths); Compare & Round — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand tenths and hundredths in decimals.\n- Compare and round decimals to the nearest tenth.\n- **Why this matters for parents:** Understanding decimals helps children with money, measurements, and everyday decisions.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Decimals represent parts of a whole, similar to fractions. In this lesson, we'll focus on tenths and hundredths, which are the first two places after the decimal point.\nUnderstanding decimals is crucial for handling money and measurements, both of which are common in daily life. This knowledge builds a foundation for more advanced math concepts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals are numbers that include a decimal point to show a part of a whole. The first place after the decimal is the tenths place, and the second is the hundredths place. For example, in 0.75, 7 is in the tenths place, and 5 is in the hundredths place.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- Gather 10 dimes and 100 pennies to represent tenths and hundredths.\n- **Say:** \"Each dime is one-tenth of a dollar, and each penny is one-hundredth of a dollar.\"\n- Place 7 dimes and 5 pennies on the table. **Ask:** \"How much money is this?\"\n- **Say:** \"This is $0.75, or seventy-five hundredths of a dollar.\"\n- Compare $0.75 to $0.70 using the coins. **Ask:** \"Which is more?\"\n- **Say:** \"$0.75 is more because it has more pennies.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Decimals are written with a decimal point. The number 0.75 means 7 tenths and 5 hundredths. To compare decimals, look at the tenths first, then the hundredths if needed. For example, 0.75 is greater than 0.70 because 75 is greater than 70.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Rounding: If the hundredths digit is 5 or more, round up.\n0.75 \\approx 0.8\n* 0.75: Original number\n* 0.8: Rounded number",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- Explain that decimals are like fractions of a dollar.\n- Use coins to show tenths and hundredths.\n- Compare two decimals by looking at tenths first.\n- Round a decimal by checking the hundredths place.\n- Practice with different coin combinations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tenths and hundredths. **Try:** Use coins to visualize.\n- Forgetting to check the hundredths when comparing. **Try:** Compare tenths first, then hundredths.\n- Rounding incorrectly. **Try:** Remember to round up if the hundredths is 5 or more.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Decimals are used in money, such as $0.99 for prices. They also appear in measurements, like 1.75 meters.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring decimals! These skills will help your child handle money and measurements with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand tenths and hundredths in decimals.\n- Compare and round decimals to the nearest tenth.\n- **Why this matters for parents:** Understanding decimals helps children with money, measurements, and everyday decisions.",
+    "overview": "Decimals represent parts of a whole, similar to fractions. In this lesson, we'll focus on tenths and hundredths, which are the first two places after the decimal point.\nUnderstanding decimals is crucial for handling money and measurements, both of which are common in daily life. This knowledge builds a foundation for more advanced math concepts.",
+    "core": "Decimals are numbers that include a decimal point to show a part of a whole. The first place after the decimal is the tenths place, and the second is the hundredths place. For example, in 0.75, 7 is in the tenths place, and 5 is in the hundredths place.",
+    "demo": "- Gather 10 dimes and 100 pennies to represent tenths and hundredths.\n- **Say:** \"Each dime is one-tenth of a dollar, and each penny is one-hundredth of a dollar.\"\n- Place 7 dimes and 5 pennies on the table. **Ask:** \"How much money is this?\"\n- **Say:** \"This is $0.75, or seventy-five hundredths of a dollar.\"\n- Compare $0.75 to $0.70 using the coins. **Ask:** \"Which is more?\"\n- **Say:** \"$0.75 is more because it has more pennies.\"",
+    "math": "Decimals are written with a decimal point. The number 0.75 means 7 tenths and 5 hundredths. To compare decimals, look at the tenths first, then the hundredths if needed. For example, 0.75 is greater than 0.70 because 75 is greater than 70.",
+    "formulas": "Rounding: If the hundredths digit is 5 or more, round up.\n0.75 \\approx 0.8\n* 0.75: Original number\n* 0.8: Rounded number",
+    "guide": "- Explain that decimals are like fractions of a dollar.\n- Use coins to show tenths and hundredths.\n- Compare two decimals by looking at tenths first.\n- Round a decimal by checking the hundredths place.\n- Practice with different coin combinations.",
+    "mistakes": "- Confusing tenths and hundredths. **Try:** Use coins to visualize.\n- Forgetting to check the hundredths when comparing. **Try:** Compare tenths first, then hundredths.\n- Rounding incorrectly. **Try:** Remember to round up if the hundredths is 5 or more.",
+    "connection": "Decimals are used in money, such as $0.99 for prices. They also appear in measurements, like 1.75 meters.",
+    "close": "Great job exploring decimals! These skills will help your child handle money and measurements with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is 0.6 + 0.15?",
+      "hint_md": "Add tenths first, then hundredths.",
+      "answer_md": "0.75"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Compare 0.47 and 0.53. Which is greater?",
+      "hint_md": "Look at the tenths place first.",
+      "answer_md": "0.53 is greater."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Round 0.68 to the nearest tenth.",
+      "hint_md": "Check the hundredths place.",
+      "answer_md": "0.7"
+    }
+  ]
+}

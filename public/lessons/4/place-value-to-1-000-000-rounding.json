@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "c8c1d956-6747-4575-aaaf-1f3ff1c53ac1",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5673c1f8-70f7-4e75-a07e-25c89e4a4fcd",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "7d9aa663-8556-4140-b296-b6d930c17b43",
+    "slug": "place-value-to-1-000-000-rounding",
+    "title": "Place Value to 1,000,000; Rounding",
+    "summary": "Place Value to 1,000,000; Rounding — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand place value up to 1,000,000.\n- Learn to round numbers to the nearest ten, hundred, and thousand.\n- **Why this matters for parents:** Grasping place value and rounding helps children make sense of large numbers and improves their estimation skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces the concept of place value up to 1,000,000 and teaches how to round numbers. Place value helps children understand the value of each digit in a number, while rounding helps simplify numbers for easier calculations.\nUnderstanding these concepts is crucial for everyday tasks like estimating costs or distances. It builds a foundation for more advanced math skills and boosts confidence in handling numbers.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Place value is the value of where a digit is in a number. For example, in 345, the '3' is in the hundreds place, so it represents 300. Rounding means adjusting a number to make it simpler but still close to the original value. We often round numbers to the nearest ten, hundred, or thousand.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather 10 small objects (like beans) and a few bowls.\n2. **Say:** \"Let's count these beans. If we have 345 beans, how many groups of 100 can we make?\"\n3. Place 3 groups of 100 beans in separate bowls, showing 300.\n4. **Ask:** \"What place is the '4' in 345?\" (Tens place)\n5. **Say:** \"Now, let's round 345 to the nearest hundred. Is it closer to 300 or 400?\"\n6. Use the beans to show that 345 is closer to 300.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In the number 345, the digit '3' is in the hundreds place, '4' is in the tens place, and '5' is in the ones place. To round 345 to the nearest hundred, look at the tens digit (4). Since it's less than 5, round down to 300.\nExample: To round 678 to the nearest ten, look at the ones digit (8). Since it's 5 or more, round up to 680.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Rounding Rule: If the digit is 5 or more, round up; if it's 4 or less, round down.\nPlace Value: \\( \\text{Digit} \\times \\text{Place} \\)\n- Digit: The number itself\n- Place: The value of the position (e.g., 10, 100, 1,000)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Write down a number like 562.\n2. **Ask:** \"What is the digit in the hundreds place?\" (5)\n3. **Say:** \"Let's round 562 to the nearest hundred.\"\n4. Look at the tens digit (6). Since it's 5 or more, round up to 600.\n5. **Ask:** \"What if we round 562 to the nearest ten?\" (560)\n6. Practice with different numbers to reinforce understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing place value: Try using objects to visualize each place.\n- Rounding up incorrectly: Try checking the digit to the right to decide.\n- Forgetting to round down: Try remembering that 4 or less rounds down.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "When shopping, rounding prices helps estimate the total cost quickly. For example, if an item costs $47, rounding to $50 makes mental math easier.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring place value and rounding! These skills make big numbers feel more manageable and useful in everyday life.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand place value up to 1,000,000.\n- Learn to round numbers to the nearest ten, hundred, and thousand.\n- **Why this matters for parents:** Grasping place value and rounding helps children make sense of large numbers and improves their estimation skills.",
+    "overview": "This lesson introduces the concept of place value up to 1,000,000 and teaches how to round numbers. Place value helps children understand the value of each digit in a number, while rounding helps simplify numbers for easier calculations.\nUnderstanding these concepts is crucial for everyday tasks like estimating costs or distances. It builds a foundation for more advanced math skills and boosts confidence in handling numbers.",
+    "core": "Place value is the value of where a digit is in a number. For example, in 345, the '3' is in the hundreds place, so it represents 300. Rounding means adjusting a number to make it simpler but still close to the original value. We often round numbers to the nearest ten, hundred, or thousand.",
+    "demo": "1. Gather 10 small objects (like beans) and a few bowls.\n2. **Say:** \"Let's count these beans. If we have 345 beans, how many groups of 100 can we make?\"\n3. Place 3 groups of 100 beans in separate bowls, showing 300.\n4. **Ask:** \"What place is the '4' in 345?\" (Tens place)\n5. **Say:** \"Now, let's round 345 to the nearest hundred. Is it closer to 300 or 400?\"\n6. Use the beans to show that 345 is closer to 300.",
+    "math": "In the number 345, the digit '3' is in the hundreds place, '4' is in the tens place, and '5' is in the ones place. To round 345 to the nearest hundred, look at the tens digit (4). Since it's less than 5, round down to 300.\nExample: To round 678 to the nearest ten, look at the ones digit (8). Since it's 5 or more, round up to 680.",
+    "formulas": "Rounding Rule: If the digit is 5 or more, round up; if it's 4 or less, round down.\nPlace Value: \\( \\text{Digit} \\times \\text{Place} \\)\n- Digit: The number itself\n- Place: The value of the position (e.g., 10, 100, 1,000)",
+    "guide": "1. Write down a number like 562.\n2. **Ask:** \"What is the digit in the hundreds place?\" (5)\n3. **Say:** \"Let's round 562 to the nearest hundred.\"\n4. Look at the tens digit (6). Since it's 5 or more, round up to 600.\n5. **Ask:** \"What if we round 562 to the nearest ten?\" (560)\n6. Practice with different numbers to reinforce understanding.",
+    "mistakes": "- Confusing place value: Try using objects to visualize each place.\n- Rounding up incorrectly: Try checking the digit to the right to decide.\n- Forgetting to round down: Try remembering that 4 or less rounds down.",
+    "connection": "When shopping, rounding prices helps estimate the total cost quickly. For example, if an item costs $47, rounding to $50 makes mental math easier.",
+    "close": "Great job exploring place value and rounding! These skills make big numbers feel more manageable and useful in everyday life."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Round 473 to the nearest hundred.",
+      "hint_md": "Look at the tens digit (7).",
+      "answer_md": "500"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What is the place value of '6' in 6,432?",
+      "hint_md": "It's the first digit from the left.",
+      "answer_md": "6,000"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Round 1,289 to the nearest ten.",
+      "hint_md": "Check the ones digit (9).",
+      "answer_md": "1,290"
+    }
+  ]
+}

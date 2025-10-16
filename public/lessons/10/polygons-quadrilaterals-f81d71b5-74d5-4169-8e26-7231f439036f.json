@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "f81d71b5-74d5-4169-8e26-7231f439036f",
+    "slug": "polygons-quadrilaterals-f81d71b5-74d5-4169-8e26-7231f439036f",
+    "title": "Polygons & Quadrilaterals",
+    "summary": "Polygons & Quadrilaterals — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the properties of polygons and quadrilaterals.\n- Identify different types of quadrilaterals and their characteristics.\n- **Why this matters for parents:** This helps you support your child's spatial reasoning and problem-solving skills, which are crucial in many real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Polygons are shapes with straight sides, and quadrilaterals are a type of polygon with four sides. In this lesson, we'll explore the different types of quadrilaterals, such as squares, rectangles, and trapezoids, and understand their properties.\nUnderstanding these shapes is important because they form the basis of many structures and designs in the world around us. Recognizing their properties helps in fields like architecture, engineering, and art.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "A polygon is a closed shape with straight sides. Quadrilaterals are polygons with four sides. Common quadrilaterals include squares, rectangles, parallelograms, rhombuses, and trapezoids. Each has unique properties, like equal sides or parallel lines.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather four pencils and some string.\n2. **Say:** \"Let's make a square. Arrange the pencils to form a shape with equal sides.\"\n3. **Ask:** \"What do you notice about the angles?\" (They are all right angles.)\n4. Rearrange the pencils to form a rectangle.\n5. **Say:** \"Notice how opposite sides are equal.\"\n6. Use the string to form a trapezoid. **Ask:** \"How is this different?\" (Only one pair of sides is parallel.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A quadrilateral is defined by its sides and angles. For example, a square has four equal sides and four right angles. A rectangle also has four right angles, but only opposite sides are equal. Consider a trapezoid with sides 5 cm, 5 cm, 8 cm, and 10 cm, where only one pair of sides is parallel.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Perimeter of a quadrilateral: $P = a + b + c + d$\n  - $a, b, c, d$ are the lengths of the sides.\n- Area of a rectangle: $A = l \times w$\n  - $l$ is the length, $w$ is the width.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What shapes do you see around the house that are quadrilaterals?\"\n2. Use a ruler to measure the sides of a book. **Say:** \"Let's find the perimeter.\"\n3. **Ask:** \"How do the properties of a rectangle help us find its area?\"\n4. Draw different quadrilaterals on paper. **Say:** \"Identify each shape and its properties.\"\n5. **Ask:** \"Can you find a shape that is not a quadrilateral? Why?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing rectangles and squares. **Try:** Remember, all squares are rectangles, but not all rectangles are squares.\n- Forgetting to check for parallel sides in trapezoids. **Try:** Look for one pair of parallel sides.\n- Misidentifying angles. **Try:** Use a protractor to check if angles are right angles.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Quadrilaterals are everywhere! From the screens we use to the tables we eat at, understanding these shapes helps us appreciate design and function in everyday objects.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring polygons and quadrilaterals opens up a world of shapes and designs. Keep encouraging curiosity and discovery!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the properties of polygons and quadrilaterals.\n- Identify different types of quadrilaterals and their characteristics.\n- **Why this matters for parents:** This helps you support your child's spatial reasoning and problem-solving skills, which are crucial in many real-world situations.",
+    "overview": "Polygons are shapes with straight sides, and quadrilaterals are a type of polygon with four sides. In this lesson, we'll explore the different types of quadrilaterals, such as squares, rectangles, and trapezoids, and understand their properties.\nUnderstanding these shapes is important because they form the basis of many structures and designs in the world around us. Recognizing their properties helps in fields like architecture, engineering, and art.",
+    "core": "A polygon is a closed shape with straight sides. Quadrilaterals are polygons with four sides. Common quadrilaterals include squares, rectangles, parallelograms, rhombuses, and trapezoids. Each has unique properties, like equal sides or parallel lines.",
+    "demo": "1. Gather four pencils and some string.\n2. **Say:** \"Let's make a square. Arrange the pencils to form a shape with equal sides.\"\n3. **Ask:** \"What do you notice about the angles?\" (They are all right angles.)\n4. Rearrange the pencils to form a rectangle.\n5. **Say:** \"Notice how opposite sides are equal.\"\n6. Use the string to form a trapezoid. **Ask:** \"How is this different?\" (Only one pair of sides is parallel.)",
+    "math": "A quadrilateral is defined by its sides and angles. For example, a square has four equal sides and four right angles. A rectangle also has four right angles, but only opposite sides are equal. Consider a trapezoid with sides 5 cm, 5 cm, 8 cm, and 10 cm, where only one pair of sides is parallel.",
+    "formulas": "- Perimeter of a quadrilateral: $P = a + b + c + d$\n  - $a, b, c, d$ are the lengths of the sides.\n- Area of a rectangle: $A = l \times w$\n  - $l$ is the length, $w$ is the width.",
+    "guide": "1. **Ask:** \"What shapes do you see around the house that are quadrilaterals?\"\n2. Use a ruler to measure the sides of a book. **Say:** \"Let's find the perimeter.\"\n3. **Ask:** \"How do the properties of a rectangle help us find its area?\"\n4. Draw different quadrilaterals on paper. **Say:** \"Identify each shape and its properties.\"\n5. **Ask:** \"Can you find a shape that is not a quadrilateral? Why?\"",
+    "mistakes": "- Confusing rectangles and squares. **Try:** Remember, all squares are rectangles, but not all rectangles are squares.\n- Forgetting to check for parallel sides in trapezoids. **Try:** Look for one pair of parallel sides.\n- Misidentifying angles. **Try:** Use a protractor to check if angles are right angles.",
+    "connection": "Quadrilaterals are everywhere! From the screens we use to the tables we eat at, understanding these shapes helps us appreciate design and function in everyday objects.",
+    "close": "Exploring polygons and quadrilaterals opens up a world of shapes and designs. Keep encouraging curiosity and discovery!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the perimeter of a rectangle with sides 6 cm and 4 cm?",
+      "hint_md": "Add all the sides together.",
+      "answer_md": "The perimeter is $6 + 4 + 6 + 4 = 20$ cm."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Identify the type of quadrilateral with sides 5 cm, 5 cm, 8 cm, and 8 cm.",
+      "hint_md": "Look for pairs of equal sides.",
+      "answer_md": "This is a rectangle."
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many right angles does a square have?",
+      "hint_md": "Think about the angles in a square.",
+      "answer_md": "A square has 4 right angles."
+    }
+  ]
+}

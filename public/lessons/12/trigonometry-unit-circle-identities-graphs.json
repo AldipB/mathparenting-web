@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5d6241fa-570e-499f-853b-3a322226b6d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a2704ac8-6745-47f1-a022-230a0647fe28",
+    "slug": "trigonometry-unit-circle-identities-graphs",
+    "title": "Trigonometry (Unit Circle, Identities, Graphs)",
+    "summary": "Trigonometry (Unit Circle, Identities, Graphs) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the unit circle and basic trigonometric identities.\n- Learn to graph sine, cosine, and tangent functions.\n- **Why this matters for parents:** This helps you support your child in understanding key concepts that are foundational for calculus and beyond.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Trigonometry is a branch of mathematics that deals with the relationships between the angles and sides of triangles, particularly right triangles. The unit circle is a fundamental concept that helps visualize these relationships.\nUnderstanding trigonometry is crucial because it forms the basis for calculus, physics, and engineering. It also helps in solving real-world problems involving waves, oscillations, and circular motion.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The unit circle is a circle with a radius of 1, centered at the origin of a coordinate plane. It helps us define sine, cosine, and tangent for all angles. Trigonometric identities are equations that are true for all angles and help simplify complex expressions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore shapes in our home. Find objects that are squares and rectangles.\n2. **Ask:** How is a square different from a rectangle? (Both have four sides, but a square has equal sides.)\n3. Use straws or sticks to build a square and a rectangle. Rotate the square and ask if it becomes a 'diamond'.\n4. **Say:** Notice, even rotated, it's still a square because all sides are equal.\n5. Use a circular object (like a lid) to explain the unit circle. Mark the top as 0 degrees and move around to 90, 180, and 270 degrees.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The unit circle allows us to define sine and cosine. For an angle $\\theta$, the coordinates on the unit circle are $(\\cos \\theta, \\sin \\theta)$. For example, at $90^\\circ$, the coordinates are $(0, 1)$.\nTrigonometric identities like $\\sin^2 \\theta + \\cos^2 \\theta = 1$ help simplify expressions.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\sin^2 \\theta + \\cos^2 \\theta = 1$\n  - $\\sin \\theta$: sine of angle $\\theta$\n  - $\\cos \\theta$: cosine of angle $\\theta$\n- $\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$\n  - $\\tan \\theta$: tangent of angle $\\theta$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's draw a circle and mark the angles 0°, 90°, 180°, and 270°.\n2. **Ask:** What are the coordinates at each angle on the unit circle?\n3. **Say:** Use these coordinates to find sine and cosine values.\n4. Discuss how these values help in graphing sine and cosine functions.\n5. **Ask:** How do these graphs look different from each other?\n6. **Say:** Notice how the unit circle helps us understand these graphs.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing sine with cosine. **Try:** Remember, cosine is the x-coordinate, sine is the y-coordinate.\n- Thinking a rotated square is a different shape. **Try:** Check if all sides are equal.\n- Forgetting the unit circle's radius is 1. **Try:** Always start from the center and measure out 1 unit.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Trigonometry is used in designing roller coasters, where engineers calculate angles and heights. It's also crucial in sound engineering to understand waves and vibrations.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring trigonometry with your child opens up a world of understanding in math and science. Keep encouraging their curiosity!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the unit circle and basic trigonometric identities.\n- Learn to graph sine, cosine, and tangent functions.\n- **Why this matters for parents:** This helps you support your child in understanding key concepts that are foundational for calculus and beyond.",
+    "overview": "Trigonometry is a branch of mathematics that deals with the relationships between the angles and sides of triangles, particularly right triangles. The unit circle is a fundamental concept that helps visualize these relationships.\nUnderstanding trigonometry is crucial because it forms the basis for calculus, physics, and engineering. It also helps in solving real-world problems involving waves, oscillations, and circular motion.",
+    "core": "The unit circle is a circle with a radius of 1, centered at the origin of a coordinate plane. It helps us define sine, cosine, and tangent for all angles. Trigonometric identities are equations that are true for all angles and help simplify complex expressions.",
+    "demo": "1. **Say:** Let's explore shapes in our home. Find objects that are squares and rectangles.\n2. **Ask:** How is a square different from a rectangle? (Both have four sides, but a square has equal sides.)\n3. Use straws or sticks to build a square and a rectangle. Rotate the square and ask if it becomes a 'diamond'.\n4. **Say:** Notice, even rotated, it's still a square because all sides are equal.\n5. Use a circular object (like a lid) to explain the unit circle. Mark the top as 0 degrees and move around to 90, 180, and 270 degrees.",
+    "math": "The unit circle allows us to define sine and cosine. For an angle $\\theta$, the coordinates on the unit circle are $(\\cos \\theta, \\sin \\theta)$. For example, at $90^\\circ$, the coordinates are $(0, 1)$.\nTrigonometric identities like $\\sin^2 \\theta + \\cos^2 \\theta = 1$ help simplify expressions.",
+    "formulas": "- $\\sin^2 \\theta + \\cos^2 \\theta = 1$\n  - $\\sin \\theta$: sine of angle $\\theta$\n  - $\\cos \\theta$: cosine of angle $\\theta$\n- $\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$\n  - $\\tan \\theta$: tangent of angle $\\theta$",
+    "guide": "1. **Say:** Let's draw a circle and mark the angles 0°, 90°, 180°, and 270°.\n2. **Ask:** What are the coordinates at each angle on the unit circle?\n3. **Say:** Use these coordinates to find sine and cosine values.\n4. Discuss how these values help in graphing sine and cosine functions.\n5. **Ask:** How do these graphs look different from each other?\n6. **Say:** Notice how the unit circle helps us understand these graphs.",
+    "mistakes": "- Confusing sine with cosine. **Try:** Remember, cosine is the x-coordinate, sine is the y-coordinate.\n- Thinking a rotated square is a different shape. **Try:** Check if all sides are equal.\n- Forgetting the unit circle's radius is 1. **Try:** Always start from the center and measure out 1 unit.",
+    "connection": "Trigonometry is used in designing roller coasters, where engineers calculate angles and heights. It's also crucial in sound engineering to understand waves and vibrations.",
+    "close": "Exploring trigonometry with your child opens up a world of understanding in math and science. Keep encouraging their curiosity!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What are the coordinates of the point on the unit circle at $180^\\circ$?",
+      "hint_md": "Think about the position on the x-axis at $180^\\circ$.",
+      "answer_md": "$( -1, 0 )$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Verify the identity $\\sin^2 45^\\circ + \\cos^2 45^\\circ = 1$.",
+      "hint_md": "Use $\\sin 45^\\circ = \\cos 45^\\circ = \\frac{\\sqrt{2}}{2}$.",
+      "answer_md": "$\\left(\\frac{\\sqrt{2}}{2}\\right)^2 + \\left(\\frac{\\sqrt{2}}{2}\\right)^2 = 1$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Graph the sine function from $0^\\circ$ to $360^\\circ$.",
+      "hint_md": "Use key points: $0^\\circ$, $90^\\circ$, $180^\\circ$, $270^\\circ$, $360^\\circ$.",
+      "answer_md": "A wave starting at 0, peaking at 1 at $90^\\circ$, back to 0 at $180^\\circ$, -1 at $270^\\circ$, and 0 at $360^\\circ$."
+    }
+  ]
+}

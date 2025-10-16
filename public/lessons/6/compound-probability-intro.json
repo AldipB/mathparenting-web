@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "3d02ccc7-0909-4a12-8abf-f1596571e219",
+    "slug": "compound-probability-intro",
+    "title": "Compound Probability (Intro)",
+    "summary": "Compound Probability (Intro) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 14
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand basic compound probability.\n- - Learn to calculate the probability of two independent events.\n- - Use household objects to demonstrate probability concepts.\n- **Why this matters for parents:** Helping your child grasp probability strengthens their logical thinking and decision-making skills.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Compound probability is the likelihood of two or more events happening together. For example, flipping a coin and rolling a die at the same time.\nUnderstanding compound probability helps children see how different outcomes can combine, which is useful in everyday decision-making and predicting outcomes.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Compound probability involves calculating the chance of two independent events occurring together. For example, flipping a coin and rolling a die are independent events because the outcome of one does not affect the other.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a coin and a six-sided die.\n2. **Say:** \"Let's find the probability of flipping heads and rolling a 4.\"\n3. **Ask:** \"What is the probability of flipping heads?\" (Answer: 1/2)\n4. **Ask:** \"What is the probability of rolling a 4?\" (Answer: 1/6)\n5. **Say:** \"To find the compound probability, multiply the two probabilities: $\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.\"\n6. **Ask:** \"What does this mean?\" (Answer: There is a 1 in 12 chance of both events happening together.)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To calculate compound probability for independent events, multiply the probability of each event. For example, if the probability of event A is $P(A) = \\frac{1}{2}$ and event B is $P(B) = \\frac{1}{6}$, then the compound probability is $P(A \\text{ and } B) = \\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "P(A \\text{ and } B) = P(A) \\times P(B)\n- $P(A)$: Probability of event A\n- $P(B)$: Probability of event B",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What are two independent events we can test?\"\n2. Use a coin and a die to explore different outcomes.\n3. **Say:** \"Let's calculate the probability of each event.\"\n4. Multiply the probabilities to find the compound probability.\n5. **Ask:** \"What did we learn about these events?\"\n6. Discuss how this applies to real-life situations.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing independent and dependent events. **Try:** Explain that independent events do not affect each other.\n- Forgetting to multiply probabilities. **Try:** Remind them to multiply the probabilities of each event.\n- Misinterpreting the result. **Try:** Discuss what the probability means in terms of real-world outcomes.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Compound probability is used in games, weather forecasts, and risk assessments. Understanding it helps in making informed decisions, like planning an outdoor event based on weather predictions.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Exploring compound probability opens up a world of understanding about how events interact. Keep experimenting and discovering!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand basic compound probability.\n- - Learn to calculate the probability of two independent events.\n- - Use household objects to demonstrate probability concepts.\n- **Why this matters for parents:** Helping your child grasp probability strengthens their logical thinking and decision-making skills.",
+    "overview": "Compound probability is the likelihood of two or more events happening together. For example, flipping a coin and rolling a die at the same time.\nUnderstanding compound probability helps children see how different outcomes can combine, which is useful in everyday decision-making and predicting outcomes.",
+    "core": "Compound probability involves calculating the chance of two independent events occurring together. For example, flipping a coin and rolling a die are independent events because the outcome of one does not affect the other.",
+    "demo": "1. Gather a coin and a six-sided die.\n2. **Say:** \"Let's find the probability of flipping heads and rolling a 4.\"\n3. **Ask:** \"What is the probability of flipping heads?\" (Answer: 1/2)\n4. **Ask:** \"What is the probability of rolling a 4?\" (Answer: 1/6)\n5. **Say:** \"To find the compound probability, multiply the two probabilities: $\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.\"\n6. **Ask:** \"What does this mean?\" (Answer: There is a 1 in 12 chance of both events happening together.)",
+    "math": "To calculate compound probability for independent events, multiply the probability of each event. For example, if the probability of event A is $P(A) = \\frac{1}{2}$ and event B is $P(B) = \\frac{1}{6}$, then the compound probability is $P(A \\text{ and } B) = \\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$.",
+    "formulas": "P(A \\text{ and } B) = P(A) \\times P(B)\n- $P(A)$: Probability of event A\n- $P(B)$: Probability of event B",
+    "guide": "1. **Ask:** \"What are two independent events we can test?\"\n2. Use a coin and a die to explore different outcomes.\n3. **Say:** \"Let's calculate the probability of each event.\"\n4. Multiply the probabilities to find the compound probability.\n5. **Ask:** \"What did we learn about these events?\"\n6. Discuss how this applies to real-life situations.",
+    "mistakes": "- Confusing independent and dependent events. **Try:** Explain that independent events do not affect each other.\n- Forgetting to multiply probabilities. **Try:** Remind them to multiply the probabilities of each event.\n- Misinterpreting the result. **Try:** Discuss what the probability means in terms of real-world outcomes.",
+    "connection": "Compound probability is used in games, weather forecasts, and risk assessments. Understanding it helps in making informed decisions, like planning an outdoor event based on weather predictions.",
+    "close": "Exploring compound probability opens up a world of understanding about how events interact. Keep experimenting and discovering!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What is the probability of rolling a 3 on a die and flipping tails on a coin?",
+      "hint_md": "Calculate each probability separately, then multiply.",
+      "answer_md": "$\\frac{1}{6} \\times \\frac{1}{2} = \\frac{1}{12}$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "If you draw a red card from a deck and roll a 5 on a die, what is the probability?",
+      "hint_md": "Probability of red card is $\\frac{1}{2}$ (assuming half the deck is red).",
+      "answer_md": "$\\frac{1}{2} \\times \\frac{1}{6} = \\frac{1}{12}$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the probability of flipping heads twice in a row?",
+      "hint_md": "Multiply the probability of heads for each flip.",
+      "answer_md": "$\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "3bf4b4b0-c386-4163-a97c-1d086bf3799b",
+    "slug": "2d-3d-shape-attributes",
+    "title": "2D & 3D Shape Attributes",
+    "summary": "2D & 3D Shape Attributes — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Identify and describe attributes of 2D shapes (sides, corners).\n- Recognize and name 3D solids using real objects.\n- **Why this matters for parents:** Understanding shapes helps children see math in the world around them, building a foundation for geometry.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson helps children recognize and describe 2D shapes like squares and rectangles, and 3D solids like spheres and cubes. We’ll explore these shapes using everyday objects.\nUnderstanding shapes is important because it helps children organize visual information and develop spatial awareness, which are key skills in math and daily life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Shapes are everywhere! 2D shapes are flat, like a piece of paper, and have sides and corners. 3D solids are like objects you can hold, such as a ball or a box. Recognizing these shapes helps children describe and interact with their environment.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Shape Hunt:** Walk around the house with your child. **Say:** \"Let's find some shapes!\" Look for squares, rectangles, and circles.\n2. **Build Shapes:** Use sticks or straws to make a square and a rectangle. **Ask:** \"How are they different?\" Discuss sides and corners.\n3. **Square vs. Diamond:** Rotate a square 45 degrees. **Say:** \"This is still a square!\"\n4. **3D Object Sort:** Gather a ball, can, box, and cone. **Ask:** \"Which ones can roll? Which ones can stack?\"\n5. **Guess-the-Shape Bag:** Put a small object in a bag. **Ask:** \"Can you guess the shape by feeling it?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A square has 4 equal sides and 4 corners. A rectangle also has 4 corners but opposite sides are equal.\nFor example, a square with sides of 2 cm each has a perimeter of $2 + 2 + 2 + 2 = 8$ cm.\nA sphere, like a ball, has no edges or corners, while a cube, like a box, has 6 faces, 12 edges, and 8 corners.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. **Explore Together:** Walk around and find shapes in your home. **Say:** \"Look, the door is a rectangle!\"\n2. **Hands-On Building:** Use sticks to create shapes. **Ask:** \"How many sides does this have?\"\n3. **Rotation Exploration:** Rotate a square. **Say:** \"Even turned, it’s still a square!\"\n4. **3D Sorting:** Use household items to sort by shape. **Ask:** \"Which can roll? Which can stack?\"\n5. **Shape Guessing Game:** Use a bag to hide an object. **Ask:** \"What shape do you feel?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing squares and rectangles. **Try:** \"Remember, squares have all sides equal.\"\n- Calling a rotated square a diamond. **Try:** \"Even turned, it’s still a square.\"\n- Mixing up 2D and 3D shapes. **Try:** \"Flat shapes are 2D, like paper. Solid shapes are 3D, like a box.\"",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Shapes are in everything from the wheels on a car (circles) to the cereal box (rectangle). Recognizing them helps children understand the world.\nBuilding with blocks or drawing shapes are fun ways to reinforce these concepts.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Shapes are all around us! Keep exploring and discovering them together. Your child is building a strong math foundation.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Identify and describe attributes of 2D shapes (sides, corners).\n- Recognize and name 3D solids using real objects.\n- **Why this matters for parents:** Understanding shapes helps children see math in the world around them, building a foundation for geometry.",
+    "overview": "This lesson helps children recognize and describe 2D shapes like squares and rectangles, and 3D solids like spheres and cubes. We’ll explore these shapes using everyday objects.\nUnderstanding shapes is important because it helps children organize visual information and develop spatial awareness, which are key skills in math and daily life.",
+    "core": "Shapes are everywhere! 2D shapes are flat, like a piece of paper, and have sides and corners. 3D solids are like objects you can hold, such as a ball or a box. Recognizing these shapes helps children describe and interact with their environment.",
+    "demo": "1. **Shape Hunt:** Walk around the house with your child. **Say:** \"Let's find some shapes!\" Look for squares, rectangles, and circles.\n2. **Build Shapes:** Use sticks or straws to make a square and a rectangle. **Ask:** \"How are they different?\" Discuss sides and corners.\n3. **Square vs. Diamond:** Rotate a square 45 degrees. **Say:** \"This is still a square!\"\n4. **3D Object Sort:** Gather a ball, can, box, and cone. **Ask:** \"Which ones can roll? Which ones can stack?\"\n5. **Guess-the-Shape Bag:** Put a small object in a bag. **Ask:** \"Can you guess the shape by feeling it?\"",
+    "math": "A square has 4 equal sides and 4 corners. A rectangle also has 4 corners but opposite sides are equal.\nFor example, a square with sides of 2 cm each has a perimeter of $2 + 2 + 2 + 2 = 8$ cm.\nA sphere, like a ball, has no edges or corners, while a cube, like a box, has 6 faces, 12 edges, and 8 corners.",
+    "guide": "1. **Explore Together:** Walk around and find shapes in your home. **Say:** \"Look, the door is a rectangle!\"\n2. **Hands-On Building:** Use sticks to create shapes. **Ask:** \"How many sides does this have?\"\n3. **Rotation Exploration:** Rotate a square. **Say:** \"Even turned, it’s still a square!\"\n4. **3D Sorting:** Use household items to sort by shape. **Ask:** \"Which can roll? Which can stack?\"\n5. **Shape Guessing Game:** Use a bag to hide an object. **Ask:** \"What shape do you feel?\"",
+    "mistakes": "- Confusing squares and rectangles. **Try:** \"Remember, squares have all sides equal.\"\n- Calling a rotated square a diamond. **Try:** \"Even turned, it’s still a square.\"\n- Mixing up 2D and 3D shapes. **Try:** \"Flat shapes are 2D, like paper. Solid shapes are 3D, like a box.\"",
+    "connection": "Shapes are in everything from the wheels on a car (circles) to the cereal box (rectangle). Recognizing them helps children understand the world.\nBuilding with blocks or drawing shapes are fun ways to reinforce these concepts.",
+    "close": "Shapes are all around us! Keep exploring and discovering them together. Your child is building a strong math foundation."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "What shape has 4 equal sides and 4 corners?",
+      "hint_md": "Think of a shape that looks like a box but is flat.",
+      "answer_md": "Square"
+    },
+    {
+      "order_index": 2,
+      "question_md": "What 3D shape has no corners and is round?",
+      "hint_md": "Think of a ball.",
+      "answer_md": "Sphere"
+    },
+    {
+      "order_index": 3,
+      "question_md": "How many faces does a cube have?",
+      "hint_md": "Count the flat surfaces you can see.",
+      "answer_md": "6"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bf865dd1-a580-438a-9dee-13a78ee9e9d2",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "964fb4c0-6a97-4b53-9fa4-a2d61e16bdce",
+    "slug": "all-decimal-operations",
+    "title": "All Decimal Operations",
+    "summary": "All Decimal Operations — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand how to add, subtract, multiply, and divide decimals.\n- Help your child feel confident with decimal operations.\n- **Why this matters for parents:** Mastery of decimals is crucial for everyday tasks like budgeting and measuring.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson covers all four operations with decimals: addition, subtraction, multiplication, and division. We'll use simple household items to make these concepts tangible.\nUnderstanding decimal operations is essential for managing money, cooking, and other daily activities. By learning these skills, your child will be better equipped to handle real-world math challenges.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals are numbers that have a whole part and a fractional part, separated by a decimal point. Operations with decimals are similar to whole numbers, but it's important to line up the decimal points correctly. We'll explore each operation with practical examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Addition:** Use coins (dimes and pennies). **Say:** \"Let's add $0.75 + $0.25.\" Line up the coins to show $1.00.\n2. **Subtraction:** Use a measuring cup. **Say:** \"If we have 1.5 cups of water and pour out 0.7 cups, how much is left?\" Show 0.8 cups.\n3. **Multiplication:** Use a ruler. **Ask:** \"If each inch is $0.50, how much is 3.5 inches?\" Multiply to find $1.75.\n4. **Division:** Use a pizza. **Say:** \"If a pizza costs $8.00 and we divide it into 4 equal parts, how much does each part cost?\" Show $2.00 per part.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When adding or subtracting decimals, line up the decimal points. For example, $1.25 + 0.75 = 2.00$. In multiplication, multiply as if there are no decimals, then count total decimal places in both numbers to place the decimal in the answer. For division, move the decimal point in the divisor to make it a whole number, and do the same in the dividend. For example, $3.6 \\div 1.2 = 3.0$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- Addition: $a + b = c$\n  - $a$, $b$ are numbers with decimals.\n  - $c$ is the sum.\n- Subtraction: $a - b = c$\n  - $a$, $b$ are numbers with decimals.\n  - $c$ is the difference.\n- Multiplication: $a \\times b = c$\n  - $a$, $b$ are numbers with decimals.\n  - $c$ is the product.\n- Division: $a \\div b = c$\n  - $a$ is the dividend.\n  - $b$ is the divisor.\n  - $c$ is the quotient.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's practice adding decimals with these coins.\"\n2. **Ask:** \"Can you line up the decimal points for subtraction?\"\n3. **Say:** \"Try multiplying these numbers and count the decimal places.\"\n4. **Ask:** \"What happens to the decimal when we divide?\"\n5. **Say:** \"Great job! Let's try a real-life example with these skills.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misaligning decimal points. **Try:** Use graph paper to keep numbers aligned.\n- Forgetting to adjust decimal places in multiplication. **Try:** Count the decimal places in each number.\n- Incorrectly moving the decimal in division. **Try:** Practice moving the decimal in both numbers.\n- Overlooking zeros in subtraction. **Try:** Ensure each column has a number.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Decimals are everywhere! When shopping, you'll see prices like $3.99. Cooking often requires precise measurements like 1.25 cups. Mastering decimals helps in these everyday tasks.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great work! You've helped your child unlock the power of decimals. Keep practicing, and these skills will become second nature.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand how to add, subtract, multiply, and divide decimals.\n- Help your child feel confident with decimal operations.\n- **Why this matters for parents:** Mastery of decimals is crucial for everyday tasks like budgeting and measuring.",
+    "overview": "This lesson covers all four operations with decimals: addition, subtraction, multiplication, and division. We'll use simple household items to make these concepts tangible.\nUnderstanding decimal operations is essential for managing money, cooking, and other daily activities. By learning these skills, your child will be better equipped to handle real-world math challenges.",
+    "core": "Decimals are numbers that have a whole part and a fractional part, separated by a decimal point. Operations with decimals are similar to whole numbers, but it's important to line up the decimal points correctly. We'll explore each operation with practical examples.",
+    "demo": "1. **Addition:** Use coins (dimes and pennies). **Say:** \"Let's add $0.75 + $0.25.\" Line up the coins to show $1.00.\n2. **Subtraction:** Use a measuring cup. **Say:** \"If we have 1.5 cups of water and pour out 0.7 cups, how much is left?\" Show 0.8 cups.\n3. **Multiplication:** Use a ruler. **Ask:** \"If each inch is $0.50, how much is 3.5 inches?\" Multiply to find $1.75.\n4. **Division:** Use a pizza. **Say:** \"If a pizza costs $8.00 and we divide it into 4 equal parts, how much does each part cost?\" Show $2.00 per part.",
+    "math": "When adding or subtracting decimals, line up the decimal points. For example, $1.25 + 0.75 = 2.00$. In multiplication, multiply as if there are no decimals, then count total decimal places in both numbers to place the decimal in the answer. For division, move the decimal point in the divisor to make it a whole number, and do the same in the dividend. For example, $3.6 \\div 1.2 = 3.0$.",
+    "formulas": "- Addition: $a + b = c$\n  - $a$, $b$ are numbers with decimals.\n  - $c$ is the sum.\n- Subtraction: $a - b = c$\n  - $a$, $b$ are numbers with decimals.\n  - $c$ is the difference.\n- Multiplication: $a \\times b = c$\n  - $a$, $b$ are numbers with decimals.\n  - $c$ is the product.\n- Division: $a \\div b = c$\n  - $a$ is the dividend.\n  - $b$ is the divisor.\n  - $c$ is the quotient.",
+    "guide": "1. **Say:** \"Let's practice adding decimals with these coins.\"\n2. **Ask:** \"Can you line up the decimal points for subtraction?\"\n3. **Say:** \"Try multiplying these numbers and count the decimal places.\"\n4. **Ask:** \"What happens to the decimal when we divide?\"\n5. **Say:** \"Great job! Let's try a real-life example with these skills.\"",
+    "mistakes": "- Misaligning decimal points. **Try:** Use graph paper to keep numbers aligned.\n- Forgetting to adjust decimal places in multiplication. **Try:** Count the decimal places in each number.\n- Incorrectly moving the decimal in division. **Try:** Practice moving the decimal in both numbers.\n- Overlooking zeros in subtraction. **Try:** Ensure each column has a number.",
+    "connection": "Decimals are everywhere! When shopping, you'll see prices like $3.99. Cooking often requires precise measurements like 1.25 cups. Mastering decimals helps in these everyday tasks.",
+    "close": "Great work! You've helped your child unlock the power of decimals. Keep practicing, and these skills will become second nature."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Add: $4.56 + 3.44$",
+      "hint_md": "Line up the decimal points before adding.",
+      "answer_md": "$8.00$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "Subtract: $7.8 - 2.5$",
+      "hint_md": "Align the decimals and subtract each column.",
+      "answer_md": "$5.3$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "Multiply: $2.5 \\times 1.2$",
+      "hint_md": "Multiply as whole numbers, then place the decimal.",
+      "answer_md": "$3.00$"
+    }
+  ]
+}

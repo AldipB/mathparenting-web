@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "5eed029b-0a83-4485-b110-c59e3c8fe6b8",
+    "title": "Calculus (AP/Advanced)",
+    "order_index": 2
+  },
+  "lesson": {
+    "id": "db534d21-dff1-4329-8e66-feff19eb69e9",
+    "slug": "differential-equations-intro-db534d21-dff1-4329-8e66-feff19eb69e9",
+    "title": "Differential Equations (Intro)",
+    "summary": "Differential Equations (Intro) — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand the basics of differential equations\n- Learn how to identify and solve simple differential equations\n- **Why this matters for parents:** Differential equations help explain how things change over time, which is useful in many real-world situations.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Differential equations are mathematical equations that relate a function with its derivatives. They are used to describe various phenomena such as motion, growth, and decay.\nUnderstanding differential equations is important because they model real-life situations, like predicting population growth or cooling rates, helping us make informed decisions.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "In simple terms, a differential equation involves an unknown function and its derivatives. Solving it means finding the function that satisfies the equation. This is like finding a missing piece of a puzzle that explains how something changes over time.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's think about how water drains from a bathtub.\"\n2. **Ask:** \"What happens to the water level over time?\"\n3. Use a bowl and a small hole to demonstrate water draining.\n4. **Say:** \"The rate at which water leaves the bowl can be described by a differential equation.\"\n5. **Ask:** \"Can you see how the water level decreases more slowly as the bowl empties?\"\n6. **Say:** \"This change in rate is what differential equations help us understand.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Consider the simple differential equation $\\frac{dy}{dt} = ky$, where $k$ is a constant. This equation models exponential growth or decay.\nFor example, if $k = -0.1$ and $y(0) = 100$, the solution is $y(t) = 100e^{-0.1t}$. This shows how $y$ decreases over time.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $\\frac{dy}{dt} = ky$\n  - $\\frac{dy}{dt}$: derivative of $y$ with respect to $t$\n  - $k$: constant\n  - $y$: function of $t$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** \"What do you think happens if $k$ is positive?\"\n2. **Say:** \"When $k$ is positive, the function grows over time.\"\n3. **Ask:** \"How about if $k$ is negative?\"\n4. **Say:** \"A negative $k$ means the function decays or shrinks.\"\n5. **Try:** \"Let's solve $\\frac{dy}{dt} = 0.2y$ with $y(0) = 50$.\"\n6. **Explain:** \"The solution is $y(t) = 50e^{0.2t}$, showing growth.\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing $k$ with $y$. Try: Remember $k$ is a constant, $y$ is the function.\n- Forgetting initial conditions. Try: Always check the starting value.\n- Ignoring the sign of $k$. Try: Positive $k$ means growth, negative means decay.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Differential equations model real-world phenomena like how medicine levels change in the body or how populations grow. They help us predict and understand these changes.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Differential equations open a window into understanding how things change. With practice, you'll see their power in explaining the world around us.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand the basics of differential equations\n- Learn how to identify and solve simple differential equations\n- **Why this matters for parents:** Differential equations help explain how things change over time, which is useful in many real-world situations.",
+    "overview": "Differential equations are mathematical equations that relate a function with its derivatives. They are used to describe various phenomena such as motion, growth, and decay.\nUnderstanding differential equations is important because they model real-life situations, like predicting population growth or cooling rates, helping us make informed decisions.",
+    "core": "In simple terms, a differential equation involves an unknown function and its derivatives. Solving it means finding the function that satisfies the equation. This is like finding a missing piece of a puzzle that explains how something changes over time.",
+    "demo": "1. **Say:** \"Let's think about how water drains from a bathtub.\"\n2. **Ask:** \"What happens to the water level over time?\"\n3. Use a bowl and a small hole to demonstrate water draining.\n4. **Say:** \"The rate at which water leaves the bowl can be described by a differential equation.\"\n5. **Ask:** \"Can you see how the water level decreases more slowly as the bowl empties?\"\n6. **Say:** \"This change in rate is what differential equations help us understand.\"",
+    "math": "Consider the simple differential equation $\\frac{dy}{dt} = ky$, where $k$ is a constant. This equation models exponential growth or decay.\nFor example, if $k = -0.1$ and $y(0) = 100$, the solution is $y(t) = 100e^{-0.1t}$. This shows how $y$ decreases over time.",
+    "formulas": "- $\\frac{dy}{dt} = ky$\n  - $\\frac{dy}{dt}$: derivative of $y$ with respect to $t$\n  - $k$: constant\n  - $y$: function of $t$",
+    "guide": "1. **Ask:** \"What do you think happens if $k$ is positive?\"\n2. **Say:** \"When $k$ is positive, the function grows over time.\"\n3. **Ask:** \"How about if $k$ is negative?\"\n4. **Say:** \"A negative $k$ means the function decays or shrinks.\"\n5. **Try:** \"Let's solve $\\frac{dy}{dt} = 0.2y$ with $y(0) = 50$.\"\n6. **Explain:** \"The solution is $y(t) = 50e^{0.2t}$, showing growth.\"",
+    "mistakes": "- Confusing $k$ with $y$. Try: Remember $k$ is a constant, $y$ is the function.\n- Forgetting initial conditions. Try: Always check the starting value.\n- Ignoring the sign of $k$. Try: Positive $k$ means growth, negative means decay.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Differential equations model real-world phenomena like how medicine levels change in the body or how populations grow. They help us predict and understand these changes.",
+    "close": "Differential equations open a window into understanding how things change. With practice, you'll see their power in explaining the world around us."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Differential Equations (Intro)**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Differential Equations (Intro)** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Differential Equations (Intro)**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

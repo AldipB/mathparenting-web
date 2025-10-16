@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "f65412e0-503f-4330-a107-1b42cd78cc39",
+    "slug": "11",
+    "name": "Grade 11 — Algebra II Focus"
+  },
+  "unit": {
+    "id": "b49bbcca-dcd5-41c3-8bb9-826692c64b1b",
+    "title": "Quadratics & Complex",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "781538c9-9db4-438e-95d0-8719212533df",
+    "slug": "polynomial-functions-factoring-781538c9-9db4-438e-95d0-8719212533df",
+    "title": "Polynomial Functions & Factoring",
+    "summary": "Polynomial Functions & Factoring — summary for parents in Grade 11 — Algebra II Focus.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand polynomial functions and how to factor them.\n- Learn to identify key features of polynomial graphs.\n- **Why this matters for parents:** This helps your child solve complex problems and prepares them for calculus.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Polynomial functions are expressions that involve variables raised to whole number powers and their coefficients. They can be as simple as a line or as complex as a curve with multiple peaks and valleys.\nUnderstanding polynomial functions is crucial because they model real-world situations like projectile motion and economics. Factoring helps simplify these functions, making them easier to solve and analyze.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Polynomials are like recipes with different ingredients (terms). Each term has a variable raised to a power and a coefficient. Factoring is like breaking down a recipe into simpler parts, making it easier to understand and use.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's explore polynomials using a stack of cups. Each cup represents a term.\n2. **Ask:** If we have 3 cups stacked, how many cups are there? (This represents $3x$.)\n3. **Say:** Now, let's add a single cup next to the stack. This is like adding a constant term, $+1$.\n4. **Ask:** How can we rearrange these cups to show a different pattern? (This is like factoring.)\n5. **Say:** Imagine each cup has a number. Rearrange them to see different combinations, just like factoring $x^2 + 5x + 6$ into $(x+2)(x+3)$.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "A polynomial function might look like $f(x) = x^2 + 5x + 6$. To factor it, find two numbers that multiply to 6 and add to 5. These numbers are 2 and 3, so $f(x)$ factors to $(x+2)(x+3)$. This makes solving $f(x) = 0$ easier, as it becomes $x+2=0$ or $x+3=0$, giving $x = -2$ or $x = -3$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $f(x) = ax^n + bx^{n-1} + \text{...} + c$\n  - $a, b, c$ are coefficients\n  - $n$ is the degree of the polynomial\n- $(x-r)(x-s)$\n  - $r, s$ are roots of the polynomial",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** Let's write down a simple polynomial like $x^2 + 5x + 6$.\n2. **Ask:** What two numbers multiply to 6 and add to 5? (Guide them to 2 and 3.)\n3. **Say:** Now, let's factor it into $(x+2)(x+3)$.\n4. **Ask:** What happens if we set each factor to zero? (Find $x = -2$ and $x = -3$.)\n5. **Say:** These are the solutions where the graph touches the x-axis.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to find two numbers that multiply and add correctly.\n  - Try: List factor pairs of the constant term.\n- Mixing up signs when factoring.\n  - Try: Double-check by expanding the factors.\n- Not setting each factor to zero to find solutions.\n  - Try: Remember, each factor gives a root.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Polynomials model situations like the path of a ball being thrown or the growth of investments over time. Factoring helps simplify these models, making predictions easier.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring polynomials and factoring! These skills will help your child tackle more complex math with confidence.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand polynomial functions and how to factor them.\n- Learn to identify key features of polynomial graphs.\n- **Why this matters for parents:** This helps your child solve complex problems and prepares them for calculus.",
+    "overview": "Polynomial functions are expressions that involve variables raised to whole number powers and their coefficients. They can be as simple as a line or as complex as a curve with multiple peaks and valleys.\nUnderstanding polynomial functions is crucial because they model real-world situations like projectile motion and economics. Factoring helps simplify these functions, making them easier to solve and analyze.",
+    "core": "Polynomials are like recipes with different ingredients (terms). Each term has a variable raised to a power and a coefficient. Factoring is like breaking down a recipe into simpler parts, making it easier to understand and use.",
+    "demo": "1. **Say:** Let's explore polynomials using a stack of cups. Each cup represents a term.\n2. **Ask:** If we have 3 cups stacked, how many cups are there? (This represents $3x$.)\n3. **Say:** Now, let's add a single cup next to the stack. This is like adding a constant term, $+1$.\n4. **Ask:** How can we rearrange these cups to show a different pattern? (This is like factoring.)\n5. **Say:** Imagine each cup has a number. Rearrange them to see different combinations, just like factoring $x^2 + 5x + 6$ into $(x+2)(x+3)$.",
+    "math": "A polynomial function might look like $f(x) = x^2 + 5x + 6$. To factor it, find two numbers that multiply to 6 and add to 5. These numbers are 2 and 3, so $f(x)$ factors to $(x+2)(x+3)$. This makes solving $f(x) = 0$ easier, as it becomes $x+2=0$ or $x+3=0$, giving $x = -2$ or $x = -3$.",
+    "formulas": "- $f(x) = ax^n + bx^{n-1} + \text{...} + c$\n  - $a, b, c$ are coefficients\n  - $n$ is the degree of the polynomial\n- $(x-r)(x-s)$\n  - $r, s$ are roots of the polynomial",
+    "guide": "1. **Say:** Let's write down a simple polynomial like $x^2 + 5x + 6$.\n2. **Ask:** What two numbers multiply to 6 and add to 5? (Guide them to 2 and 3.)\n3. **Say:** Now, let's factor it into $(x+2)(x+3)$.\n4. **Ask:** What happens if we set each factor to zero? (Find $x = -2$ and $x = -3$.)\n5. **Say:** These are the solutions where the graph touches the x-axis.",
+    "mistakes": "- Forgetting to find two numbers that multiply and add correctly.\n  - Try: List factor pairs of the constant term.\n- Mixing up signs when factoring.\n  - Try: Double-check by expanding the factors.\n- Not setting each factor to zero to find solutions.\n  - Try: Remember, each factor gives a root.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Polynomials model situations like the path of a ball being thrown or the growth of investments over time. Factoring helps simplify these models, making predictions easier.",
+    "close": "Great job exploring polynomials and factoring! These skills will help your child tackle more complex math with confidence."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Polynomial Functions & Factoring**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Polynomial Functions & Factoring** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Polynomial Functions & Factoring**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

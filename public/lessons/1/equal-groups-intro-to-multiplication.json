@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "0f7e86e0-08c5-471e-a1cd-7984b4390b26",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "b68d96d2-eabc-432b-8f29-e7d68a68320f",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "60869a4c-d8f0-4a4b-ab56-aea6b0a6c26d",
+    "slug": "equal-groups-intro-to-multiplication",
+    "title": "Equal Groups (Intro to Multiplication)",
+    "summary": "Equal Groups (Intro to Multiplication) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "By the end of this lesson, your child will understand the concept of equal groups and how it relates to multiplication.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson introduces your child to the idea of equal groups, a foundational concept for multiplication. We will use everyday objects to visualize how groups can be formed and counted.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Equal groups mean that items are divided into sets that have the same number of items. For example, if you have 12 apples and you make 3 equal groups, each group will have 4 apples. This is the beginning of understanding multiplication.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Activity: Grouping Snacks\n1. Gather small snacks (like grapes or crackers).\n2. Count out a total of 12 snacks.\n3. Ask your child to create 3 equal groups of snacks.\n4. Help them count how many snacks are in each group.\n\nSay: \"Look, we made 3 equal groups. How many snacks are in each group?\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "When we group items, we can express this as multiplication. For example, 3 groups of 4 snacks can be written as $3 \\times 4 = 12$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "$g \\times n = t$",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Gather items to group together.\n2. Explain that we will make equal groups.\n3. Count the total items together.\n4. Help your child divide the items into groups.\n5. Ask them how many items are in each group.\n6. Relate this to multiplication by saying, 'We have 3 groups of 4!'",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "If your child groups unevenly, gently say: 'Let's try to make sure each group has the same number.',If they count incorrectly, kindly prompt: 'Can we count them together again to be sure?',If they struggle with the concept, reassure them: 'It's okay! We can practice this together.'",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Grouping items is something we do every day, like when we set the table with equal numbers of plates and forks.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Great job today! You're helping your child build a strong foundation in math. Keep practicing equal groups together!",
+      "order_index": 12
+    }
+  ],
+  "sections": {
+    "objectives": "By the end of this lesson, your child will understand the concept of equal groups and how it relates to multiplication.",
+    "overview": "This lesson introduces your child to the idea of equal groups, a foundational concept for multiplication. We will use everyday objects to visualize how groups can be formed and counted.",
+    "core": "Equal groups mean that items are divided into sets that have the same number of items. For example, if you have 12 apples and you make 3 equal groups, each group will have 4 apples. This is the beginning of understanding multiplication.",
+    "demo": "Activity: Grouping Snacks\n1. Gather small snacks (like grapes or crackers).\n2. Count out a total of 12 snacks.\n3. Ask your child to create 3 equal groups of snacks.\n4. Help them count how many snacks are in each group.\n\nSay: \"Look, we made 3 equal groups. How many snacks are in each group?\"",
+    "math": "When we group items, we can express this as multiplication. For example, 3 groups of 4 snacks can be written as $3 \\times 4 = 12$.",
+    "formulas": "$g \\times n = t$",
+    "guide": "1. Gather items to group together.\n2. Explain that we will make equal groups.\n3. Count the total items together.\n4. Help your child divide the items into groups.\n5. Ask them how many items are in each group.\n6. Relate this to multiplication by saying, 'We have 3 groups of 4!'",
+    "mistakes": "If your child groups unevenly, gently say: 'Let's try to make sure each group has the same number.',If they count incorrectly, kindly prompt: 'Can we count them together again to be sure?',If they struggle with the concept, reassure them: 'It's okay! We can practice this together.'",
+    "connection": "Grouping items is something we do every day, like when we set the table with equal numbers of plates and forks.",
+    "close": "Great job today! You're helping your child build a strong foundation in math. Keep practicing equal groups together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If you have 10 candies and you want to make 2 equal groups, how many candies will be in each group?",
+      "hint_md": "Think about how many candies you would put in each group if they are equal.",
+      "answer_md": "$5$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "You have 8 toy cars. If you make 4 equal groups, how many cars are in each group?",
+      "hint_md": "Divide the total number of cars by the number of groups.",
+      "answer_md": "$2$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "If you have 15 stickers and you want to make 3 equal groups, how many stickers will be in each group?",
+      "hint_md": "Remember to divide the total number of stickers by the number of groups.",
+      "answer_md": "$5$"
+    }
+  ]
+}

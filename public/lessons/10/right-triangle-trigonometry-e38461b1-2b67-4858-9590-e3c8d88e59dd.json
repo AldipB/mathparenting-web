@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "slug": "10",
+    "name": "Grade 10 — Geometry Focus"
+  },
+  "unit": {
+    "id": "86f9d03b-979c-4188-a62c-c3c041ec89a0",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "e38461b1-2b67-4858-9590-e3c8d88e59dd",
+    "slug": "right-triangle-trigonometry-e38461b1-2b67-4858-9590-e3c8d88e59dd",
+    "title": "Right Triangle Trigonometry",
+    "summary": "Right Triangle Trigonometry — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the basics of right triangle trigonometry.\n- - Learn how to use trigonometric ratios to solve problems.\n- - Explore real-life applications of trigonometry.\n- - **Why this matters for parents:** Helps you support your child's learning and connect math to everyday experiences.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Right triangle trigonometry involves using the relationships between the angles and sides of right triangles. This lesson focuses on understanding these relationships through trigonometric ratios: sine, cosine, and tangent.\nUnderstanding trigonometry is crucial because it forms the foundation for many real-world applications, such as navigation, architecture, and even computer graphics. By grasping these concepts, your child can see the practical side of math.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Trigonometry in right triangles uses three main ratios: sine, cosine, and tangent. These ratios compare the lengths of different sides of the triangle. By learning these, your child can solve problems involving angles and distances.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "- 1. **Say:** Let's find some right triangles at home. Look for corners of rooms or books. **Ask:** Can you spot any right angles?\n- 2. Use straws or sticks to form a right triangle. **Say:** Notice the square corner. This is the right angle.\n- 3. **Say:** Let's compare a square and a rectangle. **Ask:** How are they similar and different? (Both have right angles, but different side lengths.)\n- 4. **Say:** Sometimes people call a rotated square a 'diamond.' **Ask:** Is it still a square? (Yes, the angles and side lengths haven't changed.)\n- 5. Measure the sides of your straw triangle. **Say:** We'll use these measurements to explore trigonometry.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "In a right triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse. For example, if one side is 3 units and the hypotenuse is 5 units, then $\\sin(\\theta) = \\frac{3}{5} = 0.6$.\nSimilarly, cosine is the adjacent side over the hypotenuse, and tangent is the opposite side over the adjacent side. These ratios help us find unknown sides or angles.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Sine: $\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$\n- opposite: side opposite the angle\n- hypotenuse: longest side of the triangle\nCosine: $\\cos(\\theta) = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$\n- adjacent: side next to the angle\nTangent: $\\tan(\\theta) = \\frac{\\text{opposite}}{\\text{adjacent}}$\n- opposite: side opposite the angle\n- adjacent: side next to the angle",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "- 1. **Ask:** Can you identify the hypotenuse in our straw triangle?\n- 2. Measure the sides and label them as opposite, adjacent, and hypotenuse.\n- 3. **Say:** Let's calculate the sine of one angle using our measurements.\n- 4. **Ask:** What is the ratio of the opposite side to the hypotenuse?\n- 5. **Say:** Great! Now, let's try finding the cosine and tangent.\n- 6. **Ask:** How can these ratios help us find unknown sides or angles?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing opposite and adjacent sides. **Try:** Use the angle as a reference point.\n- - Forgetting which side is the hypotenuse. **Try:** Remember it's always the longest side.\n- - Mixing up sine, cosine, and tangent. **Try:** Write down the formulas to keep them straight.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Trigonometry is used in designing buildings, where precise angles and measurements are crucial. It's also essential in navigation, helping pilots and sailors find their way.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Trigonometry opens up a world of possibilities in understanding and solving real-life problems. Keep exploring these concepts together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the basics of right triangle trigonometry.\n- - Learn how to use trigonometric ratios to solve problems.\n- - Explore real-life applications of trigonometry.\n- - **Why this matters for parents:** Helps you support your child's learning and connect math to everyday experiences.",
+    "overview": "Right triangle trigonometry involves using the relationships between the angles and sides of right triangles. This lesson focuses on understanding these relationships through trigonometric ratios: sine, cosine, and tangent.\nUnderstanding trigonometry is crucial because it forms the foundation for many real-world applications, such as navigation, architecture, and even computer graphics. By grasping these concepts, your child can see the practical side of math.",
+    "core": "Trigonometry in right triangles uses three main ratios: sine, cosine, and tangent. These ratios compare the lengths of different sides of the triangle. By learning these, your child can solve problems involving angles and distances.",
+    "demo": "- 1. **Say:** Let's find some right triangles at home. Look for corners of rooms or books. **Ask:** Can you spot any right angles?\n- 2. Use straws or sticks to form a right triangle. **Say:** Notice the square corner. This is the right angle.\n- 3. **Say:** Let's compare a square and a rectangle. **Ask:** How are they similar and different? (Both have right angles, but different side lengths.)\n- 4. **Say:** Sometimes people call a rotated square a 'diamond.' **Ask:** Is it still a square? (Yes, the angles and side lengths haven't changed.)\n- 5. Measure the sides of your straw triangle. **Say:** We'll use these measurements to explore trigonometry.",
+    "math": "In a right triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse. For example, if one side is 3 units and the hypotenuse is 5 units, then $\\sin(\\theta) = \\frac{3}{5} = 0.6$.\nSimilarly, cosine is the adjacent side over the hypotenuse, and tangent is the opposite side over the adjacent side. These ratios help us find unknown sides or angles.",
+    "formulas": "Sine: $\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$\n- opposite: side opposite the angle\n- hypotenuse: longest side of the triangle\nCosine: $\\cos(\\theta) = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$\n- adjacent: side next to the angle\nTangent: $\\tan(\\theta) = \\frac{\\text{opposite}}{\\text{adjacent}}$\n- opposite: side opposite the angle\n- adjacent: side next to the angle",
+    "guide": "- 1. **Ask:** Can you identify the hypotenuse in our straw triangle?\n- 2. Measure the sides and label them as opposite, adjacent, and hypotenuse.\n- 3. **Say:** Let's calculate the sine of one angle using our measurements.\n- 4. **Ask:** What is the ratio of the opposite side to the hypotenuse?\n- 5. **Say:** Great! Now, let's try finding the cosine and tangent.\n- 6. **Ask:** How can these ratios help us find unknown sides or angles?",
+    "mistakes": "- - Confusing opposite and adjacent sides. **Try:** Use the angle as a reference point.\n- - Forgetting which side is the hypotenuse. **Try:** Remember it's always the longest side.\n- - Mixing up sine, cosine, and tangent. **Try:** Write down the formulas to keep them straight.",
+    "connection": "Trigonometry is used in designing buildings, where precise angles and measurements are crucial. It's also essential in navigation, helping pilots and sailors find their way.",
+    "close": "Trigonometry opens up a world of possibilities in understanding and solving real-life problems. Keep exploring these concepts together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "If a right triangle has an opposite side of 4 units and a hypotenuse of 5 units, what is $\\sin(\\theta)$?",
+      "hint_md": "Use the formula $\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$.",
+      "answer_md": "$\\sin(\\theta) = \\frac{4}{5} = 0.8$"
+    },
+    {
+      "order_index": 2,
+      "question_md": "In a right triangle, the adjacent side is 6 units and the hypotenuse is 10 units. Find $\\cos(\\theta)$.",
+      "hint_md": "Use the formula $\\cos(\\theta) = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$.",
+      "answer_md": "$\\cos(\\theta) = \\frac{6}{10} = 0.6$"
+    },
+    {
+      "order_index": 3,
+      "question_md": "A triangle has an opposite side of 3 units and an adjacent side of 4 units. What is $\\tan(\\theta)$?",
+      "hint_md": "Use the formula $\\tan(\\theta) = \\frac{\\text{opposite}}{\\text{adjacent}}$.",
+      "answer_md": "$\\tan(\\theta) = \\frac{3}{4} = 0.75$"
+    }
+  ]
+}

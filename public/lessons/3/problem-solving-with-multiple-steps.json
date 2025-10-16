@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "a07127d6-404b-416f-9112-d46b600e90a2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "c890ffa9-7b1e-4615-b254-97fa6212117f",
+    "title": "Data, Patterns & Problems",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "f47b2bac-9622-45c0-9f94-c643055277e1",
+    "slug": "problem-solving-with-multiple-steps",
+    "title": "Problem Solving with Multiple Steps",
+    "summary": "Problem Solving with Multiple Steps — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Help your child solve math problems with multiple steps.\n- - Build confidence in breaking down complex problems.\n- - Encourage logical thinking and organization.\n- **Why this matters for parents:** Understanding multi-step problem solving helps children tackle real-life challenges with confidence.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching children how to solve math problems that require more than one step. Multi-step problems often involve different operations like addition, subtraction, multiplication, or division.\nMastering multi-step problem solving is crucial because it mirrors real-world situations where solutions aren't always straightforward. It helps children learn to think critically and organize their thoughts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Children often encounter problems that need more than one operation to solve. By breaking these problems into smaller, manageable steps, they can find solutions more easily. This lesson will guide you in helping your child approach these problems with confidence.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** \"Let's solve a problem together. If you have 5 apples and you buy 3 more, then eat 2, how many do you have left?\"\n2. **Ask:** \"What should we do first?\" (Encourage them to add 5 + 3.)\n3. Use apples or any small objects to represent the problem.\n4. **Say:** \"Now, let's subtract the 2 apples you ate.\"\n5. **Ask:** \"How many apples do you have now?\"\n6. **Say:** \"Great! You used addition and subtraction to solve the problem.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To solve multi-step problems, identify the operations needed and perform them in order. For example, if you start with 5 apples, buy 3 more, and then eat 2, you first add: $$5 + 3 = 8$$. Then subtract: $$8 - 2 = 6$$. So, you have 6 apples left.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Addition: a + b = c\n- a: initial amount\n- b: amount added\n- c: total after addition\nSubtraction: c - d = e\n- c: total before subtraction\n- d: amount subtracted\n- e: total after subtraction",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. Read the problem together and identify the operations needed.\n2. Break the problem into smaller steps.\n3. Use objects like coins or blocks to visualize each step.\n4. Encourage your child to write down each step as they solve it.\n5. Praise their effort and discuss any mistakes to learn from them.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Forgetting to perform all steps. **Try:** Encourage writing down each step.\n- - Mixing up operations. **Try:** Use objects to visualize the problem.\n- - Rushing through the problem. **Try:** Remind them to take it one step at a time.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Multi-step problem solving is like planning a trip. You need to pack, travel, and then unpack. Each step is important to reach your destination smoothly.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job helping your child tackle multi-step problems! With practice, they'll become more confident and skilled at solving complex challenges.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Help your child solve math problems with multiple steps.\n- - Build confidence in breaking down complex problems.\n- - Encourage logical thinking and organization.\n- **Why this matters for parents:** Understanding multi-step problem solving helps children tackle real-life challenges with confidence.",
+    "overview": "This lesson focuses on teaching children how to solve math problems that require more than one step. Multi-step problems often involve different operations like addition, subtraction, multiplication, or division.\nMastering multi-step problem solving is crucial because it mirrors real-world situations where solutions aren't always straightforward. It helps children learn to think critically and organize their thoughts.",
+    "core": "Children often encounter problems that need more than one operation to solve. By breaking these problems into smaller, manageable steps, they can find solutions more easily. This lesson will guide you in helping your child approach these problems with confidence.",
+    "demo": "1. **Say:** \"Let's solve a problem together. If you have 5 apples and you buy 3 more, then eat 2, how many do you have left?\"\n2. **Ask:** \"What should we do first?\" (Encourage them to add 5 + 3.)\n3. Use apples or any small objects to represent the problem.\n4. **Say:** \"Now, let's subtract the 2 apples you ate.\"\n5. **Ask:** \"How many apples do you have now?\"\n6. **Say:** \"Great! You used addition and subtraction to solve the problem.\"",
+    "math": "To solve multi-step problems, identify the operations needed and perform them in order. For example, if you start with 5 apples, buy 3 more, and then eat 2, you first add: $$5 + 3 = 8$$. Then subtract: $$8 - 2 = 6$$. So, you have 6 apples left.",
+    "formulas": "Addition: a + b = c\n- a: initial amount\n- b: amount added\n- c: total after addition\nSubtraction: c - d = e\n- c: total before subtraction\n- d: amount subtracted\n- e: total after subtraction",
+    "guide": "1. Read the problem together and identify the operations needed.\n2. Break the problem into smaller steps.\n3. Use objects like coins or blocks to visualize each step.\n4. Encourage your child to write down each step as they solve it.\n5. Praise their effort and discuss any mistakes to learn from them.",
+    "mistakes": "- - Forgetting to perform all steps. **Try:** Encourage writing down each step.\n- - Mixing up operations. **Try:** Use objects to visualize the problem.\n- - Rushing through the problem. **Try:** Remind them to take it one step at a time.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Multi-step problem solving is like planning a trip. You need to pack, travel, and then unpack. Each step is important to reach your destination smoothly.",
+    "close": "Great job helping your child tackle multi-step problems! With practice, they'll become more confident and skilled at solving complex challenges."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Problem Solving with Multiple Steps**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Problem Solving with Multiple Steps** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Problem Solving with Multiple Steps**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

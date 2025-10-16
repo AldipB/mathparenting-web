@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "8ea6d986-2ba5-4ac6-8f12-e6511e1ffabe",
+    "slug": "9",
+    "name": "Grade 9 — Algebra I Focus"
+  },
+  "unit": {
+    "id": "d9b34d83-a78e-4437-8024-fbad352f13e3",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "fb7bdc60-e273-48fe-afc0-f190948e7eed",
+    "slug": "slope-parallel-perpendicular-lines",
+    "title": "Slope, Parallel/Perpendicular Lines",
+    "summary": "Slope, Parallel/Perpendicular Lines — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- - Understand the concept of slope and how it relates to parallel and perpendicular lines.\n- - Learn to identify and calculate the slope from an equation or graph.\n- - Recognize parallel and perpendicular lines using slope.\n- - **Why this matters for parents:** This lesson helps you support your child in understanding key algebra concepts that are foundational for future math lesson.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "In this lesson, we explore the concept of slope, a measure of how steep a line is. We'll also learn how to identify when lines are parallel or perpendicular based on their slopes.\nUnderstanding slope is crucial because it helps describe relationships between variables in algebra. Recognizing parallel and perpendicular lines is useful in geometry and real-world situations like construction and navigation.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Slope is a number that describes the steepness of a line. It's calculated as the 'rise' (vertical change) over the 'run' (horizontal change). Parallel lines have the same slope, while perpendicular lines have slopes that are negative reciprocals of each other.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. **Say:** Let's find the slope using a staircase. Use a small box or book as a step.\n2. **Ask:** How many steps up (rise) and how many steps across (run) to reach the top?\n3. **Say:** The slope is the rise divided by the run. If you go up 2 steps and over 3, the slope is $\\frac{2}{3}$.\n4. **Ask:** What if we use a different step height? Try with a different box.\n5. **Say:** Notice how the slope changes with different steps. This helps us see how steepness is measured.\n6. **Ask:** Can you find two objects that create parallel steps? What about perpendicular?",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The slope of a line is calculated using the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line. For example, if a line passes through points (1, 2) and (4, 5), the slope is $m = \\frac{5 - 2}{4 - 1} = \\frac{3}{3} = 1$.\nParallel lines have equal slopes. For example, lines with slopes $2$ and $2$ are parallel. Perpendicular lines have slopes that multiply to $-1$. If one line has a slope of $2$, a perpendicular line will have a slope of $-\\frac{1}{2}$.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $m = \\frac{y_2 - y_1}{x_2 - x_1}$\n  - $m$: slope\n  - $(x_1, y_1)$, $(x_2, y_2)$: coordinates of two points on the line",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Ask:** What is the slope of a line passing through (2, 3) and (5, 7)?\n2. **Say:** Use the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ to calculate.\n3. **Ask:** Are lines with slopes $3$ and $3$ parallel? Why?\n4. **Say:** Check if two lines are perpendicular by multiplying their slopes. If the result is $-1$, they are perpendicular.\n5. **Ask:** Can you find a real-world example of parallel lines? How about perpendicular lines?",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- - Confusing rise and run. **Try:** Remember, rise is vertical change, run is horizontal.\n- - Forgetting to use negative reciprocals for perpendicular lines. **Try:** Flip the fraction and change the sign.\n- - Mixing up coordinates. **Try:** Label points clearly as $(x_1, y_1)$ and $(x_2, y_2)$ before calculating.",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Parallel lines can be seen in railroad tracks, which must remain equidistant. Perpendicular lines are common in street intersections, forming right angles.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Understanding slope and line relationships helps your child see patterns in the world. Keep exploring these concepts together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- - Understand the concept of slope and how it relates to parallel and perpendicular lines.\n- - Learn to identify and calculate the slope from an equation or graph.\n- - Recognize parallel and perpendicular lines using slope.\n- - **Why this matters for parents:** This lesson helps you support your child in understanding key algebra concepts that are foundational for future math lesson.",
+    "overview": "In this lesson, we explore the concept of slope, a measure of how steep a line is. We'll also learn how to identify when lines are parallel or perpendicular based on their slopes.\nUnderstanding slope is crucial because it helps describe relationships between variables in algebra. Recognizing parallel and perpendicular lines is useful in geometry and real-world situations like construction and navigation.",
+    "core": "Slope is a number that describes the steepness of a line. It's calculated as the 'rise' (vertical change) over the 'run' (horizontal change). Parallel lines have the same slope, while perpendicular lines have slopes that are negative reciprocals of each other.",
+    "demo": "1. **Say:** Let's find the slope using a staircase. Use a small box or book as a step.\n2. **Ask:** How many steps up (rise) and how many steps across (run) to reach the top?\n3. **Say:** The slope is the rise divided by the run. If you go up 2 steps and over 3, the slope is $\\frac{2}{3}$.\n4. **Ask:** What if we use a different step height? Try with a different box.\n5. **Say:** Notice how the slope changes with different steps. This helps us see how steepness is measured.\n6. **Ask:** Can you find two objects that create parallel steps? What about perpendicular?",
+    "math": "The slope of a line is calculated using the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$, where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line. For example, if a line passes through points (1, 2) and (4, 5), the slope is $m = \\frac{5 - 2}{4 - 1} = \\frac{3}{3} = 1$.\nParallel lines have equal slopes. For example, lines with slopes $2$ and $2$ are parallel. Perpendicular lines have slopes that multiply to $-1$. If one line has a slope of $2$, a perpendicular line will have a slope of $-\\frac{1}{2}$.",
+    "formulas": "- $m = \\frac{y_2 - y_1}{x_2 - x_1}$\n  - $m$: slope\n  - $(x_1, y_1)$, $(x_2, y_2)$: coordinates of two points on the line",
+    "guide": "1. **Ask:** What is the slope of a line passing through (2, 3) and (5, 7)?\n2. **Say:** Use the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ to calculate.\n3. **Ask:** Are lines with slopes $3$ and $3$ parallel? Why?\n4. **Say:** Check if two lines are perpendicular by multiplying their slopes. If the result is $-1$, they are perpendicular.\n5. **Ask:** Can you find a real-world example of parallel lines? How about perpendicular lines?",
+    "mistakes": "- - Confusing rise and run. **Try:** Remember, rise is vertical change, run is horizontal.\n- - Forgetting to use negative reciprocals for perpendicular lines. **Try:** Flip the fraction and change the sign.\n- - Mixing up coordinates. **Try:** Label points clearly as $(x_1, y_1)$ and $(x_2, y_2)$ before calculating.",
+    "connection": "Parallel lines can be seen in railroad tracks, which must remain equidistant. Perpendicular lines are common in street intersections, forming right angles.",
+    "close": "Understanding slope and line relationships helps your child see patterns in the world. Keep exploring these concepts together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Find the slope of a line passing through points (3, 4) and (7, 8).",
+      "hint_md": "Use the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$.",
+      "answer_md": "The slope is $m = \\frac{8 - 4}{7 - 3} = \\frac{4}{4} = 1$."
+    },
+    {
+      "order_index": 2,
+      "question_md": "Are lines with slopes $\\frac{1}{2}$ and $-2$ perpendicular?",
+      "hint_md": "Multiply the slopes: $\\frac{1}{2} \\times -2$.",
+      "answer_md": "Yes, they are perpendicular because $\\frac{1}{2} \\times -2 = -1$."
+    },
+    {
+      "order_index": 3,
+      "question_md": "What is the slope of a line parallel to one with slope $3$?",
+      "hint_md": "Parallel lines have the same slope.",
+      "answer_md": "The slope is $3$."
+    }
+  ]
+}

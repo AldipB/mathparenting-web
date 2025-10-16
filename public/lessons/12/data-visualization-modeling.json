@@ -1,0 +1,110 @@
+{
+  "grade": {
+    "id": "710ec19a-c643-4e36-ae61-67f6f1edb72c",
+    "slug": "12",
+    "name": "Grade 12 — Pre-Calc & Calculus Focus"
+  },
+  "unit": {
+    "id": "164200b1-0348-4155-ae1a-7fbd6b44eefa",
+    "title": "Financial Math / Data Science (Electives)",
+    "order_index": 4
+  },
+  "lesson": {
+    "id": "9badacbf-8eec-4288-8a22-ddcc3b25c7d2",
+    "slug": "data-visualization-modeling",
+    "title": "Data Visualization & Modeling",
+    "summary": "Data Visualization & Modeling — summary for parents in Grade 12 — Pre-Calc & Calculus Focus.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Understand basic data visualization techniques.\n- Learn to model data using simple functions.\n- **Why this matters for parents:** Helps your child interpret and present data effectively, a crucial skill in many fields.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Data visualization is the process of representing data in a visual context, such as a chart or graph, to make it easier to understand. Modeling involves creating mathematical representations of real-world situations.\nThese skills are important because they help us see patterns, make predictions, and communicate information clearly. In a world full of data, being able to visualize and model data is invaluable.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Data visualization and modeling allow us to take complex data and present it in a way that is easy to understand. By using graphs and models, we can identify trends and make informed decisions.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather some household objects like apples, oranges, and bananas.\n2. **Say:** \"Let's count how many of each fruit we have and make a bar graph.\"\n3. Draw a simple bar graph on paper, labeling the x-axis with fruit types and the y-axis with quantity.\n4. **Ask:** \"Which fruit do we have the most of?\"\n5. Discuss how this visual representation helps us quickly see which fruit is most abundant.\n6. **Say:** \"Now, let's think about how we could predict how many fruits we'll have next week if we buy the same amount.\"",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "To model data, we often use functions. For example, if you have a set of data points that seem to form a line, you might use a linear function like $y = mx + b$.\nExample: If you notice that you buy 3 more apples each week, you could model the total number of apples with $y = 3x + 5$, where $x$ is the number of weeks and $5$ is the starting number of apples.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "- $y = mx + b$\n  - $y$: dependent variable (e.g., total apples)\n  - $m$: slope (e.g., apples bought per week)\n  - $x$: independent variable (e.g., weeks)\n  - $b$: y-intercept (e.g., starting apples)",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "1. **Say:** \"Let's look at our fruit data and think about how it changes over time.\"\n2. **Ask:** \"What happens if we add more fruit each week? How can we show that on our graph?\"\n3. Help your child draw a new graph showing the increase over several weeks.\n4. **Say:** \"Now, let's create a simple equation to model this change.\"\n5. Work together to write a linear equation based on your graph.\n6. **Ask:** \"How does this equation help us predict future amounts?\"",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the x and y axes. **Try:** Label each axis clearly before plotting.\n- Miscounting data points. **Try:** Double-check each count with your child.\n- Forgetting to update the model with new data. **Try:** Regularly revise the model as new data comes in.",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Data visualization is used in everyday life, from weather forecasts to financial reports. Modeling helps in planning, like budgeting or predicting growth.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "By mastering data visualization and modeling, you empower your child to make sense of the world through numbers. Keep exploring and learning together!",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Understand basic data visualization techniques.\n- Learn to model data using simple functions.\n- **Why this matters for parents:** Helps your child interpret and present data effectively, a crucial skill in many fields.",
+    "overview": "Data visualization is the process of representing data in a visual context, such as a chart or graph, to make it easier to understand. Modeling involves creating mathematical representations of real-world situations.\nThese skills are important because they help us see patterns, make predictions, and communicate information clearly. In a world full of data, being able to visualize and model data is invaluable.",
+    "core": "Data visualization and modeling allow us to take complex data and present it in a way that is easy to understand. By using graphs and models, we can identify trends and make informed decisions.",
+    "demo": "1. Gather some household objects like apples, oranges, and bananas.\n2. **Say:** \"Let's count how many of each fruit we have and make a bar graph.\"\n3. Draw a simple bar graph on paper, labeling the x-axis with fruit types and the y-axis with quantity.\n4. **Ask:** \"Which fruit do we have the most of?\"\n5. Discuss how this visual representation helps us quickly see which fruit is most abundant.\n6. **Say:** \"Now, let's think about how we could predict how many fruits we'll have next week if we buy the same amount.\"",
+    "math": "To model data, we often use functions. For example, if you have a set of data points that seem to form a line, you might use a linear function like $y = mx + b$.\nExample: If you notice that you buy 3 more apples each week, you could model the total number of apples with $y = 3x + 5$, where $x$ is the number of weeks and $5$ is the starting number of apples.",
+    "formulas": "- $y = mx + b$\n  - $y$: dependent variable (e.g., total apples)\n  - $m$: slope (e.g., apples bought per week)\n  - $x$: independent variable (e.g., weeks)\n  - $b$: y-intercept (e.g., starting apples)",
+    "guide": "1. **Say:** \"Let's look at our fruit data and think about how it changes over time.\"\n2. **Ask:** \"What happens if we add more fruit each week? How can we show that on our graph?\"\n3. Help your child draw a new graph showing the increase over several weeks.\n4. **Say:** \"Now, let's create a simple equation to model this change.\"\n5. Work together to write a linear equation based on your graph.\n6. **Ask:** \"How does this equation help us predict future amounts?\"",
+    "mistakes": "- Confusing the x and y axes. **Try:** Label each axis clearly before plotting.\n- Miscounting data points. **Try:** Double-check each count with your child.\n- Forgetting to update the model with new data. **Try:** Regularly revise the model as new data comes in.",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Data visualization is used in everyday life, from weather forecasts to financial reports. Modeling helps in planning, like budgeting or predicting growth.",
+    "close": "By mastering data visualization and modeling, you empower your child to make sense of the world through numbers. Keep exploring and learning together!"
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "**Q1.** Starter for **Data Visualization & Modeling**.",
+      "hint_md": "Hint: Try a household example.",
+      "answer_md": "Answer: Outline key steps."
+    },
+    {
+      "order_index": 2,
+      "question_md": "**Q2.** Medium for **Data Visualization & Modeling** with real objects.",
+      "hint_md": "Hint: Draw or act it out.",
+      "answer_md": "Answer: Short worked solution."
+    },
+    {
+      "order_index": 3,
+      "question_md": "**Q3.** Challenge for **Data Visualization & Modeling**.",
+      "hint_md": "Hint: Break it into parts.",
+      "answer_md": "Answer: Final result with reasoning."
+    }
+  ]
+}

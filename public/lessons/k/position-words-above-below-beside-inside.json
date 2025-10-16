@@ -1,0 +1,104 @@
+{
+  "grade": {
+    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "slug": "k",
+    "name": "Kindergarten (K)"
+  },
+  "unit": {
+    "id": "6084f3bc-02db-44aa-8f22-8816b225459a",
+    "title": "Measurement, Position & Time",
+    "order_index": 3
+  },
+  "lesson": {
+    "id": "e8adc194-321d-4698-b7d0-32824d06151d",
+    "slug": "position-words-above-below-beside-inside",
+    "title": "Position Words: Above, Below, Beside, Inside",
+    "summary": "Position Words: Above, Below, Beside, Inside — summary for parents in Kindergarten (K).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "- Help your child understand and use position words: above, below, beside, inside.\n- Develop spatial awareness and vocabulary.\n- **Why this matters for parents:** Understanding position words is crucial for following directions and describing the world.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "This lesson focuses on teaching your child position words: above, below, beside, and inside. These words help children describe where things are in relation to each other.\nUnderstanding these concepts is important for your child's ability to follow instructions, communicate clearly, and develop spatial awareness. It lays the foundation for more complex math and language skills.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Position words describe where objects are located in relation to each other. For example, if a toy is on top of a table, we say it is 'above' the floor. These words help children understand their environment and communicate effectively.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "1. Gather a toy and a box.\n2. **Say:** \"Let's put the toy inside the box.\"\n3. **Ask:** \"Where is the toy now?\" (Expected: \"Inside the box\")\n4. Place the toy beside the box.\n5. **Say:** \"Now the toy is beside the box.\"\n6. **Ask:** \"Can you put the toy above the box?\" (Guide them to place it on top)",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "Position words help us describe spatial relationships. For example, if a ball is on a shelf, we say it is 'above' the floor. If it's under the table, it's 'below' the table. These concepts are foundational for understanding geometry and measurement.",
+      "order_index": 5
+    },
+    {
+      "key": "guide",
+      "md": "1. Use a favorite toy and a box or table.\n2. **Say:** \"Let's explore where the toy can go.\"\n3. **Ask:** \"Can you put the toy below the table?\"\n4. **Say:** \"Great! Now try putting it beside the chair.\"\n5. **Ask:** \"Where is the toy now?\"\n6. Encourage your child to use the words: above, below, beside, inside.",
+      "order_index": 7
+    },
+    {
+      "key": "mistakes",
+      "md": "- If your child says 'above' when the toy is below, try: \"Let's look again. The toy is under the table, so it's below.\"\n- If they confuse 'beside' and 'inside', try: \"Remember, 'inside' means it's in something.\"\n- If they struggle with 'beside', try: \"Beside means next to. Can you put it next to the box?\"",
+      "order_index": 8
+    },
+    {
+      "key": "practice",
+      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "order_index": 8
+    },
+    {
+      "key": "connection",
+      "md": "Position words are used in everyday life, like when finding a book on a shelf or placing groceries in a bag. They help children navigate their world and communicate effectively.",
+      "order_index": 9
+    },
+    {
+      "key": "close",
+      "md": "Great job exploring position words! Keep using them in daily conversations to strengthen your child's understanding.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "- Help your child understand and use position words: above, below, beside, inside.\n- Develop spatial awareness and vocabulary.\n- **Why this matters for parents:** Understanding position words is crucial for following directions and describing the world.",
+    "overview": "This lesson focuses on teaching your child position words: above, below, beside, and inside. These words help children describe where things are in relation to each other.\nUnderstanding these concepts is important for your child's ability to follow instructions, communicate clearly, and develop spatial awareness. It lays the foundation for more complex math and language skills.",
+    "core": "Position words describe where objects are located in relation to each other. For example, if a toy is on top of a table, we say it is 'above' the floor. These words help children understand their environment and communicate effectively.",
+    "demo": "1. Gather a toy and a box.\n2. **Say:** \"Let's put the toy inside the box.\"\n3. **Ask:** \"Where is the toy now?\" (Expected: \"Inside the box\")\n4. Place the toy beside the box.\n5. **Say:** \"Now the toy is beside the box.\"\n6. **Ask:** \"Can you put the toy above the box?\" (Guide them to place it on top)",
+    "math": "Position words help us describe spatial relationships. For example, if a ball is on a shelf, we say it is 'above' the floor. If it's under the table, it's 'below' the table. These concepts are foundational for understanding geometry and measurement.",
+    "guide": "1. Use a favorite toy and a box or table.\n2. **Say:** \"Let's explore where the toy can go.\"\n3. **Ask:** \"Can you put the toy below the table?\"\n4. **Say:** \"Great! Now try putting it beside the chair.\"\n5. **Ask:** \"Where is the toy now?\"\n6. Encourage your child to use the words: above, below, beside, inside.",
+    "mistakes": "- If your child says 'above' when the toy is below, try: \"Let's look again. The toy is under the table, so it's below.\"\n- If they confuse 'beside' and 'inside', try: \"Remember, 'inside' means it's in something.\"\n- If they struggle with 'beside', try: \"Beside means next to. Can you put it next to the box?\"",
+    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+    "connection": "Position words are used in everyday life, like when finding a book on a shelf or placing groceries in a bag. They help children navigate their world and communicate effectively.",
+    "close": "Great job exploring position words! Keep using them in daily conversations to strengthen your child's understanding."
+  },
+  "practice": [
+    {
+      "order_index": 1,
+      "question_md": "Where is the cat if it is on the couch?",
+      "hint_md": "Think about where the cat is compared to the floor.",
+      "answer_md": "The cat is above the floor."
+    },
+    {
+      "order_index": 2,
+      "question_md": "If the ball is under the table, where is it?",
+      "hint_md": "Consider the space below the table.",
+      "answer_md": "The ball is below the table."
+    },
+    {
+      "order_index": 3,
+      "question_md": "Where is the book if it is next to the lamp?",
+      "hint_md": "Look at the space beside the lamp.",
+      "answer_md": "The book is beside the lamp."
+    }
+  ]
+}

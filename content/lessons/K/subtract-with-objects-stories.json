@@ -1,0 +1,18 @@
+{
+  "title": "Subtract with Objects (Stories)",
+  "grade": "Kindergarten (K)",
+  "overview": "Placeholder outline for \"Subtract with Objects (Stories)\".",
+  "content": {
+    "introduction": "This is an auto-generated fallback for Subtract with Objects (Stories).",
+    "demo": [
+      {
+        "step": 1,
+        "instruction": "Gather a few household items (coins, buttons, blocks)."
+      },
+      {
+        "step": 2,
+        "instruction": "Walk through a simple example related to the topic."
+      }
+    ]
+  }
+}

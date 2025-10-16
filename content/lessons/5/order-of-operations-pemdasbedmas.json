@@ -1,0 +1,18 @@
+{
+  "title": "Order of Operations (PEMDAS/BEDMAS)",
+  "grade": "Grade 5",
+  "overview": "Placeholder outline for \"Order of Operations (PEMDAS/BEDMAS)\".",
+  "content": {
+    "introduction": "This is an auto-generated fallback for Order of Operations (PEMDAS/BEDMAS).",
+    "demo": [
+      {
+        "step": 1,
+        "instruction": "Gather a few household items (coins, buttons, blocks)."
+      },
+      {
+        "step": 2,
+        "instruction": "Walk through a simple example related to the topic."
+      }
+    ]
+  }
+}

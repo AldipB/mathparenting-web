@@ -7,10 +7,33 @@
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+
+    "//———— data seeding & migrations ————": "",
+    "seed": "node scripts/seedCourses.mjs",
+    "upgrade:sections": "node scripts/upgradeSections.mjs",
+
+    "//———— authoring helpers ————": "",
+    "author:all": "node scripts/authorAll.mjs",
+    "author:missing": "node scripts/authorMissing.mjs",
+
+    "author:k": "node scripts/autoAuthor.mjs --grade=k",
+    "author:1": "node scripts/autoAuthor.mjs --grade=1",
+    "author:2": "node scripts/autoAuthor.mjs --grade=2",
+    "author:3": "node scripts/autoAuthor.mjs --grade=3",
+    "author:4": "node scripts/autoAuthor.mjs --grade=4",
+    "author:5": "node scripts/autoAuthor.mjs --grade=5",
+    "author:6": "node scripts/autoAuthor.mjs --grade=6",
+    "author:7": "node scripts/autoAuthor.mjs --grade=7",
+    "author:8": "node scripts/autoAuthor.mjs --grade=8",
+    "author:9": "node scripts/autoAuthor.mjs --grade=9",
+    "author:10": "node scripts/autoAuthor.mjs --grade=10",
+    "author:11": "node scripts/autoAuthor.mjs --grade=11",
+    "author:12": "node scripts/autoAuthor.mjs --grade=12"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.75.0",
+    "dotenv": "^17.2.3",
     "katex": "^0.16.24",
     "next": "15.5.4",
     "openai": "^6.3.0",
@@ -31,6 +54,7 @@
     "eslint-config-next": "15.5.4",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.14",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   },
   "engines": {

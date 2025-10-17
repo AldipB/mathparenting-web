@@ -52,11 +52,7 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body className="min-h-screen bg-white text-gray-900 antialiased">
@@ -68,11 +64,16 @@ export default function RootLayout({
           Skip to content
         </a>
 
-        {/* Sticky global header (client component) */}
-        <HeaderClient />
+        {/* Header sits above backgrounds but must not block clicks */}
+        <div className="relative z-20">
+          <HeaderClient />
+        </div>
 
-        {/* Page content container */}
-        <main id="main" className="mx-auto max-w-5xl p-4 md:p-6">
+        {/* Page content is explicitly above any accidental overlays */}
+        <main
+          id="main"
+          className="relative z-10 isolate pointer-events-auto mx-auto max-w-5xl p-4 md:p-6"
+        >
           {children}
         </main>
       </body>

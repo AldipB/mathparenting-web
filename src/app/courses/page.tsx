@@ -1,62 +1,54 @@
 // src/app/courses/page.tsx
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 
 export const revalidate = 60;
 
-type GradeEntry = { slug: string; name: string; count: number };
-
-function humanize(slug: string) {
-  if (slug.toLowerCase() === "k") return "Kindergarten";
-  return `Grade ${slug}`;
+function detectGrades(): string[] {
+  // Read from /public/lessons to know which grades exist
+  const root = path.join(process.cwd(), "public", "lessons");
+  if (!fs.existsSync(root)) return [];
+  return fs
+    .readdirSync(root, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    // sort K first, then numeric
+    .sort((a, b) => {
+      if (a === "k") return -1;
+      if (b === "k") return 1;
+      const na = Number(a), nb = Number(b);
+      if (!Number.isNaN(na) && !Number.isNaN(nb)) return na - nb;
+      return a.localeCompare(b);
+    });
 }
 
-export default async function CoursesIndex() {
-  const root = path.join(process.cwd(), "public", "lessons");
-  const grades: GradeEntry[] = [];
+const label = (g: string) => (g.toLowerCase() === "k" ? "Kindergarten" : `Grade ${g}`);
 
-  if (fs.existsSync(root)) {
-    for (const d of fs.readdirSync(root, { withFileTypes: true })) {
-      if (!d.isDirectory()) continue;
-      const slug = d.name; // "k", "1", "2", ... "12"
-      const dir = path.join(root, slug);
-      const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
-      grades.push({ slug, name: humanize(slug), count: files.length });
-    }
-  }
-
-  // Sort K, 1..12
-  grades.sort((a, b) => {
-    const aKey = a.slug.toLowerCase() === "k" ? 0 : Number(a.slug) || 0;
-    const bKey = b.slug.toLowerCase() === "k" ? 0 : Number(b.slug) || 0;
-    return aKey - bKey;
-  });
+export default async function CoursesHome() {
+  const grades = detectGrades();
 
   return (
     <main className="mx-auto max-w-5xl p-6">
-      <h1 className="mb-2 text-3xl font-bold">All Courses</h1>
+      <h1 className="mb-2 text-3xl font-bold">Courses</h1>
       <p className="mb-6 text-gray-600">
-        Pick a grade to view its lessons.
+        Choose a grade to see all chapters available from your exported lesson files.
       </p>
 
       {grades.length === 0 ? (
-        <div className="rounded-xl border p-4 text-red-600">
-          No grades found in <code>/public/lessons</code>. Make sure those folders
-          exist and are committed.
+        <div className="rounded-xl border p-4">
+          <p className="text-red-600">
+            No grades detected under <code>/public/lessons</code>. Add folders like{" "}
+            <code>k</code>, <code>1</code>, <code>2</code>… with JSON files inside.
+          </p>
         </div>
       ) : (
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
           {grades.map((g) => (
-            <li key={g.slug} className="rounded-xl border p-4">
-              <Link
-                href={`/courses/${encodeURIComponent(g.slug)}`}
-                className="block underline"
-                prefetch={true}
-              >
-                {g.name}
-              </Link>
-              <div className="mt-1 text-xs text-gray-500">{g.count} lessons</div>
+            <li key={g} className="rounded-xl border p-3">
+              {/* Plain <a> to force navigation even if a client overlay exists */}
+              <a className="underline block" href={`/courses/${encodeURIComponent(g)}`}>
+                {label(g)}
+              </a>
             </li>
           ))}
         </ul>

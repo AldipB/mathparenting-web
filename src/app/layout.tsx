@@ -56,24 +56,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body className="min-h-screen bg-white text-gray-900 antialiased">
-        {/* Skip to main content for accessibility */}
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:shadow"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100000] focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:shadow"
         >
           Skip to content
         </a>
 
-        {/* Header sits above backgrounds but must not block clicks */}
+        {/* Header stays normal */}
         <div className="relative z-20">
           <HeaderClient />
         </div>
 
-        {/* Page content is explicitly above any accidental overlays */}
-        <main
-          id="main"
-          className="relative z-10 isolate pointer-events-auto mx-auto max-w-5xl p-4 md:p-6"
-        >
+        {/* Force page content ABOVE any accidental overlays */}
+        <main id="main" className="relative z-[100000] isolate pointer-events-auto mx-auto max-w-5xl p-4 md:p-6">
           {children}
         </main>
       </body>

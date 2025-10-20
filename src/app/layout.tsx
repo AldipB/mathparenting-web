@@ -2,7 +2,6 @@
 import type { Metadata, Viewport } from "next";
 import "katex/dist/katex.min.css";
 import "./globals.css";
-import HeaderClient from "@/components/HeaderClient";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://mathparenting.vercel.app";
@@ -13,7 +12,8 @@ export const metadata: Metadata = {
     default: "MathParenting",
     template: "%s — MathParenting",
   },
-  description: "Teach any math topic at home with simple, parent-friendly steps.",
+  description:
+    "Teach any math topic at home with simple, parent-friendly steps.",
   applicationName: "MathParenting",
   icons: {
     icon: [
@@ -52,24 +52,39 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
+function SimpleHeader() {
+  return (
+    <header className="sticky top-0 z-40 border-b bg-white/90 backdrop-blur">
+      <div className="mx-auto flex max-w-5xl items-center justify-between p-4">
+        <a href="/" className="font-semibold">MathParenting</a>
+        <nav className="flex gap-4 text-sm">
+          <a className="hover:underline" href="/">Home</a>
+          <a className="hover:underline" href="/courses">Courses</a>
+          <a className="hover:underline" href="/signin">Sign in</a>
+          <a className="hover:underline" href="/dashboard">Dashboard</a>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body className="min-h-screen bg-white text-gray-900 antialiased">
+        {/* Skip to main */}
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100000] focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:shadow"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:shadow"
         >
           Skip to content
         </a>
 
-        {/* Header stays normal */}
-        <div className="relative z-20">
-          <HeaderClient />
-        </div>
+        {/* TEMP: safe header without overlays */}
+        <SimpleHeader />
 
-        {/* Force page content ABOVE any accidental overlays */}
-        <main id="main" className="relative z-[100000] isolate pointer-events-auto mx-auto max-w-5xl p-4 md:p-6">
+        {/* Page content */}
+        <main id="main" className="mx-auto max-w-5xl p-4 md:p-6">
           {children}
         </main>
       </body>

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "43de6f48-345d-4462-9db7-0bf7a61cdf31",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "56f5d6ba-4185-44f0-88ad-18ede7a336d3",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "32ec3b93-c2a1-4735-b70b-44e104372140",
+    "slug": "graphs-bar-line-pie",
+    "title": "Graphs: Understanding Bar, Line, and Pie Charts",
+    "summary": "Graphs (bar, line, pie) — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child understand and interpret bar, line, and pie charts, and recognize their real-world applications.\n\n**Why it matters:** Graphs are everywhere—from weather forecasts to sports statistics. Understanding them helps kids make sense of data in a visual way, enhancing their critical thinking skills.\n\n**Parent Tip:** Encourage your child to describe what they see in a graph. Ask questions like, 'What does this part of the graph tell us?' or 'Why do you think this section is larger?'\n\n**Real-World Link:** Next time you're at the grocery store, point out how bar graphs on cereal boxes show nutritional information, or discuss how weather apps use line graphs to show temperature changes.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we’re diving into the world of graphs, which are powerful tools for visualizing information. By the end of this lesson, you'll be able to help your child read and interpret bar, line, and pie charts with confidence.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Begin with bar charts: Explain they use bars to show quantities. Taller bars mean larger quantities.\n2. Move to line charts: Describe how they show changes over time. Points are connected to show trends.\n3. Introduce pie charts: Explain they show parts of a whole as 'slices'. Larger slices mean larger portions.\n4. Discuss the importance of titles and labels: They tell us what the graph is about and what each part represents.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Look at this bar chart showing the number of apples sold each day: Mon (10), Tue (15), Wed (5). Which day had the highest sales?**\n_Answer:_ Tuesday had the highest sales with 15 apples.\n_Hint:_ Check the height of the bars.\n\n**2. This line graph shows temperature over a week. If Monday was 20°C and Friday was 25°C, did the temperature increase or decrease?**\n_Answer:_ The temperature increased from Monday to Friday.\n_Hint:_ Look at the direction of the line from Monday to Friday.\n\n**3. In this pie chart, 50% of the pie is labeled 'Homework', 30% 'Play', and 20% 'Sleep'. Which activity takes up the most time?**\n_Answer:_ Homework takes up the most time at 50%.\n_Hint:_ Which slice is the biggest?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the height of bars with the width.\n- Misinterpreting the slope of a line as the actual value.\n- Forgetting that pie chart slices must add up to a whole (100%).",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Next time you're at the grocery store, point out how bar graphs on cereal boxes show nutritional information, or discuss how weather apps use line graphs to show temperature changes.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and interpret bar, line, and pie charts.",
+    "overview": "**Objective:** To help your child understand and interpret bar, line, and pie charts, and recognize their real-world applications.\n\n**Why it matters:** Graphs are everywhere—from weather forecasts to sports statistics. Understanding them helps kids make sense of data in a visual way, enhancing their critical thinking skills.\n\n**Parent Tip:** Encourage your child to describe what they see in a graph. Ask questions like, 'What does this part of the graph tell us?' or 'Why do you think this section is larger?'\n\n**Real-World Link:** Next time you're at the grocery store, point out how bar graphs on cereal boxes show nutritional information, or discuss how weather apps use line graphs to show temperature changes.",
+    "core": "Welcome! Today, we’re diving into the world of graphs, which are powerful tools for visualizing information. By the end of this lesson, you'll be able to help your child read and interpret bar, line, and pie charts with confidence.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how much easier it is to understand information when it's shown in a picture rather than just numbers? That's the magic of graphs!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Begin with bar charts: Explain they use bars to show quantities. Taller bars mean larger quantities.\n2. Move to line charts: Describe how they show changes over time. Points are connected to show trends.\n3. Introduce pie charts: Explain they show parts of a whole as 'slices'. Larger slices mean larger portions.\n4. Discuss the importance of titles and labels: They tell us what the graph is about and what each part represents.",
+    "practice": "**1. Look at this bar chart showing the number of apples sold each day: Mon (10), Tue (15), Wed (5). Which day had the highest sales?**\n_Answer:_ Tuesday had the highest sales with 15 apples.\n_Hint:_ Check the height of the bars.\n\n**2. This line graph shows temperature over a week. If Monday was 20°C and Friday was 25°C, did the temperature increase or decrease?**\n_Answer:_ The temperature increased from Monday to Friday.\n_Hint:_ Look at the direction of the line from Monday to Friday.\n\n**3. In this pie chart, 50% of the pie is labeled 'Homework', 30% 'Play', and 20% 'Sleep'. Which activity takes up the most time?**\n_Answer:_ Homework takes up the most time at 50%.\n_Hint:_ Which slice is the biggest?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the height of bars with the width.\n- Misinterpreting the slope of a line as the actual value.\n- Forgetting that pie chart slices must add up to a whole (100%).",
+    "connection": "Next time you're at the grocery store, point out how bar graphs on cereal boxes show nutritional information, or discuss how weather apps use line graphs to show temperature changes.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Graphs (bar, line, pie)** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- What type of graph would best show our family’s monthly expenses?\n- How can we use a graph to track changes in our daily habits?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Graphs: Understanding Bar, Line, and Pie Charts",
+    "introduction": "Welcome to the world of graphs! These visual tools help us understand data at a glance. Let's explore how bar, line, and pie charts can simplify complex information.",
+    "objective": "To help your child understand and interpret bar, line, and pie charts, and use them to represent data effectively.",
+    "why_matters": "Graphs are everywhere—from weather reports to sports statistics. Grasping them helps your child make informed decisions and communicate data clearly.",
+    "parent_tip": "Encourage your child to explain what they see in graphs. This strengthens their understanding and boosts confidence.",
+    "real_world_link": "Graphs are used in daily life, like reading a weather forecast in the newspaper or understanding survey results in a magazine.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the types of graphs: bar, line, and pie charts.",
+      "Explain the purpose of each type of graph.",
+      "Show examples of each graph type using simple data.",
+      "Discuss how to read and interpret each graph.",
+      "Practice creating simple graphs from given data."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with bar charts. They help us compare different categories.",
+        "do": "Show your child a bar chart with different fruit sales.",
+        "ask": "What does this bar chart tell us about which fruit was sold the most?",
+        "reinforce": "Bar charts make it easy to see which items are more popular."
+      },
+      {
+        "say": "Next, let's explore line charts. These show changes over time.",
+        "do": "Present a line chart showing temperature changes over a week.",
+        "ask": "Can you see how the temperature changes from day to day?",
+        "reinforce": "Line charts are great for spotting trends over time."
+      },
+      {
+        "say": "Now, let's look at pie charts. They show how a whole is divided into parts.",
+        "do": "Display a pie chart representing a class's favorite ice cream flavors.",
+        "ask": "Which flavor is the most popular in this pie chart?",
+        "reinforce": "Pie charts help us see proportions at a glance."
+      },
+      {
+        "say": "Let's create a simple bar chart together.",
+        "do": "Provide data on family members' favorite sports and draw a bar chart.",
+        "ask": "What does our bar chart tell us about our family's sports preferences?",
+        "reinforce": "Creating charts helps us better understand and share data."
+      },
+      {
+        "say": "Finally, let's interpret a line chart.",
+        "do": "Use a line chart showing a plant's growth over several weeks.",
+        "ask": "How did the plant's height change over time?",
+        "reinforce": "Interpreting line charts helps us track changes effectively."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Look at this bar chart showing weekly book sales. Which day had the highest sales?",
+        "hint": "Find the tallest bar.",
+        "answer": "Saturday"
+      },
+      {
+        "prompt": "This line chart shows a student's test scores over the year. Did their scores improve?",
+        "hint": "Check if the line goes upwards.",
+        "answer": "Yes"
+      },
+      {
+        "prompt": "In this pie chart of pet ownership, which pet is least popular?",
+        "hint": "Find the smallest slice.",
+        "answer": "Fish"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Graphs help us visualize data quickly and clearly.",
+      "Bar charts compare categories, line charts show trends, and pie charts display parts of a whole.",
+      "Practice interpreting graphs to strengthen understanding."
+    ],
+    "common_mistakes": [
+      "Not labeling axes or parts of the graph correctly.",
+      "Misinterpreting the scale of a graph.",
+      "Confusing the types of graphs and their purposes."
+    ],
+    "deep_dive": {
+      "history": "Graphs have evolved from simple drawings to complex data visualizations, aiding in scientific discoveries and business decisions.",
+      "connections": "Graphs connect to subjects like science and social studies, where data interpretation is crucial.",
+      "misconceptions": "A common misconception is that all graphs show the same type of data. Understanding their unique purposes is key.",
+      "teaching_tips": "Use real-life examples that interest your child, like sports or hobbies, to make graphs relatable.",
+      "derivation": "While graphs don't have a mathematical derivation, they stem from the need to represent data visually for better understanding."
+    },
+    "motivation": "Graphs are like a secret language that makes numbers and data come alive. Mastering them opens up a world of information!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of graphs! These visual tools help us understand data at a glance. Let's explore how bar, line, and pie charts can simplify complex information.\n\n## Parent Orientation\n**Objective:** To help your child understand and interpret bar, line, and pie charts, and use them to represent data effectively.\n**Why it matters:** Graphs are everywhere—from weather reports to sports statistics. Grasping them helps your child make informed decisions and communicate data clearly.\n**Parent Tip:** Encourage your child to explain what they see in graphs. This strengthens their understanding and boosts confidence.\n**Real-World Link:** Graphs are used in daily life, like reading a weather forecast in the newspaper or understanding survey results in a magazine.\n\n## Teaching Steps\n1. Introduce the types of graphs: bar, line, and pie charts.\n2. Explain the purpose of each type of graph.\n3. Show examples of each graph type using simple data.\n4. Discuss how to read and interpret each graph.\n5. Practice creating simple graphs from given data.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with bar charts. They help us compare different categories.  \n**Show/Do:** Show your child a bar chart with different fruit sales.  \n**Ask:** What does this bar chart tell us about which fruit was sold the most?  \n**Reinforce:** Bar charts make it easy to see which items are more popular.\n2. **Say:** Next, let's explore line charts. These show changes over time.  \n**Show/Do:** Present a line chart showing temperature changes over a week.  \n**Ask:** Can you see how the temperature changes from day to day?  \n**Reinforce:** Line charts are great for spotting trends over time.\n3. **Say:** Now, let's look at pie charts. They show how a whole is divided into parts.  \n**Show/Do:** Display a pie chart representing a class's favorite ice cream flavors.  \n**Ask:** Which flavor is the most popular in this pie chart?  \n**Reinforce:** Pie charts help us see proportions at a glance.\n4. **Say:** Let's create a simple bar chart together.  \n**Show/Do:** Provide data on family members' favorite sports and draw a bar chart.  \n**Ask:** What does our bar chart tell us about our family's sports preferences?  \n**Reinforce:** Creating charts helps us better understand and share data.\n5. **Say:** Finally, let's interpret a line chart.  \n**Show/Do:** Use a line chart showing a plant's growth over several weeks.  \n**Ask:** How did the plant's height change over time?  \n**Reinforce:** Interpreting line charts helps us track changes effectively.\n\n## Practice Questions (Do It Together)\n**1. Look at this bar chart showing weekly book sales. Which day had the highest sales?**\n<details><summary>Hint</summary>\nFind the tallest bar.\n</details>\n<details><summary>Answer</summary>\nSaturday\n</details>\n\n**2. This line chart shows a student's test scores over the year. Did their scores improve?**\n<details><summary>Hint</summary>\nCheck if the line goes upwards.\n</details>\n<details><summary>Answer</summary>\nYes\n</details>\n\n**3. In this pie chart of pet ownership, which pet is least popular?**\n<details><summary>Hint</summary>\nFind the smallest slice.\n</details>\n<details><summary>Answer</summary>\nFish\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Graphs help us visualize data quickly and clearly.\n- Bar charts compare categories, line charts show trends, and pie charts display parts of a whole.\n- Practice interpreting graphs to strengthen understanding.\n\n**Common Mistakes**\n- Not labeling axes or parts of the graph correctly.\n- Misinterpreting the scale of a graph.\n- Confusing the types of graphs and their purposes.\n\n## 🔍 Deep Dive\n**History or origin**\n\nGraphs have evolved from simple drawings to complex data visualizations, aiding in scientific discoveries and business decisions.\n\n**Future topic connections**\n\nGraphs connect to subjects like science and social studies, where data interpretation is crucial.\n\n**Common misconceptions**\n\nA common misconception is that all graphs show the same type of data. Understanding their unique purposes is key.\n\n**Teaching tips for parents**\n\nUse real-life examples that interest your child, like sports or hobbies, to make graphs relatable.\n\n**More detail / derivation**\n\nWhile graphs don't have a mathematical derivation, they stem from the need to represent data visually for better understanding.\n\n## Motivation\nGraphs are like a secret language that makes numbers and data come alive. Mastering them opens up a world of information!"
+}

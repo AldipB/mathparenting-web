@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "66c8ee1b-de19-4cdb-8825-3220e957127a",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "cea11932-16fc-4359-a08b-d6cfcc9fd6f1",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "fde3cdd0-074a-4380-bf8a-5e74d91afcf7",
+    "slug": "geometry-angles-triangles-circles",
+    "title": "Exploring Geometry: Angles, Triangles, and Circles",
+    "summary": "Geometry – angles, triangles, circles — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the properties of angles, triangles, and circles, and how to solve basic geometry problems.\n\n**Why it matters:** Geometry is all around us, from the design of buildings to the layout of parks. Understanding these concepts helps children see the world in a new way and develop critical thinking skills.\n\n**Parent Tip:** Encourage your child to visualize and draw shapes. Use household items like pizza slices (triangles) or clock faces (circles) to make learning interactive.\n\n**Real-World Link:** Think about a pizza: each slice is a triangle, and the whole pizza is a circle. The angles where slices meet at the center help us understand how shapes fit together.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of geometry! Together with your child, you'll explore the fascinating shapes and figures that make up our world. This lesson focuses on angles, triangles, and circles, providing a foundation for understanding how these elements work together.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with angles: Explain that angles are formed when two lines meet. Use the corner of a book as an example.\n2. Introduce triangles: Show how three angles come together to form a triangle. Discuss different types (e.g., equilateral, isosceles).\n3. Explore circles: Describe parts like the radius and diameter. Use a round object like a plate to illustrate.\n4. Practice measuring angles with a protractor and identifying triangle types by their angles.\n5. Discuss the concept of circumference and how it relates to the diameter of circles.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What type of triangle has all sides equal? (use numbers like 6 and 9)**\n_Answer:_ Equilateral triangle\n_Hint:_ Think of a triangle where every side is the same length.\n\n**2. If a circle has a diameter of 10 cm, what is its radius?**\n_Answer:_ 5 cm\n_Hint:_ The radius is half of the diameter.\n\n**3. What is the sum of angles in a triangle? (use numbers like 6 and 9)**\n_Answer:_ 180 degrees\n_Hint:_ Consider how angles add up in any triangle.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing radius and diameter.\n- Forgetting that the sum of a triangle's angles is always 180 degrees.\n- Misidentifying triangle types based on side lengths.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a pizza: each slice is a triangle, and the whole pizza is a circle. The angles where slices meet at the center help us understand how shapes fit together.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Understand basic properties of angles, triangles, and circles.",
+    "overview": "**Objective:** Help your child understand the properties of angles, triangles, and circles, and how to solve basic geometry problems.\n\n**Why it matters:** Geometry is all around us, from the design of buildings to the layout of parks. Understanding these concepts helps children see the world in a new way and develop critical thinking skills.\n\n**Parent Tip:** Encourage your child to visualize and draw shapes. Use household items like pizza slices (triangles) or clock faces (circles) to make learning interactive.\n\n**Real-World Link:** Think about a pizza: each slice is a triangle, and the whole pizza is a circle. The angles where slices meet at the center help us understand how shapes fit together.",
+    "core": "Welcome to the world of geometry! Together with your child, you'll explore the fascinating shapes and figures that make up our world. This lesson focuses on angles, triangles, and circles, providing a foundation for understanding how these elements work together.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why the wheels on your bike are circles and not squares? Or how triangles make bridges so strong?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with angles: Explain that angles are formed when two lines meet. Use the corner of a book as an example.\n2. Introduce triangles: Show how three angles come together to form a triangle. Discuss different types (e.g., equilateral, isosceles).\n3. Explore circles: Describe parts like the radius and diameter. Use a round object like a plate to illustrate.\n4. Practice measuring angles with a protractor and identifying triangle types by their angles.\n5. Discuss the concept of circumference and how it relates to the diameter of circles.",
+    "practice": "**1. What type of triangle has all sides equal? (use numbers like 6 and 9)**\n_Answer:_ Equilateral triangle\n_Hint:_ Think of a triangle where every side is the same length.\n\n**2. If a circle has a diameter of 10 cm, what is its radius?**\n_Answer:_ 5 cm\n_Hint:_ The radius is half of the diameter.\n\n**3. What is the sum of angles in a triangle? (use numbers like 6 and 9)**\n_Answer:_ 180 degrees\n_Hint:_ Consider how angles add up in any triangle.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing radius and diameter.\n- Forgetting that the sum of a triangle's angles is always 180 degrees.\n- Misidentifying triangle types based on side lengths.",
+    "connection": "Think about a pizza: each slice is a triangle, and the whole pizza is a circle. The angles where slices meet at the center help us understand how shapes fit together.",
+    "close": "**Key Takeaways**\n- Angles measure the space between two intersecting lines.\n- Triangles have three sides and their angles add up to 180°.\n- Circles are round and have a constant radius from the center to the edge.\n\n**Parent Reflection Questions**\n- How can we use angles to describe different shapes?\n- What role do triangles play in making structures strong?\n- Why is understanding circles important in everyday life?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Geometry: Angles, Triangles, and Circles",
+    "introduction": "Welcome to the world of geometry, where shapes, angles, and circles come to life! This lesson will help you guide your child through understanding the basics of angles, triangles, and circles.",
+    "objective": "Help your child identify and understand different types of angles, triangles, and the properties of circles.",
+    "why_matters": "Geometry is all around us, from the design of buildings to the way we slice a pizza. Understanding these concepts builds spatial awareness and problem-solving skills.",
+    "parent_tip": "Encourage your child to draw the shapes and angles they learn about. Visualizing can make these abstract concepts more concrete.",
+    "real_world_link": "Next time you're at a park, notice the shapes in the playground equipment. Discuss how angles and circles are used in swings, slides, and roundabouts.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce different types of angles: acute, right, obtuse, and straight.",
+      "Explain the properties of triangles: equilateral, isosceles, and scalene.",
+      "Discuss the circle parts: radius, diameter, and circumference.",
+      "Use real-world objects to demonstrate these shapes and angles.",
+      "Encourage your child to identify these shapes and angles in their surroundings."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at angles. Do you know what an angle is?",
+        "do": "Draw a few angles on a piece of paper.",
+        "ask": "Can you guess which angle is a right angle?",
+        "reinforce": "Right angles are like the corner of a square. They're everywhere!"
+      },
+      {
+        "say": "Now, let's talk about triangles. Did you know there are different types?",
+        "do": "Show examples of equilateral, isosceles, and scalene triangles.",
+        "ask": "Which triangle has all sides the same length?",
+        "reinforce": "That's right, the equilateral triangle has all sides equal."
+      },
+      {
+        "say": "Circles are fascinating too. Let's explore their parts.",
+        "do": "Draw a circle and label the radius, diameter, and circumference.",
+        "ask": "What do you think the radius is?",
+        "reinforce": "The radius is the distance from the center to the edge of the circle."
+      },
+      {
+        "say": "Why don't we find some shapes around us?",
+        "do": "Look around the room or outside for objects that match these shapes.",
+        "ask": "What shape is that clock?",
+        "reinforce": "Yes, it's a circle! And its hands create angles."
+      },
+      {
+        "say": "How about we draw a fun picture using these shapes?",
+        "do": "Create a simple drawing using triangles, angles, and circles.",
+        "ask": "What shapes did you use in your drawing?",
+        "reinforce": "Great job! You used geometry creatively."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What type of angle is 45 degrees?",
+        "hint": "Think about angles smaller than a right angle.",
+        "answer": "Acute angle"
+      },
+      {
+        "prompt": "If a triangle has sides of 5 cm, 5 cm, and 8 cm, what type is it?",
+        "hint": "Two sides are the same length.",
+        "answer": "Isosceles triangle"
+      },
+      {
+        "prompt": "What is the diameter if the radius of a circle is 7 cm?",
+        "hint": "The diameter is twice the radius.",
+        "answer": "14 cm"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Angles can be acute, right, obtuse, or straight.",
+      "Triangles can be equilateral, isosceles, or scalene.",
+      "Circles have a radius, diameter, and circumference."
+    ],
+    "common_mistakes": [
+      "Confusing the terms radius and diameter.",
+      "Thinking all triangles are equilateral.",
+      "Forgetting that a right angle is exactly 90 degrees."
+    ],
+    "deep_dive": {
+      "history": "Geometry dates back to ancient civilizations like the Greeks, who used it for astronomy and architecture.",
+      "connections": "Geometry connects to art, architecture, engineering, and technology.",
+      "misconceptions": "A common misconception is that the longest side of any triangle is always the hypotenuse.",
+      "teaching_tips": "Use visual aids and interactive activities to keep your child engaged.",
+      "derivation": "Understanding the properties of shapes and angles lays the foundation for more advanced mathematical concepts."
+    },
+    "motivation": "By exploring geometry, your child builds a toolkit for understanding and interacting with the world in a new way. Encourage their curiosity and watch them grow!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of geometry, where shapes, angles, and circles come to life! This lesson will help you guide your child through understanding the basics of angles, triangles, and circles.\n\n## Parent Orientation\n**Objective:** Help your child identify and understand different types of angles, triangles, and the properties of circles.\n**Why it matters:** Geometry is all around us, from the design of buildings to the way we slice a pizza. Understanding these concepts builds spatial awareness and problem-solving skills.\n**Parent Tip:** Encourage your child to draw the shapes and angles they learn about. Visualizing can make these abstract concepts more concrete.\n**Real-World Link:** Next time you're at a park, notice the shapes in the playground equipment. Discuss how angles and circles are used in swings, slides, and roundabouts.\n\n## Teaching Steps\n1. Introduce different types of angles: acute, right, obtuse, and straight.\n2. Explain the properties of triangles: equilateral, isosceles, and scalene.\n3. Discuss the circle parts: radius, diameter, and circumference.\n4. Use real-world objects to demonstrate these shapes and angles.\n5. Encourage your child to identify these shapes and angles in their surroundings.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at angles. Do you know what an angle is?  \n**Show/Do:** Draw a few angles on a piece of paper.  \n**Ask:** Can you guess which angle is a right angle?  \n**Reinforce:** Right angles are like the corner of a square. They're everywhere!\n2. **Say:** Now, let's talk about triangles. Did you know there are different types?  \n**Show/Do:** Show examples of equilateral, isosceles, and scalene triangles.  \n**Ask:** Which triangle has all sides the same length?  \n**Reinforce:** That's right, the equilateral triangle has all sides equal.\n3. **Say:** Circles are fascinating too. Let's explore their parts.  \n**Show/Do:** Draw a circle and label the radius, diameter, and circumference.  \n**Ask:** What do you think the radius is?  \n**Reinforce:** The radius is the distance from the center to the edge of the circle.\n4. **Say:** Why don't we find some shapes around us?  \n**Show/Do:** Look around the room or outside for objects that match these shapes.  \n**Ask:** What shape is that clock?  \n**Reinforce:** Yes, it's a circle! And its hands create angles.\n5. **Say:** How about we draw a fun picture using these shapes?  \n**Show/Do:** Create a simple drawing using triangles, angles, and circles.  \n**Ask:** What shapes did you use in your drawing?  \n**Reinforce:** Great job! You used geometry creatively.\n\n## Practice Questions (Do It Together)\n**1. What type of angle is 45 degrees?**\n<details><summary>Hint</summary>\nThink about angles smaller than a right angle.\n</details>\n<details><summary>Answer</summary>\nAcute angle\n</details>\n\n**2. If a triangle has sides of 5 cm, 5 cm, and 8 cm, what type is it?**\n<details><summary>Hint</summary>\nTwo sides are the same length.\n</details>\n<details><summary>Answer</summary>\nIsosceles triangle\n</details>\n\n**3. What is the diameter if the radius of a circle is 7 cm?**\n<details><summary>Hint</summary>\nThe diameter is twice the radius.\n</details>\n<details><summary>Answer</summary>\n14 cm\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Angles can be acute, right, obtuse, or straight.\n- Triangles can be equilateral, isosceles, or scalene.\n- Circles have a radius, diameter, and circumference.\n\n**Common Mistakes**\n- Confusing the terms radius and diameter.\n- Thinking all triangles are equilateral.\n- Forgetting that a right angle is exactly 90 degrees.\n\n## 🔍 Deep Dive\n**History or origin**\n\nGeometry dates back to ancient civilizations like the Greeks, who used it for astronomy and architecture.\n\n**Future topic connections**\n\nGeometry connects to art, architecture, engineering, and technology.\n\n**Common misconceptions**\n\nA common misconception is that the longest side of any triangle is always the hypotenuse.\n\n**Teaching tips for parents**\n\nUse visual aids and interactive activities to keep your child engaged.\n\n**More detail / derivation**\n\nUnderstanding the properties of shapes and angles lays the foundation for more advanced mathematical concepts.\n\n## Motivation\nBy exploring geometry, your child builds a toolkit for understanding and interacting with the world in a new way. Encourage their curiosity and watch them grow!"
+}

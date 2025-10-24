@@ -1,110 +1,156 @@
 {
   "grade": {
-    "id": "e2c6a49f-06d2-49da-8c4e-4ac120f797db",
+    "id": "526ca343-d68f-43af-b37b-a07f7271320a",
     "slug": "6",
     "name": "Grade 6"
   },
   "unit": {
-    "id": "1b2d7a7f-7ed7-441a-b2e8-7ed1e0d3ed1f",
-    "title": "Numbers & Operations",
+    "id": "8ef7da25-6cf0-4724-825c-a60c73e844c4",
+    "title": "Core Skills",
     "order_index": 1
   },
   "lesson": {
-    "id": "29b1889c-f67a-4826-a30e-d6afbf5028eb",
+    "id": "143be0e9-463e-4cfc-b39e-7a3bcb2e2031",
     "slug": "decimals-all-operations",
-    "title": "Decimals: All Operations",
-    "summary": "Decimals: All Operations — summary for parents in Grade 6.",
+    "title": "Decimals – All Operations",
+    "summary": "Decimals – all operations — parent overview for Grade 6.",
     "difficulty_level": "core",
     "order_index": 3
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "- Understand how to add, subtract, multiply, and divide decimals.\n- Apply decimal operations in real-life situations.\n- **Why this matters for parents:** Helps your child handle money, measurements, and data accurately.",
-      "order_index": 1
-    },
-    {
       "key": "overview",
-      "md": "Decimals are numbers that include a decimal point to represent a fraction of a whole. They are used in many everyday situations, like handling money or measuring ingredients.\nUnderstanding decimal operations is crucial for your child to solve real-world problems efficiently and accurately. This lesson will guide you in teaching these skills using simple household items.",
+      "md": "**Objective:** Help your child confidently add, subtract, multiply, and divide decimals, making them a more versatile problem solver.\n\n**Why it matters:** Decimals are everywhere in the real world—from calculating money to measuring distances. Mastering them opens up a world of practical skills.\n\n**Parent Tip:** Encourage your child to visualize decimals with money. For example, $1.25 is like one whole dollar and 25 cents. This can make abstract concepts more concrete.\n\n**Real-World Link:** Consider a family road trip. Calculating travel costs, fuel efficiency, or even snack budgets involves adding and subtracting decimals.",
       "order_index": 2
     },
     {
       "key": "core",
-      "md": "Decimals work similarly to whole numbers but require careful attention to the placement of the decimal point. Mastering these operations will build your child's confidence in math and everyday tasks.",
+      "md": "Understanding decimals is like mastering the art of precise measurement. It’s all about knowing how to handle those numbers that fall between the whole numbers, just like measuring ingredients for a perfect recipe.",
       "order_index": 3
     },
     {
-      "key": "demo",
-      "md": "1. **Say:** \"Let's use coins to understand decimals. A dime is $0.10, and a penny is $0.01.\"\n2. **Ask:** \"If you have 3 dimes and 4 pennies, how much money do you have?\"\n3. Add the dimes: $0.10 + 0.10 + 0.10 = 0.30.\n4. Add the pennies: $0.01 + 0.01 + 0.01 + 0.01 = 0.04.\n5. **Say:** \"Now, add them together: $0.30 + 0.04 = 0.34. You have $0.34.\"\n6. **Ask:** \"What if you spent $0.14? How much would you have left?\"",
-      "order_index": 4
-    },
-    {
-      "key": "math",
-      "md": "To add or subtract decimals, align the decimal points and proceed as with whole numbers. For example, $0.75 + 0.25 = 1.00$.\nWhen multiplying, ignore the decimal points initially, multiply as whole numbers, and then place the decimal point in the product. For example, $0.6 \\times 0.3 = 0.18$.\nFor division, move the decimal point in the divisor to make it a whole number, and do the same in the dividend. Then divide as usual. For example, $1.2 \\div 0.3 = 4$.",
-      "order_index": 5
-    },
-    {
-      "key": "formulas",
-      "md": "- Addition/Subtraction: $a + b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Multiplication: $a \\times b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Division: $a \\div b = c$\n  - $a$, $b$, $c$ are decimal numbers",
-      "order_index": 6
-    },
-    {
       "key": "guide",
-      "md": "1. **Say:** \"Let's practice adding decimals using these coins.\"\n2. **Ask:** \"Can you show me how to add $0.25 and $0.50?\"\n3. **Say:** \"Great! Now, let's try subtracting $0.30 from $0.75.\"\n4. **Ask:** \"How would you multiply $0.4 by $0.5?\"\n5. **Say:** \"Finally, let's divide $1.5 by $0.5.\"\n6. **Encourage:** \"Keep practicing with different numbers to get comfortable!\"",
+      "md": "1. Start with addition and subtraction by lining up the decimal points, just like aligning columns in a spreadsheet.\n2. For multiplication, ignore the decimal initially, multiply as whole numbers, then count and place the decimal in the product.\n3. In division, move the decimal point in the divisor to make it a whole number, and do the same shift in the dividend.\n4. Practice with real-life scenarios, such as adding up grocery costs or calculating discounts.",
       "order_index": 7
     },
     {
-      "key": "mistakes",
-      "md": "- Misaligning decimal points. **Try:** Use lined paper to keep numbers straight.\n- Forgetting to adjust the decimal in multiplication. **Try:** Count decimal places before multiplying.\n- Incorrectly moving the decimal in division. **Try:** Practice with simple examples first.",
-      "order_index": 8
-    },
-    {
       "key": "practice",
-      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "md": "**1. Add 3.75 + 2.5**\n_Answer:_ 6.25\n_Hint:_ Align the decimal points before adding.\n\n**2. Subtract 5.8 - 3.45**\n_Answer:_ 2.35\n_Hint:_ Align the decimal points and subtract like whole numbers.\n\n**3. Multiply 4.2 × 3**\n_Answer:_ 12.6\n_Hint:_ Ignore decimals first, multiply, then place the decimal.\n\n**4. Divide 7.5 ÷ 1.5**\n_Answer:_ 5\n_Hint:_ Move the decimal in both numbers to the right to make the divisor a whole number.",
       "order_index": 8
     },
     {
-      "key": "connection",
-      "md": "Decimals are everywhere! When you shop, prices often involve decimals. Cooking measurements, like 0.5 cups, also use decimals.",
+      "key": "mistakes",
+      "md": "- Forgetting to align decimal points in addition and subtraction.\n- Misplacing the decimal point in multiplication results.\n- Not adjusting both numbers in division to make the divisor whole.",
       "order_index": 9
     },
     {
-      "key": "close",
-      "md": "You've got this! With practice, decimals will become second nature. Keep exploring and applying these skills in daily life.",
-      "order_index": 11
+      "key": "connection",
+      "md": "Consider a family road trip. Calculating travel costs, fuel efficiency, or even snack budgets involves adding and subtracting decimals.",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "- Understand how to add, subtract, multiply, and divide decimals.\n- Apply decimal operations in real-life situations.\n- **Why this matters for parents:** Helps your child handle money, measurements, and data accurately.",
-    "overview": "Decimals are numbers that include a decimal point to represent a fraction of a whole. They are used in many everyday situations, like handling money or measuring ingredients.\nUnderstanding decimal operations is crucial for your child to solve real-world problems efficiently and accurately. This lesson will guide you in teaching these skills using simple household items.",
-    "core": "Decimals work similarly to whole numbers but require careful attention to the placement of the decimal point. Mastering these operations will build your child's confidence in math and everyday tasks.",
-    "demo": "1. **Say:** \"Let's use coins to understand decimals. A dime is $0.10, and a penny is $0.01.\"\n2. **Ask:** \"If you have 3 dimes and 4 pennies, how much money do you have?\"\n3. Add the dimes: $0.10 + 0.10 + 0.10 = 0.30.\n4. Add the pennies: $0.01 + 0.01 + 0.01 + 0.01 = 0.04.\n5. **Say:** \"Now, add them together: $0.30 + 0.04 = 0.34. You have $0.34.\"\n6. **Ask:** \"What if you spent $0.14? How much would you have left?\"",
-    "math": "To add or subtract decimals, align the decimal points and proceed as with whole numbers. For example, $0.75 + 0.25 = 1.00$.\nWhen multiplying, ignore the decimal points initially, multiply as whole numbers, and then place the decimal point in the product. For example, $0.6 \\times 0.3 = 0.18$.\nFor division, move the decimal point in the divisor to make it a whole number, and do the same in the dividend. Then divide as usual. For example, $1.2 \\div 0.3 = 4$.",
-    "formulas": "- Addition/Subtraction: $a + b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Multiplication: $a \\times b = c$\n  - $a$, $b$, $c$ are decimal numbers\n- Division: $a \\div b = c$\n  - $a$, $b$, $c$ are decimal numbers",
-    "guide": "1. **Say:** \"Let's practice adding decimals using these coins.\"\n2. **Ask:** \"Can you show me how to add $0.25 and $0.50?\"\n3. **Say:** \"Great! Now, let's try subtracting $0.30 from $0.75.\"\n4. **Ask:** \"How would you multiply $0.4 by $0.5?\"\n5. **Say:** \"Finally, let's divide $1.5 by $0.5.\"\n6. **Encourage:** \"Keep practicing with different numbers to get comfortable!\"",
-    "mistakes": "- Misaligning decimal points. **Try:** Use lined paper to keep numbers straight.\n- Forgetting to adjust the decimal in multiplication. **Try:** Count decimal places before multiplying.\n- Incorrectly moving the decimal in division. **Try:** Practice with simple examples first.",
-    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
-    "connection": "Decimals are everywhere! When you shop, prices often involve decimals. Cooking measurements, like 0.5 cups, also use decimals.",
-    "close": "You've got this! With practice, decimals will become second nature. Keep exploring and applying these skills in daily life."
+    "objectives": "**Objective:** Help your child master adding, subtracting, multiplying, and dividing decimals.",
+    "overview": "**Objective:** Help your child confidently add, subtract, multiply, and divide decimals, making them a more versatile problem solver.\n\n**Why it matters:** Decimals are everywhere in the real world—from calculating money to measuring distances. Mastering them opens up a world of practical skills.\n\n**Parent Tip:** Encourage your child to visualize decimals with money. For example, $1.25 is like one whole dollar and 25 cents. This can make abstract concepts more concrete.\n\n**Real-World Link:** Consider a family road trip. Calculating travel costs, fuel efficiency, or even snack budgets involves adding and subtracting decimals.",
+    "core": "Understanding decimals is like mastering the art of precise measurement. It’s all about knowing how to handle those numbers that fall between the whole numbers, just like measuring ingredients for a perfect recipe.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how much change you'll get when buying something? This involves decimals!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with addition and subtraction by lining up the decimal points, just like aligning columns in a spreadsheet.\n2. For multiplication, ignore the decimal initially, multiply as whole numbers, then count and place the decimal in the product.\n3. In division, move the decimal point in the divisor to make it a whole number, and do the same shift in the dividend.\n4. Practice with real-life scenarios, such as adding up grocery costs or calculating discounts.",
+    "practice": "**1. Add 3.75 + 2.5**\n_Answer:_ 6.25\n_Hint:_ Align the decimal points before adding.\n\n**2. Subtract 5.8 - 3.45**\n_Answer:_ 2.35\n_Hint:_ Align the decimal points and subtract like whole numbers.\n\n**3. Multiply 4.2 × 3**\n_Answer:_ 12.6\n_Hint:_ Ignore decimals first, multiply, then place the decimal.\n\n**4. Divide 7.5 ÷ 1.5**\n_Answer:_ 5\n_Hint:_ Move the decimal in both numbers to the right to make the divisor a whole number.",
+    "mistakes": "- Forgetting to align decimal points in addition and subtraction.\n- Misplacing the decimal point in multiplication results.\n- Not adjusting both numbers in division to make the divisor whole.",
+    "connection": "Consider a family road trip. Calculating travel costs, fuel efficiency, or even snack budgets involves adding and subtracting decimals.",
+    "close": "**Key Takeaways**\n- Decimals are an extension of whole numbers, used in everyday life.\n- Align decimal points for addition and subtraction.\n- For multiplication, count decimal places to position the point correctly.\n- Division with decimals can be simplified by converting to whole numbers.\n\n**Parent Reflection Questions**\n- How do decimals relate to fractions?\n- What are some common uses of decimals in daily life?\n- Why is it important to align decimal points?"
   },
-  "practice": [
-    {
-      "order_index": 1,
-      "question_md": "**Q1.** Starter for **Decimals: All Operations**.",
-      "hint_md": "Hint: Try a household example.",
-      "answer_md": "Answer: Outline key steps."
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Decimals – All Operations",
+    "introduction": "Welcome to the world of decimals! In this lesson, we'll explore how to add, subtract, multiply, and divide decimals, making math both practical and fun for your sixth grader.",
+    "objective": "Help your child become confident in performing all operations with decimals.",
+    "why_matters": "Decimals are everywhere, from handling money to measuring ingredients while cooking. Mastering them is essential for everyday math skills.",
+    "parent_tip": "Use real-life examples, like shopping or cooking, to make decimal operations relatable and engaging for your child.",
+    "real_world_link": "Think about grocery shopping. When you buy fruits or vegetables, prices often involve decimals. Understanding decimals helps ensure you're charged correctly.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with a quick review of what decimals are and how they relate to fractions.",
+      "Demonstrate how to align decimals by the decimal point before adding or subtracting.",
+      "Show how to multiply decimals by treating them as whole numbers first, then placing the decimal point in the product.",
+      "Explain how to divide decimals by moving the decimal point to create whole numbers, then dividing as usual.",
+      "Practice each operation separately before combining them in mixed exercises."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's review what a decimal is.",
+        "do": "Show your child a dollar bill and a few coins.",
+        "ask": "How does the decimal point help us understand money?",
+        "reinforce": "Decimals help us express parts of a whole, like cents in a dollar."
+      },
+      {
+        "say": "When adding or subtracting decimals, line up the decimal points.",
+        "do": "Write two decimal numbers on paper and align them by the decimal point.",
+        "ask": "Why do you think we need to line up the decimals?",
+        "reinforce": "Lining them up ensures we're adding or subtracting the correct place values."
+      },
+      {
+        "say": "Multiplying decimals is like multiplying whole numbers.",
+        "do": "Multiply 2.5 by 3.2 on paper, ignoring the decimals at first, then place the decimal in the answer.",
+        "ask": "How many decimal places should our answer have?",
+        "reinforce": "The total number of decimal places in the numbers being multiplied."
+      },
+      {
+        "say": "Dividing decimals can be tricky, but it helps to make the divisor a whole number.",
+        "do": "Move the decimal point in both the divisor and dividend.",
+        "ask": "Why do we move the decimal point?",
+        "reinforce": "To simplify the division into something more familiar."
+      },
+      {
+        "say": "Let's practice with a real-world example.",
+        "do": "Ask your child to calculate the total cost of buying 3.2 lbs of apples at $1.5 per lb.",
+        "ask": "How do we multiply these decimals?",
+        "reinforce": "Multiply as usual, then count decimal places for your answer."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add 4.56 and 3.78.",
+        "hint": "Align the decimal points.",
+        "answer": "8.34"
+      },
+      {
+        "prompt": "Subtract 7.25 from 10.5.",
+        "hint": "Ensure decimal points align.",
+        "answer": "3.25"
+      },
+      {
+        "prompt": "Multiply 2.4 by 3.5.",
+        "hint": "Multiply ignoring decimals, then adjust the decimal place.",
+        "answer": "8.4"
+      },
+      {
+        "prompt": "Divide 6.3 by 1.5.",
+        "hint": "Make the divisor a whole number.",
+        "answer": "4.2"
+      }
+    ],
+    "recap": [
+      "Decimals are used to represent parts of a whole.",
+      "Align decimal points for addition and subtraction.",
+      "Count decimal places in multiplication.",
+      "Convert to whole numbers for division when needed."
+    ],
+    "common_mistakes": [
+      "Not aligning decimal points correctly.",
+      "Forgetting to adjust the decimal point in multiplication results.",
+      "Not moving the decimal point when dividing."
+    ],
+    "deep_dive": {
+      "history": "Decimals have been used for centuries, with origins traced back to ancient civilizations who needed to measure and trade goods.",
+      "connections": "Decimals connect closely with fractions and percentages, forming the basis for more advanced math concepts.",
+      "misconceptions": "A common misconception is that decimals are 'lesser' numbers because they are smaller than whole numbers.",
+      "teaching_tips": "Use visual aids like number lines and money to make decimals more tangible.",
+      "derivation": "Decimals are derived from the base-10 numbering system, which is the foundation of most modern number systems."
     },
-    {
-      "order_index": 2,
-      "question_md": "**Q2.** Medium for **Decimals: All Operations** with real objects.",
-      "hint_md": "Hint: Draw or act it out.",
-      "answer_md": "Answer: Short worked solution."
-    },
-    {
-      "order_index": 3,
-      "question_md": "**Q3.** Challenge for **Decimals: All Operations**.",
-      "hint_md": "Hint: Break it into parts.",
-      "answer_md": "Answer: Final result with reasoning."
-    }
-  ]
+    "motivation": "By mastering decimal operations, your child will gain confidence in handling real-world math challenges, setting a strong foundation for future learning."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of decimals! In this lesson, we'll explore how to add, subtract, multiply, and divide decimals, making math both practical and fun for your sixth grader.\n\n## Parent Orientation\n**Objective:** Help your child become confident in performing all operations with decimals.\n**Why it matters:** Decimals are everywhere, from handling money to measuring ingredients while cooking. Mastering them is essential for everyday math skills.\n**Parent Tip:** Use real-life examples, like shopping or cooking, to make decimal operations relatable and engaging for your child.\n**Real-World Link:** Think about grocery shopping. When you buy fruits or vegetables, prices often involve decimals. Understanding decimals helps ensure you're charged correctly.\n\n## Teaching Steps\n1. Start with a quick review of what decimals are and how they relate to fractions.\n2. Demonstrate how to align decimals by the decimal point before adding or subtracting.\n3. Show how to multiply decimals by treating them as whole numbers first, then placing the decimal point in the product.\n4. Explain how to divide decimals by moving the decimal point to create whole numbers, then dividing as usual.\n5. Practice each operation separately before combining them in mixed exercises.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's review what a decimal is.  \n**Show/Do:** Show your child a dollar bill and a few coins.  \n**Ask:** How does the decimal point help us understand money?  \n**Reinforce:** Decimals help us express parts of a whole, like cents in a dollar.\n2. **Say:** When adding or subtracting decimals, line up the decimal points.  \n**Show/Do:** Write two decimal numbers on paper and align them by the decimal point.  \n**Ask:** Why do you think we need to line up the decimals?  \n**Reinforce:** Lining them up ensures we're adding or subtracting the correct place values.\n3. **Say:** Multiplying decimals is like multiplying whole numbers.  \n**Show/Do:** Multiply 2.5 by 3.2 on paper, ignoring the decimals at first, then place the decimal in the answer.  \n**Ask:** How many decimal places should our answer have?  \n**Reinforce:** The total number of decimal places in the numbers being multiplied.\n4. **Say:** Dividing decimals can be tricky, but it helps to make the divisor a whole number.  \n**Show/Do:** Move the decimal point in both the divisor and dividend.  \n**Ask:** Why do we move the decimal point?  \n**Reinforce:** To simplify the division into something more familiar.\n5. **Say:** Let's practice with a real-world example.  \n**Show/Do:** Ask your child to calculate the total cost of buying 3.2 lbs of apples at $1.5 per lb.  \n**Ask:** How do we multiply these decimals?  \n**Reinforce:** Multiply as usual, then count decimal places for your answer.\n\n## Practice Questions (Do It Together)\n**1. Add 4.56 and 3.78.**\n<details><summary>Hint</summary>\nAlign the decimal points.\n</details>\n<details><summary>Answer</summary>\n8.34\n</details>\n\n**2. Subtract 7.25 from 10.5.**\n<details><summary>Hint</summary>\nEnsure decimal points align.\n</details>\n<details><summary>Answer</summary>\n3.25\n</details>\n\n**3. Multiply 2.4 by 3.5.**\n<details><summary>Hint</summary>\nMultiply ignoring decimals, then adjust the decimal place.\n</details>\n<details><summary>Answer</summary>\n8.4\n</details>\n\n**4. Divide 6.3 by 1.5.**\n<details><summary>Hint</summary>\nMake the divisor a whole number.\n</details>\n<details><summary>Answer</summary>\n4.2\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Decimals are used to represent parts of a whole.\n- Align decimal points for addition and subtraction.\n- Count decimal places in multiplication.\n- Convert to whole numbers for division when needed.\n\n**Common Mistakes**\n- Not aligning decimal points correctly.\n- Forgetting to adjust the decimal point in multiplication results.\n- Not moving the decimal point when dividing.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDecimals have been used for centuries, with origins traced back to ancient civilizations who needed to measure and trade goods.\n\n**Future topic connections**\n\nDecimals connect closely with fractions and percentages, forming the basis for more advanced math concepts.\n\n**Common misconceptions**\n\nA common misconception is that decimals are 'lesser' numbers because they are smaller than whole numbers.\n\n**Teaching tips for parents**\n\nUse visual aids like number lines and money to make decimals more tangible.\n\n**More detail / derivation**\n\nDecimals are derived from the base-10 numbering system, which is the foundation of most modern number systems.\n\n## Motivation\nBy mastering decimal operations, your child will gain confidence in handling real-world math challenges, setting a strong foundation for future learning."
 }

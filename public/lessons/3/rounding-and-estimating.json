@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "1e579da7-4c9d-4cca-a419-f34e2b96f25d",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "7fa60818-609d-4aca-95f8-7d23b45a98ac",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "84b1de57-3bc1-48a0-95b6-7bbc3f1684bc",
+    "slug": "rounding-and-estimating",
+    "title": "Rounding & Estimating: Finding the Nearest Number",
+    "summary": "Rounding & estimating — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to round numbers to the nearest ten and hundred with confidence.\n\n**Why it matters:** Rounding helps simplify numbers, making them easier to work with in everyday situations, like estimating costs at a store.\n\n**Parent Tip:** Use a number line to visually show your child how rounding works. It’s a great way to make the concept concrete.\n\n**Real-World Link:** Think of rounding as choosing the closest exit on a highway when you're driving. It's about finding the most convenient stop.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Help your child master the art of rounding numbers! It's like teaching them to find the nearest friendly neighbor on the number line.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that rounding is finding the nearest 'friend' for a number, either up or down.\n2. Introduce the number line as a tool to visualize numbers and their nearest tens or hundreds.\n3. Discuss the rule: If a number is 5 or more, round up. If it's less than 5, round down.\n4. Practice rounding with your child using everyday examples, like estimating the number of apples in a bag.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Round 47 to the nearest ten.**\n_Answer:_ 50\n_Hint:_ Is 47 closer to 40 or 50?\n\n**2. Round 162 to the nearest hundred.**\n_Answer:_ 200\n_Hint:_ Think of 162 on a number line between 100 and 200.\n\n**3. Round 89 to the nearest ten.**\n_Answer:_ 90\n_Hint:_ Is 89 closer to 80 or 90?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to round up when the last digit is 5.\n- Confusing rounding to the nearest ten with rounding to the nearest hundred.\n- Not using a number line for visual support, leading to miscalculations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of rounding as choosing the closest exit on a highway when you're driving. It's about finding the most convenient stop.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to round numbers to the nearest ten and estimate sums.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to round numbers to the nearest ten and hundred with confidence.\n\n**Why it matters:** Rounding helps simplify numbers, making them easier to work with in everyday situations, like estimating costs at a store.\n\n**Parent Tip:** Use a number line to visually show your child how rounding works. It’s a great way to make the concept concrete.\n\n**Real-World Link:** Think of rounding as choosing the closest exit on a highway when you're driving. It's about finding the most convenient stop.",
+    "core": "Help your child master the art of rounding numbers! It's like teaching them to find the nearest friendly neighbor on the number line.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why we sometimes say something costs 'about $20' instead of giving the exact amount?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that rounding is finding the nearest 'friend' for a number, either up or down.\n2. Introduce the number line as a tool to visualize numbers and their nearest tens or hundreds.\n3. Discuss the rule: If a number is 5 or more, round up. If it's less than 5, round down.\n4. Practice rounding with your child using everyday examples, like estimating the number of apples in a bag.",
+    "practice": "**1. Round 47 to the nearest ten.**\n_Answer:_ 50\n_Hint:_ Is 47 closer to 40 or 50?\n\n**2. Round 162 to the nearest hundred.**\n_Answer:_ 200\n_Hint:_ Think of 162 on a number line between 100 and 200.\n\n**3. Round 89 to the nearest ten.**\n_Answer:_ 90\n_Hint:_ Is 89 closer to 80 or 90?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to round up when the last digit is 5.\n- Confusing rounding to the nearest ten with rounding to the nearest hundred.\n- Not using a number line for visual support, leading to miscalculations.",
+    "connection": "Think of rounding as choosing the closest exit on a highway when you're driving. It's about finding the most convenient stop.",
+    "close": "**Key Takeaways**\n- Rounding simplifies numbers for easier calculations.\n- Estimating helps make quick, reasonable guesses.\n- Use real-life examples to make these concepts relatable.\n\n**Parent Reflection Questions**\n- How can we use rounding and estimating in our daily shopping routines?\n- What are some other situations where estimating might be helpful?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Rounding & Estimating: Finding the Nearest Number",
+    "introduction": "Welcome to the world of rounding and estimating! These skills help simplify numbers, making them easier to work with in everyday life.",
+    "objective": "By the end of this lesson, your child will be able to round numbers to the nearest ten and hundred with confidence.",
+    "why_matters": "Rounding helps us make quick decisions by simplifying numbers. It’s like using a shortcut in your mind to get an answer fast.",
+    "parent_tip": "Encourage your child to visualize a number line when rounding. This helps them see which number is closer and aids understanding.",
+    "real_world_link": "Think about grocery shopping. If an item costs $2.89, rounding helps you quickly estimate the total cost of multiple items.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of rounding using a number line.",
+      "Explain rounding to the nearest ten using examples.",
+      "Practice rounding to the nearest hundred.",
+      "Discuss why estimation is useful in daily life.",
+      "Apply these skills to solve simple real-world problems."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore rounding numbers!",
+        "do": "Draw a number line from 0 to 10.",
+        "ask": "Which number is closer to 6, 5 or 10?",
+        "reinforce": "That's right! 6 is closer to 5, so we round it to 5."
+      },
+      {
+        "say": "Now, let's try rounding to the nearest ten.",
+        "do": "Write the number 34 on a piece of paper.",
+        "ask": "Is 34 closer to 30 or 40?",
+        "reinforce": "Exactly, 34 is closer to 30! So, we round it down to 30."
+      },
+      {
+        "say": "Let's try a bigger number.",
+        "do": "Write 157 on the board.",
+        "ask": "To the nearest hundred, is 157 closer to 100 or 200?",
+        "reinforce": "Great job! 157 is closer to 200, so we round it up to 200."
+      },
+      {
+        "say": "Why do you think rounding is helpful?",
+        "do": "Share a scenario, like estimating the cost of buying 9 candies at $1.49 each.",
+        "ask": "How would rounding help estimate the total cost?",
+        "reinforce": "Rounding makes it easier to calculate quickly without needing exact numbers."
+      },
+      {
+        "say": "Let's practice with a real-world example.",
+        "do": "Ask your child to round the price of a toy costing $4.75 to the nearest dollar.",
+        "ask": "What would you round $4.75 to?",
+        "reinforce": "Awesome! $4.75 rounds up to $5, making it simpler to add up costs."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Round 23 to the nearest ten.",
+        "hint": "Which is closer, 20 or 30?",
+        "answer": "20"
+      },
+      {
+        "prompt": "Round 88 to the nearest ten.",
+        "hint": "Think about 80 and 90.",
+        "answer": "90"
+      },
+      {
+        "prompt": "Round 342 to the nearest hundred.",
+        "hint": "Is it closer to 300 or 400?",
+        "answer": "300"
+      },
+      {
+        "prompt": "Round 476 to the nearest hundred.",
+        "hint": "Consider 400 and 500.",
+        "answer": "500"
+      }
+    ],
+    "recap": [
+      "Rounding simplifies numbers, making calculations easier.",
+      "Numbers are rounded to the nearest ten or hundred based on their proximity.",
+      "Estimation is useful in many real-life situations, like shopping or budgeting."
+    ],
+    "common_mistakes": [
+      "Rounding down when the number is exactly halfway (e.g., rounding 25 to 20 instead of 30).",
+      "Confusing which ten or hundred a number is closer to.",
+      "Forgetting to apply rounding rules consistently."
+    ],
+    "deep_dive": {
+      "history": "Rounding has been used since ancient times for trade and commerce to simplify calculations.",
+      "connections": "Rounding is connected to estimation and mental math, vital skills in many math-related fields.",
+      "misconceptions": "A common misconception is that rounding always means rounding up.",
+      "teaching_tips": "Use visual aids like number lines and rounding charts to clarify concepts.",
+      "derivation": "Rounding rules are derived from the concept of 'midpoint' on a number line."
+    },
+    "motivation": "Rounding and estimating are like math's shortcuts, helping make sense of numbers quickly and easily!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of rounding and estimating! These skills help simplify numbers, making them easier to work with in everyday life.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to round numbers to the nearest ten and hundred with confidence.\n**Why it matters:** Rounding helps us make quick decisions by simplifying numbers. It’s like using a shortcut in your mind to get an answer fast.\n**Parent Tip:** Encourage your child to visualize a number line when rounding. This helps them see which number is closer and aids understanding.\n**Real-World Link:** Think about grocery shopping. If an item costs $2.89, rounding helps you quickly estimate the total cost of multiple items.\n\n## Teaching Steps\n1. Introduce the concept of rounding using a number line.\n2. Explain rounding to the nearest ten using examples.\n3. Practice rounding to the nearest hundred.\n4. Discuss why estimation is useful in daily life.\n5. Apply these skills to solve simple real-world problems.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore rounding numbers!  \n**Show/Do:** Draw a number line from 0 to 10.  \n**Ask:** Which number is closer to 6, 5 or 10?  \n**Reinforce:** That's right! 6 is closer to 5, so we round it to 5.\n2. **Say:** Now, let's try rounding to the nearest ten.  \n**Show/Do:** Write the number 34 on a piece of paper.  \n**Ask:** Is 34 closer to 30 or 40?  \n**Reinforce:** Exactly, 34 is closer to 30! So, we round it down to 30.\n3. **Say:** Let's try a bigger number.  \n**Show/Do:** Write 157 on the board.  \n**Ask:** To the nearest hundred, is 157 closer to 100 or 200?  \n**Reinforce:** Great job! 157 is closer to 200, so we round it up to 200.\n4. **Say:** Why do you think rounding is helpful?  \n**Show/Do:** Share a scenario, like estimating the cost of buying 9 candies at $1.49 each.  \n**Ask:** How would rounding help estimate the total cost?  \n**Reinforce:** Rounding makes it easier to calculate quickly without needing exact numbers.\n5. **Say:** Let's practice with a real-world example.  \n**Show/Do:** Ask your child to round the price of a toy costing $4.75 to the nearest dollar.  \n**Ask:** What would you round $4.75 to?  \n**Reinforce:** Awesome! $4.75 rounds up to $5, making it simpler to add up costs.\n\n## Practice Questions (Do It Together)\n**1. Round 23 to the nearest ten.**\n<details><summary>Hint</summary>\nWhich is closer, 20 or 30?\n</details>\n<details><summary>Answer</summary>\n20\n</details>\n\n**2. Round 88 to the nearest ten.**\n<details><summary>Hint</summary>\nThink about 80 and 90.\n</details>\n<details><summary>Answer</summary>\n90\n</details>\n\n**3. Round 342 to the nearest hundred.**\n<details><summary>Hint</summary>\nIs it closer to 300 or 400?\n</details>\n<details><summary>Answer</summary>\n300\n</details>\n\n**4. Round 476 to the nearest hundred.**\n<details><summary>Hint</summary>\nConsider 400 and 500.\n</details>\n<details><summary>Answer</summary>\n500\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Rounding simplifies numbers, making calculations easier.\n- Numbers are rounded to the nearest ten or hundred based on their proximity.\n- Estimation is useful in many real-life situations, like shopping or budgeting.\n\n**Common Mistakes**\n- Rounding down when the number is exactly halfway (e.g., rounding 25 to 20 instead of 30).\n- Confusing which ten or hundred a number is closer to.\n- Forgetting to apply rounding rules consistently.\n\n## 🔍 Deep Dive\n**History or origin**\n\nRounding has been used since ancient times for trade and commerce to simplify calculations.\n\n**Future topic connections**\n\nRounding is connected to estimation and mental math, vital skills in many math-related fields.\n\n**Common misconceptions**\n\nA common misconception is that rounding always means rounding up.\n\n**Teaching tips for parents**\n\nUse visual aids like number lines and rounding charts to clarify concepts.\n\n**More detail / derivation**\n\nRounding rules are derived from the concept of 'midpoint' on a number line.\n\n## Motivation\nRounding and estimating are like math's shortcuts, helping make sense of numbers quickly and easily!"
+}

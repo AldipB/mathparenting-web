@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "d00a2a9c-de04-4ad7-99d3-95757e7bd353",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "0393924e-6081-41ae-b73d-8e230732c268",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "a2bfa5f7-295d-404b-a468-082f44b873be",
+    "slug": "word-problems-4-operations",
+    "title": "Word Problems with Four Operations: A Parent's Guide",
+    "summary": "Word problems 4-operations — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child confidently tackle word problems involving addition, subtraction, multiplication, and division.\n\n**Why it matters:** Word problems teach kids to apply math in everyday life, boosting their ability to think logically and make decisions.\n\n**Parent Tip:** Encourage your child to read the problem aloud and discuss what it's asking. This can make it less intimidating and more like a story.\n\n**Real-World Link:** Think of word problems like planning a family picnic. You need to know how many sandwiches to make or how many drinks to buy. Math helps us ensure everyone is happy and full!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of word problems! These are math puzzles that use real-life situations. By understanding how to solve them, your child will develop critical thinking and problem-solving skills.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by reading the problem together and discuss what it is about.\n2. Identify the numbers and what they represent in the problem.\n3. Determine which operation(s) to use: addition, subtraction, multiplication, or division.\n4. Solve the problem step-by-step, checking each step.\n5. Discuss the solution and how it answers the question.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Sarah has 8 apples. She buys 5 more. How many apples does she have now?**\n_Answer:_ 13 apples\n_Hint:_ Think about adding the apples she bought to the ones she already has.\n\n**2. Michael has 20 marbles. He gives 6 to his friend. How many marbles does he have left?**\n_Answer:_ 14 marbles\n_Hint:_ Consider how many marbles are left after giving some away.\n\n**3. A pack of pencils has 10 pencils. If you buy 3 packs, how many pencils do you have in total?**\n_Answer:_ 30 pencils\n_Hint:_ Multiply the number of packs by the pencils per pack.\n\n**4. There are 24 candies, and you want to share them equally among 4 friends. How many candies does each friend get?**\n_Answer:_ 6 candies\n_Hint:_ Divide the total candies by the number of friends.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Rushing through the problem without understanding it.\n- Misidentifying which operation to use.\n- Forgetting to check the answer with the original question.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of word problems like planning a family picnic. You need to know how many sandwiches to make or how many drinks to buy. Math helps us ensure everyone is happy and full!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child confidently tackle word problems using addition, subtraction, multiplication, and division.",
+    "overview": "**Objective:** To help your child confidently tackle word problems involving addition, subtraction, multiplication, and division.\n\n**Why it matters:** Word problems teach kids to apply math in everyday life, boosting their ability to think logically and make decisions.\n\n**Parent Tip:** Encourage your child to read the problem aloud and discuss what it's asking. This can make it less intimidating and more like a story.\n\n**Real-World Link:** Think of word problems like planning a family picnic. You need to know how many sandwiches to make or how many drinks to buy. Math helps us ensure everyone is happy and full!",
+    "core": "Welcome to the world of word problems! These are math puzzles that use real-life situations. By understanding how to solve them, your child will develop critical thinking and problem-solving skills.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever thought about how math is like solving a mystery? Each clue (number or word) helps us figure out the big picture.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by reading the problem together and discuss what it is about.\n2. Identify the numbers and what they represent in the problem.\n3. Determine which operation(s) to use: addition, subtraction, multiplication, or division.\n4. Solve the problem step-by-step, checking each step.\n5. Discuss the solution and how it answers the question.",
+    "practice": "**1. Sarah has 8 apples. She buys 5 more. How many apples does she have now?**\n_Answer:_ 13 apples\n_Hint:_ Think about adding the apples she bought to the ones she already has.\n\n**2. Michael has 20 marbles. He gives 6 to his friend. How many marbles does he have left?**\n_Answer:_ 14 marbles\n_Hint:_ Consider how many marbles are left after giving some away.\n\n**3. A pack of pencils has 10 pencils. If you buy 3 packs, how many pencils do you have in total?**\n_Answer:_ 30 pencils\n_Hint:_ Multiply the number of packs by the pencils per pack.\n\n**4. There are 24 candies, and you want to share them equally among 4 friends. How many candies does each friend get?**\n_Answer:_ 6 candies\n_Hint:_ Divide the total candies by the number of friends.",
+    "mistakes": "- Rushing through the problem without understanding it.\n- Misidentifying which operation to use.\n- Forgetting to check the answer with the original question.",
+    "connection": "Think of word problems like planning a family picnic. You need to know how many sandwiches to make or how many drinks to buy. Math helps us ensure everyone is happy and full!",
+    "close": "**Key Takeaways**\n- Word problems help children apply math in real-world contexts.\n- Identifying keywords can guide which operation to use.\n- Encourage visualization to make the problem more tangible.\n\n**Parent Reflection Questions**\n- How can I help my child understand which operation to use?\n- What are some fun ways to practice word problems at home?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Word Problems with Four Operations: A Parent's Guide",
+    "introduction": "Helping your child navigate word problems can be a rewarding experience for both of you. This guide will equip you with the tools to make math engaging and relatable.",
+    "objective": "To help parents guide their children in solving word problems using addition, subtraction, multiplication, and division.",
+    "why_matters": "Word problems are everywhere in the real world. They help children develop critical thinking and problem-solving skills essential for daily life.",
+    "parent_tip": "Encourage your child to read the problem aloud and visualize the scenario. This can make abstract numbers feel more concrete.",
+    "real_world_link": "Think of a grocery store trip where you calculate total costs, discounts, or even how many apples fit in a bag. These are everyday word problems!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Read the problem together and identify key information.",
+      "Determine which operation(s) to use: addition, subtraction, multiplication, or division.",
+      "Create a plan to solve the problem step-by-step.",
+      "Solve the problem together and check your work.",
+      "Discuss the solution and how it applies to real life."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's read this word problem together.",
+        "do": "Read the problem aloud with your child.",
+        "ask": "What is the problem asking us to find?",
+        "reinforce": "Great! Understanding the question is the first step."
+      },
+      {
+        "say": "Now, let's find the important numbers and words.",
+        "do": "Highlight or underline key information in the problem.",
+        "ask": "Which numbers or words seem important?",
+        "reinforce": "Identifying key details helps us know what to do next."
+      },
+      {
+        "say": "What operation do you think we should use?",
+        "do": "Discuss the operations: addition, subtraction, multiplication, division.",
+        "ask": "Why do you think that operation works here?",
+        "reinforce": "Choosing the right operation is like picking the right tool for a job."
+      },
+      {
+        "say": "Let's write out our plan to solve this.",
+        "do": "Help your child lay out the steps to solve the problem.",
+        "ask": "What will we do first?",
+        "reinforce": "Having a plan makes solving easier and more organized."
+      },
+      {
+        "say": "Let's solve it together and check our work.",
+        "do": "Work through the problem step-by-step.",
+        "ask": "Does our answer make sense?",
+        "reinforce": "Checking helps us ensure our solution is correct."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Sarah has 5 packs of stickers. Each pack has 8 stickers. How many stickers does she have in total?",
+        "hint": "Think about how many stickers are in one pack and how many packs there are.",
+        "answer": "40"
+      },
+      {
+        "prompt": "Tom has 24 candies and shares them equally with 3 friends. How many candies does each friend get?",
+        "hint": "Use division to find out how many candies each friend receives.",
+        "answer": "8"
+      },
+      {
+        "prompt": "A book costs $15, and you have $50. How much money will you have left after buying the book?",
+        "hint": "Subtract the cost of the book from the money you have.",
+        "answer": "35"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Word problems help us apply math to real-life situations.",
+      "Identifying key information is crucial.",
+      "Choosing the correct operation makes solving easier."
+    ],
+    "common_mistakes": [
+      "Rushing through the problem without understanding it fully.",
+      "Choosing the wrong operation for the problem.",
+      "Not checking the work to ensure the answer makes sense."
+    ],
+    "deep_dive": {
+      "history": "Word problems have been used since ancient times to teach math through relatable scenarios.",
+      "connections": "Solving word problems connects math with reading comprehension and critical thinking.",
+      "misconceptions": "A common misconception is that word problems are only about numbers, but understanding the story is key.",
+      "teaching_tips": "Encourage visualization and drawing to help clarify complex problems.",
+      "derivation": "Word problems derive from real-life scenarios that require mathematical solutions, making them a practical tool for learning."
+    },
+    "motivation": "Remember, solving word problems is like being a detective. You're piecing together clues to find the solution!"
+  },
+  "markdown": "## Lesson Introduction\nHelping your child navigate word problems can be a rewarding experience for both of you. This guide will equip you with the tools to make math engaging and relatable.\n\n## Parent Orientation\n**Objective:** To help parents guide their children in solving word problems using addition, subtraction, multiplication, and division.\n**Why it matters:** Word problems are everywhere in the real world. They help children develop critical thinking and problem-solving skills essential for daily life.\n**Parent Tip:** Encourage your child to read the problem aloud and visualize the scenario. This can make abstract numbers feel more concrete.\n**Real-World Link:** Think of a grocery store trip where you calculate total costs, discounts, or even how many apples fit in a bag. These are everyday word problems!\n\n## Teaching Steps\n1. Read the problem together and identify key information.\n2. Determine which operation(s) to use: addition, subtraction, multiplication, or division.\n3. Create a plan to solve the problem step-by-step.\n4. Solve the problem together and check your work.\n5. Discuss the solution and how it applies to real life.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's read this word problem together.  \n**Show/Do:** Read the problem aloud with your child.  \n**Ask:** What is the problem asking us to find?  \n**Reinforce:** Great! Understanding the question is the first step.\n2. **Say:** Now, let's find the important numbers and words.  \n**Show/Do:** Highlight or underline key information in the problem.  \n**Ask:** Which numbers or words seem important?  \n**Reinforce:** Identifying key details helps us know what to do next.\n3. **Say:** What operation do you think we should use?  \n**Show/Do:** Discuss the operations: addition, subtraction, multiplication, division.  \n**Ask:** Why do you think that operation works here?  \n**Reinforce:** Choosing the right operation is like picking the right tool for a job.\n4. **Say:** Let's write out our plan to solve this.  \n**Show/Do:** Help your child lay out the steps to solve the problem.  \n**Ask:** What will we do first?  \n**Reinforce:** Having a plan makes solving easier and more organized.\n5. **Say:** Let's solve it together and check our work.  \n**Show/Do:** Work through the problem step-by-step.  \n**Ask:** Does our answer make sense?  \n**Reinforce:** Checking helps us ensure our solution is correct.\n\n## Practice Questions (Do It Together)\n**1. Sarah has 5 packs of stickers. Each pack has 8 stickers. How many stickers does she have in total?**\n<details><summary>Hint</summary>\nThink about how many stickers are in one pack and how many packs there are.\n</details>\n<details><summary>Answer</summary>\n40\n</details>\n\n**2. Tom has 24 candies and shares them equally with 3 friends. How many candies does each friend get?**\n<details><summary>Hint</summary>\nUse division to find out how many candies each friend receives.\n</details>\n<details><summary>Answer</summary>\n8\n</details>\n\n**3. A book costs $15, and you have $50. How much money will you have left after buying the book?**\n<details><summary>Hint</summary>\nSubtract the cost of the book from the money you have.\n</details>\n<details><summary>Answer</summary>\n35\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Word problems help us apply math to real-life situations.\n- Identifying key information is crucial.\n- Choosing the correct operation makes solving easier.\n\n**Common Mistakes**\n- Rushing through the problem without understanding it fully.\n- Choosing the wrong operation for the problem.\n- Not checking the work to ensure the answer makes sense.\n\n## 🔍 Deep Dive\n**History or origin**\n\nWord problems have been used since ancient times to teach math through relatable scenarios.\n\n**Future topic connections**\n\nSolving word problems connects math with reading comprehension and critical thinking.\n\n**Common misconceptions**\n\nA common misconception is that word problems are only about numbers, but understanding the story is key.\n\n**Teaching tips for parents**\n\nEncourage visualization and drawing to help clarify complex problems.\n\n**More detail / derivation**\n\nWord problems derive from real-life scenarios that require mathematical solutions, making them a practical tool for learning.\n\n## Motivation\nRemember, solving word problems is like being a detective. You're piecing together clues to find the solution!"
+}

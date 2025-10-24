@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "c2063abd-69a7-4caf-a949-35223bcca008",
+    "slug": "11",
+    "name": "Grade 11"
+  },
+  "unit": {
+    "id": "524912fc-1abb-45f3-bbaa-13d177aa8cd0",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "7eb85b99-3198-47ee-b8e9-918efe8932e6",
+    "slug": "rational-functions-asymptotes",
+    "title": "Rational Functions Asymptotes",
+    "summary": "Rational Functions Asymptotes — summary for parents in Grade 11.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Rational Functions Asymptotes** in Grade 11.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Rational Functions Asymptotes** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Rational Functions Asymptotes** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Rational Functions Asymptotes** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Rational Functions Asymptotes** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Rational Functions Asymptotes**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Rational Functions Asymptotes**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Rational Functions Asymptotes**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Rational Functions Asymptotes** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Rational Functions Asymptotes**.",
+    "overview": "This lesson helps children understand **Rational Functions Asymptotes**.",
+    "core": "Explain **Rational Functions Asymptotes** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Rational Functions Asymptotes**."
+}

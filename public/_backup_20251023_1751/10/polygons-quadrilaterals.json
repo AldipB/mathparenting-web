@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "816f597b-e2af-4acf-bbda-098efe286e21",
+    "slug": "10",
+    "name": "Grade 10"
+  },
+  "unit": {
+    "id": "5d275792-78fd-43de-843c-687cd200e062",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "9457b574-aacd-4815-9e62-b6b380d06ecb",
+    "slug": "polygons-quadrilaterals",
+    "title": "Polygons Quadrilaterals",
+    "summary": "Polygons Quadrilaterals — summary for parents in Grade 10.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Polygons Quadrilaterals** in Grade 10.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Polygons Quadrilaterals** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Polygons Quadrilaterals** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Polygons Quadrilaterals** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Polygons Quadrilaterals** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Polygons Quadrilaterals**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Polygons Quadrilaterals**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Polygons Quadrilaterals**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Polygons Quadrilaterals** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Polygons Quadrilaterals**.",
+    "overview": "This lesson helps children understand **Polygons Quadrilaterals**.",
+    "core": "Explain **Polygons Quadrilaterals** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Polygons Quadrilaterals**."
+}

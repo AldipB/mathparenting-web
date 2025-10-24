@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "986bcf5c-995d-4f0c-b92f-28874381c864",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "3f71805a-6691-4b36-915b-8b41684e797d",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "2d76a12e-1d79-48dc-9e6a-bc5736110d55",
+    "slug": "volume-surface-area-cylinders-cones-spheres",
+    "title": "Volume Surface Area Cylinders Cones Spheres",
+    "summary": "Volume Surface Area Cylinders Cones Spheres — summary for parents in Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 15
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Volume Surface Area Cylinders Cones Spheres** in Grade 8.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Volume Surface Area Cylinders Cones Spheres** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Volume Surface Area Cylinders Cones Spheres** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Volume Surface Area Cylinders Cones Spheres** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Volume Surface Area Cylinders Cones Spheres** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Volume Surface Area Cylinders Cones Spheres**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Volume Surface Area Cylinders Cones Spheres**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Volume Surface Area Cylinders Cones Spheres**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Volume Surface Area Cylinders Cones Spheres** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Volume Surface Area Cylinders Cones Spheres**.",
+    "overview": "This lesson helps children understand **Volume Surface Area Cylinders Cones Spheres**.",
+    "core": "Explain **Volume Surface Area Cylinders Cones Spheres** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Volume Surface Area Cylinders Cones Spheres**."
+}

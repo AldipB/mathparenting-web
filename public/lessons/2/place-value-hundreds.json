@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "d631a70e-25c9-41af-95ae-8226337a59dc",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "97743452-ac99-4468-b2c7-e43873ccbeef",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "46d00036-8262-46ca-aea8-96ab8652dd07",
+    "slug": "place-value-hundreds",
+    "title": "Understanding Place Value: Hundreds",
+    "summary": "Place value (hundreds) — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the concept of place value in the hundreds place and how to apply it to reading and writing numbers.\n\n**Why it matters:** Understanding place value is crucial because it's the foundation for all math operations. It's like knowing the value of each piece in a board game before playing.\n\n**Parent Tip:** Use everyday objects like coins or blocks to make groups of ten and then group those tens into hundreds. Visual aids can make abstract concepts more concrete.\n\n**Real-World Link:** Think of place value like stacking boxes. One box is a unit, ten boxes make a stack of ten, and ten stacks make a pallet of a hundred. Each position holds a different value, just like these stacks.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to understanding place value up to hundreds! This lesson will help your child see how numbers are built, one digit at a time, and why each digit has a different value based on its position.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a number like 345. Explain that the '3' is in the hundreds place.\n2. Show how 345 can be broken down into 300 (hundreds), 40 (tens), and 5 (units).\n3. Use objects to represent hundreds, tens, and units to visualize the number.\n4. Practice writing numbers and identifying the place value of each digit.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is the value of '5' in 452?**\n_Answer:_ 50, because it is in the tens place.\n_Hint:_ Look at the position of the '5'.\n\n**2. In the number 607, what does the '6' represent?**\n_Answer:_ 600, because it is in the hundreds place.\n_Hint:_ Think about how many hundreds are in the number.\n\n**3. If you have 3 hundreds, 4 tens, and 8 ones, what number do you have?**\n_Answer:_ 348\n_Hint:_ Write down each value and add them together.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the order of place values (e.g., mixing up tens and hundreds).\n- Counting the value of a digit based on its face value, not its place value.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of place value like stacking boxes. One box is a unit, ten boxes make a stack of ten, and ten stacks make a pallet of a hundred. Each position holds a different value, just like these stacks.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the concept of place value up to hundreds.",
+    "overview": "**Objective:** Help your child understand the concept of place value in the hundreds place and how to apply it to reading and writing numbers.\n\n**Why it matters:** Understanding place value is crucial because it's the foundation for all math operations. It's like knowing the value of each piece in a board game before playing.\n\n**Parent Tip:** Use everyday objects like coins or blocks to make groups of ten and then group those tens into hundreds. Visual aids can make abstract concepts more concrete.\n\n**Real-World Link:** Think of place value like stacking boxes. One box is a unit, ten boxes make a stack of ten, and ten stacks make a pallet of a hundred. Each position holds a different value, just like these stacks.",
+    "core": "Welcome to understanding place value up to hundreds! This lesson will help your child see how numbers are built, one digit at a time, and why each digit has a different value based on its position.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: If you have 100 candies, how many groups of 10 can you make? What if you have 200 candies?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a number like 345. Explain that the '3' is in the hundreds place.\n2. Show how 345 can be broken down into 300 (hundreds), 40 (tens), and 5 (units).\n3. Use objects to represent hundreds, tens, and units to visualize the number.\n4. Practice writing numbers and identifying the place value of each digit.",
+    "practice": "**1. What is the value of '5' in 452?**\n_Answer:_ 50, because it is in the tens place.\n_Hint:_ Look at the position of the '5'.\n\n**2. In the number 607, what does the '6' represent?**\n_Answer:_ 600, because it is in the hundreds place.\n_Hint:_ Think about how many hundreds are in the number.\n\n**3. If you have 3 hundreds, 4 tens, and 8 ones, what number do you have?**\n_Answer:_ 348\n_Hint:_ Write down each value and add them together.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the order of place values (e.g., mixing up tens and hundreds).\n- Counting the value of a digit based on its face value, not its place value.",
+    "connection": "Think of place value like stacking boxes. One box is a unit, ten boxes make a stack of ten, and ten stacks make a pallet of a hundred. Each position holds a different value, just like these stacks.",
+    "close": "**Key Takeaways**\n- Place value is about understanding the position of digits in a number.\n- Each position has a different value: ones, tens, hundreds.\n- Using real objects can help solidify this concept.\n\n**Parent Reflection Questions**\n- How can you create more hands-on practice with place value at home?\n- What real-life scenarios can you use to reinforce this concept?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Place Value: Hundreds",
+    "introduction": "Welcome to the world of hundreds! In this lesson, we’ll explore how the number system works with hundreds, tens, and ones. This understanding is crucial for your child’s math journey.",
+    "objective": "Help your child understand and identify the place value of hundreds in three-digit numbers.",
+    "why_matters": "Understanding place value is foundational for math. It helps kids grasp more complex concepts later, like multiplication and division.",
+    "parent_tip": "Use everyday objects like blocks or coins to visualize groups of hundreds, tens, and ones. It makes learning tangible and fun!",
+    "real_world_link": "Think about how we count money. A $100 bill is like having 100 $1 bills. It’s a handy way to see place value in action.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of hundreds using physical objects.",
+      "Explain how 100 is a bundle of ten 10s.",
+      "Show how to identify hundreds, tens, and ones in a number.",
+      "Practice with different numbers and emphasize the hundreds place.",
+      "Use real-world examples to reinforce understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore how numbers are made of hundreds, tens, and ones.",
+        "do": "Show 100 small objects grouped into ten groups of ten.",
+        "ask": "How many objects do we have in total?",
+        "reinforce": "That's right! 100 is made of ten 10s."
+      },
+      {
+        "say": "Now, let's look at the number 345.",
+        "do": "Write the number on a piece of paper.",
+        "ask": "Can you tell me what each digit stands for?",
+        "reinforce": "The '3' is in the hundreds place, which means 300."
+      },
+      {
+        "say": "Look around the house for examples of hundreds.",
+        "do": "Find a $100 bill or something similar.",
+        "ask": "How many ones would we have if we had 100?",
+        "reinforce": "Exactly, 100 ones make up 100."
+      },
+      {
+        "say": "Let's practice with another number, like 672.",
+        "do": "Write the number down and circle the '6'.",
+        "ask": "What does the '6' mean here?",
+        "reinforce": "Great! It means 600."
+      },
+      {
+        "say": "Can you think of any other examples of hundreds?",
+        "do": "Encourage your child to think of items in packs of 100.",
+        "ask": "What about a pack of 100 papers?",
+        "reinforce": "Perfect! That's another great example."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is the value of '4' in the number 482?",
+        "hint": "Look at the position of the '4'.",
+        "answer": "400"
+      },
+      {
+        "prompt": "In 573, what does the '5' represent?",
+        "hint": "It's in the hundreds place.",
+        "answer": "500"
+      },
+      {
+        "prompt": "If you have 100 apples, how many groups of ten do you have?",
+        "hint": "Think about how many tens make 100.",
+        "answer": "10"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Hundreds are made up of ten groups of ten.",
+      "The hundreds place in a number tells us how many hundreds are in the number.",
+      "Using real-world examples helps solidify understanding."
+    ],
+    "common_mistakes": [
+      "Confusing the tens place with the hundreds place.",
+      "Thinking the first digit is always the hundreds place without checking the number of digits.",
+      "Forgetting that 100 is a complete set of ten 10s."
+    ],
+    "deep_dive": {
+      "history": "The concept of place value dates back to ancient civilizations like the Babylonians, who used a base-60 system.",
+      "connections": "Place value is crucial in understanding arithmetic operations and is the basis for our decimal system.",
+      "misconceptions": "Some children may think each digit stands alone, rather than representing a specific value based on its position.",
+      "teaching_tips": "Use visual aids and real objects to make the abstract concept of place value more concrete.",
+      "derivation": "Place value derives from the need to represent large numbers efficiently using a base-10 system."
+    },
+    "motivation": "Mastering place value opens up a world of mathematical possibilities for your child, boosting their confidence and ability to tackle more complex math problems!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of hundreds! In this lesson, we’ll explore how the number system works with hundreds, tens, and ones. This understanding is crucial for your child’s math journey.\n\n## Parent Orientation\n**Objective:** Help your child understand and identify the place value of hundreds in three-digit numbers.\n**Why it matters:** Understanding place value is foundational for math. It helps kids grasp more complex concepts later, like multiplication and division.\n**Parent Tip:** Use everyday objects like blocks or coins to visualize groups of hundreds, tens, and ones. It makes learning tangible and fun!\n**Real-World Link:** Think about how we count money. A $100 bill is like having 100 $1 bills. It’s a handy way to see place value in action.\n\n## Teaching Steps\n1. Introduce the concept of hundreds using physical objects.\n2. Explain how 100 is a bundle of ten 10s.\n3. Show how to identify hundreds, tens, and ones in a number.\n4. Practice with different numbers and emphasize the hundreds place.\n5. Use real-world examples to reinforce understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore how numbers are made of hundreds, tens, and ones.  \n**Show/Do:** Show 100 small objects grouped into ten groups of ten.  \n**Ask:** How many objects do we have in total?  \n**Reinforce:** That's right! 100 is made of ten 10s.\n2. **Say:** Now, let's look at the number 345.  \n**Show/Do:** Write the number on a piece of paper.  \n**Ask:** Can you tell me what each digit stands for?  \n**Reinforce:** The '3' is in the hundreds place, which means 300.\n3. **Say:** Look around the house for examples of hundreds.  \n**Show/Do:** Find a $100 bill or something similar.  \n**Ask:** How many ones would we have if we had 100?  \n**Reinforce:** Exactly, 100 ones make up 100.\n4. **Say:** Let's practice with another number, like 672.  \n**Show/Do:** Write the number down and circle the '6'.  \n**Ask:** What does the '6' mean here?  \n**Reinforce:** Great! It means 600.\n5. **Say:** Can you think of any other examples of hundreds?  \n**Show/Do:** Encourage your child to think of items in packs of 100.  \n**Ask:** What about a pack of 100 papers?  \n**Reinforce:** Perfect! That's another great example.\n\n## Practice Questions (Do It Together)\n**1. What is the value of '4' in the number 482?**\n<details><summary>Hint</summary>\nLook at the position of the '4'.\n</details>\n<details><summary>Answer</summary>\n400\n</details>\n\n**2. In 573, what does the '5' represent?**\n<details><summary>Hint</summary>\nIt's in the hundreds place.\n</details>\n<details><summary>Answer</summary>\n500\n</details>\n\n**3. If you have 100 apples, how many groups of ten do you have?**\n<details><summary>Hint</summary>\nThink about how many tens make 100.\n</details>\n<details><summary>Answer</summary>\n10\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Hundreds are made up of ten groups of ten.\n- The hundreds place in a number tells us how many hundreds are in the number.\n- Using real-world examples helps solidify understanding.\n\n**Common Mistakes**\n- Confusing the tens place with the hundreds place.\n- Thinking the first digit is always the hundreds place without checking the number of digits.\n- Forgetting that 100 is a complete set of ten 10s.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of place value dates back to ancient civilizations like the Babylonians, who used a base-60 system.\n\n**Future topic connections**\n\nPlace value is crucial in understanding arithmetic operations and is the basis for our decimal system.\n\n**Common misconceptions**\n\nSome children may think each digit stands alone, rather than representing a specific value based on its position.\n\n**Teaching tips for parents**\n\nUse visual aids and real objects to make the abstract concept of place value more concrete.\n\n**More detail / derivation**\n\nPlace value derives from the need to represent large numbers efficiently using a base-10 system.\n\n## Motivation\nMastering place value opens up a world of mathematical possibilities for your child, boosting their confidence and ability to tackle more complex math problems!"
+}

@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "d72c9d6f-80f8-4058-b0f9-fd88d9499c85",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "7648e285-63f8-4989-8253-9bc71e770bf5",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "66e9762d-dee3-421f-8b79-4e46e4fac36c",
+    "slug": "fractions-as-halves-and-quarters",
+    "title": "Understanding Fractions: Halves & Quarters",
+    "summary": "Fractions as halves & quarters — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and identify halves and quarters using real-world examples.\n\n**Why it matters:** Fractions are everywhere! They help us share and divide things equally, an essential skill in everyday life.\n\n**Parent Tip:** Use food items like apples or pizzas to make learning fractions fun and relatable for your child.\n\n**Real-World Link:** Think of a pizza: cutting it into two equal parts gives you halves, while four equal parts give you quarters.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to your child's journey into the world of fractions! Today, we'll explore halves and quarters, which are all about sharing equally.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Begin with a familiar object, like an apple. Cut it into two equal parts and explain that each part is called a 'half'.\n2. Now take the same apple and cut it into four equal pieces. Explain that these are 'quarters'.\n3. Use visual aids like a paper circle (pizza) to illustrate halves and quarters.\n4. Discuss how two quarters make a half, reinforcing the connection between these fractions.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If you have a cookie and you break it into two equal parts, what is each part called? (use numbers like 6 and 9)**\n_Answer:_ Each part is called a 'half'.\n_Hint:_ Think about cutting something in half.\n\n**2. You have a sandwich and you cut it into four equal pieces. What is each piece called? (use numbers like 6 and 9)**\n_Answer:_ Each piece is called a 'quarter'.\n_Hint:_ Four equal parts are called something special.\n\n**3. If you eat two quarters of a pizza, how much of the pizza have you eaten? (use numbers like 6 and 9)**\n_Answer:_ You have eaten half of the pizza.\n_Hint:_ Two quarters is the same as another fraction you know.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing halves and quarters with other fractions.\n- Thinking that any two or four pieces are halves or quarters, even if they're not equal.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a pizza: cutting it into two equal parts gives you halves, while four equal parts give you quarters.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the concept of fractions, specifically halves and quarters, by using everyday objects and examples.",
+    "overview": "**Objective:** Help your child understand and identify halves and quarters using real-world examples.\n\n**Why it matters:** Fractions are everywhere! They help us share and divide things equally, an essential skill in everyday life.\n\n**Parent Tip:** Use food items like apples or pizzas to make learning fractions fun and relatable for your child.\n\n**Real-World Link:** Think of a pizza: cutting it into two equal parts gives you halves, while four equal parts give you quarters.",
+    "core": "Welcome to your child's journey into the world of fractions! Today, we'll explore halves and quarters, which are all about sharing equally.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever shared a treat with a friend and wondered how to make sure you both get the same amount? Let's explore how we can do that using halves and quarters!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Begin with a familiar object, like an apple. Cut it into two equal parts and explain that each part is called a 'half'.\n2. Now take the same apple and cut it into four equal pieces. Explain that these are 'quarters'.\n3. Use visual aids like a paper circle (pizza) to illustrate halves and quarters.\n4. Discuss how two quarters make a half, reinforcing the connection between these fractions.",
+    "practice": "**1. If you have a cookie and you break it into two equal parts, what is each part called? (use numbers like 6 and 9)**\n_Answer:_ Each part is called a 'half'.\n_Hint:_ Think about cutting something in half.\n\n**2. You have a sandwich and you cut it into four equal pieces. What is each piece called? (use numbers like 6 and 9)**\n_Answer:_ Each piece is called a 'quarter'.\n_Hint:_ Four equal parts are called something special.\n\n**3. If you eat two quarters of a pizza, how much of the pizza have you eaten? (use numbers like 6 and 9)**\n_Answer:_ You have eaten half of the pizza.\n_Hint:_ Two quarters is the same as another fraction you know.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing halves and quarters with other fractions.\n- Thinking that any two or four pieces are halves or quarters, even if they're not equal.",
+    "connection": "Think of a pizza: cutting it into two equal parts gives you halves, while four equal parts give you quarters.",
+    "close": "**Key Takeaways**\n- Fractions are parts of a whole.\n- A half is one of two equal parts.\n- A quarter is one of four equal parts.\n\n**Parent Reflection Questions**\n- How can you use fractions in cooking?\n- What happens if the parts are not equal?"
+  },
+  "practice": "**1.** Independent challenge #1 for \"Fractions as halves & quarters\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**2.** Independent challenge #2 for \"Fractions as halves & quarters\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**3.** Independent challenge #3 for \"Fractions as halves & quarters\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.",
+  "universal": {
+    "title": "Understanding Fractions: Halves & Quarters",
+    "introduction": "Welcome to the world of fractions, where we explore the idea of sharing and dividing things into equal parts. Today, we'll focus on two important fractions: halves and quarters.",
+    "objective": "Help your child understand and identify halves and quarters in everyday objects.",
+    "why_matters": "Understanding fractions is foundational for math skills your child will use throughout their life, from cooking to building projects.",
+    "parent_tip": "Use everyday items like fruits or toys to make fractions tangible and fun for your child.",
+    "real_world_link": "Think about a pizza or a chocolate bar. When you share it equally, you're using fractions!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of halves and quarters using everyday language.",
+      "Show examples using objects like fruits or snacks.",
+      "Explain how halves mean two equal parts and quarters mean four equal parts.",
+      "Practice identifying halves and quarters in different scenarios.",
+      "Encourage your child to explain fractions back to you."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's learn about fractions using something we all love: food!",
+        "do": "Take an apple and cut it in half.",
+        "ask": "What do you notice about the two pieces of apple?",
+        "reinforce": "When we cut something into two equal parts, each part is called a half."
+      },
+      {
+        "say": "Now, let's look at quarters.",
+        "do": "Cut the apple into four equal pieces.",
+        "ask": "How many pieces do we have now?",
+        "reinforce": "Each piece is a quarter because there are four equal parts."
+      },
+      {
+        "say": "Can you find something else we can divide into halves?",
+        "do": "Look around the kitchen or use a toy.",
+        "ask": "How would you divide this object into halves?",
+        "reinforce": "Great job! Remember, halves are always two equal parts."
+      },
+      {
+        "say": "Let's try with quarters again.",
+        "do": "Use a piece of paper and fold it into four equal sections.",
+        "ask": "What do you see when we unfold the paper?",
+        "reinforce": "Each section is a quarter of the whole paper."
+      },
+      {
+        "say": "Why do you think fractions are important?",
+        "do": "Discuss examples like sharing a pizza or splitting a bill.",
+        "ask": "Can you think of another time we use fractions?",
+        "reinforce": "Fractions help us share and use things fairly."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you have a sandwich and cut it into 2 equal parts, what is each part called?",
+        "hint": "Think about the apple we cut.",
+        "answer": "Each part is a half."
+      },
+      {
+        "prompt": "You have a chocolate bar divided into 4 equal pieces. What is each piece called?",
+        "hint": "Remember the paper we folded.",
+        "answer": "Each piece is a quarter."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Halves divide something into two equal parts.",
+      "Quarters divide something into four equal parts.",
+      "Fractions help us understand and share things equally."
+    ],
+    "common_mistakes": [
+      "Thinking halves or quarters have to be the same shape, not just the same size.",
+      "Confusing the number of pieces with the size of pieces."
+    ],
+    "deep_dive": {
+      "history": "Fractions have been used since ancient times, with the Egyptians using them to divide land and food.",
+      "connections": "Fractions are used in cooking, quilting, and even computer graphics.",
+      "misconceptions": "Some think fractions only apply to food, but they are everywhere in everyday life.",
+      "teaching_tips": "Use visuals and real objects to make fractions relatable.",
+      "derivation": "The terms 'half' and 'quarter' come from Old English, meaning 'divided into two' and 'divided into four'."
+    },
+    "motivation": "Understanding fractions helps kids see the world in a new way, making math not just numbers, but a tool for sharing and fairness."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of fractions, where we explore the idea of sharing and dividing things into equal parts. Today, we'll focus on two important fractions: halves and quarters.\n\n## Parent Orientation\n**Objective:** Help your child understand and identify halves and quarters in everyday objects.\n**Why it matters:** Understanding fractions is foundational for math skills your child will use throughout their life, from cooking to building projects.\n**Parent Tip:** Use everyday items like fruits or toys to make fractions tangible and fun for your child.\n**Real-World Link:** Think about a pizza or a chocolate bar. When you share it equally, you're using fractions!\n\n## Teaching Steps\n1. Introduce the concept of halves and quarters using everyday language.\n2. Show examples using objects like fruits or snacks.\n3. Explain how halves mean two equal parts and quarters mean four equal parts.\n4. Practice identifying halves and quarters in different scenarios.\n5. Encourage your child to explain fractions back to you.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's learn about fractions using something we all love: food!  \n**Show/Do:** Take an apple and cut it in half.  \n**Ask:** What do you notice about the two pieces of apple?  \n**Reinforce:** When we cut something into two equal parts, each part is called a half.\n2. **Say:** Now, let's look at quarters.  \n**Show/Do:** Cut the apple into four equal pieces.  \n**Ask:** How many pieces do we have now?  \n**Reinforce:** Each piece is a quarter because there are four equal parts.\n3. **Say:** Can you find something else we can divide into halves?  \n**Show/Do:** Look around the kitchen or use a toy.  \n**Ask:** How would you divide this object into halves?  \n**Reinforce:** Great job! Remember, halves are always two equal parts.\n4. **Say:** Let's try with quarters again.  \n**Show/Do:** Use a piece of paper and fold it into four equal sections.  \n**Ask:** What do you see when we unfold the paper?  \n**Reinforce:** Each section is a quarter of the whole paper.\n5. **Say:** Why do you think fractions are important?  \n**Show/Do:** Discuss examples like sharing a pizza or splitting a bill.  \n**Ask:** Can you think of another time we use fractions?  \n**Reinforce:** Fractions help us share and use things fairly.\n\n## Practice Questions (Do It Together)\n**1. If you have a sandwich and cut it into 2 equal parts, what is each part called?**\n<details><summary>Hint</summary>\nThink about the apple we cut.\n</details>\n<details><summary>Answer</summary>\nEach part is a half.\n</details>\n\n**2. You have a chocolate bar divided into 4 equal pieces. What is each piece called?**\n<details><summary>Hint</summary>\nRemember the paper we folded.\n</details>\n<details><summary>Answer</summary>\nEach piece is a quarter.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Halves divide something into two equal parts.\n- Quarters divide something into four equal parts.\n- Fractions help us understand and share things equally.\n\n**Common Mistakes**\n- Thinking halves or quarters have to be the same shape, not just the same size.\n- Confusing the number of pieces with the size of pieces.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFractions have been used since ancient times, with the Egyptians using them to divide land and food.\n\n**Future topic connections**\n\nFractions are used in cooking, quilting, and even computer graphics.\n\n**Common misconceptions**\n\nSome think fractions only apply to food, but they are everywhere in everyday life.\n\n**Teaching tips for parents**\n\nUse visuals and real objects to make fractions relatable.\n\n**More detail / derivation**\n\nThe terms 'half' and 'quarter' come from Old English, meaning 'divided into two' and 'divided into four'.\n\n## Motivation\nUnderstanding fractions helps kids see the world in a new way, making math not just numbers, but a tool for sharing and fairness."
+}

@@ -1,0 +1,178 @@
+{
+  "grade": {
+    "id": "5f0a6120-7ed1-4ea0-89bf-3f477d8f72e7",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "cf1901b8-05cb-4b03-a652-97997cc59d53",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "27a8a41c-fcd1-492a-ae68-9975905e7045",
+    "slug": "linear-functions-and-graphs",
+    "title": "Linear Functions and Graphs: Understanding the Basics",
+    "summary": "Linear functions and graphs — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp the concept of linear functions and how to graph them, making connections to real-world scenarios.\n\n**Why it matters:** Linear functions are everywhere—from predicting costs to understanding speed. They form the foundation for more advanced math and science topics.\n\n**Parent Tip:** Encourage your child to visualize problems. Drawing graphs helps them see the math and understand the relationship between numbers.\n\n**Real-World Link:** Think of a car traveling at a constant speed. The distance it covers over time is a linear function, forming a straight line on a graph.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of linear functions! Let's explore how these straight-line relationships can help us understand patterns and changes in everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of a linear function as a relationship between two variables that creates a straight line when graphed.\n2. Explain the slope 'm' as the rate of change, showing how steep the line is.\n3. Discuss the y-intercept 'b' as the starting point on the y-axis.\n4. Show how to plot a linear function using the slope and y-intercept.\n5. Practice drawing graphs from linear equations and vice versa.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Graph the function y = 3x + 1.**\n_Answer:_ The line starts at (0,1) and goes through (1,4).\n_Hint:_ Start at 1 on the y-axis, then use the slope 3 to find the next point.\n\n**2. What is the slope of the line y = -2x + 5?**\n_Answer:_ The slope is -2.\n_Hint:_ Look at the coefficient of x.\n\n**3. Where does the line y = 4x - 3 cross the y-axis?**\n_Answer:_ It crosses at (0, -3).\n_Hint:_ Check the constant term.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the slope with the y-intercept.\n- Plotting points inaccurately due to miscalculating the slope.\n- Forgetting the negative sign in slopes when applicable.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a car traveling at a constant speed. The distance it covers over time is a linear function, forming a straight line on a graph.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and graph linear functions, a foundational skill in algebra.",
+    "overview": "**Objective:** Help your child grasp the concept of linear functions and how to graph them, making connections to real-world scenarios.\n\n**Why it matters:** Linear functions are everywhere—from predicting costs to understanding speed. They form the foundation for more advanced math and science topics.\n\n**Parent Tip:** Encourage your child to visualize problems. Drawing graphs helps them see the math and understand the relationship between numbers.\n\n**Real-World Link:** Think of a car traveling at a constant speed. The distance it covers over time is a linear function, forming a straight line on a graph.",
+    "core": "Welcome to the world of linear functions! Let's explore how these straight-line relationships can help us understand patterns and changes in everyday life.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how the speedometer in a car shows a consistent increase in distance over time when you drive at a constant speed? That's a linear relationship!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** y = mx + b\n- **Meaning:** y is the output, x is the input, m is the slope, and b is the y-intercept.\n- **How it works:** For every unit increase in x, y increases by m units.\n- **Example:** In y = 2x + 3, the line crosses the y-axis at 3, and for each increase of 1 in x, y increases by 2.",
+    "formulas": "y = mx + b",
+    "guide": "1. Introduce the concept of a linear function as a relationship between two variables that creates a straight line when graphed.\n2. Explain the slope 'm' as the rate of change, showing how steep the line is.\n3. Discuss the y-intercept 'b' as the starting point on the y-axis.\n4. Show how to plot a linear function using the slope and y-intercept.\n5. Practice drawing graphs from linear equations and vice versa.",
+    "practice": "**1. Graph the function y = 3x + 1.**\n_Answer:_ The line starts at (0,1) and goes through (1,4).\n_Hint:_ Start at 1 on the y-axis, then use the slope 3 to find the next point.\n\n**2. What is the slope of the line y = -2x + 5?**\n_Answer:_ The slope is -2.\n_Hint:_ Look at the coefficient of x.\n\n**3. Where does the line y = 4x - 3 cross the y-axis?**\n_Answer:_ It crosses at (0, -3).\n_Hint:_ Check the constant term.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the slope with the y-intercept.\n- Plotting points inaccurately due to miscalculating the slope.\n- Forgetting the negative sign in slopes when applicable.",
+    "connection": "Think of a car traveling at a constant speed. The distance it covers over time is a linear function, forming a straight line on a graph.",
+    "close": "**Key Takeaways**\n- Linear functions create straight-line graphs.\n- The slope shows how steep the line is, and the y-intercept shows where it crosses the y-axis.\n- Real-world linear functions include speed, budget planning, and more.\n\n**Parent Reflection Questions**\n- How can we identify the slope and y-intercept in an equation?\n- What are some everyday scenarios where linear functions apply?\n- How does changing the slope affect the graph?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Linear Functions and Graphs: Understanding the Basics",
+    "introduction": "Welcome to the world of linear functions! This lesson will guide you in helping your child understand the basics of linear functions and how to graph them.",
+    "objective": "To help your child understand and graph linear functions, identifying key components like slope and y-intercept.",
+    "why_matters": "Linear functions are foundational in math, appearing in everything from calculating expenses to predicting trends.",
+    "parent_tip": "Encourage your child to visualize math problems. Drawing graphs can turn numbers into something more tangible and easier to understand.",
+    "real_world_link": "Think about how a taxi fare might work: a base fee plus a charge per mile. This is a real-world example of a linear function.",
+    "formula_box": {
+      "formula": "y = mx + b",
+      "symbols": [
+        {
+          "symbol": "y",
+          "meaning": "The value on the vertical axis (dependent variable)"
+        },
+        {
+          "symbol": "m",
+          "meaning": "The slope of the line (rate of change)"
+        },
+        {
+          "symbol": "x",
+          "meaning": "The value on the horizontal axis (independent variable)"
+        },
+        {
+          "symbol": "b",
+          "meaning": "The y-intercept (where the line crosses the y-axis)"
+        }
+      ],
+      "how_it_works": "This formula represents a straight line where 'm' shows how steep the line is, and 'b' shows where it starts on the y-axis.",
+      "example": "If y = 2x + 3, the slope is 2, and the y-intercept is 3."
+    },
+    "teaching_steps": [
+      "Introduce the concept of a linear equation.",
+      "Explain the components of the formula y = mx + b.",
+      "Demonstrate how to find the slope and y-intercept.",
+      "Practice plotting points using different x values.",
+      "Draw the line through the plotted points."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at a simple equation, y = 2x + 1.",
+        "do": "Write the equation on a piece of paper.",
+        "ask": "What do you think the '2' and '1' represent?",
+        "reinforce": "The '2' is the slope, showing how steep our line is, and the '1' is where our line starts on the y-axis."
+      },
+      {
+        "say": "Now, let's find some points to plot.",
+        "do": "Choose a few values for x, like 0, 1, and 2, and calculate y.",
+        "ask": "What points do we get when we plug in these x values?",
+        "reinforce": "Each pair of x and y values gives us a point on the graph."
+      },
+      {
+        "say": "Let's plot these points on graph paper.",
+        "do": "Draw a simple graph with x and y axes.",
+        "ask": "Can you place the points (0,1), (1,3), and (2,5) on the graph?",
+        "reinforce": "Great! These points show the path of our line."
+      },
+      {
+        "say": "Now, let's connect the points.",
+        "do": "Use a ruler to draw a straight line through the points.",
+        "ask": "What does the line tell us about the equation?",
+        "reinforce": "It shows how y changes with x, following the rule y = 2x + 1."
+      },
+      {
+        "say": "Can you see how the slope affects the line?",
+        "do": "Compare with a line of a different slope, like y = 3x + 1.",
+        "ask": "How is this line different from our first one?",
+        "reinforce": "A steeper line means a larger slope. It changes more quickly."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If y = 3x + 2, what is the y-intercept?",
+        "hint": "Look at the constant term in the equation.",
+        "answer": "The y-intercept is 2."
+      },
+      {
+        "prompt": "For the equation y = -x + 4, what is the slope?",
+        "hint": "Identify the coefficient of x.",
+        "answer": "The slope is -1."
+      },
+      {
+        "prompt": "Plot the equation y = 0.5x + 1. What do you notice about the line?",
+        "hint": "Calculate a few points first.",
+        "answer": "The line is less steep compared to y = x + 1."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Linear functions are represented by the equation y = mx + b.",
+      "The slope 'm' determines the steepness of the line.",
+      "The y-intercept 'b' is where the line crosses the y-axis.",
+      "Graphing involves plotting points and connecting them with a line."
+    ],
+    "common_mistakes": [
+      "Confusing the slope with the y-intercept.",
+      "Forgetting to plot the y-intercept first.",
+      "Not using a ruler to draw a straight line."
+    ],
+    "deep_dive": {
+      "history": "The concept of linear equations has been around since ancient Babylon, where it was used to solve practical problems.",
+      "connections": "Linear functions are used in statistics for linear regression, a method to model the relationship between two variables.",
+      "misconceptions": "A common misconception is that all functions are linear, but many functions are not straight lines.",
+      "teaching_tips": "Use visual aids like graph paper and encourage hands-on practice to solidify understanding.",
+      "derivation": "The formula y = mx + b is derived from the equation of a line in slope-intercept form, allowing easy graphing."
+    },
+    "motivation": "Understanding linear functions helps students make sense of the world around them, from budgeting to scientific experiments."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of linear functions! This lesson will guide you in helping your child understand the basics of linear functions and how to graph them.\n\n## Parent Orientation\n**Objective:** To help your child understand and graph linear functions, identifying key components like slope and y-intercept.\n**Why it matters:** Linear functions are foundational in math, appearing in everything from calculating expenses to predicting trends.\n**Parent Tip:** Encourage your child to visualize math problems. Drawing graphs can turn numbers into something more tangible and easier to understand.\n**Real-World Link:** Think about how a taxi fare might work: a base fee plus a charge per mile. This is a real-world example of a linear function.\n\n> **📐 Formula Box**\n> **Formula:** y = mx + b\n> **Symbols:**\n> - **y** — The value on the vertical axis (dependent variable)\n> - **m** — The slope of the line (rate of change)\n> - **x** — The value on the horizontal axis (independent variable)\n> - **b** — The y-intercept (where the line crosses the y-axis)\n> **How it works:** This formula represents a straight line where 'm' shows how steep the line is, and 'b' shows where it starts on the y-axis.\n> **Example:** If y = 2x + 3, the slope is 2, and the y-intercept is 3.\n\n## Teaching Steps\n1. Introduce the concept of a linear equation.\n2. Explain the components of the formula y = mx + b.\n3. Demonstrate how to find the slope and y-intercept.\n4. Practice plotting points using different x values.\n5. Draw the line through the plotted points.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at a simple equation, y = 2x + 1.  \n**Show/Do:** Write the equation on a piece of paper.  \n**Ask:** What do you think the '2' and '1' represent?  \n**Reinforce:** The '2' is the slope, showing how steep our line is, and the '1' is where our line starts on the y-axis.\n2. **Say:** Now, let's find some points to plot.  \n**Show/Do:** Choose a few values for x, like 0, 1, and 2, and calculate y.  \n**Ask:** What points do we get when we plug in these x values?  \n**Reinforce:** Each pair of x and y values gives us a point on the graph.\n3. **Say:** Let's plot these points on graph paper.  \n**Show/Do:** Draw a simple graph with x and y axes.  \n**Ask:** Can you place the points (0,1), (1,3), and (2,5) on the graph?  \n**Reinforce:** Great! These points show the path of our line.\n4. **Say:** Now, let's connect the points.  \n**Show/Do:** Use a ruler to draw a straight line through the points.  \n**Ask:** What does the line tell us about the equation?  \n**Reinforce:** It shows how y changes with x, following the rule y = 2x + 1.\n5. **Say:** Can you see how the slope affects the line?  \n**Show/Do:** Compare with a line of a different slope, like y = 3x + 1.  \n**Ask:** How is this line different from our first one?  \n**Reinforce:** A steeper line means a larger slope. It changes more quickly.\n\n## Practice Questions (Do It Together)\n**1. If y = 3x + 2, what is the y-intercept?**\n<details><summary>Hint</summary>\nLook at the constant term in the equation.\n</details>\n<details><summary>Answer</summary>\nThe y-intercept is 2.\n</details>\n\n**2. For the equation y = -x + 4, what is the slope?**\n<details><summary>Hint</summary>\nIdentify the coefficient of x.\n</details>\n<details><summary>Answer</summary>\nThe slope is -1.\n</details>\n\n**3. Plot the equation y = 0.5x + 1. What do you notice about the line?**\n<details><summary>Hint</summary>\nCalculate a few points first.\n</details>\n<details><summary>Answer</summary>\nThe line is less steep compared to y = x + 1.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Linear functions are represented by the equation y = mx + b.\n- The slope 'm' determines the steepness of the line.\n- The y-intercept 'b' is where the line crosses the y-axis.\n- Graphing involves plotting points and connecting them with a line.\n\n**Common Mistakes**\n- Confusing the slope with the y-intercept.\n- Forgetting to plot the y-intercept first.\n- Not using a ruler to draw a straight line.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of linear equations has been around since ancient Babylon, where it was used to solve practical problems.\n\n**Future topic connections**\n\nLinear functions are used in statistics for linear regression, a method to model the relationship between two variables.\n\n**Common misconceptions**\n\nA common misconception is that all functions are linear, but many functions are not straight lines.\n\n**Teaching tips for parents**\n\nUse visual aids like graph paper and encourage hands-on practice to solidify understanding.\n\n**More detail / derivation**\n\nThe formula y = mx + b is derived from the equation of a line in slope-intercept form, allowing easy graphing.\n\n## Motivation\nUnderstanding linear functions helps students make sense of the world around them, from budgeting to scientific experiments."
+}

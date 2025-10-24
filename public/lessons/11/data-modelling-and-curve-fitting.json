@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "b255bb5e-2445-4a6a-9246-5cc0e4241f4c",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "bd040c6f-badf-496f-b9d3-417eb1a253a3",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "12d4479a-47d0-4d13-8919-6bfbf6ee3215",
+    "slug": "data-modelling-and-curve-fitting",
+    "title": "Data Modelling & Curve Fitting: Connecting Dots to Predict the Future",
+    "summary": "Data modelling & curve fitting — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn how to create mathematical models using data points to predict future events.\n\n**Why it matters:** In our data-driven world, understanding how to model and predict trends is crucial in fields from economics to environmental science.\n\n**Parent Tip:** Encourage your child to think of data points as clues in a mystery novel, each one helping to solve the puzzle of what comes next.\n\n**Real-World Link:** Businesses use data modelling to forecast sales, while meteorologists predict weather patterns using similar techniques.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the fascinating world of data modelling and curve fitting! It's like connecting the dots in a picture, but with numbers, helping us understand and predict future trends.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss how data can be represented as points on a graph.\n2. Explain the concept of a 'line of best fit' and how it helps in predicting future values.\n3. Introduce simple linear equations as models for these lines.\n4. Practice drawing lines that best fit the data points on graph paper.\n5. Use technology, like graphing calculators or software, to refine these models.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Given data points (1, 2), (2, 3), (3, 5), draw a line of best fit.**\n_Answer:_ A possible line could be y = 1.5x + 0.5.\n_Hint:_ Look for a line that has roughly equal points above and below it.\n\n**2. Predict the value of y when x = 4 using your line of best fit.**\n_Answer:_ y = 1.5(4) + 0.5 = 6.5\n_Hint:_ Use the line equation: substitute x = 4 into y = 1.5x + 0.5.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting that not all points will lie on the line of best fit.\n- Misplacing data points on the graph.\n- Using the wrong formula to calculate predictions.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Businesses use data modelling to forecast sales, while meteorologists predict weather patterns using similar techniques.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to create and interpret mathematical models from real-world data.",
+    "overview": "**Objective:** Help your child learn how to create mathematical models using data points to predict future events.\n\n**Why it matters:** In our data-driven world, understanding how to model and predict trends is crucial in fields from economics to environmental science.\n\n**Parent Tip:** Encourage your child to think of data points as clues in a mystery novel, each one helping to solve the puzzle of what comes next.\n\n**Real-World Link:** Businesses use data modelling to forecast sales, while meteorologists predict weather patterns using similar techniques.",
+    "core": "Welcome to the fascinating world of data modelling and curve fitting! It's like connecting the dots in a picture, but with numbers, helping us understand and predict future trends.",
+    "demo": "**Spark Curiosity:**\n\nEver wondered how your favorite weather app predicts rain? It uses data modelling and curve fitting to make those forecasts!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Discuss how data can be represented as points on a graph.\n2. Explain the concept of a 'line of best fit' and how it helps in predicting future values.\n3. Introduce simple linear equations as models for these lines.\n4. Practice drawing lines that best fit the data points on graph paper.\n5. Use technology, like graphing calculators or software, to refine these models.",
+    "practice": "**1. Given data points (1, 2), (2, 3), (3, 5), draw a line of best fit.**\n_Answer:_ A possible line could be y = 1.5x + 0.5.\n_Hint:_ Look for a line that has roughly equal points above and below it.\n\n**2. Predict the value of y when x = 4 using your line of best fit.**\n_Answer:_ y = 1.5(4) + 0.5 = 6.5\n_Hint:_ Use the line equation: substitute x = 4 into y = 1.5x + 0.5.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting that not all points will lie on the line of best fit.\n- Misplacing data points on the graph.\n- Using the wrong formula to calculate predictions.",
+    "connection": "Businesses use data modelling to forecast sales, while meteorologists predict weather patterns using similar techniques.",
+    "close": "**Key Takeaways**\n- Data modelling helps in understanding and predicting trends.\n- Finding a line of best fit involves looking for the overall direction in a set of data points.\n- Real-world applications make these concepts tangible and relatable.\n\n**Parent Reflection Questions**\n- How can you tell if a line of best fit accurately represents the data?\n- What real-world data could you model at home?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Data Modelling & Curve Fitting: Connecting Dots to Predict the Future",
+    "introduction": "Welcome to a journey where numbers tell stories! In this lesson, we'll explore how data can help us predict future trends by connecting the dots with mathematical models.",
+    "objective": "Help your child understand how to use data modelling and curve fitting to make predictions based on historical data.",
+    "why_matters": "Data is everywhere, and knowing how to interpret it empowers your child to make informed decisions in fields like science, economics, and technology.",
+    "parent_tip": "Encourage curiosity by relating data modelling to everyday situations, like predicting the weather or understanding trends in social media.",
+    "real_world_link": "Think about how meteorologists predict the weather. They use past weather data to model and forecast future conditions. This is exactly what data modelling does!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of data points and how they can be plotted on a graph.",
+      "Explain the idea of a 'best fit line' and how it summarizes data trends.",
+      "Discuss how this line can help predict future data points.",
+      "Use examples your child can relate to, such as tracking their own grades over time.",
+      "Encourage your child to practice by plotting data and drawing their own best fit lines."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at some data points on this graph.",
+        "do": "Show a simple graph with scattered data points.",
+        "ask": "What do you notice about the way these points are spread?",
+        "reinforce": "Great observation! These points represent our data, and we can use them to see patterns."
+      },
+      {
+        "say": "Now, let's draw a line that best fits these points.",
+        "do": "Draw a line through the data points that seems to best represent the trend.",
+        "ask": "Does this line seem to follow the general direction of the points?",
+        "reinforce": "Exactly! This line helps us see the overall trend in our data."
+      },
+      {
+        "say": "This line can help us predict future data points.",
+        "do": "Extend the line to show potential future data points.",
+        "ask": "Where do you think the next point might fall on this line?",
+        "reinforce": "Yes, by extending the line, we can estimate future values."
+      },
+      {
+        "say": "Let's apply this to something familiar.",
+        "do": "Use a graph of your child's past grades.",
+        "ask": "Can you draw a line to predict your grades for the next term?",
+        "reinforce": "That's a great prediction! This is how data helps us make educated guesses."
+      },
+      {
+        "say": "Remember, the line won't always be perfect.",
+        "do": "Show how some points may not be exactly on the line.",
+        "ask": "Why do you think some points are off the line?",
+        "reinforce": "That's right, data can vary, but the line gives us a good overall picture."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If a company's sales have increased by $200 each month for the past year, what will be the sales next month if this trend continues?",
+        "hint": "Look at the increase pattern over time.",
+        "answer": "Add $200 to the sales of the last month."
+      },
+      {
+        "prompt": "A plant grows 3 inches per week. If it is currently 12 inches tall, how tall will it be in 4 weeks?",
+        "hint": "Calculate the total growth over the weeks.",
+        "answer": "24 inches tall (12 + 4*3)."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Data modelling helps us understand patterns in data.",
+      "A 'best fit line' helps summarize and predict trends.",
+      "These skills are useful in everyday decision-making and forecasting."
+    ],
+    "common_mistakes": [
+      "Confusing correlation with causation.",
+      "Forgetting that the best fit line is an estimate, not exact.",
+      "Assuming all future data will perfectly follow the trend line."
+    ],
+    "deep_dive": {
+      "history": "Data modelling has evolved from simple arithmetic to complex algorithms that power today's technology.",
+      "connections": "It's used in fields like economics, engineering, and environmental science to make predictions and inform decisions.",
+      "misconceptions": "A common misconception is that data modelling can predict exact outcomes, rather than probabilities.",
+      "teaching_tips": "Use real-life data sets that interest your child, like sports statistics or social media trends.",
+      "derivation": "The concept of a 'best fit line' comes from regression analysis, a statistical method for estimating relationships among variables."
+    },
+    "motivation": "Understanding data modelling gives your child the tools to analyze and predict real-world events, preparing them for a future where data is key."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a journey where numbers tell stories! In this lesson, we'll explore how data can help us predict future trends by connecting the dots with mathematical models.\n\n## Parent Orientation\n**Objective:** Help your child understand how to use data modelling and curve fitting to make predictions based on historical data.\n**Why it matters:** Data is everywhere, and knowing how to interpret it empowers your child to make informed decisions in fields like science, economics, and technology.\n**Parent Tip:** Encourage curiosity by relating data modelling to everyday situations, like predicting the weather or understanding trends in social media.\n**Real-World Link:** Think about how meteorologists predict the weather. They use past weather data to model and forecast future conditions. This is exactly what data modelling does!\n\n## Teaching Steps\n1. Introduce the concept of data points and how they can be plotted on a graph.\n2. Explain the idea of a 'best fit line' and how it summarizes data trends.\n3. Discuss how this line can help predict future data points.\n4. Use examples your child can relate to, such as tracking their own grades over time.\n5. Encourage your child to practice by plotting data and drawing their own best fit lines.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at some data points on this graph.  \n**Show/Do:** Show a simple graph with scattered data points.  \n**Ask:** What do you notice about the way these points are spread?  \n**Reinforce:** Great observation! These points represent our data, and we can use them to see patterns.\n2. **Say:** Now, let's draw a line that best fits these points.  \n**Show/Do:** Draw a line through the data points that seems to best represent the trend.  \n**Ask:** Does this line seem to follow the general direction of the points?  \n**Reinforce:** Exactly! This line helps us see the overall trend in our data.\n3. **Say:** This line can help us predict future data points.  \n**Show/Do:** Extend the line to show potential future data points.  \n**Ask:** Where do you think the next point might fall on this line?  \n**Reinforce:** Yes, by extending the line, we can estimate future values.\n4. **Say:** Let's apply this to something familiar.  \n**Show/Do:** Use a graph of your child's past grades.  \n**Ask:** Can you draw a line to predict your grades for the next term?  \n**Reinforce:** That's a great prediction! This is how data helps us make educated guesses.\n5. **Say:** Remember, the line won't always be perfect.  \n**Show/Do:** Show how some points may not be exactly on the line.  \n**Ask:** Why do you think some points are off the line?  \n**Reinforce:** That's right, data can vary, but the line gives us a good overall picture.\n\n## Practice Questions (Do It Together)\n**1. If a company's sales have increased by $200 each month for the past year, what will be the sales next month if this trend continues?**\n<details><summary>Hint</summary>\nLook at the increase pattern over time.\n</details>\n<details><summary>Answer</summary>\nAdd $200 to the sales of the last month.\n</details>\n\n**2. A plant grows 3 inches per week. If it is currently 12 inches tall, how tall will it be in 4 weeks?**\n<details><summary>Hint</summary>\nCalculate the total growth over the weeks.\n</details>\n<details><summary>Answer</summary>\n24 inches tall (12 + 4*3).\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Data modelling helps us understand patterns in data.\n- A 'best fit line' helps summarize and predict trends.\n- These skills are useful in everyday decision-making and forecasting.\n\n**Common Mistakes**\n- Confusing correlation with causation.\n- Forgetting that the best fit line is an estimate, not exact.\n- Assuming all future data will perfectly follow the trend line.\n\n## 🔍 Deep Dive\n**History or origin**\n\nData modelling has evolved from simple arithmetic to complex algorithms that power today's technology.\n\n**Future topic connections**\n\nIt's used in fields like economics, engineering, and environmental science to make predictions and inform decisions.\n\n**Common misconceptions**\n\nA common misconception is that data modelling can predict exact outcomes, rather than probabilities.\n\n**Teaching tips for parents**\n\nUse real-life data sets that interest your child, like sports statistics or social media trends.\n\n**More detail / derivation**\n\nThe concept of a 'best fit line' comes from regression analysis, a statistical method for estimating relationships among variables.\n\n## Motivation\nUnderstanding data modelling gives your child the tools to analyze and predict real-world events, preparing them for a future where data is key."
+}

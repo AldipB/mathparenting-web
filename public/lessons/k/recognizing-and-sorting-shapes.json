@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "52b71274-372b-4c8b-88cd-1c0a9b40cb17",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "5f14eff9-d15c-4284-adbd-ec8bfcbb7b06",
+    "title": "Shapes & Geometry",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "73d60305-a33c-4375-a308-878a3295c973",
+    "slug": "recognizing-and-sorting-shapes",
+    "title": "Recognizing & Sorting Shapes",
+    "summary": "Recognizing & sorting shapes — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child identify and sort basic geometric shapes like circles, squares, and triangles.\n\n**Why it matters:** Understanding shapes is crucial as it helps children make sense of the world around them, from identifying objects to following directions.\n\n**Parent Tip:** Use everyday objects to point out shapes. For example, a clock is a circle, and a book is a rectangle.\n\n**Real-World Link:** Next time you’re at the grocery store, ask your child to find items that match specific shapes, like a round apple or a square cracker box.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the exciting world of shapes! Your child will begin to recognize and sort shapes, a fundamental math skill that lays the groundwork for future learning.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with simple shapes: Introduce circles, squares, and triangles using everyday items.\n2. Use descriptive language: Describe the shapes using words like 'round' for circles and 'corners' for squares.\n3. Sort together: Gather various objects and help your child sort them by shape.\n4. Create a shape hunt: Ask your child to find shapes around the house or while on a walk.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find 3 circular objects in your room.**\n_Answer:_ Examples could include a ball, a clock, or a lid.\n_Hint:_ Look for items that are round, like a ball.\n\n**2. Sort these objects: book, plate, block, and coin by shape. (use numbers like 6 and 9)**\n_Answer:_ The book and block are rectangles, the plate and coin are circles.\n_Hint:_ Think about the shape of each item.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing shapes with similar attributes, like rectangles and squares.\n- Overlooking shapes in less obvious objects, like a round doorknob.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Next time you’re at the grocery store, ask your child to find items that match specific shapes, like a round apple or a square cracker box.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and sort basic shapes like circles, squares, and triangles.",
+    "overview": "**Objective:** Help your child identify and sort basic geometric shapes like circles, squares, and triangles.\n\n**Why it matters:** Understanding shapes is crucial as it helps children make sense of the world around them, from identifying objects to following directions.\n\n**Parent Tip:** Use everyday objects to point out shapes. For example, a clock is a circle, and a book is a rectangle.\n\n**Real-World Link:** Next time you’re at the grocery store, ask your child to find items that match specific shapes, like a round apple or a square cracker box.",
+    "core": "Welcome to the exciting world of shapes! Your child will begin to recognize and sort shapes, a fundamental math skill that lays the groundwork for future learning.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'What shape is a pizza slice?' This question can lead to a fun discussion about triangles and circles.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with simple shapes: Introduce circles, squares, and triangles using everyday items.\n2. Use descriptive language: Describe the shapes using words like 'round' for circles and 'corners' for squares.\n3. Sort together: Gather various objects and help your child sort them by shape.\n4. Create a shape hunt: Ask your child to find shapes around the house or while on a walk.",
+    "practice": "**1. Find 3 circular objects in your room.**\n_Answer:_ Examples could include a ball, a clock, or a lid.\n_Hint:_ Look for items that are round, like a ball.\n\n**2. Sort these objects: book, plate, block, and coin by shape. (use numbers like 6 and 9)**\n_Answer:_ The book and block are rectangles, the plate and coin are circles.\n_Hint:_ Think about the shape of each item.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing shapes with similar attributes, like rectangles and squares.\n- Overlooking shapes in less obvious objects, like a round doorknob.",
+    "connection": "Next time you’re at the grocery store, ask your child to find items that match specific shapes, like a round apple or a square cracker box.",
+    "close": "**Key Takeaways**\n- Shapes are everywhere and can be identified in everyday objects.\n- Sorting shapes helps develop categorization skills.\n- Recognizing shapes is an early step in learning geometry.\n\n**Parent Reflection Questions**\n- What are some new shapes you discovered today?\n- How can we find more shapes at home?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Recognizing & Sorting Shapes",
+    "introduction": "Welcome to the world of shapes! In this lesson, we'll help your child recognize and sort different shapes, a key skill in developing their math foundation.",
+    "objective": "By the end of this lesson, your child will be able to recognize and sort basic shapes like circles, squares, and triangles.",
+    "why_matters": "Understanding shapes is crucial as it helps children make sense of the world around them and lays the groundwork for geometry and spatial reasoning.",
+    "parent_tip": "Use everyday objects to point out shapes. This makes learning more engaging and relatable for your child.",
+    "real_world_link": "Shapes are everywhere! From the circular clock on the wall to the rectangular book on the shelf, recognizing shapes helps children understand their environment.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce shapes using real-life objects.",
+      "Discuss the characteristics of each shape.",
+      "Practice sorting objects by shape.",
+      "Encourage your child to identify shapes in their surroundings.",
+      "Play shape-sorting games to reinforce learning."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's find some shapes around us!",
+        "do": "Point to a circular clock.",
+        "ask": "What shape is the clock?",
+        "reinforce": "That's right, it's a circle! Circles are round."
+      },
+      {
+        "say": "Now, let's look for a square.",
+        "do": "Show a square book cover.",
+        "ask": "Can you see the square shape here?",
+        "reinforce": "Great job! Squares have four equal sides."
+      },
+      {
+        "say": "How about a triangle?",
+        "do": "Hold up a triangular block.",
+        "ask": "What makes this a triangle?",
+        "reinforce": "Yes, a triangle has three sides."
+      },
+      {
+        "say": "Let's sort these objects by shape.",
+        "do": "Mix a few different shaped objects.",
+        "ask": "Can you put all the circles together?",
+        "reinforce": "Well done! Sorting helps us organize things."
+      },
+      {
+        "say": "Shapes are fun! Look for more shapes as we go about our day.",
+        "do": "Encourage looking for shapes during a walk or drive.",
+        "ask": "What shapes can you see outside?",
+        "reinforce": "Awesome! You're becoming a shape expert."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Sort these objects: a ball, a book, and a sandwich.",
+        "hint": "Think about the shapes: round, square, and rectangular.",
+        "answer": "Ball is a circle, book is a square, sandwich is a rectangle."
+      },
+      {
+        "prompt": "Identify the shape of a pizza slice.",
+        "hint": "Look for a shape with three sides.",
+        "answer": "A pizza slice is a triangle."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Shapes are everywhere in our daily life.",
+      "Recognizing and sorting shapes helps children understand their environment better.",
+      "Practice by finding shapes around the house or outside."
+    ],
+    "common_mistakes": [
+      "Confusing shapes with similar appearances, like squares and rectangles.",
+      "Not recognizing that shapes can be different sizes."
+    ],
+    "deep_dive": {
+      "history": "Shapes have been studied since ancient times, with early mathematicians exploring their properties.",
+      "connections": "Shapes are foundational to geometry, which is used in art, architecture, and engineering.",
+      "misconceptions": "Some think shapes are only 2D, but they can also be 3D like cubes and spheres.",
+      "teaching_tips": "Use a variety of objects and images to illustrate different shapes.",
+      "derivation": "Shapes are defined by their sides and angles, forming the basis for geometric principles."
+    },
+    "motivation": "Learning shapes is like finding hidden treasures in the world around us. It opens up a new way of seeing and understanding everything!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of shapes! In this lesson, we'll help your child recognize and sort different shapes, a key skill in developing their math foundation.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to recognize and sort basic shapes like circles, squares, and triangles.\n**Why it matters:** Understanding shapes is crucial as it helps children make sense of the world around them and lays the groundwork for geometry and spatial reasoning.\n**Parent Tip:** Use everyday objects to point out shapes. This makes learning more engaging and relatable for your child.\n**Real-World Link:** Shapes are everywhere! From the circular clock on the wall to the rectangular book on the shelf, recognizing shapes helps children understand their environment.\n\n## Teaching Steps\n1. Introduce shapes using real-life objects.\n2. Discuss the characteristics of each shape.\n3. Practice sorting objects by shape.\n4. Encourage your child to identify shapes in their surroundings.\n5. Play shape-sorting games to reinforce learning.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's find some shapes around us!  \n**Show/Do:** Point to a circular clock.  \n**Ask:** What shape is the clock?  \n**Reinforce:** That's right, it's a circle! Circles are round.\n2. **Say:** Now, let's look for a square.  \n**Show/Do:** Show a square book cover.  \n**Ask:** Can you see the square shape here?  \n**Reinforce:** Great job! Squares have four equal sides.\n3. **Say:** How about a triangle?  \n**Show/Do:** Hold up a triangular block.  \n**Ask:** What makes this a triangle?  \n**Reinforce:** Yes, a triangle has three sides.\n4. **Say:** Let's sort these objects by shape.  \n**Show/Do:** Mix a few different shaped objects.  \n**Ask:** Can you put all the circles together?  \n**Reinforce:** Well done! Sorting helps us organize things.\n5. **Say:** Shapes are fun! Look for more shapes as we go about our day.  \n**Show/Do:** Encourage looking for shapes during a walk or drive.  \n**Ask:** What shapes can you see outside?  \n**Reinforce:** Awesome! You're becoming a shape expert.\n\n## Practice Questions (Do It Together)\n**1. Sort these objects: a ball, a book, and a sandwich.**\n<details><summary>Hint</summary>\nThink about the shapes: round, square, and rectangular.\n</details>\n<details><summary>Answer</summary>\nBall is a circle, book is a square, sandwich is a rectangle.\n</details>\n\n**2. Identify the shape of a pizza slice.**\n<details><summary>Hint</summary>\nLook for a shape with three sides.\n</details>\n<details><summary>Answer</summary>\nA pizza slice is a triangle.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Shapes are everywhere in our daily life.\n- Recognizing and sorting shapes helps children understand their environment better.\n- Practice by finding shapes around the house or outside.\n\n**Common Mistakes**\n- Confusing shapes with similar appearances, like squares and rectangles.\n- Not recognizing that shapes can be different sizes.\n\n## 🔍 Deep Dive\n**History or origin**\n\nShapes have been studied since ancient times, with early mathematicians exploring their properties.\n\n**Future topic connections**\n\nShapes are foundational to geometry, which is used in art, architecture, and engineering.\n\n**Common misconceptions**\n\nSome think shapes are only 2D, but they can also be 3D like cubes and spheres.\n\n**Teaching tips for parents**\n\nUse a variety of objects and images to illustrate different shapes.\n\n**More detail / derivation**\n\nShapes are defined by their sides and angles, forming the basis for geometric principles.\n\n## Motivation\nLearning shapes is like finding hidden treasures in the world around us. It opens up a new way of seeing and understanding everything!"
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "6836101b-73aa-4295-a03d-0a3e148a6549",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "e38c0c14-64fb-4833-a471-9a0203bc4e1f",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c89a2bcf-556c-49e3-a695-77ce3ec50b66",
+    "slug": "optimization-and-related-rates",
+    "title": "Optimization & Related Rates: Finding the Best and Fastest Solutions",
+    "summary": "Optimization & related rates — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child understand how to apply calculus to find optimal solutions and calculate changing rates effectively.\n\n**Why it matters:** Optimization and related rates are crucial in fields like engineering, economics, and environmental science, helping to make informed decisions quickly.\n\n**Parent Tip:** Encourage your teen to visualize problems by drawing diagrams or graphs. Visual aids can make abstract concepts more tangible.\n\n**Real-World Link:** Imagine adjusting the thermostat in your home to find the perfect balance between comfort and energy savings. That's optimization in action!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore how your teen can find the most efficient solutions to complex problems using optimization and related rates. It's like finding the quickest route on a map or the best deal in a store!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with understanding the problem. What are you trying to optimize or find the rate of?\n2. Draw a diagram to visualize the scenario.\n3. Identify the variables involved and their relationships.\n4. Write down the equations connecting the variables.\n5. Differentiate the equations with respect to time to find related rates.\n6. Use given values to solve for the unknown rate or optimal value.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. A 10-foot ladder is leaning against a wall. If the bottom slides away at 2 ft/s, how fast is the top moving down when the bottom is 6 feet from the wall?**\n_Answer:_ The top is moving down at 1.6 ft/s.\n_Hint:_ Use the Pythagorean theorem to relate the sides of the triangle formed by the ladder, wall, and ground.\n\n**2. A farmer wants to fence a rectangular field next to a river, using 300 meters of fencing. What dimensions will maximize the area?**\n_Answer:_ The field should be 75 meters wide and 150 meters long.\n_Hint:_ Use the formula for the perimeter and area of a rectangle.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to differentiate with respect to time.\n- Not identifying all variables involved.\n- Ignoring the units of measurement.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine adjusting the thermostat in your home to find the perfect balance between comfort and energy savings. That's optimization in action!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to find optimal solutions and calculate changing rates in real-world scenarios.",
+    "overview": "**Objective:** To help your child understand how to apply calculus to find optimal solutions and calculate changing rates effectively.\n\n**Why it matters:** Optimization and related rates are crucial in fields like engineering, economics, and environmental science, helping to make informed decisions quickly.\n\n**Parent Tip:** Encourage your teen to visualize problems by drawing diagrams or graphs. Visual aids can make abstract concepts more tangible.\n\n**Real-World Link:** Imagine adjusting the thermostat in your home to find the perfect balance between comfort and energy savings. That's optimization in action!",
+    "core": "Welcome! Today, we'll explore how your teen can find the most efficient solutions to complex problems using optimization and related rates. It's like finding the quickest route on a map or the best deal in a store!",
+    "demo": "**Spark Curiosity:**\n\nEver wondered how delivery companies decide the best route to save time and fuel? It's all about optimization!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** dV/dt = 4πr^2(dr/dt)\n- **Meaning:** This formula relates the rate of change of volume (V) of a sphere with its radius (r) and the rate of change of the radius.\n- **How it works:** If you know how fast the radius changes, you can find out how fast the volume changes.\n- **Example:** If a balloon's radius increases at 2 cm/s, what is the rate of volume change when the radius is 5 cm? Plug r = 5 and dr/dt = 2 into the formula.",
+    "formulas": "dV/dt = 4πr^2(dr/dt)",
+    "guide": "1. Start with understanding the problem. What are you trying to optimize or find the rate of?\n2. Draw a diagram to visualize the scenario.\n3. Identify the variables involved and their relationships.\n4. Write down the equations connecting the variables.\n5. Differentiate the equations with respect to time to find related rates.\n6. Use given values to solve for the unknown rate or optimal value.",
+    "practice": "**1. A 10-foot ladder is leaning against a wall. If the bottom slides away at 2 ft/s, how fast is the top moving down when the bottom is 6 feet from the wall?**\n_Answer:_ The top is moving down at 1.6 ft/s.\n_Hint:_ Use the Pythagorean theorem to relate the sides of the triangle formed by the ladder, wall, and ground.\n\n**2. A farmer wants to fence a rectangular field next to a river, using 300 meters of fencing. What dimensions will maximize the area?**\n_Answer:_ The field should be 75 meters wide and 150 meters long.\n_Hint:_ Use the formula for the perimeter and area of a rectangle.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to differentiate with respect to time.\n- Not identifying all variables involved.\n- Ignoring the units of measurement.",
+    "connection": "Imagine adjusting the thermostat in your home to find the perfect balance between comfort and energy savings. That's optimization in action!",
+    "close": "**Key Takeaways**\n- Optimization helps find the best solution under constraints.\n- Related rates describe how quantities change together over time.\n- Visualizing problems can make complex ideas more approachable.\n\n**Parent Reflection Questions**\n- How can these concepts apply to everyday decisions?\n- What steps can you take to ensure all parts of a problem are considered?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Optimization & Related Rates: Finding the Best and Fastest Solutions",
+    "introduction": "Welcome to an exploration of how we can find the most efficient solutions in everyday problems using math! Optimization and related rates help students solve real-world challenges by determining the best possible outcomes and the speed at which things change.",
+    "objective": "To understand how to apply optimization and related rates to find the best solutions and rate of change in various scenarios.",
+    "why_matters": "These concepts are crucial as they allow us to make smart decisions in complex situations, like minimizing costs or maximizing efficiency in our daily lives.",
+    "parent_tip": "Encourage your child to visualize the problem first. Drawing a diagram can often make the solution clearer.",
+    "real_world_link": "Think about how a company might want to minimize production costs or how a delivery service calculates the fastest route. These are real-world applications of optimization and related rates.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of optimization by discussing what it means to find the 'best' solution.",
+      "Explain related rates as a way to understand how one quantity changes in relation to another.",
+      "Use a simple example, like filling a balloon with air, to illustrate related rates.",
+      "Discuss how these concepts can be applied to real-life scenarios like minimizing travel time or maximizing area.",
+      "Encourage practice with problems that require finding maximum or minimum values."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's imagine we want to find the fastest way to get somewhere.",
+        "do": "Draw a simple map with two points.",
+        "ask": "What factors do we need to consider to find the fastest route?",
+        "reinforce": "Exactly, we need to think about distance and speed."
+      },
+      {
+        "say": "Now, let's consider another example: inflating a balloon.",
+        "do": "Show a video of a balloon being inflated.",
+        "ask": "What do you notice about the rate at which the balloon fills?",
+        "reinforce": "Right, the rate changes as the balloon expands."
+      },
+      {
+        "say": "Optimization is about finding the best solution.",
+        "do": "Draw a rectangle and ask how we might maximize its area.",
+        "ask": "What should we do to maximize the area given a fixed perimeter?",
+        "reinforce": "Yes, making it a square often maximizes the area."
+      },
+      {
+        "say": "Related rates help us understand how different quantities change together.",
+        "do": "Use a stopwatch to measure how fast water fills a glass.",
+        "ask": "How does the rate of water filling change as the glass becomes fuller?",
+        "reinforce": "Good observation! It slows down as it approaches the top."
+      },
+      {
+        "say": "Let's practice with a simple problem.",
+        "do": "Provide a problem involving maximizing area or minimizing time.",
+        "ask": "What steps should we take to solve this?",
+        "reinforce": "Great, identifying the variables and writing an equation is crucial."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "A farmer wants to fence a rectangular area of 1000 square meters. What dimensions will maximize the area?",
+        "hint": "Consider using the formula for the perimeter and area of a rectangle.",
+        "answer": "The dimensions that maximize the area are a square, 31.62 meters by 31.62 meters."
+      },
+      {
+        "prompt": "Water is poured into a conical tank at a rate of 5 cubic meters per minute. How fast is the water level rising when the water is 3 meters deep?",
+        "hint": "Use the relationship between volume and height in a cone.",
+        "answer": "The water level is rising at approximately 0.53 meters per minute."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Optimization helps us find the best possible solutions.",
+      "Related rates show how different quantities change together.",
+      "These concepts are used in many real-world scenarios to improve efficiency."
+    ],
+    "common_mistakes": [
+      "Confusing maximizing with minimizing.",
+      "Not identifying all relevant variables in a problem.",
+      "Forgetting to relate rates properly in related rates problems."
+    ],
+    "deep_dive": {
+      "history": "The calculus of optimization and related rates dates back to the 17th century, with significant contributions from Isaac Newton and Gottfried Wilhelm Leibniz.",
+      "connections": "These concepts are foundational in fields like economics, engineering, and physics, where efficiency and change are vital.",
+      "misconceptions": "A common misconception is that optimization only applies to maximizing, but it can also mean finding the minimum.",
+      "teaching_tips": "Encourage students to draw diagrams and write out all known information before attempting to solve the problem.",
+      "derivation": "Optimization problems often involve taking the derivative of a function to find critical points, which are then evaluated to determine maxima or minima."
+    },
+    "motivation": "Understanding optimization and related rates equips students with powerful tools to solve complex problems efficiently, a skill that is invaluable in both academic and everyday contexts."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to an exploration of how we can find the most efficient solutions in everyday problems using math! Optimization and related rates help students solve real-world challenges by determining the best possible outcomes and the speed at which things change.\n\n## Parent Orientation\n**Objective:** To understand how to apply optimization and related rates to find the best solutions and rate of change in various scenarios.\n**Why it matters:** These concepts are crucial as they allow us to make smart decisions in complex situations, like minimizing costs or maximizing efficiency in our daily lives.\n**Parent Tip:** Encourage your child to visualize the problem first. Drawing a diagram can often make the solution clearer.\n**Real-World Link:** Think about how a company might want to minimize production costs or how a delivery service calculates the fastest route. These are real-world applications of optimization and related rates.\n\n## Teaching Steps\n1. Introduce the concept of optimization by discussing what it means to find the 'best' solution.\n2. Explain related rates as a way to understand how one quantity changes in relation to another.\n3. Use a simple example, like filling a balloon with air, to illustrate related rates.\n4. Discuss how these concepts can be applied to real-life scenarios like minimizing travel time or maximizing area.\n5. Encourage practice with problems that require finding maximum or minimum values.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's imagine we want to find the fastest way to get somewhere.  \n**Show/Do:** Draw a simple map with two points.  \n**Ask:** What factors do we need to consider to find the fastest route?  \n**Reinforce:** Exactly, we need to think about distance and speed.\n2. **Say:** Now, let's consider another example: inflating a balloon.  \n**Show/Do:** Show a video of a balloon being inflated.  \n**Ask:** What do you notice about the rate at which the balloon fills?  \n**Reinforce:** Right, the rate changes as the balloon expands.\n3. **Say:** Optimization is about finding the best solution.  \n**Show/Do:** Draw a rectangle and ask how we might maximize its area.  \n**Ask:** What should we do to maximize the area given a fixed perimeter?  \n**Reinforce:** Yes, making it a square often maximizes the area.\n4. **Say:** Related rates help us understand how different quantities change together.  \n**Show/Do:** Use a stopwatch to measure how fast water fills a glass.  \n**Ask:** How does the rate of water filling change as the glass becomes fuller?  \n**Reinforce:** Good observation! It slows down as it approaches the top.\n5. **Say:** Let's practice with a simple problem.  \n**Show/Do:** Provide a problem involving maximizing area or minimizing time.  \n**Ask:** What steps should we take to solve this?  \n**Reinforce:** Great, identifying the variables and writing an equation is crucial.\n\n## Practice Questions (Do It Together)\n**1. A farmer wants to fence a rectangular area of 1000 square meters. What dimensions will maximize the area?**\n<details><summary>Hint</summary>\nConsider using the formula for the perimeter and area of a rectangle.\n</details>\n<details><summary>Answer</summary>\nThe dimensions that maximize the area are a square, 31.62 meters by 31.62 meters.\n</details>\n\n**2. Water is poured into a conical tank at a rate of 5 cubic meters per minute. How fast is the water level rising when the water is 3 meters deep?**\n<details><summary>Hint</summary>\nUse the relationship between volume and height in a cone.\n</details>\n<details><summary>Answer</summary>\nThe water level is rising at approximately 0.53 meters per minute.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Optimization helps us find the best possible solutions.\n- Related rates show how different quantities change together.\n- These concepts are used in many real-world scenarios to improve efficiency.\n\n**Common Mistakes**\n- Confusing maximizing with minimizing.\n- Not identifying all relevant variables in a problem.\n- Forgetting to relate rates properly in related rates problems.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe calculus of optimization and related rates dates back to the 17th century, with significant contributions from Isaac Newton and Gottfried Wilhelm Leibniz.\n\n**Future topic connections**\n\nThese concepts are foundational in fields like economics, engineering, and physics, where efficiency and change are vital.\n\n**Common misconceptions**\n\nA common misconception is that optimization only applies to maximizing, but it can also mean finding the minimum.\n\n**Teaching tips for parents**\n\nEncourage students to draw diagrams and write out all known information before attempting to solve the problem.\n\n**More detail / derivation**\n\nOptimization problems often involve taking the derivative of a function to find critical points, which are then evaluated to determine maxima or minima.\n\n## Motivation\nUnderstanding optimization and related rates equips students with powerful tools to solve complex problems efficiently, a skill that is invaluable in both academic and everyday contexts."
+}

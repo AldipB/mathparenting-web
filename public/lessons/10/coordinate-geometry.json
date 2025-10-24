@@ -1,110 +1,156 @@
 {
   "grade": {
-    "id": "73f41834-b391-442f-9e9e-9130342e7f63",
+    "id": "4bdaad42-4d5e-4802-a245-9057f973f407",
     "slug": "10",
-    "name": "Grade 10 — Geometry Focus"
+    "name": "Grade 10 (Geometry & Algebra II)"
   },
   "unit": {
-    "id": "2c477ea4-6478-443f-918d-1e62837db9db",
-    "title": "Circles & Coordinates",
-    "order_index": 3
+    "id": "f21cab9e-011e-4e42-8b8c-e4d32e549d57",
+    "title": "Core Skills",
+    "order_index": 1
   },
   "lesson": {
-    "id": "a6317cd2-3d0e-4466-93a3-08d27a0284cc",
+    "id": "0072519a-539e-4bd7-a73e-d23bdb86db89",
     "slug": "coordinate-geometry",
-    "title": "Coordinate Geometry",
-    "summary": "Coordinate Geometry — summary for parents in Grade 10 — Geometry Focus.",
+    "title": "Coordinate Geometry: Navigating the Grid",
+    "summary": "Coordinate geometry — parent overview for Grade 10 (Geometry & Algebra II).",
     "difficulty_level": "core",
-    "order_index": 2
+    "order_index": 4
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "- Understand the basics of coordinate geometry.\n- Learn how to plot points and find distances on a coordinate plane.\n- **Why this matters for parents:** Coordinate geometry helps your child visualize math and solve real-world problems involving space and distance.",
-      "order_index": 1
-    },
-    {
       "key": "overview",
-      "md": "Coordinate geometry is a branch of geometry where we use a coordinate plane to represent geometric figures and analyze their properties. It involves plotting points, lines, and shapes using pairs of numbers called coordinates.\nThis matters because it connects algebra and geometry, allowing us to solve problems involving distance, midpoint, and slope. It's a foundational skill for advanced math and everyday problem-solving.",
+      "md": "**Objective:** Understand how to plot points, read coordinates, and navigate the Cartesian plane.\n\n**Why it matters:** Coordinate geometry is a cornerstone of math that helps students visualize and solve problems involving space and location, crucial for fields like engineering and computer graphics.\n\n**Parent Tip:** Encourage your child to visualize the grid as a map. Help them see how coordinates are like addresses for points.\n\n**Real-World Link:** Think of GPS technology. The coordinates you see on a GPS device work similarly to points on a grid, helping us find exact locations on Earth.",
       "order_index": 2
     },
     {
       "key": "core",
-      "md": "In coordinate geometry, we use a grid called the coordinate plane. It has two axes: the horizontal x-axis and the vertical y-axis. Each point on this plane is represented by an ordered pair (x, y). Understanding how to navigate this grid helps in visualizing and solving geometric problems.",
+      "md": "Welcome to the world of coordinate geometry! Together, we'll explore how to navigate the grid system that helps us locate points in space, much like using a map.",
       "order_index": 3
     },
     {
-      "key": "demo",
-      "md": "1. **Say:** \"Let's imagine our living room floor as a giant grid.\"\n2. **Ask:** \"Can you place a book at the point (2, 3)?\"\n3. Use tape to mark the x-axis and y-axis on the floor.\n4. **Say:** \"The point (2, 3) means 2 steps along the x-axis and 3 steps up the y-axis.\"\n5. Place a small object, like a toy, at the marked point.\n6. **Ask:** \"How far is this point from the origin (0, 0)?\"",
-      "order_index": 4
-    },
-    {
-      "key": "math",
-      "md": "To find the distance between two points, use the distance formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$. For example, between points (1, 2) and (4, 6), the distance is: $$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5$$.",
-      "order_index": 5
-    },
-    {
-      "key": "formulas",
-      "md": "Distance Formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n* $d$: distance between points\n* $(x_1, y_1)$ and $(x_2, y_2)$: coordinates of the two points",
-      "order_index": 6
-    },
-    {
       "key": "guide",
-      "md": "1. **Ask:** \"What are the coordinates of our starting point?\"\n2. **Say:** \"Let's find the distance to another point, like (5, 7).\"\n3. **Guide:** Use the distance formula together.\n4. **Ask:** \"What do you notice about the distance calculation?\"\n5. **Say:** \"Try plotting different points and calculate their distances.\"\n6. **Encourage:** \"Practice helps make these steps feel natural!\"",
+      "md": "1. Introduce the Cartesian plane, explaining the x-axis (horizontal) and y-axis (vertical).\n2. Show how to identify and plot points using ordered pairs (x, y).\n3. Explain the concept of quadrants and how they help locate points.\n4. Practice plotting points and reading coordinates together.",
       "order_index": 7
     },
     {
-      "key": "mistakes",
-      "md": "- Mixing up x and y coordinates. **Try:** Label axes clearly.\n- Forgetting to square differences in the distance formula. **Try:** Write each step out.\n- Not using the square root in the final step. **Try:** Double-check calculations.",
-      "order_index": 8
-    },
-    {
       "key": "practice",
-      "md": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
+      "md": "**1. Plot the point (3, -2) on the grid.**\n_Answer:_ The point (3, -2) is located in the fourth quadrant.\n_Hint:_ Start at the origin (0,0), move 3 units right, and 2 units down.\n\n**2. Identify the coordinates of the point located at 2 units left and 4 units up.**\n_Answer:_ The coordinates are (-2, 4).\n_Hint:_ Think of moving from the origin: left is negative x, up is positive y.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
       "order_index": 8
     },
     {
-      "key": "connection",
-      "md": "Coordinate geometry is used in navigation systems like GPS to calculate distances and directions. It's also essential in computer graphics for designing and animating objects.",
+      "key": "mistakes",
+      "md": "- Confusing the x and y coordinates.\n- Forgetting to start at the origin before plotting.\n- Misidentifying the quadrant based on sign.",
       "order_index": 9
     },
     {
-      "key": "close",
-      "md": "Coordinate geometry opens up a world of understanding in math and beyond. Keep exploring and enjoy the journey!",
-      "order_index": 11
+      "key": "connection",
+      "md": "Think of GPS technology. The coordinates you see on a GPS device work similarly to points on a grid, helping us find exact locations on Earth.",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "- Understand the basics of coordinate geometry.\n- Learn how to plot points and find distances on a coordinate plane.\n- **Why this matters for parents:** Coordinate geometry helps your child visualize math and solve real-world problems involving space and distance.",
-    "overview": "Coordinate geometry is a branch of geometry where we use a coordinate plane to represent geometric figures and analyze their properties. It involves plotting points, lines, and shapes using pairs of numbers called coordinates.\nThis matters because it connects algebra and geometry, allowing us to solve problems involving distance, midpoint, and slope. It's a foundational skill for advanced math and everyday problem-solving.",
-    "core": "In coordinate geometry, we use a grid called the coordinate plane. It has two axes: the horizontal x-axis and the vertical y-axis. Each point on this plane is represented by an ordered pair (x, y). Understanding how to navigate this grid helps in visualizing and solving geometric problems.",
-    "demo": "1. **Say:** \"Let's imagine our living room floor as a giant grid.\"\n2. **Ask:** \"Can you place a book at the point (2, 3)?\"\n3. Use tape to mark the x-axis and y-axis on the floor.\n4. **Say:** \"The point (2, 3) means 2 steps along the x-axis and 3 steps up the y-axis.\"\n5. Place a small object, like a toy, at the marked point.\n6. **Ask:** \"How far is this point from the origin (0, 0)?\"",
-    "math": "To find the distance between two points, use the distance formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$. For example, between points (1, 2) and (4, 6), the distance is: $$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5$$.",
-    "formulas": "Distance Formula: $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n* $d$: distance between points\n* $(x_1, y_1)$ and $(x_2, y_2)$: coordinates of the two points",
-    "guide": "1. **Ask:** \"What are the coordinates of our starting point?\"\n2. **Say:** \"Let's find the distance to another point, like (5, 7).\"\n3. **Guide:** Use the distance formula together.\n4. **Ask:** \"What do you notice about the distance calculation?\"\n5. **Say:** \"Try plotting different points and calculate their distances.\"\n6. **Encourage:** \"Practice helps make these steps feel natural!\"",
-    "mistakes": "- Mixing up x and y coordinates. **Try:** Label axes clearly.\n- Forgetting to square differences in the distance formula. **Try:** Write each step out.\n- Not using the square root in the final step. **Try:** Double-check calculations.",
-    "practice": "**Practice Together:** Add 8–10 scaffolded questions later. (Three starter placeholders are below.)",
-    "connection": "Coordinate geometry is used in navigation systems like GPS to calculate distances and directions. It's also essential in computer graphics for designing and animating objects.",
-    "close": "Coordinate geometry opens up a world of understanding in math and beyond. Keep exploring and enjoy the journey!"
+    "objectives": "**Objective:** Understand how to plot points and interpret lines on a coordinate plane.",
+    "overview": "**Objective:** Understand how to plot points, read coordinates, and navigate the Cartesian plane.\n\n**Why it matters:** Coordinate geometry is a cornerstone of math that helps students visualize and solve problems involving space and location, crucial for fields like engineering and computer graphics.\n\n**Parent Tip:** Encourage your child to visualize the grid as a map. Help them see how coordinates are like addresses for points.\n\n**Real-World Link:** Think of GPS technology. The coordinates you see on a GPS device work similarly to points on a grid, helping us find exact locations on Earth.",
+    "core": "Welcome to the world of coordinate geometry! Together, we'll explore how to navigate the grid system that helps us locate points in space, much like using a map.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how your phone knows exactly where you are on a map? It uses coordinate geometry!",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** Distance = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\n- **Meaning:** This formula calculates the distance between two points on the coordinate plane.\n- **How it works:** Subtract the x-coordinates and y-coordinates of the points, square the results, sum them, and take the square root.\n- **Example:** For points (3, 4) and (6, 8), the distance is \\sqrt{(6-3)^2 + (8-4)^2} = \\sqrt{9 + 16} = 5.\n$$",
+    "formulas": "$$\nDistance = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\n$$",
+    "guide": "1. Introduce the Cartesian plane, explaining the x-axis (horizontal) and y-axis (vertical).\n2. Show how to identify and plot points using ordered pairs (x, y).\n3. Explain the concept of quadrants and how they help locate points.\n4. Practice plotting points and reading coordinates together.",
+    "practice": "**1. Plot the point (3, -2) on the grid.**\n_Answer:_ The point (3, -2) is located in the fourth quadrant.\n_Hint:_ Start at the origin (0,0), move 3 units right, and 2 units down.\n\n**2. Identify the coordinates of the point located at 2 units left and 4 units up.**\n_Answer:_ The coordinates are (-2, 4).\n_Hint:_ Think of moving from the origin: left is negative x, up is positive y.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the x and y coordinates.\n- Forgetting to start at the origin before plotting.\n- Misidentifying the quadrant based on sign.",
+    "connection": "Think of GPS technology. The coordinates you see on a GPS device work similarly to points on a grid, helping us find exact locations on Earth.",
+    "close": "**Key Takeaways**\n- Coordinate geometry helps us find precise locations and distances.\n- The distance formula is useful for calculating how far apart two points are.\n- Understanding slopes helps in identifying how steep a line is on a graph.\n\n**Parent Reflection Questions**\n- How do coordinates help in navigation?\n- Why is it important to understand the distance between points?\n- What real-world examples can we find that use slopes?"
   },
-  "practice": [
-    {
-      "order_index": 1,
-      "question_md": "**Q1.** Starter for **Coordinate Geometry**.",
-      "hint_md": "Hint: Try a household example.",
-      "answer_md": "Answer: Outline key steps."
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Coordinate Geometry: Navigating the Grid",
+    "introduction": "Welcome to the world of coordinate geometry, a fascinating blend of algebra and geometry that helps us navigate grids and spaces. This lesson will guide you through the essentials of understanding and using the coordinate plane.",
+    "objective": "Help your child understand and confidently navigate the coordinate plane, plotting points and interpreting their positions.",
+    "why_matters": "Coordinate geometry is crucial for spatial understanding and is widely used in fields like engineering, architecture, and computer graphics. Mastering it can open doors to creative and analytical thinking.",
+    "parent_tip": "Encourage your child to visualize the coordinate plane as a map, where every point has a unique address. This can make learning more relatable and fun.",
+    "real_world_link": "Think of the coordinate plane like a GPS system. Just as a GPS pinpoints locations on Earth, the coordinate plane helps us locate points in math.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the coordinate plane with its x-axis (horizontal) and y-axis (vertical).",
+      "Explain that each point is defined by an ordered pair (x, y).",
+      "Demonstrate how to plot points on the grid.",
+      "Discuss the quadrants and their significance.",
+      "Explore the concept of distance between points using the grid."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at this grid. It's called the coordinate plane.",
+        "do": "Point to the x-axis and y-axis.",
+        "ask": "Can you see how the axes divide the plane into four parts?",
+        "reinforce": "These parts are called quadrants, and they help us locate points precisely."
+      },
+      {
+        "say": "Each point on this grid is defined by two numbers, like an address.",
+        "do": "Write an example, such as (3, 2).",
+        "ask": "What do you think these numbers mean?",
+        "reinforce": "The first number is how far along the x-axis, and the second is how far up or down the y-axis."
+      },
+      {
+        "say": "Let's plot a point together.",
+        "do": "Draw point (3, 2) on the grid.",
+        "ask": "Can you see where the point is located?",
+        "reinforce": "Great! You've just plotted a point. Notice how it sits at the intersection of the x and y values."
+      },
+      {
+        "say": "Now, let's explore the quadrants.",
+        "do": "Label the quadrants I, II, III, IV.",
+        "ask": "Why do you think these quadrants are numbered this way?",
+        "reinforce": "The numbering helps us quickly identify the location of points based on their signs."
+      },
+      {
+        "say": "Finally, let's think about distance.",
+        "do": "Draw two points and a line between them.",
+        "ask": "How could we measure the distance between these points?",
+        "reinforce": "By counting the grid spaces or using a formula, we can find the exact distance."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Plot the point (4, -3) on the grid.",
+        "hint": "Start at the origin (0,0), move 4 units right, and 3 units down.",
+        "answer": "The point is in Quadrant IV."
+      },
+      {
+        "prompt": "Identify the quadrant for the point (-2, 5).",
+        "hint": "Check the signs of the coordinates.",
+        "answer": "Quadrant II"
+      },
+      {
+        "prompt": "Find the distance between points (1, 2) and (4, 2).",
+        "hint": "Count the grid spaces along the x-axis.",
+        "answer": "3 units"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The coordinate plane consists of an x-axis and a y-axis.",
+      "Each point is identified by an ordered pair (x, y).",
+      "The plane is divided into four quadrants.",
+      "The distance between points can be found by counting spaces or using a formula."
+    ],
+    "common_mistakes": [
+      "Confusing the x and y coordinates when plotting points.",
+      "Forgetting that the y-coordinate is vertical.",
+      "Misidentifying the quadrants based on the signs of the coordinates."
+    ],
+    "deep_dive": {
+      "history": "Coordinate geometry was developed by René Descartes in the 17th century, revolutionizing mathematics by linking algebra and geometry.",
+      "connections": "Coordinate geometry is foundational for calculus and is used in computer graphics, navigation systems, and robotics.",
+      "misconceptions": "Some students think that the coordinate plane only exists in positive numbers, forgetting the negative axes.",
+      "teaching_tips": "Use graph paper to make plotting easier, and relate the grid to real-world maps for better understanding.",
+      "derivation": "The concept of coordinates stems from the idea of using number lines to pinpoint locations, extended into two dimensions."
     },
-    {
-      "order_index": 2,
-      "question_md": "**Q2.** Medium for **Coordinate Geometry** with real objects.",
-      "hint_md": "Hint: Draw or act it out.",
-      "answer_md": "Answer: Short worked solution."
-    },
-    {
-      "order_index": 3,
-      "question_md": "**Q3.** Challenge for **Coordinate Geometry**.",
-      "hint_md": "Hint: Break it into parts.",
-      "answer_md": "Answer: Final result with reasoning."
-    }
-  ]
+    "motivation": "Understanding coordinate geometry empowers your child to think spatially, a skill valuable in many careers and daily life activities. Let's explore this mathematical map together!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of coordinate geometry, a fascinating blend of algebra and geometry that helps us navigate grids and spaces. This lesson will guide you through the essentials of understanding and using the coordinate plane.\n\n## Parent Orientation\n**Objective:** Help your child understand and confidently navigate the coordinate plane, plotting points and interpreting their positions.\n**Why it matters:** Coordinate geometry is crucial for spatial understanding and is widely used in fields like engineering, architecture, and computer graphics. Mastering it can open doors to creative and analytical thinking.\n**Parent Tip:** Encourage your child to visualize the coordinate plane as a map, where every point has a unique address. This can make learning more relatable and fun.\n**Real-World Link:** Think of the coordinate plane like a GPS system. Just as a GPS pinpoints locations on Earth, the coordinate plane helps us locate points in math.\n\n## Teaching Steps\n1. Introduce the coordinate plane with its x-axis (horizontal) and y-axis (vertical).\n2. Explain that each point is defined by an ordered pair (x, y).\n3. Demonstrate how to plot points on the grid.\n4. Discuss the quadrants and their significance.\n5. Explore the concept of distance between points using the grid.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at this grid. It's called the coordinate plane.  \n**Show/Do:** Point to the x-axis and y-axis.  \n**Ask:** Can you see how the axes divide the plane into four parts?  \n**Reinforce:** These parts are called quadrants, and they help us locate points precisely.\n2. **Say:** Each point on this grid is defined by two numbers, like an address.  \n**Show/Do:** Write an example, such as (3, 2).  \n**Ask:** What do you think these numbers mean?  \n**Reinforce:** The first number is how far along the x-axis, and the second is how far up or down the y-axis.\n3. **Say:** Let's plot a point together.  \n**Show/Do:** Draw point (3, 2) on the grid.  \n**Ask:** Can you see where the point is located?  \n**Reinforce:** Great! You've just plotted a point. Notice how it sits at the intersection of the x and y values.\n4. **Say:** Now, let's explore the quadrants.  \n**Show/Do:** Label the quadrants I, II, III, IV.  \n**Ask:** Why do you think these quadrants are numbered this way?  \n**Reinforce:** The numbering helps us quickly identify the location of points based on their signs.\n5. **Say:** Finally, let's think about distance.  \n**Show/Do:** Draw two points and a line between them.  \n**Ask:** How could we measure the distance between these points?  \n**Reinforce:** By counting the grid spaces or using a formula, we can find the exact distance.\n\n## Practice Questions (Do It Together)\n**1. Plot the point (4, -3) on the grid.**\n<details><summary>Hint</summary>\nStart at the origin (0,0), move 4 units right, and 3 units down.\n</details>\n<details><summary>Answer</summary>\nThe point is in Quadrant IV.\n</details>\n\n**2. Identify the quadrant for the point (-2, 5).**\n<details><summary>Hint</summary>\nCheck the signs of the coordinates.\n</details>\n<details><summary>Answer</summary>\nQuadrant II\n</details>\n\n**3. Find the distance between points (1, 2) and (4, 2).**\n<details><summary>Hint</summary>\nCount the grid spaces along the x-axis.\n</details>\n<details><summary>Answer</summary>\n3 units\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The coordinate plane consists of an x-axis and a y-axis.\n- Each point is identified by an ordered pair (x, y).\n- The plane is divided into four quadrants.\n- The distance between points can be found by counting spaces or using a formula.\n\n**Common Mistakes**\n- Confusing the x and y coordinates when plotting points.\n- Forgetting that the y-coordinate is vertical.\n- Misidentifying the quadrants based on the signs of the coordinates.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCoordinate geometry was developed by René Descartes in the 17th century, revolutionizing mathematics by linking algebra and geometry.\n\n**Future topic connections**\n\nCoordinate geometry is foundational for calculus and is used in computer graphics, navigation systems, and robotics.\n\n**Common misconceptions**\n\nSome students think that the coordinate plane only exists in positive numbers, forgetting the negative axes.\n\n**Teaching tips for parents**\n\nUse graph paper to make plotting easier, and relate the grid to real-world maps for better understanding.\n\n**More detail / derivation**\n\nThe concept of coordinates stems from the idea of using number lines to pinpoint locations, extended into two dimensions.\n\n## Motivation\nUnderstanding coordinate geometry empowers your child to think spatially, a skill valuable in many careers and daily life activities. Let's explore this mathematical map together!"
 }

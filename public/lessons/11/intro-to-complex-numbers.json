@@ -1,0 +1,157 @@
+{
+  "grade": {
+    "id": "758e9d68-e55c-488d-ae97-b5545c06d9a5",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "f2e535a7-08b7-42b9-8675-d3db460fce52",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "60e0d3db-a707-4562-9d93-a4b4813bf0b7",
+    "slug": "intro-to-complex-numbers",
+    "title": "Intro to Complex Numbers",
+    "summary": "Intro to complex numbers — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will understand what complex numbers are and how to perform basic operations with them.\n\n**Why it matters:** Complex numbers are essential in fields like engineering and physics. They help describe phenomena that can't be captured by real numbers alone, like electrical currents and wave patterns.\n\n**Parent Tip:** Encourage your child by linking complex numbers to familiar concepts, like using imaginary numbers to solve equations that don't have real solutions.\n\n**Real-World Link:** Think of complex numbers like the GPS of math. Just like GPS coordinates help pinpoint a location on Earth using latitude and longitude, complex numbers help locate points on a plane using real and imaginary parts.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the fascinating world of complex numbers! As a parent, you're about to explore how math extends beyond the real numbers we use every day. Complex numbers open up a whole new dimension of possibilities.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain the concept of imaginary numbers using the idea that the square root of a negative number isn't possible with real numbers.\n2. Introduce the imaginary unit 'i', defined as the square root of -1.\n3. Show how complex numbers are written in the form a + bi.\n4. Discuss how to add and subtract complex numbers by combining like terms.\n5. Illustrate multiplication of complex numbers using distribution, keeping in mind that i² = -1.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Simplify the expression (3 + 2i) + (1 + 4i).**\n_Answer:_ 4 + 6i\n_Hint:_ Combine the real parts and the imaginary parts separately.\n\n**2. Calculate (2 + 3i) - (5 + i).**\n_Answer:_ -3 + 2i\n_Hint:_ Subtract the real and imaginary parts separately.\n\n**3. Multiply (1 + 2i)(3 + 4i).**\n_Answer:_ -5 + 10i\n_Hint:_ Use distribution and remember i² = -1.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to apply i² = -1 when multiplying complex numbers.\n- Mixing up real and imaginary parts when adding or subtracting.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of complex numbers like the GPS of math. Just like GPS coordinates help pinpoint a location on Earth using latitude and longitude, complex numbers help locate points on a plane using real and imaginary parts.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand what complex numbers are and how they can be represented.",
+    "overview": "**Objective:** By the end of this lesson, your child will understand what complex numbers are and how to perform basic operations with them.\n\n**Why it matters:** Complex numbers are essential in fields like engineering and physics. They help describe phenomena that can't be captured by real numbers alone, like electrical currents and wave patterns.\n\n**Parent Tip:** Encourage your child by linking complex numbers to familiar concepts, like using imaginary numbers to solve equations that don't have real solutions.\n\n**Real-World Link:** Think of complex numbers like the GPS of math. Just like GPS coordinates help pinpoint a location on Earth using latitude and longitude, complex numbers help locate points on a plane using real and imaginary parts.",
+    "core": "Welcome to the fascinating world of complex numbers! As a parent, you're about to explore how math extends beyond the real numbers we use every day. Complex numbers open up a whole new dimension of possibilities.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that some numbers can't be found on the regular number line? Imagine a new number line that allows us to explore even more possibilities!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain the concept of imaginary numbers using the idea that the square root of a negative number isn't possible with real numbers.\n2. Introduce the imaginary unit 'i', defined as the square root of -1.\n3. Show how complex numbers are written in the form a + bi.\n4. Discuss how to add and subtract complex numbers by combining like terms.\n5. Illustrate multiplication of complex numbers using distribution, keeping in mind that i² = -1.",
+    "practice": "**1. Simplify the expression (3 + 2i) + (1 + 4i).**\n_Answer:_ 4 + 6i\n_Hint:_ Combine the real parts and the imaginary parts separately.\n\n**2. Calculate (2 + 3i) - (5 + i).**\n_Answer:_ -3 + 2i\n_Hint:_ Subtract the real and imaginary parts separately.\n\n**3. Multiply (1 + 2i)(3 + 4i).**\n_Answer:_ -5 + 10i\n_Hint:_ Use distribution and remember i² = -1.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to apply i² = -1 when multiplying complex numbers.\n- Mixing up real and imaginary parts when adding or subtracting.",
+    "connection": "Think of complex numbers like the GPS of math. Just like GPS coordinates help pinpoint a location on Earth using latitude and longitude, complex numbers help locate points on a plane using real and imaginary parts.",
+    "close": "**Key Takeaways**\n- Complex numbers consist of a real part and an imaginary part.\n- The imaginary unit 'i' is the square root of -1.\n- Complex numbers can be visualized on a plane, similar to coordinates.\n\n**Parent Reflection Questions**\n- How can we use complex numbers to solve real-world problems?\n- What are some examples of complex numbers in nature?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Intro to Complex Numbers",
+    "introduction": "Welcome to the world of complex numbers! These numbers will help your child explore math beyond the real numbers they know. Together, we'll uncover how these numbers expand their understanding of mathematics.",
+    "objective": "To introduce your child to complex numbers and help them understand their form and basic operations.",
+    "why_matters": "Complex numbers are essential in fields such as engineering, physics, and even computer graphics. Understanding them opens doors to advanced studies and real-world applications.",
+    "parent_tip": "Encourage your child to see complex numbers as a natural extension of what they already know. They are just another tool to solve problems that real numbers alone can't tackle.",
+    "real_world_link": "Complex numbers are used in electrical engineering to describe the oscillations in circuits and in computer graphics to create stunning visual effects.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of complex numbers as an extension of the real number line.",
+      "Explain the form of a complex number: a + bi, where 'a' is the real part and 'bi' is the imaginary part.",
+      "Show how to plot complex numbers on a coordinate plane, using the horizontal axis for the real part and the vertical axis for the imaginary part.",
+      "Discuss addition and subtraction of complex numbers by combining like terms.",
+      "Introduce multiplication of complex numbers and highlight the role of i² = -1."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore something exciting called complex numbers.",
+        "do": "Write 'a + bi' on a piece of paper.",
+        "ask": "What do you think 'a' and 'bi' might represent?",
+        "reinforce": "Great! 'a' is the real part, and 'bi' is the imaginary part."
+      },
+      {
+        "say": "Imagine a new number line where we can go in two directions.",
+        "do": "Draw a coordinate plane labeled with 'Real' on the x-axis and 'Imaginary' on the y-axis.",
+        "ask": "How would you plot the number 3 + 4i on this plane?",
+        "reinforce": "That's right! You move across to 3 on the real axis and up to 4 on the imaginary axis."
+      },
+      {
+        "say": "Let's try adding two complex numbers: (2 + 3i) + (1 + 4i).",
+        "do": "Write the numbers and add the real parts and the imaginary parts separately.",
+        "ask": "What result do we get?",
+        "reinforce": "Correct! The result is 3 + 7i."
+      },
+      {
+        "say": "Now, let's multiply (1 + 2i) by (3 + 4i).",
+        "do": "Write down the multiplication and distribute each term.",
+        "ask": "What happens when we multiply i by i?",
+        "reinforce": "Exactly, i² = -1, which helps simplify the expression to -5 + 10i."
+      },
+      {
+        "say": "Complex numbers might seem tricky, but they're just like adding a new dimension to our math toolkit.",
+        "do": "Encourage them to try plotting and calculating with a few more examples.",
+        "ask": "How does it feel to work with these new numbers?",
+        "reinforce": "You're doing great! Remember, practice makes perfect."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add (5 + 6i) and (2 + 3i).",
+        "hint": "Combine the real parts and the imaginary parts separately.",
+        "answer": "7 + 9i"
+      },
+      {
+        "prompt": "Multiply (1 + i) by (2 - i).",
+        "hint": "Use distribution and remember that i² = -1.",
+        "answer": "3 + i"
+      },
+      {
+        "prompt": "Plot the complex number 4 - 5i on a coordinate plane.",
+        "hint": "Move 4 units on the real axis and -5 units on the imaginary axis.",
+        "answer": "(4, -5)"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Complex numbers are written in the form a + bi.",
+      "The real part is 'a', and the imaginary part is 'bi'.",
+      "Complex numbers can be plotted on a coordinate plane.",
+      "Addition and subtraction involve combining like terms.",
+      "Multiplication involves distributing and using i² = -1."
+    ],
+    "common_mistakes": [
+      "Forgetting to apply i² = -1 when multiplying complex numbers.",
+      "Confusing the real part with the imaginary part.",
+      "Mixing up addition and multiplication rules."
+    ],
+    "deep_dive": {
+      "history": "Complex numbers were first conceptualized in the 16th century to solve equations that couldn't be solved using only real numbers.",
+      "connections": "Complex numbers connect algebra to geometry and are foundational in calculus and differential equations.",
+      "misconceptions": "A common misconception is that imaginary numbers are not real or useful, but they have crucial applications in science and engineering.",
+      "teaching_tips": "Use visual aids like the complex plane to help students understand the dual nature of complex numbers.",
+      "derivation": "The derivation of complex numbers starts from the need to solve equations like x² + 1 = 0, which have no real solutions."
+    },
+    "motivation": "Learning about complex numbers will empower your child to tackle new mathematical challenges and appreciate the beauty of math's logical structure."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of complex numbers! These numbers will help your child explore math beyond the real numbers they know. Together, we'll uncover how these numbers expand their understanding of mathematics.\n\n## Parent Orientation\n**Objective:** To introduce your child to complex numbers and help them understand their form and basic operations.\n**Why it matters:** Complex numbers are essential in fields such as engineering, physics, and even computer graphics. Understanding them opens doors to advanced studies and real-world applications.\n**Parent Tip:** Encourage your child to see complex numbers as a natural extension of what they already know. They are just another tool to solve problems that real numbers alone can't tackle.\n**Real-World Link:** Complex numbers are used in electrical engineering to describe the oscillations in circuits and in computer graphics to create stunning visual effects.\n\n## Teaching Steps\n1. Introduce the concept of complex numbers as an extension of the real number line.\n2. Explain the form of a complex number: a + bi, where 'a' is the real part and 'bi' is the imaginary part.\n3. Show how to plot complex numbers on a coordinate plane, using the horizontal axis for the real part and the vertical axis for the imaginary part.\n4. Discuss addition and subtraction of complex numbers by combining like terms.\n5. Introduce multiplication of complex numbers and highlight the role of i² = -1.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore something exciting called complex numbers.  \n**Show/Do:** Write 'a + bi' on a piece of paper.  \n**Ask:** What do you think 'a' and 'bi' might represent?  \n**Reinforce:** Great! 'a' is the real part, and 'bi' is the imaginary part.\n2. **Say:** Imagine a new number line where we can go in two directions.  \n**Show/Do:** Draw a coordinate plane labeled with 'Real' on the x-axis and 'Imaginary' on the y-axis.  \n**Ask:** How would you plot the number 3 + 4i on this plane?  \n**Reinforce:** That's right! You move across to 3 on the real axis and up to 4 on the imaginary axis.\n3. **Say:** Let's try adding two complex numbers: (2 + 3i) + (1 + 4i).  \n**Show/Do:** Write the numbers and add the real parts and the imaginary parts separately.  \n**Ask:** What result do we get?  \n**Reinforce:** Correct! The result is 3 + 7i.\n4. **Say:** Now, let's multiply (1 + 2i) by (3 + 4i).  \n**Show/Do:** Write down the multiplication and distribute each term.  \n**Ask:** What happens when we multiply i by i?  \n**Reinforce:** Exactly, i² = -1, which helps simplify the expression to -5 + 10i.\n5. **Say:** Complex numbers might seem tricky, but they're just like adding a new dimension to our math toolkit.  \n**Show/Do:** Encourage them to try plotting and calculating with a few more examples.  \n**Ask:** How does it feel to work with these new numbers?  \n**Reinforce:** You're doing great! Remember, practice makes perfect.\n\n## Practice Questions (Do It Together)\n**1. Add (5 + 6i) and (2 + 3i).**\n<details><summary>Hint</summary>\nCombine the real parts and the imaginary parts separately.\n</details>\n<details><summary>Answer</summary>\n7 + 9i\n</details>\n\n**2. Multiply (1 + i) by (2 - i).**\n<details><summary>Hint</summary>\nUse distribution and remember that i² = -1.\n</details>\n<details><summary>Answer</summary>\n3 + i\n</details>\n\n**3. Plot the complex number 4 - 5i on a coordinate plane.**\n<details><summary>Hint</summary>\nMove 4 units on the real axis and -5 units on the imaginary axis.\n</details>\n<details><summary>Answer</summary>\n(4, -5)\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Complex numbers are written in the form a + bi.\n- The real part is 'a', and the imaginary part is 'bi'.\n- Complex numbers can be plotted on a coordinate plane.\n- Addition and subtraction involve combining like terms.\n- Multiplication involves distributing and using i² = -1.\n\n**Common Mistakes**\n- Forgetting to apply i² = -1 when multiplying complex numbers.\n- Confusing the real part with the imaginary part.\n- Mixing up addition and multiplication rules.\n\n## 🔍 Deep Dive\n**History or origin**\n\nComplex numbers were first conceptualized in the 16th century to solve equations that couldn't be solved using only real numbers.\n\n**Future topic connections**\n\nComplex numbers connect algebra to geometry and are foundational in calculus and differential equations.\n\n**Common misconceptions**\n\nA common misconception is that imaginary numbers are not real or useful, but they have crucial applications in science and engineering.\n\n**Teaching tips for parents**\n\nUse visual aids like the complex plane to help students understand the dual nature of complex numbers.\n\n**More detail / derivation**\n\nThe derivation of complex numbers starts from the need to solve equations like x² + 1 = 0, which have no real solutions.\n\n## Motivation\nLearning about complex numbers will empower your child to tackle new mathematical challenges and appreciate the beauty of math's logical structure."
+}

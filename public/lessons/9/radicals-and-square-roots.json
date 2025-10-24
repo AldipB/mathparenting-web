@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "94fc3076-095e-48c9-a475-b71bfc549655",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "a766e7cd-4919-4065-82bc-2159faf7ce27",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "53cc3862-ac0d-4bd1-95b1-52fd9e9d286d",
+    "slug": "radicals-and-square-roots",
+    "title": "Radicals & Square Roots",
+    "summary": "Radicals & square roots — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and calculate square roots, and use radicals in mathematical expressions.\n\n**Why it matters:** Square roots are essential in geometry, physics, and even finance. They help us understand dimensions, speeds, and rates.\n\n**Parent Tip:** Encourage your child by relating square roots to everyday activities, like finding the side of a square when you know its area.\n\n**Real-World Link:** Imagine cutting a square cake. If you know the area, the square root helps find the length of each side to cut the perfect square pieces.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of radicals and square roots! These concepts are like finding the perfect square footage for a new room or understanding the essence of a number.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with the basics: Explain that the square root of a number is a value that, when multiplied by itself, gives the original number.\n2. Show how to identify perfect squares (e.g., 1, 4, 9, 16) and their roots.\n3. Explain the radical symbol (√) and how it represents square roots.\n4. Introduce non-perfect squares and how to estimate their square roots.\n5. Practice rewriting expressions with radicals and simplifying them.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is the square root of 64?**\n_Answer:_ 8\n_Hint:_ Think of a number that multiplies by itself to make 64.\n\n**2. Simplify √49.**\n_Answer:_ 7\n_Hint:_ Find the number that, when squared, equals 49.\n\n**3. Estimate the square root of 50.**\n_Answer:_ Approximately 7.07\n_Hint:_ 50 is between the perfect squares 49 and 64.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing square roots with division.\n- Forgetting that both positive and negative numbers can be square roots.\n- Misestimating non-perfect square roots.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine cutting a square cake. If you know the area, the square root helps find the length of each side to cut the perfect square pieces.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and work with square roots and radicals.",
+    "overview": "**Objective:** Help your child understand and calculate square roots, and use radicals in mathematical expressions.\n\n**Why it matters:** Square roots are essential in geometry, physics, and even finance. They help us understand dimensions, speeds, and rates.\n\n**Parent Tip:** Encourage your child by relating square roots to everyday activities, like finding the side of a square when you know its area.\n\n**Real-World Link:** Imagine cutting a square cake. If you know the area, the square root helps find the length of each side to cut the perfect square pieces.",
+    "core": "Welcome to the world of radicals and square roots! These concepts are like finding the perfect square footage for a new room or understanding the essence of a number.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how architects determine the side length of a square room given its area?",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** \\(\\sqrt{x}\\)\n- **Meaning:** The square root of x is a number which, when multiplied by itself, equals x.\n- **How it works:** For example, \\(\\sqrt{16} = 4\\) because \\(4 \\times 4 = 16\\).\n- **Example:** If a square has an area of 49 square meters, each side is \\(\\sqrt{49} = 7\\) meters.\n$$",
+    "formulas": "$$\n\\(\\sqrt{x}\\)\n$$",
+    "guide": "1. Start with the basics: Explain that the square root of a number is a value that, when multiplied by itself, gives the original number.\n2. Show how to identify perfect squares (e.g., 1, 4, 9, 16) and their roots.\n3. Explain the radical symbol (√) and how it represents square roots.\n4. Introduce non-perfect squares and how to estimate their square roots.\n5. Practice rewriting expressions with radicals and simplifying them.",
+    "practice": "**1. What is the square root of 64?**\n_Answer:_ 8\n_Hint:_ Think of a number that multiplies by itself to make 64.\n\n**2. Simplify √49.**\n_Answer:_ 7\n_Hint:_ Find the number that, when squared, equals 49.\n\n**3. Estimate the square root of 50.**\n_Answer:_ Approximately 7.07\n_Hint:_ 50 is between the perfect squares 49 and 64.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing square roots with division.\n- Forgetting that both positive and negative numbers can be square roots.\n- Misestimating non-perfect square roots.",
+    "connection": "Imagine cutting a square cake. If you know the area, the square root helps find the length of each side to cut the perfect square pieces.",
+    "close": "**Key Takeaways**\n- Square roots reverse the process of squaring a number.\n- They help find side lengths from area in geometric shapes.\n- Understanding square roots builds a foundation for future math topics.\n\n**Parent Reflection Questions**\n- Why are square roots important beyond math class?\n- How can I help my child visualize square roots?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Radicals & Square Roots",
+    "introduction": "Welcome to the world of radicals and square roots! These concepts are like the key to unlocking the secrets of numbers. Let's explore how they work and why they're important.",
+    "objective": "Help your child understand how to calculate and simplify square roots and radicals.",
+    "why_matters": "Square roots are foundational for understanding higher-level math concepts and are used in everyday calculations, like finding the side of a square.",
+    "parent_tip": "Encourage your child to visualize square roots as the length of a side of a square. This can make the concept more tangible.",
+    "real_world_link": "Think about when you need to measure the diagonal of a square tile or the hypotenuse of a right triangle. Square roots help make those measurements possible.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a square and its area.",
+      "Explain how the square root is the side length of a square with a given area.",
+      "Show how to find the square root of perfect squares, like 4, 9, and 16.",
+      "Discuss how to use a calculator to find square roots of non-perfect squares.",
+      "Practice simplifying square roots by breaking down numbers into their prime factors."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by talking about squares. If a square has an area of 9 square units, what do you think the length of each side is?",
+        "do": "Draw a square and label its area as 9.",
+        "ask": "What number multiplied by itself gives us 9?",
+        "reinforce": "That's right! The side length is 3 because 3 times 3 equals 9."
+      },
+      {
+        "say": "Now, let's find the square root of 16.",
+        "do": "Write down the number 16 and explain that we're looking for a number that multiplies by itself to get 16.",
+        "ask": "What number multiplied by itself equals 16?",
+        "reinforce": "Exactly! 4 times 4 is 16, so the square root of 16 is 4."
+      },
+      {
+        "say": "Not all numbers are perfect squares, like 8.",
+        "do": "Show how to use a calculator to find the square root of 8.",
+        "ask": "What does the calculator say the square root of 8 is?",
+        "reinforce": "That's right! It's approximately 2.83."
+      },
+      {
+        "say": "Let's break down the number 18 into its prime factors to simplify its square root.",
+        "do": "Write 18 as 2 x 3 x 3.",
+        "ask": "Can we simplify the square root of 18 using these factors?",
+        "reinforce": "Yes, √18 can be simplified to 3√2."
+      },
+      {
+        "say": "Try finding the square root of 36.",
+        "do": "Encourage your child to think of a number that multiplies by itself to get 36.",
+        "ask": "What number is it?",
+        "reinforce": "Great job! The square root of 36 is 6."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the square root of 49.",
+        "hint": "Think of a number that multiplies by itself to make 49.",
+        "answer": "7"
+      },
+      {
+        "prompt": "Simplify the square root of 50.",
+        "hint": "Break 50 into prime factors.",
+        "answer": "5√2"
+      },
+      {
+        "prompt": "What is the square root of 144?",
+        "hint": "It's a perfect square.",
+        "answer": "12"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Square roots help us find the side length of squares with a given area.",
+      "You can simplify square roots by finding prime factors.",
+      "Calculators are useful for finding square roots of non-perfect squares."
+    ],
+    "common_mistakes": [
+      "Forgetting to simplify square roots fully.",
+      "Confusing square roots with regular division.",
+      "Not checking if a number is a perfect square before using a calculator."
+    ],
+    "deep_dive": {
+      "history": "The concept of square roots dates back to ancient civilizations, including the Babylonians and Greeks.",
+      "connections": "Square roots are crucial in geometry, algebra, and even calculus.",
+      "misconceptions": "Some students think square roots only apply to perfect squares, but they can be calculated for any number.",
+      "teaching_tips": "Use visual aids to show squares and their roots. Encourage estimation to check work.",
+      "derivation": "Square roots are derived from the principle of squaring a number, which is multiplying it by itself."
+    },
+    "motivation": "Understanding square roots opens up a world of mathematical exploration and problem-solving. It's like having a new tool in your math toolkit!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of radicals and square roots! These concepts are like the key to unlocking the secrets of numbers. Let's explore how they work and why they're important.\n\n## Parent Orientation\n**Objective:** Help your child understand how to calculate and simplify square roots and radicals.\n**Why it matters:** Square roots are foundational for understanding higher-level math concepts and are used in everyday calculations, like finding the side of a square.\n**Parent Tip:** Encourage your child to visualize square roots as the length of a side of a square. This can make the concept more tangible.\n**Real-World Link:** Think about when you need to measure the diagonal of a square tile or the hypotenuse of a right triangle. Square roots help make those measurements possible.\n\n## Teaching Steps\n1. Introduce the concept of a square and its area.\n2. Explain how the square root is the side length of a square with a given area.\n3. Show how to find the square root of perfect squares, like 4, 9, and 16.\n4. Discuss how to use a calculator to find square roots of non-perfect squares.\n5. Practice simplifying square roots by breaking down numbers into their prime factors.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by talking about squares. If a square has an area of 9 square units, what do you think the length of each side is?  \n**Show/Do:** Draw a square and label its area as 9.  \n**Ask:** What number multiplied by itself gives us 9?  \n**Reinforce:** That's right! The side length is 3 because 3 times 3 equals 9.\n2. **Say:** Now, let's find the square root of 16.  \n**Show/Do:** Write down the number 16 and explain that we're looking for a number that multiplies by itself to get 16.  \n**Ask:** What number multiplied by itself equals 16?  \n**Reinforce:** Exactly! 4 times 4 is 16, so the square root of 16 is 4.\n3. **Say:** Not all numbers are perfect squares, like 8.  \n**Show/Do:** Show how to use a calculator to find the square root of 8.  \n**Ask:** What does the calculator say the square root of 8 is?  \n**Reinforce:** That's right! It's approximately 2.83.\n4. **Say:** Let's break down the number 18 into its prime factors to simplify its square root.  \n**Show/Do:** Write 18 as 2 x 3 x 3.  \n**Ask:** Can we simplify the square root of 18 using these factors?  \n**Reinforce:** Yes, √18 can be simplified to 3√2.\n5. **Say:** Try finding the square root of 36.  \n**Show/Do:** Encourage your child to think of a number that multiplies by itself to get 36.  \n**Ask:** What number is it?  \n**Reinforce:** Great job! The square root of 36 is 6.\n\n## Practice Questions (Do It Together)\n**1. Find the square root of 49.**\n<details><summary>Hint</summary>\nThink of a number that multiplies by itself to make 49.\n</details>\n<details><summary>Answer</summary>\n7\n</details>\n\n**2. Simplify the square root of 50.**\n<details><summary>Hint</summary>\nBreak 50 into prime factors.\n</details>\n<details><summary>Answer</summary>\n5√2\n</details>\n\n**3. What is the square root of 144?**\n<details><summary>Hint</summary>\nIt's a perfect square.\n</details>\n<details><summary>Answer</summary>\n12\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Square roots help us find the side length of squares with a given area.\n- You can simplify square roots by finding prime factors.\n- Calculators are useful for finding square roots of non-perfect squares.\n\n**Common Mistakes**\n- Forgetting to simplify square roots fully.\n- Confusing square roots with regular division.\n- Not checking if a number is a perfect square before using a calculator.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of square roots dates back to ancient civilizations, including the Babylonians and Greeks.\n\n**Future topic connections**\n\nSquare roots are crucial in geometry, algebra, and even calculus.\n\n**Common misconceptions**\n\nSome students think square roots only apply to perfect squares, but they can be calculated for any number.\n\n**Teaching tips for parents**\n\nUse visual aids to show squares and their roots. Encourage estimation to check work.\n\n**More detail / derivation**\n\nSquare roots are derived from the principle of squaring a number, which is multiplying it by itself.\n\n## Motivation\nUnderstanding square roots opens up a world of mathematical exploration and problem-solving. It's like having a new tool in your math toolkit!"
+}

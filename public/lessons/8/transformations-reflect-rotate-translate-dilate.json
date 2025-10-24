@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "476830c4-d443-426d-b1a8-68f795c0b6a9",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "76ca7747-f313-4c8c-94be-5e6bbd18aff4",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "31d20618-68e9-48b1-bb51-322aa5b6c45f",
+    "slug": "transformations-reflect-rotate-translate-dilate",
+    "title": "Transformations: Reflect, Rotate, Translate, Dilate",
+    "summary": "Transformations (reflect, rotate, translate, dilate) — parent overview for Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child master the concepts of reflection, rotation, translation, and dilation by exploring everyday examples.\n\n**Why it matters:** Understanding transformations enhances spatial reasoning and problem-solving skills, crucial for fields like engineering, art, and architecture.\n\n**Parent Tip:** Encourage your child to visualize these transformations by using objects at home, like rotating a book or reflecting a toy in a mirror.\n\n**Real-World Link:** Think of transformations when you look at how a car's side mirror reflects the road, how a dancer spins, or how a photo zooms in and out on your phone.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the fascinating world of transformations in math, where shapes shift, turn, and grow! These concepts are not just for the classroom—they help us understand the world around us.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with reflection: Use a mirror to show how an image flips.\n2. Discuss rotation: Rotate a book 90 degrees to show how it turns around a point.\n3. Explain translation: Slide a toy across the table to show movement without rotation.\n4. Introduce dilation: Use a photocopier to enlarge or reduce a photo, showing how size changes while shape remains the same.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Reflect a triangle over the y-axis with vertices at (2, 3), (-1, 4), and (0, -2).**\n_Answer:_ The reflected vertices are (-2, 3), (1, 4), and (0, -2).\n_Hint:_ Flip the x-coordinates to their opposites.\n\n**2. Rotate a point (3, 4) 90 degrees clockwise around the origin.**\n_Answer:_ The new point is (4, -3).\n_Hint:_ Swap the coordinates and change the sign of the new y-coordinate.\n\n**3. Translate a shape 5 units right and 2 units up if a vertex starts at (1, 1).**\n_Answer:_ The new position is (6, 3).\n_Hint:_ Add 5 to the x-coordinate and 2 to the y-coordinate.\n\n**4. Dilate a point (2, 3) by a scale factor of 2 from the origin.**\n_Answer:_ The new point is (4, 6).\n_Hint:_ Multiply both coordinates by the scale factor.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to change both coordinates during transformations.\n- Mixing up clockwise and counterclockwise rotations.\n- Confusing dilation with translation.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of transformations when you look at how a car's side mirror reflects the road, how a dancer spins, or how a photo zooms in and out on your phone.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and apply transformations: reflection, rotation, translation, and dilation.",
+    "overview": "**Objective:** Help your child master the concepts of reflection, rotation, translation, and dilation by exploring everyday examples.\n\n**Why it matters:** Understanding transformations enhances spatial reasoning and problem-solving skills, crucial for fields like engineering, art, and architecture.\n\n**Parent Tip:** Encourage your child to visualize these transformations by using objects at home, like rotating a book or reflecting a toy in a mirror.\n\n**Real-World Link:** Think of transformations when you look at how a car's side mirror reflects the road, how a dancer spins, or how a photo zooms in and out on your phone.",
+    "core": "Welcome to the fascinating world of transformations in math, where shapes shift, turn, and grow! These concepts are not just for the classroom—they help us understand the world around us.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how a mirror image flips what it reflects? Or how a spinning top seems to blur as it rotates? These everyday wonders are all about transformations!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with reflection: Use a mirror to show how an image flips.\n2. Discuss rotation: Rotate a book 90 degrees to show how it turns around a point.\n3. Explain translation: Slide a toy across the table to show movement without rotation.\n4. Introduce dilation: Use a photocopier to enlarge or reduce a photo, showing how size changes while shape remains the same.",
+    "practice": "**1. Reflect a triangle over the y-axis with vertices at (2, 3), (-1, 4), and (0, -2).**\n_Answer:_ The reflected vertices are (-2, 3), (1, 4), and (0, -2).\n_Hint:_ Flip the x-coordinates to their opposites.\n\n**2. Rotate a point (3, 4) 90 degrees clockwise around the origin.**\n_Answer:_ The new point is (4, -3).\n_Hint:_ Swap the coordinates and change the sign of the new y-coordinate.\n\n**3. Translate a shape 5 units right and 2 units up if a vertex starts at (1, 1).**\n_Answer:_ The new position is (6, 3).\n_Hint:_ Add 5 to the x-coordinate and 2 to the y-coordinate.\n\n**4. Dilate a point (2, 3) by a scale factor of 2 from the origin.**\n_Answer:_ The new point is (4, 6).\n_Hint:_ Multiply both coordinates by the scale factor.",
+    "mistakes": "- Forgetting to change both coordinates during transformations.\n- Mixing up clockwise and counterclockwise rotations.\n- Confusing dilation with translation.",
+    "connection": "Think of transformations when you look at how a car's side mirror reflects the road, how a dancer spins, or how a photo zooms in and out on your phone.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Transformations (reflect, rotate, translate, dilate)** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can transformations help in understanding symmetry?\n- What everyday objects can we use to demonstrate these transformations?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Transformations: Reflect, Rotate, Translate, Dilate",
+    "introduction": "Transformations in math help us understand how shapes move and change. These concepts are like a dance, where each step involves a shift, spin, flip, or size change.",
+    "objective": "Help your child recognize and perform transformations: reflection, rotation, translation, and dilation.",
+    "why_matters": "These skills build spatial awareness and are foundational for geometry, art, and even computer graphics.",
+    "parent_tip": "Use everyday objects to demonstrate transformations. A book can be flipped (reflected), rotated, slid (translated), or its size changed (dilated).",
+    "real_world_link": "Think of transformations like moving furniture in a room. You might rotate a chair, slide a table, or even shrink a rug's size in your mind to see how it fits.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce transformations by showing how objects can move or change.",
+      "Discuss each type: reflection, rotation, translation, and dilation.",
+      "Use simple examples like flipping a pancake (reflection) or turning a key (rotation).",
+      "Encourage your child to identify transformations in their environment.",
+      "Practice with drawings or cut-out shapes to visualize transformations."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore how shapes move or change.",
+        "do": "Show a book and flip it over.",
+        "ask": "What do you notice when I flip the book?",
+        "reinforce": "That's reflection—like looking in a mirror!"
+      },
+      {
+        "say": "Now, let’s rotate the book.",
+        "do": "Turn the book 90 degrees.",
+        "ask": "How does the book look different?",
+        "reinforce": "This is rotation, like turning a steering wheel."
+      },
+      {
+        "say": "Watch as I slide the book across the table.",
+        "do": "Move the book straight across the table.",
+        "ask": "What happened to the book?",
+        "reinforce": "That's translation—sliding without turning."
+      },
+      {
+        "say": "Let's imagine making the book bigger or smaller.",
+        "do": "Pretend to enlarge or shrink the book.",
+        "ask": "How would the book change size?",
+        "reinforce": "That's dilation—changing size but not shape."
+      },
+      {
+        "say": "Can you find a shape in the room and describe a transformation?",
+        "do": "Encourage your child to choose an object.",
+        "ask": "How would you transform it?",
+        "reinforce": "Great observation! Recognizing transformations helps us see the world differently."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you rotate a square 180 degrees, what will it look like?",
+        "hint": "A 180-degree rotation turns the shape upside down.",
+        "answer": "The square will look the same because it's symmetrical."
+      },
+      {
+        "prompt": "Reflect a triangle over a vertical line. What changes?",
+        "hint": "Think of how a mirror reflects.",
+        "answer": "The triangle will be a mirror image across the line."
+      },
+      {
+        "prompt": "Translate a rectangle 3 units right and 2 units up. Where is it now?",
+        "hint": "Move it horizontally first, then vertically.",
+        "answer": "The rectangle has shifted 3 units to the right and 2 units up."
+      },
+      {
+        "prompt": "Dilate a circle by a scale factor of 2. How does it change?",
+        "hint": "Multiplying by 2 changes the size.",
+        "answer": "The circle doubles in size, but its shape stays the same."
+      }
+    ],
+    "recap": [
+      "Transformations help us understand how shapes move and change.",
+      "Reflection, rotation, translation, and dilation are key types.",
+      "These concepts are used in art, design, and everyday life."
+    ],
+    "common_mistakes": [
+      "Confusing rotation with translation.",
+      "Thinking dilation changes the shape, not just the size.",
+      "Forgetting that reflections are mirror images."
+    ],
+    "deep_dive": {
+      "history": "Transformations have been used since ancient times, evident in art and architecture.",
+      "connections": "These concepts are crucial in fields like computer graphics and animation.",
+      "misconceptions": "A common misconception is that transformations alter the fundamental properties of shapes.",
+      "teaching_tips": "Use physical objects to demonstrate each transformation type.",
+      "derivation": "Transformations can be represented mathematically using matrices in advanced studies."
+    },
+    "motivation": "Understanding transformations enhances problem-solving skills and helps in visualizing solutions in various contexts."
+  },
+  "markdown": "## Lesson Introduction\nTransformations in math help us understand how shapes move and change. These concepts are like a dance, where each step involves a shift, spin, flip, or size change.\n\n## Parent Orientation\n**Objective:** Help your child recognize and perform transformations: reflection, rotation, translation, and dilation.\n**Why it matters:** These skills build spatial awareness and are foundational for geometry, art, and even computer graphics.\n**Parent Tip:** Use everyday objects to demonstrate transformations. A book can be flipped (reflected), rotated, slid (translated), or its size changed (dilated).\n**Real-World Link:** Think of transformations like moving furniture in a room. You might rotate a chair, slide a table, or even shrink a rug's size in your mind to see how it fits.\n\n## Teaching Steps\n1. Introduce transformations by showing how objects can move or change.\n2. Discuss each type: reflection, rotation, translation, and dilation.\n3. Use simple examples like flipping a pancake (reflection) or turning a key (rotation).\n4. Encourage your child to identify transformations in their environment.\n5. Practice with drawings or cut-out shapes to visualize transformations.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore how shapes move or change.  \n**Show/Do:** Show a book and flip it over.  \n**Ask:** What do you notice when I flip the book?  \n**Reinforce:** That's reflection—like looking in a mirror!\n2. **Say:** Now, let’s rotate the book.  \n**Show/Do:** Turn the book 90 degrees.  \n**Ask:** How does the book look different?  \n**Reinforce:** This is rotation, like turning a steering wheel.\n3. **Say:** Watch as I slide the book across the table.  \n**Show/Do:** Move the book straight across the table.  \n**Ask:** What happened to the book?  \n**Reinforce:** That's translation—sliding without turning.\n4. **Say:** Let's imagine making the book bigger or smaller.  \n**Show/Do:** Pretend to enlarge or shrink the book.  \n**Ask:** How would the book change size?  \n**Reinforce:** That's dilation—changing size but not shape.\n5. **Say:** Can you find a shape in the room and describe a transformation?  \n**Show/Do:** Encourage your child to choose an object.  \n**Ask:** How would you transform it?  \n**Reinforce:** Great observation! Recognizing transformations helps us see the world differently.\n\n## Practice Questions (Do It Together)\n**1. If you rotate a square 180 degrees, what will it look like?**\n<details><summary>Hint</summary>\nA 180-degree rotation turns the shape upside down.\n</details>\n<details><summary>Answer</summary>\nThe square will look the same because it's symmetrical.\n</details>\n\n**2. Reflect a triangle over a vertical line. What changes?**\n<details><summary>Hint</summary>\nThink of how a mirror reflects.\n</details>\n<details><summary>Answer</summary>\nThe triangle will be a mirror image across the line.\n</details>\n\n**3. Translate a rectangle 3 units right and 2 units up. Where is it now?**\n<details><summary>Hint</summary>\nMove it horizontally first, then vertically.\n</details>\n<details><summary>Answer</summary>\nThe rectangle has shifted 3 units to the right and 2 units up.\n</details>\n\n**4. Dilate a circle by a scale factor of 2. How does it change?**\n<details><summary>Hint</summary>\nMultiplying by 2 changes the size.\n</details>\n<details><summary>Answer</summary>\nThe circle doubles in size, but its shape stays the same.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Transformations help us understand how shapes move and change.\n- Reflection, rotation, translation, and dilation are key types.\n- These concepts are used in art, design, and everyday life.\n\n**Common Mistakes**\n- Confusing rotation with translation.\n- Thinking dilation changes the shape, not just the size.\n- Forgetting that reflections are mirror images.\n\n## 🔍 Deep Dive\n**History or origin**\n\nTransformations have been used since ancient times, evident in art and architecture.\n\n**Future topic connections**\n\nThese concepts are crucial in fields like computer graphics and animation.\n\n**Common misconceptions**\n\nA common misconception is that transformations alter the fundamental properties of shapes.\n\n**Teaching tips for parents**\n\nUse physical objects to demonstrate each transformation type.\n\n**More detail / derivation**\n\nTransformations can be represented mathematically using matrices in advanced studies.\n\n## Motivation\nUnderstanding transformations enhances problem-solving skills and helps in visualizing solutions in various contexts."
+}

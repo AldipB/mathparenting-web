@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "cf404f79-5ab4-460d-b280-1640d65e70d7",
+    "slug": "11",
+    "name": "Grade 11"
+  },
+  "unit": {
+    "id": "666d895c-a1ae-403f-a205-162738cb5863",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "702b5bb2-de7b-4b44-8fb9-6b3abff9fa8d",
+    "slug": "polynomial-functions-factoring",
+    "title": "Polynomial Functions Factoring",
+    "summary": "Polynomial Functions Factoring — summary for parents in Grade 11.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Polynomial Functions Factoring** in Grade 11.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Polynomial Functions Factoring** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Polynomial Functions Factoring** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Polynomial Functions Factoring** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Polynomial Functions Factoring** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Polynomial Functions Factoring**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Polynomial Functions Factoring**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Polynomial Functions Factoring**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Polynomial Functions Factoring** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Polynomial Functions Factoring**.",
+    "overview": "This lesson helps children understand **Polynomial Functions Factoring**.",
+    "core": "Explain **Polynomial Functions Factoring** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Polynomial Functions Factoring**."
+}

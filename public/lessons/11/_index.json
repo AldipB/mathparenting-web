@@ -1,0 +1,45 @@
+{
+  "grade": "11",
+  "lessons": [
+    {
+      "slug": "data-modelling-and-curve-fitting",
+      "title": "Data Modelling & Curve Fitting: Connecting Dots to Predict the Future"
+    },
+    {
+      "slug": "law-of-sines-and-cosines",
+      "title": "Exploring the Law of Sines and Cosines"
+    },
+    {
+      "slug": "trig-graphs-and-transformations",
+      "title": "Exploring Trigonometric Graphs and Transformations"
+    },
+    {
+      "slug": "exponential-and-logarithmic-functions",
+      "title": "Exponential & Logarithmic Functions: Unlocking Growth and Decay"
+    },
+    {
+      "slug": "intro-to-complex-numbers",
+      "title": "Intro to Complex Numbers"
+    },
+    {
+      "slug": "polynomial-functions-degree-25",
+      "title": "Polynomial Functions: Exploring Degrees 2 to 5"
+    },
+    {
+      "slug": "trigonometric-ratios-and-identities",
+      "title": "Trigonometric Ratios & Identities: Exploring the World of Angles"
+    },
+    {
+      "slug": "inverse-functions",
+      "title": "Understanding Inverse Functions"
+    },
+    {
+      "slug": "rational-functions-domain-and-asymptotes",
+      "title": "Understanding Rational Functions: Domain & Asymptotes"
+    },
+    {
+      "slug": "unit-circle-and-radian-measure",
+      "title": "Understanding the Unit Circle & Radian Measure"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "5478c445-8dc1-4f01-b582-ff6716114dea",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "6226d265-ae65-4288-a24f-73b38b12869b",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "02cf1f42-d08b-4c73-8164-85b30910a5e0",
+    "slug": "slope-intercept-and-standard-form",
+    "title": "Understanding Slope-Intercept & Standard Form",
+    "summary": "Slope-intercept & standard form — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, you'll understand how to identify and use the slope-intercept form and standard form of a linear equation.\n\n**Why it matters:** Understanding these forms helps in graphing lines and solving real-world problems, like predicting trends and making decisions based on data.\n\n**Parent Tip:** Encourage your child to visualize the line as a path on a map. This can make abstract concepts feel more concrete.\n\n**Real-World Link:** Think of slope as the steepness of a hill and the y-intercept as where you start climbing. In real life, this could relate to calculating the incline of a ramp or the starting point of a savings account balance.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to exploring how lines are represented in math! This lesson will guide you through understanding the slope-intercept and standard forms of a line. We're here to support you in helping your child succeed.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the slope-intercept form: y = mx + b.\n2. Explain 'm' as the slope, or 'rise over run,' and 'b' as the y-intercept.\n3. Show how to convert to standard form Ax + By = C.\n4. Practice identifying slope and intercept from equations and graphs.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Convert y = 3x + 2 to standard form.**\n_Answer:_ 3x - y = -2\n_Hint:_ Rearrange to get all terms on one side.\n\n**2. Identify the slope and y-intercept of y = -4x + 7.**\n_Answer:_ Slope: -4, Y-intercept: 7\n_Hint:_ Look at the coefficients of x and the constant.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing slope with y-intercept.\n- Mixing up the forms of the equation.\n- Forgetting to rearrange terms correctly when converting forms.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of slope as the steepness of a hill and the y-intercept as where you start climbing. In real life, this could relate to calculating the incline of a ramp or the starting point of a savings account balance.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to represent linear equations in slope-intercept and standard form, and how to convert between these forms.",
+    "overview": "**Objective:** By the end of this lesson, you'll understand how to identify and use the slope-intercept form and standard form of a linear equation.\n\n**Why it matters:** Understanding these forms helps in graphing lines and solving real-world problems, like predicting trends and making decisions based on data.\n\n**Parent Tip:** Encourage your child to visualize the line as a path on a map. This can make abstract concepts feel more concrete.\n\n**Real-World Link:** Think of slope as the steepness of a hill and the y-intercept as where you start climbing. In real life, this could relate to calculating the incline of a ramp or the starting point of a savings account balance.",
+    "core": "Welcome to exploring how lines are represented in math! This lesson will guide you through understanding the slope-intercept and standard forms of a line. We're here to support you in helping your child succeed.",
+    "demo": "**Spark Curiosity:**\n\nImagine you're planning a road trip. If you know the speed of your car and how much gas you have, can you predict how far you'll go? That's like using slope-intercept form to predict outcomes!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** y = mx + b\n- **Meaning:** 'y' is the outcome, 'm' is the slope (rate of change), 'x' is the input, and 'b' is the y-intercept (starting value).\n- **How it works:** Adjust 'm' to change the steepness of the line and 'b' to move the line up or down.\n- **Example:** If a taxi charges $2 per mile (m) and has a $5 starting fee (b), the cost (y) for 'x' miles is \\( y = 2x + 5 \\).",
+    "formulas": "y = mx + b",
+    "guide": "1. Introduce the slope-intercept form: y = mx + b.\n2. Explain 'm' as the slope, or 'rise over run,' and 'b' as the y-intercept.\n3. Show how to convert to standard form Ax + By = C.\n4. Practice identifying slope and intercept from equations and graphs.",
+    "practice": "**1. Convert y = 3x + 2 to standard form.**\n_Answer:_ 3x - y = -2\n_Hint:_ Rearrange to get all terms on one side.\n\n**2. Identify the slope and y-intercept of y = -4x + 7.**\n_Answer:_ Slope: -4, Y-intercept: 7\n_Hint:_ Look at the coefficients of x and the constant.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing slope with y-intercept.\n- Mixing up the forms of the equation.\n- Forgetting to rearrange terms correctly when converting forms.",
+    "connection": "Think of slope as the steepness of a hill and the y-intercept as where you start climbing. In real life, this could relate to calculating the incline of a ramp or the starting point of a savings account balance.",
+    "close": "**Key Takeaways**\n- Slope-intercept form is great for quick graphing and understanding changes.\n- Standard form is useful for certain calculations and algebraic manipulations.\n- Both forms tell the story of a line but from different angles.\n\n**Parent Reflection Questions**\n- How does changing the slope affect the line’s appearance?\n- Why might we choose one form over the other?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Slope-Intercept & Standard Form",
+    "introduction": "Help your ninth grader get a grip on two key ways to express linear equations: slope-intercept and standard form. These forms make it easier to understand and graph lines, which is a crucial skill in math.",
+    "objective": "By the end of this lesson, your child will be able to identify and convert between slope-intercept form and standard form of a linear equation.",
+    "why_matters": "Understanding these forms helps in quickly graphing lines and solving real-world problems involving constant rates of change, like speed or cost.",
+    "parent_tip": "Encourage your child to visualize equations as lines on a graph. This aids in understanding how changes in equations affect their graphs.",
+    "real_world_link": "Slope-intercept form is like planning a trip: the slope is your speed, and the y-intercept is your starting point. Both forms help in budgeting, planning, and more.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the slope-intercept form: y = mx + b.",
+      "Explain the standard form: Ax + By = C.",
+      "Discuss how to convert between the two forms.",
+      "Practice identifying the slope and y-intercept from equations.",
+      "Graph equations using both forms."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with the slope-intercept form, y = mx + b.",
+        "do": "Write y = 2x + 3 on paper.",
+        "ask": "What do you think the 'm' and 'b' represent here?",
+        "reinforce": "The 'm' is the slope, showing how steep the line is, and 'b' is where it crosses the y-axis."
+      },
+      {
+        "say": "Now let's look at standard form, Ax + By = C.",
+        "do": "Write 2x + 3y = 6 on paper.",
+        "ask": "How is this different from the slope-intercept form?",
+        "reinforce": "This form is great for finding x- and y-intercepts quickly."
+      },
+      {
+        "say": "Let's convert slope-intercept to standard form.",
+        "do": "Take y = 2x + 3 and rearrange it to 2x - y = -3.",
+        "ask": "What did we change here?",
+        "reinforce": "We rearranged to get x and y on one side, which is standard form."
+      },
+      {
+        "say": "Try graphing y = 2x + 3.",
+        "do": "Draw a graph and plot the y-intercept (0, 3) and use the slope to find another point.",
+        "ask": "What does the line look like?",
+        "reinforce": "The line rises 2 units for every 1 unit it moves to the right."
+      },
+      {
+        "say": "Now graph 2x + 3y = 6.",
+        "do": "Plot the x-intercept (3, 0) and y-intercept (0, 2) on the graph.",
+        "ask": "How does this compare to the previous graph?",
+        "reinforce": "Both graphs should look the same, just plotted differently."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Convert y = -3x + 4 to standard form.",
+        "hint": "Rearrange to get x and y on one side.",
+        "answer": "3x + y = 4"
+      },
+      {
+        "prompt": "Graph the equation y = 0.5x - 2.",
+        "hint": "Start at (0, -2) and use the slope to find another point.",
+        "answer": "Line crosses y-axis at -2 and rises 1 unit for every 2 units right."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Slope-intercept form is useful for quickly graphing lines.",
+      "Standard form helps in finding intercepts easily.",
+      "Both forms can be converted into each other."
+    ],
+    "common_mistakes": [
+      "Confusing the slope with the y-intercept in slope-intercept form.",
+      "Not rearranging equations correctly when converting forms.",
+      "Forgetting to plot the y-intercept first when graphing."
+    ],
+    "deep_dive": {
+      "history": "The concept of slope and intercepts has been used for centuries to describe linear relationships.",
+      "connections": "These forms are foundational in algebra and are used in calculus and beyond.",
+      "misconceptions": "Many think standard form is more complex, but it's just a different way to represent the same relationship.",
+      "teaching_tips": "Use graph paper to help your child visualize the equations better.",
+      "derivation": "Slope-intercept form comes from rearranging the standard form to solve for y."
+    },
+    "motivation": "Mastering these forms opens doors to understanding more complex mathematical concepts and real-world applications."
+  },
+  "markdown": "## Lesson Introduction\nHelp your ninth grader get a grip on two key ways to express linear equations: slope-intercept and standard form. These forms make it easier to understand and graph lines, which is a crucial skill in math.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to identify and convert between slope-intercept form and standard form of a linear equation.\n**Why it matters:** Understanding these forms helps in quickly graphing lines and solving real-world problems involving constant rates of change, like speed or cost.\n**Parent Tip:** Encourage your child to visualize equations as lines on a graph. This aids in understanding how changes in equations affect their graphs.\n**Real-World Link:** Slope-intercept form is like planning a trip: the slope is your speed, and the y-intercept is your starting point. Both forms help in budgeting, planning, and more.\n\n## Teaching Steps\n1. Introduce the slope-intercept form: y = mx + b.\n2. Explain the standard form: Ax + By = C.\n3. Discuss how to convert between the two forms.\n4. Practice identifying the slope and y-intercept from equations.\n5. Graph equations using both forms.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with the slope-intercept form, y = mx + b.  \n**Show/Do:** Write y = 2x + 3 on paper.  \n**Ask:** What do you think the 'm' and 'b' represent here?  \n**Reinforce:** The 'm' is the slope, showing how steep the line is, and 'b' is where it crosses the y-axis.\n2. **Say:** Now let's look at standard form, Ax + By = C.  \n**Show/Do:** Write 2x + 3y = 6 on paper.  \n**Ask:** How is this different from the slope-intercept form?  \n**Reinforce:** This form is great for finding x- and y-intercepts quickly.\n3. **Say:** Let's convert slope-intercept to standard form.  \n**Show/Do:** Take y = 2x + 3 and rearrange it to 2x - y = -3.  \n**Ask:** What did we change here?  \n**Reinforce:** We rearranged to get x and y on one side, which is standard form.\n4. **Say:** Try graphing y = 2x + 3.  \n**Show/Do:** Draw a graph and plot the y-intercept (0, 3) and use the slope to find another point.  \n**Ask:** What does the line look like?  \n**Reinforce:** The line rises 2 units for every 1 unit it moves to the right.\n5. **Say:** Now graph 2x + 3y = 6.  \n**Show/Do:** Plot the x-intercept (3, 0) and y-intercept (0, 2) on the graph.  \n**Ask:** How does this compare to the previous graph?  \n**Reinforce:** Both graphs should look the same, just plotted differently.\n\n## Practice Questions (Do It Together)\n**1. Convert y = -3x + 4 to standard form.**\n<details><summary>Hint</summary>\nRearrange to get x and y on one side.\n</details>\n<details><summary>Answer</summary>\n3x + y = 4\n</details>\n\n**2. Graph the equation y = 0.5x - 2.**\n<details><summary>Hint</summary>\nStart at (0, -2) and use the slope to find another point.\n</details>\n<details><summary>Answer</summary>\nLine crosses y-axis at -2 and rises 1 unit for every 2 units right.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Slope-intercept form is useful for quickly graphing lines.\n- Standard form helps in finding intercepts easily.\n- Both forms can be converted into each other.\n\n**Common Mistakes**\n- Confusing the slope with the y-intercept in slope-intercept form.\n- Not rearranging equations correctly when converting forms.\n- Forgetting to plot the y-intercept first when graphing.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of slope and intercepts has been used for centuries to describe linear relationships.\n\n**Future topic connections**\n\nThese forms are foundational in algebra and are used in calculus and beyond.\n\n**Common misconceptions**\n\nMany think standard form is more complex, but it's just a different way to represent the same relationship.\n\n**Teaching tips for parents**\n\nUse graph paper to help your child visualize the equations better.\n\n**More detail / derivation**\n\nSlope-intercept form comes from rearranging the standard form to solve for y.\n\n## Motivation\nMastering these forms opens doors to understanding more complex mathematical concepts and real-world applications."
+}

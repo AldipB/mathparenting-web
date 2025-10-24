@@ -1,144 +1,195 @@
-// src/app/courses/[grade]/[lesson]/page.tsx
-import fs from "node:fs";
-import path from "node:path";
-import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
+import fs from 'node:fs';
+import path from 'node:path';
+import { notFound } from 'next/navigation';
+import LessonContentClient from '@/components/LessonContentClient';
+import 'katex/dist/katex.min.css';
 
 export const revalidate = 60;
 
-type LooseLesson = Record<string, unknown>;
+type AnyRec = Record<string, any>;
 
-function readLesson(grade: string, lesson: string): LooseLesson | null {
-  const filePath = path.join(process.cwd(), "public", "lessons", grade.toLowerCase(), `${lesson}.json`);
+type ParentScriptStep = {
+  say?: string;
+  do?: string;
+  ask?: string;
+  reinforce?: string;
+};
+
+function readLesson(grade: string, lesson: string): AnyRec | null {
+  const filePath = path.join(
+    process.cwd(),
+    'public',
+    'lessons',
+    grade.toLowerCase(),
+    `${lesson}.json`,
+  );
   if (!fs.existsSync(filePath)) return null;
   try {
-    const raw = fs.readFileSync(filePath, "utf8");
-    return JSON.parse(raw) as LooseLesson;
+    return JSON.parse(fs.readFileSync(filePath, 'utf8')) as AnyRec;
   } catch {
     return null;
   }
 }
 
-function titleCaseFromSlug(slug: string) {
+function titleFromSlug(slug: string) {
   return slug
-    .split("-")
-    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : ""))
-    .join(" ");
+    .split('-')
+    .map((s) => (s ? s[0].toUpperCase() + s.slice(1) : s))
+    .join(' ');
 }
 
-function pickString(obj: LooseLesson, keys: string[]): string | undefined {
-  for (const k of keys) {
-    const v = obj?.[k];
-    if (typeof v === "string" && v.trim()) return v;
+/** Build parent-friendly markdown WITHOUT repeating the big H1 title. */
+function composePrimaryMarkdown(data: AnyRec) {
+  const u = data.universal ?? null;
+
+  if (u) {
+    const lines: string[] = [];
+
+    // — Lesson Introduction
+    if (u.introduction) {
+      lines.push(`## Lesson Introduction`);
+      lines.push(u.introduction);
+      lines.push('');
+    }
+
+    // — Parent Orientation
+    lines.push(`## Parent Orientation`);
+    lines.push(`**Objective:** ${u.objective ?? ''}`);
+    lines.push(`**Why it matters:** ${u.why_matters ?? ''}`);
+    lines.push(`**Parent Tip:** ${u.parent_tip ?? ''}`);
+    lines.push(`**Real-World Link:** ${u.real_world_link ?? ''}`);
+
+    // — Formula Box (if present)
+    const fb = u.formula_box;
+    if (fb?.formula && (/\d|[a-zA-Z]|\\/.test(fb.formula))) {
+      lines.push('');
+      lines.push(`> **📐 Formula Box**`);
+      lines.push(`> **Formula:** ${fb.formula}`);
+      if (Array.isArray(fb.symbols) && fb.symbols.length) {
+        lines.push(`> **Symbols:**`);
+        for (const s of fb.symbols) lines.push(`> - **${s.symbol}** — ${s.meaning}`);
+      } else if (fb?.meaning) {
+        lines.push(`> **Meaning:** ${fb.meaning}`);
+      }
+      if (fb?.how_it_works) lines.push(`> **How it works:** ${fb.how_it_works}`);
+      if (fb?.example) lines.push(`> **Example:** ${fb.example}`);
+    }
+
+    // — Teaching Steps
+    const steps: string[] = Array.isArray(u.teaching_steps) ? u.teaching_steps : [];
+    if (steps.length) {
+      lines.push('');
+      lines.push(`## Teaching Steps`);
+      steps.forEach((s, i) => lines.push(`${i + 1}. ${s}`));
+    }
+
+    // — NEW: Parent Teaching Script
+    const ptsRaw = Array.isArray(u.parent_teaching_script) ? u.parent_teaching_script : [];
+    const pts: ParentScriptStep[] = ptsRaw as ParentScriptStep[];
+    if (pts.length) {
+      lines.push('');
+      lines.push(`## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)`);
+      pts.forEach((step: ParentScriptStep, i: number) => {
+        const parts: string[] = [];
+        if (step.say) parts.push(`**Say:** ${step.say}`);
+        if (step.do) parts.push(`**Show/Do:** ${step.do}`);
+        if (step.ask) parts.push(`**Ask:** ${step.ask}`);
+        if (step.reinforce) parts.push(`**Reinforce:** ${step.reinforce}`);
+        lines.push(`${i + 1}. ${parts.join('  \n')}`);
+      });
+    }
+
+    // — Practice
+    const practice = u.practice ?? u.active_practice ?? [];
+    if (Array.isArray(practice) && practice.length) {
+      lines.push('');
+      lines.push(`## Practice Questions (Do It Together)`);
+      practice.forEach((q: any, i: number) => {
+        lines.push(`**${i + 1}. ${q.prompt}**`);
+        if (q.hint || q.coaching_hint)
+          lines.push(
+            `<details><summary>Hint</summary>\n${q.hint ?? q.coaching_hint}\n</details>`,
+          );
+        if (q.answer || q.solution)
+          lines.push(
+            `<details><summary>Answer</summary>\n${q.answer ?? q.solution}\n</details>`,
+          );
+        lines.push('');
+      });
+    }
+
+    // — Recap & Common Mistakes
+    lines.push('');
+    lines.push(`## Recap & Common Mistakes`);
+    const takeaways = u.recap ?? u.recap_parent_reflection?.key_takeaways ?? [];
+    if (Array.isArray(takeaways) && takeaways.length) {
+      lines.push(`**Key Takeaways**`);
+      takeaways.forEach((t: string) => lines.push(`- ${t}`));
+    }
+    const mistakes = u.common_mistakes ?? u.recap_parent_reflection?.common_mistakes ?? [];
+    if (Array.isArray(mistakes) && mistakes.length) {
+      lines.push(`\n**Common Mistakes**`);
+      mistakes.forEach((m: string) => lines.push(`- ${m}`));
+    }
+
+    // — Deep Dive
+    const dd = u.deep_dive ?? {};
+    if (dd.history || dd.connections || dd.misconceptions || dd.teaching_tips || dd.derivation) {
+      lines.push('');
+      lines.push(`## 🔍 Deep Dive`);
+      if (dd.history) lines.push(`**History or origin**\n\n${dd.history}`);
+      if (dd.connections) lines.push(`\n**Future topic connections**\n\n${dd.connections}`);
+      if (dd.misconceptions) lines.push(`\n**Common misconceptions**\n\n${dd.misconceptions}`);
+      if (dd.teaching_tips) lines.push(`\n**Teaching tips for parents**\n\n${dd.teaching_tips}`);
+      if (dd.derivation) lines.push(`\n**More detail / derivation**\n\n${dd.derivation}`);
+    }
+
+    // — Motivation
+    if (u.motivation) {
+      lines.push('');
+      lines.push(`## Motivation`);
+      lines.push(u.motivation);
+    }
+
+    return lines.join('\n');
   }
-  return undefined;
+
+  if (typeof data.markdown === 'string' && data.markdown.trim()) {
+    // Fallback for old lessons
+    return data.markdown;
+  }
+
+  return 'This lesson needs migration. Please regenerate it.';
 }
 
-export default async function LessonPage(props: { params: Promise<{ grade: string; lesson: string }> }) {
-  const { grade, lesson } = await props.params; // ✅ Next 15 promise-params
+export default async function Page(props: {
+  params: Promise<{ grade: string; lesson: string }>;
+}) {
+  const { grade, lesson } = await props.params;
   const data = readLesson(grade, lesson);
-  if (!data) return notFound();
+  if (!data) notFound();
 
   const title =
-    (typeof data.title === "string" && data.title.trim()) ||
-    titleCaseFromSlug(lesson);
+    (data.universal?.title ?? data.lesson?.title ?? titleFromSlug(lesson)) || '';
 
-  // Try common markdown fields for a main body
-  const primaryMd = pickString(data, [
-    "markdown",
-    "content",
-    "body",
-    "overview",
-    "core",
-    "demo",
-    "math",
-    "guide",
-    "practice",
-  ]);
-
-  // Collect section-like fields for nicer layout (optional)
-  const sectionLabels: Record<string, string> = {
-    objectives: "Learning Objectives",
-    overview: "Parent Overview",
-    core: "Core Idea",
-    demo: "Household Demonstration",
-    math: "The Math Behind It",
-    formulas: "Formulas",
-    guide: "Step-by-Step Guide",
-    mistakes: "Common Mistakes",
-    connection: "Real-Life Connection",
-    practice: "Practice Together",
-    close: "Positive Close",
-  };
-
-  const sections: Array<{ key: string; label: string; md: string }> = [];
-  for (const key of Object.keys(sectionLabels)) {
-    const v = data[key];
-    if (typeof v === "string" && v.trim()) {
-      sections.push({ key, label: sectionLabels[key], md: v });
-    }
-  }
-
-  // If your JSON has `sections: [{title, markdown}]`, include them too
-  if (Array.isArray((data as any).sections)) {
-    for (const s of (data as any).sections) {
-      const md =
-        (typeof s?.markdown === "string" && s.markdown) ||
-        (typeof s?.content === "string" && s.content);
-      const lab =
-        (typeof s?.title === "string" && s.title) ||
-        (typeof s?.key === "string" && s.key);
-      if (md && lab) sections.push({ key: lab, label: lab, md });
-    }
-  }
-
-  // De-dupe by label
-  const seen = new Set<string>();
-  const uniqueSections = sections.filter((s) => {
-    const k = s.label.toLowerCase();
-    if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  });
+  const md = composePrimaryMarkdown(data);
 
   return (
-    <main className="mx-auto max-w-3xl p-6">
-      <h1 className="mb-2 text-3xl font-bold">{title}</h1>
-      <p className="mb-6 text-gray-500">
-        {grade.toLowerCase() === "k" ? "Kindergarten" : `Grade ${grade}`} •{" "}
-        <code className="rounded bg-gray-100 px-1 py-0.5">{lesson}.json</code>
-      </p>
-
-      {primaryMd && (
-        <article className="prose max-w-none mb-8">
-          <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
-            {primaryMd}
-          </ReactMarkdown>
-        </article>
-      )}
-
-      {uniqueSections.length > 0 && (
-        <div className="space-y-8">
-          {uniqueSections.map((s) => (
-            <section key={s.key}>
-              <h2 className="mb-2 text-xl font-semibold">{s.label}</h2>
-              <article className="prose max-w-none">
-                <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
-                  {s.md}
-                </ReactMarkdown>
-              </article>
-            </section>
-          ))}
+    <main className="mx-auto max-w-4xl px-6 py-10">
+      {/* Heading area */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold tracking-tight">{title}</h1>
+        <div className="mt-2 flex items-center gap-3 text-sm text-gray-500">
+          <span className="inline-flex items-center gap-1 rounded-full border border-gray-200 px-2 py-0.5">
+            {grade.toLowerCase() === 'k' ? 'Kindergarten' : `Grade ${grade}`}
+          </span>
+          <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5">
+            {lesson}.json
+          </span>
         </div>
-      )}
+      </div>
 
-      {!primaryMd && uniqueSections.length === 0 && (
-        <pre className="mt-6 overflow-x-auto rounded-xl border p-4 text-sm">
-{JSON.stringify(data, null, 2)}
-        </pre>
-      )}
+      <LessonContentClient md={md} />
     </main>
   );
 }

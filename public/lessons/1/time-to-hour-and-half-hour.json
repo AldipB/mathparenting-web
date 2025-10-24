@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "e5500bc9-01fd-4b78-bfe8-cc7404b7e73d",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "8ee1b54e-920d-41e4-8d76-6074cbf211a8",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "e8bd8899-d139-465d-bf2c-636dd966a027",
+    "slug": "time-to-hour-and-half-hour",
+    "title": "Time to Hour and Half-Hour",
+    "summary": "Time to hour and half-hour — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child read and set time to the hour and half-hour on analog clocks.\n\n**Why it matters:** Understanding time is crucial for daily routines, like knowing when it's snack time or time to play with friends.\n\n**Parent Tip:** Use a real clock at home to practice. Point out times during the day, like meal times, to make learning more relatable.\n\n**Real-World Link:** Think about a favorite TV show. It starts at a specific time, like 3:00 or 3:30. Knowing the time helps ensure they don't miss the start!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're diving into the fascinating world of time. We'll help your child understand how to tell time to the hour and half-hour, making them feel like a time-traveling superhero!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the clock face: Explain the hour and minute hands.\n2. Show how the hour hand points directly at a number for 'o'clock' times.\n3. Explain that the minute hand points at 6 for half-past (30 minutes).\n4. Practice moving the hands to different times together.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What time is it if the hour hand is on 2 and the minute hand is on 12?**\n_Answer:_ 2:00\n_Hint:_ The minute hand on 12 means it's an 'o'clock' time.\n\n**2. What time is it if the hour hand is between 4 and 5, and the minute hand is on 6?**\n_Answer:_ 4:30\n_Hint:_ The minute hand on 6 means it's half-past the hour.\n\n**3. Set the clock to 7:00.**\n_Answer:_ 7:00\n_Hint:_ The hour hand should point at 7, and the minute hand at 12.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the hour and minute hands.\n- Forgetting the minute hand position for half-past times.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a favorite TV show. It starts at a specific time, like 3:00 or 3:30. Knowing the time helps ensure they don't miss the start!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to read clocks to the hour and half-hour.",
+    "overview": "**Objective:** Help your child read and set time to the hour and half-hour on analog clocks.\n\n**Why it matters:** Understanding time is crucial for daily routines, like knowing when it's snack time or time to play with friends.\n\n**Parent Tip:** Use a real clock at home to practice. Point out times during the day, like meal times, to make learning more relatable.\n\n**Real-World Link:** Think about a favorite TV show. It starts at a specific time, like 3:00 or 3:30. Knowing the time helps ensure they don't miss the start!",
+    "core": "Welcome! Today, we're diving into the fascinating world of time. We'll help your child understand how to tell time to the hour and half-hour, making them feel like a time-traveling superhero!",
+    "demo": "**Spark Curiosity:**\n\nWhat if we didn't have clocks? How would we know when it's time to play or eat?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the clock face: Explain the hour and minute hands.\n2. Show how the hour hand points directly at a number for 'o'clock' times.\n3. Explain that the minute hand points at 6 for half-past (30 minutes).\n4. Practice moving the hands to different times together.",
+    "practice": "**1. What time is it if the hour hand is on 2 and the minute hand is on 12?**\n_Answer:_ 2:00\n_Hint:_ The minute hand on 12 means it's an 'o'clock' time.\n\n**2. What time is it if the hour hand is between 4 and 5, and the minute hand is on 6?**\n_Answer:_ 4:30\n_Hint:_ The minute hand on 6 means it's half-past the hour.\n\n**3. Set the clock to 7:00.**\n_Answer:_ 7:00\n_Hint:_ The hour hand should point at 7, and the minute hand at 12.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the hour and minute hands.\n- Forgetting the minute hand position for half-past times.",
+    "connection": "Think about a favorite TV show. It starts at a specific time, like 3:00 or 3:30. Knowing the time helps ensure they don't miss the start!",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Time to Hour and Half-Hour** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can I help my child practice time-telling daily?\n- What are some fun activities to reinforce this concept?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Time to Hour and Half-Hour",
+    "introduction": "Welcome to the world of clocks! Helping your child understand time is a wonderful way to connect with them and introduce them to important daily concepts.",
+    "objective": "By the end of this lesson, your child will be able to read and tell time to the hour and half-hour on an analog clock.",
+    "why_matters": "Understanding time helps children develop a sense of routine and responsibility. It also lays the groundwork for future math skills.",
+    "parent_tip": "Use everyday moments to practice telling time, such as meals or bedtime, to make learning feel natural and relevant.",
+    "real_world_link": "Think about times when your child is excited, like '3 o'clock playtime' or '8 o'clock bedtime'. Relating time to their routine makes it more meaningful.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the clock and its face.",
+      "Explain the hour and minute hands.",
+      "Show how the hour hand moves on the hour.",
+      "Demonstrate the minute hand pointing to 6 for half-hour.",
+      "Practice setting times together."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at this clock. It has numbers from 1 to 12.",
+        "do": "Point to the numbers on the clock face.",
+        "ask": "What number is at the top of the clock?",
+        "reinforce": "Yes, 12 is at the top! It's an important number on the clock."
+      },
+      {
+        "say": "This short hand is called the hour hand. It tells us what hour it is.",
+        "do": "Move the hour hand to different numbers.",
+        "ask": "Where is the hour hand pointing now?",
+        "reinforce": "Great! It's pointing to 3, so it's 3 o'clock."
+      },
+      {
+        "say": "The long hand is the minute hand. When it points to 12, it's the start of an hour.",
+        "do": "Point the minute hand to 12.",
+        "ask": "What time is it if the hour hand is on 4 and the minute hand is on 12?",
+        "reinforce": "That's right, it's 4 o'clock!"
+      },
+      {
+        "say": "Now, let's learn about half-hour. When the minute hand points to 6, it's half past the hour.",
+        "do": "Move the minute hand to 6.",
+        "ask": "If the hour hand is between 4 and 5, and the minute hand is on 6, what time is it?",
+        "reinforce": "Yes, it's 4:30, or half past 4!"
+      },
+      {
+        "say": "Let's practice setting the clock to different times together.",
+        "do": "Encourage your child to move the hands to specific times you suggest.",
+        "ask": "Can you show me 2 o'clock? How about 5:30?",
+        "reinforce": "You're doing great! Keep practicing, and you'll be a time-telling expert."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "The hour hand is on 7 and the minute hand is on 12. What time is it?",
+        "hint": "Look at where the hour hand points and check if the minute hand is at the start of the hour.",
+        "answer": "7:00"
+      },
+      {
+        "prompt": "The hour hand is between 9 and 10, and the minute hand is on 6. What time is it?",
+        "hint": "When the minute hand is on 6, it's half past the hour.",
+        "answer": "9:30"
+      },
+      {
+        "prompt": "The hour hand is on 12 and the minute hand is on 12. What time is it?",
+        "hint": "Both hands pointing to 12 marks a full hour.",
+        "answer": "12:00"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Clocks have an hour hand and a minute hand.",
+      "The hour hand shows the hour; the minute hand shows minutes.",
+      "When the minute hand is on 12, it's the start of an hour.",
+      "When the minute hand is on 6, it's half past the hour."
+    ],
+    "common_mistakes": [
+      "Confusing the hour and minute hands.",
+      "Not recognizing half-hour times.",
+      "Forgetting that the minute hand pointing to 6 means half past."
+    ],
+    "deep_dive": {
+      "history": "Analog clocks have been used for centuries, evolving from sundials to the mechanical clocks we recognize today.",
+      "connections": "Understanding time connects to daily routines and helps with planning and organizing activities.",
+      "misconceptions": "Children often think the hour hand must be exactly on a number to tell the hour, not realizing it gradually moves.",
+      "teaching_tips": "Use physical clocks with movable hands to make learning interactive and hands-on.",
+      "derivation": "The concept of dividing hours into halves and quarters has roots in ancient timekeeping practices."
+    },
+    "motivation": "Mastering time-telling boosts your child's confidence and independence. It's a fun way to engage with math every day!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of clocks! Helping your child understand time is a wonderful way to connect with them and introduce them to important daily concepts.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to read and tell time to the hour and half-hour on an analog clock.\n**Why it matters:** Understanding time helps children develop a sense of routine and responsibility. It also lays the groundwork for future math skills.\n**Parent Tip:** Use everyday moments to practice telling time, such as meals or bedtime, to make learning feel natural and relevant.\n**Real-World Link:** Think about times when your child is excited, like '3 o'clock playtime' or '8 o'clock bedtime'. Relating time to their routine makes it more meaningful.\n\n## Teaching Steps\n1. Introduce the clock and its face.\n2. Explain the hour and minute hands.\n3. Show how the hour hand moves on the hour.\n4. Demonstrate the minute hand pointing to 6 for half-hour.\n5. Practice setting times together.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at this clock. It has numbers from 1 to 12.  \n**Show/Do:** Point to the numbers on the clock face.  \n**Ask:** What number is at the top of the clock?  \n**Reinforce:** Yes, 12 is at the top! It's an important number on the clock.\n2. **Say:** This short hand is called the hour hand. It tells us what hour it is.  \n**Show/Do:** Move the hour hand to different numbers.  \n**Ask:** Where is the hour hand pointing now?  \n**Reinforce:** Great! It's pointing to 3, so it's 3 o'clock.\n3. **Say:** The long hand is the minute hand. When it points to 12, it's the start of an hour.  \n**Show/Do:** Point the minute hand to 12.  \n**Ask:** What time is it if the hour hand is on 4 and the minute hand is on 12?  \n**Reinforce:** That's right, it's 4 o'clock!\n4. **Say:** Now, let's learn about half-hour. When the minute hand points to 6, it's half past the hour.  \n**Show/Do:** Move the minute hand to 6.  \n**Ask:** If the hour hand is between 4 and 5, and the minute hand is on 6, what time is it?  \n**Reinforce:** Yes, it's 4:30, or half past 4!\n5. **Say:** Let's practice setting the clock to different times together.  \n**Show/Do:** Encourage your child to move the hands to specific times you suggest.  \n**Ask:** Can you show me 2 o'clock? How about 5:30?  \n**Reinforce:** You're doing great! Keep practicing, and you'll be a time-telling expert.\n\n## Practice Questions (Do It Together)\n**1. The hour hand is on 7 and the minute hand is on 12. What time is it?**\n<details><summary>Hint</summary>\nLook at where the hour hand points and check if the minute hand is at the start of the hour.\n</details>\n<details><summary>Answer</summary>\n7:00\n</details>\n\n**2. The hour hand is between 9 and 10, and the minute hand is on 6. What time is it?**\n<details><summary>Hint</summary>\nWhen the minute hand is on 6, it's half past the hour.\n</details>\n<details><summary>Answer</summary>\n9:30\n</details>\n\n**3. The hour hand is on 12 and the minute hand is on 12. What time is it?**\n<details><summary>Hint</summary>\nBoth hands pointing to 12 marks a full hour.\n</details>\n<details><summary>Answer</summary>\n12:00\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Clocks have an hour hand and a minute hand.\n- The hour hand shows the hour; the minute hand shows minutes.\n- When the minute hand is on 12, it's the start of an hour.\n- When the minute hand is on 6, it's half past the hour.\n\n**Common Mistakes**\n- Confusing the hour and minute hands.\n- Not recognizing half-hour times.\n- Forgetting that the minute hand pointing to 6 means half past.\n\n## 🔍 Deep Dive\n**History or origin**\n\nAnalog clocks have been used for centuries, evolving from sundials to the mechanical clocks we recognize today.\n\n**Future topic connections**\n\nUnderstanding time connects to daily routines and helps with planning and organizing activities.\n\n**Common misconceptions**\n\nChildren often think the hour hand must be exactly on a number to tell the hour, not realizing it gradually moves.\n\n**Teaching tips for parents**\n\nUse physical clocks with movable hands to make learning interactive and hands-on.\n\n**More detail / derivation**\n\nThe concept of dividing hours into halves and quarters has roots in ancient timekeeping practices.\n\n## Motivation\nMastering time-telling boosts your child's confidence and independence. It's a fun way to engage with math every day!"
+}

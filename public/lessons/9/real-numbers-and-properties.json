@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "165ea863-756b-40c2-9c11-7c3fe6d35759",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "7a5a7eb2-b9b7-460a-ad70-ad1c00d5ff42",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "904b7530-67ce-4813-bf73-22287ab0b009",
+    "slug": "real-numbers-and-properties",
+    "title": "Understanding Real Numbers and Their Properties",
+    "summary": "Real numbers & properties — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the types of real numbers and their properties, making math feel more relatable and less intimidating.\n\n**Why it matters:** Real numbers are the backbone of math and science. They help us tell time, measure ingredients for recipes, and even predict the weather!\n\n**Parent Tip:** Encourage curiosity by relating math to everyday activities like shopping or cooking. This makes learning more engaging for your child.\n\n**Real-World Link:** Think about how a recipe requires precise measurements. Each ingredient represents a real number, and their properties help us ensure the dish turns out just right.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of real numbers! These numbers are all around us, helping us measure, count, and make sense of the world. This lesson will guide you in supporting your child as they explore real numbers and their properties.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that real numbers include all the numbers we use daily: whole numbers, fractions, decimals, and irrational numbers.\n2. Discuss the properties of real numbers: commutative, associative, distributive, identity, and inverse.\n3. Use simple examples to show each property, such as adding or multiplying numbers in different orders to see how the result remains the same.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Identify the type of number: 3.14**\n_Answer:_ 3.14 is a decimal, which is a type of real number.\n_Hint:_ Is this number whole, fractional, or something else?\n\n**2. What is the result of 5 + 0?**\n_Answer:_ 5, because adding zero keeps the number the same.\n_Hint:_ Think about the identity property of addition.\n\n**3. Does 2 + 3 equal 3 + 2?**\n_Answer:_ Yes, both equal 5.\n_Hint:_ Consider the commutative property of addition.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing irrational numbers with decimals.\n- Forgetting that zero has special properties in addition and multiplication.\n- Overlooking the importance of order in operations without properties.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about how a recipe requires precise measurements. Each ingredient represents a real number, and their properties help us ensure the dish turns out just right.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the concept of real numbers and their fundamental properties.",
+    "overview": "**Objective:** Help your child understand the types of real numbers and their properties, making math feel more relatable and less intimidating.\n\n**Why it matters:** Real numbers are the backbone of math and science. They help us tell time, measure ingredients for recipes, and even predict the weather!\n\n**Parent Tip:** Encourage curiosity by relating math to everyday activities like shopping or cooking. This makes learning more engaging for your child.\n\n**Real-World Link:** Think about how a recipe requires precise measurements. Each ingredient represents a real number, and their properties help us ensure the dish turns out just right.",
+    "core": "Welcome to the world of real numbers! These numbers are all around us, helping us measure, count, and make sense of the world. This lesson will guide you in supporting your child as they explore real numbers and their properties.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why some numbers can be written as fractions and others cannot? Let's explore the world of real numbers together!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that real numbers include all the numbers we use daily: whole numbers, fractions, decimals, and irrational numbers.\n2. Discuss the properties of real numbers: commutative, associative, distributive, identity, and inverse.\n3. Use simple examples to show each property, such as adding or multiplying numbers in different orders to see how the result remains the same.",
+    "practice": "**1. Identify the type of number: 3.14**\n_Answer:_ 3.14 is a decimal, which is a type of real number.\n_Hint:_ Is this number whole, fractional, or something else?\n\n**2. What is the result of 5 + 0?**\n_Answer:_ 5, because adding zero keeps the number the same.\n_Hint:_ Think about the identity property of addition.\n\n**3. Does 2 + 3 equal 3 + 2?**\n_Answer:_ Yes, both equal 5.\n_Hint:_ Consider the commutative property of addition.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing irrational numbers with decimals.\n- Forgetting that zero has special properties in addition and multiplication.\n- Overlooking the importance of order in operations without properties.",
+    "connection": "Think about how a recipe requires precise measurements. Each ingredient represents a real number, and their properties help us ensure the dish turns out just right.",
+    "close": "**Key Takeaways**\n- Real numbers encompass rational and irrational numbers.\n- Understanding properties of real numbers aids in simplifying operations.\n- Real numbers are used in everyday contexts like money and measurements.\n\n**Parent Reflection Questions**\n- How can we identify if a number is rational or irrational?\n- What are some everyday examples of irrational numbers?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Real Numbers and Their Properties",
+    "introduction": "Welcome to the world of real numbers! As your child navigates through Grade 9 math, they'll encounter real numbers frequently. Let's explore what these numbers are and why they're important.",
+    "objective": "Help your child understand the different types of real numbers and their properties to build a strong foundation in mathematics.",
+    "why_matters": "Real numbers form the basis of almost all the math your child will encounter. Grasping this concept will make math feel more intuitive and less intimidating.",
+    "parent_tip": "Encourage your child to think of real numbers as a spectrum that includes everything from simple integers to complex decimals.",
+    "real_world_link": "Real numbers are used in everyday life, from calculating distances to understanding financial statements.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of real numbers and their subsets: natural numbers, whole numbers, integers, rational numbers, and irrational numbers.",
+      "Discuss the properties of real numbers, such as closure, commutativity, associativity, and distributivity.",
+      "Use a number line to visually represent different types of real numbers.",
+      "Provide examples of each type of real number and encourage your child to identify them.",
+      "Highlight the importance of real numbers in real-world applications."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by understanding what real numbers are.",
+        "do": "Show a number line and point out various numbers on it.",
+        "ask": "Can you identify which of these are integers, rational, or irrational numbers?",
+        "reinforce": "Real numbers are everywhere on this line, representing all possible values including decimals and fractions."
+      },
+      {
+        "say": "Now, let's talk about the properties of these numbers.",
+        "do": "Write down examples of addition and multiplication to demonstrate commutativity and associativity.",
+        "ask": "What do you notice about the order of numbers in these operations?",
+        "reinforce": "No matter how we group or order the numbers, the result stays the same for addition and multiplication."
+      },
+      {
+        "say": "Closure is another property of real numbers.",
+        "do": "Add and multiply two real numbers and show that the result is also a real number.",
+        "ask": "Do you see how the result is still within the set of real numbers?",
+        "reinforce": "Real numbers are closed under addition and multiplication, meaning they stay within the set."
+      },
+      {
+        "say": "Let's look at rational and irrational numbers.",
+        "do": "Provide examples like 1/2 and √2.",
+        "ask": "Can you explain why one is rational and the other is irrational?",
+        "reinforce": "Rational numbers can be expressed as fractions, while irrational numbers cannot."
+      },
+      {
+        "say": "Finally, let's see how real numbers apply in real life.",
+        "do": "Discuss examples like calculating grocery bills or measuring distances.",
+        "ask": "How do these examples use real numbers?",
+        "reinforce": "Real numbers help us make sense of the world and solve everyday problems."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Identify if 3.14 is a rational or irrational number.",
+        "hint": "Can it be written as a fraction?",
+        "answer": "Rational"
+      },
+      {
+        "prompt": "Is the square root of 16 a rational number?",
+        "hint": "What is the square root of 16?",
+        "answer": "Rational"
+      },
+      {
+        "prompt": "Classify the number -7.",
+        "hint": "Is it a whole number or an integer?",
+        "answer": "Integer"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Real numbers include natural numbers, whole numbers, integers, rational numbers, and irrational numbers.",
+      "Properties like closure, commutativity, associativity, and distributivity help us understand how operations work with real numbers.",
+      "Real numbers are essential in various real-world contexts."
+    ],
+    "common_mistakes": [
+      "Confusing irrational numbers with decimals.",
+      "Forgetting that integers include negative numbers.",
+      "Mixing up properties of operations, especially commutativity and associativity."
+    ],
+    "deep_dive": {
+      "history": "The concept of real numbers evolved over centuries, with mathematicians like Euclid and Pythagoras contributing to its development.",
+      "connections": "Real numbers connect to algebra, geometry, and calculus, forming a fundamental part of advanced mathematics.",
+      "misconceptions": "A common misconception is that all decimals are irrational, when in fact, only non-repeating, non-terminating decimals are.",
+      "teaching_tips": "Use visual aids like number lines and relatable examples to make abstract concepts more concrete.",
+      "derivation": "Real numbers can be understood as the limit of rational numbers, bridging the gap between discrete and continuous mathematics."
+    },
+    "motivation": "Understanding real numbers empowers your child to tackle complex problems with confidence and see the math in everyday life."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of real numbers! As your child navigates through Grade 9 math, they'll encounter real numbers frequently. Let's explore what these numbers are and why they're important.\n\n## Parent Orientation\n**Objective:** Help your child understand the different types of real numbers and their properties to build a strong foundation in mathematics.\n**Why it matters:** Real numbers form the basis of almost all the math your child will encounter. Grasping this concept will make math feel more intuitive and less intimidating.\n**Parent Tip:** Encourage your child to think of real numbers as a spectrum that includes everything from simple integers to complex decimals.\n**Real-World Link:** Real numbers are used in everyday life, from calculating distances to understanding financial statements.\n\n## Teaching Steps\n1. Introduce the concept of real numbers and their subsets: natural numbers, whole numbers, integers, rational numbers, and irrational numbers.\n2. Discuss the properties of real numbers, such as closure, commutativity, associativity, and distributivity.\n3. Use a number line to visually represent different types of real numbers.\n4. Provide examples of each type of real number and encourage your child to identify them.\n5. Highlight the importance of real numbers in real-world applications.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by understanding what real numbers are.  \n**Show/Do:** Show a number line and point out various numbers on it.  \n**Ask:** Can you identify which of these are integers, rational, or irrational numbers?  \n**Reinforce:** Real numbers are everywhere on this line, representing all possible values including decimals and fractions.\n2. **Say:** Now, let's talk about the properties of these numbers.  \n**Show/Do:** Write down examples of addition and multiplication to demonstrate commutativity and associativity.  \n**Ask:** What do you notice about the order of numbers in these operations?  \n**Reinforce:** No matter how we group or order the numbers, the result stays the same for addition and multiplication.\n3. **Say:** Closure is another property of real numbers.  \n**Show/Do:** Add and multiply two real numbers and show that the result is also a real number.  \n**Ask:** Do you see how the result is still within the set of real numbers?  \n**Reinforce:** Real numbers are closed under addition and multiplication, meaning they stay within the set.\n4. **Say:** Let's look at rational and irrational numbers.  \n**Show/Do:** Provide examples like 1/2 and √2.  \n**Ask:** Can you explain why one is rational and the other is irrational?  \n**Reinforce:** Rational numbers can be expressed as fractions, while irrational numbers cannot.\n5. **Say:** Finally, let's see how real numbers apply in real life.  \n**Show/Do:** Discuss examples like calculating grocery bills or measuring distances.  \n**Ask:** How do these examples use real numbers?  \n**Reinforce:** Real numbers help us make sense of the world and solve everyday problems.\n\n## Practice Questions (Do It Together)\n**1. Identify if 3.14 is a rational or irrational number.**\n<details><summary>Hint</summary>\nCan it be written as a fraction?\n</details>\n<details><summary>Answer</summary>\nRational\n</details>\n\n**2. Is the square root of 16 a rational number?**\n<details><summary>Hint</summary>\nWhat is the square root of 16?\n</details>\n<details><summary>Answer</summary>\nRational\n</details>\n\n**3. Classify the number -7.**\n<details><summary>Hint</summary>\nIs it a whole number or an integer?\n</details>\n<details><summary>Answer</summary>\nInteger\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Real numbers include natural numbers, whole numbers, integers, rational numbers, and irrational numbers.\n- Properties like closure, commutativity, associativity, and distributivity help us understand how operations work with real numbers.\n- Real numbers are essential in various real-world contexts.\n\n**Common Mistakes**\n- Confusing irrational numbers with decimals.\n- Forgetting that integers include negative numbers.\n- Mixing up properties of operations, especially commutativity and associativity.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of real numbers evolved over centuries, with mathematicians like Euclid and Pythagoras contributing to its development.\n\n**Future topic connections**\n\nReal numbers connect to algebra, geometry, and calculus, forming a fundamental part of advanced mathematics.\n\n**Common misconceptions**\n\nA common misconception is that all decimals are irrational, when in fact, only non-repeating, non-terminating decimals are.\n\n**Teaching tips for parents**\n\nUse visual aids like number lines and relatable examples to make abstract concepts more concrete.\n\n**More detail / derivation**\n\nReal numbers can be understood as the limit of rational numbers, bridging the gap between discrete and continuous mathematics.\n\n## Motivation\nUnderstanding real numbers empowers your child to tackle complex problems with confidence and see the math in everyday life."
+}

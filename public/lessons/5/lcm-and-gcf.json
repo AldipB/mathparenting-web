@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "139ef58b-a6b5-42f3-91b1-afd8c9458e51",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "2c26bc91-31d2-4e59-89b2-58a3666c95c6",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c2b37b1c-0d99-4694-a74a-3e8eb869fdd9",
+    "slug": "lcm-and-gcf",
+    "title": "Finding the Magic in Numbers: LCM & GCF",
+    "summary": "LCM & GCF — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand how to find the LCM and GCF of two numbers, and explain why these concepts are useful in everyday life.\n\n**Why it matters:** Knowing how to find the LCM and GCF helps solve problems involving fractions, ratios, and even planning schedules! These skills lay the groundwork for more advanced math concepts.\n\n**Parent Tip:** Encourage your child to think of LCM and GCF as tools in their math toolbox. Understanding when and how to use them is key to solving many problems.\n\n**Real-World Link:** Imagine you have two sets of holiday lights: one blinks every 3 seconds, the other every 4 seconds. To find when they'll blink together, you'd use the LCM. Or, if you're dividing snacks among kids and want the largest possible equal groups, you'd use the GCF.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Today, we're exploring the world of numbers with your child by discovering the secrets of LCM (Least Common Multiple) and GCF (Greatest Common Factor). These concepts might sound complex, but with a little guidance, your child will see the magic in numbers.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a simple list: write down the multiples of two numbers to find the LCM.\n2. For GCF, list the factors of each number and identify the largest one they share.\n3. Use real objects, like coins or blocks, to visualize grouping for GCF.\n4. Discuss why these concepts are useful in everyday situations, like sharing or scheduling.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the LCM of 4 and 5.**\n_Answer:_ 20\n_Hint:_ List the first few multiples of both numbers.\n\n**2. Find the GCF of 8 and 12.**\n_Answer:_ 4\n_Hint:_ List the factors of each number and find the largest common one.\n\n**3. What is the LCM of 6 and 9?**\n_Answer:_ 18\n_Hint:_ Look for the smallest number that appears in both lists of multiples.\n\n**4. What is the GCF of 14 and 21?**\n_Answer:_ 7\n_Hint:_ Find the largest number that divides both numbers without leaving a remainder.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing LCM with GCF.\n- Forgetting to list all factors or multiples.\n- Not checking the lists thoroughly for the smallest or largest common number.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine you have two sets of holiday lights: one blinks every 3 seconds, the other every 4 seconds. To find when they'll blink together, you'd use the LCM. Or, if you're dividing snacks among kids and want the largest possible equal groups, you'd use the GCF.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child discover how to find the Least Common Multiple (LCM) and Greatest Common Factor (GCF) of numbers, strengthening their problem-solving and number sense.",
+    "overview": "**Objective:** Help your child understand how to find the LCM and GCF of two numbers, and explain why these concepts are useful in everyday life.\n\n**Why it matters:** Knowing how to find the LCM and GCF helps solve problems involving fractions, ratios, and even planning schedules! These skills lay the groundwork for more advanced math concepts.\n\n**Parent Tip:** Encourage your child to think of LCM and GCF as tools in their math toolbox. Understanding when and how to use them is key to solving many problems.\n\n**Real-World Link:** Imagine you have two sets of holiday lights: one blinks every 3 seconds, the other every 4 seconds. To find when they'll blink together, you'd use the LCM. Or, if you're dividing snacks among kids and want the largest possible equal groups, you'd use the GCF.",
+    "core": "Welcome, parents! Today, we're exploring the world of numbers with your child by discovering the secrets of LCM (Least Common Multiple) and GCF (Greatest Common Factor). These concepts might sound complex, but with a little guidance, your child will see the magic in numbers.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how to find the best way to split a pizza among friends or when two events will happen at the same time again? Let's explore the magic of LCM and GCF!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a simple list: write down the multiples of two numbers to find the LCM.\n2. For GCF, list the factors of each number and identify the largest one they share.\n3. Use real objects, like coins or blocks, to visualize grouping for GCF.\n4. Discuss why these concepts are useful in everyday situations, like sharing or scheduling.",
+    "practice": "**1. Find the LCM of 4 and 5.**\n_Answer:_ 20\n_Hint:_ List the first few multiples of both numbers.\n\n**2. Find the GCF of 8 and 12.**\n_Answer:_ 4\n_Hint:_ List the factors of each number and find the largest common one.\n\n**3. What is the LCM of 6 and 9?**\n_Answer:_ 18\n_Hint:_ Look for the smallest number that appears in both lists of multiples.\n\n**4. What is the GCF of 14 and 21?**\n_Answer:_ 7\n_Hint:_ Find the largest number that divides both numbers without leaving a remainder.",
+    "mistakes": "- Confusing LCM with GCF.\n- Forgetting to list all factors or multiples.\n- Not checking the lists thoroughly for the smallest or largest common number.",
+    "connection": "Imagine you have two sets of holiday lights: one blinks every 3 seconds, the other every 4 seconds. To find when they'll blink together, you'd use the LCM. Or, if you're dividing snacks among kids and want the largest possible equal groups, you'd use the GCF.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **LCM & GCF** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can we use LCM to help plan a schedule?\n- Why is it important to find the GCF when dividing items?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Finding the Magic in Numbers: LCM & GCF",
+    "introduction": "Welcome to the wonderful world of numbers where we uncover hidden patterns and relationships! Today, we're diving into two special terms: LCM (Least Common Multiple) and GCF (Greatest Common Factor). Let's explore these magical concepts together with your child.",
+    "objective": "Help your child understand and find the LCM and GCF of two numbers with confidence.",
+    "why_matters": "Understanding LCM and GCF is crucial for simplifying fractions, solving problems that involve divisibility, and working with multiples. These skills form a foundation for more advanced math concepts.",
+    "parent_tip": "Encourage your child to think of LCM and GCF as tools for making math easier. Use everyday examples to make these concepts relatable.",
+    "real_world_link": "Imagine planning a party where you need to decide how many packs of party favors to buy. Knowing the LCM helps you ensure each child gets an equal number without leftovers!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of multiples and factors using small numbers.",
+      "Explain how to list multiples and factors of a given number.",
+      "Show how to find the common multiples and factors of two numbers.",
+      "Guide them in identifying the least common multiple and greatest common factor.",
+      "Practice with examples and encourage your child to explain their thinking."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by talking about multiples and factors. Do you remember what these are?",
+        "do": "Draw a number line and mark out multiples of 3 and 4.",
+        "ask": "What do you notice about the numbers that are marked on both lines?",
+        "reinforce": "These shared numbers are called common multiples. The smallest one is the LCM!"
+      },
+      {
+        "say": "Now, let's switch to factors. Can you think of any factors of 12?",
+        "do": "Write down the factors of 12 and 16.",
+        "ask": "Which factors are the same for both numbers?",
+        "reinforce": "The largest shared factor is the GCF. Great job finding it!"
+      },
+      {
+        "say": "Remember, finding LCM and GCF is like solving a puzzle.",
+        "do": "Use colored markers to highlight common multiples and factors.",
+        "ask": "How does it feel to find the LCM and GCF? Does it help in any way?",
+        "reinforce": "It's satisfying to know we can use these tools to solve real problems!"
+      },
+      {
+        "say": "Let's try another example with new numbers.",
+        "do": "Choose two numbers like 10 and 15. List their multiples and factors.",
+        "ask": "Can you find the LCM and GCF for these numbers?",
+        "reinforce": "You're getting the hang of it. Keep practicing!"
+      },
+      {
+        "say": "Finally, let's relate this to something fun.",
+        "do": "Talk about planning a family event with equal treats.",
+        "ask": "How could knowing the LCM help us here?",
+        "reinforce": "Math is everywhere, even in planning parties!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the LCM of 6 and 8.",
+        "hint": "List multiples of each number until you find the first one they share.",
+        "answer": "24"
+      },
+      {
+        "prompt": "What is the GCF of 18 and 24?",
+        "hint": "List all factors of each number and find the largest one they share.",
+        "answer": "6"
+      },
+      {
+        "prompt": "Determine the LCM of 5 and 7.",
+        "hint": "Since these are prime to each other, multiply the numbers.",
+        "answer": "35"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "LCM helps us find the smallest multiple two numbers share.",
+      "GCF is the largest factor that two numbers have in common.",
+      "These tools simplify math problems and help in real-life situations."
+    ],
+    "common_mistakes": [
+      "Confusing multiples with factors.",
+      "Mixing up LCM with GCF.",
+      "Not listing enough multiples or factors to find common ones."
+    ],
+    "deep_dive": {
+      "history": "The concepts of LCM and GCF have been used since ancient times in various cultures for trade and construction.",
+      "connections": "LCM and GCF are foundational for understanding fractions, ratios, and algebra.",
+      "misconceptions": "Some students think LCM is always larger than GCF; they serve different purposes.",
+      "teaching_tips": "Use visual aids like number lines and Venn diagrams to illustrate these concepts.",
+      "derivation": "LCM can be derived by multiplying the highest powers of all prime factors present in the numbers."
+    },
+    "motivation": "Unlocking the secrets of LCM and GCF can make your child feel like a math magician, ready to tackle any problem with confidence!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the wonderful world of numbers where we uncover hidden patterns and relationships! Today, we're diving into two special terms: LCM (Least Common Multiple) and GCF (Greatest Common Factor). Let's explore these magical concepts together with your child.\n\n## Parent Orientation\n**Objective:** Help your child understand and find the LCM and GCF of two numbers with confidence.\n**Why it matters:** Understanding LCM and GCF is crucial for simplifying fractions, solving problems that involve divisibility, and working with multiples. These skills form a foundation for more advanced math concepts.\n**Parent Tip:** Encourage your child to think of LCM and GCF as tools for making math easier. Use everyday examples to make these concepts relatable.\n**Real-World Link:** Imagine planning a party where you need to decide how many packs of party favors to buy. Knowing the LCM helps you ensure each child gets an equal number without leftovers!\n\n## Teaching Steps\n1. Introduce the concept of multiples and factors using small numbers.\n2. Explain how to list multiples and factors of a given number.\n3. Show how to find the common multiples and factors of two numbers.\n4. Guide them in identifying the least common multiple and greatest common factor.\n5. Practice with examples and encourage your child to explain their thinking.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by talking about multiples and factors. Do you remember what these are?  \n**Show/Do:** Draw a number line and mark out multiples of 3 and 4.  \n**Ask:** What do you notice about the numbers that are marked on both lines?  \n**Reinforce:** These shared numbers are called common multiples. The smallest one is the LCM!\n2. **Say:** Now, let's switch to factors. Can you think of any factors of 12?  \n**Show/Do:** Write down the factors of 12 and 16.  \n**Ask:** Which factors are the same for both numbers?  \n**Reinforce:** The largest shared factor is the GCF. Great job finding it!\n3. **Say:** Remember, finding LCM and GCF is like solving a puzzle.  \n**Show/Do:** Use colored markers to highlight common multiples and factors.  \n**Ask:** How does it feel to find the LCM and GCF? Does it help in any way?  \n**Reinforce:** It's satisfying to know we can use these tools to solve real problems!\n4. **Say:** Let's try another example with new numbers.  \n**Show/Do:** Choose two numbers like 10 and 15. List their multiples and factors.  \n**Ask:** Can you find the LCM and GCF for these numbers?  \n**Reinforce:** You're getting the hang of it. Keep practicing!\n5. **Say:** Finally, let's relate this to something fun.  \n**Show/Do:** Talk about planning a family event with equal treats.  \n**Ask:** How could knowing the LCM help us here?  \n**Reinforce:** Math is everywhere, even in planning parties!\n\n## Practice Questions (Do It Together)\n**1. Find the LCM of 6 and 8.**\n<details><summary>Hint</summary>\nList multiples of each number until you find the first one they share.\n</details>\n<details><summary>Answer</summary>\n24\n</details>\n\n**2. What is the GCF of 18 and 24?**\n<details><summary>Hint</summary>\nList all factors of each number and find the largest one they share.\n</details>\n<details><summary>Answer</summary>\n6\n</details>\n\n**3. Determine the LCM of 5 and 7.**\n<details><summary>Hint</summary>\nSince these are prime to each other, multiply the numbers.\n</details>\n<details><summary>Answer</summary>\n35\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- LCM helps us find the smallest multiple two numbers share.\n- GCF is the largest factor that two numbers have in common.\n- These tools simplify math problems and help in real-life situations.\n\n**Common Mistakes**\n- Confusing multiples with factors.\n- Mixing up LCM with GCF.\n- Not listing enough multiples or factors to find common ones.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concepts of LCM and GCF have been used since ancient times in various cultures for trade and construction.\n\n**Future topic connections**\n\nLCM and GCF are foundational for understanding fractions, ratios, and algebra.\n\n**Common misconceptions**\n\nSome students think LCM is always larger than GCF; they serve different purposes.\n\n**Teaching tips for parents**\n\nUse visual aids like number lines and Venn diagrams to illustrate these concepts.\n\n**More detail / derivation**\n\nLCM can be derived by multiplying the highest powers of all prime factors present in the numbers.\n\n## Motivation\nUnlocking the secrets of LCM and GCF can make your child feel like a math magician, ready to tackle any problem with confidence!"
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "941e6e15-6317-47bf-b692-fe3d2758c8b9",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "f6a54d34-fbe2-4abb-9d36-48278bd1f943",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c438afc5-5014-4edb-bc77-5adc31c5eb5d",
+    "slug": "exponential-and-logarithmic-functions",
+    "title": "Exponential & Logarithmic Functions: Unlocking Growth and Decay",
+    "summary": "Exponential & logarithmic functions — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp exponential and logarithmic functions to solve real-world problems involving growth and decay.\n\n**Why it matters:** Understanding these functions is crucial for fields like biology, finance, and technology, where predicting growth and decay is essential.\n\n**Parent Tip:** Relate these concepts to everyday life, like interest on savings accounts or the spread of a rumor, to make them more relatable.\n\n**Real-World Link:** Think of exponential growth like a snowball rolling down a hill, gathering more snow and speed, while exponential decay is like ice melting away in the sun.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the exciting world of exponential and logarithmic functions! These mathematical concepts help us understand how things grow and shrink over time, from populations to investments.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with simple examples of growth, like doubling money.\n2. Introduce the concept of decay, like a half-life in science.\n3. Use graphs to show how exponential functions curve upwards or downwards.\n4. Discuss the inverse relationship between exponential and logarithmic functions.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Calculate the final amount: $200 invested at a 3% annual interest for 5 years.**\n_Answer:_ $231.85\n_Hint:_ Use the formula y = a * b^x with b = 1.03.\n\n**2. A car's value depreciates at 10% per year. What's its value after 3 years if initially worth $20,000?**\n_Answer:_ $14,580\n_Hint:_ Use the formula with b = 0.90.\n\n**3. Find the time it takes for a population of 1,000 to triple with an annual growth rate of 7%.**\n_Answer:_ Approximately 16 years\n_Hint:_ Use logarithms to solve for x in the equation 3000 = 1000 * 1.07^x.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing growth and decay factors.\n- Forgetting to convert percentage rates to decimals.\n- Misapplying the inverse relationship between exponential and logarithmic functions.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of exponential growth like a snowball rolling down a hill, gathering more snow and speed, while exponential decay is like ice melting away in the sun.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the nature of exponential growth and decay, and how logarithms serve as their counterparts.",
+    "overview": "**Objective:** Help your child grasp exponential and logarithmic functions to solve real-world problems involving growth and decay.\n\n**Why it matters:** Understanding these functions is crucial for fields like biology, finance, and technology, where predicting growth and decay is essential.\n\n**Parent Tip:** Relate these concepts to everyday life, like interest on savings accounts or the spread of a rumor, to make them more relatable.\n\n**Real-World Link:** Think of exponential growth like a snowball rolling down a hill, gathering more snow and speed, while exponential decay is like ice melting away in the sun.",
+    "core": "Welcome to the exciting world of exponential and logarithmic functions! These mathematical concepts help us understand how things grow and shrink over time, from populations to investments.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that the way money grows in a bank account is similar to how a snowball grows as it rolls down a hill?",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** y = a \\cdot b^x\n- **Meaning:** y is the final amount, a is the initial amount, b is the growth factor, and x is the time period.\n- **How it works:** In exponential growth, the quantity multiplies by the same factor over each time period. Logarithms reverse this process.\n- **Example:** If you invest $100 at a 5% annual interest rate, after 3 years, you'll have $100 \\cdot (1.05)^3 = $115.76.",
+    "formulas": "$$\ny = a \\cdot b^x\n$$",
+    "guide": "1. Start with simple examples of growth, like doubling money.\n2. Introduce the concept of decay, like a half-life in science.\n3. Use graphs to show how exponential functions curve upwards or downwards.\n4. Discuss the inverse relationship between exponential and logarithmic functions.",
+    "practice": "**1. Calculate the final amount: $200 invested at a 3% annual interest for 5 years.**\n_Answer:_ $231.85\n_Hint:_ Use the formula y = a * b^x with b = 1.03.\n\n**2. A car's value depreciates at 10% per year. What's its value after 3 years if initially worth $20,000?**\n_Answer:_ $14,580\n_Hint:_ Use the formula with b = 0.90.\n\n**3. Find the time it takes for a population of 1,000 to triple with an annual growth rate of 7%.**\n_Answer:_ Approximately 16 years\n_Hint:_ Use logarithms to solve for x in the equation 3000 = 1000 * 1.07^x.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing growth and decay factors.\n- Forgetting to convert percentage rates to decimals.\n- Misapplying the inverse relationship between exponential and logarithmic functions.",
+    "connection": "Think of exponential growth like a snowball rolling down a hill, gathering more snow and speed, while exponential decay is like ice melting away in the sun.",
+    "close": "**Key Takeaways**\n- Exponential functions model rapid growth or decay.\n- Logarithms help solve for time or rate in exponential problems.\n- Understanding these concepts is key to interpreting many real-world phenomena.\n\n**Parent Reflection Questions**\n- How can exponential functions be applied to financial planning?\n- What real-world situations involve exponential decay?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exponential & Logarithmic Functions: Unlocking Growth and Decay",
+    "introduction": "Welcome to the fascinating world of exponential and logarithmic functions! These concepts help us understand how things grow and shrink over time, from populations to bank accounts.",
+    "objective": "Help your child grasp the basics of exponential growth and decay, and understand how logarithms are used to solve related problems.",
+    "why_matters": "Exponential and logarithmic functions are everywhere in life. They explain how populations expand, how investments grow, and even how certain technologies evolve. Understanding these concepts can help your child make informed decisions in the future.",
+    "parent_tip": "Focus on the concept of growth and decay as patterns. Use everyday examples, like saving money or cooling a hot drink, to make it relatable.",
+    "real_world_link": "Think about a savings account. The money grows over time due to interest, which is an example of exponential growth. Similarly, the cooling of a hot cup of coffee is an example of exponential decay.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the idea of exponential growth with a simple story, like a rabbit population doubling every year.",
+      "Explain exponential decay with an example, such as how a hot pizza cools down over time.",
+      "Discuss how logarithms help us find out how long it takes for growth or decay to reach a certain level.",
+      "Use a calculator to explore how exponential and logarithmic functions work with real numbers.",
+      "Connect these concepts to real-life situations your child is interested in."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about how things grow quickly, like money in a bank account.",
+        "do": "Draw a simple graph showing a line curving upwards.",
+        "ask": "What do you think happens to the line as time goes on?",
+        "reinforce": "This is exponential growth. The more you have, the more it grows!"
+      },
+      {
+        "say": "Now, let's think about something that cools down, like a hot drink.",
+        "do": "Draw a graph showing a line curving downwards.",
+        "ask": "How does the line change over time?",
+        "reinforce": "This shows exponential decay. The hotter it is, the faster it cools."
+      },
+      {
+        "say": "Logarithms help us find out time in these situations. They're like the opposite of exponentials.",
+        "do": "Show how to use a calculator to find a logarithm.",
+        "ask": "Why do you think this is useful?",
+        "reinforce": "Logarithms help us solve for time, which is really handy in planning."
+      },
+      {
+        "say": "Let's see how these ideas apply in real life.",
+        "do": "Discuss a real-world scenario, like saving for college.",
+        "ask": "How can exponential growth help you reach your savings goal?",
+        "reinforce": "Understanding growth helps make smart financial decisions."
+      },
+      {
+        "say": "You can also see these concepts in nature and technology.",
+        "do": "Talk about how technology advances exponentially.",
+        "ask": "Can you think of a technology that has grown quickly?",
+        "reinforce": "Recognizing these patterns helps us understand the world better."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If your savings account has $1000 and grows by 5% annually, how much will it be after 3 years?",
+        "hint": "Use the formula: Future Value = Present Value * (1 + growth rate)^number of years.",
+        "answer": "$1157.63"
+      },
+      {
+        "prompt": "A population of bacteria halves every hour. If you start with 2000 bacteria, how many will there be after 3 hours?",
+        "hint": "Apply the formula: Remaining = Initial * (1/2)^number of hours.",
+        "answer": "250"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Exponential functions model growth and decay over time.",
+      "Logarithms help solve for time in these situations.",
+      "These concepts are useful in finance, science, and technology."
+    ],
+    "common_mistakes": [
+      "Confusing exponential growth with linear growth.",
+      "Forgetting that logarithms are the inverse of exponentials.",
+      "Misapplying the growth/decay formulas."
+    ],
+    "deep_dive": {
+      "history": "Exponential and logarithmic functions have been studied since the 17th century, with John Napier and Henry Briggs pioneering logarithms.",
+      "connections": "These functions are connected to calculus and are fundamental in fields like biology, economics, and computer science.",
+      "misconceptions": "A common misconception is that exponential growth is slow; in reality, it accelerates rapidly.",
+      "teaching_tips": "Use visual aids and real-life examples to make these abstract concepts tangible.",
+      "derivation": "Exponential functions are derived from the principle of compound interest, while logarithms are their inverse operations."
+    },
+    "motivation": "Understanding these functions unlocks a deeper comprehension of the world, empowering your child to tackle complex problems with confidence."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of exponential and logarithmic functions! These concepts help us understand how things grow and shrink over time, from populations to bank accounts.\n\n## Parent Orientation\n**Objective:** Help your child grasp the basics of exponential growth and decay, and understand how logarithms are used to solve related problems.\n**Why it matters:** Exponential and logarithmic functions are everywhere in life. They explain how populations expand, how investments grow, and even how certain technologies evolve. Understanding these concepts can help your child make informed decisions in the future.\n**Parent Tip:** Focus on the concept of growth and decay as patterns. Use everyday examples, like saving money or cooling a hot drink, to make it relatable.\n**Real-World Link:** Think about a savings account. The money grows over time due to interest, which is an example of exponential growth. Similarly, the cooling of a hot cup of coffee is an example of exponential decay.\n\n## Teaching Steps\n1. Introduce the idea of exponential growth with a simple story, like a rabbit population doubling every year.\n2. Explain exponential decay with an example, such as how a hot pizza cools down over time.\n3. Discuss how logarithms help us find out how long it takes for growth or decay to reach a certain level.\n4. Use a calculator to explore how exponential and logarithmic functions work with real numbers.\n5. Connect these concepts to real-life situations your child is interested in.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about how things grow quickly, like money in a bank account.  \n**Show/Do:** Draw a simple graph showing a line curving upwards.  \n**Ask:** What do you think happens to the line as time goes on?  \n**Reinforce:** This is exponential growth. The more you have, the more it grows!\n2. **Say:** Now, let's think about something that cools down, like a hot drink.  \n**Show/Do:** Draw a graph showing a line curving downwards.  \n**Ask:** How does the line change over time?  \n**Reinforce:** This shows exponential decay. The hotter it is, the faster it cools.\n3. **Say:** Logarithms help us find out time in these situations. They're like the opposite of exponentials.  \n**Show/Do:** Show how to use a calculator to find a logarithm.  \n**Ask:** Why do you think this is useful?  \n**Reinforce:** Logarithms help us solve for time, which is really handy in planning.\n4. **Say:** Let's see how these ideas apply in real life.  \n**Show/Do:** Discuss a real-world scenario, like saving for college.  \n**Ask:** How can exponential growth help you reach your savings goal?  \n**Reinforce:** Understanding growth helps make smart financial decisions.\n5. **Say:** You can also see these concepts in nature and technology.  \n**Show/Do:** Talk about how technology advances exponentially.  \n**Ask:** Can you think of a technology that has grown quickly?  \n**Reinforce:** Recognizing these patterns helps us understand the world better.\n\n## Practice Questions (Do It Together)\n**1. If your savings account has $1000 and grows by 5% annually, how much will it be after 3 years?**\n<details><summary>Hint</summary>\nUse the formula: Future Value = Present Value * (1 + growth rate)^number of years.\n</details>\n<details><summary>Answer</summary>\n$1157.63\n</details>\n\n**2. A population of bacteria halves every hour. If you start with 2000 bacteria, how many will there be after 3 hours?**\n<details><summary>Hint</summary>\nApply the formula: Remaining = Initial * (1/2)^number of hours.\n</details>\n<details><summary>Answer</summary>\n250\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Exponential functions model growth and decay over time.\n- Logarithms help solve for time in these situations.\n- These concepts are useful in finance, science, and technology.\n\n**Common Mistakes**\n- Confusing exponential growth with linear growth.\n- Forgetting that logarithms are the inverse of exponentials.\n- Misapplying the growth/decay formulas.\n\n## 🔍 Deep Dive\n**History or origin**\n\nExponential and logarithmic functions have been studied since the 17th century, with John Napier and Henry Briggs pioneering logarithms.\n\n**Future topic connections**\n\nThese functions are connected to calculus and are fundamental in fields like biology, economics, and computer science.\n\n**Common misconceptions**\n\nA common misconception is that exponential growth is slow; in reality, it accelerates rapidly.\n\n**Teaching tips for parents**\n\nUse visual aids and real-life examples to make these abstract concepts tangible.\n\n**More detail / derivation**\n\nExponential functions are derived from the principle of compound interest, while logarithms are their inverse operations.\n\n## Motivation\nUnderstanding these functions unlocks a deeper comprehension of the world, empowering your child to tackle complex problems with confidence."
+}

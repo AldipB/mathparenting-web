@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "f33dc012-fd2c-4d98-ad24-c0503135f9cb",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "6c4a9c9f-481c-4e77-a1f9-231a1de53859",
+    "title": "Number Sense & Counting",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "dc2d45a1-6c73-4e1f-b589-24d1ba1fd471",
+    "slug": "counting-010",
+    "title": "Counting 0–10: A Fun Start to Numbers",
+    "summary": "Counting 0–10 — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize and count numbers from 0 to 10 confidently.\n\n**Why it matters:** Counting is the foundation of math. It helps children understand quantity, order, and prepares them for future math concepts.\n\n**Parent Tip:** Encourage counting in everyday activities, like counting apples in a basket or steps to the car.\n\n**Real-World Link:** Imagine numbers as friends at a party. Each number has its place and role, just like guests at a celebration.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of numbers! Counting from 0 to 10 is where your child's math journey begins. Let's explore this exciting adventure together.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by introducing numbers with objects around the house.\n2. Use fingers to count from 0 to 10, showing each number visually.\n3. Incorporate counting songs or rhymes for a musical touch.\n4. Practice counting backward from 10 to 0 to reinforce order.\n5. Use storytelling: 'Once upon a time, there were 3 little pigs...' and count characters or items in stories.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Count the number of apples in the picture. (use numbers like 6 and 9)**\n_Answer:_ 4\n_Hint:_ Start from 1 and point to each apple as you count.\n\n**2. How many steps from the door to the mailbox? (use numbers like 6 and 9)**\n_Answer:_ 8\n_Hint:_ Count each step out loud.\n\n**3. Count the number of buttons on your shirt. (use numbers like 6 and 9)**\n_Answer:_ 5\n_Hint:_ Use your fingers to count each button.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Skipping numbers while counting.\n- Counting too quickly without pointing to each item.\n- Forgetting that 0 is the first number in counting.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine numbers as friends at a party. Each number has its place and role, just like guests at a celebration.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and confidently count numbers from 0 to 10.",
+    "overview": "**Objective:** Help your child recognize and count numbers from 0 to 10 confidently.\n\n**Why it matters:** Counting is the foundation of math. It helps children understand quantity, order, and prepares them for future math concepts.\n\n**Parent Tip:** Encourage counting in everyday activities, like counting apples in a basket or steps to the car.\n\n**Real-World Link:** Imagine numbers as friends at a party. Each number has its place and role, just like guests at a celebration.",
+    "core": "Welcome to the world of numbers! Counting from 0 to 10 is where your child's math journey begins. Let's explore this exciting adventure together.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'How many steps does it take to get from the door to the kitchen?' This question encourages them to count naturally and see numbers in action.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by introducing numbers with objects around the house.\n2. Use fingers to count from 0 to 10, showing each number visually.\n3. Incorporate counting songs or rhymes for a musical touch.\n4. Practice counting backward from 10 to 0 to reinforce order.\n5. Use storytelling: 'Once upon a time, there were 3 little pigs...' and count characters or items in stories.",
+    "practice": "**1. Count the number of apples in the picture. (use numbers like 6 and 9)**\n_Answer:_ 4\n_Hint:_ Start from 1 and point to each apple as you count.\n\n**2. How many steps from the door to the mailbox? (use numbers like 6 and 9)**\n_Answer:_ 8\n_Hint:_ Count each step out loud.\n\n**3. Count the number of buttons on your shirt. (use numbers like 6 and 9)**\n_Answer:_ 5\n_Hint:_ Use your fingers to count each button.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Skipping numbers while counting.\n- Counting too quickly without pointing to each item.\n- Forgetting that 0 is the first number in counting.",
+    "connection": "Imagine numbers as friends at a party. Each number has its place and role, just like guests at a celebration.",
+    "close": "**Key Takeaways**\n- Counting helps children understand numbers as a sequence.\n- Using real objects makes counting more meaningful.\n- Counting can be practiced anywhere, anytime.\n\n**Parent Reflection Questions**\n- How can I make counting a part of our daily routine?\n- What should I do if my child skips a number?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Counting 0–10: A Fun Start to Numbers",
+    "introduction": "Welcome to an exciting journey into numbers! Let's help your child discover the magic of counting from 0 to 10, an essential foundation for future math skills.",
+    "objective": "By the end of this lesson, your child will confidently count from 0 to 10 and recognize each number.",
+    "why_matters": "Counting is the first step in math that helps children understand the world around them, from counting toys to understanding time.",
+    "parent_tip": "Use everyday moments to practice counting, like counting steps, snacks, or toys.",
+    "real_world_link": "Counting is everywhere! From the number of apples in a basket to the steps to the playground, numbers help us make sense of our surroundings.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce numbers using a number line or number cards.",
+      "Practice counting objects around the house.",
+      "Engage in counting songs or rhymes.",
+      "Use fingers to represent numbers.",
+      "Play simple counting games."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with the number 0. It means nothing or empty.",
+        "do": "Show an empty plate.",
+        "ask": "Can you show me 'zero' with your hands?",
+        "reinforce": "Great! Zero means nothing is there."
+      },
+      {
+        "say": "Now let's count from 1 to 10 together.",
+        "do": "Point to each number on a number line as you count.",
+        "ask": "Can you count with me?",
+        "reinforce": "Awesome! You're counting like a pro."
+      },
+      {
+        "say": "Let's count some toys.",
+        "do": "Gather 10 small toys.",
+        "ask": "How many toys do we have here?",
+        "reinforce": "Perfect, we have 10 toys!"
+      },
+      {
+        "say": "Let's try a counting song.",
+        "do": "Sing a simple counting song like 'Five Little Ducks'.",
+        "ask": "Did you enjoy the song?",
+        "reinforce": "Songs make counting fun and easy!"
+      },
+      {
+        "say": "Can you show me 3 fingers?",
+        "do": "Hold up 3 fingers.",
+        "ask": "How many fingers am I holding up?",
+        "reinforce": "Yes, 3 fingers. You're getting it!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Count the apples in the basket: 🍎🍎🍎🍎",
+        "hint": "Use your fingers to count each apple.",
+        "answer": "4"
+      },
+      {
+        "prompt": "How many steps from the door to the sofa?",
+        "hint": "Count each step as you walk.",
+        "answer": "10"
+      },
+      {
+        "prompt": "Count the number of books on the shelf: 📚📚📚",
+        "hint": "Point to each book as you count.",
+        "answer": "3"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Counting is the foundation of math.",
+      "We can count objects, steps, and even songs.",
+      "Practice makes perfect—keep counting every day!"
+    ],
+    "common_mistakes": [
+      "Skipping numbers while counting.",
+      "Not recognizing the number zero.",
+      "Mixing up the order of numbers."
+    ],
+    "deep_dive": {
+      "history": "Counting has been a part of human history since ancient times, evolving from tally marks to the numbers we use today.",
+      "connections": "Counting leads to addition and subtraction, forming the basis for all mathematical operations.",
+      "misconceptions": "Some children may think counting is just reciting numbers without understanding quantity.",
+      "teaching_tips": "Incorporate counting into daily routines to strengthen understanding and retention.",
+      "derivation": "The numbers 0–10 are the building blocks for our decimal system, which is used globally."
+    },
+    "motivation": "Counting is not just a skill; it's a way to explore and enjoy the world. Keep it fun, and your child will love learning!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to an exciting journey into numbers! Let's help your child discover the magic of counting from 0 to 10, an essential foundation for future math skills.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will confidently count from 0 to 10 and recognize each number.\n**Why it matters:** Counting is the first step in math that helps children understand the world around them, from counting toys to understanding time.\n**Parent Tip:** Use everyday moments to practice counting, like counting steps, snacks, or toys.\n**Real-World Link:** Counting is everywhere! From the number of apples in a basket to the steps to the playground, numbers help us make sense of our surroundings.\n\n## Teaching Steps\n1. Introduce numbers using a number line or number cards.\n2. Practice counting objects around the house.\n3. Engage in counting songs or rhymes.\n4. Use fingers to represent numbers.\n5. Play simple counting games.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with the number 0. It means nothing or empty.  \n**Show/Do:** Show an empty plate.  \n**Ask:** Can you show me 'zero' with your hands?  \n**Reinforce:** Great! Zero means nothing is there.\n2. **Say:** Now let's count from 1 to 10 together.  \n**Show/Do:** Point to each number on a number line as you count.  \n**Ask:** Can you count with me?  \n**Reinforce:** Awesome! You're counting like a pro.\n3. **Say:** Let's count some toys.  \n**Show/Do:** Gather 10 small toys.  \n**Ask:** How many toys do we have here?  \n**Reinforce:** Perfect, we have 10 toys!\n4. **Say:** Let's try a counting song.  \n**Show/Do:** Sing a simple counting song like 'Five Little Ducks'.  \n**Ask:** Did you enjoy the song?  \n**Reinforce:** Songs make counting fun and easy!\n5. **Say:** Can you show me 3 fingers?  \n**Show/Do:** Hold up 3 fingers.  \n**Ask:** How many fingers am I holding up?  \n**Reinforce:** Yes, 3 fingers. You're getting it!\n\n## Practice Questions (Do It Together)\n**1. Count the apples in the basket: 🍎🍎🍎🍎**\n<details><summary>Hint</summary>\nUse your fingers to count each apple.\n</details>\n<details><summary>Answer</summary>\n4\n</details>\n\n**2. How many steps from the door to the sofa?**\n<details><summary>Hint</summary>\nCount each step as you walk.\n</details>\n<details><summary>Answer</summary>\n10\n</details>\n\n**3. Count the number of books on the shelf: 📚📚📚**\n<details><summary>Hint</summary>\nPoint to each book as you count.\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Counting is the foundation of math.\n- We can count objects, steps, and even songs.\n- Practice makes perfect—keep counting every day!\n\n**Common Mistakes**\n- Skipping numbers while counting.\n- Not recognizing the number zero.\n- Mixing up the order of numbers.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCounting has been a part of human history since ancient times, evolving from tally marks to the numbers we use today.\n\n**Future topic connections**\n\nCounting leads to addition and subtraction, forming the basis for all mathematical operations.\n\n**Common misconceptions**\n\nSome children may think counting is just reciting numbers without understanding quantity.\n\n**Teaching tips for parents**\n\nIncorporate counting into daily routines to strengthen understanding and retention.\n\n**More detail / derivation**\n\nThe numbers 0–10 are the building blocks for our decimal system, which is used globally.\n\n## Motivation\nCounting is not just a skill; it's a way to explore and enjoy the world. Keep it fun, and your child will love learning!"
+}

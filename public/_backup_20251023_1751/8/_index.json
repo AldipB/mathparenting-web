@@ -1,0 +1,113 @@
+{
+  "grade": "8",
+  "lessons": [
+    {
+      "slug": "bivariate-data-line-of-best-fit",
+      "title": "Bivariate Data & Line of Best Fit"
+    },
+    {
+      "slug": "compound-probability-trees-tables",
+      "title": "Compound Probability (Trees, Tables)"
+    },
+    {
+      "slug": "exponent-rules-scientific-notation",
+      "title": "Exponent Rules; Scientific Notation"
+    },
+    {
+      "slug": "exponents-powers-scientific-notation",
+      "title": "Exponents, Powers, Scientific Notation"
+    },
+    {
+      "slug": "functions-definition-evaluation",
+      "title": "Functions: Definition & Evaluation"
+    },
+    {
+      "slug": "functions-evaluate-compare",
+      "title": "Functions: Evaluate & Compare"
+    },
+    {
+      "slug": "graphing-lines-slope-intercept-form",
+      "title": "Graphing Lines (Slope-Intercept Form)"
+    },
+    {
+      "slug": "linear-equations-systems-of-equations",
+      "title": "Linear Equations & Systems of Equations"
+    },
+    {
+      "slug": "linear-equations-functions-slope-intercept",
+      "title": "Linear Equations; Functions; Slope-Intercept"
+    },
+    {
+      "slug": "polynomials-add-subtract-multiply-binomials",
+      "title": "Polynomials (Add/Subtract/Multiply binomials)"
+    },
+    {
+      "slug": "polynomials-intro-to-addition-multiplication",
+      "title": "Polynomials (Intro to Addition & Multiplication)"
+    },
+    {
+      "slug": "probability-of-compound-events-8f82a3c8-21ea-4878-a731-d2b01b9ae313",
+      "title": "Probability of Compound Events"
+    },
+    {
+      "slug": "probability-of-compound-events",
+      "title": "Probability of Compound Events"
+    },
+    {
+      "slug": "pythagorean-theorem-applications",
+      "title": "Pythagorean Theorem & Applications"
+    },
+    {
+      "slug": "pythagorean-theorem-distance",
+      "title": "Pythagorean Theorem & Distance"
+    },
+    {
+      "slug": "real-numbers-rational-irrational",
+      "title": "Real Numbers: Rational & Irrational"
+    },
+    {
+      "slug": "real-numbers-rational-vs-irrational",
+      "title": "Real Numbers: Rational vs Irrational"
+    },
+    {
+      "slug": "real-world-modeling-algebra-connections",
+      "title": "Real-World Modeling & Algebra Connections"
+    },
+    {
+      "slug": "roots-radicals",
+      "title": "Roots & Radicals"
+    },
+    {
+      "slug": "roots-radicals-simplify",
+      "title": "Roots & Radicals; Simplify"
+    },
+    {
+      "slug": "statistics-bivariate-data-line-of-best-fit",
+      "title": "Statistics: Bivariate Data & Line of Best Fit"
+    },
+    {
+      "slug": "systems-of-linear-equations-graph-substitution-elimination",
+      "title": "Systems of Linear Equations (Graph/Substitution/Elimination)"
+    },
+    {
+      "slug": "transformations-similarity",
+      "title": "Transformations & Similarity"
+    },
+    {
+      "slug": "transformations-similarity-congruence",
+      "title": "Transformations; Similarity; Congruence"
+    },
+    {
+      "slug": "volume-surface-area-cylinders-cones-spheres-9d8f7073-3f9a-4ae5-8ed7-46e56ffd6248",
+      "title": "Volume & Surface Area (Cylinders, Cones, Spheres)"
+    },
+    {
+      "slug": "volume-surface-area-cylinders-cones-spheres-f81cc4dc-613b-4033-8771-c17b8dc59e18",
+      "title": "Volume & Surface Area (Cylinders, Cones, Spheres)"
+    },
+    {
+      "slug": "volume-surface-area-cylinders-cones-spheres",
+      "title": "Volume Surface Area Cylinders Cones Spheres"
+    }
+  ]
+}

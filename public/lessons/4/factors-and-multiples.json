@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "2f012d76-7166-4682-86a1-3f77138dd1ae",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "4b97bfc6-8df6-4803-b902-c0dad097d1b1",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "77eb5011-a845-4658-9ab0-5db6bfaf50a7",
+    "slug": "factors-and-multiples",
+    "title": "Factors & Multiples: Building Blocks of Numbers",
+    "summary": "Factors & multiples — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child identify factors and multiples of numbers up to 100, strengthening their number sense and problem-solving skills.\n\n**Why it matters:** Understanding factors and multiples prepares your child for more complex math concepts, like fractions and algebra. It's a foundational skill that enhances their numerical fluency.\n\n**Parent Tip:** Try to incorporate discussions of factors and multiples in everyday scenarios, like dividing treats among friends or planning events, to make learning more relatable.\n\n**Real-World Link:** Consider a party scenario: If you have 12 cupcakes and want to distribute them equally among your child's friends, factors help you determine the possible group sizes.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Hello Parents! Let's embark on a journey to explore factors and multiples, the building blocks of numbers. These concepts will help your child understand how numbers relate to each other, much like how pieces fit together in a puzzle.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining that a factor is a number that divides another number evenly, without leaving a remainder.\n2. Introduce multiples as the result of multiplying a number by an integer, like skip counting.\n3. Use a 100 chart to visualize factors and multiples. Highlight numbers and their factors in one color and multiples in another.\n4. Discuss how every number is a multiple of itself and 1, and how factors come in pairs.\n5. Practice finding factors and multiples of small numbers together.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the factors of 18.**\n_Answer:_ 1, 2, 3, 6, 9, 18\n_Hint:_ Start with 1 and 18, then check numbers in between.\n\n**2. What are the first five multiples of 4?**\n_Answer:_ 4, 8, 12, 16, 20\n_Hint:_ Think of skip counting by 4.\n\n**3. Is 15 a factor of 45?**\n_Answer:_ Yes, because 45 ÷ 15 = 3 without a remainder.\n_Hint:_ Divide 45 by 15 and check for a remainder.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing factors with multiples.\n- Forgetting that 1 is a factor of every number.\n- Overlooking that every number is a multiple of itself.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Consider a party scenario: If you have 12 cupcakes and want to distribute them equally among your child's friends, factors help you determine the possible group sizes.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Understand the concepts of factors and multiples, and how they are foundational in math.",
+    "overview": "**Objective:** Help your child identify factors and multiples of numbers up to 100, strengthening their number sense and problem-solving skills.\n\n**Why it matters:** Understanding factors and multiples prepares your child for more complex math concepts, like fractions and algebra. It's a foundational skill that enhances their numerical fluency.\n\n**Parent Tip:** Try to incorporate discussions of factors and multiples in everyday scenarios, like dividing treats among friends or planning events, to make learning more relatable.\n\n**Real-World Link:** Consider a party scenario: If you have 12 cupcakes and want to distribute them equally among your child's friends, factors help you determine the possible group sizes.",
+    "core": "Hello Parents! Let's embark on a journey to explore factors and multiples, the building blocks of numbers. These concepts will help your child understand how numbers relate to each other, much like how pieces fit together in a puzzle.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that the number of chairs in a classroom can teach us about factors and multiples? Let's explore how!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by explaining that a factor is a number that divides another number evenly, without leaving a remainder.\n2. Introduce multiples as the result of multiplying a number by an integer, like skip counting.\n3. Use a 100 chart to visualize factors and multiples. Highlight numbers and their factors in one color and multiples in another.\n4. Discuss how every number is a multiple of itself and 1, and how factors come in pairs.\n5. Practice finding factors and multiples of small numbers together.",
+    "practice": "**1. Find the factors of 18.**\n_Answer:_ 1, 2, 3, 6, 9, 18\n_Hint:_ Start with 1 and 18, then check numbers in between.\n\n**2. What are the first five multiples of 4?**\n_Answer:_ 4, 8, 12, 16, 20\n_Hint:_ Think of skip counting by 4.\n\n**3. Is 15 a factor of 45?**\n_Answer:_ Yes, because 45 ÷ 15 = 3 without a remainder.\n_Hint:_ Divide 45 by 15 and check for a remainder.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing factors with multiples.\n- Forgetting that 1 is a factor of every number.\n- Overlooking that every number is a multiple of itself.",
+    "connection": "Consider a party scenario: If you have 12 cupcakes and want to distribute them equally among your child's friends, factors help you determine the possible group sizes.",
+    "close": "**Key Takeaways**\n- Factors are numbers that multiply to make another number.\n- Multiples are the result of multiplying a number by whole numbers.\n- Understanding these helps with division and multiplication.\n\n**Parent Reflection Questions**\n- What is a quick way to find the factors of a number?\n- How can we use multiples in everyday life?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Factors & Multiples: Building Blocks of Numbers",
+    "introduction": "Welcome to the exciting world of factors and multiples! These are the building blocks of numbers, and understanding them can make math feel more like a fun puzzle.",
+    "objective": "Help your child identify factors and multiples, and understand how they relate to numbers.",
+    "why_matters": "Knowing factors and multiples is essential for mastering division and multiplication, and they form the foundation for more complex math concepts.",
+    "parent_tip": "Encourage your child to play with numbers and discover patterns. This exploration helps build confidence and curiosity in math.",
+    "real_world_link": "Factors and multiples are used when organizing equal groups, such as setting up rows of chairs or arranging items into packages.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concepts with simple definitions.",
+      "Use real-world examples to make the ideas tangible.",
+      "Practice identifying factors and multiples with your child.",
+      "Encourage your child to explain their thinking.",
+      "Play games that involve finding factors and multiples."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore numbers together! Do you know what a factor is?",
+        "do": "Show your child a number, like 12, and ask them to think of pairs of numbers that multiply to make 12.",
+        "ask": "Can you find all the pairs of numbers that multiply to make 12?",
+        "reinforce": "Great job! So, 1, 2, 3, 4, 6, and 12 are factors of 12."
+      },
+      {
+        "say": "Now, let's talk about multiples. Do you know what a multiple is?",
+        "do": "Pick a number, like 3, and list some multiples of 3 by multiplying it.",
+        "ask": "What happens if we keep adding 3? What are the next few multiples?",
+        "reinforce": "Exactly! 3, 6, 9, and so on are multiples of 3."
+      },
+      {
+        "say": "Let's relate this to something fun.",
+        "do": "Use a real-world example, like arranging chairs in rows.",
+        "ask": "If we have 12 chairs, how can we arrange them evenly in rows?",
+        "reinforce": "You're right! We can use factors to arrange them in rows of 2, 3, or 4."
+      },
+      {
+        "say": "Can you find the factors of a new number?",
+        "do": "Give them a number like 18 to work with.",
+        "ask": "What are the factors of 18?",
+        "reinforce": "Yes! 1, 2, 3, 6, 9, and 18 are factors of 18."
+      },
+      {
+        "say": "Let's see if you can find multiples of a number.",
+        "do": "Choose a number like 5 and ask them to list multiples.",
+        "ask": "What are the first few multiples of 5?",
+        "reinforce": "Exactly, 5, 10, 15, and 20 are multiples of 5."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the factors of 20.",
+        "hint": "Think of numbers that multiply to 20.",
+        "answer": "1, 2, 4, 5, 10, 20"
+      },
+      {
+        "prompt": "List the first five multiples of 4.",
+        "hint": "Keep adding 4 to the previous number.",
+        "answer": "4, 8, 12, 16, 20"
+      },
+      {
+        "prompt": "Is 6 a factor of 36?",
+        "hint": "Does 6 multiply with another number to make 36?",
+        "answer": "Yes, because 6 x 6 = 36"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Factors are numbers that divide evenly into another number.",
+      "Multiples are the result of multiplying a number by whole numbers.",
+      "Understanding these helps with division and multiplication."
+    ],
+    "common_mistakes": [
+      "Confusing factors with multiples.",
+      "Forgetting that 1 is a factor of every number.",
+      "Mixing up the terms 'factor' and 'multiple'."
+    ],
+    "deep_dive": {
+      "history": "The study of factors and multiples dates back to ancient Greece, where mathematicians like Euclid explored number theory.",
+      "connections": "Factors and multiples are foundational for understanding prime numbers and least common multiples.",
+      "misconceptions": "Some think that multiples are only larger numbers, but they can be any product of the original number.",
+      "teaching_tips": "Use visual aids like arrays or factor trees to help illustrate these concepts.",
+      "derivation": "Factors come from division, while multiples come from multiplication."
+    },
+    "motivation": "Explore numbers together and watch your child's confidence in math grow. These skills open doors to understanding more complex math topics!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the exciting world of factors and multiples! These are the building blocks of numbers, and understanding them can make math feel more like a fun puzzle.\n\n## Parent Orientation\n**Objective:** Help your child identify factors and multiples, and understand how they relate to numbers.\n**Why it matters:** Knowing factors and multiples is essential for mastering division and multiplication, and they form the foundation for more complex math concepts.\n**Parent Tip:** Encourage your child to play with numbers and discover patterns. This exploration helps build confidence and curiosity in math.\n**Real-World Link:** Factors and multiples are used when organizing equal groups, such as setting up rows of chairs or arranging items into packages.\n\n## Teaching Steps\n1. Introduce the concepts with simple definitions.\n2. Use real-world examples to make the ideas tangible.\n3. Practice identifying factors and multiples with your child.\n4. Encourage your child to explain their thinking.\n5. Play games that involve finding factors and multiples.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore numbers together! Do you know what a factor is?  \n**Show/Do:** Show your child a number, like 12, and ask them to think of pairs of numbers that multiply to make 12.  \n**Ask:** Can you find all the pairs of numbers that multiply to make 12?  \n**Reinforce:** Great job! So, 1, 2, 3, 4, 6, and 12 are factors of 12.\n2. **Say:** Now, let's talk about multiples. Do you know what a multiple is?  \n**Show/Do:** Pick a number, like 3, and list some multiples of 3 by multiplying it.  \n**Ask:** What happens if we keep adding 3? What are the next few multiples?  \n**Reinforce:** Exactly! 3, 6, 9, and so on are multiples of 3.\n3. **Say:** Let's relate this to something fun.  \n**Show/Do:** Use a real-world example, like arranging chairs in rows.  \n**Ask:** If we have 12 chairs, how can we arrange them evenly in rows?  \n**Reinforce:** You're right! We can use factors to arrange them in rows of 2, 3, or 4.\n4. **Say:** Can you find the factors of a new number?  \n**Show/Do:** Give them a number like 18 to work with.  \n**Ask:** What are the factors of 18?  \n**Reinforce:** Yes! 1, 2, 3, 6, 9, and 18 are factors of 18.\n5. **Say:** Let's see if you can find multiples of a number.  \n**Show/Do:** Choose a number like 5 and ask them to list multiples.  \n**Ask:** What are the first few multiples of 5?  \n**Reinforce:** Exactly, 5, 10, 15, and 20 are multiples of 5.\n\n## Practice Questions (Do It Together)\n**1. Find the factors of 20.**\n<details><summary>Hint</summary>\nThink of numbers that multiply to 20.\n</details>\n<details><summary>Answer</summary>\n1, 2, 4, 5, 10, 20\n</details>\n\n**2. List the first five multiples of 4.**\n<details><summary>Hint</summary>\nKeep adding 4 to the previous number.\n</details>\n<details><summary>Answer</summary>\n4, 8, 12, 16, 20\n</details>\n\n**3. Is 6 a factor of 36?**\n<details><summary>Hint</summary>\nDoes 6 multiply with another number to make 36?\n</details>\n<details><summary>Answer</summary>\nYes, because 6 x 6 = 36\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Factors are numbers that divide evenly into another number.\n- Multiples are the result of multiplying a number by whole numbers.\n- Understanding these helps with division and multiplication.\n\n**Common Mistakes**\n- Confusing factors with multiples.\n- Forgetting that 1 is a factor of every number.\n- Mixing up the terms 'factor' and 'multiple'.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe study of factors and multiples dates back to ancient Greece, where mathematicians like Euclid explored number theory.\n\n**Future topic connections**\n\nFactors and multiples are foundational for understanding prime numbers and least common multiples.\n\n**Common misconceptions**\n\nSome think that multiples are only larger numbers, but they can be any product of the original number.\n\n**Teaching tips for parents**\n\nUse visual aids like arrays or factor trees to help illustrate these concepts.\n\n**More detail / derivation**\n\nFactors come from division, while multiples come from multiplication.\n\n## Motivation\nExplore numbers together and watch your child's confidence in math grow. These skills open doors to understanding more complex math topics!"
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "199416df-9697-4dbd-add4-a3739ecfd9d3",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "a14e58f3-fdd5-4d68-aa63-4289b61dd831",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "e4c16b56-aee2-4112-837d-0c86ed1a1659",
+    "slug": "simple-division-sharing-concept",
+    "title": "Simple Division: Sharing is Caring",
+    "summary": "Simple division (sharing concept) — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and practice simple division as a way of sharing equally.\n\n**Why it matters:** Division teaches fairness and helps children understand how to distribute resources equally, a skill they'll use throughout life.\n\n**Parent Tip:** Use everyday moments like sharing snacks or toys to introduce division naturally. Keep it fun and stress-free!\n\n**Real-World Link:** Imagine you have 12 cookies and 3 friends. How do you share them equally? Division helps solve this delicious dilemma.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of division, where sharing is the name of the game! Let's explore how dividing helps us share equally among friends.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a story: 'You have 8 apples and 4 friends. How many apples does each friend get if you share equally?'\n2. Use objects: Gather 12 small items (like blocks) and divide them into equal groups.\n3. Draw it out: Use drawings or diagrams to visually represent dividing items into equal parts.\n4. Explain the concept: Division is about making equal groups. It's like fair sharing.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. You have 10 candies and 2 friends. How many candies does each friend get?**\n_Answer:_ Each friend gets 5 candies.\n_Hint:_ Divide 10 candies into 2 equal groups.\n\n**2. 14 stickers are shared among 7 kids. How many stickers per kid?**\n_Answer:_ Each kid gets 2 stickers.\n_Hint:_ Think of dividing 14 into 7 equal parts.\n\n**3. If you have 18 marbles and 3 containers, how many marbles per container?**\n_Answer:_ Each container gets 6 marbles.\n_Hint:_ Divide 18 marbles into 3 equal parts.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to make groups equal.\n- Not counting the total items correctly before dividing.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine you have 12 cookies and 3 friends. How do you share them equally? Division helps solve this delicious dilemma.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand division as sharing a total equally among a number of groups.",
+    "overview": "**Objective:** Help your child understand and practice simple division as a way of sharing equally.\n\n**Why it matters:** Division teaches fairness and helps children understand how to distribute resources equally, a skill they'll use throughout life.\n\n**Parent Tip:** Use everyday moments like sharing snacks or toys to introduce division naturally. Keep it fun and stress-free!\n\n**Real-World Link:** Imagine you have 12 cookies and 3 friends. How do you share them equally? Division helps solve this delicious dilemma.",
+    "core": "Welcome to the world of division, where sharing is the name of the game! Let's explore how dividing helps us share equally among friends.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever had to share a bag of candies with friends? How did you make sure everyone got the same amount?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a story: 'You have 8 apples and 4 friends. How many apples does each friend get if you share equally?'\n2. Use objects: Gather 12 small items (like blocks) and divide them into equal groups.\n3. Draw it out: Use drawings or diagrams to visually represent dividing items into equal parts.\n4. Explain the concept: Division is about making equal groups. It's like fair sharing.",
+    "practice": "**1. You have 10 candies and 2 friends. How many candies does each friend get?**\n_Answer:_ Each friend gets 5 candies.\n_Hint:_ Divide 10 candies into 2 equal groups.\n\n**2. 14 stickers are shared among 7 kids. How many stickers per kid?**\n_Answer:_ Each kid gets 2 stickers.\n_Hint:_ Think of dividing 14 into 7 equal parts.\n\n**3. If you have 18 marbles and 3 containers, how many marbles per container?**\n_Answer:_ Each container gets 6 marbles.\n_Hint:_ Divide 18 marbles into 3 equal parts.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to make groups equal.\n- Not counting the total items correctly before dividing.",
+    "connection": "Imagine you have 12 cookies and 3 friends. How do you share them equally? Division helps solve this delicious dilemma.",
+    "close": "**Key Takeaways**\n- Division is about equal sharing.\n- Real-world scenarios help solidify the concept.\n- Encourage your child to verbalize their thought process.\n\n**Parent Reflection Questions**\n- How did your child approach dividing items?\n- Did they understand the need for equal groups?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Simple Division: Sharing is Caring",
+    "introduction": "Welcome to the world of division! Today, we'll explore how to share things equally, a skill your child will use throughout their life.",
+    "objective": "Help your child understand the concept of division as sharing equally and solve simple division problems.",
+    "why_matters": "Division helps children learn about fairness and equality. It's a foundation for more advanced math skills and everyday decision-making.",
+    "parent_tip": "Use everyday situations like sharing snacks or toys to illustrate division. It makes learning relatable and fun!",
+    "real_world_link": "Think about sharing a pizza among friends. Each person gets an equal slice, just like in division!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce division as sharing equally.",
+      "Use physical objects like snacks or toys to demonstrate.",
+      "Practice dividing objects into equal groups.",
+      "Encourage your child to explain their thinking.",
+      "Solve simple division problems together."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's learn about division by sharing.",
+        "do": "Take 8 small toys and ask your child to share them equally between two stuffed animals.",
+        "ask": "How many toys does each animal get?",
+        "reinforce": "Great! Each animal gets 4 toys. That's division in action!"
+      },
+      {
+        "say": "Now, let's try with a different number.",
+        "do": "Give your child 12 crackers and ask them to share them among 3 people.",
+        "ask": "How many crackers does each person get?",
+        "reinforce": "Exactly! Each person gets 4 crackers."
+      },
+      {
+        "say": "Division is like making sure everyone gets a fair share.",
+        "do": "Draw 15 circles and ask your child to divide them among 5 groups.",
+        "ask": "How many circles are in each group?",
+        "reinforce": "That's right! Each group has 3 circles."
+      },
+      {
+        "say": "Let's solve a problem together.",
+        "do": "Write down 20 ÷ 4 on a piece of paper.",
+        "ask": "How many groups of 4 can we make out of 20?",
+        "reinforce": "Well done! We can make 5 groups."
+      },
+      {
+        "say": "You're doing great! Let's try one more.",
+        "do": "Use 18 candies and ask your child to share them with 2 friends.",
+        "ask": "How many candies does each friend get?",
+        "reinforce": "Perfect! Each friend gets 6 candies."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Share 16 apples among 4 kids.",
+        "hint": "Divide the apples equally.",
+        "answer": "Each kid gets 4 apples."
+      },
+      {
+        "prompt": "Divide 10 cookies between 2 friends.",
+        "hint": "How many cookies does each friend get?",
+        "answer": "Each friend gets 5 cookies."
+      },
+      {
+        "prompt": "If 21 balloons are shared among 3 children, how many does each child get?",
+        "hint": "Think about splitting the balloons equally.",
+        "answer": "Each child gets 7 balloons."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Division is sharing equally.",
+      "We can use objects to understand division.",
+      "Practicing division helps with everyday situations."
+    ],
+    "common_mistakes": [
+      "Forgetting to share equally.",
+      "Mixing up division with subtraction.",
+      "Not checking if the groups are equal."
+    ],
+    "deep_dive": {
+      "history": "Division has been used since ancient times to solve problems of distribution and trade.",
+      "connections": "Division is closely linked to multiplication. Understanding one helps with the other.",
+      "misconceptions": "Some children think division is always about making things smaller, but it's about equal sharing.",
+      "teaching_tips": "Use visual aids and real-life scenarios to make division relatable.",
+      "derivation": "Division can be seen as repeated subtraction or the inverse of multiplication."
+    },
+    "motivation": "Remember, division is a fun way to make sure everyone gets their fair share. Keep practicing, and soon it will feel like second nature!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of division! Today, we'll explore how to share things equally, a skill your child will use throughout their life.\n\n## Parent Orientation\n**Objective:** Help your child understand the concept of division as sharing equally and solve simple division problems.\n**Why it matters:** Division helps children learn about fairness and equality. It's a foundation for more advanced math skills and everyday decision-making.\n**Parent Tip:** Use everyday situations like sharing snacks or toys to illustrate division. It makes learning relatable and fun!\n**Real-World Link:** Think about sharing a pizza among friends. Each person gets an equal slice, just like in division!\n\n## Teaching Steps\n1. Introduce division as sharing equally.\n2. Use physical objects like snacks or toys to demonstrate.\n3. Practice dividing objects into equal groups.\n4. Encourage your child to explain their thinking.\n5. Solve simple division problems together.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's learn about division by sharing.  \n**Show/Do:** Take 8 small toys and ask your child to share them equally between two stuffed animals.  \n**Ask:** How many toys does each animal get?  \n**Reinforce:** Great! Each animal gets 4 toys. That's division in action!\n2. **Say:** Now, let's try with a different number.  \n**Show/Do:** Give your child 12 crackers and ask them to share them among 3 people.  \n**Ask:** How many crackers does each person get?  \n**Reinforce:** Exactly! Each person gets 4 crackers.\n3. **Say:** Division is like making sure everyone gets a fair share.  \n**Show/Do:** Draw 15 circles and ask your child to divide them among 5 groups.  \n**Ask:** How many circles are in each group?  \n**Reinforce:** That's right! Each group has 3 circles.\n4. **Say:** Let's solve a problem together.  \n**Show/Do:** Write down 20 ÷ 4 on a piece of paper.  \n**Ask:** How many groups of 4 can we make out of 20?  \n**Reinforce:** Well done! We can make 5 groups.\n5. **Say:** You're doing great! Let's try one more.  \n**Show/Do:** Use 18 candies and ask your child to share them with 2 friends.  \n**Ask:** How many candies does each friend get?  \n**Reinforce:** Perfect! Each friend gets 6 candies.\n\n## Practice Questions (Do It Together)\n**1. Share 16 apples among 4 kids.**\n<details><summary>Hint</summary>\nDivide the apples equally.\n</details>\n<details><summary>Answer</summary>\nEach kid gets 4 apples.\n</details>\n\n**2. Divide 10 cookies between 2 friends.**\n<details><summary>Hint</summary>\nHow many cookies does each friend get?\n</details>\n<details><summary>Answer</summary>\nEach friend gets 5 cookies.\n</details>\n\n**3. If 21 balloons are shared among 3 children, how many does each child get?**\n<details><summary>Hint</summary>\nThink about splitting the balloons equally.\n</details>\n<details><summary>Answer</summary>\nEach child gets 7 balloons.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Division is sharing equally.\n- We can use objects to understand division.\n- Practicing division helps with everyday situations.\n\n**Common Mistakes**\n- Forgetting to share equally.\n- Mixing up division with subtraction.\n- Not checking if the groups are equal.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDivision has been used since ancient times to solve problems of distribution and trade.\n\n**Future topic connections**\n\nDivision is closely linked to multiplication. Understanding one helps with the other.\n\n**Common misconceptions**\n\nSome children think division is always about making things smaller, but it's about equal sharing.\n\n**Teaching tips for parents**\n\nUse visual aids and real-life scenarios to make division relatable.\n\n**More detail / derivation**\n\nDivision can be seen as repeated subtraction or the inverse of multiplication.\n\n## Motivation\nRemember, division is a fun way to make sure everyone gets their fair share. Keep practicing, and soon it will feel like second nature!"
+}

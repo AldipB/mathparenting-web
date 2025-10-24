@@ -1,0 +1,41 @@
+{
+  "grade": "10",
+  "lessons": [
+    {
+      "slug": "circle-theorems",
+      "title": "Circle Theorems Unveiled: Understanding the Secrets of Circles"
+    },
+    {
+      "slug": "coordinate-geometry",
+      "title": "Coordinate Geometry: Navigating the Grid"
+    },
+    {
+      "slug": "congruence-and-similarity",
+      "title": "Exploring Congruence & Similarity in Geometry"
+    },
+    {
+      "slug": "exponential-and-logarithmic-intro",
+      "title": "Exploring Exponentials and Logarithms"
+    },
+    {
+      "slug": "sequences-and-series-arithmeticgeometric",
+      "title": "Exploring Sequences and Series: A Journey Through Patterns"
+    },
+    {
+      "slug": "parallel-lines-and-angle-relationships",
+      "title": "Parallel Lines & Angle Relationships"
+    },
+    {
+      "slug": "probability-and-combinatorics",
+      "title": "Probability & Combinatorics: Unlocking the Secrets of Chance"
+    },
+    {
+      "slug": "functions-and-transformations",
+      "title": "Understanding Functions & Transformations"
+    },
+    {
+      "slug": "quadratic-equations-and-formula",
+      "title": "Understanding Quadratic Equations & Formula"
+    }
+  ]
+}

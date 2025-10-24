@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "3244d577-ca76-4057-bdca-da4e33f7a091",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "e7b9b8fe-eeff-4b1f-80fa-52ca1cc96aa8",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "36c3a724-15e2-42eb-9582-008802b9aa2c",
+    "slug": "multiplying-fractions-and-decimals",
+    "title": "Multiplying Fractions & Decimals: A Parent's Guide",
+    "summary": "Multiplying fractions & decimals — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child confidently multiply fractions and decimals through simple steps and relatable examples.\n\n**Why it matters:** Multiplying fractions and decimals is essential for accurate measurements in cooking, construction, and budgeting.\n\n**Parent Tip:** Encourage your child to visualize fractions and decimals using everyday items like pizza slices or coins.\n\n**Real-World Link:** Imagine cutting a cake into smaller pieces (fractions) or calculating a discount on a purchase (decimals). Multiplying helps us combine or scale these pieces accurately.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore multiplying fractions and decimals. Understanding this helps kids see the world in a more precise way. Let's dive in together!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining that multiplying fractions means taking parts of parts. For example, 1/2 of 1/3 is like taking half of a third.\n2. Multiply the numerators (top numbers) together and the denominators (bottom numbers) together.\n3. For decimals, line up the numbers by their decimal points and multiply as if they are whole numbers. Count the total decimal places in the factors to place the decimal in the answer.\n4. Simplify the fraction or adjust the decimal as needed.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Multiply 2/3 by 3/4.**\n_Answer:_ 6/12, which simplifies to 1/2.\n_Hint:_ Multiply the numerators and then the denominators.\n\n**2. Multiply 0.5 by 0.4.**\n_Answer:_ 0.20\n_Hint:_ Multiply as whole numbers and count the decimals.\n\n**3. Find the product: 1/5 × 7/2.**\n_Answer:_ 7/10\n_Hint:_ Multiply across numerators and denominators.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to simplify fractions.\n- Misplacing the decimal point in the product.\n- Multiplying denominators with numerators.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine cutting a cake into smaller pieces (fractions) or calculating a discount on a purchase (decimals). Multiplying helps us combine or scale these pieces accurately.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child multiply fractions and decimals with confidence.",
+    "overview": "**Objective:** Help your child confidently multiply fractions and decimals through simple steps and relatable examples.\n\n**Why it matters:** Multiplying fractions and decimals is essential for accurate measurements in cooking, construction, and budgeting.\n\n**Parent Tip:** Encourage your child to visualize fractions and decimals using everyday items like pizza slices or coins.\n\n**Real-World Link:** Imagine cutting a cake into smaller pieces (fractions) or calculating a discount on a purchase (decimals). Multiplying helps us combine or scale these pieces accurately.",
+    "core": "Welcome! Today, we'll explore multiplying fractions and decimals. Understanding this helps kids see the world in a more precise way. Let's dive in together!",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how doubling a recipe works when you need to use fractions? Let's explore how multiplying fractions and decimals helps us in the kitchen!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by explaining that multiplying fractions means taking parts of parts. For example, 1/2 of 1/3 is like taking half of a third.\n2. Multiply the numerators (top numbers) together and the denominators (bottom numbers) together.\n3. For decimals, line up the numbers by their decimal points and multiply as if they are whole numbers. Count the total decimal places in the factors to place the decimal in the answer.\n4. Simplify the fraction or adjust the decimal as needed.",
+    "practice": "**1. Multiply 2/3 by 3/4.**\n_Answer:_ 6/12, which simplifies to 1/2.\n_Hint:_ Multiply the numerators and then the denominators.\n\n**2. Multiply 0.5 by 0.4.**\n_Answer:_ 0.20\n_Hint:_ Multiply as whole numbers and count the decimals.\n\n**3. Find the product: 1/5 × 7/2.**\n_Answer:_ 7/10\n_Hint:_ Multiply across numerators and denominators.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to simplify fractions.\n- Misplacing the decimal point in the product.\n- Multiplying denominators with numerators.",
+    "connection": "Imagine cutting a cake into smaller pieces (fractions) or calculating a discount on a purchase (decimals). Multiplying helps us combine or scale these pieces accurately.",
+    "close": "**Key Takeaways**\n- Multiplying fractions involves multiplying numerators and denominators.\n- Multiplying decimals is similar to whole numbers; adjust for decimal places.\n- Use real-world examples to make the concept relatable.\n\n**Parent Reflection Questions**\n- How can I help my child visualize fractions?\n- What are some fun activities to practice these skills?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Multiplying Fractions & Decimals: A Parent's Guide",
+    "introduction": "Welcome, parents! Today, we're exploring the world of multiplying fractions and decimals with your fifth grader. Let's make this journey smooth and enjoyable for you both!",
+    "objective": "Help your child understand and confidently multiply fractions and decimals.",
+    "why_matters": "Mastering these skills is crucial as they form the foundation for more advanced math concepts and everyday problem-solving.",
+    "parent_tip": "Encourage your child to visualize the problems and use everyday examples to make the concepts more relatable.",
+    "real_world_link": "Think about cooking: recipes often require multiplying fractions and decimals when adjusting ingredients for more or fewer servings.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start by refreshing the concept of fractions and decimals.",
+      "Introduce the idea of multiplication as repeated addition.",
+      "Use visual aids to show how multiplying fractions shrinks the number.",
+      "Discuss how multiplying decimals works similarly to whole numbers but involves placement of the decimal point.",
+      "Practice with real-world examples to solidify understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with fractions.",
+        "do": "Show a pizza divided into equal parts.",
+        "ask": "If we have half a pizza and want to multiply it by 2, how many parts do we have?",
+        "reinforce": "Multiplying fractions often means finding parts of a part."
+      },
+      {
+        "say": "Now, let's talk about decimals.",
+        "do": "Write down 0.5 and 0.3 on paper.",
+        "ask": "What do you think happens when we multiply these two numbers?",
+        "reinforce": "When multiplying decimals, focus on the numbers first, then place the decimal point in the product."
+      },
+      {
+        "say": "Let's practice with an example.",
+        "do": "Write 1/4 x 1/2 and 0.4 x 0.6.",
+        "ask": "Can you solve these?",
+        "reinforce": "Remember, with fractions, multiply the numerators and denominators; with decimals, multiply normally and count decimal places."
+      },
+      {
+        "say": "Great job!",
+        "do": "Discuss a real-life example, like adjusting a recipe.",
+        "ask": "How would you multiply 1/3 cup of sugar by 3?",
+        "reinforce": "Real-life examples help solidify these concepts."
+      },
+      {
+        "say": "Let's try a word problem.",
+        "do": "Read a problem involving multiplying fractions or decimals.",
+        "ask": "What steps would you take to solve it?",
+        "reinforce": "Breaking down problems into smaller steps can make them easier to tackle."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Multiply: 2/3 x 3/4",
+        "hint": "Multiply the numerators and then the denominators.",
+        "answer": "1/2"
+      },
+      {
+        "prompt": "Multiply: 0.7 x 0.5",
+        "hint": "Multiply as whole numbers, then place the decimal.",
+        "answer": "0.35"
+      },
+      {
+        "prompt": "Multiply: 5/8 x 1/2",
+        "hint": "Think about parts of a part.",
+        "answer": "5/16"
+      },
+      {
+        "prompt": "Multiply: 1.2 x 0.4",
+        "hint": "Ignore the decimals at first, then adjust the decimal place in the answer.",
+        "answer": "0.48"
+      }
+    ],
+    "recap": [
+      "Multiplying fractions involves multiplying numerators and denominators.",
+      "When multiplying decimals, multiply as whole numbers and then adjust for decimals.",
+      "Practice with real-world examples to reinforce understanding."
+    ],
+    "common_mistakes": [
+      "Forgetting to adjust the decimal point in the product.",
+      "Misapplying multiplication rules from whole numbers directly to fractions.",
+      "Overlooking the need to simplify fractions."
+    ],
+    "deep_dive": {
+      "history": "The concept of fractions has been around since Ancient Egypt, while decimals became widely used in Europe during the 16th century.",
+      "connections": "Understanding these concepts is crucial for algebra and geometry.",
+      "misconceptions": "A common misconception is that multiplying always makes numbers larger, which isn't true for fractions and decimals.",
+      "teaching_tips": "Use visual aids like fraction circles and decimal grids to make abstract concepts more concrete.",
+      "derivation": "For fractions, the multiplication rule is derived from dividing the whole into equal parts and then multiplying these parts."
+    },
+    "motivation": "By mastering multiplying fractions and decimals, your child gains a powerful tool for both academic success and real-life problem-solving!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we're exploring the world of multiplying fractions and decimals with your fifth grader. Let's make this journey smooth and enjoyable for you both!\n\n## Parent Orientation\n**Objective:** Help your child understand and confidently multiply fractions and decimals.\n**Why it matters:** Mastering these skills is crucial as they form the foundation for more advanced math concepts and everyday problem-solving.\n**Parent Tip:** Encourage your child to visualize the problems and use everyday examples to make the concepts more relatable.\n**Real-World Link:** Think about cooking: recipes often require multiplying fractions and decimals when adjusting ingredients for more or fewer servings.\n\n## Teaching Steps\n1. Start by refreshing the concept of fractions and decimals.\n2. Introduce the idea of multiplication as repeated addition.\n3. Use visual aids to show how multiplying fractions shrinks the number.\n4. Discuss how multiplying decimals works similarly to whole numbers but involves placement of the decimal point.\n5. Practice with real-world examples to solidify understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with fractions.  \n**Show/Do:** Show a pizza divided into equal parts.  \n**Ask:** If we have half a pizza and want to multiply it by 2, how many parts do we have?  \n**Reinforce:** Multiplying fractions often means finding parts of a part.\n2. **Say:** Now, let's talk about decimals.  \n**Show/Do:** Write down 0.5 and 0.3 on paper.  \n**Ask:** What do you think happens when we multiply these two numbers?  \n**Reinforce:** When multiplying decimals, focus on the numbers first, then place the decimal point in the product.\n3. **Say:** Let's practice with an example.  \n**Show/Do:** Write 1/4 x 1/2 and 0.4 x 0.6.  \n**Ask:** Can you solve these?  \n**Reinforce:** Remember, with fractions, multiply the numerators and denominators; with decimals, multiply normally and count decimal places.\n4. **Say:** Great job!  \n**Show/Do:** Discuss a real-life example, like adjusting a recipe.  \n**Ask:** How would you multiply 1/3 cup of sugar by 3?  \n**Reinforce:** Real-life examples help solidify these concepts.\n5. **Say:** Let's try a word problem.  \n**Show/Do:** Read a problem involving multiplying fractions or decimals.  \n**Ask:** What steps would you take to solve it?  \n**Reinforce:** Breaking down problems into smaller steps can make them easier to tackle.\n\n## Practice Questions (Do It Together)\n**1. Multiply: 2/3 x 3/4**\n<details><summary>Hint</summary>\nMultiply the numerators and then the denominators.\n</details>\n<details><summary>Answer</summary>\n1/2\n</details>\n\n**2. Multiply: 0.7 x 0.5**\n<details><summary>Hint</summary>\nMultiply as whole numbers, then place the decimal.\n</details>\n<details><summary>Answer</summary>\n0.35\n</details>\n\n**3. Multiply: 5/8 x 1/2**\n<details><summary>Hint</summary>\nThink about parts of a part.\n</details>\n<details><summary>Answer</summary>\n5/16\n</details>\n\n**4. Multiply: 1.2 x 0.4**\n<details><summary>Hint</summary>\nIgnore the decimals at first, then adjust the decimal place in the answer.\n</details>\n<details><summary>Answer</summary>\n0.48\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Multiplying fractions involves multiplying numerators and denominators.\n- When multiplying decimals, multiply as whole numbers and then adjust for decimals.\n- Practice with real-world examples to reinforce understanding.\n\n**Common Mistakes**\n- Forgetting to adjust the decimal point in the product.\n- Misapplying multiplication rules from whole numbers directly to fractions.\n- Overlooking the need to simplify fractions.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of fractions has been around since Ancient Egypt, while decimals became widely used in Europe during the 16th century.\n\n**Future topic connections**\n\nUnderstanding these concepts is crucial for algebra and geometry.\n\n**Common misconceptions**\n\nA common misconception is that multiplying always makes numbers larger, which isn't true for fractions and decimals.\n\n**Teaching tips for parents**\n\nUse visual aids like fraction circles and decimal grids to make abstract concepts more concrete.\n\n**More detail / derivation**\n\nFor fractions, the multiplication rule is derived from dividing the whole into equal parts and then multiplying these parts.\n\n## Motivation\nBy mastering multiplying fractions and decimals, your child gains a powerful tool for both academic success and real-life problem-solving!"
+}

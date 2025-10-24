@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "8f70d833-19d2-4420-9029-426309f1fbf3",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "f957bfa7-71ac-46cc-a3e0-0a8c0b7cc218",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "512604ec-7e95-4e38-9f26-c3380fc0c88e",
+    "slug": "intro-to-multiplication-arrays-equal-groups",
+    "title": "Intro To Multiplication Arrays Equal Groups",
+    "summary": "Intro To Multiplication Arrays Equal Groups — summary for parents in Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Intro To Multiplication Arrays Equal Groups** in Grade 2.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Intro To Multiplication Arrays Equal Groups** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Intro To Multiplication Arrays Equal Groups** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Intro To Multiplication Arrays Equal Groups** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Intro To Multiplication Arrays Equal Groups** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Intro To Multiplication Arrays Equal Groups**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Intro To Multiplication Arrays Equal Groups**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Intro To Multiplication Arrays Equal Groups**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Intro To Multiplication Arrays Equal Groups** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Intro To Multiplication Arrays Equal Groups**.",
+    "overview": "This lesson helps children understand **Intro To Multiplication Arrays Equal Groups**.",
+    "core": "Explain **Intro To Multiplication Arrays Equal Groups** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Intro To Multiplication Arrays Equal Groups**."
+}

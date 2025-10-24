@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "ece8039a-d33b-4f30-9ce6-a8942cf68538",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "8f9c39e9-ab40-4e91-9353-0087ad2bd521",
+    "title": "Measurement & Data",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "e4c65237-c3d4-4146-bb0a-ba6e7e78be83",
+    "slug": "introduction-to-time-morningafternoonnight",
+    "title": "Introduction to Time: Morning, Afternoon, Night",
+    "summary": "Introduction to time (morning/afternoon/night) — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to identify and categorize activities based on morning, afternoon, and night.\n\n**Why it matters:** Understanding time helps children make sense of their daily routines, fostering independence and a sense of security.\n\n**Parent Tip:** Use your child's routine to point out different times of the day. This makes learning relevant and relatable.\n\n**Real-World Link:** Think about how we start our day with breakfast in the morning, play in the afternoon, and wind down with bedtime stories at night.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Today, we're helping our little learners understand the basic concept of time by breaking it down into morning, afternoon, and night. This is a fun journey where they'll connect their daily activities to different times of the day.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by discussing what your child does during the morning. Mention breakfast or getting dressed.\n2. Talk about activities in the afternoon, like playing outside or having lunch.\n3. Discuss night activities, such as dinner time or reading a bedtime story.\n4. Use visuals like clocks or a day chart to reinforce these concepts.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What time of day do we usually have breakfast? (use numbers like 6 and 9)**\n_Answer:_ Morning\n_Hint:_ Think about when you wake up.\n\n**2. When do we usually play outside? (use numbers like 6 and 9)**\n_Answer:_ Afternoon\n_Hint:_ It's after lunch, but before dinner.\n\n**3. When do we read bedtime stories? (use numbers like 6 and 9)**\n_Answer:_ Night\n_Hint:_ It's dark outside.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing afternoon with night because it gets dark earlier in winter.\n- Thinking morning starts when they wake up, instead of when the sun rises.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about how we start our day with breakfast in the morning, play in the afternoon, and wind down with bedtime stories at night.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and differentiate between morning, afternoon, and night using daily routines.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to identify and categorize activities based on morning, afternoon, and night.\n\n**Why it matters:** Understanding time helps children make sense of their daily routines, fostering independence and a sense of security.\n\n**Parent Tip:** Use your child's routine to point out different times of the day. This makes learning relevant and relatable.\n\n**Real-World Link:** Think about how we start our day with breakfast in the morning, play in the afternoon, and wind down with bedtime stories at night.",
+    "core": "Welcome, parents! Today, we're helping our little learners understand the basic concept of time by breaking it down into morning, afternoon, and night. This is a fun journey where they'll connect their daily activities to different times of the day.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'When do you eat breakfast? How about dinner?' This helps connect time to daily activities.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by discussing what your child does during the morning. Mention breakfast or getting dressed.\n2. Talk about activities in the afternoon, like playing outside or having lunch.\n3. Discuss night activities, such as dinner time or reading a bedtime story.\n4. Use visuals like clocks or a day chart to reinforce these concepts.",
+    "practice": "**1. What time of day do we usually have breakfast? (use numbers like 6 and 9)**\n_Answer:_ Morning\n_Hint:_ Think about when you wake up.\n\n**2. When do we usually play outside? (use numbers like 6 and 9)**\n_Answer:_ Afternoon\n_Hint:_ It's after lunch, but before dinner.\n\n**3. When do we read bedtime stories? (use numbers like 6 and 9)**\n_Answer:_ Night\n_Hint:_ It's dark outside.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing afternoon with night because it gets dark earlier in winter.\n- Thinking morning starts when they wake up, instead of when the sun rises.",
+    "connection": "Think about how we start our day with breakfast in the morning, play in the afternoon, and wind down with bedtime stories at night.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Introduction to time (morning/afternoon/night)** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can I help my child notice the difference between afternoon and night?\n- What are some activities we can do to reinforce these concepts?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Introduction to Time: Morning, Afternoon, Night",
+    "introduction": "Welcome to the world of time! Today, we'll explore the parts of the day: morning, afternoon, and night, to help your child understand how we organize our day.",
+    "objective": "Help your child identify and differentiate between morning, afternoon, and night.",
+    "why_matters": "Understanding the parts of the day is a foundational skill that helps children organize their daily activities and develop a sense of routine.",
+    "parent_tip": "Use daily activities as cues for different times of the day. This will help your child relate their routine to the concept of time.",
+    "real_world_link": "Think about your child's daily routine. Breakfast happens in the morning, playtime might be in the afternoon, and bedtime is at night.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of morning, afternoon, and night.",
+      "Use your child's daily routine to illustrate each part of the day.",
+      "Discuss activities typically done during each time of day.",
+      "Use visual aids like pictures or drawings of the sun and moon.",
+      "Reinforce learning with practice and questions."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about our day. We have morning, afternoon, and night.",
+        "do": "Show a picture of a sunny morning.",
+        "ask": "What do we usually do in the morning?",
+        "reinforce": "That's right! We wake up and have breakfast."
+      },
+      {
+        "say": "Next, we have the afternoon.",
+        "do": "Show a picture of a bright afternoon.",
+        "ask": "What happens in the afternoon?",
+        "reinforce": "Yes, we might have lunch or go to the park."
+      },
+      {
+        "say": "Finally, we have night time.",
+        "do": "Show a picture of the moon and stars.",
+        "ask": "What do we do at night?",
+        "reinforce": "Exactly, we get ready for bed and sleep."
+      },
+      {
+        "say": "Let's think about what we do at different times.",
+        "do": "Lay out pictures of daily activities.",
+        "ask": "Can you match these activities to morning, afternoon, or night?",
+        "reinforce": "Great job! You know your daily routine well."
+      },
+      {
+        "say": "Remember, each part of the day is special.",
+        "do": "Review your child's daily schedule.",
+        "ask": "What part of the day is your favorite?",
+        "reinforce": "That's wonderful! Each time of day has its own fun activities."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "When do we have breakfast? Morning, afternoon, or night?",
+        "hint": "Think about when you wake up.",
+        "answer": "Morning"
+      },
+      {
+        "prompt": "When do we usually see the moon? Morning, afternoon, or night?",
+        "hint": "Look at the sky before going to bed.",
+        "answer": "Night"
+      },
+      {
+        "prompt": "When do you have lunch? Morning, afternoon, or night?",
+        "hint": "It's after breakfast but before dinner.",
+        "answer": "Afternoon"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "We learned about the parts of the day: morning, afternoon, and night.",
+      "Each part of the day has different activities.",
+      "Understanding time helps us organize our day."
+    ],
+    "common_mistakes": [
+      "Confusing afternoon with morning.",
+      "Thinking night is only when it's completely dark."
+    ],
+    "deep_dive": {
+      "history": "The division of the day into morning, afternoon, and night dates back to ancient civilizations who used the sun's position to tell time.",
+      "connections": "Time is connected to science, geography, and even culture, as different places might have different routines.",
+      "misconceptions": "Some children may think night only starts when they go to bed.",
+      "teaching_tips": "Use consistent daily routines to help reinforce time concepts.",
+      "derivation": "Concepts of time are derived from the Earth's rotation and the changing position of the sun."
+    },
+    "motivation": "Helping your child understand time is like giving them a key to a well-structured day. Let's make learning about time fun and engaging!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of time! Today, we'll explore the parts of the day: morning, afternoon, and night, to help your child understand how we organize our day.\n\n## Parent Orientation\n**Objective:** Help your child identify and differentiate between morning, afternoon, and night.\n**Why it matters:** Understanding the parts of the day is a foundational skill that helps children organize their daily activities and develop a sense of routine.\n**Parent Tip:** Use daily activities as cues for different times of the day. This will help your child relate their routine to the concept of time.\n**Real-World Link:** Think about your child's daily routine. Breakfast happens in the morning, playtime might be in the afternoon, and bedtime is at night.\n\n## Teaching Steps\n1. Introduce the concept of morning, afternoon, and night.\n2. Use your child's daily routine to illustrate each part of the day.\n3. Discuss activities typically done during each time of day.\n4. Use visual aids like pictures or drawings of the sun and moon.\n5. Reinforce learning with practice and questions.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about our day. We have morning, afternoon, and night.  \n**Show/Do:** Show a picture of a sunny morning.  \n**Ask:** What do we usually do in the morning?  \n**Reinforce:** That's right! We wake up and have breakfast.\n2. **Say:** Next, we have the afternoon.  \n**Show/Do:** Show a picture of a bright afternoon.  \n**Ask:** What happens in the afternoon?  \n**Reinforce:** Yes, we might have lunch or go to the park.\n3. **Say:** Finally, we have night time.  \n**Show/Do:** Show a picture of the moon and stars.  \n**Ask:** What do we do at night?  \n**Reinforce:** Exactly, we get ready for bed and sleep.\n4. **Say:** Let's think about what we do at different times.  \n**Show/Do:** Lay out pictures of daily activities.  \n**Ask:** Can you match these activities to morning, afternoon, or night?  \n**Reinforce:** Great job! You know your daily routine well.\n5. **Say:** Remember, each part of the day is special.  \n**Show/Do:** Review your child's daily schedule.  \n**Ask:** What part of the day is your favorite?  \n**Reinforce:** That's wonderful! Each time of day has its own fun activities.\n\n## Practice Questions (Do It Together)\n**1. When do we have breakfast? Morning, afternoon, or night?**\n<details><summary>Hint</summary>\nThink about when you wake up.\n</details>\n<details><summary>Answer</summary>\nMorning\n</details>\n\n**2. When do we usually see the moon? Morning, afternoon, or night?**\n<details><summary>Hint</summary>\nLook at the sky before going to bed.\n</details>\n<details><summary>Answer</summary>\nNight\n</details>\n\n**3. When do you have lunch? Morning, afternoon, or night?**\n<details><summary>Hint</summary>\nIt's after breakfast but before dinner.\n</details>\n<details><summary>Answer</summary>\nAfternoon\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- We learned about the parts of the day: morning, afternoon, and night.\n- Each part of the day has different activities.\n- Understanding time helps us organize our day.\n\n**Common Mistakes**\n- Confusing afternoon with morning.\n- Thinking night is only when it's completely dark.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe division of the day into morning, afternoon, and night dates back to ancient civilizations who used the sun's position to tell time.\n\n**Future topic connections**\n\nTime is connected to science, geography, and even culture, as different places might have different routines.\n\n**Common misconceptions**\n\nSome children may think night only starts when they go to bed.\n\n**Teaching tips for parents**\n\nUse consistent daily routines to help reinforce time concepts.\n\n**More detail / derivation**\n\nConcepts of time are derived from the Earth's rotation and the changing position of the sun.\n\n## Motivation\nHelping your child understand time is like giving them a key to a well-structured day. Let's make learning about time fun and engaging!"
+}

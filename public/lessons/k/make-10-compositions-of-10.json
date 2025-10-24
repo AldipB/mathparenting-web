@@ -1,104 +1,154 @@
 {
   "grade": {
-    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "id": "14f5ca59-873f-4eec-acf4-8fbf49d4c8da",
     "slug": "k",
-    "name": "Kindergarten (K)"
+    "name": "Kindergarten"
   },
   "unit": {
-    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
-    "title": "Complete Chapter Index",
-    "order_index": 99
+    "id": "0653c74f-3e07-4347-9d3b-80062dc1185f",
+    "title": "Number Sense & Counting",
+    "order_index": 1
   },
   "lesson": {
-    "id": "1d1b4137-fb29-4d90-994d-15fc0c0fd45c",
+    "id": "4963a938-dc4e-4c1c-8ec4-831be95a814b",
     "slug": "make-10-compositions-of-10",
-    "title": "Make 10 (Compositions of 10)",
-    "summary": "Make 10 (Compositions of 10) — parent overview.",
+    "title": "Make 10: Compositions of 10",
+    "summary": "Make 10 (compositions of 10) — parent overview for Kindergarten.",
     "difficulty_level": "core",
-    "order_index": 4
+    "order_index": 7
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "- Understand how to make 10 using pairs of numbers\n- Use ten-frames and counters to visualize number bonds\n- Develop early addition skills\n\n**Why this matters for parents:** Building a strong foundation in number sense helps children with future math concepts.",
-      "order_index": 1
-    },
-    {
       "key": "overview",
-      "md": "This lesson focuses on helping your child understand how to make 10 using pairs of numbers. We will use everyday objects and simple visual aids like ten-frames to make learning interactive and fun.\n\nUnderstanding how numbers combine to make 10 is crucial because it lays the groundwork for addition and subtraction. It also helps children recognize patterns and develop problem-solving skills.",
+      "md": "**Objective:** Help your child understand how different numbers add up to 10.\n\n**Why it matters:** Understanding compositions of 10 is a stepping-stone for addition and subtraction skills.\n\n**Parent Tip:** Use everyday moments, like setting the dinner table, to practice making 10 together.\n\n**Real-World Link:** Think of 10 as a complete set, like 10 fingers on our hands. It's a full package!",
       "order_index": 2
     },
     {
       "key": "core",
-      "md": "Making 10 involves finding two numbers that add up to 10. This is an important skill because it helps children learn addition facts and understand how numbers relate to each other. Using objects like counters makes this concept tangible and easier to grasp.",
+      "md": "Welcome, parents! Today, we'll explore how your child can learn to make 10 using simple math. This skill is foundational for future math success.",
       "order_index": 3
     },
     {
-      "key": "demo",
-      "md": "1. Gather 10 small objects like buttons or coins.\n2. **Say:** \"Let's use these objects to make 10.\"\n3. Arrange 7 objects in a row. **Ask:** \"How many more do we need to make 10?\"\n4. Encourage your child to count the remaining objects. They should find 3 more are needed.\n5. **Say:** \"7 and 3 make 10. Let's try another pair!\"\n6. Repeat with different starting numbers like 6, 5, or 4.",
-      "order_index": 4
-    },
-    {
-      "key": "math",
-      "md": "To make 10, we find pairs of numbers that add up to 10. For example, if you have 7, you need 3 more to reach 10. This is written as $7 + 3 = 10$. Using a ten-frame, you can visually see how these numbers fit together to make 10.",
-      "order_index": 5
-    },
-    {
-      "key": "formulas",
-      "md": "- $a + b = 10$\n  - $a$ and $b$ are numbers that add up to 10.",
-      "order_index": 6
-    },
-    {
       "key": "guide",
-      "md": "1. Start with a ten-frame and 10 counters.\n2. **Say:** \"Let's fill the frame with 7 counters.\"\n3. **Ask:** \"How many empty spaces are left?\"\n4. Help your child count the empty spaces and fill them.\n5. **Say:** \"Now we have 10!\"\n6. Repeat with different numbers to find other pairs.",
+      "md": "1. Start with 10 small objects, like blocks or buttons.\n2. Ask your child to count out 10 objects.\n3. Remove some objects and ask how many more are needed to make 10 again.\n4. Repeat with different numbers of removed objects.",
       "order_index": 7
     },
     {
-      "key": "mistakes",
-      "md": "- If your child counts incorrectly, try using fewer counters to simplify.\n- If they struggle to find pairs, use a ten-frame to visualize.\n- If they mix up numbers, encourage counting out loud together.",
+      "key": "practice",
+      "md": "**1. You have 3 apples. How many more do you need to make 10?**\n_Answer:_ 7\n_Hint:_ Think about how many more to reach 10.\n\n**2. There are 6 cars. How many more to make 10?**\n_Answer:_ 4\n_Hint:_ Count up from 6 to 10.\n\n**3. You see 8 birds. How many more will make 10?**\n_Answer:_ 2\n_Hint:_ What number adds to 8 to reach 10?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
       "order_index": 8
     },
     {
-      "key": "connection",
-      "md": "Making 10 is like sharing 10 apples between two friends. It helps in understanding how to divide and share equally in everyday situations.",
+      "key": "mistakes",
+      "md": "- Forgetting to count all the way to 10.\n- Mixing up numbers when adding to 10.",
       "order_index": 9
     },
     {
-      "key": "close",
-      "md": "Great job exploring how to make 10! Keep practicing, and soon these numbers will become your child's best friends.",
-      "order_index": 11
+      "key": "connection",
+      "md": "Think of 10 as a complete set, like 10 fingers on our hands. It's a full package!",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "- Understand how to make 10 using pairs of numbers\n- Use ten-frames and counters to visualize number bonds\n- Develop early addition skills\n\n**Why this matters for parents:** Building a strong foundation in number sense helps children with future math concepts.",
-    "overview": "This lesson focuses on helping your child understand how to make 10 using pairs of numbers. We will use everyday objects and simple visual aids like ten-frames to make learning interactive and fun.\n\nUnderstanding how numbers combine to make 10 is crucial because it lays the groundwork for addition and subtraction. It also helps children recognize patterns and develop problem-solving skills.",
-    "core": "Making 10 involves finding two numbers that add up to 10. This is an important skill because it helps children learn addition facts and understand how numbers relate to each other. Using objects like counters makes this concept tangible and easier to grasp.",
-    "demo": "1. Gather 10 small objects like buttons or coins.\n2. **Say:** \"Let's use these objects to make 10.\"\n3. Arrange 7 objects in a row. **Ask:** \"How many more do we need to make 10?\"\n4. Encourage your child to count the remaining objects. They should find 3 more are needed.\n5. **Say:** \"7 and 3 make 10. Let's try another pair!\"\n6. Repeat with different starting numbers like 6, 5, or 4.",
-    "math": "To make 10, we find pairs of numbers that add up to 10. For example, if you have 7, you need 3 more to reach 10. This is written as $7 + 3 = 10$. Using a ten-frame, you can visually see how these numbers fit together to make 10.",
-    "formulas": "- $a + b = 10$\n  - $a$ and $b$ are numbers that add up to 10.",
-    "guide": "1. Start with a ten-frame and 10 counters.\n2. **Say:** \"Let's fill the frame with 7 counters.\"\n3. **Ask:** \"How many empty spaces are left?\"\n4. Help your child count the empty spaces and fill them.\n5. **Say:** \"Now we have 10!\"\n6. Repeat with different numbers to find other pairs.",
-    "mistakes": "- If your child counts incorrectly, try using fewer counters to simplify.\n- If they struggle to find pairs, use a ten-frame to visualize.\n- If they mix up numbers, encourage counting out loud together.",
-    "connection": "Making 10 is like sharing 10 apples between two friends. It helps in understanding how to divide and share equally in everyday situations.",
-    "close": "Great job exploring how to make 10! Keep practicing, and soon these numbers will become your child's best friends."
+    "objectives": "**Objective:** Help your child understand how numbers can be combined to make 10, an essential early math skill.",
+    "overview": "**Objective:** Help your child understand how different numbers add up to 10.\n\n**Why it matters:** Understanding compositions of 10 is a stepping-stone for addition and subtraction skills.\n\n**Parent Tip:** Use everyday moments, like setting the dinner table, to practice making 10 together.\n\n**Real-World Link:** Think of 10 as a complete set, like 10 fingers on our hands. It's a full package!",
+    "core": "Welcome, parents! Today, we'll explore how your child can learn to make 10 using simple math. This skill is foundational for future math success.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'How many ways can we put together our toys to make a group of 10?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with 10 small objects, like blocks or buttons.\n2. Ask your child to count out 10 objects.\n3. Remove some objects and ask how many more are needed to make 10 again.\n4. Repeat with different numbers of removed objects.",
+    "practice": "**1. You have 3 apples. How many more do you need to make 10?**\n_Answer:_ 7\n_Hint:_ Think about how many more to reach 10.\n\n**2. There are 6 cars. How many more to make 10?**\n_Answer:_ 4\n_Hint:_ Count up from 6 to 10.\n\n**3. You see 8 birds. How many more will make 10?**\n_Answer:_ 2\n_Hint:_ What number adds to 8 to reach 10?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to count all the way to 10.\n- Mixing up numbers when adding to 10.",
+    "connection": "Think of 10 as a complete set, like 10 fingers on our hands. It's a full package!",
+    "close": "**Key Takeaways**\n- Understanding compositions of 10 is key to developing number sense.\n- Children learn best with hands-on practice using familiar objects.\n- Encourage counting on and using fingers to visualize numbers.\n\n**Parent Reflection Questions**\n- What did you notice about the different ways to make 10?\n- How does using objects help your child understand the concept?"
   },
-  "practice": [
-    {
-      "order_index": 1,
-      "question_md": "What number do you add to 6 to make 10?",
-      "hint_md": "Think of how many more you need to reach 10.",
-      "answer_md": "4"
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Make 10: Compositions of 10",
+    "introduction": "Welcome to the world of making 10! This lesson helps your child understand how numbers come together to make 10, a foundational math skill.",
+    "objective": "Help your child learn to combine numbers to make a total of 10, using simple, fun activities.",
+    "why_matters": "Understanding compositions of 10 is a stepping stone for more complex math concepts like addition and subtraction. It builds a strong number sense.",
+    "parent_tip": "Use everyday objects like toys or snacks to make this concept tangible and engaging for your child.",
+    "real_world_link": "Think of 10 as a complete set, like 10 fingers on our hands or 10 toes on our feet. It's everywhere!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with a familiar set of 10 objects.",
+      "Break the set into two groups and count each group.",
+      "Discuss how the two groups together make 10.",
+      "Repeat with different combinations to reinforce the concept."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's use these 10 blocks to play a game.",
+        "do": "Place 10 blocks in front of your child.",
+        "ask": "Can you split these blocks into two smaller groups?",
+        "reinforce": "Great! You made two groups. How many are in each group? They still make 10 together!"
+      },
+      {
+        "say": "Now, let's try another way to split the blocks.",
+        "do": "Encourage your child to rearrange the blocks into different groups.",
+        "ask": "How many do you have in each new group?",
+        "reinforce": "Awesome! Even though the groups changed, they still add up to 10."
+      },
+      {
+        "say": "What if we take away some blocks?",
+        "do": "Remove a few blocks and count what's left.",
+        "ask": "How many blocks did we take away, and how many are left?",
+        "reinforce": "See how the numbers change, but the idea of making 10 stays the same."
+      },
+      {
+        "say": "Let's try with some snacks!",
+        "do": "Use 10 small snacks, like grapes or crackers.",
+        "ask": "Can you eat some and see how many are left?",
+        "reinforce": "Yum! You're still thinking about how to make 10."
+      },
+      {
+        "say": "Can you think of other things we can group into 10?",
+        "do": "Encourage your child to find objects around the house.",
+        "ask": "What did you find? How can you group them?",
+        "reinforce": "You're doing a wonderful job finding different ways to make 10!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you have 7 apples and need 10, how many more do you need?",
+        "hint": "Think about how many more make 10.",
+        "answer": "3"
+      },
+      {
+        "prompt": "You have 4 candies and want 10. How many more do you need?",
+        "hint": "Add to 4 to reach 10.",
+        "answer": "6"
+      },
+      {
+        "prompt": "You see 2 ducks in the pond and want to see 10. How many more ducks?",
+        "hint": "Count up to 10.",
+        "answer": "8"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Making 10 helps with understanding addition.",
+      "It's a flexible way to see numbers working together.",
+      "Keep practicing with different objects!"
+    ],
+    "common_mistakes": [
+      "Forgetting to count the total after splitting.",
+      "Not realizing that different groups still make 10.",
+      "Mixing up which numbers add up to 10."
+    ],
+    "deep_dive": {
+      "history": "The concept of making 10 has been used for centuries as a base for number systems.",
+      "connections": "This skill connects to addition and subtraction, which are used in everyday problem-solving.",
+      "misconceptions": "Some children may think only specific numbers can make 10, rather than any combination.",
+      "teaching_tips": "Use a variety of objects and scenarios to keep the learning fresh and engaging.",
+      "derivation": "Understanding how numbers can combine to make 10 lays the foundation for learning place value and arithmetic."
     },
-    {
-      "order_index": 2,
-      "question_md": "Fill in the blank: 5 + __ = 10",
-      "hint_md": "Count up from 5 to 10.",
-      "answer_md": "5"
-    },
-    {
-      "order_index": 3,
-      "question_md": "If you have 8, how many more do you need to make 10?",
-      "hint_md": "Count the difference between 8 and 10.",
-      "answer_md": "2"
-    }
-  ]
+    "motivation": "Making 10 is like solving a fun puzzle! It helps your child see how numbers fit together in different ways."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of making 10! This lesson helps your child understand how numbers come together to make 10, a foundational math skill.\n\n## Parent Orientation\n**Objective:** Help your child learn to combine numbers to make a total of 10, using simple, fun activities.\n**Why it matters:** Understanding compositions of 10 is a stepping stone for more complex math concepts like addition and subtraction. It builds a strong number sense.\n**Parent Tip:** Use everyday objects like toys or snacks to make this concept tangible and engaging for your child.\n**Real-World Link:** Think of 10 as a complete set, like 10 fingers on our hands or 10 toes on our feet. It's everywhere!\n\n## Teaching Steps\n1. Start with a familiar set of 10 objects.\n2. Break the set into two groups and count each group.\n3. Discuss how the two groups together make 10.\n4. Repeat with different combinations to reinforce the concept.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's use these 10 blocks to play a game.  \n**Show/Do:** Place 10 blocks in front of your child.  \n**Ask:** Can you split these blocks into two smaller groups?  \n**Reinforce:** Great! You made two groups. How many are in each group? They still make 10 together!\n2. **Say:** Now, let's try another way to split the blocks.  \n**Show/Do:** Encourage your child to rearrange the blocks into different groups.  \n**Ask:** How many do you have in each new group?  \n**Reinforce:** Awesome! Even though the groups changed, they still add up to 10.\n3. **Say:** What if we take away some blocks?  \n**Show/Do:** Remove a few blocks and count what's left.  \n**Ask:** How many blocks did we take away, and how many are left?  \n**Reinforce:** See how the numbers change, but the idea of making 10 stays the same.\n4. **Say:** Let's try with some snacks!  \n**Show/Do:** Use 10 small snacks, like grapes or crackers.  \n**Ask:** Can you eat some and see how many are left?  \n**Reinforce:** Yum! You're still thinking about how to make 10.\n5. **Say:** Can you think of other things we can group into 10?  \n**Show/Do:** Encourage your child to find objects around the house.  \n**Ask:** What did you find? How can you group them?  \n**Reinforce:** You're doing a wonderful job finding different ways to make 10!\n\n## Practice Questions (Do It Together)\n**1. If you have 7 apples and need 10, how many more do you need?**\n<details><summary>Hint</summary>\nThink about how many more make 10.\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n**2. You have 4 candies and want 10. How many more do you need?**\n<details><summary>Hint</summary>\nAdd to 4 to reach 10.\n</details>\n<details><summary>Answer</summary>\n6\n</details>\n\n**3. You see 2 ducks in the pond and want to see 10. How many more ducks?**\n<details><summary>Hint</summary>\nCount up to 10.\n</details>\n<details><summary>Answer</summary>\n8\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Making 10 helps with understanding addition.\n- It's a flexible way to see numbers working together.\n- Keep practicing with different objects!\n\n**Common Mistakes**\n- Forgetting to count the total after splitting.\n- Not realizing that different groups still make 10.\n- Mixing up which numbers add up to 10.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of making 10 has been used for centuries as a base for number systems.\n\n**Future topic connections**\n\nThis skill connects to addition and subtraction, which are used in everyday problem-solving.\n\n**Common misconceptions**\n\nSome children may think only specific numbers can make 10, rather than any combination.\n\n**Teaching tips for parents**\n\nUse a variety of objects and scenarios to keep the learning fresh and engaging.\n\n**More detail / derivation**\n\nUnderstanding how numbers can combine to make 10 lays the foundation for learning place value and arithmetic.\n\n## Motivation\nMaking 10 is like solving a fun puzzle! It helps your child see how numbers fit together in different ways."
 }

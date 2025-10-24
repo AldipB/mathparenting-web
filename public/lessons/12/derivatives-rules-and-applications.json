@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "a5a7a701-5ced-4a70-ba45-9bc47da98214",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "f3010983-0768-40ca-8a3c-eb9393162111",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "f8f81594-ac4a-4af5-8d9d-9d8051d4f343",
+    "slug": "derivatives-rules-and-applications",
+    "title": "Understanding Derivatives: Rules & Applications",
+    "summary": "Derivatives – rules & applications — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp derivative rules and see their applications in real-life scenarios.\n\n**Why it matters:** Understanding derivatives opens doors to fields like engineering, economics, and sciences. It’s about predicting and planning for change.\n\n**Parent Tip:** Encourage your child to relate math to everyday life. Ask them how speed, growth, or any change can be measured.\n\n**Real-World Link:** Derivatives are like speedometers for change. They tell us how fast or slow something is changing at any moment.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we dive into derivatives—an essential concept in calculus. Like tracking how fast a car speeds up, derivatives help us understand change.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with the concept of slope: a derivative is a slope at a single point.\n2. Explain the power rule: the derivative of x^n is n*x^(n-1).\n3. Discuss the product rule: for functions u and v, (uv)' = u'v + uv'.\n4. Introduce the chain rule: for a function g(f(x)), the derivative is g'(f(x)) * f'(x).\n5. Relate each rule to the concept of 'rate of change'.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the derivative of f(x) = 3x^3.**\n_Answer:_ f'(x) = 9x^2\n_Hint:_ Use the power rule: derivative of x^n is n*x^(n-1).\n\n**2. Differentiate g(x) = 5x^2 + 4x.**\n_Answer:_ g'(x) = 10x + 4\n_Hint:_ Apply the power rule to each term separately.\n\n**3. Calculate the derivative of h(x) = (2x + 3)(x^2).**\n_Answer:_ h'(x) = 2(x^2) + (2x + 3)(2x)\n_Hint:_ Use the product rule: (uv)' = u'v + uv'.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to apply the chain rule for composite functions.\n- Mixing up product rule and sum rule.\n- Omitting constants when differentiating.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Derivatives are like speedometers for change. They tell us how fast or slow something is changing at any moment.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child grasp the concept of derivatives, including basic rules and their practical applications.",
+    "overview": "**Objective:** Help your child grasp derivative rules and see their applications in real-life scenarios.\n\n**Why it matters:** Understanding derivatives opens doors to fields like engineering, economics, and sciences. It’s about predicting and planning for change.\n\n**Parent Tip:** Encourage your child to relate math to everyday life. Ask them how speed, growth, or any change can be measured.\n\n**Real-World Link:** Derivatives are like speedometers for change. They tell us how fast or slow something is changing at any moment.",
+    "core": "Welcome! Today, we dive into derivatives—an essential concept in calculus. Like tracking how fast a car speeds up, derivatives help us understand change.",
+    "demo": "**Spark Curiosity:**\n\nEver wondered how athletes calculate the perfect angle for a jump? It's all about understanding change, just like derivatives do!",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}\n- **Meaning:** The derivative of a function f at a point x is the limit of the average rate of change of the function as the interval approaches zero.\n- **How it works:** Imagine you're calculating the speed of a car at a precise moment. As you take smaller time intervals, you get closer to the exact speed.\n- **Example:** For f(x) = x^2, the derivative f'(x) = 2x. This means at any point x, the rate of change is 2x.\n$$",
+    "formulas": "$$\nf'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}\n$$",
+    "guide": "1. Start with the concept of slope: a derivative is a slope at a single point.\n2. Explain the power rule: the derivative of x^n is n*x^(n-1).\n3. Discuss the product rule: for functions u and v, (uv)' = u'v + uv'.\n4. Introduce the chain rule: for a function g(f(x)), the derivative is g'(f(x)) * f'(x).\n5. Relate each rule to the concept of 'rate of change'.",
+    "practice": "**1. Find the derivative of f(x) = 3x^3.**\n_Answer:_ f'(x) = 9x^2\n_Hint:_ Use the power rule: derivative of x^n is n*x^(n-1).\n\n**2. Differentiate g(x) = 5x^2 + 4x.**\n_Answer:_ g'(x) = 10x + 4\n_Hint:_ Apply the power rule to each term separately.\n\n**3. Calculate the derivative of h(x) = (2x + 3)(x^2).**\n_Answer:_ h'(x) = 2(x^2) + (2x + 3)(2x)\n_Hint:_ Use the product rule: (uv)' = u'v + uv'.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to apply the chain rule for composite functions.\n- Mixing up product rule and sum rule.\n- Omitting constants when differentiating.",
+    "connection": "Derivatives are like speedometers for change. They tell us how fast or slow something is changing at any moment.",
+    "close": "**Key Takeaways**\n- Derivatives help us understand how things change instantly.\n- Basic rules like the power rule simplify finding derivatives.\n- Applications of derivatives are everywhere, from physics to economics.\n\n**Parent Reflection Questions**\n- How can you visualize the concept of a derivative in everyday life?\n- What are other examples of real-world applications of derivatives?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Derivatives: Rules & Applications",
+    "introduction": "Welcome to the world of calculus! Today, we'll explore derivatives, a powerful tool that helps us understand how things change. It's like having a magnifying glass to see the little details in motion.",
+    "objective": "Help your child grasp the concept of derivatives, understand their rules, and see how they apply to real-world scenarios.",
+    "why_matters": "Derivatives are essential in fields like physics, engineering, and economics. They help predict and optimize outcomes, making them invaluable in both academics and everyday life.",
+    "parent_tip": "Encourage curiosity by relating derivatives to your child's interests, whether it's how a car speeds up or how a business grows.",
+    "real_world_link": "Think of a car's speedometer. It shows how fast the car is going at any moment. That's a derivative in action—showing the rate of change of distance over time.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of change and rate of change.",
+      "Explain the basic idea of a derivative as a measure of change.",
+      "Discuss the common rules for finding derivatives.",
+      "Show how these rules apply to various functions.",
+      "Connect derivatives to real-world examples your child can relate to."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about how things change over time.",
+        "do": "Show a video of a car accelerating.",
+        "ask": "What do you notice about how the car's speed changes?",
+        "reinforce": "The car's speed is a great example of how derivatives measure change."
+      },
+      {
+        "say": "A derivative tells us how fast something is changing at any moment.",
+        "do": "Draw a simple graph showing a curve and a tangent line.",
+        "ask": "How do you think the slope of this line relates to change?",
+        "reinforce": "The slope of the tangent line is the derivative, showing the rate of change."
+      },
+      {
+        "say": "Let's look at some basic rules for finding derivatives.",
+        "do": "Write down the power rule: d/dx [x^n] = nx^(n-1).",
+        "ask": "What do you notice about the pattern here?",
+        "reinforce": "This rule helps us find the derivative of polynomial functions easily."
+      },
+      {
+        "say": "Now, let's apply these rules to different functions.",
+        "do": "Work through an example like finding the derivative of 3x^2.",
+        "ask": "What happens to the exponent when we apply the rule?",
+        "reinforce": "Applying the rule, we get 6x, showing how the function changes."
+      },
+      {
+        "say": "Derivatives aren't just for math—let's see them in action.",
+        "do": "Discuss a real-world scenario, like optimizing a business's profit.",
+        "ask": "How might understanding change help in making decisions?",
+        "reinforce": "Derivatives help businesses maximize profit by understanding and predicting changes."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the derivative of the function f(x) = 5x^3.",
+        "hint": "Use the power rule: d/dx [x^n] = nx^(n-1).",
+        "answer": "15x^2"
+      },
+      {
+        "prompt": "Calculate the derivative of g(x) = 7x^2 + 4x.",
+        "hint": "Apply the derivative rule to each term separately.",
+        "answer": "14x + 4"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Derivatives measure how things change, like speed or growth.",
+      "Basic rules simplify finding derivatives of functions.",
+      "Understanding derivatives helps in real-world applications, from physics to business."
+    ],
+    "common_mistakes": [
+      "Forgetting to apply the power rule correctly.",
+      "Neglecting to differentiate each term in a polynomial separately.",
+      "Confusing the function with its derivative."
+    ],
+    "deep_dive": {
+      "history": "The concept of derivatives was developed by Isaac Newton and Gottfried Wilhelm Leibniz in the 17th century.",
+      "connections": "Derivatives are foundational in calculus, linking to integrals and differential equations.",
+      "misconceptions": "A common misconception is that derivatives only apply to physics, but they are used in economics, biology, and more.",
+      "teaching_tips": "Use visual aids like graphs to illustrate how derivatives represent rates of change.",
+      "derivation": "Derivatives can be derived from first principles using limits, providing a deeper understanding of their nature."
+    },
+    "motivation": "Mastering derivatives opens doors to advanced math and science, empowering your child to tackle a wide range of real-world challenges."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of calculus! Today, we'll explore derivatives, a powerful tool that helps us understand how things change. It's like having a magnifying glass to see the little details in motion.\n\n## Parent Orientation\n**Objective:** Help your child grasp the concept of derivatives, understand their rules, and see how they apply to real-world scenarios.\n**Why it matters:** Derivatives are essential in fields like physics, engineering, and economics. They help predict and optimize outcomes, making them invaluable in both academics and everyday life.\n**Parent Tip:** Encourage curiosity by relating derivatives to your child's interests, whether it's how a car speeds up or how a business grows.\n**Real-World Link:** Think of a car's speedometer. It shows how fast the car is going at any moment. That's a derivative in action—showing the rate of change of distance over time.\n\n## Teaching Steps\n1. Introduce the concept of change and rate of change.\n2. Explain the basic idea of a derivative as a measure of change.\n3. Discuss the common rules for finding derivatives.\n4. Show how these rules apply to various functions.\n5. Connect derivatives to real-world examples your child can relate to.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about how things change over time.  \n**Show/Do:** Show a video of a car accelerating.  \n**Ask:** What do you notice about how the car's speed changes?  \n**Reinforce:** The car's speed is a great example of how derivatives measure change.\n2. **Say:** A derivative tells us how fast something is changing at any moment.  \n**Show/Do:** Draw a simple graph showing a curve and a tangent line.  \n**Ask:** How do you think the slope of this line relates to change?  \n**Reinforce:** The slope of the tangent line is the derivative, showing the rate of change.\n3. **Say:** Let's look at some basic rules for finding derivatives.  \n**Show/Do:** Write down the power rule: d/dx [x^n] = nx^(n-1).  \n**Ask:** What do you notice about the pattern here?  \n**Reinforce:** This rule helps us find the derivative of polynomial functions easily.\n4. **Say:** Now, let's apply these rules to different functions.  \n**Show/Do:** Work through an example like finding the derivative of 3x^2.  \n**Ask:** What happens to the exponent when we apply the rule?  \n**Reinforce:** Applying the rule, we get 6x, showing how the function changes.\n5. **Say:** Derivatives aren't just for math—let's see them in action.  \n**Show/Do:** Discuss a real-world scenario, like optimizing a business's profit.  \n**Ask:** How might understanding change help in making decisions?  \n**Reinforce:** Derivatives help businesses maximize profit by understanding and predicting changes.\n\n## Practice Questions (Do It Together)\n**1. Find the derivative of the function f(x) = 5x^3.**\n<details><summary>Hint</summary>\nUse the power rule: d/dx [x^n] = nx^(n-1).\n</details>\n<details><summary>Answer</summary>\n15x^2\n</details>\n\n**2. Calculate the derivative of g(x) = 7x^2 + 4x.**\n<details><summary>Hint</summary>\nApply the derivative rule to each term separately.\n</details>\n<details><summary>Answer</summary>\n14x + 4\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Derivatives measure how things change, like speed or growth.\n- Basic rules simplify finding derivatives of functions.\n- Understanding derivatives helps in real-world applications, from physics to business.\n\n**Common Mistakes**\n- Forgetting to apply the power rule correctly.\n- Neglecting to differentiate each term in a polynomial separately.\n- Confusing the function with its derivative.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of derivatives was developed by Isaac Newton and Gottfried Wilhelm Leibniz in the 17th century.\n\n**Future topic connections**\n\nDerivatives are foundational in calculus, linking to integrals and differential equations.\n\n**Common misconceptions**\n\nA common misconception is that derivatives only apply to physics, but they are used in economics, biology, and more.\n\n**Teaching tips for parents**\n\nUse visual aids like graphs to illustrate how derivatives represent rates of change.\n\n**More detail / derivation**\n\nDerivatives can be derived from first principles using limits, providing a deeper understanding of their nature.\n\n## Motivation\nMastering derivatives opens doors to advanced math and science, empowering your child to tackle a wide range of real-world challenges."
+}

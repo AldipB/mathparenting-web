@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "9475c17e-0ed7-4850-b334-ebc48afdaf04",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "eec5b7b3-7150-41f1-928d-5ba97043fd6a",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "98a45985-5c93-43d2-8ba8-e88a8f2ed870",
+    "slug": "place-value-tens-ones",
+    "title": "Place Value Tens Ones",
+    "summary": "Place Value Tens Ones — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 17
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Place Value Tens Ones** in Grade 1.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Place Value Tens Ones** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Place Value Tens Ones** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Place Value Tens Ones** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Place Value Tens Ones** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Place Value Tens Ones**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Place Value Tens Ones**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Place Value Tens Ones**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Place Value Tens Ones** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Place Value Tens Ones**.",
+    "overview": "This lesson helps children understand **Place Value Tens Ones**.",
+    "core": "Explain **Place Value Tens Ones** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Place Value Tens Ones**."
+}

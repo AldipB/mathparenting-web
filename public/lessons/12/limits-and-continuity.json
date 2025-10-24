@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "bda69e2c-0a43-4dbf-9ce4-e6b234719836",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "d76ac316-f7ed-485d-a058-3d68a9843e20",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "9a7d365f-52c7-4409-b24e-fcce1651c085",
+    "slug": "limits-and-continuity",
+    "title": "Exploring Limits and Continuity in Calculus",
+    "summary": "Limits & continuity — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the concept of limits and continuity, enabling them to solve related problems with confidence.\n\n**Why it matters:** Understanding limits and continuity is crucial for calculus, which is used in fields like engineering, physics, and economics to predict and optimize real-world systems.\n\n**Parent Tip:** Encourage your child to visualize problems. Graphs and number lines can make abstract concepts more tangible.\n\n**Real-World Link:** Think of a limit like approaching a traffic light. As you get closer, you anticipate whether it will change, similar to predicting a function's behavior as it nears a certain point.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of calculus where we explore how things change in a smooth and predictable way. Limits and continuity are like the foundation blocks of this exciting journey.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of a limit as getting closer to a value without necessarily reaching it.\n2. Explain continuity as a function that can be drawn without lifting the pencil from the paper.\n3. Use graphs to show how limits and continuity look visually.\n4. Discuss how limits help in finding derivative and integral calculations later.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Evaluate the limit: lim(x→2) (3x + 2).**\n_Answer:_ 8\n_Hint:_ Substitute x with 2 in the expression.\n\n**2. Determine if the function f(x) = 1/x is continuous at x = 0.**\n_Answer:_ The function is not continuous at x = 0 because it is undefined there.\n_Hint:_ Check if the function is defined and limit exists at x = 0.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Assuming a function has a limit at a point just because it is defined there.\n- Confusing discontinuity with a function being undefined at a point.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a limit like approaching a traffic light. As you get closer, you anticipate whether it will change, similar to predicting a function's behavior as it nears a certain point.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the concept of limits and continuity, foundational ideas in calculus, by using everyday examples.",
+    "overview": "**Objective:** Help your child understand the concept of limits and continuity, enabling them to solve related problems with confidence.\n\n**Why it matters:** Understanding limits and continuity is crucial for calculus, which is used in fields like engineering, physics, and economics to predict and optimize real-world systems.\n\n**Parent Tip:** Encourage your child to visualize problems. Graphs and number lines can make abstract concepts more tangible.\n\n**Real-World Link:** Think of a limit like approaching a traffic light. As you get closer, you anticipate whether it will change, similar to predicting a function's behavior as it nears a certain point.",
+    "core": "Welcome to the world of calculus where we explore how things change in a smooth and predictable way. Limits and continuity are like the foundation blocks of this exciting journey.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered what happens if you keep getting closer and closer to a point, but never actually reach it? That's what limits are all about!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** lim_{x \\to c} f(x) = L\n- **Meaning:** The limit of f(x) as x approaches c is L.\n- **How it works:** As x gets close to c, f(x) gets closer to L. It's like getting closer to a finish line, but never quite crossing it.\n- **Example:** If f(x) = 2x, then lim_{x \\to 3} f(x) = 6, because as x gets closer to 3, f(x) gets closer to 6.",
+    "formulas": "lim_{x \\to c} f(x) = L",
+    "guide": "1. Introduce the concept of a limit as getting closer to a value without necessarily reaching it.\n2. Explain continuity as a function that can be drawn without lifting the pencil from the paper.\n3. Use graphs to show how limits and continuity look visually.\n4. Discuss how limits help in finding derivative and integral calculations later.",
+    "practice": "**1. Evaluate the limit: lim(x→2) (3x + 2).**\n_Answer:_ 8\n_Hint:_ Substitute x with 2 in the expression.\n\n**2. Determine if the function f(x) = 1/x is continuous at x = 0.**\n_Answer:_ The function is not continuous at x = 0 because it is undefined there.\n_Hint:_ Check if the function is defined and limit exists at x = 0.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Assuming a function has a limit at a point just because it is defined there.\n- Confusing discontinuity with a function being undefined at a point.",
+    "connection": "Think of a limit like approaching a traffic light. As you get closer, you anticipate whether it will change, similar to predicting a function's behavior as it nears a certain point.",
+    "close": "**Key Takeaways**\n- Limits describe the behavior of functions as they approach specific points.\n- Understanding limits is essential for calculus and real-world applications.\n- Relating limits to everyday experiences can make them more relatable.\n\n**Parent Reflection Questions**\n- How can I help my child visualize limits?\n- What are some everyday examples of limits?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Limits and Continuity in Calculus",
+    "introduction": "Welcome to the fascinating world of calculus, where we explore how things change and approach values. Understanding limits and continuity is a vital part of this journey, helping students solve problems that involve approaching values.",
+    "objective": "To introduce parents to the concepts of limits and continuity, helping you support your child's exploration of these foundational ideas in calculus.",
+    "why_matters": "Limits and continuity form the backbone of calculus. They help us understand how functions behave as they get closer to certain points, which is crucial for more advanced topics like derivatives and integrals.",
+    "parent_tip": "Encourage your child to visualize problems. Drawing graphs can make abstract concepts like limits more tangible and less intimidating.",
+    "real_world_link": "Think about a car approaching a stop sign. The limit describes the car's speed as it gets closer to stopping, while continuity ensures it doesn't suddenly stop or start without reason.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of limits as values that a function approaches.",
+      "Discuss continuity as a function that is unbroken and smooth.",
+      "Use graphs to illustrate how a function behaves near a point.",
+      "Explore left-hand and right-hand limits.",
+      "Explain how continuity is about the function's value matching the limit at a point."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's think about what happens as we get close to a number.",
+        "do": "Draw a simple graph with a curve approaching a point.",
+        "ask": "What do you notice about the curve as it approaches this point?",
+        "reinforce": "This is the idea of a limit—the value the function is getting closer to."
+      },
+      {
+        "say": "Now, let's talk about continuity.",
+        "do": "Draw a continuous line that smoothly passes through a point.",
+        "ask": "Does the line break or jump anywhere?",
+        "reinforce": "Continuity means the function is smooth, without jumps or breaks."
+      },
+      {
+        "say": "Consider a function that approaches a point from different sides.",
+        "do": "Illustrate a graph where the left-hand and right-hand limits are different.",
+        "ask": "What happens if the left and right limits don't match?",
+        "reinforce": "For a function to be continuous, these limits must be the same."
+      },
+      {
+        "say": "Let's apply this to a real-world scenario.",
+        "do": "Imagine a car slowing down at a stop sign.",
+        "ask": "How does the car's speed change as it approaches the sign?",
+        "reinforce": "The car's speed represents a limit—it gets closer to zero."
+      },
+      {
+        "say": "Finally, let's check if we understand continuity.",
+        "do": "Draw a graph with a hole or jump.",
+        "ask": "Is this function continuous?",
+        "reinforce": "If there's a break, it's not continuous."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the limit of f(x) as x approaches 2 for f(x) = 3x.",
+        "hint": "Substitute x with 2 in the function.",
+        "answer": "The limit is 6."
+      },
+      {
+        "prompt": "Determine if the function f(x) = 1/(x-1) is continuous at x = 1.",
+        "hint": "Check if the function is defined at x = 1.",
+        "answer": "The function is not continuous at x = 1 because it is undefined there."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Limits describe the value a function approaches.",
+      "Continuity ensures a function is smooth and unbroken.",
+      "Visualizing with graphs helps in understanding these concepts."
+    ],
+    "common_mistakes": [
+      "Confusing limits with function values.",
+      "Assuming all functions are continuous.",
+      "Overlooking left-hand and right-hand limits."
+    ],
+    "deep_dive": {
+      "history": "The concept of limits dates back to ancient Greek mathematics and was formalized in the 17th century by mathematicians like Isaac Newton and Gottfried Wilhelm Leibniz.",
+      "connections": "Limits and continuity are foundational for understanding derivatives and integrals, key concepts in calculus.",
+      "misconceptions": "A common misconception is that if a function is defined at a point, it's automatically continuous there.",
+      "teaching_tips": "Encourage drawing and visualizing problems. Use real-world examples to make abstract concepts more relatable.",
+      "derivation": "The formal definition of a limit uses epsilon-delta notation, which precisely describes how close a function gets to a point."
+    },
+    "motivation": "Exploring limits and continuity helps students grasp how things change and connect smoothly in mathematics and the real world. This understanding is crucial for advanced studies and practical applications."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of calculus, where we explore how things change and approach values. Understanding limits and continuity is a vital part of this journey, helping students solve problems that involve approaching values.\n\n## Parent Orientation\n**Objective:** To introduce parents to the concepts of limits and continuity, helping you support your child's exploration of these foundational ideas in calculus.\n**Why it matters:** Limits and continuity form the backbone of calculus. They help us understand how functions behave as they get closer to certain points, which is crucial for more advanced topics like derivatives and integrals.\n**Parent Tip:** Encourage your child to visualize problems. Drawing graphs can make abstract concepts like limits more tangible and less intimidating.\n**Real-World Link:** Think about a car approaching a stop sign. The limit describes the car's speed as it gets closer to stopping, while continuity ensures it doesn't suddenly stop or start without reason.\n\n## Teaching Steps\n1. Introduce the concept of limits as values that a function approaches.\n2. Discuss continuity as a function that is unbroken and smooth.\n3. Use graphs to illustrate how a function behaves near a point.\n4. Explore left-hand and right-hand limits.\n5. Explain how continuity is about the function's value matching the limit at a point.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's think about what happens as we get close to a number.  \n**Show/Do:** Draw a simple graph with a curve approaching a point.  \n**Ask:** What do you notice about the curve as it approaches this point?  \n**Reinforce:** This is the idea of a limit—the value the function is getting closer to.\n2. **Say:** Now, let's talk about continuity.  \n**Show/Do:** Draw a continuous line that smoothly passes through a point.  \n**Ask:** Does the line break or jump anywhere?  \n**Reinforce:** Continuity means the function is smooth, without jumps or breaks.\n3. **Say:** Consider a function that approaches a point from different sides.  \n**Show/Do:** Illustrate a graph where the left-hand and right-hand limits are different.  \n**Ask:** What happens if the left and right limits don't match?  \n**Reinforce:** For a function to be continuous, these limits must be the same.\n4. **Say:** Let's apply this to a real-world scenario.  \n**Show/Do:** Imagine a car slowing down at a stop sign.  \n**Ask:** How does the car's speed change as it approaches the sign?  \n**Reinforce:** The car's speed represents a limit—it gets closer to zero.\n5. **Say:** Finally, let's check if we understand continuity.  \n**Show/Do:** Draw a graph with a hole or jump.  \n**Ask:** Is this function continuous?  \n**Reinforce:** If there's a break, it's not continuous.\n\n## Practice Questions (Do It Together)\n**1. Find the limit of f(x) as x approaches 2 for f(x) = 3x.**\n<details><summary>Hint</summary>\nSubstitute x with 2 in the function.\n</details>\n<details><summary>Answer</summary>\nThe limit is 6.\n</details>\n\n**2. Determine if the function f(x) = 1/(x-1) is continuous at x = 1.**\n<details><summary>Hint</summary>\nCheck if the function is defined at x = 1.\n</details>\n<details><summary>Answer</summary>\nThe function is not continuous at x = 1 because it is undefined there.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Limits describe the value a function approaches.\n- Continuity ensures a function is smooth and unbroken.\n- Visualizing with graphs helps in understanding these concepts.\n\n**Common Mistakes**\n- Confusing limits with function values.\n- Assuming all functions are continuous.\n- Overlooking left-hand and right-hand limits.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of limits dates back to ancient Greek mathematics and was formalized in the 17th century by mathematicians like Isaac Newton and Gottfried Wilhelm Leibniz.\n\n**Future topic connections**\n\nLimits and continuity are foundational for understanding derivatives and integrals, key concepts in calculus.\n\n**Common misconceptions**\n\nA common misconception is that if a function is defined at a point, it's automatically continuous there.\n\n**Teaching tips for parents**\n\nEncourage drawing and visualizing problems. Use real-world examples to make abstract concepts more relatable.\n\n**More detail / derivation**\n\nThe formal definition of a limit uses epsilon-delta notation, which precisely describes how close a function gets to a point.\n\n## Motivation\nExploring limits and continuity helps students grasp how things change and connect smoothly in mathematics and the real world. This understanding is crucial for advanced studies and practical applications."
+}

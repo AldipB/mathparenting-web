@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "1aaec994-148a-46f2-8f1f-7e837f14f23d",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "01ebc770-c606-4f69-9a01-005ce5c9eaad",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "45d3b380-6622-46bb-9dd4-e4a2f0196142",
+    "slug": "geometry-triangles-and-quadrilaterals",
+    "title": "Geometry: Triangles & Quadrilaterals",
+    "summary": "Geometry – triangles & quadrilaterals — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the different types of triangles and quadrilaterals, identify their properties, and see them in everyday life.\n\n**Why it matters:** Recognizing shapes helps in developing spatial awareness and problem-solving skills, which are essential in many aspects of life and future learning.\n\n**Parent Tip:** Encourage your child to observe the shapes they encounter daily. Comparing different shapes helps reinforce their understanding.\n\n**Real-World Link:** Think of a slice of pizza as a triangle and a book cover as a quadrilateral. These shapes are more common than we might realize!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to our exploration of triangles and quadrilaterals! These shapes are all around us, from the pyramids in Egypt to the windows in your home. Let's dive into their unique properties together.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce triangles: Explain that triangles have three sides and can be classified by their angles and sides.\n2. Discuss types of triangles: Equilateral, Isosceles, and Scalene.\n3. Introduce quadrilaterals: Explain that quadrilaterals have four sides and include shapes like squares, rectangles, and trapezoids.\n4. Discuss properties: Highlight how the sum of angles in a triangle is 180°, and in a quadrilateral, it is 360°.\n5. Use real-world examples: Identify and label triangles and quadrilaterals around your home or neighborhood.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Identify the type of triangle with sides 5 cm, 5 cm, and 8 cm.**\n_Answer:_ Isosceles triangle\n_Hint:_ Look for equal sides.\n\n**2. What is the sum of the interior angles of a quadrilateral? (use numbers like 6 and 9)**\n_Answer:_ 360°\n_Hint:_ Think about the shape's four angles.\n\n**3. Name a quadrilateral with all sides equal and angles of 90°.**\n_Answer:_ Square\n_Hint:_ It's a common shape in classrooms.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the properties of different triangles.\n- Forgetting that the sum of angles in a triangle is always 180°.\n- Mixing up different types of quadrilaterals.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a slice of pizza as a triangle and a book cover as a quadrilateral. These shapes are more common than we might realize!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and classify different types of triangles and quadrilaterals by their properties.",
+    "overview": "**Objective:** Help your child understand the different types of triangles and quadrilaterals, identify their properties, and see them in everyday life.\n\n**Why it matters:** Recognizing shapes helps in developing spatial awareness and problem-solving skills, which are essential in many aspects of life and future learning.\n\n**Parent Tip:** Encourage your child to observe the shapes they encounter daily. Comparing different shapes helps reinforce their understanding.\n\n**Real-World Link:** Think of a slice of pizza as a triangle and a book cover as a quadrilateral. These shapes are more common than we might realize!",
+    "core": "Welcome to our exploration of triangles and quadrilaterals! These shapes are all around us, from the pyramids in Egypt to the windows in your home. Let's dive into their unique properties together.",
+    "demo": "**Spark Curiosity:**\n\nHave you noticed how the triangular slices of pizza always fit together perfectly? What if we rearranged them differently? Let's explore why triangles are so special!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce triangles: Explain that triangles have three sides and can be classified by their angles and sides.\n2. Discuss types of triangles: Equilateral, Isosceles, and Scalene.\n3. Introduce quadrilaterals: Explain that quadrilaterals have four sides and include shapes like squares, rectangles, and trapezoids.\n4. Discuss properties: Highlight how the sum of angles in a triangle is 180°, and in a quadrilateral, it is 360°.\n5. Use real-world examples: Identify and label triangles and quadrilaterals around your home or neighborhood.",
+    "practice": "**1. Identify the type of triangle with sides 5 cm, 5 cm, and 8 cm.**\n_Answer:_ Isosceles triangle\n_Hint:_ Look for equal sides.\n\n**2. What is the sum of the interior angles of a quadrilateral? (use numbers like 6 and 9)**\n_Answer:_ 360°\n_Hint:_ Think about the shape's four angles.\n\n**3. Name a quadrilateral with all sides equal and angles of 90°.**\n_Answer:_ Square\n_Hint:_ It's a common shape in classrooms.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the properties of different triangles.\n- Forgetting that the sum of angles in a triangle is always 180°.\n- Mixing up different types of quadrilaterals.",
+    "connection": "Think of a slice of pizza as a triangle and a book cover as a quadrilateral. These shapes are more common than we might realize!",
+    "close": "**Key Takeaways**\n- Triangles have 3 sides, and quadrilaterals have 4.\n- Shapes can be classified by their sides and angles.\n- Real-world objects often use these shapes for stability and structure.\n\n**Parent Reflection Questions**\n- How can you help your child visualize these shapes in everyday objects?\n- What examples of triangles and quadrilaterals can you find together?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Geometry: Triangles & Quadrilaterals",
+    "introduction": "Welcome to the world of shapes! In this lesson, we'll explore triangles and quadrilaterals, which are everywhere in our daily lives.",
+    "objective": "Help your child recognize and understand the properties of triangles and quadrilaterals.",
+    "why_matters": "Understanding these shapes is foundational for geometry, which is used in fields like art, engineering, and architecture.",
+    "parent_tip": "Use everyday objects like books or tiles to help your child identify shapes around the house.",
+    "real_world_link": "Triangles are often used in bridges for support, and quadrilaterals can be seen in floor tiles and windows.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the different types of triangles: equilateral, isosceles, and scalene.",
+      "Discuss the angles in triangles, emphasizing that they always add up to 180 degrees.",
+      "Explore quadrilaterals: squares, rectangles, parallelograms, and trapezoids.",
+      "Talk about the properties of quadrilaterals, such as parallel sides and right angles.",
+      "Encourage your child to identify these shapes in their environment."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with triangles. Can you name some types?",
+        "do": "Show your child a picture of different triangles.",
+        "ask": "What do you notice about the sides and angles?",
+        "reinforce": "Great observation! Triangles can have equal sides or different ones."
+      },
+      {
+        "say": "Now, let's look at quadrilaterals.",
+        "do": "Draw a square and a rectangle.",
+        "ask": "How are these shapes similar and different?",
+        "reinforce": "Yes, both have four sides, but their angles can be different."
+      },
+      {
+        "say": "Did you know the angles in a triangle always add up to 180 degrees?",
+        "do": "Demonstrate with a protractor on a triangle.",
+        "ask": "Can you add these angles to check?",
+        "reinforce": "Perfect! That's a key property of triangles."
+      },
+      {
+        "say": "Quadrilaterals are everywhere!",
+        "do": "Point out a window or a book.",
+        "ask": "Can you see any quadrilaterals here?",
+        "reinforce": "Exactly! Windows are often rectangles or squares."
+      },
+      {
+        "say": "Let's recap what we've learned.",
+        "do": "Review the different shapes and their properties.",
+        "ask": "Can you describe a triangle and a quadrilateral?",
+        "reinforce": "You've got it! Understanding these shapes is very useful."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Identify the type of triangle with sides 3 cm, 3 cm, and 3 cm.",
+        "hint": "All sides are equal.",
+        "answer": "Equilateral triangle"
+      },
+      {
+        "prompt": "What is the sum of the angles in a quadrilateral?",
+        "hint": "It's more than 180 degrees.",
+        "answer": "360 degrees"
+      },
+      {
+        "prompt": "Name a quadrilateral with opposite sides parallel.",
+        "hint": "Think of a common floor shape.",
+        "answer": "Parallelogram"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Triangles have three sides and the sum of their angles is 180 degrees.",
+      "Quadrilaterals have four sides and the sum of their angles is 360 degrees.",
+      "Recognizing these shapes helps in understanding more complex geometry."
+    ],
+    "common_mistakes": [
+      "Confusing the types of triangles based on their sides.",
+      "Forgetting that the sum of angles in a quadrilateral is 360 degrees.",
+      "Mixing up different quadrilaterals like parallelograms and trapezoids."
+    ],
+    "deep_dive": {
+      "history": "Triangles have been studied since ancient Egypt for building purposes.",
+      "connections": "Triangles are used in trigonometry, a branch of mathematics that studies relationships involving lengths and angles.",
+      "misconceptions": "Some think all triangles must have at least one right angle, which is not true.",
+      "teaching_tips": "Use a variety of physical objects for hands-on learning.",
+      "derivation": "Understanding the properties of these shapes helps in deriving formulas for area and perimeter."
+    },
+    "motivation": "Learning about shapes helps children see the world in a new way, making connections between math and their environment."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of shapes! In this lesson, we'll explore triangles and quadrilaterals, which are everywhere in our daily lives.\n\n## Parent Orientation\n**Objective:** Help your child recognize and understand the properties of triangles and quadrilaterals.\n**Why it matters:** Understanding these shapes is foundational for geometry, which is used in fields like art, engineering, and architecture.\n**Parent Tip:** Use everyday objects like books or tiles to help your child identify shapes around the house.\n**Real-World Link:** Triangles are often used in bridges for support, and quadrilaterals can be seen in floor tiles and windows.\n\n## Teaching Steps\n1. Introduce the different types of triangles: equilateral, isosceles, and scalene.\n2. Discuss the angles in triangles, emphasizing that they always add up to 180 degrees.\n3. Explore quadrilaterals: squares, rectangles, parallelograms, and trapezoids.\n4. Talk about the properties of quadrilaterals, such as parallel sides and right angles.\n5. Encourage your child to identify these shapes in their environment.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with triangles. Can you name some types?  \n**Show/Do:** Show your child a picture of different triangles.  \n**Ask:** What do you notice about the sides and angles?  \n**Reinforce:** Great observation! Triangles can have equal sides or different ones.\n2. **Say:** Now, let's look at quadrilaterals.  \n**Show/Do:** Draw a square and a rectangle.  \n**Ask:** How are these shapes similar and different?  \n**Reinforce:** Yes, both have four sides, but their angles can be different.\n3. **Say:** Did you know the angles in a triangle always add up to 180 degrees?  \n**Show/Do:** Demonstrate with a protractor on a triangle.  \n**Ask:** Can you add these angles to check?  \n**Reinforce:** Perfect! That's a key property of triangles.\n4. **Say:** Quadrilaterals are everywhere!  \n**Show/Do:** Point out a window or a book.  \n**Ask:** Can you see any quadrilaterals here?  \n**Reinforce:** Exactly! Windows are often rectangles or squares.\n5. **Say:** Let's recap what we've learned.  \n**Show/Do:** Review the different shapes and their properties.  \n**Ask:** Can you describe a triangle and a quadrilateral?  \n**Reinforce:** You've got it! Understanding these shapes is very useful.\n\n## Practice Questions (Do It Together)\n**1. Identify the type of triangle with sides 3 cm, 3 cm, and 3 cm.**\n<details><summary>Hint</summary>\nAll sides are equal.\n</details>\n<details><summary>Answer</summary>\nEquilateral triangle\n</details>\n\n**2. What is the sum of the angles in a quadrilateral?**\n<details><summary>Hint</summary>\nIt's more than 180 degrees.\n</details>\n<details><summary>Answer</summary>\n360 degrees\n</details>\n\n**3. Name a quadrilateral with opposite sides parallel.**\n<details><summary>Hint</summary>\nThink of a common floor shape.\n</details>\n<details><summary>Answer</summary>\nParallelogram\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Triangles have three sides and the sum of their angles is 180 degrees.\n- Quadrilaterals have four sides and the sum of their angles is 360 degrees.\n- Recognizing these shapes helps in understanding more complex geometry.\n\n**Common Mistakes**\n- Confusing the types of triangles based on their sides.\n- Forgetting that the sum of angles in a quadrilateral is 360 degrees.\n- Mixing up different quadrilaterals like parallelograms and trapezoids.\n\n## 🔍 Deep Dive\n**History or origin**\n\nTriangles have been studied since ancient Egypt for building purposes.\n\n**Future topic connections**\n\nTriangles are used in trigonometry, a branch of mathematics that studies relationships involving lengths and angles.\n\n**Common misconceptions**\n\nSome think all triangles must have at least one right angle, which is not true.\n\n**Teaching tips for parents**\n\nUse a variety of physical objects for hands-on learning.\n\n**More detail / derivation**\n\nUnderstanding the properties of these shapes helps in deriving formulas for area and perimeter.\n\n## Motivation\nLearning about shapes helps children see the world in a new way, making connections between math and their environment."
+}

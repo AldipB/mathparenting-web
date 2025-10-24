@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "908a63b1-f4ef-4fde-a6c5-aa467eea4e9f",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "0b171e2b-f69d-4778-993e-5142ad61243d",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b3cc07ae-f06d-4df8-a8f8-1aebb8a16902",
+    "slug": "ratios-and-rates",
+    "title": "Ratios & Rates: Exploring Relationships",
+    "summary": "Ratios & rates — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp the basics of ratios and rates, using everyday comparisons to strengthen their understanding.\n\n**Why it matters:** Ratios and rates are foundational in math, science, and daily life, from cooking recipes to speed limits.\n\n**Parent Tip:** Use grocery shopping trips to discuss ratios, like comparing the price of different-sized packages to find the best deal.\n\n**Real-World Link:** Think of a recipe—if you double the ingredients, you've used a ratio to maintain the taste balance.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of ratios and rates! These concepts help us understand relationships between quantities, much like comparing apples to oranges in a fruit basket.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of a ratio as a comparison between two numbers, like comparing red marbles to blue marbles in a collection.\n2. Explain that a rate is a specific type of ratio where the two quantities have different units, like miles per hour.\n3. Use visual aids, such as drawings or physical objects, to represent ratios and rates.\n4. Encourage your child to express ratios in different forms: 3:2, 3 to 2, or 3/2.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If a car travels 150 miles in 3 hours, what's the rate in miles per hour?**\n_Answer:_ 50 miles per hour\n_Hint:_ Divide the total miles by the total hours.\n\n**2. A fruit basket has 4 apples and 6 oranges. What is the ratio of apples to oranges?**\n_Answer:_ 4:6 or simplified, 2:3\n_Hint:_ Compare the number of apples to the number of oranges.\n\n**3. You buy 3 packs of gum for $6. What is the cost per pack?**\n_Answer:_ $2 per pack\n_Hint:_ Divide the total cost by the number of packs.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up the order of numbers in a ratio.\n- Confusing ratios with fractions—remember, ratios compare two numbers.\n- Forgetting to simplify ratios when possible.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a recipe—if you double the ingredients, you've used a ratio to maintain the taste balance.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and use ratios and rates to compare quantities effectively.",
+    "overview": "**Objective:** Help your child grasp the basics of ratios and rates, using everyday comparisons to strengthen their understanding.\n\n**Why it matters:** Ratios and rates are foundational in math, science, and daily life, from cooking recipes to speed limits.\n\n**Parent Tip:** Use grocery shopping trips to discuss ratios, like comparing the price of different-sized packages to find the best deal.\n\n**Real-World Link:** Think of a recipe—if you double the ingredients, you've used a ratio to maintain the taste balance.",
+    "core": "Welcome to the world of ratios and rates! These concepts help us understand relationships between quantities, much like comparing apples to oranges in a fruit basket.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that the same ratio can describe different things, like the number of dogs to cats or the speed of a car to a bike?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the concept of a ratio as a comparison between two numbers, like comparing red marbles to blue marbles in a collection.\n2. Explain that a rate is a specific type of ratio where the two quantities have different units, like miles per hour.\n3. Use visual aids, such as drawings or physical objects, to represent ratios and rates.\n4. Encourage your child to express ratios in different forms: 3:2, 3 to 2, or 3/2.",
+    "practice": "**1. If a car travels 150 miles in 3 hours, what's the rate in miles per hour?**\n_Answer:_ 50 miles per hour\n_Hint:_ Divide the total miles by the total hours.\n\n**2. A fruit basket has 4 apples and 6 oranges. What is the ratio of apples to oranges?**\n_Answer:_ 4:6 or simplified, 2:3\n_Hint:_ Compare the number of apples to the number of oranges.\n\n**3. You buy 3 packs of gum for $6. What is the cost per pack?**\n_Answer:_ $2 per pack\n_Hint:_ Divide the total cost by the number of packs.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Mixing up the order of numbers in a ratio.\n- Confusing ratios with fractions—remember, ratios compare two numbers.\n- Forgetting to simplify ratios when possible.",
+    "connection": "Think of a recipe—if you double the ingredients, you've used a ratio to maintain the taste balance.",
+    "close": "**Key Takeaways**\n- Ratios compare two similar quantities.\n- Rates compare two different types of quantities.\n- Understanding ratios and rates helps in everyday decisions, like shopping and cooking.\n\n**Parent Reflection Questions**\n- How can I help my child see ratios in everyday life?\n- What are some fun ways to practice rates at home?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Ratios & Rates: Exploring Relationships",
+    "introduction": "Welcome! Today, we're diving into the world of ratios and rates. These concepts are all about comparing different quantities, and they're fundamental in understanding many everyday situations.",
+    "objective": "Help your child understand how to identify and use ratios and rates to compare quantities effectively.",
+    "why_matters": "Ratios and rates are everywhere—whether you're cooking, shopping, or planning a trip. Understanding them can make daily tasks easier and more efficient.",
+    "parent_tip": "When discussing ratios and rates, use examples from your daily life. This makes the concept relatable and easier for your child to grasp.",
+    "real_world_link": "Next time you're at the grocery store, talk about the price per pound of fruits or the speed of your car in miles per hour. These are practical examples of rates.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a ratio as a way to compare two quantities.",
+      "Explain that a rate is a specific type of ratio where the two quantities have different units.",
+      "Use real-world examples to show how ratios and rates are applied.",
+      "Practice identifying ratios and rates in various scenarios.",
+      "Encourage discussions about where your child sees ratios and rates in their daily life."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about ratios. Imagine we have 3 apples and 2 oranges.",
+        "do": "Show 3 apples and 2 oranges on the table.",
+        "ask": "How can we compare these two quantities?",
+        "reinforce": "This comparison is called a ratio, like 3:2."
+      },
+      {
+        "say": "Now, let's think about rates. A rate compares two quantities with different units.",
+        "do": "Use a car toy and a ruler to illustrate speed.",
+        "ask": "If a car travels 60 miles in 1 hour, what do we call this?",
+        "reinforce": "That's a rate, expressed as 60 miles per hour."
+      },
+      {
+        "say": "Can you think of other examples of rates?",
+        "do": "Encourage your child to look around the house or think about their day.",
+        "ask": "What about the price per pound of bananas?",
+        "reinforce": "Great job! That's another rate."
+      },
+      {
+        "say": "Ratios and rates help us make better decisions.",
+        "do": "Discuss how knowing the better price per unit can save money.",
+        "ask": "Why might it be helpful to know which is cheaper per pound?",
+        "reinforce": "Understanding these concepts can help us be savvy shoppers."
+      },
+      {
+        "say": "Let's practice identifying some ratios and rates.",
+        "do": "Create simple scenarios using household items.",
+        "ask": "What is the ratio of pencils to pens here?",
+        "reinforce": "Keep practicing, and you'll get even better at spotting these."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If there are 5 red marbles and 10 blue marbles, what is the ratio of red to blue marbles?",
+        "hint": "Think about how many red marbles there are compared to blue.",
+        "answer": "1:2"
+      },
+      {
+        "prompt": "A car travels 300 miles in 5 hours. What is the rate of speed?",
+        "hint": "Divide the distance by the time.",
+        "answer": "60 miles per hour"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Ratios compare two quantities of the same unit.",
+      "Rates compare two quantities with different units.",
+      "These concepts help us in everyday decision-making."
+    ],
+    "common_mistakes": [
+      "Confusing ratios with rates.",
+      "Forgetting to use the same unit for ratios.",
+      "Not simplifying ratios to their simplest form."
+    ],
+    "deep_dive": {
+      "history": "Ratios have been used since ancient times, with roots in Greek mathematics.",
+      "connections": "Ratios and rates are used in subjects like science to express concentration or speed.",
+      "misconceptions": "Some think ratios and rates are interchangeable. Remember, rates involve different units.",
+      "teaching_tips": "Use visuals and real-life examples to make these concepts clear.",
+      "derivation": "Ratios are derived from basic division and comparison of quantities."
+    },
+    "motivation": "Understanding ratios and rates will empower your child to handle real-world problems with confidence and ease."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today, we're diving into the world of ratios and rates. These concepts are all about comparing different quantities, and they're fundamental in understanding many everyday situations.\n\n## Parent Orientation\n**Objective:** Help your child understand how to identify and use ratios and rates to compare quantities effectively.\n**Why it matters:** Ratios and rates are everywhere—whether you're cooking, shopping, or planning a trip. Understanding them can make daily tasks easier and more efficient.\n**Parent Tip:** When discussing ratios and rates, use examples from your daily life. This makes the concept relatable and easier for your child to grasp.\n**Real-World Link:** Next time you're at the grocery store, talk about the price per pound of fruits or the speed of your car in miles per hour. These are practical examples of rates.\n\n## Teaching Steps\n1. Introduce the concept of a ratio as a way to compare two quantities.\n2. Explain that a rate is a specific type of ratio where the two quantities have different units.\n3. Use real-world examples to show how ratios and rates are applied.\n4. Practice identifying ratios and rates in various scenarios.\n5. Encourage discussions about where your child sees ratios and rates in their daily life.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about ratios. Imagine we have 3 apples and 2 oranges.  \n**Show/Do:** Show 3 apples and 2 oranges on the table.  \n**Ask:** How can we compare these two quantities?  \n**Reinforce:** This comparison is called a ratio, like 3:2.\n2. **Say:** Now, let's think about rates. A rate compares two quantities with different units.  \n**Show/Do:** Use a car toy and a ruler to illustrate speed.  \n**Ask:** If a car travels 60 miles in 1 hour, what do we call this?  \n**Reinforce:** That's a rate, expressed as 60 miles per hour.\n3. **Say:** Can you think of other examples of rates?  \n**Show/Do:** Encourage your child to look around the house or think about their day.  \n**Ask:** What about the price per pound of bananas?  \n**Reinforce:** Great job! That's another rate.\n4. **Say:** Ratios and rates help us make better decisions.  \n**Show/Do:** Discuss how knowing the better price per unit can save money.  \n**Ask:** Why might it be helpful to know which is cheaper per pound?  \n**Reinforce:** Understanding these concepts can help us be savvy shoppers.\n5. **Say:** Let's practice identifying some ratios and rates.  \n**Show/Do:** Create simple scenarios using household items.  \n**Ask:** What is the ratio of pencils to pens here?  \n**Reinforce:** Keep practicing, and you'll get even better at spotting these.\n\n## Practice Questions (Do It Together)\n**1. If there are 5 red marbles and 10 blue marbles, what is the ratio of red to blue marbles?**\n<details><summary>Hint</summary>\nThink about how many red marbles there are compared to blue.\n</details>\n<details><summary>Answer</summary>\n1:2\n</details>\n\n**2. A car travels 300 miles in 5 hours. What is the rate of speed?**\n<details><summary>Hint</summary>\nDivide the distance by the time.\n</details>\n<details><summary>Answer</summary>\n60 miles per hour\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Ratios compare two quantities of the same unit.\n- Rates compare two quantities with different units.\n- These concepts help us in everyday decision-making.\n\n**Common Mistakes**\n- Confusing ratios with rates.\n- Forgetting to use the same unit for ratios.\n- Not simplifying ratios to their simplest form.\n\n## 🔍 Deep Dive\n**History or origin**\n\nRatios have been used since ancient times, with roots in Greek mathematics.\n\n**Future topic connections**\n\nRatios and rates are used in subjects like science to express concentration or speed.\n\n**Common misconceptions**\n\nSome think ratios and rates are interchangeable. Remember, rates involve different units.\n\n**Teaching tips for parents**\n\nUse visuals and real-life examples to make these concepts clear.\n\n**More detail / derivation**\n\nRatios are derived from basic division and comparison of quantities.\n\n## Motivation\nUnderstanding ratios and rates will empower your child to handle real-world problems with confidence and ease."
+}

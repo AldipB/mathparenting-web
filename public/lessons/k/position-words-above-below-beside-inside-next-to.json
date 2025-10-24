@@ -1,98 +1,155 @@
 {
   "grade": {
-    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "id": "439cca24-e1b5-4625-9f66-80782dd0d55f",
     "slug": "k",
-    "name": "Kindergarten (K)"
+    "name": "Kindergarten"
   },
   "unit": {
-    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
-    "title": "Complete Chapter Index",
-    "order_index": 99
+    "id": "ccb8977b-c667-47ad-8822-9ca0dfe81b61",
+    "title": "Shapes & Geometry",
+    "order_index": 1
   },
   "lesson": {
-    "id": "a70a1b2f-b3a6-4941-a40d-e404303dec27",
+    "id": "a7f3e232-3436-4884-81b5-40f0c5e0f888",
     "slug": "position-words-above-below-beside-inside-next-to",
-    "title": "Position Words (Above, Below, Beside, Inside, Next to)",
-    "summary": "Position Words (Above, Below, Beside, Inside, Next to) — parent overview.",
+    "title": "Understanding Position Words: Above, Below, Beside, Inside, Next To",
+    "summary": "Position words (above, below, beside, inside, next to) — parent overview for Kindergarten.",
     "difficulty_level": "core",
-    "order_index": 14
+    "order_index": 4
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "- Help your child understand and use position words: above, below, beside, inside, next to.\n- Encourage spatial awareness through everyday activities.\n- **Why this matters for parents:** Understanding position words is key for following directions and describing the world.",
-      "order_index": 1
-    },
-    {
       "key": "overview",
-      "md": "This lesson focuses on teaching your child position words like above, below, beside, inside, and next to. These words help children describe where objects are in relation to each other.\nGrasping these concepts is crucial for developing spatial awareness, which is foundational for math skills and following instructions. It also enhances their ability to communicate clearly about their environment.",
+      "md": "**Objective:** By the end of this lesson, your child will confidently use and understand the position words: above, below, beside, inside, and next to.\n\n**Why it matters:** Understanding position words is crucial for following directions, solving problems, and communicating effectively about the world around them.\n\n**Parent Tip:** Use everyday moments to reinforce these concepts. Position words are everywhere, from the playground to your living room!\n\n**Real-World Link:** Think about how you give directions. Saying, 'The ball is beside the chair,' helps your child visualize and locate objects more precisely.",
       "order_index": 2
     },
     {
       "key": "core",
-      "md": "Position words help children understand and describe the location of objects. By using familiar items around the house, you can make these concepts clear and relatable. This lesson will guide you in demonstrating these words through simple activities.",
+      "md": "Help your child explore the world of position words, which describe where objects are in relation to each other. These words are foundational in developing spatial awareness.",
       "order_index": 3
     },
     {
-      "key": "demo",
-      "md": "1. **Say:** \"Let's find something that is above the table.\" Place a book on a chair and a toy on the table.\n2. **Ask:** \"Which one is above the table?\" Guide them to point to the toy.\n3. **Say:** \"Now, let's find something below the table.\" Move the book under the table.\n4. **Ask:** \"What is below the table now?\" Encourage them to point to the book.\n5. **Say:** \"Let's find something beside the chair.\" Place a pillow next to the chair.\n6. **Ask:** \"What is beside the chair?\" Help them identify the pillow.",
-      "order_index": 4
-    },
-    {
-      "key": "math",
-      "md": "Position words describe the relative location of objects. For example, if a toy is on a table, we say the toy is 'above' the floor. If it's under the table, it's 'below' the table. These words help children understand spatial relationships, which are foundational for geometry.",
-      "order_index": 5
-    },
-    {
       "key": "guide",
-      "md": "1. Use toys and furniture to demonstrate each position word.\n2. **Ask:** \"Can you put the teddy bear inside the box?\" and wait for them to do it.\n3. **Say:** \"Let's place the ball next to the couch.\"\n4. **Ask:** \"What is above the couch?\" and look around together.\n5. Encourage them to describe the position of objects during playtime.\n6. Reinforce learning by using these words in everyday situations.",
+      "md": "1. Start by using toys or household items. Place a toy above another and say, 'The toy is above the book.'\n2. Switch positions and say, 'Now the toy is below the book.'\n3. Place two toys side by side and explain, 'These toys are beside each other.'\n4. Put a smaller toy inside a box and say, 'The toy is inside the box.'\n5. Finally, arrange a toy next to another and note, 'The toy is next to the car.'",
       "order_index": 7
     },
     {
-      "key": "mistakes",
-      "md": "- Confusing 'above' and 'below': Try using hand gestures to show direction.\n- Mixing up 'beside' and 'next to': Emphasize that both mean the same thing.\n- Forgetting 'inside': Use a clear container to demonstrate putting something inside.",
+      "key": "practice",
+      "md": "**1. Where is the teddy bear if it's under the table? (use numbers like 6 and 9)**\n_Answer:_ The teddy bear is below the table.\n_Hint:_ Think about the word 'under' as being similar to 'below'.\n\n**2. If the cup is beside the plate, where is it? (use numbers like 6 and 9)**\n_Answer:_ The cup is next to the plate.\n_Hint:_ Consider 'beside' as being similar to 'next to'.\n\n**3. Where is the ball if it's inside the box? (use numbers like 6 and 9)**\n_Answer:_ The ball is inside the box.\n_Hint:_ Remember, 'inside' means within something.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
       "order_index": 8
     },
     {
-      "key": "connection",
-      "md": "When packing a bag, talk about what goes inside. During a walk, discuss what is beside the path. These real-life connections make learning meaningful.",
+      "key": "mistakes",
+      "md": "- Confusing 'above' and 'below'.\n- Mixing up 'beside' and 'inside'.\n- Not using the words in the right context.",
       "order_index": 9
     },
     {
-      "key": "close",
-      "md": "Great job exploring position words with your child! Keep using these words daily to strengthen their understanding.",
-      "order_index": 11
+      "key": "connection",
+      "md": "Think about how you give directions. Saying, 'The ball is beside the chair,' helps your child visualize and locate objects more precisely.",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "- Help your child understand and use position words: above, below, beside, inside, next to.\n- Encourage spatial awareness through everyday activities.\n- **Why this matters for parents:** Understanding position words is key for following directions and describing the world.",
-    "overview": "This lesson focuses on teaching your child position words like above, below, beside, inside, and next to. These words help children describe where objects are in relation to each other.\nGrasping these concepts is crucial for developing spatial awareness, which is foundational for math skills and following instructions. It also enhances their ability to communicate clearly about their environment.",
-    "core": "Position words help children understand and describe the location of objects. By using familiar items around the house, you can make these concepts clear and relatable. This lesson will guide you in demonstrating these words through simple activities.",
-    "demo": "1. **Say:** \"Let's find something that is above the table.\" Place a book on a chair and a toy on the table.\n2. **Ask:** \"Which one is above the table?\" Guide them to point to the toy.\n3. **Say:** \"Now, let's find something below the table.\" Move the book under the table.\n4. **Ask:** \"What is below the table now?\" Encourage them to point to the book.\n5. **Say:** \"Let's find something beside the chair.\" Place a pillow next to the chair.\n6. **Ask:** \"What is beside the chair?\" Help them identify the pillow.",
-    "math": "Position words describe the relative location of objects. For example, if a toy is on a table, we say the toy is 'above' the floor. If it's under the table, it's 'below' the table. These words help children understand spatial relationships, which are foundational for geometry.",
-    "guide": "1. Use toys and furniture to demonstrate each position word.\n2. **Ask:** \"Can you put the teddy bear inside the box?\" and wait for them to do it.\n3. **Say:** \"Let's place the ball next to the couch.\"\n4. **Ask:** \"What is above the couch?\" and look around together.\n5. Encourage them to describe the position of objects during playtime.\n6. Reinforce learning by using these words in everyday situations.",
-    "mistakes": "- Confusing 'above' and 'below': Try using hand gestures to show direction.\n- Mixing up 'beside' and 'next to': Emphasize that both mean the same thing.\n- Forgetting 'inside': Use a clear container to demonstrate putting something inside.",
-    "connection": "When packing a bag, talk about what goes inside. During a walk, discuss what is beside the path. These real-life connections make learning meaningful.",
-    "close": "Great job exploring position words with your child! Keep using these words daily to strengthen their understanding."
+    "objectives": "**Objective:** Help your child understand and use basic position words: above, below, beside, inside, and next to.",
+    "overview": "**Objective:** By the end of this lesson, your child will confidently use and understand the position words: above, below, beside, inside, and next to.\n\n**Why it matters:** Understanding position words is crucial for following directions, solving problems, and communicating effectively about the world around them.\n\n**Parent Tip:** Use everyday moments to reinforce these concepts. Position words are everywhere, from the playground to your living room!\n\n**Real-World Link:** Think about how you give directions. Saying, 'The ball is beside the chair,' helps your child visualize and locate objects more precisely.",
+    "core": "Help your child explore the world of position words, which describe where objects are in relation to each other. These words are foundational in developing spatial awareness.",
+    "demo": "**Spark Curiosity:**\n\nImagine a treasure hunt! How would you describe where the treasure is hidden using position words?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by using toys or household items. Place a toy above another and say, 'The toy is above the book.'\n2. Switch positions and say, 'Now the toy is below the book.'\n3. Place two toys side by side and explain, 'These toys are beside each other.'\n4. Put a smaller toy inside a box and say, 'The toy is inside the box.'\n5. Finally, arrange a toy next to another and note, 'The toy is next to the car.'",
+    "practice": "**1. Where is the teddy bear if it's under the table? (use numbers like 6 and 9)**\n_Answer:_ The teddy bear is below the table.\n_Hint:_ Think about the word 'under' as being similar to 'below'.\n\n**2. If the cup is beside the plate, where is it? (use numbers like 6 and 9)**\n_Answer:_ The cup is next to the plate.\n_Hint:_ Consider 'beside' as being similar to 'next to'.\n\n**3. Where is the ball if it's inside the box? (use numbers like 6 and 9)**\n_Answer:_ The ball is inside the box.\n_Hint:_ Remember, 'inside' means within something.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing 'above' and 'below'.\n- Mixing up 'beside' and 'inside'.\n- Not using the words in the right context.",
+    "connection": "Think about how you give directions. Saying, 'The ball is beside the chair,' helps your child visualize and locate objects more precisely.",
+    "close": "**Key Takeaways**\n- Position words describe spatial relationships.\n- Using these words helps children follow directions.\n- Practicing with everyday objects makes learning relatable.\n\n**Parent Reflection Questions**\n- What new position words did your child learn today?\n- How can you incorporate these words into daily routines?"
   },
-  "practice": [
-    {
-      "order_index": 1,
-      "question_md": "Where is the book if it's on the shelf?",
-      "hint_md": "Think about the book's position in relation to the floor.",
-      "answer_md": "The book is **above** the floor."
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Position Words: Above, Below, Beside, Inside, Next To",
+    "introduction": "Welcome to the world of position words! These words help your child understand where things are in relation to one another. We'll explore these concepts using everyday objects and fun activities.",
+    "objective": "Help your child understand and use position words like above, below, beside, inside, and next to accurately.",
+    "why_matters": "Understanding position words is essential for following directions, organizing thoughts, and building spatial awareness. These skills are foundational for math and everyday life.",
+    "parent_tip": "Use your child's favorite toys to demonstrate these concepts. This makes learning engaging and relatable.",
+    "real_world_link": "Position words are used every day. For example, when setting the table, a fork is placed beside the plate, and a napkin might be inside a glass.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Gather a few of your child's toys or household items.",
+      "Demonstrate the meaning of each position word using these items.",
+      "Encourage your child to place items in positions you describe.",
+      "Ask your child to describe positions using the new words.",
+      "Practice regularly in different settings to reinforce learning."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's play a game with your toys! Can you show me how to put the teddy bear above the box?",
+        "do": "Place the teddy bear above the box yourself first.",
+        "ask": "Where is the teddy bear now?",
+        "reinforce": "Great job! The teddy bear is above the box."
+      },
+      {
+        "say": "Now let's move the teddy bear. Can you put it below the table?",
+        "do": "Demonstrate placing the teddy bear below the table.",
+        "ask": "Where is the teddy bear now?",
+        "reinforce": "Yes, it's below the table. Well done!"
+      },
+      {
+        "say": "Can you place the car beside the blocks?",
+        "do": "Show how to place the car beside the blocks.",
+        "ask": "What does 'beside' mean?",
+        "reinforce": "Exactly! Beside means next to something."
+      },
+      {
+        "say": "Let's put the doll inside the box.",
+        "do": "Put the doll inside the box.",
+        "ask": "Where is the doll now?",
+        "reinforce": "That's right! The doll is inside the box."
+      },
+      {
+        "say": "Finally, can you place the ball next to the chair?",
+        "do": "Help place the ball next to the chair if needed.",
+        "ask": "What does 'next to' mean?",
+        "reinforce": "Perfect! Next to means right by something."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Place the apple below the book on the table.",
+        "hint": "Look for space under the book.",
+        "answer": "The apple should be directly under the book on the table."
+      },
+      {
+        "prompt": "Put the toy car inside the box.",
+        "hint": "Think about where things are kept safe.",
+        "answer": "The toy car should be placed within the box."
+      },
+      {
+        "prompt": "Position the spoon beside the plate.",
+        "hint": "Spoons go next to plates during meals.",
+        "answer": "The spoon should be right next to the plate."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Position words describe where things are.",
+      "Using toys can make learning these words fun.",
+      "Practice regularly to help your child remember."
+    ],
+    "common_mistakes": [
+      "Confusing 'beside' with 'inside'.",
+      "Mixing up 'above' and 'below'.",
+      "Forgetting to use context to determine positions."
+    ],
+    "deep_dive": {
+      "history": "Position words have been used in language for centuries to describe spatial relationships.",
+      "connections": "These words are connected to spatial reasoning in math and are foundational for geometry.",
+      "misconceptions": "Children may think 'inside' can mean 'next to' if they aren't shown clear examples.",
+      "teaching_tips": "Use consistent language and gestures to reinforce understanding.",
+      "derivation": "The words derive from Old English and Latin roots describing spatial relations."
     },
-    {
-      "order_index": 2,
-      "question_md": "If a cat is under the chair, where is it?",
-      "hint_md": "Consider the space directly beneath the chair.",
-      "answer_md": "The cat is **below** the chair."
-    },
-    {
-      "order_index": 3,
-      "question_md": "Where is the spoon if it's next to the plate?",
-      "hint_md": "Look at the objects that are side by side.",
-      "answer_md": "The spoon is **beside** the plate."
-    }
-  ]
+    "motivation": "Position words are like secret codes that help kids navigate their world. Mastering them is a big step in becoming a great problem-solver!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of position words! These words help your child understand where things are in relation to one another. We'll explore these concepts using everyday objects and fun activities.\n\n## Parent Orientation\n**Objective:** Help your child understand and use position words like above, below, beside, inside, and next to accurately.\n**Why it matters:** Understanding position words is essential for following directions, organizing thoughts, and building spatial awareness. These skills are foundational for math and everyday life.\n**Parent Tip:** Use your child's favorite toys to demonstrate these concepts. This makes learning engaging and relatable.\n**Real-World Link:** Position words are used every day. For example, when setting the table, a fork is placed beside the plate, and a napkin might be inside a glass.\n\n## Teaching Steps\n1. Gather a few of your child's toys or household items.\n2. Demonstrate the meaning of each position word using these items.\n3. Encourage your child to place items in positions you describe.\n4. Ask your child to describe positions using the new words.\n5. Practice regularly in different settings to reinforce learning.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's play a game with your toys! Can you show me how to put the teddy bear above the box?  \n**Show/Do:** Place the teddy bear above the box yourself first.  \n**Ask:** Where is the teddy bear now?  \n**Reinforce:** Great job! The teddy bear is above the box.\n2. **Say:** Now let's move the teddy bear. Can you put it below the table?  \n**Show/Do:** Demonstrate placing the teddy bear below the table.  \n**Ask:** Where is the teddy bear now?  \n**Reinforce:** Yes, it's below the table. Well done!\n3. **Say:** Can you place the car beside the blocks?  \n**Show/Do:** Show how to place the car beside the blocks.  \n**Ask:** What does 'beside' mean?  \n**Reinforce:** Exactly! Beside means next to something.\n4. **Say:** Let's put the doll inside the box.  \n**Show/Do:** Put the doll inside the box.  \n**Ask:** Where is the doll now?  \n**Reinforce:** That's right! The doll is inside the box.\n5. **Say:** Finally, can you place the ball next to the chair?  \n**Show/Do:** Help place the ball next to the chair if needed.  \n**Ask:** What does 'next to' mean?  \n**Reinforce:** Perfect! Next to means right by something.\n\n## Practice Questions (Do It Together)\n**1. Place the apple below the book on the table.**\n<details><summary>Hint</summary>\nLook for space under the book.\n</details>\n<details><summary>Answer</summary>\nThe apple should be directly under the book on the table.\n</details>\n\n**2. Put the toy car inside the box.**\n<details><summary>Hint</summary>\nThink about where things are kept safe.\n</details>\n<details><summary>Answer</summary>\nThe toy car should be placed within the box.\n</details>\n\n**3. Position the spoon beside the plate.**\n<details><summary>Hint</summary>\nSpoons go next to plates during meals.\n</details>\n<details><summary>Answer</summary>\nThe spoon should be right next to the plate.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Position words describe where things are.\n- Using toys can make learning these words fun.\n- Practice regularly to help your child remember.\n\n**Common Mistakes**\n- Confusing 'beside' with 'inside'.\n- Mixing up 'above' and 'below'.\n- Forgetting to use context to determine positions.\n\n## 🔍 Deep Dive\n**History or origin**\n\nPosition words have been used in language for centuries to describe spatial relationships.\n\n**Future topic connections**\n\nThese words are connected to spatial reasoning in math and are foundational for geometry.\n\n**Common misconceptions**\n\nChildren may think 'inside' can mean 'next to' if they aren't shown clear examples.\n\n**Teaching tips for parents**\n\nUse consistent language and gestures to reinforce understanding.\n\n**More detail / derivation**\n\nThe words derive from Old English and Latin roots describing spatial relations.\n\n## Motivation\nPosition words are like secret codes that help kids navigate their world. Mastering them is a big step in becoming a great problem-solver!"
 }

@@ -1,0 +1,173 @@
+{
+  "grade": {
+    "id": "73b9e9df-de40-4cfb-a5a5-709f3dfeb972",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "2f1ff81f-66be-4030-91d8-0f6d146098fe",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "1f93121a-1795-4123-8849-64f4855d5b89",
+    "slug": "trigonometric-ratios-and-identities",
+    "title": "Trigonometric Ratios & Identities: Exploring the World of Angles",
+    "summary": "Trigonometric ratios & identities — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Students will learn the fundamental trigonometric ratios and identities, enabling them to solve problems involving angles and triangles.\n\n**Why it matters:** Understanding trigonometry is crucial as it forms the foundation for more advanced math and science courses. It's also used in various real-life applications, from engineering to art.\n\n**Parent Tip:** Encourage your child to visualize triangles and angles in everyday objects. This can make abstract concepts more concrete and relatable.\n\n**Real-World Link:** Trigonometry helps pilots navigate using angles, ensuring safe and efficient flight paths.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Dear Parents, welcome to the fascinating world of trigonometry! This lesson will guide your child through the basics of trigonometric ratios and identities, helping them understand angles in a whole new way.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss the concept of angles using familiar objects like slices of pizza.\n2. Introduce sine, cosine, and tangent as ratios derived from right triangles.\n3. Explain the Pythagorean identity and its significance.\n4. Use diagrams to show how these identities are visualized in triangles.\n5. Highlight the importance of these ratios in solving real-world problems.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Calculate sin(45°) and cos(45°) and check if their squares sum to 1.**\n_Answer:_ sin(45°) = 0.707, cos(45°) = 0.707, sin²(45°) + cos²(45°) = 1.\n_Hint:_ Use a calculator to find sin(45°) and cos(45°).\n\n**2. Find tan(30°) using sin(30°) and cos(30°).**\n_Answer:_ tan(30°) = 0.5/0.866 = 0.577.\n_Hint:_ Remember that tan(θ) = sin(θ)/cos(θ).\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing sine and cosine values.\n- Forgetting to square the sine and cosine in the identity.\n- Misapplying the tangent ratio.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Trigonometry helps pilots navigate using angles, ensuring safe and efficient flight paths.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and apply trigonometric ratios and identities to solve problems involving angles and triangles.",
+    "overview": "**Objective:** Students will learn the fundamental trigonometric ratios and identities, enabling them to solve problems involving angles and triangles.\n\n**Why it matters:** Understanding trigonometry is crucial as it forms the foundation for more advanced math and science courses. It's also used in various real-life applications, from engineering to art.\n\n**Parent Tip:** Encourage your child to visualize triangles and angles in everyday objects. This can make abstract concepts more concrete and relatable.\n\n**Real-World Link:** Trigonometry helps pilots navigate using angles, ensuring safe and efficient flight paths.",
+    "core": "Dear Parents, welcome to the fascinating world of trigonometry! This lesson will guide your child through the basics of trigonometric ratios and identities, helping them understand angles in a whole new way.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how engineers calculate the height of a tall building without measuring it directly? Trigonometry is the secret tool they use!",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** sin(θ) = \\frac{opposite}{hypotenuse}, \\; cos(θ) = \\frac{adjacent}{hypotenuse}, \\; tan(θ) = \\frac{opposite}{adjacent}\n- **Meaning:** These formulas describe how the sides of a right triangle relate to its angles.\n- **How it works:** For a given angle θ, 'opposite' refers to the side opposite the angle, 'adjacent' is the side next to the angle, and 'hypotenuse' is the longest side.\n- **Example:** If a right triangle has an angle θ of 30°, the side opposite is 5 units, and the hypotenuse is 10 units, then sin(30°) = \\frac{5}{10} = 0.5.\n$$",
+    "formulas": "$$\nsin(θ) = \\frac{opposite}{hypotenuse}, \\; cos(θ) = \\frac{adjacent}{hypotenuse}, \\; tan(θ) = \\frac{opposite}{adjacent}\n$$",
+    "guide": "1. Discuss the concept of angles using familiar objects like slices of pizza.\n2. Introduce sine, cosine, and tangent as ratios derived from right triangles.\n3. Explain the Pythagorean identity and its significance.\n4. Use diagrams to show how these identities are visualized in triangles.\n5. Highlight the importance of these ratios in solving real-world problems.",
+    "practice": "**1. Calculate sin(45°) and cos(45°) and check if their squares sum to 1.**\n_Answer:_ sin(45°) = 0.707, cos(45°) = 0.707, sin²(45°) + cos²(45°) = 1.\n_Hint:_ Use a calculator to find sin(45°) and cos(45°).\n\n**2. Find tan(30°) using sin(30°) and cos(30°).**\n_Answer:_ tan(30°) = 0.5/0.866 = 0.577.\n_Hint:_ Remember that tan(θ) = sin(θ)/cos(θ).\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing sine and cosine values.\n- Forgetting to square the sine and cosine in the identity.\n- Misapplying the tangent ratio.",
+    "connection": "Trigonometry helps pilots navigate using angles, ensuring safe and efficient flight paths.",
+    "close": "**Key Takeaways**\n- Trigonometric ratios help relate angles to side lengths in right triangles.\n- The sine, cosine, and tangent functions are fundamental to solving triangle problems.\n- Understanding these concepts supports learning in advanced math and science.\n\n**Parent Reflection Questions**\n- How can I help my child visualize these concepts better?\n- What are some engaging activities to reinforce these ideas?\n- How do these ratios apply to non-right triangles?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Trigonometric Ratios & Identities: Exploring the World of Angles",
+    "introduction": "Welcome to the fascinating world of angles and trigonometry, where we explore the relationships between the sides and angles of triangles. This lesson will help you and your child understand how trigonometric ratios and identities work together to solve problems involving angles.",
+    "objective": "Help your child learn and apply trigonometric ratios and identities to solve angle-related problems.",
+    "why_matters": "Understanding trigonometry is essential for higher-level math and science courses, and it also plays a crucial role in fields such as engineering, architecture, and even video game design.",
+    "parent_tip": "Encourage your child to visualize triangles and angles. Drawing diagrams often makes the relationships clearer and helps in solving problems.",
+    "real_world_link": "Trigonometry is used in navigation, construction, and even in creating computer graphics. Anytime someone needs to measure or construct angles, trigonometry comes into play.",
+    "formula_box": {
+      "formula": "sin(θ) = opposite/hypotenuse",
+      "symbols": [
+        {
+          "symbol": "sin(θ)",
+          "meaning": "sine of angle θ"
+        },
+        {
+          "symbol": "opposite",
+          "meaning": "length of the side opposite angle θ"
+        },
+        {
+          "symbol": "hypotenuse",
+          "meaning": "length of the hypotenuse of the triangle"
+        }
+      ],
+      "how_it_works": "The sine of an angle in a right triangle is the ratio of the length of the side opposite the angle to the length of the hypotenuse.",
+      "example": "In a right triangle where the opposite side is 3 units and the hypotenuse is 5 units, sin(θ) = 3/5."
+    },
+    "teaching_steps": [
+      "Introduce the basic trigonometric ratios: sine, cosine, and tangent.",
+      "Discuss how these ratios relate to the sides of a right triangle.",
+      "Explain how to use these ratios to find missing angles or sides.",
+      "Introduce the concept of trigonometric identities and their importance.",
+      "Practice using these identities in various problems."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at a right triangle.",
+        "do": "Draw a right triangle and label the sides and angles.",
+        "ask": "Can you identify the hypotenuse, opposite, and adjacent sides?",
+        "reinforce": "Great! Remember, the hypotenuse is always the longest side."
+      },
+      {
+        "say": "Now, let's talk about the sine of an angle.",
+        "do": "Point to the opposite side and the hypotenuse.",
+        "ask": "How do you think we find the sine of this angle?",
+        "reinforce": "Exactly, it's the opposite side divided by the hypotenuse."
+      },
+      {
+        "say": "These ratios help us find missing sides or angles.",
+        "do": "Write down a simple equation using the sine ratio.",
+        "ask": "What if we know the angle and one side, how can we find the other side?",
+        "reinforce": "We can rearrange the equation to solve for the missing side."
+      },
+      {
+        "say": "Trigonometric identities are like shortcuts.",
+        "do": "Write a basic identity, such as sin²(θ) + cos²(θ) = 1.",
+        "ask": "Any idea how this could be useful?",
+        "reinforce": "It helps simplify problems and find relationships between angles."
+      },
+      {
+        "say": "Let's try solving a problem together.",
+        "do": "Present a problem involving a right triangle and missing side.",
+        "ask": "Which trigonometric ratio should we use here?",
+        "reinforce": "Good choice! Let's solve it step-by-step."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the sine of a 30° angle in a right triangle where the opposite side is 5 and the hypotenuse is 10.",
+        "hint": "Use the formula sin(θ) = opposite/hypotenuse.",
+        "answer": "0.5"
+      },
+      {
+        "prompt": "A right triangle has an angle of 45° and a hypotenuse of 10. Find the length of the opposite side.",
+        "hint": "Use sin(45°) = opposite/hypotenuse.",
+        "answer": "7.07"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Trigonometric ratios help us understand the relationships between angles and sides in triangles.",
+      "Sine, cosine, and tangent are the primary ratios used.",
+      "Trigonometric identities simplify solving complex problems."
+    ],
+    "common_mistakes": [
+      "Confusing which side is opposite and which is adjacent.",
+      "Forgetting to use the correct ratio for the given problem.",
+      "Neglecting to check if the calculator is in the correct mode (degrees vs. radians)."
+    ],
+    "deep_dive": {
+      "history": "Trigonometry has its roots in ancient civilizations, with early forms used by the Greeks and Indians.",
+      "connections": "Trigonometry is foundational for calculus and is widely used in physics and engineering.",
+      "misconceptions": "A common misconception is that trigonometry is only about triangles, but it also deals with periodic functions.",
+      "teaching_tips": "Use visual aids and real-life examples to make trigonometric concepts more relatable.",
+      "derivation": "The derivation of trigonometric identities often involves algebraic manipulation and understanding the unit circle."
+    },
+    "motivation": "Encourage your child by showing them how trigonometry is used in exciting fields like architecture and game design. It's a stepping stone to many future opportunities!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of angles and trigonometry, where we explore the relationships between the sides and angles of triangles. This lesson will help you and your child understand how trigonometric ratios and identities work together to solve problems involving angles.\n\n## Parent Orientation\n**Objective:** Help your child learn and apply trigonometric ratios and identities to solve angle-related problems.\n**Why it matters:** Understanding trigonometry is essential for higher-level math and science courses, and it also plays a crucial role in fields such as engineering, architecture, and even video game design.\n**Parent Tip:** Encourage your child to visualize triangles and angles. Drawing diagrams often makes the relationships clearer and helps in solving problems.\n**Real-World Link:** Trigonometry is used in navigation, construction, and even in creating computer graphics. Anytime someone needs to measure or construct angles, trigonometry comes into play.\n\n> **📐 Formula Box**\n> **Formula:** sin(θ) = opposite/hypotenuse\n> **Symbols:**\n> - **sin(θ)** — sine of angle θ\n> - **opposite** — length of the side opposite angle θ\n> - **hypotenuse** — length of the hypotenuse of the triangle\n> **How it works:** The sine of an angle in a right triangle is the ratio of the length of the side opposite the angle to the length of the hypotenuse.\n> **Example:** In a right triangle where the opposite side is 3 units and the hypotenuse is 5 units, sin(θ) = 3/5.\n\n## Teaching Steps\n1. Introduce the basic trigonometric ratios: sine, cosine, and tangent.\n2. Discuss how these ratios relate to the sides of a right triangle.\n3. Explain how to use these ratios to find missing angles or sides.\n4. Introduce the concept of trigonometric identities and their importance.\n5. Practice using these identities in various problems.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at a right triangle.  \n**Show/Do:** Draw a right triangle and label the sides and angles.  \n**Ask:** Can you identify the hypotenuse, opposite, and adjacent sides?  \n**Reinforce:** Great! Remember, the hypotenuse is always the longest side.\n2. **Say:** Now, let's talk about the sine of an angle.  \n**Show/Do:** Point to the opposite side and the hypotenuse.  \n**Ask:** How do you think we find the sine of this angle?  \n**Reinforce:** Exactly, it's the opposite side divided by the hypotenuse.\n3. **Say:** These ratios help us find missing sides or angles.  \n**Show/Do:** Write down a simple equation using the sine ratio.  \n**Ask:** What if we know the angle and one side, how can we find the other side?  \n**Reinforce:** We can rearrange the equation to solve for the missing side.\n4. **Say:** Trigonometric identities are like shortcuts.  \n**Show/Do:** Write a basic identity, such as sin²(θ) + cos²(θ) = 1.  \n**Ask:** Any idea how this could be useful?  \n**Reinforce:** It helps simplify problems and find relationships between angles.\n5. **Say:** Let's try solving a problem together.  \n**Show/Do:** Present a problem involving a right triangle and missing side.  \n**Ask:** Which trigonometric ratio should we use here?  \n**Reinforce:** Good choice! Let's solve it step-by-step.\n\n## Practice Questions (Do It Together)\n**1. Find the sine of a 30° angle in a right triangle where the opposite side is 5 and the hypotenuse is 10.**\n<details><summary>Hint</summary>\nUse the formula sin(θ) = opposite/hypotenuse.\n</details>\n<details><summary>Answer</summary>\n0.5\n</details>\n\n**2. A right triangle has an angle of 45° and a hypotenuse of 10. Find the length of the opposite side.**\n<details><summary>Hint</summary>\nUse sin(45°) = opposite/hypotenuse.\n</details>\n<details><summary>Answer</summary>\n7.07\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Trigonometric ratios help us understand the relationships between angles and sides in triangles.\n- Sine, cosine, and tangent are the primary ratios used.\n- Trigonometric identities simplify solving complex problems.\n\n**Common Mistakes**\n- Confusing which side is opposite and which is adjacent.\n- Forgetting to use the correct ratio for the given problem.\n- Neglecting to check if the calculator is in the correct mode (degrees vs. radians).\n\n## 🔍 Deep Dive\n**History or origin**\n\nTrigonometry has its roots in ancient civilizations, with early forms used by the Greeks and Indians.\n\n**Future topic connections**\n\nTrigonometry is foundational for calculus and is widely used in physics and engineering.\n\n**Common misconceptions**\n\nA common misconception is that trigonometry is only about triangles, but it also deals with periodic functions.\n\n**Teaching tips for parents**\n\nUse visual aids and real-life examples to make trigonometric concepts more relatable.\n\n**More detail / derivation**\n\nThe derivation of trigonometric identities often involves algebraic manipulation and understanding the unit circle.\n\n## Motivation\nEncourage your child by showing them how trigonometry is used in exciting fields like architecture and game design. It's a stepping stone to many future opportunities!"
+}

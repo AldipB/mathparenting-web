@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "c4824c71-0eb6-4e62-8074-03f926342a31",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "7caf1dcf-6bfe-4407-a710-ef432da80083",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "84bf0800-d625-43b7-8704-c7f0e328f8a6",
+    "slug": "coordinate-plane-basics",
+    "title": "Coordinate Plane Basics: Navigating the Grid",
+    "summary": "Coordinate plane basics — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn to identify and plot points on a coordinate plane using ordered pairs.\n\n**Why it matters:** Understanding coordinate planes is crucial as it lays the foundation for graphing, geometry, and even video game design!\n\n**Parent Tip:** Use graph paper or a digital grid to practice. Relate it to a city map where streets are like grid lines.\n\n**Real-World Link:** Imagine using GPS on a smartphone. The coordinate plane is like a map with coordinates acting as addresses.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of coordinate planes! This lesson will help your child understand how to navigate grids using a simple, logical system. Think of it like finding a friend's house using a map.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the coordinate plane as a grid with two axes: the horizontal (x) and vertical (y).\n2. Explain that each point on the grid is represented by an ordered pair (x, y).\n3. Show how to locate the x-coordinate first, which tells how far to move left or right.\n4. Next, find the y-coordinate, which tells how far to move up or down.\n5. Practice plotting points on the grid with your child.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Plot the point (3, 2) on the grid.**\n_Answer:_ The point is located at 3 units right and 2 units up from the origin.\n_Hint:_ Start at the origin (0, 0), move 3 units right, then 2 units up.\n\n**2. What are the coordinates of a point 4 units left and 1 unit up from the origin?**\n_Answer:_ (-4, 1)\n_Hint:_ Consider negative numbers for left direction.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the order of coordinates (x, y) with (y, x).\n- Forgetting to use negative numbers for left or down movements.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine using GPS on a smartphone. The coordinate plane is like a map with coordinates acting as addresses.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the coordinate plane, including identifying and plotting points.",
+    "overview": "**Objective:** Help your child learn to identify and plot points on a coordinate plane using ordered pairs.\n\n**Why it matters:** Understanding coordinate planes is crucial as it lays the foundation for graphing, geometry, and even video game design!\n\n**Parent Tip:** Use graph paper or a digital grid to practice. Relate it to a city map where streets are like grid lines.\n\n**Real-World Link:** Imagine using GPS on a smartphone. The coordinate plane is like a map with coordinates acting as addresses.",
+    "core": "Welcome to the world of coordinate planes! This lesson will help your child understand how to navigate grids using a simple, logical system. Think of it like finding a friend's house using a map.",
+    "demo": "**Spark Curiosity:**\n\nEver wondered how GPS knows exactly where you are? It uses a system similar to the coordinate plane to pinpoint locations!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the coordinate plane as a grid with two axes: the horizontal (x) and vertical (y).\n2. Explain that each point on the grid is represented by an ordered pair (x, y).\n3. Show how to locate the x-coordinate first, which tells how far to move left or right.\n4. Next, find the y-coordinate, which tells how far to move up or down.\n5. Practice plotting points on the grid with your child.",
+    "practice": "**1. Plot the point (3, 2) on the grid.**\n_Answer:_ The point is located at 3 units right and 2 units up from the origin.\n_Hint:_ Start at the origin (0, 0), move 3 units right, then 2 units up.\n\n**2. What are the coordinates of a point 4 units left and 1 unit up from the origin?**\n_Answer:_ (-4, 1)\n_Hint:_ Consider negative numbers for left direction.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the order of coordinates (x, y) with (y, x).\n- Forgetting to use negative numbers for left or down movements.",
+    "connection": "Imagine using GPS on a smartphone. The coordinate plane is like a map with coordinates acting as addresses.",
+    "close": "**Key Takeaways**\n- The coordinate plane is a grid with an x-axis and a y-axis.\n- Each point is defined by a pair of numbers, (x, y).\n- Understanding coordinates helps with spatial reasoning and data interpretation.\n\n**Parent Reflection Questions**\n- How can I help reinforce the concept of coordinates at home?\n- What are some fun activities to make learning about the coordinate plane engaging?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Coordinate Plane Basics: Navigating the Grid",
+    "introduction": "Welcome to the world of coordinate planes! This lesson will help you guide your child in understanding how to navigate and plot points on a grid.",
+    "objective": "Help your child learn the basics of the coordinate plane, understand how to plot points, and interpret their positions.",
+    "why_matters": "Understanding coordinate planes is a foundational skill in math that will be useful in geometry, graphing, and even in real-world contexts like maps and design.",
+    "parent_tip": "Use graph paper to make plotting points easier and more accurate. Encourage your child to always start at the origin (0,0).",
+    "real_world_link": "Coordinate planes are used in maps to find locations, in video game design for positioning characters, and in architecture for drawing plans.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the coordinate plane as a grid with horizontal (x-axis) and vertical (y-axis) lines.",
+      "Explain that each point on the plane is identified by an ordered pair (x, y).",
+      "Show how to start plotting from the origin (0,0).",
+      "Demonstrate moving horizontally to find the x-coordinate and vertically to find the y-coordinate.",
+      "Practice plotting various points and identifying their coordinates."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore the coordinate plane together. It's like a map with two lines: one side-to-side and one up-and-down.",
+        "do": "Draw a coordinate plane with x and y axes on paper.",
+        "ask": "Can you see where the two lines cross? That's called the origin.",
+        "reinforce": "The origin is our starting point at (0,0)."
+      },
+      {
+        "say": "Each point on the plane is marked by two numbers, called coordinates.",
+        "do": "Write an example point, like (3, 2), on the board.",
+        "ask": "What do you think the first number tells us?",
+        "reinforce": "The first number, 3, tells us how far to move across from the origin."
+      },
+      {
+        "say": "The second number tells us how far to move up or down.",
+        "do": "Show moving 3 units to the right and 2 units up from the origin.",
+        "ask": "Can you see where the point (3, 2) is now?",
+        "reinforce": "Great! That's how we plot a point."
+      },
+      {
+        "say": "Try plotting another point, like (5, 4).",
+        "do": "Guide them to move 5 units across and 4 units up.",
+        "ask": "Where is your new point?",
+        "reinforce": "You've plotted (5, 4) correctly!"
+      },
+      {
+        "say": "Let's review. What do the numbers in (x, y) help us do?",
+        "do": "Point to previously plotted points on the grid.",
+        "ask": "Can you tell me the coordinates of this point?",
+        "reinforce": "Remember, the first number is across, the second is up or down."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Plot the point (4, 3) on the coordinate plane.",
+        "hint": "Move 4 steps across and 3 steps up from the origin.",
+        "answer": "(4, 3) is 4 units right and 3 units up from the origin."
+      },
+      {
+        "prompt": "Identify the coordinates of a point located 2 units left and 5 units up from the origin.",
+        "hint": "Think about moving in the negative direction for left.",
+        "answer": "The point is at (-2, 5)."
+      },
+      {
+        "prompt": "What point is 6 units right and on the x-axis?",
+        "hint": "Being on the x-axis means the y-coordinate is 0.",
+        "answer": "(6, 0)"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The coordinate plane is a grid that helps us locate points.",
+      "Each point is represented by an ordered pair (x, y).",
+      "Start plotting from the origin, and move horizontally and vertically to reach your point."
+    ],
+    "common_mistakes": [
+      "Confusing the order of coordinates: remember x comes before y.",
+      "Forgetting to start plotting from the origin.",
+      "Mixing up horizontal and vertical movements."
+    ],
+    "deep_dive": {
+      "history": "The coordinate plane was developed by René Descartes in the 17th century, revolutionizing how we visualize algebraic equations.",
+      "connections": "Coordinate planes are foundational for graphing equations in algebra and are used in computer graphics and design.",
+      "misconceptions": "Students often think the order of coordinates doesn't matter; emphasize that x is always first.",
+      "teaching_tips": "Use graph paper or online tools for precise plotting. Reinforce with real-world examples like maps.",
+      "derivation": "The concept of coordinates stems from the Cartesian coordinate system, where each point is uniquely defined by its distance along perpendicular axes."
+    },
+    "motivation": "Understanding coordinate planes opens up a world of possibilities in math and beyond, from understanding maps to creating video games!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of coordinate planes! This lesson will help you guide your child in understanding how to navigate and plot points on a grid.\n\n## Parent Orientation\n**Objective:** Help your child learn the basics of the coordinate plane, understand how to plot points, and interpret their positions.\n**Why it matters:** Understanding coordinate planes is a foundational skill in math that will be useful in geometry, graphing, and even in real-world contexts like maps and design.\n**Parent Tip:** Use graph paper to make plotting points easier and more accurate. Encourage your child to always start at the origin (0,0).\n**Real-World Link:** Coordinate planes are used in maps to find locations, in video game design for positioning characters, and in architecture for drawing plans.\n\n## Teaching Steps\n1. Introduce the coordinate plane as a grid with horizontal (x-axis) and vertical (y-axis) lines.\n2. Explain that each point on the plane is identified by an ordered pair (x, y).\n3. Show how to start plotting from the origin (0,0).\n4. Demonstrate moving horizontally to find the x-coordinate and vertically to find the y-coordinate.\n5. Practice plotting various points and identifying their coordinates.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore the coordinate plane together. It's like a map with two lines: one side-to-side and one up-and-down.  \n**Show/Do:** Draw a coordinate plane with x and y axes on paper.  \n**Ask:** Can you see where the two lines cross? That's called the origin.  \n**Reinforce:** The origin is our starting point at (0,0).\n2. **Say:** Each point on the plane is marked by two numbers, called coordinates.  \n**Show/Do:** Write an example point, like (3, 2), on the board.  \n**Ask:** What do you think the first number tells us?  \n**Reinforce:** The first number, 3, tells us how far to move across from the origin.\n3. **Say:** The second number tells us how far to move up or down.  \n**Show/Do:** Show moving 3 units to the right and 2 units up from the origin.  \n**Ask:** Can you see where the point (3, 2) is now?  \n**Reinforce:** Great! That's how we plot a point.\n4. **Say:** Try plotting another point, like (5, 4).  \n**Show/Do:** Guide them to move 5 units across and 4 units up.  \n**Ask:** Where is your new point?  \n**Reinforce:** You've plotted (5, 4) correctly!\n5. **Say:** Let's review. What do the numbers in (x, y) help us do?  \n**Show/Do:** Point to previously plotted points on the grid.  \n**Ask:** Can you tell me the coordinates of this point?  \n**Reinforce:** Remember, the first number is across, the second is up or down.\n\n## Practice Questions (Do It Together)\n**1. Plot the point (4, 3) on the coordinate plane.**\n<details><summary>Hint</summary>\nMove 4 steps across and 3 steps up from the origin.\n</details>\n<details><summary>Answer</summary>\n(4, 3) is 4 units right and 3 units up from the origin.\n</details>\n\n**2. Identify the coordinates of a point located 2 units left and 5 units up from the origin.**\n<details><summary>Hint</summary>\nThink about moving in the negative direction for left.\n</details>\n<details><summary>Answer</summary>\nThe point is at (-2, 5).\n</details>\n\n**3. What point is 6 units right and on the x-axis?**\n<details><summary>Hint</summary>\nBeing on the x-axis means the y-coordinate is 0.\n</details>\n<details><summary>Answer</summary>\n(6, 0)\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The coordinate plane is a grid that helps us locate points.\n- Each point is represented by an ordered pair (x, y).\n- Start plotting from the origin, and move horizontally and vertically to reach your point.\n\n**Common Mistakes**\n- Confusing the order of coordinates: remember x comes before y.\n- Forgetting to start plotting from the origin.\n- Mixing up horizontal and vertical movements.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe coordinate plane was developed by René Descartes in the 17th century, revolutionizing how we visualize algebraic equations.\n\n**Future topic connections**\n\nCoordinate planes are foundational for graphing equations in algebra and are used in computer graphics and design.\n\n**Common misconceptions**\n\nStudents often think the order of coordinates doesn't matter; emphasize that x is always first.\n\n**Teaching tips for parents**\n\nUse graph paper or online tools for precise plotting. Reinforce with real-world examples like maps.\n\n**More detail / derivation**\n\nThe concept of coordinates stems from the Cartesian coordinate system, where each point is uniquely defined by its distance along perpendicular axes.\n\n## Motivation\nUnderstanding coordinate planes opens up a world of possibilities in math and beyond, from understanding maps to creating video games!"
+}

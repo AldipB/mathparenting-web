@@ -1,0 +1,173 @@
+{
+  "grade": {
+    "id": "267fdfc4-3ab5-472f-af38-8b1c7ba30bef",
+    "slug": "10",
+    "name": "Grade 10 (Geometry & Algebra II)"
+  },
+  "unit": {
+    "id": "5a17d1d0-18a8-4d21-a381-d8245bff6b19",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "0d881fc7-bd01-4f52-b8f4-1b42e39afab8",
+    "slug": "exponential-and-logarithmic-intro",
+    "title": "Exploring Exponentials and Logarithms",
+    "summary": "Exponential & logarithmic intro — parent overview for Grade 10 (Geometry & Algebra II).",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the relationship between exponentials and logarithms and how they are used in real-life situations.\n\n**Why it matters:** Exponentials and logarithms are everywhere, from calculating interest in bank accounts to understanding the growth of populations and even in measuring sound intensity.\n\n**Parent Tip:** Encourage your child to explain these concepts back to you in their own words. Teaching someone else is a powerful way to learn!\n\n**Real-World Link:** Think of exponentials like a snowball rolling down a hill, growing bigger and faster. Logarithms are like finding out how many times you need to fold a paper to reach a certain height.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of exponentials and logarithms! These concepts may sound complex, but with a few real-world analogies, you'll be able to support your child's learning journey with confidence.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by discussing the concept of exponential growth using simple examples like doubling pennies.\n2. Introduce the idea of logarithms as the inverse of exponentials, like finding how many times you multiply a number to reach a certain point.\n3. Use graphs to show how exponentials rise quickly and how logarithms grow slowly.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Calculate 3^4.**\n_Answer:_ 81\n_Hint:_ Multiply 3 by itself 4 times.\n\n**2. What is log_2(16)?**\n_Answer:_ 4\n_Hint:_ 2 raised to what power equals 16?\n\n**3. If 5^x = 125, what is x?**\n_Answer:_ 3\n_Hint:_ Think of 125 as 5 raised to a power.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the base in exponentials and logarithms.\n- Mixing up the roles of exponents and logarithms.\n- Forgetting that logarithms are the inverse of exponentials.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of exponentials like a snowball rolling down a hill, growing bigger and faster. Logarithms are like finding out how many times you need to fold a paper to reach a certain height.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Introduce exponential growth and logarithms, helping your child understand how these concepts are used in real life.",
+    "overview": "**Objective:** Help your child understand the relationship between exponentials and logarithms and how they are used in real-life situations.\n\n**Why it matters:** Exponentials and logarithms are everywhere, from calculating interest in bank accounts to understanding the growth of populations and even in measuring sound intensity.\n\n**Parent Tip:** Encourage your child to explain these concepts back to you in their own words. Teaching someone else is a powerful way to learn!\n\n**Real-World Link:** Think of exponentials like a snowball rolling down a hill, growing bigger and faster. Logarithms are like finding out how many times you need to fold a paper to reach a certain height.",
+    "core": "Welcome to the world of exponentials and logarithms! These concepts may sound complex, but with a few real-world analogies, you'll be able to support your child's learning journey with confidence.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how quickly a tiny virus can spread in a large population or how your savings grow in a bank account? Exponentials and logarithms can help explain these phenomena!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** y = a \\cdot b^x\n- **Meaning:** y is the final amount, a is the initial amount, b is the growth factor, and x is time.\n- **How it works:** Each unit of time, the quantity multiplies by the growth factor b. If b is greater than 1, the quantity grows.\n- **Example:** If you start with $100 and it grows by 5% annually, after 3 years, you'll have: $100 \\cdot 1.05^3 \\approx $115.76.",
+    "formulas": "$$\ny = a \\cdot b^x\n$$",
+    "guide": "1. Start by discussing the concept of exponential growth using simple examples like doubling pennies.\n2. Introduce the idea of logarithms as the inverse of exponentials, like finding how many times you multiply a number to reach a certain point.\n3. Use graphs to show how exponentials rise quickly and how logarithms grow slowly.",
+    "practice": "**1. Calculate 3^4.**\n_Answer:_ 81\n_Hint:_ Multiply 3 by itself 4 times.\n\n**2. What is log_2(16)?**\n_Answer:_ 4\n_Hint:_ 2 raised to what power equals 16?\n\n**3. If 5^x = 125, what is x?**\n_Answer:_ 3\n_Hint:_ Think of 125 as 5 raised to a power.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the base in exponentials and logarithms.\n- Mixing up the roles of exponents and logarithms.\n- Forgetting that logarithms are the inverse of exponentials.",
+    "connection": "Think of exponentials like a snowball rolling down a hill, growing bigger and faster. Logarithms are like finding out how many times you need to fold a paper to reach a certain height.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Exponential & logarithmic intro** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- What are some other examples of exponential growth in nature or technology?\n- How can we use logarithms to better understand data?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Exponentials and Logarithms",
+    "introduction": "Welcome to the fascinating world of exponentials and logarithms! These concepts are like two sides of the same coin, helping us understand growth and scale in a variety of contexts.",
+    "objective": "To help your child understand the basics of exponentials and logarithms and how they relate to each other.",
+    "why_matters": "Exponentials and logarithms are crucial for understanding everything from population growth to how sound levels work. Your child will encounter these concepts in science, finance, and technology.",
+    "parent_tip": "Encourage your child to think of exponentials as rapid growth and logarithms as the tool to measure or reverse that growth.",
+    "real_world_link": "Think of exponentials like compound interest in a bank account, and logarithms as the way to calculate how long it will take for your money to double.",
+    "formula_box": {
+      "formula": "y = a^x and x = log_a(y)",
+      "symbols": [
+        {
+          "symbol": "y",
+          "meaning": "The result of the exponential function"
+        },
+        {
+          "symbol": "a",
+          "meaning": "The base of the exponential or logarithmic function"
+        },
+        {
+          "symbol": "x",
+          "meaning": "The exponent or the logarithm result"
+        }
+      ],
+      "how_it_works": "Exponentials grow by repeatedly multiplying by the base. Logarithms find the exponent needed to reach a certain number.",
+      "example": "If a = 2 and x = 3, then y = 2^3 = 8. The logarithm log_2(8) = 3."
+    },
+    "teaching_steps": [
+      "Introduce the concept of exponentials as repeated multiplication.",
+      "Explain logarithms as the inverse of exponentials.",
+      "Use simple examples to show how they are related.",
+      "Discuss practical applications like sound intensity and earthquakes.",
+      "Solve problems together to reinforce understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with exponentials. Imagine doubling a penny every day.",
+        "do": "Write down the sequence: 1, 2, 4, 8, 16...",
+        "ask": "What happens to our pennies after 5 days?",
+        "reinforce": "Exponentials grow quickly, just like our pennies!"
+      },
+      {
+        "say": "Now, let's talk about logarithms.",
+        "do": "Show a simple example using the formula box.",
+        "ask": "How do you think logarithms work with our pennies?",
+        "reinforce": "Logarithms help us find out how many times we doubled to get a certain amount."
+      },
+      {
+        "say": "Here's a real-world example: sound intensity.",
+        "do": "Explain how loudness can be measured in decibels, a logarithmic scale.",
+        "ask": "Why might a logarithmic scale be useful for measuring sound?",
+        "reinforce": "Logarithms simplify large ranges into manageable numbers."
+      },
+      {
+        "say": "Let's solve an exponential problem together.",
+        "do": "Write: 3^x = 27. Ask your child to find x.",
+        "ask": "What exponent gives us 27 from the base 3?",
+        "reinforce": "You got it! x is 3 because 3^3 = 27."
+      },
+      {
+        "say": "Finally, let's try a logarithmic problem.",
+        "do": "Write: log_3(27) = x. Ask your child to solve for x.",
+        "ask": "What does x equal here?",
+        "reinforce": "Exactly! x is 3, just like before."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Calculate 2^4",
+        "hint": "Multiply 2 by itself 4 times.",
+        "answer": "16"
+      },
+      {
+        "prompt": "Find x if 5^x = 125",
+        "hint": "What exponent makes 5 become 125?",
+        "answer": "3"
+      },
+      {
+        "prompt": "Solve for x: log_10(1000) = x",
+        "hint": "10 to what power equals 1000?",
+        "answer": "3"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Exponentials involve repeated multiplication.",
+      "Logarithms are the inverse, helping us find the exponent.",
+      "These concepts are useful in real-world applications like finance and science."
+    ],
+    "common_mistakes": [
+      "Confusing bases in exponentials and logarithms.",
+      "Mixing up which number is the base and which is the exponent.",
+      "Forgetting that logarithms are the inverse of exponentials."
+    ],
+    "deep_dive": {
+      "history": "Logarithms were developed in the 17th century to simplify calculations before calculators existed.",
+      "connections": "Logarithms connect to many fields, including music, where they help explain pitch and tone.",
+      "misconceptions": "Many students think logarithms are just a harder form of division, but they're actually about finding exponents.",
+      "teaching_tips": "Use visual aids like graphs to show the growth and flattening of exponential and logarithmic functions.",
+      "derivation": "Logarithms can be derived from the definition of exponentials by taking the inverse operation."
+    },
+    "motivation": "Understanding exponentials and logarithms unlocks a deeper comprehension of how the world scales and grows, from technology to nature."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of exponentials and logarithms! These concepts are like two sides of the same coin, helping us understand growth and scale in a variety of contexts.\n\n## Parent Orientation\n**Objective:** To help your child understand the basics of exponentials and logarithms and how they relate to each other.\n**Why it matters:** Exponentials and logarithms are crucial for understanding everything from population growth to how sound levels work. Your child will encounter these concepts in science, finance, and technology.\n**Parent Tip:** Encourage your child to think of exponentials as rapid growth and logarithms as the tool to measure or reverse that growth.\n**Real-World Link:** Think of exponentials like compound interest in a bank account, and logarithms as the way to calculate how long it will take for your money to double.\n\n> **📐 Formula Box**\n> **Formula:** y = a^x and x = log_a(y)\n> **Symbols:**\n> - **y** — The result of the exponential function\n> - **a** — The base of the exponential or logarithmic function\n> - **x** — The exponent or the logarithm result\n> **How it works:** Exponentials grow by repeatedly multiplying by the base. Logarithms find the exponent needed to reach a certain number.\n> **Example:** If a = 2 and x = 3, then y = 2^3 = 8. The logarithm log_2(8) = 3.\n\n## Teaching Steps\n1. Introduce the concept of exponentials as repeated multiplication.\n2. Explain logarithms as the inverse of exponentials.\n3. Use simple examples to show how they are related.\n4. Discuss practical applications like sound intensity and earthquakes.\n5. Solve problems together to reinforce understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with exponentials. Imagine doubling a penny every day.  \n**Show/Do:** Write down the sequence: 1, 2, 4, 8, 16...  \n**Ask:** What happens to our pennies after 5 days?  \n**Reinforce:** Exponentials grow quickly, just like our pennies!\n2. **Say:** Now, let's talk about logarithms.  \n**Show/Do:** Show a simple example using the formula box.  \n**Ask:** How do you think logarithms work with our pennies?  \n**Reinforce:** Logarithms help us find out how many times we doubled to get a certain amount.\n3. **Say:** Here's a real-world example: sound intensity.  \n**Show/Do:** Explain how loudness can be measured in decibels, a logarithmic scale.  \n**Ask:** Why might a logarithmic scale be useful for measuring sound?  \n**Reinforce:** Logarithms simplify large ranges into manageable numbers.\n4. **Say:** Let's solve an exponential problem together.  \n**Show/Do:** Write: 3^x = 27. Ask your child to find x.  \n**Ask:** What exponent gives us 27 from the base 3?  \n**Reinforce:** You got it! x is 3 because 3^3 = 27.\n5. **Say:** Finally, let's try a logarithmic problem.  \n**Show/Do:** Write: log_3(27) = x. Ask your child to solve for x.  \n**Ask:** What does x equal here?  \n**Reinforce:** Exactly! x is 3, just like before.\n\n## Practice Questions (Do It Together)\n**1. Calculate 2^4**\n<details><summary>Hint</summary>\nMultiply 2 by itself 4 times.\n</details>\n<details><summary>Answer</summary>\n16\n</details>\n\n**2. Find x if 5^x = 125**\n<details><summary>Hint</summary>\nWhat exponent makes 5 become 125?\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n**3. Solve for x: log_10(1000) = x**\n<details><summary>Hint</summary>\n10 to what power equals 1000?\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Exponentials involve repeated multiplication.\n- Logarithms are the inverse, helping us find the exponent.\n- These concepts are useful in real-world applications like finance and science.\n\n**Common Mistakes**\n- Confusing bases in exponentials and logarithms.\n- Mixing up which number is the base and which is the exponent.\n- Forgetting that logarithms are the inverse of exponentials.\n\n## 🔍 Deep Dive\n**History or origin**\n\nLogarithms were developed in the 17th century to simplify calculations before calculators existed.\n\n**Future topic connections**\n\nLogarithms connect to many fields, including music, where they help explain pitch and tone.\n\n**Common misconceptions**\n\nMany students think logarithms are just a harder form of division, but they're actually about finding exponents.\n\n**Teaching tips for parents**\n\nUse visual aids like graphs to show the growth and flattening of exponential and logarithmic functions.\n\n**More detail / derivation**\n\nLogarithms can be derived from the definition of exponentials by taking the inverse operation.\n\n## Motivation\nUnderstanding exponentials and logarithms unlocks a deeper comprehension of how the world scales and grows, from technology to nature."
+}

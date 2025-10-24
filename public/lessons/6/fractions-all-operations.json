@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "910a1a16-a35e-4bd9-a048-c346811ae2ba",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "6394fbcb-e20d-40ea-87f0-0dfffdefef73",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "824ffeaa-17b9-4e01-99fa-23d0a3bfc559",
+    "slug": "fractions-all-operations",
+    "title": "Fractions – All Operations",
+    "summary": "Fractions – all operations — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To understand and perform all operations with fractions, ensuring your child can solve real-world problems confidently.\n\n**Why it matters:** Fractions are everywhere—from cooking recipes to measuring distances. Mastering them helps your child in school and beyond.\n\n**Parent Tip:** Encourage your child to visualize fractions with objects like pizza slices or chocolate bars. This makes abstract concepts more tangible.\n\n**Real-World Link:** Think of fractions as sharing a pizza. Each slice is a fraction of the whole pizza. Operations with fractions are like deciding how to share or combine different pizzas at a party.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of fractions! Together, we'll explore adding, subtracting, multiplying, and dividing fractions. With these skills, you'll help your child navigate everyday situations with ease.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by adding fractions with like denominators: simply add the numerators.\n2. For unlike denominators, find a common denominator before adding or subtracting.\n3. When multiplying fractions, multiply the numerators and denominators across.\n4. For division, multiply by the reciprocal of the second fraction.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Add 1/4 and 3/4.**\n_Answer:_ 1\n_Hint:_ The denominators are the same, so just add the numerators.\n\n**2. Subtract 2/3 from 5/6.**\n_Answer:_ 1/6\n_Hint:_ Find a common denominator first.\n\n**3. Multiply 2/5 by 3/4.**\n_Answer:_ 6/20 or simplified as 3/10\n_Hint:_ Multiply the numerators and the denominators.\n\n**4. Divide 3/8 by 1/2.**\n_Answer:_ 3/4\n_Hint:_ Multiply by the reciprocal of 1/2.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to find a common denominator when adding or subtracting.\n- Multiplying the denominators when dividing fractions instead of using the reciprocal.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of fractions as sharing a pizza. Each slice is a fraction of the whole pizza. Operations with fractions are like deciding how to share or combine different pizzas at a party.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child confidently add, subtract, multiply, and divide fractions.",
+    "overview": "**Objective:** To understand and perform all operations with fractions, ensuring your child can solve real-world problems confidently.\n\n**Why it matters:** Fractions are everywhere—from cooking recipes to measuring distances. Mastering them helps your child in school and beyond.\n\n**Parent Tip:** Encourage your child to visualize fractions with objects like pizza slices or chocolate bars. This makes abstract concepts more tangible.\n\n**Real-World Link:** Think of fractions as sharing a pizza. Each slice is a fraction of the whole pizza. Operations with fractions are like deciding how to share or combine different pizzas at a party.",
+    "core": "Welcome to the world of fractions! Together, we'll explore adding, subtracting, multiplying, and dividing fractions. With these skills, you'll help your child navigate everyday situations with ease.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: If you have half a pizza and I give you another half, how much pizza do you have now?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by adding fractions with like denominators: simply add the numerators.\n2. For unlike denominators, find a common denominator before adding or subtracting.\n3. When multiplying fractions, multiply the numerators and denominators across.\n4. For division, multiply by the reciprocal of the second fraction.",
+    "practice": "**1. Add 1/4 and 3/4.**\n_Answer:_ 1\n_Hint:_ The denominators are the same, so just add the numerators.\n\n**2. Subtract 2/3 from 5/6.**\n_Answer:_ 1/6\n_Hint:_ Find a common denominator first.\n\n**3. Multiply 2/5 by 3/4.**\n_Answer:_ 6/20 or simplified as 3/10\n_Hint:_ Multiply the numerators and the denominators.\n\n**4. Divide 3/8 by 1/2.**\n_Answer:_ 3/4\n_Hint:_ Multiply by the reciprocal of 1/2.",
+    "mistakes": "- Forgetting to find a common denominator when adding or subtracting.\n- Multiplying the denominators when dividing fractions instead of using the reciprocal.",
+    "connection": "Think of fractions as sharing a pizza. Each slice is a fraction of the whole pizza. Operations with fractions are like deciding how to share or combine different pizzas at a party.",
+    "close": "**Key Takeaways**\n- Fractions are parts of a whole.\n- Adding and subtracting fractions involves combining or taking away parts.\n- Multiplying fractions finds parts of parts.\n- Dividing fractions determines how many times one fraction fits into another.\n\n**Parent Reflection Questions**\n- How can fractions be used in daily life?\n- What struggles did your child have with fractions today?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Fractions – All Operations",
+    "introduction": "Welcome, parents! Today, we're diving into the world of fractions and how to master all the operations with them. Let's make fractions a fun and easy topic for your child!",
+    "objective": "Help your child understand and perform addition, subtraction, multiplication, and division with fractions.",
+    "why_matters": "Fractions are everywhere! From cooking recipes to dividing up chores, understanding fractions is a vital life skill.",
+    "parent_tip": "Use real-life examples to make fractions relatable. Cooking and sharing are great ways to visualize fractions.",
+    "real_world_link": "Next time you're baking, ask your child to help measure ingredients using fractions. It's a tasty way to practice!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start by reviewing what fractions are and how they represent parts of a whole.",
+      "Introduce addition and subtraction of fractions with like denominators.",
+      "Explain how to find a common denominator for adding and subtracting fractions with unlike denominators.",
+      "Discuss multiplication of fractions and how it involves multiplying the numerators and denominators.",
+      "Show how division of fractions works by flipping the second fraction and multiplying."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by thinking about what a fraction is.",
+        "do": "Draw a pizza and divide it into equal slices.",
+        "ask": "If we have a pizza cut into 8 slices and you eat 3, what fraction of the pizza did you eat?",
+        "reinforce": "That's right! You ate 3/8 of the pizza."
+      },
+      {
+        "say": "Now, let's try adding fractions with the same denominator.",
+        "do": "Draw two circles, each divided into 4 parts. Shade 1/4 in one and 2/4 in the other.",
+        "ask": "How many parts are shaded in total?",
+        "reinforce": "Great! That's 3/4."
+      },
+      {
+        "say": "For fractions with different denominators, we need a common denominator.",
+        "do": "Show fractions 1/2 and 1/3 using a visual aid like fraction strips.",
+        "ask": "What is a common denominator for 1/2 and 1/3?",
+        "reinforce": "Correct! It's 6, so 1/2 becomes 3/6 and 1/3 becomes 2/6."
+      },
+      {
+        "say": "Multiplying fractions is straightforward.",
+        "do": "Write 1/2 * 2/3 on paper and demonstrate multiplying numerators and denominators.",
+        "ask": "What do we get when we multiply 1/2 by 2/3?",
+        "reinforce": "Yes, 2/6, which simplifies to 1/3."
+      },
+      {
+        "say": "Dividing fractions involves a simple trick.",
+        "do": "Write 3/4 ÷ 2/5 on paper and demonstrate flipping 2/5 to get 5/2, then multiply.",
+        "ask": "What is the result of 3/4 divided by 2/5?",
+        "reinforce": "Exactly, it's 15/8 or 1 7/8 as a mixed number."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add 3/5 and 2/5.",
+        "hint": "The denominators are the same, just add the numerators.",
+        "answer": "5/5 or 1"
+      },
+      {
+        "prompt": "Subtract 7/8 from 3/8.",
+        "hint": "Subtract the numerators since the denominators are already the same.",
+        "answer": "4/8 or 1/2"
+      },
+      {
+        "prompt": "Multiply 1/4 by 3/5.",
+        "hint": "Multiply the numerators and then the denominators.",
+        "answer": "3/20"
+      },
+      {
+        "prompt": "Divide 5/6 by 1/3.",
+        "hint": "Flip 1/3 to get 3/1 and then multiply.",
+        "answer": "5/2 or 2 1/2"
+      }
+    ],
+    "recap": [
+      "Fractions represent parts of a whole.",
+      "Use common denominators for adding and subtracting.",
+      "Multiply across for multiplication.",
+      "Flip and multiply for division."
+    ],
+    "common_mistakes": [
+      "Forgetting to find a common denominator for addition and subtraction.",
+      "Not simplifying fractions after operations.",
+      "Confusing multiplication and addition rules."
+    ],
+    "deep_dive": {
+      "history": "Fractions have been used since ancient Egypt, where they used unit fractions to solve practical problems.",
+      "connections": "Fractions are foundational for understanding decimals and percentages.",
+      "misconceptions": "A common misconception is that multiplying fractions makes them larger, but it often makes them smaller.",
+      "teaching_tips": "Use visual aids like fraction strips or pie charts to help visualize the concepts.",
+      "derivation": "Understanding the derivation of operations with fractions helps reinforce why the rules work as they do."
+    },
+    "motivation": "Fractions are not just numbers; they're a key to understanding the world around us. Mastering them opens up a world of possibilities!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we're diving into the world of fractions and how to master all the operations with them. Let's make fractions a fun and easy topic for your child!\n\n## Parent Orientation\n**Objective:** Help your child understand and perform addition, subtraction, multiplication, and division with fractions.\n**Why it matters:** Fractions are everywhere! From cooking recipes to dividing up chores, understanding fractions is a vital life skill.\n**Parent Tip:** Use real-life examples to make fractions relatable. Cooking and sharing are great ways to visualize fractions.\n**Real-World Link:** Next time you're baking, ask your child to help measure ingredients using fractions. It's a tasty way to practice!\n\n## Teaching Steps\n1. Start by reviewing what fractions are and how they represent parts of a whole.\n2. Introduce addition and subtraction of fractions with like denominators.\n3. Explain how to find a common denominator for adding and subtracting fractions with unlike denominators.\n4. Discuss multiplication of fractions and how it involves multiplying the numerators and denominators.\n5. Show how division of fractions works by flipping the second fraction and multiplying.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by thinking about what a fraction is.  \n**Show/Do:** Draw a pizza and divide it into equal slices.  \n**Ask:** If we have a pizza cut into 8 slices and you eat 3, what fraction of the pizza did you eat?  \n**Reinforce:** That's right! You ate 3/8 of the pizza.\n2. **Say:** Now, let's try adding fractions with the same denominator.  \n**Show/Do:** Draw two circles, each divided into 4 parts. Shade 1/4 in one and 2/4 in the other.  \n**Ask:** How many parts are shaded in total?  \n**Reinforce:** Great! That's 3/4.\n3. **Say:** For fractions with different denominators, we need a common denominator.  \n**Show/Do:** Show fractions 1/2 and 1/3 using a visual aid like fraction strips.  \n**Ask:** What is a common denominator for 1/2 and 1/3?  \n**Reinforce:** Correct! It's 6, so 1/2 becomes 3/6 and 1/3 becomes 2/6.\n4. **Say:** Multiplying fractions is straightforward.  \n**Show/Do:** Write 1/2 * 2/3 on paper and demonstrate multiplying numerators and denominators.  \n**Ask:** What do we get when we multiply 1/2 by 2/3?  \n**Reinforce:** Yes, 2/6, which simplifies to 1/3.\n5. **Say:** Dividing fractions involves a simple trick.  \n**Show/Do:** Write 3/4 ÷ 2/5 on paper and demonstrate flipping 2/5 to get 5/2, then multiply.  \n**Ask:** What is the result of 3/4 divided by 2/5?  \n**Reinforce:** Exactly, it's 15/8 or 1 7/8 as a mixed number.\n\n## Practice Questions (Do It Together)\n**1. Add 3/5 and 2/5.**\n<details><summary>Hint</summary>\nThe denominators are the same, just add the numerators.\n</details>\n<details><summary>Answer</summary>\n5/5 or 1\n</details>\n\n**2. Subtract 7/8 from 3/8.**\n<details><summary>Hint</summary>\nSubtract the numerators since the denominators are already the same.\n</details>\n<details><summary>Answer</summary>\n4/8 or 1/2\n</details>\n\n**3. Multiply 1/4 by 3/5.**\n<details><summary>Hint</summary>\nMultiply the numerators and then the denominators.\n</details>\n<details><summary>Answer</summary>\n3/20\n</details>\n\n**4. Divide 5/6 by 1/3.**\n<details><summary>Hint</summary>\nFlip 1/3 to get 3/1 and then multiply.\n</details>\n<details><summary>Answer</summary>\n5/2 or 2 1/2\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Fractions represent parts of a whole.\n- Use common denominators for adding and subtracting.\n- Multiply across for multiplication.\n- Flip and multiply for division.\n\n**Common Mistakes**\n- Forgetting to find a common denominator for addition and subtraction.\n- Not simplifying fractions after operations.\n- Confusing multiplication and addition rules.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFractions have been used since ancient Egypt, where they used unit fractions to solve practical problems.\n\n**Future topic connections**\n\nFractions are foundational for understanding decimals and percentages.\n\n**Common misconceptions**\n\nA common misconception is that multiplying fractions makes them larger, but it often makes them smaller.\n\n**Teaching tips for parents**\n\nUse visual aids like fraction strips or pie charts to help visualize the concepts.\n\n**More detail / derivation**\n\nUnderstanding the derivation of operations with fractions helps reinforce why the rules work as they do.\n\n## Motivation\nFractions are not just numbers; they're a key to understanding the world around us. Mastering them opens up a world of possibilities!"
+}

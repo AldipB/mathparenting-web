@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "b2851454-b6c4-4b31-9de7-fc4f30753ba7",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "11efb1e6-0aa7-440b-a724-8eb7abac21ff",
+    "title": "Number Sense & Counting",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8255d9e3-bc82-4b4e-b842-50619a632521",
+    "slug": "counting-050",
+    "title": "Counting 0–50",
+    "summary": "Counting 0–50 — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child count from 0 to 50 confidently, using everyday objects and activities.\n\n**Why it matters:** Counting helps children understand numbers' order, which is crucial for all future math learning.\n\n**Parent Tip:** Use playtime and daily routines to sneak in counting practice. Consistency is key!\n\n**Real-World Link:** Think about counting toys, steps, or even apples at the store. Numbers are everywhere in daily life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Counting is the foundation of math skills, like learning the alphabet is for reading. Let's make counting to 50 fun and engaging for your child.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with counting from 0 to 10, then gradually increase to 50.\n2. Use physical objects like blocks or snacks for tactile learning.\n3. Incorporate songs or rhymes to make counting memorable.\n4. Practice counting in different settings: at the park, during meals, or while driving.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Count the number of apples in the fruit bowl. (use numbers like 6 and 9)**\n_Answer:_ Count each apple one by one.\n_Hint:_ Use your fingers to keep track.\n\n**2. Count the steps from the living room to the kitchen. (use numbers like 6 and 9)**\n_Answer:_ Consider the total number of steps you take.\n_Hint:_ Count each step as you take it.\n\n**3. How many blocks are in the tower? (use numbers like 6 and 9)**\n_Answer:_ Count each block until you reach the top.\n_Hint:_ Start from the bottom and count up.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Skipping numbers while counting.\n- Counting the same object more than once.\n- Getting stuck after a certain number, like 10 or 20.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about counting toys, steps, or even apples at the store. Numbers are everywhere in daily life.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child confidently count from 0 to 50, recognizing numbers and their sequence.",
+    "overview": "**Objective:** Help your child count from 0 to 50 confidently, using everyday objects and activities.\n\n**Why it matters:** Counting helps children understand numbers' order, which is crucial for all future math learning.\n\n**Parent Tip:** Use playtime and daily routines to sneak in counting practice. Consistency is key!\n\n**Real-World Link:** Think about counting toys, steps, or even apples at the store. Numbers are everywhere in daily life.",
+    "core": "Counting is the foundation of math skills, like learning the alphabet is for reading. Let's make counting to 50 fun and engaging for your child.",
+    "demo": "**Spark Curiosity:**\n\nWhy do we need numbers? Imagine trying to split a pizza with friends without knowing how many slices you have!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with counting from 0 to 10, then gradually increase to 50.\n2. Use physical objects like blocks or snacks for tactile learning.\n3. Incorporate songs or rhymes to make counting memorable.\n4. Practice counting in different settings: at the park, during meals, or while driving.",
+    "practice": "**1. Count the number of apples in the fruit bowl. (use numbers like 6 and 9)**\n_Answer:_ Count each apple one by one.\n_Hint:_ Use your fingers to keep track.\n\n**2. Count the steps from the living room to the kitchen. (use numbers like 6 and 9)**\n_Answer:_ Consider the total number of steps you take.\n_Hint:_ Count each step as you take it.\n\n**3. How many blocks are in the tower? (use numbers like 6 and 9)**\n_Answer:_ Count each block until you reach the top.\n_Hint:_ Start from the bottom and count up.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Skipping numbers while counting.\n- Counting the same object more than once.\n- Getting stuck after a certain number, like 10 or 20.",
+    "connection": "Think about counting toys, steps, or even apples at the store. Numbers are everywhere in daily life.",
+    "close": "**Key Takeaways**\n- Counting is an essential skill for understanding numbers.\n- Practice counting in everyday situations to make it engaging.\n- Encourage your child to predict the next number in sequence.\n\n**Parent Reflection Questions**\n- What strategies helped your child remember the number sequence?\n- How did your child respond to counting challenges?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Counting 0–50",
+    "introduction": "Welcome to the world of numbers! In this lesson, we'll explore counting from 0 to 50, a foundational skill in your child's math journey.",
+    "objective": "Help your child confidently count from 0 to 50, recognizing numbers and understanding their sequence.",
+    "why_matters": "Counting is the building block of math. It helps children understand numbers, which is crucial for addition, subtraction, and beyond.",
+    "parent_tip": "Encourage your child by counting everyday objects like toys or snacks. Make it fun and interactive!",
+    "real_world_link": "Counting is everywhere! From counting steps to counting apples in the grocery store, numbers are a part of daily life.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce numbers 0-10 with objects.",
+      "Gradually increase to 20, then 30, and so on up to 50.",
+      "Practice counting with songs or videos.",
+      "Use a number chart to visualize the sequence.",
+      "Encourage counting backward from 10 to 0 for variety."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by counting these blocks together.",
+        "do": "Lay out 10 blocks.",
+        "ask": "Can you count these blocks with me?",
+        "reinforce": "Great job! You counted to 10. Let's try with more blocks next time."
+      },
+      {
+        "say": "Now, let's count from 11 to 20.",
+        "do": "Add 10 more blocks.",
+        "ask": "How many blocks do we have now?",
+        "reinforce": "Awesome! You're getting the hang of counting higher numbers."
+      },
+      {
+        "say": "Let's count all the way to 50 using our number chart.",
+        "do": "Point to numbers on a chart as you count.",
+        "ask": "Can you find the number 30 on the chart?",
+        "reinforce": "Fantastic! The chart helps us see numbers in order."
+      },
+      {
+        "say": "Let's count backward from 10 to 0.",
+        "do": "Use fingers to count down.",
+        "ask": "What number comes before 5?",
+        "reinforce": "Great! Counting backward helps us think about numbers in a new way."
+      },
+      {
+        "say": "Let's practice counting with a song.",
+        "do": "Play a counting song video.",
+        "ask": "Did you hear any numbers you know?",
+        "reinforce": "Songs make counting fun and help us remember the order of numbers."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Count the number of apples in the basket (23).",
+        "hint": "Start from 1 and go up to 23.",
+        "answer": "23"
+      },
+      {
+        "prompt": "If you have 15 marbles and add 10 more, how many do you have?",
+        "hint": "Count from 15 and add 10 more.",
+        "answer": "25"
+      },
+      {
+        "prompt": "What number comes after 49?",
+        "hint": "Think about what comes next after 49.",
+        "answer": "50"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Counting is a key skill that helps in understanding numbers.",
+      "We practiced counting up to 50 using fun activities.",
+      "Keep the learning going by counting everyday items with your child."
+    ],
+    "common_mistakes": [
+      "Skipping numbers when counting.",
+      "Confusing the order of numbers, especially teens.",
+      "Not recognizing numbers beyond 20."
+    ],
+    "deep_dive": {
+      "history": "Counting is one of the oldest human activities, with evidence dating back thousands of years.",
+      "connections": "Counting is the foundation for all arithmetic operations like addition and subtraction.",
+      "misconceptions": "Children may think numbers are just for school, not realizing their everyday applications.",
+      "teaching_tips": "Use visuals and manipulatives to make counting tangible and relatable.",
+      "derivation": "Counting originates from the need to quantify objects, leading to the development of number systems."
+    },
+    "motivation": "Counting is not just a skill; it's a way to explore the world. Celebrate each milestone your child reaches in their counting journey!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of numbers! In this lesson, we'll explore counting from 0 to 50, a foundational skill in your child's math journey.\n\n## Parent Orientation\n**Objective:** Help your child confidently count from 0 to 50, recognizing numbers and understanding their sequence.\n**Why it matters:** Counting is the building block of math. It helps children understand numbers, which is crucial for addition, subtraction, and beyond.\n**Parent Tip:** Encourage your child by counting everyday objects like toys or snacks. Make it fun and interactive!\n**Real-World Link:** Counting is everywhere! From counting steps to counting apples in the grocery store, numbers are a part of daily life.\n\n## Teaching Steps\n1. Introduce numbers 0-10 with objects.\n2. Gradually increase to 20, then 30, and so on up to 50.\n3. Practice counting with songs or videos.\n4. Use a number chart to visualize the sequence.\n5. Encourage counting backward from 10 to 0 for variety.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by counting these blocks together.  \n**Show/Do:** Lay out 10 blocks.  \n**Ask:** Can you count these blocks with me?  \n**Reinforce:** Great job! You counted to 10. Let's try with more blocks next time.\n2. **Say:** Now, let's count from 11 to 20.  \n**Show/Do:** Add 10 more blocks.  \n**Ask:** How many blocks do we have now?  \n**Reinforce:** Awesome! You're getting the hang of counting higher numbers.\n3. **Say:** Let's count all the way to 50 using our number chart.  \n**Show/Do:** Point to numbers on a chart as you count.  \n**Ask:** Can you find the number 30 on the chart?  \n**Reinforce:** Fantastic! The chart helps us see numbers in order.\n4. **Say:** Let's count backward from 10 to 0.  \n**Show/Do:** Use fingers to count down.  \n**Ask:** What number comes before 5?  \n**Reinforce:** Great! Counting backward helps us think about numbers in a new way.\n5. **Say:** Let's practice counting with a song.  \n**Show/Do:** Play a counting song video.  \n**Ask:** Did you hear any numbers you know?  \n**Reinforce:** Songs make counting fun and help us remember the order of numbers.\n\n## Practice Questions (Do It Together)\n**1. Count the number of apples in the basket (23).**\n<details><summary>Hint</summary>\nStart from 1 and go up to 23.\n</details>\n<details><summary>Answer</summary>\n23\n</details>\n\n**2. If you have 15 marbles and add 10 more, how many do you have?**\n<details><summary>Hint</summary>\nCount from 15 and add 10 more.\n</details>\n<details><summary>Answer</summary>\n25\n</details>\n\n**3. What number comes after 49?**\n<details><summary>Hint</summary>\nThink about what comes next after 49.\n</details>\n<details><summary>Answer</summary>\n50\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Counting is a key skill that helps in understanding numbers.\n- We practiced counting up to 50 using fun activities.\n- Keep the learning going by counting everyday items with your child.\n\n**Common Mistakes**\n- Skipping numbers when counting.\n- Confusing the order of numbers, especially teens.\n- Not recognizing numbers beyond 20.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCounting is one of the oldest human activities, with evidence dating back thousands of years.\n\n**Future topic connections**\n\nCounting is the foundation for all arithmetic operations like addition and subtraction.\n\n**Common misconceptions**\n\nChildren may think numbers are just for school, not realizing their everyday applications.\n\n**Teaching tips for parents**\n\nUse visuals and manipulatives to make counting tangible and relatable.\n\n**More detail / derivation**\n\nCounting originates from the need to quantify objects, leading to the development of number systems.\n\n## Motivation\nCounting is not just a skill; it's a way to explore the world. Celebrate each milestone your child reaches in their counting journey!"
+}

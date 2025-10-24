@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "120eb4e3-72c2-48b3-9b50-7bf356beaa79",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "41b32b3d-4597-40c2-9422-f1b1d4366a3b",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "4e8d8f09-cd20-4d63-bd1b-a90df6d0b9b5",
+    "slug": "decimals-tenths-and-hundredths",
+    "title": "Understanding Decimals: Tenths & Hundredths",
+    "summary": "Decimals (tenths & hundredths) — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and use decimals, focusing on tenths and hundredths, to improve their numerical fluency.\n\n**Why it matters:** Decimals are everywhere—from money to measurements. Grasping this concept builds a foundation for future math success.\n\n**Parent Tip:** Use familiar examples like money to explain decimals. For instance, a dime is one-tenth of a dollar.\n\n**Real-World Link:** Imagine a chocolate bar split into 10 equal pieces. Each piece represents a tenth, and two pieces together make two-tenths or 0.2 of the bar.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Decimals can seem tricky, but they're just another way to express fractions. By understanding tenths and hundredths, you can help your child relate math to everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with the concept of a whole: Explain that decimals are parts of a whole, like fractions.\n2. Introduce tenths: Show that 0.1 is one part out of ten equal parts.\n3. Move to hundredths: Explain that 0.01 is one part out of a hundred equal parts.\n4. Use visuals: Draw a grid of 100 squares to show how tenths and hundredths fill up the grid.\n5. Relate to money: Discuss how 0.1 is like a dime and 0.01 is like a penny.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is 0.3 as a fraction?**\n_Answer:_ 3/10\n_Hint:_ Think of 0.3 as three-tenths.\n\n**2. How would you write 45 hundredths as a decimal?**\n_Answer:_ 0.45\n_Hint:_ Consider how many hundredths are in 0.45.\n\n**3. If you have 0.6 of a pizza, how many tenths do you have?**\n_Answer:_ 6/10\n_Hint:_ Relate 0.6 to six-tenths.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tenths with hundredths. Remember, tenths are larger.\n- Misplacing the decimal point can change the value significantly.\n- Overlooking the importance of zeroes in decimal places.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine a chocolate bar split into 10 equal pieces. Each piece represents a tenth, and two pieces together make two-tenths or 0.2 of the bar.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and use decimals, focusing on tenths and hundredths.",
+    "overview": "**Objective:** Help your child understand and use decimals, focusing on tenths and hundredths, to improve their numerical fluency.\n\n**Why it matters:** Decimals are everywhere—from money to measurements. Grasping this concept builds a foundation for future math success.\n\n**Parent Tip:** Use familiar examples like money to explain decimals. For instance, a dime is one-tenth of a dollar.\n\n**Real-World Link:** Imagine a chocolate bar split into 10 equal pieces. Each piece represents a tenth, and two pieces together make two-tenths or 0.2 of the bar.",
+    "core": "Decimals can seem tricky, but they're just another way to express fractions. By understanding tenths and hundredths, you can help your child relate math to everyday life.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why $1.50 is more than $1.05 even though they both have a '1' at the start?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with the concept of a whole: Explain that decimals are parts of a whole, like fractions.\n2. Introduce tenths: Show that 0.1 is one part out of ten equal parts.\n3. Move to hundredths: Explain that 0.01 is one part out of a hundred equal parts.\n4. Use visuals: Draw a grid of 100 squares to show how tenths and hundredths fill up the grid.\n5. Relate to money: Discuss how 0.1 is like a dime and 0.01 is like a penny.",
+    "practice": "**1. What is 0.3 as a fraction?**\n_Answer:_ 3/10\n_Hint:_ Think of 0.3 as three-tenths.\n\n**2. How would you write 45 hundredths as a decimal?**\n_Answer:_ 0.45\n_Hint:_ Consider how many hundredths are in 0.45.\n\n**3. If you have 0.6 of a pizza, how many tenths do you have?**\n_Answer:_ 6/10\n_Hint:_ Relate 0.6 to six-tenths.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing tenths with hundredths. Remember, tenths are larger.\n- Misplacing the decimal point can change the value significantly.\n- Overlooking the importance of zeroes in decimal places.",
+    "connection": "Imagine a chocolate bar split into 10 equal pieces. Each piece represents a tenth, and two pieces together make two-tenths or 0.2 of the bar.",
+    "close": "**Key Takeaways**\n- Decimals represent parts of a whole, just like fractions.\n- Tenths come before hundredths, much like dimes come before pennies.\n- Everyday activities can help reinforce decimal understanding.\n\n**Parent Reflection Questions**\n- How can decimals be used in cooking or baking?\n- Why is understanding tenths and hundredths important for future math concepts?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Decimals: Tenths & Hundredths",
+    "introduction": "Decimals can be a fun and practical way to understand parts of a whole. Let's explore tenths and hundredths together!",
+    "objective": "Help your child recognize and understand decimals up to hundredths and how they relate to fractions.",
+    "why_matters": "Decimals are everywhere! They help us understand money, measurements, and even time.",
+    "parent_tip": "Use everyday experiences, like shopping or cooking, to point out decimals and make them relatable.",
+    "real_world_link": "Think about dollars and cents. One dollar is 100 cents, just like 1.00 is the same as 100 hundredths.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce decimals by comparing them to fractions.",
+      "Explain tenths using visual aids like a pie chart.",
+      "Demonstrate hundredths with a grid or graph paper.",
+      "Relate decimals to real-life examples, like money.",
+      "Practice converting fractions to decimals and vice versa."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about decimals. They're like fractions, but written differently.",
+        "do": "Show a pie chart divided into 10 equal parts.",
+        "ask": "How many parts make up the whole pie?",
+        "reinforce": "Right, 10 parts make a whole! Each part is one-tenth of the pie."
+      },
+      {
+        "say": "Now, let's look at hundredths.",
+        "do": "Use graph paper to show a 10x10 grid.",
+        "ask": "How many squares are there in total?",
+        "reinforce": "Exactly, 100 squares! Each tiny square is one-hundredth."
+      },
+      {
+        "say": "Decimals are like fractions, but they are written with a dot, called a decimal point.",
+        "do": "Write 0.1 and 0.01 on paper.",
+        "ask": "Which one is bigger, 0.1 or 0.01?",
+        "reinforce": "Great! 0.1 is bigger because it's one-tenth, while 0.01 is one-hundredth."
+      },
+      {
+        "say": "Let's connect this to money. Imagine you have $1.00.",
+        "do": "Show a dollar bill and a penny.",
+        "ask": "How many cents are in one dollar?",
+        "reinforce": "Yes, 100 cents! So, $1.00 is like 100 hundredths or 1 whole."
+      },
+      {
+        "say": "Decimals help us in many ways, like measuring ingredients when cooking.",
+        "do": "Measure out 0.5 cups of flour.",
+        "ask": "How much of a cup is this?",
+        "reinforce": "That's half a cup, or 5 tenths of a cup!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Convert 3/10 to a decimal.",
+        "hint": "Think about how many tenths make a whole.",
+        "answer": "0.3"
+      },
+      {
+        "prompt": "If you have 25 hundredths, what is the decimal?",
+        "hint": "How many hundredths are in one whole?",
+        "answer": "0.25"
+      },
+      {
+        "prompt": "What is 0.75 as a fraction?",
+        "hint": "Think about how it relates to hundredths.",
+        "answer": "75/100"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Decimals are another way to represent fractions.",
+      "Tenths are written as 0.1, and hundredths as 0.01.",
+      "Real-world examples, like money, help make decimals relatable."
+    ],
+    "common_mistakes": [
+      "Confusing tenths with hundredths.",
+      "Misplacing the decimal point.",
+      "Thinking 0.1 is the same as 0.01."
+    ],
+    "deep_dive": {
+      "history": "Decimals have been used for centuries, evolving from ancient counting systems.",
+      "connections": "Decimals connect to fractions, percentages, and are crucial in scientific notation.",
+      "misconceptions": "Students often think larger numbers after the decimal point mean a larger value.",
+      "teaching_tips": "Use visuals and real-life examples to make decimals tangible.",
+      "derivation": "Decimals derive from the base-10 system, making them intuitive when using metric measurements."
+    },
+    "motivation": "Understanding decimals opens up a world of precision in math, science, and everyday life!"
+  },
+  "markdown": "## Lesson Introduction\nDecimals can be a fun and practical way to understand parts of a whole. Let's explore tenths and hundredths together!\n\n## Parent Orientation\n**Objective:** Help your child recognize and understand decimals up to hundredths and how they relate to fractions.\n**Why it matters:** Decimals are everywhere! They help us understand money, measurements, and even time.\n**Parent Tip:** Use everyday experiences, like shopping or cooking, to point out decimals and make them relatable.\n**Real-World Link:** Think about dollars and cents. One dollar is 100 cents, just like 1.00 is the same as 100 hundredths.\n\n## Teaching Steps\n1. Introduce decimals by comparing them to fractions.\n2. Explain tenths using visual aids like a pie chart.\n3. Demonstrate hundredths with a grid or graph paper.\n4. Relate decimals to real-life examples, like money.\n5. Practice converting fractions to decimals and vice versa.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about decimals. They're like fractions, but written differently.  \n**Show/Do:** Show a pie chart divided into 10 equal parts.  \n**Ask:** How many parts make up the whole pie?  \n**Reinforce:** Right, 10 parts make a whole! Each part is one-tenth of the pie.\n2. **Say:** Now, let's look at hundredths.  \n**Show/Do:** Use graph paper to show a 10x10 grid.  \n**Ask:** How many squares are there in total?  \n**Reinforce:** Exactly, 100 squares! Each tiny square is one-hundredth.\n3. **Say:** Decimals are like fractions, but they are written with a dot, called a decimal point.  \n**Show/Do:** Write 0.1 and 0.01 on paper.  \n**Ask:** Which one is bigger, 0.1 or 0.01?  \n**Reinforce:** Great! 0.1 is bigger because it's one-tenth, while 0.01 is one-hundredth.\n4. **Say:** Let's connect this to money. Imagine you have $1.00.  \n**Show/Do:** Show a dollar bill and a penny.  \n**Ask:** How many cents are in one dollar?  \n**Reinforce:** Yes, 100 cents! So, $1.00 is like 100 hundredths or 1 whole.\n5. **Say:** Decimals help us in many ways, like measuring ingredients when cooking.  \n**Show/Do:** Measure out 0.5 cups of flour.  \n**Ask:** How much of a cup is this?  \n**Reinforce:** That's half a cup, or 5 tenths of a cup!\n\n## Practice Questions (Do It Together)\n**1. Convert 3/10 to a decimal.**\n<details><summary>Hint</summary>\nThink about how many tenths make a whole.\n</details>\n<details><summary>Answer</summary>\n0.3\n</details>\n\n**2. If you have 25 hundredths, what is the decimal?**\n<details><summary>Hint</summary>\nHow many hundredths are in one whole?\n</details>\n<details><summary>Answer</summary>\n0.25\n</details>\n\n**3. What is 0.75 as a fraction?**\n<details><summary>Hint</summary>\nThink about how it relates to hundredths.\n</details>\n<details><summary>Answer</summary>\n75/100\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Decimals are another way to represent fractions.\n- Tenths are written as 0.1, and hundredths as 0.01.\n- Real-world examples, like money, help make decimals relatable.\n\n**Common Mistakes**\n- Confusing tenths with hundredths.\n- Misplacing the decimal point.\n- Thinking 0.1 is the same as 0.01.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDecimals have been used for centuries, evolving from ancient counting systems.\n\n**Future topic connections**\n\nDecimals connect to fractions, percentages, and are crucial in scientific notation.\n\n**Common misconceptions**\n\nStudents often think larger numbers after the decimal point mean a larger value.\n\n**Teaching tips for parents**\n\nUse visuals and real-life examples to make decimals tangible.\n\n**More detail / derivation**\n\nDecimals derive from the base-10 system, making them intuitive when using metric measurements.\n\n## Motivation\nUnderstanding decimals opens up a world of precision in math, science, and everyday life!"
+}

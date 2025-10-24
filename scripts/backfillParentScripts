@@ -1,0 +1,82 @@
+#!/usr/bin/env node
+/**
+ * Adds "parent_teaching_script" to lessons missing it, using OpenAI.
+ */
+import path from 'path';
+import { promises as fs } from 'fs';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: path.join(process.cwd(), '.env.local') });
+
+const ROOT = path.join(process.cwd());
+const LESSONS_DIR = path.join(ROOT, 'public', 'lessons');
+const OPENAI_KEY = process.env.OPENAI_API_KEY || process.env.OPENAI_API_TOKEN;
+if (!OPENAI_KEY) { console.error('❌ Missing OPENAI_API_KEY'); process.exit(1); }
+
+const args = process.argv.slice(2);
+const getArg = (n, d=null)=>{ const a=args.find(x=>x.startsWith(`--${n}=`)); return a? a.split('=')[1]: d; };
+const model = getArg('model','gpt-4o-mini');
+const retries = parseInt(getArg('retries','1'),10)||1;
+
+async function callOpenAIJSON(prompt){
+  let last=null;
+  for(let i=0;i<retries;i++){
+    try{
+      const res=await fetch('https://api.openai.com/v1/chat/completions',{
+        method:'POST',
+        headers:{Authorization:`Bearer ${OPENAI_KEY}`,'Content-Type':'application/json'},
+        body:JSON.stringify({
+          model, temperature:0.5,
+          response_format:{type:'json_object'},
+          messages:[
+            {role:'system',content:'You write concise parent-teaching scripts for K–12 math.'},
+            {role:'user',content:prompt}
+          ]
+        })
+      });
+      if(!res.ok) throw new Error(`OpenAI ${res.status}: ${await res.text()}`);
+      const data=await res.json();
+      return JSON.parse(data?.choices?.[0]?.message?.content ?? '{}');
+    }catch(e){ last=e; }
+  }
+  throw last||new Error('OpenAI call failed');
+}
+
+function promptFor(title, intro){
+  return `Create ONLY a JSON object with key "parent_teaching_script": an array of 6 steps.
+Each step must have: { "say": string, "do": string, "ask": string, "reinforce": string }.
+Tone: warm, parent-friendly; short sentences.
+Topic: "${title}".
+Context intro: "${intro || ''}"`;
+}
+
+async function main(){
+  const grades=(await fs.readdir(LESSONS_DIR,{withFileTypes:true})).filter(d=>d.isDirectory()).map(d=>d.name);
+  let changed=0, scanned=0;
+  for(const g of grades){
+    const dir=path.join(LESSONS_DIR,g);
+    const files=(await fs.readdir(dir)).filter(f=>f.endsWith('.json')&&!f.startsWith('_'));
+    for(const f of files){
+      const fp=path.join(dir,f);
+      scanned++;
+      const json=JSON.parse(await fs.readFile(fp,'utf8'));
+      if (json?.universal?.parent_teaching_script?.length) continue;
+
+      const title = json?.universal?.title || json?.lesson?.title || f.replace(/\.json$/,'').replace(/-/g,' ');
+      const intro = json?.universal?.introduction || '';
+      try{
+        const result = await callOpenAIJSON(promptFor(title, intro));
+        if (!result?.parent_teaching_script?.length) continue;
+        json.universal = json.universal || {};
+        json.universal.parent_teaching_script = result.parent_teaching_script;
+        await fs.writeFile(fp, JSON.stringify(json,null,2),'utf8');
+        console.log('✅ Backfilled script:', `${g}/${f}`);
+        changed++;
+      }catch(e){
+        console.log('❌ Failed backfill:', `${g}/${f}`, e.message);
+      }
+    }
+  }
+  console.log(`\nScanned: ${scanned}, Updated: ${changed}`);
+}
+main().catch(e=>{ console.error(e); process.exit(1); });

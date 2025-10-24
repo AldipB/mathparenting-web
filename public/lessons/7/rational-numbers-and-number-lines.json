@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "87a2a563-0f69-40aa-9f4b-e1a7f6ada3fe",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "d2f3e309-37f0-49a5-9836-adeab147b59d",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "87ed3f50-8eb7-433e-b4fa-2b69d0444eb4",
+    "slug": "rational-numbers-and-number-lines",
+    "title": "Rational Numbers & Number Lines",
+    "summary": "Rational numbers & number lines — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and place rational numbers on a number line, making them comfortable with fractions and decimals.\n\n**Why it matters:** Understanding rational numbers is key to making sense of everyday situations, like dividing a pizza among friends or measuring ingredients accurately.\n\n**Parent Tip:** Encourage your child to visualize numbers by drawing number lines. This can make abstract concepts more concrete.\n\n**Real-World Link:** Think about a thermometer. It has positive and negative numbers, much like a number line. Rational numbers help us understand temperature changes.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Rational numbers are like the ingredients in your kitchen. They help us measure and compare everything from recipes to distances. Let's explore how they fit on a number line.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain what rational numbers are: numbers that can be expressed as fractions.\n2. Show how to convert fractions to decimals and vice versa.\n3. Draw a number line and mark integers.\n4. Add fractions and decimals to the number line.\n5. Practice placing various rational numbers on the number line.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Place 1/2 and 0.75 on a number line.**\n_Answer:_ 1/2 is at 0.5 and 0.75 is three-fourths between 0 and 1.\n_Hint:_ Convert 1/2 to 0.5 for easy comparison.\n\n**2. Locate -1.5 on a number line.**\n_Answer:_ It's halfway between -1 and -2.\n_Hint:_ Think of -1.5 as -1 and an extra half.\n\n**3. Which is greater: 2/3 or 0.6?**\n_Answer:_ 2/3 is approximately 0.67, which is greater than 0.6.\n_Hint:_ Convert 2/3 to a decimal.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting that negative numbers are less than positive numbers.\n- Mixing up the positions of fractions and decimals on the number line.\n- Assuming larger denominators mean larger numbers.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a thermometer. It has positive and negative numbers, much like a number line. Rational numbers help us understand temperature changes.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and place rational numbers on a number line.",
+    "overview": "**Objective:** Help your child understand and place rational numbers on a number line, making them comfortable with fractions and decimals.\n\n**Why it matters:** Understanding rational numbers is key to making sense of everyday situations, like dividing a pizza among friends or measuring ingredients accurately.\n\n**Parent Tip:** Encourage your child to visualize numbers by drawing number lines. This can make abstract concepts more concrete.\n\n**Real-World Link:** Think about a thermometer. It has positive and negative numbers, much like a number line. Rational numbers help us understand temperature changes.",
+    "core": "Rational numbers are like the ingredients in your kitchen. They help us measure and compare everything from recipes to distances. Let's explore how they fit on a number line.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that numbers can be both positive and negative, just like temperatures? Let's explore how these numbers find their place on a line!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain what rational numbers are: numbers that can be expressed as fractions.\n2. Show how to convert fractions to decimals and vice versa.\n3. Draw a number line and mark integers.\n4. Add fractions and decimals to the number line.\n5. Practice placing various rational numbers on the number line.",
+    "practice": "**1. Place 1/2 and 0.75 on a number line.**\n_Answer:_ 1/2 is at 0.5 and 0.75 is three-fourths between 0 and 1.\n_Hint:_ Convert 1/2 to 0.5 for easy comparison.\n\n**2. Locate -1.5 on a number line.**\n_Answer:_ It's halfway between -1 and -2.\n_Hint:_ Think of -1.5 as -1 and an extra half.\n\n**3. Which is greater: 2/3 or 0.6?**\n_Answer:_ 2/3 is approximately 0.67, which is greater than 0.6.\n_Hint:_ Convert 2/3 to a decimal.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting that negative numbers are less than positive numbers.\n- Mixing up the positions of fractions and decimals on the number line.\n- Assuming larger denominators mean larger numbers.",
+    "connection": "Think about a thermometer. It has positive and negative numbers, much like a number line. Rational numbers help us understand temperature changes.",
+    "close": "**Key Takeaways**\n- Rational numbers can be positive or negative.\n- Number lines help visualize and compare these numbers.\n- Understanding placement on a number line aids in grasping size and order.\n\n**Parent Reflection Questions**\n- How can you use a number line to explain the concept of debt or credit?\n- What are some other real-world examples of negative numbers?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Rational Numbers & Number Lines",
+    "introduction": "Welcome to the world of rational numbers! These are numbers that can be expressed as a fraction, where both the numerator and the denominator are integers. Let's explore how they fit on a number line, making math a bit more visual and fun.",
+    "objective": "Help your child understand and locate rational numbers on a number line.",
+    "why_matters": "Rational numbers are everywhere in daily life, from cooking measurements to budgeting. Understanding where they fit on a number line builds a strong foundation for future math skills.",
+    "parent_tip": "Encourage your child to think of the number line as a ruler where each tick mark represents a fraction of the whole. This visual can make abstract concepts more concrete.",
+    "real_world_link": "Imagine planning a road trip. If you know the total distance is divided into equal parts, understanding fractions helps you figure out how far you've traveled or how much is left.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Discuss what rational numbers are and how they can be fractions.",
+      "Introduce the number line as a visual tool.",
+      "Show how to place whole numbers and fractions on the number line.",
+      "Practice identifying fractions between whole numbers.",
+      "Encourage your child to use the number line in everyday scenarios."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about rational numbers.",
+        "do": "Show a number line with whole numbers marked.",
+        "ask": "What do you notice about these numbers?",
+        "reinforce": "These are whole numbers, but rational numbers include fractions too!"
+      },
+      {
+        "say": "See how we can add fractions to our number line.",
+        "do": "Mark fractions like 1/2, 1/4, and 3/4 between whole numbers.",
+        "ask": "Can you find where 1/2 is on this line?",
+        "reinforce": "Great! 1/2 is halfway between 0 and 1."
+      },
+      {
+        "say": "Rational numbers can be placed anywhere on this line.",
+        "do": "Demonstrate placing 3/2 and 5/4 on the number line.",
+        "ask": "Where would 3/2 go?",
+        "reinforce": "Exactly, it's just past 1 on the line."
+      },
+      {
+        "say": "Let's try with negative rational numbers.",
+        "do": "Extend the number line to include negative fractions.",
+        "ask": "Where would -1/2 be?",
+        "reinforce": "Nice work! It's halfway between 0 and -1."
+      },
+      {
+        "say": "How about practicing with some real-life examples?",
+        "do": "Discuss scenarios like splitting a pizza or measuring ingredients.",
+        "ask": "If a recipe calls for 3/4 cup of sugar, where does that fit?",
+        "reinforce": "You've got it! It's right between 1/2 and 1 on our line."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Place 2/3 on the number line.",
+        "hint": "Think about what two-thirds of the way between 0 and 1 looks like.",
+        "answer": "2/3 is closer to 1 than to 0."
+      },
+      {
+        "prompt": "Where does -3/4 go on the number line?",
+        "hint": "Consider what three-fourths of the way from 0 to -1 looks like.",
+        "answer": "-3/4 is closer to -1 than to 0."
+      },
+      {
+        "prompt": "Find 5/4 on the number line.",
+        "hint": "5/4 is more than 1 but less than 2.",
+        "answer": "5/4 is just past 1 on the number line."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Rational numbers include both positive and negative fractions.",
+      "Visualizing these numbers on a number line helps make sense of them.",
+      "Practice using number lines to place fractions accurately."
+    ],
+    "common_mistakes": [
+      "Confusing the placement of fractions like 1/2 and 2/3.",
+      "Forgetting that fractions can be greater than 1 or less than 0.",
+      "Not recognizing that negative fractions move left on the number line."
+    ],
+    "deep_dive": {
+      "history": "The concept of rational numbers dates back to ancient civilizations that needed to divide resources evenly.",
+      "connections": "Rational numbers are foundational for algebra, geometry, and calculus.",
+      "misconceptions": "A common misconception is thinking all fractions are less than 1.",
+      "teaching_tips": "Use everyday examples like sharing food or time to explain fractions.",
+      "derivation": "Rational numbers derive from the idea of dividing whole numbers into equal parts."
+    },
+    "motivation": "Understanding rational numbers opens up a world of mathematical possibilities. It helps in making informed decisions in daily life, from splitting a bill to measuring ingredients accurately."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of rational numbers! These are numbers that can be expressed as a fraction, where both the numerator and the denominator are integers. Let's explore how they fit on a number line, making math a bit more visual and fun.\n\n## Parent Orientation\n**Objective:** Help your child understand and locate rational numbers on a number line.\n**Why it matters:** Rational numbers are everywhere in daily life, from cooking measurements to budgeting. Understanding where they fit on a number line builds a strong foundation for future math skills.\n**Parent Tip:** Encourage your child to think of the number line as a ruler where each tick mark represents a fraction of the whole. This visual can make abstract concepts more concrete.\n**Real-World Link:** Imagine planning a road trip. If you know the total distance is divided into equal parts, understanding fractions helps you figure out how far you've traveled or how much is left.\n\n## Teaching Steps\n1. Discuss what rational numbers are and how they can be fractions.\n2. Introduce the number line as a visual tool.\n3. Show how to place whole numbers and fractions on the number line.\n4. Practice identifying fractions between whole numbers.\n5. Encourage your child to use the number line in everyday scenarios.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about rational numbers.  \n**Show/Do:** Show a number line with whole numbers marked.  \n**Ask:** What do you notice about these numbers?  \n**Reinforce:** These are whole numbers, but rational numbers include fractions too!\n2. **Say:** See how we can add fractions to our number line.  \n**Show/Do:** Mark fractions like 1/2, 1/4, and 3/4 between whole numbers.  \n**Ask:** Can you find where 1/2 is on this line?  \n**Reinforce:** Great! 1/2 is halfway between 0 and 1.\n3. **Say:** Rational numbers can be placed anywhere on this line.  \n**Show/Do:** Demonstrate placing 3/2 and 5/4 on the number line.  \n**Ask:** Where would 3/2 go?  \n**Reinforce:** Exactly, it's just past 1 on the line.\n4. **Say:** Let's try with negative rational numbers.  \n**Show/Do:** Extend the number line to include negative fractions.  \n**Ask:** Where would -1/2 be?  \n**Reinforce:** Nice work! It's halfway between 0 and -1.\n5. **Say:** How about practicing with some real-life examples?  \n**Show/Do:** Discuss scenarios like splitting a pizza or measuring ingredients.  \n**Ask:** If a recipe calls for 3/4 cup of sugar, where does that fit?  \n**Reinforce:** You've got it! It's right between 1/2 and 1 on our line.\n\n## Practice Questions (Do It Together)\n**1. Place 2/3 on the number line.**\n<details><summary>Hint</summary>\nThink about what two-thirds of the way between 0 and 1 looks like.\n</details>\n<details><summary>Answer</summary>\n2/3 is closer to 1 than to 0.\n</details>\n\n**2. Where does -3/4 go on the number line?**\n<details><summary>Hint</summary>\nConsider what three-fourths of the way from 0 to -1 looks like.\n</details>\n<details><summary>Answer</summary>\n-3/4 is closer to -1 than to 0.\n</details>\n\n**3. Find 5/4 on the number line.**\n<details><summary>Hint</summary>\n5/4 is more than 1 but less than 2.\n</details>\n<details><summary>Answer</summary>\n5/4 is just past 1 on the number line.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Rational numbers include both positive and negative fractions.\n- Visualizing these numbers on a number line helps make sense of them.\n- Practice using number lines to place fractions accurately.\n\n**Common Mistakes**\n- Confusing the placement of fractions like 1/2 and 2/3.\n- Forgetting that fractions can be greater than 1 or less than 0.\n- Not recognizing that negative fractions move left on the number line.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of rational numbers dates back to ancient civilizations that needed to divide resources evenly.\n\n**Future topic connections**\n\nRational numbers are foundational for algebra, geometry, and calculus.\n\n**Common misconceptions**\n\nA common misconception is thinking all fractions are less than 1.\n\n**Teaching tips for parents**\n\nUse everyday examples like sharing food or time to explain fractions.\n\n**More detail / derivation**\n\nRational numbers derive from the idea of dividing whole numbers into equal parts.\n\n## Motivation\nUnderstanding rational numbers opens up a world of mathematical possibilities. It helps in making informed decisions in daily life, from splitting a bill to measuring ingredients accurately."
+}

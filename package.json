@@ -14,7 +14,7 @@
     "seed": "node scripts/seedCourses.mjs",
     "upgrade:sections": "node scripts/upgradeSections.mjs",
 
-    "//———— authoring helpers ————": "",
+    "//———— authoring helpers (legacy) ————": "",
     "author:all": "node scripts/authorAll.mjs",
     "author:missing": "node scripts/authorMissing.mjs",
     "author:k": "node scripts/autoAuthor.mjs --grade=k",
@@ -31,10 +31,24 @@
     "author:11": "node scripts/autoAuthor.mjs --grade=11",
     "author:12": "node scripts/autoAuthor.mjs --grade=12",
 
-    "//———— lesson file utilities (Supabase → /public/lessons) ————": "",
+    "//———— lessons (files in /public/lessons) ————": "",
     "lessons:export": "node scripts/exportLessonsToFiles.mjs",
+    "lessons:scaffold:list": "node scripts/scaffoldFromList.mjs",
+    "lessons:scaffold:list:overwrite": "node scripts/scaffoldFromList.mjs --overwrite",
+    "lessons:index": "node scripts/buildLessonIndexes.mjs",
     "lessons:list": "node -e \"const fs=require('fs'),p=require('path'),root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.log('No public/lessons/ found');process.exit(0)};for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);const files=fs.readdirSync(dir).filter(f=>f.endsWith('.json'));console.log(g+':', files.length, 'file(s)');files.forEach(f=>console.log('  -',f))}\"",
-    "lessons:check": "node -e \"const fs=require('fs'),p=require('path');const root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.error('❌ Missing public/lessons');process.exit(1)}let bad=0;for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);for(const f of fs.readdirSync(dir).filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync(p.join(dir,f),'utf8'))}catch(e){console.error('❌ Invalid JSON:',p.join('public','lessons',g,f));bad++}}}if(bad){process.exit(1)}console.log('✅ All lesson JSONs parse cleanly')\""
+    "lessons:check": "node -e \"const fs=require('fs'),p=require('path');const root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.error('❌ Missing public/lessons');process.exit(1)}let bad=0;for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);for(const f of fs.readdirSync(dir).filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync(p.join(dir,f),'utf8'))}catch(e){console.error('❌ Invalid JSON:',p.join('public','lessons',g,f));bad++}}}if(bad){process.exit(1)}console.log('✅ All lesson JSONs parse cleanly')\"",
+
+    "//———— high-quality authoring & QA ————": "",
+    "lessons:author:spec": "node scripts/authorWithSpec.mjs",
+    "lessons:qa": "node scripts/qaLessons.mjs",
+
+    "//———— universal authoring (parent-focused) ————": "",
+    "lessons:author:universal": "node scripts/authorUniversal.mjs",
+    "lessons:backfill:parent-script": "node scripts/backfillParentScripts.mjs",
+
+    "//———— formatting fixes ————": "",
+    "lessons:fix:matrices": "node scripts/fixMatrices.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.75.0",
@@ -46,6 +60,7 @@
     "react-dom": "19.1.0",
     "react-markdown": "^10.1.0",
     "rehype-katex": "^7.0.1",
+    "rehype-raw": "^7.0.0",
     "remark-math": "^6.0.0"
   },
   "devDependencies": {

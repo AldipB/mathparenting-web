@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "8f41ea94-c924-419a-849c-42e85872f459",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "fe945a82-3be2-419a-9b6a-a6dc3a4b38b0",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b8b50777-6b8b-494b-97c1-9946c7a2ef07",
+    "slug": "solving-1-step-and-2-step-equations",
+    "title": "Solving 1-step & 2-step Equations",
+    "summary": "Solving 1-step & 2-step equations — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and solve 1-step and 2-step equations with ease.\n\n**Why it matters:** Equations are everywhere! From calculating change at a store to planning a road trip, they are essential tools in everyday life.\n\n**Parent Tip:** Encourage your child by relating equations to daily tasks. Celebrate their progress, even small victories!\n\n**Real-World Link:** Think of an equation as a balance scale. Whatever you do on one side, you must do on the other to keep it balanced. This concept is key in solving equations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to a journey of unraveling equations! These are the building blocks of algebra and help your child solve problems efficiently. Let's make it simple and fun together.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with 1-step equations: Explain that these require just one operation to solve. For example, x + 5 = 12.\n2. Encourage your child to 'undo' the operation: Subtract 5 from 12 to find x.\n3. Move to 2-step equations: These involve two operations. For example, 2x + 3 = 11.\n4. Guide them to reverse the operations in steps: Subtract 3 from 11, then divide by 2.\n5. Stress the importance of doing the same operation on both sides to maintain balance.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Solve: x - 4 = 9**\n_Answer:_ x = 13\n_Hint:_ Add 4 to both sides to isolate x.\n\n**2. Solve: 3x = 15**\n_Answer:_ x = 5\n_Hint:_ Divide both sides by 3 to find x.\n\n**3. Solve: 2x + 5 = 13**\n_Answer:_ x = 4\n_Hint:_ Subtract 5 from both sides, then divide by 2.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to perform the operation on both sides of the equation.\n- Mixing up the order of operations in 2-step equations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of an equation as a balance scale. Whatever you do on one side, you must do on the other to keep it balanced. This concept is key in solving equations.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child learn how to solve 1-step and 2-step equations, building confidence in manipulating numbers and understanding equality.",
+    "overview": "**Objective:** Help your child understand and solve 1-step and 2-step equations with ease.\n\n**Why it matters:** Equations are everywhere! From calculating change at a store to planning a road trip, they are essential tools in everyday life.\n\n**Parent Tip:** Encourage your child by relating equations to daily tasks. Celebrate their progress, even small victories!\n\n**Real-World Link:** Think of an equation as a balance scale. Whatever you do on one side, you must do on the other to keep it balanced. This concept is key in solving equations.",
+    "core": "Welcome to a journey of unraveling equations! These are the building blocks of algebra and help your child solve problems efficiently. Let's make it simple and fun together.",
+    "demo": "**Spark Curiosity:**\n\nWhat if you could solve a puzzle just by knowing one piece of information? That's what solving equations is like!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with 1-step equations: Explain that these require just one operation to solve. For example, x + 5 = 12.\n2. Encourage your child to 'undo' the operation: Subtract 5 from 12 to find x.\n3. Move to 2-step equations: These involve two operations. For example, 2x + 3 = 11.\n4. Guide them to reverse the operations in steps: Subtract 3 from 11, then divide by 2.\n5. Stress the importance of doing the same operation on both sides to maintain balance.",
+    "practice": "**1. Solve: x - 4 = 9**\n_Answer:_ x = 13\n_Hint:_ Add 4 to both sides to isolate x.\n\n**2. Solve: 3x = 15**\n_Answer:_ x = 5\n_Hint:_ Divide both sides by 3 to find x.\n\n**3. Solve: 2x + 5 = 13**\n_Answer:_ x = 4\n_Hint:_ Subtract 5 from both sides, then divide by 2.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to perform the operation on both sides of the equation.\n- Mixing up the order of operations in 2-step equations.",
+    "connection": "Think of an equation as a balance scale. Whatever you do on one side, you must do on the other to keep it balanced. This concept is key in solving equations.",
+    "close": "**Key Takeaways**\n- Equations require maintaining balance on both sides.\n- 1-step equations involve a single operation, while 2-step equations require two operations.\n- Encourage logical reasoning and verbalizing thought processes.\n\n**Parent Reflection Questions**\n- How can we ensure both sides of the equation stay balanced?\n- What did you find tricky about solving these equations?\n- Can you create your own equation for us to solve together?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Solving 1-step & 2-step Equations",
+    "introduction": "Welcome! Equations are like puzzles waiting to be solved. In this lesson, we'll explore how to solve one-step and two-step equations with your child, making math a fun and engaging journey.",
+    "objective": "Help your child confidently solve one-step and two-step equations, building a strong foundation for algebra.",
+    "why_matters": "Understanding equations is crucial as it lays the groundwork for algebra, a key component in higher math and many real-world applications.",
+    "parent_tip": "Encourage your child to think of equations as balance scales. What you do to one side, you must do to the other to keep it balanced.",
+    "real_world_link": "Equations are used in budgeting, cooking, and even planning trips. They help us make informed decisions by providing a clear path to solutions.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of equations as balanced scales.",
+      "Explain one-step equations and their solutions.",
+      "Move on to two-step equations, highlighting the order of operations.",
+      "Practice solving equations together, ensuring understanding.",
+      "Discuss common pitfalls and how to avoid them."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's imagine an equation as a balance scale.",
+        "do": "Draw a simple scale with weights on each side.",
+        "ask": "What happens if we add or remove weight from one side?",
+        "reinforce": "To keep the scale balanced, we must do the same to both sides."
+      },
+      {
+        "say": "Here's a simple one-step equation: x + 3 = 7.",
+        "do": "Write the equation on paper.",
+        "ask": "What number can we add to 3 to get 7?",
+        "reinforce": "By subtracting 3 from both sides, we find x = 4. The balance is maintained."
+      },
+      {
+        "say": "Now, let's tackle a two-step equation: 2x + 3 = 11.",
+        "do": "Write the equation on paper.",
+        "ask": "What should we do first to isolate x?",
+        "reinforce": "Subtract 3 from both sides, then divide by 2 to find x = 4."
+      },
+      {
+        "say": "Practice makes perfect! Let's try another one.",
+        "do": "Write down 3x - 5 = 10.",
+        "ask": "Can you solve it step by step?",
+        "reinforce": "Add 5 to both sides, then divide by 3 to find x = 5."
+      },
+      {
+        "say": "Remember, each step brings us closer to the solution.",
+        "do": "Encourage your child to explain their thought process.",
+        "ask": "How does understanding equations help in real life?",
+        "reinforce": "Equations simplify complex problems, making them manageable."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Solve the equation: x - 4 = 9",
+        "hint": "Add 4 to both sides.",
+        "answer": "x = 13"
+      },
+      {
+        "prompt": "Solve the equation: 5x + 2 = 17",
+        "hint": "Subtract 2 from both sides, then divide by 5.",
+        "answer": "x = 3"
+      },
+      {
+        "prompt": "Solve the equation: 3x - 6 = 12",
+        "hint": "Add 6 to both sides, then divide by 3.",
+        "answer": "x = 6"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Equations are like balance scales.",
+      "Solving an equation means finding the value that makes it true.",
+      "In one-step equations, perform one operation to solve.",
+      "In two-step equations, follow the order of operations to isolate the variable."
+    ],
+    "common_mistakes": [
+      "Forgetting to perform the same operation on both sides.",
+      "Mixing up the order of operations in two-step equations.",
+      "Misplacing negative signs or forgetting to invert operations."
+    ],
+    "deep_dive": {
+      "history": "Equations have been used since ancient times, with roots in Egyptian and Babylonian mathematics.",
+      "connections": "Equations are foundational in physics, engineering, economics, and computer science.",
+      "misconceptions": "Some believe equations are only for math class, but they're vital in everyday decision-making.",
+      "teaching_tips": "Use real-life scenarios to make equations relatable, like sharing snacks equally.",
+      "derivation": "Understanding the derivation of equations helps in grasping their applications and implications."
+    },
+    "motivation": "Solving equations empowers your child with problem-solving skills essential for academic success and everyday life challenges."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Equations are like puzzles waiting to be solved. In this lesson, we'll explore how to solve one-step and two-step equations with your child, making math a fun and engaging journey.\n\n## Parent Orientation\n**Objective:** Help your child confidently solve one-step and two-step equations, building a strong foundation for algebra.\n**Why it matters:** Understanding equations is crucial as it lays the groundwork for algebra, a key component in higher math and many real-world applications.\n**Parent Tip:** Encourage your child to think of equations as balance scales. What you do to one side, you must do to the other to keep it balanced.\n**Real-World Link:** Equations are used in budgeting, cooking, and even planning trips. They help us make informed decisions by providing a clear path to solutions.\n\n## Teaching Steps\n1. Introduce the concept of equations as balanced scales.\n2. Explain one-step equations and their solutions.\n3. Move on to two-step equations, highlighting the order of operations.\n4. Practice solving equations together, ensuring understanding.\n5. Discuss common pitfalls and how to avoid them.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's imagine an equation as a balance scale.  \n**Show/Do:** Draw a simple scale with weights on each side.  \n**Ask:** What happens if we add or remove weight from one side?  \n**Reinforce:** To keep the scale balanced, we must do the same to both sides.\n2. **Say:** Here's a simple one-step equation: x + 3 = 7.  \n**Show/Do:** Write the equation on paper.  \n**Ask:** What number can we add to 3 to get 7?  \n**Reinforce:** By subtracting 3 from both sides, we find x = 4. The balance is maintained.\n3. **Say:** Now, let's tackle a two-step equation: 2x + 3 = 11.  \n**Show/Do:** Write the equation on paper.  \n**Ask:** What should we do first to isolate x?  \n**Reinforce:** Subtract 3 from both sides, then divide by 2 to find x = 4.\n4. **Say:** Practice makes perfect! Let's try another one.  \n**Show/Do:** Write down 3x - 5 = 10.  \n**Ask:** Can you solve it step by step?  \n**Reinforce:** Add 5 to both sides, then divide by 3 to find x = 5.\n5. **Say:** Remember, each step brings us closer to the solution.  \n**Show/Do:** Encourage your child to explain their thought process.  \n**Ask:** How does understanding equations help in real life?  \n**Reinforce:** Equations simplify complex problems, making them manageable.\n\n## Practice Questions (Do It Together)\n**1. Solve the equation: x - 4 = 9**\n<details><summary>Hint</summary>\nAdd 4 to both sides.\n</details>\n<details><summary>Answer</summary>\nx = 13\n</details>\n\n**2. Solve the equation: 5x + 2 = 17**\n<details><summary>Hint</summary>\nSubtract 2 from both sides, then divide by 5.\n</details>\n<details><summary>Answer</summary>\nx = 3\n</details>\n\n**3. Solve the equation: 3x - 6 = 12**\n<details><summary>Hint</summary>\nAdd 6 to both sides, then divide by 3.\n</details>\n<details><summary>Answer</summary>\nx = 6\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Equations are like balance scales.\n- Solving an equation means finding the value that makes it true.\n- In one-step equations, perform one operation to solve.\n- In two-step equations, follow the order of operations to isolate the variable.\n\n**Common Mistakes**\n- Forgetting to perform the same operation on both sides.\n- Mixing up the order of operations in two-step equations.\n- Misplacing negative signs or forgetting to invert operations.\n\n## 🔍 Deep Dive\n**History or origin**\n\nEquations have been used since ancient times, with roots in Egyptian and Babylonian mathematics.\n\n**Future topic connections**\n\nEquations are foundational in physics, engineering, economics, and computer science.\n\n**Common misconceptions**\n\nSome believe equations are only for math class, but they're vital in everyday decision-making.\n\n**Teaching tips for parents**\n\nUse real-life scenarios to make equations relatable, like sharing snacks equally.\n\n**More detail / derivation**\n\nUnderstanding the derivation of equations helps in grasping their applications and implications.\n\n## Motivation\nSolving equations empowers your child with problem-solving skills essential for academic success and everyday life challenges."
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "0b0a3431-67dd-4e8d-bc31-2cda0732dda2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "4b1949f4-342f-4c76-bb40-7614b38de6ab",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "f9b49ce3-4b16-4b09-8d85-bbd40e21763e",
+    "slug": "fractions-on-number-line",
+    "title": "Fractions on a Number Line",
+    "summary": "Fractions on number line — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to place and identify fractions on a number line.\n\n**Why it matters:** Understanding fractions on a number line helps in visualizing how numbers work in daily life, like dividing a pizza or measuring ingredients.\n\n**Parent Tip:** Encourage your child to visualize fractions by using everyday objects like a ruler or a piece of string. This tangible experience can make abstract concepts more relatable.\n\n**Real-World Link:** Think of a number line like a ruler. Just as a ruler measures inches, a number line measures parts of a whole. When you measure 1/2 cup of flour, you're using fractions in real life.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore how fractions fit on a number line. This is a fundamental skill that will help your child understand parts of a whole in a visual way.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of a number line as a straight path with numbers placed at equal intervals.\n2. Explain that fractions represent parts of a whole and can be placed between whole numbers on a number line.\n3. Show how to divide the space between 0 and 1 into equal parts based on the fraction's denominator.\n4. Place the fraction on the number line according to the numerator, which tells how many parts to count from zero.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Place 1/4 on a number line between 0 and 1.**\n_Answer:_ 1/4 is the first mark after 0 when divided into 4 parts.\n_Hint:_ Divide the space between 0 and 1 into 4 equal parts.\n\n**2. Locate 3/5 on a number line between 0 and 1.**\n_Answer:_ 3/5 is the third mark after 0 when divided into 5 parts.\n_Hint:_ Divide the space into 5 equal parts and count 3 parts from 0.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the numerator and denominator positions.\n- Not dividing the number line evenly based on the denominator.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a number line like a ruler. Just as a ruler measures inches, a number line measures parts of a whole. When you measure 1/2 cup of flour, you're using fractions in real life.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to locate and represent fractions on a number line.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to place and identify fractions on a number line.\n\n**Why it matters:** Understanding fractions on a number line helps in visualizing how numbers work in daily life, like dividing a pizza or measuring ingredients.\n\n**Parent Tip:** Encourage your child to visualize fractions by using everyday objects like a ruler or a piece of string. This tangible experience can make abstract concepts more relatable.\n\n**Real-World Link:** Think of a number line like a ruler. Just as a ruler measures inches, a number line measures parts of a whole. When you measure 1/2 cup of flour, you're using fractions in real life.",
+    "core": "Welcome! Today, we'll explore how fractions fit on a number line. This is a fundamental skill that will help your child understand parts of a whole in a visual way.",
+    "demo": "**Spark Curiosity:**\n\nImagine you're at a pizza party. How can you make sure everyone gets an equal share? Fractions can help us figure it out!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the concept of a number line as a straight path with numbers placed at equal intervals.\n2. Explain that fractions represent parts of a whole and can be placed between whole numbers on a number line.\n3. Show how to divide the space between 0 and 1 into equal parts based on the fraction's denominator.\n4. Place the fraction on the number line according to the numerator, which tells how many parts to count from zero.",
+    "practice": "**1. Place 1/4 on a number line between 0 and 1.**\n_Answer:_ 1/4 is the first mark after 0 when divided into 4 parts.\n_Hint:_ Divide the space between 0 and 1 into 4 equal parts.\n\n**2. Locate 3/5 on a number line between 0 and 1.**\n_Answer:_ 3/5 is the third mark after 0 when divided into 5 parts.\n_Hint:_ Divide the space into 5 equal parts and count 3 parts from 0.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the numerator and denominator positions.\n- Not dividing the number line evenly based on the denominator.",
+    "connection": "Think of a number line like a ruler. Just as a ruler measures inches, a number line measures parts of a whole. When you measure 1/2 cup of flour, you're using fractions in real life.",
+    "close": "**Key Takeaways**\n- Fractions represent parts of a whole.\n- A number line is a great tool to visualize fractions.\n- Understanding fractions helps with real-life tasks like cooking and sharing.\n\n**Parent Reflection Questions**\n- How can you use a number line to explain fractions?\n- What everyday activities involve fractions?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Fractions on a Number Line",
+    "introduction": "Welcome! Today, we're exploring how fractions fit on a number line. This is a fun way for your child to visualize fractions and understand their size compared to whole numbers.",
+    "objective": "Help your child place and identify fractions on a number line, gaining confidence in comparing and understanding them.",
+    "why_matters": "Understanding fractions is crucial as they are used in everyday life, from cooking to sharing equally. Visualizing them on a number line makes them less abstract and more relatable.",
+    "parent_tip": "Encourage your child to think of fractions as pieces of a whole. Using objects like a ruler or a measuring tape can make the concept more tangible.",
+    "real_world_link": "Imagine cutting a pizza into equal slices. Each slice represents a fraction of the whole pizza. Number lines help us see these parts clearly.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of fractions as parts of a whole.",
+      "Explain how a number line can represent these fractions.",
+      "Show how to divide the space between two whole numbers into equal parts.",
+      "Practice placing simple fractions like 1/2 and 1/4 on the line.",
+      "Discuss and compare the sizes of different fractions."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by thinking about what a fraction is.",
+        "do": "Show your child a piece of fruit, like an apple, and cut it into equal parts.",
+        "ask": "How many parts do we have now?",
+        "reinforce": "Each piece is a fraction of the whole apple."
+      },
+      {
+        "say": "Now, let's look at a number line.",
+        "do": "Draw a simple number line on a piece of paper or use a ruler.",
+        "ask": "Where do you think 1/2 would go on this line?",
+        "reinforce": "1/2 is halfway between 0 and 1."
+      },
+      {
+        "say": "Let's try placing 1/4 on the number line.",
+        "do": "Divide the space between 0 and 1 into four equal parts.",
+        "ask": "Where does 1/4 fit on the line?",
+        "reinforce": "1/4 is one part out of the four equal parts between 0 and 1."
+      },
+      {
+        "say": "How about 3/4?",
+        "do": "Count three parts from 0 on the number line.",
+        "ask": "Where do you see 3/4 now?",
+        "reinforce": "3/4 is three parts out of four, almost reaching the whole number 1."
+      },
+      {
+        "say": "Let's compare 1/2 and 3/4.",
+        "do": "Point to both fractions on the number line.",
+        "ask": "Which is larger?",
+        "reinforce": "3/4 is larger than 1/2 because it's closer to 1."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Place 1/3 on a number line between 0 and 1.",
+        "hint": "Divide the space into three equal parts.",
+        "answer": "1/3 is one part from 0."
+      },
+      {
+        "prompt": "Where does 2/3 go on the number line?",
+        "hint": "Count two parts starting from 0.",
+        "answer": "2/3 is two parts from 0."
+      },
+      {
+        "prompt": "Find 1/5 on the number line.",
+        "hint": "Divide the space into five equal parts.",
+        "answer": "1/5 is one part from 0."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Fractions represent parts of a whole.",
+      "A number line helps us visualize how big or small fractions are compared to each other and whole numbers.",
+      "Placing fractions on a number line involves dividing the space between whole numbers into equal parts."
+    ],
+    "common_mistakes": [
+      "Placing fractions unevenly on the number line.",
+      "Confusing the numerator and denominator when identifying fractions.",
+      "Thinking that larger denominators mean larger fractions."
+    ],
+    "deep_dive": {
+      "history": "Fractions have been used since ancient times for trade and commerce. The concept of dividing whole numbers into parts has been vital for various civilizations.",
+      "connections": "Fractions are used in measurements, recipes, and even in music. Understanding them is foundational for algebra and higher math.",
+      "misconceptions": "A common misconception is that a larger denominator means a larger fraction. In reality, the opposite is true.",
+      "teaching_tips": "Use visual aids like fraction strips or pie charts to make the concept more tangible. Encourage hands-on practice.",
+      "derivation": "Fractions derive from dividing a whole into equal parts. The numerator indicates the number of parts considered, while the denominator shows the total number of equal parts."
+    },
+    "motivation": "Fractions are all around us! By mastering them, your child will gain a key skill that will help in everyday tasks and future math challenges."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today, we're exploring how fractions fit on a number line. This is a fun way for your child to visualize fractions and understand their size compared to whole numbers.\n\n## Parent Orientation\n**Objective:** Help your child place and identify fractions on a number line, gaining confidence in comparing and understanding them.\n**Why it matters:** Understanding fractions is crucial as they are used in everyday life, from cooking to sharing equally. Visualizing them on a number line makes them less abstract and more relatable.\n**Parent Tip:** Encourage your child to think of fractions as pieces of a whole. Using objects like a ruler or a measuring tape can make the concept more tangible.\n**Real-World Link:** Imagine cutting a pizza into equal slices. Each slice represents a fraction of the whole pizza. Number lines help us see these parts clearly.\n\n## Teaching Steps\n1. Introduce the concept of fractions as parts of a whole.\n2. Explain how a number line can represent these fractions.\n3. Show how to divide the space between two whole numbers into equal parts.\n4. Practice placing simple fractions like 1/2 and 1/4 on the line.\n5. Discuss and compare the sizes of different fractions.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by thinking about what a fraction is.  \n**Show/Do:** Show your child a piece of fruit, like an apple, and cut it into equal parts.  \n**Ask:** How many parts do we have now?  \n**Reinforce:** Each piece is a fraction of the whole apple.\n2. **Say:** Now, let's look at a number line.  \n**Show/Do:** Draw a simple number line on a piece of paper or use a ruler.  \n**Ask:** Where do you think 1/2 would go on this line?  \n**Reinforce:** 1/2 is halfway between 0 and 1.\n3. **Say:** Let's try placing 1/4 on the number line.  \n**Show/Do:** Divide the space between 0 and 1 into four equal parts.  \n**Ask:** Where does 1/4 fit on the line?  \n**Reinforce:** 1/4 is one part out of the four equal parts between 0 and 1.\n4. **Say:** How about 3/4?  \n**Show/Do:** Count three parts from 0 on the number line.  \n**Ask:** Where do you see 3/4 now?  \n**Reinforce:** 3/4 is three parts out of four, almost reaching the whole number 1.\n5. **Say:** Let's compare 1/2 and 3/4.  \n**Show/Do:** Point to both fractions on the number line.  \n**Ask:** Which is larger?  \n**Reinforce:** 3/4 is larger than 1/2 because it's closer to 1.\n\n## Practice Questions (Do It Together)\n**1. Place 1/3 on a number line between 0 and 1.**\n<details><summary>Hint</summary>\nDivide the space into three equal parts.\n</details>\n<details><summary>Answer</summary>\n1/3 is one part from 0.\n</details>\n\n**2. Where does 2/3 go on the number line?**\n<details><summary>Hint</summary>\nCount two parts starting from 0.\n</details>\n<details><summary>Answer</summary>\n2/3 is two parts from 0.\n</details>\n\n**3. Find 1/5 on the number line.**\n<details><summary>Hint</summary>\nDivide the space into five equal parts.\n</details>\n<details><summary>Answer</summary>\n1/5 is one part from 0.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Fractions represent parts of a whole.\n- A number line helps us visualize how big or small fractions are compared to each other and whole numbers.\n- Placing fractions on a number line involves dividing the space between whole numbers into equal parts.\n\n**Common Mistakes**\n- Placing fractions unevenly on the number line.\n- Confusing the numerator and denominator when identifying fractions.\n- Thinking that larger denominators mean larger fractions.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFractions have been used since ancient times for trade and commerce. The concept of dividing whole numbers into parts has been vital for various civilizations.\n\n**Future topic connections**\n\nFractions are used in measurements, recipes, and even in music. Understanding them is foundational for algebra and higher math.\n\n**Common misconceptions**\n\nA common misconception is that a larger denominator means a larger fraction. In reality, the opposite is true.\n\n**Teaching tips for parents**\n\nUse visual aids like fraction strips or pie charts to make the concept more tangible. Encourage hands-on practice.\n\n**More detail / derivation**\n\nFractions derive from dividing a whole into equal parts. The numerator indicates the number of parts considered, while the denominator shows the total number of equal parts.\n\n## Motivation\nFractions are all around us! By mastering them, your child will gain a key skill that will help in everyday tasks and future math challenges."
+}

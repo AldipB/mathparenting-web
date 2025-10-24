@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "3226f57d-30e7-4e50-add0-24ef0915f4bc",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "4e05caa8-c497-47d9-b785-d211913859ee",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d80acc96-00fb-489e-bbed-8b92a9e65c96",
+    "slug": "even-and-odd-numbers",
+    "title": "Understanding Even & Odd Numbers",
+    "summary": "Even & odd numbers — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child identify and understand even and odd numbers using simple, engaging examples.\n\n**Why it matters:** Recognizing even and odd numbers builds a foundation for more advanced math concepts, like division and multiplication.\n\n**Parent Tip:** Encourage your child to group objects like toys or snacks to see if they can be paired evenly.\n\n**Real-World Link:** Think about how shoes come in pairs. If one shoe is left without a partner, the number of shoes is odd.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore the world of even and odd numbers, making it fun and easy for you and your child.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that even numbers can be divided into two equal groups without leftovers.\n2. Show that odd numbers always have one left over when grouped in pairs.\n3. Use household items like socks to demonstrate pairing for even numbers.\n4. Practice counting by twos to reinforce the concept of even numbers.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Is 6 an even or odd number?**\n_Answer:_ Even\n_Hint:_ Can you pair up all items without any leftover?\n\n**2. Is 7 an even or odd number?**\n_Answer:_ Odd\n_Hint:_ Try grouping them in pairs. Is there one left over?\n\n**3. What about 10?**\n_Answer:_ Even\n_Hint:_ Count by twos to see if it fits.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Thinking a number is odd if it can't be quickly divided by two.\n- Forgetting that zero is an even number.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about how shoes come in pairs. If one shoe is left without a partner, the number of shoes is odd.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child distinguish between even and odd numbers through engaging activities and relatable examples.",
+    "overview": "**Objective:** Help your child identify and understand even and odd numbers using simple, engaging examples.\n\n**Why it matters:** Recognizing even and odd numbers builds a foundation for more advanced math concepts, like division and multiplication.\n\n**Parent Tip:** Encourage your child to group objects like toys or snacks to see if they can be paired evenly.\n\n**Real-World Link:** Think about how shoes come in pairs. If one shoe is left without a partner, the number of shoes is odd.",
+    "core": "Welcome! Today, we'll explore the world of even and odd numbers, making it fun and easy for you and your child.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'If you have 7 apples, can you share them evenly between two friends?' This will get them thinking about even and odd numbers.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that even numbers can be divided into two equal groups without leftovers.\n2. Show that odd numbers always have one left over when grouped in pairs.\n3. Use household items like socks to demonstrate pairing for even numbers.\n4. Practice counting by twos to reinforce the concept of even numbers.",
+    "practice": "**1. Is 6 an even or odd number?**\n_Answer:_ Even\n_Hint:_ Can you pair up all items without any leftover?\n\n**2. Is 7 an even or odd number?**\n_Answer:_ Odd\n_Hint:_ Try grouping them in pairs. Is there one left over?\n\n**3. What about 10?**\n_Answer:_ Even\n_Hint:_ Count by twos to see if it fits.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Thinking a number is odd if it can't be quickly divided by two.\n- Forgetting that zero is an even number.",
+    "connection": "Think about how shoes come in pairs. If one shoe is left without a partner, the number of shoes is odd.",
+    "close": "**Key Takeaways**\n- Even numbers can be divided into two equal groups.\n- Odd numbers leave one item unpaired.\n- Using real-life objects helps solidify these concepts.\n\n**Parent Reflection Questions**\n- What everyday items can you use to practice even and odd numbers?\n- How can you tell if a large number is odd or even quickly?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Even & Odd Numbers",
+    "introduction": "Let's explore the world of even and odd numbers with your child! This is a fun and simple concept that will build a strong foundation in math.",
+    "objective": "Help your child identify and understand even and odd numbers through engaging activities.",
+    "why_matters": "Understanding even and odd numbers is a stepping stone to more advanced math concepts like divisibility and arithmetic operations.",
+    "parent_tip": "Use everyday objects like toys or snacks to make learning about even and odd numbers more tangible and relatable for your child.",
+    "real_world_link": "Think about how we pair socks or count steps. These everyday activities involve even and odd numbers without us even realizing it!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain what even numbers are: numbers that can be divided into two equal groups.",
+      "Explain what odd numbers are: numbers that cannot be divided into two equal groups.",
+      "Use objects like blocks or coins to demonstrate even and odd numbers.",
+      "Practice counting even and odd numbers up to 20.",
+      "Encourage your child to identify even and odd numbers in their environment."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's think about some numbers and see if they are even or odd.",
+        "do": "Gather 10 small objects like coins or buttons.",
+        "ask": "Can we split them into two equal groups?",
+        "reinforce": "If we can, it's an even number. If not, it's odd."
+      },
+      {
+        "say": "Let's try with 5 objects.",
+        "do": "Arrange 5 objects in front of your child.",
+        "ask": "Can we split these into two equal groups?",
+        "reinforce": "Since we can't, 5 is an odd number."
+      },
+      {
+        "say": "Now, let's try with 8 objects.",
+        "do": "Arrange 8 objects in front of your child.",
+        "ask": "Can we split these into two equal groups?",
+        "reinforce": "Yes, 8 is an even number because each group has 4 objects."
+      },
+      {
+        "say": "Let's count together and see if we can identify even and odd numbers.",
+        "do": "Count from 1 to 10 with your child.",
+        "ask": "Which numbers are even and which are odd?",
+        "reinforce": "Remember, even numbers can be split equally, odd cannot."
+      },
+      {
+        "say": "Let's find even and odd numbers around us!",
+        "do": "Look for numbers on house doors, books, or toys.",
+        "ask": "Is this number even or odd?",
+        "reinforce": "Great job! You're becoming an expert at spotting even and odd numbers."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Is the number 6 even or odd?",
+        "hint": "Can you divide 6 into two equal groups?",
+        "answer": "Even"
+      },
+      {
+        "prompt": "How about the number 9?",
+        "hint": "Try splitting 9 objects into two groups.",
+        "answer": "Odd"
+      },
+      {
+        "prompt": "Is 14 even or odd?",
+        "hint": "Think about dividing 14 into pairs.",
+        "answer": "Even"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Even numbers can be divided into two equal groups.",
+      "Odd numbers cannot be divided into two equal groups.",
+      "Use everyday objects to practice identifying even and odd numbers."
+    ],
+    "common_mistakes": [
+      "Thinking that all numbers ending in 5 are even.",
+      "Forgetting to count objects accurately when dividing into groups.",
+      "Assuming a number is odd because it looks 'big' or 'small'."
+    ],
+    "deep_dive": {
+      "history": "Even and odd numbers have been studied since ancient times, with the Greeks being one of the first to explore these concepts.",
+      "connections": "Even and odd numbers play a role in patterns, sequences, and are foundational for understanding multiplication and division.",
+      "misconceptions": "A common misconception is that the size of a number determines if it’s even or odd, rather than its divisibility by 2.",
+      "teaching_tips": "Use visual aids and hands-on activities to reinforce the concept. Encourage your child to explain their thinking.",
+      "derivation": "The concept of even and odd numbers stems from the ability to pair objects without leftovers."
+    },
+    "motivation": "Understanding even and odd numbers is not just about math; it's about recognizing patterns and making sense of the world around us!"
+  },
+  "markdown": "## Lesson Introduction\nLet's explore the world of even and odd numbers with your child! This is a fun and simple concept that will build a strong foundation in math.\n\n## Parent Orientation\n**Objective:** Help your child identify and understand even and odd numbers through engaging activities.\n**Why it matters:** Understanding even and odd numbers is a stepping stone to more advanced math concepts like divisibility and arithmetic operations.\n**Parent Tip:** Use everyday objects like toys or snacks to make learning about even and odd numbers more tangible and relatable for your child.\n**Real-World Link:** Think about how we pair socks or count steps. These everyday activities involve even and odd numbers without us even realizing it!\n\n## Teaching Steps\n1. Explain what even numbers are: numbers that can be divided into two equal groups.\n2. Explain what odd numbers are: numbers that cannot be divided into two equal groups.\n3. Use objects like blocks or coins to demonstrate even and odd numbers.\n4. Practice counting even and odd numbers up to 20.\n5. Encourage your child to identify even and odd numbers in their environment.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's think about some numbers and see if they are even or odd.  \n**Show/Do:** Gather 10 small objects like coins or buttons.  \n**Ask:** Can we split them into two equal groups?  \n**Reinforce:** If we can, it's an even number. If not, it's odd.\n2. **Say:** Let's try with 5 objects.  \n**Show/Do:** Arrange 5 objects in front of your child.  \n**Ask:** Can we split these into two equal groups?  \n**Reinforce:** Since we can't, 5 is an odd number.\n3. **Say:** Now, let's try with 8 objects.  \n**Show/Do:** Arrange 8 objects in front of your child.  \n**Ask:** Can we split these into two equal groups?  \n**Reinforce:** Yes, 8 is an even number because each group has 4 objects.\n4. **Say:** Let's count together and see if we can identify even and odd numbers.  \n**Show/Do:** Count from 1 to 10 with your child.  \n**Ask:** Which numbers are even and which are odd?  \n**Reinforce:** Remember, even numbers can be split equally, odd cannot.\n5. **Say:** Let's find even and odd numbers around us!  \n**Show/Do:** Look for numbers on house doors, books, or toys.  \n**Ask:** Is this number even or odd?  \n**Reinforce:** Great job! You're becoming an expert at spotting even and odd numbers.\n\n## Practice Questions (Do It Together)\n**1. Is the number 6 even or odd?**\n<details><summary>Hint</summary>\nCan you divide 6 into two equal groups?\n</details>\n<details><summary>Answer</summary>\nEven\n</details>\n\n**2. How about the number 9?**\n<details><summary>Hint</summary>\nTry splitting 9 objects into two groups.\n</details>\n<details><summary>Answer</summary>\nOdd\n</details>\n\n**3. Is 14 even or odd?**\n<details><summary>Hint</summary>\nThink about dividing 14 into pairs.\n</details>\n<details><summary>Answer</summary>\nEven\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Even numbers can be divided into two equal groups.\n- Odd numbers cannot be divided into two equal groups.\n- Use everyday objects to practice identifying even and odd numbers.\n\n**Common Mistakes**\n- Thinking that all numbers ending in 5 are even.\n- Forgetting to count objects accurately when dividing into groups.\n- Assuming a number is odd because it looks 'big' or 'small'.\n\n## 🔍 Deep Dive\n**History or origin**\n\nEven and odd numbers have been studied since ancient times, with the Greeks being one of the first to explore these concepts.\n\n**Future topic connections**\n\nEven and odd numbers play a role in patterns, sequences, and are foundational for understanding multiplication and division.\n\n**Common misconceptions**\n\nA common misconception is that the size of a number determines if it’s even or odd, rather than its divisibility by 2.\n\n**Teaching tips for parents**\n\nUse visual aids and hands-on activities to reinforce the concept. Encourage your child to explain their thinking.\n\n**More detail / derivation**\n\nThe concept of even and odd numbers stems from the ability to pair objects without leftovers.\n\n## Motivation\nUnderstanding even and odd numbers is not just about math; it's about recognizing patterns and making sense of the world around us!"
+}

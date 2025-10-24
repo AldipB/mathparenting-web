@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "b60d6d40-62c0-4f5c-9db0-d0ea9a97e309",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "83e12060-0df5-4fe1-a687-a8fa23e9fc15",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "83986458-59ab-4efa-9487-3cd5c1a9e619",
+    "slug": "law-of-sines-and-cosines",
+    "title": "Exploring the Law of Sines and Cosines",
+    "summary": "Law of sines & cosines — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Understand and apply the Law of Sines and Cosines to solve problems involving triangles.\n\n**Why it matters:** These laws help us solve real-world problems like navigation and construction, where knowing angles and distances is crucial.\n\n**Parent Tip:** Encourage your child to visualize triangles as puzzle pieces. Each side and angle is a clue to solving the bigger picture.\n\n**Real-World Link:** Think of a triangle as a GPS device. Navigating the shortest route requires understanding angles and distances, which these laws help calculate.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Help your child unlock the secrets of triangles using the Law of Sines and Cosines, powerful tools in trigonometry that reveal the hidden relationships between angles and sides.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying the known sides and angles in the triangle.\n2. Use the Law of Sines when you know two angles and one side (AAS or ASA), or two sides and a non-included angle (SSA).\n3. Apply the Law of Cosines when you know all three sides (SSS) or two sides and the included angle (SAS).\n4. Solve for the unknown sides or angles using the appropriate formula.\n5. Check your answers by ensuring the sum of angles equals 180° and the sides form a valid triangle.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Given a triangle with sides a = 8, b = 6, and angle C = 45°, find side c.**\n_Answer:_ c ≈ 5.66\n_Hint:_ Use the Law of Cosines: c² = a² + b² - 2ab * cos(C).\n\n**2. In a triangle, if angle A = 30°, angle B = 45°, and side a = 10, find side b.**\n_Answer:_ b ≈ 14.14\n_Hint:_ Use the Law of Sines: a/sin(A) = b/sin(B).\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up which law to use; remember, Sines for AAS, ASA, SSA and Cosines for SSS, SAS.\n- Incorrectly calculating the sine or cosine of an angle.\n- Forgetting that the sum of angles in a triangle must be 180°.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a triangle as a GPS device. Navigating the shortest route requires understanding angles and distances, which these laws help calculate.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and apply the Law of Sines and Cosines to solve real-world problems involving triangles.",
+    "overview": "**Objective:** Understand and apply the Law of Sines and Cosines to solve problems involving triangles.\n\n**Why it matters:** These laws help us solve real-world problems like navigation and construction, where knowing angles and distances is crucial.\n\n**Parent Tip:** Encourage your child to visualize triangles as puzzle pieces. Each side and angle is a clue to solving the bigger picture.\n\n**Real-World Link:** Think of a triangle as a GPS device. Navigating the shortest route requires understanding angles and distances, which these laws help calculate.",
+    "core": "Help your child unlock the secrets of triangles using the Law of Sines and Cosines, powerful tools in trigonometry that reveal the hidden relationships between angles and sides.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how architects calculate the right angles and lengths for the interesting shapes of buildings? The Law of Sines and Cosines helps them do just that!",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** Law of Sines: \\( \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} \\); Law of Cosines: \\( c^2 = a^2 + b^2 - 2ab \\cdot \\cos C \\)\n- **Meaning:** These formulas relate the lengths of sides to the sines and cosines of their opposite angles.\n- **How it works:** Use the Law of Sines when you have two angles and a side (AAS or ASA) or two sides and a non-included angle (SSA). Use the Law of Cosines for two sides and the included angle (SAS) or all three sides (SSS).\n- **Example:** If you know two angles of a triangle are 30° and 60°, and the side opposite the 30° angle is 5 units, use the Law of Sines to find the other sides.\n$$",
+    "formulas": "$$\nLaw of Sines: \\( \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} \\); Law of Cosines: \\( c^2 = a^2 + b^2 - 2ab \\cdot \\cos C \\)\n$$",
+    "guide": "1. Start by identifying the known sides and angles in the triangle.\n2. Use the Law of Sines when you know two angles and one side (AAS or ASA), or two sides and a non-included angle (SSA).\n3. Apply the Law of Cosines when you know all three sides (SSS) or two sides and the included angle (SAS).\n4. Solve for the unknown sides or angles using the appropriate formula.\n5. Check your answers by ensuring the sum of angles equals 180° and the sides form a valid triangle.",
+    "practice": "**1. Given a triangle with sides a = 8, b = 6, and angle C = 45°, find side c.**\n_Answer:_ c ≈ 5.66\n_Hint:_ Use the Law of Cosines: c² = a² + b² - 2ab * cos(C).\n\n**2. In a triangle, if angle A = 30°, angle B = 45°, and side a = 10, find side b.**\n_Answer:_ b ≈ 14.14\n_Hint:_ Use the Law of Sines: a/sin(A) = b/sin(B).\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Mixing up which law to use; remember, Sines for AAS, ASA, SSA and Cosines for SSS, SAS.\n- Incorrectly calculating the sine or cosine of an angle.\n- Forgetting that the sum of angles in a triangle must be 180°.",
+    "connection": "Think of a triangle as a GPS device. Navigating the shortest route requires understanding angles and distances, which these laws help calculate.",
+    "close": "**Key Takeaways**\n- The Law of Sines and Cosines are used for solving non-right triangles.\n- Visualizing and drawing diagrams can simplify understanding.\n- These laws are practical tools in various real-world applications.\n\n**Parent Reflection Questions**\n- What are the conditions for using the Law of Sines or Cosines?\n- How can visual aids help in solving triangle problems?\n- Can you think of other real-world situations where these laws might apply?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring the Law of Sines and Cosines",
+    "introduction": "Welcome to the exciting world of trigonometry! Today, we'll dive into the Law of Sines and Cosines, two powerful tools for solving triangles. Let's make these concepts approachable and engaging for your high schooler.",
+    "objective": "Help your child understand and apply the Law of Sines and Cosines to solve problems involving triangles.",
+    "why_matters": "These laws are crucial for calculating unknown sides or angles in triangles, which is essential in fields like engineering, architecture, and even navigation.",
+    "parent_tip": "Be patient and encourage your child to visualize the triangles. Drawing them out can make a big difference in understanding.",
+    "real_world_link": "Think about how architects use these laws to design buildings or how pilots navigate using angles and distances.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the Law of Sines and explain how it relates the sides and angles of a triangle.",
+      "Discuss the Law of Cosines and its role in solving triangles when certain measurements are known.",
+      "Use diagrams to visualize how these laws apply to different types of triangles.",
+      "Practice solving a triangle using given side lengths and angles.",
+      "Reinforce the concepts by relating them to real-world scenarios your child might find interesting."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about the Law of Sines. This law helps us find unknown sides or angles in a triangle.",
+        "do": "Draw a simple triangle and label the sides and angles.",
+        "ask": "Can you see how knowing one angle and its opposite side can help us find more information?",
+        "reinforce": "Remember, the Law of Sines links the ratio of sides to their opposite angles."
+      },
+      {
+        "say": "Now, let's explore the Law of Cosines. It's helpful when we know two sides and the included angle.",
+        "do": "Add another triangle to the drawing and label sides and angles.",
+        "ask": "What do you notice about the relationship between the sides and angles here?",
+        "reinforce": "The Law of Cosines helps when Sines can't be used directly."
+      },
+      {
+        "say": "Let's solve a triangle problem together using these laws.",
+        "do": "Write down a simple problem with a triangle having two known sides and an angle.",
+        "ask": "Which law do you think we should use first?",
+        "reinforce": "Choosing the right law depends on what information we have."
+      },
+      {
+        "say": "Great! Now, let's calculate the unknown side.",
+        "do": "Guide them through the calculation step-by-step.",
+        "ask": "Does this calculation make sense? Why or why not?",
+        "reinforce": "Understanding the process is key, not just the answer."
+      },
+      {
+        "say": "Finally, let's check our answer by visualizing the triangle.",
+        "do": "Encourage your child to sketch the triangle with the calculated values.",
+        "ask": "Does this triangle look right based on our calculations?",
+        "reinforce": "Visualization helps confirm that our math is correct."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Given a triangle with sides a = 7, b = 10, and angle C = 45°, find side c.",
+        "hint": "Use the Law of Cosines: c² = a² + b² - 2ab * cos(C).",
+        "answer": "c ≈ 8.1"
+      },
+      {
+        "prompt": "In a triangle, angle A = 30°, side a = 5, and side b = 9. Find angle B.",
+        "hint": "Start with the Law of Sines: sin(A)/a = sin(B)/b.",
+        "answer": "B ≈ 53.1°"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The Law of Sines and Cosines are essential for solving triangles.",
+      "These laws help find unknown sides or angles when certain measurements are known.",
+      "Practicing with sketches can make understanding easier."
+    ],
+    "common_mistakes": [
+      "Mixing up which law to apply in a given situation.",
+      "Forgetting to check if the calculated angles make sense.",
+      "Not using degrees or radians consistently when calculating angles."
+    ],
+    "deep_dive": {
+      "history": "These laws have been known since ancient times, used by mathematicians like Ptolemy.",
+      "connections": "They are foundational in trigonometry and essential in calculus and physics.",
+      "misconceptions": "Some students think these laws only apply to right triangles, but they work for any triangle.",
+      "teaching_tips": "Use physical models or software to demonstrate how the laws work.",
+      "derivation": "The Law of Sines is derived from the area of a triangle, while the Law of Cosines comes from the Pythagorean theorem."
+    },
+    "motivation": "Understanding these laws opens doors to solving complex real-world problems, from designing bridges to flying airplanes."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the exciting world of trigonometry! Today, we'll dive into the Law of Sines and Cosines, two powerful tools for solving triangles. Let's make these concepts approachable and engaging for your high schooler.\n\n## Parent Orientation\n**Objective:** Help your child understand and apply the Law of Sines and Cosines to solve problems involving triangles.\n**Why it matters:** These laws are crucial for calculating unknown sides or angles in triangles, which is essential in fields like engineering, architecture, and even navigation.\n**Parent Tip:** Be patient and encourage your child to visualize the triangles. Drawing them out can make a big difference in understanding.\n**Real-World Link:** Think about how architects use these laws to design buildings or how pilots navigate using angles and distances.\n\n## Teaching Steps\n1. Introduce the Law of Sines and explain how it relates the sides and angles of a triangle.\n2. Discuss the Law of Cosines and its role in solving triangles when certain measurements are known.\n3. Use diagrams to visualize how these laws apply to different types of triangles.\n4. Practice solving a triangle using given side lengths and angles.\n5. Reinforce the concepts by relating them to real-world scenarios your child might find interesting.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about the Law of Sines. This law helps us find unknown sides or angles in a triangle.  \n**Show/Do:** Draw a simple triangle and label the sides and angles.  \n**Ask:** Can you see how knowing one angle and its opposite side can help us find more information?  \n**Reinforce:** Remember, the Law of Sines links the ratio of sides to their opposite angles.\n2. **Say:** Now, let's explore the Law of Cosines. It's helpful when we know two sides and the included angle.  \n**Show/Do:** Add another triangle to the drawing and label sides and angles.  \n**Ask:** What do you notice about the relationship between the sides and angles here?  \n**Reinforce:** The Law of Cosines helps when Sines can't be used directly.\n3. **Say:** Let's solve a triangle problem together using these laws.  \n**Show/Do:** Write down a simple problem with a triangle having two known sides and an angle.  \n**Ask:** Which law do you think we should use first?  \n**Reinforce:** Choosing the right law depends on what information we have.\n4. **Say:** Great! Now, let's calculate the unknown side.  \n**Show/Do:** Guide them through the calculation step-by-step.  \n**Ask:** Does this calculation make sense? Why or why not?  \n**Reinforce:** Understanding the process is key, not just the answer.\n5. **Say:** Finally, let's check our answer by visualizing the triangle.  \n**Show/Do:** Encourage your child to sketch the triangle with the calculated values.  \n**Ask:** Does this triangle look right based on our calculations?  \n**Reinforce:** Visualization helps confirm that our math is correct.\n\n## Practice Questions (Do It Together)\n**1. Given a triangle with sides a = 7, b = 10, and angle C = 45°, find side c.**\n<details><summary>Hint</summary>\nUse the Law of Cosines: c² = a² + b² - 2ab * cos(C).\n</details>\n<details><summary>Answer</summary>\nc ≈ 8.1\n</details>\n\n**2. In a triangle, angle A = 30°, side a = 5, and side b = 9. Find angle B.**\n<details><summary>Hint</summary>\nStart with the Law of Sines: sin(A)/a = sin(B)/b.\n</details>\n<details><summary>Answer</summary>\nB ≈ 53.1°\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The Law of Sines and Cosines are essential for solving triangles.\n- These laws help find unknown sides or angles when certain measurements are known.\n- Practicing with sketches can make understanding easier.\n\n**Common Mistakes**\n- Mixing up which law to apply in a given situation.\n- Forgetting to check if the calculated angles make sense.\n- Not using degrees or radians consistently when calculating angles.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThese laws have been known since ancient times, used by mathematicians like Ptolemy.\n\n**Future topic connections**\n\nThey are foundational in trigonometry and essential in calculus and physics.\n\n**Common misconceptions**\n\nSome students think these laws only apply to right triangles, but they work for any triangle.\n\n**Teaching tips for parents**\n\nUse physical models or software to demonstrate how the laws work.\n\n**More detail / derivation**\n\nThe Law of Sines is derived from the area of a triangle, while the Law of Cosines comes from the Pythagorean theorem.\n\n## Motivation\nUnderstanding these laws opens doors to solving complex real-world problems, from designing bridges to flying airplanes."
+}

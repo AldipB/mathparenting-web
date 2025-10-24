@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "e7fc4c66-1247-4f26-a18e-16b6c2454022",
+    "slug": "10",
+    "name": "Grade 10 (Geometry & Algebra II)"
+  },
+  "unit": {
+    "id": "0460607b-8a0a-419b-86a9-f6b18b38da63",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "ddbdec85-e9fb-4012-861d-9928ef6a76af",
+    "slug": "circle-theorems",
+    "title": "Circle Theorems Unveiled: Understanding the Secrets of Circles",
+    "summary": "Circle theorems — parent overview for Grade 10 (Geometry & Algebra II).",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child understand key circle theorems and apply them to solve problems involving angles and arcs.\n\n**Why it matters:** Circle theorems are crucial for understanding geometry, which is foundational in fields like engineering, architecture, and even art.\n\n**Parent Tip:** Encourage curiosity by exploring circles in real life, like wheels or clocks. Discuss how these objects relate to the theorems your child is learning.\n\n**Real-World Link:** Think of a Ferris wheel. Each seat moves in a circle, but the relationship between the diameter, chords, and arcs determines how smoothly it spins.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of circles, where every arc and angle holds a mystery waiting to be uncovered. This lesson will guide you and your child through the fascinating theorems that make circles not just round, but remarkable.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of a circle and its parts: center, radius, diameter, circumference.\n2. Discuss the Angle at the Center Theorem: the angle at the center is twice any angle at the circumference subtended by the same arc.\n3. Explore the Perpendicular from the Center Theorem: a line drawn from the center to the midpoint of a chord is perpendicular to the chord.\n4. Illustrate the Alternate Segment Theorem: the angle between a tangent and a chord through the point of contact is equal to the angle in the alternate segment.\n5. Use diagrams and real objects to visualize these theorems.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Given a circle with a center angle of 100°, find the angle at the circumference subtended by the same arc.**\n_Answer:_ 50°\n_Hint:_ Use the Angle at the Center Theorem.\n\n**2. A line from the center to a chord divides it into two equal parts. What can you say about the angle formed? (use numbers like 6 and 9)**\n_Answer:_ The line is perpendicular to the chord.\n_Hint:_ Think about the Perpendicular from the Center Theorem.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the center angle with the circumference angle.\n- Forgetting that the perpendicular from the center bisects the chord.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a Ferris wheel. Each seat moves in a circle, but the relationship between the diameter, chords, and arcs determines how smoothly it spins.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and apply circle theorems to solve geometry problems.",
+    "overview": "**Objective:** To help your child understand key circle theorems and apply them to solve problems involving angles and arcs.\n\n**Why it matters:** Circle theorems are crucial for understanding geometry, which is foundational in fields like engineering, architecture, and even art.\n\n**Parent Tip:** Encourage curiosity by exploring circles in real life, like wheels or clocks. Discuss how these objects relate to the theorems your child is learning.\n\n**Real-World Link:** Think of a Ferris wheel. Each seat moves in a circle, but the relationship between the diameter, chords, and arcs determines how smoothly it spins.",
+    "core": "Welcome to the world of circles, where every arc and angle holds a mystery waiting to be uncovered. This lesson will guide you and your child through the fascinating theorems that make circles not just round, but remarkable.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why the shortest path between any two points on a circle is not a straight line, but along the circle itself?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the concept of a circle and its parts: center, radius, diameter, circumference.\n2. Discuss the Angle at the Center Theorem: the angle at the center is twice any angle at the circumference subtended by the same arc.\n3. Explore the Perpendicular from the Center Theorem: a line drawn from the center to the midpoint of a chord is perpendicular to the chord.\n4. Illustrate the Alternate Segment Theorem: the angle between a tangent and a chord through the point of contact is equal to the angle in the alternate segment.\n5. Use diagrams and real objects to visualize these theorems.",
+    "practice": "**1. Given a circle with a center angle of 100°, find the angle at the circumference subtended by the same arc.**\n_Answer:_ 50°\n_Hint:_ Use the Angle at the Center Theorem.\n\n**2. A line from the center to a chord divides it into two equal parts. What can you say about the angle formed? (use numbers like 6 and 9)**\n_Answer:_ The line is perpendicular to the chord.\n_Hint:_ Think about the Perpendicular from the Center Theorem.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the center angle with the circumference angle.\n- Forgetting that the perpendicular from the center bisects the chord.",
+    "connection": "Think of a Ferris wheel. Each seat moves in a circle, but the relationship between the diameter, chords, and arcs determines how smoothly it spins.",
+    "close": "**Key Takeaways**\n- Circle theorems help explain relationships between angles and arcs.\n- Visualizing these theorems can enhance understanding.\n- These concepts are applicable in real-world circular designs.\n\n**Parent Reflection Questions**\n- How can we visualize the angle at the center being twice the angle at the circumference?\n- Why do angles in the same segment remain equal?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Circle Theorems Unveiled: Understanding the Secrets of Circles",
+    "introduction": "Welcome, parents! Today, we're diving into the fascinating world of circles and their theorems. These concepts are not just about numbers and shapes—they reveal the elegant rules that govern circles.",
+    "objective": "Help your child understand and apply circle theorems to solve problems involving angles and segments.",
+    "why_matters": "Circle theorems are foundational for understanding geometry. They develop logical thinking and problem-solving skills, which are crucial beyond math class.",
+    "parent_tip": "Encourage your child to visualize problems. Drawing diagrams can make abstract concepts more concrete.",
+    "real_world_link": "Circle theorems help architects design structures with circular components, like domes and arches, ensuring stability and beauty.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the basic parts of a circle: center, radius, diameter, and circumference.",
+      "Discuss key circle theorems: angles in the same segment, cyclic quadrilaterals, and tangents.",
+      "Explain how these theorems apply to solve geometric problems.",
+      "Encourage practice with diagrams to visualize theorems.",
+      "Review theorems by applying them to real-world contexts."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at a circle. Can you identify the center and the radius?",
+        "do": "Draw a circle and point out its center and radius.",
+        "ask": "What do you notice about the diameter compared to the radius?",
+        "reinforce": "The diameter is always twice the length of the radius."
+      },
+      {
+        "say": "Now, let's explore an angle in a semicircle.",
+        "do": "Draw a semicircle and an angle at the circumference.",
+        "ask": "What do you think the angle measures?",
+        "reinforce": "An angle in a semicircle is always a right angle, or 90 degrees."
+      },
+      {
+        "say": "Let's look at a cyclic quadrilateral.",
+        "do": "Draw a quadrilateral inside a circle.",
+        "ask": "What special property do the opposite angles have?",
+        "reinforce": "The opposite angles add up to 180 degrees."
+      },
+      {
+        "say": "Consider a tangent to the circle.",
+        "do": "Draw a tangent line touching the circle at one point.",
+        "ask": "What can we say about the angle between the tangent and the radius?",
+        "reinforce": "The angle between a tangent and the radius is 90 degrees."
+      },
+      {
+        "say": "Let's solve a problem using these theorems.",
+        "do": "Present a problem involving a circle and use the theorems to find unknown angles.",
+        "ask": "Which theorems can help us solve this?",
+        "reinforce": "Using the right theorems makes solving these problems easier."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the angle at the circumference subtended by a diameter of a circle.",
+        "hint": "Remember, a diameter subtends a semicircle.",
+        "answer": "90 degrees"
+      },
+      {
+        "prompt": "In a cyclic quadrilateral, one angle is 70 degrees. What is the angle opposite to it?",
+        "hint": "Use the property of opposite angles in a cyclic quadrilateral.",
+        "answer": "110 degrees"
+      },
+      {
+        "prompt": "A tangent meets a radius at a point on the circle. What is the angle between them?",
+        "hint": "Think about the relationship between a tangent and a radius.",
+        "answer": "90 degrees"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Circle theorems describe the relationships between angles and segments in circles.",
+      "These theorems are tools for solving geometric problems.",
+      "Visualizing problems can aid in understanding and applying these theorems."
+    ],
+    "common_mistakes": [
+      "Forgetting that angles in a semicircle are always 90 degrees.",
+      "Misapplying the properties of cyclic quadrilaterals.",
+      "Confusing the properties of tangents with those of chords."
+    ],
+    "deep_dive": {
+      "history": "Circle theorems date back to ancient Greek mathematicians like Euclid, who laid the groundwork for modern geometry.",
+      "connections": "These theorems connect to trigonometry and calculus, where circles play a crucial role in understanding waves and oscillations.",
+      "misconceptions": "Students often think all angles in a circle are equal, but circle theorems reveal specific relationships.",
+      "teaching_tips": "Use clear diagrams and real-world examples to ground abstract concepts.",
+      "derivation": "The proofs of these theorems often involve congruent triangles and properties of parallel lines, which are foundational in geometry."
+    },
+    "motivation": "Exploring circle theorems is like uncovering the hidden rules of nature. These insights help us appreciate the beauty and logic in the world around us."
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we're diving into the fascinating world of circles and their theorems. These concepts are not just about numbers and shapes—they reveal the elegant rules that govern circles.\n\n## Parent Orientation\n**Objective:** Help your child understand and apply circle theorems to solve problems involving angles and segments.\n**Why it matters:** Circle theorems are foundational for understanding geometry. They develop logical thinking and problem-solving skills, which are crucial beyond math class.\n**Parent Tip:** Encourage your child to visualize problems. Drawing diagrams can make abstract concepts more concrete.\n**Real-World Link:** Circle theorems help architects design structures with circular components, like domes and arches, ensuring stability and beauty.\n\n## Teaching Steps\n1. Introduce the basic parts of a circle: center, radius, diameter, and circumference.\n2. Discuss key circle theorems: angles in the same segment, cyclic quadrilaterals, and tangents.\n3. Explain how these theorems apply to solve geometric problems.\n4. Encourage practice with diagrams to visualize theorems.\n5. Review theorems by applying them to real-world contexts.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at a circle. Can you identify the center and the radius?  \n**Show/Do:** Draw a circle and point out its center and radius.  \n**Ask:** What do you notice about the diameter compared to the radius?  \n**Reinforce:** The diameter is always twice the length of the radius.\n2. **Say:** Now, let's explore an angle in a semicircle.  \n**Show/Do:** Draw a semicircle and an angle at the circumference.  \n**Ask:** What do you think the angle measures?  \n**Reinforce:** An angle in a semicircle is always a right angle, or 90 degrees.\n3. **Say:** Let's look at a cyclic quadrilateral.  \n**Show/Do:** Draw a quadrilateral inside a circle.  \n**Ask:** What special property do the opposite angles have?  \n**Reinforce:** The opposite angles add up to 180 degrees.\n4. **Say:** Consider a tangent to the circle.  \n**Show/Do:** Draw a tangent line touching the circle at one point.  \n**Ask:** What can we say about the angle between the tangent and the radius?  \n**Reinforce:** The angle between a tangent and the radius is 90 degrees.\n5. **Say:** Let's solve a problem using these theorems.  \n**Show/Do:** Present a problem involving a circle and use the theorems to find unknown angles.  \n**Ask:** Which theorems can help us solve this?  \n**Reinforce:** Using the right theorems makes solving these problems easier.\n\n## Practice Questions (Do It Together)\n**1. Find the angle at the circumference subtended by a diameter of a circle.**\n<details><summary>Hint</summary>\nRemember, a diameter subtends a semicircle.\n</details>\n<details><summary>Answer</summary>\n90 degrees\n</details>\n\n**2. In a cyclic quadrilateral, one angle is 70 degrees. What is the angle opposite to it?**\n<details><summary>Hint</summary>\nUse the property of opposite angles in a cyclic quadrilateral.\n</details>\n<details><summary>Answer</summary>\n110 degrees\n</details>\n\n**3. A tangent meets a radius at a point on the circle. What is the angle between them?**\n<details><summary>Hint</summary>\nThink about the relationship between a tangent and a radius.\n</details>\n<details><summary>Answer</summary>\n90 degrees\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Circle theorems describe the relationships between angles and segments in circles.\n- These theorems are tools for solving geometric problems.\n- Visualizing problems can aid in understanding and applying these theorems.\n\n**Common Mistakes**\n- Forgetting that angles in a semicircle are always 90 degrees.\n- Misapplying the properties of cyclic quadrilaterals.\n- Confusing the properties of tangents with those of chords.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCircle theorems date back to ancient Greek mathematicians like Euclid, who laid the groundwork for modern geometry.\n\n**Future topic connections**\n\nThese theorems connect to trigonometry and calculus, where circles play a crucial role in understanding waves and oscillations.\n\n**Common misconceptions**\n\nStudents often think all angles in a circle are equal, but circle theorems reveal specific relationships.\n\n**Teaching tips for parents**\n\nUse clear diagrams and real-world examples to ground abstract concepts.\n\n**More detail / derivation**\n\nThe proofs of these theorems often involve congruent triangles and properties of parallel lines, which are foundational in geometry.\n\n## Motivation\nExploring circle theorems is like uncovering the hidden rules of nature. These insights help us appreciate the beauty and logic in the world around us."
+}

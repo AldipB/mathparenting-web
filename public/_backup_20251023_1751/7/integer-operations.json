@@ -1,0 +1,31 @@
+{
+  "grade": {
+    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
+    "title": "Complete Chapter Index",
+    "order_index": 99
+  },
+  "lesson": {
+    "id": "a0772498-c583-4d1a-978a-f44f92064503",
+    "slug": "integer-operations",
+    "title": "Integer Operations (±×÷)",
+    "summary": "Integer Operations (±×÷) — parent overview.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
+      "order_index": 1
+    }
+  ],
+  "sections": {
+    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+  },
+  "practice": []
+}

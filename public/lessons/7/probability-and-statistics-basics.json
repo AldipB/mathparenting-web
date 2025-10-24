@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "76148376-dcd6-47c1-8565-5cacc29b6d88",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "49f281ab-36dd-4f2f-8649-d5d2f5e58368",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8f87d91b-055c-497e-979f-c0a01a6e19af",
+    "slug": "probability-and-statistics-basics",
+    "title": "Probability & Statistics Basics",
+    "summary": "Probability & statistics basics — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Students will learn to calculate basic probabilities and interpret simple statistical data.\n\n**Why it matters:** Probability and statistics help us make informed decisions, from predicting the weather to understanding sports stats.\n\n**Parent Tip:** Encourage your child to find examples of probability and statistics in everyday life, like weather forecasts or board games.\n\n**Real-World Link:** Think about the probability of rolling a certain number on a die or the average time it takes to get to school. These are real-world uses of probability and statistics.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the fascinating world of probability and statistics! This lesson will help your child understand how likely events are to happen and how data can tell a story.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce probability by discussing the chance of flipping a coin and landing on heads.\n2. Explain that probability is a number between 0 and 1, where 0 means impossible and 1 means certain.\n3. Discuss basic statistics by collecting data, such as the number of sunny days in a week.\n4. Show how to calculate averages by adding numbers and dividing by the count.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If a bag contains 3 red, 2 blue, and 5 green marbles, what is the probability of picking a red marble?**\n_Answer:_ 3/10 or 0.3\n_Hint:_ Divide the number of red marbles by the total number of marbles.\n\n**2. What is the average of these numbers: 5, 10, 15?**\n_Answer:_ 10\n_Hint:_ Add the numbers and divide by how many numbers there are.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to count all possible outcomes when calculating probability.\n- Confusing median with average in statistics.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about the probability of rolling a certain number on a die or the average time it takes to get to school. These are real-world uses of probability and statistics.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the basics of probability and statistics, focusing on simple experiments and the concept of chance.",
+    "overview": "**Objective:** Students will learn to calculate basic probabilities and interpret simple statistical data.\n\n**Why it matters:** Probability and statistics help us make informed decisions, from predicting the weather to understanding sports stats.\n\n**Parent Tip:** Encourage your child to find examples of probability and statistics in everyday life, like weather forecasts or board games.\n\n**Real-World Link:** Think about the probability of rolling a certain number on a die or the average time it takes to get to school. These are real-world uses of probability and statistics.",
+    "core": "Welcome to the fascinating world of probability and statistics! This lesson will help your child understand how likely events are to happen and how data can tell a story.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how weather forecasters predict the chance of rain? Or why some games are fair while others are not? Let's explore the world of chance and data together!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce probability by discussing the chance of flipping a coin and landing on heads.\n2. Explain that probability is a number between 0 and 1, where 0 means impossible and 1 means certain.\n3. Discuss basic statistics by collecting data, such as the number of sunny days in a week.\n4. Show how to calculate averages by adding numbers and dividing by the count.",
+    "practice": "**1. If a bag contains 3 red, 2 blue, and 5 green marbles, what is the probability of picking a red marble?**\n_Answer:_ 3/10 or 0.3\n_Hint:_ Divide the number of red marbles by the total number of marbles.\n\n**2. What is the average of these numbers: 5, 10, 15?**\n_Answer:_ 10\n_Hint:_ Add the numbers and divide by how many numbers there are.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to count all possible outcomes when calculating probability.\n- Confusing median with average in statistics.",
+    "connection": "Think about the probability of rolling a certain number on a die or the average time it takes to get to school. These are real-world uses of probability and statistics.",
+    "close": "**Key Takeaways**\n- Probability is about the chance of an event happening.\n- Statistics help us make sense of data and predict outcomes.\n- Using real-world examples makes these concepts more relatable.\n\n**Parent Reflection Questions**\n- How can you use probability to make decisions?\n- What are some other everyday examples of probability?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Probability & Statistics Basics",
+    "introduction": "Welcome to the world of chance and data! Let's explore how probability and statistics help us make sense of the world around us.",
+    "objective": "Understand basic concepts of probability and statistics to interpret and predict outcomes.",
+    "why_matters": "Probability and statistics help us make informed decisions based on data, from predicting weather to planning family budgets.",
+    "parent_tip": "Engage your child by discussing everyday scenarios involving chance, like the likelihood of rain or the odds of winning a family game night.",
+    "real_world_link": "Consider how meteorologists predict weather or how statisticians analyze election polls using probability and statistics.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of probability as a measure of how likely an event is to occur.",
+      "Explain basic statistics, including mean, median, and mode, as tools to summarize data.",
+      "Discuss how data can be collected and organized for analysis.",
+      "Explore simple probability experiments, like flipping a coin or rolling a dice.",
+      "Analyze outcomes and discuss how probability can predict future events."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about probability. It's all about how likely something is to happen.",
+        "do": "Show a coin and explain the sides: heads and tails.",
+        "ask": "What do you think is the probability of getting heads when we flip this coin?",
+        "reinforce": "Exactly, there's a 50% chance because there are two equally likely outcomes."
+      },
+      {
+        "say": "Now, let's look at statistics, which help us understand data.",
+        "do": "Present a simple data set: test scores 75, 85, 90, 95, and 100.",
+        "ask": "What's the average score here?",
+        "reinforce": "The average (or mean) is found by adding all scores and dividing by the number of scores."
+      },
+      {
+        "say": "Statistics also include terms like median and mode.",
+        "do": "Arrange the test scores in order and find the middle value.",
+        "ask": "Which score is the median?",
+        "reinforce": "The median is the middle score when all are arranged in order."
+      },
+      {
+        "say": "How about mode? It's the number that appears most frequently.",
+        "do": "Check the data set for any repeating numbers.",
+        "ask": "Is there a mode in our test scores?",
+        "reinforce": "If no number repeats, there may be no mode."
+      },
+      {
+        "say": "Let's connect this to real life.",
+        "do": "Discuss how weather forecasts use probability to predict rain.",
+        "ask": "Why do you think they say there's a 70% chance of rain?",
+        "reinforce": "It's based on data and patterns observed over time."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is the probability of rolling a 4 on a standard 6-sided die?",
+        "hint": "Consider the total number of possible outcomes.",
+        "answer": "1/6"
+      },
+      {
+        "prompt": "Find the mean of the following numbers: 10, 15, 20, 25, 30.",
+        "hint": "Add all numbers and divide by the quantity of numbers.",
+        "answer": "20"
+      },
+      {
+        "prompt": "In a data set: 3, 7, 7, 10, 12, what is the mode?",
+        "hint": "Look for the number that appears most often.",
+        "answer": "7"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Probability is the measure of how likely an event is to occur.",
+      "Statistics help summarize and interpret data through mean, median, and mode.",
+      "Real-world applications include weather forecasting and analyzing sports statistics."
+    ],
+    "common_mistakes": [
+      "Confusing probability with certainty; probability indicates likelihood, not guarantee.",
+      "Mixing up mean, median, and mode; each has a distinct calculation and use."
+    ],
+    "deep_dive": {
+      "history": "Probability theory began with gambling problems in the 16th century, while statistics evolved to analyze data in various fields.",
+      "connections": "Probability and statistics are used in fields like economics, medicine, and social sciences.",
+      "misconceptions": "A common misconception is that a '50% chance' means something will happen half the time; it's just an equal likelihood.",
+      "teaching_tips": "Use visual aids like charts and graphs to help illustrate data and probability concepts.",
+      "derivation": "Probability is derived from the ratio of favorable outcomes to total possible outcomes, while statistical measures derive from data analysis."
+    },
+    "motivation": "Understanding probability and statistics empowers students to make educated guesses and informed decisions in everyday life."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of chance and data! Let's explore how probability and statistics help us make sense of the world around us.\n\n## Parent Orientation\n**Objective:** Understand basic concepts of probability and statistics to interpret and predict outcomes.\n**Why it matters:** Probability and statistics help us make informed decisions based on data, from predicting weather to planning family budgets.\n**Parent Tip:** Engage your child by discussing everyday scenarios involving chance, like the likelihood of rain or the odds of winning a family game night.\n**Real-World Link:** Consider how meteorologists predict weather or how statisticians analyze election polls using probability and statistics.\n\n## Teaching Steps\n1. Introduce the concept of probability as a measure of how likely an event is to occur.\n2. Explain basic statistics, including mean, median, and mode, as tools to summarize data.\n3. Discuss how data can be collected and organized for analysis.\n4. Explore simple probability experiments, like flipping a coin or rolling a dice.\n5. Analyze outcomes and discuss how probability can predict future events.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about probability. It's all about how likely something is to happen.  \n**Show/Do:** Show a coin and explain the sides: heads and tails.  \n**Ask:** What do you think is the probability of getting heads when we flip this coin?  \n**Reinforce:** Exactly, there's a 50% chance because there are two equally likely outcomes.\n2. **Say:** Now, let's look at statistics, which help us understand data.  \n**Show/Do:** Present a simple data set: test scores 75, 85, 90, 95, and 100.  \n**Ask:** What's the average score here?  \n**Reinforce:** The average (or mean) is found by adding all scores and dividing by the number of scores.\n3. **Say:** Statistics also include terms like median and mode.  \n**Show/Do:** Arrange the test scores in order and find the middle value.  \n**Ask:** Which score is the median?  \n**Reinforce:** The median is the middle score when all are arranged in order.\n4. **Say:** How about mode? It's the number that appears most frequently.  \n**Show/Do:** Check the data set for any repeating numbers.  \n**Ask:** Is there a mode in our test scores?  \n**Reinforce:** If no number repeats, there may be no mode.\n5. **Say:** Let's connect this to real life.  \n**Show/Do:** Discuss how weather forecasts use probability to predict rain.  \n**Ask:** Why do you think they say there's a 70% chance of rain?  \n**Reinforce:** It's based on data and patterns observed over time.\n\n## Practice Questions (Do It Together)\n**1. What is the probability of rolling a 4 on a standard 6-sided die?**\n<details><summary>Hint</summary>\nConsider the total number of possible outcomes.\n</details>\n<details><summary>Answer</summary>\n1/6\n</details>\n\n**2. Find the mean of the following numbers: 10, 15, 20, 25, 30.**\n<details><summary>Hint</summary>\nAdd all numbers and divide by the quantity of numbers.\n</details>\n<details><summary>Answer</summary>\n20\n</details>\n\n**3. In a data set: 3, 7, 7, 10, 12, what is the mode?**\n<details><summary>Hint</summary>\nLook for the number that appears most often.\n</details>\n<details><summary>Answer</summary>\n7\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Probability is the measure of how likely an event is to occur.\n- Statistics help summarize and interpret data through mean, median, and mode.\n- Real-world applications include weather forecasting and analyzing sports statistics.\n\n**Common Mistakes**\n- Confusing probability with certainty; probability indicates likelihood, not guarantee.\n- Mixing up mean, median, and mode; each has a distinct calculation and use.\n\n## 🔍 Deep Dive\n**History or origin**\n\nProbability theory began with gambling problems in the 16th century, while statistics evolved to analyze data in various fields.\n\n**Future topic connections**\n\nProbability and statistics are used in fields like economics, medicine, and social sciences.\n\n**Common misconceptions**\n\nA common misconception is that a '50% chance' means something will happen half the time; it's just an equal likelihood.\n\n**Teaching tips for parents**\n\nUse visual aids like charts and graphs to help illustrate data and probability concepts.\n\n**More detail / derivation**\n\nProbability is derived from the ratio of favorable outcomes to total possible outcomes, while statistical measures derive from data analysis.\n\n## Motivation\nUnderstanding probability and statistics empowers students to make educated guesses and informed decisions in everyday life."
+}

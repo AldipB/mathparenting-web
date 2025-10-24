@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "5cea78ba-cfa2-4bb8-ac3f-fd2aaf41f0d3",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "ca53ae9e-9d6b-4882-aa05-d9056f23a47a",
+    "title": "Real-World Math",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "099ccfc0-51fc-41ae-9f89-bcf685b52bc5",
+    "slug": "math-through-play-toys-snacks-blocks",
+    "title": "Math through Play: Toys, Snacks, and Blocks",
+    "summary": "Math through play (toys, snacks, blocks) — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize basic numbers and quantities using toys and snacks in fun, engaging ways.\n\n**Why it matters:** Building early math skills through everyday objects encourages curiosity and confidence, setting the foundation for future learning.\n\n**Parent Tip:** Incorporate math talk into playtime. Ask questions like 'How many blocks are in your tower?' or 'If you eat one grape, how many are left?'\n\n**Real-World Link:** Children naturally learn through play. Using toys and snacks as math tools makes learning relatable and fun, like counting blocks to build a tower or sharing snacks equally.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to a playful math adventure! Through everyday play, your child can discover the magic of math. Let's explore how toys, snacks, and blocks can be powerful learning tools.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. 1. Gather a variety of small toys, snacks, and blocks.\n2. 2. Encourage your child to count items as they play.\n3. 3. Use simple addition and subtraction during snack time, like adding or taking away pieces.\n4. 4. Introduce basic grouping by sorting toys by color or type.\n5. 5. Celebrate successes with praise and encouragement.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If you have 3 toy cars and add 2 more, how many cars do you have now?**\n_Answer:_ 5 toy cars\n_Hint:_ Start counting from 3 and add 2 more.\n\n**2. You have 5 grapes and eat 2. How many grapes are left?**\n_Answer:_ 3 grapes\n_Hint:_ Count backwards from 5, taking away 2.\n\n**3. Sort 7 blocks by color. If 4 are blue, how many are another color?**\n_Answer:_ 3 blocks are another color\n_Hint:_ Subtract the blue blocks from the total.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Counting too quickly and skipping numbers.\n- Forgetting to start from the total when adding more items.\n- Mixing up addition and subtraction symbols.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Children naturally learn through play. Using toys and snacks as math tools makes learning relatable and fun, like counting blocks to build a tower or sharing snacks equally.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child explore math concepts like counting, sorting, and pattern recognition through playful activities.",
+    "overview": "**Objective:** Help your child recognize basic numbers and quantities using toys and snacks in fun, engaging ways.\n\n**Why it matters:** Building early math skills through everyday objects encourages curiosity and confidence, setting the foundation for future learning.\n\n**Parent Tip:** Incorporate math talk into playtime. Ask questions like 'How many blocks are in your tower?' or 'If you eat one grape, how many are left?'\n\n**Real-World Link:** Children naturally learn through play. Using toys and snacks as math tools makes learning relatable and fun, like counting blocks to build a tower or sharing snacks equally.",
+    "core": "Welcome to a playful math adventure! Through everyday play, your child can discover the magic of math. Let's explore how toys, snacks, and blocks can be powerful learning tools.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how many different ways you can stack blocks? Let's see what happens when we start playing with them!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. 1. Gather a variety of small toys, snacks, and blocks.\n2. 2. Encourage your child to count items as they play.\n3. 3. Use simple addition and subtraction during snack time, like adding or taking away pieces.\n4. 4. Introduce basic grouping by sorting toys by color or type.\n5. 5. Celebrate successes with praise and encouragement.",
+    "practice": "**1. If you have 3 toy cars and add 2 more, how many cars do you have now?**\n_Answer:_ 5 toy cars\n_Hint:_ Start counting from 3 and add 2 more.\n\n**2. You have 5 grapes and eat 2. How many grapes are left?**\n_Answer:_ 3 grapes\n_Hint:_ Count backwards from 5, taking away 2.\n\n**3. Sort 7 blocks by color. If 4 are blue, how many are another color?**\n_Answer:_ 3 blocks are another color\n_Hint:_ Subtract the blue blocks from the total.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Counting too quickly and skipping numbers.\n- Forgetting to start from the total when adding more items.\n- Mixing up addition and subtraction symbols.",
+    "connection": "Children naturally learn through play. Using toys and snacks as math tools makes learning relatable and fun, like counting blocks to build a tower or sharing snacks equally.",
+    "close": "**Key Takeaways**\n- Math can be integrated into daily play activities.\n- Encouraging exploration and questions helps children learn naturally.\n- Using household items can make math relatable and fun.\n\n**Parent Reflection Questions**\n- How can I make math more engaging during play?\n- What other everyday activities can incorporate math concepts?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Math through Play: Toys, Snacks, and Blocks",
+    "introduction": "Welcome to a playful math adventure with your kindergartner! We'll use toys, snacks, and building blocks to explore counting and basic addition.",
+    "objective": "Help your child understand counting and simple addition using everyday items.",
+    "why_matters": "Building a strong foundation in counting and addition sets the stage for future math success and boosts confidence.",
+    "parent_tip": "Engage your child with activities that are hands-on and fun. This keeps their interest alive and makes learning feel like playtime.",
+    "real_world_link": "Think of counting steps while walking or adding apples during shopping. Math is everywhere!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Gather small toys, snacks, and blocks.",
+      "Start with counting each item type separately.",
+      "Introduce the concept of adding groups together.",
+      "Use simple language to explain addition.",
+      "Celebrate small successes to encourage your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's play with these blocks!",
+        "do": "Place 3 blocks in one pile and 2 blocks in another.",
+        "ask": "How many blocks do we have in total?",
+        "reinforce": "That's right! 3 blocks plus 2 blocks make 5 blocks."
+      },
+      {
+        "say": "Now, let's count some snacks.",
+        "do": "Put 4 crackers on one plate and 1 cracker on another.",
+        "ask": "How many crackers are there altogether?",
+        "reinforce": "Good job! 4 plus 1 equals 5."
+      },
+      {
+        "say": "Can you count these toy cars?",
+        "do": "Line up 5 toy cars.",
+        "ask": "How many cars do you see?",
+        "reinforce": "Yes, you counted 5 cars correctly!"
+      },
+      {
+        "say": "Let's mix things up with blocks and cars.",
+        "do": "Combine 2 blocks and 3 toy cars.",
+        "ask": "How many items do we have now?",
+        "reinforce": "Correct! We have 5 items in total."
+      },
+      {
+        "say": "Time to have fun with more snacks!",
+        "do": "Place 3 grapes and then add 2 more.",
+        "ask": "How many grapes do we have now?",
+        "reinforce": "Exactly! 3 plus 2 makes 5 grapes."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "You have 2 apples and your friend gives you 3 more. How many apples do you have?",
+        "hint": "Add 2 and 3 together.",
+        "answer": "5"
+      },
+      {
+        "prompt": "There are 1 red block and 4 blue blocks. How many blocks are there in total?",
+        "hint": "Count all the blocks together.",
+        "answer": "5"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Counting and adding with toys, snacks, and blocks can be fun and educational.",
+      "Remember to use simple language and celebrate each success.",
+      "Practice makes perfect, so keep playing and counting!"
+    ],
+    "common_mistakes": [
+      "Mixing up the numbers when counting different items.",
+      "Forgetting to count all items when adding groups together."
+    ],
+    "deep_dive": {
+      "history": "Counting is one of the oldest mathematical concepts, used since ancient times to keep track of goods.",
+      "connections": "Counting and addition are the building blocks for more advanced math concepts like multiplication and division.",
+      "misconceptions": "Children might think addition always involves the same type of items. Show them it works with different items too!",
+      "teaching_tips": "Use a variety of items to keep your child engaged and demonstrate that math is versatile.",
+      "derivation": "Addition stems from the basic need to combine quantities, which is visually demonstrated through grouping items."
+    },
+    "motivation": "By integrating math into play, you're nurturing a lifelong love for learning and problem-solving in your child."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a playful math adventure with your kindergartner! We'll use toys, snacks, and building blocks to explore counting and basic addition.\n\n## Parent Orientation\n**Objective:** Help your child understand counting and simple addition using everyday items.\n**Why it matters:** Building a strong foundation in counting and addition sets the stage for future math success and boosts confidence.\n**Parent Tip:** Engage your child with activities that are hands-on and fun. This keeps their interest alive and makes learning feel like playtime.\n**Real-World Link:** Think of counting steps while walking or adding apples during shopping. Math is everywhere!\n\n## Teaching Steps\n1. Gather small toys, snacks, and blocks.\n2. Start with counting each item type separately.\n3. Introduce the concept of adding groups together.\n4. Use simple language to explain addition.\n5. Celebrate small successes to encourage your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's play with these blocks!  \n**Show/Do:** Place 3 blocks in one pile and 2 blocks in another.  \n**Ask:** How many blocks do we have in total?  \n**Reinforce:** That's right! 3 blocks plus 2 blocks make 5 blocks.\n2. **Say:** Now, let's count some snacks.  \n**Show/Do:** Put 4 crackers on one plate and 1 cracker on another.  \n**Ask:** How many crackers are there altogether?  \n**Reinforce:** Good job! 4 plus 1 equals 5.\n3. **Say:** Can you count these toy cars?  \n**Show/Do:** Line up 5 toy cars.  \n**Ask:** How many cars do you see?  \n**Reinforce:** Yes, you counted 5 cars correctly!\n4. **Say:** Let's mix things up with blocks and cars.  \n**Show/Do:** Combine 2 blocks and 3 toy cars.  \n**Ask:** How many items do we have now?  \n**Reinforce:** Correct! We have 5 items in total.\n5. **Say:** Time to have fun with more snacks!  \n**Show/Do:** Place 3 grapes and then add 2 more.  \n**Ask:** How many grapes do we have now?  \n**Reinforce:** Exactly! 3 plus 2 makes 5 grapes.\n\n## Practice Questions (Do It Together)\n**1. You have 2 apples and your friend gives you 3 more. How many apples do you have?**\n<details><summary>Hint</summary>\nAdd 2 and 3 together.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**2. There are 1 red block and 4 blue blocks. How many blocks are there in total?**\n<details><summary>Hint</summary>\nCount all the blocks together.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Counting and adding with toys, snacks, and blocks can be fun and educational.\n- Remember to use simple language and celebrate each success.\n- Practice makes perfect, so keep playing and counting!\n\n**Common Mistakes**\n- Mixing up the numbers when counting different items.\n- Forgetting to count all items when adding groups together.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCounting is one of the oldest mathematical concepts, used since ancient times to keep track of goods.\n\n**Future topic connections**\n\nCounting and addition are the building blocks for more advanced math concepts like multiplication and division.\n\n**Common misconceptions**\n\nChildren might think addition always involves the same type of items. Show them it works with different items too!\n\n**Teaching tips for parents**\n\nUse a variety of items to keep your child engaged and demonstrate that math is versatile.\n\n**More detail / derivation**\n\nAddition stems from the basic need to combine quantities, which is visually demonstrated through grouping items.\n\n## Motivation\nBy integrating math into play, you're nurturing a lifelong love for learning and problem-solving in your child."
+}

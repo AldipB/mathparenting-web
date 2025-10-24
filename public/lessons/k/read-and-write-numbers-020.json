@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "5fd87e09-bfd4-4060-9317-f3bccaea4241",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "b44f3c8d-6eac-4a32-91b7-4a2ae88cf676",
+    "title": "Number Sense & Counting",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c55586e1-f6b7-4138-a40b-eae92ba34e40",
+    "slug": "read-and-write-numbers-020",
+    "title": "Read & Write Numbers 0–20",
+    "summary": "Read & write numbers 0–20 — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child confidently recognize, read, and write numbers from 0 to 20.\n\n**Why it matters:** Understanding numbers is the building block for math skills. It's like learning the alphabet before reading words.\n\n**Parent Tip:** Encourage your child by pointing out numbers in everyday life, like counting apples or reading house numbers. Make it a fun and engaging experience!\n\n**Real-World Link:** Numbers are everywhere! From street signs to clocks, numbers help us understand the world. Imagine trying to buy groceries without knowing numbers!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to this exciting journey of numbers! In this lesson, we'll explore how children learn to read and write numbers from 0 to 20. It's a foundational skill that opens the door to future math success.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with recognizing numbers 0 to 10. Use flashcards or number charts.\n2. Introduce numbers 11 to 20 as '10 plus some more.'\n3. Practice writing numbers using crayons or markers for fun.\n4. Play games that involve counting, like 'I Spy' with numbers.\n5. Encourage your child to read numbers on everyday items like cereal boxes or price tags.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Write the number that comes after 9.**\n_Answer:_ 10\n_Hint:_ Think about counting your fingers.\n\n**2. What number comes before 13?**\n_Answer:_ 12\n_Hint:_ Count backwards from 13.\n\n**3. Read the number on the card: 7**\n_Answer:_ Seven\n_Hint:_ This number comes after 6.\n\n**4. Write the number for 'fifteen'. (use numbers like 6 and 9)**\n_Answer:_ 15\n_Hint:_ It's one more than fourteen.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up numbers that look similar, like 6 and 9.\n- Forgetting the sequence of numbers, especially after 10.\n- Confusing the teen numbers (11-19) with single digits.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Numbers are everywhere! From street signs to clocks, numbers help us understand the world. Imagine trying to buy groceries without knowing numbers!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child learn to recognize, read, and write numbers from 0 to 20.",
+    "overview": "**Objective:** Help your child confidently recognize, read, and write numbers from 0 to 20.\n\n**Why it matters:** Understanding numbers is the building block for math skills. It's like learning the alphabet before reading words.\n\n**Parent Tip:** Encourage your child by pointing out numbers in everyday life, like counting apples or reading house numbers. Make it a fun and engaging experience!\n\n**Real-World Link:** Numbers are everywhere! From street signs to clocks, numbers help us understand the world. Imagine trying to buy groceries without knowing numbers!",
+    "core": "Welcome to this exciting journey of numbers! In this lesson, we'll explore how children learn to read and write numbers from 0 to 20. It's a foundational skill that opens the door to future math success.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'How many steps do you think it takes to get from the kitchen to your bedroom?' then count together!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with recognizing numbers 0 to 10. Use flashcards or number charts.\n2. Introduce numbers 11 to 20 as '10 plus some more.'\n3. Practice writing numbers using crayons or markers for fun.\n4. Play games that involve counting, like 'I Spy' with numbers.\n5. Encourage your child to read numbers on everyday items like cereal boxes or price tags.",
+    "practice": "**1. Write the number that comes after 9.**\n_Answer:_ 10\n_Hint:_ Think about counting your fingers.\n\n**2. What number comes before 13?**\n_Answer:_ 12\n_Hint:_ Count backwards from 13.\n\n**3. Read the number on the card: 7**\n_Answer:_ Seven\n_Hint:_ This number comes after 6.\n\n**4. Write the number for 'fifteen'. (use numbers like 6 and 9)**\n_Answer:_ 15\n_Hint:_ It's one more than fourteen.",
+    "mistakes": "- Mixing up numbers that look similar, like 6 and 9.\n- Forgetting the sequence of numbers, especially after 10.\n- Confusing the teen numbers (11-19) with single digits.",
+    "connection": "Numbers are everywhere! From street signs to clocks, numbers help us understand the world. Imagine trying to buy groceries without knowing numbers!",
+    "close": "**Key Takeaways**\n- Recognizing numbers is a visual skill that builds with practice.\n- Writing numbers reinforces memory and understanding.\n- Using numbers in context helps connect them to real-world experiences.\n\n**Parent Reflection Questions**\n- How can I help my child remember tricky numbers?\n- What are fun ways to practice writing numbers?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Read & Write Numbers 0–20",
+    "introduction": "Welcome to a fun journey of numbers! This lesson will help your child recognize, read, and write numbers from 0 to 20. Let's dive into the world of numbers together!",
+    "objective": "By the end of this lesson, your child will be able to read and write numbers from 0 to 20 with confidence.",
+    "why_matters": "Understanding numbers is foundational for math. It helps your child with counting, simple arithmetic, and even understanding time and money in the future.",
+    "parent_tip": "Encourage your child to point out numbers they see in everyday life, like on clocks, street signs, or in books. This makes learning numbers fun and relatable!",
+    "real_world_link": "Numbers are everywhere! From telling time to following a recipe, recognizing numbers is an essential skill in everyday life.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the numbers 0–10 using objects like toys or snacks.",
+      "Demonstrate how to write each number on paper.",
+      "Use a number chart for numbers 11–20 and point to each number as you say it.",
+      "Practice writing numbers with your child on a whiteboard or paper.",
+      "Play a number matching game using number cards."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at the numbers from 0 to 10.",
+        "do": "Show your child objects like toys and count them together.",
+        "ask": "How many toys do we have here?",
+        "reinforce": "Great job! That's the number 5. Can we write it down together?"
+      },
+      {
+        "say": "Now, let's write the number 3.",
+        "do": "Demonstrate writing the number 3 on a piece of paper.",
+        "ask": "Can you try writing the number 3?",
+        "reinforce": "Wonderful! Your 3 looks great!"
+      },
+      {
+        "say": "Let's look at numbers from 11 to 20 on this chart.",
+        "do": "Point to each number and say it out loud.",
+        "ask": "Can you point to the number 15?",
+        "reinforce": "Yes, that's 15! You're getting really good at this."
+      },
+      {
+        "say": "Let's practice writing the number 12.",
+        "do": "Write the number 12 on a whiteboard.",
+        "ask": "Can you write the number 12 next to mine?",
+        "reinforce": "Excellent! You're doing a great job writing numbers."
+      },
+      {
+        "say": "Let's play a game with these number cards.",
+        "do": "Lay out number cards 0-20 and ask your child to match them.",
+        "ask": "Can you find the card with the number 8?",
+        "reinforce": "You found it! That's the number 8. Well done!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Write the number that comes after 7.",
+        "hint": "It's one more than 7.",
+        "answer": "8"
+      },
+      {
+        "prompt": "What number is between 14 and 16?",
+        "hint": "It's in the middle of 14 and 16.",
+        "answer": "15"
+      },
+      {
+        "prompt": "Write the number that comes before 20.",
+        "hint": "It's one less than 20.",
+        "answer": "19"
+      },
+      {
+        "prompt": "Count and write the number of apples if you have 3.",
+        "hint": "Count each apple.",
+        "answer": "3"
+      }
+    ],
+    "recap": [
+      "Reading and writing numbers is fun and important.",
+      "Practice makes perfect, so keep counting and writing together.",
+      "Numbers are everywhere—keep exploring them in your daily activities."
+    ],
+    "common_mistakes": [
+      "Mixing up numbers like 6 and 9.",
+      "Writing numbers backwards, such as writing 12 as 21.",
+      "Skipping numbers when counting, like going from 8 to 10."
+    ],
+    "deep_dive": {
+      "history": "Numbers have been used for thousands of years. Ancient civilizations like the Egyptians and Babylonians had their own number systems.",
+      "connections": "Understanding numbers is the first step to learning math concepts like addition and subtraction.",
+      "misconceptions": "Children often think numbers only exist in the classroom. Help them see numbers in real life too.",
+      "teaching_tips": "Use songs and rhymes to make learning numbers fun and memorable.",
+      "derivation": "The numbers 0-9 are called digits. We use these digits to make larger numbers, like 10, 11, and 12."
+    },
+    "motivation": "Learning numbers is like unlocking a special code that helps us understand the world. Every number your child learns opens up new possibilities for discovery and fun!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun journey of numbers! This lesson will help your child recognize, read, and write numbers from 0 to 20. Let's dive into the world of numbers together!\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to read and write numbers from 0 to 20 with confidence.\n**Why it matters:** Understanding numbers is foundational for math. It helps your child with counting, simple arithmetic, and even understanding time and money in the future.\n**Parent Tip:** Encourage your child to point out numbers they see in everyday life, like on clocks, street signs, or in books. This makes learning numbers fun and relatable!\n**Real-World Link:** Numbers are everywhere! From telling time to following a recipe, recognizing numbers is an essential skill in everyday life.\n\n## Teaching Steps\n1. Introduce the numbers 0–10 using objects like toys or snacks.\n2. Demonstrate how to write each number on paper.\n3. Use a number chart for numbers 11–20 and point to each number as you say it.\n4. Practice writing numbers with your child on a whiteboard or paper.\n5. Play a number matching game using number cards.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at the numbers from 0 to 10.  \n**Show/Do:** Show your child objects like toys and count them together.  \n**Ask:** How many toys do we have here?  \n**Reinforce:** Great job! That's the number 5. Can we write it down together?\n2. **Say:** Now, let's write the number 3.  \n**Show/Do:** Demonstrate writing the number 3 on a piece of paper.  \n**Ask:** Can you try writing the number 3?  \n**Reinforce:** Wonderful! Your 3 looks great!\n3. **Say:** Let's look at numbers from 11 to 20 on this chart.  \n**Show/Do:** Point to each number and say it out loud.  \n**Ask:** Can you point to the number 15?  \n**Reinforce:** Yes, that's 15! You're getting really good at this.\n4. **Say:** Let's practice writing the number 12.  \n**Show/Do:** Write the number 12 on a whiteboard.  \n**Ask:** Can you write the number 12 next to mine?  \n**Reinforce:** Excellent! You're doing a great job writing numbers.\n5. **Say:** Let's play a game with these number cards.  \n**Show/Do:** Lay out number cards 0-20 and ask your child to match them.  \n**Ask:** Can you find the card with the number 8?  \n**Reinforce:** You found it! That's the number 8. Well done!\n\n## Practice Questions (Do It Together)\n**1. Write the number that comes after 7.**\n<details><summary>Hint</summary>\nIt's one more than 7.\n</details>\n<details><summary>Answer</summary>\n8\n</details>\n\n**2. What number is between 14 and 16?**\n<details><summary>Hint</summary>\nIt's in the middle of 14 and 16.\n</details>\n<details><summary>Answer</summary>\n15\n</details>\n\n**3. Write the number that comes before 20.**\n<details><summary>Hint</summary>\nIt's one less than 20.\n</details>\n<details><summary>Answer</summary>\n19\n</details>\n\n**4. Count and write the number of apples if you have 3.**\n<details><summary>Hint</summary>\nCount each apple.\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Reading and writing numbers is fun and important.\n- Practice makes perfect, so keep counting and writing together.\n- Numbers are everywhere—keep exploring them in your daily activities.\n\n**Common Mistakes**\n- Mixing up numbers like 6 and 9.\n- Writing numbers backwards, such as writing 12 as 21.\n- Skipping numbers when counting, like going from 8 to 10.\n\n## 🔍 Deep Dive\n**History or origin**\n\nNumbers have been used for thousands of years. Ancient civilizations like the Egyptians and Babylonians had their own number systems.\n\n**Future topic connections**\n\nUnderstanding numbers is the first step to learning math concepts like addition and subtraction.\n\n**Common misconceptions**\n\nChildren often think numbers only exist in the classroom. Help them see numbers in real life too.\n\n**Teaching tips for parents**\n\nUse songs and rhymes to make learning numbers fun and memorable.\n\n**More detail / derivation**\n\nThe numbers 0-9 are called digits. We use these digits to make larger numbers, like 10, 11, and 12.\n\n## Motivation\nLearning numbers is like unlocking a special code that helps us understand the world. Every number your child learns opens up new possibilities for discovery and fun!"
+}

@@ -1,0 +1,45 @@
+{
+  "grade": "2",
+  "lessons": [
+    {
+      "slug": "addition-and-subtraction-within-100",
+      "title": "Addition & Subtraction within 100"
+    },
+    {
+      "slug": "bar-graphs-and-simple-data",
+      "title": "Bar Graphs & Simple Data: A Fun Way to Organize Information"
+    },
+    {
+      "slug": "intro-to-multiplication-repeated-addition",
+      "title": "Intro to Multiplication: Repeated Addition"
+    },
+    {
+      "slug": "measurement-length-mass-capacity",
+      "title": "Measurement Magic: Exploring Length, Mass, and Capacity"
+    },
+    {
+      "slug": "regrouping-carry-and-borrow",
+      "title": "Regrouping (Carry & Borrow) Made Simple"
+    },
+    {
+      "slug": "simple-division-sharing-concept",
+      "title": "Simple Division: Sharing is Caring"
+    },
+    {
+      "slug": "telling-time-to-5-minutes",
+      "title": "Telling Time to 5 Minutes"
+    },
+    {
+      "slug": "even-and-odd-numbers",
+      "title": "Understanding Even & Odd Numbers"
+    },
+    {
+      "slug": "place-value-hundreds",
+      "title": "Understanding Place Value: Hundreds"
+    },
+    {
+      "slug": "fractions",
+      "title": "Understanding Simple Fractions: ½, ⅓, ¼"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "grade": "9",
+  "lessons": [
+    {
+      "slug": "absolute-value",
+      "title": "Absolute Value"
+    },
+    {
+      "slug": "exponential-functions-intro",
+      "title": "Exponential Functions (Intro)"
+    },
+    {
+      "slug": "expressions-equations-inequalities",
+      "title": "Expressions, Equations, Inequalities"
+    },
+    {
+      "slug": "factoring-gcf-trinomials-special-products",
+      "title": "Factoring (GCF, Trinomials, Special Products)"
+    },
+    {
+      "slug": "factoring-techniques-intro",
+      "title": "Factoring Techniques (Intro)"
+    },
+    {
+      "slug": "function-notation-transformations",
+      "title": "Function Notation & Transformations"
+    },
+    {
+      "slug": "functions-graphs-domain-range",
+      "title": "Functions & Graphs; Domain/Range"
+    },
+    {
+      "slug": "graphing-linear-functions",
+      "title": "Graphing Linear Functions"
+    },
+    {
+      "slug": "linear-equations-inequalities-all-methods",
+      "title": "Linear Equations & Inequalities (All Methods)"
+    },
+    {
+      "slug": "modeling-word-problems",
+      "title": "Modeling & Word Problems"
+    },
+    {
+      "slug": "quadratic-solutions-factoring-formula-completing-square",
+      "title": "Quadratic Solutions (Factoring, Formula, Completing Square)"
+    },
+    {
+      "slug": "quadratics-forms-graphing-zeros",
+      "title": "Quadratics: Forms, Graphing, Zeros"
+    },
+    {
+      "slug": "radical-expressions-intro",
+      "title": "Radical Expressions (Intro)"
+    },
+    {
+      "slug": "radicals-simplify-operations",
+      "title": "Radicals: Simplify & Operations"
+    },
+    {
+      "slug": "rational-expressions-intro-2156f5f6-bb15-49f0-83a3-1cfce99b03cc",
+      "title": "Rational Expressions (Intro)"
+    },
+    {
+      "slug": "rational-expressions-intro-bf66e784-0e24-4dd6-a504-405cf6b509a5",
+      "title": "Rational Expressions (Intro)"
+    },
+    {
+      "slug": "rational-expressions-intro",
+      "title": "Rational Expressions Intro"
+    },
+    {
+      "slug": "real-number-properties",
+      "title": "Real Number Properties"
+    },
+    {
+      "slug": "slope-parallel-perpendicular-lines",
+      "title": "Slope, Parallel/Perpendicular Lines"
+    },
+    {
+      "slug": "solving-linear-equations",
+      "title": "Solving Linear Equations"
+    },
+    {
+      "slug": "solving-quadratic-equations-intro",
+      "title": "Solving Quadratic Equations (Intro)"
+    },
+    {
+      "slug": "systems-of-equations-inequalities",
+      "title": "Systems of Equations & Inequalities"
+    },
+    {
+      "slug": "word-problems-modeling",
+      "title": "Word Problems & Modeling"
+    }
+  ]
+}

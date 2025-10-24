@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "78120d56-9872-446c-945d-7127774f6c05",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "7055f29e-22f4-48f1-b386-c3679d430782",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "2bd54e7f-9c46-411e-8496-d3697a167412",
+    "slug": "scale-drawings-and-ratios",
+    "title": "Understanding Scale Drawings and Ratios",
+    "summary": "Scale drawings & ratios — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp how scale drawings work and use ratios to solve related problems.\n\n**Why it matters:** Scale drawings are everywhere—from maps to model kits. Understanding them helps us read blueprints and navigate the world with ease.\n\n**Parent Tip:** Relate scale drawings to maps or model cars your child is familiar with. This makes the concept more tangible and engaging.\n\n**Real-World Link:** Next time you look at a map, point out how a small inch can represent miles in the real world. This is scale in action!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're diving into scale drawings and ratios, a concept that helps us understand the relationship between the size of a drawing and the actual object it represents. Think of it as a miniature version of reality!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that scale drawings are reduced or enlarged representations of objects.\n2. Introduce the concept of ratio as a comparison between the drawing and the actual object.\n3. Use a simple example: a 1:10 scale means 1 unit on the drawing equals 10 units in real life.\n4. Demonstrate using a ruler to measure a scale drawing and calculate the real size.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. A model car is built to a 1:24 scale. If the model is 6 inches long, how long is the actual car?**\n_Answer:_ 144 inches (12 feet)\n_Hint:_ Multiply the model length by the scale factor.\n\n**2. On a map with a 1:100,000 scale, 2 inches represent how many miles?**\n_Answer:_ 200,000 inches, which is approximately 3.16 miles.\n_Hint:_ Convert inches to miles using the scale.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing which number in a ratio represents the drawing or real size.\n- Forgetting to convert units when necessary.\n- Mixing up multiplication and division when using scale factors.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Next time you look at a map, point out how a small inch can represent miles in the real world. This is scale in action!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to interpret and create scale drawings using ratios.",
+    "overview": "**Objective:** Help your child grasp how scale drawings work and use ratios to solve related problems.\n\n**Why it matters:** Scale drawings are everywhere—from maps to model kits. Understanding them helps us read blueprints and navigate the world with ease.\n\n**Parent Tip:** Relate scale drawings to maps or model cars your child is familiar with. This makes the concept more tangible and engaging.\n\n**Real-World Link:** Next time you look at a map, point out how a small inch can represent miles in the real world. This is scale in action!",
+    "core": "Welcome! Today, we're diving into scale drawings and ratios, a concept that helps us understand the relationship between the size of a drawing and the actual object it represents. Think of it as a miniature version of reality!",
+    "demo": "**Spark Curiosity:**\n\nHave you ever seen a huge building perfectly captured in a small blueprint? That's the magic of scale drawings!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** Scale Ratio = Drawing Size : Actual Size\n- **Meaning:** This ratio tells us the relationship between the size of the drawing and the size of the real object.\n- **How it works:** If a scale is 1:100, every unit on the drawing equals 100 units on the actual object.\n- **Example:** A map with a scale of 1:50,000 means 1 cm on the map equals 50,000 cm (or 500 meters) in reality.",
+    "formulas": "Scale Ratio = Drawing Size : Actual Size",
+    "guide": "1. Explain that scale drawings are reduced or enlarged representations of objects.\n2. Introduce the concept of ratio as a comparison between the drawing and the actual object.\n3. Use a simple example: a 1:10 scale means 1 unit on the drawing equals 10 units in real life.\n4. Demonstrate using a ruler to measure a scale drawing and calculate the real size.",
+    "practice": "**1. A model car is built to a 1:24 scale. If the model is 6 inches long, how long is the actual car?**\n_Answer:_ 144 inches (12 feet)\n_Hint:_ Multiply the model length by the scale factor.\n\n**2. On a map with a 1:100,000 scale, 2 inches represent how many miles?**\n_Answer:_ 200,000 inches, which is approximately 3.16 miles.\n_Hint:_ Convert inches to miles using the scale.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing which number in a ratio represents the drawing or real size.\n- Forgetting to convert units when necessary.\n- Mixing up multiplication and division when using scale factors.",
+    "connection": "Next time you look at a map, point out how a small inch can represent miles in the real world. This is scale in action!",
+    "close": "**Key Takeaways**\n- Scale drawings use ratios to represent real objects.\n- Understanding scale helps in interpreting maps and models.\n- Practicing with real-world examples solidifies the concept.\n\n**Parent Reflection Questions**\n- How can we use scale drawings in our everyday life?\n- What are some other areas where scale drawings are essential?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Scale Drawings and Ratios",
+    "introduction": "Welcome to your journey into the world of scale drawings and ratios! This lesson will guide you in helping your child understand how to interpret and create scale drawings, a key concept in math that connects to many real-life situations.",
+    "objective": "Help your child understand and apply the concept of scale drawings and ratios to solve problems.",
+    "why_matters": "Scale drawings are everywhere, from maps to model buildings. Understanding them helps your child navigate the world and solve practical problems.",
+    "parent_tip": "Encourage your child to visualize and draw, which will make understanding scales and ratios much easier.",
+    "real_world_link": "Think of how architects use scale drawings to plan buildings or how maps help us understand distances between places.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a scale drawing using maps or blueprints.",
+      "Explain what a ratio is and how it relates to scale drawings.",
+      "Show how to find the scale of a drawing and how to use it to calculate real-world distances.",
+      "Practice creating a simple scale drawing with your child.",
+      "Discuss how changes in scale affect the size of objects in a drawing."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at this map. It uses a scale to show real distances.",
+        "do": "Point to a map or blueprint.",
+        "ask": "What do you think the scale means here?",
+        "reinforce": "That's right! The scale helps us understand the real size or distance of objects."
+      },
+      {
+        "say": "A ratio is a way to compare two numbers.",
+        "do": "Write down a simple ratio, like 1:100.",
+        "ask": "What do you think this ratio tells us?",
+        "reinforce": "Exactly! It means 1 unit on the drawing equals 100 units in real life."
+      },
+      {
+        "say": "Let's find the real distance using this scale.",
+        "do": "Measure a distance on the map.",
+        "ask": "How can we use the scale to find the real distance?",
+        "reinforce": "Great! Multiply the measured distance by the scale factor."
+      },
+      {
+        "say": "Now, let's create a scale drawing of our own.",
+        "do": "Draw a simple object, like a room layout, using a scale.",
+        "ask": "How should we decide on a scale for our drawing?",
+        "reinforce": "Good thinking! Choose a scale that makes the drawing easy to work with."
+      },
+      {
+        "say": "Notice how changing the scale changes the size of our drawing.",
+        "do": "Show examples of different scales for the same object.",
+        "ask": "What happens when we increase or decrease the scale?",
+        "reinforce": "Exactly, the drawing becomes larger or smaller, but the proportions stay the same."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "A map has a scale of 1:500. If a park measures 3 cm on the map, how long is it in real life?",
+        "hint": "Multiply the map measurement by the scale factor.",
+        "answer": "1500 cm"
+      },
+      {
+        "prompt": "You want to draw a room that is 10 meters wide using a scale of 1:100. How wide should the drawing be?",
+        "hint": "Divide the real measurement by the scale factor.",
+        "answer": "0.1 meters or 10 cm"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Scale drawings represent real objects with reduced or enlarged sizes.",
+      "Ratios show the relationship between the drawing and real-life measurements.",
+      "Understanding scales helps solve practical problems in everyday life."
+    ],
+    "common_mistakes": [
+      "Confusing which number in the ratio represents the drawing versus real life.",
+      "Forgetting to multiply or divide by the scale factor when converting measurements."
+    ],
+    "deep_dive": {
+      "history": "Scale drawings have been used since ancient times, with notable examples in Egyptian pyramids and Roman architecture.",
+      "connections": "This concept connects to art, engineering, and geography.",
+      "misconceptions": "Some students think the scale changes the actual size of the object, not just the drawing.",
+      "teaching_tips": "Use physical models and drawings to clarify how scales work.",
+      "derivation": "The concept of scale and ratio is derived from basic proportional reasoning in mathematics."
+    },
+    "motivation": "By understanding scale drawings, your child gains a valuable tool for interpreting the world, whether planning a new room layout or understanding the distance on a map."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to your journey into the world of scale drawings and ratios! This lesson will guide you in helping your child understand how to interpret and create scale drawings, a key concept in math that connects to many real-life situations.\n\n## Parent Orientation\n**Objective:** Help your child understand and apply the concept of scale drawings and ratios to solve problems.\n**Why it matters:** Scale drawings are everywhere, from maps to model buildings. Understanding them helps your child navigate the world and solve practical problems.\n**Parent Tip:** Encourage your child to visualize and draw, which will make understanding scales and ratios much easier.\n**Real-World Link:** Think of how architects use scale drawings to plan buildings or how maps help us understand distances between places.\n\n## Teaching Steps\n1. Introduce the concept of a scale drawing using maps or blueprints.\n2. Explain what a ratio is and how it relates to scale drawings.\n3. Show how to find the scale of a drawing and how to use it to calculate real-world distances.\n4. Practice creating a simple scale drawing with your child.\n5. Discuss how changes in scale affect the size of objects in a drawing.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at this map. It uses a scale to show real distances.  \n**Show/Do:** Point to a map or blueprint.  \n**Ask:** What do you think the scale means here?  \n**Reinforce:** That's right! The scale helps us understand the real size or distance of objects.\n2. **Say:** A ratio is a way to compare two numbers.  \n**Show/Do:** Write down a simple ratio, like 1:100.  \n**Ask:** What do you think this ratio tells us?  \n**Reinforce:** Exactly! It means 1 unit on the drawing equals 100 units in real life.\n3. **Say:** Let's find the real distance using this scale.  \n**Show/Do:** Measure a distance on the map.  \n**Ask:** How can we use the scale to find the real distance?  \n**Reinforce:** Great! Multiply the measured distance by the scale factor.\n4. **Say:** Now, let's create a scale drawing of our own.  \n**Show/Do:** Draw a simple object, like a room layout, using a scale.  \n**Ask:** How should we decide on a scale for our drawing?  \n**Reinforce:** Good thinking! Choose a scale that makes the drawing easy to work with.\n5. **Say:** Notice how changing the scale changes the size of our drawing.  \n**Show/Do:** Show examples of different scales for the same object.  \n**Ask:** What happens when we increase or decrease the scale?  \n**Reinforce:** Exactly, the drawing becomes larger or smaller, but the proportions stay the same.\n\n## Practice Questions (Do It Together)\n**1. A map has a scale of 1:500. If a park measures 3 cm on the map, how long is it in real life?**\n<details><summary>Hint</summary>\nMultiply the map measurement by the scale factor.\n</details>\n<details><summary>Answer</summary>\n1500 cm\n</details>\n\n**2. You want to draw a room that is 10 meters wide using a scale of 1:100. How wide should the drawing be?**\n<details><summary>Hint</summary>\nDivide the real measurement by the scale factor.\n</details>\n<details><summary>Answer</summary>\n0.1 meters or 10 cm\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Scale drawings represent real objects with reduced or enlarged sizes.\n- Ratios show the relationship between the drawing and real-life measurements.\n- Understanding scales helps solve practical problems in everyday life.\n\n**Common Mistakes**\n- Confusing which number in the ratio represents the drawing versus real life.\n- Forgetting to multiply or divide by the scale factor when converting measurements.\n\n## 🔍 Deep Dive\n**History or origin**\n\nScale drawings have been used since ancient times, with notable examples in Egyptian pyramids and Roman architecture.\n\n**Future topic connections**\n\nThis concept connects to art, engineering, and geography.\n\n**Common misconceptions**\n\nSome students think the scale changes the actual size of the object, not just the drawing.\n\n**Teaching tips for parents**\n\nUse physical models and drawings to clarify how scales work.\n\n**More detail / derivation**\n\nThe concept of scale and ratio is derived from basic proportional reasoning in mathematics.\n\n## Motivation\nBy understanding scale drawings, your child gains a valuable tool for interpreting the world, whether planning a new room layout or understanding the distance on a map."
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "06fa24e1-14bf-4c33-848a-a358adbbc375",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "ed17d85e-d359-46b3-a15b-9131b541a86f",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "7381be4d-fba4-410e-b80a-6012a0e96f89",
+    "slug": "money-coins-and-notes-simple-addition",
+    "title": "Understanding Money: Simple Addition with Coins & Notes (Grade 1)",
+    "summary": "Money (coins & notes – simple addition) — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help children learn how to add simple amounts using coins and notes.\n\n**Why it matters:** Understanding money is essential for everyday life. It helps children make decisions, plan, and understand the value of items.\n\n**Parent Tip:** Use real coins and notes at home to make practice tangible. This hands-on approach helps solidify their understanding.\n\n**Real-World Link:** Next time you're at the store, let your child help count out the money. It's a great way to practice addition and see how it applies to buying items.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Helping your child understand money is like giving them a key to interact with the world. Let's explore how we can add coins and notes together to make learning fun and practical!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with familiar coins: pennies, nickels, dimes, and quarters.\n2. Show how to add the same coins together first (e.g., 2 nickels = 10 cents).\n3. Introduce notes as larger values (e.g., $1, $5) and how they combine with coins.\n4. Practice adding coins and notes together to reach a total amount.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If you have a dime (10¢) and a nickel (5¢), how much do you have in total?**\n_Answer:_ 15¢\n_Hint:_ Add the values of the coins together.\n\n**2. You have a $1 bill and 3 quarters. How much money do you have?**\n_Answer:_ $1.75\n_Hint:_ Remember: 4 quarters make a dollar.\n\n**3. Add a $5 bill, a dime, and a penny.**\n_Answer:_ $5.11\n_Hint:_ Convert everything to cents first if needed.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to count cents and dollars separately.\n- Mixing up the value of similar-sized coins.\n- Overlooking the different values of notes.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Next time you're at the store, let your child help count out the money. It's a great way to practice addition and see how it applies to buying items.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and add different coins and notes to solve simple money problems.",
+    "overview": "**Objective:** To help children learn how to add simple amounts using coins and notes.\n\n**Why it matters:** Understanding money is essential for everyday life. It helps children make decisions, plan, and understand the value of items.\n\n**Parent Tip:** Use real coins and notes at home to make practice tangible. This hands-on approach helps solidify their understanding.\n\n**Real-World Link:** Next time you're at the store, let your child help count out the money. It's a great way to practice addition and see how it applies to buying items.",
+    "core": "Helping your child understand money is like giving them a key to interact with the world. Let's explore how we can add coins and notes together to make learning fun and practical!",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'What would you buy if you had $10? How many things can you get?' This encourages them to think about money and value.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with familiar coins: pennies, nickels, dimes, and quarters.\n2. Show how to add the same coins together first (e.g., 2 nickels = 10 cents).\n3. Introduce notes as larger values (e.g., $1, $5) and how they combine with coins.\n4. Practice adding coins and notes together to reach a total amount.",
+    "practice": "**1. If you have a dime (10¢) and a nickel (5¢), how much do you have in total?**\n_Answer:_ 15¢\n_Hint:_ Add the values of the coins together.\n\n**2. You have a $1 bill and 3 quarters. How much money do you have?**\n_Answer:_ $1.75\n_Hint:_ Remember: 4 quarters make a dollar.\n\n**3. Add a $5 bill, a dime, and a penny.**\n_Answer:_ $5.11\n_Hint:_ Convert everything to cents first if needed.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to count cents and dollars separately.\n- Mixing up the value of similar-sized coins.\n- Overlooking the different values of notes.",
+    "connection": "Next time you're at the store, let your child help count out the money. It's a great way to practice addition and see how it applies to buying items.",
+    "close": "**Key Takeaways**\n- Coins and notes have different values.\n- Adding money is like adding numbers.\n- Practical experience with real money enhances understanding.\n\n**Parent Reflection Questions**\n- How can I make money addition more engaging?\n- What if my child struggles with recognizing coins?\n- How do I explain the concept of change?"
+  },
+  "practice": "**1.** Independent challenge #1 for \"Money (coins & notes – simple addition)\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**2.** Independent challenge #2 for \"Money (coins & notes – simple addition)\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**3.** Independent challenge #3 for \"Money (coins & notes – simple addition)\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.",
+  "universal": {
+    "title": "Understanding Money: Simple Addition with Coins & Notes (Grade 1)",
+    "introduction": "Welcome! Today, we'll explore how to add coins and notes together. This is a fun way to help your child understand money and its value.",
+    "objective": "Help your child learn to add small amounts of money using coins and notes.",
+    "why_matters": "Understanding how to count money is an essential life skill. It builds a foundation for future financial literacy and helps in everyday activities like shopping.",
+    "parent_tip": "Use real coins and notes if possible. It makes learning tangible and more engaging for your child.",
+    "real_world_link": "Next time you go shopping, involve your child. Ask them to help count out the money needed for small purchases.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the different coins and notes.",
+      "Practice identifying the value of each coin and note.",
+      "Demonstrate simple addition with small amounts.",
+      "Use real-life scenarios, like buying a snack, to add coins and notes.",
+      "Encourage your child to practice with different combinations."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at these coins and notes.",
+        "do": "Show your child different coins and a $1 note.",
+        "ask": "Can you tell me the value of each one?",
+        "reinforce": "Great job! Remember, each coin and note has a special value."
+      },
+      {
+        "say": "Let's add these together.",
+        "do": "Place a 5-cent coin and a 10-cent coin on the table.",
+        "ask": "How much do we have now?",
+        "reinforce": "Yes, 5 plus 10 equals 15 cents!"
+      },
+      {
+        "say": "Now let's try with a note.",
+        "do": "Add a $1 note to the coins.",
+        "ask": "How much do we have in total?",
+        "reinforce": "That's right, $1 and 15 cents!"
+      },
+      {
+        "say": "Let's pretend we're buying a toy car.",
+        "do": "Set a price, like $1.25, and use coins and notes to count it out.",
+        "ask": "Can you help me pay for it?",
+        "reinforce": "Well done! You used the right amount of money."
+      },
+      {
+        "say": "Let's try a different combination.",
+        "do": "Change the coins and notes and repeat the addition.",
+        "ask": "How much is this now?",
+        "reinforce": "You're getting really good at this!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add a 10-cent coin and a 20-cent coin.",
+        "hint": "Think about what 10 plus 20 equals.",
+        "answer": "30 cents"
+      },
+      {
+        "prompt": "You have a $1 note and a 50-cent coin. How much in total?",
+        "hint": "Add $1 and 50 cents together.",
+        "answer": "$1.50"
+      },
+      {
+        "prompt": "Add two 5-cent coins and a 10-cent coin.",
+        "hint": "Add the 5-cent coins first, then add the 10-cent coin.",
+        "answer": "20 cents"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Today, we learned how to add coins and notes.",
+      "Practice makes perfect, so keep trying different combinations.",
+      "Next time you handle money, involve your child in the counting."
+    ],
+    "common_mistakes": [
+      "Forgetting to count the value of coins and notes separately.",
+      "Mixing up the values of similar-looking coins.",
+      "Not aligning the decimal point correctly when adding cents to dollars."
+    ],
+    "deep_dive": {
+      "history": "Coins and notes have been used for thousands of years as a means of exchange.",
+      "connections": "Understanding money connects to other math topics like subtraction and multiplication.",
+      "misconceptions": "Some children may think all coins are worth the same if they look similar.",
+      "teaching_tips": "Use play money for practice to avoid stress over mistakes.",
+      "derivation": "The concept of money addition is derived from basic arithmetic operations."
+    },
+    "motivation": "Being able to count money confidently empowers your child to make smart financial decisions in the future."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today, we'll explore how to add coins and notes together. This is a fun way to help your child understand money and its value.\n\n## Parent Orientation\n**Objective:** Help your child learn to add small amounts of money using coins and notes.\n**Why it matters:** Understanding how to count money is an essential life skill. It builds a foundation for future financial literacy and helps in everyday activities like shopping.\n**Parent Tip:** Use real coins and notes if possible. It makes learning tangible and more engaging for your child.\n**Real-World Link:** Next time you go shopping, involve your child. Ask them to help count out the money needed for small purchases.\n\n## Teaching Steps\n1. Introduce the different coins and notes.\n2. Practice identifying the value of each coin and note.\n3. Demonstrate simple addition with small amounts.\n4. Use real-life scenarios, like buying a snack, to add coins and notes.\n5. Encourage your child to practice with different combinations.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at these coins and notes.  \n**Show/Do:** Show your child different coins and a $1 note.  \n**Ask:** Can you tell me the value of each one?  \n**Reinforce:** Great job! Remember, each coin and note has a special value.\n2. **Say:** Let's add these together.  \n**Show/Do:** Place a 5-cent coin and a 10-cent coin on the table.  \n**Ask:** How much do we have now?  \n**Reinforce:** Yes, 5 plus 10 equals 15 cents!\n3. **Say:** Now let's try with a note.  \n**Show/Do:** Add a $1 note to the coins.  \n**Ask:** How much do we have in total?  \n**Reinforce:** That's right, $1 and 15 cents!\n4. **Say:** Let's pretend we're buying a toy car.  \n**Show/Do:** Set a price, like $1.25, and use coins and notes to count it out.  \n**Ask:** Can you help me pay for it?  \n**Reinforce:** Well done! You used the right amount of money.\n5. **Say:** Let's try a different combination.  \n**Show/Do:** Change the coins and notes and repeat the addition.  \n**Ask:** How much is this now?  \n**Reinforce:** You're getting really good at this!\n\n## Practice Questions (Do It Together)\n**1. Add a 10-cent coin and a 20-cent coin.**\n<details><summary>Hint</summary>\nThink about what 10 plus 20 equals.\n</details>\n<details><summary>Answer</summary>\n30 cents\n</details>\n\n**2. You have a $1 note and a 50-cent coin. How much in total?**\n<details><summary>Hint</summary>\nAdd $1 and 50 cents together.\n</details>\n<details><summary>Answer</summary>\n$1.50\n</details>\n\n**3. Add two 5-cent coins and a 10-cent coin.**\n<details><summary>Hint</summary>\nAdd the 5-cent coins first, then add the 10-cent coin.\n</details>\n<details><summary>Answer</summary>\n20 cents\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Today, we learned how to add coins and notes.\n- Practice makes perfect, so keep trying different combinations.\n- Next time you handle money, involve your child in the counting.\n\n**Common Mistakes**\n- Forgetting to count the value of coins and notes separately.\n- Mixing up the values of similar-looking coins.\n- Not aligning the decimal point correctly when adding cents to dollars.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCoins and notes have been used for thousands of years as a means of exchange.\n\n**Future topic connections**\n\nUnderstanding money connects to other math topics like subtraction and multiplication.\n\n**Common misconceptions**\n\nSome children may think all coins are worth the same if they look similar.\n\n**Teaching tips for parents**\n\nUse play money for practice to avoid stress over mistakes.\n\n**More detail / derivation**\n\nThe concept of money addition is derived from basic arithmetic operations.\n\n## Motivation\nBeing able to count money confidently empowers your child to make smart financial decisions in the future."
+}

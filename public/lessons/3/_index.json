@@ -1,0 +1,45 @@
+{
+  "grade": "3",
+  "lessons": [
+    {
+      "slug": "area-and-perimeter-of-rectangles",
+      "title": "Exploring Area & Perimeter of Rectangles: A Family Adventure"
+    },
+    {
+      "slug": "fractions-on-number-line",
+      "title": "Fractions on a Number Line"
+    },
+    {
+      "slug": "intro-to-patterns-and-sequences",
+      "title": "Intro to Patterns & Sequences"
+    },
+    {
+      "slug": "introduction-to-angles",
+      "title": "Introduction to Angles"
+    },
+    {
+      "slug": "money-change-and-total",
+      "title": "Money Matters: Understanding Change and Total"
+    },
+    {
+      "slug": "multiplication-facts-010",
+      "title": "Multiplication Facts (0–10)"
+    },
+    {
+      "slug": "pictographs-and-bar-graphs",
+      "title": "Pictographs & Bar Graphs: Turning Numbers into Pictures"
+    },
+    {
+      "slug": "rounding-and-estimating",
+      "title": "Rounding & Estimating: Finding the Nearest Number"
+    },
+    {
+      "slug": "division-facts-010",
+      "title": "Understanding Division Facts (0–10)"
+    },
+    {
+      "slug": "word-problems-4-operations",
+      "title": "Word Problems with Four Operations: A Parent's Guide"
+    }
+  ]
+}

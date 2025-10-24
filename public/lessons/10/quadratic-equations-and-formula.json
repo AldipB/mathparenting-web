@@ -1,0 +1,177 @@
+{
+  "grade": {
+    "id": "a28009ea-54b7-4d1a-a7fc-a3985e4fb049",
+    "slug": "10",
+    "name": "Grade 10 (Geometry & Algebra II)"
+  },
+  "unit": {
+    "id": "044ac96e-76c9-4625-8fda-026c997ec5ba",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "2e93e294-dc68-4208-bfaa-e55db4b78534",
+    "slug": "quadratic-equations-and-formula",
+    "title": "Understanding Quadratic Equations & Formula",
+    "summary": "Quadratic equations & formula — parent overview for Grade 10 (Geometry & Algebra II).",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and solve quadratic equations using the quadratic formula.\n\n**Why it matters:** Quadratic equations are used in various fields such as physics, engineering, and economics. Understanding them opens doors to solving real-world problems.\n\n**Parent Tip:** Encourage your child to break down the formula step-by-step. Visual aids, like graphing the equation, can make the learning process more engaging.\n\n**Real-World Link:** Quadratic equations help predict the path of a ball being thrown or calculate the profit of a business based on sales and costs.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Quadratic equations might sound complex, but they are just a type of equation that forms a beautiful curve called a parabola. Let's explore how they work and why they're important.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Identify coefficients a, b, and c in the quadratic equation.\n2. Substitute these values into the quadratic formula.\n3. Calculate the discriminant (b² - 4ac) to determine the nature of the roots.\n4. Solve for x using the formula, considering both + and - cases.\n5. Check the solutions by substituting them back into the original equation.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Solve 3x² + 6x - 9 = 0 using the quadratic formula.**\n_Answer:_ x = 1 or x = -3\n_Hint:_ Identify a=3, b=6, c=-9 and substitute into the formula.\n\n**2. Solve x² - 4x + 4 = 0 using the quadratic formula.**\n_Answer:_ x = 2\n_Hint:_ Identify a=1, b=-4, c=4 and substitute into the formula.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to apply ± when using the formula.\n- Miscalculating the discriminant, leading to incorrect solutions.\n- Not simplifying the square root properly.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Quadratic equations help predict the path of a ball being thrown or calculate the profit of a business based on sales and costs.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and solve quadratic equations using the quadratic formula.",
+    "overview": "**Objective:** Help your child understand and solve quadratic equations using the quadratic formula.\n\n**Why it matters:** Quadratic equations are used in various fields such as physics, engineering, and economics. Understanding them opens doors to solving real-world problems.\n\n**Parent Tip:** Encourage your child to break down the formula step-by-step. Visual aids, like graphing the equation, can make the learning process more engaging.\n\n**Real-World Link:** Quadratic equations help predict the path of a ball being thrown or calculate the profit of a business based on sales and costs.",
+    "core": "Quadratic equations might sound complex, but they are just a type of equation that forms a beautiful curve called a parabola. Let's explore how they work and why they're important.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that the curve of a rainbow or the trajectory of a bouncing ball can be explained using quadratic equations?",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n- **Meaning:** This formula gives the values of \\( x \\) that make the equation true.\n- **How it works:** The term \\( b^2 - 4ac \\) is called the discriminant. It determines the nature of the roots (real and distinct, real and equal, or complex).\n- **Example:** For \\( x^2 + 4x + 4 = 0 \\), \\( a = 1 \\), \\( b = 4 \\), \\( c = 4 \\). Plugging into the formula gives \\( x = \\frac{-4 \\pm \\sqrt{16 - 16}}{2} = -2 \\).\n$$",
+    "formulas": "$$\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n$$",
+    "guide": "1. Identify coefficients a, b, and c in the quadratic equation.\n2. Substitute these values into the quadratic formula.\n3. Calculate the discriminant (b² - 4ac) to determine the nature of the roots.\n4. Solve for x using the formula, considering both + and - cases.\n5. Check the solutions by substituting them back into the original equation.",
+    "practice": "**1. Solve 3x² + 6x - 9 = 0 using the quadratic formula.**\n_Answer:_ x = 1 or x = -3\n_Hint:_ Identify a=3, b=6, c=-9 and substitute into the formula.\n\n**2. Solve x² - 4x + 4 = 0 using the quadratic formula.**\n_Answer:_ x = 2\n_Hint:_ Identify a=1, b=-4, c=4 and substitute into the formula.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to apply ± when using the formula.\n- Miscalculating the discriminant, leading to incorrect solutions.\n- Not simplifying the square root properly.",
+    "connection": "Quadratic equations help predict the path of a ball being thrown or calculate the profit of a business based on sales and costs.",
+    "close": "**Key Takeaways**\n- Quadratic equations can model many real-world scenarios.\n- The quadratic formula is a reliable method to find solutions.\n- Understanding the discriminant helps predict the nature of solutions.\n\n**Parent Reflection Questions**\n- How can you visualize the solutions of a quadratic equation?\n- Why is the discriminant important?\n- What are some real-world examples of parabolic motion?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Quadratic Equations & Formula",
+    "introduction": "Quadratic equations are a key part of high school math, introducing students to the world of parabolas and the quadratic formula. This lesson will help you guide your child through understanding and solving these equations.",
+    "objective": "Help your child understand quadratic equations and learn how to use the quadratic formula to find solutions.",
+    "why_matters": "Quadratic equations are not just a math exercise; they lay the groundwork for advanced topics in math and science, and they appear in various real-world applications.",
+    "parent_tip": "Encourage your child to visualize the problem by sketching graphs. This can make abstract concepts more concrete.",
+    "real_world_link": "Quadratic equations are used in physics to model projectile motion, such as the path of a ball being thrown.",
+    "formula_box": {
+      "formula": "x = [-b ± √(b² - 4ac)] / (2a)",
+      "symbols": [
+        {
+          "symbol": "x",
+          "meaning": "the variable or unknown we are solving for"
+        },
+        {
+          "symbol": "a",
+          "meaning": "the coefficient of x²"
+        },
+        {
+          "symbol": "b",
+          "meaning": "the coefficient of x"
+        },
+        {
+          "symbol": "c",
+          "meaning": "the constant term"
+        }
+      ],
+      "how_it_works": "This formula helps find the values of x that satisfy the quadratic equation ax² + bx + c = 0.",
+      "example": "For the equation 2x² + 3x - 2 = 0, a = 2, b = 3, c = -2. Plug these into the formula to find x."
+    },
+    "teaching_steps": [
+      "Define what a quadratic equation is.",
+      "Introduce the standard form: ax² + bx + c = 0.",
+      "Explain the quadratic formula and its components.",
+      "Demonstrate how to substitute values into the formula.",
+      "Solve a simple quadratic equation together."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "A quadratic equation is an equation of the form ax² + bx + c = 0.",
+        "do": "Write down a simple equation like x² + 5x + 6 = 0.",
+        "ask": "What do you notice about the form of this equation?",
+        "reinforce": "Great! It includes an x² term, an x term, and a constant."
+      },
+      {
+        "say": "Let's look at the quadratic formula.",
+        "do": "Show the formula x = [-b ± √(b² - 4ac)] / (2a).",
+        "ask": "Do you see how this formula can help us solve for x?",
+        "reinforce": "Yes, it uses the coefficients a, b, and c from our equation."
+      },
+      {
+        "say": "We'll substitute the values from our equation into the formula.",
+        "do": "Use the example equation x² + 5x + 6 = 0, where a=1, b=5, c=6.",
+        "ask": "Can you help me plug these into the formula?",
+        "reinforce": "Nice job! Now we can solve for x."
+      },
+      {
+        "say": "Let's calculate the discriminant, b² - 4ac.",
+        "do": "Calculate 5² - 4(1)(6) = 25 - 24 = 1.",
+        "ask": "What does a positive discriminant tell us?",
+        "reinforce": "Correct, it means there are two real solutions."
+      },
+      {
+        "say": "Finally, let's find the solutions for x.",
+        "do": "Calculate x = [-5 ± √1] / 2.",
+        "ask": "What are the final values for x?",
+        "reinforce": "Excellent! x = -2 and x = -3 are the solutions."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Solve the quadratic equation: x² - 4x - 5 = 0.",
+        "hint": "Identify a, b, c and use the quadratic formula.",
+        "answer": "x = 5, x = -1"
+      },
+      {
+        "prompt": "Find the roots of 3x² + 6x + 2 = 0.",
+        "hint": "Use the quadratic formula and calculate the discriminant.",
+        "answer": "x = -1/3, x = -2"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Quadratic equations are of the form ax² + bx + c = 0.",
+      "The quadratic formula helps find the solutions for x.",
+      "The discriminant determines the number and type of solutions."
+    ],
+    "common_mistakes": [
+      "Forgetting to apply the ± in the formula.",
+      "Mixing up the values of a, b, and c.",
+      "Incorrectly calculating the discriminant."
+    ],
+    "deep_dive": {
+      "history": "The quadratic formula has roots in ancient Babylonian mathematics, with its modern form developed in the 17th century.",
+      "connections": "Quadratic equations connect to algebra, geometry, and calculus.",
+      "misconceptions": "Students often think every quadratic has two solutions, but the discriminant can affect this.",
+      "teaching_tips": "Visual aids like graphs can help illustrate how solutions relate to the parabola's intersections with the x-axis.",
+      "derivation": "The formula is derived by completing the square on the standard quadratic equation."
+    },
+    "motivation": "Understanding quadratic equations is a big step forward in math that opens doors to new concepts and real-world applications. Your support can make it a rewarding experience!"
+  },
+  "markdown": "## Lesson Introduction\nQuadratic equations are a key part of high school math, introducing students to the world of parabolas and the quadratic formula. This lesson will help you guide your child through understanding and solving these equations.\n\n## Parent Orientation\n**Objective:** Help your child understand quadratic equations and learn how to use the quadratic formula to find solutions.\n**Why it matters:** Quadratic equations are not just a math exercise; they lay the groundwork for advanced topics in math and science, and they appear in various real-world applications.\n**Parent Tip:** Encourage your child to visualize the problem by sketching graphs. This can make abstract concepts more concrete.\n**Real-World Link:** Quadratic equations are used in physics to model projectile motion, such as the path of a ball being thrown.\n\n> **📐 Formula Box**\n> **Formula:** x = [-b ± √(b² - 4ac)] / (2a)\n> **Symbols:**\n> - **x** — the variable or unknown we are solving for\n> - **a** — the coefficient of x²\n> - **b** — the coefficient of x\n> - **c** — the constant term\n> **How it works:** This formula helps find the values of x that satisfy the quadratic equation ax² + bx + c = 0.\n> **Example:** For the equation 2x² + 3x - 2 = 0, a = 2, b = 3, c = -2. Plug these into the formula to find x.\n\n## Teaching Steps\n1. Define what a quadratic equation is.\n2. Introduce the standard form: ax² + bx + c = 0.\n3. Explain the quadratic formula and its components.\n4. Demonstrate how to substitute values into the formula.\n5. Solve a simple quadratic equation together.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** A quadratic equation is an equation of the form ax² + bx + c = 0.  \n**Show/Do:** Write down a simple equation like x² + 5x + 6 = 0.  \n**Ask:** What do you notice about the form of this equation?  \n**Reinforce:** Great! It includes an x² term, an x term, and a constant.\n2. **Say:** Let's look at the quadratic formula.  \n**Show/Do:** Show the formula x = [-b ± √(b² - 4ac)] / (2a).  \n**Ask:** Do you see how this formula can help us solve for x?  \n**Reinforce:** Yes, it uses the coefficients a, b, and c from our equation.\n3. **Say:** We'll substitute the values from our equation into the formula.  \n**Show/Do:** Use the example equation x² + 5x + 6 = 0, where a=1, b=5, c=6.  \n**Ask:** Can you help me plug these into the formula?  \n**Reinforce:** Nice job! Now we can solve for x.\n4. **Say:** Let's calculate the discriminant, b² - 4ac.  \n**Show/Do:** Calculate 5² - 4(1)(6) = 25 - 24 = 1.  \n**Ask:** What does a positive discriminant tell us?  \n**Reinforce:** Correct, it means there are two real solutions.\n5. **Say:** Finally, let's find the solutions for x.  \n**Show/Do:** Calculate x = [-5 ± √1] / 2.  \n**Ask:** What are the final values for x?  \n**Reinforce:** Excellent! x = -2 and x = -3 are the solutions.\n\n## Practice Questions (Do It Together)\n**1. Solve the quadratic equation: x² - 4x - 5 = 0.**\n<details><summary>Hint</summary>\nIdentify a, b, c and use the quadratic formula.\n</details>\n<details><summary>Answer</summary>\nx = 5, x = -1\n</details>\n\n**2. Find the roots of 3x² + 6x + 2 = 0.**\n<details><summary>Hint</summary>\nUse the quadratic formula and calculate the discriminant.\n</details>\n<details><summary>Answer</summary>\nx = -1/3, x = -2\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Quadratic equations are of the form ax² + bx + c = 0.\n- The quadratic formula helps find the solutions for x.\n- The discriminant determines the number and type of solutions.\n\n**Common Mistakes**\n- Forgetting to apply the ± in the formula.\n- Mixing up the values of a, b, and c.\n- Incorrectly calculating the discriminant.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe quadratic formula has roots in ancient Babylonian mathematics, with its modern form developed in the 17th century.\n\n**Future topic connections**\n\nQuadratic equations connect to algebra, geometry, and calculus.\n\n**Common misconceptions**\n\nStudents often think every quadratic has two solutions, but the discriminant can affect this.\n\n**Teaching tips for parents**\n\nVisual aids like graphs can help illustrate how solutions relate to the parabola's intersections with the x-axis.\n\n**More detail / derivation**\n\nThe formula is derived by completing the square on the standard quadratic equation.\n\n## Motivation\nUnderstanding quadratic equations is a big step forward in math that opens doors to new concepts and real-world applications. Your support can make it a rewarding experience!"
+}

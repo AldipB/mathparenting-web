@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "4f8ee0fc-00dc-45da-a636-285fd1a3f985",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "21d88fc2-dc01-401b-9574-ac99155cf514",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "2d63fee8-40ea-4501-b2ab-3648bc4edb71",
+    "slug": "comparing-numbers",
+    "title": "Comparing Numbers: Less Than, Greater Than, and Equal To",
+    "summary": "Comparing numbers (<, >, =) — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will confidently use <, >, and = to compare numbers up to 100.\n\n**Why it matters:** Understanding how to compare numbers is essential for math and everyday decisions, like knowing which number is larger or smaller.\n\n**Parent Tip:** Use everyday situations to practice comparing numbers, like comparing quantities of snacks or toys.\n\n**Real-World Link:** Imagine your child is at a store deciding which toy to buy. Knowing which price is less can help them make a smart choice.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're helping your child learn to compare numbers using the concepts of less than, greater than, and equal to.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the symbols <, >, and = using a few examples with small numbers.\n2. Use objects like toys or fruits to visually compare quantities.\n3. Practice with numbers up to 100 by writing them down and using the symbols to compare.\n4. Discuss why it's important to know which numbers are bigger or smaller in real life.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Compare 7 and 10.**\n_Answer:_ 7 < 10\n_Hint:_ Which number is smaller?\n\n**2. Compare 15 and 12.**\n_Answer:_ 15 > 12\n_Hint:_ Which number is larger?\n\n**3. Compare 25 and 25.**\n_Answer:_ 25 = 25\n_Hint:_ Are these numbers the same?\n\n**4. Compare 30 and 45.**\n_Answer:_ 30 < 45\n_Hint:_ Which number comes first when counting?",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the direction of the symbols.\n- Forgetting that = means numbers are the same.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine your child is at a store deciding which toy to buy. Knowing which price is less can help them make a smart choice.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and compare numbers using 'less than', 'greater than', and 'equal to'.",
+    "overview": "**Objective:** By the end of this lesson, your child will confidently use <, >, and = to compare numbers up to 100.\n\n**Why it matters:** Understanding how to compare numbers is essential for math and everyday decisions, like knowing which number is larger or smaller.\n\n**Parent Tip:** Use everyday situations to practice comparing numbers, like comparing quantities of snacks or toys.\n\n**Real-World Link:** Imagine your child is at a store deciding which toy to buy. Knowing which price is less can help them make a smart choice.",
+    "core": "Welcome! Today, we're helping your child learn to compare numbers using the concepts of less than, greater than, and equal to.",
+    "demo": "**Spark Curiosity:**\n\nWhat if you had to decide who has more candies, you or your friend? How would you find out?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the symbols <, >, and = using a few examples with small numbers.\n2. Use objects like toys or fruits to visually compare quantities.\n3. Practice with numbers up to 100 by writing them down and using the symbols to compare.\n4. Discuss why it's important to know which numbers are bigger or smaller in real life.",
+    "practice": "**1. Compare 7 and 10.**\n_Answer:_ 7 < 10\n_Hint:_ Which number is smaller?\n\n**2. Compare 15 and 12.**\n_Answer:_ 15 > 12\n_Hint:_ Which number is larger?\n\n**3. Compare 25 and 25.**\n_Answer:_ 25 = 25\n_Hint:_ Are these numbers the same?\n\n**4. Compare 30 and 45.**\n_Answer:_ 30 < 45\n_Hint:_ Which number comes first when counting?",
+    "mistakes": "- Confusing the direction of the symbols.\n- Forgetting that = means numbers are the same.",
+    "connection": "Imagine your child is at a store deciding which toy to buy. Knowing which price is less can help them make a smart choice.",
+    "close": "**Key Takeaways**\n- Children learn by comparing quantities in everyday situations.\n- Using objects makes abstract concepts concrete.\n- Encourage language that describes comparisons clearly.\n\n**Parent Reflection Questions**\n- How does your child react to comparing numbers?\n- What objects do they find most helpful for understanding comparisons?\n- How can you incorporate more comparison discussions into daily activities?"
+  },
+  "practice": "**1.** Independent challenge #1 for \"Comparing numbers (<, >, =)\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**2.** Independent challenge #2 for \"Comparing numbers (<, >, =)\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**3.** Independent challenge #3 for \"Comparing numbers (<, >, =)\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.",
+  "universal": {
+    "title": "Comparing Numbers: Less Than, Greater Than, and Equal To",
+    "introduction": "Welcome to exploring how numbers relate to each other! Understanding how to compare numbers is a key math skill your child will use daily.",
+    "objective": "Help your child learn to compare numbers using the terms less than, greater than, and equal to.",
+    "why_matters": "Comparing numbers helps children make sense of the world around them and is foundational for problem-solving and decision-making.",
+    "parent_tip": "Encourage your child by using everyday objects like toys or snacks to make comparing numbers fun and relatable.",
+    "real_world_link": "Think about how you decide which line is shorter at the grocery store or choose the bigger slice of pizza. These are real-world examples of comparing numbers!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of comparing numbers by using objects your child is familiar with.",
+      "Explain the terms less than, greater than, and equal to using simple language.",
+      "Use visual aids like number lines or drawings to illustrate comparisons.",
+      "Practice comparing numbers with engaging activities.",
+      "Reinforce learning through everyday situations."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's compare two numbers to see which one is bigger!",
+        "do": "Show your child two groups of small toys, one group with 3 toys and another with 5 toys.",
+        "ask": "Which group has more toys?",
+        "reinforce": "Yes, the group with 5 toys is greater than the group with 3 toys."
+      },
+      {
+        "say": "Now, let's talk about what happens when both groups have the same number of toys.",
+        "do": "Adjust the groups so that both have 4 toys each.",
+        "ask": "Are these groups equal?",
+        "reinforce": "That's right, both groups have the same number of toys, so they are equal!"
+      },
+      {
+        "say": "Sometimes, we need to find out which number is smaller.",
+        "do": "Show a group with 2 toys and another with 5 toys.",
+        "ask": "Which group has fewer toys?",
+        "reinforce": "Great job! The group with 2 toys is less than the group with 5 toys."
+      },
+      {
+        "say": "Let's use our hands to show numbers.",
+        "do": "Hold up 3 fingers on one hand and 5 on the other.",
+        "ask": "Which hand has more fingers up?",
+        "reinforce": "Yes, the hand with 5 fingers is greater!"
+      },
+      {
+        "say": "We can also draw pictures to compare numbers.",
+        "do": "Draw two sets of circles on paper, one with 3 circles and another with 6 circles.",
+        "ask": "Which set has more circles?",
+        "reinforce": "Correct, the set with 6 circles is greater than the set with 3 circles."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Compare these numbers: 4 and 7.",
+        "hint": "Think about which number comes later on a number line.",
+        "answer": "4 is less than 7."
+      },
+      {
+        "prompt": "Are 8 and 8 equal?",
+        "hint": "Check if both numbers are the same.",
+        "answer": "Yes, 8 is equal to 8."
+      },
+      {
+        "prompt": "Which is greater: 2 or 5?",
+        "hint": "Consider which number is bigger.",
+        "answer": "5 is greater than 2."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Today, we learned how to compare numbers using less than, greater than, and equal to.",
+      "You can use objects, drawings, or your imagination to understand these concepts.",
+      "Keep practicing by comparing numbers around you every day!"
+    ],
+    "common_mistakes": [
+      "Confusing the terms 'less than' and 'greater than'.",
+      "Assuming numbers are equal without checking.",
+      "Forgetting that the order of numbers matters when comparing."
+    ],
+    "deep_dive": {
+      "history": "The symbols for comparing numbers have been used since the 16th century to simplify mathematical writing.",
+      "connections": "Comparing numbers is a fundamental skill in math, used in addition, subtraction, and more complex operations.",
+      "misconceptions": "Some children think bigger numbers are always better; it's important to understand the context.",
+      "teaching_tips": "Use consistent language and lots of examples to help your child grasp these concepts.",
+      "derivation": "The comparison symbols (<, >, =) help quickly convey the relationship between two numbers without using lengthy sentences."
+    },
+    "motivation": "By learning to compare numbers, your child is building a strong foundation for future math success and critical thinking skills."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to exploring how numbers relate to each other! Understanding how to compare numbers is a key math skill your child will use daily.\n\n## Parent Orientation\n**Objective:** Help your child learn to compare numbers using the terms less than, greater than, and equal to.\n**Why it matters:** Comparing numbers helps children make sense of the world around them and is foundational for problem-solving and decision-making.\n**Parent Tip:** Encourage your child by using everyday objects like toys or snacks to make comparing numbers fun and relatable.\n**Real-World Link:** Think about how you decide which line is shorter at the grocery store or choose the bigger slice of pizza. These are real-world examples of comparing numbers!\n\n## Teaching Steps\n1. Introduce the concept of comparing numbers by using objects your child is familiar with.\n2. Explain the terms less than, greater than, and equal to using simple language.\n3. Use visual aids like number lines or drawings to illustrate comparisons.\n4. Practice comparing numbers with engaging activities.\n5. Reinforce learning through everyday situations.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's compare two numbers to see which one is bigger!  \n**Show/Do:** Show your child two groups of small toys, one group with 3 toys and another with 5 toys.  \n**Ask:** Which group has more toys?  \n**Reinforce:** Yes, the group with 5 toys is greater than the group with 3 toys.\n2. **Say:** Now, let's talk about what happens when both groups have the same number of toys.  \n**Show/Do:** Adjust the groups so that both have 4 toys each.  \n**Ask:** Are these groups equal?  \n**Reinforce:** That's right, both groups have the same number of toys, so they are equal!\n3. **Say:** Sometimes, we need to find out which number is smaller.  \n**Show/Do:** Show a group with 2 toys and another with 5 toys.  \n**Ask:** Which group has fewer toys?  \n**Reinforce:** Great job! The group with 2 toys is less than the group with 5 toys.\n4. **Say:** Let's use our hands to show numbers.  \n**Show/Do:** Hold up 3 fingers on one hand and 5 on the other.  \n**Ask:** Which hand has more fingers up?  \n**Reinforce:** Yes, the hand with 5 fingers is greater!\n5. **Say:** We can also draw pictures to compare numbers.  \n**Show/Do:** Draw two sets of circles on paper, one with 3 circles and another with 6 circles.  \n**Ask:** Which set has more circles?  \n**Reinforce:** Correct, the set with 6 circles is greater than the set with 3 circles.\n\n## Practice Questions (Do It Together)\n**1. Compare these numbers: 4 and 7.**\n<details><summary>Hint</summary>\nThink about which number comes later on a number line.\n</details>\n<details><summary>Answer</summary>\n4 is less than 7.\n</details>\n\n**2. Are 8 and 8 equal?**\n<details><summary>Hint</summary>\nCheck if both numbers are the same.\n</details>\n<details><summary>Answer</summary>\nYes, 8 is equal to 8.\n</details>\n\n**3. Which is greater: 2 or 5?**\n<details><summary>Hint</summary>\nConsider which number is bigger.\n</details>\n<details><summary>Answer</summary>\n5 is greater than 2.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Today, we learned how to compare numbers using less than, greater than, and equal to.\n- You can use objects, drawings, or your imagination to understand these concepts.\n- Keep practicing by comparing numbers around you every day!\n\n**Common Mistakes**\n- Confusing the terms 'less than' and 'greater than'.\n- Assuming numbers are equal without checking.\n- Forgetting that the order of numbers matters when comparing.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe symbols for comparing numbers have been used since the 16th century to simplify mathematical writing.\n\n**Future topic connections**\n\nComparing numbers is a fundamental skill in math, used in addition, subtraction, and more complex operations.\n\n**Common misconceptions**\n\nSome children think bigger numbers are always better; it's important to understand the context.\n\n**Teaching tips for parents**\n\nUse consistent language and lots of examples to help your child grasp these concepts.\n\n**More detail / derivation**\n\nThe comparison symbols (<, >, =) help quickly convey the relationship between two numbers without using lengthy sentences.\n\n## Motivation\nBy learning to compare numbers, your child is building a strong foundation for future math success and critical thinking skills."
+}

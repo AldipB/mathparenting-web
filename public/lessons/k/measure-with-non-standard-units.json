@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "1cc58f17-769d-4ca6-8a9d-73d81e7639a1",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "c74fe031-8722-4da9-aed3-7b212591cb78",
+    "title": "Measurement & Data",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "97e3f137-3d93-4e0d-8ab5-58909398cb9d",
+    "slug": "measure-with-non-standard-units",
+    "title": "Measure with Non-Standard Units",
+    "summary": "Measure with non-standard units — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child use non-standard units like paperclips or blocks to measure objects and develop a sense of length.\n\n**Why it matters:** Understanding measurement with non-standard units builds a foundation for using standard units later. It encourages estimation skills and spatial awareness.\n\n**Parent Tip:** Use items around the house like spoons, shoes, or toys. Make this an engaging activity by asking questions like 'How many paperclips long is the book?'\n\n**Real-World Link:** Think about how you might measure flour using cups when baking. We often use everyday items to measure when exact tools aren't available.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Today, we're exploring how your child can use everyday items to measure objects. This foundational skill helps them understand the concept of measurement in a fun and relatable way.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a simple object like a book. Ask your child to guess how many paperclips long it is.\n2. Line up paperclips end-to-end alongside the book to measure its length.\n3. Count the paperclips together and compare with the initial guess.\n4. Try measuring different objects with the same non-standard unit.\n5. Discuss why different objects need different numbers of paperclips (or other items) to measure them.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. How many blocks tall is the teddy bear? (use numbers like 6 and 9)**\n_Answer:_ The teddy bear is 5 blocks tall.\n_Hint:_ Stack blocks next to the teddy bear.\n\n**2. How many spoons long is the table? (use numbers like 6 and 9)**\n_Answer:_ The table is 8 spoons long.\n_Hint:_ Line up spoons along the table's edge.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Not aligning items properly can lead to inaccurate measurements.\n- Forgetting to count each item used in the measurement.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about how you might measure flour using cups when baking. We often use everyday items to measure when exact tools aren't available.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to measure objects using non-standard units like blocks, paper clips, or their own hands.",
+    "overview": "**Objective:** Help your child use non-standard units like paperclips or blocks to measure objects and develop a sense of length.\n\n**Why it matters:** Understanding measurement with non-standard units builds a foundation for using standard units later. It encourages estimation skills and spatial awareness.\n\n**Parent Tip:** Use items around the house like spoons, shoes, or toys. Make this an engaging activity by asking questions like 'How many paperclips long is the book?'\n\n**Real-World Link:** Think about how you might measure flour using cups when baking. We often use everyday items to measure when exact tools aren't available.",
+    "core": "Welcome, parents! Today, we're exploring how your child can use everyday items to measure objects. This foundational skill helps them understand the concept of measurement in a fun and relatable way.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how many of your child's shoes it would take to measure the length of their bed?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a simple object like a book. Ask your child to guess how many paperclips long it is.\n2. Line up paperclips end-to-end alongside the book to measure its length.\n3. Count the paperclips together and compare with the initial guess.\n4. Try measuring different objects with the same non-standard unit.\n5. Discuss why different objects need different numbers of paperclips (or other items) to measure them.",
+    "practice": "**1. How many blocks tall is the teddy bear? (use numbers like 6 and 9)**\n_Answer:_ The teddy bear is 5 blocks tall.\n_Hint:_ Stack blocks next to the teddy bear.\n\n**2. How many spoons long is the table? (use numbers like 6 and 9)**\n_Answer:_ The table is 8 spoons long.\n_Hint:_ Line up spoons along the table's edge.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Not aligning items properly can lead to inaccurate measurements.\n- Forgetting to count each item used in the measurement.",
+    "connection": "Think about how you might measure flour using cups when baking. We often use everyday items to measure when exact tools aren't available.",
+    "close": "**Key Takeaways**\n- Measurement doesn't always need a ruler.\n- Non-standard units are a fun way to understand size and length.\n- Encourage curiosity by comparing different objects.\n\n**Parent Reflection Questions**\n- What other items could we use to measure?\n- How does using different objects change the number of units needed?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Measure with Non-Standard Units",
+    "introduction": "Welcome, parents! Today, we’re diving into a fun way of measuring things using non-standard units. This is a fantastic way for your child to understand the concept of measurement, using items you have right at home.",
+    "objective": "Help your child understand how to measure length using non-standard units like blocks, pencils, or their own hands.",
+    "why_matters": "Learning to measure with non-standard units builds a foundation for understanding length and size, which is crucial for future math concepts.",
+    "parent_tip": "Encourage your child to use everyday objects to measure things around the house. This keeps learning fun and practical!",
+    "real_world_link": "Think about when you measure your child's height against the wall. You're using a non-standard unit (the wall markings) to see how much they've grown!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Choose a small object as your measuring unit, like a toy block.",
+      "Find a larger object to measure, such as a book or a table.",
+      "Line up the blocks end-to-end alongside the object.",
+      "Count how many blocks it takes to match the object's length.",
+      "Discuss the results with your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's find something fun to measure today!",
+        "do": "Pick a toy block and a book.",
+        "ask": "How many blocks do you think it will take to measure the book?",
+        "reinforce": "Great guess! Let's see if you're right."
+      },
+      {
+        "say": "Let's start measuring!",
+        "do": "Place the blocks end-to-end along the book.",
+        "ask": "Can you count how many blocks we used?",
+        "reinforce": "Awesome counting! We used X blocks."
+      },
+      {
+        "say": "What else can we measure?",
+        "do": "Look around the room for another object.",
+        "ask": "How many blocks do you think it will take this time?",
+        "reinforce": "You're getting good at this guessing game!"
+      },
+      {
+        "say": "Why do you think some objects need more blocks than others?",
+        "do": "Compare different sized objects.",
+        "ask": "Is a bigger object always going to need more blocks?",
+        "reinforce": "That's right! Bigger objects usually need more blocks."
+      },
+      {
+        "say": "Let's try measuring with something else, like a pencil.",
+        "do": "Switch to using pencils as a measuring unit.",
+        "ask": "How many pencils long is the table?",
+        "reinforce": "Great job! We can use anything to measure."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "How many toy blocks does it take to measure a pillow that needs 8 blocks?",
+        "hint": "Count each block carefully.",
+        "answer": "8"
+      },
+      {
+        "prompt": "If the table is 5 pencils long, how many pencils would you need to measure the table?",
+        "hint": "Think about how many pencils you lined up.",
+        "answer": "5"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Today, we learned how to measure using non-standard units.",
+      "We can use anything around us, like blocks or pencils, to measure objects.",
+      "This helps us understand size and comparison in a fun way."
+    ],
+    "common_mistakes": [
+      "Not aligning the measuring objects end-to-end without gaps.",
+      "Forgetting to count the units correctly.",
+      "Thinking that non-standard units are the same size as standard units."
+    ],
+    "deep_dive": {
+      "history": "Before standard units like inches and centimeters, people used body parts or items like grains to measure things.",
+      "connections": "Understanding non-standard units helps with estimation skills and prepares for learning standard measurements.",
+      "misconceptions": "Children might think that the size of the measuring unit doesn't matter, leading to incorrect measurements.",
+      "teaching_tips": "Use a variety of objects to measure. This shows that the same item can have different measurements depending on the unit used.",
+      "derivation": "There's no strict derivation here, but it's about understanding the concept of length and comparison."
+    },
+    "motivation": "Your child is naturally curious about the world. Measuring with non-standard units taps into that curiosity and makes learning engaging and fun!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we’re diving into a fun way of measuring things using non-standard units. This is a fantastic way for your child to understand the concept of measurement, using items you have right at home.\n\n## Parent Orientation\n**Objective:** Help your child understand how to measure length using non-standard units like blocks, pencils, or their own hands.\n**Why it matters:** Learning to measure with non-standard units builds a foundation for understanding length and size, which is crucial for future math concepts.\n**Parent Tip:** Encourage your child to use everyday objects to measure things around the house. This keeps learning fun and practical!\n**Real-World Link:** Think about when you measure your child's height against the wall. You're using a non-standard unit (the wall markings) to see how much they've grown!\n\n## Teaching Steps\n1. Choose a small object as your measuring unit, like a toy block.\n2. Find a larger object to measure, such as a book or a table.\n3. Line up the blocks end-to-end alongside the object.\n4. Count how many blocks it takes to match the object's length.\n5. Discuss the results with your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's find something fun to measure today!  \n**Show/Do:** Pick a toy block and a book.  \n**Ask:** How many blocks do you think it will take to measure the book?  \n**Reinforce:** Great guess! Let's see if you're right.\n2. **Say:** Let's start measuring!  \n**Show/Do:** Place the blocks end-to-end along the book.  \n**Ask:** Can you count how many blocks we used?  \n**Reinforce:** Awesome counting! We used X blocks.\n3. **Say:** What else can we measure?  \n**Show/Do:** Look around the room for another object.  \n**Ask:** How many blocks do you think it will take this time?  \n**Reinforce:** You're getting good at this guessing game!\n4. **Say:** Why do you think some objects need more blocks than others?  \n**Show/Do:** Compare different sized objects.  \n**Ask:** Is a bigger object always going to need more blocks?  \n**Reinforce:** That's right! Bigger objects usually need more blocks.\n5. **Say:** Let's try measuring with something else, like a pencil.  \n**Show/Do:** Switch to using pencils as a measuring unit.  \n**Ask:** How many pencils long is the table?  \n**Reinforce:** Great job! We can use anything to measure.\n\n## Practice Questions (Do It Together)\n**1. How many toy blocks does it take to measure a pillow that needs 8 blocks?**\n<details><summary>Hint</summary>\nCount each block carefully.\n</details>\n<details><summary>Answer</summary>\n8\n</details>\n\n**2. If the table is 5 pencils long, how many pencils would you need to measure the table?**\n<details><summary>Hint</summary>\nThink about how many pencils you lined up.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Today, we learned how to measure using non-standard units.\n- We can use anything around us, like blocks or pencils, to measure objects.\n- This helps us understand size and comparison in a fun way.\n\n**Common Mistakes**\n- Not aligning the measuring objects end-to-end without gaps.\n- Forgetting to count the units correctly.\n- Thinking that non-standard units are the same size as standard units.\n\n## 🔍 Deep Dive\n**History or origin**\n\nBefore standard units like inches and centimeters, people used body parts or items like grains to measure things.\n\n**Future topic connections**\n\nUnderstanding non-standard units helps with estimation skills and prepares for learning standard measurements.\n\n**Common misconceptions**\n\nChildren might think that the size of the measuring unit doesn't matter, leading to incorrect measurements.\n\n**Teaching tips for parents**\n\nUse a variety of objects to measure. This shows that the same item can have different measurements depending on the unit used.\n\n**More detail / derivation**\n\nThere's no strict derivation here, but it's about understanding the concept of length and comparison.\n\n## Motivation\nYour child is naturally curious about the world. Measuring with non-standard units taps into that curiosity and makes learning engaging and fun!"
+}

@@ -1,0 +1,109 @@
+{
+  "grade": "7",
+  "lessons": [
+    {
+      "slug": "algebraic-expressions-simplifying",
+      "title": "Algebraic Expressions & Simplifying"
+    },
+    {
+      "slug": "algebraic-expressions-combine-like-terms",
+      "title": "Algebraic Expressions: Combine Like Terms"
+    },
+    {
+      "slug": "area-surface-area-volume-cylinders-pyramids-ebefe5b2-4c1f-42b5-9738-a4eef4bb7a1a",
+      "title": "Area, Surface Area, Volume (Cylinders, Pyramids)"
+    },
+    {
+      "slug": "area-surface-area-volume-cylinders-pyramids-d1a17d80-44ba-431a-9524-60fd40168f78",
+      "title": "Area/Surface Area/Volume (Cylinders, Pyramids)"
+    },
+    {
+      "slug": "circles-area-circumference",
+      "title": "Circles: Area & Circumference"
+    },
+    {
+      "slug": "circles-circumference-area",
+      "title": "Circles: Circumference & Area"
+    },
+    {
+      "slug": "data-scatter-plots-correlation",
+      "title": "Data: Scatter Plots & Correlation"
+    },
+    {
+      "slug": "geometry-angle-relationships-triangles",
+      "title": "Geometry: Angle Relationships; Triangles"
+    },
+    {
+      "slug": "geometry-angles-triangles-similar-figures",
+      "title": "Geometry: Angles, Triangles, Similar Figures"
+    },
+    {
+      "slug": "integer-operations",
+      "title": "Integer Operations (±×÷)"
+    },
+    {
+      "slug": "introduction-to-functions-tables-graphs",
+      "title": "Introduction to Functions (Tables & Graphs)"
+    },
+    {
+      "slug": "operations-with-integers",
+      "title": "Operations with Integers"
+    },
+    {
+      "slug": "operations-with-rational-numbers-fractions-decimals",
+      "title": "Operations with Rational Numbers (±×÷ Fractions/Decimals)"
+    },
+    {
+      "slug": "percent-discount-tax-tip",
+      "title": "Percent (Discount, Tax, Tip)"
+    },
+    {
+      "slug": "probability-theoretical-vs-experimental",
+      "title": "Probability: Theoretical vs Experimental"
+    },
+    {
+      "slug": "proportions-percent-problems-discount-tax-tip",
+      "title": "Proportions & Percent Problems (Discount, Tax, Tip)"
+    },
+    {
+      "slug": "rates-in-real-life",
+      "title": "Rates in Real Life"
+    },
+    {
+      "slug": "rational-numbers-fractions-decimals",
+      "title": "Rational Numbers (± Fractions & Decimals)"
+    },
+    {
+      "slug": "ratios-proportions",
+      "title": "Ratios & Proportions"
+    },
+    {
+      "slug": "real-life-signed-operations",
+      "title": "Real-Life Signed Operations"
+    },
+    {
+      "slug": "scatter-plots-correlation",
+      "title": "Scatter Plots; Correlation"
+    },
+    {
+      "slug": "similar-figures-scale-drawings",
+      "title": "Similar Figures & Scale Drawings"
+    },
+    {
+      "slug": "simple-compound-interest-intro",
+      "title": "Simple/Compound Interest (Intro)"
+    },
+    {
+      "slug": "solving-linear-equations-inequalities",
+      "title": "Solving Linear Equations & Inequalities"
+    },
+    {
+      "slug": "solving-linear-equations-inequalities-1-step-2-step-multi-step",
+      "title": "Solving Linear Equations & Inequalities (1-step, 2-step, multi-step)"
+    },
+    {
+      "slug": "theoretical-vs-experimental-probability",
+      "title": "Theoretical vs Experimental Probability"
+    }
+  ]
+}

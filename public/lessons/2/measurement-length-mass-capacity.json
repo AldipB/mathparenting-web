@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "20ee093c-dc86-45e1-98aa-dd2ef2c680af",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "3d0d46cc-54fd-49eb-84cf-d03d84a162a2",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "15af14ba-b312-4e6b-b590-c70c37a53383",
+    "slug": "measurement-length-mass-capacity",
+    "title": "Measurement Magic: Exploring Length, Mass, and Capacity",
+    "summary": "Measurement (length, mass, capacity) — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will understand basic units of measurement and how to use them in everyday life.\n\n**Why it matters:** Measurement is everywhere! From cooking to building, these skills help us navigate the world efficiently.\n\n**Parent Tip:** Encourage your child to use measurement words in daily conversations, like discussing the height of a bookshelf or the weight of a bag of apples.\n\n**Real-World Link:** Imagine baking cookies. You measure flour by weight, milk by capacity, and the baking tray by length. These skills are essential for success!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to Measurement Magic! Together, we'll explore the fascinating world of measuring length, mass, and capacity. Let's make these concepts as easy as pie for your child.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with length: Use a ruler to measure objects around the house. Discuss inches and centimeters.\n2. Move to mass: Use a kitchen scale to weigh fruits. Talk about grams and pounds.\n3. Explore capacity: Use measuring cups to pour water. Discuss liters and cups.\n4. Encourage comparisons: Which is longer, heavier, or holds more?\n5. Practice estimating: Guess before measuring and see how close you get!",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Measure a pencil with a ruler. How long is it in centimeters? (use numbers like 6 and 9)**\n_Answer:_ About 15 cm, depending on the pencil.\n_Hint:_ Look for the cm side of the ruler.\n\n**2. Weigh an apple on a kitchen scale. How many grams does it weigh? (use numbers like 6 and 9)**\n_Answer:_ Approximately 150 grams, depending on the apple.\n_Hint:_ Make sure the scale is set to grams.\n\n**3. Fill a measuring cup with water. How many cups does it hold? (use numbers like 6 and 9)**\n_Answer:_ 1 cup if filled to the top line.\n_Hint:_ Check the measurement markings on the cup.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing unit types (e.g., using cm for mass).\n- Forgetting to zero the scale before weighing.\n- Overfilling measuring cups, leading to inaccurate readings.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine baking cookies. You measure flour by weight, milk by capacity, and the baking tray by length. These skills are essential for success!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and measure length, mass, and capacity using everyday objects.",
+    "overview": "**Objective:** By the end of this lesson, your child will understand basic units of measurement and how to use them in everyday life.\n\n**Why it matters:** Measurement is everywhere! From cooking to building, these skills help us navigate the world efficiently.\n\n**Parent Tip:** Encourage your child to use measurement words in daily conversations, like discussing the height of a bookshelf or the weight of a bag of apples.\n\n**Real-World Link:** Imagine baking cookies. You measure flour by weight, milk by capacity, and the baking tray by length. These skills are essential for success!",
+    "core": "Welcome to Measurement Magic! Together, we'll explore the fascinating world of measuring length, mass, and capacity. Let's make these concepts as easy as pie for your child.",
+    "demo": "**Spark Curiosity:**\n\nHow do we know if a backpack is too heavy or if a cup can hold enough water for our thirst? Let's find out!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with length: Use a ruler to measure objects around the house. Discuss inches and centimeters.\n2. Move to mass: Use a kitchen scale to weigh fruits. Talk about grams and pounds.\n3. Explore capacity: Use measuring cups to pour water. Discuss liters and cups.\n4. Encourage comparisons: Which is longer, heavier, or holds more?\n5. Practice estimating: Guess before measuring and see how close you get!",
+    "practice": "**1. Measure a pencil with a ruler. How long is it in centimeters? (use numbers like 6 and 9)**\n_Answer:_ About 15 cm, depending on the pencil.\n_Hint:_ Look for the cm side of the ruler.\n\n**2. Weigh an apple on a kitchen scale. How many grams does it weigh? (use numbers like 6 and 9)**\n_Answer:_ Approximately 150 grams, depending on the apple.\n_Hint:_ Make sure the scale is set to grams.\n\n**3. Fill a measuring cup with water. How many cups does it hold? (use numbers like 6 and 9)**\n_Answer:_ 1 cup if filled to the top line.\n_Hint:_ Check the measurement markings on the cup.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing unit types (e.g., using cm for mass).\n- Forgetting to zero the scale before weighing.\n- Overfilling measuring cups, leading to inaccurate readings.",
+    "connection": "Imagine baking cookies. You measure flour by weight, milk by capacity, and the baking tray by length. These skills are essential for success!",
+    "close": "**Key Takeaways**\n- Measurement is an everyday skill that involves comparing and quantifying objects.\n- Using tools like rulers, scales, and measuring cups makes measurement easier.\n- Encourage your child to estimate before measuring to develop their intuition.\n\n**Parent Reflection Questions**\n- What other objects can we measure at home?\n- How can we measure something that doesn't fit a ruler?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Measurement Magic: Exploring Length, Mass, and Capacity",
+    "introduction": "Welcome to the magical world of measurement! Today, we'll help our little learners explore how to measure length, mass, and capacity using everyday items. Let's make math practical and fun!",
+    "objective": "By the end of this lesson, your child will understand how to measure and compare lengths, masses, and capacities using standard units.",
+    "why_matters": "Measurement is everywhere! From cooking in the kitchen to building a fort with blankets, understanding measurement helps kids navigate and make sense of the world around them.",
+    "parent_tip": "Use household items like a ruler, a kitchen scale, and measuring cups to make learning tangible and relatable for your child.",
+    "real_world_link": "Think about grocery shopping. Understanding measurements helps choose the right amount of ingredients and ensures you have enough space in your cart!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of measurement by discussing everyday uses.",
+      "Show how to measure length using a ruler.",
+      "Demonstrate weighing an object with a kitchen scale.",
+      "Explain capacity with measuring cups using water.",
+      "Engage your child in a hands-on activity measuring items around the house."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by exploring how long things are.",
+        "do": "Show your child a ruler and explain the units of measurement (inches or centimeters).",
+        "ask": "Can you measure the length of this pencil with the ruler?",
+        "reinforce": "Great job! You used the ruler to find out how long the pencil is."
+      },
+      {
+        "say": "Now, let's learn about mass.",
+        "do": "Place an apple on a kitchen scale and show the weight.",
+        "ask": "How much does the apple weigh?",
+        "reinforce": "That's right! The scale tells us the apple's weight in ounces or grams."
+      },
+      {
+        "say": "Time to explore capacity!",
+        "do": "Fill a measuring cup with water and show the measurement.",
+        "ask": "How much water did we pour into the cup?",
+        "reinforce": "Exactly! The cup shows us how much it can hold."
+      },
+      {
+        "say": "Let's measure something together!",
+        "do": "Pick a toy and use the ruler, scale, and measuring cup to determine its length, weight, and capacity.",
+        "ask": "What did you find out about the toy?",
+        "reinforce": "Fantastic! Measuring helps us learn more about the things we use every day."
+      },
+      {
+        "say": "How do these measurements help us?",
+        "do": "Discuss situations where knowing measurements is useful, like cooking or building.",
+        "ask": "Can you think of a time when you might need to measure something?",
+        "reinforce": "Measurements are useful in many ways, and now you know how to do them!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Measure the length of a book using a ruler.",
+        "hint": "Use the numbers on the ruler to find the book's length.",
+        "answer": "The book is 10 inches long."
+      },
+      {
+        "prompt": "Weigh a banana on a kitchen scale.",
+        "hint": "Place the banana on the scale and read the number.",
+        "answer": "The banana weighs 120 grams."
+      },
+      {
+        "prompt": "Fill a cup with water to measure its capacity.",
+        "hint": "Use a measuring cup to see how much water it can hold.",
+        "answer": "The cup holds 250 milliliters of water."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Measurement helps us understand the world.",
+      "We learned to measure length, mass, and capacity.",
+      "Using rulers, scales, and measuring cups makes it fun!"
+    ],
+    "common_mistakes": [
+      "Confusing units like inches and centimeters.",
+      "Not zeroing the scale before weighing.",
+      "Overfilling measuring cups."
+    ],
+    "deep_dive": {
+      "history": "Measurement systems have evolved from ancient times, with early units based on body parts and everyday objects.",
+      "connections": "Measurement is connected to science, cooking, and construction, highlighting its importance in various fields.",
+      "misconceptions": "A common misconception is that bigger items always weigh more, which isn't always true.",
+      "teaching_tips": "Use real-life examples and encourage hands-on practice to reinforce measurement concepts.",
+      "derivation": "Units of measurement have been standardized over time to ensure consistency and accuracy in communication and commerce."
+    },
+    "motivation": "Understanding measurements opens up a world of possibilities, making everyday tasks easier and more enjoyable!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the magical world of measurement! Today, we'll help our little learners explore how to measure length, mass, and capacity using everyday items. Let's make math practical and fun!\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will understand how to measure and compare lengths, masses, and capacities using standard units.\n**Why it matters:** Measurement is everywhere! From cooking in the kitchen to building a fort with blankets, understanding measurement helps kids navigate and make sense of the world around them.\n**Parent Tip:** Use household items like a ruler, a kitchen scale, and measuring cups to make learning tangible and relatable for your child.\n**Real-World Link:** Think about grocery shopping. Understanding measurements helps choose the right amount of ingredients and ensures you have enough space in your cart!\n\n## Teaching Steps\n1. Introduce the concept of measurement by discussing everyday uses.\n2. Show how to measure length using a ruler.\n3. Demonstrate weighing an object with a kitchen scale.\n4. Explain capacity with measuring cups using water.\n5. Engage your child in a hands-on activity measuring items around the house.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by exploring how long things are.  \n**Show/Do:** Show your child a ruler and explain the units of measurement (inches or centimeters).  \n**Ask:** Can you measure the length of this pencil with the ruler?  \n**Reinforce:** Great job! You used the ruler to find out how long the pencil is.\n2. **Say:** Now, let's learn about mass.  \n**Show/Do:** Place an apple on a kitchen scale and show the weight.  \n**Ask:** How much does the apple weigh?  \n**Reinforce:** That's right! The scale tells us the apple's weight in ounces or grams.\n3. **Say:** Time to explore capacity!  \n**Show/Do:** Fill a measuring cup with water and show the measurement.  \n**Ask:** How much water did we pour into the cup?  \n**Reinforce:** Exactly! The cup shows us how much it can hold.\n4. **Say:** Let's measure something together!  \n**Show/Do:** Pick a toy and use the ruler, scale, and measuring cup to determine its length, weight, and capacity.  \n**Ask:** What did you find out about the toy?  \n**Reinforce:** Fantastic! Measuring helps us learn more about the things we use every day.\n5. **Say:** How do these measurements help us?  \n**Show/Do:** Discuss situations where knowing measurements is useful, like cooking or building.  \n**Ask:** Can you think of a time when you might need to measure something?  \n**Reinforce:** Measurements are useful in many ways, and now you know how to do them!\n\n## Practice Questions (Do It Together)\n**1. Measure the length of a book using a ruler.**\n<details><summary>Hint</summary>\nUse the numbers on the ruler to find the book's length.\n</details>\n<details><summary>Answer</summary>\nThe book is 10 inches long.\n</details>\n\n**2. Weigh a banana on a kitchen scale.**\n<details><summary>Hint</summary>\nPlace the banana on the scale and read the number.\n</details>\n<details><summary>Answer</summary>\nThe banana weighs 120 grams.\n</details>\n\n**3. Fill a cup with water to measure its capacity.**\n<details><summary>Hint</summary>\nUse a measuring cup to see how much water it can hold.\n</details>\n<details><summary>Answer</summary>\nThe cup holds 250 milliliters of water.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Measurement helps us understand the world.\n- We learned to measure length, mass, and capacity.\n- Using rulers, scales, and measuring cups makes it fun!\n\n**Common Mistakes**\n- Confusing units like inches and centimeters.\n- Not zeroing the scale before weighing.\n- Overfilling measuring cups.\n\n## 🔍 Deep Dive\n**History or origin**\n\nMeasurement systems have evolved from ancient times, with early units based on body parts and everyday objects.\n\n**Future topic connections**\n\nMeasurement is connected to science, cooking, and construction, highlighting its importance in various fields.\n\n**Common misconceptions**\n\nA common misconception is that bigger items always weigh more, which isn't always true.\n\n**Teaching tips for parents**\n\nUse real-life examples and encourage hands-on practice to reinforce measurement concepts.\n\n**More detail / derivation**\n\nUnits of measurement have been standardized over time to ensure consistency and accuracy in communication and commerce.\n\n## Motivation\nUnderstanding measurements opens up a world of possibilities, making everyday tasks easier and more enjoyable!"
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "ea98a1d6-e76b-4301-bcd0-d2019107a7ea",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "53e8ac6f-2dec-46a6-9c26-131ee7fbf000",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d914c5f8-f2e3-482c-82e5-791502568fcc",
+    "slug": "area-perimeter-and-volume-intro",
+    "title": "Exploring Area, Perimeter, and Volume: A Parent's Guide",
+    "summary": "Area, perimeter & volume intro — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and calculate area, perimeter, and volume using simple, real-world analogies.\n\n**Why it matters:** These concepts are foundational in math and are used in various real-life situations, from gardening to home improvement projects.\n\n**Parent Tip:** Encourage your child to visualize these concepts by relating them to objects around the house, like a garden for area or a box for volume.\n\n**Real-World Link:** Think about wrapping a present. The wrapping paper represents the area, the ribbon around it represents the perimeter, and the space inside the box is the volume.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Understanding area, perimeter, and volume helps your child make sense of the world around them. Let's explore these concepts together using everyday examples.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with perimeter: Discuss how to calculate the distance around a rectangle by adding the lengths of all sides.\n2. Move to area: Explain how to find the space inside a rectangle by multiplying its length by its width.\n3. Introduce volume: Demonstrate how to calculate the space a 3D object occupies by multiplying its length, width, and height.\n4. Use household items: Measure and calculate the perimeter of a book, the area of a tabletop, and the volume of a cereal box.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Calculate the perimeter of a rectangle with sides 5 cm and 3 cm.**\n_Answer:_ 16 cm\n_Hint:_ Add all the sides together.\n\n**2. Find the area of a rectangle with length 7 cm and width 4 cm.**\n_Answer:_ 28 cm²\n_Hint:_ Multiply the length by the width.\n\n**3. Determine the volume of a box with dimensions 2 cm by 3 cm by 4 cm.**\n_Answer:_ 24 cm³\n_Hint:_ Multiply length, width, and height.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing area with perimeter.\n- Forgetting to use the correct units (e.g., cm vs. cm² vs. cm³).\n- Mixing up length, width, and height in volume calculations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about wrapping a present. The wrapping paper represents the area, the ribbon around it represents the perimeter, and the space inside the box is the volume.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and calculate area, perimeter, and volume using everyday examples.",
+    "overview": "**Objective:** Help your child understand and calculate area, perimeter, and volume using simple, real-world analogies.\n\n**Why it matters:** These concepts are foundational in math and are used in various real-life situations, from gardening to home improvement projects.\n\n**Parent Tip:** Encourage your child to visualize these concepts by relating them to objects around the house, like a garden for area or a box for volume.\n\n**Real-World Link:** Think about wrapping a present. The wrapping paper represents the area, the ribbon around it represents the perimeter, and the space inside the box is the volume.",
+    "core": "Welcome, parents! Understanding area, perimeter, and volume helps your child make sense of the world around them. Let's explore these concepts together using everyday examples.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'How would you measure the amount of space inside your toy box or the distance around your favorite poster?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with perimeter: Discuss how to calculate the distance around a rectangle by adding the lengths of all sides.\n2. Move to area: Explain how to find the space inside a rectangle by multiplying its length by its width.\n3. Introduce volume: Demonstrate how to calculate the space a 3D object occupies by multiplying its length, width, and height.\n4. Use household items: Measure and calculate the perimeter of a book, the area of a tabletop, and the volume of a cereal box.",
+    "practice": "**1. Calculate the perimeter of a rectangle with sides 5 cm and 3 cm.**\n_Answer:_ 16 cm\n_Hint:_ Add all the sides together.\n\n**2. Find the area of a rectangle with length 7 cm and width 4 cm.**\n_Answer:_ 28 cm²\n_Hint:_ Multiply the length by the width.\n\n**3. Determine the volume of a box with dimensions 2 cm by 3 cm by 4 cm.**\n_Answer:_ 24 cm³\n_Hint:_ Multiply length, width, and height.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing area with perimeter.\n- Forgetting to use the correct units (e.g., cm vs. cm² vs. cm³).\n- Mixing up length, width, and height in volume calculations.",
+    "connection": "Think about wrapping a present. The wrapping paper represents the area, the ribbon around it represents the perimeter, and the space inside the box is the volume.",
+    "close": "**Key Takeaways**\n- Perimeter measures the distance around an object.\n- Area measures the surface covered.\n- Volume measures the space inside.\n\n**Parent Reflection Questions**\n- How can different shapes have the same perimeter but different areas?\n- What real-world objects can you think of that require volume measurement?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Area, Perimeter, and Volume: A Parent's Guide",
+    "introduction": "Welcome! Today we'll explore the concepts of area, perimeter, and volume. These are key to understanding space and size, helping your child see the math in the world around them.",
+    "objective": "Parents will learn how to guide their child in understanding and calculating area, perimeter, and volume.",
+    "why_matters": "These concepts help children describe the world in terms of space and measurements, essential for everyday activities like planning a garden or packing a box.",
+    "parent_tip": "Encourage your child to visualize and draw shapes to better understand these concepts.",
+    "real_world_link": "Think about how much paint you need to cover a wall (area), how much fencing you need for a garden (perimeter), or how many boxes fit in a moving truck (volume).",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of area by discussing the space inside a shape.",
+      "Explain perimeter as the distance around a shape.",
+      "Describe volume as the amount of space a 3D object occupies.",
+      "Use everyday objects to demonstrate each concept.",
+      "Practice calculating each measurement with your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore area. It's like the amount of carpet needed to cover this floor.",
+        "do": "Point to a rug or tile.",
+        "ask": "How many tiles would we need to cover this floor?",
+        "reinforce": "Great! Area helps us understand how much space a surface covers."
+      },
+      {
+        "say": "Now, let's talk about perimeter, the distance around something.",
+        "do": "Walk around a table.",
+        "ask": "How far would you walk if you went around this table?",
+        "reinforce": "Perimeter helps us know the boundary length of a shape."
+      },
+      {
+        "say": "Volume is the space a 3D object takes up, like a box.",
+        "do": "Show a small box.",
+        "ask": "How many small cubes could fit inside this box?",
+        "reinforce": "Volume tells us how much space an object contains."
+      },
+      {
+        "say": "Let's measure the perimeter of this room.",
+        "do": "Use a measuring tape to go around the room.",
+        "ask": "What is the total length we measured?",
+        "reinforce": "Good job! Now we know how much border we need for this room."
+      },
+      {
+        "say": "Let's calculate the volume of this box.",
+        "do": "Measure the length, width, and height of a box.",
+        "ask": "Can you multiply these measurements to find the volume?",
+        "reinforce": "Excellent! That's how we find out the box's capacity."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the area of a rectangle with length 5 units and width 3 units.",
+        "hint": "Multiply length by width.",
+        "answer": "15 square units"
+      },
+      {
+        "prompt": "Calculate the perimeter of a square with sides of 4 units.",
+        "hint": "Add all four sides or multiply one side by 4.",
+        "answer": "16 units"
+      },
+      {
+        "prompt": "Determine the volume of a box with dimensions 2 units by 3 units by 4 units.",
+        "hint": "Multiply length, width, and height.",
+        "answer": "24 cubic units"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Area is the space inside a 2D shape.",
+      "Perimeter is the distance around a shape.",
+      "Volume is the space a 3D object occupies."
+    ],
+    "common_mistakes": [
+      "Confusing perimeter with area.",
+      "Forgetting to use the correct units (square/cubic).",
+      "Not multiplying all dimensions for volume."
+    ],
+    "deep_dive": {
+      "history": "The concept of area dates back to ancient civilizations, used for land measurement.",
+      "connections": "Area and perimeter are foundational in geometry, while volume is crucial in physics and engineering.",
+      "misconceptions": "A common misconception is that larger perimeter means larger area, which isn't always true.",
+      "teaching_tips": "Use real objects to make abstract concepts tangible.",
+      "derivation": "Area and volume formulas are derived from understanding how shapes fill space."
+    },
+    "motivation": "By understanding these concepts, your child will be better equipped to handle tasks and solve problems in everyday life and future math courses."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today we'll explore the concepts of area, perimeter, and volume. These are key to understanding space and size, helping your child see the math in the world around them.\n\n## Parent Orientation\n**Objective:** Parents will learn how to guide their child in understanding and calculating area, perimeter, and volume.\n**Why it matters:** These concepts help children describe the world in terms of space and measurements, essential for everyday activities like planning a garden or packing a box.\n**Parent Tip:** Encourage your child to visualize and draw shapes to better understand these concepts.\n**Real-World Link:** Think about how much paint you need to cover a wall (area), how much fencing you need for a garden (perimeter), or how many boxes fit in a moving truck (volume).\n\n## Teaching Steps\n1. Introduce the concept of area by discussing the space inside a shape.\n2. Explain perimeter as the distance around a shape.\n3. Describe volume as the amount of space a 3D object occupies.\n4. Use everyday objects to demonstrate each concept.\n5. Practice calculating each measurement with your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore area. It's like the amount of carpet needed to cover this floor.  \n**Show/Do:** Point to a rug or tile.  \n**Ask:** How many tiles would we need to cover this floor?  \n**Reinforce:** Great! Area helps us understand how much space a surface covers.\n2. **Say:** Now, let's talk about perimeter, the distance around something.  \n**Show/Do:** Walk around a table.  \n**Ask:** How far would you walk if you went around this table?  \n**Reinforce:** Perimeter helps us know the boundary length of a shape.\n3. **Say:** Volume is the space a 3D object takes up, like a box.  \n**Show/Do:** Show a small box.  \n**Ask:** How many small cubes could fit inside this box?  \n**Reinforce:** Volume tells us how much space an object contains.\n4. **Say:** Let's measure the perimeter of this room.  \n**Show/Do:** Use a measuring tape to go around the room.  \n**Ask:** What is the total length we measured?  \n**Reinforce:** Good job! Now we know how much border we need for this room.\n5. **Say:** Let's calculate the volume of this box.  \n**Show/Do:** Measure the length, width, and height of a box.  \n**Ask:** Can you multiply these measurements to find the volume?  \n**Reinforce:** Excellent! That's how we find out the box's capacity.\n\n## Practice Questions (Do It Together)\n**1. Find the area of a rectangle with length 5 units and width 3 units.**\n<details><summary>Hint</summary>\nMultiply length by width.\n</details>\n<details><summary>Answer</summary>\n15 square units\n</details>\n\n**2. Calculate the perimeter of a square with sides of 4 units.**\n<details><summary>Hint</summary>\nAdd all four sides or multiply one side by 4.\n</details>\n<details><summary>Answer</summary>\n16 units\n</details>\n\n**3. Determine the volume of a box with dimensions 2 units by 3 units by 4 units.**\n<details><summary>Hint</summary>\nMultiply length, width, and height.\n</details>\n<details><summary>Answer</summary>\n24 cubic units\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Area is the space inside a 2D shape.\n- Perimeter is the distance around a shape.\n- Volume is the space a 3D object occupies.\n\n**Common Mistakes**\n- Confusing perimeter with area.\n- Forgetting to use the correct units (square/cubic).\n- Not multiplying all dimensions for volume.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of area dates back to ancient civilizations, used for land measurement.\n\n**Future topic connections**\n\nArea and perimeter are foundational in geometry, while volume is crucial in physics and engineering.\n\n**Common misconceptions**\n\nA common misconception is that larger perimeter means larger area, which isn't always true.\n\n**Teaching tips for parents**\n\nUse real objects to make abstract concepts tangible.\n\n**More detail / derivation**\n\nArea and volume formulas are derived from understanding how shapes fill space.\n\n## Motivation\nBy understanding these concepts, your child will be better equipped to handle tasks and solve problems in everyday life and future math courses."
+}

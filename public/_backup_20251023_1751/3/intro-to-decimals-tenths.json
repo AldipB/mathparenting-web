@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "17c68b3b-5a53-4dce-b44b-790799ad5b82",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "5fb130c1-9248-4cdb-af9e-4dd46a1ebe08",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "438fe33a-6f17-4867-9822-74f18af4190d",
+    "slug": "intro-to-decimals-tenths",
+    "title": "Intro To Decimals Tenths",
+    "summary": "Intro To Decimals Tenths — summary for parents in Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Intro To Decimals Tenths** in Grade 3.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Intro To Decimals Tenths** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Intro To Decimals Tenths** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Intro To Decimals Tenths** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Intro To Decimals Tenths** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Intro To Decimals Tenths**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Intro To Decimals Tenths**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Intro To Decimals Tenths**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Intro To Decimals Tenths** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Intro To Decimals Tenths**.",
+    "overview": "This lesson helps children understand **Intro To Decimals Tenths**.",
+    "core": "Explain **Intro To Decimals Tenths** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Intro To Decimals Tenths**."
+}

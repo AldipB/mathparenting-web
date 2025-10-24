@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "ea7747b1-ac26-4c0f-890d-df057155beb8",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "952c1cc6-1690-4e42-bc6a-4e0a6d367482",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "afc3a5cc-1bb7-467b-8ac2-a1d2d6b77e6e",
+    "slug": "line-and-symmetry",
+    "title": "Line & Symmetry: Finding Balance in Shapes",
+    "summary": "Line & symmetry — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child identify lines of symmetry in various shapes and understand the concept of balance.\n\n**Why it matters:** Understanding symmetry enhances visual-spatial skills and is foundational for geometry. It helps in recognizing patterns and balances in nature and art.\n\n**Parent Tip:** Encourage your child to look for symmetry in everyday objects, like a face or a folded piece of paper. This makes learning relatable and fun!\n\n**Real-World Link:** Think of symmetry as a mirror image. When you fold a heart-shaped card in half, each side matches perfectly, just like symmetrical designs in architecture and art.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Today, we're exploring the exciting world of symmetry in shapes. Just like a butterfly's wings or a leaf's veins, symmetry is all around us.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by folding a piece of paper in half and cutting out a simple shape. Unfold to show symmetry.\n2. Discuss how a line of symmetry divides a shape into two identical parts.\n3. Show different shapes (circle, square, triangle) and ask your child to find lines of symmetry.\n4. Use a mirror to demonstrate how one half of a shape reflects onto the other.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Draw a line of symmetry on a square. (use numbers like 6 and 9)**\n_Answer:_ A square has four lines of symmetry: vertical, horizontal, and two diagonals.\n_Hint:_ Think about how you can fold the square to have both sides match.\n\n**2. Identify the lines of symmetry in a rectangle. (use numbers like 6 and 9)**\n_Answer:_ A rectangle has two lines of symmetry: one vertical and one horizontal.\n_Hint:_ Consider how you would fold a rectangle to have matching halves.\n\n**3. Does a scalene triangle have any lines of symmetry? (use numbers like 6 and 9)**\n_Answer:_ A scalene triangle has no lines of symmetry because all sides and angles are different.\n_Hint:_ Remember, lines of symmetry create mirror images.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Thinking that all triangles have lines of symmetry.\n- Confusing symmetry with identical shapes that aren't mirror images.\n- Overlooking diagonal lines of symmetry in squares.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of symmetry as a mirror image. When you fold a heart-shaped card in half, each side matches perfectly, just like symmetrical designs in architecture and art.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the concept of symmetry and how to identify lines of symmetry in various shapes.",
+    "overview": "**Objective:** Help your child identify lines of symmetry in various shapes and understand the concept of balance.\n\n**Why it matters:** Understanding symmetry enhances visual-spatial skills and is foundational for geometry. It helps in recognizing patterns and balances in nature and art.\n\n**Parent Tip:** Encourage your child to look for symmetry in everyday objects, like a face or a folded piece of paper. This makes learning relatable and fun!\n\n**Real-World Link:** Think of symmetry as a mirror image. When you fold a heart-shaped card in half, each side matches perfectly, just like symmetrical designs in architecture and art.",
+    "core": "Welcome, parents! Today, we're exploring the exciting world of symmetry in shapes. Just like a butterfly's wings or a leaf's veins, symmetry is all around us.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed that some shapes can be folded over and look exactly the same on both sides? That's symmetry in action!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by folding a piece of paper in half and cutting out a simple shape. Unfold to show symmetry.\n2. Discuss how a line of symmetry divides a shape into two identical parts.\n3. Show different shapes (circle, square, triangle) and ask your child to find lines of symmetry.\n4. Use a mirror to demonstrate how one half of a shape reflects onto the other.",
+    "practice": "**1. Draw a line of symmetry on a square. (use numbers like 6 and 9)**\n_Answer:_ A square has four lines of symmetry: vertical, horizontal, and two diagonals.\n_Hint:_ Think about how you can fold the square to have both sides match.\n\n**2. Identify the lines of symmetry in a rectangle. (use numbers like 6 and 9)**\n_Answer:_ A rectangle has two lines of symmetry: one vertical and one horizontal.\n_Hint:_ Consider how you would fold a rectangle to have matching halves.\n\n**3. Does a scalene triangle have any lines of symmetry? (use numbers like 6 and 9)**\n_Answer:_ A scalene triangle has no lines of symmetry because all sides and angles are different.\n_Hint:_ Remember, lines of symmetry create mirror images.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Thinking that all triangles have lines of symmetry.\n- Confusing symmetry with identical shapes that aren't mirror images.\n- Overlooking diagonal lines of symmetry in squares.",
+    "connection": "Think of symmetry as a mirror image. When you fold a heart-shaped card in half, each side matches perfectly, just like symmetrical designs in architecture and art.",
+    "close": "**Key Takeaways**\n- Symmetry means balance and identical halves.\n- A line of symmetry divides a shape into two matching parts.\n- Symmetry is present in both natural and man-made objects.\n\n**Parent Reflection Questions**\n- What objects at home have symmetry?\n- How does symmetry help in design and nature?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Line & Symmetry: Finding Balance in Shapes",
+    "introduction": "Welcome to the world of symmetry, where shapes find their perfect balance! In this lesson, we'll explore how lines of symmetry bring harmony to the world of geometry.",
+    "objective": "Help your child identify lines of symmetry in various shapes and understand the concept of balance in geometry.",
+    "why_matters": "Symmetry is all around us—from art and design to nature. Understanding it helps children appreciate the beauty and structure in the world.",
+    "parent_tip": "Encourage your child to look for symmetry in everyday objects. It's a fun way to connect math with the real world!",
+    "real_world_link": "Think about butterflies, leaves, and even human faces. These all have lines of symmetry that create a sense of balance and beauty.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of symmetry and its importance.",
+      "Demonstrate how to find a line of symmetry in simple shapes.",
+      "Encourage your child to draw lines of symmetry on paper.",
+      "Explore symmetry in everyday objects around the house.",
+      "Discuss how symmetry is used in art and nature."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about symmetry! Do you know what it means?",
+        "do": "Show a picture of a butterfly and point to its line of symmetry.",
+        "ask": "Can you see how both sides are the same?",
+        "reinforce": "That's right! Symmetry is when one side is a mirror image of the other."
+      },
+      {
+        "say": "Now, let's find symmetry in shapes.",
+        "do": "Draw a square on a piece of paper.",
+        "ask": "Where do you think the line of symmetry is?",
+        "reinforce": "Good job! A square has multiple lines of symmetry."
+      },
+      {
+        "say": "Let's try another shape: a triangle.",
+        "do": "Draw an equilateral triangle.",
+        "ask": "Can you find the line of symmetry here?",
+        "reinforce": "Exactly! The line goes from top to bottom through the middle."
+      },
+      {
+        "say": "Let's look around the house for symmetry.",
+        "do": "Find objects like a book or a vase.",
+        "ask": "Can you spot the line of symmetry in these?",
+        "reinforce": "Great! Symmetry is everywhere once you start looking."
+      },
+      {
+        "say": "Did you know symmetry is also in art?",
+        "do": "Show a picture of a famous symmetrical artwork.",
+        "ask": "What makes this artwork balanced and pleasing?",
+        "reinforce": "Symmetry often makes things look beautiful and orderly."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "How many lines of symmetry does a rectangle have?",
+        "hint": "Think about folding it in half.",
+        "answer": "2"
+      },
+      {
+        "prompt": "Draw a line of symmetry on a circle.",
+        "hint": "A circle is very special with its symmetry.",
+        "answer": "A circle has infinite lines of symmetry."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Symmetry is when one side of a shape is a mirror image of the other.",
+      "Lines of symmetry can be found in many shapes and objects.",
+      "Symmetry brings balance and beauty to art, nature, and everyday life."
+    ],
+    "common_mistakes": [
+      "Thinking that all shapes have only one line of symmetry.",
+      "Forgetting that some shapes, like circles, have more than one line of symmetry."
+    ],
+    "deep_dive": {
+      "history": "Symmetry has been studied since ancient times, evident in Greek architecture and art.",
+      "connections": "Symmetry is used in design, architecture, and even in molecular biology.",
+      "misconceptions": "A common misconception is that all symmetrical objects must be perfectly identical on both sides.",
+      "teaching_tips": "Use mirrors to physically show symmetry, which can be very effective for visual learners.",
+      "derivation": "The mathematical study of symmetry involves group theory, which is advanced but fascinating."
+    },
+    "motivation": "Encourage your child to see the beauty in balance, whether in math, nature, or art. Recognizing symmetry can spark creativity and appreciation for the world around them."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of symmetry, where shapes find their perfect balance! In this lesson, we'll explore how lines of symmetry bring harmony to the world of geometry.\n\n## Parent Orientation\n**Objective:** Help your child identify lines of symmetry in various shapes and understand the concept of balance in geometry.\n**Why it matters:** Symmetry is all around us—from art and design to nature. Understanding it helps children appreciate the beauty and structure in the world.\n**Parent Tip:** Encourage your child to look for symmetry in everyday objects. It's a fun way to connect math with the real world!\n**Real-World Link:** Think about butterflies, leaves, and even human faces. These all have lines of symmetry that create a sense of balance and beauty.\n\n## Teaching Steps\n1. Introduce the concept of symmetry and its importance.\n2. Demonstrate how to find a line of symmetry in simple shapes.\n3. Encourage your child to draw lines of symmetry on paper.\n4. Explore symmetry in everyday objects around the house.\n5. Discuss how symmetry is used in art and nature.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about symmetry! Do you know what it means?  \n**Show/Do:** Show a picture of a butterfly and point to its line of symmetry.  \n**Ask:** Can you see how both sides are the same?  \n**Reinforce:** That's right! Symmetry is when one side is a mirror image of the other.\n2. **Say:** Now, let's find symmetry in shapes.  \n**Show/Do:** Draw a square on a piece of paper.  \n**Ask:** Where do you think the line of symmetry is?  \n**Reinforce:** Good job! A square has multiple lines of symmetry.\n3. **Say:** Let's try another shape: a triangle.  \n**Show/Do:** Draw an equilateral triangle.  \n**Ask:** Can you find the line of symmetry here?  \n**Reinforce:** Exactly! The line goes from top to bottom through the middle.\n4. **Say:** Let's look around the house for symmetry.  \n**Show/Do:** Find objects like a book or a vase.  \n**Ask:** Can you spot the line of symmetry in these?  \n**Reinforce:** Great! Symmetry is everywhere once you start looking.\n5. **Say:** Did you know symmetry is also in art?  \n**Show/Do:** Show a picture of a famous symmetrical artwork.  \n**Ask:** What makes this artwork balanced and pleasing?  \n**Reinforce:** Symmetry often makes things look beautiful and orderly.\n\n## Practice Questions (Do It Together)\n**1. How many lines of symmetry does a rectangle have?**\n<details><summary>Hint</summary>\nThink about folding it in half.\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n**2. Draw a line of symmetry on a circle.**\n<details><summary>Hint</summary>\nA circle is very special with its symmetry.\n</details>\n<details><summary>Answer</summary>\nA circle has infinite lines of symmetry.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Symmetry is when one side of a shape is a mirror image of the other.\n- Lines of symmetry can be found in many shapes and objects.\n- Symmetry brings balance and beauty to art, nature, and everyday life.\n\n**Common Mistakes**\n- Thinking that all shapes have only one line of symmetry.\n- Forgetting that some shapes, like circles, have more than one line of symmetry.\n\n## 🔍 Deep Dive\n**History or origin**\n\nSymmetry has been studied since ancient times, evident in Greek architecture and art.\n\n**Future topic connections**\n\nSymmetry is used in design, architecture, and even in molecular biology.\n\n**Common misconceptions**\n\nA common misconception is that all symmetrical objects must be perfectly identical on both sides.\n\n**Teaching tips for parents**\n\nUse mirrors to physically show symmetry, which can be very effective for visual learners.\n\n**More detail / derivation**\n\nThe mathematical study of symmetry involves group theory, which is advanced but fascinating.\n\n## Motivation\nEncourage your child to see the beauty in balance, whether in math, nature, or art. Recognizing symmetry can spark creativity and appreciation for the world around them."
+}

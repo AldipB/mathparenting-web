@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "6861a824-4937-46d0-99cd-77a492833d2a",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "123858a6-4d67-4379-859d-7bef8fc0e379",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "405ddb4c-d8e0-4070-8da2-6ffdb1e23c51",
+    "slug": "area-and-perimeter-of-rectangles",
+    "title": "Exploring Area & Perimeter of Rectangles: A Family Adventure",
+    "summary": "Area & perimeter of rectangles — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and calculate the area and perimeter of rectangles using simple formulas.\n\n**Why it matters:** Knowing how to measure area and perimeter is essential for planning spaces, like arranging furniture or building a garden.\n\n**Parent Tip:** Encourage your child to visualize rectangles in your home, like a dining table or a rug, to relate the math to real-life objects.\n\n**Real-World Link:** Imagine wrapping a gift. The perimeter is like the ribbon around the box, and the area is the wrapping paper covering the top surface.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Let's embark on a fun journey to explore the concepts of area and perimeter with your 3rd grader. Together, we'll uncover how these measurements help us in everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by showing your child a rectangle in your home.\n2. Explain that perimeter is the total distance around the rectangle.\n3. Use a string to measure the perimeter by wrapping it around the edges.\n4. Discuss how area is the amount of space inside the rectangle.\n5. Use small squares (like tiles or paper) to fill the inside and count them to measure the area.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the perimeter of a rectangle with a length of 6 units and a width of 4 units.**\n_Answer:_ 20 units\n_Hint:_ Add the length and width, then multiply by 2.\n\n**2. Calculate the area of a rectangle with a length of 7 units and a width of 2 units.**\n_Answer:_ 14 square units\n_Hint:_ Multiply the length by the width.\n\n**3. A rectangle has a perimeter of 18 units. If the width is 4 units, what is the length?**\n_Answer:_ 5 units\n_Hint:_ Use the formula to set up an equation.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing perimeter with area.\n- Forgetting to multiply by 2 when calculating perimeter.\n- Mixing up length and width in calculations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine wrapping a gift. The perimeter is like the ribbon around the box, and the area is the wrapping paper covering the top surface.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and calculate the area and perimeter of rectangles.",
+    "overview": "**Objective:** Help your child understand and calculate the area and perimeter of rectangles using simple formulas.\n\n**Why it matters:** Knowing how to measure area and perimeter is essential for planning spaces, like arranging furniture or building a garden.\n\n**Parent Tip:** Encourage your child to visualize rectangles in your home, like a dining table or a rug, to relate the math to real-life objects.\n\n**Real-World Link:** Imagine wrapping a gift. The perimeter is like the ribbon around the box, and the area is the wrapping paper covering the top surface.",
+    "core": "Welcome, parents! Let's embark on a fun journey to explore the concepts of area and perimeter with your 3rd grader. Together, we'll uncover how these measurements help us in everyday life.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how much paint you’d need to cover a wall or how much ribbon to wrap around a gift? These are questions of area and perimeter!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** Area = length × width, Perimeter = 2 × (length + width)\n- **Meaning:** The area tells us how much space is inside; the perimeter tells us the total length around.\n- **How it works:** Multiply the length by the width for area. Add the length and width, then multiply by 2 for perimeter.\n- **Example:** For a 5 by 3 rectangle, Area = 5 × 3 = 15 square units; Perimeter = 2 × (5 + 3) = 16 units.",
+    "formulas": "Area = length × width, Perimeter = 2 × (length + width)",
+    "guide": "1. Start by showing your child a rectangle in your home.\n2. Explain that perimeter is the total distance around the rectangle.\n3. Use a string to measure the perimeter by wrapping it around the edges.\n4. Discuss how area is the amount of space inside the rectangle.\n5. Use small squares (like tiles or paper) to fill the inside and count them to measure the area.",
+    "practice": "**1. Find the perimeter of a rectangle with a length of 6 units and a width of 4 units.**\n_Answer:_ 20 units\n_Hint:_ Add the length and width, then multiply by 2.\n\n**2. Calculate the area of a rectangle with a length of 7 units and a width of 2 units.**\n_Answer:_ 14 square units\n_Hint:_ Multiply the length by the width.\n\n**3. A rectangle has a perimeter of 18 units. If the width is 4 units, what is the length?**\n_Answer:_ 5 units\n_Hint:_ Use the formula to set up an equation.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing perimeter with area.\n- Forgetting to multiply by 2 when calculating perimeter.\n- Mixing up length and width in calculations.",
+    "connection": "Imagine wrapping a gift. The perimeter is like the ribbon around the box, and the area is the wrapping paper covering the top surface.",
+    "close": "**Key Takeaways**\n- Area measures the space inside a shape.\n- Perimeter measures the distance around a shape.\n- Use multiplication for area and addition for perimeter.\n\n**Parent Reflection Questions**\n- How can you show your child the difference between area and perimeter?\n- What real-world examples can you use to practice these concepts at home?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Area & Perimeter of Rectangles: A Family Adventure",
+    "introduction": "Welcome to a fun exploration of rectangles! Today, we’ll learn how to measure the area and perimeter of rectangles, turning everyday objects into learning tools. Get ready for a math adventure with your child!",
+    "objective": "By the end of this lesson, your child will understand and calculate the area and perimeter of rectangles using real-life examples.",
+    "why_matters": "Understanding area and perimeter is crucial for solving problems in everyday life, like figuring out how much paint to buy for a wall or the length of fence needed for a garden.",
+    "parent_tip": "Use household items like books or picture frames to make learning interactive and relatable. Encourage your child to visualize and measure these objects.",
+    "real_world_link": "Think about the floor of your room. Calculating its area helps you know how much carpet you need. Knowing the perimeter helps when installing baseboards.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce rectangles using familiar objects.",
+      "Explain the concept of perimeter as the 'walk around the edge'.",
+      "Introduce the area as the 'space inside'.",
+      "Demonstrate measuring sides using a ruler.",
+      "Calculate perimeter by adding all sides.",
+      "Calculate area by multiplying length by width."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's find a rectangle in our home, like this book.",
+        "do": "Show a book and point to its sides.",
+        "ask": "Can you see the four sides of this rectangle?",
+        "reinforce": "Great! Each side is important for measuring perimeter and area."
+      },
+      {
+        "say": "Perimeter is like walking around the edge of the book.",
+        "do": "Trace your finger around the edge of the book.",
+        "ask": "How many sides did we trace?",
+        "reinforce": "Correct! We traced all four sides."
+      },
+      {
+        "say": "Now, let's measure each side with a ruler.",
+        "do": "Measure the length and width of the book.",
+        "ask": "What are the measurements of the length and width?",
+        "reinforce": "Good job! These measurements help us calculate the perimeter and area."
+      },
+      {
+        "say": "To find the perimeter, we add all the sides together.",
+        "do": "Add the measurements: length + width + length + width.",
+        "ask": "Can you help me add these numbers?",
+        "reinforce": "Excellent! That's how we find the perimeter."
+      },
+      {
+        "say": "For the area, we multiply the length by the width.",
+        "do": "Multiply the two measurements.",
+        "ask": "What is the result of this multiplication?",
+        "reinforce": "Awesome! That's the area of the rectangle."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "A rectangle has a length of 6 cm and a width of 3 cm. What is the perimeter?",
+        "hint": "Add the length and width twice: (6 + 3) + (6 + 3).",
+        "answer": "18 cm"
+      },
+      {
+        "prompt": "What is the area of a rectangle with a length of 4 m and a width of 2 m?",
+        "hint": "Multiply the length by the width: 4 x 2.",
+        "answer": "8 square meters"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Perimeter is the distance around the rectangle.",
+      "Area is the space inside the rectangle.",
+      "Use a ruler to measure and a simple calculation to find these values."
+    ],
+    "common_mistakes": [
+      "Confusing perimeter with area calculations.",
+      "Forgetting to multiply for area or add for perimeter.",
+      "Mixing up length and width measurements."
+    ],
+    "deep_dive": {
+      "history": "The concept of area dates back to ancient civilizations, like the Egyptians, who used it to allocate land.",
+      "connections": "Understanding area and perimeter is foundational for geometry and real-world applications like architecture.",
+      "misconceptions": "Some think area and perimeter are the same because they involve the same dimensions.",
+      "teaching_tips": "Use visual aids and physical objects to demonstrate differences between area and perimeter.",
+      "derivation": "Area = length x width; Perimeter = 2(length + width)."
+    },
+    "motivation": "By mastering area and perimeter, your child gains skills that are useful in everyday life and future math learning."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun exploration of rectangles! Today, we’ll learn how to measure the area and perimeter of rectangles, turning everyday objects into learning tools. Get ready for a math adventure with your child!\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will understand and calculate the area and perimeter of rectangles using real-life examples.\n**Why it matters:** Understanding area and perimeter is crucial for solving problems in everyday life, like figuring out how much paint to buy for a wall or the length of fence needed for a garden.\n**Parent Tip:** Use household items like books or picture frames to make learning interactive and relatable. Encourage your child to visualize and measure these objects.\n**Real-World Link:** Think about the floor of your room. Calculating its area helps you know how much carpet you need. Knowing the perimeter helps when installing baseboards.\n\n## Teaching Steps\n1. Introduce rectangles using familiar objects.\n2. Explain the concept of perimeter as the 'walk around the edge'.\n3. Introduce the area as the 'space inside'.\n4. Demonstrate measuring sides using a ruler.\n5. Calculate perimeter by adding all sides.\n6. Calculate area by multiplying length by width.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's find a rectangle in our home, like this book.  \n**Show/Do:** Show a book and point to its sides.  \n**Ask:** Can you see the four sides of this rectangle?  \n**Reinforce:** Great! Each side is important for measuring perimeter and area.\n2. **Say:** Perimeter is like walking around the edge of the book.  \n**Show/Do:** Trace your finger around the edge of the book.  \n**Ask:** How many sides did we trace?  \n**Reinforce:** Correct! We traced all four sides.\n3. **Say:** Now, let's measure each side with a ruler.  \n**Show/Do:** Measure the length and width of the book.  \n**Ask:** What are the measurements of the length and width?  \n**Reinforce:** Good job! These measurements help us calculate the perimeter and area.\n4. **Say:** To find the perimeter, we add all the sides together.  \n**Show/Do:** Add the measurements: length + width + length + width.  \n**Ask:** Can you help me add these numbers?  \n**Reinforce:** Excellent! That's how we find the perimeter.\n5. **Say:** For the area, we multiply the length by the width.  \n**Show/Do:** Multiply the two measurements.  \n**Ask:** What is the result of this multiplication?  \n**Reinforce:** Awesome! That's the area of the rectangle.\n\n## Practice Questions (Do It Together)\n**1. A rectangle has a length of 6 cm and a width of 3 cm. What is the perimeter?**\n<details><summary>Hint</summary>\nAdd the length and width twice: (6 + 3) + (6 + 3).\n</details>\n<details><summary>Answer</summary>\n18 cm\n</details>\n\n**2. What is the area of a rectangle with a length of 4 m and a width of 2 m?**\n<details><summary>Hint</summary>\nMultiply the length by the width: 4 x 2.\n</details>\n<details><summary>Answer</summary>\n8 square meters\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Perimeter is the distance around the rectangle.\n- Area is the space inside the rectangle.\n- Use a ruler to measure and a simple calculation to find these values.\n\n**Common Mistakes**\n- Confusing perimeter with area calculations.\n- Forgetting to multiply for area or add for perimeter.\n- Mixing up length and width measurements.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of area dates back to ancient civilizations, like the Egyptians, who used it to allocate land.\n\n**Future topic connections**\n\nUnderstanding area and perimeter is foundational for geometry and real-world applications like architecture.\n\n**Common misconceptions**\n\nSome think area and perimeter are the same because they involve the same dimensions.\n\n**Teaching tips for parents**\n\nUse visual aids and physical objects to demonstrate differences between area and perimeter.\n\n**More detail / derivation**\n\nArea = length x width; Perimeter = 2(length + width).\n\n## Motivation\nBy mastering area and perimeter, your child gains skills that are useful in everyday life and future math learning."
+}

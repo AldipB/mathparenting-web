@@ -1,0 +1,125 @@
+{
+  "grade": "2",
+  "lessons": [
+    {
+      "slug": "add-and-subtract-within-100-regrouping",
+      "title": "Add & Subtract within 100 (Regrouping)"
+    },
+    {
+      "slug": "add-subtract-within-100-regrouping",
+      "title": "Add & Subtract within 100 (Regrouping)"
+    },
+    {
+      "slug": "add-subtract-within-1000-concepts",
+      "title": "Add & Subtract within 1000 (Concepts)"
+    },
+    {
+      "slug": "addition-subtraction-two-digit-numbers",
+      "title": "Addition & Subtraction (Two-Digit Numbers)"
+    },
+    {
+      "slug": "area-and-perimeter-informal",
+      "title": "Area & Perimeter (Informal)"
+    },
+    {
+      "slug": "area-perimeter-informal-3d03d77d-09e2-417c-8273-55327bbdb89f",
+      "title": "Area & Perimeter (Informal)"
+    },
+    {
+      "slug": "area-perimeter-informal-402e6bf6-953f-447e-b124-5c515a6dc5ce",
+      "title": "Area & Perimeter (Informal)"
+    },
+    {
+      "slug": "fluency-with-2-digit-addition-subtraction",
+      "title": "Fluency with 2-Digit Addition/Subtraction"
+    },
+    {
+      "slug": "fluency-with-2-digit-additionsubtraction",
+      "title": "Fluency with 2-Digit Addition/Subtraction"
+    },
+    {
+      "slug": "fractions-1-2-1-3-1-4-as-equal-parts",
+      "title": "Fractions (1/2, 1/3, 1/4) as Equal Parts"
+    },
+    {
+      "slug": "fractions-1-2-1-3-1-4-3-4-area-set-models",
+      "title": "Fractions: 1/2, 1/3, 1/4, 3/4 (Area & Set Models)"
+    },
+    {
+      "slug": "intro-to-division-sharing-grouping",
+      "title": "Intro to Division (Sharing, Grouping)"
+    },
+    {
+      "slug": "intro-to-division-sharing",
+      "title": "Intro to Division (Sharing)"
+    },
+    {
+      "slug": "intro-to-multiplication-arrays-equal-groups-1a88ee2b-87f8-4283-885e-4a34aebed2b4",
+      "title": "Intro to Multiplication (Arrays, Equal Groups)"
+    },
+    {
+      "slug": "intro-to-multiplication-arrays-equal-groups-af18edd9-56e4-4325-97a0-0df65199bcef",
+      "title": "Intro to Multiplication (Arrays, Equal Groups)"
+    },
+    {
+      "slug": "intro-to-multiplication-arrays-equal-groups",
+      "title": "Intro To Multiplication Arrays Equal Groups"
+    },
+    {
+      "slug": "length-cm-m-mass-g-kg-capacity-l",
+      "title": "Length (cm, m), Mass (g, kg), Capacity (L)"
+    },
+    {
+      "slug": "measurement-cm-m-g-kg-l-time-to-5-minutes",
+      "title": "Measurement: cm, m, g, kg, L; Time to 5 Minutes"
+    },
+    {
+      "slug": "money-problems-up-to-1-or-5",
+      "title": "Money Problems up to $1 or $5"
+    },
+    {
+      "slug": "money-word-problems-up-to-5",
+      "title": "Money Word Problems (Up to $5)"
+    },
+    {
+      "slug": "number-line-to-1000",
+      "title": "Number Line to 1000"
+    },
+    {
+      "slug": "numbers-0-1000-place-value-hundreds",
+      "title": "Numbers 0–1000; Place Value (Hundreds)"
+    },
+    {
+      "slug": "odd-even-patterns",
+      "title": "Odd/Even Patterns"
+    },
+    {
+      "slug": "picture-bar-graphs",
+      "title": "Picture & Bar Graphs"
+    },
+    {
+      "slug": "picture-bar-graphs-word-problems-reasoning",
+      "title": "Picture & Bar Graphs; Word Problems + Reasoning"
+    },
+    {
+      "slug": "place-value-to-1000-hundreds-tens-ones",
+      "title": "Place Value to 1000 (Hundreds, Tens, Ones)"
+    },
+    {
+      "slug": "rounding-intro",
+      "title": "Rounding (Intro)"
+    },
+    {
+      "slug": "shapes-symmetry-polygons-solids",
+      "title": "Shapes & Symmetry; Polygons & Solids"
+    },
+    {
+      "slug": "skip-counting-by-2s-3s-4s-5s-10s",
+      "title": "Skip Counting by 2s, 3s, 4s, 5s, 10s"
+    },
+    {
+      "slug": "time-to-5-minutes",
+      "title": "Time to 5 Minutes"
+    }
+  ]
+}

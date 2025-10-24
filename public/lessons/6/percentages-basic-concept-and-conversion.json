@@ -1,0 +1,173 @@
+{
+  "grade": {
+    "id": "dddd346e-983d-4b4b-be44-f53dd207309e",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "848a936f-5760-4113-a04d-6be273ad0e03",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "bab029bd-1cc2-4259-8bfb-cc45b1522f2a",
+    "slug": "percentages-basic-concept-and-conversion",
+    "title": "Unlocking the Power of Percentages",
+    "summary": "Percentages (basic concept & conversion) — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child understand and calculate percentages, strengthening their ability to solve real-life math problems.\n\n**Why it matters:** Percentages are everywhere—from calculating discounts at the store to understanding data in news articles. Mastering them will empower your child in daily decision-making.\n\n**Parent Tip:** Relate percentages to things your child enjoys, like calculating scores in games or discounts on favorite items. This makes learning more relatable and fun!\n\n**Real-World Link:** Next time you're at the store, ask your child to help calculate the discount on an item. It's a great way to practice percentages in a real-world setting.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to our exciting journey into the world of percentages! This lesson will help you and your child understand how percentages work and where they appear in everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain what a percentage is: a way to express a number as a part of 100.\n2. Use a pie chart to show how percentages represent parts of a whole.\n3. Practice converting fractions to percentages using simple examples.\n4. Discuss how percentages can show increase or decrease in real-life scenarios.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is 20% of 50?**\n_Answer:_ 10\n_Hint:_ Use the formula: (20/100) × 50\n\n**2. Calculate the percentage: 15 out of 60**\n_Answer:_ 25%\n_Hint:_ Use (15/60) × 100\n\n**3. If a shirt originally costs $40 and is on sale for 25% off, what is the sale price?**\n_Answer:_ $30\n_Hint:_ Find 25% of 40 and subtract from 40\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing parts with whole when setting up the percentage formula.\n- Forgetting to multiply by 100 to convert a fraction to a percentage.\n- Mixing up percentage increase with percentage decrease.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Next time you're at the store, ask your child to help calculate the discount on an item. It's a great way to practice percentages in a real-world setting.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand percentages as a way to describe parts of a whole and how to convert between percentages, decimals, and fractions.",
+    "overview": "**Objective:** To help your child understand and calculate percentages, strengthening their ability to solve real-life math problems.\n\n**Why it matters:** Percentages are everywhere—from calculating discounts at the store to understanding data in news articles. Mastering them will empower your child in daily decision-making.\n\n**Parent Tip:** Relate percentages to things your child enjoys, like calculating scores in games or discounts on favorite items. This makes learning more relatable and fun!\n\n**Real-World Link:** Next time you're at the store, ask your child to help calculate the discount on an item. It's a great way to practice percentages in a real-world setting.",
+    "core": "Welcome to our exciting journey into the world of percentages! This lesson will help you and your child understand how percentages work and where they appear in everyday life.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that when you hear '50% off,' it means you are paying half the price? Let's explore how percentages work behind the scenes!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain what a percentage is: a way to express a number as a part of 100.\n2. Use a pie chart to show how percentages represent parts of a whole.\n3. Practice converting fractions to percentages using simple examples.\n4. Discuss how percentages can show increase or decrease in real-life scenarios.",
+    "practice": "**1. What is 20% of 50?**\n_Answer:_ 10\n_Hint:_ Use the formula: (20/100) × 50\n\n**2. Calculate the percentage: 15 out of 60**\n_Answer:_ 25%\n_Hint:_ Use (15/60) × 100\n\n**3. If a shirt originally costs $40 and is on sale for 25% off, what is the sale price?**\n_Answer:_ $30\n_Hint:_ Find 25% of 40 and subtract from 40\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing parts with whole when setting up the percentage formula.\n- Forgetting to multiply by 100 to convert a fraction to a percentage.\n- Mixing up percentage increase with percentage decrease.",
+    "connection": "Next time you're at the store, ask your child to help calculate the discount on an item. It's a great way to practice percentages in a real-world setting.",
+    "close": "**Key Takeaways**\n- Percentages represent parts out of 100.\n- They are a useful tool for comparing quantities.\n- Converting between percentages, decimals, and fractions can help in various real-world situations.\n\n**Parent Reflection Questions**\n- How can I help my child practice percentages in everyday life?\n- What are some fun activities that involve percentages?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Unlocking the Power of Percentages",
+    "introduction": "Welcome! Today, we're diving into percentages—an essential math concept that pops up everywhere in daily life. Let's make understanding them a fun and rewarding experience for you and your child!",
+    "objective": "Help your child grasp the concept of percentages and how to apply them in everyday situations.",
+    "why_matters": "Percentages are used in shopping discounts, calculating tips, understanding statistics, and more. Mastering them now sets a strong foundation for future math success.",
+    "parent_tip": "Relate percentages to things your child is interested in, like sports statistics or video game scores, to make learning more engaging.",
+    "real_world_link": "Next time you're shopping, ask your child to help calculate the discount on a sale item. It's a practical way to apply what they've learned!",
+    "formula_box": {
+      "formula": "Percentage = (Part / Whole) x 100",
+      "symbols": [
+        {
+          "symbol": "Part",
+          "meaning": "The portion or piece of the total you're focusing on"
+        },
+        {
+          "symbol": "Whole",
+          "meaning": "The total or entire quantity"
+        },
+        {
+          "symbol": "x 100",
+          "meaning": "Converts the fraction to a percentage"
+        }
+      ],
+      "how_it_works": "This formula helps convert a fraction into a percentage by comparing a part to the whole and scaling it up to 100.",
+      "example": "If 20 out of 50 students like ice cream, the percentage is (20/50) x 100 = 40%."
+    },
+    "teaching_steps": [
+      "Introduce percentages by discussing familiar examples, like test scores.",
+      "Explain the formula for calculating percentages.",
+      "Work through a simple example together.",
+      "Practice with real-life scenarios, like shopping discounts.",
+      "Encourage your child to explain what they've learned back to you."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about percentages.",
+        "do": "Show your child a report card or a test score.",
+        "ask": "How much of 100% did you achieve?",
+        "reinforce": "Percentages help us understand parts of a whole."
+      },
+      {
+        "say": "Here's a simple formula to remember.",
+        "do": "Write down the formula: (Part/Whole) x 100.",
+        "ask": "What do you think 'Part' and 'Whole' mean?",
+        "reinforce": "The 'Part' is what you're focusing on, and the 'Whole' is everything."
+      },
+      {
+        "say": "Let's try an example together.",
+        "do": "Use 20 out of 50 as an example.",
+        "ask": "What's the percentage of students who like ice cream?",
+        "reinforce": "Great! It's 40% because (20/50) x 100 = 40%."
+      },
+      {
+        "say": "Now, let's apply this to shopping.",
+        "do": "Pick an item and calculate the discount together.",
+        "ask": "How much money do we save with a 20% discount?",
+        "reinforce": "You're using percentages to save money!"
+      },
+      {
+        "say": "Can you teach me what you learned?",
+        "do": "Encourage your child to explain the process.",
+        "ask": "What steps do you take to find a percentage?",
+        "reinforce": "Teaching someone else helps reinforce your understanding!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Calculate the percentage: 15 out of 60 students passed the test.",
+        "hint": "Use the formula: (Part/Whole) x 100.",
+        "answer": "25%"
+      },
+      {
+        "prompt": "A shirt costs $50 with a 10% discount. How much is the discount?",
+        "hint": "First calculate 10% of $50.",
+        "answer": "$5"
+      },
+      {
+        "prompt": "If 45 out of 90 apples are red, what percentage of apples are red?",
+        "hint": "Apply the formula: (Part/Whole) x 100.",
+        "answer": "50%"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Percentages help us understand parts of a whole.",
+      "The formula (Part/Whole) x 100 converts fractions to percentages.",
+      "Practice calculating percentages in everyday situations."
+    ],
+    "common_mistakes": [
+      "Confusing 'Part' with 'Whole' in the formula.",
+      "Forgetting to multiply by 100 to get a percentage.",
+      "Misplacing the decimal point in calculations."
+    ],
+    "deep_dive": {
+      "history": "The concept of percentages dates back to ancient times, used for taxes and trade.",
+      "connections": "Percentages are closely linked to fractions and decimals.",
+      "misconceptions": "Percentages over 100% are possible and often misunderstood.",
+      "teaching_tips": "Use visual aids, like pie charts, to make percentages more tangible.",
+      "derivation": "The formula (Part/Whole) x 100 derives from the need to express ratios as a part of 100."
+    },
+    "motivation": "Understanding percentages empowers your child to make informed decisions in everyday life, from shopping to analyzing data."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today, we're diving into percentages—an essential math concept that pops up everywhere in daily life. Let's make understanding them a fun and rewarding experience for you and your child!\n\n## Parent Orientation\n**Objective:** Help your child grasp the concept of percentages and how to apply them in everyday situations.\n**Why it matters:** Percentages are used in shopping discounts, calculating tips, understanding statistics, and more. Mastering them now sets a strong foundation for future math success.\n**Parent Tip:** Relate percentages to things your child is interested in, like sports statistics or video game scores, to make learning more engaging.\n**Real-World Link:** Next time you're shopping, ask your child to help calculate the discount on a sale item. It's a practical way to apply what they've learned!\n\n> **📐 Formula Box**\n> **Formula:** Percentage = (Part / Whole) x 100\n> **Symbols:**\n> - **Part** — The portion or piece of the total you're focusing on\n> - **Whole** — The total or entire quantity\n> - **x 100** — Converts the fraction to a percentage\n> **How it works:** This formula helps convert a fraction into a percentage by comparing a part to the whole and scaling it up to 100.\n> **Example:** If 20 out of 50 students like ice cream, the percentage is (20/50) x 100 = 40%.\n\n## Teaching Steps\n1. Introduce percentages by discussing familiar examples, like test scores.\n2. Explain the formula for calculating percentages.\n3. Work through a simple example together.\n4. Practice with real-life scenarios, like shopping discounts.\n5. Encourage your child to explain what they've learned back to you.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about percentages.  \n**Show/Do:** Show your child a report card or a test score.  \n**Ask:** How much of 100% did you achieve?  \n**Reinforce:** Percentages help us understand parts of a whole.\n2. **Say:** Here's a simple formula to remember.  \n**Show/Do:** Write down the formula: (Part/Whole) x 100.  \n**Ask:** What do you think 'Part' and 'Whole' mean?  \n**Reinforce:** The 'Part' is what you're focusing on, and the 'Whole' is everything.\n3. **Say:** Let's try an example together.  \n**Show/Do:** Use 20 out of 50 as an example.  \n**Ask:** What's the percentage of students who like ice cream?  \n**Reinforce:** Great! It's 40% because (20/50) x 100 = 40%.\n4. **Say:** Now, let's apply this to shopping.  \n**Show/Do:** Pick an item and calculate the discount together.  \n**Ask:** How much money do we save with a 20% discount?  \n**Reinforce:** You're using percentages to save money!\n5. **Say:** Can you teach me what you learned?  \n**Show/Do:** Encourage your child to explain the process.  \n**Ask:** What steps do you take to find a percentage?  \n**Reinforce:** Teaching someone else helps reinforce your understanding!\n\n## Practice Questions (Do It Together)\n**1. Calculate the percentage: 15 out of 60 students passed the test.**\n<details><summary>Hint</summary>\nUse the formula: (Part/Whole) x 100.\n</details>\n<details><summary>Answer</summary>\n25%\n</details>\n\n**2. A shirt costs $50 with a 10% discount. How much is the discount?**\n<details><summary>Hint</summary>\nFirst calculate 10% of $50.\n</details>\n<details><summary>Answer</summary>\n$5\n</details>\n\n**3. If 45 out of 90 apples are red, what percentage of apples are red?**\n<details><summary>Hint</summary>\nApply the formula: (Part/Whole) x 100.\n</details>\n<details><summary>Answer</summary>\n50%\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Percentages help us understand parts of a whole.\n- The formula (Part/Whole) x 100 converts fractions to percentages.\n- Practice calculating percentages in everyday situations.\n\n**Common Mistakes**\n- Confusing 'Part' with 'Whole' in the formula.\n- Forgetting to multiply by 100 to get a percentage.\n- Misplacing the decimal point in calculations.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of percentages dates back to ancient times, used for taxes and trade.\n\n**Future topic connections**\n\nPercentages are closely linked to fractions and decimals.\n\n**Common misconceptions**\n\nPercentages over 100% are possible and often misunderstood.\n\n**Teaching tips for parents**\n\nUse visual aids, like pie charts, to make percentages more tangible.\n\n**More detail / derivation**\n\nThe formula (Part/Whole) x 100 derives from the need to express ratios as a part of 100.\n\n## Motivation\nUnderstanding percentages empowers your child to make informed decisions in everyday life, from shopping to analyzing data."
+}

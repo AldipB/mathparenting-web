@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "3691529f-bfe2-4a7a-a5c6-4ecabe0b6d1c",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "5b341bf6-1258-48f1-b7c2-d214ad68677a",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "58dbf0fc-fd05-461f-9f38-f8c15c1dca51",
+    "slug": "multiplication-up-to-4-digits",
+    "title": "Multiplication up to 4 Digits",
+    "summary": "Multiplication up to 4 digits — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to multiply numbers with up to four digits confidently and understand the process behind it.\n\n**Why it matters:** Understanding multiplication with larger numbers is essential as it lays the foundation for future math concepts and is often used in everyday situations, like calculating costs or planning events.\n\n**Parent Tip:** Encourage your child by breaking down large problems into smaller, more manageable steps. Celebrate their progress, no matter how small!\n\n**Real-World Link:** If you're planning a family trip, multiplying can help calculate the total cost of tickets or estimate travel time, making it a practical skill to have.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of multiplication with larger numbers! In this lesson, we'll explore multiplying numbers up to four digits. It's like putting together a puzzle, where each piece fits perfectly to reveal a larger picture.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with two smaller numbers to understand the basic concept.\n2. Introduce the idea of place value and how it affects multiplication.\n3. Demonstrate multiplying each digit separately, starting from the right.\n4. Add the results, ensuring correct alignment according to place value.\n5. Practice with a variety of numbers, gradually increasing the number of digits.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Multiply 1234 by 3.**\n_Answer:_ 3702\n_Hint:_ Start by multiplying each digit of 1234 by 3, beginning from the right.\n\n**2. Multiply 456 by 23.**\n_Answer:_ 10488\n_Hint:_ Break it down: first multiply 456 by 3, then by 20, and add the results.\n\n**3. Multiply 7890 by 12.**\n_Answer:_ 94680\n_Hint:_ Think of 12 as 10 + 2, and multiply 7890 by each separately.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misaligning numbers when adding results.\n- Forgetting to add a zero when multiplying by tens, hundreds, etc.\n- Confusing place values during multiplication.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "If you're planning a family trip, multiplying can help calculate the total cost of tickets or estimate travel time, making it a practical skill to have.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child become comfortable multiplying numbers up to four digits.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to multiply numbers with up to four digits confidently and understand the process behind it.\n\n**Why it matters:** Understanding multiplication with larger numbers is essential as it lays the foundation for future math concepts and is often used in everyday situations, like calculating costs or planning events.\n\n**Parent Tip:** Encourage your child by breaking down large problems into smaller, more manageable steps. Celebrate their progress, no matter how small!\n\n**Real-World Link:** If you're planning a family trip, multiplying can help calculate the total cost of tickets or estimate travel time, making it a practical skill to have.",
+    "core": "Welcome to the world of multiplication with larger numbers! In this lesson, we'll explore multiplying numbers up to four digits. It's like putting together a puzzle, where each piece fits perfectly to reveal a larger picture.",
+    "demo": "**Spark Curiosity:**\n\nDid you know multiplication is like a shortcut for adding the same number many times? Imagine stacking sandwiches or counting packs of pencils!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with two smaller numbers to understand the basic concept.\n2. Introduce the idea of place value and how it affects multiplication.\n3. Demonstrate multiplying each digit separately, starting from the right.\n4. Add the results, ensuring correct alignment according to place value.\n5. Practice with a variety of numbers, gradually increasing the number of digits.",
+    "practice": "**1. Multiply 1234 by 3.**\n_Answer:_ 3702\n_Hint:_ Start by multiplying each digit of 1234 by 3, beginning from the right.\n\n**2. Multiply 456 by 23.**\n_Answer:_ 10488\n_Hint:_ Break it down: first multiply 456 by 3, then by 20, and add the results.\n\n**3. Multiply 7890 by 12.**\n_Answer:_ 94680\n_Hint:_ Think of 12 as 10 + 2, and multiply 7890 by each separately.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Misaligning numbers when adding results.\n- Forgetting to add a zero when multiplying by tens, hundreds, etc.\n- Confusing place values during multiplication.",
+    "connection": "If you're planning a family trip, multiplying can help calculate the total cost of tickets or estimate travel time, making it a practical skill to have.",
+    "close": "**Key Takeaways**\n- Multiplication simplifies the process of adding the same number repeatedly.\n- Real-world examples help make multiplication relatable and understandable.\n- Practice makes perfect; use everyday scenarios to reinforce these concepts.\n\n**Parent Reflection Questions**\n- What strategies did we use to solve these problems?\n- How can we apply multiplication to other areas of life?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Multiplication up to 4 Digits",
+    "introduction": "Welcome to the world of larger numbers! Today, we're diving into multiplying numbers that can have up to four digits. This is an exciting step forward in your child's math journey.",
+    "objective": "Help your child become comfortable and confident in multiplying numbers up to four digits.",
+    "why_matters": "Mastering multiplication with larger numbers is essential for everyday tasks, like budgeting and planning, and sets a strong foundation for future math success.",
+    "parent_tip": "Break down the problem into smaller, manageable parts. Encourage your child to practice regularly and praise their efforts.",
+    "real_world_link": "Think about grocery shopping. Calculating the total cost of multiple items quickly in your head is a practical application of multiplication!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Review basic multiplication facts.",
+      "Introduce the concept of place value in larger numbers.",
+      "Demonstrate how to multiply using the standard algorithm.",
+      "Practice multiplying with step-by-step guidance.",
+      "Solve real-world problems involving larger numbers."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by reviewing what we know about multiplication.",
+        "do": "Write down a simple multiplication problem, like 3 x 4.",
+        "ask": "Do you remember how we solve this?",
+        "reinforce": "Great! Remember, multiplication is like repeated addition."
+      },
+      {
+        "say": "Now, let's look at a bigger problem.",
+        "do": "Write down a problem like 123 x 4.",
+        "ask": "How do you think we can solve this?",
+        "reinforce": "We can break it down by multiplying each digit separately."
+      },
+      {
+        "say": "Let's multiply 123 by 4 using the standard algorithm.",
+        "do": "Show the step-by-step process, starting with the ones place.",
+        "ask": "What do we do after multiplying the ones place?",
+        "reinforce": "Exactly! Move to the tens place and keep going."
+      },
+      {
+        "say": "Don't forget to add up all the partial products.",
+        "do": "Add the results from each step together.",
+        "ask": "What's our final answer?",
+        "reinforce": "You've got it! Practice makes perfect."
+      },
+      {
+        "say": "Let's try a real-world example.",
+        "do": "Create a scenario, like buying 123 apples at 4 cents each.",
+        "ask": "How much would all the apples cost?",
+        "reinforce": "Good job! See how math helps in real life?"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Calculate 234 x 3.",
+        "hint": "Multiply each digit by 3, starting from the right.",
+        "answer": "702"
+      },
+      {
+        "prompt": "Find the product of 4567 x 2.",
+        "hint": "Use the standard algorithm to multiply each digit.",
+        "answer": "9134"
+      },
+      {
+        "prompt": "Solve for 789 x 5.",
+        "hint": "Break it down into smaller steps and multiply.",
+        "answer": "3945"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Multiplying larger numbers is just like smaller ones, but with more steps.",
+      "Break problems down and tackle one part at a time.",
+      "Practice regularly to build confidence and speed."
+    ],
+    "common_mistakes": [
+      "Forgetting to carry over numbers to the next column.",
+      "Not aligning numbers correctly under each place value.",
+      "Skipping steps in the standard algorithm."
+    ],
+    "deep_dive": {
+      "history": "Multiplication has been used for centuries, with ancient Egyptians using it for trade and construction.",
+      "connections": "Understanding multiplication is crucial for learning division and fractions.",
+      "misconceptions": "Some students think multiplication always increases a number, but that's not true for numbers less than one.",
+      "teaching_tips": "Use visual aids like grid paper to help align numbers correctly.",
+      "derivation": "The standard algorithm is derived from the distributive property of multiplication."
+    },
+    "motivation": "Every time your child multiplies, they're building skills that will help them in school and life. Celebrate their progress!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of larger numbers! Today, we're diving into multiplying numbers that can have up to four digits. This is an exciting step forward in your child's math journey.\n\n## Parent Orientation\n**Objective:** Help your child become comfortable and confident in multiplying numbers up to four digits.\n**Why it matters:** Mastering multiplication with larger numbers is essential for everyday tasks, like budgeting and planning, and sets a strong foundation for future math success.\n**Parent Tip:** Break down the problem into smaller, manageable parts. Encourage your child to practice regularly and praise their efforts.\n**Real-World Link:** Think about grocery shopping. Calculating the total cost of multiple items quickly in your head is a practical application of multiplication!\n\n## Teaching Steps\n1. Review basic multiplication facts.\n2. Introduce the concept of place value in larger numbers.\n3. Demonstrate how to multiply using the standard algorithm.\n4. Practice multiplying with step-by-step guidance.\n5. Solve real-world problems involving larger numbers.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by reviewing what we know about multiplication.  \n**Show/Do:** Write down a simple multiplication problem, like 3 x 4.  \n**Ask:** Do you remember how we solve this?  \n**Reinforce:** Great! Remember, multiplication is like repeated addition.\n2. **Say:** Now, let's look at a bigger problem.  \n**Show/Do:** Write down a problem like 123 x 4.  \n**Ask:** How do you think we can solve this?  \n**Reinforce:** We can break it down by multiplying each digit separately.\n3. **Say:** Let's multiply 123 by 4 using the standard algorithm.  \n**Show/Do:** Show the step-by-step process, starting with the ones place.  \n**Ask:** What do we do after multiplying the ones place?  \n**Reinforce:** Exactly! Move to the tens place and keep going.\n4. **Say:** Don't forget to add up all the partial products.  \n**Show/Do:** Add the results from each step together.  \n**Ask:** What's our final answer?  \n**Reinforce:** You've got it! Practice makes perfect.\n5. **Say:** Let's try a real-world example.  \n**Show/Do:** Create a scenario, like buying 123 apples at 4 cents each.  \n**Ask:** How much would all the apples cost?  \n**Reinforce:** Good job! See how math helps in real life?\n\n## Practice Questions (Do It Together)\n**1. Calculate 234 x 3.**\n<details><summary>Hint</summary>\nMultiply each digit by 3, starting from the right.\n</details>\n<details><summary>Answer</summary>\n702\n</details>\n\n**2. Find the product of 4567 x 2.**\n<details><summary>Hint</summary>\nUse the standard algorithm to multiply each digit.\n</details>\n<details><summary>Answer</summary>\n9134\n</details>\n\n**3. Solve for 789 x 5.**\n<details><summary>Hint</summary>\nBreak it down into smaller steps and multiply.\n</details>\n<details><summary>Answer</summary>\n3945\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Multiplying larger numbers is just like smaller ones, but with more steps.\n- Break problems down and tackle one part at a time.\n- Practice regularly to build confidence and speed.\n\n**Common Mistakes**\n- Forgetting to carry over numbers to the next column.\n- Not aligning numbers correctly under each place value.\n- Skipping steps in the standard algorithm.\n\n## 🔍 Deep Dive\n**History or origin**\n\nMultiplication has been used for centuries, with ancient Egyptians using it for trade and construction.\n\n**Future topic connections**\n\nUnderstanding multiplication is crucial for learning division and fractions.\n\n**Common misconceptions**\n\nSome students think multiplication always increases a number, but that's not true for numbers less than one.\n\n**Teaching tips for parents**\n\nUse visual aids like grid paper to help align numbers correctly.\n\n**More detail / derivation**\n\nThe standard algorithm is derived from the distributive property of multiplication.\n\n## Motivation\nEvery time your child multiplies, they're building skills that will help them in school and life. Celebrate their progress!"
+}

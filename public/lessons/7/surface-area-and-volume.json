@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "0c453ce9-ca6e-44c4-b7e7-fe9291180ebd",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "66abce7c-2947-4472-bb46-1b396f42f4c9",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "36adddb8-811c-4549-a19a-67456d9d33f4",
+    "slug": "surface-area-and-volume",
+    "title": "Understanding Surface Area and Volume",
+    "summary": "Surface area & volume — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp how to calculate the surface area and volume of basic 3D shapes like cubes and rectangular prisms.\n\n**Why it matters:** These concepts are crucial in fields like engineering, architecture, and even packing for a trip. They help us understand the space an object occupies and its outer layer.\n\n**Parent Tip:** Relate these concepts to everyday tasks like wrapping presents or filling a box with items to make them more relatable.\n\n**Real-World Link:** Think about a cereal box. Its surface area determines how much cardboard is needed, while its volume tells us how much cereal it can hold.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're diving into the world of 3D shapes with your child. Understanding surface area and volume is like wrapping a gift and knowing how much it can hold.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying the dimensions: length, width, and height.\n2. Use the formulas to calculate surface area and volume.\n3. Discuss with your child why each part of the formula is necessary.\n4. Practice with everyday objects like boxes or cans.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Calculate the surface area and volume of a box with dimensions 5 cm x 3 cm x 2 cm.**\n_Answer:_ Surface Area = 62 cm², Volume = 30 cm³.\n_Hint:_ Use the formulas: Surface Area = 2lw + 2lh + 2wh; Volume = lwh.\n\n**2. Find the volume of a cube with a side length of 4 cm.**\n_Answer:_ Volume = 64 cm³.\n_Hint:_ Remember, all sides of a cube are equal.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing surface area with volume.\n- Forgetting to multiply by 2 for surface area calculations.\n- Mixing up dimensions in the formula.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a cereal box. Its surface area determines how much cardboard is needed, while its volume tells us how much cereal it can hold.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and calculate the surface area and volume of various 3D shapes.",
+    "overview": "**Objective:** Help your child grasp how to calculate the surface area and volume of basic 3D shapes like cubes and rectangular prisms.\n\n**Why it matters:** These concepts are crucial in fields like engineering, architecture, and even packing for a trip. They help us understand the space an object occupies and its outer layer.\n\n**Parent Tip:** Relate these concepts to everyday tasks like wrapping presents or filling a box with items to make them more relatable.\n\n**Real-World Link:** Think about a cereal box. Its surface area determines how much cardboard is needed, while its volume tells us how much cereal it can hold.",
+    "core": "Welcome! Today, we're diving into the world of 3D shapes with your child. Understanding surface area and volume is like wrapping a gift and knowing how much it can hold.",
+    "demo": "**Spark Curiosity:**\n\nImagine filling a swimming pool with water. How do we know how much water it can hold? That's volume! And what about the tiles needed to cover its surface? That's surface area!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** Surface Area of a Rectangular Prism = 2lw + 2lh + 2wh; Volume = lwh\n- **Meaning:** l, w, and h represent the length, width, and height of the prism.\n- **How it works:** For surface area, calculate the area of each face and add them up. For volume, multiply the length, width, and height.\n- **Example:** A box with dimensions 2m x 3m x 4m has a surface area of 52m² and a volume of 24m³.",
+    "formulas": "Surface Area of a Rectangular Prism = 2lw + 2lh + 2wh; Volume = lwh",
+    "guide": "1. Start by identifying the dimensions: length, width, and height.\n2. Use the formulas to calculate surface area and volume.\n3. Discuss with your child why each part of the formula is necessary.\n4. Practice with everyday objects like boxes or cans.",
+    "practice": "**1. Calculate the surface area and volume of a box with dimensions 5 cm x 3 cm x 2 cm.**\n_Answer:_ Surface Area = 62 cm², Volume = 30 cm³.\n_Hint:_ Use the formulas: Surface Area = 2lw + 2lh + 2wh; Volume = lwh.\n\n**2. Find the volume of a cube with a side length of 4 cm.**\n_Answer:_ Volume = 64 cm³.\n_Hint:_ Remember, all sides of a cube are equal.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing surface area with volume.\n- Forgetting to multiply by 2 for surface area calculations.\n- Mixing up dimensions in the formula.",
+    "connection": "Think about a cereal box. Its surface area determines how much cardboard is needed, while its volume tells us how much cereal it can hold.",
+    "close": "**Key Takeaways**\n- Surface area helps us understand the exterior of 3D objects.\n- Volume measures the space an object occupies.\n- Different shapes have different formulas, but the concepts remain consistent.\n\n**Parent Reflection Questions**\n- How can you use these concepts next time you’re at the store?\n- What household items can you measure to practice more?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Surface Area and Volume",
+    "introduction": "Welcome to the fascinating world of 3D shapes! Today, we'll explore how to measure their surface area and volume. These concepts help us understand the space these objects occupy and the area they cover.",
+    "objective": "Help your child learn how to calculate the surface area and volume of simple 3D shapes like cubes and rectangular prisms.",
+    "why_matters": "Understanding these concepts is essential for solving real-world problems, from packing gifts to designing buildings. They teach logical thinking and spatial awareness!",
+    "parent_tip": "Encourage your child to visualize the shapes and relate them to everyday objects. This will make the abstract concepts more tangible and easier to grasp.",
+    "real_world_link": "Think about a cereal box. Knowing its surface area helps in determining how much cardboard is needed to make it, while understanding its volume tells us how much cereal it can hold.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with familiarizing your child with 3D shapes like cubes and rectangular prisms.",
+      "Discuss the difference between surface area (covering the outside) and volume (filling the inside).",
+      "Use a cereal box to demonstrate how surface area is the sum of all the outer faces.",
+      "Show how volume is calculated by multiplying length, width, and height.",
+      "Practice with real objects around the house to strengthen understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by identifying some 3D shapes we see every day, like this cereal box.",
+        "do": "Show a cereal box.",
+        "ask": "Can you name other 3D shapes we see around us?",
+        "reinforce": "Great! Recognizing these shapes helps us relate math to real life."
+      },
+      {
+        "say": "Now, let's talk about surface area. It's like wrapping a gift.",
+        "do": "Pretend to wrap the cereal box.",
+        "ask": "How many sides do you think we need to cover?",
+        "reinforce": "Exactly, it's about covering all the sides."
+      },
+      {
+        "say": "Volume is about how much we can fill inside this box.",
+        "do": "Open the box and pretend to fill it with cereal.",
+        "ask": "What do you think determines how much we can fit inside?",
+        "reinforce": "Right, it's the size of the box inside that counts!"
+      },
+      {
+        "say": "Let's measure the box to find its volume.",
+        "do": "Measure the length, width, and height of the box.",
+        "ask": "Can you multiply these numbers to find the volume?",
+        "reinforce": "Well done! That's how we find out how much it can hold."
+      },
+      {
+        "say": "Practice helps us get better. Let's try finding the surface area next.",
+        "do": "Guide your child to calculate each face's area and add them.",
+        "ask": "What did you find out?",
+        "reinforce": "Great job! Now you know how much material is needed to cover it."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "A cube has sides of 3 cm. What is its volume?",
+        "hint": "Remember: Volume = side × side × side.",
+        "answer": "27 cubic cm"
+      },
+      {
+        "prompt": "A rectangular prism has dimensions 2 cm × 3 cm × 4 cm. Find its surface area.",
+        "hint": "Calculate the area of each pair of opposite faces and add them.",
+        "answer": "52 square cm"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Surface area is the total area covering a 3D shape.",
+      "Volume measures how much space a 3D shape occupies.",
+      "Real-world objects help us understand these concepts better."
+    ],
+    "common_mistakes": [
+      "Confusing surface area with volume.",
+      "Forgetting to calculate all faces for surface area.",
+      "Mixing up units for volume and surface area."
+    ],
+    "deep_dive": {
+      "history": "The study of geometry dates back to ancient civilizations, where it was used in architecture and astronomy.",
+      "connections": "Surface area and volume are fundamental in physics, engineering, and art.",
+      "misconceptions": "Some think larger surface area means larger volume, which isn't always true.",
+      "teaching_tips": "Use hands-on activities like building shapes with blocks to make learning interactive.",
+      "derivation": "Volume formulas are derived from multiplying the base area by the height, reflecting the shape's dimensions."
+    },
+    "motivation": "Imagine designing your dream house! Understanding surface area and volume helps you plan how much space you have and how to use it efficiently."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of 3D shapes! Today, we'll explore how to measure their surface area and volume. These concepts help us understand the space these objects occupy and the area they cover.\n\n## Parent Orientation\n**Objective:** Help your child learn how to calculate the surface area and volume of simple 3D shapes like cubes and rectangular prisms.\n**Why it matters:** Understanding these concepts is essential for solving real-world problems, from packing gifts to designing buildings. They teach logical thinking and spatial awareness!\n**Parent Tip:** Encourage your child to visualize the shapes and relate them to everyday objects. This will make the abstract concepts more tangible and easier to grasp.\n**Real-World Link:** Think about a cereal box. Knowing its surface area helps in determining how much cardboard is needed to make it, while understanding its volume tells us how much cereal it can hold.\n\n## Teaching Steps\n1. Start with familiarizing your child with 3D shapes like cubes and rectangular prisms.\n2. Discuss the difference between surface area (covering the outside) and volume (filling the inside).\n3. Use a cereal box to demonstrate how surface area is the sum of all the outer faces.\n4. Show how volume is calculated by multiplying length, width, and height.\n5. Practice with real objects around the house to strengthen understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by identifying some 3D shapes we see every day, like this cereal box.  \n**Show/Do:** Show a cereal box.  \n**Ask:** Can you name other 3D shapes we see around us?  \n**Reinforce:** Great! Recognizing these shapes helps us relate math to real life.\n2. **Say:** Now, let's talk about surface area. It's like wrapping a gift.  \n**Show/Do:** Pretend to wrap the cereal box.  \n**Ask:** How many sides do you think we need to cover?  \n**Reinforce:** Exactly, it's about covering all the sides.\n3. **Say:** Volume is about how much we can fill inside this box.  \n**Show/Do:** Open the box and pretend to fill it with cereal.  \n**Ask:** What do you think determines how much we can fit inside?  \n**Reinforce:** Right, it's the size of the box inside that counts!\n4. **Say:** Let's measure the box to find its volume.  \n**Show/Do:** Measure the length, width, and height of the box.  \n**Ask:** Can you multiply these numbers to find the volume?  \n**Reinforce:** Well done! That's how we find out how much it can hold.\n5. **Say:** Practice helps us get better. Let's try finding the surface area next.  \n**Show/Do:** Guide your child to calculate each face's area and add them.  \n**Ask:** What did you find out?  \n**Reinforce:** Great job! Now you know how much material is needed to cover it.\n\n## Practice Questions (Do It Together)\n**1. A cube has sides of 3 cm. What is its volume?**\n<details><summary>Hint</summary>\nRemember: Volume = side × side × side.\n</details>\n<details><summary>Answer</summary>\n27 cubic cm\n</details>\n\n**2. A rectangular prism has dimensions 2 cm × 3 cm × 4 cm. Find its surface area.**\n<details><summary>Hint</summary>\nCalculate the area of each pair of opposite faces and add them.\n</details>\n<details><summary>Answer</summary>\n52 square cm\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Surface area is the total area covering a 3D shape.\n- Volume measures how much space a 3D shape occupies.\n- Real-world objects help us understand these concepts better.\n\n**Common Mistakes**\n- Confusing surface area with volume.\n- Forgetting to calculate all faces for surface area.\n- Mixing up units for volume and surface area.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe study of geometry dates back to ancient civilizations, where it was used in architecture and astronomy.\n\n**Future topic connections**\n\nSurface area and volume are fundamental in physics, engineering, and art.\n\n**Common misconceptions**\n\nSome think larger surface area means larger volume, which isn't always true.\n\n**Teaching tips for parents**\n\nUse hands-on activities like building shapes with blocks to make learning interactive.\n\n**More detail / derivation**\n\nVolume formulas are derived from multiplying the base area by the height, reflecting the shape's dimensions.\n\n## Motivation\nImagine designing your dream house! Understanding surface area and volume helps you plan how much space you have and how to use it efficiently."
+}

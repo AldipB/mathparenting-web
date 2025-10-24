@@ -1,31 +1,156 @@
 {
   "grade": {
-    "id": "8bfae1fe-a18b-448f-88bf-bdf2b8e6f303",
+    "id": "2905c253-c9a6-454d-8203-67aafd07e1e7",
     "slug": "7",
     "name": "Grade 7"
   },
   "unit": {
-    "id": "1bac0a0c-5033-4481-ac86-8b0580fe4bbb",
-    "title": "Complete Chapter Index",
-    "order_index": 99
+    "id": "8068a4e9-20fe-4141-bc6b-67ff64003973",
+    "title": "Core Skills",
+    "order_index": 1
   },
   "lesson": {
-    "id": "a0772498-c583-4d1a-978a-f44f92064503",
+    "id": "3aae0bc6-3dce-43e8-85d7-37686513dc69",
     "slug": "integer-operations",
-    "title": "Integer Operations (±×÷)",
-    "summary": "Integer Operations (±×÷) — parent overview.",
+    "title": "Integer Operations: Adding, Subtracting, Multiplying, and Dividing",
+    "summary": "Integer operations (+ – × ÷) — parent overview for Grade 7.",
     "difficulty_level": "core",
-    "order_index": 2
+    "order_index": 1
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- ",
-      "order_index": 1
+      "key": "overview",
+      "md": "**Objective:** Help your child master the operations of adding, subtracting, multiplying, and dividing integers.\n\n**Why it matters:** Integer operations are the building blocks for algebra and real-world problem solving, like managing finances or understanding temperature changes.\n\n**Parent Tip:** Encourage your child to use a number line for visualizing operations, especially addition and subtraction.\n\n**Real-World Link:** Think of integers as temperatures: a positive number for warm days and a negative for cold. Combining them is like tracking temperature changes over time.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of integers! These are whole numbers that can be positive, negative, or zero. Understanding how to work with them is crucial for your child's math success.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with addition: Use a number line. Adding a positive integer moves right; adding a negative moves left.\n2. For subtraction, remember: subtracting a negative is like adding a positive.\n3. Multiplying and dividing integers: Two positives or two negatives make a positive. A positive and a negative make a negative.\n4. Practice with real-life examples, like money transactions or temperature changes.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Add: -3 + 7**\n_Answer:_ 4\n_Hint:_ Think of -3 as a 3-degree drop and 7 as a 7-degree rise.\n\n**2. Subtract: 5 - (-2)**\n_Answer:_ 7\n_Hint:_ Subtracting a negative is like adding a positive.\n\n**3. Multiply: -4 x 6**\n_Answer:_ -24\n_Hint:_ A negative times a positive gives a negative result.\n\n**4. Divide: -15 ÷ 3**\n_Answer:_ -5\n_Hint:_ A negative divided by a positive results in a negative.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing subtraction of negatives with regular subtraction.\n- Forgetting that two negatives make a positive in multiplication/division.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of integers as temperatures: a positive number for warm days and a negative for cold. Combining them is like tracking temperature changes over time.",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "**By the end of this lesson, your child will be able to…**\n- \n- \n\n**Why this matters for parents:**\n- "
+    "objectives": "**Objective:** Help your child master integer operations: addition, subtraction, multiplication, and division.",
+    "overview": "**Objective:** Help your child master the operations of adding, subtracting, multiplying, and dividing integers.\n\n**Why it matters:** Integer operations are the building blocks for algebra and real-world problem solving, like managing finances or understanding temperature changes.\n\n**Parent Tip:** Encourage your child to use a number line for visualizing operations, especially addition and subtraction.\n\n**Real-World Link:** Think of integers as temperatures: a positive number for warm days and a negative for cold. Combining them is like tracking temperature changes over time.",
+    "core": "Welcome to the world of integers! These are whole numbers that can be positive, negative, or zero. Understanding how to work with them is crucial for your child's math success.",
+    "demo": "**Spark Curiosity:**\n\nEver wondered how a temperature drop is similar to subtracting integers? Let's explore how these numbers work together!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with addition: Use a number line. Adding a positive integer moves right; adding a negative moves left.\n2. For subtraction, remember: subtracting a negative is like adding a positive.\n3. Multiplying and dividing integers: Two positives or two negatives make a positive. A positive and a negative make a negative.\n4. Practice with real-life examples, like money transactions or temperature changes.",
+    "practice": "**1. Add: -3 + 7**\n_Answer:_ 4\n_Hint:_ Think of -3 as a 3-degree drop and 7 as a 7-degree rise.\n\n**2. Subtract: 5 - (-2)**\n_Answer:_ 7\n_Hint:_ Subtracting a negative is like adding a positive.\n\n**3. Multiply: -4 x 6**\n_Answer:_ -24\n_Hint:_ A negative times a positive gives a negative result.\n\n**4. Divide: -15 ÷ 3**\n_Answer:_ -5\n_Hint:_ A negative divided by a positive results in a negative.",
+    "mistakes": "- Confusing subtraction of negatives with regular subtraction.\n- Forgetting that two negatives make a positive in multiplication/division.",
+    "connection": "Think of integers as temperatures: a positive number for warm days and a negative for cold. Combining them is like tracking temperature changes over time.",
+    "close": "**Key Takeaways**\n- Integer operations are essential for understanding changes in value.\n- Practicing with real-world scenarios helps solidify these concepts.\n- Using visual aids like number lines can make abstract ideas concrete.\n\n**Parent Reflection Questions**\n- How can I help my child visualize integer operations better?\n- What are some everyday activities that involve integer operations?"
   },
-  "practice": []
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Integer Operations: Adding, Subtracting, Multiplying, and Dividing",
+    "introduction": "Welcome to the world of integers! As your child explores these mathematical building blocks, they'll master how to add, subtract, multiply, and divide positive and negative numbers. Let's make this journey simple and enjoyable!",
+    "objective": "Help your child understand and confidently perform operations with integers.",
+    "why_matters": "Mastering integer operations is crucial for more advanced math concepts and everyday decision-making, like budgeting or understanding temperature changes.",
+    "parent_tip": "Use real-life examples like temperature changes or bank transactions to make integer operations relatable.",
+    "real_world_link": "Imagine it's -5 degrees outside, and the temperature drops by another 3 degrees. Understanding integer operations helps us calculate the new temperature easily!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with the basics of adding and subtracting integers.",
+      "Introduce the concept of multiplying integers and its rules.",
+      "Discuss dividing integers and how it connects to multiplication.",
+      "Use number lines to visually demonstrate addition and subtraction.",
+      "Practice with real-world scenarios for better understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with adding integers. If we have -3 and add 5, what happens?",
+        "do": "Draw a number line and show movement from -3 to +5.",
+        "ask": "How far did we move on the number line?",
+        "reinforce": "We moved 5 steps to the right, which gives us +2."
+      },
+      {
+        "say": "Now, let's subtract. What if we have 7 and subtract 10?",
+        "do": "Use the number line to move 10 steps left from 7.",
+        "ask": "Where did we end up on the number line?",
+        "reinforce": "We ended at -3, so 7 - 10 is -3."
+      },
+      {
+        "say": "Let's try multiplying. What is -4 times 3?",
+        "do": "Explain that multiplying a negative by a positive results in a negative.",
+        "ask": "What do you think the answer is?",
+        "reinforce": "-4 times 3 is -12."
+      },
+      {
+        "say": "Now, dividing integers. How about -15 divided by 3?",
+        "do": "Explain division as repeated subtraction.",
+        "ask": "What is the result?",
+        "reinforce": "The answer is -5, since -15 divided by 3 is -5."
+      },
+      {
+        "say": "Finally, let's mix them up. What is 6 + (-9)?",
+        "do": "Use the number line to show adding a negative.",
+        "ask": "Where do we land?",
+        "reinforce": "We land at -3, so 6 + (-9) is -3."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is -8 + 5?",
+        "hint": "Think of moving 5 steps to the right from -8.",
+        "answer": "-3"
+      },
+      {
+        "prompt": "Calculate 9 - (-4).",
+        "hint": "Subtracting a negative is like adding a positive.",
+        "answer": "13"
+      },
+      {
+        "prompt": "Find the result of -7 * 2.",
+        "hint": "A negative times a positive is negative.",
+        "answer": "-14"
+      },
+      {
+        "prompt": "What is 18 / -3?",
+        "hint": "A positive divided by a negative is negative.",
+        "answer": "-6"
+      }
+    ],
+    "recap": [
+      "Adding integers involves moving left or right on a number line.",
+      "Subtracting integers can be thought of as adding the opposite.",
+      "Multiplying or dividing a negative by a positive number results in a negative.",
+      "Practice with real-world examples to solidify understanding."
+    ],
+    "common_mistakes": [
+      "Confusing the rules for adding and subtracting negatives.",
+      "Forgetting that a negative times a positive is negative.",
+      "Mixing up division rules for positives and negatives."
+    ],
+    "deep_dive": {
+      "history": "Integers have been used since ancient times, with negative numbers appearing in 7th century India.",
+      "connections": "Integer operations are foundational for algebra, calculus, and computer science.",
+      "misconceptions": "A common misconception is that a negative times a negative is always negative, when it's actually positive.",
+      "teaching_tips": "Use visual aids like number lines and incorporate storytelling to keep it engaging.",
+      "derivation": "Understanding the rules of integer multiplication and division can be explored through patterns and repeated addition or subtraction."
+    },
+    "motivation": "Mastering integers is like learning a new language that helps unlock the world of mathematics and its real-life applications."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of integers! As your child explores these mathematical building blocks, they'll master how to add, subtract, multiply, and divide positive and negative numbers. Let's make this journey simple and enjoyable!\n\n## Parent Orientation\n**Objective:** Help your child understand and confidently perform operations with integers.\n**Why it matters:** Mastering integer operations is crucial for more advanced math concepts and everyday decision-making, like budgeting or understanding temperature changes.\n**Parent Tip:** Use real-life examples like temperature changes or bank transactions to make integer operations relatable.\n**Real-World Link:** Imagine it's -5 degrees outside, and the temperature drops by another 3 degrees. Understanding integer operations helps us calculate the new temperature easily!\n\n## Teaching Steps\n1. Start with the basics of adding and subtracting integers.\n2. Introduce the concept of multiplying integers and its rules.\n3. Discuss dividing integers and how it connects to multiplication.\n4. Use number lines to visually demonstrate addition and subtraction.\n5. Practice with real-world scenarios for better understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with adding integers. If we have -3 and add 5, what happens?  \n**Show/Do:** Draw a number line and show movement from -3 to +5.  \n**Ask:** How far did we move on the number line?  \n**Reinforce:** We moved 5 steps to the right, which gives us +2.\n2. **Say:** Now, let's subtract. What if we have 7 and subtract 10?  \n**Show/Do:** Use the number line to move 10 steps left from 7.  \n**Ask:** Where did we end up on the number line?  \n**Reinforce:** We ended at -3, so 7 - 10 is -3.\n3. **Say:** Let's try multiplying. What is -4 times 3?  \n**Show/Do:** Explain that multiplying a negative by a positive results in a negative.  \n**Ask:** What do you think the answer is?  \n**Reinforce:** -4 times 3 is -12.\n4. **Say:** Now, dividing integers. How about -15 divided by 3?  \n**Show/Do:** Explain division as repeated subtraction.  \n**Ask:** What is the result?  \n**Reinforce:** The answer is -5, since -15 divided by 3 is -5.\n5. **Say:** Finally, let's mix them up. What is 6 + (-9)?  \n**Show/Do:** Use the number line to show adding a negative.  \n**Ask:** Where do we land?  \n**Reinforce:** We land at -3, so 6 + (-9) is -3.\n\n## Practice Questions (Do It Together)\n**1. What is -8 + 5?**\n<details><summary>Hint</summary>\nThink of moving 5 steps to the right from -8.\n</details>\n<details><summary>Answer</summary>\n-3\n</details>\n\n**2. Calculate 9 - (-4).**\n<details><summary>Hint</summary>\nSubtracting a negative is like adding a positive.\n</details>\n<details><summary>Answer</summary>\n13\n</details>\n\n**3. Find the result of -7 * 2.**\n<details><summary>Hint</summary>\nA negative times a positive is negative.\n</details>\n<details><summary>Answer</summary>\n-14\n</details>\n\n**4. What is 18 / -3?**\n<details><summary>Hint</summary>\nA positive divided by a negative is negative.\n</details>\n<details><summary>Answer</summary>\n-6\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Adding integers involves moving left or right on a number line.\n- Subtracting integers can be thought of as adding the opposite.\n- Multiplying or dividing a negative by a positive number results in a negative.\n- Practice with real-world examples to solidify understanding.\n\n**Common Mistakes**\n- Confusing the rules for adding and subtracting negatives.\n- Forgetting that a negative times a positive is negative.\n- Mixing up division rules for positives and negatives.\n\n## 🔍 Deep Dive\n**History or origin**\n\nIntegers have been used since ancient times, with negative numbers appearing in 7th century India.\n\n**Future topic connections**\n\nInteger operations are foundational for algebra, calculus, and computer science.\n\n**Common misconceptions**\n\nA common misconception is that a negative times a negative is always negative, when it's actually positive.\n\n**Teaching tips for parents**\n\nUse visual aids like number lines and incorporate storytelling to keep it engaging.\n\n**More detail / derivation**\n\nUnderstanding the rules of integer multiplication and division can be explored through patterns and repeated addition or subtraction.\n\n## Motivation\nMastering integers is like learning a new language that helps unlock the world of mathematics and its real-life applications."
 }

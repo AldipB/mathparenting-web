@@ -1,0 +1,129 @@
+{
+  "grade": "5",
+  "lessons": [
+    {
+      "slug": "converting-fractions-decimals-percents",
+      "title": "Converting Fractions ↔ Decimals ↔ Percents"
+    },
+    {
+      "slug": "coordinate-graphing-1st-quadrant",
+      "title": "Coordinate Graphing (1st Quadrant)"
+    },
+    {
+      "slug": "coordinate-plane-1st-quadrant",
+      "title": "Coordinate Plane (1st Quadrant)"
+    },
+    {
+      "slug": "data-line-plots-averages-range",
+      "title": "Data: Line Plots, Averages, Range"
+    },
+    {
+      "slug": "decimal-operations-add-subtract-multiply-divide-by-10s",
+      "title": "Decimal Operations (Add/Subtract/Multiply/Divide by 10s)"
+    },
+    {
+      "slug": "decimals-add-subtract-multiply-1b2aec43-8a94-4e02-835c-67e463af0291",
+      "title": "Decimals: Add, Subtract, Multiply"
+    },
+    {
+      "slug": "decimals-add-subtract-multiply-447a2c3a-4ceb-44a8-a104-754e8a4bfa9e",
+      "title": "Decimals: Add/Subtract/Multiply"
+    },
+    {
+      "slug": "divide-unit-fractions-and-whole-numbers-concepts",
+      "title": "Divide Unit Fractions & Whole Numbers (Concepts)"
+    },
+    {
+      "slug": "divide-unit-fractions-whole-numbers-concepts",
+      "title": "Divide Unit Fractions & Whole Numbers (Concepts)"
+    },
+    {
+      "slug": "fraction-addition-subtraction-unlike-denominators",
+      "title": "Fraction Addition & Subtraction (Unlike Denominators)"
+    },
+    {
+      "slug": "fractions-decimals-percents",
+      "title": "Fractions ↔ Decimals ↔ Percents"
+    },
+    {
+      "slug": "fractions-add-subtract-multiply-whole-numbers",
+      "title": "Fractions: Add, Subtract, Multiply (× Whole Numbers)"
+    },
+    {
+      "slug": "geometry-triangles-quadrilaterals-properties",
+      "title": "Geometry: Triangles & Quadrilaterals Properties"
+    },
+    {
+      "slug": "intro-to-ratio-rate",
+      "title": "Intro to Ratio & Rate"
+    },
+    {
+      "slug": "line-plots-mean-median-mode-range-intro",
+      "title": "Line Plots; Mean/Median/Mode/Range (Intro)"
+    },
+    {
+      "slug": "multiply-fraction-fraction",
+      "title": "Multiply Fraction × Fraction"
+    },
+    {
+      "slug": "multiply-fractions-by-whole-numbers",
+      "title": "Multiply Fractions by Whole Numbers"
+    },
+    {
+      "slug": "order-of-operations-pemdas",
+      "title": "Order of Operations (PEMDAS)"
+    },
+    {
+      "slug": "order-of-operations-pemdas-bedmas",
+      "title": "Order of Operations (PEMDAS/BEDMAS)"
+    },
+    {
+      "slug": "order-of-operations-pemdasbedmas",
+      "title": "Order of Operations (PEMDAS/BEDMAS)"
+    },
+    {
+      "slug": "powers-of-10-and-exponents-intro",
+      "title": "Powers of 10 and Exponents (Intro)"
+    },
+    {
+      "slug": "powers-of-10-place-value-to-millions",
+      "title": "Powers of 10; Place Value to Millions"
+    },
+    {
+      "slug": "rates-ratios-intro",
+      "title": "Rates & Ratios (Intro)"
+    },
+    {
+      "slug": "simple-probability-predictions-2a131ddf-02d3-4632-8c9f-5a4c833c0731",
+      "title": "Simple Probability & Predictions"
+    },
+    {
+      "slug": "simple-probability-predictions-f221baea-edd9-429e-af2c-5a0b8b79cd6f",
+      "title": "Simple Probability & Predictions"
+    },
+    {
+      "slug": "simple-probability-predictions",
+      "title": "Simple Probability Predictions"
+    },
+    {
+      "slug": "triangles-quadrilaterals-properties",
+      "title": "Triangles & Quadrilaterals Properties"
+    },
+    {
+      "slug": "volume-and-surface-area-rectangular-prisms",
+      "title": "Volume & Surface Area (Rectangular Prisms)"
+    },
+    {
+      "slug": "volume-surface-area-rectangular-prisms",
+      "title": "Volume & Surface Area (Rectangular Prisms)"
+    },
+    {
+      "slug": "volume-of-rectangular-prisms-surface-area-intro",
+      "title": "Volume of Rectangular Prisms; Surface Area (intro)"
+    },
+    {
+      "slug": "whole-numbers-to-millions",
+      "title": "Whole Numbers to Millions"
+    }
+  ]
+}

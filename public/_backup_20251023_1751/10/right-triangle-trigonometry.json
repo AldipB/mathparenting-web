@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "6c1b66c3-a7af-4029-8e2b-ed2b7cb7dcb7",
+    "slug": "10",
+    "name": "Grade 10"
+  },
+  "unit": {
+    "id": "3ae19084-c8f0-41f4-a0aa-ac6c33dff051",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "dfb0420f-ccc1-4ad2-8280-54ea77462028",
+    "slug": "right-triangle-trigonometry",
+    "title": "Right Triangle Trigonometry",
+    "summary": "Right Triangle Trigonometry — summary for parents in Grade 10.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Right Triangle Trigonometry** in Grade 10.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Right Triangle Trigonometry** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Right Triangle Trigonometry** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Right Triangle Trigonometry** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Right Triangle Trigonometry** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Right Triangle Trigonometry**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Right Triangle Trigonometry**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Right Triangle Trigonometry**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Right Triangle Trigonometry** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Right Triangle Trigonometry**.",
+    "overview": "This lesson helps children understand **Right Triangle Trigonometry**.",
+    "core": "Explain **Right Triangle Trigonometry** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Right Triangle Trigonometry**."
+}

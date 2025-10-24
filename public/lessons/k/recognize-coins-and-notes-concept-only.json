@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "409eb579-a747-4fd7-ad81-1e5b28460f76",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "f592cd1f-ad06-4ec4-be02-317f543aa66d",
+    "title": "Measurement & Data",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d8a10637-2825-46a9-ba03-f9fadd6f090b",
+    "slug": "recognize-coins-and-notes-concept-only",
+    "title": "Recognize Coins & Notes: Kindergarten Edition",
+    "summary": "Recognize coins & notes (concept only) — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child identify and name common coins and notes, building a foundation for future financial literacy.\n\n**Why it matters:** Recognizing money is an essential life skill. It helps children understand the concept of value and prepares them for everyday transactions.\n\n**Parent Tip:** Use everyday opportunities like shopping to point out different coins and notes. Children learn best through real-world experiences!\n\n**Real-World Link:** The next time you're at a store, let your child hand the cash to the cashier. It's a small step but a giant leap in understanding money's role in our lives.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of money! Let's help your child recognize different coins and notes, making their first steps into understanding value and exchange.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with the basics: Introduce coins first. Show them a penny, nickel, dime, and quarter.\n2. Discuss size, color, and unique features: Explain how each coin looks different.\n3. Move to notes: Show them a $1, $5, and $10 bill. Explain the differences in color and size.\n4. Play a sorting game: Mix up coins and notes and have your child sort them into groups.\n5. Use pretend play: Set up a small 'store' at home where they can 'buy' items using coins and notes.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Which is the smallest coin in size? (use numbers like 6 and 9)**\n_Answer:_ Dime\n_Hint:_ It's worth 10 cents.\n\n**2. Can you find a coin that is brown? (use numbers like 6 and 9)**\n_Answer:_ Penny\n_Hint:_ It's worth 1 cent.\n\n**3. Which note has a picture of Abraham Lincoln? (use numbers like 6 and 9)**\n_Answer:_ $5 bill\n_Hint:_ It's not the smallest note.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the size of coins with their value.\n- Mixing up similar-looking notes like $1 and $10 bills.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "The next time you're at a store, let your child hand the cash to the cashier. It's a small step but a giant leap in understanding money's role in our lives.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and name different coins and notes.",
+    "overview": "**Objective:** To help your child identify and name common coins and notes, building a foundation for future financial literacy.\n\n**Why it matters:** Recognizing money is an essential life skill. It helps children understand the concept of value and prepares them for everyday transactions.\n\n**Parent Tip:** Use everyday opportunities like shopping to point out different coins and notes. Children learn best through real-world experiences!\n\n**Real-World Link:** The next time you're at a store, let your child hand the cash to the cashier. It's a small step but a giant leap in understanding money's role in our lives.",
+    "core": "Welcome to the world of money! Let's help your child recognize different coins and notes, making their first steps into understanding value and exchange.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'Have you ever wondered how we decide what we can buy with different coins and notes?' Let's explore this together!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with the basics: Introduce coins first. Show them a penny, nickel, dime, and quarter.\n2. Discuss size, color, and unique features: Explain how each coin looks different.\n3. Move to notes: Show them a $1, $5, and $10 bill. Explain the differences in color and size.\n4. Play a sorting game: Mix up coins and notes and have your child sort them into groups.\n5. Use pretend play: Set up a small 'store' at home where they can 'buy' items using coins and notes.",
+    "practice": "**1. Which is the smallest coin in size? (use numbers like 6 and 9)**\n_Answer:_ Dime\n_Hint:_ It's worth 10 cents.\n\n**2. Can you find a coin that is brown? (use numbers like 6 and 9)**\n_Answer:_ Penny\n_Hint:_ It's worth 1 cent.\n\n**3. Which note has a picture of Abraham Lincoln? (use numbers like 6 and 9)**\n_Answer:_ $5 bill\n_Hint:_ It's not the smallest note.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the size of coins with their value.\n- Mixing up similar-looking notes like $1 and $10 bills.",
+    "connection": "The next time you're at a store, let your child hand the cash to the cashier. It's a small step but a giant leap in understanding money's role in our lives.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Recognize coins & notes (concept only)** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- What strategies can you use to help your child remember the names of different coins?\n- How can you incorporate money recognition into daily activities?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Recognize Coins & Notes: Kindergarten Edition",
+    "introduction": "Welcome to the exciting world of money! Let's help your little one learn to recognize coins and notes, a foundational skill that will serve them for a lifetime.",
+    "objective": "By the end of this lesson, your child will be able to identify common coins and notes used in everyday transactions.",
+    "why_matters": "Understanding money helps children make sense of the world around them and introduces them to basic math concepts.",
+    "parent_tip": "Use real or play money to make learning tangible and fun. Encourage your child to handle and examine different coins and notes.",
+    "real_world_link": "Next time you're at the store, let your child hand over the money and receive change. It's a great way to practice recognizing coins and notes.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce each coin and note, starting with the most common ones.",
+      "Describe the size, color, and any unique features.",
+      "Use playful activities like sorting and matching.",
+      "Discuss the value of each coin and note in simple terms.",
+      "Encourage your child to compare different coins and notes."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at this coin. It's called a penny.",
+        "do": "Show your child a penny and let them hold it.",
+        "ask": "What color is the penny?",
+        "reinforce": "Great! Pennies are copper-colored."
+      },
+      {
+        "say": "This is a nickel. It's bigger than a penny.",
+        "do": "Hand your child a nickel.",
+        "ask": "Can you find something different about this nickel?",
+        "reinforce": "Yes, it's silver and has a different design."
+      },
+      {
+        "say": "Now, let's see a dollar bill.",
+        "do": "Give your child a one-dollar note.",
+        "ask": "What do you see on this note?",
+        "reinforce": "Nice observation! It has a picture of a person and numbers."
+      },
+      {
+        "say": "Let's play a matching game with these coins.",
+        "do": "Mix up a few coins and ask your child to match them to pictures of coins.",
+        "ask": "Can you match the coins to the pictures?",
+        "reinforce": "You got it! Matching helps us remember."
+      },
+      {
+        "say": "Let's count how many pennies make a nickel.",
+        "do": "Line up five pennies next to a nickel.",
+        "ask": "How many pennies do you see?",
+        "reinforce": "That's right, five pennies make a nickel."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "How many pennies equal one dime?",
+        "hint": "Remember, a dime is worth 10 cents.",
+        "answer": "10 pennies."
+      },
+      {
+        "prompt": "Which is worth more, a nickel or a quarter?",
+        "hint": "Think about which coin has a higher number.",
+        "answer": "A quarter."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Today, we learned to recognize pennies, nickels, and one-dollar notes.",
+      "We practiced identifying coins by color, size, and design.",
+      "We also learned simple comparisons of coin values."
+    ],
+    "common_mistakes": [
+      "Confusing the size of coins with their value.",
+      "Mixing up the colors of different coins."
+    ],
+    "deep_dive": {
+      "history": "Coins have been used for thousands of years, evolving from simple metal pieces to the detailed designs we see today.",
+      "connections": "Recognizing money connects to math skills like counting and sorting.",
+      "misconceptions": "Children often think bigger coins are more valuable, which isn't always true.",
+      "teaching_tips": "Use repetition and real-life opportunities to reinforce learning.",
+      "derivation": "The design and size of coins are determined by government minting practices."
+    },
+    "motivation": "Helping your child understand money is not just about math; it's about empowering them to feel confident in everyday activities."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the exciting world of money! Let's help your little one learn to recognize coins and notes, a foundational skill that will serve them for a lifetime.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to identify common coins and notes used in everyday transactions.\n**Why it matters:** Understanding money helps children make sense of the world around them and introduces them to basic math concepts.\n**Parent Tip:** Use real or play money to make learning tangible and fun. Encourage your child to handle and examine different coins and notes.\n**Real-World Link:** Next time you're at the store, let your child hand over the money and receive change. It's a great way to practice recognizing coins and notes.\n\n## Teaching Steps\n1. Introduce each coin and note, starting with the most common ones.\n2. Describe the size, color, and any unique features.\n3. Use playful activities like sorting and matching.\n4. Discuss the value of each coin and note in simple terms.\n5. Encourage your child to compare different coins and notes.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at this coin. It's called a penny.  \n**Show/Do:** Show your child a penny and let them hold it.  \n**Ask:** What color is the penny?  \n**Reinforce:** Great! Pennies are copper-colored.\n2. **Say:** This is a nickel. It's bigger than a penny.  \n**Show/Do:** Hand your child a nickel.  \n**Ask:** Can you find something different about this nickel?  \n**Reinforce:** Yes, it's silver and has a different design.\n3. **Say:** Now, let's see a dollar bill.  \n**Show/Do:** Give your child a one-dollar note.  \n**Ask:** What do you see on this note?  \n**Reinforce:** Nice observation! It has a picture of a person and numbers.\n4. **Say:** Let's play a matching game with these coins.  \n**Show/Do:** Mix up a few coins and ask your child to match them to pictures of coins.  \n**Ask:** Can you match the coins to the pictures?  \n**Reinforce:** You got it! Matching helps us remember.\n5. **Say:** Let's count how many pennies make a nickel.  \n**Show/Do:** Line up five pennies next to a nickel.  \n**Ask:** How many pennies do you see?  \n**Reinforce:** That's right, five pennies make a nickel.\n\n## Practice Questions (Do It Together)\n**1. How many pennies equal one dime?**\n<details><summary>Hint</summary>\nRemember, a dime is worth 10 cents.\n</details>\n<details><summary>Answer</summary>\n10 pennies.\n</details>\n\n**2. Which is worth more, a nickel or a quarter?**\n<details><summary>Hint</summary>\nThink about which coin has a higher number.\n</details>\n<details><summary>Answer</summary>\nA quarter.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Today, we learned to recognize pennies, nickels, and one-dollar notes.\n- We practiced identifying coins by color, size, and design.\n- We also learned simple comparisons of coin values.\n\n**Common Mistakes**\n- Confusing the size of coins with their value.\n- Mixing up the colors of different coins.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCoins have been used for thousands of years, evolving from simple metal pieces to the detailed designs we see today.\n\n**Future topic connections**\n\nRecognizing money connects to math skills like counting and sorting.\n\n**Common misconceptions**\n\nChildren often think bigger coins are more valuable, which isn't always true.\n\n**Teaching tips for parents**\n\nUse repetition and real-life opportunities to reinforce learning.\n\n**More detail / derivation**\n\nThe design and size of coins are determined by government minting practices.\n\n## Motivation\nHelping your child understand money is not just about math; it's about empowering them to feel confident in everyday activities."
+}

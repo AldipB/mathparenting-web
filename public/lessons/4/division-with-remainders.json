@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "45d1d4c9-adfc-4fe6-bdbc-5465d8ae1098",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "84cd1ec0-41c8-45a6-8acd-3c8bfe7195a9",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "4e237bac-7b55-4706-9fb2-44ae715323fb",
+    "slug": "division-with-remainders",
+    "title": "Division with Remainders: Sharing Unevenly",
+    "summary": "Division with remainders — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand how to divide numbers and interpret the remainder in real-world contexts.\n\n**Why it matters:** Division with remainders is crucial for solving everyday problems, from dividing snacks among friends to distributing tasks evenly.\n\n**Parent Tip:** Encourage your child to visualize the problem. Using objects like candies or toys can make the concept more relatable and fun.\n\n**Real-World Link:** Imagine you have 13 cookies to share among 4 kids. Everyone gets an equal number, but there might be some cookies left over. How would you handle the leftovers?",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to a new adventure in math! Today, we'll explore how to divide numbers when they don't fit perfectly into groups. It's like sharing a pizza with friends and having a slice or two left over.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining that division is about making equal groups.\n2. Use objects like blocks to show how some numbers don't divide evenly.\n3. Introduce the term 'remainder' as what's left after making equal groups.\n4. Show how to write a division problem with a remainder, e.g., 13 ÷ 4 = 3 R1.\n5. Practice with different numbers to reinforce the concept.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Divide 17 candies among 5 friends. How many candies does each get and what's left?**\n_Answer:_ Each friend gets 3 candies, with 2 candies left over.\n_Hint:_ 17 ÷ 5 = ?\n\n**2. Share 22 apples among 6 people. How many apples per person and how many remain?**\n_Answer:_ Each person gets 3 apples, with 4 apples remaining.\n_Hint:_ 22 ÷ 6 = ?\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to account for the remainder.\n- Misinterpreting the remainder as part of the quotient.\n- Confusing multiplication with division.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine you have 13 cookies to share among 4 kids. Everyone gets an equal number, but there might be some cookies left over. How would you handle the leftovers?",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to divide numbers and deal with leftovers, or remainders.",
+    "overview": "**Objective:** Help your child understand how to divide numbers and interpret the remainder in real-world contexts.\n\n**Why it matters:** Division with remainders is crucial for solving everyday problems, from dividing snacks among friends to distributing tasks evenly.\n\n**Parent Tip:** Encourage your child to visualize the problem. Using objects like candies or toys can make the concept more relatable and fun.\n\n**Real-World Link:** Imagine you have 13 cookies to share among 4 kids. Everyone gets an equal number, but there might be some cookies left over. How would you handle the leftovers?",
+    "core": "Welcome to a new adventure in math! Today, we'll explore how to divide numbers when they don't fit perfectly into groups. It's like sharing a pizza with friends and having a slice or two left over.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why sometimes things don’t divide perfectly, like when sharing candy among friends?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by explaining that division is about making equal groups.\n2. Use objects like blocks to show how some numbers don't divide evenly.\n3. Introduce the term 'remainder' as what's left after making equal groups.\n4. Show how to write a division problem with a remainder, e.g., 13 ÷ 4 = 3 R1.\n5. Practice with different numbers to reinforce the concept.",
+    "practice": "**1. Divide 17 candies among 5 friends. How many candies does each get and what's left?**\n_Answer:_ Each friend gets 3 candies, with 2 candies left over.\n_Hint:_ 17 ÷ 5 = ?\n\n**2. Share 22 apples among 6 people. How many apples per person and how many remain?**\n_Answer:_ Each person gets 3 apples, with 4 apples remaining.\n_Hint:_ 22 ÷ 6 = ?\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to account for the remainder.\n- Misinterpreting the remainder as part of the quotient.\n- Confusing multiplication with division.",
+    "connection": "Imagine you have 13 cookies to share among 4 kids. Everyone gets an equal number, but there might be some cookies left over. How would you handle the leftovers?",
+    "close": "**Key Takeaways**\n- Division with remainders is about equal sharing and dealing with leftovers.\n- Real-world contexts help make abstract math concepts tangible.\n- Encourage your child to verbalize their thought process.\n\n**Parent Reflection Questions**\n- How can I use everyday activities to reinforce division skills?\n- What if my child struggles with understanding remainders?\n- How does this topic connect to future math skills?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Division with Remainders: Sharing Unevenly",
+    "introduction": "Welcome to a fun exploration of division with remainders! Today, we'll learn how to divide and share items when they don't split evenly.",
+    "objective": "Help your child understand how to handle division problems that leave a remainder.",
+    "why_matters": "Understanding remainders is important because it helps children solve real-world problems where things don't split perfectly.",
+    "parent_tip": "Encourage your child to think of division as sharing. This makes it more relatable and easier to grasp.",
+    "real_world_link": "Imagine you have 13 cookies and 4 friends. How can you share them equally? Division with remainders helps solve this!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain the concept of division as sharing.",
+      "Introduce the idea of a remainder as 'leftover'.",
+      "Use visual aids like drawings or objects to demonstrate.",
+      "Practice with simple numbers first.",
+      "Encourage your child to verbalize their thought process."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's pretend we have 13 marbles and 4 friends.",
+        "do": "Lay out 13 marbles on the table.",
+        "ask": "How can we share these marbles equally among 4 friends?",
+        "reinforce": "Remind them that each friend should get the same amount."
+      },
+      {
+        "say": "Try giving each friend one marble at a time.",
+        "do": "Begin distributing marbles one by one.",
+        "ask": "How many marbles does each friend have now?",
+        "reinforce": "Point out that sharing one-by-one helps keep it fair."
+      },
+      {
+        "say": "Now, let's see how many marbles are left after each friend has 3.",
+        "do": "Count the remaining marbles.",
+        "ask": "How many marbles are left over?",
+        "reinforce": "Explain that these leftovers are called the 'remainder'."
+      },
+      {
+        "say": "In math, we say 13 divided by 4 equals 3, with a remainder of 1.",
+        "do": "Write '13 ÷ 4 = 3 R1' on a piece of paper.",
+        "ask": "Can you think of other numbers we can divide like this?",
+        "reinforce": "Encourage them to try with different numbers."
+      },
+      {
+        "say": "Why do you think understanding remainders is useful?",
+        "do": "Discuss examples like sharing pizza slices or candies.",
+        "ask": "Can you think of other examples?",
+        "reinforce": "Highlight how often we share things in real life."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Divide 15 apples among 4 friends. How many does each get? What's the remainder?",
+        "hint": "Divide the apples one by one.",
+        "answer": "Each gets 3 apples, with 3 apples remaining."
+      },
+      {
+        "prompt": "20 candies shared among 6 children. What's the division result?",
+        "hint": "Give each child candies until you run out.",
+        "answer": "Each child gets 3 candies, with 2 candies remaining."
+      },
+      {
+        "prompt": "Share 25 stickers equally among 5 kids.",
+        "hint": "How many full groups of 5 can you make?",
+        "answer": "Each gets 5 stickers, with no remainder."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Division can result in a remainder when items don't split evenly.",
+      "Remainders are the 'leftovers' after dividing equally.",
+      "Practice helps make division with remainders easier to understand."
+    ],
+    "common_mistakes": [
+      "Forgetting to count the remainder.",
+      "Miscounting how many times a number fits into another.",
+      "Thinking division always results in a whole number."
+    ],
+    "deep_dive": {
+      "history": "Division has been used for thousands of years, dating back to ancient civilizations.",
+      "connections": "Division is connected to multiplication and helps with understanding fractions.",
+      "misconceptions": "Some children think remainders mean division 'failed'. It's just a part of the process!",
+      "teaching_tips": "Use real objects for practice to make it tangible and engaging.",
+      "derivation": "Division with remainders involves repeated subtraction until what's left is smaller than the divisor."
+    },
+    "motivation": "Learning to divide with remainders empowers children to solve practical problems independently!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun exploration of division with remainders! Today, we'll learn how to divide and share items when they don't split evenly.\n\n## Parent Orientation\n**Objective:** Help your child understand how to handle division problems that leave a remainder.\n**Why it matters:** Understanding remainders is important because it helps children solve real-world problems where things don't split perfectly.\n**Parent Tip:** Encourage your child to think of division as sharing. This makes it more relatable and easier to grasp.\n**Real-World Link:** Imagine you have 13 cookies and 4 friends. How can you share them equally? Division with remainders helps solve this!\n\n## Teaching Steps\n1. Explain the concept of division as sharing.\n2. Introduce the idea of a remainder as 'leftover'.\n3. Use visual aids like drawings or objects to demonstrate.\n4. Practice with simple numbers first.\n5. Encourage your child to verbalize their thought process.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's pretend we have 13 marbles and 4 friends.  \n**Show/Do:** Lay out 13 marbles on the table.  \n**Ask:** How can we share these marbles equally among 4 friends?  \n**Reinforce:** Remind them that each friend should get the same amount.\n2. **Say:** Try giving each friend one marble at a time.  \n**Show/Do:** Begin distributing marbles one by one.  \n**Ask:** How many marbles does each friend have now?  \n**Reinforce:** Point out that sharing one-by-one helps keep it fair.\n3. **Say:** Now, let's see how many marbles are left after each friend has 3.  \n**Show/Do:** Count the remaining marbles.  \n**Ask:** How many marbles are left over?  \n**Reinforce:** Explain that these leftovers are called the 'remainder'.\n4. **Say:** In math, we say 13 divided by 4 equals 3, with a remainder of 1.  \n**Show/Do:** Write '13 ÷ 4 = 3 R1' on a piece of paper.  \n**Ask:** Can you think of other numbers we can divide like this?  \n**Reinforce:** Encourage them to try with different numbers.\n5. **Say:** Why do you think understanding remainders is useful?  \n**Show/Do:** Discuss examples like sharing pizza slices or candies.  \n**Ask:** Can you think of other examples?  \n**Reinforce:** Highlight how often we share things in real life.\n\n## Practice Questions (Do It Together)\n**1. Divide 15 apples among 4 friends. How many does each get? What's the remainder?**\n<details><summary>Hint</summary>\nDivide the apples one by one.\n</details>\n<details><summary>Answer</summary>\nEach gets 3 apples, with 3 apples remaining.\n</details>\n\n**2. 20 candies shared among 6 children. What's the division result?**\n<details><summary>Hint</summary>\nGive each child candies until you run out.\n</details>\n<details><summary>Answer</summary>\nEach child gets 3 candies, with 2 candies remaining.\n</details>\n\n**3. Share 25 stickers equally among 5 kids.**\n<details><summary>Hint</summary>\nHow many full groups of 5 can you make?\n</details>\n<details><summary>Answer</summary>\nEach gets 5 stickers, with no remainder.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Division can result in a remainder when items don't split evenly.\n- Remainders are the 'leftovers' after dividing equally.\n- Practice helps make division with remainders easier to understand.\n\n**Common Mistakes**\n- Forgetting to count the remainder.\n- Miscounting how many times a number fits into another.\n- Thinking division always results in a whole number.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDivision has been used for thousands of years, dating back to ancient civilizations.\n\n**Future topic connections**\n\nDivision is connected to multiplication and helps with understanding fractions.\n\n**Common misconceptions**\n\nSome children think remainders mean division 'failed'. It's just a part of the process!\n\n**Teaching tips for parents**\n\nUse real objects for practice to make it tangible and engaging.\n\n**More detail / derivation**\n\nDivision with remainders involves repeated subtraction until what's left is smaller than the divisor.\n\n## Motivation\nLearning to divide with remainders empowers children to solve practical problems independently!"
+}

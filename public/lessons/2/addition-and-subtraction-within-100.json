@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "5b37df12-6ddd-493d-a53f-673123363e7d",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "01a0c18f-dce2-49d3-aa1d-437598779102",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b4b832d7-6650-48d3-b483-b1d96eadca9a",
+    "slug": "addition-and-subtraction-within-100",
+    "title": "Addition & Subtraction within 100",
+    "summary": "Addition & subtraction within 100 — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child confidently add and subtract numbers up to 100 through practical examples and engaging activities.\n\n**Why it matters:** Mastering these skills allows your child to handle money, measure ingredients, and manage time effectively.\n\n**Parent Tip:** Encourage your child to explain their thought process. This reinforces their understanding and boosts confidence.\n\n**Real-World Link:** Think about shopping: If an item costs $25 and you pay with a $100 bill, how much change should you get back? These calculations are practical and useful.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore addition and subtraction within 100. These skills help your child solve everyday problems and build a strong math foundation.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with numbers your child is comfortable with, like 10 or 20.\n2. Use objects like coins or blocks to visualize the problem.\n3. Practice adding and subtracting in small increments.\n4. Gradually increase the numbers as your child gains confidence.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is 45 + 27?**\n_Answer:_ 72\n_Hint:_ Break it down: 40 + 20 and 5 + 7.\n\n**2. Subtract 58 from 93.**\n_Answer:_ 35\n_Hint:_ Think of it as 90 - 50 and 3 - 8.\n\n**3. Add 34 and 56.**\n_Answer:_ 90\n_Hint:_ First add 30 and 50, then add 4 and 6.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to carry over in addition.\n- Not borrowing correctly in subtraction.\n- Misaligning numbers in columns.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about shopping: If an item costs $25 and you pay with a $100 bill, how much change should you get back? These calculations are practical and useful.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child become confident in adding and subtracting numbers up to 100.",
+    "overview": "**Objective:** Help your child confidently add and subtract numbers up to 100 through practical examples and engaging activities.\n\n**Why it matters:** Mastering these skills allows your child to handle money, measure ingredients, and manage time effectively.\n\n**Parent Tip:** Encourage your child to explain their thought process. This reinforces their understanding and boosts confidence.\n\n**Real-World Link:** Think about shopping: If an item costs $25 and you pay with a $100 bill, how much change should you get back? These calculations are practical and useful.",
+    "core": "Welcome! Today, we'll explore addition and subtraction within 100. These skills help your child solve everyday problems and build a strong math foundation.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how many apples we’d have if we added the ones in the basket to the ones in the fridge?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with numbers your child is comfortable with, like 10 or 20.\n2. Use objects like coins or blocks to visualize the problem.\n3. Practice adding and subtracting in small increments.\n4. Gradually increase the numbers as your child gains confidence.",
+    "practice": "**1. What is 45 + 27?**\n_Answer:_ 72\n_Hint:_ Break it down: 40 + 20 and 5 + 7.\n\n**2. Subtract 58 from 93.**\n_Answer:_ 35\n_Hint:_ Think of it as 90 - 50 and 3 - 8.\n\n**3. Add 34 and 56.**\n_Answer:_ 90\n_Hint:_ First add 30 and 50, then add 4 and 6.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to carry over in addition.\n- Not borrowing correctly in subtraction.\n- Misaligning numbers in columns.",
+    "connection": "Think about shopping: If an item costs $25 and you pay with a $100 bill, how much change should you get back? These calculations are practical and useful.",
+    "close": "**Key Takeaways**\n- Addition is combining numbers.\n- Subtraction is removing numbers.\n- Using real-life examples helps reinforce these concepts.\n\n**Parent Reflection Questions**\n- How can I use everyday activities to practice these skills?\n- What are signs my child is struggling with these concepts?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Addition & Subtraction within 100",
+    "introduction": "Welcome to Grade 2 math! Today, we'll explore addition and subtraction within 100. These are essential skills that help build a strong foundation for future math learning.",
+    "objective": "Help your child confidently add and subtract numbers up to 100, using strategies that make sense to them.",
+    "why_matters": "Understanding addition and subtraction is crucial for everyday tasks, like counting money or measuring ingredients while cooking. It's also the basis for more complex math they'll encounter later.",
+    "parent_tip": "Encourage your child to visualize numbers using objects like blocks or coins. This makes abstract concepts more concrete and easier to grasp.",
+    "real_world_link": "Think about when you go grocery shopping. Adding prices helps you stay within budget, while subtracting tells you how much change you'll get back.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with simple examples using household items.",
+      "Use visual aids like number lines or drawings.",
+      "Practice counting forward and backward.",
+      "Introduce word problems to apply skills.",
+      "Encourage mental math strategies."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with something fun! Can you grab 10 small objects, like coins or blocks?",
+        "do": "Spread the objects out on a table.",
+        "ask": "Can you count them by adding one more each time?",
+        "reinforce": "Great job! Adding is just putting more together."
+      },
+      {
+        "say": "Now, let's try taking some away.",
+        "do": "Remove 3 objects from the group.",
+        "ask": "How many are left now?",
+        "reinforce": "That's subtraction! It's like counting backward."
+      },
+      {
+        "say": "Let's practice with a number line.",
+        "do": "Draw a number line from 0 to 20 on a piece of paper.",
+        "ask": "Can you show me how to move forward 5 spaces from 3?",
+        "reinforce": "Moving forward is like adding!"
+      },
+      {
+        "say": "How about moving backward on the number line?",
+        "do": "Start at 10 and move back 4 spaces.",
+        "ask": "What number do you land on?",
+        "reinforce": "Exactly! That's how we subtract."
+      },
+      {
+        "say": "Let's solve a word problem together.",
+        "do": "Read: 'You have 12 apples. You give 4 to a friend. How many apples do you have now?'",
+        "ask": "What operation will you use to find the answer?",
+        "reinforce": "Good thinking! Subtraction helps us find out how many are left."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is 23 + 15?",
+        "hint": "Try adding the tens and then the ones.",
+        "answer": "38"
+      },
+      {
+        "prompt": "If you have 50 and you spend 7, how much do you have left?",
+        "hint": "Subtract 7 from 50.",
+        "answer": "43"
+      },
+      {
+        "prompt": "Add 32 and 45.",
+        "hint": "Add 30 + 40, then 2 + 5.",
+        "answer": "77"
+      },
+      {
+        "prompt": "You had 90 candies and gave away 25. How many candies do you have now?",
+        "hint": "Subtract 25 from 90.",
+        "answer": "65"
+      }
+    ],
+    "recap": [
+      "Addition means putting numbers together.",
+      "Subtraction means taking numbers away.",
+      "Use real-life examples to make math relatable.",
+      "Practice makes perfect—keep it fun!"
+    ],
+    "common_mistakes": [
+      "Forgetting to carry over in addition.",
+      "Not borrowing correctly in subtraction.",
+      "Confusing addition with multiplication."
+    ],
+    "deep_dive": {
+      "history": "Addition and subtraction have been used since ancient times, with early methods recorded by Egyptians and Babylonians.",
+      "connections": "These skills are foundational for understanding multiplication, division, and algebra.",
+      "misconceptions": "Some children think subtraction always makes numbers smaller, but subtracting a negative number increases the value.",
+      "teaching_tips": "Use storytelling to create engaging word problems that relate to your child's interests.",
+      "derivation": "These operations are derived from basic counting principles and can be visualized with physical objects."
+    },
+    "motivation": "Remember, math is everywhere! By helping your child master these skills, you're setting them up for success in school and beyond."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to Grade 2 math! Today, we'll explore addition and subtraction within 100. These are essential skills that help build a strong foundation for future math learning.\n\n## Parent Orientation\n**Objective:** Help your child confidently add and subtract numbers up to 100, using strategies that make sense to them.\n**Why it matters:** Understanding addition and subtraction is crucial for everyday tasks, like counting money or measuring ingredients while cooking. It's also the basis for more complex math they'll encounter later.\n**Parent Tip:** Encourage your child to visualize numbers using objects like blocks or coins. This makes abstract concepts more concrete and easier to grasp.\n**Real-World Link:** Think about when you go grocery shopping. Adding prices helps you stay within budget, while subtracting tells you how much change you'll get back.\n\n## Teaching Steps\n1. Start with simple examples using household items.\n2. Use visual aids like number lines or drawings.\n3. Practice counting forward and backward.\n4. Introduce word problems to apply skills.\n5. Encourage mental math strategies.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with something fun! Can you grab 10 small objects, like coins or blocks?  \n**Show/Do:** Spread the objects out on a table.  \n**Ask:** Can you count them by adding one more each time?  \n**Reinforce:** Great job! Adding is just putting more together.\n2. **Say:** Now, let's try taking some away.  \n**Show/Do:** Remove 3 objects from the group.  \n**Ask:** How many are left now?  \n**Reinforce:** That's subtraction! It's like counting backward.\n3. **Say:** Let's practice with a number line.  \n**Show/Do:** Draw a number line from 0 to 20 on a piece of paper.  \n**Ask:** Can you show me how to move forward 5 spaces from 3?  \n**Reinforce:** Moving forward is like adding!\n4. **Say:** How about moving backward on the number line?  \n**Show/Do:** Start at 10 and move back 4 spaces.  \n**Ask:** What number do you land on?  \n**Reinforce:** Exactly! That's how we subtract.\n5. **Say:** Let's solve a word problem together.  \n**Show/Do:** Read: 'You have 12 apples. You give 4 to a friend. How many apples do you have now?'  \n**Ask:** What operation will you use to find the answer?  \n**Reinforce:** Good thinking! Subtraction helps us find out how many are left.\n\n## Practice Questions (Do It Together)\n**1. What is 23 + 15?**\n<details><summary>Hint</summary>\nTry adding the tens and then the ones.\n</details>\n<details><summary>Answer</summary>\n38\n</details>\n\n**2. If you have 50 and you spend 7, how much do you have left?**\n<details><summary>Hint</summary>\nSubtract 7 from 50.\n</details>\n<details><summary>Answer</summary>\n43\n</details>\n\n**3. Add 32 and 45.**\n<details><summary>Hint</summary>\nAdd 30 + 40, then 2 + 5.\n</details>\n<details><summary>Answer</summary>\n77\n</details>\n\n**4. You had 90 candies and gave away 25. How many candies do you have now?**\n<details><summary>Hint</summary>\nSubtract 25 from 90.\n</details>\n<details><summary>Answer</summary>\n65\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Addition means putting numbers together.\n- Subtraction means taking numbers away.\n- Use real-life examples to make math relatable.\n- Practice makes perfect—keep it fun!\n\n**Common Mistakes**\n- Forgetting to carry over in addition.\n- Not borrowing correctly in subtraction.\n- Confusing addition with multiplication.\n\n## 🔍 Deep Dive\n**History or origin**\n\nAddition and subtraction have been used since ancient times, with early methods recorded by Egyptians and Babylonians.\n\n**Future topic connections**\n\nThese skills are foundational for understanding multiplication, division, and algebra.\n\n**Common misconceptions**\n\nSome children think subtraction always makes numbers smaller, but subtracting a negative number increases the value.\n\n**Teaching tips for parents**\n\nUse storytelling to create engaging word problems that relate to your child's interests.\n\n**More detail / derivation**\n\nThese operations are derived from basic counting principles and can be visualized with physical objects.\n\n## Motivation\nRemember, math is everywhere! By helping your child master these skills, you're setting them up for success in school and beyond."
+}

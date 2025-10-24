@@ -1,0 +1,161 @@
+{
+  "grade": {
+    "id": "c3d71b35-142b-4e14-9d6e-1f90a7d4d4dc",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "e230bdfb-7355-42df-b8dc-8b43930f3c1d",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "28bc5221-76f5-48cd-a179-38600523ebe1",
+    "slug": "coordinate-plane-4-quadrants",
+    "title": "Exploring the Coordinate Plane: All Four Quadrants",
+    "summary": "Coordinate plane (4 quadrants) — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and navigate the coordinate plane, identifying and plotting points in all four quadrants.\n\n**Why it matters:** Understanding the coordinate plane is crucial for graphing in math, designing maps, and even in video game development. It's a skill that blends math with spatial thinking.\n\n**Parent Tip:** Use graph paper or a simple drawing app to visually plot points together. It makes the concept more tangible and interactive.\n\n**Real-World Link:** Think of the coordinate plane like a city grid. Streets (axes) intersect, and addresses (coordinates) help find exact locations.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Today, we're diving into the coordinate plane, a fundamental concept that helps locate points in space. Your child will explore all four quadrants, gaining confidence in plotting and interpreting points.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the coordinate plane as a grid with horizontal (x-axis) and vertical (y-axis) lines.\n2. Explain the origin (0,0) where the x-axis and y-axis intersect.\n3. Discuss the four quadrants: I (top-right), II (top-left), III (bottom-left), IV (bottom-right).\n4. Show how to plot points using coordinates (x, y): move along the x-axis first, then the y-axis.\n5. Practice identifying which quadrant a point belongs to based on positive or negative values.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Plot the point (3, -2) on the coordinate plane.**\n_Answer:_ The point (3, -2) is in Quadrant IV.\n_Hint:_ Start from the origin, move 3 units right, then 2 units down.\n\n**2. Identify the quadrant for the point (-4, 5).**\n_Answer:_ The point (-4, 5) is in Quadrant II.\n_Hint:_ Negative x-value, positive y-value.\n\n**3. Find the coordinates of the point located 2 units left and 3 units up from the origin.**\n_Answer:_ The coordinates are (-2, 3).\n_Hint:_ Left is negative x, up is positive y.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the order of coordinates (x, y) and moving vertically first.\n- Misidentifying the quadrants due to sign errors.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of the coordinate plane like a city grid. Streets (axes) intersect, and addresses (coordinates) help find exact locations.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and navigate the four quadrants of the coordinate plane.",
+    "overview": "**Objective:** Help your child understand and navigate the coordinate plane, identifying and plotting points in all four quadrants.\n\n**Why it matters:** Understanding the coordinate plane is crucial for graphing in math, designing maps, and even in video game development. It's a skill that blends math with spatial thinking.\n\n**Parent Tip:** Use graph paper or a simple drawing app to visually plot points together. It makes the concept more tangible and interactive.\n\n**Real-World Link:** Think of the coordinate plane like a city grid. Streets (axes) intersect, and addresses (coordinates) help find exact locations.",
+    "core": "Welcome, parents! Today, we're diving into the coordinate plane, a fundamental concept that helps locate points in space. Your child will explore all four quadrants, gaining confidence in plotting and interpreting points.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'Have you ever wondered how video game characters know where to move on the screen?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the coordinate plane as a grid with horizontal (x-axis) and vertical (y-axis) lines.\n2. Explain the origin (0,0) where the x-axis and y-axis intersect.\n3. Discuss the four quadrants: I (top-right), II (top-left), III (bottom-left), IV (bottom-right).\n4. Show how to plot points using coordinates (x, y): move along the x-axis first, then the y-axis.\n5. Practice identifying which quadrant a point belongs to based on positive or negative values.",
+    "practice": "**1. Plot the point (3, -2) on the coordinate plane.**\n_Answer:_ The point (3, -2) is in Quadrant IV.\n_Hint:_ Start from the origin, move 3 units right, then 2 units down.\n\n**2. Identify the quadrant for the point (-4, 5).**\n_Answer:_ The point (-4, 5) is in Quadrant II.\n_Hint:_ Negative x-value, positive y-value.\n\n**3. Find the coordinates of the point located 2 units left and 3 units up from the origin.**\n_Answer:_ The coordinates are (-2, 3).\n_Hint:_ Left is negative x, up is positive y.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the order of coordinates (x, y) and moving vertically first.\n- Misidentifying the quadrants due to sign errors.",
+    "connection": "Think of the coordinate plane like a city grid. Streets (axes) intersect, and addresses (coordinates) help find exact locations.",
+    "close": "**Key Takeaways**\n- The coordinate plane is divided into four quadrants.\n- Coordinates are written as (x, y).\n- The origin is the starting point at (0, 0).\n\n**Parent Reflection Questions**\n- How can you use the coordinate plane in real life?\n- What strategies help you remember which way to move first?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring the Coordinate Plane: All Four Quadrants",
+    "introduction": "Welcome to the world of the coordinate plane! This lesson will guide you and your child through understanding how to navigate all four quadrants, boosting their spatial awareness and problem-solving skills.",
+    "objective": "Help your child learn how to plot and identify points in all four quadrants of the coordinate plane.",
+    "why_matters": "Understanding the coordinate plane is crucial for graphing equations, a skill that will be useful in future math classes and real-world applications like map reading and game design.",
+    "parent_tip": "Encourage your child to think of the coordinate plane as a map where each point has a specific address, helping them visualize and remember the concept better.",
+    "real_world_link": "Coordinate planes are used in GPS technology to help navigate and locate places in real life. It's like having a map with exact points to guide you.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the coordinate plane and its four quadrants.",
+      "Explain the x-axis and y-axis.",
+      "Teach how to identify and write coordinates.",
+      "Practice plotting points in each quadrant.",
+      "Discuss how the signs of coordinates change in different quadrants."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore the coordinate plane together!",
+        "do": "Show them a blank coordinate plane with labeled axes.",
+        "ask": "Can you see the horizontal and vertical lines? What do you think these lines are called?",
+        "reinforce": "That's right! The horizontal line is the x-axis, and the vertical line is the y-axis."
+      },
+      {
+        "say": "Each point on this plane has an address, or coordinates.",
+        "do": "Point to a random spot on the graph.",
+        "ask": "How would we write the address of this point?",
+        "reinforce": "We write it as (x, y), where x is the position on the x-axis and y is the position on the y-axis."
+      },
+      {
+        "say": "Now, let's plot a point in the first quadrant.",
+        "do": "Demonstrate plotting (3, 4).",
+        "ask": "What do you notice about the signs of the numbers in this quadrant?",
+        "reinforce": "Both numbers are positive in the first quadrant."
+      },
+      {
+        "say": "Let's move to the second quadrant.",
+        "do": "Plot (-3, 4) and explain.",
+        "ask": "How do the signs of the coordinates change here?",
+        "reinforce": "In the second quadrant, x is negative and y is positive."
+      },
+      {
+        "say": "Try plotting a point in the third quadrant.",
+        "do": "Guide them to plot (-3, -4).",
+        "ask": "What are the signs of the coordinates now?",
+        "reinforce": "Both x and y are negative in the third quadrant."
+      },
+      {
+        "say": "Finally, let's plot a point in the fourth quadrant.",
+        "do": "Plot (3, -4) together.",
+        "ask": "What do you notice about the signs here?",
+        "reinforce": "In the fourth quadrant, x is positive and y is negative."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Plot the point (5, -2) on the coordinate plane.",
+        "hint": "Remember, positive x goes right, negative y goes down.",
+        "answer": "The point is in the fourth quadrant."
+      },
+      {
+        "prompt": "Identify the quadrant for the point (-6, 7).",
+        "hint": "Look at the signs of the coordinates.",
+        "answer": "The point is in the second quadrant."
+      },
+      {
+        "prompt": "Where would you plot the point (-4, -5)?",
+        "hint": "Both coordinates are negative.",
+        "answer": "The point is in the third quadrant."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The coordinate plane is divided into four quadrants.",
+      "Points are plotted using coordinates (x, y).",
+      "The sign of the coordinates determines the quadrant."
+    ],
+    "common_mistakes": [
+      "Confusing the x-axis and y-axis.",
+      "Mixing up the order of coordinates (x, y).",
+      "Forgetting that the signs of coordinates change in different quadrants."
+    ],
+    "deep_dive": {
+      "history": "The coordinate plane was developed by René Descartes in the 17th century, revolutionizing mathematics by linking algebra and geometry.",
+      "connections": "Coordinate planes are foundational for graphing in algebra and are used in computer graphics and engineering.",
+      "misconceptions": "A common misconception is that the origin (0, 0) is part of a quadrant, but it is actually the dividing point of all four quadrants.",
+      "teaching_tips": "Use graph paper to help visualize the quadrants and maintain accuracy when plotting points.",
+      "derivation": "The coordinate plane is derived from the Cartesian coordinate system, which uses two perpendicular lines to create a grid."
+    },
+    "motivation": "Mastering the coordinate plane opens up new ways to visualize and solve problems, making math more interactive and fun!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of the coordinate plane! This lesson will guide you and your child through understanding how to navigate all four quadrants, boosting their spatial awareness and problem-solving skills.\n\n## Parent Orientation\n**Objective:** Help your child learn how to plot and identify points in all four quadrants of the coordinate plane.\n**Why it matters:** Understanding the coordinate plane is crucial for graphing equations, a skill that will be useful in future math classes and real-world applications like map reading and game design.\n**Parent Tip:** Encourage your child to think of the coordinate plane as a map where each point has a specific address, helping them visualize and remember the concept better.\n**Real-World Link:** Coordinate planes are used in GPS technology to help navigate and locate places in real life. It's like having a map with exact points to guide you.\n\n## Teaching Steps\n1. Introduce the coordinate plane and its four quadrants.\n2. Explain the x-axis and y-axis.\n3. Teach how to identify and write coordinates.\n4. Practice plotting points in each quadrant.\n5. Discuss how the signs of coordinates change in different quadrants.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore the coordinate plane together!  \n**Show/Do:** Show them a blank coordinate plane with labeled axes.  \n**Ask:** Can you see the horizontal and vertical lines? What do you think these lines are called?  \n**Reinforce:** That's right! The horizontal line is the x-axis, and the vertical line is the y-axis.\n2. **Say:** Each point on this plane has an address, or coordinates.  \n**Show/Do:** Point to a random spot on the graph.  \n**Ask:** How would we write the address of this point?  \n**Reinforce:** We write it as (x, y), where x is the position on the x-axis and y is the position on the y-axis.\n3. **Say:** Now, let's plot a point in the first quadrant.  \n**Show/Do:** Demonstrate plotting (3, 4).  \n**Ask:** What do you notice about the signs of the numbers in this quadrant?  \n**Reinforce:** Both numbers are positive in the first quadrant.\n4. **Say:** Let's move to the second quadrant.  \n**Show/Do:** Plot (-3, 4) and explain.  \n**Ask:** How do the signs of the coordinates change here?  \n**Reinforce:** In the second quadrant, x is negative and y is positive.\n5. **Say:** Try plotting a point in the third quadrant.  \n**Show/Do:** Guide them to plot (-3, -4).  \n**Ask:** What are the signs of the coordinates now?  \n**Reinforce:** Both x and y are negative in the third quadrant.\n6. **Say:** Finally, let's plot a point in the fourth quadrant.  \n**Show/Do:** Plot (3, -4) together.  \n**Ask:** What do you notice about the signs here?  \n**Reinforce:** In the fourth quadrant, x is positive and y is negative.\n\n## Practice Questions (Do It Together)\n**1. Plot the point (5, -2) on the coordinate plane.**\n<details><summary>Hint</summary>\nRemember, positive x goes right, negative y goes down.\n</details>\n<details><summary>Answer</summary>\nThe point is in the fourth quadrant.\n</details>\n\n**2. Identify the quadrant for the point (-6, 7).**\n<details><summary>Hint</summary>\nLook at the signs of the coordinates.\n</details>\n<details><summary>Answer</summary>\nThe point is in the second quadrant.\n</details>\n\n**3. Where would you plot the point (-4, -5)?**\n<details><summary>Hint</summary>\nBoth coordinates are negative.\n</details>\n<details><summary>Answer</summary>\nThe point is in the third quadrant.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The coordinate plane is divided into four quadrants.\n- Points are plotted using coordinates (x, y).\n- The sign of the coordinates determines the quadrant.\n\n**Common Mistakes**\n- Confusing the x-axis and y-axis.\n- Mixing up the order of coordinates (x, y).\n- Forgetting that the signs of coordinates change in different quadrants.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe coordinate plane was developed by René Descartes in the 17th century, revolutionizing mathematics by linking algebra and geometry.\n\n**Future topic connections**\n\nCoordinate planes are foundational for graphing in algebra and are used in computer graphics and engineering.\n\n**Common misconceptions**\n\nA common misconception is that the origin (0, 0) is part of a quadrant, but it is actually the dividing point of all four quadrants.\n\n**Teaching tips for parents**\n\nUse graph paper to help visualize the quadrants and maintain accuracy when plotting points.\n\n**More detail / derivation**\n\nThe coordinate plane is derived from the Cartesian coordinate system, which uses two perpendicular lines to create a grid.\n\n## Motivation\nMastering the coordinate plane opens up new ways to visualize and solve problems, making math more interactive and fun!"
+}

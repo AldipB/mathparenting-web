@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "7830d465-8ff0-4f84-b22b-5ab226796316",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "f26f8266-4ef6-4ad6-ba45-6c83c7021334",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "3c918823-09f5-4b90-bccb-efcdbe233273",
+    "slug": "probability-distributions-normal-binomial",
+    "title": "Probability Distributions: Navigating Normal and Binomial Landscapes",
+    "summary": "Probability distributions (normal, binomial) — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and differentiate between normal and binomial distributions, and apply them to solve real-world problems.\n\n**Why it matters:** Probability distributions are like maps that help us navigate uncertainty. They are crucial in fields like finance, science, and even everyday decision-making.\n\n**Parent Tip:** Encourage your child to see patterns in everyday situations. Discuss how probability might play a role in things like weather forecasts or sports outcomes.\n\n**Real-World Link:** Think of the normal distribution as the height chart in your child’s school. Most students are around average height, with fewer being very short or very tall. The binomial distribution is like flipping a coin multiple times, where you count how often you get heads or tails.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! We're diving into the fascinating world of probability distributions. Imagine if life were a series of predictable patterns, like the gentle bell curve of the normal distribution or the flip of a coin in a binomial distribution. Today, we'll explore these landscapes together.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of probability distributions.\n2. Explain the normal distribution and its bell curve shape.\n3. Describe the binomial distribution and how it applies to discrete events.\n4. Compare and contrast the two distributions using real-world examples.\n5. Work through sample problems together to reinforce understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is the probability of getting 3 heads in 5 flips of a fair coin?**\n_Answer:_ 0.3125\n_Hint:_ Use n = 5, k = 3, and p = 0.5 in the formula.\n\n**2. If the average test score is 75 with a standard deviation of 10, what range covers approximately 68% of students?**\n_Answer:_ 65 to 85\n_Hint:_ Use the normal distribution properties.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing continuous and discrete distributions.\n- Misapplying the binomial formula with incorrect values of p, n, or k.\n- Assuming all distributions are normal.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of the normal distribution as the height chart in your child’s school. Most students are around average height, with fewer being very short or very tall. The binomial distribution is like flipping a coin multiple times, where you count how often you get heads or tails.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and apply normal and binomial probability distributions.",
+    "overview": "**Objective:** Help your child understand and differentiate between normal and binomial distributions, and apply them to solve real-world problems.\n\n**Why it matters:** Probability distributions are like maps that help us navigate uncertainty. They are crucial in fields like finance, science, and even everyday decision-making.\n\n**Parent Tip:** Encourage your child to see patterns in everyday situations. Discuss how probability might play a role in things like weather forecasts or sports outcomes.\n\n**Real-World Link:** Think of the normal distribution as the height chart in your child’s school. Most students are around average height, with fewer being very short or very tall. The binomial distribution is like flipping a coin multiple times, where you count how often you get heads or tails.",
+    "core": "Welcome, parents! We're diving into the fascinating world of probability distributions. Imagine if life were a series of predictable patterns, like the gentle bell curve of the normal distribution or the flip of a coin in a binomial distribution. Today, we'll explore these landscapes together.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how meteorologists predict the chance of rain? It's all about probability distributions!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}\n- **Meaning:** This formula calculates the probability of getting exactly k successes in n independent Bernoulli trials with probability p of success.\n- **How it works:** Each part of the formula contributes to finding the probability of a specific outcome in a set of trials.\n- **Example:** If you flip a coin 3 times, the probability of getting exactly 2 heads is calculated using this formula.",
+    "formulas": "P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}",
+    "guide": "1. Introduce the concept of probability distributions.\n2. Explain the normal distribution and its bell curve shape.\n3. Describe the binomial distribution and how it applies to discrete events.\n4. Compare and contrast the two distributions using real-world examples.\n5. Work through sample problems together to reinforce understanding.",
+    "practice": "**1. What is the probability of getting 3 heads in 5 flips of a fair coin?**\n_Answer:_ 0.3125\n_Hint:_ Use n = 5, k = 3, and p = 0.5 in the formula.\n\n**2. If the average test score is 75 with a standard deviation of 10, what range covers approximately 68% of students?**\n_Answer:_ 65 to 85\n_Hint:_ Use the normal distribution properties.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing continuous and discrete distributions.\n- Misapplying the binomial formula with incorrect values of p, n, or k.\n- Assuming all distributions are normal.",
+    "connection": "Think of the normal distribution as the height chart in your child’s school. Most students are around average height, with fewer being very short or very tall. The binomial distribution is like flipping a coin multiple times, where you count how often you get heads or tails.",
+    "close": "**Key Takeaways**\n- Normal distributions describe continuous data; binomial distributions describe discrete data.\n- The binomial formula helps calculate probabilities for a fixed number of trials.\n- Real-world examples can make abstract concepts more relatable.\n\n**Parent Reflection Questions**\n- How can you visualize these distributions at home?\n- What real-life scenarios involve normal or binomial distributions?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Probability Distributions: Navigating Normal and Binomial Landscapes",
+    "introduction": "Welcome to the fascinating world of probability distributions! In this lesson, we will explore two key types: normal and binomial distributions. These concepts help us understand how likely different outcomes are in various situations.",
+    "objective": "By the end of this lesson, your teen will be able to distinguish between normal and binomial distributions and apply them to solve real-world problems.",
+    "why_matters": "Understanding probability distributions is crucial because they are used in fields like finance, science, and even sports. They help us make predictions and decisions based on data.",
+    "parent_tip": "Encourage your teen to visualize these distributions using graphs. Drawing can make abstract concepts more concrete.",
+    "real_world_link": "Think of a normal distribution as the 'bell curve' seen in standardized test scores, while a binomial distribution helps us understand the likelihood of flipping a coin and getting heads multiple times.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of probability distributions.",
+      "Explain the normal distribution and its 'bell curve' shape.",
+      "Discuss the binomial distribution and its application to binary outcomes.",
+      "Highlight differences between normal and binomial distributions.",
+      "Use real-world examples to illustrate both distributions."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Today we're diving into probability distributions.",
+        "do": "Show a simple graph of a normal distribution.",
+        "ask": "What does this shape remind you of?",
+        "reinforce": "This is called a 'bell curve' because of its shape."
+      },
+      {
+        "say": "Now, let's talk about the binomial distribution.",
+        "do": "Illustrate flipping a coin multiple times.",
+        "ask": "What outcomes can we expect if we flip a coin 10 times?",
+        "reinforce": "Each flip is an independent event with two possible outcomes."
+      },
+      {
+        "say": "Both distributions help us predict outcomes.",
+        "do": "Compare the graphs of normal and binomial distributions.",
+        "ask": "Can you see how they're different?",
+        "reinforce": "Normal is continuous, while binomial is discrete."
+      },
+      {
+        "say": "Let's connect this to real life.",
+        "do": "Share an example of test scores following a normal distribution.",
+        "ask": "Why do you think test scores often form a bell curve?",
+        "reinforce": "Most people score around the average, with fewer at the extremes."
+      },
+      {
+        "say": "Binomial distributions are all around us too.",
+        "do": "Discuss a scenario like a basketball player making free throws.",
+        "ask": "How likely is it for the player to make 5 out of 10 shots?",
+        "reinforce": "This is where the binomial distribution helps us calculate probabilities."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you roll a fair six-sided die 10 times, what's the probability of rolling a '4' exactly 3 times?",
+        "hint": "Use the binomial formula for probability: P(X=k) = C(n, k) * p^k * (1-p)^(n-k).",
+        "answer": "Approximately 0.215."
+      },
+      {
+        "prompt": "In a normal distribution, what percentage of data falls within one standard deviation from the mean?",
+        "hint": "Think about the properties of the bell curve.",
+        "answer": "Approximately 68%."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Normal distributions are continuous and often form a bell curve.",
+      "Binomial distributions are discrete and apply to scenarios with two outcomes.",
+      "Both distributions help us understand probabilities in different contexts."
+    ],
+    "common_mistakes": [
+      "Confusing continuous normal distributions with discrete binomial distributions.",
+      "Assuming binomial distributions only apply to coin flips.",
+      "Forgetting that probabilities in a binomial distribution must add up to 1."
+    ],
+    "deep_dive": {
+      "history": "The normal distribution was discovered by Carl Friedrich Gauss and is sometimes called the Gaussian distribution.",
+      "connections": "These distributions are foundational in statistics and are used in fields like economics, psychology, and engineering.",
+      "misconceptions": "A common misconception is that all data sets are normally distributed, which is not always true.",
+      "teaching_tips": "Use visual aids and real-life examples to make the concepts relatable and easier to understand.",
+      "derivation": "The normal distribution is derived from the central limit theorem, which states that the distribution of sample means approaches a normal distribution as the sample size increases."
+    },
+    "motivation": "Mastering these distributions empowers your teen to make informed predictions and decisions, a skill valuable in everyday life and many careers."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of probability distributions! In this lesson, we will explore two key types: normal and binomial distributions. These concepts help us understand how likely different outcomes are in various situations.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your teen will be able to distinguish between normal and binomial distributions and apply them to solve real-world problems.\n**Why it matters:** Understanding probability distributions is crucial because they are used in fields like finance, science, and even sports. They help us make predictions and decisions based on data.\n**Parent Tip:** Encourage your teen to visualize these distributions using graphs. Drawing can make abstract concepts more concrete.\n**Real-World Link:** Think of a normal distribution as the 'bell curve' seen in standardized test scores, while a binomial distribution helps us understand the likelihood of flipping a coin and getting heads multiple times.\n\n## Teaching Steps\n1. Introduce the concept of probability distributions.\n2. Explain the normal distribution and its 'bell curve' shape.\n3. Discuss the binomial distribution and its application to binary outcomes.\n4. Highlight differences between normal and binomial distributions.\n5. Use real-world examples to illustrate both distributions.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Today we're diving into probability distributions.  \n**Show/Do:** Show a simple graph of a normal distribution.  \n**Ask:** What does this shape remind you of?  \n**Reinforce:** This is called a 'bell curve' because of its shape.\n2. **Say:** Now, let's talk about the binomial distribution.  \n**Show/Do:** Illustrate flipping a coin multiple times.  \n**Ask:** What outcomes can we expect if we flip a coin 10 times?  \n**Reinforce:** Each flip is an independent event with two possible outcomes.\n3. **Say:** Both distributions help us predict outcomes.  \n**Show/Do:** Compare the graphs of normal and binomial distributions.  \n**Ask:** Can you see how they're different?  \n**Reinforce:** Normal is continuous, while binomial is discrete.\n4. **Say:** Let's connect this to real life.  \n**Show/Do:** Share an example of test scores following a normal distribution.  \n**Ask:** Why do you think test scores often form a bell curve?  \n**Reinforce:** Most people score around the average, with fewer at the extremes.\n5. **Say:** Binomial distributions are all around us too.  \n**Show/Do:** Discuss a scenario like a basketball player making free throws.  \n**Ask:** How likely is it for the player to make 5 out of 10 shots?  \n**Reinforce:** This is where the binomial distribution helps us calculate probabilities.\n\n## Practice Questions (Do It Together)\n**1. If you roll a fair six-sided die 10 times, what's the probability of rolling a '4' exactly 3 times?**\n<details><summary>Hint</summary>\nUse the binomial formula for probability: P(X=k) = C(n, k) * p^k * (1-p)^(n-k).\n</details>\n<details><summary>Answer</summary>\nApproximately 0.215.\n</details>\n\n**2. In a normal distribution, what percentage of data falls within one standard deviation from the mean?**\n<details><summary>Hint</summary>\nThink about the properties of the bell curve.\n</details>\n<details><summary>Answer</summary>\nApproximately 68%.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Normal distributions are continuous and often form a bell curve.\n- Binomial distributions are discrete and apply to scenarios with two outcomes.\n- Both distributions help us understand probabilities in different contexts.\n\n**Common Mistakes**\n- Confusing continuous normal distributions with discrete binomial distributions.\n- Assuming binomial distributions only apply to coin flips.\n- Forgetting that probabilities in a binomial distribution must add up to 1.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe normal distribution was discovered by Carl Friedrich Gauss and is sometimes called the Gaussian distribution.\n\n**Future topic connections**\n\nThese distributions are foundational in statistics and are used in fields like economics, psychology, and engineering.\n\n**Common misconceptions**\n\nA common misconception is that all data sets are normally distributed, which is not always true.\n\n**Teaching tips for parents**\n\nUse visual aids and real-life examples to make the concepts relatable and easier to understand.\n\n**More detail / derivation**\n\nThe normal distribution is derived from the central limit theorem, which states that the distribution of sample means approaches a normal distribution as the sample size increases.\n\n## Motivation\nMastering these distributions empowers your teen to make informed predictions and decisions, a skill valuable in everyday life and many careers."
+}

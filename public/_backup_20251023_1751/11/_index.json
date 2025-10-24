@@ -1,0 +1,89 @@
+{
+  "grade": "11",
+  "lessons": [
+    {
+      "slug": "complex-numbers-i-arithmetic",
+      "title": "Complex Numbers (i arithmetic)"
+    },
+    {
+      "slug": "conic-sections",
+      "title": "Conic Sections"
+    },
+    {
+      "slug": "conic-sections-parabola-ellipse-hyperbola",
+      "title": "Conic Sections (Parabola, Ellipse, Hyperbola)"
+    },
+    {
+      "slug": "exponential-logarithmic-functions-2ea2e0f9-9612-461a-8a3e-6c1aeb240e0a",
+      "title": "Exponential & Logarithmic Functions"
+    },
+    {
+      "slug": "exponential-logarithmic-functions-bff9bdd0-bc40-4e1b-9767-e8f96a9efd32",
+      "title": "Exponential & Logarithmic Functions"
+    },
+    {
+      "slug": "exponential-logarithmic-functions",
+      "title": "Exponential Logarithmic Functions"
+    },
+    {
+      "slug": "polynomial-functions-factoring-781538c9-9db4-438e-95d0-8719212533df",
+      "title": "Polynomial Functions & Factoring"
+    },
+    {
+      "slug": "polynomial-functions-factoring-d593af3e-a61f-4623-a2a6-8b6996164f1b",
+      "title": "Polynomial Functions & Factoring"
+    },
+    {
+      "slug": "polynomial-functions-factoring",
+      "title": "Polynomial Functions Factoring"
+    },
+    {
+      "slug": "probability-statistics-combinations-permutations",
+      "title": "Probability & Statistics (Combinations, Permutations)"
+    },
+    {
+      "slug": "probability-statistics-basics",
+      "title": "Probability & Statistics Basics"
+    },
+    {
+      "slug": "quadratic-functions-vertex-standard-factored",
+      "title": "Quadratic Functions (Vertex/Standard/Factored)"
+    },
+    {
+      "slug": "quadratic-functions-complex-numbers",
+      "title": "Quadratic Functions & Complex Numbers"
+    },
+    {
+      "slug": "rational-functions-asymptotes-44618287-1c3d-4d61-8bf1-9597ccdec404",
+      "title": "Rational Functions & Asymptotes"
+    },
+    {
+      "slug": "rational-functions-asymptotes-7445fe0c-95e5-4e44-bfba-0b792df19ffd",
+      "title": "Rational Functions & Asymptotes"
+    },
+    {
+      "slug": "rational-functions-asymptotes",
+      "title": "Rational Functions Asymptotes"
+    },
+    {
+      "slug": "sequences-series",
+      "title": "Sequences & Series"
+    },
+    {
+      "slug": "sequences-series-arithmetic-geometric-75a0c5b0-5078-406b-ad34-8238f724aa26",
+      "title": "Sequences & Series (Arithmetic/Geometric)"
+    },
+    {
+      "slug": "sequences-series-arithmetic-geometric",
+      "title": "Sequences Series Arithmetic Geometric"
+    },
+    {
+      "slug": "systems-non-linear-2-var-3-var",
+      "title": "Systems (Non-Linear, 2-var/3-var)"
+    },
+    {
+      "slug": "systems-of-non-linear-equations",
+      "title": "Systems of Non-Linear Equations"
+    }
+  ]
+}

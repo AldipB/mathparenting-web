@@ -1,0 +1,153 @@
+{
+  "grade": {
+    "id": "2c98cfe1-97c4-4532-84c5-49ae6fa96bbf",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "2940a1ea-50ce-432a-a13f-3d2367be284f",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "f140cb66-cebb-48e4-bd5a-d7290b5db01e",
+    "slug": "mixed-numbers-and-improper-fractions",
+    "title": "Understanding Mixed Numbers & Improper Fractions",
+    "summary": "Mixed numbers & improper fractions — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will confidently convert between mixed numbers and improper fractions, and understand their usage in real-world scenarios.\n\n**Why it matters:** This knowledge is crucial for problem-solving in math and everyday situations, like cooking or budgeting.\n\n**Parent Tip:** Encourage your child by using everyday examples like pizza slices or money to relate these fractions to something they see and use regularly.\n\n**Real-World Link:** Imagine you have 5 quarters. That's 1 whole dollar and a quarter, or 1.25 dollars, similar to saying 5/4 or 1 1/4.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Let's help your child navigate mixed numbers and improper fractions. These concepts are like different ways of expressing the same idea, much like how you can say 'one and a half hours' or '90 minutes'.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that a mixed number has a whole number and a fraction, like 1 3/4.\n2. Describe an improper fraction as a fraction where the numerator is larger than the denominator, like 7/4.\n3. Show how to convert a mixed number to an improper fraction by multiplying the whole number by the denominator, adding the numerator, and putting it over the original denominator.\n4. Demonstrate how to convert an improper fraction to a mixed number by dividing the numerator by the denominator to find the whole number, and using the remainder as the new numerator.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Convert 2 2/3 to an improper fraction.**\n_Answer:_ 8/3\n_Hint:_ Multiply 2 by 3, then add 2.\n\n**2. Convert 9/4 to a mixed number.**\n_Answer:_ 2 1/4\n_Hint:_ Divide 9 by 4.\n\n**3. Convert 1 1/5 to an improper fraction.**\n_Answer:_ 6/5\n_Hint:_ Multiply 1 by 5, then add 1.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to multiply the whole number by the denominator when converting to an improper fraction.\n- Confusing the roles of numerator and denominator.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine you have 5 quarters. That's 1 whole dollar and a quarter, or 1.25 dollars, similar to saying 5/4 or 1 1/4.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and convert between mixed numbers and improper fractions.",
+    "overview": "**Objective:** By the end of this lesson, your child will confidently convert between mixed numbers and improper fractions, and understand their usage in real-world scenarios.\n\n**Why it matters:** This knowledge is crucial for problem-solving in math and everyday situations, like cooking or budgeting.\n\n**Parent Tip:** Encourage your child by using everyday examples like pizza slices or money to relate these fractions to something they see and use regularly.\n\n**Real-World Link:** Imagine you have 5 quarters. That's 1 whole dollar and a quarter, or 1.25 dollars, similar to saying 5/4 or 1 1/4.",
+    "core": "Welcome! Let's help your child navigate mixed numbers and improper fractions. These concepts are like different ways of expressing the same idea, much like how you can say 'one and a half hours' or '90 minutes'.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever cut a pizza and ended up with a few extra slices? How do you describe that in fractions?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that a mixed number has a whole number and a fraction, like 1 3/4.\n2. Describe an improper fraction as a fraction where the numerator is larger than the denominator, like 7/4.\n3. Show how to convert a mixed number to an improper fraction by multiplying the whole number by the denominator, adding the numerator, and putting it over the original denominator.\n4. Demonstrate how to convert an improper fraction to a mixed number by dividing the numerator by the denominator to find the whole number, and using the remainder as the new numerator.",
+    "practice": "**1. Convert 2 2/3 to an improper fraction.**\n_Answer:_ 8/3\n_Hint:_ Multiply 2 by 3, then add 2.\n\n**2. Convert 9/4 to a mixed number.**\n_Answer:_ 2 1/4\n_Hint:_ Divide 9 by 4.\n\n**3. Convert 1 1/5 to an improper fraction.**\n_Answer:_ 6/5\n_Hint:_ Multiply 1 by 5, then add 1.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to multiply the whole number by the denominator when converting to an improper fraction.\n- Confusing the roles of numerator and denominator.",
+    "connection": "Imagine you have 5 quarters. That's 1 whole dollar and a quarter, or 1.25 dollars, similar to saying 5/4 or 1 1/4.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Mixed numbers & improper fractions** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How do mixed numbers and improper fractions help in everyday life?\n- How can you use these skills in future math topics?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Mixed Numbers & Improper Fractions",
+    "introduction": "Welcome to the world of mixed numbers and improper fractions! These concepts help us express quantities that are more than a whole but less than two wholes. Let’s explore how they work together and how you can help your child master them.",
+    "objective": "Help your child understand the relationship between mixed numbers and improper fractions, and how to convert between them.",
+    "why_matters": "Understanding mixed numbers and improper fractions is crucial for solving real-life problems, like measuring ingredients or dividing items among people.",
+    "parent_tip": "Start with real-world examples your child can relate to, like cutting a pizza or measuring ingredients for a recipe.",
+    "real_world_link": "Think about a pizza sliced into 8 pieces. If you have 9 slices, you have more than one pizza but less than two. This is where mixed numbers and improper fractions come in handy.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce what mixed numbers and improper fractions are.",
+      "Explain how to convert a mixed number to an improper fraction.",
+      "Show how to convert an improper fraction to a mixed number.",
+      "Practice both conversions with your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by understanding what a mixed number is.",
+        "do": "Draw a picture of 1 whole pizza and an additional half.",
+        "ask": "How many whole pizzas do you see and how many extra slices?",
+        "reinforce": "This is a mixed number: 1 and 1/2."
+      },
+      {
+        "say": "Now, let's turn that mixed number into an improper fraction.",
+        "do": "Show how to multiply the whole number by the denominator and add the numerator.",
+        "ask": "What do you get when you do this?",
+        "reinforce": "You get 3/2, which is an improper fraction."
+      },
+      {
+        "say": "Let's convert an improper fraction back to a mixed number.",
+        "do": "Take 7/4 and divide 7 by 4.",
+        "ask": "How many whole numbers fit into 7?",
+        "reinforce": "1 whole with 3 left over, so it's 1 and 3/4."
+      },
+      {
+        "say": "Try converting 11/3 to a mixed number.",
+        "do": "Divide 11 by 3.",
+        "ask": "What is the whole number and what's left over?",
+        "reinforce": "It's 3 and 2/3."
+      },
+      {
+        "say": "Practice makes perfect!",
+        "do": "Provide various examples for practice.",
+        "ask": "Can you convert these on your own?",
+        "reinforce": "Feel free to check your work by converting back."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Convert the mixed number 2 1/3 to an improper fraction.",
+        "hint": "Multiply the whole number by the denominator, add the numerator.",
+        "answer": "7/3"
+      },
+      {
+        "prompt": "Convert the improper fraction 9/2 to a mixed number.",
+        "hint": "Divide the numerator by the denominator.",
+        "answer": "4 1/2"
+      },
+      {
+        "prompt": "Convert the improper fraction 14/5 to a mixed number.",
+        "hint": "How many times does 5 fit into 14?",
+        "answer": "2 4/5"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Mixed numbers represent whole numbers and fractions combined.",
+      "Improper fractions have numerators larger than their denominators.",
+      "Converting between them helps in understanding and solving problems effectively."
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply the whole number by the denominator when converting to an improper fraction.",
+      "Incorrectly dividing the numerator by the denominator when converting to a mixed number."
+    ],
+    "deep_dive": {
+      "history": "Fractions have been used since ancient Egypt, where they represented parts of a whole using unit fractions.",
+      "connections": "Mixed numbers and improper fractions are used in algebra, geometry, and everyday calculations.",
+      "misconceptions": "A common misconception is thinking that improper fractions are incorrect because they 'don't look right'.",
+      "teaching_tips": "Use visual aids like fraction circles or bars to help visualize the concept.",
+      "derivation": "Improper fractions are derived by multiplying the whole part by the denominator and adding the numerator."
+    },
+    "motivation": "Mastering mixed numbers and improper fractions helps your child tackle a variety of math problems with confidence, setting a strong foundation for future math success."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of mixed numbers and improper fractions! These concepts help us express quantities that are more than a whole but less than two wholes. Let’s explore how they work together and how you can help your child master them.\n\n## Parent Orientation\n**Objective:** Help your child understand the relationship between mixed numbers and improper fractions, and how to convert between them.\n**Why it matters:** Understanding mixed numbers and improper fractions is crucial for solving real-life problems, like measuring ingredients or dividing items among people.\n**Parent Tip:** Start with real-world examples your child can relate to, like cutting a pizza or measuring ingredients for a recipe.\n**Real-World Link:** Think about a pizza sliced into 8 pieces. If you have 9 slices, you have more than one pizza but less than two. This is where mixed numbers and improper fractions come in handy.\n\n## Teaching Steps\n1. Introduce what mixed numbers and improper fractions are.\n2. Explain how to convert a mixed number to an improper fraction.\n3. Show how to convert an improper fraction to a mixed number.\n4. Practice both conversions with your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by understanding what a mixed number is.  \n**Show/Do:** Draw a picture of 1 whole pizza and an additional half.  \n**Ask:** How many whole pizzas do you see and how many extra slices?  \n**Reinforce:** This is a mixed number: 1 and 1/2.\n2. **Say:** Now, let's turn that mixed number into an improper fraction.  \n**Show/Do:** Show how to multiply the whole number by the denominator and add the numerator.  \n**Ask:** What do you get when you do this?  \n**Reinforce:** You get 3/2, which is an improper fraction.\n3. **Say:** Let's convert an improper fraction back to a mixed number.  \n**Show/Do:** Take 7/4 and divide 7 by 4.  \n**Ask:** How many whole numbers fit into 7?  \n**Reinforce:** 1 whole with 3 left over, so it's 1 and 3/4.\n4. **Say:** Try converting 11/3 to a mixed number.  \n**Show/Do:** Divide 11 by 3.  \n**Ask:** What is the whole number and what's left over?  \n**Reinforce:** It's 3 and 2/3.\n5. **Say:** Practice makes perfect!  \n**Show/Do:** Provide various examples for practice.  \n**Ask:** Can you convert these on your own?  \n**Reinforce:** Feel free to check your work by converting back.\n\n## Practice Questions (Do It Together)\n**1. Convert the mixed number 2 1/3 to an improper fraction.**\n<details><summary>Hint</summary>\nMultiply the whole number by the denominator, add the numerator.\n</details>\n<details><summary>Answer</summary>\n7/3\n</details>\n\n**2. Convert the improper fraction 9/2 to a mixed number.**\n<details><summary>Hint</summary>\nDivide the numerator by the denominator.\n</details>\n<details><summary>Answer</summary>\n4 1/2\n</details>\n\n**3. Convert the improper fraction 14/5 to a mixed number.**\n<details><summary>Hint</summary>\nHow many times does 5 fit into 14?\n</details>\n<details><summary>Answer</summary>\n2 4/5\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Mixed numbers represent whole numbers and fractions combined.\n- Improper fractions have numerators larger than their denominators.\n- Converting between them helps in understanding and solving problems effectively.\n\n**Common Mistakes**\n- Forgetting to multiply the whole number by the denominator when converting to an improper fraction.\n- Incorrectly dividing the numerator by the denominator when converting to a mixed number.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFractions have been used since ancient Egypt, where they represented parts of a whole using unit fractions.\n\n**Future topic connections**\n\nMixed numbers and improper fractions are used in algebra, geometry, and everyday calculations.\n\n**Common misconceptions**\n\nA common misconception is thinking that improper fractions are incorrect because they 'don't look right'.\n\n**Teaching tips for parents**\n\nUse visual aids like fraction circles or bars to help visualize the concept.\n\n**More detail / derivation**\n\nImproper fractions are derived by multiplying the whole part by the denominator and adding the numerator.\n\n## Motivation\nMastering mixed numbers and improper fractions helps your child tackle a variety of math problems with confidence, setting a strong foundation for future math success."
+}

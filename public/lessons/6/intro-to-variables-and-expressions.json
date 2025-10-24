@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "e89e600f-991b-4950-a848-05963d31d7d1",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "bb918a33-cc22-4274-bf2e-9b0c51b873c2",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "5bd9bc05-d994-4f10-8e75-00d750a8a31b",
+    "slug": "intro-to-variables-and-expressions",
+    "title": "Intro to Variables & Expressions",
+    "summary": "Intro to variables & expressions — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand how to use variables and expressions to solve problems.\n\n**Why it matters:** Understanding variables is crucial as it forms the foundation for algebra, helping your child solve real-life problems with unknowns.\n\n**Parent Tip:** Encourage your child to think of variables as mystery numbers that they can solve using clues from the math problems.\n\n**Real-World Link:** Variables are like the ingredients in a recipe. Just as you need a certain amount of each ingredient to make a dish, variables can represent quantities needed to complete a task.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore how variables and expressions work in math. Think of variables as placeholders for numbers, similar to how a grocery list holds the place for items you need.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that a variable is a symbol, usually a letter, that stands in for a number we don't know yet.\n2. Show how expressions are like math sentences that use variables to represent numbers.\n3. Use simple examples like x + 3 = 7 to demonstrate how to solve for the variable.\n4. Encourage your child to substitute different numbers for the variable to see how it changes the expression.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Solve for x: x + 5 = 12**\n_Answer:_ x = 7\n_Hint:_ Think about what number plus 5 equals 12.\n\n**2. If y - 4 = 10, what is y?**\n_Answer:_ y = 14\n_Hint:_ Add 4 to both sides to find y.\n\n**3. Find z in the expression 3z = 21.**\n_Answer:_ z = 7\n_Hint:_ Divide both sides by 3 to solve for z.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing variables with constants.\n- Forgetting to perform the same operation on both sides of an equation.\n- Mixing up different variables in a problem.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Variables are like the ingredients in a recipe. Just as you need a certain amount of each ingredient to make a dish, variables can represent quantities needed to complete a task.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand variables and expressions as building blocks of algebra.",
+    "overview": "**Objective:** Help your child understand how to use variables and expressions to solve problems.\n\n**Why it matters:** Understanding variables is crucial as it forms the foundation for algebra, helping your child solve real-life problems with unknowns.\n\n**Parent Tip:** Encourage your child to think of variables as mystery numbers that they can solve using clues from the math problems.\n\n**Real-World Link:** Variables are like the ingredients in a recipe. Just as you need a certain amount of each ingredient to make a dish, variables can represent quantities needed to complete a task.",
+    "core": "Welcome! Today, we'll explore how variables and expressions work in math. Think of variables as placeholders for numbers, similar to how a grocery list holds the place for items you need.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how math can help us solve mysteries? Variables are like the clues that help us find unknowns!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that a variable is a symbol, usually a letter, that stands in for a number we don't know yet.\n2. Show how expressions are like math sentences that use variables to represent numbers.\n3. Use simple examples like x + 3 = 7 to demonstrate how to solve for the variable.\n4. Encourage your child to substitute different numbers for the variable to see how it changes the expression.",
+    "practice": "**1. Solve for x: x + 5 = 12**\n_Answer:_ x = 7\n_Hint:_ Think about what number plus 5 equals 12.\n\n**2. If y - 4 = 10, what is y?**\n_Answer:_ y = 14\n_Hint:_ Add 4 to both sides to find y.\n\n**3. Find z in the expression 3z = 21.**\n_Answer:_ z = 7\n_Hint:_ Divide both sides by 3 to solve for z.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing variables with constants.\n- Forgetting to perform the same operation on both sides of an equation.\n- Mixing up different variables in a problem.",
+    "connection": "Variables are like the ingredients in a recipe. Just as you need a certain amount of each ingredient to make a dish, variables can represent quantities needed to complete a task.",
+    "close": "**Key Takeaways**\n- Variables represent unknown values.\n- Expressions can include variables and help us solve problems.\n- Real-world contexts make variables relatable.\n\n**Parent Reflection Questions**\n- What real-life situations can we use to practice variables?\n- How can we ensure understanding before moving on to equations?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Intro to Variables & Expressions",
+    "introduction": "Welcome to the fascinating world of variables and expressions, where letters become numbers' best friends! As your child begins this journey, they'll discover how variables can transform math into a powerful tool for problem-solving.",
+    "objective": "To help your child understand variables and expressions, and how to use them to represent mathematical ideas.",
+    "why_matters": "Grasping variables and expressions is crucial because they form the foundation for algebra, which your child will encounter frequently in higher grades and in real-world problem-solving.",
+    "parent_tip": "Encourage your child to think of variables as placeholders that can be replaced with numbers. This helps in understanding that math is more than just numbers—it's about ideas and relationships.",
+    "real_world_link": "Variables are like mystery boxes in a game. You don't know what's inside until you open them, much like how variables hold different values in math problems.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain what a variable is using simple, relatable examples.",
+      "Show how variables can be used in expressions to represent numbers.",
+      "Practice substituting numbers for variables in simple expressions.",
+      "Discuss why using variables makes solving problems easier.",
+      "Reinforce the concept with real-world examples like calculating the total cost of items."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about variables. Imagine a box that can hold any number you put inside.",
+        "do": "Draw a box and write a letter inside it, like 'x'.",
+        "ask": "What do you think this box can do?",
+        "reinforce": "That's right, 'x' can be any number we decide it to be."
+      },
+      {
+        "say": "Now, let's make an expression. If x is 3, what is x + 2?",
+        "do": "Write 'x + 2' on a piece of paper.",
+        "ask": "If x is 3, can you solve it?",
+        "reinforce": "Great! x + 2 becomes 3 + 2, which equals 5."
+      },
+      {
+        "say": "Variables help us solve problems more easily.",
+        "do": "Write 'x + y = 10' and say x is 4.",
+        "ask": "What does y have to be?",
+        "reinforce": "If x is 4, then y must be 6 to make the equation true."
+      },
+      {
+        "say": "Let's try another one: 2x = 8.",
+        "do": "Write '2x = 8'.",
+        "ask": "What should x be to make this true?",
+        "reinforce": "Correct! x must be 4 because 2 times 4 equals 8."
+      },
+      {
+        "say": "Variables can be used in real life.",
+        "do": "Talk about buying 'x' apples at 2 dollars each.",
+        "ask": "If x is 5, how much would it cost?",
+        "reinforce": "That's right, it would cost 10 dollars."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Solve for x: x + 5 = 12",
+        "hint": "Subtract 5 from both sides.",
+        "answer": "x = 7"
+      },
+      {
+        "prompt": "If y - 3 = 4, what is y?",
+        "hint": "Add 3 to both sides.",
+        "answer": "y = 7"
+      },
+      {
+        "prompt": "Find z: 3z = 15",
+        "hint": "Divide both sides by 3.",
+        "answer": "z = 5"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Variables are symbols like x or y that can represent numbers.",
+      "Expressions combine variables and numbers to show a value.",
+      "Understanding variables helps solve complex problems easily."
+    ],
+    "common_mistakes": [
+      "Confusing the variable with a specific number.",
+      "Forgetting to apply operations to both sides of an equation.",
+      "Misplacing operations when substituting values for variables."
+    ],
+    "deep_dive": {
+      "history": "The concept of variables has been around since ancient algebra, which used letters to stand in for unknown numbers.",
+      "connections": "Variables are crucial in subjects like science and computer programming, where they help model real-world situations.",
+      "misconceptions": "Some students think variables can only be one specific number, but they can represent many possibilities.",
+      "teaching_tips": "Use games and puzzles to show how variables work, making the learning process engaging and fun.",
+      "derivation": "Variables derive from the Latin word 'variabilis', meaning changeable, highlighting their flexible nature in math."
+    },
+    "motivation": "Understanding variables and expressions opens up a world of possibilities, making math not just about numbers, but about solving real-world problems creatively!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of variables and expressions, where letters become numbers' best friends! As your child begins this journey, they'll discover how variables can transform math into a powerful tool for problem-solving.\n\n## Parent Orientation\n**Objective:** To help your child understand variables and expressions, and how to use them to represent mathematical ideas.\n**Why it matters:** Grasping variables and expressions is crucial because they form the foundation for algebra, which your child will encounter frequently in higher grades and in real-world problem-solving.\n**Parent Tip:** Encourage your child to think of variables as placeholders that can be replaced with numbers. This helps in understanding that math is more than just numbers—it's about ideas and relationships.\n**Real-World Link:** Variables are like mystery boxes in a game. You don't know what's inside until you open them, much like how variables hold different values in math problems.\n\n## Teaching Steps\n1. Explain what a variable is using simple, relatable examples.\n2. Show how variables can be used in expressions to represent numbers.\n3. Practice substituting numbers for variables in simple expressions.\n4. Discuss why using variables makes solving problems easier.\n5. Reinforce the concept with real-world examples like calculating the total cost of items.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about variables. Imagine a box that can hold any number you put inside.  \n**Show/Do:** Draw a box and write a letter inside it, like 'x'.  \n**Ask:** What do you think this box can do?  \n**Reinforce:** That's right, 'x' can be any number we decide it to be.\n2. **Say:** Now, let's make an expression. If x is 3, what is x + 2?  \n**Show/Do:** Write 'x + 2' on a piece of paper.  \n**Ask:** If x is 3, can you solve it?  \n**Reinforce:** Great! x + 2 becomes 3 + 2, which equals 5.\n3. **Say:** Variables help us solve problems more easily.  \n**Show/Do:** Write 'x + y = 10' and say x is 4.  \n**Ask:** What does y have to be?  \n**Reinforce:** If x is 4, then y must be 6 to make the equation true.\n4. **Say:** Let's try another one: 2x = 8.  \n**Show/Do:** Write '2x = 8'.  \n**Ask:** What should x be to make this true?  \n**Reinforce:** Correct! x must be 4 because 2 times 4 equals 8.\n5. **Say:** Variables can be used in real life.  \n**Show/Do:** Talk about buying 'x' apples at 2 dollars each.  \n**Ask:** If x is 5, how much would it cost?  \n**Reinforce:** That's right, it would cost 10 dollars.\n\n## Practice Questions (Do It Together)\n**1. Solve for x: x + 5 = 12**\n<details><summary>Hint</summary>\nSubtract 5 from both sides.\n</details>\n<details><summary>Answer</summary>\nx = 7\n</details>\n\n**2. If y - 3 = 4, what is y?**\n<details><summary>Hint</summary>\nAdd 3 to both sides.\n</details>\n<details><summary>Answer</summary>\ny = 7\n</details>\n\n**3. Find z: 3z = 15**\n<details><summary>Hint</summary>\nDivide both sides by 3.\n</details>\n<details><summary>Answer</summary>\nz = 5\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Variables are symbols like x or y that can represent numbers.\n- Expressions combine variables and numbers to show a value.\n- Understanding variables helps solve complex problems easily.\n\n**Common Mistakes**\n- Confusing the variable with a specific number.\n- Forgetting to apply operations to both sides of an equation.\n- Misplacing operations when substituting values for variables.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of variables has been around since ancient algebra, which used letters to stand in for unknown numbers.\n\n**Future topic connections**\n\nVariables are crucial in subjects like science and computer programming, where they help model real-world situations.\n\n**Common misconceptions**\n\nSome students think variables can only be one specific number, but they can represent many possibilities.\n\n**Teaching tips for parents**\n\nUse games and puzzles to show how variables work, making the learning process engaging and fun.\n\n**More detail / derivation**\n\nVariables derive from the Latin word 'variabilis', meaning changeable, highlighting their flexible nature in math.\n\n## Motivation\nUnderstanding variables and expressions opens up a world of possibilities, making math not just about numbers, but about solving real-world problems creatively!"
+}

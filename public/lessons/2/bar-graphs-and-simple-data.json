@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "a8363d9f-44a7-4843-a645-23a6b6953dc1",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "dbc27d2f-e0a8-4b70-affc-b8dadab85b92",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "3654a828-2360-42de-8b0f-b434eb9c25ef",
+    "slug": "bar-graphs-and-simple-data",
+    "title": "Bar Graphs & Simple Data: A Fun Way to Organize Information",
+    "summary": "Bar graphs & simple data — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to create and interpret simple bar graphs, making data both fun and accessible.\n\n**Why it matters:** Bar graphs are like picture stories for numbers. They help us see information clearly and make comparisons quickly, skills that are useful in school and beyond.\n\n**Parent Tip:** Encourage your child to relate bar graphs to things they love, like comparing the number of apples and oranges in the fruit bowl.\n\n**Real-World Link:** Think about a birthday party: bar graphs can show favorite cake flavors among friends, turning choices into a visual treat!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the colorful world of bar graphs, where we turn numbers into pictures! This lesson will help your child organize information in a way that's easy to see and understand.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of data by discussing favorite fruits or colors.\n2. Explain that bar graphs use bars to show the number of items in each category.\n3. Show how each bar's height represents the quantity of items.\n4. Create a simple bar graph together using real objects like toys or snacks.\n5. Discuss how to read a bar graph: look at the category, then see how tall the bar is.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Draw a bar graph to show 3 apples, 5 bananas, and 2 oranges.**\n_Answer:_ A graph with three bars: apple bar reaching 3, banana bar reaching 5, and orange bar reaching 2.\n_Hint:_ Use one bar for each fruit and make sure the heights match the numbers.\n\n**2. Which fruit is the least popular if apples have 4, bananas 6, and grapes 2?**\n_Answer:_ Grapes are the least popular with a bar height of 2.\n_Hint:_ Look for the shortest bar.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to label the graph, making it hard to understand.\n- Not aligning bar heights with the correct numbers.\n- Ignoring the gaps between bars, which can clutter the graph.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a birthday party: bar graphs can show favorite cake flavors among friends, turning choices into a visual treat!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and create simple bar graphs to organize data.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to create and interpret simple bar graphs, making data both fun and accessible.\n\n**Why it matters:** Bar graphs are like picture stories for numbers. They help us see information clearly and make comparisons quickly, skills that are useful in school and beyond.\n\n**Parent Tip:** Encourage your child to relate bar graphs to things they love, like comparing the number of apples and oranges in the fruit bowl.\n\n**Real-World Link:** Think about a birthday party: bar graphs can show favorite cake flavors among friends, turning choices into a visual treat!",
+    "core": "Welcome to the colorful world of bar graphs, where we turn numbers into pictures! This lesson will help your child organize information in a way that's easy to see and understand.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child if they've ever wondered how to show their favorite ice cream flavors in a fun way that everyone can understand at a glance.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the concept of data by discussing favorite fruits or colors.\n2. Explain that bar graphs use bars to show the number of items in each category.\n3. Show how each bar's height represents the quantity of items.\n4. Create a simple bar graph together using real objects like toys or snacks.\n5. Discuss how to read a bar graph: look at the category, then see how tall the bar is.",
+    "practice": "**1. Draw a bar graph to show 3 apples, 5 bananas, and 2 oranges.**\n_Answer:_ A graph with three bars: apple bar reaching 3, banana bar reaching 5, and orange bar reaching 2.\n_Hint:_ Use one bar for each fruit and make sure the heights match the numbers.\n\n**2. Which fruit is the least popular if apples have 4, bananas 6, and grapes 2?**\n_Answer:_ Grapes are the least popular with a bar height of 2.\n_Hint:_ Look for the shortest bar.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to label the graph, making it hard to understand.\n- Not aligning bar heights with the correct numbers.\n- Ignoring the gaps between bars, which can clutter the graph.",
+    "connection": "Think about a birthday party: bar graphs can show favorite cake flavors among friends, turning choices into a visual treat!",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Bar graphs & simple data** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- What did your child find easy or challenging about creating bar graphs?\n- How can you use bar graphs in everyday decisions?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Bar Graphs & Simple Data: A Fun Way to Organize Information",
+    "introduction": "Welcome to the world of bar graphs! These colorful charts make it easy for kids to understand and organize information visually. Let's explore how your child can enjoy learning about data using bar graphs.",
+    "objective": "Help your child understand how to read and create simple bar graphs to organize and interpret data.",
+    "why_matters": "Bar graphs are a fantastic way for children to learn how to compare quantities and see patterns in data. This skill will be useful in math and in understanding real-world information.",
+    "parent_tip": "Use everyday items like toys or snacks to create fun, relatable data sets for your child to organize into bar graphs.",
+    "real_world_link": "Bar graphs are used everywhere—from showing weather trends to comparing scores in sports. They help us make sense of numbers quickly and easily.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce what a bar graph is and its basic components: title, axis labels, and bars.",
+      "Explain how each bar represents a quantity, and the height shows how much or how many.",
+      "Show your child how to read the data by looking at the height of the bars.",
+      "Guide your child in creating a simple bar graph using objects they love, like counting different colored candies or toys.",
+      "Discuss how to interpret the information shown in the graph."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's learn about bar graphs today!",
+        "do": "Show your child a simple bar graph example.",
+        "ask": "What do you notice about this graph?",
+        "reinforce": "Bar graphs are a fun way to see and compare data easily."
+      },
+      {
+        "say": "Each bar in a graph shows a number of things.",
+        "do": "Point to a bar and read its value.",
+        "ask": "Can you tell me what this bar shows?",
+        "reinforce": "The taller the bar, the more it represents!"
+      },
+      {
+        "say": "Let's make our own bar graph using your toys.",
+        "do": "Gather a few different types of toys and count them.",
+        "ask": "How many of each toy do we have?",
+        "reinforce": "We can use these numbers to create our bar graph."
+      },
+      {
+        "say": "Now, let's draw the bars for each toy type.",
+        "do": "Help your child draw the bars on paper.",
+        "ask": "Which toy has the tallest bar?",
+        "reinforce": "You did great! Now we can see which toy you have the most of."
+      },
+      {
+        "say": "Bar graphs help us answer questions quickly.",
+        "do": "Ask questions related to the graph, like 'Which toy is the least?'",
+        "ask": "How can we tell just by looking?",
+        "reinforce": "You can read graphs just like a pro!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you have 5 apples, 3 bananas, and 2 oranges, how would the bar graph look?",
+        "hint": "Draw bars of different heights for each fruit.",
+        "answer": "A bar graph with bars of heights 5, 3, and 2 for apples, bananas, and oranges respectively."
+      },
+      {
+        "prompt": "Which item has the tallest bar if you have 4 red cars, 6 blue cars, and 3 green cars?",
+        "hint": "Look for the highest number.",
+        "answer": "The blue cars have the tallest bar."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Bar graphs are useful for organizing and comparing data.",
+      "Each bar represents a quantity, and its height shows how much or how many.",
+      "Creating bar graphs can be a fun activity using everyday items."
+    ],
+    "common_mistakes": [
+      "Forgetting to label the axes, making it hard to understand what the bars represent.",
+      "Not starting the bars at the same baseline, which can mislead the data interpretation."
+    ],
+    "deep_dive": {
+      "history": "Bar graphs were popularized by William Playfair in the 18th century as a way to present economic data.",
+      "connections": "Bar graphs are related to other visual data representations like line graphs and pie charts.",
+      "misconceptions": "Some might think bar graphs are only for numbers, but they can represent any data that can be counted.",
+      "teaching_tips": "Encourage your child to use different colors for each bar to make the graph more engaging.",
+      "derivation": "Bar graphs are derived from the need to visually compare discrete data points easily."
+    },
+    "motivation": "Understanding bar graphs is a stepping stone to more complex data analysis skills that your child will use in their academic journey and beyond."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of bar graphs! These colorful charts make it easy for kids to understand and organize information visually. Let's explore how your child can enjoy learning about data using bar graphs.\n\n## Parent Orientation\n**Objective:** Help your child understand how to read and create simple bar graphs to organize and interpret data.\n**Why it matters:** Bar graphs are a fantastic way for children to learn how to compare quantities and see patterns in data. This skill will be useful in math and in understanding real-world information.\n**Parent Tip:** Use everyday items like toys or snacks to create fun, relatable data sets for your child to organize into bar graphs.\n**Real-World Link:** Bar graphs are used everywhere—from showing weather trends to comparing scores in sports. They help us make sense of numbers quickly and easily.\n\n## Teaching Steps\n1. Introduce what a bar graph is and its basic components: title, axis labels, and bars.\n2. Explain how each bar represents a quantity, and the height shows how much or how many.\n3. Show your child how to read the data by looking at the height of the bars.\n4. Guide your child in creating a simple bar graph using objects they love, like counting different colored candies or toys.\n5. Discuss how to interpret the information shown in the graph.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's learn about bar graphs today!  \n**Show/Do:** Show your child a simple bar graph example.  \n**Ask:** What do you notice about this graph?  \n**Reinforce:** Bar graphs are a fun way to see and compare data easily.\n2. **Say:** Each bar in a graph shows a number of things.  \n**Show/Do:** Point to a bar and read its value.  \n**Ask:** Can you tell me what this bar shows?  \n**Reinforce:** The taller the bar, the more it represents!\n3. **Say:** Let's make our own bar graph using your toys.  \n**Show/Do:** Gather a few different types of toys and count them.  \n**Ask:** How many of each toy do we have?  \n**Reinforce:** We can use these numbers to create our bar graph.\n4. **Say:** Now, let's draw the bars for each toy type.  \n**Show/Do:** Help your child draw the bars on paper.  \n**Ask:** Which toy has the tallest bar?  \n**Reinforce:** You did great! Now we can see which toy you have the most of.\n5. **Say:** Bar graphs help us answer questions quickly.  \n**Show/Do:** Ask questions related to the graph, like 'Which toy is the least?'  \n**Ask:** How can we tell just by looking?  \n**Reinforce:** You can read graphs just like a pro!\n\n## Practice Questions (Do It Together)\n**1. If you have 5 apples, 3 bananas, and 2 oranges, how would the bar graph look?**\n<details><summary>Hint</summary>\nDraw bars of different heights for each fruit.\n</details>\n<details><summary>Answer</summary>\nA bar graph with bars of heights 5, 3, and 2 for apples, bananas, and oranges respectively.\n</details>\n\n**2. Which item has the tallest bar if you have 4 red cars, 6 blue cars, and 3 green cars?**\n<details><summary>Hint</summary>\nLook for the highest number.\n</details>\n<details><summary>Answer</summary>\nThe blue cars have the tallest bar.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Bar graphs are useful for organizing and comparing data.\n- Each bar represents a quantity, and its height shows how much or how many.\n- Creating bar graphs can be a fun activity using everyday items.\n\n**Common Mistakes**\n- Forgetting to label the axes, making it hard to understand what the bars represent.\n- Not starting the bars at the same baseline, which can mislead the data interpretation.\n\n## 🔍 Deep Dive\n**History or origin**\n\nBar graphs were popularized by William Playfair in the 18th century as a way to present economic data.\n\n**Future topic connections**\n\nBar graphs are related to other visual data representations like line graphs and pie charts.\n\n**Common misconceptions**\n\nSome might think bar graphs are only for numbers, but they can represent any data that can be counted.\n\n**Teaching tips for parents**\n\nEncourage your child to use different colors for each bar to make the graph more engaging.\n\n**More detail / derivation**\n\nBar graphs are derived from the need to visually compare discrete data points easily.\n\n## Motivation\nUnderstanding bar graphs is a stepping stone to more complex data analysis skills that your child will use in their academic journey and beyond."
+}

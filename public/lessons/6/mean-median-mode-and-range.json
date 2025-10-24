@@ -1,0 +1,157 @@
+{
+  "grade": {
+    "id": "04d717d7-b41d-4bca-9d66-0714a8187267",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "6240610a-277a-4136-9429-b6fc3eb2f2d9",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8c9d8f8f-95a2-4375-bb0f-40d91e236911",
+    "slug": "mean-median-mode-and-range",
+    "title": "Understanding Mean, Median, Mode & Range",
+    "summary": "Mean, median, mode & range — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, you'll be able to calculate and interpret the mean, median, mode, and range of a dataset.\n\n**Why it matters:** These concepts help us make sense of data, whether it's finding the average score on a test or knowing the most common shoe size. They're tools for decision-making and understanding trends.\n\n**Parent Tip:** Encourage your child to use these statistics terms in daily life. For example, discuss the average time spent on homework or the most frequent dinner choice in your family.\n\n**Real-World Link:** Imagine you're planning a family trip and want to know the typical weather. Mean, median, mode, and range help you understand temperature patterns to pack appropriately.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of statistics! In this lesson, we'll help you understand how to find the mean, median, mode, and range of a set of numbers—skills that can make everyday decisions easier.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a small set of numbers. Discuss what each term (mean, median, mode, range) means.\n2. Calculate the mean by adding all numbers and dividing by the count of numbers.\n3. Identify the median by organizing numbers from smallest to largest and finding the middle one.\n4. Find the mode by identifying the number that appears most frequently.\n5. Determine the range by subtracting the smallest number from the largest.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the mean of 5, 8, 12, 15.**\n_Answer:_ 10\n_Hint:_ Add the numbers and divide by 4.\n\n**2. What is the median of 7, 3, 9?**\n_Answer:_ 7\n_Hint:_ Order them: 3, 7, 9. Find the middle.\n\n**3. Identify the mode in 4, 4, 5, 7, 8.**\n_Answer:_ 4\n_Hint:_ Look for the number that appears most.\n\n**4. Calculate the range of 10, 2, 8, 6.**\n_Answer:_ 8\n_Hint:_ Subtract the smallest from the largest.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to order numbers when finding the median.\n- Not checking for multiple modes.\n- Confusing mean with median.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine you're planning a family trip and want to know the typical weather. Mean, median, mode, and range help you understand temperature patterns to pack appropriately.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and calculate the mean, median, mode, and range of a set of numbers.",
+    "overview": "**Objective:** By the end of this lesson, you'll be able to calculate and interpret the mean, median, mode, and range of a dataset.\n\n**Why it matters:** These concepts help us make sense of data, whether it's finding the average score on a test or knowing the most common shoe size. They're tools for decision-making and understanding trends.\n\n**Parent Tip:** Encourage your child to use these statistics terms in daily life. For example, discuss the average time spent on homework or the most frequent dinner choice in your family.\n\n**Real-World Link:** Imagine you're planning a family trip and want to know the typical weather. Mean, median, mode, and range help you understand temperature patterns to pack appropriately.",
+    "core": "Welcome to the world of statistics! In this lesson, we'll help you understand how to find the mean, median, mode, and range of a set of numbers—skills that can make everyday decisions easier.",
+    "demo": "**Spark Curiosity:**\n\nImagine if you could pick one number to describe how your week went. Would it be an average of all your activities, the most frequent one, or something else?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a small set of numbers. Discuss what each term (mean, median, mode, range) means.\n2. Calculate the mean by adding all numbers and dividing by the count of numbers.\n3. Identify the median by organizing numbers from smallest to largest and finding the middle one.\n4. Find the mode by identifying the number that appears most frequently.\n5. Determine the range by subtracting the smallest number from the largest.",
+    "practice": "**1. Find the mean of 5, 8, 12, 15.**\n_Answer:_ 10\n_Hint:_ Add the numbers and divide by 4.\n\n**2. What is the median of 7, 3, 9?**\n_Answer:_ 7\n_Hint:_ Order them: 3, 7, 9. Find the middle.\n\n**3. Identify the mode in 4, 4, 5, 7, 8.**\n_Answer:_ 4\n_Hint:_ Look for the number that appears most.\n\n**4. Calculate the range of 10, 2, 8, 6.**\n_Answer:_ 8\n_Hint:_ Subtract the smallest from the largest.",
+    "mistakes": "- Forgetting to order numbers when finding the median.\n- Not checking for multiple modes.\n- Confusing mean with median.",
+    "connection": "Imagine you're planning a family trip and want to know the typical weather. Mean, median, mode, and range help you understand temperature patterns to pack appropriately.",
+    "close": "**Key Takeaways**\n- Mean helps us find an average value.\n- Median shows the middle value in an ordered set.\n- Mode indicates the most frequent number.\n- Range provides the spread of the data.\n\n**Parent Reflection Questions**\n- How can you use these concepts in daily life?\n- What did you find easy or challenging about these calculations?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Mean, Median, Mode & Range",
+    "introduction": "Welcome to a fun exploration of mean, median, mode, and range! These are important concepts that help us understand data better.",
+    "objective": "Help your child learn how to calculate and interpret mean, median, mode, and range in a set of numbers.",
+    "why_matters": "These concepts are foundational for understanding data in various fields like science, economics, and everyday decision-making.",
+    "parent_tip": "Use everyday situations like grocery shopping or sports scores to make these concepts relatable for your child.",
+    "real_world_link": "When planning a family dinner, you might want to know the average cost of ingredients. That's where calculating the mean can be handy!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce each concept one at a time.",
+      "Use simple examples to explain each term.",
+      "Encourage your child to practice with real-world data.",
+      "Discuss the importance of each concept in decision-making.",
+      "Compare and contrast the terms to solidify understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with the mean.",
+        "do": "Show your child a list of numbers, like the ages of family members: 8, 10, 12, 14.",
+        "ask": "Can you add these numbers together and then divide by how many numbers there are?",
+        "reinforce": "Great! The mean is the average age in our family."
+      },
+      {
+        "say": "Now, let's find the median.",
+        "do": "Arrange the numbers in order: 8, 10, 12, 14.",
+        "ask": "Which number is in the middle?",
+        "reinforce": "Correct! The median is the middle value when the numbers are in order."
+      },
+      {
+        "say": "Next, let's talk about the mode.",
+        "do": "Use a new set of numbers: 3, 3, 6, 9.",
+        "ask": "Which number appears most often?",
+        "reinforce": "Yes! The mode is the number that occurs most frequently."
+      },
+      {
+        "say": "Finally, let's look at the range.",
+        "do": "Use the same numbers: 3, 3, 6, 9.",
+        "ask": "Can you subtract the smallest number from the largest?",
+        "reinforce": "Right! The range shows the difference between the highest and lowest numbers."
+      },
+      {
+        "say": "Let's put it all together.",
+        "do": "Review each concept with a new set of numbers: 5, 7, 8, 10, 12.",
+        "ask": "Can you find the mean, median, mode, and range?",
+        "reinforce": "Great job! You've learned how to handle data like a pro."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the mean of 4, 8, 6, 10.",
+        "hint": "Add the numbers and divide by 4.",
+        "answer": "7"
+      },
+      {
+        "prompt": "What is the median of 3, 9, 2, 7, 5?",
+        "hint": "Arrange the numbers in order and find the middle one.",
+        "answer": "5"
+      },
+      {
+        "prompt": "Identify the mode in 2, 4, 4, 5, 7.",
+        "hint": "Look for the number that appears most often.",
+        "answer": "4"
+      },
+      {
+        "prompt": "Calculate the range of 15, 22, 9, 30.",
+        "hint": "Subtract the smallest number from the largest.",
+        "answer": "21"
+      }
+    ],
+    "recap": [
+      "Mean is the average of a set of numbers.",
+      "Median is the middle value when numbers are in order.",
+      "Mode is the number that appears most often.",
+      "Range is the difference between the largest and smallest numbers."
+    ],
+    "common_mistakes": [
+      "Confusing mean with median.",
+      "Forgetting to arrange numbers in order when finding the median.",
+      "Thinking mode is the same as frequency.",
+      "Mixing up the process for calculating range."
+    ],
+    "deep_dive": {
+      "history": "The concepts of mean, median, mode, and range have been used for centuries in statistics and data analysis.",
+      "connections": "These concepts connect to probability, statistics, and data science.",
+      "misconceptions": "A common misconception is that all data sets have a mode, which isn't true if no number repeats.",
+      "teaching_tips": "Use visuals like number lines and charts to help illustrate these concepts.",
+      "derivation": "These concepts are derived from basic arithmetic and help summarize data sets."
+    },
+    "motivation": "Understanding how to analyze data can empower your child to make informed decisions in their daily life and future studies."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun exploration of mean, median, mode, and range! These are important concepts that help us understand data better.\n\n## Parent Orientation\n**Objective:** Help your child learn how to calculate and interpret mean, median, mode, and range in a set of numbers.\n**Why it matters:** These concepts are foundational for understanding data in various fields like science, economics, and everyday decision-making.\n**Parent Tip:** Use everyday situations like grocery shopping or sports scores to make these concepts relatable for your child.\n**Real-World Link:** When planning a family dinner, you might want to know the average cost of ingredients. That's where calculating the mean can be handy!\n\n## Teaching Steps\n1. Introduce each concept one at a time.\n2. Use simple examples to explain each term.\n3. Encourage your child to practice with real-world data.\n4. Discuss the importance of each concept in decision-making.\n5. Compare and contrast the terms to solidify understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with the mean.  \n**Show/Do:** Show your child a list of numbers, like the ages of family members: 8, 10, 12, 14.  \n**Ask:** Can you add these numbers together and then divide by how many numbers there are?  \n**Reinforce:** Great! The mean is the average age in our family.\n2. **Say:** Now, let's find the median.  \n**Show/Do:** Arrange the numbers in order: 8, 10, 12, 14.  \n**Ask:** Which number is in the middle?  \n**Reinforce:** Correct! The median is the middle value when the numbers are in order.\n3. **Say:** Next, let's talk about the mode.  \n**Show/Do:** Use a new set of numbers: 3, 3, 6, 9.  \n**Ask:** Which number appears most often?  \n**Reinforce:** Yes! The mode is the number that occurs most frequently.\n4. **Say:** Finally, let's look at the range.  \n**Show/Do:** Use the same numbers: 3, 3, 6, 9.  \n**Ask:** Can you subtract the smallest number from the largest?  \n**Reinforce:** Right! The range shows the difference between the highest and lowest numbers.\n5. **Say:** Let's put it all together.  \n**Show/Do:** Review each concept with a new set of numbers: 5, 7, 8, 10, 12.  \n**Ask:** Can you find the mean, median, mode, and range?  \n**Reinforce:** Great job! You've learned how to handle data like a pro.\n\n## Practice Questions (Do It Together)\n**1. Find the mean of 4, 8, 6, 10.**\n<details><summary>Hint</summary>\nAdd the numbers and divide by 4.\n</details>\n<details><summary>Answer</summary>\n7\n</details>\n\n**2. What is the median of 3, 9, 2, 7, 5?**\n<details><summary>Hint</summary>\nArrange the numbers in order and find the middle one.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**3. Identify the mode in 2, 4, 4, 5, 7.**\n<details><summary>Hint</summary>\nLook for the number that appears most often.\n</details>\n<details><summary>Answer</summary>\n4\n</details>\n\n**4. Calculate the range of 15, 22, 9, 30.**\n<details><summary>Hint</summary>\nSubtract the smallest number from the largest.\n</details>\n<details><summary>Answer</summary>\n21\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Mean is the average of a set of numbers.\n- Median is the middle value when numbers are in order.\n- Mode is the number that appears most often.\n- Range is the difference between the largest and smallest numbers.\n\n**Common Mistakes**\n- Confusing mean with median.\n- Forgetting to arrange numbers in order when finding the median.\n- Thinking mode is the same as frequency.\n- Mixing up the process for calculating range.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concepts of mean, median, mode, and range have been used for centuries in statistics and data analysis.\n\n**Future topic connections**\n\nThese concepts connect to probability, statistics, and data science.\n\n**Common misconceptions**\n\nA common misconception is that all data sets have a mode, which isn't true if no number repeats.\n\n**Teaching tips for parents**\n\nUse visuals like number lines and charts to help illustrate these concepts.\n\n**More detail / derivation**\n\nThese concepts are derived from basic arithmetic and help summarize data sets.\n\n## Motivation\nUnderstanding how to analyze data can empower your child to make informed decisions in their daily life and future studies."
+}

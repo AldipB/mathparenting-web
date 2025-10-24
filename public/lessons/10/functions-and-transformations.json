@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "504295ca-0a1a-4d72-a14c-31aa71b5de5a",
+    "slug": "10",
+    "name": "Grade 10 (Geometry & Algebra II)"
+  },
+  "unit": {
+    "id": "f78cebf6-0223-4b3e-9e3a-553611f61a5a",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "a36dc7e3-53af-4668-9f3b-92ac896314fd",
+    "slug": "functions-and-transformations",
+    "title": "Understanding Functions & Transformations",
+    "summary": "Functions & transformations — parent overview for Grade 10 (Geometry & Algebra II).",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will understand how to identify and apply transformations to functions, making math more intuitive and applicable.\n\n**Why it matters:** Functions and transformations are the backbone of algebra, helping us model and predict real-world situations like the trajectory of a basketball or the growth of savings.\n\n**Parent Tip:** Encourage your child to visualize functions as machines that transform input values into output values. This perspective can make the concept more tangible.\n\n**Real-World Link:** Think of a function like a vending machine: you choose a snack (input), and the machine gives you the snack (output). Transformations are like changing the machine's settings to give a different snack for the same choice.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of functions and transformations! These concepts help us understand how things change and relate to each other. Let's explore this topic together with your child.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining that a function is like a rule that assigns each input exactly one output.\n2. Introduce transformations as changes to the function's graph, like moving, stretching, or compressing it.\n3. Use graphing tools or apps to visualize how changes in 'a', 'h', and 'k' affect the graph.\n4. Focus on identifying transformations in familiar functions, like linear or quadratic functions.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What happens to the graph of f(x) = (x - 2)^2 when transformed to f(x) = (x - 2)^2 + 3?**\n_Answer:_ The graph shifts up by 3 units.\n_Hint:_ Look at the '+3' at the end.\n\n**2. For f(x) = -2(x + 1)^2, describe the transformations applied.**\n_Answer:_ The graph reflects over the x-axis, shifts left by 1, and is stretched vertically by 2.\n_Hint:_ Consider the signs and coefficients.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing horizontal and vertical shifts.\n- Overlooking the effect of negative values in transformations.\n- Misinterpreting the direction of shifts.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a function like a vending machine: you choose a snack (input), and the machine gives you the snack (output). Transformations are like changing the machine's settings to give a different snack for the same choice.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how functions can be transformed and how these transformations affect their graphs.",
+    "overview": "**Objective:** By the end of this lesson, your child will understand how to identify and apply transformations to functions, making math more intuitive and applicable.\n\n**Why it matters:** Functions and transformations are the backbone of algebra, helping us model and predict real-world situations like the trajectory of a basketball or the growth of savings.\n\n**Parent Tip:** Encourage your child to visualize functions as machines that transform input values into output values. This perspective can make the concept more tangible.\n\n**Real-World Link:** Think of a function like a vending machine: you choose a snack (input), and the machine gives you the snack (output). Transformations are like changing the machine's settings to give a different snack for the same choice.",
+    "core": "Welcome to the world of functions and transformations! These concepts help us understand how things change and relate to each other. Let's explore this topic together with your child.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that stretching a function on a graph is like stretching a rubber band? How far can you stretch it before it changes shape completely?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by explaining that a function is like a rule that assigns each input exactly one output.\n2. Introduce transformations as changes to the function's graph, like moving, stretching, or compressing it.\n3. Use graphing tools or apps to visualize how changes in 'a', 'h', and 'k' affect the graph.\n4. Focus on identifying transformations in familiar functions, like linear or quadratic functions.",
+    "practice": "**1. What happens to the graph of f(x) = (x - 2)^2 when transformed to f(x) = (x - 2)^2 + 3?**\n_Answer:_ The graph shifts up by 3 units.\n_Hint:_ Look at the '+3' at the end.\n\n**2. For f(x) = -2(x + 1)^2, describe the transformations applied.**\n_Answer:_ The graph reflects over the x-axis, shifts left by 1, and is stretched vertically by 2.\n_Hint:_ Consider the signs and coefficients.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing horizontal and vertical shifts.\n- Overlooking the effect of negative values in transformations.\n- Misinterpreting the direction of shifts.",
+    "connection": "Think of a function like a vending machine: you choose a snack (input), and the machine gives you the snack (output). Transformations are like changing the machine's settings to give a different snack for the same choice.",
+    "close": "**Key Takeaways**\n- Transformations alter the position and shape of a graph.\n- Shifts move the graph horizontally or vertically.\n- Stretching or compressing changes the graph's steepness.\n\n**Parent Reflection Questions**\n- How can you tell if a function has been stretched or compressed?\n- What does a negative sign in front of a function indicate?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Functions & Transformations",
+    "introduction": "Welcome to the world of functions and transformations! These concepts are like the building blocks of math, helping us understand how numbers and shapes change and move.",
+    "objective": "Help your child understand functions and transformations, enabling them to identify and apply these concepts in various mathematical contexts.",
+    "why_matters": "Functions and transformations are essential because they allow us to predict and describe how things change, whether in math, science, or everyday life.",
+    "parent_tip": "Encourage your child to visualize how shapes and graphs transform. Using graph paper or drawing apps can make this more interactive.",
+    "real_world_link": "Think of functions as a recipe. Just as ingredients transform into a cake, inputs transform into outputs. Transformations are like decorating that cake, changing its appearance without altering the ingredients.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Discuss what a function is: a rule that assigns each input exactly one output.",
+      "Introduce transformations: translations, reflections, rotations, and dilations.",
+      "Explore how transformations affect graphs of functions.",
+      "Use graph paper to visualize transformations.",
+      "Connect functions and transformations to real-world scenarios like mapping and design."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by talking about what a function is.",
+        "do": "Show a simple function like f(x) = x + 2.",
+        "ask": "What happens if we input 3 into this function?",
+        "reinforce": "Exactly, we get 5! A function gives us a specific output for each input."
+      },
+      {
+        "say": "Now, let's look at transformations.",
+        "do": "Draw a basic shape on graph paper.",
+        "ask": "What do you think happens if we move this shape to the right?",
+        "reinforce": "That's a translation! It shifts the shape without changing its size or orientation."
+      },
+      {
+        "say": "Let's try reflecting this shape.",
+        "do": "Fold the paper along a line and trace the reflection.",
+        "ask": "How does the reflected shape compare to the original?",
+        "reinforce": "Great observation! It's a mirror image, showing how reflections work."
+      },
+      {
+        "say": "Let's rotate the shape.",
+        "do": "Use a pivot point and rotate the shape 90 degrees.",
+        "ask": "What do you notice about the shape's position now?",
+        "reinforce": "Yes, it looks different but remains unchanged in size. That's rotation!"
+      },
+      {
+        "say": "Finally, let's explore dilation.",
+        "do": "Expand the shape proportionally.",
+        "ask": "How does this transformation affect the shape?",
+        "reinforce": "Exactly, it grows or shrinks but keeps the same proportions."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is the output of the function f(x) = 3x - 1 when x = 4?",
+        "hint": "Substitute 4 for x and simplify.",
+        "answer": "11"
+      },
+      {
+        "prompt": "If a triangle is translated 5 units right, what happens to its position?",
+        "hint": "Think about how each point of the triangle moves.",
+        "answer": "Each point of the triangle moves 5 units to the right."
+      },
+      {
+        "prompt": "Reflect the point (3, 4) over the y-axis. What is the new point?",
+        "hint": "Change the sign of the x-coordinate.",
+        "answer": "(-3, 4)"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Functions assign each input to exactly one output.",
+      "Transformations change the position or size of a shape.",
+      "Understanding these concepts helps in visualizing changes in math and real life."
+    ],
+    "common_mistakes": [
+      "Confusing the input and output of a function.",
+      "Forgetting to change both coordinates during transformations.",
+      "Misidentifying transformations due to lack of visualization."
+    ],
+    "deep_dive": {
+      "history": "The concept of functions dates back to the 17th century, providing a systematic way to describe mathematical relationships.",
+      "connections": "Functions and transformations are foundational in calculus, physics, and computer graphics.",
+      "misconceptions": "A common misconception is that all transformations change the size of the shape, but only dilations do.",
+      "teaching_tips": "Use visual aids and interactive tools to make transformations more tangible.",
+      "derivation": "Explore the derivation of basic transformations using coordinate geometry."
+    },
+    "motivation": "Understanding how functions and transformations work empowers your child to tackle complex problems in a structured way, boosting their confidence in math."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of functions and transformations! These concepts are like the building blocks of math, helping us understand how numbers and shapes change and move.\n\n## Parent Orientation\n**Objective:** Help your child understand functions and transformations, enabling them to identify and apply these concepts in various mathematical contexts.\n**Why it matters:** Functions and transformations are essential because they allow us to predict and describe how things change, whether in math, science, or everyday life.\n**Parent Tip:** Encourage your child to visualize how shapes and graphs transform. Using graph paper or drawing apps can make this more interactive.\n**Real-World Link:** Think of functions as a recipe. Just as ingredients transform into a cake, inputs transform into outputs. Transformations are like decorating that cake, changing its appearance without altering the ingredients.\n\n## Teaching Steps\n1. Discuss what a function is: a rule that assigns each input exactly one output.\n2. Introduce transformations: translations, reflections, rotations, and dilations.\n3. Explore how transformations affect graphs of functions.\n4. Use graph paper to visualize transformations.\n5. Connect functions and transformations to real-world scenarios like mapping and design.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by talking about what a function is.  \n**Show/Do:** Show a simple function like f(x) = x + 2.  \n**Ask:** What happens if we input 3 into this function?  \n**Reinforce:** Exactly, we get 5! A function gives us a specific output for each input.\n2. **Say:** Now, let's look at transformations.  \n**Show/Do:** Draw a basic shape on graph paper.  \n**Ask:** What do you think happens if we move this shape to the right?  \n**Reinforce:** That's a translation! It shifts the shape without changing its size or orientation.\n3. **Say:** Let's try reflecting this shape.  \n**Show/Do:** Fold the paper along a line and trace the reflection.  \n**Ask:** How does the reflected shape compare to the original?  \n**Reinforce:** Great observation! It's a mirror image, showing how reflections work.\n4. **Say:** Let's rotate the shape.  \n**Show/Do:** Use a pivot point and rotate the shape 90 degrees.  \n**Ask:** What do you notice about the shape's position now?  \n**Reinforce:** Yes, it looks different but remains unchanged in size. That's rotation!\n5. **Say:** Finally, let's explore dilation.  \n**Show/Do:** Expand the shape proportionally.  \n**Ask:** How does this transformation affect the shape?  \n**Reinforce:** Exactly, it grows or shrinks but keeps the same proportions.\n\n## Practice Questions (Do It Together)\n**1. What is the output of the function f(x) = 3x - 1 when x = 4?**\n<details><summary>Hint</summary>\nSubstitute 4 for x and simplify.\n</details>\n<details><summary>Answer</summary>\n11\n</details>\n\n**2. If a triangle is translated 5 units right, what happens to its position?**\n<details><summary>Hint</summary>\nThink about how each point of the triangle moves.\n</details>\n<details><summary>Answer</summary>\nEach point of the triangle moves 5 units to the right.\n</details>\n\n**3. Reflect the point (3, 4) over the y-axis. What is the new point?**\n<details><summary>Hint</summary>\nChange the sign of the x-coordinate.\n</details>\n<details><summary>Answer</summary>\n(-3, 4)\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Functions assign each input to exactly one output.\n- Transformations change the position or size of a shape.\n- Understanding these concepts helps in visualizing changes in math and real life.\n\n**Common Mistakes**\n- Confusing the input and output of a function.\n- Forgetting to change both coordinates during transformations.\n- Misidentifying transformations due to lack of visualization.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of functions dates back to the 17th century, providing a systematic way to describe mathematical relationships.\n\n**Future topic connections**\n\nFunctions and transformations are foundational in calculus, physics, and computer graphics.\n\n**Common misconceptions**\n\nA common misconception is that all transformations change the size of the shape, but only dilations do.\n\n**Teaching tips for parents**\n\nUse visual aids and interactive tools to make transformations more tangible.\n\n**More detail / derivation**\n\nExplore the derivation of basic transformations using coordinate geometry.\n\n## Motivation\nUnderstanding how functions and transformations work empowers your child to tackle complex problems in a structured way, boosting their confidence in math."
+}

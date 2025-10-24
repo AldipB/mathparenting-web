@@ -1,0 +1,49 @@
+{
+  "grade": "12",
+  "lessons": [
+    {
+      "slug": "limits-and-continuity",
+      "title": "Exploring Limits and Continuity in Calculus"
+    },
+    {
+      "slug": "sequences-and-series-sigma-notation",
+      "title": "Exploring Sequences & Series with Sigma Notation"
+    },
+    {
+      "slug": "integrals-area-under-curve",
+      "title": "Integrals – Understanding the Area Under a Curve"
+    },
+    {
+      "slug": "differential-equations-intro",
+      "title": "Introduction to Differential Equations"
+    },
+    {
+      "slug": "matrices-and-vectors-basics-and-operations",
+      "title": "Matrices & Vectors: Understanding the Basics and Operations"
+    },
+    {
+      "slug": "optimization-and-related-rates",
+      "title": "Optimization & Related Rates: Finding the Best and Fastest Solutions"
+    },
+    {
+      "slug": "probability-distributions-normal-binomial",
+      "title": "Probability Distributions: Navigating Normal and Binomial Landscapes"
+    },
+    {
+      "slug": "statistics-correlation-and-regression",
+      "title": "Statistics – Correlation & Regression"
+    },
+    {
+      "slug": "derivatives-rules-and-applications",
+      "title": "Understanding Derivatives: Rules & Applications"
+    },
+    {
+      "slug": "financial-math-simple-and-compound-interest",
+      "title": "Understanding Financial Math: Simple & Compound Interest"
+    },
+    {
+      "slug": "slope-of-a-curve-and-rate-of-change",
+      "title": "Understanding the Slope of a Curve & Rate of Change"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "1907308e-bf8f-4111-933a-de6275fbda80",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "7c63945f-7fd7-4dce-b59f-8e7f66cb4343",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d8d7d5a7-ce1e-4439-ab84-97511e0adaee",
+    "slug": "shapes-and-attributes",
+    "title": "Shapes & Attributes: Discovering the World of Geometry",
+    "summary": "Shapes & attributes — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize and describe common shapes and their attributes.\n\n**Why it matters:** Understanding shapes is foundational for math skills and helps children make sense of the world around them.\n\n**Parent Tip:** Use everyday objects to point out shapes and discuss their features. This makes learning tangible and engaging.\n\n**Real-World Link:** Think about a pizza slice as a triangle or a stop sign as an octagon. Shapes are everywhere!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the exciting world of shapes! In this lesson, we'll explore how to identify and describe basic shapes with your first grader. Let's make learning geometry fun and relatable.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce basic shapes: circle, square, triangle, rectangle.\n2. Discuss attributes: sides, corners, and curves.\n3. Use household items to identify shapes (e.g., a clock as a circle).\n4. Create a shape hunt game: find and name shapes around the house.\n5. Draw and color shapes together, emphasizing their attributes.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find an object that is a circle in your house. (use numbers like 6 and 9)**\n_Answer:_ A plate or a ball.\n_Hint:_ Look for something round like a plate or a ball.\n\n**2. How many sides does a triangle have? (use numbers like 6 and 9)**\n_Answer:_ Three sides.\n_Hint:_ Think about the shape of a slice of pizza.\n\n**3. Name a shape that has four equal sides. (use numbers like 6 and 9)**\n_Answer:_ Square.\n_Hint:_ It's like a box or a window.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the number of sides for different shapes.\n- Mixing up shapes with similar names like a rectangle and a square.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a pizza slice as a triangle or a stop sign as an octagon. Shapes are everywhere!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and describe basic shapes and their attributes.",
+    "overview": "**Objective:** Help your child recognize and describe common shapes and their attributes.\n\n**Why it matters:** Understanding shapes is foundational for math skills and helps children make sense of the world around them.\n\n**Parent Tip:** Use everyday objects to point out shapes and discuss their features. This makes learning tangible and engaging.\n\n**Real-World Link:** Think about a pizza slice as a triangle or a stop sign as an octagon. Shapes are everywhere!",
+    "core": "Welcome to the exciting world of shapes! In this lesson, we'll explore how to identify and describe basic shapes with your first grader. Let's make learning geometry fun and relatable.",
+    "demo": "**Spark Curiosity:**\n\nNext time you're at the grocery store, ask your child to find as many different shapes as they can. You'll be amazed at what they notice!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce basic shapes: circle, square, triangle, rectangle.\n2. Discuss attributes: sides, corners, and curves.\n3. Use household items to identify shapes (e.g., a clock as a circle).\n4. Create a shape hunt game: find and name shapes around the house.\n5. Draw and color shapes together, emphasizing their attributes.",
+    "practice": "**1. Find an object that is a circle in your house. (use numbers like 6 and 9)**\n_Answer:_ A plate or a ball.\n_Hint:_ Look for something round like a plate or a ball.\n\n**2. How many sides does a triangle have? (use numbers like 6 and 9)**\n_Answer:_ Three sides.\n_Hint:_ Think about the shape of a slice of pizza.\n\n**3. Name a shape that has four equal sides. (use numbers like 6 and 9)**\n_Answer:_ Square.\n_Hint:_ It's like a box or a window.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the number of sides for different shapes.\n- Mixing up shapes with similar names like a rectangle and a square.",
+    "connection": "Think about a pizza slice as a triangle or a stop sign as an octagon. Shapes are everywhere!",
+    "close": "**Key Takeaways**\n- Shapes help children connect to their environment.\n- Recognizing shapes is a critical math skill.\n- Real-world examples make learning engaging.\n\n**Parent Reflection Questions**\n- What new shapes did your child discover today?\n- How can you incorporate shape recognition into daily routines?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Shapes & Attributes: Discovering the World of Geometry",
+    "introduction": "Welcome to the exciting world of shapes! In this lesson, we’ll explore basic geometric shapes and their attributes. This will help your child recognize and describe the shapes they see every day.",
+    "objective": "Help your child identify and describe basic shapes such as circles, squares, triangles, and rectangles, and understand their attributes.",
+    "why_matters": "Understanding shapes is foundational for math learning. It helps in developing spatial awareness and problem-solving skills.",
+    "parent_tip": "Use everyday objects to point out shapes and discuss their features. This will make learning fun and relatable for your child.",
+    "real_world_link": "Shapes are everywhere! From the circular face of a clock to the rectangular shape of a book, recognizing these helps your child connect math with the world around them.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with simple shapes like circles, squares, triangles, and rectangles.",
+      "Discuss the number of sides and corners each shape has.",
+      "Use household items to find examples of each shape.",
+      "Encourage your child to draw the shapes.",
+      "Play a shape-finding game around the house or outside."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at some shapes today! Can you find a circle in the room?",
+        "do": "Point to a circular object, like a clock.",
+        "ask": "How many sides does a circle have?",
+        "reinforce": "That's right! Circles are round and don't have any sides."
+      },
+      {
+        "say": "Now, let's find a square.",
+        "do": "Show a square object, like a coaster.",
+        "ask": "How many sides does a square have?",
+        "reinforce": "Yes, a square has four equal sides."
+      },
+      {
+        "say": "Look for a triangle.",
+        "do": "Draw a triangle on a piece of paper.",
+        "ask": "How many corners does a triangle have?",
+        "reinforce": "Correct! Triangles have three sides and three corners."
+      },
+      {
+        "say": "Can you find a rectangle?",
+        "do": "Point to a rectangle shape, like a book.",
+        "ask": "What makes a rectangle different from a square?",
+        "reinforce": "Great observation! Rectangles have four sides too, but opposite sides are equal."
+      },
+      {
+        "say": "Let's draw some shapes together.",
+        "do": "Provide paper and crayons for drawing.",
+        "ask": "Which shape is your favorite to draw?",
+        "reinforce": "Wonderful! Drawing helps us remember the shapes better."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "How many sides does a triangle have?",
+        "hint": "Think of a slice of pizza.",
+        "answer": "3"
+      },
+      {
+        "prompt": "Find something in your room that is a rectangle.",
+        "hint": "Look at your books or a door.",
+        "answer": "Book or door"
+      },
+      {
+        "prompt": "Draw a shape with four equal sides.",
+        "hint": "It's like a box.",
+        "answer": "Square"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Shapes are everywhere in our world.",
+      "Each shape has unique attributes like the number of sides and corners.",
+      "Recognizing shapes helps children connect math with their surroundings."
+    ],
+    "common_mistakes": [
+      "Confusing rectangles and squares due to their four sides.",
+      "Thinking a circle has sides or corners.",
+      "Not recognizing shapes in different orientations."
+    ],
+    "deep_dive": {
+      "history": "Geometry dates back to ancient civilizations like the Egyptians, who used shapes for building and art.",
+      "connections": "Shapes are connected to art, architecture, and even technology. Recognizing shapes is a key skill in various fields.",
+      "misconceptions": "A common misconception is that all four-sided shapes are squares. Understanding the properties of each shape is crucial.",
+      "teaching_tips": "Use a variety of objects and visuals to help your child understand shapes better. Consistent practice and real-world connections enhance learning.",
+      "derivation": "Shapes are derived from basic geometric principles that describe physical space and forms."
+    },
+    "motivation": "Exploring shapes is like going on a treasure hunt! It’s a fun way to see the world and build a strong foundation in math."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the exciting world of shapes! In this lesson, we’ll explore basic geometric shapes and their attributes. This will help your child recognize and describe the shapes they see every day.\n\n## Parent Orientation\n**Objective:** Help your child identify and describe basic shapes such as circles, squares, triangles, and rectangles, and understand their attributes.\n**Why it matters:** Understanding shapes is foundational for math learning. It helps in developing spatial awareness and problem-solving skills.\n**Parent Tip:** Use everyday objects to point out shapes and discuss their features. This will make learning fun and relatable for your child.\n**Real-World Link:** Shapes are everywhere! From the circular face of a clock to the rectangular shape of a book, recognizing these helps your child connect math with the world around them.\n\n## Teaching Steps\n1. Start with simple shapes like circles, squares, triangles, and rectangles.\n2. Discuss the number of sides and corners each shape has.\n3. Use household items to find examples of each shape.\n4. Encourage your child to draw the shapes.\n5. Play a shape-finding game around the house or outside.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at some shapes today! Can you find a circle in the room?  \n**Show/Do:** Point to a circular object, like a clock.  \n**Ask:** How many sides does a circle have?  \n**Reinforce:** That's right! Circles are round and don't have any sides.\n2. **Say:** Now, let's find a square.  \n**Show/Do:** Show a square object, like a coaster.  \n**Ask:** How many sides does a square have?  \n**Reinforce:** Yes, a square has four equal sides.\n3. **Say:** Look for a triangle.  \n**Show/Do:** Draw a triangle on a piece of paper.  \n**Ask:** How many corners does a triangle have?  \n**Reinforce:** Correct! Triangles have three sides and three corners.\n4. **Say:** Can you find a rectangle?  \n**Show/Do:** Point to a rectangle shape, like a book.  \n**Ask:** What makes a rectangle different from a square?  \n**Reinforce:** Great observation! Rectangles have four sides too, but opposite sides are equal.\n5. **Say:** Let's draw some shapes together.  \n**Show/Do:** Provide paper and crayons for drawing.  \n**Ask:** Which shape is your favorite to draw?  \n**Reinforce:** Wonderful! Drawing helps us remember the shapes better.\n\n## Practice Questions (Do It Together)\n**1. How many sides does a triangle have?**\n<details><summary>Hint</summary>\nThink of a slice of pizza.\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n**2. Find something in your room that is a rectangle.**\n<details><summary>Hint</summary>\nLook at your books or a door.\n</details>\n<details><summary>Answer</summary>\nBook or door\n</details>\n\n**3. Draw a shape with four equal sides.**\n<details><summary>Hint</summary>\nIt's like a box.\n</details>\n<details><summary>Answer</summary>\nSquare\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Shapes are everywhere in our world.\n- Each shape has unique attributes like the number of sides and corners.\n- Recognizing shapes helps children connect math with their surroundings.\n\n**Common Mistakes**\n- Confusing rectangles and squares due to their four sides.\n- Thinking a circle has sides or corners.\n- Not recognizing shapes in different orientations.\n\n## 🔍 Deep Dive\n**History or origin**\n\nGeometry dates back to ancient civilizations like the Egyptians, who used shapes for building and art.\n\n**Future topic connections**\n\nShapes are connected to art, architecture, and even technology. Recognizing shapes is a key skill in various fields.\n\n**Common misconceptions**\n\nA common misconception is that all four-sided shapes are squares. Understanding the properties of each shape is crucial.\n\n**Teaching tips for parents**\n\nUse a variety of objects and visuals to help your child understand shapes better. Consistent practice and real-world connections enhance learning.\n\n**More detail / derivation**\n\nShapes are derived from basic geometric principles that describe physical space and forms.\n\n## Motivation\nExploring shapes is like going on a treasure hunt! It’s a fun way to see the world and build a strong foundation in math."
+}

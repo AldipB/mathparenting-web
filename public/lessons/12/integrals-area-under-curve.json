@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "31679cc0-c60e-45a5-b4f5-ab6e843f453f",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "3322cc33-cba5-41c4-b4c7-18b5c224d76b",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "0ba6e8cf-1fec-4fa2-9bbe-6ff7b04b894b",
+    "slug": "integrals-area-under-curve",
+    "title": "Integrals – Understanding the Area Under a Curve",
+    "summary": "Integrals – area under curve — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Understand how integrals determine the area under a curve and apply this knowledge to solve problems.\n\n**Why it matters:** Integrals are crucial in fields like physics, engineering, and economics, where they help calculate distances, areas, volumes, and even total profits over time.\n\n**Parent Tip:** Encourage your teen to visualize integrals as the sum of infinitely small slices under a curve, making complex shapes easier to quantify.\n\n**Real-World Link:** Think of integrals like measuring the amount of paint needed to cover an oddly shaped wall. You need to account for every curve and corner to get the right amount.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Help your teen explore integrals, a fascinating concept in calculus that helps us find the area under curves. This lesson will guide you through understanding this essential tool in math.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining the concept of area under a curve as the sum of tiny rectangles.\n2. Introduce the integral notation and how it signifies summation.\n3. Discuss definite integrals as calculating the total area between two points on the x-axis.\n4. Use graphing tools to visualize how different functions form different areas.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the area under the curve f(x) = 3x from x=1 to x=4.**\n_Answer:_ The area is 27.\n_Hint:_ Calculate ∫ from 1 to 4 of 3x dx.\n\n**2. Determine the integral of f(x) = 2x + 1 from x=0 to x=3.**\n_Answer:_ The area is 15.\n_Hint:_ Set up the integral ∫ from 0 to 3 of (2x + 1) dx.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to evaluate the integral at both bounds.\n- Mixing up definite and indefinite integrals.\n- Ignoring the function's behavior between bounds.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of integrals like measuring the amount of paint needed to cover an oddly shaped wall. You need to account for every curve and corner to get the right amount.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand integrals as a tool for finding the area under curves, a key concept in calculus.",
+    "overview": "**Objective:** Understand how integrals determine the area under a curve and apply this knowledge to solve problems.\n\n**Why it matters:** Integrals are crucial in fields like physics, engineering, and economics, where they help calculate distances, areas, volumes, and even total profits over time.\n\n**Parent Tip:** Encourage your teen to visualize integrals as the sum of infinitely small slices under a curve, making complex shapes easier to quantify.\n\n**Real-World Link:** Think of integrals like measuring the amount of paint needed to cover an oddly shaped wall. You need to account for every curve and corner to get the right amount.",
+    "core": "Help your teen explore integrals, a fascinating concept in calculus that helps us find the area under curves. This lesson will guide you through understanding this essential tool in math.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how GPS calculates the total distance traveled on a road trip, even when your speed varies throughout the journey?",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** \\int_a^b f(x) \\, dx\n- **Meaning:** This represents the integral of the function f(x) from point a to point b.\n- **How it works:** The integral sums up infinitely small slices of area under the curve f(x) between a and b.\n- **Example:** For f(x) = x^2 from x = 1 to x = 3, the integral calculates the area under the curve of x^2 between these points.\n$$",
+    "formulas": "$$\n\\int_a^b f(x) \\, dx\n$$",
+    "guide": "1. Start by explaining the concept of area under a curve as the sum of tiny rectangles.\n2. Introduce the integral notation and how it signifies summation.\n3. Discuss definite integrals as calculating the total area between two points on the x-axis.\n4. Use graphing tools to visualize how different functions form different areas.",
+    "practice": "**1. Find the area under the curve f(x) = 3x from x=1 to x=4.**\n_Answer:_ The area is 27.\n_Hint:_ Calculate ∫ from 1 to 4 of 3x dx.\n\n**2. Determine the integral of f(x) = 2x + 1 from x=0 to x=3.**\n_Answer:_ The area is 15.\n_Hint:_ Set up the integral ∫ from 0 to 3 of (2x + 1) dx.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to evaluate the integral at both bounds.\n- Mixing up definite and indefinite integrals.\n- Ignoring the function's behavior between bounds.",
+    "connection": "Think of integrals like measuring the amount of paint needed to cover an oddly shaped wall. You need to account for every curve and corner to get the right amount.",
+    "close": "**Key Takeaways**\n- Integrals help calculate the total area under a curve.\n- They are crucial for understanding accumulated quantities like distance or area.\n- Visualization aids comprehension.\n\n**Parent Reflection Questions**\n- How can you use graphs to help your child understand integrals?\n- What real-world examples can make integrals more relatable?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Integrals – Understanding the Area Under a Curve",
+    "introduction": "Let's dive into integrals, a concept that helps us find the area under a curve. It may sound complex, but with a bit of guidance, you'll soon see how it's a powerful tool in mathematics.",
+    "objective": "Help your child understand integrals and how they calculate the area under a curve.",
+    "why_matters": "Understanding integrals is crucial for advanced mathematics, engineering, and sciences. It lays the foundation for analyzing real-world phenomena involving continuous change.",
+    "parent_tip": "Encourage your child to visualize the problem. Drawing the curve and shading the area can make the concept more tangible.",
+    "real_world_link": "Integrals are used in various fields, such as calculating the distance traveled by a car with varying speed or determining the quantity of a substance flowing through a system over time.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a curve on a graph.",
+      "Explain how the area under this curve can represent different things, like distance or quantity.",
+      "Show how breaking the area into small rectangles can help estimate the total area.",
+      "Discuss how integrals provide an exact calculation of this area.",
+      "Illustrate with a simple example using a known curve, like a parabola."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at a graph with a curve.",
+        "do": "Draw a curve on a piece of paper.",
+        "ask": "What do you think the area under this curve might represent?",
+        "reinforce": "Great! It could represent something like distance, depending on the context."
+      },
+      {
+        "say": "Imagine filling this area with small rectangles.",
+        "do": "Draw small rectangles under the curve.",
+        "ask": "How close do you think this comes to covering the whole area?",
+        "reinforce": "The more rectangles we use, the closer we get to the actual area."
+      },
+      {
+        "say": "An integral helps us calculate this area precisely.",
+        "do": "Point to the area under the curve.",
+        "ask": "Why do you think a precise calculation might be useful?",
+        "reinforce": "Exactly, it allows us to make accurate predictions and analyses."
+      },
+      {
+        "say": "Let's try this with a simple curve like y = x^2.",
+        "do": "Sketch the graph of y = x^2.",
+        "ask": "Can you see how the area changes as x increases?",
+        "reinforce": "Notice how the area grows as the curve rises."
+      },
+      {
+        "say": "With integrals, we can find the exact area from one point to another.",
+        "do": "Highlight a section under the curve.",
+        "ask": "Why might finding this specific area be important?",
+        "reinforce": "It helps us understand the total effect over a range, like total distance traveled."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Estimate the area under y = x from x = 0 to x = 2 using small rectangles.",
+        "hint": "Draw rectangles with a width of 0.5 units.",
+        "answer": "Approximately 2 square units."
+      },
+      {
+        "prompt": "Calculate the exact area under y = x^2 from x = 0 to x = 2 using integrals.",
+        "hint": "Use the integral formula ∫ from 0 to 2 of x^2 dx.",
+        "answer": "8/3 or approximately 2.67 square units."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Integrals help calculate the area under a curve.",
+      "They provide precise measurements essential for various applications.",
+      "Visualizing with graphs and rectangles can aid understanding."
+    ],
+    "common_mistakes": [
+      "Confusing the integral with the derivative.",
+      "Forgetting to consider limits when calculating the area.",
+      "Misinterpreting the area as a simple length or width rather than a total measure."
+    ],
+    "deep_dive": {
+      "history": "Integrals have been studied since the Ancient Greeks, with significant contributions from Newton and Leibniz.",
+      "connections": "Integrals are connected to derivatives through the Fundamental Theorem of Calculus.",
+      "misconceptions": "One common misconception is that integrals can only calculate areas of geometric shapes.",
+      "teaching_tips": "Encourage hands-on graphing and use visual aids to make the concept more accessible.",
+      "derivation": "The integral is derived from summing an infinite number of infinitesimally small areas under a curve."
+    },
+    "motivation": "With integrals, your child can unlock a deeper understanding of how mathematics describes the world, from physics to economics."
+  },
+  "markdown": "## Lesson Introduction\nLet's dive into integrals, a concept that helps us find the area under a curve. It may sound complex, but with a bit of guidance, you'll soon see how it's a powerful tool in mathematics.\n\n## Parent Orientation\n**Objective:** Help your child understand integrals and how they calculate the area under a curve.\n**Why it matters:** Understanding integrals is crucial for advanced mathematics, engineering, and sciences. It lays the foundation for analyzing real-world phenomena involving continuous change.\n**Parent Tip:** Encourage your child to visualize the problem. Drawing the curve and shading the area can make the concept more tangible.\n**Real-World Link:** Integrals are used in various fields, such as calculating the distance traveled by a car with varying speed or determining the quantity of a substance flowing through a system over time.\n\n## Teaching Steps\n1. Introduce the concept of a curve on a graph.\n2. Explain how the area under this curve can represent different things, like distance or quantity.\n3. Show how breaking the area into small rectangles can help estimate the total area.\n4. Discuss how integrals provide an exact calculation of this area.\n5. Illustrate with a simple example using a known curve, like a parabola.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at a graph with a curve.  \n**Show/Do:** Draw a curve on a piece of paper.  \n**Ask:** What do you think the area under this curve might represent?  \n**Reinforce:** Great! It could represent something like distance, depending on the context.\n2. **Say:** Imagine filling this area with small rectangles.  \n**Show/Do:** Draw small rectangles under the curve.  \n**Ask:** How close do you think this comes to covering the whole area?  \n**Reinforce:** The more rectangles we use, the closer we get to the actual area.\n3. **Say:** An integral helps us calculate this area precisely.  \n**Show/Do:** Point to the area under the curve.  \n**Ask:** Why do you think a precise calculation might be useful?  \n**Reinforce:** Exactly, it allows us to make accurate predictions and analyses.\n4. **Say:** Let's try this with a simple curve like y = x^2.  \n**Show/Do:** Sketch the graph of y = x^2.  \n**Ask:** Can you see how the area changes as x increases?  \n**Reinforce:** Notice how the area grows as the curve rises.\n5. **Say:** With integrals, we can find the exact area from one point to another.  \n**Show/Do:** Highlight a section under the curve.  \n**Ask:** Why might finding this specific area be important?  \n**Reinforce:** It helps us understand the total effect over a range, like total distance traveled.\n\n## Practice Questions (Do It Together)\n**1. Estimate the area under y = x from x = 0 to x = 2 using small rectangles.**\n<details><summary>Hint</summary>\nDraw rectangles with a width of 0.5 units.\n</details>\n<details><summary>Answer</summary>\nApproximately 2 square units.\n</details>\n\n**2. Calculate the exact area under y = x^2 from x = 0 to x = 2 using integrals.**\n<details><summary>Hint</summary>\nUse the integral formula ∫ from 0 to 2 of x^2 dx.\n</details>\n<details><summary>Answer</summary>\n8/3 or approximately 2.67 square units.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Integrals help calculate the area under a curve.\n- They provide precise measurements essential for various applications.\n- Visualizing with graphs and rectangles can aid understanding.\n\n**Common Mistakes**\n- Confusing the integral with the derivative.\n- Forgetting to consider limits when calculating the area.\n- Misinterpreting the area as a simple length or width rather than a total measure.\n\n## 🔍 Deep Dive\n**History or origin**\n\nIntegrals have been studied since the Ancient Greeks, with significant contributions from Newton and Leibniz.\n\n**Future topic connections**\n\nIntegrals are connected to derivatives through the Fundamental Theorem of Calculus.\n\n**Common misconceptions**\n\nOne common misconception is that integrals can only calculate areas of geometric shapes.\n\n**Teaching tips for parents**\n\nEncourage hands-on graphing and use visual aids to make the concept more accessible.\n\n**More detail / derivation**\n\nThe integral is derived from summing an infinite number of infinitesimally small areas under a curve.\n\n## Motivation\nWith integrals, your child can unlock a deeper understanding of how mathematics describes the world, from physics to economics."
+}

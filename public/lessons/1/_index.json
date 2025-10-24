@@ -1,0 +1,45 @@
+{
+  "grade": "1",
+  "lessons": [
+    {
+      "slug": "addition-and-subtraction-within-20",
+      "title": "Addition & Subtraction Within 20: Building Blocks for Math Success"
+    },
+    {
+      "slug": "comparing-numbers",
+      "title": "Comparing Numbers: Less Than, Greater Than, and Equal To"
+    },
+    {
+      "slug": "organize-data-in-pictographs",
+      "title": "Organize Data in Pictographs"
+    },
+    {
+      "slug": "shapes-and-attributes",
+      "title": "Shapes & Attributes: Discovering the World of Geometry"
+    },
+    {
+      "slug": "skip-counting-by-2s-5s-10s",
+      "title": "Skip Counting by 2s, 5s, and 10s: A Fun Adventure in Numbers"
+    },
+    {
+      "slug": "basic-word-problems",
+      "title": "Solving Basic Word Problems Together"
+    },
+    {
+      "slug": "time-to-hour-and-half-hour",
+      "title": "Time to Hour and Half-Hour"
+    },
+    {
+      "slug": "fractions-as-halves-and-quarters",
+      "title": "Understanding Fractions: Halves & Quarters"
+    },
+    {
+      "slug": "money-coins-and-notes-simple-addition",
+      "title": "Understanding Money: Simple Addition with Coins & Notes (Grade 1)"
+    },
+    {
+      "slug": "place-value-ones-and-tens",
+      "title": "Understanding Place Value: Ones & Tens"
+    }
+  ]
+}

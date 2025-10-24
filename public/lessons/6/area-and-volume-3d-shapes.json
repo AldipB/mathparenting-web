@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "b0e64ff4-7536-4d54-9d92-664803a7d75f",
+    "slug": "6",
+    "name": "Grade 6"
+  },
+  "unit": {
+    "id": "2af1afec-b537-4f7c-a117-37a1f322de66",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "ed52652f-7091-4d32-8b00-1cb6595358c8",
+    "slug": "area-and-volume-3d-shapes",
+    "title": "Exploring Area & Volume with 3D Shapes",
+    "summary": "Area & volume (3D shapes) — parent overview for Grade 6.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Understand how to calculate the surface area and volume of basic 3D shapes like cubes, rectangular prisms, and cylinders.\n\n**Why it matters:** Grasping these concepts is essential for real-life tasks, like packing, building, and even cooking, where space and capacity matter.\n\n**Parent Tip:** Encourage your child to visualize 3D shapes by using objects around the house, such as boxes or cans, to make learning tangible.\n\n**Real-World Link:** Think of a cube as a box of tissues or a cylinder as a can of soup. Calculating their volume helps understand how much they can hold.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're diving into the world of 3D shapes, exploring how to find their area and volume. This lesson will help your child build a strong foundation in spatial reasoning.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying the shape and its dimensions.\n2. Calculate the area of the base (for cubes and rectangular prisms, it's length × width).\n3. Multiply the base area by the height to find the volume.\n4. For surface area, calculate the area of each face and sum them up.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the volume of a cube with side length 4 units.**\n_Answer:_ Volume = 4³ = 64 cubic units.\n_Hint:_ Use the formula: Volume = side³.\n\n**2. Calculate the surface area of a rectangular prism with dimensions 3 units, 4 units, and 5 units.**\n_Answer:_ Surface Area = 2(3×4 + 3×5 + 4×5) = 94 square units.\n_Hint:_ Surface Area = 2(lw + lh + wh).\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing volume with surface area.\n- Forgetting to use the correct formula for each shape.\n- Mixing up units of measurement between area (square units) and volume (cubic units).",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a cube as a box of tissues or a cylinder as a can of soup. Calculating their volume helps understand how much they can hold.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to calculate the area and volume of 3D shapes.",
+    "overview": "**Objective:** Understand how to calculate the surface area and volume of basic 3D shapes like cubes, rectangular prisms, and cylinders.\n\n**Why it matters:** Grasping these concepts is essential for real-life tasks, like packing, building, and even cooking, where space and capacity matter.\n\n**Parent Tip:** Encourage your child to visualize 3D shapes by using objects around the house, such as boxes or cans, to make learning tangible.\n\n**Real-World Link:** Think of a cube as a box of tissues or a cylinder as a can of soup. Calculating their volume helps understand how much they can hold.",
+    "core": "Welcome! Today, we're diving into the world of 3D shapes, exploring how to find their area and volume. This lesson will help your child build a strong foundation in spatial reasoning.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how much air is inside a basketball or how much water a swimming pool can hold? Let's find out together!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** Volume of a rectangular prism = Length × Width × Height\n- **Meaning:** Multiply the three dimensions of the box to find out how much it can hold.\n- **How it works:** If a box is 3 units long, 2 units wide, and 4 units high, its volume is $3 \\times 2 \\times 4 = 24$ cubic units.\n- **Example:** Imagine filling a shoebox with small cubes. The number of cubes that fit perfectly is the volume.",
+    "formulas": "Volume of a rectangular prism = Length × Width × Height",
+    "guide": "1. Start by identifying the shape and its dimensions.\n2. Calculate the area of the base (for cubes and rectangular prisms, it's length × width).\n3. Multiply the base area by the height to find the volume.\n4. For surface area, calculate the area of each face and sum them up.",
+    "practice": "**1. Find the volume of a cube with side length 4 units.**\n_Answer:_ Volume = 4³ = 64 cubic units.\n_Hint:_ Use the formula: Volume = side³.\n\n**2. Calculate the surface area of a rectangular prism with dimensions 3 units, 4 units, and 5 units.**\n_Answer:_ Surface Area = 2(3×4 + 3×5 + 4×5) = 94 square units.\n_Hint:_ Surface Area = 2(lw + lh + wh).\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing volume with surface area.\n- Forgetting to use the correct formula for each shape.\n- Mixing up units of measurement between area (square units) and volume (cubic units).",
+    "connection": "Think of a cube as a box of tissues or a cylinder as a can of soup. Calculating their volume helps understand how much they can hold.",
+    "close": "**Key Takeaways**\n- Volume tells us how much space is inside a 3D shape.\n- Surface area is about covering the outside of a shape.\n- Real-life objects can help make these concepts more understandable.\n\n**Parent Reflection Questions**\n- What objects around the house can we measure next?\n- How can understanding volume help us in everyday tasks?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Area & Volume with 3D Shapes",
+    "introduction": "Welcome, parents! Today, we're diving into the world of 3D shapes to explore how we calculate their area and volume. This lesson will help your child understand how to measure the space inside these shapes and the space they cover.",
+    "objective": "Help your child learn how to calculate the area and volume of basic 3D shapes like cubes, rectangular prisms, and cylinders.",
+    "why_matters": "Understanding area and volume is essential for solving real-world problems, from packing boxes to filling a swimming pool. It's a key math skill that builds a foundation for future learning.",
+    "parent_tip": "Use everyday objects around your home, like boxes and cans, to make this lesson engaging and relatable for your child.",
+    "real_world_link": "Think about how much paint you would need to cover a wall (area) or how much water fits in a tank (volume). These are practical applications of today's lesson.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of 3D shapes and their features.",
+      "Discuss the difference between area and volume.",
+      "Show how to calculate area and volume using examples.",
+      "Practice calculating with everyday objects.",
+      "Encourage your child to explain their thinking."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at this box. What shape is it?",
+        "do": "Hold up a rectangular box.",
+        "ask": "What do you think we mean by 'area' and 'volume' for this box?",
+        "reinforce": "Area is the surface of the box we can see and touch, while volume is the space inside it."
+      },
+      {
+        "say": "Now, let's find the area of one side of this box.",
+        "do": "Measure the length and width of one side of the box.",
+        "ask": "How can we calculate the area of this rectangle?",
+        "reinforce": "Multiply the length by the width to find the area."
+      },
+      {
+        "say": "Great! Now, let's move on to volume.",
+        "do": "Measure the height of the box.",
+        "ask": "How do you think we find the volume of this box?",
+        "reinforce": "Multiply the area of the base by the height."
+      },
+      {
+        "say": "Let's practice with a can. It's a cylinder!",
+        "do": "Measure the height and the radius of the base of the can.",
+        "ask": "How do you think we calculate the volume of a cylinder?",
+        "reinforce": "Use the formula for the area of a circle (πr²) and multiply by the height."
+      },
+      {
+        "say": "You've done an amazing job figuring out these measurements!",
+        "do": "Review the steps you've taken together.",
+        "ask": "What everyday items can you think of that we could measure next?",
+        "reinforce": "Encourage curiosity and application of these skills in everyday life."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "A cube has sides of 3 cm. What is its volume?",
+        "hint": "Volume of a cube = side³.",
+        "answer": "27 cm³"
+      },
+      {
+        "prompt": "A rectangular prism has dimensions 4 cm x 5 cm x 6 cm. What is its volume?",
+        "hint": "Volume = length x width x height.",
+        "answer": "120 cm³"
+      },
+      {
+        "prompt": "A cylinder has a radius of 2 cm and a height of 10 cm. What is its volume?",
+        "hint": "Volume = πr²h. Use π ≈ 3.14.",
+        "answer": "125.6 cm³"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Area measures the surface of a shape.",
+      "Volume measures the space inside a 3D object.",
+      "We use different formulas for different shapes."
+    ],
+    "common_mistakes": [
+      "Confusing area with volume.",
+      "Forgetting to use the correct units.",
+      "Mixing up formulas for different shapes."
+    ],
+    "deep_dive": {
+      "history": "The concept of volume dates back to ancient civilizations that needed to measure grain and other goods.",
+      "connections": "Volume calculations are used in engineering, architecture, and various sciences.",
+      "misconceptions": "Some students think volume and area are interchangeable. They are not—volume is three-dimensional, while area is two-dimensional.",
+      "teaching_tips": "Use hands-on activities with real objects to make these concepts concrete.",
+      "derivation": "Volume formulas are derived from the basic principle of multiplying dimensions to fill a space."
+    },
+    "motivation": "Understanding these concepts helps in practical situations like cooking, building, and crafting, making math a part of everyday life."
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we're diving into the world of 3D shapes to explore how we calculate their area and volume. This lesson will help your child understand how to measure the space inside these shapes and the space they cover.\n\n## Parent Orientation\n**Objective:** Help your child learn how to calculate the area and volume of basic 3D shapes like cubes, rectangular prisms, and cylinders.\n**Why it matters:** Understanding area and volume is essential for solving real-world problems, from packing boxes to filling a swimming pool. It's a key math skill that builds a foundation for future learning.\n**Parent Tip:** Use everyday objects around your home, like boxes and cans, to make this lesson engaging and relatable for your child.\n**Real-World Link:** Think about how much paint you would need to cover a wall (area) or how much water fits in a tank (volume). These are practical applications of today's lesson.\n\n## Teaching Steps\n1. Introduce the concept of 3D shapes and their features.\n2. Discuss the difference between area and volume.\n3. Show how to calculate area and volume using examples.\n4. Practice calculating with everyday objects.\n5. Encourage your child to explain their thinking.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at this box. What shape is it?  \n**Show/Do:** Hold up a rectangular box.  \n**Ask:** What do you think we mean by 'area' and 'volume' for this box?  \n**Reinforce:** Area is the surface of the box we can see and touch, while volume is the space inside it.\n2. **Say:** Now, let's find the area of one side of this box.  \n**Show/Do:** Measure the length and width of one side of the box.  \n**Ask:** How can we calculate the area of this rectangle?  \n**Reinforce:** Multiply the length by the width to find the area.\n3. **Say:** Great! Now, let's move on to volume.  \n**Show/Do:** Measure the height of the box.  \n**Ask:** How do you think we find the volume of this box?  \n**Reinforce:** Multiply the area of the base by the height.\n4. **Say:** Let's practice with a can. It's a cylinder!  \n**Show/Do:** Measure the height and the radius of the base of the can.  \n**Ask:** How do you think we calculate the volume of a cylinder?  \n**Reinforce:** Use the formula for the area of a circle (πr²) and multiply by the height.\n5. **Say:** You've done an amazing job figuring out these measurements!  \n**Show/Do:** Review the steps you've taken together.  \n**Ask:** What everyday items can you think of that we could measure next?  \n**Reinforce:** Encourage curiosity and application of these skills in everyday life.\n\n## Practice Questions (Do It Together)\n**1. A cube has sides of 3 cm. What is its volume?**\n<details><summary>Hint</summary>\nVolume of a cube = side³.\n</details>\n<details><summary>Answer</summary>\n27 cm³\n</details>\n\n**2. A rectangular prism has dimensions 4 cm x 5 cm x 6 cm. What is its volume?**\n<details><summary>Hint</summary>\nVolume = length x width x height.\n</details>\n<details><summary>Answer</summary>\n120 cm³\n</details>\n\n**3. A cylinder has a radius of 2 cm and a height of 10 cm. What is its volume?**\n<details><summary>Hint</summary>\nVolume = πr²h. Use π ≈ 3.14.\n</details>\n<details><summary>Answer</summary>\n125.6 cm³\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Area measures the surface of a shape.\n- Volume measures the space inside a 3D object.\n- We use different formulas for different shapes.\n\n**Common Mistakes**\n- Confusing area with volume.\n- Forgetting to use the correct units.\n- Mixing up formulas for different shapes.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of volume dates back to ancient civilizations that needed to measure grain and other goods.\n\n**Future topic connections**\n\nVolume calculations are used in engineering, architecture, and various sciences.\n\n**Common misconceptions**\n\nSome students think volume and area are interchangeable. They are not—volume is three-dimensional, while area is two-dimensional.\n\n**Teaching tips for parents**\n\nUse hands-on activities with real objects to make these concepts concrete.\n\n**More detail / derivation**\n\nVolume formulas are derived from the basic principle of multiplying dimensions to fill a space.\n\n## Motivation\nUnderstanding these concepts helps in practical situations like cooking, building, and crafting, making math a part of everyday life."
+}

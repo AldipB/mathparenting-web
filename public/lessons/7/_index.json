@@ -1,0 +1,41 @@
+{
+  "grade": "7",
+  "lessons": [
+    {
+      "slug": "geometry-angles-triangles-circles",
+      "title": "Exploring Geometry: Angles, Triangles, and Circles"
+    },
+    {
+      "slug": "integer-operations",
+      "title": "Integer Operations: Adding, Subtracting, Multiplying, and Dividing"
+    },
+    {
+      "slug": "probability-and-statistics-basics",
+      "title": "Probability & Statistics Basics"
+    },
+    {
+      "slug": "proportions-and-percent-applications",
+      "title": "Proportions & Percent Applications in Grade 7"
+    },
+    {
+      "slug": "rational-numbers-and-number-lines",
+      "title": "Rational Numbers & Number Lines"
+    },
+    {
+      "slug": "solving-1-step-and-2-step-equations",
+      "title": "Solving 1-step & 2-step Equations"
+    },
+    {
+      "slug": "algebraic-expressions-and-simplification",
+      "title": "Understanding Algebraic Expressions & Simplification"
+    },
+    {
+      "slug": "scale-drawings-and-ratios",
+      "title": "Understanding Scale Drawings and Ratios"
+    },
+    {
+      "slug": "surface-area-and-volume",
+      "title": "Understanding Surface Area and Volume"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "0a304858-7513-422d-a438-cc621b215054",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "73952492-6b31-450f-926a-4527d690bdf8",
+    "title": "Measurement & Data",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "414ec9b0-c6ad-4451-88c6-a3faff361edb",
+    "slug": "sort-and-classify-objects",
+    "title": "Sort & Classify Objects: A Kindergarten Adventure",
+    "summary": "Sort & classify objects — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 3
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn how to sort and classify objects based on attributes like color, shape, and size.\n\n**Why it matters:** Sorting and classifying are foundational skills for math and science. They help children recognize patterns and make sense of the world.\n\n**Parent Tip:** Encourage your child to explain their sorting choices. This boosts their reasoning skills and confidence.\n\n**Real-World Link:** Think of sorting laundry: whites with whites, colors with colors. It's the same concept, just with toys and everyday objects!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of sorting and classifying! Your kindergartener is about to embark on a fun journey of organizing the world around them. Together, you'll explore how to group similar items, a skill that’s as important as organizing a toy box!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a group of mixed objects (e.g., toy cars, blocks, and balls).\n2. Ask your child to sort them by color. Discuss their choices.\n3. Next, sort by shape. What do they notice?\n4. Finally, sort by size. Encourage them to describe what makes each group unique.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Sort these items: 3 red apples, 2 green apples, 4 red balls.**\n_Answer:_ Red group: 3 apples, 4 balls. Green group: 2 apples.\n_Hint:_ Group by color first, then by type.\n\n**2. Classify: 5 small blocks, 3 large blocks, 2 small balls.**\n_Answer:_ Small items: 5 blocks, 2 balls. Large items: 3 blocks.\n_Hint:_ Start with size, then shape.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing categories, like color and shape, at the same time.\n- Overlooking subtle differences in size or shape.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of sorting laundry: whites with whites, colors with colors. It's the same concept, just with toys and everyday objects!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child learn to sort and classify objects by different attributes such as color, size, and shape.",
+    "overview": "**Objective:** Help your child learn how to sort and classify objects based on attributes like color, shape, and size.\n\n**Why it matters:** Sorting and classifying are foundational skills for math and science. They help children recognize patterns and make sense of the world.\n\n**Parent Tip:** Encourage your child to explain their sorting choices. This boosts their reasoning skills and confidence.\n\n**Real-World Link:** Think of sorting laundry: whites with whites, colors with colors. It's the same concept, just with toys and everyday objects!",
+    "core": "Welcome to the world of sorting and classifying! Your kindergartener is about to embark on a fun journey of organizing the world around them. Together, you'll explore how to group similar items, a skill that’s as important as organizing a toy box!",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how nature sorts things, like how flowers group by color or size in a garden? Let's explore how we can sort things too!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a group of mixed objects (e.g., toy cars, blocks, and balls).\n2. Ask your child to sort them by color. Discuss their choices.\n3. Next, sort by shape. What do they notice?\n4. Finally, sort by size. Encourage them to describe what makes each group unique.",
+    "practice": "**1. Sort these items: 3 red apples, 2 green apples, 4 red balls.**\n_Answer:_ Red group: 3 apples, 4 balls. Green group: 2 apples.\n_Hint:_ Group by color first, then by type.\n\n**2. Classify: 5 small blocks, 3 large blocks, 2 small balls.**\n_Answer:_ Small items: 5 blocks, 2 balls. Large items: 3 blocks.\n_Hint:_ Start with size, then shape.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Mixing categories, like color and shape, at the same time.\n- Overlooking subtle differences in size or shape.",
+    "connection": "Think of sorting laundry: whites with whites, colors with colors. It's the same concept, just with toys and everyday objects!",
+    "close": "**Key Takeaways**\n- Sorting helps children organize and make sense of information.\n- Encourage your child to describe their sorting rules.\n- Sorting is a skill used in everyday life, from organizing toys to sorting laundry.\n\n**Parent Reflection Questions**\n- How did your child decide to sort the objects?\n- What attributes did they find most interesting?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Sort & Classify Objects: A Kindergarten Adventure",
+    "introduction": "Welcome to a fun-filled adventure where your child will explore sorting and classifying objects. This lesson will help your little one make sense of the world by organizing things based on their similarities and differences.",
+    "objective": "Help your child learn how to sort and classify objects by size, shape, and color, building a strong foundation for future math skills.",
+    "why_matters": "Sorting and classifying are essential skills that help children make sense of their environment, fostering critical thinking and problem-solving abilities.",
+    "parent_tip": "Encourage your child to explain their thinking as they sort objects. This practice develops their language skills and reinforces their understanding.",
+    "real_world_link": "Think about how you organize groceries at home. You might put all the fruits together or separate the cans by size. This is sorting and classifying in action!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Gather a collection of small objects like buttons, blocks, or toy animals.",
+      "Ask your child to observe the objects and talk about what they see.",
+      "Guide them to group the objects by one characteristic, such as color.",
+      "Encourage them to try sorting by a different characteristic, like size or shape.",
+      "Discuss the different ways the objects can be sorted and classified."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at these objects together.",
+        "do": "Spread out a variety of small objects.",
+        "ask": "What do you notice about these objects?",
+        "reinforce": "Great observation! Noticing details is the first step in sorting."
+      },
+      {
+        "say": "Can you find all the objects that are the same color?",
+        "do": "Point to a group of objects with the same color.",
+        "ask": "How many red objects can you find?",
+        "reinforce": "Awesome! You've grouped them by color."
+      },
+      {
+        "say": "Now, let's try sorting by size.",
+        "do": "Show different sized objects.",
+        "ask": "Which ones are big and which ones are small?",
+        "reinforce": "You're doing a fantastic job sorting by size!"
+      },
+      {
+        "say": "Can we sort these by shape now?",
+        "do": "Display objects of different shapes.",
+        "ask": "Which ones are round and which ones are square?",
+        "reinforce": "Wonderful! Sorting by shape is fun."
+      },
+      {
+        "say": "Look at all the ways we've sorted these objects!",
+        "do": "Review the sorted groups.",
+        "ask": "What other ways can we sort them?",
+        "reinforce": "You're becoming a sorting expert!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Sort these numbers: 5, 2, 8, 3.",
+        "hint": "Think about which is the smallest and which is the largest.",
+        "answer": "2, 3, 5, 8"
+      },
+      {
+        "prompt": "Group these shapes: circle, square, triangle, circle.",
+        "hint": "Look for shapes that are the same.",
+        "answer": "Circle: circle, circle; Others: square, triangle"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Sorting and classifying help children understand their world.",
+      "Encourage your child to explain their sorting choices.",
+      "Practice sorting objects at home for fun learning experiences."
+    ],
+    "common_mistakes": [
+      "Mixing up categories, like size and color.",
+      "Not checking all objects before sorting.",
+      "Forgetting to explain their sorting choices."
+    ],
+    "deep_dive": {
+      "history": "Sorting and classifying have been used since ancient times for trade and organization.",
+      "connections": "These skills are foundational for math topics like data analysis and geometry.",
+      "misconceptions": "Children may think objects can only be sorted one way.",
+      "teaching_tips": "Use everyday activities like laundry or cooking to practice sorting skills.",
+      "derivation": "Sorting and classifying derive from basic human instincts to organize and make sense of our surroundings."
+    },
+    "motivation": "Sorting and classifying aren’t just math skills—they’re key to understanding and interacting with our world. By using these skills, your child can better categorize and comprehend their environment, setting the stage for future learning."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun-filled adventure where your child will explore sorting and classifying objects. This lesson will help your little one make sense of the world by organizing things based on their similarities and differences.\n\n## Parent Orientation\n**Objective:** Help your child learn how to sort and classify objects by size, shape, and color, building a strong foundation for future math skills.\n**Why it matters:** Sorting and classifying are essential skills that help children make sense of their environment, fostering critical thinking and problem-solving abilities.\n**Parent Tip:** Encourage your child to explain their thinking as they sort objects. This practice develops their language skills and reinforces their understanding.\n**Real-World Link:** Think about how you organize groceries at home. You might put all the fruits together or separate the cans by size. This is sorting and classifying in action!\n\n## Teaching Steps\n1. Gather a collection of small objects like buttons, blocks, or toy animals.\n2. Ask your child to observe the objects and talk about what they see.\n3. Guide them to group the objects by one characteristic, such as color.\n4. Encourage them to try sorting by a different characteristic, like size or shape.\n5. Discuss the different ways the objects can be sorted and classified.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at these objects together.  \n**Show/Do:** Spread out a variety of small objects.  \n**Ask:** What do you notice about these objects?  \n**Reinforce:** Great observation! Noticing details is the first step in sorting.\n2. **Say:** Can you find all the objects that are the same color?  \n**Show/Do:** Point to a group of objects with the same color.  \n**Ask:** How many red objects can you find?  \n**Reinforce:** Awesome! You've grouped them by color.\n3. **Say:** Now, let's try sorting by size.  \n**Show/Do:** Show different sized objects.  \n**Ask:** Which ones are big and which ones are small?  \n**Reinforce:** You're doing a fantastic job sorting by size!\n4. **Say:** Can we sort these by shape now?  \n**Show/Do:** Display objects of different shapes.  \n**Ask:** Which ones are round and which ones are square?  \n**Reinforce:** Wonderful! Sorting by shape is fun.\n5. **Say:** Look at all the ways we've sorted these objects!  \n**Show/Do:** Review the sorted groups.  \n**Ask:** What other ways can we sort them?  \n**Reinforce:** You're becoming a sorting expert!\n\n## Practice Questions (Do It Together)\n**1. Sort these numbers: 5, 2, 8, 3.**\n<details><summary>Hint</summary>\nThink about which is the smallest and which is the largest.\n</details>\n<details><summary>Answer</summary>\n2, 3, 5, 8\n</details>\n\n**2. Group these shapes: circle, square, triangle, circle.**\n<details><summary>Hint</summary>\nLook for shapes that are the same.\n</details>\n<details><summary>Answer</summary>\nCircle: circle, circle; Others: square, triangle\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Sorting and classifying help children understand their world.\n- Encourage your child to explain their sorting choices.\n- Practice sorting objects at home for fun learning experiences.\n\n**Common Mistakes**\n- Mixing up categories, like size and color.\n- Not checking all objects before sorting.\n- Forgetting to explain their sorting choices.\n\n## 🔍 Deep Dive\n**History or origin**\n\nSorting and classifying have been used since ancient times for trade and organization.\n\n**Future topic connections**\n\nThese skills are foundational for math topics like data analysis and geometry.\n\n**Common misconceptions**\n\nChildren may think objects can only be sorted one way.\n\n**Teaching tips for parents**\n\nUse everyday activities like laundry or cooking to practice sorting skills.\n\n**More detail / derivation**\n\nSorting and classifying derive from basic human instincts to organize and make sense of our surroundings.\n\n## Motivation\nSorting and classifying aren’t just math skills—they’re key to understanding and interacting with our world. By using these skills, your child can better categorize and comprehend their environment, setting the stage for future learning."
+}

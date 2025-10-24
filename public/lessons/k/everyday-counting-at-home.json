@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "8078b33c-8b77-473c-9b7e-b1c40be8ac1c",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "ab74c88d-e393-4817-8cfd-ff93c6b05542",
+    "title": "Real-World Math",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8969336e-978e-47ba-9625-564005d99c37",
+    "slug": "everyday-counting-at-home",
+    "title": "Everyday Counting at Home",
+    "summary": "Everyday counting at home — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize numbers and count objects up to 10 using items found at home.\n\n**Why it matters:** Counting is the foundation of math. It helps children understand quantity, order, and is a building block for future math skills.\n\n**Parent Tip:** Use daily routines as counting opportunities. Count steps, snacks, or toys to make learning seamless and enjoyable.\n\n**Real-World Link:** Counting is everywhere! From the number of apples in a bowl to the steps taken to reach the park, numbers are part of our daily lives.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to a fun and engaging way to explore counting with your child using everyday items around your home. This lesson will help your child understand numbers and counting in a natural, supportive environment.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by choosing a small group of similar items, like buttons or spoons.\n2. Ask your child to count them one by one, touching each item as they count.\n3. Encourage your child to say the numbers aloud to reinforce verbal counting.\n4. Mix the items up and have your child count them again, reinforcing that the total remains the same.\n5. Incorporate counting into daily routines, like counting stairs or pieces of fruit at snack time.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Count the number of apples in a bowl. (use numbers like 6 and 9)**\n_Answer:_ If there are 3 apples, the answer is 3.\n_Hint:_ Touch each apple as you count.\n\n**2. How many steps does it take to get from the kitchen to the living room? (use numbers like 6 and 9)**\n_Answer:_ If it takes 8 steps, the answer is 8.\n_Hint:_ Count each step as you walk.\n\n**3. Count the crayons in a box. (use numbers like 6 and 9)**\n_Answer:_ If there are 10 crayons, the answer is 10.\n_Hint:_ Line them up and count each one.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Skipping numbers while counting.\n- Recounting the same item more than once.\n- Not associating the number with the object's quantity.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Counting is everywhere! From the number of apples in a bowl to the steps taken to reach the park, numbers are part of our daily lives.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and count numbers 1 through 10 using everyday items at home.",
+    "overview": "**Objective:** Help your child recognize numbers and count objects up to 10 using items found at home.\n\n**Why it matters:** Counting is the foundation of math. It helps children understand quantity, order, and is a building block for future math skills.\n\n**Parent Tip:** Use daily routines as counting opportunities. Count steps, snacks, or toys to make learning seamless and enjoyable.\n\n**Real-World Link:** Counting is everywhere! From the number of apples in a bowl to the steps taken to reach the park, numbers are part of our daily lives.",
+    "core": "Welcome to a fun and engaging way to explore counting with your child using everyday items around your home. This lesson will help your child understand numbers and counting in a natural, supportive environment.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'How many steps does it take to get from the kitchen to the living room?' This simple question turns walking into a math adventure.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by choosing a small group of similar items, like buttons or spoons.\n2. Ask your child to count them one by one, touching each item as they count.\n3. Encourage your child to say the numbers aloud to reinforce verbal counting.\n4. Mix the items up and have your child count them again, reinforcing that the total remains the same.\n5. Incorporate counting into daily routines, like counting stairs or pieces of fruit at snack time.",
+    "practice": "**1. Count the number of apples in a bowl. (use numbers like 6 and 9)**\n_Answer:_ If there are 3 apples, the answer is 3.\n_Hint:_ Touch each apple as you count.\n\n**2. How many steps does it take to get from the kitchen to the living room? (use numbers like 6 and 9)**\n_Answer:_ If it takes 8 steps, the answer is 8.\n_Hint:_ Count each step as you walk.\n\n**3. Count the crayons in a box. (use numbers like 6 and 9)**\n_Answer:_ If there are 10 crayons, the answer is 10.\n_Hint:_ Line them up and count each one.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Skipping numbers while counting.\n- Recounting the same item more than once.\n- Not associating the number with the object's quantity.",
+    "connection": "Counting is everywhere! From the number of apples in a bowl to the steps taken to reach the park, numbers are part of our daily lives.",
+    "close": "**Key Takeaways**\n- Counting is a sequential process that helps children understand numbers.\n- Incorporating counting into daily routines reinforces learning.\n- Encouragement and involvement make counting fun and engaging.\n\n**Parent Reflection Questions**\n- How can I make counting more engaging for my child?\n- What are some other daily activities where we can practice counting?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Everyday Counting at Home",
+    "introduction": "Counting is a foundational math skill that your child will use every day. Let's explore how you can make counting a fun and engaging part of your daily routine!",
+    "objective": "Help your child practice counting objects up to 10 in everyday settings.",
+    "why_matters": "Counting is the first step in understanding numbers and math concepts. It builds the foundation for more complex math skills.",
+    "parent_tip": "Use everyday opportunities to count with your child, such as counting snacks, toys, or steps as you walk.",
+    "real_world_link": "Counting is everywhere! From counting coins to counting steps, it helps us understand the world around us.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Identify everyday objects your child can count.",
+      "Encourage your child to count out loud with you.",
+      "Use fingers to help visually represent the numbers.",
+      "Incorporate counting into daily routines, like snack time or playtime.",
+      "Celebrate successes and gently correct mistakes."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's count the apples in the fruit bowl together!",
+        "do": "Point to each apple as you count.",
+        "ask": "How many apples do we have?",
+        "reinforce": "Great job counting! We have 5 apples."
+      },
+      {
+        "say": "Can you help me count the steps as we go upstairs?",
+        "do": "Climb the stairs with your child, counting each step aloud.",
+        "ask": "How many steps did we climb?",
+        "reinforce": "You counted all the way to 8! Well done!"
+      },
+      {
+        "say": "Let's count how many blocks are in this tower.",
+        "do": "Build a tower with your child, counting each block.",
+        "ask": "How many blocks did we use?",
+        "reinforce": "That's 10 blocks! You're getting really good at counting."
+      },
+      {
+        "say": "How about we count the crayons in the box?",
+        "do": "Take out the crayons and line them up to count.",
+        "ask": "How many crayons do we have?",
+        "reinforce": "You counted 6 crayons perfectly!"
+      },
+      {
+        "say": "Let's count the cars as they pass by our house.",
+        "do": "Watch the street with your child and count each car.",
+        "ask": "How many cars did we see?",
+        "reinforce": "You counted 4 cars! Excellent work."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Count how many socks are in the laundry basket.",
+        "hint": "Point to each sock as you count.",
+        "answer": "10 socks"
+      },
+      {
+        "prompt": "Count the number of spoons in the drawer.",
+        "hint": "Line them up to make counting easier.",
+        "answer": "6 spoons"
+      },
+      {
+        "prompt": "Count the number of birds you see outside.",
+        "hint": "Use your fingers to keep track.",
+        "answer": "3 birds"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Counting helps children understand numbers and quantity.",
+      "Practice counting in different settings to keep it fun.",
+      "Celebrate your child's successes to build confidence."
+    ],
+    "common_mistakes": [
+      "Skipping numbers while counting.",
+      "Counting the same object more than once.",
+      "Not pointing to each object while counting."
+    ],
+    "deep_dive": {
+      "history": "Counting is one of the oldest mathematical concepts, used by ancient civilizations to track trade and resources.",
+      "connections": "Counting leads to understanding addition and subtraction.",
+      "misconceptions": "Children may think counting is just saying numbers, not realizing it represents quantity.",
+      "teaching_tips": "Use songs and rhymes to make counting more engaging.",
+      "derivation": "Counting is derived from the basic need to quantify and compare objects."
+    },
+    "motivation": "Counting is not just a math skill; it's a way to explore and make sense of the world. Make it a joyful part of your child's everyday experiences!"
+  },
+  "markdown": "## Lesson Introduction\nCounting is a foundational math skill that your child will use every day. Let's explore how you can make counting a fun and engaging part of your daily routine!\n\n## Parent Orientation\n**Objective:** Help your child practice counting objects up to 10 in everyday settings.\n**Why it matters:** Counting is the first step in understanding numbers and math concepts. It builds the foundation for more complex math skills.\n**Parent Tip:** Use everyday opportunities to count with your child, such as counting snacks, toys, or steps as you walk.\n**Real-World Link:** Counting is everywhere! From counting coins to counting steps, it helps us understand the world around us.\n\n## Teaching Steps\n1. Identify everyday objects your child can count.\n2. Encourage your child to count out loud with you.\n3. Use fingers to help visually represent the numbers.\n4. Incorporate counting into daily routines, like snack time or playtime.\n5. Celebrate successes and gently correct mistakes.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's count the apples in the fruit bowl together!  \n**Show/Do:** Point to each apple as you count.  \n**Ask:** How many apples do we have?  \n**Reinforce:** Great job counting! We have 5 apples.\n2. **Say:** Can you help me count the steps as we go upstairs?  \n**Show/Do:** Climb the stairs with your child, counting each step aloud.  \n**Ask:** How many steps did we climb?  \n**Reinforce:** You counted all the way to 8! Well done!\n3. **Say:** Let's count how many blocks are in this tower.  \n**Show/Do:** Build a tower with your child, counting each block.  \n**Ask:** How many blocks did we use?  \n**Reinforce:** That's 10 blocks! You're getting really good at counting.\n4. **Say:** How about we count the crayons in the box?  \n**Show/Do:** Take out the crayons and line them up to count.  \n**Ask:** How many crayons do we have?  \n**Reinforce:** You counted 6 crayons perfectly!\n5. **Say:** Let's count the cars as they pass by our house.  \n**Show/Do:** Watch the street with your child and count each car.  \n**Ask:** How many cars did we see?  \n**Reinforce:** You counted 4 cars! Excellent work.\n\n## Practice Questions (Do It Together)\n**1. Count how many socks are in the laundry basket.**\n<details><summary>Hint</summary>\nPoint to each sock as you count.\n</details>\n<details><summary>Answer</summary>\n10 socks\n</details>\n\n**2. Count the number of spoons in the drawer.**\n<details><summary>Hint</summary>\nLine them up to make counting easier.\n</details>\n<details><summary>Answer</summary>\n6 spoons\n</details>\n\n**3. Count the number of birds you see outside.**\n<details><summary>Hint</summary>\nUse your fingers to keep track.\n</details>\n<details><summary>Answer</summary>\n3 birds\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Counting helps children understand numbers and quantity.\n- Practice counting in different settings to keep it fun.\n- Celebrate your child's successes to build confidence.\n\n**Common Mistakes**\n- Skipping numbers while counting.\n- Counting the same object more than once.\n- Not pointing to each object while counting.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCounting is one of the oldest mathematical concepts, used by ancient civilizations to track trade and resources.\n\n**Future topic connections**\n\nCounting leads to understanding addition and subtraction.\n\n**Common misconceptions**\n\nChildren may think counting is just saying numbers, not realizing it represents quantity.\n\n**Teaching tips for parents**\n\nUse songs and rhymes to make counting more engaging.\n\n**More detail / derivation**\n\nCounting is derived from the basic need to quantify and compare objects.\n\n## Motivation\nCounting is not just a math skill; it's a way to explore and make sense of the world. Make it a joyful part of your child's everyday experiences!"
+}

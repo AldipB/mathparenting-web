@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "9173ca75-5b96-4e03-9110-363ff7b4915e",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "42c4fbd6-5856-4255-8057-d8c7072249cd",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "a4be24f5-db96-4929-8770-3e5136b0d2fa",
+    "slug": "equivalent-fractions",
+    "title": "Understanding Equivalent Fractions",
+    "summary": "Equivalent fractions — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize and generate equivalent fractions with confidence.\n\n**Why it matters:** Understanding equivalent fractions is crucial for simplifying fractions and solving real-world problems involving parts of a whole.\n\n**Parent Tip:** Use everyday items like pizza slices or chocolate bars to illustrate how different fractions can represent the same amount.\n\n**Real-World Link:** Think about sharing a pizza. Whether you slice it into 2 or 4 pieces, half the pizza remains the same amount. Equivalent fractions reflect this idea.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Let's explore equivalent fractions, a key concept in understanding how parts relate to a whole.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a circle and divide it into 2 equal parts. Shade one part to show 1/2.\n2. Now, divide the same circle into 4 equal parts. Shade 2 parts to show 2/4.\n3. Explain that even though the numbers are different, the shaded area remains the same.\n4. Introduce the concept: If you multiply or divide both the numerator and the denominator by the same number, the fractions are equivalent.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find an equivalent fraction for 3/5.**\n_Answer:_ 6/10 (by multiplying both by 2)\n_Hint:_ Multiply the numerator and denominator by the same number.\n\n**2. Find an equivalent fraction for 4/6.**\n_Answer:_ 2/3 (by dividing both by 2)\n_Hint:_ Simplify or multiply both parts by the same number.\n\n**3. Is 2/3 equivalent to 4/6?**\n_Answer:_ Yes, they are equivalent.\n_Hint:_ Try simplifying or cross-multiplying to check.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to multiply or divide both the numerator and denominator.\n- Thinking that fractions with larger numbers are always bigger.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about sharing a pizza. Whether you slice it into 2 or 4 pieces, half the pizza remains the same amount. Equivalent fractions reflect this idea.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and identify equivalent fractions.",
+    "overview": "**Objective:** Help your child recognize and generate equivalent fractions with confidence.\n\n**Why it matters:** Understanding equivalent fractions is crucial for simplifying fractions and solving real-world problems involving parts of a whole.\n\n**Parent Tip:** Use everyday items like pizza slices or chocolate bars to illustrate how different fractions can represent the same amount.\n\n**Real-World Link:** Think about sharing a pizza. Whether you slice it into 2 or 4 pieces, half the pizza remains the same amount. Equivalent fractions reflect this idea.",
+    "core": "Welcome! Let's explore equivalent fractions, a key concept in understanding how parts relate to a whole.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that 1/2 of a pizza is the same as 2/4 of a pizza? How can that be true?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a circle and divide it into 2 equal parts. Shade one part to show 1/2.\n2. Now, divide the same circle into 4 equal parts. Shade 2 parts to show 2/4.\n3. Explain that even though the numbers are different, the shaded area remains the same.\n4. Introduce the concept: If you multiply or divide both the numerator and the denominator by the same number, the fractions are equivalent.",
+    "practice": "**1. Find an equivalent fraction for 3/5.**\n_Answer:_ 6/10 (by multiplying both by 2)\n_Hint:_ Multiply the numerator and denominator by the same number.\n\n**2. Find an equivalent fraction for 4/6.**\n_Answer:_ 2/3 (by dividing both by 2)\n_Hint:_ Simplify or multiply both parts by the same number.\n\n**3. Is 2/3 equivalent to 4/6?**\n_Answer:_ Yes, they are equivalent.\n_Hint:_ Try simplifying or cross-multiplying to check.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to multiply or divide both the numerator and denominator.\n- Thinking that fractions with larger numbers are always bigger.",
+    "connection": "Think about sharing a pizza. Whether you slice it into 2 or 4 pieces, half the pizza remains the same amount. Equivalent fractions reflect this idea.",
+    "close": "**Key Takeaways**\n- Equivalent fractions represent the same quantity.\n- Visual aids can help in understanding equivalent fractions.\n- Practice finding common factors to simplify fractions.\n\n**Parent Reflection Questions**\n- How can we check if two fractions are equivalent?\n- What real-world examples can we find that use equivalent fractions?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Equivalent Fractions",
+    "introduction": "Welcome to the world of fractions! Today, we'll explore how some fractions, even if they look different, can actually represent the same value. This concept is called equivalent fractions, and it's a key building block in your child’s math journey.",
+    "objective": "Help your child understand and identify equivalent fractions using visual aids and simple multiplication.",
+    "why_matters": "Grasping equivalent fractions is essential because it lays the foundation for adding, subtracting, and comparing fractions later on. It's a skill that will be used throughout their math education and beyond.",
+    "parent_tip": "Use visual aids like fraction circles or bars to help your child see the equivalence. Drawing or using physical objects can make abstract concepts more concrete.",
+    "real_world_link": "Think of a pizza: whether you cut it into 4 large slices or 8 smaller slices, the whole pizza remains the same. This is similar to equivalent fractions.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of equivalent fractions using a visual model.",
+      "Explain how multiplying the numerator and denominator by the same number creates an equivalent fraction.",
+      "Use simple examples to illustrate the concept.",
+      "Practice identifying equivalent fractions together.",
+      "Encourage using physical objects or drawings for clarity."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at this fraction: 1/2. Imagine it's a pizza.",
+        "do": "Draw a circle and shade half of it.",
+        "ask": "What if we cut the same pizza into 4 slices instead of 2? How many slices would we need to shade to keep the same amount?",
+        "reinforce": "Exactly, 2/4 is the same as 1/2. They cover the same amount of space."
+      },
+      {
+        "say": "Now, let's use numbers to find equivalent fractions.",
+        "do": "Write 1/2 and multiply both the top and bottom by 2.",
+        "ask": "What do we get when we do that?",
+        "reinforce": "That's right, 2/4! It's the same as 1/2."
+      },
+      {
+        "say": "Let's try another one. How about 3/5?",
+        "do": "Multiply both the numerator and the denominator by 2.",
+        "ask": "What fraction do we get?",
+        "reinforce": "Yes, 6/10 is equivalent to 3/5."
+      },
+      {
+        "say": "Can you think of a fraction that is equivalent to 2/3?",
+        "do": "Try multiplying both parts by 3.",
+        "ask": "What do you find?",
+        "reinforce": "8/12 is equivalent to 2/3. Well done!"
+      },
+      {
+        "say": "Remember, as long as we multiply (or divide) the numerator and denominator by the same number, the fractions are equivalent.",
+        "do": "Summarize with a few more examples.",
+        "ask": "Can you spot any patterns?",
+        "reinforce": "Great job! You're getting the hang of equivalent fractions."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find an equivalent fraction for 4/6.",
+        "hint": "Try dividing both by 2.",
+        "answer": "2/3"
+      },
+      {
+        "prompt": "What fraction is equivalent to 5/8 if you multiply both parts by 2?",
+        "hint": "Multiply the numerator and denominator by 2.",
+        "answer": "10/16"
+      },
+      {
+        "prompt": "Find an equivalent fraction for 7/9 by multiplying both parts by 3.",
+        "hint": "Triple both numbers.",
+        "answer": "21/27"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Equivalent fractions may look different but represent the same value.",
+      "You can find equivalent fractions by multiplying or dividing both the numerator and denominator by the same number.",
+      "Visual aids can make understanding equivalent fractions easier."
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply or divide both the numerator and denominator by the same number.",
+      "Thinking fractions with different denominators can't be equivalent."
+    ],
+    "deep_dive": {
+      "history": "The concept of fractions dates back to ancient Egypt, where they were used in trade and construction.",
+      "connections": "Equivalent fractions are crucial when learning to add, subtract, and compare fractions.",
+      "misconceptions": "Students often believe fractions with different numerators can't be equivalent. Visual models can help clarify this.",
+      "teaching_tips": "Use real-life examples like slicing food or sharing items to illustrate fractions.",
+      "derivation": "Equivalent fractions arise from the property that multiplying or dividing the numerator and denominator by the same non-zero number doesn't change the value of the fraction."
+    },
+    "motivation": "Understanding equivalent fractions opens the door to more advanced math concepts and helps in everyday situations like cooking and sharing."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of fractions! Today, we'll explore how some fractions, even if they look different, can actually represent the same value. This concept is called equivalent fractions, and it's a key building block in your child’s math journey.\n\n## Parent Orientation\n**Objective:** Help your child understand and identify equivalent fractions using visual aids and simple multiplication.\n**Why it matters:** Grasping equivalent fractions is essential because it lays the foundation for adding, subtracting, and comparing fractions later on. It's a skill that will be used throughout their math education and beyond.\n**Parent Tip:** Use visual aids like fraction circles or bars to help your child see the equivalence. Drawing or using physical objects can make abstract concepts more concrete.\n**Real-World Link:** Think of a pizza: whether you cut it into 4 large slices or 8 smaller slices, the whole pizza remains the same. This is similar to equivalent fractions.\n\n## Teaching Steps\n1. Introduce the concept of equivalent fractions using a visual model.\n2. Explain how multiplying the numerator and denominator by the same number creates an equivalent fraction.\n3. Use simple examples to illustrate the concept.\n4. Practice identifying equivalent fractions together.\n5. Encourage using physical objects or drawings for clarity.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at this fraction: 1/2. Imagine it's a pizza.  \n**Show/Do:** Draw a circle and shade half of it.  \n**Ask:** What if we cut the same pizza into 4 slices instead of 2? How many slices would we need to shade to keep the same amount?  \n**Reinforce:** Exactly, 2/4 is the same as 1/2. They cover the same amount of space.\n2. **Say:** Now, let's use numbers to find equivalent fractions.  \n**Show/Do:** Write 1/2 and multiply both the top and bottom by 2.  \n**Ask:** What do we get when we do that?  \n**Reinforce:** That's right, 2/4! It's the same as 1/2.\n3. **Say:** Let's try another one. How about 3/5?  \n**Show/Do:** Multiply both the numerator and the denominator by 2.  \n**Ask:** What fraction do we get?  \n**Reinforce:** Yes, 6/10 is equivalent to 3/5.\n4. **Say:** Can you think of a fraction that is equivalent to 2/3?  \n**Show/Do:** Try multiplying both parts by 3.  \n**Ask:** What do you find?  \n**Reinforce:** 8/12 is equivalent to 2/3. Well done!\n5. **Say:** Remember, as long as we multiply (or divide) the numerator and denominator by the same number, the fractions are equivalent.  \n**Show/Do:** Summarize with a few more examples.  \n**Ask:** Can you spot any patterns?  \n**Reinforce:** Great job! You're getting the hang of equivalent fractions.\n\n## Practice Questions (Do It Together)\n**1. Find an equivalent fraction for 4/6.**\n<details><summary>Hint</summary>\nTry dividing both by 2.\n</details>\n<details><summary>Answer</summary>\n2/3\n</details>\n\n**2. What fraction is equivalent to 5/8 if you multiply both parts by 2?**\n<details><summary>Hint</summary>\nMultiply the numerator and denominator by 2.\n</details>\n<details><summary>Answer</summary>\n10/16\n</details>\n\n**3. Find an equivalent fraction for 7/9 by multiplying both parts by 3.**\n<details><summary>Hint</summary>\nTriple both numbers.\n</details>\n<details><summary>Answer</summary>\n21/27\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Equivalent fractions may look different but represent the same value.\n- You can find equivalent fractions by multiplying or dividing both the numerator and denominator by the same number.\n- Visual aids can make understanding equivalent fractions easier.\n\n**Common Mistakes**\n- Forgetting to multiply or divide both the numerator and denominator by the same number.\n- Thinking fractions with different denominators can't be equivalent.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of fractions dates back to ancient Egypt, where they were used in trade and construction.\n\n**Future topic connections**\n\nEquivalent fractions are crucial when learning to add, subtract, and compare fractions.\n\n**Common misconceptions**\n\nStudents often believe fractions with different numerators can't be equivalent. Visual models can help clarify this.\n\n**Teaching tips for parents**\n\nUse real-life examples like slicing food or sharing items to illustrate fractions.\n\n**More detail / derivation**\n\nEquivalent fractions arise from the property that multiplying or dividing the numerator and denominator by the same non-zero number doesn't change the value of the fraction.\n\n## Motivation\nUnderstanding equivalent fractions opens the door to more advanced math concepts and helps in everyday situations like cooking and sharing."
+}

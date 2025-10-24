@@ -1,0 +1,154 @@
+{
+  "grade": {
+    "id": "9fc77ba9-e1f2-45e0-ad30-712965f7ef8d",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "da96f280-0328-40d2-868d-ecd0c30a95bd",
+    "title": "Number Sense & Counting",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "fcb189aa-e6a8-4072-b43e-b33863b276c4",
+    "slug": "addition-through-stories",
+    "title": "Addition through Stories",
+    "summary": "Addition through stories — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and practice addition by using simple story problems.\n\n**Why it matters:** Addition is a foundational skill in math. By connecting it to stories, children can see how math is part of their daily adventures.\n\n**Parent Tip:** Use your child's favorite characters or toys in stories to make addition relatable and exciting.\n\n**Real-World Link:** Think of addition as putting together a puzzle. Each piece (number) fits together to form a complete picture (sum).",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Let's explore addition with fun stories. This approach helps kids relate math to everyday life, making it more engaging and memorable.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a simple story: 'You have 2 apples and pick 3 more. How many apples do you have now?'\n2. Use physical objects like toys or snacks to visualize the story.\n3. Encourage your child to count aloud as they add the items.\n4. Repeat with different numbers and objects to reinforce the concept.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Tom has 1 toy car and his friend gives him 4 more. How many toy cars does Tom have now?**\n_Answer:_ Tom has 5 toy cars.\n_Hint:_ Start with 1 and count up 4 more.\n\n**2. Sara finds 2 seashells and then finds 3 more. How many seashells does she have in total?**\n_Answer:_ Sara has 5 seashells.\n_Hint:_ Count the first 2 seashells, then add 3 more.\n\n**3. There are 3 birds on a tree, and 2 more join them. How many birds are there now?**\n_Answer:_ There are 5 birds now.\n_Hint:_ Add the 2 new birds to the existing 3.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to count the first group of objects.\n- Miscounting when adding the second set of objects.\n- Not using physical objects to visualize the addition.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of addition as putting together a puzzle. Each piece (number) fits together to form a complete picture (sum).",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand addition by using simple stories.",
+    "overview": "**Objective:** Help your child understand and practice addition by using simple story problems.\n\n**Why it matters:** Addition is a foundational skill in math. By connecting it to stories, children can see how math is part of their daily adventures.\n\n**Parent Tip:** Use your child's favorite characters or toys in stories to make addition relatable and exciting.\n\n**Real-World Link:** Think of addition as putting together a puzzle. Each piece (number) fits together to form a complete picture (sum).",
+    "core": "Welcome! Let's explore addition with fun stories. This approach helps kids relate math to everyday life, making it more engaging and memorable.",
+    "demo": "**Spark Curiosity:**\n\nImagine you have two cookies and then get two more. How many cookies do you have now?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a simple story: 'You have 2 apples and pick 3 more. How many apples do you have now?'\n2. Use physical objects like toys or snacks to visualize the story.\n3. Encourage your child to count aloud as they add the items.\n4. Repeat with different numbers and objects to reinforce the concept.",
+    "practice": "**1. Tom has 1 toy car and his friend gives him 4 more. How many toy cars does Tom have now?**\n_Answer:_ Tom has 5 toy cars.\n_Hint:_ Start with 1 and count up 4 more.\n\n**2. Sara finds 2 seashells and then finds 3 more. How many seashells does she have in total?**\n_Answer:_ Sara has 5 seashells.\n_Hint:_ Count the first 2 seashells, then add 3 more.\n\n**3. There are 3 birds on a tree, and 2 more join them. How many birds are there now?**\n_Answer:_ There are 5 birds now.\n_Hint:_ Add the 2 new birds to the existing 3.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to count the first group of objects.\n- Miscounting when adding the second set of objects.\n- Not using physical objects to visualize the addition.",
+    "connection": "Think of addition as putting together a puzzle. Each piece (number) fits together to form a complete picture (sum).",
+    "close": "**Key Takeaways**\n- Addition is like combining groups.\n- Using stories helps make addition relatable and fun.\n- Counting objects in everyday situations reinforces learning.\n\n**Parent Reflection Questions**\n- How can you create more addition stories at home?\n- What objects does your child enjoy counting?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Addition through Stories",
+    "introduction": "Welcome to a fun-filled journey of learning addition with storytelling! This lesson will help your kindergartener understand addition by weaving numbers into stories they can relate to.",
+    "objective": "To help your child understand and practice basic addition through engaging stories.",
+    "why_matters": "Learning addition through stories helps children connect math to their everyday lives, making it more meaningful and memorable.",
+    "parent_tip": "Use your child's favorite characters or themes to create engaging addition stories. It makes learning more personal and fun!",
+    "real_world_link": "Addition is everywhere! Whether it's counting apples in a basket or toys in a box, addition helps us make sense of the world around us.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Choose a simple story setting your child loves.",
+      "Introduce characters or objects in the story.",
+      "Incorporate numbers by adding characters or objects.",
+      "Ask your child to help solve the addition problem within the story.",
+      "Encourage your child to create their own addition story."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's imagine a story with our favorite characters! Today, we'll use teddy bears.",
+        "do": "Show two teddy bears and place them in front of your child.",
+        "ask": "How many teddy bears do we have here?",
+        "reinforce": "Great! We have two teddy bears."
+      },
+      {
+        "say": "Now, let's add one more teddy bear to our story.",
+        "do": "Place another teddy bear next to the first two.",
+        "ask": "How many teddy bears are there now?",
+        "reinforce": "Yes, now there are three teddy bears in our story!"
+      },
+      {
+        "say": "Let's try with apples this time. We have three apples.",
+        "do": "Show three apples to your child.",
+        "ask": "If we add two more apples, how many apples will we have?",
+        "reinforce": "Perfect! We have five apples now. You added them correctly!"
+      },
+      {
+        "say": "Can you think of a story where we add more of something?",
+        "do": "Encourage your child to create their own story with toys or objects.",
+        "ask": "What did you come up with?",
+        "reinforce": "That's a fantastic story! You did a great job adding."
+      },
+      {
+        "say": "Let's write our story down and draw the objects.",
+        "do": "Help your child draw and write their addition story.",
+        "ask": "What should we call our story?",
+        "reinforce": "This is a wonderful story. You're a great storyteller and mathematician!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you have 2 oranges and you get 3 more, how many oranges do you have?",
+        "hint": "Try counting all the oranges together.",
+        "answer": "5"
+      },
+      {
+        "prompt": "You see 4 birds on a tree. Two more join them. How many birds are there now?",
+        "hint": "Add the new birds to the ones already there.",
+        "answer": "6"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Addition is like putting things together.",
+      "Stories make addition fun and easy to understand.",
+      "You can create your own stories to practice addition anytime!"
+    ],
+    "common_mistakes": [
+      "Forgetting to count the original group when adding more.",
+      "Mixing up addition with subtraction by removing instead of adding."
+    ],
+    "deep_dive": {
+      "history": "Addition has been used for thousands of years and is one of the basic operations in math.",
+      "connections": "Addition is used in everyday activities like shopping, cooking, and playing games.",
+      "misconceptions": "Some children think addition always makes numbers very big, but it's about combining what you have.",
+      "teaching_tips": "Use a variety of objects for stories to keep the learning fresh and engaging.",
+      "derivation": "Addition derives from the Latin word 'addere,' which means 'to give to.'"
+    },
+    "motivation": "By using stories, your child can visualize addition, making it more enjoyable and easier to grasp. Keep encouraging their creativity!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun-filled journey of learning addition with storytelling! This lesson will help your kindergartener understand addition by weaving numbers into stories they can relate to.\n\n## Parent Orientation\n**Objective:** To help your child understand and practice basic addition through engaging stories.\n**Why it matters:** Learning addition through stories helps children connect math to their everyday lives, making it more meaningful and memorable.\n**Parent Tip:** Use your child's favorite characters or themes to create engaging addition stories. It makes learning more personal and fun!\n**Real-World Link:** Addition is everywhere! Whether it's counting apples in a basket or toys in a box, addition helps us make sense of the world around us.\n\n## Teaching Steps\n1. Choose a simple story setting your child loves.\n2. Introduce characters or objects in the story.\n3. Incorporate numbers by adding characters or objects.\n4. Ask your child to help solve the addition problem within the story.\n5. Encourage your child to create their own addition story.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's imagine a story with our favorite characters! Today, we'll use teddy bears.  \n**Show/Do:** Show two teddy bears and place them in front of your child.  \n**Ask:** How many teddy bears do we have here?  \n**Reinforce:** Great! We have two teddy bears.\n2. **Say:** Now, let's add one more teddy bear to our story.  \n**Show/Do:** Place another teddy bear next to the first two.  \n**Ask:** How many teddy bears are there now?  \n**Reinforce:** Yes, now there are three teddy bears in our story!\n3. **Say:** Let's try with apples this time. We have three apples.  \n**Show/Do:** Show three apples to your child.  \n**Ask:** If we add two more apples, how many apples will we have?  \n**Reinforce:** Perfect! We have five apples now. You added them correctly!\n4. **Say:** Can you think of a story where we add more of something?  \n**Show/Do:** Encourage your child to create their own story with toys or objects.  \n**Ask:** What did you come up with?  \n**Reinforce:** That's a fantastic story! You did a great job adding.\n5. **Say:** Let's write our story down and draw the objects.  \n**Show/Do:** Help your child draw and write their addition story.  \n**Ask:** What should we call our story?  \n**Reinforce:** This is a wonderful story. You're a great storyteller and mathematician!\n\n## Practice Questions (Do It Together)\n**1. If you have 2 oranges and you get 3 more, how many oranges do you have?**\n<details><summary>Hint</summary>\nTry counting all the oranges together.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**2. You see 4 birds on a tree. Two more join them. How many birds are there now?**\n<details><summary>Hint</summary>\nAdd the new birds to the ones already there.\n</details>\n<details><summary>Answer</summary>\n6\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Addition is like putting things together.\n- Stories make addition fun and easy to understand.\n- You can create your own stories to practice addition anytime!\n\n**Common Mistakes**\n- Forgetting to count the original group when adding more.\n- Mixing up addition with subtraction by removing instead of adding.\n\n## 🔍 Deep Dive\n**History or origin**\n\nAddition has been used for thousands of years and is one of the basic operations in math.\n\n**Future topic connections**\n\nAddition is used in everyday activities like shopping, cooking, and playing games.\n\n**Common misconceptions**\n\nSome children think addition always makes numbers very big, but it's about combining what you have.\n\n**Teaching tips for parents**\n\nUse a variety of objects for stories to keep the learning fresh and engaging.\n\n**More detail / derivation**\n\nAddition derives from the Latin word 'addere,' which means 'to give to.'\n\n## Motivation\nBy using stories, your child can visualize addition, making it more enjoyable and easier to grasp. Keep encouraging their creativity!"
+}

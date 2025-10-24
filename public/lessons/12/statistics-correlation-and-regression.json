@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "5195b2b7-4988-4187-a251-dbea0863677d",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "1a106ddf-d176-4c35-bf40-665f23fa89cf",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "2ac538a4-3cdc-4d46-8692-786b98ed2384",
+    "slug": "statistics-correlation-and-regression",
+    "title": "Statistics – Correlation & Regression",
+    "summary": "Statistics – correlation & regression — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand how to measure and predict relationships between two variables using correlation and regression.\n\n**Why it matters:** These skills are vital in fields like economics, biology, and even sports analytics. They help us make informed decisions based on data.\n\n**Parent Tip:** Encourage your child to think about everyday relationships, like the connection between study time and grades. This will make the concepts more relatable.\n\n**Real-World Link:** Correlation and regression are used in weather forecasting to predict temperatures based on humidity and other factors. It's like being a detective, but with numbers!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of correlation and regression! These concepts help us understand and predict relationships between different things. Imagine predicting how much your garden will grow based on how much you water it.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss the idea of relationships: How does one thing affect another?\n2. Introduce correlation: Explain it as a measure of how closely two things are related.\n3. Explain regression: It's a way to predict one thing based on another.\n4. Use simple data examples, like height and shoe size, to illustrate these concepts.\n5. Show how to plot data points on a graph and draw a line of best fit.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Given the data: hours studied (2, 4, 6, 8) and exam scores (70, 75, 80, 85), find the correlation.**\n_Answer:_ The correlation is positive; as study hours increase, scores increase.\n_Hint:_ Look for a pattern between hours studied and scores.\n\n**2. If a student studies for 5 hours, predict their score using the data.**\n_Answer:_ The predicted score is around 77.5.\n_Hint:_ Use the trend you see in the data to estimate.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Assuming correlation implies causation.\n- Confusing the strength of correlation with its direction.\n- Ignoring outliers that can affect the accuracy of predictions.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Correlation and regression are used in weather forecasting to predict temperatures based on humidity and other factors. It's like being a detective, but with numbers!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your teen understand how correlation and regression are used to analyze relationships between variables.",
+    "overview": "**Objective:** Help your child understand how to measure and predict relationships between two variables using correlation and regression.\n\n**Why it matters:** These skills are vital in fields like economics, biology, and even sports analytics. They help us make informed decisions based on data.\n\n**Parent Tip:** Encourage your child to think about everyday relationships, like the connection between study time and grades. This will make the concepts more relatable.\n\n**Real-World Link:** Correlation and regression are used in weather forecasting to predict temperatures based on humidity and other factors. It's like being a detective, but with numbers!",
+    "core": "Welcome to the world of correlation and regression! These concepts help us understand and predict relationships between different things. Imagine predicting how much your garden will grow based on how much you water it.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how scientists know that smoking is linked to lung cancer? It's not magic—it's math! Let's explore how we find relationships between different things.",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** r = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum (x_i - \\bar{x})^2 \\sum (y_i - \\bar{y})^2}}\n- **Meaning:** The correlation coefficient 'r' quantifies the strength and direction of a linear relationship between two variables.\n- **How it works:** It compares how much each pair of variables deviate from their means, scaled by their standard deviations.\n- **Example:** If we calculate 'r' for ice cream sales and temperature, a positive 'r' indicates they increase together.\n$$",
+    "formulas": "$$\nr = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum (x_i - \\bar{x})^2 \\sum (y_i - \\bar{y})^2}}\n$$",
+    "guide": "1. Discuss the idea of relationships: How does one thing affect another?\n2. Introduce correlation: Explain it as a measure of how closely two things are related.\n3. Explain regression: It's a way to predict one thing based on another.\n4. Use simple data examples, like height and shoe size, to illustrate these concepts.\n5. Show how to plot data points on a graph and draw a line of best fit.",
+    "practice": "**1. Given the data: hours studied (2, 4, 6, 8) and exam scores (70, 75, 80, 85), find the correlation.**\n_Answer:_ The correlation is positive; as study hours increase, scores increase.\n_Hint:_ Look for a pattern between hours studied and scores.\n\n**2. If a student studies for 5 hours, predict their score using the data.**\n_Answer:_ The predicted score is around 77.5.\n_Hint:_ Use the trend you see in the data to estimate.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Assuming correlation implies causation.\n- Confusing the strength of correlation with its direction.\n- Ignoring outliers that can affect the accuracy of predictions.",
+    "connection": "Correlation and regression are used in weather forecasting to predict temperatures based on humidity and other factors. It's like being a detective, but with numbers!",
+    "close": "**Key Takeaways**\n- Correlation indicates the direction and strength of a relationship between two variables.\n- Regression helps predict one variable based on another.\n- Real-world data often uses these concepts to draw conclusions.\n\n**Parent Reflection Questions**\n- Can correlation alone prove one variable causes another?\n- How can outliers affect our understanding of data?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Statistics – Correlation & Regression",
+    "introduction": "Welcome to the world of statistics where we explore the relationships between different sets of data. In this lesson, we'll dive into correlation and regression, two powerful tools that help us understand how variables are connected.",
+    "objective": "By the end of this lesson, you'll understand how to determine if two variables are related and how to predict one variable based on another using correlation and regression analysis.",
+    "why_matters": "Understanding correlation and regression is crucial for making informed decisions based on data. From predicting weather patterns to understanding economic trends, these concepts help us see connections and make predictions.",
+    "parent_tip": "Encourage your child to think of everyday examples where they notice relationships between things, like study time and test scores. This makes the concepts more relatable.",
+    "real_world_link": "Consider how a business might use regression to forecast sales based on advertising spend. By understanding these relationships, businesses can allocate resources more effectively.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of correlation as a measure of how two variables move together.",
+      "Explain the difference between positive, negative, and no correlation.",
+      "Discuss how regression helps predict the value of one variable based on another.",
+      "Use simple examples, like height and shoe size, to illustrate correlation.",
+      "Show how to plot data points on a graph and draw a line of best fit for regression."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about how two things might be connected.",
+        "do": "Show a simple graph with two variables, like hours studied and test scores.",
+        "ask": "What do you notice about the relationship between these two variables?",
+        "reinforce": "Great observation! When one increases, the other tends to increase too, showing a positive correlation."
+      },
+      {
+        "say": "Now, let's think about when one thing goes up, but the other goes down.",
+        "do": "Show a graph with a negative correlation, like temperature and sweater sales.",
+        "ask": "How do these variables relate?",
+        "reinforce": "Exactly, this is a negative correlation. As it gets warmer, fewer people buy sweaters."
+      },
+      {
+        "say": "Regression is like drawing a line through the dots on a graph to make predictions.",
+        "do": "Draw a line of best fit through a set of data points.",
+        "ask": "Why do you think this line is useful?",
+        "reinforce": "Yes, it helps us predict future values. If we know one variable, we can estimate the other."
+      },
+      {
+        "say": "Can you think of other examples where one thing might affect another?",
+        "do": "Discuss real-life examples like exercise and health.",
+        "ask": "What kind of correlation do you think exists here?",
+        "reinforce": "Exactly, more exercise often leads to better health, showing a positive correlation."
+      },
+      {
+        "say": "Remember, correlation doesn’t mean causation.",
+        "do": "Explain that just because two things are related doesn’t mean one causes the other.",
+        "ask": "Can you think of an example where this might be the case?",
+        "reinforce": "Good thinking! Just because ice cream sales and sunburns increase together doesn’t mean ice cream causes sunburn."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If the correlation between hours studied and test scores is 0.8, is it strong, weak, or no correlation?",
+        "hint": "Consider the value range of correlation coefficients.",
+        "answer": "Strong correlation."
+      },
+      {
+        "prompt": "Predict the sales for 15 ads if the line of best fit equation is sales = 2 * ads + 10.",
+        "hint": "Plug in the number of ads into the equation.",
+        "answer": "40 sales."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Correlation helps us understand if and how two variables move together.",
+      "Regression allows us to make predictions based on data relationships.",
+      "Real-world applications of these concepts are vast and impactful."
+    ],
+    "common_mistakes": [
+      "Confusing correlation with causation.",
+      "Misinterpreting the correlation coefficient's strength.",
+      "Forgetting that regression predictions can be inaccurate if data is not well-fitted."
+    ],
+    "deep_dive": {
+      "history": "Correlation and regression were developed in the late 19th century by Sir Francis Galton, who studied heredity and biometrics.",
+      "connections": "These concepts are foundational in fields like economics, biology, and social sciences.",
+      "misconceptions": "Many believe a high correlation implies causation, which is not always true.",
+      "teaching_tips": "Use simple, relatable examples to illustrate these concepts and reinforce the importance of data visualization.",
+      "derivation": "The line of best fit in regression minimizes the sum of squared differences between observed and predicted values."
+    },
+    "motivation": "Think of correlation and regression as your child's new tools to uncover hidden patterns and make predictions in data. These skills are invaluable in today's data-driven world."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of statistics where we explore the relationships between different sets of data. In this lesson, we'll dive into correlation and regression, two powerful tools that help us understand how variables are connected.\n\n## Parent Orientation\n**Objective:** By the end of this lesson, you'll understand how to determine if two variables are related and how to predict one variable based on another using correlation and regression analysis.\n**Why it matters:** Understanding correlation and regression is crucial for making informed decisions based on data. From predicting weather patterns to understanding economic trends, these concepts help us see connections and make predictions.\n**Parent Tip:** Encourage your child to think of everyday examples where they notice relationships between things, like study time and test scores. This makes the concepts more relatable.\n**Real-World Link:** Consider how a business might use regression to forecast sales based on advertising spend. By understanding these relationships, businesses can allocate resources more effectively.\n\n## Teaching Steps\n1. Introduce the concept of correlation as a measure of how two variables move together.\n2. Explain the difference between positive, negative, and no correlation.\n3. Discuss how regression helps predict the value of one variable based on another.\n4. Use simple examples, like height and shoe size, to illustrate correlation.\n5. Show how to plot data points on a graph and draw a line of best fit for regression.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about how two things might be connected.  \n**Show/Do:** Show a simple graph with two variables, like hours studied and test scores.  \n**Ask:** What do you notice about the relationship between these two variables?  \n**Reinforce:** Great observation! When one increases, the other tends to increase too, showing a positive correlation.\n2. **Say:** Now, let's think about when one thing goes up, but the other goes down.  \n**Show/Do:** Show a graph with a negative correlation, like temperature and sweater sales.  \n**Ask:** How do these variables relate?  \n**Reinforce:** Exactly, this is a negative correlation. As it gets warmer, fewer people buy sweaters.\n3. **Say:** Regression is like drawing a line through the dots on a graph to make predictions.  \n**Show/Do:** Draw a line of best fit through a set of data points.  \n**Ask:** Why do you think this line is useful?  \n**Reinforce:** Yes, it helps us predict future values. If we know one variable, we can estimate the other.\n4. **Say:** Can you think of other examples where one thing might affect another?  \n**Show/Do:** Discuss real-life examples like exercise and health.  \n**Ask:** What kind of correlation do you think exists here?  \n**Reinforce:** Exactly, more exercise often leads to better health, showing a positive correlation.\n5. **Say:** Remember, correlation doesn’t mean causation.  \n**Show/Do:** Explain that just because two things are related doesn’t mean one causes the other.  \n**Ask:** Can you think of an example where this might be the case?  \n**Reinforce:** Good thinking! Just because ice cream sales and sunburns increase together doesn’t mean ice cream causes sunburn.\n\n## Practice Questions (Do It Together)\n**1. If the correlation between hours studied and test scores is 0.8, is it strong, weak, or no correlation?**\n<details><summary>Hint</summary>\nConsider the value range of correlation coefficients.\n</details>\n<details><summary>Answer</summary>\nStrong correlation.\n</details>\n\n**2. Predict the sales for 15 ads if the line of best fit equation is sales = 2 * ads + 10.**\n<details><summary>Hint</summary>\nPlug in the number of ads into the equation.\n</details>\n<details><summary>Answer</summary>\n40 sales.\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Correlation helps us understand if and how two variables move together.\n- Regression allows us to make predictions based on data relationships.\n- Real-world applications of these concepts are vast and impactful.\n\n**Common Mistakes**\n- Confusing correlation with causation.\n- Misinterpreting the correlation coefficient's strength.\n- Forgetting that regression predictions can be inaccurate if data is not well-fitted.\n\n## 🔍 Deep Dive\n**History or origin**\n\nCorrelation and regression were developed in the late 19th century by Sir Francis Galton, who studied heredity and biometrics.\n\n**Future topic connections**\n\nThese concepts are foundational in fields like economics, biology, and social sciences.\n\n**Common misconceptions**\n\nMany believe a high correlation implies causation, which is not always true.\n\n**Teaching tips for parents**\n\nUse simple, relatable examples to illustrate these concepts and reinforce the importance of data visualization.\n\n**More detail / derivation**\n\nThe line of best fit in regression minimizes the sum of squared differences between observed and predicted values.\n\n## Motivation\nThink of correlation and regression as your child's new tools to uncover hidden patterns and make predictions in data. These skills are invaluable in today's data-driven world."
+}

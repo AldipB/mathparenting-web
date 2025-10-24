@@ -1,0 +1,173 @@
+{
+  "grade": {
+    "id": "f9aeb9d3-17bd-4267-b98b-19be96aedf13",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "8f49e3a0-5dfb-4371-9f53-9818a25a9296",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "40ce0a63-18a7-49d0-8809-c26ae77ce620",
+    "slug": "volume-and-capacity",
+    "title": "Volume & Capacity: Exploring Space in 3D!",
+    "summary": "Volume & capacity — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand how to calculate the volume and capacity of various 3D shapes and why it's useful in daily life.\n\n**Why it matters:** Understanding volume and capacity helps in cooking, packing, and even filling up a fish tank! It's a practical skill that makes everyday tasks easier.\n\n**Parent Tip:** Encourage your child to visualize 3D shapes in their environment—like a cereal box or water bottle—and discuss how much they can hold.\n\n**Real-World Link:** Think about filling a bathtub. Knowing its capacity ensures you add the right amount of water without overflowing.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of volume and capacity! Together, we'll discover how much space 3D objects occupy, using everyday examples to make this concept relatable.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying 3D shapes around the house, like boxes and bottles.\n2. Discuss the formula for volume and what each part means.\n3. Measure objects together, practicing how to calculate their volume.\n4. Use water or small objects like blocks to fill a container and compare with calculated volume.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the volume of a box measuring 5cm × 3cm × 2cm.**\n_Answer:_ Volume = 5cm × 3cm × 2cm = 30 cubic centimeters.\n_Hint:_ Use the formula: Volume = length × width × height.\n\n**2. A fish tank has dimensions 10m × 5m × 2m. Calculate its volume.**\n_Answer:_ Volume = 10m × 5m × 2m = 100 cubic meters.\n_Hint:_ Multiply the length, width, and height.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to use the same units for all dimensions.\n- Confusing volume with surface area.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about filling a bathtub. Knowing its capacity ensures you add the right amount of water without overflowing.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and calculate the volume of 3D objects.",
+    "overview": "**Objective:** Help your child understand how to calculate the volume and capacity of various 3D shapes and why it's useful in daily life.\n\n**Why it matters:** Understanding volume and capacity helps in cooking, packing, and even filling up a fish tank! It's a practical skill that makes everyday tasks easier.\n\n**Parent Tip:** Encourage your child to visualize 3D shapes in their environment—like a cereal box or water bottle—and discuss how much they can hold.\n\n**Real-World Link:** Think about filling a bathtub. Knowing its capacity ensures you add the right amount of water without overflowing.",
+    "core": "Welcome to the world of volume and capacity! Together, we'll discover how much space 3D objects occupy, using everyday examples to make this concept relatable.",
+    "demo": "**Spark Curiosity:**\n\nHow many juice boxes can fit inside your backpack? Let's find out using volume!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** Volume = Length × Width × Height\n- **Meaning:** This formula helps us find out how much space a box-shaped object occupies by considering its three dimensions.\n- **How it works:** We measure how long, wide, and tall the object is, then multiply these three numbers together.\n- **Example:** A box with dimensions 2 cm (length), 3 cm (width), and 4 cm (height) has a volume of 2 × 3 × 4 = 24 cubic centimeters.",
+    "formulas": "Volume = Length × Width × Height",
+    "guide": "1. Start by identifying 3D shapes around the house, like boxes and bottles.\n2. Discuss the formula for volume and what each part means.\n3. Measure objects together, practicing how to calculate their volume.\n4. Use water or small objects like blocks to fill a container and compare with calculated volume.",
+    "practice": "**1. Find the volume of a box measuring 5cm × 3cm × 2cm.**\n_Answer:_ Volume = 5cm × 3cm × 2cm = 30 cubic centimeters.\n_Hint:_ Use the formula: Volume = length × width × height.\n\n**2. A fish tank has dimensions 10m × 5m × 2m. Calculate its volume.**\n_Answer:_ Volume = 10m × 5m × 2m = 100 cubic meters.\n_Hint:_ Multiply the length, width, and height.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to use the same units for all dimensions.\n- Confusing volume with surface area.",
+    "connection": "Think about filling a bathtub. Knowing its capacity ensures you add the right amount of water without overflowing.",
+    "close": "**Key Takeaways**\n- Volume measures the space an object occupies.\n- We calculate volume by multiplying length, width, and height for box-shaped objects.\n- Real-world examples make volume relatable and understandable.\n\n**Parent Reflection Questions**\n- How can we use volume to pack more efficiently?\n- What happens to the volume if one dimension doubles?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Volume & Capacity: Exploring Space in 3D!",
+    "introduction": "Welcome, parents! Today, we're diving into the exciting world of volume and capacity with our fifth graders. Let's explore how much space 3D objects take up!",
+    "objective": "Help your child understand and calculate the volume of rectangular prisms using multiplication.",
+    "why_matters": "Understanding volume is crucial. From packing a suitcase to filling a swimming pool, knowing how much space an object occupies helps us in everyday life.",
+    "parent_tip": "Encourage your child to visualize objects in 3D. Use household items to make learning relatable and fun!",
+    "real_world_link": "Think about a cereal box. Knowing its volume helps us understand how much cereal it can hold. Isn't that neat?",
+    "formula_box": {
+      "formula": "Volume = Length × Width × Height",
+      "symbols": [
+        {
+          "symbol": "Length",
+          "meaning": "the longest side of the object"
+        },
+        {
+          "symbol": "Width",
+          "meaning": "the side perpendicular to the length"
+        },
+        {
+          "symbol": "Height",
+          "meaning": "how tall the object is"
+        }
+      ],
+      "how_it_works": "Multiply the three dimensions of a rectangular prism to find its volume.",
+      "example": "For a box with dimensions 4 cm (length), 3 cm (width), and 2 cm (height), the volume is 4 × 3 × 2 = 24 cubic centimeters."
+    },
+    "teaching_steps": [
+      "Discuss what volume means and how it differs from area.",
+      "Introduce the formula for volume of a rectangular prism.",
+      "Use household items to identify length, width, and height.",
+      "Calculate the volume of these items together.",
+      "Reinforce the concept with everyday examples."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about volume. Do you know what it means?",
+        "do": "Pick up a box and show it to your child.",
+        "ask": "How much space do you think is inside this box?",
+        "reinforce": "Volume helps us understand how much space is inside a 3D object."
+      },
+      {
+        "say": "Here's a simple way to find the volume.",
+        "do": "Write the formula: Volume = Length × Width × Height.",
+        "ask": "Can you point out the length, width, and height of this box?",
+        "reinforce": "Great! These three dimensions help us calculate the volume."
+      },
+      {
+        "say": "Let's do a quick calculation together.",
+        "do": "Measure the dimensions of the box and calculate the volume.",
+        "ask": "What do you get when you multiply these numbers?",
+        "reinforce": "That's the volume in cubic units!"
+      },
+      {
+        "say": "Can you find another object and measure it?",
+        "do": "Guide your child to measure another household item.",
+        "ask": "What's the volume of this new item?",
+        "reinforce": "Excellent! You're getting the hang of it."
+      },
+      {
+        "say": "Remember, volume is all about space.",
+        "do": "Review the concept using different objects.",
+        "ask": "Why do you think volume is important?",
+        "reinforce": "Understanding volume helps us in many real-world situations."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Calculate the volume of a box with dimensions 5 cm, 3 cm, and 4 cm.",
+        "hint": "Use the formula: Volume = Length × Width × Height.",
+        "answer": "60 cubic centimeters"
+      },
+      {
+        "prompt": "A fish tank has dimensions 10 cm, 5 cm, and 2 cm. What's its volume?",
+        "hint": "Multiply the three dimensions together.",
+        "answer": "100 cubic centimeters"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Volume measures the space inside a 3D object.",
+      "Use the formula: Volume = Length × Width × Height.",
+      "Practice with real objects to grasp the concept better."
+    ],
+    "common_mistakes": [
+      "Confusing volume with area.",
+      "Forgetting to multiply all three dimensions.",
+      "Using incorrect units for the final volume."
+    ],
+    "deep_dive": {
+      "history": "The concept of volume dates back to ancient civilizations, used in architecture and trade.",
+      "connections": "Volume calculations are essential in science, engineering, and everyday problem-solving.",
+      "misconceptions": "Volume is often mistaken for surface area, but remember, volume is about the space inside.",
+      "teaching_tips": "Use hands-on activities with real objects to make volume tangible.",
+      "derivation": "The formula is derived from the basic principle of measuring space in three dimensions."
+    },
+    "motivation": "Understanding volume opens up a world of possibilities, helping us make sense of the space around us and solve practical problems with ease!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we're diving into the exciting world of volume and capacity with our fifth graders. Let's explore how much space 3D objects take up!\n\n## Parent Orientation\n**Objective:** Help your child understand and calculate the volume of rectangular prisms using multiplication.\n**Why it matters:** Understanding volume is crucial. From packing a suitcase to filling a swimming pool, knowing how much space an object occupies helps us in everyday life.\n**Parent Tip:** Encourage your child to visualize objects in 3D. Use household items to make learning relatable and fun!\n**Real-World Link:** Think about a cereal box. Knowing its volume helps us understand how much cereal it can hold. Isn't that neat?\n\n> **📐 Formula Box**\n> **Formula:** Volume = Length × Width × Height\n> **Symbols:**\n> - **Length** — the longest side of the object\n> - **Width** — the side perpendicular to the length\n> - **Height** — how tall the object is\n> **How it works:** Multiply the three dimensions of a rectangular prism to find its volume.\n> **Example:** For a box with dimensions 4 cm (length), 3 cm (width), and 2 cm (height), the volume is 4 × 3 × 2 = 24 cubic centimeters.\n\n## Teaching Steps\n1. Discuss what volume means and how it differs from area.\n2. Introduce the formula for volume of a rectangular prism.\n3. Use household items to identify length, width, and height.\n4. Calculate the volume of these items together.\n5. Reinforce the concept with everyday examples.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about volume. Do you know what it means?  \n**Show/Do:** Pick up a box and show it to your child.  \n**Ask:** How much space do you think is inside this box?  \n**Reinforce:** Volume helps us understand how much space is inside a 3D object.\n2. **Say:** Here's a simple way to find the volume.  \n**Show/Do:** Write the formula: Volume = Length × Width × Height.  \n**Ask:** Can you point out the length, width, and height of this box?  \n**Reinforce:** Great! These three dimensions help us calculate the volume.\n3. **Say:** Let's do a quick calculation together.  \n**Show/Do:** Measure the dimensions of the box and calculate the volume.  \n**Ask:** What do you get when you multiply these numbers?  \n**Reinforce:** That's the volume in cubic units!\n4. **Say:** Can you find another object and measure it?  \n**Show/Do:** Guide your child to measure another household item.  \n**Ask:** What's the volume of this new item?  \n**Reinforce:** Excellent! You're getting the hang of it.\n5. **Say:** Remember, volume is all about space.  \n**Show/Do:** Review the concept using different objects.  \n**Ask:** Why do you think volume is important?  \n**Reinforce:** Understanding volume helps us in many real-world situations.\n\n## Practice Questions (Do It Together)\n**1. Calculate the volume of a box with dimensions 5 cm, 3 cm, and 4 cm.**\n<details><summary>Hint</summary>\nUse the formula: Volume = Length × Width × Height.\n</details>\n<details><summary>Answer</summary>\n60 cubic centimeters\n</details>\n\n**2. A fish tank has dimensions 10 cm, 5 cm, and 2 cm. What's its volume?**\n<details><summary>Hint</summary>\nMultiply the three dimensions together.\n</details>\n<details><summary>Answer</summary>\n100 cubic centimeters\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Volume measures the space inside a 3D object.\n- Use the formula: Volume = Length × Width × Height.\n- Practice with real objects to grasp the concept better.\n\n**Common Mistakes**\n- Confusing volume with area.\n- Forgetting to multiply all three dimensions.\n- Using incorrect units for the final volume.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of volume dates back to ancient civilizations, used in architecture and trade.\n\n**Future topic connections**\n\nVolume calculations are essential in science, engineering, and everyday problem-solving.\n\n**Common misconceptions**\n\nVolume is often mistaken for surface area, but remember, volume is about the space inside.\n\n**Teaching tips for parents**\n\nUse hands-on activities with real objects to make volume tangible.\n\n**More detail / derivation**\n\nThe formula is derived from the basic principle of measuring space in three dimensions.\n\n## Motivation\nUnderstanding volume opens up a world of possibilities, helping us make sense of the space around us and solve practical problems with ease!"
+}

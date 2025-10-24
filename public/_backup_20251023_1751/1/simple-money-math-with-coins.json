@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "63d13a02-5ab6-4769-81b0-6ca7f770f29b",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "5f2c6773-fa59-4ae4-a916-c6086400e1ee",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "45ec2369-b1e1-4bf0-8917-af90ee7fa522",
+    "slug": "simple-money-math-with-coins",
+    "title": "Simple Money Math With Coins",
+    "summary": "Simple Money Math With Coins — summary for parents in Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 19
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Simple Money Math With Coins** in Grade 1.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Simple Money Math With Coins** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Simple Money Math With Coins** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Simple Money Math With Coins** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Simple Money Math With Coins** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Simple Money Math With Coins**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Simple Money Math With Coins**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Simple Money Math With Coins**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Simple Money Math With Coins** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Simple Money Math With Coins**.",
+    "overview": "This lesson helps children understand **Simple Money Math With Coins**.",
+    "core": "Explain **Simple Money Math With Coins** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Simple Money Math With Coins**."
+}

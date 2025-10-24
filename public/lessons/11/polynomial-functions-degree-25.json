@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "a333ab0a-a827-455c-9bc5-35fbf2c5b33f",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "93052a46-1c40-4821-929d-fbe5df94f7e5",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "f46a3c87-6d7d-40a9-ae6f-72a5f7760098",
+    "slug": "polynomial-functions-degree-25",
+    "title": "Polynomial Functions: Exploring Degrees 2 to 5",
+    "summary": "Polynomial functions (degree 2–5) — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and identify polynomial functions of degrees 2 to 5, and how these shapes can represent real-world phenomena.\n\n**Why it matters:** Polynomial functions are foundational in math, helping us model everything from roller coaster designs to the path of a basketball shot.\n\n**Parent Tip:** Encourage your child to visualize these functions as different shapes. Graphing can be a great way to see the differences clearly.\n\n**Real-World Link:** Imagine a skateboard ramp: a quadratic function represents the smooth curve. A cubic function might depict a more complex trick path. Polynomials help us design and predict such paths.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Polynomial functions can be thought of like different roller coasters. Each 'degree' of the polynomial gives the coaster a unique shape and thrill. Let's take a ride through polynomials and explore degrees from 2 to 5.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss the concept of polynomial degrees: The degree tells the highest power of the variable.\n2. Explain that a quadratic function (degree 2) looks like a U or an upside-down U.\n3. Describe cubic functions (degree 3) as having a wave-like pattern, often with one change in direction.\n4. Introduce quartic functions (degree 4) which can have up to three direction changes.\n5. Explore quintic functions (degree 5) that can have even more twists and turns.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Identify the degree: f(x) = 3x^2 + 2x + 1**\n_Answer:_ The degree is 2.\n_Hint:_ Look for the highest power of x.\n\n**2. What is the degree of g(x) = x^5 - 4x^3 + x?**\n_Answer:_ The degree is 5.\n_Hint:_ Focus on the term with the largest exponent.\n\n**3. Find the degree: h(x) = 6x^4 + 9x^3 - 2**\n_Answer:_ The degree is 4.\n_Hint:_ Check the exponents of all terms.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the degree with the number of terms.\n- Overlooking the term with the highest exponent when identifying the degree.\n- Assuming all polynomial functions are quadratic.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine a skateboard ramp: a quadratic function represents the smooth curve. A cubic function might depict a more complex trick path. Polynomials help us design and predict such paths.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand polynomial functions of degree 2 to 5, recognizing their shapes and how they change with different coefficients.",
+    "overview": "**Objective:** Help your child understand and identify polynomial functions of degrees 2 to 5, and how these shapes can represent real-world phenomena.\n\n**Why it matters:** Polynomial functions are foundational in math, helping us model everything from roller coaster designs to the path of a basketball shot.\n\n**Parent Tip:** Encourage your child to visualize these functions as different shapes. Graphing can be a great way to see the differences clearly.\n\n**Real-World Link:** Imagine a skateboard ramp: a quadratic function represents the smooth curve. A cubic function might depict a more complex trick path. Polynomials help us design and predict such paths.",
+    "core": "Polynomial functions can be thought of like different roller coasters. Each 'degree' of the polynomial gives the coaster a unique shape and thrill. Let's take a ride through polynomials and explore degrees from 2 to 5.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how mathematicians predict the path of a basketball shot? The answer lies in polynomial functions!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Discuss the concept of polynomial degrees: The degree tells the highest power of the variable.\n2. Explain that a quadratic function (degree 2) looks like a U or an upside-down U.\n3. Describe cubic functions (degree 3) as having a wave-like pattern, often with one change in direction.\n4. Introduce quartic functions (degree 4) which can have up to three direction changes.\n5. Explore quintic functions (degree 5) that can have even more twists and turns.",
+    "practice": "**1. Identify the degree: f(x) = 3x^2 + 2x + 1**\n_Answer:_ The degree is 2.\n_Hint:_ Look for the highest power of x.\n\n**2. What is the degree of g(x) = x^5 - 4x^3 + x?**\n_Answer:_ The degree is 5.\n_Hint:_ Focus on the term with the largest exponent.\n\n**3. Find the degree: h(x) = 6x^4 + 9x^3 - 2**\n_Answer:_ The degree is 4.\n_Hint:_ Check the exponents of all terms.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the degree with the number of terms.\n- Overlooking the term with the highest exponent when identifying the degree.\n- Assuming all polynomial functions are quadratic.",
+    "connection": "Imagine a skateboard ramp: a quadratic function represents the smooth curve. A cubic function might depict a more complex trick path. Polynomials help us design and predict such paths.",
+    "close": "**Key Takeaways**\n- Polynomial functions come in different degrees, which affect their graph's shape.\n- The degree of a polynomial determines the maximum number of turning points.\n- Recognizing polynomial functions helps in modeling real-world situations.\n\n**Parent Reflection Questions**\n- How can changing coefficients affect the graph of a polynomial?\n- What real-world phenomena can be modeled using polynomial functions?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Polynomial Functions: Exploring Degrees 2 to 5",
+    "introduction": "Polynomial functions are like mathematical stories told through curves. They are powerful tools that help us understand the world around us, often in surprising ways. Let's explore these fascinating functions together!",
+    "objective": "Help your child understand polynomial functions of degrees 2 to 5 and how they are used to model real-world situations.",
+    "why_matters": "Polynomial functions can describe a wide range of phenomena, from the path of a thrown ball to the growth of investments over time. Understanding these functions builds a foundation for future math and science courses.",
+    "parent_tip": "Encourage your child to visualize polynomial graphs. Graphing calculators or online tools can be very helpful for this.",
+    "real_world_link": "Polynomial functions can model things like the shape of a roller coaster or the path of a rocket. They help engineers and scientists design and predict outcomes.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce polynomial functions and their degrees.",
+      "Discuss how the degree of a polynomial affects its shape and behavior.",
+      "Explore examples of quadratic (degree 2), cubic (degree 3), quartic (degree 4), and quintic (degree 5) functions.",
+      "Use graphing tools to visualize these functions.",
+      "Connect polynomial functions to real-world scenarios."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about polynomial functions and their degrees. Do you know what a polynomial is?",
+        "do": "Show a simple quadratic equation like y = x^2.",
+        "ask": "What do you notice about this equation?",
+        "reinforce": "This is a quadratic function, which is a polynomial of degree 2. The highest power of x is 2."
+      },
+      {
+        "say": "Now, let's look at a cubic function.",
+        "do": "Write down y = x^3 - 3x + 2.",
+        "ask": "How is this different from the quadratic function?",
+        "reinforce": "This is a cubic function, a polynomial of degree 3, with x raised to the power of 3."
+      },
+      {
+        "say": "Polynomials can go even higher in degree.",
+        "do": "Show y = 2x^4 - x^3 + 5x^2 - 3.",
+        "ask": "What degree is this polynomial?",
+        "reinforce": "This is a quartic function, which is degree 4."
+      },
+      {
+        "say": "Let's imagine a quintic function.",
+        "do": "Write y = x^5 - 4x^4 + 3x^3 - 2x^2 + x - 1.",
+        "ask": "What do you think the degree is?",
+        "reinforce": "This is a quintic function, degree 5."
+      },
+      {
+        "say": "Let's see how these functions look on a graph.",
+        "do": "Use a graphing tool to plot these functions.",
+        "ask": "What differences do you notice in their shapes?",
+        "reinforce": "Each degree gives the graph a unique shape and behavior."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Identify the degree of the polynomial: y = 3x^5 - 2x^3 + 7x.",
+        "hint": "Look for the highest power of x.",
+        "answer": "5"
+      },
+      {
+        "prompt": "What is the degree of the polynomial y = 4x^2 - 5?",
+        "hint": "Check the largest exponent.",
+        "answer": "2"
+      },
+      {
+        "prompt": "Determine the degree of y = x^4 + 2x^2 - x + 9.",
+        "hint": "Focus on the highest exponent in the equation.",
+        "answer": "4"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Polynomials are mathematical expressions involving sums of powers of x.",
+      "The degree of a polynomial is determined by the highest exponent.",
+      "Degrees 2 to 5 are called quadratic, cubic, quartic, and quintic respectively.",
+      "Graphing these functions helps visualize their behavior."
+    ],
+    "common_mistakes": [
+      "Confusing the degree of a polynomial with the number of terms.",
+      "Forgetting that the degree is determined by the highest power of x.",
+      "Assuming all polynomials are quadratic."
+    ],
+    "deep_dive": {
+      "history": "Polynomials have been studied since ancient times, with significant contributions from mathematicians like François Viète and René Descartes.",
+      "connections": "Polynomials are foundational in calculus and algebra, connecting to concepts like derivatives and roots.",
+      "misconceptions": "A common misconception is that the degree is the number of terms, not the highest exponent.",
+      "teaching_tips": "Use visual aids and graphing technology to help students grasp the concept of polynomial degrees.",
+      "derivation": "The degree of a polynomial is derived from the term with the highest exponent, which dictates its behavior and graph shape."
+    },
+    "motivation": "Understanding polynomial functions opens up a world of mathematical possibilities, enabling your child to tackle complex problems with confidence and creativity."
+  },
+  "markdown": "## Lesson Introduction\nPolynomial functions are like mathematical stories told through curves. They are powerful tools that help us understand the world around us, often in surprising ways. Let's explore these fascinating functions together!\n\n## Parent Orientation\n**Objective:** Help your child understand polynomial functions of degrees 2 to 5 and how they are used to model real-world situations.\n**Why it matters:** Polynomial functions can describe a wide range of phenomena, from the path of a thrown ball to the growth of investments over time. Understanding these functions builds a foundation for future math and science courses.\n**Parent Tip:** Encourage your child to visualize polynomial graphs. Graphing calculators or online tools can be very helpful for this.\n**Real-World Link:** Polynomial functions can model things like the shape of a roller coaster or the path of a rocket. They help engineers and scientists design and predict outcomes.\n\n## Teaching Steps\n1. Introduce polynomial functions and their degrees.\n2. Discuss how the degree of a polynomial affects its shape and behavior.\n3. Explore examples of quadratic (degree 2), cubic (degree 3), quartic (degree 4), and quintic (degree 5) functions.\n4. Use graphing tools to visualize these functions.\n5. Connect polynomial functions to real-world scenarios.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about polynomial functions and their degrees. Do you know what a polynomial is?  \n**Show/Do:** Show a simple quadratic equation like y = x^2.  \n**Ask:** What do you notice about this equation?  \n**Reinforce:** This is a quadratic function, which is a polynomial of degree 2. The highest power of x is 2.\n2. **Say:** Now, let's look at a cubic function.  \n**Show/Do:** Write down y = x^3 - 3x + 2.  \n**Ask:** How is this different from the quadratic function?  \n**Reinforce:** This is a cubic function, a polynomial of degree 3, with x raised to the power of 3.\n3. **Say:** Polynomials can go even higher in degree.  \n**Show/Do:** Show y = 2x^4 - x^3 + 5x^2 - 3.  \n**Ask:** What degree is this polynomial?  \n**Reinforce:** This is a quartic function, which is degree 4.\n4. **Say:** Let's imagine a quintic function.  \n**Show/Do:** Write y = x^5 - 4x^4 + 3x^3 - 2x^2 + x - 1.  \n**Ask:** What do you think the degree is?  \n**Reinforce:** This is a quintic function, degree 5.\n5. **Say:** Let's see how these functions look on a graph.  \n**Show/Do:** Use a graphing tool to plot these functions.  \n**Ask:** What differences do you notice in their shapes?  \n**Reinforce:** Each degree gives the graph a unique shape and behavior.\n\n## Practice Questions (Do It Together)\n**1. Identify the degree of the polynomial: y = 3x^5 - 2x^3 + 7x.**\n<details><summary>Hint</summary>\nLook for the highest power of x.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**2. What is the degree of the polynomial y = 4x^2 - 5?**\n<details><summary>Hint</summary>\nCheck the largest exponent.\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n**3. Determine the degree of y = x^4 + 2x^2 - x + 9.**\n<details><summary>Hint</summary>\nFocus on the highest exponent in the equation.\n</details>\n<details><summary>Answer</summary>\n4\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Polynomials are mathematical expressions involving sums of powers of x.\n- The degree of a polynomial is determined by the highest exponent.\n- Degrees 2 to 5 are called quadratic, cubic, quartic, and quintic respectively.\n- Graphing these functions helps visualize their behavior.\n\n**Common Mistakes**\n- Confusing the degree of a polynomial with the number of terms.\n- Forgetting that the degree is determined by the highest power of x.\n- Assuming all polynomials are quadratic.\n\n## 🔍 Deep Dive\n**History or origin**\n\nPolynomials have been studied since ancient times, with significant contributions from mathematicians like François Viète and René Descartes.\n\n**Future topic connections**\n\nPolynomials are foundational in calculus and algebra, connecting to concepts like derivatives and roots.\n\n**Common misconceptions**\n\nA common misconception is that the degree is the number of terms, not the highest exponent.\n\n**Teaching tips for parents**\n\nUse visual aids and graphing technology to help students grasp the concept of polynomial degrees.\n\n**More detail / derivation**\n\nThe degree of a polynomial is derived from the term with the highest exponent, which dictates its behavior and graph shape.\n\n## Motivation\nUnderstanding polynomial functions opens up a world of mathematical possibilities, enabling your child to tackle complex problems with confidence and creativity."
+}

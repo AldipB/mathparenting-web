@@ -1,0 +1,45 @@
+{
+  "grade": "4",
+  "lessons": [
+    {
+      "slug": "adding-and-subtracting-fractions",
+      "title": "Adding & Subtracting Fractions: A Parent's Guide"
+    },
+    {
+      "slug": "division-with-remainders",
+      "title": "Division with Remainders: Sharing Unevenly"
+    },
+    {
+      "slug": "area-perimeter-and-volume-intro",
+      "title": "Exploring Area, Perimeter, and Volume: A Parent's Guide"
+    },
+    {
+      "slug": "metric-measurement-cm-m-l-kg",
+      "title": "Exploring Metric Measurements: cm, m, L, kg"
+    },
+    {
+      "slug": "factors-and-multiples",
+      "title": "Factors & Multiples: Building Blocks of Numbers"
+    },
+    {
+      "slug": "line-and-symmetry",
+      "title": "Line & Symmetry: Finding Balance in Shapes"
+    },
+    {
+      "slug": "multi-digit-addition-and-subtraction",
+      "title": "Mastering Multi-Digit Addition & Subtraction"
+    },
+    {
+      "slug": "multiplication-up-to-4-digits",
+      "title": "Multiplication up to 4 Digits"
+    },
+    {
+      "slug": "decimals-tenths-and-hundredths",
+      "title": "Understanding Decimals: Tenths & Hundredths"
+    },
+    {
+      "slug": "equivalent-fractions",
+      "title": "Understanding Equivalent Fractions"
+    }
+  ]
+}

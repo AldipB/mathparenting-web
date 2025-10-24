@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "06b209c6-6db9-4ac8-818f-4047b64aec7c",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "8c208f64-2e66-43ec-bc4f-c4f5dee7a1e9",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "96793ca3-3fab-45fe-a480-2ff7067cd53f",
+    "slug": "basic-word-problems",
+    "title": "Solving Basic Word Problems Together",
+    "summary": "Basic word problems — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Enable parents to guide their children in solving simple word problems using addition and subtraction.\n\n**Why it matters:** Understanding word problems helps children apply math to real-world situations, enhancing their problem-solving skills.\n\n**Parent Tip:** Encourage your child to visualize the problem. Drawing pictures or using objects can make abstract concepts more concrete.\n\n**Real-World Link:** Think of word problems like little stories where math is the hero. They're like figuring out how many apples are left after sharing with friends.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Helping your child solve word problems can be a fun way to connect math to everyday life! Let's explore how to break down these problems together.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Read the problem together. Ask your child to identify what is being asked.\n2. Encourage them to underline or highlight key numbers and words.\n3. Suggest drawing a picture or using objects to represent the problem.\n4. Discuss what operation (addition or subtraction) is needed to solve it.\n5. Solve the problem together, step by step.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Tom has 3 apples. He buys 2 more. How many apples does he have now?**\n_Answer:_ 5 apples\n_Hint:_ Think about adding the apples Tom buys to what he already has.\n\n**2. Sara has 5 candies. She eats 2. How many candies are left?**\n_Answer:_ 3 candies\n_Hint:_ Think about taking away the candies Sara eats from her total.\n\n**3. There are 4 birds on a tree. 3 more birds join them. How many birds are there now?**\n_Answer:_ 7 birds\n_Hint:_ Add the new birds to the ones already on the tree.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Misinterpreting the question or what operation to use.\n- Overlooking key details or numbers in the problem.\n- Rushing through without visualizing or understanding the problem.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of word problems like little stories where math is the hero. They're like figuring out how many apples are left after sharing with friends.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and solve simple word problems using basic addition and subtraction.",
+    "overview": "**Objective:** Enable parents to guide their children in solving simple word problems using addition and subtraction.\n\n**Why it matters:** Understanding word problems helps children apply math to real-world situations, enhancing their problem-solving skills.\n\n**Parent Tip:** Encourage your child to visualize the problem. Drawing pictures or using objects can make abstract concepts more concrete.\n\n**Real-World Link:** Think of word problems like little stories where math is the hero. They're like figuring out how many apples are left after sharing with friends.",
+    "core": "Helping your child solve word problems can be a fun way to connect math to everyday life! Let's explore how to break down these problems together.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how many toys are left after you share some with your friend? Let's find out together using math!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Read the problem together. Ask your child to identify what is being asked.\n2. Encourage them to underline or highlight key numbers and words.\n3. Suggest drawing a picture or using objects to represent the problem.\n4. Discuss what operation (addition or subtraction) is needed to solve it.\n5. Solve the problem together, step by step.",
+    "practice": "**1. Tom has 3 apples. He buys 2 more. How many apples does he have now?**\n_Answer:_ 5 apples\n_Hint:_ Think about adding the apples Tom buys to what he already has.\n\n**2. Sara has 5 candies. She eats 2. How many candies are left?**\n_Answer:_ 3 candies\n_Hint:_ Think about taking away the candies Sara eats from her total.\n\n**3. There are 4 birds on a tree. 3 more birds join them. How many birds are there now?**\n_Answer:_ 7 birds\n_Hint:_ Add the new birds to the ones already on the tree.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Misinterpreting the question or what operation to use.\n- Overlooking key details or numbers in the problem.\n- Rushing through without visualizing or understanding the problem.",
+    "connection": "Think of word problems like little stories where math is the hero. They're like figuring out how many apples are left after sharing with friends.",
+    "close": "**Key Takeaways**\n- Word problems help children apply math to everyday situations.\n- Encourage visualization and using objects or drawings to solve problems.\n- Reassure your child that it's okay to solve problems in different ways.\n\n**Parent Reflection Questions**\n- How can I help my child connect word problems to real life?\n- What should I do if my child gets frustrated with a problem?"
+  },
+  "practice": "**1.** Independent challenge #1 for \"Basic word problems\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**2.** Independent challenge #2 for \"Basic word problems\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.\n\n**3.** Independent challenge #3 for \"Basic word problems\"\n\n_Answer:_ Sample correct outcome.  \n_Hint:_ Use the same pattern with new numbers.",
+  "universal": {
+    "title": "Solving Basic Word Problems Together",
+    "introduction": "Let's explore the world of word problems with your child! These are fun stories that involve math, helping your child apply what they know in real-life situations.",
+    "objective": "Help your child understand and solve basic word problems using addition and subtraction.",
+    "why_matters": "Word problems develop critical thinking and problem-solving skills, which are essential for everyday life.",
+    "parent_tip": "Encourage your child to visualize the problem by drawing pictures or using objects to represent numbers.",
+    "real_world_link": "Think about a trip to the grocery store. If you buy 3 apples and then 2 more, how many apples do you have in total? These everyday scenarios are word problems in disguise!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Read the problem together slowly.",
+      "Identify the numbers and what they represent.",
+      "Decide if the problem requires addition or subtraction.",
+      "Use drawings or objects to visualize the problem.",
+      "Solve the problem together and check the answer."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's read this word problem together: 'You have 2 balloons, and your friend gives you 3 more. How many balloons do you have now?'",
+        "do": "Read the problem aloud and point to the numbers.",
+        "ask": "What are the numbers in this story?",
+        "reinforce": "Great! You found the numbers 2 and 3. These will help us solve the problem."
+      },
+      {
+        "say": "Now, let's think about what the story is asking us to do.",
+        "do": "Point to the part of the problem that asks for the total number of balloons.",
+        "ask": "Do we need to add or subtract here?",
+        "reinforce": "Yes, we add because we're putting two groups of balloons together."
+      },
+      {
+        "say": "Let's use some objects to help us see the problem.",
+        "do": "Gather 5 small objects, like coins or buttons.",
+        "ask": "Can you show me 2 objects and then add 3 more?",
+        "reinforce": "You've got it! Now let's count them all together."
+      },
+      {
+        "say": "How many objects do we have in total?",
+        "do": "Count the objects with your child.",
+        "ask": "What number do we get when we count them all?",
+        "reinforce": "Right! We have 5 objects, just like in the problem."
+      },
+      {
+        "say": "Let's write down what we've learned.",
+        "do": "Write the equation 2 + 3 = 5 on a piece of paper.",
+        "ask": "Can you see how the numbers in the story match our equation?",
+        "reinforce": "Fantastic! You've solved the word problem by adding."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "You have 4 cookies, and you eat 2. How many cookies do you have left?",
+        "hint": "Think about taking away cookies.",
+        "answer": "2"
+      },
+      {
+        "prompt": "There are 5 birds on a tree, and 3 more join them. How many birds are there now?",
+        "hint": "Add the two groups of birds.",
+        "answer": "8"
+      },
+      {
+        "prompt": "You see 7 cars in a parking lot, and 4 drive away. How many cars are left?",
+        "hint": "Consider how many leave.",
+        "answer": "3"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Word problems are math stories.",
+      "We use addition or subtraction to solve them.",
+      "Visualizing with objects can make solving easier."
+    ],
+    "common_mistakes": [
+      "Forgetting to identify the correct operation (add or subtract).",
+      "Miscounting objects used to model the problem.",
+      "Not reading the problem carefully enough."
+    ],
+    "deep_dive": {
+      "history": "Word problems have been used for centuries to teach math in a context that makes sense to learners.",
+      "connections": "Solving word problems connects math to reading and comprehension skills.",
+      "misconceptions": "Some children think word problems are only about numbers, forgetting the story part.",
+      "teaching_tips": "Encourage your child to explain the problem in their own words before solving it.",
+      "derivation": "Word problems are derived from real-life scenarios, making math relatable and practical."
+    },
+    "motivation": "Helping your child with word problems strengthens their math skills and builds confidence in solving real-world situations!"
+  },
+  "markdown": "## Lesson Introduction\nLet's explore the world of word problems with your child! These are fun stories that involve math, helping your child apply what they know in real-life situations.\n\n## Parent Orientation\n**Objective:** Help your child understand and solve basic word problems using addition and subtraction.\n**Why it matters:** Word problems develop critical thinking and problem-solving skills, which are essential for everyday life.\n**Parent Tip:** Encourage your child to visualize the problem by drawing pictures or using objects to represent numbers.\n**Real-World Link:** Think about a trip to the grocery store. If you buy 3 apples and then 2 more, how many apples do you have in total? These everyday scenarios are word problems in disguise!\n\n## Teaching Steps\n1. Read the problem together slowly.\n2. Identify the numbers and what they represent.\n3. Decide if the problem requires addition or subtraction.\n4. Use drawings or objects to visualize the problem.\n5. Solve the problem together and check the answer.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's read this word problem together: 'You have 2 balloons, and your friend gives you 3 more. How many balloons do you have now?'  \n**Show/Do:** Read the problem aloud and point to the numbers.  \n**Ask:** What are the numbers in this story?  \n**Reinforce:** Great! You found the numbers 2 and 3. These will help us solve the problem.\n2. **Say:** Now, let's think about what the story is asking us to do.  \n**Show/Do:** Point to the part of the problem that asks for the total number of balloons.  \n**Ask:** Do we need to add or subtract here?  \n**Reinforce:** Yes, we add because we're putting two groups of balloons together.\n3. **Say:** Let's use some objects to help us see the problem.  \n**Show/Do:** Gather 5 small objects, like coins or buttons.  \n**Ask:** Can you show me 2 objects and then add 3 more?  \n**Reinforce:** You've got it! Now let's count them all together.\n4. **Say:** How many objects do we have in total?  \n**Show/Do:** Count the objects with your child.  \n**Ask:** What number do we get when we count them all?  \n**Reinforce:** Right! We have 5 objects, just like in the problem.\n5. **Say:** Let's write down what we've learned.  \n**Show/Do:** Write the equation 2 + 3 = 5 on a piece of paper.  \n**Ask:** Can you see how the numbers in the story match our equation?  \n**Reinforce:** Fantastic! You've solved the word problem by adding.\n\n## Practice Questions (Do It Together)\n**1. You have 4 cookies, and you eat 2. How many cookies do you have left?**\n<details><summary>Hint</summary>\nThink about taking away cookies.\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n**2. There are 5 birds on a tree, and 3 more join them. How many birds are there now?**\n<details><summary>Hint</summary>\nAdd the two groups of birds.\n</details>\n<details><summary>Answer</summary>\n8\n</details>\n\n**3. You see 7 cars in a parking lot, and 4 drive away. How many cars are left?**\n<details><summary>Hint</summary>\nConsider how many leave.\n</details>\n<details><summary>Answer</summary>\n3\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Word problems are math stories.\n- We use addition or subtraction to solve them.\n- Visualizing with objects can make solving easier.\n\n**Common Mistakes**\n- Forgetting to identify the correct operation (add or subtract).\n- Miscounting objects used to model the problem.\n- Not reading the problem carefully enough.\n\n## 🔍 Deep Dive\n**History or origin**\n\nWord problems have been used for centuries to teach math in a context that makes sense to learners.\n\n**Future topic connections**\n\nSolving word problems connects math to reading and comprehension skills.\n\n**Common misconceptions**\n\nSome children think word problems are only about numbers, forgetting the story part.\n\n**Teaching tips for parents**\n\nEncourage your child to explain the problem in their own words before solving it.\n\n**More detail / derivation**\n\nWord problems are derived from real-life scenarios, making math relatable and practical.\n\n## Motivation\nHelping your child with word problems strengthens their math skills and builds confidence in solving real-world situations!"
+}

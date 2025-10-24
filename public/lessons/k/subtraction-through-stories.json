@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "5683989f-9e20-4aeb-bd3d-7badf489a572",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "2e523759-e629-412e-9d92-8a56e0416da0",
+    "title": "Number Sense & Counting",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "119c7ce9-0624-4071-acbc-469699271bfe",
+    "slug": "subtraction-through-stories",
+    "title": "Subtraction through Stories",
+    "summary": "Subtraction through stories — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand subtraction by connecting it to simple stories and real-world scenarios.\n\n**Why it matters:** Subtraction is a key part of math that helps children solve everyday problems and make decisions.\n\n**Parent Tip:** Use toys or snacks to act out stories. This makes learning interactive and enjoyable for your child.\n\n**Real-World Link:** Think of subtraction as taking away. When you eat an apple from a bowl of apples, you have fewer apples left. That’s subtraction in action!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore subtraction using fun and engaging stories. This approach helps your child see math in everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a story: 'You have 5 apples. You give 2 to a friend.'\n2. Use objects: Place 5 apples (or toys) on a table. Remove 2.\n3. Ask: 'How many are left?' Encourage counting the remaining items.\n4. Reinforce: Repeat with different numbers and stories to solidify understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. You have 4 cookies. You eat 1. How many are left?**\n_Answer:_ 3 cookies\n_Hint:_ Think about how many cookies are on the plate now.\n\n**2. There are 6 ducks in a pond. 3 fly away. How many are left?**\n_Answer:_ 3 ducks\n_Hint:_ Count the ducks that are still in the pond.\n\n**3. You pick 7 flowers. You give 2 to a friend. How many do you have now?**\n_Answer:_ 5 flowers\n_Hint:_ Subtract the flowers you gave away.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to count the remaining items after subtracting.\n- Mixing up subtraction with addition.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of subtraction as taking away. When you eat an apple from a bowl of apples, you have fewer apples left. That’s subtraction in action!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand subtraction by using simple stories and scenarios.",
+    "overview": "**Objective:** Help your child understand subtraction by connecting it to simple stories and real-world scenarios.\n\n**Why it matters:** Subtraction is a key part of math that helps children solve everyday problems and make decisions.\n\n**Parent Tip:** Use toys or snacks to act out stories. This makes learning interactive and enjoyable for your child.\n\n**Real-World Link:** Think of subtraction as taking away. When you eat an apple from a bowl of apples, you have fewer apples left. That’s subtraction in action!",
+    "core": "Welcome! Today, we'll explore subtraction using fun and engaging stories. This approach helps your child see math in everyday life.",
+    "demo": "**Spark Curiosity:**\n\nWhat happens if you have 5 cookies and decide to give 2 to a friend? How many do you have left?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a story: 'You have 5 apples. You give 2 to a friend.'\n2. Use objects: Place 5 apples (or toys) on a table. Remove 2.\n3. Ask: 'How many are left?' Encourage counting the remaining items.\n4. Reinforce: Repeat with different numbers and stories to solidify understanding.",
+    "practice": "**1. You have 4 cookies. You eat 1. How many are left?**\n_Answer:_ 3 cookies\n_Hint:_ Think about how many cookies are on the plate now.\n\n**2. There are 6 ducks in a pond. 3 fly away. How many are left?**\n_Answer:_ 3 ducks\n_Hint:_ Count the ducks that are still in the pond.\n\n**3. You pick 7 flowers. You give 2 to a friend. How many do you have now?**\n_Answer:_ 5 flowers\n_Hint:_ Subtract the flowers you gave away.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to count the remaining items after subtracting.\n- Mixing up subtraction with addition.",
+    "connection": "Think of subtraction as taking away. When you eat an apple from a bowl of apples, you have fewer apples left. That’s subtraction in action!",
+    "close": "**Key Takeaways**\n- Subtraction is about taking away from a total.\n- Use everyday scenarios to make subtraction relatable.\n- Encourage your child to visualize or use objects when subtracting.\n\n**Parent Reflection Questions**\n- How can I use subtraction stories at home?\n- What are some fun ways to practice subtraction with my child?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Subtraction through Stories",
+    "introduction": "Welcome to a fun way to explore subtraction with your child! Together, you'll dive into simple stories that make subtracting as easy as counting down.",
+    "objective": "Help your child understand subtraction by using engaging, everyday stories.",
+    "why_matters": "Subtraction is a key building block in math. Understanding it through stories makes learning relatable and enjoyable for young children.",
+    "parent_tip": "Use your child's favorite toys or snacks to create subtraction stories. This will make the learning personal and exciting.",
+    "real_world_link": "Think about sharing snacks. If your child has 5 cookies and gives 2 to a friend, how many are left? These real-life moments are perfect for subtraction practice.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce subtraction with a simple story.",
+      "Use physical objects to represent numbers in the story.",
+      "Guide your child to take away the objects as the story progresses.",
+      "Ask your child to count the remaining objects.",
+      "Repeat with different stories to reinforce understanding."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's pretend you have 5 apples.",
+        "do": "Place 5 apple toys or drawings in front of your child.",
+        "ask": "What happens if you give 2 apples to a friend?",
+        "reinforce": "That's right! You're left with 3 apples. Great job!"
+      },
+      {
+        "say": "Now, imagine you have 4 cars.",
+        "do": "Set out 4 toy cars.",
+        "ask": "If 1 car drives away, how many are left?",
+        "reinforce": "Good thinking! Now you have 3 cars left."
+      },
+      {
+        "say": "Let's use your teddy bears. You have 6.",
+        "do": "Arrange 6 teddy bears.",
+        "ask": "If 3 go to a teddy bear picnic, how many are with you?",
+        "reinforce": "You got it! 3 teddy bears stay with you."
+      },
+      {
+        "say": "You have 7 crayons.",
+        "do": "Line up 7 crayons.",
+        "ask": "If 2 crayons break, how many crayons do you have now?",
+        "reinforce": "Exactly! You have 5 crayons left to color with."
+      },
+      {
+        "say": "Let's try with cookies. You have 8.",
+        "do": "Put 8 cookies in a row.",
+        "ask": "If you eat 4 cookies, how many are left?",
+        "reinforce": "Yum! Now you have 4 cookies left. Well done!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "You have 10 balloons. If 3 fly away, how many do you have?",
+        "hint": "Think about taking 3 away from 10.",
+        "answer": "7"
+      },
+      {
+        "prompt": "There are 9 ducks in the pond. If 4 swim away, how many ducks are left?",
+        "hint": "Subtract 4 from 9.",
+        "answer": "5"
+      },
+      {
+        "prompt": "You have 6 candies. If you give 2 to your friend, how many do you keep?",
+        "hint": "Take 2 away from 6.",
+        "answer": "4"
+      },
+      {
+        "prompt": "You start with 5 pencils. If 1 breaks, how many are left?",
+        "hint": "Think of 5 minus 1.",
+        "answer": "4"
+      }
+    ],
+    "recap": [
+      "Subtraction is like counting down or taking away.",
+      "Using stories makes subtraction relatable and fun.",
+      "Practicing with real objects helps solidify the concept."
+    ],
+    "common_mistakes": [
+      "Forgetting to count the remaining objects.",
+      "Mixing up the number of items taken away with those left.",
+      "Not understanding that subtraction results in a smaller number."
+    ],
+    "deep_dive": {
+      "history": "Subtraction has been a part of mathematics since ancient times, used by civilizations like the Egyptians and Babylonians.",
+      "connections": "Subtraction is connected to addition; they are inverse operations. Understanding one helps with the other.",
+      "misconceptions": "Some children think subtraction always involves losing something. It's more about finding out how many are left.",
+      "teaching_tips": "Use consistent language like 'take away' or 'subtract' to help reinforce the concept.",
+      "derivation": "Subtraction can be thought of as finding the difference between two numbers, which is a concept that will be built on in later grades."
+    },
+    "motivation": "Subtraction is everywhere in daily life, from sharing toys to dividing snacks. By learning through stories, your child sees math as a natural, enjoyable part of their world."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun way to explore subtraction with your child! Together, you'll dive into simple stories that make subtracting as easy as counting down.\n\n## Parent Orientation\n**Objective:** Help your child understand subtraction by using engaging, everyday stories.\n**Why it matters:** Subtraction is a key building block in math. Understanding it through stories makes learning relatable and enjoyable for young children.\n**Parent Tip:** Use your child's favorite toys or snacks to create subtraction stories. This will make the learning personal and exciting.\n**Real-World Link:** Think about sharing snacks. If your child has 5 cookies and gives 2 to a friend, how many are left? These real-life moments are perfect for subtraction practice.\n\n## Teaching Steps\n1. Introduce subtraction with a simple story.\n2. Use physical objects to represent numbers in the story.\n3. Guide your child to take away the objects as the story progresses.\n4. Ask your child to count the remaining objects.\n5. Repeat with different stories to reinforce understanding.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's pretend you have 5 apples.  \n**Show/Do:** Place 5 apple toys or drawings in front of your child.  \n**Ask:** What happens if you give 2 apples to a friend?  \n**Reinforce:** That's right! You're left with 3 apples. Great job!\n2. **Say:** Now, imagine you have 4 cars.  \n**Show/Do:** Set out 4 toy cars.  \n**Ask:** If 1 car drives away, how many are left?  \n**Reinforce:** Good thinking! Now you have 3 cars left.\n3. **Say:** Let's use your teddy bears. You have 6.  \n**Show/Do:** Arrange 6 teddy bears.  \n**Ask:** If 3 go to a teddy bear picnic, how many are with you?  \n**Reinforce:** You got it! 3 teddy bears stay with you.\n4. **Say:** You have 7 crayons.  \n**Show/Do:** Line up 7 crayons.  \n**Ask:** If 2 crayons break, how many crayons do you have now?  \n**Reinforce:** Exactly! You have 5 crayons left to color with.\n5. **Say:** Let's try with cookies. You have 8.  \n**Show/Do:** Put 8 cookies in a row.  \n**Ask:** If you eat 4 cookies, how many are left?  \n**Reinforce:** Yum! Now you have 4 cookies left. Well done!\n\n## Practice Questions (Do It Together)\n**1. You have 10 balloons. If 3 fly away, how many do you have?**\n<details><summary>Hint</summary>\nThink about taking 3 away from 10.\n</details>\n<details><summary>Answer</summary>\n7\n</details>\n\n**2. There are 9 ducks in the pond. If 4 swim away, how many ducks are left?**\n<details><summary>Hint</summary>\nSubtract 4 from 9.\n</details>\n<details><summary>Answer</summary>\n5\n</details>\n\n**3. You have 6 candies. If you give 2 to your friend, how many do you keep?**\n<details><summary>Hint</summary>\nTake 2 away from 6.\n</details>\n<details><summary>Answer</summary>\n4\n</details>\n\n**4. You start with 5 pencils. If 1 breaks, how many are left?**\n<details><summary>Hint</summary>\nThink of 5 minus 1.\n</details>\n<details><summary>Answer</summary>\n4\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Subtraction is like counting down or taking away.\n- Using stories makes subtraction relatable and fun.\n- Practicing with real objects helps solidify the concept.\n\n**Common Mistakes**\n- Forgetting to count the remaining objects.\n- Mixing up the number of items taken away with those left.\n- Not understanding that subtraction results in a smaller number.\n\n## 🔍 Deep Dive\n**History or origin**\n\nSubtraction has been a part of mathematics since ancient times, used by civilizations like the Egyptians and Babylonians.\n\n**Future topic connections**\n\nSubtraction is connected to addition; they are inverse operations. Understanding one helps with the other.\n\n**Common misconceptions**\n\nSome children think subtraction always involves losing something. It's more about finding out how many are left.\n\n**Teaching tips for parents**\n\nUse consistent language like 'take away' or 'subtract' to help reinforce the concept.\n\n**More detail / derivation**\n\nSubtraction can be thought of as finding the difference between two numbers, which is a concept that will be built on in later grades.\n\n## Motivation\nSubtraction is everywhere in daily life, from sharing toys to dividing snacks. By learning through stories, your child sees math as a natural, enjoyable part of their world."
+}

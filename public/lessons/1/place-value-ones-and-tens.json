@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "4e0a75af-79fb-4ce1-8dc8-90635457cf49",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "0e12a736-060b-4ef4-b367-898372749d0c",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "98bad430-d606-4877-90d8-aca13da7b96c",
+    "slug": "place-value-ones-and-tens",
+    "title": "Understanding Place Value: Ones & Tens",
+    "summary": "Place value (ones & tens) — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp how numbers are built using ones and tens.\n\n**Why it matters:** Understanding place value is crucial because it lays the foundation for all future math learning, including addition, subtraction, and beyond.\n\n**Parent Tip:** Use everyday objects like blocks or coins to create groups of ten. This makes abstract concepts tangible for your child.\n\n**Real-World Link:** Think about a carton of eggs. A full carton has 10 eggs (like a ten), and leftover eggs are the ones. This is how numbers are structured in place value.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today we're diving into the world of place value, focusing on ones and tens. This concept is a cornerstone of math understanding for your child.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with single-digit numbers and explain that each digit represents 'ones'.\n2. Introduce the concept of 'tens' by grouping 10 ones together.\n3. Show how numbers like 14 are made of 1 ten and 4 ones.\n4. Use objects to physically group and count tens and ones.\n5. Practice writing numbers and breaking them down into tens and ones.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What is 23 in terms of tens and ones?**\n_Answer:_ 2 tens and 3 ones.\n_Hint:_ Think of how many groups of 10 and leftover ones.\n\n**2. Break down the number 47.**\n_Answer:_ 4 tens and 7 ones.\n_Hint:_ How many tens can you make with 47?\n\n**3. How many ones are in 16?**\n_Answer:_ 6 ones.\n_Hint:_ After making groups of 10, how many are left?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing tens with ones.\n- Forgetting that 10 ones make a ten.\n- Misplacing digits when writing numbers.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a carton of eggs. A full carton has 10 eggs (like a ten), and leftover eggs are the ones. This is how numbers are structured in place value.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child grasp the concept of place value, focusing on ones and tens.",
+    "overview": "**Objective:** Help your child grasp how numbers are built using ones and tens.\n\n**Why it matters:** Understanding place value is crucial because it lays the foundation for all future math learning, including addition, subtraction, and beyond.\n\n**Parent Tip:** Use everyday objects like blocks or coins to create groups of ten. This makes abstract concepts tangible for your child.\n\n**Real-World Link:** Think about a carton of eggs. A full carton has 10 eggs (like a ten), and leftover eggs are the ones. This is how numbers are structured in place value.",
+    "core": "Welcome! Today we're diving into the world of place value, focusing on ones and tens. This concept is a cornerstone of math understanding for your child.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'If you had a pile of 13 candies, how many groups of 10 could you make, and how many candies would be left?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with single-digit numbers and explain that each digit represents 'ones'.\n2. Introduce the concept of 'tens' by grouping 10 ones together.\n3. Show how numbers like 14 are made of 1 ten and 4 ones.\n4. Use objects to physically group and count tens and ones.\n5. Practice writing numbers and breaking them down into tens and ones.",
+    "practice": "**1. What is 23 in terms of tens and ones?**\n_Answer:_ 2 tens and 3 ones.\n_Hint:_ Think of how many groups of 10 and leftover ones.\n\n**2. Break down the number 47.**\n_Answer:_ 4 tens and 7 ones.\n_Hint:_ How many tens can you make with 47?\n\n**3. How many ones are in 16?**\n_Answer:_ 6 ones.\n_Hint:_ After making groups of 10, how many are left?\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing tens with ones.\n- Forgetting that 10 ones make a ten.\n- Misplacing digits when writing numbers.",
+    "connection": "Think about a carton of eggs. A full carton has 10 eggs (like a ten), and leftover eggs are the ones. This is how numbers are structured in place value.",
+    "close": "**Key Takeaways**\n- Place value helps understand the value of digits in a number.\n- The tens place is ten times the ones place.\n- Using physical objects can make abstract concepts concrete.\n\n**Parent Reflection Questions**\n- How can we show 45 using groups of ten and ones?\n- What happens when we add another ten to 29?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Place Value: Ones & Tens",
+    "introduction": "Hello, wonderful parents! Today, we're diving into the magical world of numbers by exploring place value, focusing on the ones and tens. This foundational concept helps your child see numbers not just as digits, but as parts of a whole.",
+    "objective": "Help your child understand and identify the place value of digits in the ones and tens positions.",
+    "why_matters": "Understanding place value is like giving your child a key to unlock the world of numbers. It sets the stage for addition, subtraction, and more complex math in the future.",
+    "parent_tip": "Use everyday objects like snacks or toys to make learning place value a hands-on experience. Group them in tens and ones to illustrate the concept.",
+    "real_world_link": "When you go shopping, notice how prices are often displayed. The tens and ones tell you how much something costs, helping your child connect math to real-world activities.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of place value using simple language.",
+      "Use physical objects to represent ones and tens.",
+      "Show how numbers can be broken down into tens and ones.",
+      "Practice counting objects in groups of tens and ones.",
+      "Reinforce learning with real-world examples."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore how numbers are made up of tens and ones.",
+        "do": "Grab 20 small objects. Group them into piles of ten and some leftovers.",
+        "ask": "How many groups of ten do we have? How many are left over?",
+        "reinforce": "Great! We've made two groups of ten and have some extras. That's 20!"
+      },
+      {
+        "say": "Each group of ten is like a bundle.",
+        "do": "Use rubber bands to bundle groups of ten objects.",
+        "ask": "How many bundles do we have now?",
+        "reinforce": "Awesome! Bundling helps us see the tens clearly."
+      },
+      {
+        "say": "Now, let's see how this works with numbers.",
+        "do": "Write the number 23 on paper.",
+        "ask": "How many tens and ones make up 23?",
+        "reinforce": "Yes! 23 is made of 2 tens and 3 ones."
+      },
+      {
+        "say": "Let's try another number.",
+        "do": "Write the number 15 on paper.",
+        "ask": "How many tens and ones are in 15?",
+        "reinforce": "Perfect! 15 is 1 ten and 5 ones."
+      },
+      {
+        "say": "Can you find tens and ones in the number 31?",
+        "do": "Encourage your child to use objects to visualize.",
+        "ask": "What do you see?",
+        "reinforce": "Exactly! 31 is 3 tens and 1 one."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What are the tens and ones in 47?",
+        "hint": "Think about how many groups of ten and leftover ones there are.",
+        "answer": "4 tens and 7 ones."
+      },
+      {
+        "prompt": "Break down the number 58 into tens and ones.",
+        "hint": "How many complete sets of ten can you make?",
+        "answer": "5 tens and 8 ones."
+      },
+      {
+        "prompt": "Identify the tens and ones in 92.",
+        "hint": "Look for the number of tens first.",
+        "answer": "9 tens and 2 ones."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Place value helps us understand numbers in parts.",
+      "We can use everyday objects to visualize tens and ones.",
+      "Practice helps solidify the concept."
+    ],
+    "common_mistakes": [
+      "Confusing the ones and tens place.",
+      "Forgetting to group objects into tens first.",
+      "Miscounting the number of tens or ones."
+    ],
+    "deep_dive": {
+      "history": "The concept of place value dates back to ancient civilizations like the Egyptians and Babylonians, who used different systems to represent numbers.",
+      "connections": "Place value is foundational for operations like addition, subtraction, and beyond.",
+      "misconceptions": "A common misconception is thinking the value of a digit is the same regardless of its position.",
+      "teaching_tips": "Use visual aids and real-world examples to make abstract concepts concrete.",
+      "derivation": "The base-10 system is derived from counting on our ten fingers, making it intuitive for young learners."
+    },
+    "motivation": "Helping your child understand place value is a gift that keeps on giving, empowering them with confidence in math and beyond. Let's make numbers fun together!"
+  },
+  "markdown": "## Lesson Introduction\nHello, wonderful parents! Today, we're diving into the magical world of numbers by exploring place value, focusing on the ones and tens. This foundational concept helps your child see numbers not just as digits, but as parts of a whole.\n\n## Parent Orientation\n**Objective:** Help your child understand and identify the place value of digits in the ones and tens positions.\n**Why it matters:** Understanding place value is like giving your child a key to unlock the world of numbers. It sets the stage for addition, subtraction, and more complex math in the future.\n**Parent Tip:** Use everyday objects like snacks or toys to make learning place value a hands-on experience. Group them in tens and ones to illustrate the concept.\n**Real-World Link:** When you go shopping, notice how prices are often displayed. The tens and ones tell you how much something costs, helping your child connect math to real-world activities.\n\n## Teaching Steps\n1. Introduce the concept of place value using simple language.\n2. Use physical objects to represent ones and tens.\n3. Show how numbers can be broken down into tens and ones.\n4. Practice counting objects in groups of tens and ones.\n5. Reinforce learning with real-world examples.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore how numbers are made up of tens and ones.  \n**Show/Do:** Grab 20 small objects. Group them into piles of ten and some leftovers.  \n**Ask:** How many groups of ten do we have? How many are left over?  \n**Reinforce:** Great! We've made two groups of ten and have some extras. That's 20!\n2. **Say:** Each group of ten is like a bundle.  \n**Show/Do:** Use rubber bands to bundle groups of ten objects.  \n**Ask:** How many bundles do we have now?  \n**Reinforce:** Awesome! Bundling helps us see the tens clearly.\n3. **Say:** Now, let's see how this works with numbers.  \n**Show/Do:** Write the number 23 on paper.  \n**Ask:** How many tens and ones make up 23?  \n**Reinforce:** Yes! 23 is made of 2 tens and 3 ones.\n4. **Say:** Let's try another number.  \n**Show/Do:** Write the number 15 on paper.  \n**Ask:** How many tens and ones are in 15?  \n**Reinforce:** Perfect! 15 is 1 ten and 5 ones.\n5. **Say:** Can you find tens and ones in the number 31?  \n**Show/Do:** Encourage your child to use objects to visualize.  \n**Ask:** What do you see?  \n**Reinforce:** Exactly! 31 is 3 tens and 1 one.\n\n## Practice Questions (Do It Together)\n**1. What are the tens and ones in 47?**\n<details><summary>Hint</summary>\nThink about how many groups of ten and leftover ones there are.\n</details>\n<details><summary>Answer</summary>\n4 tens and 7 ones.\n</details>\n\n**2. Break down the number 58 into tens and ones.**\n<details><summary>Hint</summary>\nHow many complete sets of ten can you make?\n</details>\n<details><summary>Answer</summary>\n5 tens and 8 ones.\n</details>\n\n**3. Identify the tens and ones in 92.**\n<details><summary>Hint</summary>\nLook for the number of tens first.\n</details>\n<details><summary>Answer</summary>\n9 tens and 2 ones.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Place value helps us understand numbers in parts.\n- We can use everyday objects to visualize tens and ones.\n- Practice helps solidify the concept.\n\n**Common Mistakes**\n- Confusing the ones and tens place.\n- Forgetting to group objects into tens first.\n- Miscounting the number of tens or ones.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of place value dates back to ancient civilizations like the Egyptians and Babylonians, who used different systems to represent numbers.\n\n**Future topic connections**\n\nPlace value is foundational for operations like addition, subtraction, and beyond.\n\n**Common misconceptions**\n\nA common misconception is thinking the value of a digit is the same regardless of its position.\n\n**Teaching tips for parents**\n\nUse visual aids and real-world examples to make abstract concepts concrete.\n\n**More detail / derivation**\n\nThe base-10 system is derived from counting on our ten fingers, making it intuitive for young learners.\n\n## Motivation\nHelping your child understand place value is a gift that keeps on giving, empowering them with confidence in math and beyond. Let's make numbers fun together!"
+}

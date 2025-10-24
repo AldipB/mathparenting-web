@@ -1,0 +1,41 @@
+{
+  "grade": "6",
+  "lessons": [
+    {
+      "slug": "decimals-all-operations",
+      "title": "Decimals – All Operations"
+    },
+    {
+      "slug": "area-and-volume-3d-shapes",
+      "title": "Exploring Area & Volume with 3D Shapes"
+    },
+    {
+      "slug": "coordinate-plane-4-quadrants",
+      "title": "Exploring the Coordinate Plane: All Four Quadrants"
+    },
+    {
+      "slug": "fractions-all-operations",
+      "title": "Fractions – All Operations"
+    },
+    {
+      "slug": "intro-to-variables-and-expressions",
+      "title": "Intro to Variables & Expressions"
+    },
+    {
+      "slug": "long-division-and-multi-digit-multiplication",
+      "title": "Long Division & Multi-Digit Multiplication Made Easy"
+    },
+    {
+      "slug": "ratios-and-rates",
+      "title": "Ratios & Rates: Exploring Relationships"
+    },
+    {
+      "slug": "mean-median-mode-and-range",
+      "title": "Understanding Mean, Median, Mode & Range"
+    },
+    {
+      "slug": "percentages-basic-concept-and-conversion",
+      "title": "Unlocking the Power of Percentages"
+    }
+  ]
+}

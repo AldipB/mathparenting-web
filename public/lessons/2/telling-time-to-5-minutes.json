@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "b07e6664-cb6f-4142-924b-6170a8586a05",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "8e6d0fa1-a7df-4d6b-8707-0cf9e001b735",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "60a54b0d-a884-4a8b-87dd-9d4508886155",
+    "slug": "telling-time-to-5-minutes",
+    "title": "Telling Time to 5 Minutes",
+    "summary": "Telling time to 5 minutes — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will confidently read analog clocks to the nearest 5 minutes.\n\n**Why it matters:** Understanding time helps children manage their day and prepare for activities. It's a life skill they'll use daily.\n\n**Parent Tip:** Use your home's clocks as practical tools. Point out times during routine activities to reinforce learning.\n\n**Real-World Link:** Think of time like a pizza sliced into 12 parts. Each slice is 5 minutes. Knowing how many slices have passed tells you the time.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Help your child master telling time by the 5-minute intervals. It's a fun journey that connects numbers to daily routines.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with the hour hand: Ensure your child can identify the hour first.\n2. Move to the minute hand: Explain that each number on the clock represents 5 minutes.\n3. Practice counting by fives: Use the numbers on the clock to count by fives from 12 to 12.\n4. Combine hours and minutes: Show how to read both hands together to tell time.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What time is it when the hour hand is on 3 and the minute hand is on 1?**\n_Answer:_ 3:05\n_Hint:_ Count by fives starting at 12.\n\n**2. The hour hand is on 6 and the minute hand is on 7. What time is it?**\n_Answer:_ 6:35\n_Hint:_ Count by fives for the minute hand.\n\n**3. If the hour hand is just past 9 and the minute hand is on 4, what time is it?**\n_Answer:_ 9:20\n_Hint:_ Look closely at the minute hand's position.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the hour and minute hands.\n- Forgetting to count by fives for the minute hand.\n- Not looking at where the hour hand is exactly pointing.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of time like a pizza sliced into 12 parts. Each slice is 5 minutes. Knowing how many slices have passed tells you the time.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child learn to tell time to the nearest 5 minutes using an analog clock.",
+    "overview": "**Objective:** By the end of this lesson, your child will confidently read analog clocks to the nearest 5 minutes.\n\n**Why it matters:** Understanding time helps children manage their day and prepare for activities. It's a life skill they'll use daily.\n\n**Parent Tip:** Use your home's clocks as practical tools. Point out times during routine activities to reinforce learning.\n\n**Real-World Link:** Think of time like a pizza sliced into 12 parts. Each slice is 5 minutes. Knowing how many slices have passed tells you the time.",
+    "core": "Help your child master telling time by the 5-minute intervals. It's a fun journey that connects numbers to daily routines.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'What if we didn't have clocks? How would we know when to do things?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with the hour hand: Ensure your child can identify the hour first.\n2. Move to the minute hand: Explain that each number on the clock represents 5 minutes.\n3. Practice counting by fives: Use the numbers on the clock to count by fives from 12 to 12.\n4. Combine hours and minutes: Show how to read both hands together to tell time.",
+    "practice": "**1. What time is it when the hour hand is on 3 and the minute hand is on 1?**\n_Answer:_ 3:05\n_Hint:_ Count by fives starting at 12.\n\n**2. The hour hand is on 6 and the minute hand is on 7. What time is it?**\n_Answer:_ 6:35\n_Hint:_ Count by fives for the minute hand.\n\n**3. If the hour hand is just past 9 and the minute hand is on 4, what time is it?**\n_Answer:_ 9:20\n_Hint:_ Look closely at the minute hand's position.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the hour and minute hands.\n- Forgetting to count by fives for the minute hand.\n- Not looking at where the hour hand is exactly pointing.",
+    "connection": "Think of time like a pizza sliced into 12 parts. Each slice is 5 minutes. Knowing how many slices have passed tells you the time.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Telling time to 5 minutes** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can I help my child practice telling time daily?\n- What are some games or activities to reinforce these skills?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Telling Time to 5 Minutes",
+    "introduction": "Welcome to the world of clocks! In this lesson, we'll help your child learn how to tell time to the nearest 5 minutes using both digital and analog clocks. It's a fun and practical skill that they'll use every day!",
+    "objective": "By the end of this lesson, your child will be able to read and tell time to the nearest 5 minutes on both analog and digital clocks.",
+    "why_matters": "Understanding time helps children manage their daily routines, from waking up on time to knowing when it's time for their favorite activities.",
+    "parent_tip": "Use a real clock at home for practice. Regularly ask your child to tell you the time, especially during routine activities.",
+    "real_world_link": "Think about how we use time every day: setting alarms, catching the bus, or knowing when dinner is ready. Time management is a key life skill!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the clock face and its components: hour hand, minute hand, and numbers.",
+      "Explain that the minute hand moves faster than the hour hand.",
+      "Demonstrate how the minute hand points to numbers and how each number represents 5 minutes.",
+      "Practice counting by fives around the clock face.",
+      "Show how to read the hour and minute together to tell the full time."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at the clock together.",
+        "do": "Point to the hour hand and minute hand.",
+        "ask": "What do you notice about the two hands?",
+        "reinforce": "The hour hand is shorter and moves slower, while the minute hand is longer and moves faster."
+      },
+      {
+        "say": "Each number on the clock represents 5 minutes.",
+        "do": "Point to each number and count by fives: 5, 10, 15, etc.",
+        "ask": "Can you count along with me?",
+        "reinforce": "Great! Counting by fives helps us know how many minutes have passed."
+      },
+      {
+        "say": "Let's find out what time it is when the minute hand points to the 3.",
+        "do": "Point to the minute hand at 3, showing it represents 15 minutes.",
+        "ask": "What do you think the minute hand is showing?",
+        "reinforce": "Exactly, it's 15 minutes past the hour."
+      },
+      {
+        "say": "Now let's read the full time together.",
+        "do": "Set the hour hand to 2 and the minute hand to 3.",
+        "ask": "What time is it?",
+        "reinforce": "It's 2:15. You read the hour first and then the minutes."
+      },
+      {
+        "say": "Can you tell me what time it will be when the minute hand moves to 6?",
+        "do": "Move the minute hand to 6.",
+        "ask": "What do you think?",
+        "reinforce": "Yes, it's 2:30. Great job!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What time is it when the hour hand is on 4 and the minute hand is on 1?",
+        "hint": "Count by fives for the minutes: 5.",
+        "answer": "4:05"
+      },
+      {
+        "prompt": "The hour hand is on 7 and the minute hand is on 9. What's the time?",
+        "hint": "Count by fives: 45.",
+        "answer": "7:45"
+      },
+      {
+        "prompt": "If the clock shows 3:25, where is the minute hand pointing?",
+        "hint": "Divide 25 by 5.",
+        "answer": "The minute hand is on 5."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The hour hand shows the hour.",
+      "The minute hand shows the minutes, counting by fives.",
+      "Read the hour first and then the minutes to tell the time."
+    ],
+    "common_mistakes": [
+      "Confusing the hour and minute hands.",
+      "Forgetting to count by fives for the minutes.",
+      "Starting with the minutes instead of the hour when reading the time."
+    ],
+    "deep_dive": {
+      "history": "Clocks have been around for centuries, evolving from sundials to the modern clocks we use today.",
+      "connections": "Understanding time is connected to learning schedules, routines, and even cooking recipes.",
+      "misconceptions": "Some children think the longer hand should always be the hour hand because it's more visible.",
+      "teaching_tips": "Use a variety of clocks (analog and digital) to reinforce learning.",
+      "derivation": "The concept of 60 minutes in an hour comes from ancient Babylonian mathematics."
+    },
+    "motivation": "Telling time is a superpower your child can use every day to stay on top of their schedule and enjoy their favorite activities!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of clocks! In this lesson, we'll help your child learn how to tell time to the nearest 5 minutes using both digital and analog clocks. It's a fun and practical skill that they'll use every day!\n\n## Parent Orientation\n**Objective:** By the end of this lesson, your child will be able to read and tell time to the nearest 5 minutes on both analog and digital clocks.\n**Why it matters:** Understanding time helps children manage their daily routines, from waking up on time to knowing when it's time for their favorite activities.\n**Parent Tip:** Use a real clock at home for practice. Regularly ask your child to tell you the time, especially during routine activities.\n**Real-World Link:** Think about how we use time every day: setting alarms, catching the bus, or knowing when dinner is ready. Time management is a key life skill!\n\n## Teaching Steps\n1. Introduce the clock face and its components: hour hand, minute hand, and numbers.\n2. Explain that the minute hand moves faster than the hour hand.\n3. Demonstrate how the minute hand points to numbers and how each number represents 5 minutes.\n4. Practice counting by fives around the clock face.\n5. Show how to read the hour and minute together to tell the full time.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at the clock together.  \n**Show/Do:** Point to the hour hand and minute hand.  \n**Ask:** What do you notice about the two hands?  \n**Reinforce:** The hour hand is shorter and moves slower, while the minute hand is longer and moves faster.\n2. **Say:** Each number on the clock represents 5 minutes.  \n**Show/Do:** Point to each number and count by fives: 5, 10, 15, etc.  \n**Ask:** Can you count along with me?  \n**Reinforce:** Great! Counting by fives helps us know how many minutes have passed.\n3. **Say:** Let's find out what time it is when the minute hand points to the 3.  \n**Show/Do:** Point to the minute hand at 3, showing it represents 15 minutes.  \n**Ask:** What do you think the minute hand is showing?  \n**Reinforce:** Exactly, it's 15 minutes past the hour.\n4. **Say:** Now let's read the full time together.  \n**Show/Do:** Set the hour hand to 2 and the minute hand to 3.  \n**Ask:** What time is it?  \n**Reinforce:** It's 2:15. You read the hour first and then the minutes.\n5. **Say:** Can you tell me what time it will be when the minute hand moves to 6?  \n**Show/Do:** Move the minute hand to 6.  \n**Ask:** What do you think?  \n**Reinforce:** Yes, it's 2:30. Great job!\n\n## Practice Questions (Do It Together)\n**1. What time is it when the hour hand is on 4 and the minute hand is on 1?**\n<details><summary>Hint</summary>\nCount by fives for the minutes: 5.\n</details>\n<details><summary>Answer</summary>\n4:05\n</details>\n\n**2. The hour hand is on 7 and the minute hand is on 9. What's the time?**\n<details><summary>Hint</summary>\nCount by fives: 45.\n</details>\n<details><summary>Answer</summary>\n7:45\n</details>\n\n**3. If the clock shows 3:25, where is the minute hand pointing?**\n<details><summary>Hint</summary>\nDivide 25 by 5.\n</details>\n<details><summary>Answer</summary>\nThe minute hand is on 5.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The hour hand shows the hour.\n- The minute hand shows the minutes, counting by fives.\n- Read the hour first and then the minutes to tell the time.\n\n**Common Mistakes**\n- Confusing the hour and minute hands.\n- Forgetting to count by fives for the minutes.\n- Starting with the minutes instead of the hour when reading the time.\n\n## 🔍 Deep Dive\n**History or origin**\n\nClocks have been around for centuries, evolving from sundials to the modern clocks we use today.\n\n**Future topic connections**\n\nUnderstanding time is connected to learning schedules, routines, and even cooking recipes.\n\n**Common misconceptions**\n\nSome children think the longer hand should always be the hour hand because it's more visible.\n\n**Teaching tips for parents**\n\nUse a variety of clocks (analog and digital) to reinforce learning.\n\n**More detail / derivation**\n\nThe concept of 60 minutes in an hour comes from ancient Babylonian mathematics.\n\n## Motivation\nTelling time is a superpower your child can use every day to stay on top of their schedule and enjoy their favorite activities!"
+}

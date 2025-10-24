@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "7a6a5255-5376-4f81-be55-44619ae4c13b",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "44add657-6819-4a7d-aed9-50686007d7cd",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8c8ed814-b675-4682-8b27-6e4cca591f68",
+    "slug": "metric-measurement-cm-m-l-kg",
+    "title": "Exploring Metric Measurements: cm, m, L, kg",
+    "summary": "Metric measurement (cm, m, L, kg) — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and use metric units of measurement in real-world contexts.\n\n**Why it matters:** Metric measurements are used worldwide, making it easier to understand and compare quantities, whether you're cooking, traveling, or shopping.\n\n**Parent Tip:** Encourage your child to think of metric units as part of daily routines, like measuring ingredients or checking product weights at the store.\n\n**Real-World Link:** Next time you're at the grocery store, point out how fruits are weighed in kilograms or how milk is sold in liters. This real-world connection makes learning meaningful.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of metric measurements! These are the units we use to measure length, volume, and weight in a way that's simple and universal. Let's explore how centimeters, meters, liters, and kilograms fit into our everyday lives.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of metric measurements: centimeters (cm) and meters (m) for length, liters (L) for volume, and kilograms (kg) for weight.\n2. Use a ruler or tape measure to show 1 cm and 1 m. Compare these to familiar objects, like a pencil (about 20 cm) or a doorway (about 2 m).\n3. Demonstrate volume by using a measuring cup to show 1 liter. Relate this to a bottle of water.\n4. For weight, use a kitchen scale to show 1 kg. Compare this to a bag of sugar or flour.\n5. Discuss how these units help in everyday decisions, like choosing the right amount of ingredients or the right size container.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Measure the length of your dining table in meters. (use numbers like 6 and 9)**\n_Answer:_ The length will vary, but check that it's measured in meters.\n_Hint:_ Use a tape measure. Remember, 1 meter is 100 centimeters.\n\n**2. Find a 1-liter bottle at home. What else could hold 1 liter?**\n_Answer:_ A large water bottle or a measuring jug could hold 1 liter.\n_Hint:_ Look for containers in your kitchen, like a large measuring cup.\n\n**3. Weigh a bag of apples. Is it closer to 1 kg or 2 kg?**\n_Answer:_ It depends, but a standard bag could be around 1 kg.\n_Hint:_ Use a kitchen scale for an accurate measure.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing centimeters with meters—remember, 100 cm equals 1 m.\n- Mixing up weight and volume—kilograms are for weight, liters for volume.\n- Forgetting to use the right unit—always check what you're measuring.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Next time you're at the grocery store, point out how fruits are weighed in kilograms or how milk is sold in liters. This real-world connection makes learning meaningful.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and use metric units for length, volume, and weight: centimeters (cm), meters (m), liters (L), and kilograms (kg).",
+    "overview": "**Objective:** Help your child understand and use metric units of measurement in real-world contexts.\n\n**Why it matters:** Metric measurements are used worldwide, making it easier to understand and compare quantities, whether you're cooking, traveling, or shopping.\n\n**Parent Tip:** Encourage your child to think of metric units as part of daily routines, like measuring ingredients or checking product weights at the store.\n\n**Real-World Link:** Next time you're at the grocery store, point out how fruits are weighed in kilograms or how milk is sold in liters. This real-world connection makes learning meaningful.",
+    "core": "Welcome to the world of metric measurements! These are the units we use to measure length, volume, and weight in a way that's simple and universal. Let's explore how centimeters, meters, liters, and kilograms fit into our everyday lives.",
+    "demo": "**Spark Curiosity:**\n\nDid you know the Eiffel Tower is about 324 meters tall? That's like stacking 162 two-meter sticks on top of each other!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the concept of metric measurements: centimeters (cm) and meters (m) for length, liters (L) for volume, and kilograms (kg) for weight.\n2. Use a ruler or tape measure to show 1 cm and 1 m. Compare these to familiar objects, like a pencil (about 20 cm) or a doorway (about 2 m).\n3. Demonstrate volume by using a measuring cup to show 1 liter. Relate this to a bottle of water.\n4. For weight, use a kitchen scale to show 1 kg. Compare this to a bag of sugar or flour.\n5. Discuss how these units help in everyday decisions, like choosing the right amount of ingredients or the right size container.",
+    "practice": "**1. Measure the length of your dining table in meters. (use numbers like 6 and 9)**\n_Answer:_ The length will vary, but check that it's measured in meters.\n_Hint:_ Use a tape measure. Remember, 1 meter is 100 centimeters.\n\n**2. Find a 1-liter bottle at home. What else could hold 1 liter?**\n_Answer:_ A large water bottle or a measuring jug could hold 1 liter.\n_Hint:_ Look for containers in your kitchen, like a large measuring cup.\n\n**3. Weigh a bag of apples. Is it closer to 1 kg or 2 kg?**\n_Answer:_ It depends, but a standard bag could be around 1 kg.\n_Hint:_ Use a kitchen scale for an accurate measure.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing centimeters with meters—remember, 100 cm equals 1 m.\n- Mixing up weight and volume—kilograms are for weight, liters for volume.\n- Forgetting to use the right unit—always check what you're measuring.",
+    "connection": "Next time you're at the grocery store, point out how fruits are weighed in kilograms or how milk is sold in liters. This real-world connection makes learning meaningful.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Metric measurement (cm, m, L, kg)** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can we practice using metric measurements at home?\n- What other everyday activities involve metric units?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Metric Measurements: cm, m, L, kg",
+    "introduction": "Welcome to the world of metric measurements! In this lesson, we're exploring centimeters, meters, liters, and kilograms. These units help us measure length, capacity, and weight in a way that's used worldwide.",
+    "objective": "Help your child understand and use metric units: centimeters (cm), meters (m), liters (L), and kilograms (kg).",
+    "why_matters": "Understanding metric measurements is essential because they're used globally in science, industry, and everyday life. This knowledge will help your child in school and beyond.",
+    "parent_tip": "Encourage your child to estimate measurements before checking them. This develops a sense of scale and improves their estimation skills.",
+    "real_world_link": "Next time you're in the kitchen or at the store, point out labels on bottles and packages that use liters and kilograms. It’s a great way to see metric units in action.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the metric units: centimeters, meters, liters, and kilograms.",
+      "Explain how these units are used to measure length, capacity, and weight.",
+      "Show real-life examples of items measured in these units.",
+      "Practice converting between units, like cm to m or g to kg.",
+      "Encourage estimating measurements before using tools."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about how we measure things using the metric system.",
+        "do": "Show a ruler and point to the centimeters.",
+        "ask": "Can you find something around us that we can measure with this ruler?",
+        "reinforce": "Great! Centimeters help us measure smaller lengths."
+      },
+      {
+        "say": "Now, let's think bigger with meters.",
+        "do": "Show a meter stick or tape measure.",
+        "ask": "What do you think we might measure with meters?",
+        "reinforce": "Meters are perfect for measuring bigger things, like rooms or furniture."
+      },
+      {
+        "say": "Let's talk about liters, which measure liquid capacity.",
+        "do": "Grab a liter bottle of water or juice.",
+        "ask": "How much liquid do you think this bottle holds?",
+        "reinforce": "Exactly, it's one liter! We use liters for drinks and other liquids."
+      },
+      {
+        "say": "Finally, let's discuss kilograms for weight.",
+        "do": "Show a kitchen scale or a package labeled in kilograms.",
+        "ask": "How heavy do you think this item is?",
+        "reinforce": "That's right! Kilograms are used to weigh heavier items."
+      },
+      {
+        "say": "Let's practice converting smaller units to bigger ones.",
+        "do": "Write down a conversion, like 100 cm = 1 m.",
+        "ask": "Can you convert 200 cm to meters?",
+        "reinforce": "Good job! 200 cm is 2 meters."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If a bottle holds 2 liters of water, how many 500 ml cups can it fill?",
+        "hint": "Remember, 1 liter is 1000 ml.",
+        "answer": "4 cups"
+      },
+      {
+        "prompt": "You have a rope that's 300 cm long. How many meters is that?",
+        "hint": "100 cm equals 1 meter.",
+        "answer": "3 meters"
+      },
+      {
+        "prompt": "A package weighs 1500 grams. How many kilograms is this?",
+        "hint": "1000 grams equals 1 kilogram.",
+        "answer": "1.5 kilograms"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The metric system uses cm, m, L, and kg to measure length, capacity, and weight.",
+      "These units are part of daily life and are used around the world.",
+      "Practicing estimation and conversion helps build a strong understanding of measurement."
+    ],
+    "common_mistakes": [
+      "Confusing centimeters with meters when measuring length.",
+      "Mixing up liters and milliliters when measuring liquids.",
+      "Forgetting that 1000 grams make up 1 kilogram."
+    ],
+    "deep_dive": {
+      "history": "The metric system originated in France during the late 18th century and has become the standard for scientific measurements.",
+      "connections": "Metric units are used in science, engineering, and most countries' daily life.",
+      "misconceptions": "Many believe the metric system is complex, but it's actually simpler due to its base-10 structure.",
+      "teaching_tips": "Use everyday items to show metric measurements, making the lesson relatable.",
+      "derivation": "Metric units are based on natural constants, like the meter being one ten-millionth of the distance from the equator to the North Pole."
+    },
+    "motivation": "Learning metric measurements opens up a world of understanding in science, travel, and everyday tasks. It's a skill that empowers your child to engage with the world confidently."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of metric measurements! In this lesson, we're exploring centimeters, meters, liters, and kilograms. These units help us measure length, capacity, and weight in a way that's used worldwide.\n\n## Parent Orientation\n**Objective:** Help your child understand and use metric units: centimeters (cm), meters (m), liters (L), and kilograms (kg).\n**Why it matters:** Understanding metric measurements is essential because they're used globally in science, industry, and everyday life. This knowledge will help your child in school and beyond.\n**Parent Tip:** Encourage your child to estimate measurements before checking them. This develops a sense of scale and improves their estimation skills.\n**Real-World Link:** Next time you're in the kitchen or at the store, point out labels on bottles and packages that use liters and kilograms. It’s a great way to see metric units in action.\n\n## Teaching Steps\n1. Introduce the metric units: centimeters, meters, liters, and kilograms.\n2. Explain how these units are used to measure length, capacity, and weight.\n3. Show real-life examples of items measured in these units.\n4. Practice converting between units, like cm to m or g to kg.\n5. Encourage estimating measurements before using tools.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about how we measure things using the metric system.  \n**Show/Do:** Show a ruler and point to the centimeters.  \n**Ask:** Can you find something around us that we can measure with this ruler?  \n**Reinforce:** Great! Centimeters help us measure smaller lengths.\n2. **Say:** Now, let's think bigger with meters.  \n**Show/Do:** Show a meter stick or tape measure.  \n**Ask:** What do you think we might measure with meters?  \n**Reinforce:** Meters are perfect for measuring bigger things, like rooms or furniture.\n3. **Say:** Let's talk about liters, which measure liquid capacity.  \n**Show/Do:** Grab a liter bottle of water or juice.  \n**Ask:** How much liquid do you think this bottle holds?  \n**Reinforce:** Exactly, it's one liter! We use liters for drinks and other liquids.\n4. **Say:** Finally, let's discuss kilograms for weight.  \n**Show/Do:** Show a kitchen scale or a package labeled in kilograms.  \n**Ask:** How heavy do you think this item is?  \n**Reinforce:** That's right! Kilograms are used to weigh heavier items.\n5. **Say:** Let's practice converting smaller units to bigger ones.  \n**Show/Do:** Write down a conversion, like 100 cm = 1 m.  \n**Ask:** Can you convert 200 cm to meters?  \n**Reinforce:** Good job! 200 cm is 2 meters.\n\n## Practice Questions (Do It Together)\n**1. If a bottle holds 2 liters of water, how many 500 ml cups can it fill?**\n<details><summary>Hint</summary>\nRemember, 1 liter is 1000 ml.\n</details>\n<details><summary>Answer</summary>\n4 cups\n</details>\n\n**2. You have a rope that's 300 cm long. How many meters is that?**\n<details><summary>Hint</summary>\n100 cm equals 1 meter.\n</details>\n<details><summary>Answer</summary>\n3 meters\n</details>\n\n**3. A package weighs 1500 grams. How many kilograms is this?**\n<details><summary>Hint</summary>\n1000 grams equals 1 kilogram.\n</details>\n<details><summary>Answer</summary>\n1.5 kilograms\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The metric system uses cm, m, L, and kg to measure length, capacity, and weight.\n- These units are part of daily life and are used around the world.\n- Practicing estimation and conversion helps build a strong understanding of measurement.\n\n**Common Mistakes**\n- Confusing centimeters with meters when measuring length.\n- Mixing up liters and milliliters when measuring liquids.\n- Forgetting that 1000 grams make up 1 kilogram.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe metric system originated in France during the late 18th century and has become the standard for scientific measurements.\n\n**Future topic connections**\n\nMetric units are used in science, engineering, and most countries' daily life.\n\n**Common misconceptions**\n\nMany believe the metric system is complex, but it's actually simpler due to its base-10 structure.\n\n**Teaching tips for parents**\n\nUse everyday items to show metric measurements, making the lesson relatable.\n\n**More detail / derivation**\n\nMetric units are based on natural constants, like the meter being one ten-millionth of the distance from the equator to the North Pole.\n\n## Motivation\nLearning metric measurements opens up a world of understanding in science, travel, and everyday tasks. It's a skill that empowers your child to engage with the world confidently."
+}

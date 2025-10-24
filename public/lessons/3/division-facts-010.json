@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "304e0caf-4865-4ee0-9d7c-0966d629ca4d",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "0ce9d90b-05c1-4bc9-8cd3-473667416e4f",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "00b88a44-dffd-43b9-9766-4c457a0ee51d",
+    "slug": "division-facts-010",
+    "title": "Understanding Division Facts (0–10)",
+    "summary": "Division facts (0–10) — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child grasp basic division facts and understand division as an equal sharing process.\n\n**Why it matters:** Division is a fundamental math skill that helps children solve problems involving equal groups, paving the way for more complex math concepts.\n\n**Parent Tip:** Use everyday situations, like sharing snacks, to illustrate division. This makes learning more relatable and fun for your child.\n\n**Real-World Link:** Think of division like sharing a pizza among friends. If you have 8 slices and 4 friends, how many slices does each friend get? That's division in action!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of division! As your child learns to divide numbers from 0 to 10, we'll explore how division helps us share and distribute evenly.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining division as making equal groups.\n2. Use real objects like buttons or coins to demonstrate dividing them into groups.\n3. Practice with small numbers, gradually increasing as your child gains confidence.\n4. Reinforce the connection between multiplication and division, showing how they are inverse operations.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. 12 ÷ 3**\n_Answer:_ 4\n_Hint:_ How many groups of 3 can you make from 12?\n\n**2. 9 ÷ 1**\n_Answer:_ 9\n_Hint:_ How many groups of 1 can you make from 9?\n\n**3. 0 ÷ 5**\n_Answer:_ 0\n_Hint:_ How many groups of 5 can you make from 0?\n\n**4. 15 ÷ 5**\n_Answer:_ 3\n_Hint:_ How many groups of 5 can you make from 15?",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing division with subtraction.\n- Forgetting that division by zero is undefined.\n- Mixing up the divisor and dividend.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of division like sharing a pizza among friends. If you have 8 slices and 4 friends, how many slices does each friend get? That's division in action!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child master division facts from 0 to 10 with confidence.",
+    "overview": "**Objective:** Help your child grasp basic division facts and understand division as an equal sharing process.\n\n**Why it matters:** Division is a fundamental math skill that helps children solve problems involving equal groups, paving the way for more complex math concepts.\n\n**Parent Tip:** Use everyday situations, like sharing snacks, to illustrate division. This makes learning more relatable and fun for your child.\n\n**Real-World Link:** Think of division like sharing a pizza among friends. If you have 8 slices and 4 friends, how many slices does each friend get? That's division in action!",
+    "core": "Welcome to the world of division! As your child learns to divide numbers from 0 to 10, we'll explore how division helps us share and distribute evenly.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how we can share things equally? Imagine you have 10 apples and 5 friends. How can you share them so everyone gets the same amount?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by explaining division as making equal groups.\n2. Use real objects like buttons or coins to demonstrate dividing them into groups.\n3. Practice with small numbers, gradually increasing as your child gains confidence.\n4. Reinforce the connection between multiplication and division, showing how they are inverse operations.",
+    "practice": "**1. 12 ÷ 3**\n_Answer:_ 4\n_Hint:_ How many groups of 3 can you make from 12?\n\n**2. 9 ÷ 1**\n_Answer:_ 9\n_Hint:_ How many groups of 1 can you make from 9?\n\n**3. 0 ÷ 5**\n_Answer:_ 0\n_Hint:_ How many groups of 5 can you make from 0?\n\n**4. 15 ÷ 5**\n_Answer:_ 3\n_Hint:_ How many groups of 5 can you make from 15?",
+    "mistakes": "- Confusing division with subtraction.\n- Forgetting that division by zero is undefined.\n- Mixing up the divisor and dividend.",
+    "connection": "Think of division like sharing a pizza among friends. If you have 8 slices and 4 friends, how many slices does each friend get? That's division in action!",
+    "close": "**Key Takeaways**\n- Division is about sharing and grouping equally.\n- Practice makes division concepts stronger.\n- Use real-life scenarios to make division relatable.\n\n**Parent Reflection Questions**\n- How can I help my child see division in everyday life?\n- What are some fun ways to practice division at home?\n- How does division relate to other math topics?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Division Facts (0–10)",
+    "introduction": "Welcome to the world of division! This lesson will help your child learn basic division facts, which are essential building blocks for future math success.",
+    "objective": "Your child will understand and recall basic division facts for numbers 0–10.",
+    "why_matters": "Knowing division facts makes problem-solving quicker and helps in understanding more complex math concepts later in school.",
+    "parent_tip": "Encourage your child to think of division as sharing or grouping items equally. This visualization helps them grasp the concept more easily.",
+    "real_world_link": "Imagine sharing 10 apples among 5 friends. How many apples does each friend get? Division helps us solve this problem!",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain the concept of division as sharing or grouping.",
+      "Use small objects like beans or coins to demonstrate division.",
+      "Practice dividing numbers up to 10 using real-life scenarios.",
+      "Encourage your child to memorize simple division facts through repetition.",
+      "Use games or apps that focus on division to make learning fun."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about division. It's like sharing things equally.",
+        "do": "Show 10 coins. Divide them into 2 equal groups.",
+        "ask": "How many coins are in each group?",
+        "reinforce": "Yes, when we divide 10 by 2, each group has 5 coins."
+      },
+      {
+        "say": "Now, let's try dividing 9 candies among 3 kids.",
+        "do": "Give 9 candies and ask to divide them into 3 groups.",
+        "ask": "How many candies does each kid get?",
+        "reinforce": "Great! Each kid gets 3 candies. That's 9 divided by 3."
+      },
+      {
+        "say": "What about dividing 6 pencils into 2 pencil cases?",
+        "do": "Use 6 pencils and 2 cases to show the division.",
+        "ask": "How many pencils are in each case?",
+        "reinforce": "Correct! Each case has 3 pencils. 6 divided by 2 is 3."
+      },
+      {
+        "say": "Let's see if we can divide 8 cookies among 4 friends.",
+        "do": "Use 8 cookies and ask to share them equally.",
+        "ask": "How many cookies does each friend get?",
+        "reinforce": "Awesome! Each friend gets 2 cookies. 8 divided by 4 is 2."
+      },
+      {
+        "say": "Finally, let's try with an odd number, like 7 toys into 1 group.",
+        "do": "Count 7 toys into one group.",
+        "ask": "How many toys are in the group?",
+        "reinforce": "That's right, all 7 toys are in one group. 7 divided by 1 is 7."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is 10 divided by 5?",
+        "hint": "Think of sharing 10 items among 5 people.",
+        "answer": "2"
+      },
+      {
+        "prompt": "Divide 8 by 4.",
+        "hint": "How many times can 4 fit into 8?",
+        "answer": "2"
+      },
+      {
+        "prompt": "If you have 6 apples and put them into 3 baskets, how many apples are in each basket?",
+        "hint": "Divide 6 by 3.",
+        "answer": "2"
+      },
+      {
+        "prompt": "12 divided by 6 equals?",
+        "hint": "How many groups of 6 are in 12?",
+        "answer": "2"
+      }
+    ],
+    "recap": [
+      "Division is like sharing or grouping items equally.",
+      "Practice helps in memorizing basic division facts.",
+      "Using real-life objects makes learning division fun and relatable."
+    ],
+    "common_mistakes": [
+      "Confusing division with subtraction.",
+      "Forgetting to divide equally among all groups.",
+      "Miscounting items in each group."
+    ],
+    "deep_dive": {
+      "history": "Division has been used since ancient times for trade and distribution of goods.",
+      "connections": "Division is closely related to multiplication and is essential for understanding fractions.",
+      "misconceptions": "Some think division is only about numbers getting smaller, but it's really about equal grouping.",
+      "teaching_tips": "Use visual aids and interactive games to reinforce division concepts.",
+      "derivation": "Division can be derived from repeated subtraction but is more efficient."
+    },
+    "motivation": "Mastering division facts boosts confidence and prepares your child for advanced math challenges!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of division! This lesson will help your child learn basic division facts, which are essential building blocks for future math success.\n\n## Parent Orientation\n**Objective:** Your child will understand and recall basic division facts for numbers 0–10.\n**Why it matters:** Knowing division facts makes problem-solving quicker and helps in understanding more complex math concepts later in school.\n**Parent Tip:** Encourage your child to think of division as sharing or grouping items equally. This visualization helps them grasp the concept more easily.\n**Real-World Link:** Imagine sharing 10 apples among 5 friends. How many apples does each friend get? Division helps us solve this problem!\n\n## Teaching Steps\n1. Explain the concept of division as sharing or grouping.\n2. Use small objects like beans or coins to demonstrate division.\n3. Practice dividing numbers up to 10 using real-life scenarios.\n4. Encourage your child to memorize simple division facts through repetition.\n5. Use games or apps that focus on division to make learning fun.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about division. It's like sharing things equally.  \n**Show/Do:** Show 10 coins. Divide them into 2 equal groups.  \n**Ask:** How many coins are in each group?  \n**Reinforce:** Yes, when we divide 10 by 2, each group has 5 coins.\n2. **Say:** Now, let's try dividing 9 candies among 3 kids.  \n**Show/Do:** Give 9 candies and ask to divide them into 3 groups.  \n**Ask:** How many candies does each kid get?  \n**Reinforce:** Great! Each kid gets 3 candies. That's 9 divided by 3.\n3. **Say:** What about dividing 6 pencils into 2 pencil cases?  \n**Show/Do:** Use 6 pencils and 2 cases to show the division.  \n**Ask:** How many pencils are in each case?  \n**Reinforce:** Correct! Each case has 3 pencils. 6 divided by 2 is 3.\n4. **Say:** Let's see if we can divide 8 cookies among 4 friends.  \n**Show/Do:** Use 8 cookies and ask to share them equally.  \n**Ask:** How many cookies does each friend get?  \n**Reinforce:** Awesome! Each friend gets 2 cookies. 8 divided by 4 is 2.\n5. **Say:** Finally, let's try with an odd number, like 7 toys into 1 group.  \n**Show/Do:** Count 7 toys into one group.  \n**Ask:** How many toys are in the group?  \n**Reinforce:** That's right, all 7 toys are in one group. 7 divided by 1 is 7.\n\n## Practice Questions (Do It Together)\n**1. What is 10 divided by 5?**\n<details><summary>Hint</summary>\nThink of sharing 10 items among 5 people.\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n**2. Divide 8 by 4.**\n<details><summary>Hint</summary>\nHow many times can 4 fit into 8?\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n**3. If you have 6 apples and put them into 3 baskets, how many apples are in each basket?**\n<details><summary>Hint</summary>\nDivide 6 by 3.\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n**4. 12 divided by 6 equals?**\n<details><summary>Hint</summary>\nHow many groups of 6 are in 12?\n</details>\n<details><summary>Answer</summary>\n2\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Division is like sharing or grouping items equally.\n- Practice helps in memorizing basic division facts.\n- Using real-life objects makes learning division fun and relatable.\n\n**Common Mistakes**\n- Confusing division with subtraction.\n- Forgetting to divide equally among all groups.\n- Miscounting items in each group.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDivision has been used since ancient times for trade and distribution of goods.\n\n**Future topic connections**\n\nDivision is closely related to multiplication and is essential for understanding fractions.\n\n**Common misconceptions**\n\nSome think division is only about numbers getting smaller, but it's really about equal grouping.\n\n**Teaching tips for parents**\n\nUse visual aids and interactive games to reinforce division concepts.\n\n**More detail / derivation**\n\nDivision can be derived from repeated subtraction but is more efficient.\n\n## Motivation\nMastering division facts boosts confidence and prepares your child for advanced math challenges!"
+}

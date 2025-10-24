@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "f2736563-295b-412e-a140-59b6798c9e19",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "0d60bda1-eb6a-45f0-b4bc-7aefb3c31e6b",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "a9968a65-f981-4cad-8144-6c9d24540a76",
+    "slug": "introduction-to-angles",
+    "title": "Introduction to Angles",
+    "summary": "Introduction to angles — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize and understand angles using real-life examples and simple activities.\n\n**Why it matters:** Angles are everywhere! They help us tell time, play sports, and even build things. Grasping angles now sets a foundation for geometry later.\n\n**Parent Tip:** Use everyday objects like pizza slices or the corner of a book to show angles in a fun, relatable way.\n\n**Real-World Link:** Think of angles like the hands of a clock. When they move, they form different angles, helping us tell time.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of angles! Understanding angles is like learning the secret language of shapes. Let's explore how these little turns help us in everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a circle: Explain that angles measure how much we turn around a point.\n2. Use a clock: Show how the hands form different angles at different times.\n3. Draw and identify: Sketch angles using a piece of paper and a pencil.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Look at the corner of a book. What kind of angle is this? (use numbers like 6 and 9)**\n_Answer:_ Right angle.\n_Hint:_ This angle looks like an 'L'.\n\n**2. Imagine opening a door halfway. What angle does it make? (use numbers like 6 and 9)**\n_Answer:_ Acute angle.\n_Hint:_ Think about half of a right angle.\n\n**3. If you spin around in a full circle, how many degrees have you turned? (use numbers like 6 and 9)**\n_Answer:_ 360 degrees.\n_Hint:_ Consider a complete rotation.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing angle size with line length.\n- Thinking all angles are 90 degrees.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of angles like the hands of a clock. When they move, they form different angles, helping us tell time.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize and understand angles as a measure of turn or rotation.",
+    "overview": "**Objective:** Help your child recognize and understand angles using real-life examples and simple activities.\n\n**Why it matters:** Angles are everywhere! They help us tell time, play sports, and even build things. Grasping angles now sets a foundation for geometry later.\n\n**Parent Tip:** Use everyday objects like pizza slices or the corner of a book to show angles in a fun, relatable way.\n\n**Real-World Link:** Think of angles like the hands of a clock. When they move, they form different angles, helping us tell time.",
+    "core": "Welcome to the world of angles! Understanding angles is like learning the secret language of shapes. Let's explore how these little turns help us in everyday life.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that angles are like the 'turns' in a race? Imagine driving a car around a track—each corner is an angle you need to turn through!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a circle: Explain that angles measure how much we turn around a point.\n2. Use a clock: Show how the hands form different angles at different times.\n3. Draw and identify: Sketch angles using a piece of paper and a pencil.",
+    "practice": "**1. Look at the corner of a book. What kind of angle is this? (use numbers like 6 and 9)**\n_Answer:_ Right angle.\n_Hint:_ This angle looks like an 'L'.\n\n**2. Imagine opening a door halfway. What angle does it make? (use numbers like 6 and 9)**\n_Answer:_ Acute angle.\n_Hint:_ Think about half of a right angle.\n\n**3. If you spin around in a full circle, how many degrees have you turned? (use numbers like 6 and 9)**\n_Answer:_ 360 degrees.\n_Hint:_ Consider a complete rotation.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing angle size with line length.\n- Thinking all angles are 90 degrees.",
+    "connection": "Think of angles like the hands of a clock. When they move, they form different angles, helping us tell time.",
+    "close": "**Key Takeaways**\n- Angles are measures of turn or rotation.\n- A right angle is like the corner of a square.\n- Acute angles are smaller than right angles.\n\n**Parent Reflection Questions**\n- How can we find angles in our daily activities?\n- What are some fun ways to practice identifying angles?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Introduction to Angles",
+    "introduction": "Welcome to the world of angles! Today, we'll explore what angles are and how they play a part in our everyday lives. This lesson will help you guide your child to understand and recognize angles in shapes and objects around them.",
+    "objective": "Help your child recognize and understand angles in various shapes and objects.",
+    "why_matters": "Understanding angles is crucial for your child's math journey, as it lays the foundation for geometry and helps in developing spatial awareness.",
+    "parent_tip": "Use household items like a book or a door to show angles. Engaging with real objects makes learning fun and relatable for your child.",
+    "real_world_link": "Angles are everywhere! From the corners of your living room to the slices of a pizza, they help us describe and understand the shapes around us.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce what an angle is using simple terms.",
+      "Use your hands to form an angle and encourage your child to do the same.",
+      "Find angles in common household items.",
+      "Discuss the different types of angles: right, acute, and obtuse.",
+      "Practice identifying angles in various shapes."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's learn about angles today! An angle is formed where two lines meet.",
+        "do": "Use your hands to form an angle by keeping your fingers straight and bringing them together.",
+        "ask": "Can you try making an angle with your fingers?",
+        "reinforce": "Great job! See how your fingers form a corner? That's an angle!"
+      },
+      {
+        "say": "Now, let's find angles around us.",
+        "do": "Point to the corner of a book or a door.",
+        "ask": "Can you see how the edges meet to form an angle?",
+        "reinforce": "Exactly! The corner of the book is a perfect example of an angle."
+      },
+      {
+        "say": "There are different types of angles. A right angle looks like the corner of a square.",
+        "do": "Draw a square and highlight the corner.",
+        "ask": "Can you find a right angle in this room?",
+        "reinforce": "Yes, the corner of the table is a right angle!"
+      },
+      {
+        "say": "An angle smaller than a right angle is called an acute angle.",
+        "do": "Use a slice of pizza to show an acute angle.",
+        "ask": "Can you think of another example of an acute angle?",
+        "reinforce": "Good thinking! Remember, an acute angle is smaller than a right angle."
+      },
+      {
+        "say": "An angle larger than a right angle is called an obtuse angle.",
+        "do": "Draw an obtuse angle on a piece of paper.",
+        "ask": "Can you spot an obtuse angle around us?",
+        "reinforce": "That's right! The angle of the open door is obtuse."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Identify the type of angle: A slice of pie is cut into a small piece.",
+        "hint": "Think about how the slice looks compared to a square corner.",
+        "answer": "Acute angle"
+      },
+      {
+        "prompt": "Identify the type of angle: The corner of your notebook.",
+        "hint": "This angle forms a perfect square corner.",
+        "answer": "Right angle"
+      },
+      {
+        "prompt": "Identify the type of angle: The angle formed by an open laptop screen.",
+        "hint": "The angle is wider than a square corner.",
+        "answer": "Obtuse angle"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Angles are formed where two lines meet.",
+      "Angles can be found everywhere, from books to pizza slices.",
+      "The main types of angles are right, acute, and obtuse."
+    ],
+    "common_mistakes": [
+      "Confusing acute and obtuse angles.",
+      "Thinking a right angle is the only type of angle.",
+      "Not recognizing angles in everyday objects."
+    ],
+    "deep_dive": {
+      "history": "The concept of angles dates back to ancient mathematicians like Euclid, who used them to study the properties of shapes.",
+      "connections": "Angles are foundational in geometry and are used in many fields like architecture, engineering, and art.",
+      "misconceptions": "Some children may think angles only exist in math class, not realizing they are all around us.",
+      "teaching_tips": "Use diverse examples and encourage hands-on activities to solidify understanding.",
+      "derivation": "While there's no complex formula for basic angles, understanding their measurement with degrees is a next step."
+    },
+    "motivation": "Learning about angles helps your child see the world in a new way, recognizing patterns and shapes that are part of daily life."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of angles! Today, we'll explore what angles are and how they play a part in our everyday lives. This lesson will help you guide your child to understand and recognize angles in shapes and objects around them.\n\n## Parent Orientation\n**Objective:** Help your child recognize and understand angles in various shapes and objects.\n**Why it matters:** Understanding angles is crucial for your child's math journey, as it lays the foundation for geometry and helps in developing spatial awareness.\n**Parent Tip:** Use household items like a book or a door to show angles. Engaging with real objects makes learning fun and relatable for your child.\n**Real-World Link:** Angles are everywhere! From the corners of your living room to the slices of a pizza, they help us describe and understand the shapes around us.\n\n## Teaching Steps\n1. Introduce what an angle is using simple terms.\n2. Use your hands to form an angle and encourage your child to do the same.\n3. Find angles in common household items.\n4. Discuss the different types of angles: right, acute, and obtuse.\n5. Practice identifying angles in various shapes.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's learn about angles today! An angle is formed where two lines meet.  \n**Show/Do:** Use your hands to form an angle by keeping your fingers straight and bringing them together.  \n**Ask:** Can you try making an angle with your fingers?  \n**Reinforce:** Great job! See how your fingers form a corner? That's an angle!\n2. **Say:** Now, let's find angles around us.  \n**Show/Do:** Point to the corner of a book or a door.  \n**Ask:** Can you see how the edges meet to form an angle?  \n**Reinforce:** Exactly! The corner of the book is a perfect example of an angle.\n3. **Say:** There are different types of angles. A right angle looks like the corner of a square.  \n**Show/Do:** Draw a square and highlight the corner.  \n**Ask:** Can you find a right angle in this room?  \n**Reinforce:** Yes, the corner of the table is a right angle!\n4. **Say:** An angle smaller than a right angle is called an acute angle.  \n**Show/Do:** Use a slice of pizza to show an acute angle.  \n**Ask:** Can you think of another example of an acute angle?  \n**Reinforce:** Good thinking! Remember, an acute angle is smaller than a right angle.\n5. **Say:** An angle larger than a right angle is called an obtuse angle.  \n**Show/Do:** Draw an obtuse angle on a piece of paper.  \n**Ask:** Can you spot an obtuse angle around us?  \n**Reinforce:** That's right! The angle of the open door is obtuse.\n\n## Practice Questions (Do It Together)\n**1. Identify the type of angle: A slice of pie is cut into a small piece.**\n<details><summary>Hint</summary>\nThink about how the slice looks compared to a square corner.\n</details>\n<details><summary>Answer</summary>\nAcute angle\n</details>\n\n**2. Identify the type of angle: The corner of your notebook.**\n<details><summary>Hint</summary>\nThis angle forms a perfect square corner.\n</details>\n<details><summary>Answer</summary>\nRight angle\n</details>\n\n**3. Identify the type of angle: The angle formed by an open laptop screen.**\n<details><summary>Hint</summary>\nThe angle is wider than a square corner.\n</details>\n<details><summary>Answer</summary>\nObtuse angle\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Angles are formed where two lines meet.\n- Angles can be found everywhere, from books to pizza slices.\n- The main types of angles are right, acute, and obtuse.\n\n**Common Mistakes**\n- Confusing acute and obtuse angles.\n- Thinking a right angle is the only type of angle.\n- Not recognizing angles in everyday objects.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of angles dates back to ancient mathematicians like Euclid, who used them to study the properties of shapes.\n\n**Future topic connections**\n\nAngles are foundational in geometry and are used in many fields like architecture, engineering, and art.\n\n**Common misconceptions**\n\nSome children may think angles only exist in math class, not realizing they are all around us.\n\n**Teaching tips for parents**\n\nUse diverse examples and encourage hands-on activities to solidify understanding.\n\n**More detail / derivation**\n\nWhile there's no complex formula for basic angles, understanding their measurement with degrees is a next step.\n\n## Motivation\nLearning about angles helps your child see the world in a new way, recognizing patterns and shapes that are part of daily life."
+}

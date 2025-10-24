@@ -1,0 +1,157 @@
+{
+  "grade": {
+    "id": "f56d062a-0981-4ce0-8b33-581f961b1c4e",
+    "slug": "2",
+    "name": "Grade 2"
+  },
+  "unit": {
+    "id": "506706cd-a5a0-496e-a890-4bb20ac7f3f8",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "5dcdc51d-de2c-4605-87d4-a8c3523c4360",
+    "slug": "fractions",
+    "title": "Understanding Simple Fractions: ½, ⅓, ¼",
+    "summary": "Fractions (½, ⅓, ¼) — parent overview for Grade 2.",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and identify the fractions ½, ⅓, and ¼ using everyday examples.\n\n**Why it matters:** Fractions are everywhere, from slicing a pizza to sharing toys. Grasping these concepts early sets a strong foundation for future math skills.\n\n**Parent Tip:** Use daily activities to point out fractions, like when cutting fruit or dividing a snack. This makes learning relatable and fun.\n\n**Real-World Link:** Think about a pizza. If you cut it into 2 equal parts, each piece is ½ of the pizza. Cut into 3 parts, each piece is ⅓, and into 4 parts, each piece is ¼.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of fractions! These simple fractions are the building blocks for understanding how to divide things evenly.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with a round object like a pizza or an apple. Cut it into two equal parts to show ½.\n2. Use a chocolate bar divided into 3 equal sections to explain ⅓.\n3. Take a sandwich and cut it into 4 equal pieces to demonstrate ¼.\n4. Discuss how each fraction represents a part of a whole.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If you have a pizza cut into 4 equal slices and you eat one, what fraction of the pizza have you eaten?**\n_Answer:_ ¼\n_Hint:_ How many slices are gone out of the total?\n\n**2. You have 3 equal parts of a chocolate bar. You give one part to a friend. What fraction of the chocolate bar do you have left?**\n_Answer:_ ⅔\n_Hint:_ How many parts are left?\n\n**3. A cake is cut into 2 equal pieces. You take one piece. What fraction of the cake do you have?**\n_Answer:_ ½\n_Hint:_ Think about how many parts make the whole cake.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Thinking that a larger denominator means a larger piece.\n- Confusing the number of parts with the size of each part.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about a pizza. If you cut it into 2 equal parts, each piece is ½ of the pizza. Cut into 3 parts, each piece is ⅓, and into 4 parts, each piece is ¼.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and recognize simple fractions like ½, ⅓, and ¼.",
+    "overview": "**Objective:** Help your child understand and identify the fractions ½, ⅓, and ¼ using everyday examples.\n\n**Why it matters:** Fractions are everywhere, from slicing a pizza to sharing toys. Grasping these concepts early sets a strong foundation for future math skills.\n\n**Parent Tip:** Use daily activities to point out fractions, like when cutting fruit or dividing a snack. This makes learning relatable and fun.\n\n**Real-World Link:** Think about a pizza. If you cut it into 2 equal parts, each piece is ½ of the pizza. Cut into 3 parts, each piece is ⅓, and into 4 parts, each piece is ¼.",
+    "core": "Welcome to the world of fractions! These simple fractions are the building blocks for understanding how to divide things evenly.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever tried to share a chocolate bar equally among friends? How do you make sure everyone gets the same amount?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with a round object like a pizza or an apple. Cut it into two equal parts to show ½.\n2. Use a chocolate bar divided into 3 equal sections to explain ⅓.\n3. Take a sandwich and cut it into 4 equal pieces to demonstrate ¼.\n4. Discuss how each fraction represents a part of a whole.",
+    "practice": "**1. If you have a pizza cut into 4 equal slices and you eat one, what fraction of the pizza have you eaten?**\n_Answer:_ ¼\n_Hint:_ How many slices are gone out of the total?\n\n**2. You have 3 equal parts of a chocolate bar. You give one part to a friend. What fraction of the chocolate bar do you have left?**\n_Answer:_ ⅔\n_Hint:_ How many parts are left?\n\n**3. A cake is cut into 2 equal pieces. You take one piece. What fraction of the cake do you have?**\n_Answer:_ ½\n_Hint:_ Think about how many parts make the whole cake.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Thinking that a larger denominator means a larger piece.\n- Confusing the number of parts with the size of each part.",
+    "connection": "Think about a pizza. If you cut it into 2 equal parts, each piece is ½ of the pizza. Cut into 3 parts, each piece is ⅓, and into 4 parts, each piece is ¼.",
+    "close": "**Key Takeaways**\n- Fractions are parts of a whole.\n- Each fraction consists of a numerator (top number) and a denominator (bottom number).\n- Real-world examples make fractions relatable and easier to understand.\n\n**Parent Reflection Questions**\n- How can I help my child see fractions in everyday life?\n- What language should I use to make fractions clear?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Simple Fractions: ½, ⅓, ¼",
+    "introduction": "Fractions are a fun way to show parts of a whole. Let's explore how your child can understand and use simple fractions like ½, ⅓, and ¼.",
+    "objective": "Help your child recognize and understand simple fractions such as ½, ⅓, and ¼.",
+    "why_matters": "Fractions are everywhere! They're essential for cooking, telling time, and even dividing up treats fairly.",
+    "parent_tip": "Use everyday items like pizza slices or fruit to visually demonstrate fractions to your child.",
+    "real_world_link": "Next time you cut a sandwich or share a pizza, point out the fractions to your child: 'You have half of the sandwich, that's ½!'",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a whole item and how it can be divided into equal parts.",
+      "Explain that ½ means one out of two equal parts, ⅓ means one out of three, and ¼ means one out of four.",
+      "Use real-life objects to visually show these fractions.",
+      "Encourage your child to identify fractions in their surroundings.",
+      "Practice by cutting fruits or snacks into halves, thirds, and quarters."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at this apple. If we cut it in half, how many pieces will we have?",
+        "do": "Cut the apple in half.",
+        "ask": "How many parts do we have now?",
+        "reinforce": "Great! We have 2 equal parts, which is ½ of the apple."
+      },
+      {
+        "say": "Now, let's take a look at this chocolate bar. If we divide it into three equal pieces, what fraction is each piece?",
+        "do": "Break the chocolate bar into three equal parts.",
+        "ask": "What do we call one of these parts?",
+        "reinforce": "Exactly, each piece is ⅓ of the chocolate bar."
+      },
+      {
+        "say": "Let's try with this sandwich. If we cut it into four equal parts, each part is called what?",
+        "do": "Cut the sandwich into four equal pieces.",
+        "ask": "What fraction does one piece represent?",
+        "reinforce": "Correct! Each piece is ¼ of the sandwich."
+      },
+      {
+        "say": "Can you find something in the room that we could divide into halves, thirds, or quarters?",
+        "do": "Look around the room together.",
+        "ask": "What could we use and how would you divide it?",
+        "reinforce": "Nice job! You've found a way to see fractions in everyday items."
+      },
+      {
+        "say": "Why do you think fractions are important?",
+        "do": "Discuss different scenarios like sharing food or measuring ingredients.",
+        "ask": "Can you think of a time when you've used fractions today?",
+        "reinforce": "Fractions help us share equally and measure accurately, which is super important!"
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If you have a pizza sliced into 2 equal parts, what is one slice called?",
+        "hint": "Think about halves.",
+        "answer": "½"
+      },
+      {
+        "prompt": "You have a chocolate bar divided into 3 equal pieces. What fraction is one piece?",
+        "hint": "There are three parts.",
+        "answer": "⅓"
+      },
+      {
+        "prompt": "A sandwich is cut into 4 equal parts. What do you call one part?",
+        "hint": "Remember, four parts.",
+        "answer": "¼"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Fractions represent parts of a whole.",
+      "½ means one out of two equal parts.",
+      "⅓ means one out of three equal parts.",
+      "¼ means one out of four equal parts.",
+      "Use everyday objects to help visualize and understand fractions."
+    ],
+    "common_mistakes": [
+      "Confusing the numerator and the denominator.",
+      "Thinking that different-sized parts can still be equal fractions.",
+      "Forgetting that fractions must be equal parts of a whole."
+    ],
+    "deep_dive": {
+      "history": "Fractions have been used for thousands of years, dating back to ancient Egypt, where they were used for trade and construction.",
+      "connections": "Fractions are foundational for learning decimals and percentages later on.",
+      "misconceptions": "A common misconception is that fractions are always smaller than whole numbers, but fractions like 5/4 are actually greater than 1.",
+      "teaching_tips": "Use visual aids like fraction circles or bars to make the concept more tangible.",
+      "derivation": "Fractions derive from the need to divide things into equal parts, which is a fundamental mathematical operation."
+    },
+    "motivation": "Fractions are like the pieces of a puzzle. Learning to understand them will help your child solve many practical problems in life!"
+  },
+  "markdown": "## Lesson Introduction\nFractions are a fun way to show parts of a whole. Let's explore how your child can understand and use simple fractions like ½, ⅓, and ¼.\n\n## Parent Orientation\n**Objective:** Help your child recognize and understand simple fractions such as ½, ⅓, and ¼.\n**Why it matters:** Fractions are everywhere! They're essential for cooking, telling time, and even dividing up treats fairly.\n**Parent Tip:** Use everyday items like pizza slices or fruit to visually demonstrate fractions to your child.\n**Real-World Link:** Next time you cut a sandwich or share a pizza, point out the fractions to your child: 'You have half of the sandwich, that's ½!'\n\n## Teaching Steps\n1. Introduce the concept of a whole item and how it can be divided into equal parts.\n2. Explain that ½ means one out of two equal parts, ⅓ means one out of three, and ¼ means one out of four.\n3. Use real-life objects to visually show these fractions.\n4. Encourage your child to identify fractions in their surroundings.\n5. Practice by cutting fruits or snacks into halves, thirds, and quarters.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at this apple. If we cut it in half, how many pieces will we have?  \n**Show/Do:** Cut the apple in half.  \n**Ask:** How many parts do we have now?  \n**Reinforce:** Great! We have 2 equal parts, which is ½ of the apple.\n2. **Say:** Now, let's take a look at this chocolate bar. If we divide it into three equal pieces, what fraction is each piece?  \n**Show/Do:** Break the chocolate bar into three equal parts.  \n**Ask:** What do we call one of these parts?  \n**Reinforce:** Exactly, each piece is ⅓ of the chocolate bar.\n3. **Say:** Let's try with this sandwich. If we cut it into four equal parts, each part is called what?  \n**Show/Do:** Cut the sandwich into four equal pieces.  \n**Ask:** What fraction does one piece represent?  \n**Reinforce:** Correct! Each piece is ¼ of the sandwich.\n4. **Say:** Can you find something in the room that we could divide into halves, thirds, or quarters?  \n**Show/Do:** Look around the room together.  \n**Ask:** What could we use and how would you divide it?  \n**Reinforce:** Nice job! You've found a way to see fractions in everyday items.\n5. **Say:** Why do you think fractions are important?  \n**Show/Do:** Discuss different scenarios like sharing food or measuring ingredients.  \n**Ask:** Can you think of a time when you've used fractions today?  \n**Reinforce:** Fractions help us share equally and measure accurately, which is super important!\n\n## Practice Questions (Do It Together)\n**1. If you have a pizza sliced into 2 equal parts, what is one slice called?**\n<details><summary>Hint</summary>\nThink about halves.\n</details>\n<details><summary>Answer</summary>\n½\n</details>\n\n**2. You have a chocolate bar divided into 3 equal pieces. What fraction is one piece?**\n<details><summary>Hint</summary>\nThere are three parts.\n</details>\n<details><summary>Answer</summary>\n⅓\n</details>\n\n**3. A sandwich is cut into 4 equal parts. What do you call one part?**\n<details><summary>Hint</summary>\nRemember, four parts.\n</details>\n<details><summary>Answer</summary>\n¼\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Fractions represent parts of a whole.\n- ½ means one out of two equal parts.\n- ⅓ means one out of three equal parts.\n- ¼ means one out of four equal parts.\n- Use everyday objects to help visualize and understand fractions.\n\n**Common Mistakes**\n- Confusing the numerator and the denominator.\n- Thinking that different-sized parts can still be equal fractions.\n- Forgetting that fractions must be equal parts of a whole.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFractions have been used for thousands of years, dating back to ancient Egypt, where they were used for trade and construction.\n\n**Future topic connections**\n\nFractions are foundational for learning decimals and percentages later on.\n\n**Common misconceptions**\n\nA common misconception is that fractions are always smaller than whole numbers, but fractions like 5/4 are actually greater than 1.\n\n**Teaching tips for parents**\n\nUse visual aids like fraction circles or bars to make the concept more tangible.\n\n**More detail / derivation**\n\nFractions derive from the need to divide things into equal parts, which is a fundamental mathematical operation.\n\n## Motivation\nFractions are like the pieces of a puzzle. Learning to understand them will help your child solve many practical problems in life!"
+}

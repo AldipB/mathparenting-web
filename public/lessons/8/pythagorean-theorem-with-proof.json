@@ -1,0 +1,173 @@
+{
+  "grade": {
+    "id": "0e0df28b-3040-4e20-b3cb-dda95cf9e951",
+    "slug": "8",
+    "name": "Grade 8"
+  },
+  "unit": {
+    "id": "e64ca491-e332-4dbc-8b1d-a614abeec230",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "8a4154a1-b474-466d-9e55-82919e4939a1",
+    "slug": "pythagorean-theorem-with-proof",
+    "title": "The Magic of the Pythagorean Theorem",
+    "summary": "Pythagorean Theorem (with proof) — parent overview for Grade 8.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and apply the Pythagorean Theorem to find the length of a side in a right triangle.\n\n**Why it matters:** This theorem is not just for math class. It's a powerful tool in architecture, navigation, and even video game design!\n\n**Parent Tip:** Encourage your child to draw and visualize triangles. Visual learning can boost understanding and retention.\n\n**Real-World Link:** Think of a ladder leaning against a wall. The ladder, wall, and ground form a right triangle. The Pythagorean Theorem helps find the distance the ladder reaches along the ground or the height it reaches up the wall.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the fascinating world of right triangles! Together, we'll explore how the Pythagorean Theorem helps us find missing lengths and solve real-world problems.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain the parts of a right triangle: two legs and a hypotenuse.\n2. Introduce the formula: a² + b² = c².\n3. Use a simple example: a 3-4-5 triangle.\n4. Encourage drawing triangles to visualize the problem.\n5. Practice solving for the unknown side using the formula.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. A right triangle has legs of 6 and 8 units. Find the hypotenuse.**\n_Answer:_ The hypotenuse is 10 units because 6² + 8² = 36 + 64 = 100, and √100 = 10.\n_Hint:_ Use a² + b² = c² with a = 6 and b = 8.\n\n**2. A right triangle has a hypotenuse of 13 units and one leg of 5 units. Find the other leg.**\n_Answer:_ The other leg is 12 units because 5² + b² = 13², 25 + b² = 169, b² = 144, and √144 = 12.\n_Hint:_ Use a² + b² = c² with c = 13 and a = 5.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the hypotenuse with the other sides.\n- Forgetting to square the numbers before adding.\n- Not taking the square root to find the final side length.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a ladder leaning against a wall. The ladder, wall, and ground form a right triangle. The Pythagorean Theorem helps find the distance the ladder reaches along the ground or the height it reaches up the wall.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and apply the Pythagorean Theorem to find the lengths of sides in right triangles.",
+    "overview": "**Objective:** Help your child understand and apply the Pythagorean Theorem to find the length of a side in a right triangle.\n\n**Why it matters:** This theorem is not just for math class. It's a powerful tool in architecture, navigation, and even video game design!\n\n**Parent Tip:** Encourage your child to draw and visualize triangles. Visual learning can boost understanding and retention.\n\n**Real-World Link:** Think of a ladder leaning against a wall. The ladder, wall, and ground form a right triangle. The Pythagorean Theorem helps find the distance the ladder reaches along the ground or the height it reaches up the wall.",
+    "core": "Welcome to the fascinating world of right triangles! Together, we'll explore how the Pythagorean Theorem helps us find missing lengths and solve real-world problems.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how builders make sure a new wall is perfectly straight? They use tools based on the Pythagorean Theorem!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** a^2 + b^2 = c^2\n- **Meaning:** For a right triangle, the sum of the squares of the two shorter sides equals the square of the longest side.\n- **How it works:** If one side is 3 units and another is 4 units, the hypotenuse is 5 units because $3^2 + 4^2 = 5^2$.\n- **Example:** If a right triangle has legs of 6 and 8, the hypotenuse is 10 because $6^2 + 8^2 = 10^2$.",
+    "formulas": "a^2 + b^2 = c^2",
+    "guide": "1. Explain the parts of a right triangle: two legs and a hypotenuse.\n2. Introduce the formula: a² + b² = c².\n3. Use a simple example: a 3-4-5 triangle.\n4. Encourage drawing triangles to visualize the problem.\n5. Practice solving for the unknown side using the formula.",
+    "practice": "**1. A right triangle has legs of 6 and 8 units. Find the hypotenuse.**\n_Answer:_ The hypotenuse is 10 units because 6² + 8² = 36 + 64 = 100, and √100 = 10.\n_Hint:_ Use a² + b² = c² with a = 6 and b = 8.\n\n**2. A right triangle has a hypotenuse of 13 units and one leg of 5 units. Find the other leg.**\n_Answer:_ The other leg is 12 units because 5² + b² = 13², 25 + b² = 169, b² = 144, and √144 = 12.\n_Hint:_ Use a² + b² = c² with c = 13 and a = 5.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the hypotenuse with the other sides.\n- Forgetting to square the numbers before adding.\n- Not taking the square root to find the final side length.",
+    "connection": "Think of a ladder leaning against a wall. The ladder, wall, and ground form a right triangle. The Pythagorean Theorem helps find the distance the ladder reaches along the ground or the height it reaches up the wall.",
+    "close": "**Key Takeaways**\n- The Pythagorean Theorem applies only to right triangles.\n- It helps find an unknown side when two sides are known.\n- Visualizing the problem with diagrams is beneficial.\n\n**Parent Reflection Questions**\n- How do you ensure your child understands the concept, not just the formula?\n- What real-world situations can you explore together using this theorem?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "The Magic of the Pythagorean Theorem",
+    "introduction": "Welcome to the fascinating world of the Pythagorean Theorem! It's a magical formula that helps us understand the relationship between the sides of a right triangle.",
+    "objective": "Help your child discover how the Pythagorean Theorem works and why it's useful in everyday life.",
+    "why_matters": "Understanding this theorem is crucial because it forms the backbone of many mathematical and real-world applications, from construction to navigation.",
+    "parent_tip": "Encourage your child to visualize triangles and think of real-world examples where they might see right angles.",
+    "real_world_link": "Think of a ladder leaning against a wall, forming a right triangle. The Pythagorean Theorem helps determine how far away the base of the ladder needs to be from the wall.",
+    "formula_box": {
+      "formula": "a² + b² = c²",
+      "symbols": [
+        {
+          "symbol": "a",
+          "meaning": "one leg of the right triangle"
+        },
+        {
+          "symbol": "b",
+          "meaning": "the other leg of the right triangle"
+        },
+        {
+          "symbol": "c",
+          "meaning": "the hypotenuse, or the longest side of the right triangle"
+        }
+      ],
+      "how_it_works": "The sum of the squares of the two shorter sides equals the square of the longest side.",
+      "example": "If one leg is 3 units and the other is 4 units, the hypotenuse is 5 units, because 3² + 4² = 5²."
+    },
+    "teaching_steps": [
+      "Introduce the concept of a right triangle.",
+      "Explain the sides of the triangle: two legs and the hypotenuse.",
+      "Present the Pythagorean Theorem formula.",
+      "Work through a simple example together.",
+      "Encourage practice with different numbers."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's imagine a right triangle.",
+        "do": "Sketch a right triangle on paper.",
+        "ask": "Can you identify the two shorter sides and the longest side?",
+        "reinforce": "Yes, the longest side opposite the right angle is always the hypotenuse."
+      },
+      {
+        "say": "Here's the magic formula: a² + b² = c².",
+        "do": "Write the formula near the triangle.",
+        "ask": "What do you think 'a' and 'b' represent?",
+        "reinforce": "Correct, they are the lengths of the two shorter sides."
+      },
+      {
+        "say": "Let's plug in some numbers.",
+        "do": "Use 3 and 4 for the legs and solve for the hypotenuse.",
+        "ask": "What is 3² + 4²?",
+        "reinforce": "Great job! 3² + 4² is 9 + 16, which is 25. So, c² = 25, and c = 5."
+      },
+      {
+        "say": "Now, let's think about a real-world example.",
+        "do": "Imagine a ladder leaning against a wall.",
+        "ask": "If the ladder is 5 meters long and reaches 4 meters up the wall, how far is the base from the wall?",
+        "reinforce": "Using the formula, you can find that the base is 3 meters away."
+      },
+      {
+        "say": "Practice makes perfect!",
+        "do": "Encourage trying different numbers for 'a' and 'b'.",
+        "ask": "What do you notice about the relationship between the sides?",
+        "reinforce": "Yes, the theorem always holds true for right triangles."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the hypotenuse when one leg is 6 and the other is 8.",
+        "hint": "Use the formula a² + b² = c².",
+        "answer": "10"
+      },
+      {
+        "prompt": "A triangle has sides 5 and 12. What is the hypotenuse?",
+        "hint": "Calculate 5² + 12² first.",
+        "answer": "13"
+      },
+      {
+        "prompt": "If one leg is 9 and the hypotenuse is 15, what is the other leg?",
+        "hint": "Rearrange the formula to find the missing leg.",
+        "answer": "12"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The Pythagorean Theorem helps us find the missing side of a right triangle.",
+      "It's especially useful in real-world problems involving right angles.",
+      "Remember: a² + b² = c², where 'c' is the hypotenuse."
+    ],
+    "common_mistakes": [
+      "Confusing which side is the hypotenuse.",
+      "Forgetting to square the sides before adding.",
+      "Mixing up the formula for non-right triangles."
+    ],
+    "deep_dive": {
+      "history": "The theorem is named after Pythagoras, a Greek mathematician from around 500 BC.",
+      "connections": "It's foundational in geometry and trigonometry, linking to concepts like distance and area.",
+      "misconceptions": "Some think it applies to all triangles, but it's specific to right triangles.",
+      "teaching_tips": "Visual aids like drawing or using objects can help clarify the concept.",
+      "derivation": "The theorem can be derived using algebraic methods or geometric proofs, showing its versatility."
+    },
+    "motivation": "Mastering the Pythagorean Theorem opens up a world of possibilities in understanding space and structure, from simple designs to complex engineering feats."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of the Pythagorean Theorem! It's a magical formula that helps us understand the relationship between the sides of a right triangle.\n\n## Parent Orientation\n**Objective:** Help your child discover how the Pythagorean Theorem works and why it's useful in everyday life.\n**Why it matters:** Understanding this theorem is crucial because it forms the backbone of many mathematical and real-world applications, from construction to navigation.\n**Parent Tip:** Encourage your child to visualize triangles and think of real-world examples where they might see right angles.\n**Real-World Link:** Think of a ladder leaning against a wall, forming a right triangle. The Pythagorean Theorem helps determine how far away the base of the ladder needs to be from the wall.\n\n> **📐 Formula Box**\n> **Formula:** a² + b² = c²\n> **Symbols:**\n> - **a** — one leg of the right triangle\n> - **b** — the other leg of the right triangle\n> - **c** — the hypotenuse, or the longest side of the right triangle\n> **How it works:** The sum of the squares of the two shorter sides equals the square of the longest side.\n> **Example:** If one leg is 3 units and the other is 4 units, the hypotenuse is 5 units, because 3² + 4² = 5².\n\n## Teaching Steps\n1. Introduce the concept of a right triangle.\n2. Explain the sides of the triangle: two legs and the hypotenuse.\n3. Present the Pythagorean Theorem formula.\n4. Work through a simple example together.\n5. Encourage practice with different numbers.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's imagine a right triangle.  \n**Show/Do:** Sketch a right triangle on paper.  \n**Ask:** Can you identify the two shorter sides and the longest side?  \n**Reinforce:** Yes, the longest side opposite the right angle is always the hypotenuse.\n2. **Say:** Here's the magic formula: a² + b² = c².  \n**Show/Do:** Write the formula near the triangle.  \n**Ask:** What do you think 'a' and 'b' represent?  \n**Reinforce:** Correct, they are the lengths of the two shorter sides.\n3. **Say:** Let's plug in some numbers.  \n**Show/Do:** Use 3 and 4 for the legs and solve for the hypotenuse.  \n**Ask:** What is 3² + 4²?  \n**Reinforce:** Great job! 3² + 4² is 9 + 16, which is 25. So, c² = 25, and c = 5.\n4. **Say:** Now, let's think about a real-world example.  \n**Show/Do:** Imagine a ladder leaning against a wall.  \n**Ask:** If the ladder is 5 meters long and reaches 4 meters up the wall, how far is the base from the wall?  \n**Reinforce:** Using the formula, you can find that the base is 3 meters away.\n5. **Say:** Practice makes perfect!  \n**Show/Do:** Encourage trying different numbers for 'a' and 'b'.  \n**Ask:** What do you notice about the relationship between the sides?  \n**Reinforce:** Yes, the theorem always holds true for right triangles.\n\n## Practice Questions (Do It Together)\n**1. Find the hypotenuse when one leg is 6 and the other is 8.**\n<details><summary>Hint</summary>\nUse the formula a² + b² = c².\n</details>\n<details><summary>Answer</summary>\n10\n</details>\n\n**2. A triangle has sides 5 and 12. What is the hypotenuse?**\n<details><summary>Hint</summary>\nCalculate 5² + 12² first.\n</details>\n<details><summary>Answer</summary>\n13\n</details>\n\n**3. If one leg is 9 and the hypotenuse is 15, what is the other leg?**\n<details><summary>Hint</summary>\nRearrange the formula to find the missing leg.\n</details>\n<details><summary>Answer</summary>\n12\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The Pythagorean Theorem helps us find the missing side of a right triangle.\n- It's especially useful in real-world problems involving right angles.\n- Remember: a² + b² = c², where 'c' is the hypotenuse.\n\n**Common Mistakes**\n- Confusing which side is the hypotenuse.\n- Forgetting to square the sides before adding.\n- Mixing up the formula for non-right triangles.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe theorem is named after Pythagoras, a Greek mathematician from around 500 BC.\n\n**Future topic connections**\n\nIt's foundational in geometry and trigonometry, linking to concepts like distance and area.\n\n**Common misconceptions**\n\nSome think it applies to all triangles, but it's specific to right triangles.\n\n**Teaching tips for parents**\n\nVisual aids like drawing or using objects can help clarify the concept.\n\n**More detail / derivation**\n\nThe theorem can be derived using algebraic methods or geometric proofs, showing its versatility.\n\n## Motivation\nMastering the Pythagorean Theorem opens up a world of possibilities in understanding space and structure, from simple designs to complex engineering feats."
+}

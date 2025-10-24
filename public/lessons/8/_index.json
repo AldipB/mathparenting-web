@@ -1,0 +1,41 @@
+{
+  "grade": "8",
+  "lessons": [
+    {
+      "slug": "data-analysis-and-scatter-plots",
+      "title": "Data Analysis & Scatter Plots: Making Sense of Connections"
+    },
+    {
+      "slug": "exponents-and-powers",
+      "title": "Exploring Exponents: Power Up Your Math Skills"
+    },
+    {
+      "slug": "scientific-notation",
+      "title": "Exploring Scientific Notation: A Shortcut to Big and Small Numbers"
+    },
+    {
+      "slug": "volume-of-cylinders-and-cones",
+      "title": "Exploring the Volume of Cylinders & Cones"
+    },
+    {
+      "slug": "linear-equations-and-graphing",
+      "title": "Linear Equations & Graphing: A Journey on the Coordinate Plane"
+    },
+    {
+      "slug": "slope-and-y-intercept",
+      "title": "Slope & y-intercept: Understanding Linear Equations"
+    },
+    {
+      "slug": "pythagorean-theorem-with-proof",
+      "title": "The Magic of the Pythagorean Theorem"
+    },
+    {
+      "slug": "transformations-reflect-rotate-translate-dilate",
+      "title": "Transformations: Reflect, Rotate, Translate, Dilate"
+    },
+    {
+      "slug": "systems-of-equations-intro",
+      "title": "Understanding Systems of Equations"
+    }
+  ]
+}

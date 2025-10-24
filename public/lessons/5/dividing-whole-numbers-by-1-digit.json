@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "ccd707d8-dda5-45b6-abc2-5a1482799ea5",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "3f6bb943-47b7-4bd2-9816-3c00f9bea0ca",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "d3e34363-db4c-4647-be1e-a73592c5c078",
+    "slug": "dividing-whole-numbers-by-1-digit",
+    "title": "Dividing Whole Numbers by 1-Digit Numbers",
+    "summary": "Dividing whole numbers by 1-digit — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child confidently divide whole numbers by 1-digit numbers using simple steps and real-world examples.\n\n**Why it matters:** Division is everywhere! From sharing snacks evenly to budgeting allowance, understanding division helps your child make sense of the world.\n\n**Parent Tip:** Use everyday moments, like cutting a pizza or organizing toys, to show how division helps us share and organize.\n\n**Real-World Link:** Imagine you have 24 cookies and 4 friends. Dividing means figuring out how many cookies each friend gets. It's all about fair shares!",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're diving into dividing whole numbers by 1-digit numbers. It's a skill your child will use often, and we're here to help make it clear and fun.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining that division is about sharing equally.\n2. Use a simple example: If you have 12 apples and 3 friends, how many apples does each friend get?\n3. Show the division process: Divide the total number of apples (12) by the number of friends (3).\n4. Reassure your child that division is like repeated subtraction.\n5. Use visual aids, like drawing groups or using objects, to reinforce the concept.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Divide 18 by 3.**\n_Answer:_ 6\n_Hint:_ Think of how many times 3 fits into 18.\n\n**2. You have 35 candies to share among 5 friends. How many candies does each friend get?**\n_Answer:_ 7\n_Hint:_ Divide 35 by 5.\n\n**3. If there are 42 marbles and 6 boxes, how many marbles go into each box?**\n_Answer:_ 7\n_Hint:_ Divide the total marbles by the number of boxes.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing multiplication and division.\n- Forgetting to check if the division is correct by multiplying the quotient by the divisor.\n- Miscounting when dividing unevenly.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine you have 24 cookies and 4 friends. Dividing means figuring out how many cookies each friend gets. It's all about fair shares!",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to divide whole numbers by a 1-digit number.",
+    "overview": "**Objective:** Help your child confidently divide whole numbers by 1-digit numbers using simple steps and real-world examples.\n\n**Why it matters:** Division is everywhere! From sharing snacks evenly to budgeting allowance, understanding division helps your child make sense of the world.\n\n**Parent Tip:** Use everyday moments, like cutting a pizza or organizing toys, to show how division helps us share and organize.\n\n**Real-World Link:** Imagine you have 24 cookies and 4 friends. Dividing means figuring out how many cookies each friend gets. It's all about fair shares!",
+    "core": "Welcome! Today, we're diving into dividing whole numbers by 1-digit numbers. It's a skill your child will use often, and we're here to help make it clear and fun.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how we can share things equally among friends? Let's see how math helps us do that.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by explaining that division is about sharing equally.\n2. Use a simple example: If you have 12 apples and 3 friends, how many apples does each friend get?\n3. Show the division process: Divide the total number of apples (12) by the number of friends (3).\n4. Reassure your child that division is like repeated subtraction.\n5. Use visual aids, like drawing groups or using objects, to reinforce the concept.",
+    "practice": "**1. Divide 18 by 3.**\n_Answer:_ 6\n_Hint:_ Think of how many times 3 fits into 18.\n\n**2. You have 35 candies to share among 5 friends. How many candies does each friend get?**\n_Answer:_ 7\n_Hint:_ Divide 35 by 5.\n\n**3. If there are 42 marbles and 6 boxes, how many marbles go into each box?**\n_Answer:_ 7\n_Hint:_ Divide the total marbles by the number of boxes.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing multiplication and division.\n- Forgetting to check if the division is correct by multiplying the quotient by the divisor.\n- Miscounting when dividing unevenly.",
+    "connection": "Imagine you have 24 cookies and 4 friends. Dividing means figuring out how many cookies each friend gets. It's all about fair shares!",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Dividing whole numbers by 1-digit** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can we check if our division answer is correct?\n- What happens if the division doesn't come out even?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Dividing Whole Numbers by 1-Digit Numbers",
+    "introduction": "Welcome to the world of division! Today, we'll explore how to divide whole numbers by 1-digit numbers, a key skill for your child's math journey.",
+    "objective": "Help your child confidently divide whole numbers by 1-digit numbers.",
+    "why_matters": "Dividing numbers is a fundamental skill that your child will use in everyday life, from splitting a pizza among friends to managing finances in the future.",
+    "parent_tip": "Encourage your child to use objects like coins or blocks to visualize division. This makes abstract concepts more concrete.",
+    "real_world_link": "Think about sharing 24 candies among 6 friends. Division helps us figure out how many candies each friend gets.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain the concept of division as sharing or grouping.",
+      "Demonstrate dividing using objects or drawings.",
+      "Introduce division terminology: dividend, divisor, and quotient.",
+      "Show how to check division using multiplication.",
+      "Practice with simple examples before moving to larger numbers."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's imagine we have 12 apples and 3 baskets.",
+        "do": "Place 12 objects (like coins) on the table.",
+        "ask": "How can we share these apples equally in the baskets?",
+        "reinforce": "When we divide 12 by 3, we find out how many apples go into each basket. This is division!"
+      },
+      {
+        "say": "Now, let's write it down.",
+        "do": "Write 12 ÷ 3 = ? on paper.",
+        "ask": "What do you think the answer is?",
+        "reinforce": "Great! 12 divided by 3 is 4, because 4 apples go into each basket."
+      },
+      {
+        "say": "We can check our work using multiplication.",
+        "do": "Write 4 x 3 = 12.",
+        "ask": "Does this look correct to you?",
+        "reinforce": "Yes, because multiplying 4 times 3 gets us back to 12."
+      },
+      {
+        "say": "Let's try another one, 15 divided by 5.",
+        "do": "Write 15 ÷ 5 = ? and use objects if needed.",
+        "ask": "Can you figure out how many each group gets?",
+        "reinforce": "Nice work! 15 divided by 5 equals 3."
+      },
+      {
+        "say": "Remember, division is a way to find out how many times one number fits into another.",
+        "do": "Encourage your child to try dividing different numbers.",
+        "ask": "What happens if we divide by 1 or the number itself?",
+        "reinforce": "Dividing by 1 gives us the same number, and dividing a number by itself gives us 1."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "24 ÷ 4 = ?",
+        "hint": "How many times does 4 fit into 24?",
+        "answer": "6"
+      },
+      {
+        "prompt": "36 ÷ 6 = ?",
+        "hint": "Think about sharing 36 items among 6 groups.",
+        "answer": "6"
+      },
+      {
+        "prompt": "45 ÷ 5 = ?",
+        "hint": "Consider how many groups of 5 make up 45.",
+        "answer": "9"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Division is about sharing or grouping.",
+      "We can check division with multiplication.",
+      "Dividing by 1 gives the same number; dividing a number by itself gives 1."
+    ],
+    "common_mistakes": [
+      "Confusing division with subtraction.",
+      "Forgetting to check work with multiplication.",
+      "Misplacing numbers in long division."
+    ],
+    "deep_dive": {
+      "history": "Division has been used since ancient times, with early records from the Egyptians and Babylonians.",
+      "connections": "Division is closely linked to multiplication, fractions, and ratios.",
+      "misconceptions": "Some children think division always makes numbers smaller, but it can also result in larger numbers when dividing fractions.",
+      "teaching_tips": "Use real-world examples and manipulatives to make division relatable.",
+      "derivation": "Division can be seen as repeated subtraction or finding how many equal groups can be made."
+    },
+    "motivation": "Mastering division opens doors to more advanced math concepts and builds confidence in problem-solving."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of division! Today, we'll explore how to divide whole numbers by 1-digit numbers, a key skill for your child's math journey.\n\n## Parent Orientation\n**Objective:** Help your child confidently divide whole numbers by 1-digit numbers.\n**Why it matters:** Dividing numbers is a fundamental skill that your child will use in everyday life, from splitting a pizza among friends to managing finances in the future.\n**Parent Tip:** Encourage your child to use objects like coins or blocks to visualize division. This makes abstract concepts more concrete.\n**Real-World Link:** Think about sharing 24 candies among 6 friends. Division helps us figure out how many candies each friend gets.\n\n## Teaching Steps\n1. Explain the concept of division as sharing or grouping.\n2. Demonstrate dividing using objects or drawings.\n3. Introduce division terminology: dividend, divisor, and quotient.\n4. Show how to check division using multiplication.\n5. Practice with simple examples before moving to larger numbers.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's imagine we have 12 apples and 3 baskets.  \n**Show/Do:** Place 12 objects (like coins) on the table.  \n**Ask:** How can we share these apples equally in the baskets?  \n**Reinforce:** When we divide 12 by 3, we find out how many apples go into each basket. This is division!\n2. **Say:** Now, let's write it down.  \n**Show/Do:** Write 12 ÷ 3 = ? on paper.  \n**Ask:** What do you think the answer is?  \n**Reinforce:** Great! 12 divided by 3 is 4, because 4 apples go into each basket.\n3. **Say:** We can check our work using multiplication.  \n**Show/Do:** Write 4 x 3 = 12.  \n**Ask:** Does this look correct to you?  \n**Reinforce:** Yes, because multiplying 4 times 3 gets us back to 12.\n4. **Say:** Let's try another one, 15 divided by 5.  \n**Show/Do:** Write 15 ÷ 5 = ? and use objects if needed.  \n**Ask:** Can you figure out how many each group gets?  \n**Reinforce:** Nice work! 15 divided by 5 equals 3.\n5. **Say:** Remember, division is a way to find out how many times one number fits into another.  \n**Show/Do:** Encourage your child to try dividing different numbers.  \n**Ask:** What happens if we divide by 1 or the number itself?  \n**Reinforce:** Dividing by 1 gives us the same number, and dividing a number by itself gives us 1.\n\n## Practice Questions (Do It Together)\n**1. 24 ÷ 4 = ?**\n<details><summary>Hint</summary>\nHow many times does 4 fit into 24?\n</details>\n<details><summary>Answer</summary>\n6\n</details>\n\n**2. 36 ÷ 6 = ?**\n<details><summary>Hint</summary>\nThink about sharing 36 items among 6 groups.\n</details>\n<details><summary>Answer</summary>\n6\n</details>\n\n**3. 45 ÷ 5 = ?**\n<details><summary>Hint</summary>\nConsider how many groups of 5 make up 45.\n</details>\n<details><summary>Answer</summary>\n9\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Division is about sharing or grouping.\n- We can check division with multiplication.\n- Dividing by 1 gives the same number; dividing a number by itself gives 1.\n\n**Common Mistakes**\n- Confusing division with subtraction.\n- Forgetting to check work with multiplication.\n- Misplacing numbers in long division.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDivision has been used since ancient times, with early records from the Egyptians and Babylonians.\n\n**Future topic connections**\n\nDivision is closely linked to multiplication, fractions, and ratios.\n\n**Common misconceptions**\n\nSome children think division always makes numbers smaller, but it can also result in larger numbers when dividing fractions.\n\n**Teaching tips for parents**\n\nUse real-world examples and manipulatives to make division relatable.\n\n**More detail / derivation**\n\nDivision can be seen as repeated subtraction or finding how many equal groups can be made.\n\n## Motivation\nMastering division opens doors to more advanced math concepts and builds confidence in problem-solving."
+}

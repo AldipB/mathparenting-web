@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "559424a2-2035-49bc-8b53-b131e5b0f033",
+    "slug": "10",
+    "name": "Grade 10"
+  },
+  "unit": {
+    "id": "3b2a74b2-248e-4841-9c8f-51d5c48415bd",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "aefee156-3a07-4f5a-8539-90d9b1716272",
+    "slug": "transformations-symmetry",
+    "title": "Transformations Symmetry",
+    "summary": "Transformations Symmetry — summary for parents in Grade 10.",
+    "difficulty_level": "core",
+    "order_index": 12
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Transformations Symmetry** in Grade 10.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Transformations Symmetry** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Transformations Symmetry** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Transformations Symmetry** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Transformations Symmetry** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Transformations Symmetry**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Transformations Symmetry**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Transformations Symmetry**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Transformations Symmetry** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Transformations Symmetry**.",
+    "overview": "This lesson helps children understand **Transformations Symmetry**.",
+    "core": "Explain **Transformations Symmetry** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Transformations Symmetry**."
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "633b1a1a-9bea-4f42-9c9b-f347e18f768e",
+    "slug": "10",
+    "name": "Grade 10 (Geometry & Algebra II)"
+  },
+  "unit": {
+    "id": "5a6a72f0-dca8-430e-ba26-f06707513324",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "7d755b74-32c1-4cfa-8811-ff0f6bbe0e4d",
+    "slug": "parallel-lines-and-angle-relationships",
+    "title": "Parallel Lines & Angle Relationships",
+    "summary": "Parallel lines & angle relationships — parent overview for Grade 10 (Geometry & Algebra II).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn how angles are formed and related when parallel lines are cut by a transversal.\n\n**Why it matters:** These concepts are foundational for geometry and appear in various real-life situations, like construction and design.\n\n**Parent Tip:** Encourage your child to visualize the parallel lines and transversal as train tracks and a street crossing them. This can help them better understand the angles formed.\n\n**Real-World Link:** Imagine parallel lines as two train tracks. The angles formed by a crossing street (transversal) help engineers ensure safe and efficient designs.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Understanding parallel lines and their angle relationships helps students grasp the fundamental concepts of geometry, which are essential for more complex math topics.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of parallel lines and a transversal.\n2. Explain types of angles formed: corresponding, alternate interior, alternate exterior, and consecutive interior angles.\n3. Discuss angle relationships: corresponding angles are equal, alternate interior angles are equal, etc.\n4. Use diagrams to visually show these relationships.\n5. Encourage practice with different transversal orientations.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If one angle is 60° and it is a corresponding angle, what is the measure of the corresponding angle on the parallel line?**\n_Answer:_ 60°\n_Hint:_ Corresponding angles are equal.\n\n**2. Given two parallel lines cut by a transversal, one alternate interior angle measures 75°. Find the measure of the other alternate interior angle.**\n_Answer:_ 75°\n_Hint:_ Alternate interior angles are equal.\n\n**3. A transversal creates a pair of consecutive interior angles measuring 110° and x°. Find x.**\n_Answer:_ 70°\n_Hint:_ Consecutive interior angles are supplementary (add up to 180°).\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing alternate interior with alternate exterior angles.\n- Forgetting that consecutive interior angles are supplementary.\n- Mixing up corresponding angles with other angle pairs.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine parallel lines as two train tracks. The angles formed by a crossing street (transversal) help engineers ensure safe and efficient designs.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Understand how angles are formed when parallel lines are crossed by a transversal.",
+    "overview": "**Objective:** Help your child learn how angles are formed and related when parallel lines are cut by a transversal.\n\n**Why it matters:** These concepts are foundational for geometry and appear in various real-life situations, like construction and design.\n\n**Parent Tip:** Encourage your child to visualize the parallel lines and transversal as train tracks and a street crossing them. This can help them better understand the angles formed.\n\n**Real-World Link:** Imagine parallel lines as two train tracks. The angles formed by a crossing street (transversal) help engineers ensure safe and efficient designs.",
+    "core": "Understanding parallel lines and their angle relationships helps students grasp the fundamental concepts of geometry, which are essential for more complex math topics.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how the rungs of a ladder are always evenly spaced and parallel? What happens when you place a pencil across them?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce the concept of parallel lines and a transversal.\n2. Explain types of angles formed: corresponding, alternate interior, alternate exterior, and consecutive interior angles.\n3. Discuss angle relationships: corresponding angles are equal, alternate interior angles are equal, etc.\n4. Use diagrams to visually show these relationships.\n5. Encourage practice with different transversal orientations.",
+    "practice": "**1. If one angle is 60° and it is a corresponding angle, what is the measure of the corresponding angle on the parallel line?**\n_Answer:_ 60°\n_Hint:_ Corresponding angles are equal.\n\n**2. Given two parallel lines cut by a transversal, one alternate interior angle measures 75°. Find the measure of the other alternate interior angle.**\n_Answer:_ 75°\n_Hint:_ Alternate interior angles are equal.\n\n**3. A transversal creates a pair of consecutive interior angles measuring 110° and x°. Find x.**\n_Answer:_ 70°\n_Hint:_ Consecutive interior angles are supplementary (add up to 180°).\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing alternate interior with alternate exterior angles.\n- Forgetting that consecutive interior angles are supplementary.\n- Mixing up corresponding angles with other angle pairs.",
+    "connection": "Imagine parallel lines as two train tracks. The angles formed by a crossing street (transversal) help engineers ensure safe and efficient designs.",
+    "close": "**Key Takeaways**\n- Parallel lines never meet and always maintain the same distance apart.\n- A transversal crossing parallel lines creates several angle pairs with specific properties.\n- Understanding these angles helps in solving geometric problems.\n\n**Parent Reflection Questions**\n- How can we identify corresponding angles in different diagrams?\n- What real-world objects help us understand parallel lines better?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Parallel Lines & Angle Relationships",
+    "introduction": "Welcome to the world of parallel lines and the fascinating angles they create! This lesson will help you guide your child through understanding how angles relate to each other when lines are parallel.",
+    "objective": "Help your child understand and identify angle relationships formed by parallel lines and a transversal.",
+    "why_matters": "Understanding these relationships is crucial for solving geometric problems and is a skill often used in various real-world contexts like architecture and engineering.",
+    "parent_tip": "Encourage your child to visualize the lines and angles by drawing them. This can make the relationships easier to see and understand.",
+    "real_world_link": "Think about the parallel lines you see every day, like railroad tracks or the lines on a highway. The angles formed when these lines are crossed by another line can tell us a lot about the paths they create.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of parallel lines and a transversal.",
+      "Explain the types of angles formed: corresponding, alternate interior, and alternate exterior angles.",
+      "Discuss the properties of these angles when lines are parallel.",
+      "Use diagrams to show how angles are equal or supplementary.",
+      "Practice identifying angle relationships with your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at two parallel lines and a line crossing them.",
+        "do": "Draw two parallel lines and a transversal on paper.",
+        "ask": "Can you see the different angles that are formed?",
+        "reinforce": "These are called corresponding, alternate interior, and alternate exterior angles."
+      },
+      {
+        "say": "Corresponding angles are in the same position on each parallel line.",
+        "do": "Point to a pair of corresponding angles on your drawing.",
+        "ask": "Do you see how they match up?",
+        "reinforce": "Corresponding angles are equal when lines are parallel."
+      },
+      {
+        "say": "Alternate interior angles are inside the parallel lines but on opposite sides of the transversal.",
+        "do": "Highlight alternate interior angles on the diagram.",
+        "ask": "Can you find another pair of alternate interior angles?",
+        "reinforce": "These angles are equal too!"
+      },
+      {
+        "say": "Alternate exterior angles are outside the parallel lines and also on opposite sides of the transversal.",
+        "do": "Point out alternate exterior angles.",
+        "ask": "How do these angles compare?",
+        "reinforce": "They are equal just like the others."
+      },
+      {
+        "say": "Remember, when lines are parallel, these angle relationships always hold true.",
+        "do": "Review all marked angles on your diagram.",
+        "ask": "Can you explain why these angles are equal or supplementary?",
+        "reinforce": "Understanding these relationships helps solve many geometric problems."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If one of the corresponding angles is 75°, what is the measure of the other corresponding angle?",
+        "hint": "Corresponding angles are equal.",
+        "answer": "75°"
+      },
+      {
+        "prompt": "Two alternate interior angles are given as 110°. What is the measure of each angle?",
+        "hint": "Alternate interior angles are equal.",
+        "answer": "110°"
+      },
+      {
+        "prompt": "If an alternate exterior angle measures 120°, what is the measure of the other alternate exterior angle?",
+        "hint": "Remember the property of alternate exterior angles.",
+        "answer": "120°"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Parallel lines create predictable angle relationships when crossed by a transversal.",
+      "Corresponding, alternate interior, and alternate exterior angles are equal.",
+      "These angle rules help solve geometric problems and apply to real-world structures."
+    ],
+    "common_mistakes": [
+      "Confusing the types of angles formed by the transversal.",
+      "Forgetting that these rules only apply when lines are parallel.",
+      "Assuming angles are equal without checking if lines are indeed parallel."
+    ],
+    "deep_dive": {
+      "history": "The study of parallel lines dates back to ancient Greece, where mathematicians like Euclid developed fundamental geometric principles.",
+      "connections": "Angle relationships are foundational in trigonometry and calculus, influencing theories and applications in physics and engineering.",
+      "misconceptions": "A common misconception is that any intersecting lines have these angle properties, not realizing the necessity of parallelism.",
+      "teaching_tips": "Use visual aids and hands-on activities to reinforce the concept of parallel lines and their angle relationships.",
+      "derivation": "The properties of parallel lines and angles are derived from Euclid's postulates, forming the basis of plane geometry."
+    },
+    "motivation": "By mastering these angle relationships, your child gains tools to tackle complex problems in math and beyond, building skills that are crucial for future academic and career success."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of parallel lines and the fascinating angles they create! This lesson will help you guide your child through understanding how angles relate to each other when lines are parallel.\n\n## Parent Orientation\n**Objective:** Help your child understand and identify angle relationships formed by parallel lines and a transversal.\n**Why it matters:** Understanding these relationships is crucial for solving geometric problems and is a skill often used in various real-world contexts like architecture and engineering.\n**Parent Tip:** Encourage your child to visualize the lines and angles by drawing them. This can make the relationships easier to see and understand.\n**Real-World Link:** Think about the parallel lines you see every day, like railroad tracks or the lines on a highway. The angles formed when these lines are crossed by another line can tell us a lot about the paths they create.\n\n## Teaching Steps\n1. Introduce the concept of parallel lines and a transversal.\n2. Explain the types of angles formed: corresponding, alternate interior, and alternate exterior angles.\n3. Discuss the properties of these angles when lines are parallel.\n4. Use diagrams to show how angles are equal or supplementary.\n5. Practice identifying angle relationships with your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at two parallel lines and a line crossing them.  \n**Show/Do:** Draw two parallel lines and a transversal on paper.  \n**Ask:** Can you see the different angles that are formed?  \n**Reinforce:** These are called corresponding, alternate interior, and alternate exterior angles.\n2. **Say:** Corresponding angles are in the same position on each parallel line.  \n**Show/Do:** Point to a pair of corresponding angles on your drawing.  \n**Ask:** Do you see how they match up?  \n**Reinforce:** Corresponding angles are equal when lines are parallel.\n3. **Say:** Alternate interior angles are inside the parallel lines but on opposite sides of the transversal.  \n**Show/Do:** Highlight alternate interior angles on the diagram.  \n**Ask:** Can you find another pair of alternate interior angles?  \n**Reinforce:** These angles are equal too!\n4. **Say:** Alternate exterior angles are outside the parallel lines and also on opposite sides of the transversal.  \n**Show/Do:** Point out alternate exterior angles.  \n**Ask:** How do these angles compare?  \n**Reinforce:** They are equal just like the others.\n5. **Say:** Remember, when lines are parallel, these angle relationships always hold true.  \n**Show/Do:** Review all marked angles on your diagram.  \n**Ask:** Can you explain why these angles are equal or supplementary?  \n**Reinforce:** Understanding these relationships helps solve many geometric problems.\n\n## Practice Questions (Do It Together)\n**1. If one of the corresponding angles is 75°, what is the measure of the other corresponding angle?**\n<details><summary>Hint</summary>\nCorresponding angles are equal.\n</details>\n<details><summary>Answer</summary>\n75°\n</details>\n\n**2. Two alternate interior angles are given as 110°. What is the measure of each angle?**\n<details><summary>Hint</summary>\nAlternate interior angles are equal.\n</details>\n<details><summary>Answer</summary>\n110°\n</details>\n\n**3. If an alternate exterior angle measures 120°, what is the measure of the other alternate exterior angle?**\n<details><summary>Hint</summary>\nRemember the property of alternate exterior angles.\n</details>\n<details><summary>Answer</summary>\n120°\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Parallel lines create predictable angle relationships when crossed by a transversal.\n- Corresponding, alternate interior, and alternate exterior angles are equal.\n- These angle rules help solve geometric problems and apply to real-world structures.\n\n**Common Mistakes**\n- Confusing the types of angles formed by the transversal.\n- Forgetting that these rules only apply when lines are parallel.\n- Assuming angles are equal without checking if lines are indeed parallel.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe study of parallel lines dates back to ancient Greece, where mathematicians like Euclid developed fundamental geometric principles.\n\n**Future topic connections**\n\nAngle relationships are foundational in trigonometry and calculus, influencing theories and applications in physics and engineering.\n\n**Common misconceptions**\n\nA common misconception is that any intersecting lines have these angle properties, not realizing the necessity of parallelism.\n\n**Teaching tips for parents**\n\nUse visual aids and hands-on activities to reinforce the concept of parallel lines and their angle relationships.\n\n**More detail / derivation**\n\nThe properties of parallel lines and angles are derived from Euclid's postulates, forming the basis of plane geometry.\n\n## Motivation\nBy mastering these angle relationships, your child gains tools to tackle complex problems in math and beyond, building skills that are crucial for future academic and career success."
+}

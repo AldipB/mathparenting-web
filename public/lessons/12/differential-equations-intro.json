@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "199b11a5-1b3b-4fd5-a161-46dcffcc600d",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "c0d4d96f-18ca-45d8-8c31-b9a029acec1c",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "44e48bba-0de2-4a78-ac57-d5a89ca79a04",
+    "slug": "differential-equations-intro",
+    "title": "Introduction to Differential Equations",
+    "summary": "Differential equations (intro) — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the basics of differential equations and how they apply to real-world situations.\n\n**Why it matters:** Differential equations are crucial for fields like engineering, physics, and biology. They help us predict and understand changes in the world around us.\n\n**Parent Tip:** Encourage your child to think of differential equations as mathematical stories describing change. This perspective can make the topic less intimidating and more engaging.\n\n**Real-World Link:** Imagine a car accelerating down a highway. The changing speed can be described using a differential equation, helping engineers design better engines and safety systems.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the fascinating world of differential equations! These are mathematical tools that help us understand how things change over time, like the growth of a plant or the cooling of a hot cup of coffee.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by explaining that a differential equation involves derivatives, which represent how a quantity changes.\n2. Discuss simple situations like a bank account's interest growth, where the rate of change depends on the current balance.\n3. Introduce the concept of a solution to a differential equation, often a function that satisfies the equation.\n4. Explore basic examples such as population growth, where the rate of change is proportional to the current population.\n5. Work through simple first-order differential equations by separating variables and integrating.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Solve dy/dx = 3x^2. What is y?**\n_Answer:_ y = x^3 + C, where C is the constant of integration.\n_Hint:_ Integrate both sides with respect to x.\n\n**2. If a population grows at a rate proportional to its size, and P(0) = 1000, find the general solution.**\n_Answer:_ P(t) = 1000e^(kt), where k is the growth constant.\n_Hint:_ Use the equation dP/dt = kP.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to add the constant of integration when solving.\n- Mixing up the order of operations during integration.\n- Misinterpreting the problem statement and setting up the wrong differential equation.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine a car accelerating down a highway. The changing speed can be described using a differential equation, helping engineers design better engines and safety systems.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the basics of differential equations and their importance in modeling real-world situations.",
+    "overview": "**Objective:** Help your child understand the basics of differential equations and how they apply to real-world situations.\n\n**Why it matters:** Differential equations are crucial for fields like engineering, physics, and biology. They help us predict and understand changes in the world around us.\n\n**Parent Tip:** Encourage your child to think of differential equations as mathematical stories describing change. This perspective can make the topic less intimidating and more engaging.\n\n**Real-World Link:** Imagine a car accelerating down a highway. The changing speed can be described using a differential equation, helping engineers design better engines and safety systems.",
+    "core": "Welcome to the fascinating world of differential equations! These are mathematical tools that help us understand how things change over time, like the growth of a plant or the cooling of a hot cup of coffee.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how scientists predict weather changes or how engineers design roller coasters to ensure safety and thrill? Differential equations are behind these fascinating calculations!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** dy/dx = f(x, y)\n- **Meaning:** This formula represents the rate of change of y with respect to x. It tells us how y changes as x changes.\n- **How it works:** Think of dy/dx like the speedometer in a car, showing how speed (y) changes with time (x).\n- **Example:** If dy/dx = 3x, then the rate of change of y increases as x increases.",
+    "formulas": "dy/dx = f(x, y)",
+    "guide": "1. Start by explaining that a differential equation involves derivatives, which represent how a quantity changes.\n2. Discuss simple situations like a bank account's interest growth, where the rate of change depends on the current balance.\n3. Introduce the concept of a solution to a differential equation, often a function that satisfies the equation.\n4. Explore basic examples such as population growth, where the rate of change is proportional to the current population.\n5. Work through simple first-order differential equations by separating variables and integrating.",
+    "practice": "**1. Solve dy/dx = 3x^2. What is y?**\n_Answer:_ y = x^3 + C, where C is the constant of integration.\n_Hint:_ Integrate both sides with respect to x.\n\n**2. If a population grows at a rate proportional to its size, and P(0) = 1000, find the general solution.**\n_Answer:_ P(t) = 1000e^(kt), where k is the growth constant.\n_Hint:_ Use the equation dP/dt = kP.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to add the constant of integration when solving.\n- Mixing up the order of operations during integration.\n- Misinterpreting the problem statement and setting up the wrong differential equation.",
+    "connection": "Imagine a car accelerating down a highway. The changing speed can be described using a differential equation, helping engineers design better engines and safety systems.",
+    "close": "**Key Takeaways**\n- Differential equations describe rates of change.\n- They model real-world phenomena like population growth and temperature change.\n- Understanding them helps us predict future behavior.\n\n**Parent Reflection Questions**\n- How can we visualize the rate of change in everyday life?\n- What are some other examples of changing rates around us?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Introduction to Differential Equations",
+    "introduction": "Welcome to the fascinating world of differential equations! These are equations that involve functions and their derivatives, helping us understand how things change.",
+    "objective": "Help your child understand the basics of differential equations and how they are used to describe the rate of change in various situations.",
+    "why_matters": "Differential equations are essential in many fields such as physics, engineering, and biology. They help us model and predict behaviors in the real world, from population growth to electrical circuits.",
+    "parent_tip": "Encourage your child to focus on understanding what a differential equation represents rather than getting bogged down by complex calculations.",
+    "real_world_link": "Think about how the speed of a car changes over time. A differential equation can model this by relating speed to acceleration.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a differential equation as an equation that involves a function and its derivative.",
+      "Discuss the idea of rate of change and how derivatives represent this concept.",
+      "Explain the role of differential equations in modeling real-world phenomena.",
+      "Provide simple examples of differential equations and their solutions.",
+      "Encourage your child to relate differential equations to change they observe in daily life."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about how things change over time, like how fast a car is moving.",
+        "do": "Show a simple graph of speed over time.",
+        "ask": "What do you think happens when a car speeds up or slows down?",
+        "reinforce": "That's right! The rate of change in speed is something we can model using differential equations."
+      },
+      {
+        "say": "Differential equations help us understand these changes.",
+        "do": "Draw a simple curve and its tangent line.",
+        "ask": "How does the slope of this line relate to the curve?",
+        "reinforce": "Great! The slope represents the rate of change, which is what derivatives are all about."
+      },
+      {
+        "say": "Let's see a real-world example.",
+        "do": "Describe how differential equations model population growth.",
+        "ask": "Can you think of other situations where things change over time?",
+        "reinforce": "Exactly, things like temperature changes or stock market trends can also be modeled this way."
+      },
+      {
+        "say": "Now, let's look at a simple differential equation.",
+        "do": "Write down dy/dx = 2x.",
+        "ask": "What does this equation tell us about y's rate of change?",
+        "reinforce": "Yes, it shows that y changes at a rate proportional to x."
+      },
+      {
+        "say": "Finally, let's solve a simple differential equation together.",
+        "do": "Solve dy/dx = 2x to find y = x^2 + C.",
+        "ask": "Why do you think there's a 'C' in the solution?",
+        "reinforce": "That's right! 'C' represents a constant that could change depending on initial conditions."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Solve the differential equation dy/dx = 3x.",
+        "hint": "Think about what function has a derivative of 3x.",
+        "answer": "y = (3/2)x^2 + C"
+      },
+      {
+        "prompt": "If dy/dx = 5, what is y in terms of x?",
+        "hint": "Consider what constant function's derivative is 5.",
+        "answer": "y = 5x + C"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Differential equations involve functions and their rates of change.",
+      "They are used to model real-world phenomena.",
+      "Understanding the basic concept helps in many advanced fields."
+    ],
+    "common_mistakes": [
+      "Confusing the function with its derivative.",
+      "Forgetting to include the constant of integration 'C' in solutions.",
+      "Overcomplicating simple differential equations."
+    ],
+    "deep_dive": {
+      "history": "Differential equations have been used since the 17th century, with Isaac Newton and Gottfried Wilhelm Leibniz laying the foundations.",
+      "connections": "Differential equations connect calculus to real-world applications, making them crucial in science and engineering.",
+      "misconceptions": "A common misconception is that differential equations are only for advanced math, but they can be understood with basic calculus knowledge.",
+      "teaching_tips": "Use visual aids like graphs to illustrate how rates of change work.",
+      "derivation": "Deriving a differential equation involves understanding the relationship between the function and its rate of change."
+    },
+    "motivation": "Understanding differential equations opens up a world of possibilities in science and engineering, allowing us to predict and analyze changes in our world."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of differential equations! These are equations that involve functions and their derivatives, helping us understand how things change.\n\n## Parent Orientation\n**Objective:** Help your child understand the basics of differential equations and how they are used to describe the rate of change in various situations.\n**Why it matters:** Differential equations are essential in many fields such as physics, engineering, and biology. They help us model and predict behaviors in the real world, from population growth to electrical circuits.\n**Parent Tip:** Encourage your child to focus on understanding what a differential equation represents rather than getting bogged down by complex calculations.\n**Real-World Link:** Think about how the speed of a car changes over time. A differential equation can model this by relating speed to acceleration.\n\n## Teaching Steps\n1. Introduce the concept of a differential equation as an equation that involves a function and its derivative.\n2. Discuss the idea of rate of change and how derivatives represent this concept.\n3. Explain the role of differential equations in modeling real-world phenomena.\n4. Provide simple examples of differential equations and their solutions.\n5. Encourage your child to relate differential equations to change they observe in daily life.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about how things change over time, like how fast a car is moving.  \n**Show/Do:** Show a simple graph of speed over time.  \n**Ask:** What do you think happens when a car speeds up or slows down?  \n**Reinforce:** That's right! The rate of change in speed is something we can model using differential equations.\n2. **Say:** Differential equations help us understand these changes.  \n**Show/Do:** Draw a simple curve and its tangent line.  \n**Ask:** How does the slope of this line relate to the curve?  \n**Reinforce:** Great! The slope represents the rate of change, which is what derivatives are all about.\n3. **Say:** Let's see a real-world example.  \n**Show/Do:** Describe how differential equations model population growth.  \n**Ask:** Can you think of other situations where things change over time?  \n**Reinforce:** Exactly, things like temperature changes or stock market trends can also be modeled this way.\n4. **Say:** Now, let's look at a simple differential equation.  \n**Show/Do:** Write down dy/dx = 2x.  \n**Ask:** What does this equation tell us about y's rate of change?  \n**Reinforce:** Yes, it shows that y changes at a rate proportional to x.\n5. **Say:** Finally, let's solve a simple differential equation together.  \n**Show/Do:** Solve dy/dx = 2x to find y = x^2 + C.  \n**Ask:** Why do you think there's a 'C' in the solution?  \n**Reinforce:** That's right! 'C' represents a constant that could change depending on initial conditions.\n\n## Practice Questions (Do It Together)\n**1. Solve the differential equation dy/dx = 3x.**\n<details><summary>Hint</summary>\nThink about what function has a derivative of 3x.\n</details>\n<details><summary>Answer</summary>\ny = (3/2)x^2 + C\n</details>\n\n**2. If dy/dx = 5, what is y in terms of x?**\n<details><summary>Hint</summary>\nConsider what constant function's derivative is 5.\n</details>\n<details><summary>Answer</summary>\ny = 5x + C\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Differential equations involve functions and their rates of change.\n- They are used to model real-world phenomena.\n- Understanding the basic concept helps in many advanced fields.\n\n**Common Mistakes**\n- Confusing the function with its derivative.\n- Forgetting to include the constant of integration 'C' in solutions.\n- Overcomplicating simple differential equations.\n\n## 🔍 Deep Dive\n**History or origin**\n\nDifferential equations have been used since the 17th century, with Isaac Newton and Gottfried Wilhelm Leibniz laying the foundations.\n\n**Future topic connections**\n\nDifferential equations connect calculus to real-world applications, making them crucial in science and engineering.\n\n**Common misconceptions**\n\nA common misconception is that differential equations are only for advanced math, but they can be understood with basic calculus knowledge.\n\n**Teaching tips for parents**\n\nUse visual aids like graphs to illustrate how rates of change work.\n\n**More detail / derivation**\n\nDeriving a differential equation involves understanding the relationship between the function and its rate of change.\n\n## Motivation\nUnderstanding differential equations opens up a world of possibilities in science and engineering, allowing us to predict and analyze changes in our world."
+}

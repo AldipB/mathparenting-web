@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "10b57e2d-3149-4acc-bbcb-5b2f396a85bf",
+    "slug": "1",
+    "name": "Grade 1"
+  },
+  "unit": {
+    "id": "fe7c9607-5ee6-4f61-adcf-7567f18ada44",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "104f934f-c94c-4a5d-bf35-afbe17eac7c0",
+    "slug": "organize-data-in-pictographs",
+    "title": "Organize Data in Pictographs",
+    "summary": "Organize data in pictographs — parent overview for Grade 1.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand how to create and interpret pictographs.\n\n**Why it matters:** Pictographs build early data interpretation skills, laying the foundation for more complex math concepts.\n\n**Parent Tip:** Use everyday items like fruit or toys to create simple pictographs at home.\n\n**Real-World Link:** Think of pictographs as the emojis of data—they make information easy to understand at a glance.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome, parents! Today, we'll explore pictographs—a fun way for your first grader to learn about organizing data using pictures.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. 1. Explain that a pictograph uses pictures to show data.\n2. 2. Choose a simple topic, like 'Favorite Fruit'.\n3. 3. Draw a grid and use fruit symbols to represent data (e.g., 1 apple = 1 vote).\n4. 4. Count the symbols to interpret the data together.\n5. 5. Discuss which fruit is most and least popular.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Create a pictograph showing the number of sunny and rainy days in a week. (use numbers like 6 and 9)**\n_Answer:_ A pictograph with 5 sun symbols and 2 cloud symbols.\n_Hint:_ Use a sun symbol for sunny days and a cloud symbol for rainy days.\n\n**2. How many more apples than bananas are there if the pictograph shows 4 apples and 2 bananas?**\n_Answer:_ 2 more apples.\n_Hint:_ Subtract the number of bananas from apples.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to assign a consistent value to each symbol.\n- Miscounting symbols, leading to incorrect data interpretation.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of pictographs as the emojis of data—they make information easy to understand at a glance.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child learn how to organize and interpret data using pictographs.",
+    "overview": "**Objective:** Help your child understand how to create and interpret pictographs.\n\n**Why it matters:** Pictographs build early data interpretation skills, laying the foundation for more complex math concepts.\n\n**Parent Tip:** Use everyday items like fruit or toys to create simple pictographs at home.\n\n**Real-World Link:** Think of pictographs as the emojis of data—they make information easy to understand at a glance.",
+    "core": "Welcome, parents! Today, we'll explore pictographs—a fun way for your first grader to learn about organizing data using pictures.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'Have you ever noticed how many different kinds of cereal are in the kitchen? How could we show this information in a fun way?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. 1. Explain that a pictograph uses pictures to show data.\n2. 2. Choose a simple topic, like 'Favorite Fruit'.\n3. 3. Draw a grid and use fruit symbols to represent data (e.g., 1 apple = 1 vote).\n4. 4. Count the symbols to interpret the data together.\n5. 5. Discuss which fruit is most and least popular.",
+    "practice": "**1. Create a pictograph showing the number of sunny and rainy days in a week. (use numbers like 6 and 9)**\n_Answer:_ A pictograph with 5 sun symbols and 2 cloud symbols.\n_Hint:_ Use a sun symbol for sunny days and a cloud symbol for rainy days.\n\n**2. How many more apples than bananas are there if the pictograph shows 4 apples and 2 bananas?**\n_Answer:_ 2 more apples.\n_Hint:_ Subtract the number of bananas from apples.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to assign a consistent value to each symbol.\n- Miscounting symbols, leading to incorrect data interpretation.",
+    "connection": "Think of pictographs as the emojis of data—they make information easy to understand at a glance.",
+    "close": "**Key Takeaways**\n- We practiced the core idea of **Organize Data in Pictographs** with concrete numbers.\n- We verbalized steps and checked our work.\n- We connected the idea to a real moment at home.\n\n**Parent Reflection Questions**\n- How can you use pictographs to show your child's weekly chores?\n- What other everyday information could be organized with pictographs?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Organize Data in Pictographs",
+    "introduction": "Welcome to exploring pictographs with your child! We'll learn how to represent data visually using pictures. It's a fun and simple way for children to start understanding data organization.",
+    "objective": "Help your child use pictographs to organize and interpret simple data sets.",
+    "why_matters": "Understanding pictographs builds foundational skills in data interpretation, which are crucial for problem-solving and critical thinking.",
+    "parent_tip": "Encourage your child to explain what each picture in the pictograph represents. This helps reinforce their understanding of the data being shown.",
+    "real_world_link": "Pictographs are like picture books for data! They're used in weather forecasts, sports scores, and even in some of your child's favorite storybooks to show information in an engaging way.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of pictographs using familiar objects.",
+      "Show how each picture represents a specific quantity.",
+      "Practice creating a simple pictograph with your child.",
+      "Discuss the data shown in the pictograph.",
+      "Ask questions to ensure your child can interpret the pictograph."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's learn about pictographs. They use pictures to show data.",
+        "do": "Show a simple pictograph using fruits to represent numbers.",
+        "ask": "What does each apple in our pictograph represent?",
+        "reinforce": "Yes, each apple stands for one piece of fruit. Great job!"
+      },
+      {
+        "say": "Now, let's make our own pictograph.",
+        "do": "Gather small toys or objects to use as symbols.",
+        "ask": "How many toys do we have in total?",
+        "reinforce": "Exactly! Let's use these toys to make our pictograph."
+      },
+      {
+        "say": "Each toy will represent one student in a class.",
+        "do": "Arrange toys in a line to represent data.",
+        "ask": "How many students are there if each toy is one student?",
+        "reinforce": "Well done! You counted all the toys correctly."
+      },
+      {
+        "say": "Let's look at what our pictograph tells us.",
+        "do": "Point to the pictograph and discuss the data.",
+        "ask": "What do you notice about our pictograph?",
+        "reinforce": "That's right, it shows how many students are in class."
+      },
+      {
+        "say": "Pictographs can tell us a lot of information quickly.",
+        "do": "Review the pictograph together.",
+        "ask": "Why do you think pictographs are useful?",
+        "reinforce": "Great thinking! They make data easy to understand."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "If each star represents 2 students, how many students are there if there are 5 stars?",
+        "hint": "Multiply the number of stars by 2.",
+        "answer": "10"
+      },
+      {
+        "prompt": "You see 4 smiley faces in a pictograph. If each face is 1 pet, how many pets are there?",
+        "hint": "Count the smiley faces.",
+        "answer": "4"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Pictographs use pictures to represent data.",
+      "Each picture usually stands for a specific number.",
+      "They help us quickly understand and interpret information."
+    ],
+    "common_mistakes": [
+      "Forgetting what each picture represents.",
+      "Miscounting the total by not multiplying if needed.",
+      "Confusing the symbols used for different quantities."
+    ],
+    "deep_dive": {
+      "history": "Pictographs have been used since ancient times, like in Egyptian hieroglyphs, to convey information visually.",
+      "connections": "Pictographs connect to bar graphs and charts in higher grades, building on the same principles of data representation.",
+      "misconceptions": "Children might think each picture always represents one item. Encourage them to check what each symbol stands for.",
+      "teaching_tips": "Use everyday objects to create pictographs, making the learning process more tangible and relatable.",
+      "derivation": "No complex mathematics here, just a simple and visual way to represent data!"
+    },
+    "motivation": "Learning to read and create pictographs helps your child see the world of data as not just numbers, but as stories that pictures can tell!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to exploring pictographs with your child! We'll learn how to represent data visually using pictures. It's a fun and simple way for children to start understanding data organization.\n\n## Parent Orientation\n**Objective:** Help your child use pictographs to organize and interpret simple data sets.\n**Why it matters:** Understanding pictographs builds foundational skills in data interpretation, which are crucial for problem-solving and critical thinking.\n**Parent Tip:** Encourage your child to explain what each picture in the pictograph represents. This helps reinforce their understanding of the data being shown.\n**Real-World Link:** Pictographs are like picture books for data! They're used in weather forecasts, sports scores, and even in some of your child's favorite storybooks to show information in an engaging way.\n\n## Teaching Steps\n1. Introduce the concept of pictographs using familiar objects.\n2. Show how each picture represents a specific quantity.\n3. Practice creating a simple pictograph with your child.\n4. Discuss the data shown in the pictograph.\n5. Ask questions to ensure your child can interpret the pictograph.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's learn about pictographs. They use pictures to show data.  \n**Show/Do:** Show a simple pictograph using fruits to represent numbers.  \n**Ask:** What does each apple in our pictograph represent?  \n**Reinforce:** Yes, each apple stands for one piece of fruit. Great job!\n2. **Say:** Now, let's make our own pictograph.  \n**Show/Do:** Gather small toys or objects to use as symbols.  \n**Ask:** How many toys do we have in total?  \n**Reinforce:** Exactly! Let's use these toys to make our pictograph.\n3. **Say:** Each toy will represent one student in a class.  \n**Show/Do:** Arrange toys in a line to represent data.  \n**Ask:** How many students are there if each toy is one student?  \n**Reinforce:** Well done! You counted all the toys correctly.\n4. **Say:** Let's look at what our pictograph tells us.  \n**Show/Do:** Point to the pictograph and discuss the data.  \n**Ask:** What do you notice about our pictograph?  \n**Reinforce:** That's right, it shows how many students are in class.\n5. **Say:** Pictographs can tell us a lot of information quickly.  \n**Show/Do:** Review the pictograph together.  \n**Ask:** Why do you think pictographs are useful?  \n**Reinforce:** Great thinking! They make data easy to understand.\n\n## Practice Questions (Do It Together)\n**1. If each star represents 2 students, how many students are there if there are 5 stars?**\n<details><summary>Hint</summary>\nMultiply the number of stars by 2.\n</details>\n<details><summary>Answer</summary>\n10\n</details>\n\n**2. You see 4 smiley faces in a pictograph. If each face is 1 pet, how many pets are there?**\n<details><summary>Hint</summary>\nCount the smiley faces.\n</details>\n<details><summary>Answer</summary>\n4\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Pictographs use pictures to represent data.\n- Each picture usually stands for a specific number.\n- They help us quickly understand and interpret information.\n\n**Common Mistakes**\n- Forgetting what each picture represents.\n- Miscounting the total by not multiplying if needed.\n- Confusing the symbols used for different quantities.\n\n## 🔍 Deep Dive\n**History or origin**\n\nPictographs have been used since ancient times, like in Egyptian hieroglyphs, to convey information visually.\n\n**Future topic connections**\n\nPictographs connect to bar graphs and charts in higher grades, building on the same principles of data representation.\n\n**Common misconceptions**\n\nChildren might think each picture always represents one item. Encourage them to check what each symbol stands for.\n\n**Teaching tips for parents**\n\nUse everyday objects to create pictographs, making the learning process more tangible and relatable.\n\n**More detail / derivation**\n\nNo complex mathematics here, just a simple and visual way to represent data!\n\n## Motivation\nLearning to read and create pictographs helps your child see the world of data as not just numbers, but as stories that pictures can tell!"
+}

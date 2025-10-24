@@ -1,0 +1,117 @@
+{
+  "grade": "k",
+  "lessons": [
+    {
+      "slug": "2d-shapes-circle-triangle-square-rectangle",
+      "title": "2D Shapes (Circle, Triangle, Square, Rectangle)"
+    },
+    {
+      "slug": "3d-shapes-sphere-cube-cylinder-cone",
+      "title": "3D Shapes (Sphere, Cube, Cylinder, Cone)"
+    },
+    {
+      "slug": "add-with-objects-stories",
+      "title": "Add with Objects (Stories)"
+    },
+    {
+      "slug": "coins-and-notes-recognize-no-calculations",
+      "title": "Coins and Notes (Recognize, No Calculations)"
+    },
+    {
+      "slug": "compare-numbers-to-10",
+      "title": "Compare Numbers to 10 (>, <, =)"
+    },
+    {
+      "slug": "comparing-groups-more-less-equal",
+      "title": "Comparing Groups (More, Less, Equal)"
+    },
+    {
+      "slug": "counting-0-20",
+      "title": "Counting 0–20"
+    },
+    {
+      "slug": "counting-0-50",
+      "title": "Counting 0–50"
+    },
+    {
+      "slug": "counting-0-100",
+      "title": "Counting 0–100"
+    },
+    {
+      "slug": "introduction-to-addition-subtraction-through-stories",
+      "title": "Introduction to Addition/Subtraction through Stories"
+    },
+    {
+      "slug": "introduction-to-coins-money-concept-only",
+      "title": "Introduction to Coins & Money (Concept Only)"
+    },
+    {
+      "slug": "make-10-compositions-of-10",
+      "title": "Make 10 (Compositions of 10)"
+    },
+    {
+      "slug": "measure-with-nonstandard-units",
+      "title": "Measure with Nonstandard Units"
+    },
+    {
+      "slug": "measurement-length-weight-nonstandard-units",
+      "title": "Measurement: Length & Weight (Nonstandard Units)"
+    },
+    {
+      "slug": "number-bonds-to-10",
+      "title": "Number Bonds to 10"
+    },
+    {
+      "slug": "patterns-ab-aab-abb-abc",
+      "title": "Patterns (AB, AAB, ABB, ABC)"
+    },
+    {
+      "slug": "patterns-repeating-sequences",
+      "title": "Patterns: Repeating Sequences"
+    },
+    {
+      "slug": "position-words-above-below-beside-inside-next-to",
+      "title": "Position Words (Above, Below, Beside, Inside, Next to)"
+    },
+    {
+      "slug": "position-words-above-below-beside-inside",
+      "title": "Position Words: Above, Below, Beside, Inside"
+    },
+    {
+      "slug": "read-write-numbers-0-20",
+      "title": "Read & Write Numbers (0–20)"
+    },
+    {
+      "slug": "real-world-math-through-play-toys-snacks-blocks",
+      "title": "Real-World Math through Play (Toys, Snacks, Blocks)"
+    },
+    {
+      "slug": "recognizing-shapes-circle-square-triangle-rectangle",
+      "title": "Recognizing Shapes (Circle, Square, Triangle, Rectangle)"
+    },
+    {
+      "slug": "sort-classify-shape-size-colour",
+      "title": "Sort & Classify (Shape, Size, Colour)"
+    },
+    {
+      "slug": "sorting-classifying-by-colour-shape-size",
+      "title": "Sorting & Classifying by Colour, Shape, Size"
+    },
+    {
+      "slug": "subtract-with-objects-stories",
+      "title": "Subtract with Objects (Stories)"
+    },
+    {
+      "slug": "time-concepts-today-yesterday-tomorrow",
+      "title": "Time Concepts: Today, Yesterday, Tomorrow"
+    },
+    {
+      "slug": "time-words-today-yesterday-tomorrow",
+      "title": "Time Words (Today, Yesterday, Tomorrow)"
+    },
+    {
+      "slug": "understanding-quantity-and-how-many",
+      "title": "Understanding Quantity and “How Many”"
+    }
+  ]
+}

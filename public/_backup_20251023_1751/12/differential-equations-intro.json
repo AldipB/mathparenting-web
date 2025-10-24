@@ -1,0 +1,84 @@
+{
+  "grade": {
+    "id": "dca8f42c-0f32-4f47-bc5c-32fbbf6ad088",
+    "slug": "12",
+    "name": "Grade 12"
+  },
+  "unit": {
+    "id": "76554fad-7225-4d1c-856f-354e0823e7d4",
+    "title": "Core",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "0ea5ef48-2a06-49a8-bddb-2c2688856fa5",
+    "slug": "differential-equations-intro",
+    "title": "Differential Equations Intro",
+    "summary": "Differential Equations Intro — summary for parents in Grade 12.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "objectives",
+      "md": "Learning goals for **Differential Equations Intro** in Grade 12.",
+      "order_index": 1
+    },
+    {
+      "key": "overview",
+      "md": "Why **Differential Equations Intro** matters and how to support it at home.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Core idea of **Differential Equations Intro** with simple examples.",
+      "order_index": 3
+    },
+    {
+      "key": "demo",
+      "md": "Household activity to explore **Differential Equations Intro** using everyday items.",
+      "order_index": 4
+    },
+    {
+      "key": "math",
+      "md": "The math behind **Differential Equations Intro** explained for parents.",
+      "order_index": 5
+    },
+    {
+      "key": "formulas",
+      "md": "Key formulas or patterns related to **Differential Equations Intro**.",
+      "order_index": 6
+    },
+    {
+      "key": "guide",
+      "md": "Step-by-step guide to practice **Differential Equations Intro**.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "Practice Together: add 8–10 scaffolded questions here.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "Common mistakes and how to correct them for **Differential Equations Intro**.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Real-life connections to make **Differential Equations Intro** meaningful.",
+      "order_index": 10
+    },
+    {
+      "key": "close",
+      "md": "Positive close: celebrate progress and preview what's next.",
+      "order_index": 11
+    }
+  ],
+  "sections": {
+    "objectives": "Identify the core skills for **Differential Equations Intro**.",
+    "overview": "This lesson helps children understand **Differential Equations Intro**.",
+    "core": "Explain **Differential Equations Intro** in parent-friendly language.",
+    "practice": "Add custom practice items here later."
+  },
+  "practice": "Placeholder practice content for **Differential Equations Intro**."
+}

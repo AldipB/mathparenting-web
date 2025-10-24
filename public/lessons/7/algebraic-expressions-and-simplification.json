@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "8cddcc33-5671-4895-8c47-0d0f30d460b3",
+    "slug": "7",
+    "name": "Grade 7"
+  },
+  "unit": {
+    "id": "626026e9-fa4a-4a0f-aa2e-52dd601b27a4",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "fabfb18d-e3fe-4c1b-b769-3f2ea40fcb51",
+    "slug": "algebraic-expressions-and-simplification",
+    "title": "Understanding Algebraic Expressions & Simplification",
+    "summary": "Algebraic expressions & simplification — parent overview for Grade 7.",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn to simplify algebraic expressions, making math problems easier and more manageable.\n\n**Why it matters:** Simplifying expressions is a key skill in math that helps in solving equations more efficiently and is used in various real-life situations.\n\n**Parent Tip:** Encourage your child to think of algebraic expressions like sentences that can be shortened without losing their meaning.\n\n**Real-World Link:** Simplifying algebraic expressions is like reducing a recipe to its essentials or packing a suitcase efficiently for a trip.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of algebra! Let's explore how simplifying expressions can be as straightforward as organizing a messy room.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that algebraic expressions are like phrases that describe numbers.\n2. Show how to identify like terms, which are terms with the same variables raised to the same power.\n3. Demonstrate combining like terms by adding or subtracting their coefficients.\n4. Practice simplifying expressions by rearranging and grouping like terms together.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Simplify: 3x + 5x**\n_Answer:_ 8x\n_Hint:_ Combine the terms with 'x' by adding their coefficients.\n\n**2. Simplify: 2a + 4b - a + 3b**\n_Answer:_ a + 7b\n_Hint:_ Group and combine like terms separately for 'a' and 'b'.\n\n**3. Simplify: 6m - 2n + 3m - n**\n_Answer:_ 9m - 3n\n_Hint:_ Look for terms with 'm' and 'n' and combine them.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to combine like terms.\n- Mixing up coefficients with variables.\n- Dropping or adding extra terms during simplification.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Simplifying algebraic expressions is like reducing a recipe to its essentials or packing a suitcase efficiently for a trip.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and simplify algebraic expressions by recognizing patterns and combining like terms.",
+    "overview": "**Objective:** Help your child learn to simplify algebraic expressions, making math problems easier and more manageable.\n\n**Why it matters:** Simplifying expressions is a key skill in math that helps in solving equations more efficiently and is used in various real-life situations.\n\n**Parent Tip:** Encourage your child to think of algebraic expressions like sentences that can be shortened without losing their meaning.\n\n**Real-World Link:** Simplifying algebraic expressions is like reducing a recipe to its essentials or packing a suitcase efficiently for a trip.",
+    "core": "Welcome to the world of algebra! Let's explore how simplifying expressions can be as straightforward as organizing a messy room.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that algebra is like a secret code? Once you know how to simplify expressions, you can unlock the answers to many math problems!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that algebraic expressions are like phrases that describe numbers.\n2. Show how to identify like terms, which are terms with the same variables raised to the same power.\n3. Demonstrate combining like terms by adding or subtracting their coefficients.\n4. Practice simplifying expressions by rearranging and grouping like terms together.",
+    "practice": "**1. Simplify: 3x + 5x**\n_Answer:_ 8x\n_Hint:_ Combine the terms with 'x' by adding their coefficients.\n\n**2. Simplify: 2a + 4b - a + 3b**\n_Answer:_ a + 7b\n_Hint:_ Group and combine like terms separately for 'a' and 'b'.\n\n**3. Simplify: 6m - 2n + 3m - n**\n_Answer:_ 9m - 3n\n_Hint:_ Look for terms with 'm' and 'n' and combine them.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to combine like terms.\n- Mixing up coefficients with variables.\n- Dropping or adding extra terms during simplification.",
+    "connection": "Simplifying algebraic expressions is like reducing a recipe to its essentials or packing a suitcase efficiently for a trip.",
+    "close": "**Key Takeaways**\n- Simplifying expressions involves combining like terms.\n- It helps to identify patterns and similarities in math.\n- Encouraging your child to see math as a puzzle can make learning more engaging.\n\n**Parent Reflection Questions**\n- What patterns did you notice in the expressions?\n- How does simplifying make solving equations easier?\n- Can you think of other real-world examples of combining like terms?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Algebraic Expressions & Simplification",
+    "introduction": "Welcome to the world of algebra! Today, we'll explore how to understand and simplify algebraic expressions. It's like solving a puzzle with numbers and letters. Let's make it fun and approachable for you and your child.",
+    "objective": "Help your child understand algebraic expressions and learn how to simplify them with confidence.",
+    "why_matters": "Algebra is a foundational skill in math that helps students solve problems logically. It builds critical thinking and problem-solving skills that are useful in everyday life.",
+    "parent_tip": "Encourage your child to see algebra as a language of its own. Remind them that practice is key, and mistakes are part of learning.",
+    "real_world_link": "Simplifying expressions is like organizing a messy room. Just as you find a place for everything, simplifying finds the simplest form of an expression.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of variables and constants.",
+      "Explain the importance of like terms.",
+      "Demonstrate combining like terms through examples.",
+      "Guide your child to simplify expressions step-by-step.",
+      "Practice together using different expressions."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about algebraic expressions. They contain numbers, variables, and operations.",
+        "do": "Show a simple expression like 3x + 2x.",
+        "ask": "What do you notice about the terms in this expression?",
+        "reinforce": "The terms 3x and 2x are called like terms because they both have the variable x."
+      },
+      {
+        "say": "To simplify, we combine like terms.",
+        "do": "Write down 3x + 2x = 5x.",
+        "ask": "How did we combine the terms?",
+        "reinforce": "We added the coefficients (3 and 2) because they are like terms."
+      },
+      {
+        "say": "Let's try another one.",
+        "do": "Write 4y + 3 + 2y.",
+        "ask": "Which terms can we combine?",
+        "reinforce": "We can combine 4y and 2y because they are like terms."
+      },
+      {
+        "say": "Simplify the expression.",
+        "do": "Write down 4y + 2y + 3 = 6y + 3.",
+        "ask": "What did we get after simplifying?",
+        "reinforce": "The simplified expression is 6y + 3."
+      },
+      {
+        "say": "Great job! Let's practice with a new expression.",
+        "do": "Write 5a + 7 - 3a + 2.",
+        "ask": "What are the like terms here?",
+        "reinforce": "5a and -3a are like terms, and 7 and 2 are constants we can combine."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Simplify the expression: 6x + 4x.",
+        "hint": "Combine the coefficients of like terms.",
+        "answer": "10x"
+      },
+      {
+        "prompt": "Simplify: 3y + 5 + 2y - 1.",
+        "hint": "Group like terms together first.",
+        "answer": "5y + 4"
+      },
+      {
+        "prompt": "Simplify: 7a - 2a + 3 + 4.",
+        "hint": "Look for like terms and constants.",
+        "answer": "5a + 7"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Algebraic expressions use numbers, variables, and operations.",
+      "Like terms can be combined by adding or subtracting their coefficients.",
+      "Simplifying makes expressions easier to understand and work with."
+    ],
+    "common_mistakes": [
+      "Combining terms that are not like terms.",
+      "Forgetting to add or subtract coefficients correctly.",
+      "Misplacing negative signs during simplification."
+    ],
+    "deep_dive": {
+      "history": "Algebra has roots in ancient civilizations like Egypt and Babylon. The term comes from the Arabic word 'al-jabr,' meaning 'reunion of broken parts.'",
+      "connections": "Algebra is used in science, engineering, economics, and many other fields.",
+      "misconceptions": "Some think variables can only be one letter, but they can be any symbol.",
+      "teaching_tips": "Use real-life examples to explain variables and expressions, like calculating total cost by adding prices.",
+      "derivation": "Simplifying expressions involves understanding the properties of operations and applying them to group and combine like terms."
+    },
+    "motivation": "Mastering algebraic expressions opens the door to advanced math topics and practical problem-solving skills."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of algebra! Today, we'll explore how to understand and simplify algebraic expressions. It's like solving a puzzle with numbers and letters. Let's make it fun and approachable for you and your child.\n\n## Parent Orientation\n**Objective:** Help your child understand algebraic expressions and learn how to simplify them with confidence.\n**Why it matters:** Algebra is a foundational skill in math that helps students solve problems logically. It builds critical thinking and problem-solving skills that are useful in everyday life.\n**Parent Tip:** Encourage your child to see algebra as a language of its own. Remind them that practice is key, and mistakes are part of learning.\n**Real-World Link:** Simplifying expressions is like organizing a messy room. Just as you find a place for everything, simplifying finds the simplest form of an expression.\n\n## Teaching Steps\n1. Introduce the concept of variables and constants.\n2. Explain the importance of like terms.\n3. Demonstrate combining like terms through examples.\n4. Guide your child to simplify expressions step-by-step.\n5. Practice together using different expressions.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about algebraic expressions. They contain numbers, variables, and operations.  \n**Show/Do:** Show a simple expression like 3x + 2x.  \n**Ask:** What do you notice about the terms in this expression?  \n**Reinforce:** The terms 3x and 2x are called like terms because they both have the variable x.\n2. **Say:** To simplify, we combine like terms.  \n**Show/Do:** Write down 3x + 2x = 5x.  \n**Ask:** How did we combine the terms?  \n**Reinforce:** We added the coefficients (3 and 2) because they are like terms.\n3. **Say:** Let's try another one.  \n**Show/Do:** Write 4y + 3 + 2y.  \n**Ask:** Which terms can we combine?  \n**Reinforce:** We can combine 4y and 2y because they are like terms.\n4. **Say:** Simplify the expression.  \n**Show/Do:** Write down 4y + 2y + 3 = 6y + 3.  \n**Ask:** What did we get after simplifying?  \n**Reinforce:** The simplified expression is 6y + 3.\n5. **Say:** Great job! Let's practice with a new expression.  \n**Show/Do:** Write 5a + 7 - 3a + 2.  \n**Ask:** What are the like terms here?  \n**Reinforce:** 5a and -3a are like terms, and 7 and 2 are constants we can combine.\n\n## Practice Questions (Do It Together)\n**1. Simplify the expression: 6x + 4x.**\n<details><summary>Hint</summary>\nCombine the coefficients of like terms.\n</details>\n<details><summary>Answer</summary>\n10x\n</details>\n\n**2. Simplify: 3y + 5 + 2y - 1.**\n<details><summary>Hint</summary>\nGroup like terms together first.\n</details>\n<details><summary>Answer</summary>\n5y + 4\n</details>\n\n**3. Simplify: 7a - 2a + 3 + 4.**\n<details><summary>Hint</summary>\nLook for like terms and constants.\n</details>\n<details><summary>Answer</summary>\n5a + 7\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Algebraic expressions use numbers, variables, and operations.\n- Like terms can be combined by adding or subtracting their coefficients.\n- Simplifying makes expressions easier to understand and work with.\n\n**Common Mistakes**\n- Combining terms that are not like terms.\n- Forgetting to add or subtract coefficients correctly.\n- Misplacing negative signs during simplification.\n\n## 🔍 Deep Dive\n**History or origin**\n\nAlgebra has roots in ancient civilizations like Egypt and Babylon. The term comes from the Arabic word 'al-jabr,' meaning 'reunion of broken parts.'\n\n**Future topic connections**\n\nAlgebra is used in science, engineering, economics, and many other fields.\n\n**Common misconceptions**\n\nSome think variables can only be one letter, but they can be any symbol.\n\n**Teaching tips for parents**\n\nUse real-life examples to explain variables and expressions, like calculating total cost by adding prices.\n\n**More detail / derivation**\n\nSimplifying expressions involves understanding the properties of operations and applying them to group and combine like terms.\n\n## Motivation\nMastering algebraic expressions opens the door to advanced math topics and practical problem-solving skills."
+}

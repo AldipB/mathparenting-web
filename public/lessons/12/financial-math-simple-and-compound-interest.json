@@ -1,0 +1,185 @@
+{
+  "grade": {
+    "id": "5b9f2148-a162-407b-89a3-0ef0e0ba6566",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "b4e60e80-c071-423d-b881-084a1929130b",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "38afb0e0-9942-4f1c-b9cf-76467de5be20",
+    "slug": "financial-math-simple-and-compound-interest",
+    "title": "Understanding Financial Math: Simple & Compound Interest",
+    "summary": "Financial math (simple & compound interest) — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will confidently calculate and differentiate between simple and compound interest.\n\n**Why it matters:** Understanding interest is crucial for making informed financial decisions, whether saving for college, purchasing a car, or planning for retirement.\n\n**Parent Tip:** Relate interest to growing a garden: simple interest is like planting seeds once, while compound interest is like replanting seeds from your harvest each season.\n\n**Real-World Link:** Banks use these interest calculations to determine how much your savings grow over time or how much you owe on loans.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Help your teen grasp the power of interest in building wealth. This lesson breaks down simple and compound interest, making it relatable and easy to understand.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce the concept of interest as a reward for saving or a cost for borrowing.\n2. Explain simple interest with the formula I = P * r * t.\n3. Demonstrate compound interest using A = P(1 + r/n)^(nt) and show how it compounds over time.\n4. Use a visual like a graph to compare simple vs. compound interest growth.\n5. Discuss when each type of interest is used in real life.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Calculate the simple interest on $2000 at a 3% rate for 5 years.**\n_Answer:_ $300\n_Hint:_ Use I = P * r * t.\n\n**2. Find the amount after 3 years for $1500 at an annual 4% compounded annually.**\n_Answer:_ $1687.87\n_Hint:_ Use A = P(1 + r/n)^(nt).\n\n**3. What's the compound interest on $1000 at 6% compounded quarterly for 2 years?**\n_Answer:_ $126.49\n_Hint:_ Remember, n = 4 for quarterly compounding.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing simple and compound interest formulas.\n- Forgetting to adjust 'n' for compound interest calculations.\n- Mixing up principal and interest in calculations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Banks use these interest calculations to determine how much your savings grow over time or how much you owe on loans.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how simple and compound interest work, and how they impact savings and loans.",
+    "overview": "**Objective:** By the end of this lesson, your child will confidently calculate and differentiate between simple and compound interest.\n\n**Why it matters:** Understanding interest is crucial for making informed financial decisions, whether saving for college, purchasing a car, or planning for retirement.\n\n**Parent Tip:** Relate interest to growing a garden: simple interest is like planting seeds once, while compound interest is like replanting seeds from your harvest each season.\n\n**Real-World Link:** Banks use these interest calculations to determine how much your savings grow over time or how much you owe on loans.",
+    "core": "Help your teen grasp the power of interest in building wealth. This lesson breaks down simple and compound interest, making it relatable and easy to understand.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why money in a savings account grows over time, even if you don't add more? That's the magic of interest!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** A = P(1 + r/n)^{nt}\n- **Meaning:** A is the amount of money accumulated after n years, including interest. P is the principal amount, r is the annual interest rate, n is the number of times interest is compounded per year, and t is the time in years.\n- **How it works:** This formula calculates compound interest, which grows faster than simple interest because it earns interest on interest.\n- **Example:** If you deposit $1,000 at an annual interest rate of 5%, compounded yearly, after 3 years you'll have $1,157.63.",
+    "formulas": "A = P(1 + r/n)^{nt}",
+    "guide": "1. Introduce the concept of interest as a reward for saving or a cost for borrowing.\n2. Explain simple interest with the formula I = P * r * t.\n3. Demonstrate compound interest using A = P(1 + r/n)^(nt) and show how it compounds over time.\n4. Use a visual like a graph to compare simple vs. compound interest growth.\n5. Discuss when each type of interest is used in real life.",
+    "practice": "**1. Calculate the simple interest on $2000 at a 3% rate for 5 years.**\n_Answer:_ $300\n_Hint:_ Use I = P * r * t.\n\n**2. Find the amount after 3 years for $1500 at an annual 4% compounded annually.**\n_Answer:_ $1687.87\n_Hint:_ Use A = P(1 + r/n)^(nt).\n\n**3. What's the compound interest on $1000 at 6% compounded quarterly for 2 years?**\n_Answer:_ $126.49\n_Hint:_ Remember, n = 4 for quarterly compounding.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing simple and compound interest formulas.\n- Forgetting to adjust 'n' for compound interest calculations.\n- Mixing up principal and interest in calculations.",
+    "connection": "Banks use these interest calculations to determine how much your savings grow over time or how much you owe on loans.",
+    "close": "**Key Takeaways**\n- Simple interest is straightforward, while compound interest grows exponentially.\n- Understanding interest is key to making smart financial decisions.\n- Interest can significantly impact loans and savings over time.\n\n**Parent Reflection Questions**\n- How can you explain compound interest using a real-world analogy?\n- Why is understanding interest important for future financial planning?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Financial Math: Simple & Compound Interest",
+    "introduction": "Welcome to the world of financial math! Today, we're exploring simple and compound interest—two key concepts that will help your teen manage money wisely.",
+    "objective": "Help your teen understand and calculate simple and compound interest to make informed financial decisions.",
+    "why_matters": "Interest calculations are essential in real life, whether saving for college, buying a car, or planning a vacation. Knowing how interest works can save you money and help grow your savings.",
+    "parent_tip": "Encourage your teen to see interest as a tool for both borrowing and saving. Understanding it now will empower them to make smarter financial choices in the future.",
+    "real_world_link": "Interest is everywhere—on savings accounts, loans, mortgages, and even credit cards. Mastering it can lead to better financial health.",
+    "formula_box": {
+      "formula": "Simple Interest: I = PRT; Compound Interest: A = P(1 + r/n)^(nt)",
+      "symbols": [
+        {
+          "symbol": "I",
+          "meaning": "Interest earned or paid"
+        },
+        {
+          "symbol": "P",
+          "meaning": "Principal amount (initial investment or loan)"
+        },
+        {
+          "symbol": "R/r",
+          "meaning": "Annual interest rate (as a decimal)"
+        },
+        {
+          "symbol": "T/t",
+          "meaning": "Time (in years)"
+        },
+        {
+          "symbol": "A",
+          "meaning": "Amount after interest"
+        },
+        {
+          "symbol": "n",
+          "meaning": "Number of times interest is compounded per year"
+        }
+      ],
+      "how_it_works": "Simple interest is calculated once per period, while compound interest is calculated multiple times, adding interest to the principal each time.",
+      "example": "For $1,000 at 5% interest for 3 years: Simple Interest = $1,000 x 0.05 x 3 = $150; Compound Interest (compounded annually) = $1,000 x (1 + 0.05)^3 = $1,157.63"
+    },
+    "teaching_steps": [
+      "Introduce the concept of interest and its importance.",
+      "Explain the difference between simple and compound interest.",
+      "Demonstrate the formulas for each type of interest.",
+      "Work through examples with your teen to practice calculations.",
+      "Discuss real-world applications of interest."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about interest, which is a fee paid for borrowing money or earned for saving it.",
+        "do": "Show a picture of a bank and a loan agreement.",
+        "ask": "Why do you think banks pay interest on savings accounts?",
+        "reinforce": "Interest is an incentive to save money with the bank."
+      },
+      {
+        "say": "Simple interest is calculated only on the principal amount.",
+        "do": "Write the simple interest formula on paper: I = PRT.",
+        "ask": "Can you identify what each symbol represents?",
+        "reinforce": "Remember, simple interest is straightforward and doesn't change over time."
+      },
+      {
+        "say": "Compound interest is calculated on the principal and previously earned interest.",
+        "do": "Write the compound interest formula: A = P(1 + r/n)^(nt).",
+        "ask": "Why might compound interest grow your savings faster than simple interest?",
+        "reinforce": "Compound interest grows quicker because it builds on itself over time."
+      },
+      {
+        "say": "Let's see how these work with an example.",
+        "do": "Calculate simple and compound interest for $1,000 at 5% over 3 years.",
+        "ask": "What do you notice about the final amounts in each case?",
+        "reinforce": "Compound interest gives a higher return over the same period."
+      },
+      {
+        "say": "Interest affects loans and savings in real life.",
+        "do": "Discuss a car loan or savings plan scenario.",
+        "ask": "How could understanding interest impact financial decisions?",
+        "reinforce": "Awareness of interest helps make better choices when borrowing or saving."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Calculate the simple interest on a $2,000 loan with a 4% interest rate over 5 years.",
+        "hint": "Use the formula I = PRT.",
+        "answer": "$400"
+      },
+      {
+        "prompt": "Find the amount after 2 years for $1,500 invested at 3% compound interest, compounded annually.",
+        "hint": "Use A = P(1 + r/n)^(nt) with n = 1.",
+        "answer": "$1,545.45"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Interest is a crucial concept in financial math.",
+      "Simple interest is calculated on the principal only, while compound interest grows on itself.",
+      "Understanding these concepts can lead to smarter financial decisions."
+    ],
+    "common_mistakes": [
+      "Confusing simple interest with compound interest calculations.",
+      "Forgetting to convert percentage rates to decimals in formulas.",
+      "Misapplying the formula by mixing up symbols."
+    ],
+    "deep_dive": {
+      "history": "Interest has been around since ancient times, used in Babylonian and Roman societies.",
+      "connections": "Interest is related to exponential growth, a key concept in many areas of math and science.",
+      "misconceptions": "One common misconception is that compound interest is always better; it depends on the context.",
+      "teaching_tips": "Use real-life scenarios to illustrate how interest works over time.",
+      "derivation": "The compound interest formula derives from exponential growth, where the base is the growth rate applied over time."
+    },
+    "motivation": "Understanding interest can empower your teen to manage their finances effectively, leading to a more secure future."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of financial math! Today, we're exploring simple and compound interest—two key concepts that will help your teen manage money wisely.\n\n## Parent Orientation\n**Objective:** Help your teen understand and calculate simple and compound interest to make informed financial decisions.\n**Why it matters:** Interest calculations are essential in real life, whether saving for college, buying a car, or planning a vacation. Knowing how interest works can save you money and help grow your savings.\n**Parent Tip:** Encourage your teen to see interest as a tool for both borrowing and saving. Understanding it now will empower them to make smarter financial choices in the future.\n**Real-World Link:** Interest is everywhere—on savings accounts, loans, mortgages, and even credit cards. Mastering it can lead to better financial health.\n\n> **📐 Formula Box**\n> **Formula:** Simple Interest: I = PRT; Compound Interest: A = P(1 + r/n)^(nt)\n> **Symbols:**\n> - **I** — Interest earned or paid\n> - **P** — Principal amount (initial investment or loan)\n> - **R/r** — Annual interest rate (as a decimal)\n> - **T/t** — Time (in years)\n> - **A** — Amount after interest\n> - **n** — Number of times interest is compounded per year\n> **How it works:** Simple interest is calculated once per period, while compound interest is calculated multiple times, adding interest to the principal each time.\n> **Example:** For $1,000 at 5% interest for 3 years: Simple Interest = $1,000 x 0.05 x 3 = $150; Compound Interest (compounded annually) = $1,000 x (1 + 0.05)^3 = $1,157.63\n\n## Teaching Steps\n1. Introduce the concept of interest and its importance.\n2. Explain the difference between simple and compound interest.\n3. Demonstrate the formulas for each type of interest.\n4. Work through examples with your teen to practice calculations.\n5. Discuss real-world applications of interest.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about interest, which is a fee paid for borrowing money or earned for saving it.  \n**Show/Do:** Show a picture of a bank and a loan agreement.  \n**Ask:** Why do you think banks pay interest on savings accounts?  \n**Reinforce:** Interest is an incentive to save money with the bank.\n2. **Say:** Simple interest is calculated only on the principal amount.  \n**Show/Do:** Write the simple interest formula on paper: I = PRT.  \n**Ask:** Can you identify what each symbol represents?  \n**Reinforce:** Remember, simple interest is straightforward and doesn't change over time.\n3. **Say:** Compound interest is calculated on the principal and previously earned interest.  \n**Show/Do:** Write the compound interest formula: A = P(1 + r/n)^(nt).  \n**Ask:** Why might compound interest grow your savings faster than simple interest?  \n**Reinforce:** Compound interest grows quicker because it builds on itself over time.\n4. **Say:** Let's see how these work with an example.  \n**Show/Do:** Calculate simple and compound interest for $1,000 at 5% over 3 years.  \n**Ask:** What do you notice about the final amounts in each case?  \n**Reinforce:** Compound interest gives a higher return over the same period.\n5. **Say:** Interest affects loans and savings in real life.  \n**Show/Do:** Discuss a car loan or savings plan scenario.  \n**Ask:** How could understanding interest impact financial decisions?  \n**Reinforce:** Awareness of interest helps make better choices when borrowing or saving.\n\n## Practice Questions (Do It Together)\n**1. Calculate the simple interest on a $2,000 loan with a 4% interest rate over 5 years.**\n<details><summary>Hint</summary>\nUse the formula I = PRT.\n</details>\n<details><summary>Answer</summary>\n$400\n</details>\n\n**2. Find the amount after 2 years for $1,500 invested at 3% compound interest, compounded annually.**\n<details><summary>Hint</summary>\nUse A = P(1 + r/n)^(nt) with n = 1.\n</details>\n<details><summary>Answer</summary>\n$1,545.45\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Interest is a crucial concept in financial math.\n- Simple interest is calculated on the principal only, while compound interest grows on itself.\n- Understanding these concepts can lead to smarter financial decisions.\n\n**Common Mistakes**\n- Confusing simple interest with compound interest calculations.\n- Forgetting to convert percentage rates to decimals in formulas.\n- Misapplying the formula by mixing up symbols.\n\n## 🔍 Deep Dive\n**History or origin**\n\nInterest has been around since ancient times, used in Babylonian and Roman societies.\n\n**Future topic connections**\n\nInterest is related to exponential growth, a key concept in many areas of math and science.\n\n**Common misconceptions**\n\nOne common misconception is that compound interest is always better; it depends on the context.\n\n**Teaching tips for parents**\n\nUse real-life scenarios to illustrate how interest works over time.\n\n**More detail / derivation**\n\nThe compound interest formula derives from exponential growth, where the base is the growth rate applied over time.\n\n## Motivation\nUnderstanding interest can empower your teen to manage their finances effectively, leading to a more secure future."
+}

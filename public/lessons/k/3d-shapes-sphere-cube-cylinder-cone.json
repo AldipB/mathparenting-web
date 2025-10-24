@@ -1,104 +1,155 @@
 {
   "grade": {
-    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "id": "2ec64dbf-e35e-44e7-93f6-046656806954",
     "slug": "k",
-    "name": "Kindergarten (K)"
+    "name": "Kindergarten"
   },
   "unit": {
-    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
-    "title": "Complete Chapter Index",
-    "order_index": 99
+    "id": "c4dc2fe2-7c96-4bc6-a5e6-a8361edec681",
+    "title": "Shapes & Geometry",
+    "order_index": 1
   },
   "lesson": {
-    "id": "a150d581-696b-4256-8a05-41b9a8cc3170",
+    "id": "b71e389e-d177-45b9-a9a1-f7fb6a8aa479",
     "slug": "3d-shapes-sphere-cube-cylinder-cone",
-    "title": "3D Shapes (Sphere, Cube, Cylinder, Cone)",
-    "summary": "3D Shapes (Sphere, Cube, Cylinder, Cone) — parent overview.",
+    "title": "Discovering 3D Shapes: Sphere, Cube, Cylinder, Cone",
+    "summary": "3D shapes (sphere, cube, cylinder, cone) — parent overview for Kindergarten.",
     "difficulty_level": "core",
-    "order_index": 10
+    "order_index": 2
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "- Identify and name 3D shapes: sphere, cube, cylinder, and cone.\n- Understand basic properties of these shapes.\n- Recognize these shapes in everyday objects.\n**Why this matters for parents:** Understanding 3D shapes helps children make sense of the world around them and lays the foundation for geometry.",
-      "order_index": 1
-    },
-    {
       "key": "overview",
-      "md": "This lesson introduces your child to 3D shapes: sphere, cube, cylinder, and cone. These are the building blocks of geometry and can be found in many household items.\nRecognizing these shapes helps children develop spatial awareness and problem-solving skills. It also prepares them for more complex math concepts in the future.",
+      "md": "**Objective:** Help your child recognize and describe the basic 3D shapes: sphere, cube, cylinder, and cone.\n\n**Why it matters:** Understanding 3D shapes builds spatial awareness and lays the groundwork for geometry in later grades.\n\n**Parent Tip:** Use everyday objects to make learning shapes fun and relatable. Encourage your child to touch and feel the differences.\n\n**Real-World Link:** Look around your home: a basketball is a sphere, a dice is a cube, a can of soup is a cylinder, and an ice cream cone is, well, a cone!",
       "order_index": 2
     },
     {
       "key": "core",
-      "md": "3D shapes are objects that have length, width, and height. They are different from flat, 2D shapes because they take up space. For example, a ball is a sphere, a box is a cube, a can is a cylinder, and an ice cream cone is a cone.",
+      "md": "Welcome to the world of 3D shapes! Let's explore these fascinating forms that your child sees and interacts with every day.",
       "order_index": 3
     },
     {
-      "key": "demo",
-      "md": "1. **Gather objects:** Find a ball, a box, a can, and an ice cream cone or party hat.\n2. **Say:** \"Let's sort these objects by shape.\"\n3. **Ask:** \"Which ones can roll? Which ones can stack?\"\n4. **Guess-the-shape bag game:** Place one object in a bag. Have your child feel it and guess the shape.\n5. **Say:** \"Let's build a cube using straws or sticks. How many sides and corners does it have?\"\n6. **Compare:** \"Look at this square and rectangle. What happens if we turn the square? Does it become a diamond?\"",
-      "order_index": 4
-    },
-    {
-      "key": "math",
-      "md": "A sphere is perfectly round, like a ball. A cube has 6 equal square faces, like a dice. A cylinder has 2 circular faces and a curved surface, like a can. A cone has 1 circular face and a pointed top, like an ice cream cone.\nFor example, a cube with each side measuring 2 units has a total surface area of $6 \\times 2^2 = 24$ square units.",
-      "order_index": 5
-    },
-    {
-      "key": "formulas",
-      "md": "- Surface area of a cube: $6s^2$\n  - $s$: length of a side",
-      "order_index": 6
-    },
-    {
       "key": "guide",
-      "md": "1. **Introduce shapes:** Show each object and name the shape.\n2. **Explore properties:** Discuss how each shape feels and looks. \"Is it round? Does it have corners?\"\n3. **Shape hunt:** Go around the house and find more objects that match each shape.\n4. **Build and compare:** Use sticks to build a cube. Compare it with a rectangular box.\n5. **Discuss:** Talk about where you see these shapes outside, like in buildings or playgrounds.",
+      "md": "1. Start with the cube: Show your child a dice and count its sides together.\n2. Move to the sphere: Roll a ball to show how it moves differently than other shapes.\n3. Introduce the cylinder: Use a can to demonstrate its round sides and flat top.\n4. Explore the cone: Show an ice cream cone or a party hat and discuss its pointy end.",
       "order_index": 7
     },
     {
-      "key": "mistakes",
-      "md": "- Confusing a square with a diamond: Try turning a square and explaining it’s still a square.\n- Thinking all round objects are spheres: Try rolling a can to show it’s a cylinder.\n- Mixing up cube and rectangular prism: Try counting the sides and comparing their shapes.",
+      "key": "practice",
+      "md": "**1. Find a cube in your toy box. (use numbers like 6 and 9)**\n_Answer:_ A building block is a cube.\n_Hint:_ Look for a block with six equal sides.\n\n**2. Spot a sphere in the park. (use numbers like 6 and 9)**\n_Answer:_ A playground ball is a sphere.\n_Hint:_ It's round and rolls easily.\n\n**3. Identify a cylinder in the kitchen. (use numbers like 6 and 9)**\n_Answer:_ A can of soup is a cylinder.\n_Hint:_ It has circular ends and a curved side.\n\n**4. Locate a cone in the pantry. (use numbers like 6 and 9)**\n_Answer:_ An ice cream cone is a cone.\n_Hint:_ It has a flat base and a pointy top.",
       "order_index": 8
     },
     {
-      "key": "connection",
-      "md": "3D shapes are everywhere! The wheels on a car are cylinders, and the soccer ball is a sphere. Recognizing these shapes helps children understand their environment.",
+      "key": "mistakes",
+      "md": "- Confusing a cylinder with a sphere because they both roll.\n- Thinking a cone has flat sides like a cube.",
       "order_index": 9
     },
     {
-      "key": "close",
-      "md": "Exploring 3D shapes with your child opens up a world of discovery. Keep finding and naming shapes together!",
-      "order_index": 11
+      "key": "connection",
+      "md": "Look around your home: a basketball is a sphere, a dice is a cube, a can of soup is a cylinder, and an ice cream cone is, well, a cone!",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "- Identify and name 3D shapes: sphere, cube, cylinder, and cone.\n- Understand basic properties of these shapes.\n- Recognize these shapes in everyday objects.\n**Why this matters for parents:** Understanding 3D shapes helps children make sense of the world around them and lays the foundation for geometry.",
-    "overview": "This lesson introduces your child to 3D shapes: sphere, cube, cylinder, and cone. These are the building blocks of geometry and can be found in many household items.\nRecognizing these shapes helps children develop spatial awareness and problem-solving skills. It also prepares them for more complex math concepts in the future.",
-    "core": "3D shapes are objects that have length, width, and height. They are different from flat, 2D shapes because they take up space. For example, a ball is a sphere, a box is a cube, a can is a cylinder, and an ice cream cone is a cone.",
-    "demo": "1. **Gather objects:** Find a ball, a box, a can, and an ice cream cone or party hat.\n2. **Say:** \"Let's sort these objects by shape.\"\n3. **Ask:** \"Which ones can roll? Which ones can stack?\"\n4. **Guess-the-shape bag game:** Place one object in a bag. Have your child feel it and guess the shape.\n5. **Say:** \"Let's build a cube using straws or sticks. How many sides and corners does it have?\"\n6. **Compare:** \"Look at this square and rectangle. What happens if we turn the square? Does it become a diamond?\"",
-    "math": "A sphere is perfectly round, like a ball. A cube has 6 equal square faces, like a dice. A cylinder has 2 circular faces and a curved surface, like a can. A cone has 1 circular face and a pointed top, like an ice cream cone.\nFor example, a cube with each side measuring 2 units has a total surface area of $6 \\times 2^2 = 24$ square units.",
-    "formulas": "- Surface area of a cube: $6s^2$\n  - $s$: length of a side",
-    "guide": "1. **Introduce shapes:** Show each object and name the shape.\n2. **Explore properties:** Discuss how each shape feels and looks. \"Is it round? Does it have corners?\"\n3. **Shape hunt:** Go around the house and find more objects that match each shape.\n4. **Build and compare:** Use sticks to build a cube. Compare it with a rectangular box.\n5. **Discuss:** Talk about where you see these shapes outside, like in buildings or playgrounds.",
-    "mistakes": "- Confusing a square with a diamond: Try turning a square and explaining it’s still a square.\n- Thinking all round objects are spheres: Try rolling a can to show it’s a cylinder.\n- Mixing up cube and rectangular prism: Try counting the sides and comparing their shapes.",
-    "connection": "3D shapes are everywhere! The wheels on a car are cylinders, and the soccer ball is a sphere. Recognizing these shapes helps children understand their environment.",
-    "close": "Exploring 3D shapes with your child opens up a world of discovery. Keep finding and naming shapes together!"
+    "objectives": "**Objective:** Help your child recognize and describe basic 3D shapes in their environment.",
+    "overview": "**Objective:** Help your child recognize and describe the basic 3D shapes: sphere, cube, cylinder, and cone.\n\n**Why it matters:** Understanding 3D shapes builds spatial awareness and lays the groundwork for geometry in later grades.\n\n**Parent Tip:** Use everyday objects to make learning shapes fun and relatable. Encourage your child to touch and feel the differences.\n\n**Real-World Link:** Look around your home: a basketball is a sphere, a dice is a cube, a can of soup is a cylinder, and an ice cream cone is, well, a cone!",
+    "core": "Welcome to the world of 3D shapes! Let's explore these fascinating forms that your child sees and interacts with every day.",
+    "demo": "**Spark Curiosity:**\n\nWhat if your favorite toy could roll away? Why does it roll and not just sit still?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with the cube: Show your child a dice and count its sides together.\n2. Move to the sphere: Roll a ball to show how it moves differently than other shapes.\n3. Introduce the cylinder: Use a can to demonstrate its round sides and flat top.\n4. Explore the cone: Show an ice cream cone or a party hat and discuss its pointy end.",
+    "practice": "**1. Find a cube in your toy box. (use numbers like 6 and 9)**\n_Answer:_ A building block is a cube.\n_Hint:_ Look for a block with six equal sides.\n\n**2. Spot a sphere in the park. (use numbers like 6 and 9)**\n_Answer:_ A playground ball is a sphere.\n_Hint:_ It's round and rolls easily.\n\n**3. Identify a cylinder in the kitchen. (use numbers like 6 and 9)**\n_Answer:_ A can of soup is a cylinder.\n_Hint:_ It has circular ends and a curved side.\n\n**4. Locate a cone in the pantry. (use numbers like 6 and 9)**\n_Answer:_ An ice cream cone is a cone.\n_Hint:_ It has a flat base and a pointy top.",
+    "mistakes": "- Confusing a cylinder with a sphere because they both roll.\n- Thinking a cone has flat sides like a cube.",
+    "connection": "Look around your home: a basketball is a sphere, a dice is a cube, a can of soup is a cylinder, and an ice cream cone is, well, a cone!",
+    "close": "**Key Takeaways**\n- 3D shapes are everywhere in daily life.\n- Recognizing these shapes builds spatial awareness.\n- Encouraging exploration helps solidify understanding.\n\n**Parent Reflection Questions**\n- What shapes did we find today?\n- How can we find more shapes in new places?"
   },
-  "practice": [
-    {
-      "order_index": 1,
-      "question_md": "What shape is a basketball?",
-      "hint_md": "Think about how it rolls.",
-      "answer_md": "A basketball is a sphere."
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Discovering 3D Shapes: Sphere, Cube, Cylinder, Cone",
+    "introduction": "Welcome to the exciting world of 3D shapes! Today, we'll explore spheres, cubes, cylinders, and cones. These shapes are all around us, and recognizing them helps children connect math with the world.",
+    "objective": "Help your child identify and describe spheres, cubes, cylinders, and cones using everyday objects.",
+    "why_matters": "Understanding 3D shapes builds a foundation for geometry, helping kids see math in the world around them.",
+    "parent_tip": "Use household items to make learning interactive and fun! Everyday objects are perfect for exploring 3D shapes together.",
+    "real_world_link": "Think about a soccer ball (sphere), dice (cube), a can (cylinder), and an ice cream cone (cone). These objects are familiar and make learning relatable.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce each 3D shape using familiar objects.",
+      "Describe the unique features of each shape.",
+      "Encourage your child to touch and feel the shapes.",
+      "Use simple language to explain the differences.",
+      "Play a game to find these shapes around the house."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at a ball. This is called a sphere.",
+        "do": "Show your child a ball.",
+        "ask": "Can you find another sphere in the room?",
+        "reinforce": "That's right! Anything round like a ball is a sphere."
+      },
+      {
+        "say": "Now, let's find a cube. Look at this dice.",
+        "do": "Hand your child a dice.",
+        "ask": "What else looks like a cube?",
+        "reinforce": "Cubes have six square faces, like a box."
+      },
+      {
+        "say": "Here is a can. This shape is a cylinder.",
+        "do": "Give your child a can.",
+        "ask": "Can you spot another cylinder?",
+        "reinforce": "Cylinders have two circle faces and a curved side."
+      },
+      {
+        "say": "This ice cream cone is a cone shape.",
+        "do": "Show an ice cream cone or a picture of one.",
+        "ask": "What else could be a cone?",
+        "reinforce": "Cones have a pointy top and a round base."
+      },
+      {
+        "say": "Let's play a game! Find one object for each shape.",
+        "do": "Encourage your child to explore around the house.",
+        "ask": "What did you find for a sphere, cube, cylinder, and cone?",
+        "reinforce": "Great job! You found 3D shapes all around you."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "How many faces does a cube have?",
+        "hint": "Think about how many sides a dice has.",
+        "answer": "6"
+      },
+      {
+        "prompt": "Which shape has a round base and a pointy top?",
+        "hint": "Think of an ice cream cone.",
+        "answer": "Cone"
+      },
+      {
+        "prompt": "Which shape can roll smoothly across the floor?",
+        "hint": "Imagine a ball.",
+        "answer": "Sphere"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Today, we learned about four 3D shapes: sphere, cube, cylinder, and cone.",
+      "These shapes can be found in many everyday objects.",
+      "Understanding these shapes helps us see math in real life."
+    ],
+    "common_mistakes": [
+      "Confusing the faces of a cube with the sides of a cylinder.",
+      "Thinking a cone's base is flat like a square instead of a circle.",
+      "Mixing up the names of the shapes."
+    ],
+    "deep_dive": {
+      "history": "3D shapes have been studied since ancient times, helping architects and artists create beautiful structures and art.",
+      "connections": "These shapes are found in architecture, design, and nature, showing their importance in various fields.",
+      "misconceptions": "Some children may think all round objects are spheres, but cylinders also have round features.",
+      "teaching_tips": "Use simple, hands-on activities to reinforce shape recognition.",
+      "derivation": "Understanding basic 3D shapes is a stepping stone to more complex geometry concepts."
     },
-    {
-      "order_index": 2,
-      "question_md": "How many flat faces does a cube have?",
-      "hint_md": "Count the squares.",
-      "answer_md": "A cube has 6 flat faces."
-    },
-    {
-      "order_index": 3,
-      "question_md": "Which shape has a circular base and a pointy top?",
-      "hint_md": "Think of an ice cream cone.",
-      "answer_md": "A cone has a circular base and a pointy top."
-    }
-  ]
+    "motivation": "Exploring 3D shapes is like going on a treasure hunt! Each shape you find is a new discovery in the world of math."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the exciting world of 3D shapes! Today, we'll explore spheres, cubes, cylinders, and cones. These shapes are all around us, and recognizing them helps children connect math with the world.\n\n## Parent Orientation\n**Objective:** Help your child identify and describe spheres, cubes, cylinders, and cones using everyday objects.\n**Why it matters:** Understanding 3D shapes builds a foundation for geometry, helping kids see math in the world around them.\n**Parent Tip:** Use household items to make learning interactive and fun! Everyday objects are perfect for exploring 3D shapes together.\n**Real-World Link:** Think about a soccer ball (sphere), dice (cube), a can (cylinder), and an ice cream cone (cone). These objects are familiar and make learning relatable.\n\n## Teaching Steps\n1. Introduce each 3D shape using familiar objects.\n2. Describe the unique features of each shape.\n3. Encourage your child to touch and feel the shapes.\n4. Use simple language to explain the differences.\n5. Play a game to find these shapes around the house.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at a ball. This is called a sphere.  \n**Show/Do:** Show your child a ball.  \n**Ask:** Can you find another sphere in the room?  \n**Reinforce:** That's right! Anything round like a ball is a sphere.\n2. **Say:** Now, let's find a cube. Look at this dice.  \n**Show/Do:** Hand your child a dice.  \n**Ask:** What else looks like a cube?  \n**Reinforce:** Cubes have six square faces, like a box.\n3. **Say:** Here is a can. This shape is a cylinder.  \n**Show/Do:** Give your child a can.  \n**Ask:** Can you spot another cylinder?  \n**Reinforce:** Cylinders have two circle faces and a curved side.\n4. **Say:** This ice cream cone is a cone shape.  \n**Show/Do:** Show an ice cream cone or a picture of one.  \n**Ask:** What else could be a cone?  \n**Reinforce:** Cones have a pointy top and a round base.\n5. **Say:** Let's play a game! Find one object for each shape.  \n**Show/Do:** Encourage your child to explore around the house.  \n**Ask:** What did you find for a sphere, cube, cylinder, and cone?  \n**Reinforce:** Great job! You found 3D shapes all around you.\n\n## Practice Questions (Do It Together)\n**1. How many faces does a cube have?**\n<details><summary>Hint</summary>\nThink about how many sides a dice has.\n</details>\n<details><summary>Answer</summary>\n6\n</details>\n\n**2. Which shape has a round base and a pointy top?**\n<details><summary>Hint</summary>\nThink of an ice cream cone.\n</details>\n<details><summary>Answer</summary>\nCone\n</details>\n\n**3. Which shape can roll smoothly across the floor?**\n<details><summary>Hint</summary>\nImagine a ball.\n</details>\n<details><summary>Answer</summary>\nSphere\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Today, we learned about four 3D shapes: sphere, cube, cylinder, and cone.\n- These shapes can be found in many everyday objects.\n- Understanding these shapes helps us see math in real life.\n\n**Common Mistakes**\n- Confusing the faces of a cube with the sides of a cylinder.\n- Thinking a cone's base is flat like a square instead of a circle.\n- Mixing up the names of the shapes.\n\n## 🔍 Deep Dive\n**History or origin**\n\n3D shapes have been studied since ancient times, helping architects and artists create beautiful structures and art.\n\n**Future topic connections**\n\nThese shapes are found in architecture, design, and nature, showing their importance in various fields.\n\n**Common misconceptions**\n\nSome children may think all round objects are spheres, but cylinders also have round features.\n\n**Teaching tips for parents**\n\nUse simple, hands-on activities to reinforce shape recognition.\n\n**More detail / derivation**\n\nUnderstanding basic 3D shapes is a stepping stone to more complex geometry concepts.\n\n## Motivation\nExploring 3D shapes is like going on a treasure hunt! Each shape you find is a new discovery in the world of math."
 }

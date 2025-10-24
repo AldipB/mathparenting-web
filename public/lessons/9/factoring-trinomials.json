@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "789f75fc-e02d-4223-b761-b6e531df8f4e",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "2fab6316-b490-467e-98e1-8056a0418be7",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "41b5a4ea-57b0-4b85-9523-444a579e0fe9",
+    "slug": "factoring-trinomials",
+    "title": "Factoring Trinomials: Unlocking the Magic of Numbers",
+    "summary": "Factoring trinomials — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child factor trinomials and recognize patterns to solve them effectively.\n\n**Why it matters:** Factoring is a fundamental skill in algebra that simplifies complex problems and is crucial for solving quadratic equations.\n\n**Parent Tip:** Encourage your child to look for patterns and relationships between numbers. It’s a bit like finding the right combination to unlock a treasure box!\n\n**Real-World Link:** Think of factoring as organizing a party. You need to group things in a way that makes everything fit perfectly, just like arranging tables and chairs to seat everyone comfortably.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of factoring trinomials! It's like solving a fun puzzle where numbers are the pieces. This lesson will help you guide your child in understanding how to break down these expressions into simpler parts.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying the trinomial in the form ax² + bx + c.\n2. Look for two numbers that multiply to 'a*c' and add up to 'b'.\n3. Rewrite the middle term with the two numbers found.\n4. Factor by grouping: separate the trinomial into two binomials.\n5. Check your work by expanding the binomials to ensure they match the original trinomial.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Factor the trinomial: x² + 5x + 6**\n_Answer:_ (x + 2)(x + 3)\n_Hint:_ Find two numbers that multiply to 6 and add to 5.\n\n**2. Factor the trinomial: 2x² + 7x + 3**\n_Answer:_ (2x + 1)(x + 3)\n_Hint:_ Multiply 'a' and 'c' (2*3). Find numbers that multiply to 6 and add to 7.\n\n**3. Factor the trinomial: x² - 3x - 4**\n_Answer:_ (x - 4)(x + 1)\n_Hint:_ Look for numbers that multiply to -4 and add to -3.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to multiply 'a' and 'c' when 'a' is not 1.\n- Not checking the final answer by expanding the binomials.\n- Miscalculating the numbers that add to the middle term.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of factoring as organizing a party. You need to group things in a way that makes everything fit perfectly, just like arranging tables and chairs to seat everyone comfortably.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to factor trinomials, turning a complex-looking expression into a simpler multiplication of two binomials.",
+    "overview": "**Objective:** Help your child factor trinomials and recognize patterns to solve them effectively.\n\n**Why it matters:** Factoring is a fundamental skill in algebra that simplifies complex problems and is crucial for solving quadratic equations.\n\n**Parent Tip:** Encourage your child to look for patterns and relationships between numbers. It’s a bit like finding the right combination to unlock a treasure box!\n\n**Real-World Link:** Think of factoring as organizing a party. You need to group things in a way that makes everything fit perfectly, just like arranging tables and chairs to seat everyone comfortably.",
+    "core": "Welcome to the world of factoring trinomials! It's like solving a fun puzzle where numbers are the pieces. This lesson will help you guide your child in understanding how to break down these expressions into simpler parts.",
+    "demo": "**Spark Curiosity:**\n\nEver wondered how magicians pull off their tricks? Factoring is like revealing the hidden secrets behind numbers!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** ax^2 + bx + c = (px + q)(rx + s)\n- **Meaning:** The expression $ax^2 + bx + c$ can be rewritten as the product of two binomials.\n- **How it works:** Find two numbers that multiply to $a \\times c$ and add to $b$. Use these to rewrite the middle term and factor by grouping.\n- **Example:** For $x^2 + 5x + 6$, find numbers that multiply to 6 and add to 5: 2 and 3. So, $x^2 + 5x + 6 = (x + 2)(x + 3)$.",
+    "formulas": "ax^2 + bx + c = (px + q)(rx + s)",
+    "guide": "1. Start by identifying the trinomial in the form ax² + bx + c.\n2. Look for two numbers that multiply to 'a*c' and add up to 'b'.\n3. Rewrite the middle term with the two numbers found.\n4. Factor by grouping: separate the trinomial into two binomials.\n5. Check your work by expanding the binomials to ensure they match the original trinomial.",
+    "practice": "**1. Factor the trinomial: x² + 5x + 6**\n_Answer:_ (x + 2)(x + 3)\n_Hint:_ Find two numbers that multiply to 6 and add to 5.\n\n**2. Factor the trinomial: 2x² + 7x + 3**\n_Answer:_ (2x + 1)(x + 3)\n_Hint:_ Multiply 'a' and 'c' (2*3). Find numbers that multiply to 6 and add to 7.\n\n**3. Factor the trinomial: x² - 3x - 4**\n_Answer:_ (x - 4)(x + 1)\n_Hint:_ Look for numbers that multiply to -4 and add to -3.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to multiply 'a' and 'c' when 'a' is not 1.\n- Not checking the final answer by expanding the binomials.\n- Miscalculating the numbers that add to the middle term.",
+    "connection": "Think of factoring as organizing a party. You need to group things in a way that makes everything fit perfectly, just like arranging tables and chairs to seat everyone comfortably.",
+    "close": "**Key Takeaways**\n- Factoring turns a trinomial into a simpler product of two binomials.\n- Identifying pairs of numbers that multiply to one value and add to another is crucial.\n- Practicing with different examples builds confidence and understanding.\n\n**Parent Reflection Questions**\n- What steps did we take to find the factors of the trinomial?\n- How can you verify your answer is correct?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Factoring Trinomials: Unlocking the Magic of Numbers",
+    "introduction": "Welcome, parents! Today, we're diving into the world of factoring trinomials, a key skill in algebra that helps students simplify expressions and solve equations. Let's explore how your child can unlock the magic of numbers with your support.",
+    "objective": "Help your child understand how to factor trinomials, making complex equations simpler and more manageable.",
+    "why_matters": "Factoring trinomials is a foundational skill in algebra that will empower your child to tackle more advanced math topics with confidence. It's like finding hidden treasures in math problems!",
+    "parent_tip": "Encourage your child to practice regularly and praise their efforts. Understanding comes with patience and practice.",
+    "real_world_link": "Factoring trinomials helps in calculating areas of plots, optimizing resources, and even in coding algorithms. It's a skill that finds use in many real-life situations.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain what a trinomial is: a three-term algebraic expression.",
+      "Introduce the concept of factoring as the reverse of expanding.",
+      "Highlight the standard form of a trinomial: ax^2 + bx + c.",
+      "Demonstrate how to identify factors of 'a' and 'c' that add up to 'b'.",
+      "Practice factoring with different trinomials."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by understanding what a trinomial is.",
+        "do": "Write down an example: x^2 + 5x + 6.",
+        "ask": "Can you spot the three terms here?",
+        "reinforce": "Great! Recognizing these terms is the first step."
+      },
+      {
+        "say": "Factoring is like finding numbers that multiply to give us the trinomial.",
+        "do": "Show how to rewrite x^2 + 5x + 6 as (x + 2)(x + 3).",
+        "ask": "What do you notice about these numbers?",
+        "reinforce": "Yes, they multiply to give the last term and add to the middle term."
+      },
+      {
+        "say": "Let's identify the pattern.",
+        "do": "Point out that the factors of 6 that add up to 5 are 2 and 3.",
+        "ask": "Can you think of other pairs of numbers that work?",
+        "reinforce": "Correct! This pattern helps us factor different trinomials."
+      },
+      {
+        "say": "Now, let's practice with another example.",
+        "do": "Write down x^2 + 7x + 10.",
+        "ask": "What numbers multiply to 10 and add up to 7?",
+        "reinforce": "That's right! 2 and 5 work perfectly here."
+      },
+      {
+        "say": "Finally, let's check our work.",
+        "do": "Expand (x + 2)(x + 5) to see if we get x^2 + 7x + 10.",
+        "ask": "Does it match the original trinomial?",
+        "reinforce": "Great job! Checking your work ensures accuracy."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Factor the trinomial: x^2 + 8x + 15.",
+        "hint": "Find two numbers that multiply to 15 and add to 8.",
+        "answer": "(x + 3)(x + 5)"
+      },
+      {
+        "prompt": "Factor the trinomial: x^2 + 11x + 18.",
+        "hint": "Look for numbers that multiply to 18 and add to 11.",
+        "answer": "(x + 2)(x + 9)"
+      },
+      {
+        "prompt": "Factor the trinomial: x^2 + 10x + 21.",
+        "hint": "What multiplies to 21 and adds to 10?",
+        "answer": "(x + 3)(x + 7)"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Trinomials have three terms.",
+      "Factoring is finding numbers that multiply to the last term and add to the middle term.",
+      "Practice makes perfect! Keep trying different trinomials."
+    ],
+    "common_mistakes": [
+      "Forgetting to check if the factors add up to the middle term.",
+      "Mixing up signs when factoring.",
+      "Not verifying the factorization by expanding."
+    ],
+    "deep_dive": {
+      "history": "Factoring has been used for centuries, dating back to ancient mathematicians who used it to simplify complex calculations.",
+      "connections": "Factoring is connected to quadratic equations and polynomial functions, forming the basis for solving many algebraic problems.",
+      "misconceptions": "Some students think factoring is only about memorization, but it's about pattern recognition and logical thinking.",
+      "teaching_tips": "Use visual aids like factor trees or algebra tiles to make the concept more concrete.",
+      "derivation": "Factoring involves breaking down expressions into simpler components, using the reverse process of distribution."
+    },
+    "motivation": "By mastering factoring, your child gains powerful tools to solve puzzles and equations, building confidence and problem-solving skills for the future."
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Today, we're diving into the world of factoring trinomials, a key skill in algebra that helps students simplify expressions and solve equations. Let's explore how your child can unlock the magic of numbers with your support.\n\n## Parent Orientation\n**Objective:** Help your child understand how to factor trinomials, making complex equations simpler and more manageable.\n**Why it matters:** Factoring trinomials is a foundational skill in algebra that will empower your child to tackle more advanced math topics with confidence. It's like finding hidden treasures in math problems!\n**Parent Tip:** Encourage your child to practice regularly and praise their efforts. Understanding comes with patience and practice.\n**Real-World Link:** Factoring trinomials helps in calculating areas of plots, optimizing resources, and even in coding algorithms. It's a skill that finds use in many real-life situations.\n\n## Teaching Steps\n1. Explain what a trinomial is: a three-term algebraic expression.\n2. Introduce the concept of factoring as the reverse of expanding.\n3. Highlight the standard form of a trinomial: ax^2 + bx + c.\n4. Demonstrate how to identify factors of 'a' and 'c' that add up to 'b'.\n5. Practice factoring with different trinomials.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by understanding what a trinomial is.  \n**Show/Do:** Write down an example: x^2 + 5x + 6.  \n**Ask:** Can you spot the three terms here?  \n**Reinforce:** Great! Recognizing these terms is the first step.\n2. **Say:** Factoring is like finding numbers that multiply to give us the trinomial.  \n**Show/Do:** Show how to rewrite x^2 + 5x + 6 as (x + 2)(x + 3).  \n**Ask:** What do you notice about these numbers?  \n**Reinforce:** Yes, they multiply to give the last term and add to the middle term.\n3. **Say:** Let's identify the pattern.  \n**Show/Do:** Point out that the factors of 6 that add up to 5 are 2 and 3.  \n**Ask:** Can you think of other pairs of numbers that work?  \n**Reinforce:** Correct! This pattern helps us factor different trinomials.\n4. **Say:** Now, let's practice with another example.  \n**Show/Do:** Write down x^2 + 7x + 10.  \n**Ask:** What numbers multiply to 10 and add up to 7?  \n**Reinforce:** That's right! 2 and 5 work perfectly here.\n5. **Say:** Finally, let's check our work.  \n**Show/Do:** Expand (x + 2)(x + 5) to see if we get x^2 + 7x + 10.  \n**Ask:** Does it match the original trinomial?  \n**Reinforce:** Great job! Checking your work ensures accuracy.\n\n## Practice Questions (Do It Together)\n**1. Factor the trinomial: x^2 + 8x + 15.**\n<details><summary>Hint</summary>\nFind two numbers that multiply to 15 and add to 8.\n</details>\n<details><summary>Answer</summary>\n(x + 3)(x + 5)\n</details>\n\n**2. Factor the trinomial: x^2 + 11x + 18.**\n<details><summary>Hint</summary>\nLook for numbers that multiply to 18 and add to 11.\n</details>\n<details><summary>Answer</summary>\n(x + 2)(x + 9)\n</details>\n\n**3. Factor the trinomial: x^2 + 10x + 21.**\n<details><summary>Hint</summary>\nWhat multiplies to 21 and adds to 10?\n</details>\n<details><summary>Answer</summary>\n(x + 3)(x + 7)\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Trinomials have three terms.\n- Factoring is finding numbers that multiply to the last term and add to the middle term.\n- Practice makes perfect! Keep trying different trinomials.\n\n**Common Mistakes**\n- Forgetting to check if the factors add up to the middle term.\n- Mixing up signs when factoring.\n- Not verifying the factorization by expanding.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFactoring has been used for centuries, dating back to ancient mathematicians who used it to simplify complex calculations.\n\n**Future topic connections**\n\nFactoring is connected to quadratic equations and polynomial functions, forming the basis for solving many algebraic problems.\n\n**Common misconceptions**\n\nSome students think factoring is only about memorization, but it's about pattern recognition and logical thinking.\n\n**Teaching tips for parents**\n\nUse visual aids like factor trees or algebra tiles to make the concept more concrete.\n\n**More detail / derivation**\n\nFactoring involves breaking down expressions into simpler components, using the reverse process of distribution.\n\n## Motivation\nBy mastering factoring, your child gains powerful tools to solve puzzles and equations, building confidence and problem-solving skills for the future."
+}

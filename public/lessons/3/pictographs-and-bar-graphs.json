@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "c4584aa9-e762-41e5-bc1b-879ae26f8a27",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "efeadd68-e94a-4591-ad7c-09dcadc19936",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "954584e2-f95e-42e6-afb5-6081a011a42d",
+    "slug": "pictographs-and-bar-graphs",
+    "title": "Pictographs & Bar Graphs: Turning Numbers into Pictures",
+    "summary": "Pictographs & bar graphs — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 9
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn how to read and create pictographs and bar graphs to represent data visually.\n\n**Why it matters:** By mastering these skills, your child will be able to interpret information quickly and make informed decisions based on visual data.\n\n**Parent Tip:** Encourage your child to describe what they see in a graph. This can help them articulate their thought process and improve their analytical skills.\n\n**Real-World Link:** Think of a bar graph like a bookshelf. Each book represents data, and how high the stack goes shows how much of something there is—like how many books you have in each genre.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we're diving into pictographs and bar graphs, fun tools that help kids visualize numbers by turning them into pictures. This makes understanding data as easy as pie (or a bar of chocolate)!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce pictographs by using simple pictures to represent numbers. For example, use apples to show how many apples were sold.\n2. Explain that each picture or symbol represents a specific number of items.\n3. Show how to read a bar graph by looking at the height of each bar to determine quantities.\n4. Practice drawing a simple bar graph with your child using their favorite fruits to show how many of each they have at home.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If one apple picture represents 2 apples, how many apples are shown if there are 4 apple pictures?**\n_Answer:_ 8 apples\n_Hint:_ Multiply the number of pictures by 2.\n\n**2. On a bar graph, the bar for 'bananas' reaches up to 5. What does this mean?**\n_Answer:_ There are 5 bananas.\n_Hint:_ Check how many units each bar represents.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting what each symbol represents in a pictograph.\n- Misreading the scale on a bar graph.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a bar graph like a bookshelf. Each book represents data, and how high the stack goes shows how much of something there is—like how many books you have in each genre.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to read and create pictographs and bar graphs.",
+    "overview": "**Objective:** Help your child learn how to read and create pictographs and bar graphs to represent data visually.\n\n**Why it matters:** By mastering these skills, your child will be able to interpret information quickly and make informed decisions based on visual data.\n\n**Parent Tip:** Encourage your child to describe what they see in a graph. This can help them articulate their thought process and improve their analytical skills.\n\n**Real-World Link:** Think of a bar graph like a bookshelf. Each book represents data, and how high the stack goes shows how much of something there is—like how many books you have in each genre.",
+    "core": "Welcome! Today, we're diving into pictographs and bar graphs, fun tools that help kids visualize numbers by turning them into pictures. This makes understanding data as easy as pie (or a bar of chocolate)!",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'If you could turn your favorite things into a picture, how would you do it?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce pictographs by using simple pictures to represent numbers. For example, use apples to show how many apples were sold.\n2. Explain that each picture or symbol represents a specific number of items.\n3. Show how to read a bar graph by looking at the height of each bar to determine quantities.\n4. Practice drawing a simple bar graph with your child using their favorite fruits to show how many of each they have at home.",
+    "practice": "**1. If one apple picture represents 2 apples, how many apples are shown if there are 4 apple pictures?**\n_Answer:_ 8 apples\n_Hint:_ Multiply the number of pictures by 2.\n\n**2. On a bar graph, the bar for 'bananas' reaches up to 5. What does this mean?**\n_Answer:_ There are 5 bananas.\n_Hint:_ Check how many units each bar represents.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting what each symbol represents in a pictograph.\n- Misreading the scale on a bar graph.",
+    "connection": "Think of a bar graph like a bookshelf. Each book represents data, and how high the stack goes shows how much of something there is—like how many books you have in each genre.",
+    "close": "**Key Takeaways**\n- Graphs turn numbers into pictures to make data easy to understand.\n- Pictographs use symbols to represent numbers.\n- Bar graphs use bars to show quantities.\n\n**Parent Reflection Questions**\n- What story is this graph telling us?\n- How can we use graphs to share information with others?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Pictographs & Bar Graphs: Turning Numbers into Pictures",
+    "introduction": "Welcome to the world of pictographs and bar graphs! These tools help your child visualize numbers and data, turning abstract information into colorful, engaging pictures.",
+    "objective": "Help your child understand how to read and create pictographs and bar graphs, enhancing their ability to interpret data visually.",
+    "why_matters": "Graphs are everywhere—from weather reports to sports scores. Understanding them will help your child make sense of the world and communicate information effectively.",
+    "parent_tip": "Encourage your child to explain what they see in graphs. This builds their confidence and reinforces their comprehension.",
+    "real_world_link": "Next time you look at a weather forecast or a sports game summary, point out how graphs are used to simplify complex data.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of pictographs using simple images to represent data.",
+      "Explain bar graphs as a way to compare quantities using bars of different lengths.",
+      "Discuss the importance of titles, labels, and keys in graphs.",
+      "Practice creating a simple pictograph with your child using stickers or drawings.",
+      "Guide your child in making a bar graph using blocks or other objects."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore how we can show numbers as pictures.",
+        "do": "Show a simple pictograph with smiley faces representing days of sunshine.",
+        "ask": "How many sunny days do you see?",
+        "reinforce": "Great! Pictographs use pictures to show numbers, making it easy to understand."
+      },
+      {
+        "say": "Now, let's look at bar graphs.",
+        "do": "Draw a simple bar graph showing favorite ice cream flavors.",
+        "ask": "Which flavor is the most popular?",
+        "reinforce": "Exactly! The taller the bar, the more popular the flavor."
+      },
+      {
+        "say": "Titles and labels help us understand graphs.",
+        "do": "Point to the title and labels on the bar graph.",
+        "ask": "Why do you think these are important?",
+        "reinforce": "Titles and labels tell us what the graph is about and what each part means."
+      },
+      {
+        "say": "Let's create a pictograph together.",
+        "do": "Use stickers to represent data, like the number of books read.",
+        "ask": "How many stickers do we need for 5 books?",
+        "reinforce": "Perfect! Each sticker stands for one book."
+      },
+      {
+        "say": "Now, let's make a bar graph.",
+        "do": "Use blocks to represent data, like daily temperatures.",
+        "ask": "Which day was the warmest?",
+        "reinforce": "Yes, the tallest stack shows the warmest day."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Create a pictograph showing the number of apples eaten each day for a week: Monday (3), Tuesday (2), Wednesday (4), Thursday (1), Friday (5).",
+        "hint": "Use one picture to represent one apple.",
+        "answer": "Monday: 🍏🍏🍏, Tuesday: 🍏🍏, Wednesday: 🍏🍏🍏🍏, Thursday: 🍏, Friday: 🍏🍏🍏🍏🍏"
+      },
+      {
+        "prompt": "Draw a bar graph for the number of pets in five houses: House 1 (2), House 2 (4), House 3 (3), House 4 (1), House 5 (5).",
+        "hint": "Each bar represents one house.",
+        "answer": "House 1: ||, House 2: ||||, House 3: |||, House 4: |, House 5: |||||"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Pictographs use pictures to represent data.",
+      "Bar graphs use bars of different lengths to compare quantities.",
+      "Titles, labels, and keys are crucial for understanding graphs."
+    ],
+    "common_mistakes": [
+      "Forgetting to include a key in pictographs.",
+      "Misreading bar lengths in bar graphs.",
+      "Neglecting titles and labels which provide context."
+    ],
+    "deep_dive": {
+      "history": "Graphs have been used for centuries to make data more accessible, with the first known bar graph created by William Playfair in 1786.",
+      "connections": "Graphs are used in science, business, and media to simplify complex data.",
+      "misconceptions": "Some think graphs are only for math, but they are powerful tools in many fields.",
+      "teaching_tips": "Use relatable data, like family activities, to make graphing engaging.",
+      "derivation": "Graphs derive from the need to communicate numerical information visually."
+    },
+    "motivation": "By mastering graphs, your child will gain a valuable skill that makes interpreting data fun and intuitive!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of pictographs and bar graphs! These tools help your child visualize numbers and data, turning abstract information into colorful, engaging pictures.\n\n## Parent Orientation\n**Objective:** Help your child understand how to read and create pictographs and bar graphs, enhancing their ability to interpret data visually.\n**Why it matters:** Graphs are everywhere—from weather reports to sports scores. Understanding them will help your child make sense of the world and communicate information effectively.\n**Parent Tip:** Encourage your child to explain what they see in graphs. This builds their confidence and reinforces their comprehension.\n**Real-World Link:** Next time you look at a weather forecast or a sports game summary, point out how graphs are used to simplify complex data.\n\n## Teaching Steps\n1. Introduce the concept of pictographs using simple images to represent data.\n2. Explain bar graphs as a way to compare quantities using bars of different lengths.\n3. Discuss the importance of titles, labels, and keys in graphs.\n4. Practice creating a simple pictograph with your child using stickers or drawings.\n5. Guide your child in making a bar graph using blocks or other objects.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore how we can show numbers as pictures.  \n**Show/Do:** Show a simple pictograph with smiley faces representing days of sunshine.  \n**Ask:** How many sunny days do you see?  \n**Reinforce:** Great! Pictographs use pictures to show numbers, making it easy to understand.\n2. **Say:** Now, let's look at bar graphs.  \n**Show/Do:** Draw a simple bar graph showing favorite ice cream flavors.  \n**Ask:** Which flavor is the most popular?  \n**Reinforce:** Exactly! The taller the bar, the more popular the flavor.\n3. **Say:** Titles and labels help us understand graphs.  \n**Show/Do:** Point to the title and labels on the bar graph.  \n**Ask:** Why do you think these are important?  \n**Reinforce:** Titles and labels tell us what the graph is about and what each part means.\n4. **Say:** Let's create a pictograph together.  \n**Show/Do:** Use stickers to represent data, like the number of books read.  \n**Ask:** How many stickers do we need for 5 books?  \n**Reinforce:** Perfect! Each sticker stands for one book.\n5. **Say:** Now, let's make a bar graph.  \n**Show/Do:** Use blocks to represent data, like daily temperatures.  \n**Ask:** Which day was the warmest?  \n**Reinforce:** Yes, the tallest stack shows the warmest day.\n\n## Practice Questions (Do It Together)\n**1. Create a pictograph showing the number of apples eaten each day for a week: Monday (3), Tuesday (2), Wednesday (4), Thursday (1), Friday (5).**\n<details><summary>Hint</summary>\nUse one picture to represent one apple.\n</details>\n<details><summary>Answer</summary>\nMonday: 🍏🍏🍏, Tuesday: 🍏🍏, Wednesday: 🍏🍏🍏🍏, Thursday: 🍏, Friday: 🍏🍏🍏🍏🍏\n</details>\n\n**2. Draw a bar graph for the number of pets in five houses: House 1 (2), House 2 (4), House 3 (3), House 4 (1), House 5 (5).**\n<details><summary>Hint</summary>\nEach bar represents one house.\n</details>\n<details><summary>Answer</summary>\nHouse 1: ||, House 2: ||||, House 3: |||, House 4: |, House 5: |||||\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Pictographs use pictures to represent data.\n- Bar graphs use bars of different lengths to compare quantities.\n- Titles, labels, and keys are crucial for understanding graphs.\n\n**Common Mistakes**\n- Forgetting to include a key in pictographs.\n- Misreading bar lengths in bar graphs.\n- Neglecting titles and labels which provide context.\n\n## 🔍 Deep Dive\n**History or origin**\n\nGraphs have been used for centuries to make data more accessible, with the first known bar graph created by William Playfair in 1786.\n\n**Future topic connections**\n\nGraphs are used in science, business, and media to simplify complex data.\n\n**Common misconceptions**\n\nSome think graphs are only for math, but they are powerful tools in many fields.\n\n**Teaching tips for parents**\n\nUse relatable data, like family activities, to make graphing engaging.\n\n**More detail / derivation**\n\nGraphs derive from the need to communicate numerical information visually.\n\n## Motivation\nBy mastering graphs, your child will gain a valuable skill that makes interpreting data fun and intuitive!"
+}

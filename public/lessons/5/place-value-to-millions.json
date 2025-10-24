@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "59b40651-81bd-4cba-a8ff-47742bd5da39",
+    "slug": "5",
+    "name": "Grade 5"
+  },
+  "unit": {
+    "id": "6c89a7dc-38c4-48a4-b1d6-0cc5bae22ce7",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "27fca13d-0367-454e-abfe-9a2e3bc833d3",
+    "slug": "place-value-to-millions",
+    "title": "Understanding Place Value to Millions",
+    "summary": "Place value to millions — parent overview for Grade 5.",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand and use place value concepts to read, write, and compare numbers up to millions.\n\n**Why it matters:** Grasping place value is crucial as it lays the foundation for arithmetic operations, data interpretation, and financial literacy.\n\n**Parent Tip:** Use everyday objects like money to explain place value. For example, a stack of 1,000 dollar bills helps visualize the 'thousands' place.\n\n**Real-World Link:** Think about population numbers or distances. Knowing place values helps us comprehend these large figures accurately.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today, we'll explore how numbers are built, focusing on place values up to millions. This understanding will help your child with larger numbers in math and daily life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Explain that each digit in a number has a unique place value, depending on its position.\n2. Start with smaller numbers and build up to millions, e.g., 10, 100, 1,000, up to 1,000,000.\n3. Use place value charts to help visualize: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions.\n4. Practice reading numbers aloud, emphasizing the place of each digit.\n5. Discuss how zeros hold place values, e.g., in 1,005,000.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the place value of 7 in 3,475,289.**\n_Answer:_ 70,000 (Ten Thousands place)\n_Hint:_ Look at the position of 7.\n\n**2. Write the number 6,204,318 in words.**\n_Answer:_ Six million, two hundred four thousand, three hundred eighteen.\n_Hint:_ Start from the left: Millions, Thousands, Hundreds.\n\n**3. What is the digit in the Hundred Thousands place in 5,678,912?**\n_Answer:_ 6\n_Hint:_ Count from the left to the sixth position.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the position of digits, especially with zeros.\n- Misreading numbers by skipping the 'thousand' or 'million' markers.\n- Overlooking the importance of zeros in holding place values.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about population numbers or distances. Knowing place values helps us comprehend these large figures accurately.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and work with place value up to millions.",
+    "overview": "**Objective:** Help your child understand and use place value concepts to read, write, and compare numbers up to millions.\n\n**Why it matters:** Grasping place value is crucial as it lays the foundation for arithmetic operations, data interpretation, and financial literacy.\n\n**Parent Tip:** Use everyday objects like money to explain place value. For example, a stack of 1,000 dollar bills helps visualize the 'thousands' place.\n\n**Real-World Link:** Think about population numbers or distances. Knowing place values helps us comprehend these large figures accurately.",
+    "core": "Welcome! Today, we'll explore how numbers are built, focusing on place values up to millions. This understanding will help your child with larger numbers in math and daily life.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that the world's population is over 7 billion? How do we even begin to understand such a large number?",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Explain that each digit in a number has a unique place value, depending on its position.\n2. Start with smaller numbers and build up to millions, e.g., 10, 100, 1,000, up to 1,000,000.\n3. Use place value charts to help visualize: Units, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions.\n4. Practice reading numbers aloud, emphasizing the place of each digit.\n5. Discuss how zeros hold place values, e.g., in 1,005,000.",
+    "practice": "**1. Find the place value of 7 in 3,475,289.**\n_Answer:_ 70,000 (Ten Thousands place)\n_Hint:_ Look at the position of 7.\n\n**2. Write the number 6,204,318 in words.**\n_Answer:_ Six million, two hundred four thousand, three hundred eighteen.\n_Hint:_ Start from the left: Millions, Thousands, Hundreds.\n\n**3. What is the digit in the Hundred Thousands place in 5,678,912?**\n_Answer:_ 6\n_Hint:_ Count from the left to the sixth position.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the position of digits, especially with zeros.\n- Misreading numbers by skipping the 'thousand' or 'million' markers.\n- Overlooking the importance of zeros in holding place values.",
+    "connection": "Think about population numbers or distances. Knowing place values helps us comprehend these large figures accurately.",
+    "close": "**Key Takeaways**\n- Place value determines the value of a digit based on its position in a number.\n- Understanding place value is essential for working with large numbers.\n- Breaking down numbers into smaller parts makes them easier to understand.\n\n**Parent Reflection Questions**\n- How can I make large numbers less intimidating for my child?\n- What are some daily situations where place value is important?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Place Value to Millions",
+    "introduction": "Place value is a fundamental concept in math that helps us understand the value of each digit in a number. In this lesson, we'll explore place value up to the millions, making it easier to work with large numbers.",
+    "objective": "Help your child recognize and understand the place value of digits up to the millions place.",
+    "why_matters": "Understanding place value is crucial for performing arithmetic operations, comparing numbers, and solving real-world problems involving large numbers.",
+    "parent_tip": "Encourage your child to read numbers aloud, focusing on the value of each digit. This practice reinforces their understanding of place value.",
+    "real_world_link": "Place value helps us comprehend large numbers, like the population of cities or the distance between planets.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of place value using everyday examples.",
+      "Explain how each digit in a number has a specific value based on its position.",
+      "Show how numbers can be broken down into millions, hundred thousands, ten thousands, etc.",
+      "Use visual aids like place value charts to reinforce understanding.",
+      "Practice reading and writing numbers up to millions with your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at a number, like 3,456,789.",
+        "do": "Write the number 3,456,789 on paper.",
+        "ask": "What do you think the '3' represents in this number?",
+        "reinforce": "The '3' is in the millions place, so it represents 3 million."
+      },
+      {
+        "say": "Now, let's look at the next digit, which is '4'.",
+        "do": "Point to the '4' in 3,456,789.",
+        "ask": "What place is this '4' in?",
+        "reinforce": "It's in the hundred thousands place, so it represents 400,000."
+      },
+      {
+        "say": "Let's continue with '5'.",
+        "do": "Point to the '5' in 3,456,789.",
+        "ask": "What value does this '5' have?",
+        "reinforce": "The '5' is in the ten thousands place, representing 50,000."
+      },
+      {
+        "say": "Notice how each digit's place gives it a different value.",
+        "do": "Use a place value chart to break down the number further.",
+        "ask": "How does knowing the place value help us read the number?",
+        "reinforce": "It helps us understand the size and scale of the number."
+      },
+      {
+        "say": "Let's practice with a new number, 8,302,145.",
+        "do": "Write 8,302,145 on paper.",
+        "ask": "Can you tell me the value of each digit?",
+        "reinforce": "Remember to look at the position of each digit to determine its value."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "What is the value of '7' in the number 7,123,456?",
+        "hint": "Look at the position of '7'.",
+        "answer": "7,000,000"
+      },
+      {
+        "prompt": "In 5,678,901, what does the digit '6' represent?",
+        "hint": "Check the place value of '6'.",
+        "answer": "600,000"
+      },
+      {
+        "prompt": "What is the value of the digit '2' in the number 4,295,678?",
+        "hint": "Identify the position of '2'.",
+        "answer": "200,000"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Each digit in a number has a specific value based on its place.",
+      "Understanding place value helps in reading and writing large numbers.",
+      "Practicing with place value charts can enhance comprehension."
+    ],
+    "common_mistakes": [
+      "Confusing the value of digits by ignoring their place.",
+      "Reading numbers without considering the scale of each digit.",
+      "Overlooking zeros as placeholders in large numbers."
+    ],
+    "deep_dive": {
+      "history": "The concept of place value has ancient origins, developed by early civilizations like the Babylonians and refined by Indian mathematicians.",
+      "connections": "Place value is foundational for learning addition, subtraction, multiplication, and division.",
+      "misconceptions": "A common misconception is that all digits are equal in value regardless of their position.",
+      "teaching_tips": "Use real-life examples like money or population counts to illustrate large numbers.",
+      "derivation": "Place value is derived from the base-10 number system, which uses powers of ten to determine the value of each digit."
+    },
+    "motivation": "Place value is not just about numbers; it's about understanding the world around us, from the distance to stars to the population of countries."
+  },
+  "markdown": "## Lesson Introduction\nPlace value is a fundamental concept in math that helps us understand the value of each digit in a number. In this lesson, we'll explore place value up to the millions, making it easier to work with large numbers.\n\n## Parent Orientation\n**Objective:** Help your child recognize and understand the place value of digits up to the millions place.\n**Why it matters:** Understanding place value is crucial for performing arithmetic operations, comparing numbers, and solving real-world problems involving large numbers.\n**Parent Tip:** Encourage your child to read numbers aloud, focusing on the value of each digit. This practice reinforces their understanding of place value.\n**Real-World Link:** Place value helps us comprehend large numbers, like the population of cities or the distance between planets.\n\n## Teaching Steps\n1. Introduce the concept of place value using everyday examples.\n2. Explain how each digit in a number has a specific value based on its position.\n3. Show how numbers can be broken down into millions, hundred thousands, ten thousands, etc.\n4. Use visual aids like place value charts to reinforce understanding.\n5. Practice reading and writing numbers up to millions with your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at a number, like 3,456,789.  \n**Show/Do:** Write the number 3,456,789 on paper.  \n**Ask:** What do you think the '3' represents in this number?  \n**Reinforce:** The '3' is in the millions place, so it represents 3 million.\n2. **Say:** Now, let's look at the next digit, which is '4'.  \n**Show/Do:** Point to the '4' in 3,456,789.  \n**Ask:** What place is this '4' in?  \n**Reinforce:** It's in the hundred thousands place, so it represents 400,000.\n3. **Say:** Let's continue with '5'.  \n**Show/Do:** Point to the '5' in 3,456,789.  \n**Ask:** What value does this '5' have?  \n**Reinforce:** The '5' is in the ten thousands place, representing 50,000.\n4. **Say:** Notice how each digit's place gives it a different value.  \n**Show/Do:** Use a place value chart to break down the number further.  \n**Ask:** How does knowing the place value help us read the number?  \n**Reinforce:** It helps us understand the size and scale of the number.\n5. **Say:** Let's practice with a new number, 8,302,145.  \n**Show/Do:** Write 8,302,145 on paper.  \n**Ask:** Can you tell me the value of each digit?  \n**Reinforce:** Remember to look at the position of each digit to determine its value.\n\n## Practice Questions (Do It Together)\n**1. What is the value of '7' in the number 7,123,456?**\n<details><summary>Hint</summary>\nLook at the position of '7'.\n</details>\n<details><summary>Answer</summary>\n7,000,000\n</details>\n\n**2. In 5,678,901, what does the digit '6' represent?**\n<details><summary>Hint</summary>\nCheck the place value of '6'.\n</details>\n<details><summary>Answer</summary>\n600,000\n</details>\n\n**3. What is the value of the digit '2' in the number 4,295,678?**\n<details><summary>Hint</summary>\nIdentify the position of '2'.\n</details>\n<details><summary>Answer</summary>\n200,000\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Each digit in a number has a specific value based on its place.\n- Understanding place value helps in reading and writing large numbers.\n- Practicing with place value charts can enhance comprehension.\n\n**Common Mistakes**\n- Confusing the value of digits by ignoring their place.\n- Reading numbers without considering the scale of each digit.\n- Overlooking zeros as placeholders in large numbers.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of place value has ancient origins, developed by early civilizations like the Babylonians and refined by Indian mathematicians.\n\n**Future topic connections**\n\nPlace value is foundational for learning addition, subtraction, multiplication, and division.\n\n**Common misconceptions**\n\nA common misconception is that all digits are equal in value regardless of their position.\n\n**Teaching tips for parents**\n\nUse real-life examples like money or population counts to illustrate large numbers.\n\n**More detail / derivation**\n\nPlace value is derived from the base-10 number system, which uses powers of ten to determine the value of each digit.\n\n## Motivation\nPlace value is not just about numbers; it's about understanding the world around us, from the distance to stars to the population of countries."
+}

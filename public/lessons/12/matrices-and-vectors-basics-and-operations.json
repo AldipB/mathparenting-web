@@ -1,0 +1,157 @@
+{
+  "grade": {
+    "id": "b2710d5a-9796-4f3f-b007-1d1da3106ae8",
+    "slug": "12",
+    "name": "Grade 12 (Pre-Calculus & Calculus Foundations)"
+  },
+  "unit": {
+    "id": "cad53b27-9be4-4948-960b-7d78eaa1bdf4",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "a93b30c5-45a9-4c8f-9e1d-12c77c817033",
+    "slug": "matrices-and-vectors-basics-and-operations",
+    "title": "Matrices & Vectors: Understanding the Basics and Operations",
+    "summary": "Matrices & vectors (basics & operations) — parent overview for Grade 12 (Pre-Calculus & Calculus Foundations).",
+    "difficulty_level": "core",
+    "order_index": 11
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your child understand the basics of matrices and vectors, and learn how to perform operations with them.\n\n**Why it matters:** Matrices and vectors are essential for understanding complex systems in fields like computer graphics, engineering, and physics. They provide a framework for organizing and manipulating data efficiently.\n\n**Parent Tip:** Encourage your child to visualize matrices as grids and vectors as arrows. This can make abstract concepts more concrete.\n\n**Real-World Link:** Think of matrices as spreadsheets where each cell contains data, and vectors as arrows that point in specific directions. They're used in everything from video game graphics to data encryption.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of matrices and vectors! These mathematical tools are like the Swiss Army knives of math, helping us solve complex problems in a structured way. Let's explore how your child can master these concepts and see their real-world significance.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Introduce matrices as rectangular arrays of numbers arranged in rows and columns.\n2. Explain vectors as quantities having both magnitude and direction, often represented as arrows.\n3. Demonstrate matrix addition by adding corresponding elements.\n4. Show matrix multiplication by performing row-by-column operations.\n5. Discuss vector addition as combining arrows tip-to-tail.\n6. Explore scalar multiplication as stretching or shrinking vectors.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Add the matrices: A = [1, 2; 3, 4] and B = [5, 6; 7, 8].**\n_Answer:_ [6, 8; 10, 12]\n_Hint:_ Add corresponding elements from both matrices.\n\n**2. Multiply the matrix C = [2, 0; 1, 3] by the scalar 3.**\n_Answer:_ [6, 0; 3, 9]\n_Hint:_ Multiply each element in the matrix by 3.\n\n**3. Add the vectors: v = [2, 3] and w = [4, 1].**\n_Answer:_ [6, 4]\n_Hint:_ Add corresponding components of the vectors.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing matrix multiplication with element-wise multiplication.\n- Forgetting that matrix dimensions must align for multiplication.\n- Misinterpreting vectors' directions when adding them graphically.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of matrices as spreadsheets where each cell contains data, and vectors as arrows that point in specific directions. They're used in everything from video game graphics to data encryption.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child grasp the foundational concepts of matrices and vectors, including basic operations such as addition, subtraction, and multiplication.",
+    "overview": "**Objective:** To help your child understand the basics of matrices and vectors, and learn how to perform operations with them.\n\n**Why it matters:** Matrices and vectors are essential for understanding complex systems in fields like computer graphics, engineering, and physics. They provide a framework for organizing and manipulating data efficiently.\n\n**Parent Tip:** Encourage your child to visualize matrices as grids and vectors as arrows. This can make abstract concepts more concrete.\n\n**Real-World Link:** Think of matrices as spreadsheets where each cell contains data, and vectors as arrows that point in specific directions. They're used in everything from video game graphics to data encryption.",
+    "core": "Welcome to the world of matrices and vectors! These mathematical tools are like the Swiss Army knives of math, helping us solve complex problems in a structured way. Let's explore how your child can master these concepts and see their real-world significance.",
+    "demo": "**Spark Curiosity:**\n\nDid you know that matrices help power the graphics in video games? They're used to rotate, scale, and transform images on your screen!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Introduce matrices as rectangular arrays of numbers arranged in rows and columns.\n2. Explain vectors as quantities having both magnitude and direction, often represented as arrows.\n3. Demonstrate matrix addition by adding corresponding elements.\n4. Show matrix multiplication by performing row-by-column operations.\n5. Discuss vector addition as combining arrows tip-to-tail.\n6. Explore scalar multiplication as stretching or shrinking vectors.",
+    "practice": "**1. Add the matrices: A = [1, 2; 3, 4] and B = [5, 6; 7, 8].**\n_Answer:_ [6, 8; 10, 12]\n_Hint:_ Add corresponding elements from both matrices.\n\n**2. Multiply the matrix C = [2, 0; 1, 3] by the scalar 3.**\n_Answer:_ [6, 0; 3, 9]\n_Hint:_ Multiply each element in the matrix by 3.\n\n**3. Add the vectors: v = [2, 3] and w = [4, 1].**\n_Answer:_ [6, 4]\n_Hint:_ Add corresponding components of the vectors.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing matrix multiplication with element-wise multiplication.\n- Forgetting that matrix dimensions must align for multiplication.\n- Misinterpreting vectors' directions when adding them graphically.",
+    "connection": "Think of matrices as spreadsheets where each cell contains data, and vectors as arrows that point in specific directions. They're used in everything from video game graphics to data encryption.",
+    "close": "**Key Takeaways**\n- Matrices and vectors are essential tools in mathematics and applied fields.\n- Basic operations include addition, subtraction, and multiplication.\n- Understanding these concepts helps in solving real-world problems.\n\n**Parent Reflection Questions**\n- How can matrices be used in everyday technology, like smartphones or computers?\n- What are some real-world examples where vectors are crucial?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Matrices & Vectors: Understanding the Basics and Operations",
+    "introduction": "Welcome to the world of matrices and vectors! These mathematical tools might sound complex, but with a little guidance, you'll see how they fit into everyday life and even help your teen solve real-world problems.",
+    "objective": "Help your child understand the basic concepts of matrices and vectors, including their operations and applications.",
+    "why_matters": "Matrices and vectors are foundational in fields like engineering, computer graphics, and physics. Understanding these can open doors to exciting career paths and enhance problem-solving skills.",
+    "parent_tip": "Encourage your child to visualize matrices as grids of numbers and vectors as arrows that have direction and magnitude.",
+    "real_world_link": "Matrices are used in computer graphics to transform images, while vectors are essential in physics to represent forces.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce matrices as rectangular arrays of numbers.",
+      "Show how vectors are lists of numbers that represent direction and magnitude.",
+      "Explain matrix addition and subtraction by combining corresponding elements.",
+      "Demonstrate scalar multiplication, where each element of a matrix is multiplied by a number.",
+      "Discuss vector addition and subtraction by combining corresponding elements.",
+      "Introduce dot product for vectors, a key operation in physics and engineering."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with matrices. Imagine a matrix as a grid or table of numbers.",
+        "do": "Show a 2x2 matrix example like $$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$$.",
+        "ask": "How many rows and columns does this matrix have?",
+        "reinforce": "Yes, it has 2 rows and 2 columns, making it a 2x2 matrix."
+      },
+      {
+        "say": "Now, let's talk about vectors. Think of them as arrows with direction and length.",
+        "do": "Draw an arrow on paper and label it with a vector like [3, 4].",
+        "ask": "What do you think the numbers in the vector represent?",
+        "reinforce": "Correct! They represent the direction and magnitude of the vector."
+      },
+      {
+        "say": "Matrix addition is simple. You just add corresponding elements.",
+        "do": "Show: $$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$$ + $$\\begin{bmatrix} 5 & 6 \\\\ 7 & 8 \\end{bmatrix}$$.",
+        "ask": "What would the resulting matrix look like?",
+        "reinforce": "Great! It would be $$\\begin{bmatrix} 6 & 8 \\\\ 10 & 12 \\end{bmatrix}$$."
+      },
+      {
+        "say": "Scalar multiplication involves multiplying every element by a number.",
+        "do": "Multiply $$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$$ by 2.",
+        "ask": "What do you get?",
+        "reinforce": "Exactly, the result is $$\\begin{bmatrix} 2 & 4 \\\\ 6 & 8 \\end{bmatrix}$$."
+      },
+      {
+        "say": "Vectors can be added by adding each corresponding element.",
+        "do": "Add vectors [1, 2] and [3, 4].",
+        "ask": "What is the resulting vector?",
+        "reinforce": "Yes, the result is [4, 6]."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add the matrices: $$\\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix}$$ and $$\\begin{bmatrix} 5 & 7 \\\\ 6 & 8 \\end{bmatrix}$$.",
+        "hint": "Add corresponding elements.",
+        "answer": "$$\\begin{bmatrix} 6 & 10 \\\\ 8 & 12 \\end{bmatrix}$$"
+      },
+      {
+        "prompt": "Multiply the matrix $$\\begin{bmatrix} 2 & 4 \\\\ 3 & 5 \\end{bmatrix}$$ by 3.",
+        "hint": "Multiply each element by 3.",
+        "answer": "$$\\begin{bmatrix} 6 & 12 \\\\ 9 & 15 \\end{bmatrix}$$"
+      },
+      {
+        "prompt": "Add the vectors [2, 5] and [3, 1].",
+        "hint": "Add the first elements together, then the second elements.",
+        "answer": "[5, 6]"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Matrices are grids of numbers.",
+      "Vectors are lists of numbers representing direction and magnitude.",
+      "Matrix operations include addition, subtraction, and scalar multiplication.",
+      "Vector operations include addition and dot product."
+    ],
+    "common_mistakes": [
+      "Confusing the order of matrix dimensions.",
+      "Forgetting to multiply every element in scalar multiplication.",
+      "Mixing up vector and matrix operations."
+    ],
+    "deep_dive": {
+      "history": "Matrices were first used in the 19th century for solving systems of linear equations.",
+      "connections": "Matrices and vectors are used in computer science for graphics, machine learning, and data analysis.",
+      "misconceptions": "Some think matrices and vectors are only for advanced math, but they are used in everyday technology.",
+      "teaching_tips": "Use visual aids like drawings and physical objects to demonstrate concepts.",
+      "derivation": "Matrix operations can be derived from simple arithmetic, making them accessible with practice."
+    },
+    "motivation": "Understanding matrices and vectors can empower your child to tackle complex problems and appreciate the math behind technology they use every day."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of matrices and vectors! These mathematical tools might sound complex, but with a little guidance, you'll see how they fit into everyday life and even help your teen solve real-world problems.\n\n## Parent Orientation\n**Objective:** Help your child understand the basic concepts of matrices and vectors, including their operations and applications.\n**Why it matters:** Matrices and vectors are foundational in fields like engineering, computer graphics, and physics. Understanding these can open doors to exciting career paths and enhance problem-solving skills.\n**Parent Tip:** Encourage your child to visualize matrices as grids of numbers and vectors as arrows that have direction and magnitude.\n**Real-World Link:** Matrices are used in computer graphics to transform images, while vectors are essential in physics to represent forces.\n\n## Teaching Steps\n1. Introduce matrices as rectangular arrays of numbers.\n2. Show how vectors are lists of numbers that represent direction and magnitude.\n3. Explain matrix addition and subtraction by combining corresponding elements.\n4. Demonstrate scalar multiplication, where each element of a matrix is multiplied by a number.\n5. Discuss vector addition and subtraction by combining corresponding elements.\n6. Introduce dot product for vectors, a key operation in physics and engineering.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with matrices. Imagine a matrix as a grid or table of numbers.  \n**Show/Do:** Show a 2x2 matrix example like $$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$$.  \n**Ask:** How many rows and columns does this matrix have?  \n**Reinforce:** Yes, it has 2 rows and 2 columns, making it a 2x2 matrix.\n2. **Say:** Now, let's talk about vectors. Think of them as arrows with direction and length.  \n**Show/Do:** Draw an arrow on paper and label it with a vector like [3, 4].  \n**Ask:** What do you think the numbers in the vector represent?  \n**Reinforce:** Correct! They represent the direction and magnitude of the vector.\n3. **Say:** Matrix addition is simple. You just add corresponding elements.  \n**Show/Do:** Show: $$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$$ + $$\\begin{bmatrix} 5 & 6 \\\\ 7 & 8 \\end{bmatrix}$$.  \n**Ask:** What would the resulting matrix look like?  \n**Reinforce:** Great! It would be $$\\begin{bmatrix} 6 & 8 \\\\ 10 & 12 \\end{bmatrix}$$.\n4. **Say:** Scalar multiplication involves multiplying every element by a number.  \n**Show/Do:** Multiply $$\\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$$ by 2.  \n**Ask:** What do you get?  \n**Reinforce:** Exactly, the result is $$\\begin{bmatrix} 2 & 4 \\\\ 6 & 8 \\end{bmatrix}$$.\n5. **Say:** Vectors can be added by adding each corresponding element.  \n**Show/Do:** Add vectors [1, 2] and [3, 4].  \n**Ask:** What is the resulting vector?  \n**Reinforce:** Yes, the result is [4, 6].\n\n## Practice Questions (Do It Together)\n**1. Add the matrices: $$\\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix}$$ and $$\\begin{bmatrix} 5 & 7 \\\\ 6 & 8 \\end{bmatrix}$$.**\n<details><summary>Hint</summary>\nAdd corresponding elements.\n</details>\n<details><summary>Answer</summary>\n$$\\begin{bmatrix} 6 & 10 \\\\ 8 & 12 \\end{bmatrix}$$\n</details>\n\n**2. Multiply the matrix $$\\begin{bmatrix} 2 & 4 \\\\ 3 & 5 \\end{bmatrix}$$ by 3.**\n<details><summary>Hint</summary>\nMultiply each element by 3.\n</details>\n<details><summary>Answer</summary>\n$$\\begin{bmatrix} 6 & 12 \\\\ 9 & 15 \\end{bmatrix}$$\n</details>\n\n**3. Add the vectors [2, 5] and [3, 1].**\n<details><summary>Hint</summary>\nAdd the first elements together, then the second elements.\n</details>\n<details><summary>Answer</summary>\n[5, 6]\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Matrices are grids of numbers.\n- Vectors are lists of numbers representing direction and magnitude.\n- Matrix operations include addition, subtraction, and scalar multiplication.\n- Vector operations include addition and dot product.\n\n**Common Mistakes**\n- Confusing the order of matrix dimensions.\n- Forgetting to multiply every element in scalar multiplication.\n- Mixing up vector and matrix operations.\n\n## 🔍 Deep Dive\n**History or origin**\n\nMatrices were first used in the 19th century for solving systems of linear equations.\n\n**Future topic connections**\n\nMatrices and vectors are used in computer science for graphics, machine learning, and data analysis.\n\n**Common misconceptions**\n\nSome think matrices and vectors are only for advanced math, but they are used in everyday technology.\n\n**Teaching tips for parents**\n\nUse visual aids like drawings and physical objects to demonstrate concepts.\n\n**More detail / derivation**\n\nMatrix operations can be derived from simple arithmetic, making them accessible with practice.\n\n## Motivation\nUnderstanding matrices and vectors can empower your child to tackle complex problems and appreciate the math behind technology they use every day."
+}

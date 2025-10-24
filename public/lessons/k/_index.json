@@ -1,0 +1,93 @@
+{
+  "grade": "k",
+  "lessons": [
+    {
+      "slug": "addition-through-stories",
+      "title": "Addition through Stories"
+    },
+    {
+      "slug": "compare-numbers-to-10",
+      "title": "Compare Numbers to 10"
+    },
+    {
+      "slug": "compare-length-and-weight",
+      "title": "Comparing Length & Weight in Everyday Life"
+    },
+    {
+      "slug": "counting-010",
+      "title": "Counting 0–10: A Fun Start to Numbers"
+    },
+    {
+      "slug": "counting-020",
+      "title": "Counting 0–20: Building the Foundation"
+    },
+    {
+      "slug": "counting-050",
+      "title": "Counting 0–50"
+    },
+    {
+      "slug": "counting-0100",
+      "title": "Counting 0–100: Building Blocks of Number Sense"
+    },
+    {
+      "slug": "3d-shapes-sphere-cube-cylinder-cone",
+      "title": "Discovering 3D Shapes: Sphere, Cube, Cylinder, Cone"
+    },
+    {
+      "slug": "everyday-counting-at-home",
+      "title": "Everyday Counting at Home"
+    },
+    {
+      "slug": "2d-shapes-circle-triangle-square-rectangle",
+      "title": "Exploring 2D Shapes: Circle, Triangle, Square, and Rectangle"
+    },
+    {
+      "slug": "introduction-to-time-morningafternoonnight",
+      "title": "Introduction to Time: Morning, Afternoon, Night"
+    },
+    {
+      "slug": "make-10-compositions-of-10",
+      "title": "Make 10: Compositions of 10"
+    },
+    {
+      "slug": "math-through-play-toys-snacks-blocks",
+      "title": "Math through Play: Toys, Snacks, and Blocks"
+    },
+    {
+      "slug": "measure-with-non-standard-units",
+      "title": "Measure with Non-Standard Units"
+    },
+    {
+      "slug": "number-bonds-to-10",
+      "title": "Number Bonds to 10: Building Foundations in Counting"
+    },
+    {
+      "slug": "patterns-ab-aab-abb-abc",
+      "title": "Patterns: Exploring AB, AAB, ABB, and ABC Sequences"
+    },
+    {
+      "slug": "read-and-write-numbers-020",
+      "title": "Read & Write Numbers 0–20"
+    },
+    {
+      "slug": "recognize-coins-and-notes-concept-only",
+      "title": "Recognize Coins & Notes: Kindergarten Edition"
+    },
+    {
+      "slug": "recognizing-and-sorting-shapes",
+      "title": "Recognizing & Sorting Shapes"
+    },
+    {
+      "slug": "sort-and-classify-objects",
+      "title": "Sort & Classify Objects: A Kindergarten Adventure"
+    },
+    {
+      "slug": "subtraction-through-stories",
+      "title": "Subtraction through Stories"
+    },
+    {
+      "slug": "position-words-above-below-beside-inside-next-to",
+      "title": "Understanding Position Words: Above, Below, Beside, Inside, Next To"
+    }
+  ]
+}

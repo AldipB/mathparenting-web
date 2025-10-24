@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "023a3258-6118-462a-92a1-3a5cf671cfc4",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "27982070-15e0-4bae-a2ce-8fcca418ed77",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "2ad9228e-0dbc-4870-b51e-b1f5d047aa6e",
+    "slug": "unit-circle-and-radian-measure",
+    "title": "Understanding the Unit Circle & Radian Measure",
+    "summary": "Unit circle & radian measure — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 5
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child understand the unit circle and how radians measure angles.\n\n**Why it matters:** This knowledge is crucial for advanced math and sciences, like physics and engineering, where precise angle measurements are needed.\n\n**Parent Tip:** Encourage your child to visualize the circle and relate radians to familiar angles like 90° or 180°.\n\n**Real-World Link:** Think of the unit circle like a clock. Just as a clock measures time, the unit circle measures angles, but with radians instead of minutes.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "The unit circle and radian measure are key concepts in trigonometry that help us understand angles and their relationships. Let’s explore this topic together!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by drawing a circle with a radius of 1 unit, known as the unit circle.\n2. Explain that the angle in radians is the arc length on the circle divided by the radius.\n3. Show how 360° equals 2π radians, so 180° is π radians, and 90° is π/2 radians.\n4. Discuss how radians provide a more natural way of measuring angles in mathematics.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Convert 180° to radians.**\n_Answer:_ π radians\n_Hint:_ Use the relationship: 180° = π radians.\n\n**2. What is the radian measure of a 90° angle?**\n_Answer:_ π/2 radians\n_Hint:_ Remember, 90° is half of 180°.\n\n**3. If an angle measures π/3 radians, what is it in degrees?**\n_Answer:_ 60°\n_Hint:_ Use the conversion: π radians = 180°.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing radians with degrees. Remember, π radians = 180°.\n- Forgetting that the unit circle has a radius of 1, which simplifies calculations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of the unit circle like a clock. Just as a clock measures time, the unit circle measures angles, but with radians instead of minutes.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand the unit circle and how radian measure relates to angles.",
+    "overview": "**Objective:** Help your child understand the unit circle and how radians measure angles.\n\n**Why it matters:** This knowledge is crucial for advanced math and sciences, like physics and engineering, where precise angle measurements are needed.\n\n**Parent Tip:** Encourage your child to visualize the circle and relate radians to familiar angles like 90° or 180°.\n\n**Real-World Link:** Think of the unit circle like a clock. Just as a clock measures time, the unit circle measures angles, but with radians instead of minutes.",
+    "core": "The unit circle and radian measure are key concepts in trigonometry that help us understand angles and their relationships. Let’s explore this topic together!",
+    "demo": "**Spark Curiosity:**\n\nDid you know that the angle you turn while walking in a circle can be measured in more than just degrees? Let's explore this new way of measuring angles called radians!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** Radians = Arc Length / Radius\n- **Meaning:** This formula helps us calculate the radian measure of an angle by dividing the arc length by the radius of the circle.\n- **How it works:** In a unit circle, since the radius is 1, the arc length directly gives the radian measure.\n- **Example:** If the arc length is 1 unit on a unit circle, the angle is 1 radian.",
+    "formulas": "Radians = Arc Length / Radius",
+    "guide": "1. Start by drawing a circle with a radius of 1 unit, known as the unit circle.\n2. Explain that the angle in radians is the arc length on the circle divided by the radius.\n3. Show how 360° equals 2π radians, so 180° is π radians, and 90° is π/2 radians.\n4. Discuss how radians provide a more natural way of measuring angles in mathematics.",
+    "practice": "**1. Convert 180° to radians.**\n_Answer:_ π radians\n_Hint:_ Use the relationship: 180° = π radians.\n\n**2. What is the radian measure of a 90° angle?**\n_Answer:_ π/2 radians\n_Hint:_ Remember, 90° is half of 180°.\n\n**3. If an angle measures π/3 radians, what is it in degrees?**\n_Answer:_ 60°\n_Hint:_ Use the conversion: π radians = 180°.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing radians with degrees. Remember, π radians = 180°.\n- Forgetting that the unit circle has a radius of 1, which simplifies calculations.",
+    "connection": "Think of the unit circle like a clock. Just as a clock measures time, the unit circle measures angles, but with radians instead of minutes.",
+    "close": "**Key Takeaways**\n- Radians provide a natural way to measure angles based on the circle's radius.\n- The unit circle helps visualize angles and trigonometric functions.\n- Understanding radians is crucial for advanced math and science topics.\n\n**Parent Reflection Questions**\n- What is a real-world application of radian measure?\n- How can the unit circle help in understanding trigonometric functions?\n- Why is it important to learn both degrees and radians?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding the Unit Circle & Radian Measure",
+    "introduction": "Welcome to the fascinating world of trigonometry! Today, we'll explore the unit circle and radian measure, which are key concepts in trigonometry and help us understand angles and their relationships.",
+    "objective": "Help your child understand the unit circle and radian measure, and how they relate to angles and trigonometric functions.",
+    "why_matters": "The unit circle and radian measure are essential for understanding trigonometry, which is used in fields like engineering, physics, and even computer graphics. Grasping these concepts will help your child in higher-level math and science courses.",
+    "parent_tip": "Encourage your child to visualize the unit circle as a tool for understanding angles and their measurements. This will make it easier for them to grasp trigonometric concepts.",
+    "real_world_link": "The radian measure is often used in physics to describe rotational motion, such as the rotation of planets or wheels, making it a practical tool in real-world applications.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the unit circle as a circle with a radius of 1, centered at the origin of a coordinate plane.",
+      "Explain that angles on the unit circle can be measured in degrees or radians.",
+      "Discuss how one complete circle (360 degrees) is equivalent to 2π radians.",
+      "Show how the unit circle helps in finding the sine, cosine, and tangent of angles.",
+      "Explain the concept of radian measure as the length of the arc on the unit circle subtended by the angle."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by looking at the unit circle. It's a circle with a radius of 1.",
+        "do": "Draw a circle on a piece of paper with a center point labeled as the origin.",
+        "ask": "What do you notice about this circle?",
+        "reinforce": "Yes, it's perfectly round, and its radius is always 1 unit, no matter where you measure from the center."
+      },
+      {
+        "say": "Now, let's talk about angles.",
+        "do": "Draw an angle starting from the positive x-axis and opening counter-clockwise.",
+        "ask": "Can you estimate how many degrees this angle might be?",
+        "reinforce": "That's a great estimate! Remember, angles on the unit circle can be measured in degrees or radians."
+      },
+      {
+        "say": "Radians are another way to measure angles.",
+        "do": "Show that 360 degrees is the same as 2π radians.",
+        "ask": "If 360 degrees is 2π radians, how many radians is 180 degrees?",
+        "reinforce": "Exactly, 180 degrees is π radians."
+      },
+      {
+        "say": "The unit circle helps us find the sine, cosine, and tangent of angles.",
+        "do": "Point to a spot on the unit circle and draw a right triangle.",
+        "ask": "What do you think the lengths of the triangle's sides represent?",
+        "reinforce": "Yes, the x-coordinate is the cosine, and the y-coordinate is the sine of the angle."
+      },
+      {
+        "say": "Understanding radians is useful in many real-world applications.",
+        "do": "Discuss an example, like the rotation of a bicycle wheel.",
+        "ask": "Can you think of other examples where rotation is important?",
+        "reinforce": "Great thinking! Rotations are everywhere, from car wheels to the movement of planets."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Convert 90 degrees to radians.",
+        "hint": "Remember, 180 degrees is π radians.",
+        "answer": "π/2 radians"
+      },
+      {
+        "prompt": "If an angle is π/4 radians, how many degrees is it?",
+        "hint": "Use the conversion factor: 180 degrees is π radians.",
+        "answer": "45 degrees"
+      },
+      {
+        "prompt": "Find the sine of 30 degrees using the unit circle.",
+        "hint": "Locate 30 degrees on the unit circle and find the y-coordinate.",
+        "answer": "0.5"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "The unit circle is a circle with a radius of 1 centered at the origin.",
+      "Angles can be measured in degrees or radians.",
+      "Radians are based on the arc length of the unit circle.",
+      "The unit circle helps us find trigonometric functions like sine and cosine."
+    ],
+    "common_mistakes": [
+      "Confusing degrees with radians.",
+      "Forgetting that the unit circle has a radius of 1.",
+      "Mixing up the x and y coordinates for sine and cosine."
+    ],
+    "deep_dive": {
+      "history": "The concept of radians dates back to the 18th century and is attributed to mathematicians like Roger Cotes.",
+      "connections": "Radians are widely used in calculus, physics, and engineering to simplify mathematical expressions.",
+      "misconceptions": "A common misconception is that radians are more complicated than degrees, but they actually simplify many calculations.",
+      "teaching_tips": "Visual aids like drawing the unit circle and using a protractor can help students understand the relationship between degrees and radians.",
+      "derivation": "Radians are derived by considering the length of an arc on the unit circle. An angle's radian measure is the arc length divided by the radius."
+    },
+    "motivation": "Understanding the unit circle and radian measure opens up a world of mathematical exploration, making complex calculations easier and more intuitive."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the fascinating world of trigonometry! Today, we'll explore the unit circle and radian measure, which are key concepts in trigonometry and help us understand angles and their relationships.\n\n## Parent Orientation\n**Objective:** Help your child understand the unit circle and radian measure, and how they relate to angles and trigonometric functions.\n**Why it matters:** The unit circle and radian measure are essential for understanding trigonometry, which is used in fields like engineering, physics, and even computer graphics. Grasping these concepts will help your child in higher-level math and science courses.\n**Parent Tip:** Encourage your child to visualize the unit circle as a tool for understanding angles and their measurements. This will make it easier for them to grasp trigonometric concepts.\n**Real-World Link:** The radian measure is often used in physics to describe rotational motion, such as the rotation of planets or wheels, making it a practical tool in real-world applications.\n\n## Teaching Steps\n1. Introduce the unit circle as a circle with a radius of 1, centered at the origin of a coordinate plane.\n2. Explain that angles on the unit circle can be measured in degrees or radians.\n3. Discuss how one complete circle (360 degrees) is equivalent to 2π radians.\n4. Show how the unit circle helps in finding the sine, cosine, and tangent of angles.\n5. Explain the concept of radian measure as the length of the arc on the unit circle subtended by the angle.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by looking at the unit circle. It's a circle with a radius of 1.  \n**Show/Do:** Draw a circle on a piece of paper with a center point labeled as the origin.  \n**Ask:** What do you notice about this circle?  \n**Reinforce:** Yes, it's perfectly round, and its radius is always 1 unit, no matter where you measure from the center.\n2. **Say:** Now, let's talk about angles.  \n**Show/Do:** Draw an angle starting from the positive x-axis and opening counter-clockwise.  \n**Ask:** Can you estimate how many degrees this angle might be?  \n**Reinforce:** That's a great estimate! Remember, angles on the unit circle can be measured in degrees or radians.\n3. **Say:** Radians are another way to measure angles.  \n**Show/Do:** Show that 360 degrees is the same as 2π radians.  \n**Ask:** If 360 degrees is 2π radians, how many radians is 180 degrees?  \n**Reinforce:** Exactly, 180 degrees is π radians.\n4. **Say:** The unit circle helps us find the sine, cosine, and tangent of angles.  \n**Show/Do:** Point to a spot on the unit circle and draw a right triangle.  \n**Ask:** What do you think the lengths of the triangle's sides represent?  \n**Reinforce:** Yes, the x-coordinate is the cosine, and the y-coordinate is the sine of the angle.\n5. **Say:** Understanding radians is useful in many real-world applications.  \n**Show/Do:** Discuss an example, like the rotation of a bicycle wheel.  \n**Ask:** Can you think of other examples where rotation is important?  \n**Reinforce:** Great thinking! Rotations are everywhere, from car wheels to the movement of planets.\n\n## Practice Questions (Do It Together)\n**1. Convert 90 degrees to radians.**\n<details><summary>Hint</summary>\nRemember, 180 degrees is π radians.\n</details>\n<details><summary>Answer</summary>\nπ/2 radians\n</details>\n\n**2. If an angle is π/4 radians, how many degrees is it?**\n<details><summary>Hint</summary>\nUse the conversion factor: 180 degrees is π radians.\n</details>\n<details><summary>Answer</summary>\n45 degrees\n</details>\n\n**3. Find the sine of 30 degrees using the unit circle.**\n<details><summary>Hint</summary>\nLocate 30 degrees on the unit circle and find the y-coordinate.\n</details>\n<details><summary>Answer</summary>\n0.5\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- The unit circle is a circle with a radius of 1 centered at the origin.\n- Angles can be measured in degrees or radians.\n- Radians are based on the arc length of the unit circle.\n- The unit circle helps us find trigonometric functions like sine and cosine.\n\n**Common Mistakes**\n- Confusing degrees with radians.\n- Forgetting that the unit circle has a radius of 1.\n- Mixing up the x and y coordinates for sine and cosine.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of radians dates back to the 18th century and is attributed to mathematicians like Roger Cotes.\n\n**Future topic connections**\n\nRadians are widely used in calculus, physics, and engineering to simplify mathematical expressions.\n\n**Common misconceptions**\n\nA common misconception is that radians are more complicated than degrees, but they actually simplify many calculations.\n\n**Teaching tips for parents**\n\nVisual aids like drawing the unit circle and using a protractor can help students understand the relationship between degrees and radians.\n\n**More detail / derivation**\n\nRadians are derived by considering the length of an arc on the unit circle. An angle's radian measure is the arc length divided by the radius.\n\n## Motivation\nUnderstanding the unit circle and radian measure opens up a world of mathematical exploration, making complex calculations easier and more intuitive."
+}

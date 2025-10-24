@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "c864817c-7514-444f-9b82-e4ea3f8b3654",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "b0f424f9-786f-4a8c-a293-73af73d2534c",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "184d370c-6ddc-44ca-92c0-acf8f0a56976",
+    "slug": "intro-to-patterns-and-sequences",
+    "title": "Intro to Patterns & Sequences",
+    "summary": "Intro to patterns & sequences — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 10
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child recognize and create simple patterns and sequences, building a foundation for more complex mathematical concepts.\n\n**Why it matters:** Understanding patterns and sequences is crucial for solving problems, making predictions, and even learning coding and music!\n\n**Parent Tip:** Encourage your child to find patterns in their daily routine, like the order of getting dressed or the sequence in their favorite song.\n\n**Real-World Link:** Think about how traffic lights cycle through colors or how a zebra's stripes repeat. These are patterns that help organize our world.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Patterns and sequences are all around us! They help us predict what comes next and make sense of the world. Let's explore how these concepts are used in everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by identifying simple patterns in colors or shapes. Use objects around the house like blocks or beads.\n2. Introduce sequences by arranging items in a specific order, like numbers or letters.\n3. Ask your child to predict what comes next in a pattern or sequence you've started.\n4. Have your child create their own patterns using toys or drawings, reinforcing their understanding.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. What comes next in the pattern: red, blue, red, blue, ___? (use numbers like 6 and 9)**\n_Answer:_ red\n_Hint:_ The pattern alternates between two colors.\n\n**2. Complete the sequence: 2, 4, 6, 8, ___?**\n_Answer:_ 10\n_Hint:_ Each number increases by 2.\n\n**3. What comes next: circle, square, circle, square, ___? (use numbers like 6 and 9)**\n_Answer:_ circle\n_Hint:_ Think about the shape that repeats.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to repeat the pattern consistently.\n- Mixing up the order in a sequence.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about how traffic lights cycle through colors or how a zebra's stripes repeat. These are patterns that help organize our world.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child recognize, extend, and create simple patterns using objects, numbers, or shapes.",
+    "overview": "**Objective:** Help your child recognize and create simple patterns and sequences, building a foundation for more complex mathematical concepts.\n\n**Why it matters:** Understanding patterns and sequences is crucial for solving problems, making predictions, and even learning coding and music!\n\n**Parent Tip:** Encourage your child to find patterns in their daily routine, like the order of getting dressed or the sequence in their favorite song.\n\n**Real-World Link:** Think about how traffic lights cycle through colors or how a zebra's stripes repeat. These are patterns that help organize our world.",
+    "core": "Patterns and sequences are all around us! They help us predict what comes next and make sense of the world. Let's explore how these concepts are used in everyday life.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed how traffic lights change in a predictable order? Red, yellow, green, and then back to red. Patterns help us understand what to expect next!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by identifying simple patterns in colors or shapes. Use objects around the house like blocks or beads.\n2. Introduce sequences by arranging items in a specific order, like numbers or letters.\n3. Ask your child to predict what comes next in a pattern or sequence you've started.\n4. Have your child create their own patterns using toys or drawings, reinforcing their understanding.",
+    "practice": "**1. What comes next in the pattern: red, blue, red, blue, ___? (use numbers like 6 and 9)**\n_Answer:_ red\n_Hint:_ The pattern alternates between two colors.\n\n**2. Complete the sequence: 2, 4, 6, 8, ___?**\n_Answer:_ 10\n_Hint:_ Each number increases by 2.\n\n**3. What comes next: circle, square, circle, square, ___? (use numbers like 6 and 9)**\n_Answer:_ circle\n_Hint:_ Think about the shape that repeats.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to repeat the pattern consistently.\n- Mixing up the order in a sequence.",
+    "connection": "Think about how traffic lights cycle through colors or how a zebra's stripes repeat. These are patterns that help organize our world.",
+    "close": "**Key Takeaways**\n- Patterns can be found in numbers, shapes, and daily routines.\n- Recognizing patterns helps predict what comes next.\n- Discussing patterns strengthens your child's observational skills.\n\n**Parent Reflection Questions**\n- What types of patterns does my child enjoy finding?\n- How can I use everyday objects to create new patterns with my child?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Intro to Patterns & Sequences for Grade 3",
+    "introduction": "Welcome to an exciting exploration of patterns and sequences! Patterns are all around us, and understanding them helps your child recognize order and predict what comes next.",
+    "objective": "Help your child identify, extend, and create simple patterns and sequences using numbers and shapes.",
+    "why_matters": "Recognizing patterns is a fundamental math skill that supports problem-solving and logical thinking, essential for future math concepts.",
+    "parent_tip": "Encourage your child to look for patterns in daily life, like the sequence of traffic lights or the stripes on a zebra.",
+    "real_world_link": "Patterns can be found in nature, art, and music. They help us make sense of our surroundings and predict future events.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Explain what a pattern is using simple terms.",
+      "Show examples of patterns using objects or drawings.",
+      "Help your child identify the repeating part of a pattern.",
+      "Practice extending a pattern with your child.",
+      "Create a new pattern together using everyday items."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about patterns! A pattern is something that repeats in a predictable way.",
+        "do": "Show your child a simple pattern with colored blocks, like red, blue, red, blue.",
+        "ask": "Can you tell me what comes next in this pattern?",
+        "reinforce": "Great job! Patterns repeat, so after red and blue, we start over again."
+      },
+      {
+        "say": "Now, let's find patterns around us.",
+        "do": "Look around the room or outside for natural patterns, like the petals on a flower.",
+        "ask": "What pattern do you see in these petals?",
+        "reinforce": "Yes, the petals repeat in a circle. Patterns are everywhere!"
+      },
+      {
+        "say": "Let's try a number pattern.",
+        "do": "Write the sequence 2, 4, 6, 8 on paper.",
+        "ask": "What is the rule of this pattern? What comes next?",
+        "reinforce": "Excellent! We're adding 2 each time, so the next number is 10."
+      },
+      {
+        "say": "How about we create our own pattern?",
+        "do": "Use coins or buttons to start a pattern like heads, tails, heads.",
+        "ask": "Can you continue this pattern?",
+        "reinforce": "Perfect! You continued the pattern correctly."
+      },
+      {
+        "say": "Let's draw a pattern using shapes.",
+        "do": "Draw a triangle, circle, triangle on paper.",
+        "ask": "What shape comes next?",
+        "reinforce": "That's right! A circle comes next because the pattern repeats."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete the pattern: 5, 10, 15, __, 25.",
+        "hint": "What number are we adding each time?",
+        "answer": "20"
+      },
+      {
+        "prompt": "Continue the pattern: square, circle, square, circle, __.",
+        "hint": "What shape repeats after the circle?",
+        "answer": "square"
+      },
+      {
+        "prompt": "Fill in the missing number: 3, 6, __, 12, 15.",
+        "hint": "Check the difference between numbers.",
+        "answer": "9"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Patterns repeat in a predictable way.",
+      "We can find patterns in numbers, shapes, and everyday objects.",
+      "Understanding patterns helps with future math skills."
+    ],
+    "common_mistakes": [
+      "Missing the repeating part of a pattern.",
+      "Confusing the order of a pattern's elements.",
+      "Not recognizing patterns in different forms, like numbers and shapes."
+    ],
+    "deep_dive": {
+      "history": "Patterns have been studied throughout history, from ancient textiles to modern algorithms.",
+      "connections": "Patterns link math to art, music, and science, showing how different fields use similar concepts.",
+      "misconceptions": "A common misconception is that patterns only exist in math, but they are a part of everyday life.",
+      "teaching_tips": "Use hands-on activities and real-world examples to make patterns engaging for your child.",
+      "derivation": "While patterns don't have a derivation like formulas, their recognition is key to developing mathematical thinking."
+    },
+    "motivation": "By understanding patterns, your child will gain confidence in math and develop skills that are useful in many aspects of life."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to an exciting exploration of patterns and sequences! Patterns are all around us, and understanding them helps your child recognize order and predict what comes next.\n\n## Parent Orientation\n**Objective:** Help your child identify, extend, and create simple patterns and sequences using numbers and shapes.\n**Why it matters:** Recognizing patterns is a fundamental math skill that supports problem-solving and logical thinking, essential for future math concepts.\n**Parent Tip:** Encourage your child to look for patterns in daily life, like the sequence of traffic lights or the stripes on a zebra.\n**Real-World Link:** Patterns can be found in nature, art, and music. They help us make sense of our surroundings and predict future events.\n\n## Teaching Steps\n1. Explain what a pattern is using simple terms.\n2. Show examples of patterns using objects or drawings.\n3. Help your child identify the repeating part of a pattern.\n4. Practice extending a pattern with your child.\n5. Create a new pattern together using everyday items.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about patterns! A pattern is something that repeats in a predictable way.  \n**Show/Do:** Show your child a simple pattern with colored blocks, like red, blue, red, blue.  \n**Ask:** Can you tell me what comes next in this pattern?  \n**Reinforce:** Great job! Patterns repeat, so after red and blue, we start over again.\n2. **Say:** Now, let's find patterns around us.  \n**Show/Do:** Look around the room or outside for natural patterns, like the petals on a flower.  \n**Ask:** What pattern do you see in these petals?  \n**Reinforce:** Yes, the petals repeat in a circle. Patterns are everywhere!\n3. **Say:** Let's try a number pattern.  \n**Show/Do:** Write the sequence 2, 4, 6, 8 on paper.  \n**Ask:** What is the rule of this pattern? What comes next?  \n**Reinforce:** Excellent! We're adding 2 each time, so the next number is 10.\n4. **Say:** How about we create our own pattern?  \n**Show/Do:** Use coins or buttons to start a pattern like heads, tails, heads.  \n**Ask:** Can you continue this pattern?  \n**Reinforce:** Perfect! You continued the pattern correctly.\n5. **Say:** Let's draw a pattern using shapes.  \n**Show/Do:** Draw a triangle, circle, triangle on paper.  \n**Ask:** What shape comes next?  \n**Reinforce:** That's right! A circle comes next because the pattern repeats.\n\n## Practice Questions (Do It Together)\n**1. Complete the pattern: 5, 10, 15, __, 25.**\n<details><summary>Hint</summary>\nWhat number are we adding each time?\n</details>\n<details><summary>Answer</summary>\n20\n</details>\n\n**2. Continue the pattern: square, circle, square, circle, __.**\n<details><summary>Hint</summary>\nWhat shape repeats after the circle?\n</details>\n<details><summary>Answer</summary>\nsquare\n</details>\n\n**3. Fill in the missing number: 3, 6, __, 12, 15.**\n<details><summary>Hint</summary>\nCheck the difference between numbers.\n</details>\n<details><summary>Answer</summary>\n9\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Patterns repeat in a predictable way.\n- We can find patterns in numbers, shapes, and everyday objects.\n- Understanding patterns helps with future math skills.\n\n**Common Mistakes**\n- Missing the repeating part of a pattern.\n- Confusing the order of a pattern's elements.\n- Not recognizing patterns in different forms, like numbers and shapes.\n\n## 🔍 Deep Dive\n**History or origin**\n\nPatterns have been studied throughout history, from ancient textiles to modern algorithms.\n\n**Future topic connections**\n\nPatterns link math to art, music, and science, showing how different fields use similar concepts.\n\n**Common misconceptions**\n\nA common misconception is that patterns only exist in math, but they are a part of everyday life.\n\n**Teaching tips for parents**\n\nUse hands-on activities and real-world examples to make patterns engaging for your child.\n\n**More detail / derivation**\n\nWhile patterns don't have a derivation like formulas, their recognition is key to developing mathematical thinking.\n\n## Motivation\nBy understanding patterns, your child will gain confidence in math and develop skills that are useful in many aspects of life."
+}

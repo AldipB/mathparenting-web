@@ -1,0 +1,157 @@
+{
+  "grade": {
+    "id": "df1ce7f8-3e9a-428b-ab28-f1945a04b00b",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "95be6f3f-3e29-4897-b210-6ef322669be3",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "b44da35a-19ef-453d-84b7-3bd088da0ad3",
+    "slug": "adding-and-subtracting-fractions",
+    "title": "Adding & Subtracting Fractions: A Parent's Guide",
+    "summary": "Adding & subtracting fractions — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 6
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Understand how to add and subtract fractions with like denominators and support your child in mastering this skill.\n\n**Why it matters:** Fractions are everywhere! From cooking recipes to dividing tasks, understanding fractions helps children solve real-life problems.\n\n**Parent Tip:** Encourage your child to visualize fractions using everyday items like pizza slices or chocolate bars. This makes abstract concepts more relatable.\n\n**Real-World Link:** Imagine sharing a pizza with friends. Each slice represents a fraction of the whole pizza. Adding or subtracting slices helps us see how many we have left or need.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome! Today we'll explore how to help your child add and subtract fractions with a shared denominator. Think of fractions as slices of pizza. Let's dive in!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by ensuring the fractions have the same denominator—like having the same 'type' of pizza slice.\n2. Add or subtract the numerators (the top numbers) while keeping the denominator the same.\n3. Simplify the fraction if possible, just like reducing the number of pizza slices to the simplest form.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. 3/8 + 2/8 = ?**\n_Answer:_ 5/8\n_Hint:_ Add the numerators: 3 + 2. Keep the denominator the same.\n\n**2. 5/6 - 1/6 = ?**\n_Answer:_ 4/6 or simplified to 2/3\n_Hint:_ Subtract the numerators: 5 - 1. Keep the denominator the same.\n\n**3. 7/10 + 3/10 = ?**\n_Answer:_ 10/10 or simplified to 1\n_Hint:_ Add the numerators: 7 + 3. Keep the denominator the same.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Mixing up numerators and denominators.\n- Forgetting to simplify the fraction after adding or subtracting.\n- Trying to add fractions with different denominators without finding a common denominator first.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine sharing a pizza with friends. Each slice represents a fraction of the whole pizza. Adding or subtracting slices helps us see how many we have left or need.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child confidently add and subtract fractions with like denominators.",
+    "overview": "**Objective:** Understand how to add and subtract fractions with like denominators and support your child in mastering this skill.\n\n**Why it matters:** Fractions are everywhere! From cooking recipes to dividing tasks, understanding fractions helps children solve real-life problems.\n\n**Parent Tip:** Encourage your child to visualize fractions using everyday items like pizza slices or chocolate bars. This makes abstract concepts more relatable.\n\n**Real-World Link:** Imagine sharing a pizza with friends. Each slice represents a fraction of the whole pizza. Adding or subtracting slices helps us see how many we have left or need.",
+    "core": "Welcome! Today we'll explore how to help your child add and subtract fractions with a shared denominator. Think of fractions as slices of pizza. Let's dive in!",
+    "demo": "**Spark Curiosity:**\n\nHave you ever tried to divide a pizza among friends and ended up with odd pieces? That's fractions in action!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by ensuring the fractions have the same denominator—like having the same 'type' of pizza slice.\n2. Add or subtract the numerators (the top numbers) while keeping the denominator the same.\n3. Simplify the fraction if possible, just like reducing the number of pizza slices to the simplest form.",
+    "practice": "**1. 3/8 + 2/8 = ?**\n_Answer:_ 5/8\n_Hint:_ Add the numerators: 3 + 2. Keep the denominator the same.\n\n**2. 5/6 - 1/6 = ?**\n_Answer:_ 4/6 or simplified to 2/3\n_Hint:_ Subtract the numerators: 5 - 1. Keep the denominator the same.\n\n**3. 7/10 + 3/10 = ?**\n_Answer:_ 10/10 or simplified to 1\n_Hint:_ Add the numerators: 7 + 3. Keep the denominator the same.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Mixing up numerators and denominators.\n- Forgetting to simplify the fraction after adding or subtracting.\n- Trying to add fractions with different denominators without finding a common denominator first.",
+    "connection": "Imagine sharing a pizza with friends. Each slice represents a fraction of the whole pizza. Adding or subtracting slices helps us see how many we have left or need.",
+    "close": "**Key Takeaways**\n- Fractions with the same denominator are added or subtracted by combining or separating the numerators.\n- Visual aids can help make abstract concepts more concrete.\n- Real-world examples can make learning fractions relatable.\n\n**Parent Reflection Questions**\n- How can I use everyday activities to reinforce fraction concepts?\n- What are some common challenges children face when learning fractions?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Adding & Subtracting Fractions: A Parent's Guide",
+    "introduction": "Welcome, parents! Helping your child understand fractions can be a rewarding experience. This guide will give you the tools to support your child's journey in adding and subtracting fractions.",
+    "objective": "Equip parents with strategies to help their child add and subtract fractions with like and unlike denominators.",
+    "why_matters": "Mastering fractions is crucial as they form the foundation for many math concepts your child will encounter in the future. Understanding fractions enhances problem-solving skills and numerical literacy.",
+    "parent_tip": "Encourage your child to visualize fractions using everyday items like pizza slices or chocolate bars. This makes abstract concepts more tangible.",
+    "real_world_link": "Think of fractions as parts of a whole. For example, when sharing a pizza, fractions help us understand how much each person gets. Adding and subtracting fractions is like combining or separating these parts.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Review the concept of fractions as parts of a whole.",
+      "Explain like and unlike denominators.",
+      "Demonstrate finding a common denominator for unlike fractions.",
+      "Practice adding fractions with like denominators.",
+      "Practice subtracting fractions with like denominators.",
+      "Introduce adding and subtracting fractions with unlike denominators."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start by revisiting what fractions are.",
+        "do": "Show a pizza cut into 4 equal parts.",
+        "ask": "If we have 3 out of 4 slices, what fraction of the pizza do we have?",
+        "reinforce": "That's right! 3/4 of the pizza."
+      },
+      {
+        "say": "Now, let's talk about adding fractions with the same bottom number, called the denominator.",
+        "do": "Write down 1/4 + 2/4 on a piece of paper.",
+        "ask": "What do you think happens when we add these fractions?",
+        "reinforce": "Correct! We add the top numbers, so 1/4 + 2/4 equals 3/4."
+      },
+      {
+        "say": "When denominators are different, we need to find a common denominator.",
+        "do": "Write down 1/3 + 1/6 and draw two circles representing pies divided into thirds and sixths.",
+        "ask": "How can we make these fractions have the same denominator?",
+        "reinforce": "Great! We can convert 1/3 to 2/6 so they have the same denominator."
+      },
+      {
+        "say": "Let's add 1/3 and 1/6 now that they have a common denominator.",
+        "do": "Show how 2/6 + 1/6 equals 3/6, which can be simplified to 1/2.",
+        "ask": "What does 3/6 simplify to?",
+        "reinforce": "Right! It simplifies to 1/2."
+      },
+      {
+        "say": "Subtracting works similarly. Let's try 3/4 - 1/4.",
+        "do": "Write the fractions and show how to subtract the numerators.",
+        "ask": "What is 3/4 minus 1/4?",
+        "reinforce": "Yes, you get 2/4, which simplifies to 1/2."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add 2/5 and 1/5.",
+        "hint": "Check if the denominators are the same.",
+        "answer": "3/5"
+      },
+      {
+        "prompt": "Subtract 5/8 from 7/8.",
+        "hint": "Subtract the numerators since the denominators are the same.",
+        "answer": "2/8 or 1/4"
+      },
+      {
+        "prompt": "Add 1/2 and 1/4.",
+        "hint": "Find a common denominator first.",
+        "answer": "3/4"
+      },
+      {
+        "prompt": "Subtract 1/3 from 5/6.",
+        "hint": "Convert 1/3 to 2/6 to match denominators.",
+        "answer": "3/6 or 1/2"
+      }
+    ],
+    "recap": [
+      "Fractions represent parts of a whole.",
+      "To add or subtract fractions with like denominators, simply add or subtract the numerators.",
+      "For unlike denominators, find a common denominator first.",
+      "Always simplify your answers if possible."
+    ],
+    "common_mistakes": [
+      "Adding or subtracting denominators instead of numerators.",
+      "Forgetting to find a common denominator for unlike fractions.",
+      "Not simplifying the final answer."
+    ],
+    "deep_dive": {
+      "history": "Fractions have been used for thousands of years, dating back to the ancient Egyptians who used them to distribute food and supplies.",
+      "connections": "Fractions are foundational for understanding decimals and percentages in later grades.",
+      "misconceptions": "Many students think you can add or subtract denominators directly; clarifying this early helps prevent confusion.",
+      "teaching_tips": "Use visual aids like fraction strips or pie charts to help children grasp the concept better.",
+      "derivation": "Understanding that fractions are divisions of integers helps explain why finding a common denominator works."
+    },
+    "motivation": "Think of fractions as a way to share and divide equally. By mastering them, your child gains confidence and builds a strong math foundation. You're doing an amazing job supporting them!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome, parents! Helping your child understand fractions can be a rewarding experience. This guide will give you the tools to support your child's journey in adding and subtracting fractions.\n\n## Parent Orientation\n**Objective:** Equip parents with strategies to help their child add and subtract fractions with like and unlike denominators.\n**Why it matters:** Mastering fractions is crucial as they form the foundation for many math concepts your child will encounter in the future. Understanding fractions enhances problem-solving skills and numerical literacy.\n**Parent Tip:** Encourage your child to visualize fractions using everyday items like pizza slices or chocolate bars. This makes abstract concepts more tangible.\n**Real-World Link:** Think of fractions as parts of a whole. For example, when sharing a pizza, fractions help us understand how much each person gets. Adding and subtracting fractions is like combining or separating these parts.\n\n## Teaching Steps\n1. Review the concept of fractions as parts of a whole.\n2. Explain like and unlike denominators.\n3. Demonstrate finding a common denominator for unlike fractions.\n4. Practice adding fractions with like denominators.\n5. Practice subtracting fractions with like denominators.\n6. Introduce adding and subtracting fractions with unlike denominators.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start by revisiting what fractions are.  \n**Show/Do:** Show a pizza cut into 4 equal parts.  \n**Ask:** If we have 3 out of 4 slices, what fraction of the pizza do we have?  \n**Reinforce:** That's right! 3/4 of the pizza.\n2. **Say:** Now, let's talk about adding fractions with the same bottom number, called the denominator.  \n**Show/Do:** Write down 1/4 + 2/4 on a piece of paper.  \n**Ask:** What do you think happens when we add these fractions?  \n**Reinforce:** Correct! We add the top numbers, so 1/4 + 2/4 equals 3/4.\n3. **Say:** When denominators are different, we need to find a common denominator.  \n**Show/Do:** Write down 1/3 + 1/6 and draw two circles representing pies divided into thirds and sixths.  \n**Ask:** How can we make these fractions have the same denominator?  \n**Reinforce:** Great! We can convert 1/3 to 2/6 so they have the same denominator.\n4. **Say:** Let's add 1/3 and 1/6 now that they have a common denominator.  \n**Show/Do:** Show how 2/6 + 1/6 equals 3/6, which can be simplified to 1/2.  \n**Ask:** What does 3/6 simplify to?  \n**Reinforce:** Right! It simplifies to 1/2.\n5. **Say:** Subtracting works similarly. Let's try 3/4 - 1/4.  \n**Show/Do:** Write the fractions and show how to subtract the numerators.  \n**Ask:** What is 3/4 minus 1/4?  \n**Reinforce:** Yes, you get 2/4, which simplifies to 1/2.\n\n## Practice Questions (Do It Together)\n**1. Add 2/5 and 1/5.**\n<details><summary>Hint</summary>\nCheck if the denominators are the same.\n</details>\n<details><summary>Answer</summary>\n3/5\n</details>\n\n**2. Subtract 5/8 from 7/8.**\n<details><summary>Hint</summary>\nSubtract the numerators since the denominators are the same.\n</details>\n<details><summary>Answer</summary>\n2/8 or 1/4\n</details>\n\n**3. Add 1/2 and 1/4.**\n<details><summary>Hint</summary>\nFind a common denominator first.\n</details>\n<details><summary>Answer</summary>\n3/4\n</details>\n\n**4. Subtract 1/3 from 5/6.**\n<details><summary>Hint</summary>\nConvert 1/3 to 2/6 to match denominators.\n</details>\n<details><summary>Answer</summary>\n3/6 or 1/2\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Fractions represent parts of a whole.\n- To add or subtract fractions with like denominators, simply add or subtract the numerators.\n- For unlike denominators, find a common denominator first.\n- Always simplify your answers if possible.\n\n**Common Mistakes**\n- Adding or subtracting denominators instead of numerators.\n- Forgetting to find a common denominator for unlike fractions.\n- Not simplifying the final answer.\n\n## 🔍 Deep Dive\n**History or origin**\n\nFractions have been used for thousands of years, dating back to the ancient Egyptians who used them to distribute food and supplies.\n\n**Future topic connections**\n\nFractions are foundational for understanding decimals and percentages in later grades.\n\n**Common misconceptions**\n\nMany students think you can add or subtract denominators directly; clarifying this early helps prevent confusion.\n\n**Teaching tips for parents**\n\nUse visual aids like fraction strips or pie charts to help children grasp the concept better.\n\n**More detail / derivation**\n\nUnderstanding that fractions are divisions of integers helps explain why finding a common denominator works.\n\n## Motivation\nThink of fractions as a way to share and divide equally. By mastering them, your child gains confidence and builds a strong math foundation. You're doing an amazing job supporting them!"
+}

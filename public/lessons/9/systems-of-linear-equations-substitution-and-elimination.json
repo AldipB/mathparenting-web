@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "30e43838-ba60-40c6-b76f-17bf7453c042",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "0c09e4b2-fc95-4366-9be4-01bcc38c8444",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "770ce083-0f29-41bd-acea-0368d91cdab8",
+    "slug": "systems-of-linear-equations-substitution-and-elimination",
+    "title": "Solving Systems of Linear Equations: Substitution & Elimination",
+    "summary": "Systems of linear equations (substitution & elimination) — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 4
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** Help your child learn how to solve systems of linear equations using substitution and elimination methods.\n\n**Why it matters:** Understanding these methods is crucial as they form the backbone of algebra. They help us solve real-world problems involving multiple conditions.\n\n**Parent Tip:** Encourage your child to think of these methods like choosing the best tool for a job. Sometimes substitution is quicker, and other times elimination is more straightforward.\n\n**Real-World Link:** Imagine planning a family road trip. You need to decide on the route (substitution) and budget for gas and snacks (elimination) to reach your destination efficiently.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of solving systems of equations! These are like little puzzles where two or more equations work together to find the values of variables. Let's explore how substitution and elimination can help us solve these puzzles.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with the substitution method: Solve one equation for one variable.\n2. Substitute this expression into the other equation.\n3. Solve the resulting single-variable equation.\n4. Use the solution to find the other variable.\n5. For elimination, align both equations and eliminate one variable by adding or subtracting.\n6. Solve the resulting equation for the remaining variable.\n7. Substitute back to find the other variable.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Solve using substitution: y = 2x + 3 and 3x + y = 9.**\n_Answer:_ x = 1, y = 5\n_Hint:_ Substitute y = 2x + 3 into the second equation.\n\n**2. Use elimination: 2x + 3y = 6 and 4x - 3y = 12.**\n_Answer:_ x = 3, y = 0\n_Hint:_ Add the equations to eliminate y.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to substitute back to find the second variable.\n- Not aligning equations correctly for elimination.\n- Mixing up signs when adding or subtracting equations.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Imagine planning a family road trip. You need to decide on the route (substitution) and budget for gas and snacks (elimination) to reach your destination efficiently.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and solve systems of linear equations using substitution and elimination methods.",
+    "overview": "**Objective:** Help your child learn how to solve systems of linear equations using substitution and elimination methods.\n\n**Why it matters:** Understanding these methods is crucial as they form the backbone of algebra. They help us solve real-world problems involving multiple conditions.\n\n**Parent Tip:** Encourage your child to think of these methods like choosing the best tool for a job. Sometimes substitution is quicker, and other times elimination is more straightforward.\n\n**Real-World Link:** Imagine planning a family road trip. You need to decide on the route (substitution) and budget for gas and snacks (elimination) to reach your destination efficiently.",
+    "core": "Welcome to the world of solving systems of equations! These are like little puzzles where two or more equations work together to find the values of variables. Let's explore how substitution and elimination can help us solve these puzzles.",
+    "demo": "**Spark Curiosity:**\n\nImagine you're planning a birthday party with a certain budget. How do you decide how much to spend on decorations versus food? This is similar to solving a system of equations!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with the substitution method: Solve one equation for one variable.\n2. Substitute this expression into the other equation.\n3. Solve the resulting single-variable equation.\n4. Use the solution to find the other variable.\n5. For elimination, align both equations and eliminate one variable by adding or subtracting.\n6. Solve the resulting equation for the remaining variable.\n7. Substitute back to find the other variable.",
+    "practice": "**1. Solve using substitution: y = 2x + 3 and 3x + y = 9.**\n_Answer:_ x = 1, y = 5\n_Hint:_ Substitute y = 2x + 3 into the second equation.\n\n**2. Use elimination: 2x + 3y = 6 and 4x - 3y = 12.**\n_Answer:_ x = 3, y = 0\n_Hint:_ Add the equations to eliminate y.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to substitute back to find the second variable.\n- Not aligning equations correctly for elimination.\n- Mixing up signs when adding or subtracting equations.",
+    "connection": "Imagine planning a family road trip. You need to decide on the route (substitution) and budget for gas and snacks (elimination) to reach your destination efficiently.",
+    "close": "**Key Takeaways**\n- Systems of equations can be solved using substitution or elimination.\n- Each method has its advantages; choice depends on the problem.\n- Visual aids like graphs can help in understanding solutions.\n\n**Parent Reflection Questions**\n- Which method does your child find easier and why?\n- How can you help your child visualize the problem?\n- What real-life scenarios can you discuss that involve systems of equations?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Solving Systems of Linear Equations: Substitution & Elimination",
+    "introduction": "Welcome! Today, let's explore how your child can solve systems of equations using two powerful methods: substitution and elimination. These techniques help find where two lines meet on a graph, a key concept in algebra.",
+    "objective": "To help your child understand and apply substitution and elimination methods to solve systems of linear equations.",
+    "why_matters": "Understanding these methods builds problem-solving skills and lays the foundation for future math courses and real-world problem-solving.",
+    "parent_tip": "Encourage your child to visualize the problem. Drawing a simple graph or using colored pencils can make the process more intuitive.",
+    "real_world_link": "Imagine scheduling two activities at different locations. Solving a system of equations helps find the best time to leave one location and arrive at another.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a system of linear equations.",
+      "Explain the substitution method step by step.",
+      "Demonstrate the elimination method step by step.",
+      "Discuss when each method might be more useful.",
+      "Practice solving using both methods with your child."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's start with substitution. It's like finding a missing puzzle piece.",
+        "do": "Show a simple example: y = 2x and x + y = 6.",
+        "ask": "What happens if we replace 'y' in the second equation with '2x'?",
+        "reinforce": "Great! By substituting, we make the equation easier to solve."
+      },
+      {
+        "say": "Now, let's try elimination. It's like balancing a scale.",
+        "do": "Write: 2x + y = 6 and x - y = 2.",
+        "ask": "Can we add or subtract these equations to eliminate one variable?",
+        "reinforce": "Exactly! Eliminating one variable helps us solve for the other."
+      },
+      {
+        "say": "Notice how each method simplifies the problem.",
+        "do": "Highlight how substitution and elimination led to solutions for x and y.",
+        "ask": "Which method do you find easier or more intuitive?",
+        "reinforce": "Both methods are tools in your problem-solving toolkit."
+      },
+      {
+        "say": "Let's practice together.",
+        "do": "Write down a new set of equations for practice.",
+        "ask": "Which method would you like to try first?",
+        "reinforce": "Practicing both helps you decide which method to use when."
+      },
+      {
+        "say": "Remember, mistakes are part of learning!",
+        "do": "Encourage trying different approaches.",
+        "ask": "What did you learn from trying each method?",
+        "reinforce": "Learning from mistakes builds confidence and skills."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Solve using substitution: y = 3x + 1 and 2x + y = 11.",
+        "hint": "Substitute '3x + 1' for 'y' in the second equation.",
+        "answer": "x = 2, y = 7"
+      },
+      {
+        "prompt": "Solve using elimination: 3x - y = 4 and x + y = 6.",
+        "hint": "Add the two equations to eliminate 'y'.",
+        "answer": "x = 2, y = 4"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Substitution involves replacing one variable with an expression from another equation.",
+      "Elimination involves adding or subtracting equations to eliminate a variable.",
+      "Both methods simplify solving systems of equations."
+    ],
+    "common_mistakes": [
+      "Forgetting to distribute negative signs when substituting.",
+      "Mixing up terms when adding or subtracting equations.",
+      "Not checking solutions by substituting back into the original equations."
+    ],
+    "deep_dive": {
+      "history": "Systems of equations have been used since ancient times, with roots in Babylonian and Greek mathematics.",
+      "connections": "These methods are foundational for calculus and linear algebra, crucial for fields like engineering and economics.",
+      "misconceptions": "Some think substitution and elimination are interchangeable. It's important to choose based on the problem's structure.",
+      "teaching_tips": "Use visual aids and simple, relatable examples to explain each method.",
+      "derivation": "Both methods are based on algebraic properties: substitution on equality and elimination on equivalence."
+    },
+    "motivation": "Mastering these methods empowers your child to tackle complex problems with confidence and prepares them for advanced math."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today, let's explore how your child can solve systems of equations using two powerful methods: substitution and elimination. These techniques help find where two lines meet on a graph, a key concept in algebra.\n\n## Parent Orientation\n**Objective:** To help your child understand and apply substitution and elimination methods to solve systems of linear equations.\n**Why it matters:** Understanding these methods builds problem-solving skills and lays the foundation for future math courses and real-world problem-solving.\n**Parent Tip:** Encourage your child to visualize the problem. Drawing a simple graph or using colored pencils can make the process more intuitive.\n**Real-World Link:** Imagine scheduling two activities at different locations. Solving a system of equations helps find the best time to leave one location and arrive at another.\n\n## Teaching Steps\n1. Introduce the concept of a system of linear equations.\n2. Explain the substitution method step by step.\n3. Demonstrate the elimination method step by step.\n4. Discuss when each method might be more useful.\n5. Practice solving using both methods with your child.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's start with substitution. It's like finding a missing puzzle piece.  \n**Show/Do:** Show a simple example: y = 2x and x + y = 6.  \n**Ask:** What happens if we replace 'y' in the second equation with '2x'?  \n**Reinforce:** Great! By substituting, we make the equation easier to solve.\n2. **Say:** Now, let's try elimination. It's like balancing a scale.  \n**Show/Do:** Write: 2x + y = 6 and x - y = 2.  \n**Ask:** Can we add or subtract these equations to eliminate one variable?  \n**Reinforce:** Exactly! Eliminating one variable helps us solve for the other.\n3. **Say:** Notice how each method simplifies the problem.  \n**Show/Do:** Highlight how substitution and elimination led to solutions for x and y.  \n**Ask:** Which method do you find easier or more intuitive?  \n**Reinforce:** Both methods are tools in your problem-solving toolkit.\n4. **Say:** Let's practice together.  \n**Show/Do:** Write down a new set of equations for practice.  \n**Ask:** Which method would you like to try first?  \n**Reinforce:** Practicing both helps you decide which method to use when.\n5. **Say:** Remember, mistakes are part of learning!  \n**Show/Do:** Encourage trying different approaches.  \n**Ask:** What did you learn from trying each method?  \n**Reinforce:** Learning from mistakes builds confidence and skills.\n\n## Practice Questions (Do It Together)\n**1. Solve using substitution: y = 3x + 1 and 2x + y = 11.**\n<details><summary>Hint</summary>\nSubstitute '3x + 1' for 'y' in the second equation.\n</details>\n<details><summary>Answer</summary>\nx = 2, y = 7\n</details>\n\n**2. Solve using elimination: 3x - y = 4 and x + y = 6.**\n<details><summary>Hint</summary>\nAdd the two equations to eliminate 'y'.\n</details>\n<details><summary>Answer</summary>\nx = 2, y = 4\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Substitution involves replacing one variable with an expression from another equation.\n- Elimination involves adding or subtracting equations to eliminate a variable.\n- Both methods simplify solving systems of equations.\n\n**Common Mistakes**\n- Forgetting to distribute negative signs when substituting.\n- Mixing up terms when adding or subtracting equations.\n- Not checking solutions by substituting back into the original equations.\n\n## 🔍 Deep Dive\n**History or origin**\n\nSystems of equations have been used since ancient times, with roots in Babylonian and Greek mathematics.\n\n**Future topic connections**\n\nThese methods are foundational for calculus and linear algebra, crucial for fields like engineering and economics.\n\n**Common misconceptions**\n\nSome think substitution and elimination are interchangeable. It's important to choose based on the problem's structure.\n\n**Teaching tips for parents**\n\nUse visual aids and simple, relatable examples to explain each method.\n\n**More detail / derivation**\n\nBoth methods are based on algebraic properties: substitution on equality and elimination on equivalence.\n\n## Motivation\nMastering these methods empowers your child to tackle complex problems with confidence and prepares them for advanced math."
+}

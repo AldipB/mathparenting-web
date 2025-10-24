@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "d2715b26-625f-4ecc-966d-12372d6aa0b2",
+    "slug": "3",
+    "name": "Grade 3"
+  },
+  "unit": {
+    "id": "ba101fd4-7588-446f-93c5-a6c75fe62476",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "e24401ba-0846-4100-ba61-f5932a4b863f",
+    "slug": "money-change-and-total",
+    "title": "Money Matters: Understanding Change and Total",
+    "summary": "Money (change & total) — parent overview for Grade 3.",
+    "difficulty_level": "core",
+    "order_index": 8
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To teach students how to calculate the total cost of items and determine the correct change when making purchases.\n\n**Why it matters:** Understanding money transactions is essential for making informed decisions and handling real-world situations like shopping, budgeting, and saving.\n\n**Parent Tip:** Use shopping trips as opportunities to practice math. Let your child calculate the total cost or the change they should receive. This makes learning practical and fun!\n\n**Real-World Link:** Every time you buy something, whether it's groceries or a toy, you use math to check if you have enough money and to ensure you get the right change back.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to 'Money Matters'! In this lesson, we'll help your child understand how to calculate change and total amounts with ease. This skill is not only crucial for math class but also for everyday life.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with identifying the price of each item and adding them together to find the total cost.\n2. Discuss with your child how much money they have to spend.\n3. Show them how to subtract the total cost from the money they have to find out how much change they should receive.\n4. Practice this process with real or play money to make it tangible.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. If you buy a book for $5 and a toy for $7, what is the total cost?**\n_Answer:_ $12\n_Hint:_ Add the prices: $5 + $7.\n\n**2. You give the cashier $20 for items totaling $15. How much change should you get back?**\n_Answer:_ $5\n_Hint:_ Subtract the total from what you gave: $20 - $15.\n\n**3. A snack costs $2 and a drink costs $3. You pay with a $10 bill. What change should you receive?**\n_Answer:_ $5\n_Hint:_ Find the total cost first, then subtract from $10.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to add all items when calculating the total cost.\n- Subtracting incorrectly and ending up with the wrong change amount.\n- Not using enough real-world examples to make the concept clear.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Every time you buy something, whether it's groceries or a toy, you use math to check if you have enough money and to ensure you get the right change back.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand how to calculate total costs and change when using money.",
+    "overview": "**Objective:** To teach students how to calculate the total cost of items and determine the correct change when making purchases.\n\n**Why it matters:** Understanding money transactions is essential for making informed decisions and handling real-world situations like shopping, budgeting, and saving.\n\n**Parent Tip:** Use shopping trips as opportunities to practice math. Let your child calculate the total cost or the change they should receive. This makes learning practical and fun!\n\n**Real-World Link:** Every time you buy something, whether it's groceries or a toy, you use math to check if you have enough money and to ensure you get the right change back.",
+    "core": "Welcome to 'Money Matters'! In this lesson, we'll help your child understand how to calculate change and total amounts with ease. This skill is not only crucial for math class but also for everyday life.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'If you had $10 and spent $3 on your favorite snack, how much would you have left?' Use coins or play money to visualize it.",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with identifying the price of each item and adding them together to find the total cost.\n2. Discuss with your child how much money they have to spend.\n3. Show them how to subtract the total cost from the money they have to find out how much change they should receive.\n4. Practice this process with real or play money to make it tangible.",
+    "practice": "**1. If you buy a book for $5 and a toy for $7, what is the total cost?**\n_Answer:_ $12\n_Hint:_ Add the prices: $5 + $7.\n\n**2. You give the cashier $20 for items totaling $15. How much change should you get back?**\n_Answer:_ $5\n_Hint:_ Subtract the total from what you gave: $20 - $15.\n\n**3. A snack costs $2 and a drink costs $3. You pay with a $10 bill. What change should you receive?**\n_Answer:_ $5\n_Hint:_ Find the total cost first, then subtract from $10.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to add all items when calculating the total cost.\n- Subtracting incorrectly and ending up with the wrong change amount.\n- Not using enough real-world examples to make the concept clear.",
+    "connection": "Every time you buy something, whether it's groceries or a toy, you use math to check if you have enough money and to ensure you get the right change back.",
+    "close": "**Key Takeaways**\n- Calculating change involves subtraction.\n- Real-world practice helps reinforce these skills.\n- Using physical money can make abstract concepts concrete.\n\n**Parent Reflection Questions**\n- How comfortable does my child feel with these calculations?\n- What other everyday activities can help reinforce these skills?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Money Matters: Understanding Change and Total",
+    "introduction": "Welcome to a fun and practical lesson on money management! Today, we'll explore how to calculate change and totals, skills that are essential for everyday life.",
+    "objective": "Help your child learn how to add money amounts and subtract to find change.",
+    "why_matters": "Understanding money is crucial for making smart financial decisions. It empowers children to handle real-world transactions confidently.",
+    "parent_tip": "Use real coins and bills during practice to make the learning experience interactive and relatable.",
+    "real_world_link": "Next time you're at the store, involve your child in paying and checking the change. It's a great way to apply their skills in a real setting.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of total cost and change.",
+      "Demonstrate adding up different items' prices.",
+      "Explain how to calculate change when paying with cash.",
+      "Practice with simple examples using real or play money.",
+      "Discuss the importance of checking for correct change."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's pretend we're buying some groceries.",
+        "do": "Gather a few items and label them with prices.",
+        "ask": "How much do you think all these items will cost together?",
+        "reinforce": "Great! Adding the prices gives us the total cost."
+      },
+      {
+        "say": "Now, imagine we're paying with a $10 bill.",
+        "do": "Show the $10 bill and the total cost.",
+        "ask": "How much change should we get back?",
+        "reinforce": "Subtracting the total cost from $10 helps us find the change."
+      },
+      {
+        "say": "Let's check if the change is correct.",
+        "do": "Count the change together.",
+        "ask": "Does the change match what we calculated?",
+        "reinforce": "Counting helps ensure we receive the right amount."
+      },
+      {
+        "say": "Why is it important to know how much change we should get?",
+        "do": "Discuss scenarios where incorrect change might happen.",
+        "ask": "How would you feel if you got the wrong change?",
+        "reinforce": "Being able to calculate change protects us from mistakes."
+      },
+      {
+        "say": "Let's practice with different amounts.",
+        "do": "Use other item prices and bills for variety.",
+        "ask": "Can you calculate the change for this scenario?",
+        "reinforce": "Practicing with different numbers builds confidence."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "You buy a toy for $3.75 and pay with a $5 bill. How much change should you get?",
+        "hint": "Subtract $3.75 from $5.",
+        "answer": "$1.25"
+      },
+      {
+        "prompt": "You spend $2.50 on a snack and give a $10 bill. What is your change?",
+        "hint": "Subtract $2.50 from $10.",
+        "answer": "$7.50"
+      },
+      {
+        "prompt": "Your total bill is $7.25, and you pay with a $20 bill. How much change will you receive?",
+        "hint": "Subtract $7.25 from $20.",
+        "answer": "$12.75"
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Adding prices gives us the total cost.",
+      "Subtracting the total from the amount paid gives us the change.",
+      "Always check your change to ensure it's correct."
+    ],
+    "common_mistakes": [
+      "Forgetting to carry over when adding money.",
+      "Not aligning the decimal points correctly.",
+      "Misplacing digits when subtracting."
+    ],
+    "deep_dive": {
+      "history": "The concept of money dates back thousands of years, evolving from bartering systems to modern currency.",
+      "connections": "Understanding money links to other math skills like addition, subtraction, and decimals.",
+      "misconceptions": "A common misconception is that the biggest bill always gives the most change.",
+      "teaching_tips": "Use a mix of real-life examples and play scenarios to keep your child engaged.",
+      "derivation": "The process of calculating change is derived from basic arithmetic principles of addition and subtraction."
+    },
+    "motivation": "Mastering money skills today prepares your child for a financially savvy future. Engage them with real-world practice to boost their confidence!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to a fun and practical lesson on money management! Today, we'll explore how to calculate change and totals, skills that are essential for everyday life.\n\n## Parent Orientation\n**Objective:** Help your child learn how to add money amounts and subtract to find change.\n**Why it matters:** Understanding money is crucial for making smart financial decisions. It empowers children to handle real-world transactions confidently.\n**Parent Tip:** Use real coins and bills during practice to make the learning experience interactive and relatable.\n**Real-World Link:** Next time you're at the store, involve your child in paying and checking the change. It's a great way to apply their skills in a real setting.\n\n## Teaching Steps\n1. Introduce the concept of total cost and change.\n2. Demonstrate adding up different items' prices.\n3. Explain how to calculate change when paying with cash.\n4. Practice with simple examples using real or play money.\n5. Discuss the importance of checking for correct change.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's pretend we're buying some groceries.  \n**Show/Do:** Gather a few items and label them with prices.  \n**Ask:** How much do you think all these items will cost together?  \n**Reinforce:** Great! Adding the prices gives us the total cost.\n2. **Say:** Now, imagine we're paying with a $10 bill.  \n**Show/Do:** Show the $10 bill and the total cost.  \n**Ask:** How much change should we get back?  \n**Reinforce:** Subtracting the total cost from $10 helps us find the change.\n3. **Say:** Let's check if the change is correct.  \n**Show/Do:** Count the change together.  \n**Ask:** Does the change match what we calculated?  \n**Reinforce:** Counting helps ensure we receive the right amount.\n4. **Say:** Why is it important to know how much change we should get?  \n**Show/Do:** Discuss scenarios where incorrect change might happen.  \n**Ask:** How would you feel if you got the wrong change?  \n**Reinforce:** Being able to calculate change protects us from mistakes.\n5. **Say:** Let's practice with different amounts.  \n**Show/Do:** Use other item prices and bills for variety.  \n**Ask:** Can you calculate the change for this scenario?  \n**Reinforce:** Practicing with different numbers builds confidence.\n\n## Practice Questions (Do It Together)\n**1. You buy a toy for $3.75 and pay with a $5 bill. How much change should you get?**\n<details><summary>Hint</summary>\nSubtract $3.75 from $5.\n</details>\n<details><summary>Answer</summary>\n$1.25\n</details>\n\n**2. You spend $2.50 on a snack and give a $10 bill. What is your change?**\n<details><summary>Hint</summary>\nSubtract $2.50 from $10.\n</details>\n<details><summary>Answer</summary>\n$7.50\n</details>\n\n**3. Your total bill is $7.25, and you pay with a $20 bill. How much change will you receive?**\n<details><summary>Hint</summary>\nSubtract $7.25 from $20.\n</details>\n<details><summary>Answer</summary>\n$12.75\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Adding prices gives us the total cost.\n- Subtracting the total from the amount paid gives us the change.\n- Always check your change to ensure it's correct.\n\n**Common Mistakes**\n- Forgetting to carry over when adding money.\n- Not aligning the decimal points correctly.\n- Misplacing digits when subtracting.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of money dates back thousands of years, evolving from bartering systems to modern currency.\n\n**Future topic connections**\n\nUnderstanding money links to other math skills like addition, subtraction, and decimals.\n\n**Common misconceptions**\n\nA common misconception is that the biggest bill always gives the most change.\n\n**Teaching tips for parents**\n\nUse a mix of real-life examples and play scenarios to keep your child engaged.\n\n**More detail / derivation**\n\nThe process of calculating change is derived from basic arithmetic principles of addition and subtraction.\n\n## Motivation\nMastering money skills today prepares your child for a financially savvy future. Engage them with real-world practice to boost their confidence!"
+}

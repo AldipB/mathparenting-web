@@ -1,0 +1,45 @@
+{
+  "grade": "5",
+  "lessons": [
+    {
+      "slug": "coordinate-plane-basics",
+      "title": "Coordinate Plane Basics: Navigating the Grid"
+    },
+    {
+      "slug": "dividing-whole-numbers-by-1-digit",
+      "title": "Dividing Whole Numbers by 1-Digit Numbers"
+    },
+    {
+      "slug": "lcm-and-gcf",
+      "title": "Finding the Magic in Numbers: LCM & GCF"
+    },
+    {
+      "slug": "geometry-triangles-and-quadrilaterals",
+      "title": "Geometry: Triangles & Quadrilaterals"
+    },
+    {
+      "slug": "graphs-bar-line-pie",
+      "title": "Graphs: Understanding Bar, Line, and Pie Charts"
+    },
+    {
+      "slug": "introduction-to-ratios-and-rates",
+      "title": "Introduction to Ratios & Rates"
+    },
+    {
+      "slug": "multiplying-fractions-and-decimals",
+      "title": "Multiplying Fractions & Decimals: A Parent's Guide"
+    },
+    {
+      "slug": "mixed-numbers-and-improper-fractions",
+      "title": "Understanding Mixed Numbers & Improper Fractions"
+    },
+    {
+      "slug": "place-value-to-millions",
+      "title": "Understanding Place Value to Millions"
+    },
+    {
+      "slug": "volume-and-capacity",
+      "title": "Volume & Capacity: Exploring Space in 3D!"
+    }
+  ]
+}

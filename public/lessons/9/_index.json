@@ -1,0 +1,41 @@
+{
+  "grade": "9",
+  "lessons": [
+    {
+      "slug": "quadratic-functions-and-graphing",
+      "title": "Exploring Quadratic Functions & Graphing"
+    },
+    {
+      "slug": "factoring-trinomials",
+      "title": "Factoring Trinomials: Unlocking the Magic of Numbers"
+    },
+    {
+      "slug": "linear-functions-and-graphs",
+      "title": "Linear Functions and Graphs: Understanding the Basics"
+    },
+    {
+      "slug": "polynomials-addsubtractmultiply",
+      "title": "Polynomials: Adding, Subtracting, and Multiplying"
+    },
+    {
+      "slug": "radicals-and-square-roots",
+      "title": "Radicals & Square Roots"
+    },
+    {
+      "slug": "rational-expressions-simplify-and-operate",
+      "title": "Rational Expressions: Simplify & Operate"
+    },
+    {
+      "slug": "systems-of-linear-equations-substitution-and-elimination",
+      "title": "Solving Systems of Linear Equations: Substitution & Elimination"
+    },
+    {
+      "slug": "real-numbers-and-properties",
+      "title": "Understanding Real Numbers and Their Properties"
+    },
+    {
+      "slug": "slope-intercept-and-standard-form",
+      "title": "Understanding Slope-Intercept & Standard Form"
+    }
+  ]
+}

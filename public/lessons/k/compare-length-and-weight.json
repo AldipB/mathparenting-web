@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "8f6e67c4-5863-4ce1-bc89-2989115d57bd",
+    "slug": "k",
+    "name": "Kindergarten"
+  },
+  "unit": {
+    "id": "fdf039b0-19d4-4b7c-a7a4-979930749cba",
+    "title": "Measurement & Data",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "1e9c7bc6-1ef1-4b00-91e3-2697303cda95",
+    "slug": "compare-length-and-weight",
+    "title": "Comparing Length & Weight in Everyday Life",
+    "summary": "Compare length & weight — parent overview for Kindergarten.",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to compare objects based on their length and weight using everyday examples.\n\n**Why it matters:** Understanding length and weight helps children make sense of their environment and supports future math learning.\n\n**Parent Tip:** Use everyday objects like fruits or toys to practice. Encourage your child to describe what they observe.\n\n**Real-World Link:** Think about how we choose the right size of clothes or how we know which bag of groceries is heavier. These are everyday decisions based on comparing length and weight.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Helping your child understand length and weight is a great way to connect math to the world around them. Let's explore how to make these concepts fun and relatable!",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start with familiar items: Ask your child to pick two toys and compare which one is longer or shorter.\n2. Introduce weight: Use two fruits, like an apple and a banana, and ask which one feels heavier.\n3. Use descriptive words: Encourage your child to use words like 'longer', 'shorter', 'heavier', and 'lighter'.\n4. Sort household items: Create a fun sorting game where your child groups items into 'long' vs. 'short' and 'heavy' vs. 'light'.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Which is longer, a pencil or a crayon? (use numbers like 6 and 9)**\n_Answer:_ The pencil is longer.\n_Hint:_ Line them up from one end.\n\n**2. Which is heavier, a book or a feather? (use numbers like 6 and 9)**\n_Answer:_ The book is heavier.\n_Hint:_ Hold one in each hand.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Children might think bigger items are always heavier. Remind them to check by lifting.\n- They might not align items correctly when comparing length. Help them line up items from one end.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think about how we choose the right size of clothes or how we know which bag of groceries is heavier. These are everyday decisions based on comparing length and weight.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and compare the length and weight of everyday objects.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to compare objects based on their length and weight using everyday examples.\n\n**Why it matters:** Understanding length and weight helps children make sense of their environment and supports future math learning.\n\n**Parent Tip:** Use everyday objects like fruits or toys to practice. Encourage your child to describe what they observe.\n\n**Real-World Link:** Think about how we choose the right size of clothes or how we know which bag of groceries is heavier. These are everyday decisions based on comparing length and weight.",
+    "core": "Helping your child understand length and weight is a great way to connect math to the world around them. Let's explore how to make these concepts fun and relatable!",
+    "demo": "**Spark Curiosity:**\n\nAsk your child, 'Which do you think is longer: a spoon or a fork?' and 'Which is heavier: an apple or a banana?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with familiar items: Ask your child to pick two toys and compare which one is longer or shorter.\n2. Introduce weight: Use two fruits, like an apple and a banana, and ask which one feels heavier.\n3. Use descriptive words: Encourage your child to use words like 'longer', 'shorter', 'heavier', and 'lighter'.\n4. Sort household items: Create a fun sorting game where your child groups items into 'long' vs. 'short' and 'heavy' vs. 'light'.",
+    "practice": "**1. Which is longer, a pencil or a crayon? (use numbers like 6 and 9)**\n_Answer:_ The pencil is longer.\n_Hint:_ Line them up from one end.\n\n**2. Which is heavier, a book or a feather? (use numbers like 6 and 9)**\n_Answer:_ The book is heavier.\n_Hint:_ Hold one in each hand.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Children might think bigger items are always heavier. Remind them to check by lifting.\n- They might not align items correctly when comparing length. Help them line up items from one end.",
+    "connection": "Think about how we choose the right size of clothes or how we know which bag of groceries is heavier. These are everyday decisions based on comparing length and weight.",
+    "close": "**Key Takeaways**\n- Children learn best with hands-on activities.\n- Using familiar items makes measurement relatable.\n- Comparing length and weight helps develop critical thinking.\n\n**Parent Reflection Questions**\n- What other items at home can we compare?\n- How can we make these comparisons a fun game?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Comparing Length & Weight in Everyday Life",
+    "introduction": "Welcome! Today, we're going to explore how we can compare lengths and weights using everyday objects. This is a fun way to help your child understand the world around them.",
+    "objective": "Help your child learn to compare objects by their length and weight using simple, everyday examples.",
+    "why_matters": "Understanding length and weight helps children make sense of the world, from choosing the right size shoes to understanding how a backpack can feel heavier or lighter.",
+    "parent_tip": "Use everyday moments like cooking or playing with toys to casually ask your child about the size and weight of different objects.",
+    "real_world_link": "Next time you're at the grocery store, ask your child to help weigh fruits or vegetables and compare their sizes.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of length by using items like pencils or shoes.",
+      "Discuss weight using common objects like a bag of apples or a toy.",
+      "Encourage your child to use words like 'longer', 'shorter', 'heavier', and 'lighter'.",
+      "Use a scale for weight comparison if available.",
+      "Reinforce these concepts by asking questions during daily activities."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's find something longer and something shorter.",
+        "do": "Show two pencils of different lengths.",
+        "ask": "Which pencil is longer?",
+        "reinforce": "That's right! This pencil is longer."
+      },
+      {
+        "say": "Now, let's compare weight.",
+        "do": "Hold a book in one hand and a feather in the other.",
+        "ask": "Which feels heavier?",
+        "reinforce": "Exactly! The book is heavier than the feather."
+      },
+      {
+        "say": "Can you find something lighter than this toy?",
+        "do": "Place a toy on the table.",
+        "ask": "What do you think is lighter?",
+        "reinforce": "Good choice! The ball is lighter."
+      },
+      {
+        "say": "Let's use this ruler to measure length.",
+        "do": "Show how to measure a pencil with a ruler.",
+        "ask": "How long is the pencil?",
+        "reinforce": "Great measuring! The pencil is 7 inches long."
+      },
+      {
+        "say": "Let's weigh these apples.",
+        "do": "Use a kitchen scale to weigh apples.",
+        "ask": "How much do they weigh?",
+        "reinforce": "Nice job! These apples weigh 2 pounds."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Which is heavier, a cup of water or a spoon?",
+        "hint": "Think about how each feels in your hand.",
+        "answer": "A cup of water is heavier."
+      },
+      {
+        "prompt": "Which is longer, a toothbrush or a hairbrush?",
+        "hint": "Compare them side by side.",
+        "answer": "A hairbrush is longer."
+      },
+      {
+        "prompt": "Find something in the room that is shorter than your foot.",
+        "hint": "Look for small objects.",
+        "answer": "A pencil is shorter than a foot."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "We learned how to compare the length of objects.",
+      "We explored how to tell which objects are heavier or lighter.",
+      "We practiced using these skills in everyday situations."
+    ],
+    "common_mistakes": [
+      "Confusing length with weight.",
+      "Assuming bigger objects are always heavier.",
+      "Not using consistent language like 'longer' or 'heavier'."
+    ],
+    "deep_dive": {
+      "history": "Humans have been measuring things for thousands of years, using body parts like feet and hands before standard units were created.",
+      "connections": "Understanding measurement is crucial in science, engineering, and everyday problem-solving.",
+      "misconceptions": "Children often think that bigger means heavier, which isn't always true.",
+      "teaching_tips": "Use repetition and hands-on activities to reinforce these concepts.",
+      "derivation": "Length and weight comparisons don't require complex formulas at this stage, focusing more on observation and understanding."
+    },
+    "motivation": "By understanding how to compare length and weight, your child will develop critical thinking skills that will help them in many areas of life."
+  },
+  "markdown": "## Lesson Introduction\nWelcome! Today, we're going to explore how we can compare lengths and weights using everyday objects. This is a fun way to help your child understand the world around them.\n\n## Parent Orientation\n**Objective:** Help your child learn to compare objects by their length and weight using simple, everyday examples.\n**Why it matters:** Understanding length and weight helps children make sense of the world, from choosing the right size shoes to understanding how a backpack can feel heavier or lighter.\n**Parent Tip:** Use everyday moments like cooking or playing with toys to casually ask your child about the size and weight of different objects.\n**Real-World Link:** Next time you're at the grocery store, ask your child to help weigh fruits or vegetables and compare their sizes.\n\n## Teaching Steps\n1. Introduce the concept of length by using items like pencils or shoes.\n2. Discuss weight using common objects like a bag of apples or a toy.\n3. Encourage your child to use words like 'longer', 'shorter', 'heavier', and 'lighter'.\n4. Use a scale for weight comparison if available.\n5. Reinforce these concepts by asking questions during daily activities.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's find something longer and something shorter.  \n**Show/Do:** Show two pencils of different lengths.  \n**Ask:** Which pencil is longer?  \n**Reinforce:** That's right! This pencil is longer.\n2. **Say:** Now, let's compare weight.  \n**Show/Do:** Hold a book in one hand and a feather in the other.  \n**Ask:** Which feels heavier?  \n**Reinforce:** Exactly! The book is heavier than the feather.\n3. **Say:** Can you find something lighter than this toy?  \n**Show/Do:** Place a toy on the table.  \n**Ask:** What do you think is lighter?  \n**Reinforce:** Good choice! The ball is lighter.\n4. **Say:** Let's use this ruler to measure length.  \n**Show/Do:** Show how to measure a pencil with a ruler.  \n**Ask:** How long is the pencil?  \n**Reinforce:** Great measuring! The pencil is 7 inches long.\n5. **Say:** Let's weigh these apples.  \n**Show/Do:** Use a kitchen scale to weigh apples.  \n**Ask:** How much do they weigh?  \n**Reinforce:** Nice job! These apples weigh 2 pounds.\n\n## Practice Questions (Do It Together)\n**1. Which is heavier, a cup of water or a spoon?**\n<details><summary>Hint</summary>\nThink about how each feels in your hand.\n</details>\n<details><summary>Answer</summary>\nA cup of water is heavier.\n</details>\n\n**2. Which is longer, a toothbrush or a hairbrush?**\n<details><summary>Hint</summary>\nCompare them side by side.\n</details>\n<details><summary>Answer</summary>\nA hairbrush is longer.\n</details>\n\n**3. Find something in the room that is shorter than your foot.**\n<details><summary>Hint</summary>\nLook for small objects.\n</details>\n<details><summary>Answer</summary>\nA pencil is shorter than a foot.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- We learned how to compare the length of objects.\n- We explored how to tell which objects are heavier or lighter.\n- We practiced using these skills in everyday situations.\n\n**Common Mistakes**\n- Confusing length with weight.\n- Assuming bigger objects are always heavier.\n- Not using consistent language like 'longer' or 'heavier'.\n\n## 🔍 Deep Dive\n**History or origin**\n\nHumans have been measuring things for thousands of years, using body parts like feet and hands before standard units were created.\n\n**Future topic connections**\n\nUnderstanding measurement is crucial in science, engineering, and everyday problem-solving.\n\n**Common misconceptions**\n\nChildren often think that bigger means heavier, which isn't always true.\n\n**Teaching tips for parents**\n\nUse repetition and hands-on activities to reinforce these concepts.\n\n**More detail / derivation**\n\nLength and weight comparisons don't require complex formulas at this stage, focusing more on observation and understanding.\n\n## Motivation\nBy understanding how to compare length and weight, your child will develop critical thinking skills that will help them in many areas of life."
+}

@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "ced7168c-77c4-4a9c-8fac-fad409fb7e0d",
+    "slug": "4",
+    "name": "Grade 4"
+  },
+  "unit": {
+    "id": "ca430a3a-f66b-46ca-8a71-84eb329cea49",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "40e6514d-1135-4af8-a32f-35f8fb567a5b",
+    "slug": "multi-digit-addition-and-subtraction",
+    "title": "Mastering Multi-Digit Addition & Subtraction",
+    "summary": "Multi-digit addition & subtraction — parent overview for Grade 4.",
+    "difficulty_level": "core",
+    "order_index": 1
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, your child will be able to add and subtract multi-digit numbers accurately and efficiently.\n\n**Why it matters:** These fundamental skills are building blocks for future math concepts like multiplication and division, and are essential for everyday tasks like budgeting and planning.\n\n**Parent Tip:** Encourage your child to practice with real-life examples, such as adding prices while shopping or subtracting to determine change.\n\n**Real-World Link:** Think of multi-digit operations like stacking and organizing books on a shelf; we need to be precise to keep everything in order.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of multi-digit addition and subtraction! Together, we'll explore how to tackle these calculations with ease, helping your child build confidence and proficiency.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Start by aligning numbers by their rightmost digits.\n2. Add or subtract each column starting from the rightmost digit.\n3. If a column adds to 10 or more, carry over to the next column.\n4. If subtracting, borrow from the next column if needed.\n5. Check your work by reversing the operation.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Add: 324 + 587**\n_Answer:_ 911\n_Hint:_ Align numbers by the rightmost digit and add column by column.\n\n**2. Subtract: 732 - 459**\n_Answer:_ 273\n_Hint:_ Borrow from the next column if needed.\n\n**3. Add: 1896 + 374**\n_Answer:_ 2270\n_Hint:_ Watch for carrying over when a column sums to 10 or more.\n\n**4. Subtract: 6000 - 4256**\n_Answer:_ 1744\n_Hint:_ Start from the rightmost column and borrow as needed.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to carry over or borrow.\n- Misaligning digits, leading to incorrect sums or differences.\n- Not checking the final answer.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of multi-digit operations like stacking and organizing books on a shelf; we need to be precise to keep everything in order.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child confidently add and subtract multi-digit numbers.",
+    "overview": "**Objective:** By the end of this lesson, your child will be able to add and subtract multi-digit numbers accurately and efficiently.\n\n**Why it matters:** These fundamental skills are building blocks for future math concepts like multiplication and division, and are essential for everyday tasks like budgeting and planning.\n\n**Parent Tip:** Encourage your child to practice with real-life examples, such as adding prices while shopping or subtracting to determine change.\n\n**Real-World Link:** Think of multi-digit operations like stacking and organizing books on a shelf; we need to be precise to keep everything in order.",
+    "core": "Welcome to the world of multi-digit addition and subtraction! Together, we'll explore how to tackle these calculations with ease, helping your child build confidence and proficiency.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered how cashiers quickly calculate your change? It’s all about mastering addition and subtraction!",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start by aligning numbers by their rightmost digits.\n2. Add or subtract each column starting from the rightmost digit.\n3. If a column adds to 10 or more, carry over to the next column.\n4. If subtracting, borrow from the next column if needed.\n5. Check your work by reversing the operation.",
+    "practice": "**1. Add: 324 + 587**\n_Answer:_ 911\n_Hint:_ Align numbers by the rightmost digit and add column by column.\n\n**2. Subtract: 732 - 459**\n_Answer:_ 273\n_Hint:_ Borrow from the next column if needed.\n\n**3. Add: 1896 + 374**\n_Answer:_ 2270\n_Hint:_ Watch for carrying over when a column sums to 10 or more.\n\n**4. Subtract: 6000 - 4256**\n_Answer:_ 1744\n_Hint:_ Start from the rightmost column and borrow as needed.",
+    "mistakes": "- Forgetting to carry over or borrow.\n- Misaligning digits, leading to incorrect sums or differences.\n- Not checking the final answer.",
+    "connection": "Think of multi-digit operations like stacking and organizing books on a shelf; we need to be precise to keep everything in order.",
+    "close": "**Key Takeaways**\n- Multi-digit addition and subtraction build on single-digit skills.\n- Carry over or borrow as needed to ensure accuracy.\n- Estimation helps verify if answers are reasonable.\n\n**Parent Reflection Questions**\n- How can I help my child feel more confident with these skills?\n- What are some fun ways to practice at home?\n- How can we use estimation to check answers?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Mastering Multi-Digit Addition & Subtraction",
+    "introduction": "Welcome to the world of multi-digit addition and subtraction! We'll explore how your child can confidently add and subtract larger numbers, building on what they already know.",
+    "objective": "Help your child master the skills needed to add and subtract multi-digit numbers accurately and efficiently.",
+    "why_matters": "Understanding multi-digit addition and subtraction is crucial for solving real-world problems, from calculating expenses to measuring distances.",
+    "parent_tip": "Encourage your child to practice regularly in a relaxed setting. Mistakes are learning opportunities, so celebrate their efforts and progress.",
+    "real_world_link": "Think about grocery shopping. Adding up prices or figuring out change helps children see the importance of these skills in everyday life.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Start with a review of basic addition and subtraction.",
+      "Introduce the concept of carrying and borrowing.",
+      "Practice with smaller numbers and gradually increase complexity.",
+      "Use visual aids like number lines or base-ten blocks.",
+      "Incorporate real-world examples to make the learning relatable."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's explore how we can add big numbers together.",
+        "do": "Write down a simple two-digit addition problem like 45 + 32.",
+        "ask": "What do you notice about these numbers?",
+        "reinforce": "Great! When we add, we start from the rightmost digit and move left."
+      },
+      {
+        "say": "Now, let's try adding these numbers.",
+        "do": "Stack the numbers vertically and add the digits in the ones column.",
+        "ask": "What number do we get when we add 5 and 2?",
+        "reinforce": "Exactly! 7 goes in the ones place."
+      },
+      {
+        "say": "Let's move to the tens column.",
+        "do": "Add the digits in the tens column.",
+        "ask": "What do we get when we add 4 and 3?",
+        "reinforce": "Right! 7 goes in the tens place, making our total 77."
+      },
+      {
+        "say": "Let's try subtraction now.",
+        "do": "Write down a simple two-digit subtraction problem like 56 - 29.",
+        "ask": "What happens when we can't subtract the bottom number from the top?",
+        "reinforce": "Good observation! We need to borrow from the next column."
+      },
+      {
+        "say": "Let's solve this subtraction problem.",
+        "do": "Demonstrate borrowing from the tens column.",
+        "ask": "What do we get when we subtract 9 from 16?",
+        "reinforce": "Great job! We get 7, and then subtract the tens as usual."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Add 234 + 567.",
+        "hint": "Start by adding the digits in the ones column.",
+        "answer": "801"
+      },
+      {
+        "prompt": "Subtract 482 - 256.",
+        "hint": "Remember to borrow if needed.",
+        "answer": "226"
+      },
+      {
+        "prompt": "Add 789 + 456.",
+        "hint": "Watch out for carrying over.",
+        "answer": "1245"
+      },
+      {
+        "prompt": "Subtract 903 - 478.",
+        "hint": "Borrow from the hundreds column if necessary.",
+        "answer": "425"
+      }
+    ],
+    "recap": [
+      "Start adding and subtracting from the rightmost digit.",
+      "Remember to carry over or borrow when needed.",
+      "Practice makes perfect, so keep trying different problems."
+    ],
+    "common_mistakes": [
+      "Forgetting to carry over or borrow.",
+      "Starting from the leftmost digit instead of the right.",
+      "Rushing and making simple calculation errors."
+    ],
+    "deep_dive": {
+      "history": "The concept of addition and subtraction dates back to ancient civilizations where people used tools like abacuses.",
+      "connections": "These skills are foundational for multiplication and division.",
+      "misconceptions": "Students often think they can subtract a smaller number from a larger one without borrowing.",
+      "teaching_tips": "Use tangible objects like coins or blocks to make abstract concepts more concrete.",
+      "derivation": "Addition and subtraction are based on the principle of place value, which organizes numbers in tens, hundreds, and beyond."
+    },
+    "motivation": "Mastering these skills opens the door to more complex math and helps in everyday tasks like shopping and budgeting."
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of multi-digit addition and subtraction! We'll explore how your child can confidently add and subtract larger numbers, building on what they already know.\n\n## Parent Orientation\n**Objective:** Help your child master the skills needed to add and subtract multi-digit numbers accurately and efficiently.\n**Why it matters:** Understanding multi-digit addition and subtraction is crucial for solving real-world problems, from calculating expenses to measuring distances.\n**Parent Tip:** Encourage your child to practice regularly in a relaxed setting. Mistakes are learning opportunities, so celebrate their efforts and progress.\n**Real-World Link:** Think about grocery shopping. Adding up prices or figuring out change helps children see the importance of these skills in everyday life.\n\n## Teaching Steps\n1. Start with a review of basic addition and subtraction.\n2. Introduce the concept of carrying and borrowing.\n3. Practice with smaller numbers and gradually increase complexity.\n4. Use visual aids like number lines or base-ten blocks.\n5. Incorporate real-world examples to make the learning relatable.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's explore how we can add big numbers together.  \n**Show/Do:** Write down a simple two-digit addition problem like 45 + 32.  \n**Ask:** What do you notice about these numbers?  \n**Reinforce:** Great! When we add, we start from the rightmost digit and move left.\n2. **Say:** Now, let's try adding these numbers.  \n**Show/Do:** Stack the numbers vertically and add the digits in the ones column.  \n**Ask:** What number do we get when we add 5 and 2?  \n**Reinforce:** Exactly! 7 goes in the ones place.\n3. **Say:** Let's move to the tens column.  \n**Show/Do:** Add the digits in the tens column.  \n**Ask:** What do we get when we add 4 and 3?  \n**Reinforce:** Right! 7 goes in the tens place, making our total 77.\n4. **Say:** Let's try subtraction now.  \n**Show/Do:** Write down a simple two-digit subtraction problem like 56 - 29.  \n**Ask:** What happens when we can't subtract the bottom number from the top?  \n**Reinforce:** Good observation! We need to borrow from the next column.\n5. **Say:** Let's solve this subtraction problem.  \n**Show/Do:** Demonstrate borrowing from the tens column.  \n**Ask:** What do we get when we subtract 9 from 16?  \n**Reinforce:** Great job! We get 7, and then subtract the tens as usual.\n\n## Practice Questions (Do It Together)\n**1. Add 234 + 567.**\n<details><summary>Hint</summary>\nStart by adding the digits in the ones column.\n</details>\n<details><summary>Answer</summary>\n801\n</details>\n\n**2. Subtract 482 - 256.**\n<details><summary>Hint</summary>\nRemember to borrow if needed.\n</details>\n<details><summary>Answer</summary>\n226\n</details>\n\n**3. Add 789 + 456.**\n<details><summary>Hint</summary>\nWatch out for carrying over.\n</details>\n<details><summary>Answer</summary>\n1245\n</details>\n\n**4. Subtract 903 - 478.**\n<details><summary>Hint</summary>\nBorrow from the hundreds column if necessary.\n</details>\n<details><summary>Answer</summary>\n425\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Start adding and subtracting from the rightmost digit.\n- Remember to carry over or borrow when needed.\n- Practice makes perfect, so keep trying different problems.\n\n**Common Mistakes**\n- Forgetting to carry over or borrow.\n- Starting from the leftmost digit instead of the right.\n- Rushing and making simple calculation errors.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe concept of addition and subtraction dates back to ancient civilizations where people used tools like abacuses.\n\n**Future topic connections**\n\nThese skills are foundational for multiplication and division.\n\n**Common misconceptions**\n\nStudents often think they can subtract a smaller number from a larger one without borrowing.\n\n**Teaching tips for parents**\n\nUse tangible objects like coins or blocks to make abstract concepts more concrete.\n\n**More detail / derivation**\n\nAddition and subtraction are based on the principle of place value, which organizes numbers in tens, hundreds, and beyond.\n\n## Motivation\nMastering these skills opens the door to more complex math and helps in everyday tasks like shopping and budgeting."
+}

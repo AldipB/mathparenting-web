@@ -1,0 +1,156 @@
+{
+  "grade": {
+    "id": "0303eb6f-7766-41ab-8d00-a544638b1383",
+    "slug": "11",
+    "name": "Grade 11 (Advanced Functions & Trigonometry)"
+  },
+  "unit": {
+    "id": "159df2e0-ba5a-43a9-a1b1-843c8bd0ceaa",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "fdb19d83-6f68-4be4-b47e-ab8098147650",
+    "slug": "rational-functions-domain-and-asymptotes",
+    "title": "Understanding Rational Functions: Domain & Asymptotes",
+    "summary": "Rational functions (domain & asymptotes) — parent overview for Grade 11 (Advanced Functions & Trigonometry).",
+    "difficulty_level": "core",
+    "order_index": 2
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** To help your teen understand the domain and asymptotes of rational functions using relatable analogies.\n\n**Why it matters:** Rational functions appear in sciences like physics and economics. Understanding them is key to solving real-world problems involving rates and trends.\n\n**Parent Tip:** Use everyday activities, like balancing ingredients in a recipe, to illustrate how changing one part affects the whole.\n\n**Real-World Link:** Think of a rational function like driving a car. The speed (output) changes with the pressure on the gas pedal (input), but there's a maximum speed limit (asymptote).",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of rational functions! As your teen explores these concepts, you'll be their guide. Let's make sense of what happens when variables are in the denominator.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Identify the rational function and its components, p(x) and q(x).\n2. Determine where q(x) equals zero to find points of discontinuity.\n3. Understand that these points are not in the domain and often signal vertical asymptotes.\n4. Explore horizontal asymptotes by comparing degrees of p(x) and q(x).\n5. Graph the function to visualize the domain and asymptotes.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Find the domain of f(x) = (x^2 + 1)/(x - 4).**\n_Answer:_ Domain: All real numbers except x = 4.\n_Hint:_ Set the denominator equal to zero and solve: x - 4 = 0.\n\n**2. Identify the vertical asymptote of f(x) = 1/(x + 5).**\n_Answer:_ Vertical asymptote at x = -5.\n_Hint:_ Look for where the denominator equals zero: x + 5 = 0.\n\n**3. Determine if f(x) = (2x)/(x^2 - 1) has horizontal asymptotes.**\n_Answer:_ Horizontal asymptote at y = 0.\n_Hint:_ Compare the degrees of numerator and denominator.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Forgetting to exclude points where the denominator is zero.\n- Confusing vertical and horizontal asymptotes.\n- Not simplifying functions before analyzing.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a rational function like driving a car. The speed (output) changes with the pressure on the gas pedal (input), but there's a maximum speed limit (asymptote).",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child grasp the concept of rational functions, focusing on understanding the domain and identifying asymptotes.",
+    "overview": "**Objective:** To help your teen understand the domain and asymptotes of rational functions using relatable analogies.\n\n**Why it matters:** Rational functions appear in sciences like physics and economics. Understanding them is key to solving real-world problems involving rates and trends.\n\n**Parent Tip:** Use everyday activities, like balancing ingredients in a recipe, to illustrate how changing one part affects the whole.\n\n**Real-World Link:** Think of a rational function like driving a car. The speed (output) changes with the pressure on the gas pedal (input), but there's a maximum speed limit (asymptote).",
+    "core": "Welcome to the world of rational functions! As your teen explores these concepts, you'll be their guide. Let's make sense of what happens when variables are in the denominator.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever wondered why you can't divide by zero? Rational functions give us a mathematical glimpse into this mystery!",
+    "math": "$$\n**Formula Meaning & Reasoning**\n\n- **Formula:** f(x) = \\frac{p(x)}{q(x)}\n- **Meaning:** A rational function where p(x) and q(x) are polynomials.\n- **How it works:** The domain excludes values making q(x) = 0. Vertical asymptotes occur where q(x) = 0 and horizontal or slant asymptotes describe behavior as x approaches infinity.\n- **Example:** For f(x) = \\frac{x+1}{x-2}, the domain is all real numbers except x = 2, where there's a vertical asymptote.\n$$",
+    "formulas": "$$\nf(x) = \\frac{p(x)}{q(x)}\n$$",
+    "guide": "1. Identify the rational function and its components, p(x) and q(x).\n2. Determine where q(x) equals zero to find points of discontinuity.\n3. Understand that these points are not in the domain and often signal vertical asymptotes.\n4. Explore horizontal asymptotes by comparing degrees of p(x) and q(x).\n5. Graph the function to visualize the domain and asymptotes.",
+    "practice": "**1. Find the domain of f(x) = (x^2 + 1)/(x - 4).**\n_Answer:_ Domain: All real numbers except x = 4.\n_Hint:_ Set the denominator equal to zero and solve: x - 4 = 0.\n\n**2. Identify the vertical asymptote of f(x) = 1/(x + 5).**\n_Answer:_ Vertical asymptote at x = -5.\n_Hint:_ Look for where the denominator equals zero: x + 5 = 0.\n\n**3. Determine if f(x) = (2x)/(x^2 - 1) has horizontal asymptotes.**\n_Answer:_ Horizontal asymptote at y = 0.\n_Hint:_ Compare the degrees of numerator and denominator.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Forgetting to exclude points where the denominator is zero.\n- Confusing vertical and horizontal asymptotes.\n- Not simplifying functions before analyzing.",
+    "connection": "Think of a rational function like driving a car. The speed (output) changes with the pressure on the gas pedal (input), but there's a maximum speed limit (asymptote).",
+    "close": "**Key Takeaways**\n- Rational functions have specific values where they are undefined.\n- Asymptotes represent the behavior of the function as it approaches certain points or infinity.\n- Understanding these concepts helps in predicting and interpreting complex behaviors.\n\n**Parent Reflection Questions**\n- What happens to the function as x approaches the asymptote?\n- How can we visualize these concepts graphically?\n- Why is it important to understand the domain of a function?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Understanding Rational Functions: Domain & Asymptotes",
+    "introduction": "Rational functions can seem tricky at first, but they are just expressions that include fractions where the numerator and denominator are polynomials. Let's break down the concept of domain and asymptotes to make it easier for you and your child.",
+    "objective": "Help your child understand the domain of rational functions and identify vertical and horizontal asymptotes.",
+    "why_matters": "Understanding these concepts is crucial for graphing rational functions, which is a key skill in higher-level math and various real-world applications.",
+    "parent_tip": "Encourage your child to see patterns and relationships in the functions. Use graphing tools or apps to visualize these concepts.",
+    "real_world_link": "Rational functions can model real-world situations like rates of change in physics or economics, where understanding limits and behaviors is essential.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Review what rational functions are: fractions with polynomials.",
+      "Discuss the domain: values for which the function is defined.",
+      "Introduce vertical asymptotes: where the function approaches infinity.",
+      "Explain horizontal asymptotes: where the function levels off.",
+      "Use a graphing tool to visualize these concepts."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about rational functions.",
+        "do": "Show a simple rational function like f(x) = (x+1)/(x-2).",
+        "ask": "What happens if x is 2?",
+        "reinforce": "Right! The function is undefined at x = 2, which means it's not part of the domain."
+      },
+      {
+        "say": "Now, let's find the vertical asymptote.",
+        "do": "Point out the denominator x-2 in the function.",
+        "ask": "Where does this become zero?",
+        "reinforce": "Exactly, at x = 2, we have a vertical asymptote."
+      },
+      {
+        "say": "Horizontal asymptotes can be a bit different.",
+        "do": "Show the function as x becomes very large.",
+        "ask": "What do you notice about the values of f(x)?",
+        "reinforce": "As x gets larger, the function approaches a specific value, which is the horizontal asymptote."
+      },
+      {
+        "say": "Let's visualize this on a graph.",
+        "do": "Use a graphing calculator or app to plot the function.",
+        "ask": "Can you see the asymptotes on the graph?",
+        "reinforce": "Seeing the graph helps understand where the function is not defined and where it flattens out."
+      },
+      {
+        "say": "Why do you think it's important to know these asymptotes?",
+        "do": "Discuss real-world situations like predicting trends.",
+        "ask": "Can you think of any situations where knowing limits would be useful?",
+        "reinforce": "Understanding limits helps in fields like engineering and economics."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Find the domain of f(x) = (3x+5)/(x-1).",
+        "hint": "Where is the denominator zero?",
+        "answer": "The domain is all real numbers except x = 1."
+      },
+      {
+        "prompt": "Identify the vertical asymptote of f(x) = (2x-3)/(x+4).",
+        "hint": "Set the denominator equal to zero.",
+        "answer": "The vertical asymptote is x = -4."
+      },
+      {
+        "prompt": "Determine the horizontal asymptote of f(x) = (5x^2+3)/(x^2-2).",
+        "hint": "Compare the degrees of the polynomials.",
+        "answer": "The horizontal asymptote is y = 5."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Rational functions are fractions with polynomials.",
+      "The domain excludes values making the denominator zero.",
+      "Vertical asymptotes occur at these excluded values.",
+      "Horizontal asymptotes show where the function levels off."
+    ],
+    "common_mistakes": [
+      "Forgetting to exclude points from the domain where the denominator is zero.",
+      "Confusing horizontal and vertical asymptotes.",
+      "Not using graphing tools to visualize behaviors."
+    ],
+    "deep_dive": {
+      "history": "The study of rational functions dates back to ancient mathematicians who explored polynomial equations.",
+      "connections": "These functions connect to calculus, where limits and behaviors are further analyzed.",
+      "misconceptions": "A common misconception is that rational functions are only defined by their asymptotes.",
+      "teaching_tips": "Use visuals and real-world examples to make abstract concepts more tangible.",
+      "derivation": "The behavior of rational functions can be derived using limits and polynomial division."
+    },
+    "motivation": "By understanding rational functions, your child builds a foundation for advanced math and develops problem-solving skills applicable in many fields."
+  },
+  "markdown": "## Lesson Introduction\nRational functions can seem tricky at first, but they are just expressions that include fractions where the numerator and denominator are polynomials. Let's break down the concept of domain and asymptotes to make it easier for you and your child.\n\n## Parent Orientation\n**Objective:** Help your child understand the domain of rational functions and identify vertical and horizontal asymptotes.\n**Why it matters:** Understanding these concepts is crucial for graphing rational functions, which is a key skill in higher-level math and various real-world applications.\n**Parent Tip:** Encourage your child to see patterns and relationships in the functions. Use graphing tools or apps to visualize these concepts.\n**Real-World Link:** Rational functions can model real-world situations like rates of change in physics or economics, where understanding limits and behaviors is essential.\n\n## Teaching Steps\n1. Review what rational functions are: fractions with polynomials.\n2. Discuss the domain: values for which the function is defined.\n3. Introduce vertical asymptotes: where the function approaches infinity.\n4. Explain horizontal asymptotes: where the function levels off.\n5. Use a graphing tool to visualize these concepts.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about rational functions.  \n**Show/Do:** Show a simple rational function like f(x) = (x+1)/(x-2).  \n**Ask:** What happens if x is 2?  \n**Reinforce:** Right! The function is undefined at x = 2, which means it's not part of the domain.\n2. **Say:** Now, let's find the vertical asymptote.  \n**Show/Do:** Point out the denominator x-2 in the function.  \n**Ask:** Where does this become zero?  \n**Reinforce:** Exactly, at x = 2, we have a vertical asymptote.\n3. **Say:** Horizontal asymptotes can be a bit different.  \n**Show/Do:** Show the function as x becomes very large.  \n**Ask:** What do you notice about the values of f(x)?  \n**Reinforce:** As x gets larger, the function approaches a specific value, which is the horizontal asymptote.\n4. **Say:** Let's visualize this on a graph.  \n**Show/Do:** Use a graphing calculator or app to plot the function.  \n**Ask:** Can you see the asymptotes on the graph?  \n**Reinforce:** Seeing the graph helps understand where the function is not defined and where it flattens out.\n5. **Say:** Why do you think it's important to know these asymptotes?  \n**Show/Do:** Discuss real-world situations like predicting trends.  \n**Ask:** Can you think of any situations where knowing limits would be useful?  \n**Reinforce:** Understanding limits helps in fields like engineering and economics.\n\n## Practice Questions (Do It Together)\n**1. Find the domain of f(x) = (3x+5)/(x-1).**\n<details><summary>Hint</summary>\nWhere is the denominator zero?\n</details>\n<details><summary>Answer</summary>\nThe domain is all real numbers except x = 1.\n</details>\n\n**2. Identify the vertical asymptote of f(x) = (2x-3)/(x+4).**\n<details><summary>Hint</summary>\nSet the denominator equal to zero.\n</details>\n<details><summary>Answer</summary>\nThe vertical asymptote is x = -4.\n</details>\n\n**3. Determine the horizontal asymptote of f(x) = (5x^2+3)/(x^2-2).**\n<details><summary>Hint</summary>\nCompare the degrees of the polynomials.\n</details>\n<details><summary>Answer</summary>\nThe horizontal asymptote is y = 5.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Rational functions are fractions with polynomials.\n- The domain excludes values making the denominator zero.\n- Vertical asymptotes occur at these excluded values.\n- Horizontal asymptotes show where the function levels off.\n\n**Common Mistakes**\n- Forgetting to exclude points from the domain where the denominator is zero.\n- Confusing horizontal and vertical asymptotes.\n- Not using graphing tools to visualize behaviors.\n\n## 🔍 Deep Dive\n**History or origin**\n\nThe study of rational functions dates back to ancient mathematicians who explored polynomial equations.\n\n**Future topic connections**\n\nThese functions connect to calculus, where limits and behaviors are further analyzed.\n\n**Common misconceptions**\n\nA common misconception is that rational functions are only defined by their asymptotes.\n\n**Teaching tips for parents**\n\nUse visuals and real-world examples to make abstract concepts more tangible.\n\n**More detail / derivation**\n\nThe behavior of rational functions can be derived using limits and polynomial division.\n\n## Motivation\nBy understanding rational functions, your child builds a foundation for advanced math and develops problem-solving skills applicable in many fields."
+}

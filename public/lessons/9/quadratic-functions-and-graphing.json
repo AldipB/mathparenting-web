@@ -1,0 +1,155 @@
+{
+  "grade": {
+    "id": "f6f93d6b-e704-457b-9206-a29d56f93f7c",
+    "slug": "9",
+    "name": "Grade 9 (Algebra I / Foundations)"
+  },
+  "unit": {
+    "id": "61801ab1-20a2-45e4-8d31-d6d94c8cb7b4",
+    "title": "Core Skills",
+    "order_index": 1
+  },
+  "lesson": {
+    "id": "c55e18ff-cc88-4a60-86cd-9e6257fba805",
+    "slug": "quadratic-functions-and-graphing",
+    "title": "Exploring Quadratic Functions & Graphing",
+    "summary": "Quadratic functions & graphing — parent overview for Grade 9 (Algebra I / Foundations).",
+    "difficulty_level": "core",
+    "order_index": 7
+  },
+  "sectionsArray": [
+    {
+      "key": "overview",
+      "md": "**Objective:** By the end of this lesson, you and your child will understand the basic structure of quadratic functions and how to graph them accurately.\n\n**Why it matters:** Quadratic functions are everywhere—from predicting the path of a basketball shot to optimizing business profits. Understanding them can open doors to many real-world applications.\n\n**Parent Tip:** Encourage your child to visualize the problem. Drawing graphs or using graphing tools can make abstract concepts more concrete.\n\n**Real-World Link:** Think of a basketball player shooting hoops. The path of the ball is a beautiful arc, which is a perfect example of a quadratic function in action.",
+      "order_index": 2
+    },
+    {
+      "key": "core",
+      "md": "Welcome to the world of quadratic functions! These are mathematical expressions that help us understand patterns and relationships in a wide range of scenarios. Let's explore together how these functions work and how to graph them.",
+      "order_index": 3
+    },
+    {
+      "key": "guide",
+      "md": "1. Discuss the standard form of a quadratic function: y = ax^2 + bx + c.\n2. Explain how changing the value of 'a' affects the direction and width of the parabola.\n3. Illustrate how 'b' influences the position of the vertex.\n4. Show how 'c' determines where the parabola crosses the y-axis.\n5. Use graphing tools or paper to plot simple quadratic functions and observe their shapes.",
+      "order_index": 7
+    },
+    {
+      "key": "practice",
+      "md": "**1. Graph y = x^2 + 2x + 1.**\n_Answer:_ The graph is a parabola opening upwards with a vertex at (-1, 0) and y-intercept at (0, 1).\n_Hint:_ Identify the coefficients a=1, b=2, and c=1. Determine the vertex and y-intercept.\n\n**2. For the function y = -x^2 + 4x - 3, what is the direction of the parabola?**\n_Answer:_ The parabola opens downwards because a = -1.\n_Hint:_ Look at the coefficient 'a'.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+      "order_index": 8
+    },
+    {
+      "key": "mistakes",
+      "md": "- Confusing the effects of coefficients a, b, and c on the graph.\n- Forgetting to plot the vertex correctly.\n- Misidentifying the direction of the parabola based on the sign of 'a'.",
+      "order_index": 9
+    },
+    {
+      "key": "connection",
+      "md": "Think of a basketball player shooting hoops. The path of the ball is a beautiful arc, which is a perfect example of a quadratic function in action.",
+      "order_index": 10
+    }
+  ],
+  "sections": {
+    "objectives": "**Objective:** Help your child understand and graph quadratic functions, recognizing their U-shaped curves called parabolas.",
+    "overview": "**Objective:** By the end of this lesson, you and your child will understand the basic structure of quadratic functions and how to graph them accurately.\n\n**Why it matters:** Quadratic functions are everywhere—from predicting the path of a basketball shot to optimizing business profits. Understanding them can open doors to many real-world applications.\n\n**Parent Tip:** Encourage your child to visualize the problem. Drawing graphs or using graphing tools can make abstract concepts more concrete.\n\n**Real-World Link:** Think of a basketball player shooting hoops. The path of the ball is a beautiful arc, which is a perfect example of a quadratic function in action.",
+    "core": "Welcome to the world of quadratic functions! These are mathematical expressions that help us understand patterns and relationships in a wide range of scenarios. Let's explore together how these functions work and how to graph them.",
+    "demo": "**Spark Curiosity:**\n\nHave you ever noticed the arc of a fountain's water or a basketball shot? These natural curves are examples of quadratic functions in action!",
+    "math": "**Formula Meaning & Reasoning**\n\n- **Formula:** y = ax^2 + bx + c\n- **Meaning:** This is the standard form of a quadratic function. 'a', 'b', and 'c' are constants that shape the parabola.\n- **How it works:** When 'a' is positive, the parabola opens upwards; when negative, it opens downwards. 'b' affects the tilt, and 'c' moves it up or down.\n- **Example:** For $y = 2x^2 + 3x + 1$, the parabola opens upwards with a vertex at a point determined by the equation.",
+    "formulas": "y = ax^2 + bx + c",
+    "guide": "1. Discuss the standard form of a quadratic function: y = ax^2 + bx + c.\n2. Explain how changing the value of 'a' affects the direction and width of the parabola.\n3. Illustrate how 'b' influences the position of the vertex.\n4. Show how 'c' determines where the parabola crosses the y-axis.\n5. Use graphing tools or paper to plot simple quadratic functions and observe their shapes.",
+    "practice": "**1. Graph y = x^2 + 2x + 1.**\n_Answer:_ The graph is a parabola opening upwards with a vertex at (-1, 0) and y-intercept at (0, 1).\n_Hint:_ Identify the coefficients a=1, b=2, and c=1. Determine the vertex and y-intercept.\n\n**2. For the function y = -x^2 + 4x - 3, what is the direction of the parabola?**\n_Answer:_ The parabola opens downwards because a = -1.\n_Hint:_ Look at the coefficient 'a'.\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n_Answer:_ Compute with 7 and 12; explain each step.\n_Hint:_ Translate the story to a number sentence.",
+    "mistakes": "- Confusing the effects of coefficients a, b, and c on the graph.\n- Forgetting to plot the vertex correctly.\n- Misidentifying the direction of the parabola based on the sign of 'a'.",
+    "connection": "Think of a basketball player shooting hoops. The path of the ball is a beautiful arc, which is a perfect example of a quadratic function in action.",
+    "close": "**Key Takeaways**\n- Quadratic functions graph as parabolas.\n- The 'a' value determines the direction and width of the parabola.\n- The vertex can be found using the formula $x = -b/(2a)$.\n\n**Parent Reflection Questions**\n- How does changing 'a' affect the parabola's shape?\n- What happens to the graph if 'c' is increased?"
+  },
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Exploring Quadratic Functions & Graphing",
+    "introduction": "Quadratic functions are a key part of high school math, and understanding them will help your child with everything from graphing to solving real-world problems.",
+    "objective": "Help your child understand and graph quadratic functions by identifying their key features.",
+    "why_matters": "Quadratic functions are everywhere, from physics to economics. Grasping them will empower your child to tackle more complex math concepts with confidence.",
+    "parent_tip": "Encourage your child to visualize math problems. Graphing quadratic functions can be a fun and creative way to see math in action.",
+    "real_world_link": "Quadratics can describe the path of a basketball shot or the trajectory of a roller coaster. They help us predict and understand motion.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of a quadratic function as a type of polynomial.",
+      "Explain the standard form of a quadratic equation: ax² + bx + c.",
+      "Discuss the graph of a quadratic function, known as a parabola.",
+      "Identify the vertex, axis of symmetry, and intercepts on the graph.",
+      "Practice graphing simple quadratic equations by plotting points."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's talk about quadratic functions today.",
+        "do": "Show your child a simple quadratic equation like y = x².",
+        "ask": "What do you notice about the equation?",
+        "reinforce": "Quadratics often have the x² term, giving them their unique shape."
+      },
+      {
+        "say": "Quadratics graph into a U-shape called a parabola.",
+        "do": "Draw a simple parabola on graph paper.",
+        "ask": "Can you see the curve? What does it remind you of?",
+        "reinforce": "This curve helps us understand how things move, like a ball being thrown."
+      },
+      {
+        "say": "Let's find the vertex, the highest or lowest point.",
+        "do": "Point to the vertex on your drawn parabola.",
+        "ask": "Why do you think this point is important?",
+        "reinforce": "The vertex tells us the peak or the lowest point of the graph."
+      },
+      {
+        "say": "Notice the line that splits the parabola in half.",
+        "do": "Draw the axis of symmetry through the vertex.",
+        "ask": "What do you think this line represents?",
+        "reinforce": "It shows symmetry, meaning both sides are mirror images."
+      },
+      {
+        "say": "Let's practice graphing a simple quadratic.",
+        "do": "Provide graph paper and guide plotting points for y = x².",
+        "ask": "How does plotting points help us draw the parabola?",
+        "reinforce": "Plotting points accurately helps us see the shape and position."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Graph the quadratic function y = x² - 4x + 3.",
+        "hint": "Start by finding the vertex using -b/2a.",
+        "answer": "Vertex is at (2, -1); intercepts at (1, 0) and (3, 0)."
+      },
+      {
+        "prompt": "Identify the vertex of y = 2x² + 4x + 1.",
+        "hint": "Use the formula -b/2a to find x-coordinate of the vertex.",
+        "answer": "Vertex is at (-1, -1)."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      },
+      {
+        "prompt": "Try with 7 and 12 in a home example (snacks/steps).",
+        "hint": "Translate the story to a number sentence.",
+        "answer": "Compute with 7 and 12; explain each step."
+      }
+    ],
+    "recap": [
+      "Quadratic functions are polynomials with an x² term.",
+      "The graph of a quadratic is a U-shaped curve called a parabola.",
+      "Key features include the vertex, axis of symmetry, and intercepts."
+    ],
+    "common_mistakes": [
+      "Forgetting to include the x² term in quadratic equations.",
+      "Mixing up the vertex and intercepts.",
+      "Not plotting enough points to accurately draw the parabola."
+    ],
+    "deep_dive": {
+      "history": "Quadratics date back to ancient Babylonian mathematics, where they solved problems using geometric methods.",
+      "connections": "Quadratic functions are foundational in calculus and physics, especially in studies of motion and optimization.",
+      "misconceptions": "A common misconception is that all parabolas open upwards; they can also open downwards depending on the sign of the leading coefficient.",
+      "teaching_tips": "Use visual aids like graphing calculators or apps to dynamically show changes in parabolas.",
+      "derivation": "The quadratic formula derives from completing the square on a standard form equation, offering a method to find roots."
+    },
+    "motivation": "Seeing math come alive through graphs can be exciting. Encourage your child to explore and experiment with different equations to see how shapes change!"
+  },
+  "markdown": "## Lesson Introduction\nQuadratic functions are a key part of high school math, and understanding them will help your child with everything from graphing to solving real-world problems.\n\n## Parent Orientation\n**Objective:** Help your child understand and graph quadratic functions by identifying their key features.\n**Why it matters:** Quadratic functions are everywhere, from physics to economics. Grasping them will empower your child to tackle more complex math concepts with confidence.\n**Parent Tip:** Encourage your child to visualize math problems. Graphing quadratic functions can be a fun and creative way to see math in action.\n**Real-World Link:** Quadratics can describe the path of a basketball shot or the trajectory of a roller coaster. They help us predict and understand motion.\n\n## Teaching Steps\n1. Introduce the concept of a quadratic function as a type of polynomial.\n2. Explain the standard form of a quadratic equation: ax² + bx + c.\n3. Discuss the graph of a quadratic function, known as a parabola.\n4. Identify the vertex, axis of symmetry, and intercepts on the graph.\n5. Practice graphing simple quadratic equations by plotting points.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's talk about quadratic functions today.  \n**Show/Do:** Show your child a simple quadratic equation like y = x².  \n**Ask:** What do you notice about the equation?  \n**Reinforce:** Quadratics often have the x² term, giving them their unique shape.\n2. **Say:** Quadratics graph into a U-shape called a parabola.  \n**Show/Do:** Draw a simple parabola on graph paper.  \n**Ask:** Can you see the curve? What does it remind you of?  \n**Reinforce:** This curve helps us understand how things move, like a ball being thrown.\n3. **Say:** Let's find the vertex, the highest or lowest point.  \n**Show/Do:** Point to the vertex on your drawn parabola.  \n**Ask:** Why do you think this point is important?  \n**Reinforce:** The vertex tells us the peak or the lowest point of the graph.\n4. **Say:** Notice the line that splits the parabola in half.  \n**Show/Do:** Draw the axis of symmetry through the vertex.  \n**Ask:** What do you think this line represents?  \n**Reinforce:** It shows symmetry, meaning both sides are mirror images.\n5. **Say:** Let's practice graphing a simple quadratic.  \n**Show/Do:** Provide graph paper and guide plotting points for y = x².  \n**Ask:** How does plotting points help us draw the parabola?  \n**Reinforce:** Plotting points accurately helps us see the shape and position.\n\n## Practice Questions (Do It Together)\n**1. Graph the quadratic function y = x² - 4x + 3.**\n<details><summary>Hint</summary>\nStart by finding the vertex using -b/2a.\n</details>\n<details><summary>Answer</summary>\nVertex is at (2, -1); intercepts at (1, 0) and (3, 0).\n</details>\n\n**2. Identify the vertex of y = 2x² + 4x + 1.**\n<details><summary>Hint</summary>\nUse the formula -b/2a to find x-coordinate of the vertex.\n</details>\n<details><summary>Answer</summary>\nVertex is at (-1, -1).\n</details>\n\n**3. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n**4. Try with 7 and 12 in a home example (snacks/steps).**\n<details><summary>Hint</summary>\nTranslate the story to a number sentence.\n</details>\n<details><summary>Answer</summary>\nCompute with 7 and 12; explain each step.\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Quadratic functions are polynomials with an x² term.\n- The graph of a quadratic is a U-shaped curve called a parabola.\n- Key features include the vertex, axis of symmetry, and intercepts.\n\n**Common Mistakes**\n- Forgetting to include the x² term in quadratic equations.\n- Mixing up the vertex and intercepts.\n- Not plotting enough points to accurately draw the parabola.\n\n## 🔍 Deep Dive\n**History or origin**\n\nQuadratics date back to ancient Babylonian mathematics, where they solved problems using geometric methods.\n\n**Future topic connections**\n\nQuadratic functions are foundational in calculus and physics, especially in studies of motion and optimization.\n\n**Common misconceptions**\n\nA common misconception is that all parabolas open upwards; they can also open downwards depending on the sign of the leading coefficient.\n\n**Teaching tips for parents**\n\nUse visual aids like graphing calculators or apps to dynamically show changes in parabolas.\n\n**More detail / derivation**\n\nThe quadratic formula derives from completing the square on a standard form equation, offering a method to find roots.\n\n## Motivation\nSeeing math come alive through graphs can be exciting. Encourage your child to explore and experiment with different equations to see how shapes change!"
+}

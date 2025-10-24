@@ -1,104 +1,155 @@
 {
   "grade": {
-    "id": "376fef0f-8c4e-42fc-a7ea-dad4604f5abc",
+    "id": "f5bcb47f-bb27-45f8-a420-7192d13c21d0",
     "slug": "k",
-    "name": "Kindergarten (K)"
+    "name": "Kindergarten"
   },
   "unit": {
-    "id": "853d4c5d-b990-4c8f-83ed-35e01a887ed8",
-    "title": "Complete Chapter Index",
-    "order_index": 99
+    "id": "676e46fc-ac31-4f60-ba3f-2092fe035fcc",
+    "title": "Shapes & Geometry",
+    "order_index": 1
   },
   "lesson": {
-    "id": "00b85b34-b378-4ddf-b962-8aa2116adc0d",
+    "id": "d9903dea-2cdb-48f5-b588-3ecb33142613",
     "slug": "patterns-ab-aab-abb-abc",
-    "title": "Patterns (AB, AAB, ABB, ABC)",
-    "summary": "Patterns (AB, AAB, ABB, ABC) — parent overview.",
+    "title": "Patterns: Exploring AB, AAB, ABB, and ABC Sequences",
+    "summary": "Patterns (AB, AAB, ABB, ABC) — parent overview for Kindergarten.",
     "difficulty_level": "core",
-    "order_index": 12
+    "order_index": 5
   },
   "sectionsArray": [
     {
-      "key": "objectives",
-      "md": "- Introduce simple repeating patterns: AB, AAB, ABB, ABC.\n- Help children recognize and predict sequences.\n- **Why this matters for parents:** Understanding patterns builds a foundation for math skills and logical thinking.",
-      "order_index": 1
-    },
-    {
       "key": "overview",
-      "md": "Patterns are sequences that repeat in a predictable way. In kindergarten, children learn to identify and create simple patterns using everyday objects. Recognizing patterns helps children develop critical thinking and problem-solving skills. It also lays the groundwork for understanding more complex math concepts in the future.",
+      "md": "**Objective:** Help your child identify and create AB, AAB, ABB, and ABC patterns using everyday objects.\n\n**Why it matters:** Understanding patterns is a foundational math skill that supports problem-solving and critical thinking.\n\n**Parent Tip:** Use colorful objects like buttons or blocks to make learning patterns fun and engaging.\n\n**Real-World Link:** Think of patterns like the stripes on a zebra or the rhythm of a song. They repeat in a way we can predict.",
       "order_index": 2
     },
     {
       "key": "core",
-      "md": "In this lesson, we'll explore repeating patterns using the AB, AAB, ABB, and ABC sequences. These patterns are simple and easy to spot, making them perfect for young learners. By using claps, taps, and colored blocks, children can physically engage with the concept, making it more memorable.",
+      "md": "Welcome to the world of patterns! Patterns are everywhere and help us predict what comes next. Let's explore some simple sequences together.",
       "order_index": 3
     },
     {
-      "key": "demo",
-      "md": "- 1. **Say:** \"Let's make a pattern with sounds. Clap, tap (AB).\" Repeat 4 times.\n- 2. **Ask:** \"What comes next?\" Wait for \"Tap\".\n- 3. **Use:** Red and blue blocks. **Say:** \"Red, blue, red, blue (AB).\"\n- 4. **Ask:** \"What comes next?\" Wait for \"Blue\".\n- 5. **Say:** \"Now, let's try red, red, blue (AAB).\" Repeat.\n- 6. **Ask:** \"What comes next?\" Wait for \"Blue\".",
-      "order_index": 4
-    },
-    {
-      "key": "math",
-      "md": "Patterns are sequences that repeat. In an AB pattern, two elements alternate, like 1, 2, 1, 2. In an AAB pattern, the sequence is two of one element followed by another, like 1, 1, 2. For ABB, it’s one element followed by two of another, like 1, 2, 2. ABC patterns use three different elements, like 1, 2, 3.",
-      "order_index": 5
-    },
-    {
-      "key": "formulas",
-      "md": "AB pattern: A, B, A, B\n- A and B are different elements.\nAAB pattern: A, A, B\n- Two A's followed by one B.\nABB pattern: A, B, B\n- One A followed by two B's.\nABC pattern: A, B, C\n- Three different elements in sequence.",
-      "order_index": 6
-    },
-    {
       "key": "guide",
-      "md": "- 1. Gather colored blocks or similar objects.\n- 2. **Say:** \"Let's make an AB pattern with these blocks.\"\n- 3. Arrange blocks in a red, blue, red, blue sequence.\n- 4. **Ask:** \"What comes next?\" Encourage your child to predict.\n- 5. Try AAB and ABB patterns with blocks.\n- 6. **Say:** \"Great job! Let's try an ABC pattern.\" Use three different colors.",
+      "md": "1. Start with an AB pattern using two different objects, like red and blue blocks.\n2. Create an AAB pattern by repeating the first object twice, then the second object once.\n3. Move to an ABB pattern, using one type of object, then two different ones.\n4. Introduce ABC patterns using three different objects in sequence.",
       "order_index": 7
     },
     {
-      "key": "mistakes",
-      "md": "- If your child mixes up the sequence, try: \"Let's start the pattern again together.\"\n- If they forget what comes next, try: \"Look at the last two blocks. What do we need now?\"\n- If they use the wrong color, try: \"Let's check the pattern. What color should it be?\"",
+      "key": "practice",
+      "md": "**1. Create an AB pattern using forks and spoons. (use numbers like 6 and 9)**\n_Answer:_ Fork, spoon, fork, spoon, fork, spoon.\n_Hint:_ Think: fork, spoon, fork, spoon...\n\n**2. Make an AAB pattern with apples and bananas. (use numbers like 6 and 9)**\n_Answer:_ Apple, apple, banana, apple, apple, banana.\n_Hint:_ Repeat the apple twice, then banana.\n\n**3. Design an ABB pattern using cars and trucks. (use numbers like 6 and 9)**\n_Answer:_ Car, truck, truck, car, truck, truck.\n_Hint:_ One car, then two trucks follow.\n\n**4. Form an ABC pattern with socks, shoes, and hats. (use numbers like 6 and 9)**\n_Answer:_ Sock, shoe, hat, sock, shoe, hat.\n_Hint:_ Use one of each item in order.",
       "order_index": 8
     },
     {
-      "key": "connection",
-      "md": "Patterns are everywhere! Look for them in clothing designs, nature, and music. Point out stripes on a shirt or the rhythm of a song to show real-life examples.",
+      "key": "mistakes",
+      "md": "- Mixing up the order of objects in a pattern.\n- Skipping an object in the sequence.",
       "order_index": 9
     },
     {
-      "key": "close",
-      "md": "Great job exploring patterns! Keep looking for them in your daily life to strengthen your child's understanding and curiosity.",
-      "order_index": 11
+      "key": "connection",
+      "md": "Think of patterns like the stripes on a zebra or the rhythm of a song. They repeat in a way we can predict.",
+      "order_index": 10
     }
   ],
   "sections": {
-    "objectives": "- Introduce simple repeating patterns: AB, AAB, ABB, ABC.\n- Help children recognize and predict sequences.\n- **Why this matters for parents:** Understanding patterns builds a foundation for math skills and logical thinking.",
-    "overview": "Patterns are sequences that repeat in a predictable way. In kindergarten, children learn to identify and create simple patterns using everyday objects. Recognizing patterns helps children develop critical thinking and problem-solving skills. It also lays the groundwork for understanding more complex math concepts in the future.",
-    "core": "In this lesson, we'll explore repeating patterns using the AB, AAB, ABB, and ABC sequences. These patterns are simple and easy to spot, making them perfect for young learners. By using claps, taps, and colored blocks, children can physically engage with the concept, making it more memorable.",
-    "demo": "- 1. **Say:** \"Let's make a pattern with sounds. Clap, tap (AB).\" Repeat 4 times.\n- 2. **Ask:** \"What comes next?\" Wait for \"Tap\".\n- 3. **Use:** Red and blue blocks. **Say:** \"Red, blue, red, blue (AB).\"\n- 4. **Ask:** \"What comes next?\" Wait for \"Blue\".\n- 5. **Say:** \"Now, let's try red, red, blue (AAB).\" Repeat.\n- 6. **Ask:** \"What comes next?\" Wait for \"Blue\".",
-    "math": "Patterns are sequences that repeat. In an AB pattern, two elements alternate, like 1, 2, 1, 2. In an AAB pattern, the sequence is two of one element followed by another, like 1, 1, 2. For ABB, it’s one element followed by two of another, like 1, 2, 2. ABC patterns use three different elements, like 1, 2, 3.",
-    "formulas": "AB pattern: A, B, A, B\n- A and B are different elements.\nAAB pattern: A, A, B\n- Two A's followed by one B.\nABB pattern: A, B, B\n- One A followed by two B's.\nABC pattern: A, B, C\n- Three different elements in sequence.",
-    "guide": "- 1. Gather colored blocks or similar objects.\n- 2. **Say:** \"Let's make an AB pattern with these blocks.\"\n- 3. Arrange blocks in a red, blue, red, blue sequence.\n- 4. **Ask:** \"What comes next?\" Encourage your child to predict.\n- 5. Try AAB and ABB patterns with blocks.\n- 6. **Say:** \"Great job! Let's try an ABC pattern.\" Use three different colors.",
-    "mistakes": "- If your child mixes up the sequence, try: \"Let's start the pattern again together.\"\n- If they forget what comes next, try: \"Look at the last two blocks. What do we need now?\"\n- If they use the wrong color, try: \"Let's check the pattern. What color should it be?\"",
-    "connection": "Patterns are everywhere! Look for them in clothing designs, nature, and music. Point out stripes on a shirt or the rhythm of a song to show real-life examples.",
-    "close": "Great job exploring patterns! Keep looking for them in your daily life to strengthen your child's understanding and curiosity."
+    "objectives": "**Objective:** Help your child recognize and create simple patterns using everyday objects.",
+    "overview": "**Objective:** Help your child identify and create AB, AAB, ABB, and ABC patterns using everyday objects.\n\n**Why it matters:** Understanding patterns is a foundational math skill that supports problem-solving and critical thinking.\n\n**Parent Tip:** Use colorful objects like buttons or blocks to make learning patterns fun and engaging.\n\n**Real-World Link:** Think of patterns like the stripes on a zebra or the rhythm of a song. They repeat in a way we can predict.",
+    "core": "Welcome to the world of patterns! Patterns are everywhere and help us predict what comes next. Let's explore some simple sequences together.",
+    "demo": "**Spark Curiosity:**\n\nAsk your child: 'Have you ever noticed how some things repeat in a special way? Like the stripes on your socks or the tiles on the floor?'",
+    "math": "",
+    "formulas": "",
+    "guide": "1. Start with an AB pattern using two different objects, like red and blue blocks.\n2. Create an AAB pattern by repeating the first object twice, then the second object once.\n3. Move to an ABB pattern, using one type of object, then two different ones.\n4. Introduce ABC patterns using three different objects in sequence.",
+    "practice": "**1. Create an AB pattern using forks and spoons. (use numbers like 6 and 9)**\n_Answer:_ Fork, spoon, fork, spoon, fork, spoon.\n_Hint:_ Think: fork, spoon, fork, spoon...\n\n**2. Make an AAB pattern with apples and bananas. (use numbers like 6 and 9)**\n_Answer:_ Apple, apple, banana, apple, apple, banana.\n_Hint:_ Repeat the apple twice, then banana.\n\n**3. Design an ABB pattern using cars and trucks. (use numbers like 6 and 9)**\n_Answer:_ Car, truck, truck, car, truck, truck.\n_Hint:_ One car, then two trucks follow.\n\n**4. Form an ABC pattern with socks, shoes, and hats. (use numbers like 6 and 9)**\n_Answer:_ Sock, shoe, hat, sock, shoe, hat.\n_Hint:_ Use one of each item in order.",
+    "mistakes": "- Mixing up the order of objects in a pattern.\n- Skipping an object in the sequence.",
+    "connection": "Think of patterns like the stripes on a zebra or the rhythm of a song. They repeat in a way we can predict.",
+    "close": "**Key Takeaways**\n- Patterns help children recognize order and predictability.\n- Simple patterns like AB, AAB, ABB, and ABC are building blocks for more complex math concepts.\n- Encouraging children to describe patterns strengthens their understanding.\n\n**Parent Reflection Questions**\n- What kinds of patterns did we create today?\n- How can we use patterns to make things easier to understand?"
   },
-  "practice": [
-    {
-      "order_index": 1,
-      "question_md": "Continue: 🟥🟦 🟥🟦 🟥 __",
-      "hint_md": "It’s AB (two colors alternating).",
-      "answer_md": "🟦"
+  "practice": "**Practice Together (3)**\n1) Mini example #1\n2) Mini example #2\n3) Mini example #3",
+  "universal": {
+    "title": "Patterns: Exploring AB, AAB, ABB, and ABC Sequences",
+    "introduction": "Welcome to the world of patterns! Patterns are all around us, and today we're going to explore some simple yet fascinating sequences that your child can easily recognize and create.",
+    "objective": "Help your child identify and create AB, AAB, ABB, and ABC patterns using everyday objects.",
+    "why_matters": "Understanding patterns is crucial as it lays the foundation for mathematical thinking and problem-solving. It helps children predict what comes next, an essential skill for future learning.",
+    "parent_tip": "Use colorful objects like blocks, buttons, or fruits to make learning about patterns fun and engaging for your child.",
+    "real_world_link": "Patterns are everywhere—think of the stripes on a zebra, the rhythm in music, or the sequence of traffic lights. Recognizing these helps us make sense of our world.",
+    "formula_box": null,
+    "teaching_steps": [
+      "Introduce the concept of patterns using familiar objects.",
+      "Demonstrate AB patterns and encourage your child to replicate them.",
+      "Explore AAB and ABB patterns by adding more elements.",
+      "Challenge your child with ABC patterns.",
+      "Encourage your child to create their own patterns."
+    ],
+    "parent_teaching_script": [
+      {
+        "say": "Let's look at some colorful blocks. We're going to make a pattern using two colors.",
+        "do": "Place a red block followed by a blue block.",
+        "ask": "What do you think comes next?",
+        "reinforce": "Great! You noticed the pattern. It's red, blue, red, blue."
+      },
+      {
+        "say": "Now, let's try a different pattern. We will use two reds and one blue.",
+        "do": "Arrange two red blocks and then a blue block.",
+        "ask": "What should we add after two reds?",
+        "reinforce": "Exactly! The pattern is two reds, one blue, two reds, one blue."
+      },
+      {
+        "say": "Let's make it a bit more challenging with an ABB pattern.",
+        "do": "Place one red block and two blue blocks.",
+        "ask": "What comes after the two blue blocks?",
+        "reinforce": "Yes, you got it! It's red, blue, blue."
+      },
+      {
+        "say": "Now, let's try an ABC pattern using three different colors.",
+        "do": "Arrange one red, one blue, and one green block.",
+        "ask": "What comes next after green?",
+        "reinforce": "Nice work! The pattern repeats with red, blue, green."
+      },
+      {
+        "say": "Can you create your own pattern using these blocks?",
+        "do": "Encourage them to choose any sequence of colors.",
+        "ask": "What pattern did you make?",
+        "reinforce": "Well done! You created a unique pattern."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Create an AB pattern using numbers 1 and 2.",
+        "hint": "Start with 1, then 2, and repeat.",
+        "answer": "1, 2, 1, 2, 1, 2"
+      },
+      {
+        "prompt": "Make an AAB pattern with numbers 3 and 4.",
+        "hint": "Use two 3s followed by a 4.",
+        "answer": "3, 3, 4, 3, 3, 4"
+      },
+      {
+        "prompt": "Form an ABB pattern using numbers 5 and 6.",
+        "hint": "Begin with 5, then two 6s.",
+        "answer": "5, 6, 6, 5, 6, 6"
+      },
+      {
+        "prompt": "Create an ABC pattern using numbers 7, 8, and 9.",
+        "hint": "Start with 7, then 8, then 9.",
+        "answer": "7, 8, 9, 7, 8, 9"
+      }
+    ],
+    "recap": [
+      "Patterns help us predict and understand the world around us.",
+      "AB, AAB, ABB, and ABC are simple patterns that form the basis for more complex ones.",
+      "Encourage practice with everyday objects for better understanding."
+    ],
+    "common_mistakes": [
+      "Mixing up the order of elements in a pattern.",
+      "Forgetting to repeat the sequence after completing one cycle.",
+      "Using too many different elements and losing the pattern's simplicity."
+    ],
+    "deep_dive": {
+      "history": "Patterns have been studied since ancient times, seen in art and architecture.",
+      "connections": "Patterns are foundational in mathematics, art, and science.",
+      "misconceptions": "Some may think patterns are only visual, but they can also be auditory or kinesthetic.",
+      "teaching_tips": "Use storytelling to make pattern learning more engaging.",
+      "derivation": "Patterns are derived from the repetition of sequences, creating predictability."
     },
-    {
-      "order_index": 2,
-      "question_md": "Finish: 🔴🔴🔵 🔴🔴🔵 🔴🔴 __",
-      "hint_md": "It’s AAB (two of one, then another).",
-      "answer_md": "🔵"
-    },
-    {
-      "order_index": 3,
-      "question_md": "Complete: 🟢🔵🔴 🟢🔵🔴 🟢 __",
-      "hint_md": "It’s ABC (three different colors).",
-      "answer_md": "🔵"
-    }
-  ]
+    "motivation": "Learning patterns is like solving a puzzle. It's fun and helps your child develop critical thinking skills!"
+  },
+  "markdown": "## Lesson Introduction\nWelcome to the world of patterns! Patterns are all around us, and today we're going to explore some simple yet fascinating sequences that your child can easily recognize and create.\n\n## Parent Orientation\n**Objective:** Help your child identify and create AB, AAB, ABB, and ABC patterns using everyday objects.\n**Why it matters:** Understanding patterns is crucial as it lays the foundation for mathematical thinking and problem-solving. It helps children predict what comes next, an essential skill for future learning.\n**Parent Tip:** Use colorful objects like blocks, buttons, or fruits to make learning about patterns fun and engaging for your child.\n**Real-World Link:** Patterns are everywhere—think of the stripes on a zebra, the rhythm in music, or the sequence of traffic lights. Recognizing these helps us make sense of our world.\n\n## Teaching Steps\n1. Introduce the concept of patterns using familiar objects.\n2. Demonstrate AB patterns and encourage your child to replicate them.\n3. Explore AAB and ABB patterns by adding more elements.\n4. Challenge your child with ABC patterns.\n5. Encourage your child to create their own patterns.\n\n## 👨‍👩‍👧 Parent Teaching Script (Step-by-Step Conversation)\n1. **Say:** Let's look at some colorful blocks. We're going to make a pattern using two colors.  \n**Show/Do:** Place a red block followed by a blue block.  \n**Ask:** What do you think comes next?  \n**Reinforce:** Great! You noticed the pattern. It's red, blue, red, blue.\n2. **Say:** Now, let's try a different pattern. We will use two reds and one blue.  \n**Show/Do:** Arrange two red blocks and then a blue block.  \n**Ask:** What should we add after two reds?  \n**Reinforce:** Exactly! The pattern is two reds, one blue, two reds, one blue.\n3. **Say:** Let's make it a bit more challenging with an ABB pattern.  \n**Show/Do:** Place one red block and two blue blocks.  \n**Ask:** What comes after the two blue blocks?  \n**Reinforce:** Yes, you got it! It's red, blue, blue.\n4. **Say:** Now, let's try an ABC pattern using three different colors.  \n**Show/Do:** Arrange one red, one blue, and one green block.  \n**Ask:** What comes next after green?  \n**Reinforce:** Nice work! The pattern repeats with red, blue, green.\n5. **Say:** Can you create your own pattern using these blocks?  \n**Show/Do:** Encourage them to choose any sequence of colors.  \n**Ask:** What pattern did you make?  \n**Reinforce:** Well done! You created a unique pattern.\n\n## Practice Questions (Do It Together)\n**1. Create an AB pattern using numbers 1 and 2.**\n<details><summary>Hint</summary>\nStart with 1, then 2, and repeat.\n</details>\n<details><summary>Answer</summary>\n1, 2, 1, 2, 1, 2\n</details>\n\n**2. Make an AAB pattern with numbers 3 and 4.**\n<details><summary>Hint</summary>\nUse two 3s followed by a 4.\n</details>\n<details><summary>Answer</summary>\n3, 3, 4, 3, 3, 4\n</details>\n\n**3. Form an ABB pattern using numbers 5 and 6.**\n<details><summary>Hint</summary>\nBegin with 5, then two 6s.\n</details>\n<details><summary>Answer</summary>\n5, 6, 6, 5, 6, 6\n</details>\n\n**4. Create an ABC pattern using numbers 7, 8, and 9.**\n<details><summary>Hint</summary>\nStart with 7, then 8, then 9.\n</details>\n<details><summary>Answer</summary>\n7, 8, 9, 7, 8, 9\n</details>\n\n\n## Recap & Common Mistakes\n**Key Takeaways**\n- Patterns help us predict and understand the world around us.\n- AB, AAB, ABB, and ABC are simple patterns that form the basis for more complex ones.\n- Encourage practice with everyday objects for better understanding.\n\n**Common Mistakes**\n- Mixing up the order of elements in a pattern.\n- Forgetting to repeat the sequence after completing one cycle.\n- Using too many different elements and losing the pattern's simplicity.\n\n## 🔍 Deep Dive\n**History or origin**\n\nPatterns have been studied since ancient times, seen in art and architecture.\n\n**Future topic connections**\n\nPatterns are foundational in mathematics, art, and science.\n\n**Common misconceptions**\n\nSome may think patterns are only visual, but they can also be auditory or kinesthetic.\n\n**Teaching tips for parents**\n\nUse storytelling to make pattern learning more engaging.\n\n**More detail / derivation**\n\nPatterns are derived from the repetition of sequences, creating predictability.\n\n## Motivation\nLearning patterns is like solving a puzzle. It's fun and helps your child develop critical thinking skills!"
 }

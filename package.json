@@ -9,11 +9,9 @@
     "start": "next start -p 3000",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-
     "//———— data seeding & migrations ————": "",
     "seed": "node scripts/seedCourses.mjs",
     "upgrade:sections": "node scripts/upgradeSections.mjs",
-
     "//———— authoring helpers (legacy) ————": "",
     "author:all": "node scripts/authorAll.mjs",
     "author:missing": "node scripts/authorMissing.mjs",
@@ -30,7 +28,6 @@
     "author:10": "node scripts/autoAuthor.mjs --grade=10",
     "author:11": "node scripts/autoAuthor.mjs --grade=11",
     "author:12": "node scripts/autoAuthor.mjs --grade=12",
-
     "//———— lessons (files in /public/lessons) ————": "",
     "lessons:export": "node scripts/exportLessonsToFiles.mjs",
     "lessons:scaffold:list": "node scripts/scaffoldFromList.mjs",
@@ -38,24 +35,28 @@
     "lessons:index": "node scripts/buildLessonIndexes.mjs",
     "lessons:list": "node -e \"const fs=require('fs'),p=require('path'),root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.log('No public/lessons/ found');process.exit(0)};for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);const files=fs.readdirSync(dir).filter(f=>f.endsWith('.json'));console.log(g+':', files.length, 'file(s)');files.forEach(f=>console.log('  -',f))}\"",
     "lessons:check": "node -e \"const fs=require('fs'),p=require('path');const root=p.join(process.cwd(),'public','lessons');if(!fs.existsSync(root)){console.error('❌ Missing public/lessons');process.exit(1)}let bad=0;for(const g of fs.readdirSync(root,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name)){const dir=p.join(root,g);for(const f of fs.readdirSync(dir).filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync(p.join(dir,f),'utf8'))}catch(e){console.error('❌ Invalid JSON:',p.join('public','lessons',g,f));bad++}}}if(bad){process.exit(1)}console.log('✅ All lesson JSONs parse cleanly')\"",
-
     "//———— high-quality authoring & QA ————": "",
     "lessons:author:spec": "node scripts/authorWithSpec.mjs",
     "lessons:qa": "node scripts/qaLessons.mjs",
-
     "//———— universal authoring (parent-focused) ————": "",
     "lessons:author:universal": "node scripts/authorUniversal.mjs",
     "lessons:backfill:parent-script": "node scripts/backfillParentScripts.mjs",
-
     "//———— formatting fixes ————": "",
-    "lessons:fix:matrices": "node scripts/fixMatrices.mjs"
+    "lessons:fix:matrices": "node scripts/fixMatrices.mjs",
+    "//———— global cleanups & upgrades ————": "",
+    "lessons:clean": "node scripts/cleanLessonMetadata.mjs",
+    "predeploy": "npm run lessons:clean && npm run upgrade:sections && npm run lessons:index"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.75.0",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.81.1",
     "dotenv": "^17.2.3",
     "katex": "^0.16.24",
+    "mammoth": "^1.11.0",
     "next": "15.5.4",
     "openai": "^6.3.0",
+    "pdf-parse": "^2.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-markdown": "^10.1.0",

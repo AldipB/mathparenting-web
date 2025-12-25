@@ -1,24 +1,74 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
+import { createServerClient } from "@supabase/ssr";
 
-export function middleware(req: NextRequest) {
-  // Protect the /dashboard route
-  if (req.nextUrl.pathname.startsWith("/dashboard")) {
-    const hasAuth =
-      req.cookies.has("sb-access-token") || req.cookies.has("sb-refresh-token");
-
-    if (!hasAuth) {
-      const url = req.nextUrl.clone();
-      url.pathname = "/signin";
-      // Add a redirect parameter
-      url.searchParams.set("redirectedFrom", req.nextUrl.pathname);
-      return NextResponse.redirect(url);
+function createSupabase(req: NextRequest, res: NextResponse) {
+  return createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        get(name: string) {
+          return req.cookies.get(name)?.value;
+        },
+        set(name: string, value: string, options: any) {
+          res.cookies.set({ name, value, ...options });
+        },
+        remove(name: string, options: any) {
+          res.cookies.set({ name, value: "", ...options });
+        },
+      },
     }
-  }
-
-  return NextResponse.next();
+  );
 }
 
+export async function middleware(req: NextRequest) {
+  const res = NextResponse.next();
+  const supabase = createSupabase(req, res);
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  const path = req.nextUrl.pathname;
+
+  const authPages = [
+    "/signin",
+    "/signup",
+    "/reset-password",
+  ];
+
+  const protectedPages = [
+    "/chat",
+    "/dashboard",
+    "/account",
+  ];
+
+  // If signed in, keep them out of auth pages
+  if (user && authPages.some((p) => path === p || path.startsWith(p + "/"))) {
+    const url = req.nextUrl.clone();
+    url.pathname = "/dashboard";
+    return NextResponse.redirect(url);
+  }
+
+  // If signed out, keep them out of protected pages
+  if (!user && protectedPages.some((p) => path === p || path.startsWith(p + "/"))) {
+    const url = req.nextUrl.clone();
+    url.pathname = "/signin";
+    url.searchParams.set("next", path);
+    return NextResponse.redirect(url);
+  }
+
+  return res;
+}
+
+// Only run middleware on these paths
 export const config = {
-  matcher: ["/dashboard/:path*"],
+  matcher: [
+    "/signin",
+    "/signup",
+    "/reset-password",
+    "/chat/:path*",
+    "/dashboard/:path*",
+    "/account/:path*",
+  ],
 };

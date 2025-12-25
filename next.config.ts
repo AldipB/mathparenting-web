@@ -3,9 +3,17 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   eslint: { ignoreDuringBuilds: true },
-  experimental: {
-    // (leave empty unless you need specific flags)
+  async headers() {
+    return [
+      {
+        source: "/api/chat",
+        headers: [
+          { key: "Cache-Control", value: "no-store, no-transform" },
+        ],
+      },
+    ];
   },
+  experimental: {},
 };
 
 export default nextConfig;

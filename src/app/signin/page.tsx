@@ -1,20 +1,8 @@
-// Server component (no "use client")
+// src/app/signin/page.tsx
 import SignInClient from "./SignInClient";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static"; // optional
 
-type SP = Record<string, string | string[] | undefined>;
-
-export default async function Page({
-  searchParams,
-}: {
-  // Next 15 passes searchParams as a Promise in server components
-  searchParams: Promise<SP>;
-}) {
-  const sp = await searchParams;
-  const redirectedFrom = Array.isArray(sp.redirectedFrom)
-    ? sp.redirectedFrom[0]
-    : sp.redirectedFrom;
-  const redirectTo = redirectedFrom ?? "/dashboard";
-  return <SignInClient redirectTo={redirectTo} />;
+export default function SignInPage() {
+  return <SignInClient />;
 }

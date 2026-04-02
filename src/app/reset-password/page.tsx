@@ -1,58 +1,55 @@
 "use client";
 
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
+import { getBrowserSupabase } from "@/lib/supabaseBrowser";
 
-export default function ResetPasswordPage() {
+export default function ResetPassword() {
+  const supabase = getBrowserSupabase();
+
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setLoading(true);
     setMsg(null);
+    setLoading(true);
 
-    const redirectTo =
-      typeof window !== "undefined"
-        ? `${window.location.origin}/update-password`
-        : undefined;
+    try {
+      const redirectTo =
+        typeof window !== "undefined"
+          ? `${window.location.origin}/update-password`
+          : undefined;
 
-    const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo,
-    });
+      const { error } = await supabase.auth.resetPasswordForEmail(email, {
+        redirectTo,
+      });
 
-    setMsg(
-      error
-        ? error.message
-        : "If this email exists, a reset link has been sent."
-    );
-
-    setLoading(false);
+      setMsg(error ? error.message : "Check your email for the reset link.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
-    <div className="max-w-sm mx-auto mt-20 space-y-4">
+    <div className="max-w-sm mx-auto space-y-3">
       <h1 className="text-2xl font-semibold">Forgot password</h1>
-
       <form onSubmit={onSubmit} className="space-y-3">
         <input
           className="w-full border rounded px-3 py-2"
           type="email"
-          placeholder="you@example.com"
           required
+          placeholder="you@example.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-
         <button
-          className="w-full bg-blue-600 text-white py-2 rounded disabled:opacity-60"
+          className="w-full rounded px-4 py-2 bg-blue-600 text-white disabled:opacity-60"
           disabled={loading}
         >
-          {loading ? "Sending…" : "Send reset link"}
+          {loading ? "Sending..." : "Send reset link"}
         </button>
       </form>
-
       {msg && <p className="text-sm text-gray-700">{msg}</p>}
     </div>
   );

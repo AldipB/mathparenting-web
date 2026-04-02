@@ -1,23 +1,24 @@
-// src/app/api/chat/route.ts
 export const runtime = "edge";
 
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
+import { getServerSupabase } from "@/lib/supabaseServer";
 
 /* =========================================================================
    Types
    ========================================================================= */
 type ChatRole = "user" | "assistant" | "system";
-type Part =
-  | { type: "text"; text: string }
-  | { type: "image_url"; image_url: string }; // data URL or https
+type Part = { type: "text"; text: string } | { type: "image_url"; image_url: string };
+
 type ChatMessage = { role: ChatRole; content?: string; contentParts?: Part[] };
+
 type ChatRequest = {
   messages: ChatMessage[];
   model?: string;
   temperature?: number;
   max_tokens?: number;
-  keep?: number; // number of recent (non-system) turns to retain
+  keep?: number;
+  mode?: "teaching" | "explanation";
 };
 
 type ExtractedQuestion = {
@@ -35,27 +36,61 @@ type QuestionExtractResponse = {
 /* =========================================================================
    Small helpers
    ========================================================================= */
-const pick = <T,>(arr: readonly T[]) =>
-  arr[Math.floor(Math.random() * arr.length)];
+const pick = <T,>(arr: readonly T[]) => arr[Math.floor(Math.random() * arr.length)];
 
 const GREETING_RX =
   /^(hi|hii+|hello+|hey+|hiya|howdy|hola|namaste|yo|sup|good (morning|afternoon|evening|night))\b/i;
 
+const THANKS_RX =
+  /^(thank you|thanks|thank u|thankyou|thx|ty|cheers|much appreciated|appreciate it|appreciate that|that was helpful|that helped|great help|you are amazing|you are great|you are helpful|awesome|perfect|wonderful|brilliant)\b/i;
+
 const GREETINGS_ONE_LINERS = [
-  "Hello. Tell me a K–12 math topic or question and I will help you teach it at home.",
+  "Hello. Tell me a K to 12 math topic or question and I will help you teach it at home.",
   "Hi. What math topic are you working on with your child today.",
-  "Namaste. Share a K–12 math question and I will guide you step by step.",
+  "Namaste. Share a K to 12 math question and I will guide you step by step.",
+  "Hey. What is your child working on in math right now? Let us figure it out together.",
+  "Hello. Drop a math question or topic and I will help you guide your child through it calmly.",
+  "Hi there. What math challenge can I help you and your child tackle today.",
+  "Good to see you. Share a math topic or problem and we will work through it together.",
+  "Hello. Whether it is fractions, algebra, or anything in between, I am here to help you teach it.",
+  "Hi. Tell me what your child is learning right now and I will help you explain it simply.",
+  "Hey there. What math topic would you like to explore with your child today.",
+  "Welcome. Share a math question and I will give you a clear step by step teaching plan.",
+  "Hello. I am here to help you turn homework time into a calm and confident teaching moment.",
+  "Hi. What is on your child's math worksheet today? Let us break it down together.",
+  "Hey. Tell me the math topic and I will help you explain it in a way that makes sense at home.",
+  "Hello. Share what your child is struggling with and I will help you guide them through it.",
+] as const;
+
+const THANKS_ONE_LINERS = [
+  "You are welcome. Come back anytime you have a math question.",
+  "Happy to help. Feel free to share another math topic whenever you are ready.",
+  "Glad that helped. What math topic would you like to work on next.",
+  "Anytime. I am here whenever you need help teaching math at home.",
+  "You are very welcome. Keep up the great work with your child.",
+  "Happy to be here. Let me know when you have another math question.",
+  "Glad it was useful. You are doing great as a math mentor for your child.",
+  "Of course. Come back whenever you need help breaking down a math topic.",
 ] as const;
 
 const NON_MATH_ONE_LINERS = [
-  "I am mainly for K–12 math and how you teach it. If you tell me a math topic, I will help you step by step.",
-  "I focus on K–12 math and parent guidance. Share a math question and I will guide you.",
+  "I focus on math learning support for parents and children. Ask me a math question and I will help you clearly.",
+  "That is outside what I can help with. Share a math topic or question and I will guide you step by step.",
+  "I am built specifically for math support between parents and children. What math topic can I help you with today.",
+  "I can only help with math questions. What is your child working on right now.",
+  "That one is outside my area. I am here for math questions only. Drop a topic or problem and let us get started.",
+  "I am a math support tool for parents. If you have a math question or homework problem, I am ready to help.",
+  "I stick to math. Tell me what your child is learning and I will help you teach it.",
+  "That is not something I can help with. But if you have a math question, I am here and ready to walk you through it.",
+  "My focus is math support for parents and children. What topic or problem would you like help with today.",
+  "I am only able to help with math related questions. Share a topic or problem and we will work through it together.",
+  "That falls outside what I do. I am here to help you teach math at home. What is on your child's plate today.",
+  "I can not help with that. But bring me any math question and I will give you a clear teaching plan for it.",
 ] as const;
 
 const normalize = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
 
-/* Extract plain text from a message (supports contentParts) */
 function extractText(m?: ChatMessage) {
   if (!m) return "";
   if (m.contentParts?.length) {
@@ -69,8 +104,7 @@ function extractText(m?: ChatMessage) {
 }
 
 function levenshtein(a: string, b: string) {
-  const m = a.length,
-    n = b.length;
+  const m = a.length, n = b.length;
   if (!m) return n;
   if (!n) return m;
   const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
@@ -79,11 +113,7 @@ function levenshtein(a: string, b: string) {
   for (let i = 1; i <= m; i++) {
     for (let j = 1; j <= n; j++) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-      dp[i][j] = Math.min(
-        dp[i - 1][j] + 1,
-        dp[i][j - 1] + 1,
-        dp[i - 1][j - 1] + cost
-      );
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
     }
   }
   return dp[m][n];
@@ -96,26 +126,28 @@ const QUESTIONS_MARKER = "[MP_EXTRACTED_QUESTIONS]";
 
 function parseSelectionIndex(text: string): number | null {
   const t = normalize(text);
-
   const m = t.match(/\b(question|q|no|number|#)\s*(\d+)\b/);
   if (m?.[2]) {
     const n = parseInt(m[2], 10);
     return Number.isFinite(n) ? n : null;
   }
-
   if (/\b(first|1st)\b/.test(t)) return 1;
   if (/\b(second|2nd)\b/.test(t)) return 2;
   if (/\b(third|3rd)\b/.test(t)) return 3;
   if (/\b(fourth|4th)\b/.test(t)) return 4;
   if (/\b(fifth|5th)\b/.test(t)) return 5;
-
+  const onlyNum = t.match(/^\s*(\d+)\s*$/);
+  if (onlyNum?.[1]) {
+    const n = parseInt(onlyNum[1], 10);
+    return Number.isFinite(n) ? n : null;
+  }
   return null;
 }
 
 function formatQuestionListForUser(qs: ExtractedQuestion[]) {
   const lines: string[] = [];
-  lines.push("I can see multiple questions in your photo.");
-  lines.push('Tell me which one to solve, like: "solve question 2".');
+  lines.push("I found multiple questions in your photo.");
+  lines.push("Send the question number you want.");
   lines.push("");
   for (let i = 0; i < qs.length; i++) {
     const q = qs[i];
@@ -144,29 +176,90 @@ function findSavedExtractedQuestions(history: ChatMessage[]): ExtractedQuestion[
   return null;
 }
 
-async function extractQuestionsFromImages(
-  client: OpenAI,
-  parts: Part[]
-): Promise<QuestionExtractResponse | null> {
+/* =========================================================================
+   Better image extraction
+   ========================================================================= */
+const ASK_WORDS_RX =
+  /\b(find|solve|evaluate|simplify|compute|determine|calculate|work out|prove|show|derive|differentiate|integrate|factor|expand)\b/i;
+
+const DIRECT_QUESTION_RX =
+  /\?|\bhow (fast|many|much|long|far|tall|old)\b|\bwhat\b|\bwhich\b|\bwhy\b|\bwhen\b/i;
+
+const EQUATIONISH_RX = /^\s*([a-z][a-z0-9_]*|[xyzt])\s*=\s*.+$/i;
+
+function isLikelyAskLine(s: string) {
+  const t = (s || "").trim();
+  if (!t) return false;
+  if (DIRECT_QUESTION_RX.test(t)) return true;
+  if (ASK_WORDS_RX.test(t)) return true;
+  if (EQUATIONISH_RX.test(t) && !ASK_WORDS_RX.test(t) && !DIRECT_QUESTION_RX.test(t)) return false;
+  return false;
+}
+
+function isLikelyGivenEquationLine(s: string) {
+  const t = (s || "").trim();
+  if (!t) return false;
+  if (/^\s*(given|use|let)\b/i.test(t)) return true;
+  if (EQUATIONISH_RX.test(t) && !ASK_WORDS_RX.test(t) && !DIRECT_QUESTION_RX.test(t)) return true;
+  if (/^[^?]{0,80}=\s*[^?]{0,80}$/.test(t) && !ASK_WORDS_RX.test(t) && !DIRECT_QUESTION_RX.test(t)) return true;
+  return false;
+}
+
+function postprocessExtractedQuestions(qs: ExtractedQuestion[]): ExtractedQuestion[] {
+  const cleaned = (qs || [])
+    .map((q, i) => ({ ...q, id: q.id || `Q${i + 1}`, text: (q.text || "").trim() }))
+    .filter((q) => q.text.length);
+
+  if (!cleaned.length) return cleaned;
+
+  const ask = cleaned.filter((q) => isLikelyAskLine(q.text));
+  const given = cleaned.filter((q) => isLikelyGivenEquationLine(q.text));
+
+  if (ask.length === 1 && given.length >= 1) {
+    const askText = ask[0].text.trim();
+    const givens = given.map((g) => g.text.trim()).filter((t) => t && t !== askText);
+    const mergedText = `${askText}\n\nGiven:\n` + givens.map((t) => `- ${t}`).join("\n");
+    return [{
+      id: "Q1",
+      label: ask[0].label,
+      text: mergedText,
+      subparts: ask[0].subparts,
+      confidence: Math.max(ask[0].confidence ?? 0.7, 0.7),
+    }];
+  }
+
+  if (!ask.length) return cleaned;
+
+  const keep = cleaned.filter((q) => {
+    if (isLikelyAskLine(q.text)) return true;
+    if (isLikelyGivenEquationLine(q.text)) return false;
+    return true;
+  });
+
+  return keep.length ? keep : cleaned;
+}
+
+async function extractQuestionsFromImages(client: OpenAI, parts: Part[]): Promise<QuestionExtractResponse | null> {
   const imageParts = (parts || []).filter((p) => p.type === "image_url");
   if (!imageParts.length) return null;
 
   const extractionPrompt =
-    "Extract all distinct math questions from this image.\n" +
+    "Task: Extract the math QUESTION(S) the student is being asked to answer.\n" +
+    "Do NOT list standalone GIVEN equations, definitions, or intermediate lines as separate questions.\n" +
+    "If the image has ONE question plus multiple given equations, return ONE question whose text includes the ask line plus the givens.\n" +
+    "\n" +
     "Return JSON only using this schema:\n" +
-    '{"questions":[{"id":"Q1","label":"2","text":"exact question text","subparts":["a) ...","b) ..."],"confidence":0.0}]}\n' +
+    '{"questions":[{"id":"Q1","label":"(visible number if any)","text":"full question text including givens when needed","subparts":["a) ...","b) ..."],"confidence":0.0}]}\n' +
+    "\n" +
     "Rules:\n" +
-    "Keep text close to the image\n" +
-    "Split multiple questions\n" +
-    "Preserve visible numbering in label if present\n" +
-    "Include uncertain items with lower confidence\n";
+    "1) Keep wording close to the image.\n" +
+    "2) Split only when there are truly multiple separate questions.\n" +
+    "3) Preserve visible numbering in label if present.\n" +
+    "4) If uncertain, still return the best single question with lower confidence.\n";
 
   const content: any[] = [
     { type: "text", text: extractionPrompt },
-    ...imageParts.map((p) => ({
-      type: "image_url",
-      image_url: { url: p.image_url },
-    })),
+    ...imageParts.map((p) => ({ type: "image_url", image_url: { url: p.image_url } })),
   ];
 
   const resp = await client.chat.completions.create({
@@ -174,32 +267,28 @@ async function extractQuestionsFromImages(
     temperature: 0,
     max_tokens: 900,
     messages: [
-      {
-        role: "system",
-        content: "You extract questions accurately. Output must be valid JSON only.",
-      },
+      { role: "system", content: "You extract only the actual asked questions. Output must be valid JSON only." },
       { role: "user", content },
     ],
     response_format: { type: "json_object" } as any,
   });
 
   const raw = resp.choices?.[0]?.message?.content || "";
+  let parsed: QuestionExtractResponse | null = null;
 
   try {
-    const parsed = JSON.parse(raw) as QuestionExtractResponse;
-    if (parsed?.questions?.length) return parsed;
-  } catch {}
-
-  const start = raw.indexOf("{");
-  const end = raw.lastIndexOf("}");
-  if (start >= 0 && end > start) {
-    try {
-      const parsed = JSON.parse(raw.slice(start, end + 1)) as QuestionExtractResponse;
-      if (parsed?.questions?.length) return parsed;
-    } catch {}
+    parsed = JSON.parse(raw) as QuestionExtractResponse;
+  } catch {
+    const start = raw.indexOf("{");
+    const end = raw.lastIndexOf("}");
+    if (start >= 0 && end > start) {
+      try { parsed = JSON.parse(raw.slice(start, end + 1)) as QuestionExtractResponse; } catch {}
+    }
   }
 
-  return null;
+  if (!parsed?.questions?.length) return null;
+  const fixed = postprocessExtractedQuestions(parsed.questions);
+  return fixed.length ? { questions: fixed } : null;
 }
 
 /* =========================================================================
@@ -209,7 +298,6 @@ function stripMarkerFromText(t: string) {
   if (!t) return t;
   const idx = t.indexOf(QUESTIONS_MARKER);
   if (idx === -1) return t;
-
   const before = t.slice(0, idx).trimEnd();
   if (before.length === 0) return "";
   return before;
@@ -218,20 +306,15 @@ function stripMarkerFromText(t: string) {
 function sanitizeIncomingMessages(msgs: ChatMessage[]) {
   return (msgs || []).map((m) => {
     const next: ChatMessage = { ...m };
-
     if (typeof next.content === "string") {
       next.content = stripMarkerFromText(next.content);
     }
-
     if (Array.isArray(next.contentParts)) {
       next.contentParts = next.contentParts.map((p) => {
-        if (p.type === "text") {
-          return { ...p, text: stripMarkerFromText(p.text) };
-        }
+        if (p.type === "text") return { ...p, text: stripMarkerFromText(p.text) };
         return p;
       });
     }
-
     return next;
   });
 }
@@ -242,322 +325,49 @@ function sanitizeIncomingMessages(msgs: ChatMessage[]) {
 const OPERATOR_RX =
   /[0-9][^a-zA-Z]*[+\-*/=^()%]|[+\-*/=^]{1,2}\s*[0-9]|\\frac|\\sqrt|\\int|\\sum|\\pi|\\theta|\\alpha|\\beta|∞/;
 
-// Expanded lexicon: broad subjects + detailed K–12 topics + common misspellings
 const TOPIC_BUCKETS = [
-  // broad subjects
-  "math",
-  "arithmetic",
-  "algebra",
-  "prealgebra",
-  "geometry",
-  "trigonometry",
-  "precalculus",
-  "calculus",
-  "statistics",
-  "probability",
-  "number theory",
-  "linear algebra",
-  "discrete math",
-  "set theory",
-  "logic",
-
-  // arithmetic / number sense
-  "counting",
-  "place value",
-  "whole numbers",
-  "natural numbers",
-  "integers",
-  "even",
-  "odd",
-  "addition",
-  "subtraction",
-  "multiplication",
-  "division",
-  "long division",
-  "factors",
-  "multiples",
-  "prime",
-  "composite",
-  "lcm",
-  "hcf",
-  "gcd",
-  "number line",
-  "rounding",
-  "estimation",
-  "order of operations",
-  "pemdas",
-  "bodmas",
-  "powers",
-  "indices",
-  "exponents",
-  "roots",
-  "square root",
-  "cube root",
-  "surds",
-
-  // fractions / decimals / percent / ratio
-  "fraction",
-  "fractions",
-  "mixed number",
-  "improper fraction",
-  "equivalent fractions",
-  "simplify fractions",
-  "decimal",
-  "percent",
-  "percents",
-  "ratio",
-  "rate",
-  "proportion",
-  "unit rate",
-
-  // measurement / geometry
-  "units",
-  "unit conversion",
-  "metric",
-  "imperial",
-  "time",
-  "elapsed time",
-  "money",
-  "temperature",
-  "perimeter",
-  "area",
-  "surface area",
-  "volume",
-  "nets",
-  "angle",
-  "acute",
-  "obtuse",
-  "right angle",
-  "triangle",
-  "isosceles",
-  "equilateral",
-  "scalene",
-  "quadrilateral",
-  "rectangle",
-  "square",
-  "parallelogram",
-  "rhombus",
-  "trapezoid",
-  "polygon",
-  "regular polygon",
-  "circle",
-  "radius",
-  "diameter",
-  "circumference",
-  "arc length",
-  "sector area",
-  "pythagorean",
-  "similarity",
-  "congruence",
-  "transformations",
-  "reflection",
-  "rotation",
-  "translation",
-  "dilation",
-  "scale factor",
-  "coordinates",
-  "cartesian plane",
-  "distance formula",
-  "midpoint",
-
-  // algebra
-  "variable",
-  "expression",
-  "equation",
-  "inequality",
-  "absolute value",
-  "evaluate",
-  "simplify",
-  "linear expression",
-  "linear equation",
-  "slope",
-  "intercept",
-  "slope intercept",
-  "point slope",
-  "graphing lines",
-  "system of equations",
-  "substitution",
-  "elimination",
-  "quadratic",
-  "factoring",
-  "expand",
-  "complete the square",
-  "quadratic formula",
-  "discriminant",
-  "polynomial",
-  "degree",
-  "remainder theorem",
-  "binomial theorem",
-  "function",
-  "functions",
-  "domain",
-  "range",
-  "composition",
-  "inverse function",
-  "piecewise",
-  "interval notation",
-
-  // graphs / data
-  "graph",
-  "graphs",
-  "scatter plot",
-  "histogram",
-  "box plot",
-  "line graph",
-  "bar graph",
-  "pie chart",
-  "dot plot",
-  "two-way table",
-  "frequency table",
-  "best fit line",
-  "correlation",
-  "residual",
-
-  // probability & statistics
-  "mean",
-  "median",
-  "mode",
-  "range",
-  "quartiles",
-  "iqr",
-  "standard deviation",
-  "variance",
-  "experiment",
-  "sample space",
-  "outcomes",
-  "permutations",
-  "combinations",
-  "factorial",
-  "binomial",
-  "normal distribution",
-  "z score",
-
-  // trig
-  "trigonometry",
-  "unit circle",
-  "radians",
-  "degrees",
-  "sine",
-  "cosine",
-  "tangent",
-  "secant",
-  "cosecant",
-  "cotangent",
-  "right triangle trigonometry",
-  "special right triangles",
-  "trig identities",
-  "law of sines",
-  "law of cosines",
-
-  // precalc & calculus (HS intro)
-  "sequences",
-  "series",
-  "arithmetic sequence",
-  "geometric sequence",
-  "sigma notation",
-  "limits",
-  "limit",
-  "derivative",
-  "derivatives",
-  "differentiation",
-  "chain rule",
-  "product rule",
-  "quotient rule",
-  "critical points",
-  "optimization",
-  "integral",
-  "integrals",
-  "integration",
-  "area under curve",
-  "riemann sum",
-
-  // vectors & matrices
-  "vector",
-  "vectors",
-  "magnitude",
-  "direction",
-  "dot product",
-  "cross product",
-  "matrix",
-  "matrices",
-  "determinant",
-  "inverse matrix",
-  "gaussian elimination",
-
-  // sets & logic
-  "set",
-  "sets",
-  "union",
-  "intersection",
-  "complement",
-  "venn diagram",
-  "truth table",
-  "implication",
-  "contrapositive",
-
-  // parent finance math
-  "simple interest",
-  "compound interest",
-  "interest rate",
-  "mortgage",
-  "loan payment",
-  "amortization",
-  "budget",
-  "tax",
-  "sales tax",
-  "discount",
-  "tip",
-  "markup",
-  "depreciation",
-  "break even",
-  "unit price",
-
-  // physics-y quantities often asked in math contexts
-  "velocity",
-  "speed",
-  "acceleration",
-  "distance",
-  "displacement",
-  "slope from data",
-
-  // common misspellings
-  "differantation",
-  "fracton",
-  "devishon",
-  "substraction",
-  "aljebra",
-  "algabra",
-  "multiplcation",
-  "percentsge",
-  "equasion",
+  "math","arithmetic","algebra","prealgebra","geometry","trigonometry","precalculus","calculus",
+  "statistics","probability","number theory","linear algebra","discrete math","set theory","logic",
+  "counting","place value","whole numbers","natural numbers","integers","even","odd","addition",
+  "subtraction","multiplication","division","long division","factors","multiples","prime","composite",
+  "lcm","hcf","gcd","number line","rounding","estimation","order of operations","pemdas","bodmas",
+  "powers","indices","exponents","roots","square root","cube root","surds","fraction","fractions",
+  "mixed number","improper fraction","equivalent fractions","simplify fractions","decimal","percent",
+  "percents","ratio","rate","proportion","unit rate","units","unit conversion","metric","imperial",
+  "time","elapsed time","money","temperature","perimeter","area","surface area","volume","nets",
+  "angle","acute","obtuse","right angle","triangle","isosceles","equilateral","scalene","quadrilateral",
+  "rectangle","square","parallelogram","rhombus","trapezoid","polygon","regular polygon","circle",
+  "radius","diameter","circumference","arc length","sector area","pythagorean","similarity","congruence",
+  "transformations","reflection","rotation","translation","dilation","scale factor","coordinates",
+  "cartesian plane","distance formula","midpoint","variable","expression","equation","inequality",
+  "absolute value","evaluate","simplify","linear expression","linear equation","slope","intercept",
+  "slope intercept","point slope","graphing lines","system of equations","substitution","elimination",
+  "quadratic","factoring","expand","complete the square","quadratic formula","discriminant","polynomial",
+  "degree","remainder theorem","binomial theorem","function","functions","domain","range","composition",
+  "inverse function","piecewise","interval notation","graph","graphs","scatter plot","histogram",
+  "box plot","line graph","bar graph","pie chart","dot plot","two-way table","frequency table",
+  "best fit line","correlation","residual","mean","median","mode","range","quartiles","iqr",
+  "standard deviation","variance","experiment","sample space","outcomes","permutations","combinations",
+  "factorial","binomial","normal distribution","z score","unit circle","radians","degrees","sine",
+  "cosine","tangent","secant","cosecant","cotangent","right triangle trigonometry","special right triangles",
+  "trig identities","law of sines","law of cosines","sequences","series","arithmetic sequence",
+  "geometric sequence","sigma notation","limits","limit","derivative","derivatives","differentiation",
+  "chain rule","product rule","quotient rule","critical points","optimization","integral","integrals",
+  "integration","area under curve","riemann sum","vector","vectors","magnitude","direction","dot product",
+  "cross product","matrix","matrices","determinant","inverse matrix","gaussian elimination","set","sets",
+  "union","intersection","complement","venn diagram","truth table","implication","contrapositive",
+  "simple interest","compound interest","interest rate","mortgage","loan payment","amortization","budget",
+  "tax","sales tax","discount","tip","markup","depreciation","break even","unit price","velocity",
+  "speed","acceleration","distance","displacement","slope from data","differantation","fracton",
+  "devishon","substraction","aljebra","algabra","multiplcation","percentsge","equasion",
 ];
 
 function looksClearlyNonMath(t: string) {
   const n = normalize(t);
   const banned = [
-    "politic",
-    "election",
-    "president",
-    "prime minister",
-    "war",
-    "religion",
-    "god",
-    "gender",
-    "celebrity",
-    "gossip",
-    "movie",
-    "song",
-    "recipe",
-    "travel visa",
-    "immigration",
-    "diagnosis",
-    "medical advice",
-    "backend",
-    "api key",
-    "openai",
-    "prompt",
-    "system prompt",
-    "source code",
+    "politic","election","president","prime minister","war","religion","celebrity","gossip","movie",
+    "song","recipe","travel visa","immigration","diagnosis","medical advice","backend","api key",
+    "openai","prompt","system prompt","source code",
   ];
   return banned.some((w) => n.includes(w));
 }
@@ -578,14 +388,8 @@ function looksMathy(text: string): { ok: boolean; bestGuess?: string } {
     if (tok.length < 3) continue;
     for (const topic of TOPIC_BUCKETS) {
       const key = normalize(topic).split(" ").slice(-1)[0];
-      const d = Math.min(
-        levenshtein(tok, key),
-        levenshtein(tok, normalize(topic))
-      );
-      const pass =
-        (tok.length <= 5 && d <= 1) ||
-        (tok.length <= 8 && d <= 2) ||
-        d <= 3;
+      const d = Math.min(levenshtein(tok, key), levenshtein(tok, normalize(topic)));
+      const pass = (tok.length <= 5 && d <= 1) || (tok.length <= 8 && d <= 2) || d <= 3;
       if (pass) {
         if (!best || d < best.d) best = { d, topic };
       }
@@ -595,9 +399,7 @@ function looksMathy(text: string): { ok: boolean; bestGuess?: string } {
   return { ok: false };
 }
 
-/* A lightweight "does this look like a concrete problem/question" check */
-const PROBLEM_RX =
-  /(solve|simplify|evaluate|find|compute|factor|expand|differentiate|derive|integrate|derivative|integral|roots?|zeros?|intercepts?|prove|show)\b|[=±√^*/()]/i;
+const PROBLEM_RX = /(solve|simplify|evaluate|find|compute|factor|expand|differentiate|derive|integrate|derivative|integral|roots?|zeros?|intercepts?|prove|show)\b|[=±√^*/()]/i;
 
 function isProblemLike(text: string) {
   const t = text.trim();
@@ -607,112 +409,270 @@ function isProblemLike(text: string) {
 }
 
 /* =========================================================================
-   System prompt: Parent first, proper KaTeX, hidden answers (ORIGINAL)
+   System prompts
    ========================================================================= */
 const SYSTEM_PROMPT = `
-You are MathParenting, a warm helper for PARENTS teaching K–12 MATH ONLY.
+You are MathParenting, a warm helper for PARENTS.
+Your purpose is parent child connection through math.
+Make the parent feel calm and capable.
+Make the child feel safe and curious.
 
-VOICE AND SCOPE
-- Talk to the PARENT, not the student or child.
-- Use short sentences, friendly tone, and zero jargon.
-- Always address the parent directly: "you can say...", "ask your child...", "show your child...".
-- Never talk as if you are speaking to the child.
-- Stay strictly in math topics (K–12 and simple everyday finance math), plus closely related follow-up questions about learning, confidence, or study habits.
-- If the message is clearly non-math and not about learning or study habits, gently steer back to math in one short sentence.
-- If the parent misspells a term, infer it and continue without asking for confirmation.
+SCOPE
+- You can answer math, finance, and accounting questions.
+- Keep tone parent focused.
+- If the message is clearly not learning, respond with ONE short redirect sentence only, then stop.
 
-AGE AND GRADE AWARENESS
-- If the parent mentions the child’s age or grade, for example: "my 8 year old", "grade 3", "6th grader":
-  - Adjust examples, language, and numbers to match that level.
-  - For younger children, favor concrete objects (snacks, toys, simple counting).
-  - For older children, you can use more symbolic notation, equations, and word problems.
-- If the parent does NOT mention age or grade:
-  - Give a strong but general explanation that would work for a typical child at that topic level.
-  - You may briefly suggest how to simplify for younger children or extend for older ones.
+RELATIONSHIP FIRST RULES
+- Always reduce pressure and shame. Normalize mistakes.
+- Always encourage the parent to pause and let the child try before revealing the next step.
+- Always use collaborative language like "let us" and "together".
+- Always include one small household link that feels natural.
+- Never force a silly household story if it does not fit. Keep it simple and optional.
 
-FORMULAS AND NOTATION
-- Only introduce a formula when it genuinely helps the parent teach or answer the question.
-- When you use a formula:
-  - Put it on its own line in display math using KaTeX, for example: $$ A = \\pi r^2 $$.
-  - For derivatives, use proper fraction notation, for example: $$ \\frac{dy}{dx} = 2x $$.
-  - For division, use fractions with \\frac or \\dfrac whenever it improves clarity.
-  - For matrices, use proper LaTeX such as $$ \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix} $$.
-  - Immediately after a key formula, clearly explain each symbol in plain language in the context of this question.
-    - For example: "A is the area", "r is the radius", "t is the time in years", "P is the starting amount".
-- In the explanation sentences, keep symbols as plain text (A, r, t, P, dy/dx) without $ symbols around them.
-- Connect every symbol back to the actual numbers in the parent’s problem.
+KATEX AND MATH NOTATION
+- Use KaTeX for all math expressions.
+- Inline math uses \\( ... \\)
+- Display math uses $$ ... $$
+- Do not show raw plaintext math.
 
-TOPIC INTRO BEFORE HEADINGS
-- Before you output any heading, first write 1–2 sentences that introduce the topic in plain language for the parent.
-  - For example: "This question is about the angle of elevation and how to find a height." or "This is about basic differentiation of powers of x."
-- After those 1–2 sentences, leave a blank line, then start the sections.
+CLARITY WITH LOW TOKENS
+- Be concise, no repeats, no extra filler.
+- Keep every line short.
+- Practice Together must be exactly 2 questions unless the user asks for more.
 
-ABSOLUTE OUTPUT FORMAT — USE THESE EXACT HEADINGS AND ORDER:
+CRITICAL OUTPUT RULES FOR DETAILS
+- Never put <details> inside bullet points or numbered list items.
+- Always add a blank line before <details> and after </details>.
+- <details> and <summary> start at the beginning of the line, no leading spaces.
+- The <summary> line must contain ONLY the title words, and nothing else. Never include Answer, Why, or any extra text on the summary line.
 
-🧠 Core Idea
-- 2–3 short sentences for parents.
-- Define the concept simply, say why it matters, and where it shows up in real life.
-- If a formula is central, include a display formula here with a short symbol explanation immediately after.
+ABSOLUTE OUTPUT FORMAT (TEACHING MODE)
+- Always output sections in this order.
+- Headings are bold and on their own line.
 
-🏠 Household Demonstration
-- One quick at-home activity using common items (money, food, toys, clocks, chores, time).
-- Tell the parent exactly what to show and what to say.
+**⏱️ Parent Quick Plan**
+Write these 3 lines, each as its own paragraph:
+**Today we are learning:** ...
+**You only need to remember:** ...
+**First question to ask your child:** ... (must be a connection friendly question, not a test)
 
-👨‍👩‍👧 Step-by-Step Teaching Guide
-- Use as many numbered steps as needed (do not stop at 5 if more are needed).
-- Each step tells the parent what to do or say to their child.
-- If the parent asked a specific solvable question:
-  - Begin this section with a complete worked solution for that exact problem.
-  - Show each math step the parent can walk through.
-  - Use display KaTeX for key lines, for example:
-    - $$ y = 3x^2 $$
-    - $$ \\frac{dy}{dx} = 6x $$
-  - Keep the explanation readable aloud.
+Immediately after, add ONE details block:
 
-🧩 Practice Together
-- Give 2–4 short practice items with simple numbers, chosen to match the child’s level if given (or general otherwise).
-- For each item that has a clear answer:
+<details>
+<summary><strong>Show answer</strong></summary>
 
-  1. First write the question or task the parent asks the child on its own line, for example:
-     Ask your child: "What is 2 + 3?"
+**Answer:** ... (clear and calm)
+**Why:** ... (1 short line, no shame)
 
-  2. Then add a completely blank line.
+</details>
 
-  3. On the next new line, write the <details> tag by itself with no other text on that line:
-     <details>
+Then add one line:
+**Quick level check:** "I understand it / I kind of understand it / I am lost"
 
-  4. On the next new line, write the summary line, also by itself:
-     <summary>Answer</summary>
+**🧠 Core Idea**
+Use 3 short lines:
+**Meaning:** ...
+**Picture in your head:** ...
+**Real life hook:** ... (home based and simple)
 
-  5. On the following line(s), write the explanation and any KaTeX, for example:
-     $$ D + E = \\begin{bmatrix} 3 & 4 \\\\ 6 & 7 \\end{bmatrix} $$
-     Then add one short sentence explaining how you would walk through it with the child.
+**👨‍👩‍👧 Step by Step Teaching Guide**
+Start with:
+**Goal:** ...
 
-  6. Finally, on a new line by itself, close the block:
-     </details>
+Then Step 1 to Step 5 max.
+Every step must show the math move if any.
+Always include a tiny pause cue in the step text like "Pause here and let them try".
 
-- Never put the <details> tag on the same line as any other text.
-- Never put the <summary>Answer</summary> on the same line as any other text.
-- The pattern must always be:
-  question line,
-  blank line,
-  <details> on its own line,
-  <summary>Answer</summary> on its own line,
-  answer content on one or more following lines,
-  </details> on its own line.
+Each step format:
 
-- The answer content must always be inside <details> and <summary> so that it stays hidden until the parent clicks.
+**Step 1:** ...
 
-💬 Parent Tip
-- 1–2 sentences of encouragement or a quick teaching tip for parents.
-- Normalize confusion and remind them that going slowly and repeating examples is okay.
-- Never blame the parent or the child. Always stay supportive.
+If math, add display KaTeX:
+$$ ... $$
 
-IMPORTANT STYLE RULES
-- Do NOT use the em dash character or en dash. Avoid "—" and "–". Use a simple hyphen "-" or a colon ":" instead.
-- Keep bullets and numbering tidy. No extra sections, no prefaces other than the 1–2 sentence topic intro, and no afterwords.
-- Always speak directly to the parent.
-- If a simple graph would help, you may include ONE small \`graph\` fenced block with JSON. All text remains outside that block.
+Then these 3 details blocks in order:
+
+<details>
+<summary><strong>You say</strong></summary>
+
+(what the parent says, very short, warm, collaborative)
+(why this step matters, one sentence)
+
+</details>
+
+<details>
+<summary><strong>Ask your child</strong></summary>
+
+**Question:** ... (curiosity question)
+**Expected answer:** ...
+
+</details>
+
+<details>
+<summary><strong>Common mistake</strong></summary>
+
+**Mistake:** ...
+**Avoid it:** ... (supportive, no blame)
+
+</details>
+
+Then add:
+**Tiny check:** ... (one fast understanding check)
+**If you see this mistake:** ... (one calm correction)
+**Fix question:** "..." (a gentle re try question)
+
+**🏠 Household Demonstration**
+Goal is bonding through doing something together.
+Choose only one path:
+
+If natural:
+**Items:** ... (common household items)
+**Do this:** (max 3 short lines)
+**Say this while doing it:** "..." (warm, collaborative)
+**Link back to math:** ...
+
+If forced:
+**Quick picture description:** ...
+**What changes and what stays the same:** ...
+**Ask your child:** "..."
+
+**🧩 Practice Together**
+Give exactly 2 questions.
+
+For each:
+Question line, then one details block:
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+**Answer:** ...
+**Why:** ...
+**Quick check:** ...
+**Common mistake:** ...
+**What to ask next:** "..." (relationship friendly)
+
+</details>
+
+**🧑‍🏫 Parent Coaching**
+This section must feel human, not scripted.
+It must respond to the situation from the problem and the child mood implied by the parent message.
+
+Rules:
+1) Never repeat the same lines across answers. Vary phrasing.
+2) Do not sound like a therapist. Sound like a calm helpful parent mentor.
+3) Refer to THIS specific task in simple words like "discount then tax" or "fractions on a number line".
+4) Use gentle emotional connection. Name the feeling without drama.
+5) Give options. Parents need choices, not one script.
+6) Keep each block short. No long speeches.
+
+Write exactly these four details blocks in this order.
+Each block must include:
+- One short empathy line
+- Two different things the parent can say (Option A and Option B)
+- One tiny next action that takes under 20 seconds
+
+<details>
+<summary><strong>Stuck?</strong></summary>
+
+One empathy line that matches the moment.
+
+Option A: "..."
+Option B: "..."
+
+Tiny next action: ...
+
+</details>
+
+<details>
+<summary><strong>Rushing?</strong></summary>
+
+One empathy line that matches the moment.
+
+Option A: "..."
+Option B: "..."
+
+Tiny next action: ...
+
+</details>
+
+<details>
+<summary><strong>Frustrated?</strong></summary>
+
+One empathy line that matches the moment.
+
+Option A: "..."
+Option B: "..."
+
+Tiny next action: ...
+
+</details>
+
+<details>
+<summary><strong>Confident?</strong></summary>
+
+One empathy line that matches the moment.
+
+Option A: "..."
+Option B: "..."
+
+Tiny next action: ...
+
+</details>
+
+Then add exactly these two lines:
+
+**Break trigger:** ... (a simple caring signal like "if voices get sharper" or "if the child stops talking")
+**Remember:** ... (one line that makes the parent feel capable and connected)
+`.trim();
+
+const EXPLANATION_PROMPT = `
+You are MathParenting in Explanation Mode for PARENTS.
+Your purpose is parent child connection through math.
+Explanation Mode supports the parent after the child has attempted, without replacing the parent.
+
+SCOPE
+- You can answer math, finance, and accounting questions.
+- Keep tone parent focused.
+
+STYLE
+- No scripts.
+- No child dialogue.
+- No <details> blocks.
+- Keep it tight, no repeats, no filler.
+- Show every transformation, but keep sentences short.
+- Use KaTeX for every formula and every math expression.
+- Do not dump the full final answer immediately by default. Use guided reveal: show the setup and steps, then ask the parent to request the final answer if they want it.
+
+OUTPUT FORMAT (EXPLANATION MODE)
+Use these bold headings, each on its own line:
+
+**Overview**
+One short paragraph that frames calm and collaboration.
+
+**Where you might be stuck**
+Bullets. Pick 3 likely stuck points for this problem.
+
+**Given and Goal**
+Bullets, short.
+
+**Formulas and Definitions**
+Only the formulas actually used, in KaTeX.
+
+**Guided Reveal Steps**
+Numbered steps with the minimum steps needed.
+After step 1 and step 2, include one short pause line like "Pause and let your child attempt this line".
+Keep steps practical and parent readable.
+
+**Final Answer**
+Do NOT show the numeric final answer unless the parent explicitly asks to reveal it.
+Instead write:
+Reply "show final answer" to reveal.
+
+**Parent takeaway**
+One short line that reinforces parent confidence and connection.
+
+**Household link**
+One short optional example using a normal household context, not forced.
 `.trim();
 
 /* =========================================================================
@@ -725,17 +685,14 @@ function getClient(): OpenAI {
 }
 
 /* =========================================================================
-   Build messages (support contentParts; inject topic/solution hints)
+   Build messages
    ========================================================================= */
 function mapToOpenAIContent(content?: string, parts?: Part[]) {
   if (parts && parts.length) {
     return parts.map((p) =>
       p.type === "text"
         ? ({ type: "text", text: p.text } as any)
-        : ({
-            type: "image_url",
-            image_url: { url: p.image_url }, // data: URL or https://
-          } as any)
+        : ({ type: "image_url", image_url: { url: p.image_url } } as any)
     );
   }
   return [{ type: "text", text: content ?? "" }];
@@ -746,44 +703,31 @@ function buildMessages(opts: {
   keep?: number;
   inferredTopic?: string;
   problemText?: string;
+  mode: "teaching" | "explanation";
 }) {
-  const { history, keep = 6, inferredTopic, problemText } = opts;
-  const recent = history
-    .filter((m) => m.role !== "system")
-    .slice(-Math.max(2, Math.min(keep, 12)));
+  const { history, keep = 6, inferredTopic, problemText, mode } = opts;
+  const recent = history.filter((m) => m.role !== "system").slice(-Math.max(2, Math.min(keep, 12)));
+  const systemPrompt = mode === "explanation" ? EXPLANATION_PROMPT : SYSTEM_PROMPT;
 
   const msgs: any[] = [
-    { role: "system" as const, content: SYSTEM_PROMPT },
-    ...recent.map((m) => ({
-      role: m.role,
-      content: mapToOpenAIContent(m.content, m.contentParts),
-    })),
+    { role: "system" as const, content: systemPrompt },
+    ...recent.map((m) => ({ role: m.role, content: mapToOpenAIContent(m.content, m.contentParts) })),
   ];
 
   if (inferredTopic) {
     msgs.splice(1, 0, {
       role: "user",
-      content: [
-        {
-          type: "text",
-          text: `If the parent misspelled the term, interpret it as: ${inferredTopic}. Continue without asking for confirmation and follow the required 5-section format and topic intro exactly.`,
-        },
-      ],
+      content: [{ type: "text", text: `If the parent misspelled the term, interpret it as: ${inferredTopic}. Continue without asking for confirmation.` }],
     });
   }
+
   if (problemText) {
     msgs.splice(1, 0, {
       role: "user",
-      content: [
-        {
-          type: "text",
-          text:
-            `The parent asked a specific problem: "${problemText}". ` +
-            `In the "👨‍👩‍👧 Step-by-Step Teaching Guide" section, begin with a complete worked solution for this exact problem, with display KaTeX for key steps, then give general teaching guidance.`,
-        },
-      ],
+      content: [{ type: "text", text: `The parent asked a specific problem: "${problemText}". Show steps clearly and keep the writing tight.` }],
     });
   }
+
   return msgs;
 }
 
@@ -795,39 +739,39 @@ const sseHeaders = {
   "Cache-Control": "no-cache, no-transform",
   Connection: "keep-alive",
 };
+
 const enc = new TextEncoder();
 const send = (controller: ReadableStreamDefaultController, payload: any) =>
   controller.enqueue(enc.encode(`data: ${JSON.stringify(payload)}\n\n`));
 
 /* =========================================================================
-   Handler — STREAMING
+   Handler
    ========================================================================= */
+const DEFAULT_MAX_TOKENS_TEACHING = 2400;
+const DEFAULT_MAX_TOKENS_EXPLANATION = 1800;
+
 export async function POST(req: Request) {
   try {
-    const body = (await req.json().catch(() => ({}))) as ChatRequest;
-    const { model, temperature, max_tokens, keep } = body || {};
+    const supabase = await getServerSupabase();
+    const { data, error } = await supabase.auth.getUser();
+    if (error || !data?.user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
 
-    // FIX: prevent leaked marker content from being re-sent to the model or UI
+    const body = (await req.json().catch(() => ({}))) as ChatRequest;
+    const { model, temperature, max_tokens, keep, mode } = body || {};
     const messages = sanitizeIncomingMessages(body?.messages || []);
 
     if (!messages?.length) {
-      return NextResponse.json(
-        { error: "No messages provided." },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: "No messages provided." }, { status: 400 });
     }
 
-    // Find last user message (may include contentParts)
-    const lastUserMsg = messages
-      .slice()
-      .reverse()
-      .find((m) => m.role === "user");
+    const lastUserMsg = messages.slice().reverse().find((m) => m.role === "user");
     const lastUserText = extractText(lastUserMsg);
 
     const stream = new ReadableStream({
       async start(controller) {
         try {
-          // Quick greeting path
           if (GREETINGS_ONE_LINERS.length && GREETING_RX.test(lastUserText)) {
             send(controller, { type: "token", t: pick(GREETINGS_ONE_LINERS) });
             send(controller, { type: "done" });
@@ -835,43 +779,37 @@ export async function POST(req: Request) {
             return;
           }
 
-          // If clearly non-math, nudge back and end
+          if (THANKS_ONE_LINERS.length && THANKS_RX.test(lastUserText)) {
+            send(controller, { type: "token", t: pick(THANKS_ONE_LINERS) });
+            send(controller, { type: "done" });
+            controller.close();
+            return;
+          }
+
           const mathCheck = looksMathy(lastUserText);
+
           if (!mathCheck.ok && looksClearlyNonMath(lastUserText)) {
-            send(controller, {
-              type: "token",
-              t: pick(NON_MATH_ONE_LINERS),
-            });
+            send(controller, { type: "token", t: pick(NON_MATH_ONE_LINERS) });
             send(controller, { type: "done" });
             controller.close();
             return;
           }
 
           const client = getClient();
-
-          // Photo multi question extraction on last user photo
           let extracted: QuestionExtractResponse | null = null;
-          const hasImageInLast =
-            !!lastUserMsg?.contentParts?.some((p) => p.type === "image_url");
+          const hasImageInLast = !!lastUserMsg?.contentParts?.some((p) => p.type === "image_url");
 
           if (hasImageInLast && lastUserMsg?.contentParts?.length) {
-            extracted = await extractQuestionsFromImages(
-              client,
-              lastUserMsg.contentParts
-            );
+            extracted = await extractQuestionsFromImages(client, lastUserMsg.contentParts);
             if (extracted?.questions?.length) {
-              // IMPORTANT: only send as "questions" event, never as visible token
               send(controller, { type: "questions", questions: extracted.questions });
             }
           }
 
-          // Decide which exact problem to solve
           let problemText: string | undefined;
 
-          // If we just extracted and there are multiple questions
           if (extracted?.questions?.length) {
             const sel = parseSelectionIndex(lastUserText);
-
             if (sel && sel >= 1 && sel <= extracted.questions.length) {
               problemText = extracted.questions[sel - 1]?.text;
             } else if (extracted.questions.length === 1) {
@@ -884,7 +822,6 @@ export async function POST(req: Request) {
             }
           }
 
-          // If user says solve question 2 without reupload, use saved marker from history (optional)
           if (!problemText) {
             const sel = parseSelectionIndex(lastUserText);
             if (sel) {
@@ -892,10 +829,7 @@ export async function POST(req: Request) {
               if (saved?.length && sel >= 1 && sel <= saved.length) {
                 problemText = saved[sel - 1]?.text;
               } else if (saved?.length) {
-                send(controller, {
-                  type: "token",
-                  t: `I have ${saved.length} questions saved from your last photo. Please say a number from 1 to ${saved.length}.`,
-                });
+                send(controller, { type: "token", t: `I have ${saved.length} saved questions. Send a number from 1 to ${saved.length}.` });
                 send(controller, { type: "done" });
                 controller.close();
                 return;
@@ -903,43 +837,43 @@ export async function POST(req: Request) {
             }
           }
 
-          // Problem-like. Ask the model to include a full worked solution first.
           if (!problemText) {
             problemText = isProblemLike(lastUserText) ? lastUserText : undefined;
           }
+
+          const resolvedMode = mode === "explanation" ? "explanation" : "teaching";
 
           const payload = buildMessages({
             history: messages,
             keep: Math.max(2, Math.min(keep ?? 6, 12)),
             inferredTopic: mathCheck.bestGuess,
             problemText,
+            mode: resolvedMode,
           });
 
-          const completion = await client.chat.completions.create({
+          const defaultMax = resolvedMode === "explanation" ? DEFAULT_MAX_TOKENS_EXPLANATION : DEFAULT_MAX_TOKENS_TEACHING;
+          const maxOut = Math.max(700, Math.min(max_tokens ?? defaultMax, 8000));
+
+          const completionStream = await client.chat.completions.create({
             model: model || "gpt-4o-mini",
-            temperature: temperature ?? 0.3,
-            max_tokens: max_tokens ?? 1200,
+            temperature: temperature ?? (resolvedMode === "explanation" ? 0.2 : 0.3),
+            max_tokens: maxOut,
             stream: true,
             messages: payload as any,
           });
 
-          for await (const part of completion) {
-            const chunk = part.choices?.[0]?.delta?.content || "";
-            if (chunk) {
-              // pass through as plain text; client does KaTeX rendering
-              const safe = stripMarkerFromText(String(chunk)).replace(/\u2014|\u2013/g, "-");
-              if (safe) send(controller, { type: "token", t: safe });
-            }
+          for await (const chunk of completionStream as any) {
+            const delta = chunk?.choices?.[0]?.delta?.content || "";
+            if (!delta) continue;
+            const safeDelta = stripMarkerFromText(String(delta)).replace(/\u2014|\u2013/g, " ");
+            if (safeDelta) send(controller, { type: "token", t: safeDelta });
           }
 
           send(controller, { type: "done" });
           controller.close();
         } catch (err: any) {
-          console.error("/api/chat stream error:", err);
-          send(controller, {
-            type: "token",
-            t: "\n\n⚠️ Stream error. Please try again.",
-          });
+          console.error("/api/chat error:", err);
+          send(controller, { type: "token", t: "\n\n⚠️ Error. Please try again." });
           send(controller, { type: "done" });
           controller.close();
         }
@@ -949,9 +883,6 @@ export async function POST(req: Request) {
     return new Response(stream, { headers: sseHeaders });
   } catch (err: any) {
     console.error("/api/chat error:", err);
-    return NextResponse.json(
-      { error: err?.message || "Unknown error" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: err?.message || "Unknown error" }, { status: 500 });
   }
 }

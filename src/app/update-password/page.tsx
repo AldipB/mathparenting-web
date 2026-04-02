@@ -1,27 +1,44 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { getBrowserSupabase } from "@/lib/supabaseBrowser";
 
 export default function UpdatePasswordPage() {
   const router = useRouter();
+  const supabase = getBrowserSupabase();
+
   const [pwd, setPwd] = useState("");
   const [pwd2, setPwd2] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
-      if (!data.session) {
-        setMsg("Invalid or expired reset link.");
+    let mounted = true;
+
+    async function init() {
+      const { data, error } = await supabase.auth.getSession();
+
+      if (!mounted) return;
+
+      if (error || !data.session) {
+        setMsg("This reset link is invalid or expired. Please request a new one.");
+        setReady(false);
         return;
       }
-      setReady(true);
-    });
-  }, []);
 
-  async function onSubmit(e: React.FormEvent) {
+      setReady(true);
+    }
+
+    init();
+
+    return () => {
+      mounted = false;
+    };
+  }, [supabase]);
+
+  async function onSubmit(e: FormEvent) {
     e.preventDefault();
     setMsg(null);
 
@@ -29,27 +46,35 @@ export default function UpdatePasswordPage() {
       setMsg("Password must be at least 8 characters.");
       return;
     }
+
     if (pwd !== pwd2) {
       setMsg("Passwords do not match.");
       return;
     }
 
-    const { error } = await supabase.auth.updateUser({ password: pwd });
+    setLoading(true);
+    try {
+      const { error } = await supabase.auth.updateUser({ password: pwd });
 
-    if (error) {
-      setMsg(error.message);
-      return;
+      if (error) {
+        setMsg(error.message);
+        return;
+      }
+
+      setMsg("Password updated. Redirecting to sign in...");
+      setTimeout(() => router.push("/signin"), 800);
+    } finally {
+      setLoading(false);
     }
-
-    setMsg("Password updated. Redirecting…");
-    setTimeout(() => router.push("/signin"), 800);
   }
 
   return (
-    <div className="max-w-sm mx-auto mt-20 space-y-4">
-      <h1 className="text-2xl font-semibold">Set new password</h1>
+    <div className="max-w-sm mx-auto mt-16 space-y-4">
+      <h1 className="text-2xl font-semibold">Set a new password</h1>
 
-      {!ready && <p className="text-sm text-gray-700">{msg ?? "Checking link…"}</p>}
+      {!ready && (
+        <p className="text-sm text-gray-700">{msg || "Validating your reset link..."}</p>
+      )}
 
       {ready && (
         <form onSubmit={onSubmit} className="space-y-3">
@@ -65,14 +90,18 @@ export default function UpdatePasswordPage() {
           <input
             className="w-full border rounded px-3 py-2"
             type="password"
-            placeholder="Confirm password"
+            placeholder="Confirm new password"
             value={pwd2}
             onChange={(e) => setPwd2(e.target.value)}
             required
           />
 
-          <button className="w-full bg-blue-600 text-white py-2 rounded">
-            Update password
+          <button
+            className="w-full rounded px-4 py-2 bg-blue-600 text-white disabled:opacity-60"
+            disabled={loading}
+            type="submit"
+          >
+            {loading ? "Updating..." : "Update password"}
           </button>
 
           {msg && <p className="text-sm text-gray-700">{msg}</p>}

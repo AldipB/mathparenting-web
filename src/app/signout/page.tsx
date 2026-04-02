@@ -1,4 +1,3 @@
-// src/app/signout/page.tsx
 "use client";
 
 import { useEffect } from "react";

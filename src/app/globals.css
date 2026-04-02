@@ -3,42 +3,9 @@
 /* App-wide tweaks */
 html, body {
   height: 100%;
-  background-color: #ffffff; /* keep a clean white base */
+  background-color: #ffffff;
   scroll-behavior: smooth;
 }
 
-/* Markdown spacing inside bubbles (kept from your original) */
+/* Markdown spacing inside bubbles */
 .prose-md p { margin-bottom: .5rem; }
-
-/* -----------------------------------------------------------
-   FULL-PAGE FIXED WATERMARK
-   - Stays put (doesn't scroll)
-   - Covers the whole viewport
-   - Soft/faint so content is readable
-   - Works across routes
-   Apply by putting class="mp-bg" on <body> (done in layout.tsx)
------------------------------------------------------------ */
-.mp-bg {
-  position: relative;
-}
-
-/* The watermark layer sits behind all content */
-.mp-bg::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;                 /* behind the content wrapper's z-10 */
-  pointer-events: none;       /* never blocks clicks/scrolls */
-
-  /* Image + soft fade */
-  background-image:
-    url("/logo.png");         /* ensure /public/logo.png exists */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;     /* fill entire screen */
-  background-attachment: fixed;
-
-  /* Soft overlay so it’s visible but subtle */
-  opacity: 0.08;              /* tweak 0.06–0.12 to taste */
-  filter: saturate(90%) contrast(95%);
-}

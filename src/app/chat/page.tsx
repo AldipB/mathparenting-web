@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import type { Session } from "@supabase/supabase-js";
 import ChatPageClient from "./ChatPageClient";
 import { getBrowserSupabase } from "@/lib/supabaseBrowser";
+import ErrorBoundary from "@/components/ErrorBoundary";
 
 export default function ChatPage() {
   const supabase = getBrowserSupabase();
-
   const [session, setSession] = useState<Session | null | undefined>(undefined);
 
   useEffect(() => {
@@ -67,5 +67,9 @@ export default function ChatPage() {
     );
   }
 
-  return <ChatPageClient />;
+  return (
+    <ErrorBoundary>
+      <ChatPageClient />
+    </ErrorBoundary>
+  );
 }

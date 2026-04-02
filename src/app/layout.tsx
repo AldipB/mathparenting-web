@@ -3,18 +3,18 @@ import type { Metadata, Viewport } from "next";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 import HeaderClient from "@/components/HeaderClient";
+import InstallPrompt from "@/components/InstallPrompt";
 
 export const dynamic = "force-static";
 
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://mathparenting.vercel.app";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://mathparenting.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: "MathParenting", template: "%s — MathParenting" },
-  description:
-    "Teach any math topic at home with simple, parent friendly steps.",
+  description: "Teach any math topic at home with simple, parent friendly steps.",
   applicationName: "MathParenting",
+  manifest: "/manifest.json",
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -29,8 +29,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "MathParenting",
     title: "MathParenting",
-    description:
-      "Parent friendly math guidance, real life examples, and practice you can do at home.",
+    description: "Parent friendly math guidance, real life examples, and practice you can do at home.",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "MathParenting" }],
   },
   twitter: {
@@ -38,8 +37,7 @@ export const metadata: Metadata = {
     site: "@mathparenting",
     creator: "@mathparenting",
     title: "MathParenting",
-    description:
-      "Parent friendly math guidance, real life examples, and practice you can do at home.",
+    description: "Parent friendly math guidance, real life examples, and practice you can do at home.",
     images: ["/og.png"],
   },
   category: "education",
@@ -56,7 +54,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body className="min-h-screen bg-slate-50 text-gray-900 antialiased relative overflow-x-hidden">
-        {/* background logo, slightly stronger */}
         <div className="pointer-events-none fixed inset-0 flex items-center justify-center z-0 opacity-10">
           <img
             src="/logo.png"
@@ -77,6 +74,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main" className="pt-16 relative z-10">
           {children}
         </main>
+
+        <InstallPrompt />
       </body>
     </html>
   );

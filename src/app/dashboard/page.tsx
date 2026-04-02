@@ -3,14 +3,14 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase";
 import type { AuthChangeEvent, Session } from "@supabase/supabase-js";
+import { getBrowserSupabase } from "@/lib/supabaseBrowser";
 
 export default function Dashboard() {
   const router = useRouter();
+  const supabase = getBrowserSupabase();
   const [session, setSession] = useState<Session | null>(null);
 
-  // On mount, read current session and subscribe to changes
   useEffect(() => {
     supabase.auth.getSession().then(({ data }) => {
       setSession(data.session ?? null);
@@ -25,16 +25,15 @@ export default function Dashboard() {
     return () => {
       sub.subscription.unsubscribe();
     };
-  }, []);
+  }, [supabase]);
 
-  // If not signed in, nudge to Sign in
   if (!session) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-10">
         <h1 className="text-2xl font-bold mb-2">Dashboard</h1>
         <p className="text-gray-600 mb-4">Please sign in to view your dashboard.</p>
         <Link
-          href="/signin"
+          href="/signin?next=/dashboard"
           className="inline-block rounded-lg bg-blue-600 px-4 py-2 text-white font-semibold hover:bg-blue-700"
         >
           Go to Sign in
@@ -43,7 +42,6 @@ export default function Dashboard() {
     );
   }
 
-  // Signed-in view
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="text-2xl font-bold mb-2">Welcome back!</h1>

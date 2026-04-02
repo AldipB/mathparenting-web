@@ -18,7 +18,7 @@ type ChatRequest = {
   temperature?: number;
   max_tokens?: number;
   keep?: number;
-  mode?: "teaching" | "explanation";
+  mode?: "teaching" | "explanation" | "quick";
 };
 
 type ExtractedQuestion = {
@@ -411,6 +411,42 @@ function isProblemLike(text: string) {
 /* =========================================================================
    System prompts
    ========================================================================= */
+const QUICK_PROMPT = `
+You are MathParenting in Quick Mode for PARENTS.
+Your purpose is to give a fast, skimmable answer in under 60 seconds of reading.
+
+SCOPE
+- You can answer math, finance, and accounting questions.
+- Keep tone parent focused.
+
+RULES
+- Be extremely concise. No filler. No repetition.
+- Use KaTeX for all math expressions.
+- Inline math uses \\( ... \\)
+- Display math uses $$ ... $$
+- No <details> blocks in Quick Mode.
+- Total response must be skimmable in under 60 seconds.
+
+ABSOLUTE OUTPUT FORMAT (QUICK MODE)
+Output exactly these three sections and nothing else.
+
+**⏱️ Quick Plan**
+**Today:** ... (one line, what the child is learning)
+**Remember:** ... (one line, the single most important thing)
+**Ask first:** "..." (one warm question to start with)
+**Answer:** ... (one calm sentence)
+
+**🧩 Try This Together**
+One practice question written out clearly.
+Then immediately:
+**Answer:** ... (direct and clear)
+**Common mistake:** ... (one line)
+
+**🧑‍🏫 Quick Coaching Tip**
+One sentence for if the child is stuck.
+One sentence for if the child is confident.
+`.trim();
+
 const SYSTEM_PROMPT = `
 You are MathParenting, a warm helper for PARENTS.
 Your purpose is parent child connection through math.
@@ -710,11 +746,11 @@ function buildMessages(opts: {
   keep?: number;
   inferredTopic?: string;
   problemText?: string;
-  mode: "teaching" | "explanation";
+  mode: "teaching" | "explanation" | "quick";
 }) {
   const { history, keep = 6, inferredTopic, problemText, mode } = opts;
   const recent = history.filter((m) => m.role !== "system").slice(-Math.max(2, Math.min(keep, 12)));
-  const systemPrompt = mode === "explanation" ? EXPLANATION_PROMPT : SYSTEM_PROMPT;
+  const systemPrompt = mode === "explanation" ? EXPLANATION_PROMPT : mode === "quick" ? QUICK_PROMPT : SYSTEM_PROMPT;
 
   const msgs: any[] = [
     { role: "system" as const, content: systemPrompt },
@@ -756,6 +792,7 @@ const send = (controller: ReadableStreamDefaultController, payload: any) =>
    ========================================================================= */
 const DEFAULT_MAX_TOKENS_TEACHING = 2400;
 const DEFAULT_MAX_TOKENS_EXPLANATION = 1800;
+const DEFAULT_MAX_TOKENS_QUICK = 600;
 
 export async function POST(req: Request) {
   try {
@@ -848,7 +885,7 @@ export async function POST(req: Request) {
             problemText = isProblemLike(lastUserText) ? lastUserText : undefined;
           }
 
-          const resolvedMode = mode === "explanation" ? "explanation" : "teaching";
+          const resolvedMode = mode === "explanation" ? "explanation" : mode === "quick" ? "quick" : "teaching";
 
           const payload = buildMessages({
             history: messages,
@@ -858,12 +895,16 @@ export async function POST(req: Request) {
             mode: resolvedMode,
           });
 
-          const defaultMax = resolvedMode === "explanation" ? DEFAULT_MAX_TOKENS_EXPLANATION : DEFAULT_MAX_TOKENS_TEACHING;
+          const defaultMax =
+            resolvedMode === "explanation" ? DEFAULT_MAX_TOKENS_EXPLANATION :
+            resolvedMode === "quick" ? DEFAULT_MAX_TOKENS_QUICK :
+            DEFAULT_MAX_TOKENS_TEACHING;
+
           const maxOut = Math.max(700, Math.min(max_tokens ?? defaultMax, 8000));
 
           const completionStream = await client.chat.completions.create({
             model: model || "gpt-4o-mini",
-            temperature: temperature ?? (resolvedMode === "explanation" ? 0.2 : 0.3),
+            temperature: temperature ?? (resolvedMode === "quick" ? 0.2 : resolvedMode === "explanation" ? 0.2 : 0.3),
             max_tokens: maxOut,
             stream: true,
             messages: payload as any,

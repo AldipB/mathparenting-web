@@ -48,7 +48,7 @@ const MONTHLY_MESSAGE_LIMIT = 500;
 const MONTHLY_IMAGE_LIMIT = 100;
 
 type Usage = {
-  month: string; // YYYY-MM
+  month: string;
   messagesSent: number;
   imagesSent: number;
 };
@@ -361,55 +361,18 @@ function emojiForItem(raw: string): string {
   const s = String(raw || "").trim().toLowerCase();
 
   const map: Record<string, string> = {
-    pizza: "🍕",
-    slice: "🍕",
-    pie: "🥧",
-    apple: "🍎",
-    apples: "🍎",
-    orange: "🍊",
-    oranges: "🍊",
-    banana: "🍌",
-    bananas: "🍌",
-    grape: "🍇",
-    grapes: "🍇",
-    strawberry: "🍓",
-    strawberries: "🍓",
-    watermelon: "🍉",
-    watermelons: "🍉",
-    pear: "🍐",
-    pears: "🍐",
-    cherry: "🍒",
-    cherries: "🍒",
-    cookie: "🍪",
-    cookies: "🍪",
-    candy: "🍬",
-    candies: "🍬",
-    chocolate: "🍫",
-    coin: "🪙",
-    coins: "🪙",
-    money: "🪙",
-    cup: "🥤",
-    cups: "🥤",
-    bottle: "🧴",
-    bottles: "🧴",
-    book: "📘",
-    books: "📘",
-    pencil: "✏️",
-    pencils: "✏️",
-    ball: "⚽",
-    balls: "⚽",
-    toy: "🧸",
-    toys: "🧸",
-    star: "⭐",
-    stars: "⭐",
-    marble: "🔵",
-    marbles: "🔵",
-    button: "🔘",
-    buttons: "🔘",
+    pizza: "🍕", slice: "🍕", pie: "🥧", apple: "🍎", apples: "🍎",
+    orange: "🍊", oranges: "🍊", banana: "🍌", bananas: "🍌", grape: "🍇",
+    grapes: "🍇", strawberry: "🍓", strawberries: "🍓", watermelon: "🍉",
+    watermelons: "🍉", pear: "🍐", pears: "🍐", cherry: "🍒", cherries: "🍒",
+    cookie: "🍪", cookies: "🍪", candy: "🍬", candies: "🍬", chocolate: "🍫",
+    coin: "🪙", coins: "🪙", money: "🪙", cup: "🥤", cups: "🥤",
+    bottle: "🧴", bottles: "🧴", book: "📘", books: "📘", pencil: "✏️",
+    pencils: "✏️", ball: "⚽", balls: "⚽", toy: "🧸", toys: "🧸",
+    star: "⭐", stars: "⭐", marble: "🔵", marbles: "🔵", button: "🔘", buttons: "🔘",
   };
 
   if (map[s]) return map[s];
-
   if (s.includes("coin")) return "🪙";
   if (s.includes("pizza")) return "🍕";
   if (s.includes("apple")) return "🍎";
@@ -426,7 +389,6 @@ function emojiForItem(raw: string): string {
   if (s.includes("ball")) return "⚽";
   if (s.includes("toy")) return "🧸";
   if (s.includes("button")) return "🔘";
-
   return "⬤";
 }
 
@@ -439,7 +401,6 @@ function stripLeadingCountLabel(input?: string) {
 function Diagram({ spec }: { spec: DiagramSpec }) {
   const W = 640;
   const H = 220;
-
   const baseStroke = "#111827";
   const shadeFill = "#93c5fd";
   const lightFill = "#ffffff";
@@ -447,11 +408,9 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
   if (spec.type === "pizza") {
     const slices = clampInt(spec.slices, 2, 24);
     const shaded = clampInt(spec.shaded, 0, slices);
-
     const cx = W / 2;
     const cy = 105;
     const r = 88;
-
     const sliceAngle = (Math.PI * 2) / slices;
 
     const wedgePath = (i: number) => {
@@ -462,30 +421,18 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
       const x1 = cx + r * Math.cos(a1);
       const y1 = cy + r * Math.sin(a1);
       const largeArc = a1 - a0 > Math.PI ? 1 : 0;
-
       return `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 ${largeArc} 1 ${x1} ${y1} Z`;
     };
 
     const cleanLabel = stripLeadingCountLabel(spec.label);
-
     return (
       <div className="w-full">
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Diagram">
           <circle cx={cx} cy={cy} r={r} fill={lightFill} stroke={baseStroke} strokeWidth={2} />
           {Array.from({ length: slices }, (_, i) => (
-            <path
-              key={i}
-              d={wedgePath(i)}
-              fill={i < shaded ? shadeFill : "transparent"}
-              stroke={baseStroke}
-              strokeWidth={1}
-            />
+            <path key={i} d={wedgePath(i)} fill={i < shaded ? shadeFill : "transparent"} stroke={baseStroke} strokeWidth={1} />
           ))}
-          {!!cleanLabel && (
-            <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">
-              {cleanLabel}
-            </text>
-          )}
+          {!!cleanLabel && <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">{cleanLabel}</text>}
         </svg>
       </div>
     );
@@ -496,13 +443,11 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
     const cols = clampInt(spec.cols, 1, 12);
     const total = rows * cols;
     const shaded = clampInt(spec.shaded, 0, total);
-
     const padding = 30;
     const gridW = W - padding * 2;
     const gridH = 160;
     const cellW = gridW / cols;
     const cellH = gridH / rows;
-
     const cleanLabel = stripLeadingCountLabel(spec.label);
 
     return (
@@ -514,24 +459,9 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
             const c = i % cols;
             const x = padding + c * cellW;
             const y = 25 + r * cellH;
-            return (
-              <rect
-                key={i}
-                x={x}
-                y={y}
-                width={cellW}
-                height={cellH}
-                fill={i < shaded ? shadeFill : "transparent"}
-                stroke={baseStroke}
-                strokeWidth={1}
-              />
-            );
+            return <rect key={i} x={x} y={y} width={cellW} height={cellH} fill={i < shaded ? shadeFill : "transparent"} stroke={baseStroke} strokeWidth={1} />;
           })}
-          {!!cleanLabel && (
-            <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">
-              {cleanLabel}
-            </text>
-          )}
+          {!!cleanLabel && <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">{cleanLabel}</text>}
         </svg>
       </div>
     );
@@ -541,11 +471,8 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
     const count = clampInt(spec.count, 1, 24);
     const shaded = clampInt(spec.shaded ?? 0, 0, count);
     const em = emojiForItem(spec.item);
-
     const cleanLabel = stripLeadingCountLabel(spec.label);
-
     const useSingleBig = count > 12;
-
     const paddingX = 30;
     const paddingY = 22;
     const areaW = W - paddingX * 2;
@@ -555,31 +482,9 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
       return (
         <div className="w-full">
           <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Diagram">
-            <rect
-              x={paddingX}
-              y={paddingY}
-              width={areaW}
-              height={areaH}
-              rx={14}
-              fill={lightFill}
-              stroke={baseStroke}
-              strokeWidth={2}
-            />
-            <text
-              x={W / 2}
-              y={paddingY + areaH / 2 + 52}
-              textAnchor="middle"
-              fontSize={150}
-              fontFamily="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji"
-            >
-              {em}
-            </text>
-
-            {!!cleanLabel && (
-              <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">
-                {cleanLabel}
-              </text>
-            )}
+            <rect x={paddingX} y={paddingY} width={areaW} height={areaH} rx={14} fill={lightFill} stroke={baseStroke} strokeWidth={2} />
+            <text x={W / 2} y={paddingY + areaH / 2 + 52} textAnchor="middle" fontSize={150} fontFamily="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji">{em}</text>
+            {!!cleanLabel && <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">{cleanLabel}</text>}
           </svg>
         </div>
       );
@@ -587,57 +492,28 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
 
     const cols = Math.min(8, count);
     const rows = Math.ceil(count / cols);
-
     const cellW = areaW / cols;
     const cellH = areaH / rows;
-
     const fontSize = Math.max(20, Math.min(36, Math.floor(Math.min(cellW, cellH) * 0.6)));
 
     return (
       <div className="w-full">
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Diagram">
-          <rect
-            x={paddingX}
-            y={paddingY}
-            width={areaW}
-            height={areaH}
-            rx={14}
-            fill={lightFill}
-            stroke={baseStroke}
-            strokeWidth={2}
-          />
+          <rect x={paddingX} y={paddingY} width={areaW} height={areaH} rx={14} fill={lightFill} stroke={baseStroke} strokeWidth={2} />
           {Array.from({ length: count }, (_, i) => {
             const r = Math.floor(i / cols);
             const c = i % cols;
             const x = paddingX + c * cellW + cellW / 2;
             const y = paddingY + r * cellH + cellH / 2;
-
             const isShaded = i < shaded;
             return (
               <g key={i}>
-                {isShaded && (
-                  <rect
-                    x={paddingX + c * cellW + 6}
-                    y={paddingY + r * cellH + 6}
-                    width={cellW - 12}
-                    height={cellH - 12}
-                    rx={12}
-                    fill={shadeFill}
-                    opacity={0.65}
-                  />
-                )}
-                <text x={x} y={y + fontSize * 0.35} textAnchor="middle" fontSize={fontSize}>
-                  {em}
-                </text>
+                {isShaded && <rect x={paddingX + c * cellW + 6} y={paddingY + r * cellH + 6} width={cellW - 12} height={cellH - 12} rx={12} fill={shadeFill} opacity={0.65} />}
+                <text x={x} y={y + fontSize * 0.35} textAnchor="middle" fontSize={fontSize}>{em}</text>
               </g>
             );
           })}
-
-          {!!cleanLabel && (
-            <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">
-              {cleanLabel}
-            </text>
-          )}
+          {!!cleanLabel && <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">{cleanLabel}</text>}
         </svg>
       </div>
     );
@@ -646,16 +522,10 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
   const min = Number.isFinite((spec as DiagramNumberLine).min) ? (spec as DiagramNumberLine).min : 0;
   const max = Number.isFinite((spec as DiagramNumberLine).max) ? (spec as DiagramNumberLine).max : 10;
   const ticks = clampInt((spec as DiagramNumberLine).ticks ?? 10, 2, 20);
-
   const x0 = 60;
   const x1 = W - 60;
   const y = 110;
-
-  const xToSvg = (x: number) => {
-    if (max === min) return x0;
-    return x0 + ((x - min) / (max - min)) * (x1 - x0);
-  };
-
+  const xToSvg = (x: number) => { if (max === min) return x0; return x0 + ((x - min) / (max - min)) * (x1 - x0); };
   const cleanLabel = stripLeadingCountLabel((spec as DiagramNumberLine).label);
 
   return (
@@ -668,9 +538,7 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
           return (
             <g key={i}>
               <line x1={X} y1={y - 8} x2={X} y2={y + 8} stroke={baseStroke} strokeWidth={2} />
-              <text x={X} y={y + 28} textAnchor="middle" fontSize={12} fill="#111827">
-                {Number.isInteger(x) ? String(x) : x.toFixed(2)}
-              </text>
+              <text x={X} y={y + 28} textAnchor="middle" fontSize={12} fill="#111827">{Number.isInteger(x) ? String(x) : x.toFixed(2)}</text>
             </g>
           );
         })}
@@ -679,19 +547,11 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
           return (
             <g key={i}>
               <circle cx={X} cy={y} r={5} fill={shadeFill} stroke={baseStroke} strokeWidth={2} />
-              {m.label && (
-                <text x={X} y={y - 14} textAnchor="middle" fontSize={12} fill="#111827">
-                  {m.label}
-                </text>
-              )}
+              {m.label && <text x={X} y={y - 14} textAnchor="middle" fontSize={12} fill="#111827">{m.label}</text>}
             </g>
           );
         })}
-        {!!cleanLabel && (
-          <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">
-            {cleanLabel}
-          </text>
-        )}
+        {!!cleanLabel && <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">{cleanLabel}</text>}
       </svg>
     </div>
   );
@@ -707,17 +567,9 @@ function balanceKatex(text: string): string {
   let out = text
     .replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_m, g) => `$ ${g} $`)
     .replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_m, g) => `$$ ${g} $$`);
-
   const dollars = (out.match(/\$/g) || []).length;
-  if (dollars % 2 === 1) {
-    out = out.replace(/\$(?![\s\S]*\$)[\s]*$/m, "");
-  }
-
+  if (dollars % 2 === 1) out = out.replace(/\$(?![\s\S]*\$)[\s]*$/m, "");
   return out;
-}
-
-function sanitizeNoEmDash(text: string) {
-  return text.replace(/\u2014|\u2013/g, " ");
 }
 
 function stripLonelyMarkdownMarkers(text: string) {
@@ -726,13 +578,10 @@ function stripLonelyMarkdownMarkers(text: string) {
     .filter((line) => {
       const t = line.trim();
       if (!t) return true;
-
       if (/^\*+$/.test(t)) return false;
       if (/^_+$/.test(t)) return false;
-
       if (/^(\*\s*){2,}$/.test(t)) return false;
       if (/^(_\s*){2,}$/.test(t)) return false;
-
       return true;
     })
     .join("\n");
@@ -749,10 +598,7 @@ function cleanTextForRender(text: string) {
 const MP_SECTIONS = [
   { key: "⏱️ Parent Quick Plan", aliases: ["⏱️ Parent Quick Plan"] },
   { key: "🧠 Core Idea", aliases: ["🧠 Core Idea"] },
-  {
-    key: "👨‍👩‍👧 Step by Step Teaching Guide",
-    aliases: ["👨‍👩‍👧 Step-by-Step Teaching Guide", "👨‍👩‍👧 Step by Step Teaching Guide"],
-  },
+  { key: "👨‍👩‍👧 Step by Step Teaching Guide", aliases: ["👨‍👩‍👧 Step-by-Step Teaching Guide", "👨‍👩‍👧 Step by Step Teaching Guide"] },
   { key: "🏠 Household Demonstration", aliases: ["🏠 Household Demonstration"] },
   { key: "🧩 Practice Together", aliases: ["🧩 Practice Together"] },
   { key: "🧑‍🏫 Parent Coaching", aliases: ["🧑‍🏫 Parent Coaching"] },
@@ -760,37 +606,23 @@ const MP_SECTIONS = [
 
 type MPSectionKey = (typeof MP_SECTIONS)[number]["key"];
 
-function splitMP(text: string): {
-  intro: string;
-  sections: Array<{ title: MPSectionKey; body: string }>;
-  closing: string;
-} | null {
+function splitMP(text: string): { intro: string; sections: Array<{ title: MPSectionKey; body: string }>; closing: string } | null {
   const raw = String(text || "");
-
-  const found = MP_SECTIONS
-    .map((s) => {
-      let bestIdx = -1;
-      let bestMatch = "";
-
-      for (const a of s.aliases) {
-        const i = raw.indexOf(a);
-        if (i >= 0 && (bestIdx === -1 || i < bestIdx)) {
-          bestIdx = i;
-          bestMatch = a;
-        }
-      }
-
-      if (bestIdx === -1) return null;
-      return { title: s.key as MPSectionKey, i: bestIdx, match: bestMatch };
-    })
-    .filter(Boolean) as Array<{ title: MPSectionKey; i: number; match: string }>;
+  const found = MP_SECTIONS.map((s) => {
+    let bestIdx = -1;
+    let bestMatch = "";
+    for (const a of s.aliases) {
+      const i = raw.indexOf(a);
+      if (i >= 0 && (bestIdx === -1 || i < bestIdx)) { bestIdx = i; bestMatch = a; }
+    }
+    if (bestIdx === -1) return null;
+    return { title: s.key as MPSectionKey, i: bestIdx, match: bestMatch };
+  }).filter(Boolean) as Array<{ title: MPSectionKey; i: number; match: string }>;
 
   if (!found.length) return null;
 
   const orderedByPosition = [...found].sort((a, b) => a.i - b.i);
-
   const intro = raw.slice(0, orderedByPosition[0].i).trim();
-
   const sections: Array<{ title: MPSectionKey; body: string }> = [];
 
   for (let k = 0; k < orderedByPosition.length; k++) {
@@ -798,8 +630,7 @@ function splitMP(text: string): {
     const next = orderedByPosition[k + 1];
     const start = cur.i + cur.match.length;
     const end = next ? next.i : raw.length;
-    const body = raw.slice(start, end).trim();
-    sections.push({ title: cur.title, body });
+    sections.push({ title: cur.title, body: raw.slice(start, end).trim() });
   }
 
   const last = orderedByPosition[orderedByPosition.length - 1];
@@ -808,9 +639,7 @@ function splitMP(text: string): {
   const lastSectionBody = sections[sections.length - 1]?.body ?? "";
   const posLastBody = afterLastHeadingAll.indexOf(lastSectionBody);
   let closing = "";
-  if (posLastBody >= 0) {
-    closing = afterLastHeadingAll.slice(posLastBody + lastSectionBody.length).trim();
-  }
+  if (posLastBody >= 0) closing = afterLastHeadingAll.slice(posLastBody + lastSectionBody.length).trim();
 
   return { intro, sections, closing };
 }
@@ -828,31 +657,17 @@ function keepOnlyFirstDiagramBlock(body: string) {
   let out = "";
   let last = 0;
   let seen = false;
-
   let m: RegExpExecArray | null;
+
   while ((m = fence.exec(src)) !== null) {
     const full = m[0];
     const lang = (m[1] || "").trim().toLowerCase();
     const inner = (m[2] || "").trim();
-
     const before = src.slice(last, m.index);
     out += before;
-
     const obj = parseJsonObject(inner);
-    const isDiagramLike =
-      lang === "diagram" ||
-      (lang === "json" && !!obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram))) ||
-      (!!obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram)));
-
-    if (isDiagramLike) {
-      if (!seen) {
-        out += full;
-        seen = true;
-      }
-    } else {
-      out += full;
-    }
-
+    const isDiagramLike = lang === "diagram" || (lang === "json" && !!obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram))) || (!!obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram)));
+    if (isDiagramLike) { if (!seen) { out += full; seen = true; } } else { out += full; }
     last = m.index + full.length;
   }
 
@@ -863,7 +678,6 @@ function keepOnlyFirstDiagramBlock(body: string) {
 function hasAnyDiagramFence(text: string) {
   const t = String(text || "");
   if (t.includes("```diagram")) return true;
-
   const fence = /```([a-zA-Z0-9_-]*)\n([\s\S]*?)```/g;
   let m: RegExpExecArray | null;
   while ((m = fence.exec(t)) !== null) {
@@ -873,7 +687,6 @@ function hasAnyDiagramFence(text: string) {
     const obj = parseJsonObject(inner);
     if (obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram))) return true;
   }
-
   return false;
 }
 
@@ -888,67 +701,24 @@ function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): Diag
   const body = String(bodyRaw || "").toLowerCase();
 
   const rect = body.match(/rectangle[^.\n]*divided\s+into\s+(\d+)[^.\n]*with\s+(\d+)\s+shaded/);
-  if (rect) {
-    const parts = clampInt(Number(rect[1]), 2, 24);
-    const shaded = clampInt(Number(rect[2]), 0, parts);
-    return { type: "grid", rows: 1, cols: parts, shaded };
-  }
+  if (rect) { const parts = clampInt(Number(rect[1]), 2, 24); const shaded = clampInt(Number(rect[2]), 0, parts); return { type: "grid", rows: 1, cols: parts, shaded }; }
 
   const circ = body.match(/circle[^.\n]*divided\s+into\s+(\d+)[^.\n]*with\s+(\d+)\s+shaded/);
-  if (circ) {
-    const slices = clampInt(Number(circ[1]), 2, 24);
-    const shaded = clampInt(Number(circ[2]), 0, slices);
-    return { type: "pizza", slices, shaded };
-  }
+  if (circ) { const slices = clampInt(Number(circ[1]), 2, 24); const shaded = clampInt(Number(circ[2]), 0, slices); return { type: "pizza", slices, shaded }; }
 
   const outOf = body.match(/(\d+)\s*(?:out\s+of|\/)\s*(\d+)/);
   if (outOf) {
     const a = clampInt(Number(outOf[1]), 0, 24);
     const b = clampInt(Number(outOf[2]), 2, 24);
-
-    if (sectionTitle === "🧠 Core Idea") {
-      return { type: "grid", rows: 1, cols: b, shaded: a, label: `Chosen ${a} out of total ${b}` };
-    }
-
-    if (body.includes("pizza") || body.includes("slice") || body.includes("pie") || body.includes("circle")) {
-      return { type: "pizza", slices: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
-    }
-
-    if (body.includes("rectangle") || body.includes("grid")) {
-      return { type: "grid", rows: 1, cols: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
-    }
-
-    const item =
-      body.includes("coin")
-        ? "coins"
-        : body.includes("button")
-          ? "buttons"
-          : body.includes("marble")
-            ? "marbles"
-            : body.includes("apple")
-              ? "apples"
-              : body.includes("cookie")
-                ? "cookies"
-                : "items";
-
+    if (sectionTitle === "🧠 Core Idea") return { type: "grid", rows: 1, cols: b, shaded: a, label: `Chosen ${a} out of total ${b}` };
+    if (body.includes("pizza") || body.includes("slice") || body.includes("pie") || body.includes("circle")) return { type: "pizza", slices: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
+    if (body.includes("rectangle") || body.includes("grid")) return { type: "grid", rows: 1, cols: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
+    const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : "items";
     return { type: "pictogram", item, count: b, shaded: a, label: `Out of ${b}, shaded ${a}` };
   }
 
   if (sectionTitle === "🏠 Household Demonstration") {
-    const item =
-      body.includes("coin")
-        ? "coins"
-        : body.includes("button")
-          ? "buttons"
-          : body.includes("marble")
-            ? "marbles"
-            : body.includes("apple")
-              ? "apples"
-              : body.includes("cookie")
-                ? "cookies"
-                : body.includes("pizza")
-                  ? "pizza"
-                  : "";
+    const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : body.includes("pizza") ? "pizza" : "";
     if (item) return { type: "pictogram", item, count: 16 };
   }
 
@@ -956,21 +726,8 @@ function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): Diag
     if (body.includes("pizza")) return { type: "pizza", slices: 8, shaded: 3 };
     if (body.includes("circle")) return { type: "pizza", slices: 6, shaded: 2 };
     if (body.includes("rectangle")) return { type: "grid", rows: 1, cols: 6, shaded: 2 };
-
-    const item =
-      body.includes("coin")
-        ? "coins"
-        : body.includes("button")
-          ? "buttons"
-          : body.includes("marble")
-            ? "marbles"
-            : body.includes("apple")
-              ? "apples"
-              : body.includes("cookie")
-                ? "cookies"
-                : "";
+    const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : "";
     if (item) return { type: "pictogram", item, count: 16 };
-
     const n = firstIntInText(body);
     if (n && n >= 2 && n <= 24) return { type: "grid", rows: 1, cols: n, shaded: Math.max(1, Math.floor(n / 3)) };
   }
@@ -981,57 +738,14 @@ function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): Diag
 function injectInferredDiagram(sectionTitle: MPSectionKey, body: string) {
   const cleaned = stripLonelyMarkdownMarkers(body);
   if (hasAnyDiagramFence(cleaned)) return cleaned;
-
   const spec = inferDiagramFromText(sectionTitle, cleaned);
   if (!spec) return cleaned;
-
   const fence = "```diagram\n" + JSON.stringify(spec) + "\n```\n\n";
   return fence + cleaned;
 }
 
 function Hr() {
   return <div className="h-px w-full bg-sky-200 my-3" />;
-}
-
-/* ------------------------------------------------------------------ */
-/* Explanation mode section splitter                                  */
-/* ------------------------------------------------------------------ */
-
-const EX_SECTIONS = [
-  "Overview",
-  "Given and Goal",
-  "Formulas and Definitions",
-  "Step by Step Solution",
-  "Final Answer",
-  "Parent takeaway",
-] as const;
-
-type EXSectionKey = (typeof EX_SECTIONS)[number];
-
-function splitExplanation(text: string): { sections: Array<{ title: EXSectionKey; body: string }> } | null {
-  const raw = String(text || "");
-  const matches: Array<{ title: EXSectionKey; i: number; match: string }> = [];
-
-  for (const k of EX_SECTIONS) {
-    const needle = `**${k}**`;
-    const idx = raw.indexOf(needle);
-    if (idx >= 0) matches.push({ title: k, i: idx, match: needle });
-  }
-
-  if (!matches.length) return null;
-
-  const ordered = matches.sort((a, b) => a.i - b.i);
-
-  const sections: Array<{ title: EXSectionKey; body: string }> = [];
-  for (let i = 0; i < ordered.length; i++) {
-    const cur = ordered[i];
-    const next = ordered[i + 1];
-    const start = cur.i + cur.match.length;
-    const end = next ? next.i : raw.length;
-    sections.push({ title: cur.title, body: raw.slice(start, end).trim() });
-  }
-
-  return { sections };
 }
 
 /* ------------------------------------------------------------------ */
@@ -1043,9 +757,7 @@ function CodeRenderer(props: { inline?: boolean; className?: string; children?: 
   const lang = (className || "").replace("language-", "").trim().toLowerCase();
   const raw = String(children ?? "");
 
-  if (inline) {
-    return <code className="rounded bg-gray-100 px-1 py-0.5 text-[0.95em] break-words">{raw}</code>;
-  }
+  if (inline) return <code className="rounded bg-gray-100 px-1 py-0.5 text-[0.95em] break-words">{raw}</code>;
 
   const trimmed = raw.trim();
 
@@ -1059,6 +771,7 @@ function CodeRenderer(props: { inline?: boolean; className?: string; children?: 
     const obj = parseJsonObject(trimmed);
     if (obj && looksLikeGraphSpec(obj)) return <Graph spec={obj} />;
   }
+
   const fallback = parseJsonObject(trimmed);
   if (fallback && looksLikeGraphSpec(fallback)) return <Graph spec={fallback} />;
 
@@ -1078,12 +791,7 @@ const markdownComponents = {
   ul: (p: any) => <ul className="list-disc pl-5 space-y-1 break-words" {...p} />,
   ol: (p: any) => <ol className="list-decimal pl-5 space-y-1 break-words" {...p} />,
   li: (p: any) => <li className="mb-1 break-words" {...p} />,
-  blockquote: (p: any) => (
-    <blockquote
-      className="border-l-4 border-blue-500 pl-3 py-2 bg-blue-50 rounded-md my-2 font-semibold text-gray-700 break-words"
-      {...p}
-    />
-  ),
+  blockquote: (p: any) => <blockquote className="border-l-4 border-blue-500 pl-3 py-2 bg-blue-50 rounded-md my-2 font-semibold text-gray-700 break-words" {...p} />,
   code: CodeRenderer,
 };
 
@@ -1091,38 +799,20 @@ function stripTags(s: string) {
   return String(s || "").replace(/<[^>]*>/g, "");
 }
 
-/*
-  Fix 1: Stop "Answer:" (and similar) leaking into the <summary> line.
-  This happens when the model accidentally puts extra text into <summary> or adds a newline.
-  We hard cut summary to the first line and remove common leak labels.
-*/
 function simplifySummaryText(s: string) {
-  let t = stripTags(s)
-    .replace(/\*\*/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-
+  let t = stripTags(s).replace(/\*\*/g, "").replace(/\s+/g, " ").trim();
   if (!t) return "Open";
-
-  // Keep only the first visual line
   t = t.split("\n")[0]?.trim() || t;
-
-  // If the model leaked content into summary, cut it off
   const leak = t.match(/^(.*?)(?:\bAnswer:|\bWhy:|\bSolution:|\bFinal Answer:|\bExplanation:)/i);
   if (leak?.[1]) t = leak[1].trim();
-
-  // Also remove any leftover trailing separators
   t = t.replace(/\s*[:\|\-]+\s*$/g, "").trim();
-
   return t || "Open";
 }
 
 function renderMarkdownWithDetails(textRaw: string) {
   const text = stripLonelyMarkdownMarkers(String(textRaw || ""));
   const elements: React.ReactNode[] = [];
-
   const regex = /<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>\s*([\s\S]*?)<\/details>/gi;
-
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let idx = 0;
@@ -1136,12 +826,7 @@ function renderMarkdownWithDetails(textRaw: string) {
       const before = text.slice(lastIndex, match.index);
       if (before.trim()) {
         elements.push(
-          <ReactMarkdown
-            key={"mp-md-before-" + idx}
-            remarkPlugins={[remarkMath]}
-            rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]}
-            components={markdownComponents as any}
-          >
+          <ReactMarkdown key={"mp-md-before-" + idx} remarkPlugins={[remarkMath]} rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]} components={markdownComponents as any}>
             {before}
           </ReactMarkdown>
         );
@@ -1149,16 +834,11 @@ function renderMarkdownWithDetails(textRaw: string) {
     }
 
     const summaryText = simplifySummaryText(summaryInner);
-
     elements.push(
       <details key={"mp-details-" + idx} className="my-2 rounded-xl border border-gray-200 bg-white px-3 py-2 shadow-sm">
         <summary className="cursor-pointer font-semibold text-gray-900 select-none">{summaryText}</summary>
         <div className="mt-2 pt-2 border-t border-gray-100">
-          <ReactMarkdown
-            remarkPlugins={[remarkMath]}
-            rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]}
-            components={markdownComponents as any}
-          >
+          <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]} components={markdownComponents as any}>
             {stripLonelyMarkdownMarkers(bodyInner.trim())}
           </ReactMarkdown>
         </div>
@@ -1173,12 +853,7 @@ function renderMarkdownWithDetails(textRaw: string) {
     const rest = text.slice(lastIndex);
     if (rest.trim()) {
       elements.push(
-        <ReactMarkdown
-          key={"mp-md-after-" + idx}
-          remarkPlugins={[remarkMath]}
-          rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]}
-          components={markdownComponents as any}
-        >
+        <ReactMarkdown key={"mp-md-after-" + idx} remarkPlugins={[remarkMath]} rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]} components={markdownComponents as any}>
           {rest}
         </ReactMarkdown>
       );
@@ -1187,12 +862,7 @@ function renderMarkdownWithDetails(textRaw: string) {
 
   if (!elements.length) {
     elements.push(
-      <ReactMarkdown
-        key="mp-md-only"
-        remarkPlugins={[remarkMath]}
-        rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]}
-        components={markdownComponents as any}
-      >
+      <ReactMarkdown key="mp-md-only" remarkPlugins={[remarkMath]} rehypePlugins={[[rehypeKatex, { strict: false }], rehypeRaw]} components={markdownComponents as any}>
         {text}
       </ReactMarkdown>
     );
@@ -1215,65 +885,24 @@ function renderAssistantTeachingCard(textRaw: string) {
 
   const cleanedSections = split.sections.map((s) => {
     let body = stripLonelyMarkdownMarkers(s.body);
-
-    if (s.title === "👨‍👩‍👧 Step by Step Teaching Guide") {
-      body = formatStepByStepBody(body);
-    }
-
-    if (s.title === "🏠 Household Demonstration") {
-      body = keepOnlyFirstDiagramBlock(body);
-      body = injectInferredDiagram(s.title, body);
-    }
-
-    if (s.title === "🧩 Practice Together") {
-      body = injectInferredDiagram(s.title, body);
-    }
-
-    if (s.title === "🧠 Core Idea") {
-      body = injectInferredDiagram(s.title, body);
-    }
-
+    if (s.title === "👨‍👩‍👧 Step by Step Teaching Guide") body = formatStepByStepBody(body);
+    if (s.title === "🏠 Household Demonstration") { body = keepOnlyFirstDiagramBlock(body); body = injectInferredDiagram(s.title, body); }
+    if (s.title === "🧩 Practice Together") body = injectInferredDiagram(s.title, body);
+    if (s.title === "🧠 Core Idea") body = injectInferredDiagram(s.title, body);
     return { ...s, body };
   });
 
   return (
     <div className="w-full rounded-2xl border border-gray-200 bg-white px-5 py-4 break-words overflow-hidden shadow-sm">
-      {!!intro && (
-        <>
-          <div className="text-gray-900">{renderMarkdownWithDetails(intro)}</div>
-          <Hr />
-        </>
-      )}
-
+      {!!intro && (<><div className="text-gray-900">{renderMarkdownWithDetails(intro)}</div><Hr /></>)}
       {cleanedSections.map((s) => (
         <div key={s.title}>
-          <div className="font-bold text-gray-900 flex items-center gap-2 text-[15px]">
-            <span>{s.title}</span>
-          </div>
+          <div className="font-bold text-gray-900 flex items-center gap-2 text-[15px]"><span>{s.title}</span></div>
           <div className="mt-2">{renderMarkdownWithDetails(s.body)}</div>
           <Hr />
         </div>
       ))}
-
       {!!closing && <div className="mt-1">{renderMarkdownWithDetails(closing)}</div>}
-    </div>
-  );
-}
-
-function renderAssistantExplanationCard(textRaw: string) {
-  const text = cleanTextForRender(textRaw);
-  const split = splitExplanation(text);
-  if (!split) return null;
-
-  return (
-    <div className="w-full rounded-2xl border border-gray-200 bg-white px-5 py-4 break-words overflow-hidden shadow-sm">
-      {split.sections.map((s, i) => (
-        <div key={s.title}>
-          <div className="font-bold text-gray-900 text-[15px]">{s.title}</div>
-          <div className="mt-2">{renderMarkdownWithDetails(s.body)}</div>
-          {i !== split.sections.length - 1 && <Hr />}
-        </div>
-      ))}
     </div>
   );
 }
@@ -1307,25 +936,12 @@ async function fileToBase64(imgFile: File) {
 /* Small icon button                                                  */
 /* ------------------------------------------------------------------ */
 
-function IconButton({
-  label,
-  onClick,
-  pressed,
-  disabled,
-  children,
-}: React.PropsWithChildren<{
-  label: string;
-  onClick?: () => void;
-  pressed?: boolean;
-  disabled?: boolean;
-}>) {
+function IconButton({ label, onClick, pressed, disabled, children }: React.PropsWithChildren<{ label: string; onClick?: () => void; pressed?: boolean; disabled?: boolean }>) {
   return (
     <div className="relative group">
       <button
         type="button"
-        className={`h-10 w-10 grid place-items-center rounded-lg border bg-white hover:bg-gray-50 text-xl ${
-          pressed ? "bg-red-100 border-red-300" : ""
-        } disabled:opacity-50`}
+        className={`h-10 w-10 grid place-items-center rounded-lg border bg-white hover:bg-gray-50 text-xl ${pressed ? "bg-red-100 border-red-300" : ""} disabled:opacity-50`}
         aria-pressed={!!pressed}
         aria-label={label}
         title={label}
@@ -1360,11 +976,8 @@ export default function ChatPageClient() {
   const attachInputRef = useRef<HTMLInputElement>(null);
 
   const [extractedQuestions, setExtractedQuestions] = useState<ExtractedQuestion[]>([]);
-
   const [usage, setUsage] = useState<Usage>(() => loadUsage());
-
-  const [mode, setMode] = useState<"teaching" | "explanation">("teaching");
-
+  const [mode, setMode] = useState<"teaching" | "quick">("teaching");
   const [usagePopoverOpen, setUsagePopoverOpen] = useState(false);
 
   useEffect(() => {
@@ -1377,44 +990,22 @@ export default function ChatPageClient() {
     setUsage(loadUsage());
   }, []);
 
-  useEffect(() => {
-    const u = loadUsage();
-    setUsage(u);
-  }, [messages.length, attachedImages.length]);
-
-  useEffect(() => {
-    if (activeId) setExtractedQuestions(loadExtracted(activeId));
-  }, [activeId]);
-
-  useEffect(() => {
-    if (activeId && !isEphemeral) setMessages(loadMessages(activeId));
-  }, [activeId, isEphemeral]);
-
-  useEffect(() => {
-    if (activeId && !isEphemeral) saveMessages(activeId, messages);
-  }, [activeId, isEphemeral, messages]);
+  useEffect(() => { const u = loadUsage(); setUsage(u); }, [messages.length, attachedImages.length]);
+  useEffect(() => { if (activeId) setExtractedQuestions(loadExtracted(activeId)); }, [activeId]);
+  useEffect(() => { if (activeId && !isEphemeral) setMessages(loadMessages(activeId)); }, [activeId, isEphemeral]);
+  useEffect(() => { if (activeId && !isEphemeral) saveMessages(activeId, messages); }, [activeId, isEphemeral, messages]);
 
   useEffect(() => {
     const onDown = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null;
-      if (!target) {
-        setUsagePopoverOpen(false);
-        return;
-      }
+      if (!target) { setUsagePopoverOpen(false); return; }
       if (target.closest?.("[data-usage-popover-root='true']")) return;
       setUsagePopoverOpen(false);
     };
-
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setUsagePopoverOpen(false);
-    };
-
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setUsagePopoverOpen(false); };
     document.addEventListener("mousedown", onDown);
     document.addEventListener("keydown", onKey);
-    return () => {
-      document.removeEventListener("mousedown", onDown);
-      document.removeEventListener("keydown", onKey);
-    };
+    return () => { document.removeEventListener("mousedown", onDown); document.removeEventListener("keydown", onKey); };
   }, []);
 
   const hasUser = useMemo(() => messages.some((m) => m.role === "user"), [messages]);
@@ -1456,16 +1047,8 @@ export default function ChatPageClient() {
     const next = sessions.filter((s) => s.id !== id);
     setSessions(next);
     saveSessions(next);
-    if (isClient) {
-      localStorage.removeItem(MKEY(id));
-      localStorage.removeItem(QKEY(id));
-    }
-    if (!next.length) {
-      newChat();
-    } else {
-      setActiveId(next[0].id);
-      setIsEphemeral(false);
-    }
+    if (isClient) { localStorage.removeItem(MKEY(id)); localStorage.removeItem(QKEY(id)); }
+    if (!next.length) { newChat(); } else { setActiveId(next[0].id); setIsEphemeral(false); }
   }
 
   async function onAttachInput(e: React.ChangeEvent<HTMLInputElement>) {
@@ -1476,24 +1059,16 @@ export default function ChatPageClient() {
     const imageFiles = files.filter((f) => (f.type || "").startsWith("image/"));
     if (imageFiles.length) {
       const remaining = MONTHLY_IMAGE_LIMIT - u.imagesSent;
-      if (remaining <= 0) {
-        alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`);
-        e.currentTarget.value = "";
-        return;
-      }
-      if (imageFiles.length > remaining) {
-        alert(`You can upload only ${remaining} more image(s) this month.`);
-      }
+      if (remaining <= 0) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); e.currentTarget.value = ""; return; }
+      if (imageFiles.length > remaining) alert(`You can upload only ${remaining} more image(s) this month.`);
     }
 
     let addedImages = 0;
-
     for (const file of files) {
       const isImage = (file.type || "").startsWith("image/");
       if (isImage) {
         const uNow = loadUsage();
         if (uNow.imagesSent + addedImages >= MONTHLY_IMAGE_LIMIT) continue;
-
         const base64 = await fileToBase64(file);
         setAttachedImages((prev) => [...prev, base64]);
         addedImages += 1;
@@ -1512,9 +1087,7 @@ export default function ChatPageClient() {
           } else {
             alert(`Could not read ${file.name}.`);
           }
-        } catch {
-          alert(`Failed to process ${file.name}.`);
-        }
+        } catch { alert(`Failed to process ${file.name}.`); }
       }
     }
 
@@ -1528,25 +1101,14 @@ export default function ChatPageClient() {
 
   function canSendNow(nextImagesCount: number) {
     const u = loadUsage();
-    if (u.messagesSent >= MONTHLY_MESSAGE_LIMIT) {
-      alert(`Monthly message limit reached (${MONTHLY_MESSAGE_LIMIT}).`);
-      return false;
-    }
-    if (u.imagesSent + nextImagesCount > MONTHLY_IMAGE_LIMIT) {
-      const remaining = Math.max(0, MONTHLY_IMAGE_LIMIT - u.imagesSent);
-      alert(`Monthly image limit exceeded. You can upload ${remaining} more image(s) this month.`);
-      return false;
-    }
+    if (u.messagesSent >= MONTHLY_MESSAGE_LIMIT) { alert(`Monthly message limit reached (${MONTHLY_MESSAGE_LIMIT}).`); return false; }
+    if (u.imagesSent + nextImagesCount > MONTHLY_IMAGE_LIMIT) { const remaining = Math.max(0, MONTHLY_IMAGE_LIMIT - u.imagesSent); alert(`Monthly image limit exceeded. You can upload ${remaining} more image(s) this month.`); return false; }
     return true;
   }
 
   function bumpUsage(imagesUsed: number) {
     const u = loadUsage();
-    const next: Usage = {
-      month: u.month,
-      messagesSent: u.messagesSent + 1,
-      imagesSent: u.imagesSent + imagesUsed,
-    };
+    const next: Usage = { month: u.month, messagesSent: u.messagesSent + 1, imagesSent: u.imagesSent + imagesUsed };
     saveUsage(next);
     setUsage(next);
   }
@@ -1557,7 +1119,6 @@ export default function ChatPageClient() {
 
     const content = input.trim();
     if ((!content && attachedImages.length === 0) || !activeId) return;
-
     if (!canSendNow(attachedImages.length)) return;
 
     inflightRef.current = true;
@@ -1579,12 +1140,7 @@ export default function ChatPageClient() {
     bumpUsage(imagesToSend.length);
 
     if (isEphemeral) {
-      const card: ChatSession = {
-        id: activeId,
-        title: (content || "New chat").replace(/\s+/g, " ").slice(0, 40) || "New chat",
-        createdAt: now,
-        updatedAt: now,
-      };
+      const card: ChatSession = { id: activeId, title: (content || "New chat").replace(/\s+/g, " ").slice(0, 40) || "New chat", createdAt: now, updatedAt: now };
       const updated = [card, ...sessions];
       setSessions(updated);
       saveSessions(updated);
@@ -1600,20 +1156,14 @@ export default function ChatPageClient() {
       const history = [...messages, userMsg].map(({ id, ts, placeholder: _ph, ...rest }) => rest);
       const lastIdx = history.length - 1;
       const lastUser = history[lastIdx];
-
       const parts: any[] = [];
       if (content) parts.push({ type: "text", text: content });
       for (const dataUrl of imagesToSend) parts.push({ type: "image_url", image_url: dataUrl });
-
       (history as any)[lastIdx] = { ...lastUser, contentParts: parts.length ? parts : undefined };
 
       const historyToSend: any[] = [...history];
-
       if (extractedQuestions.length) {
-        historyToSend.push({
-          role: "system",
-          content: "[MP_EXTRACTED_QUESTIONS] " + JSON.stringify({ questions: extractedQuestions }),
-        });
+        historyToSend.push({ role: "system", content: "[MP_EXTRACTED_QUESTIONS] " + JSON.stringify({ questions: extractedQuestions }) });
       }
 
       const res = await fetch("/api/chat", {
@@ -1642,17 +1192,10 @@ export default function ChatPageClient() {
         setMessages((prev) => {
           const copy = [...prev];
           const i = copy.findIndex((m) => m.id === phId);
-          if (i >= 0) {
-            copy[i] = { ...copy[i], placeholder: false, content: cleanTextForRender(copy[i].content) };
-          }
+          if (i >= 0) copy[i] = { ...copy[i], placeholder: false, content: cleanTextForRender(copy[i].content) };
           return copy;
         });
-
-        if (activeId) {
-          let snap: ChatMessage[] = [];
-          setMessages((p) => ((snap = p), p));
-          saveMessages(activeId, snap);
-        }
+        if (activeId) { let snap: ChatMessage[] = []; setMessages((p) => ((snap = p), p)); saveMessages(activeId, snap); }
       };
 
       const handleChunk = (chunk: string) => {
@@ -1665,23 +1208,15 @@ export default function ChatPageClient() {
           for (const line of lines) {
             const json = line.slice(5).trim();
             if (!json) continue;
-
             let evt: any;
-            try {
-              evt = JSON.parse(json);
-            } catch {
-              continue;
-            }
+            try { evt = JSON.parse(json); } catch { continue; }
 
             if (evt?.type === "token") {
               const t = typeof evt.t === "string" ? evt.t : "";
               if (t) updatePlaceholder(t);
             } else if (evt?.type === "questions") {
               const qs = Array.isArray(evt.questions) ? evt.questions : [];
-              if (activeId && qs.length) {
-                setExtractedQuestions(qs);
-                saveExtracted(activeId, qs);
-              }
+              if (activeId && qs.length) { setExtractedQuestions(qs); saveExtracted(activeId, qs); }
             } else if (evt?.type === "done") {
               sawDone = true;
               finalize();
@@ -1718,81 +1253,36 @@ export default function ChatPageClient() {
   const imagesRemaining = Math.max(0, MONTHLY_IMAGE_LIMIT - (usage?.imagesSent ?? 0));
 
   const CONTENT_MAX = "max-w-5xl";
-
   const TOP_ROW_H = 44;
   const MODE_ROW_H = 38;
   const FIXED_TOP_BAR_PX = TOP_ROW_H + MODE_ROW_H;
 
   return (
     <div className="w-full min-h-screen bg-slate-50">
-      <button
-        type="button"
-        className="md:hidden fixed left-3 top-20 z-50 rounded-md border bg-white px-3 py-2 text-sm shadow"
-        aria-label="Open history"
-        onClick={() => setIsSidebarOpen(true)}
-      >
+      <button type="button" className="md:hidden fixed left-3 top-20 z-50 rounded-md border bg-white px-3 py-2 text-sm shadow" aria-label="Open history" onClick={() => setIsSidebarOpen(true)}>
         ☰
       </button>
 
-      <aside
-        className={`fixed top-16 bottom-0 left-0 z-40 w-64 bg-white border-r transform transition-transform duration-300 ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 flex flex-col`}
-      >
+      <aside className={`fixed top-16 bottom-0 left-0 z-40 w-64 bg-white border-r transform transition-transform duration-300 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 flex flex-col`}>
         <div className="p-3 border-b flex items-center gap-2">
-          <button
-            type="button"
-            onClick={newChat}
-            className="w-full rounded-lg border px-3 py-2 text-sm font-medium bg-white hover:bg-gray-50"
-          >
+          <button type="button" onClick={newChat} className="w-full rounded-lg border px-3 py-2 text-sm font-medium bg-white hover:bg-gray-50">
             + New chat
           </button>
-          <button
-            type="button"
-            onClick={() => setIsSidebarOpen(false)}
-            className="md:hidden rounded-lg border px-2 py-1 text-xs"
-            aria-label="Close"
-          >
-            ✕
-          </button>
+          <button type="button" onClick={() => setIsSidebarOpen(false)} className="md:hidden rounded-lg border px-2 py-1 text-xs" aria-label="Close">✕</button>
         </div>
 
         <div className="flex-1 overflow-y-auto">
           {sessions.map((s) => (
             <div
               key={s.id}
-              className={`group px-3 py-2 border-b cursor-pointer ${
-                s.id === activeId && !isEphemeral ? "bg-blue-50" : "hover:bg-gray-50"
-              }`}
-              onClick={() => {
-                setActiveId(s.id);
-                setIsEphemeral(false);
-                setIsSidebarOpen(false);
-              }}
+              className={`group px-3 py-2 border-b cursor-pointer ${s.id === activeId && !isEphemeral ? "bg-blue-50" : "hover:bg-gray-50"}`}
+              onClick={() => { setActiveId(s.id); setIsEphemeral(false); setIsSidebarOpen(false); }}
             >
               <div className="flex items-center justify-between gap-2">
                 <div className="truncate text-sm font-medium">{s.title || "Untitled"}</div>
                 <div className="opacity-0 group-hover:opacity-100 transition flex gap-2">
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      renameChat(s.id);
-                    }}
-                    className="text-xs text-blue-600 hover:underline"
-                  >
-                    Rename
-                  </button>
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      deleteChat(s.id);
-                    }}
-                    className="text-xs text-red-600 hover:underline"
-                  >
-                    Delete
-                  </button>
+                  <button type="button" onClick={(e) => { e.stopPropagation(); renameChat(s.id); }} className="text-xs text-blue-600 hover:underline">Rename</button>
+                  <button type="button" onClick={(e) => { e.stopPropagation(); deleteChat(s.id); }} className="text-xs text-red-600 hover:underline">Delete</button>
                 </div>
               </div>
               <div className="text-[11px] text-gray-500">{pretty(s.updatedAt)}</div>
@@ -1806,10 +1296,7 @@ export default function ChatPageClient() {
             onClick={() => {
               if (!confirm("Clear all chat history? This cannot be undone.")) return;
               const ids = loadSessions().map((s) => s.id);
-              ids.forEach((id) => {
-                localStorage.removeItem(MKEY(id));
-                localStorage.removeItem(QKEY(id));
-              });
+              ids.forEach((id) => { localStorage.removeItem(MKEY(id)); localStorage.removeItem(QKEY(id)); });
               localStorage.removeItem(SESSIONS_KEY);
               setSessions([]);
               newChat();
@@ -1824,27 +1311,14 @@ export default function ChatPageClient() {
       {isSidebarOpen && <div className="fixed inset-0 z-30 bg-black/30 md:hidden" onClick={() => setIsSidebarOpen(false)} />}
 
       <div className="relative pt-16 md:pt-16 md:ml-64">
-        <div
-          className="fixed top-16 right-0 left-0 md:left-64 z-40 bg-slate-50/95 backdrop-blur border-b"
-          style={{ height: FIXED_TOP_BAR_PX }}
-        >
+        <div className="fixed top-16 right-0 left-0 md:left-64 z-40 bg-slate-50/95 backdrop-blur border-b" style={{ height: FIXED_TOP_BAR_PX }}>
           <div className="border-b" style={{ height: TOP_ROW_H }}>
             <div className={`mx-auto w-full ${CONTENT_MAX} px-4 h-full flex items-center justify-between`}>
               <div className="flex items-center gap-3">
                 {logoOk ? (
-                  <Image
-                    src="/logo.png"
-                    alt="MathParenting logo"
-                    width={28}
-                    height={28}
-                    className="rounded-md"
-                    priority
-                    onError={() => setLogoOk(false)}
-                  />
+                  <Image src="/logo.png" alt="MathParenting logo" width={28} height={28} className="rounded-md" priority onError={() => setLogoOk(false)} />
                 ) : (
-                  <div className="h-7 w-7 rounded-md bg-blue-600 text-white text-xs font-bold grid place-items-center">
-                    MP
-                  </div>
+                  <div className="h-7 w-7 rounded-md bg-blue-600 text-white text-xs font-bold grid place-items-center">MP</div>
                 )}
                 <div className="text-[15px] font-semibold text-gray-900">Where Parents Become Math Mentors</div>
               </div>
@@ -1856,44 +1330,34 @@ export default function ChatPageClient() {
               <div className="w-full rounded-xl border bg-white overflow-hidden flex">
                 <button
                   type="button"
-                  onClick={() => setMode("teaching")}
-                  className={`flex-1 py-2 text-sm font-semibold ${
-                    mode === "teaching" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
-                  }`}
-                  aria-pressed={mode === "teaching"}
+                  onClick={() => setMode("quick")}
+                  className={`flex-1 py-2 text-sm font-semibold ${mode === "quick" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"}`}
+                  aria-pressed={mode === "quick"}
                 >
-                  Teaching
+                  Quick
                 </button>
                 <div className="w-px bg-gray-200" />
                 <button
                   type="button"
-                  onClick={() => setMode("explanation")}
-                  className={`flex-1 py-2 text-sm font-semibold ${
-                    mode === "explanation" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"
-                  }`}
-                  aria-pressed={mode === "explanation"}
+                  onClick={() => setMode("teaching")}
+                  className={`flex-1 py-2 text-sm font-semibold ${mode === "teaching" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"}`}
+                  aria-pressed={mode === "teaching"}
                 >
-                  Explanation
+                  Full
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div
-          ref={scrollRef}
-          className="min-h-[calc(100svh-16rem)] md:min-h-[calc(100svh-12rem)] pb-28 md:pb-36 overflow-y-auto"
-          style={{ paddingTop: FIXED_TOP_BAR_PX + 10 }}
-        >
+        <div ref={scrollRef} className="min-h-[calc(100svh-16rem)] md:min-h-[calc(100svh-12rem)] pb-28 md:pb-36 overflow-y-auto" style={{ paddingTop: FIXED_TOP_BAR_PX + 10 }}>
           <div className={`mx-auto w-full ${CONTENT_MAX} px-4 py-4`}>
             {showSplash && (
               <div className="flex items-center justify-center py-14">
                 <div className="flex flex-col items-center gap-4 opacity-95">
                   <Image src="/logo.png" alt="MathParenting logo" width={96} height={96} className="rounded-2xl shadow" priority />
                   <div className="text-2xl font-extrabold tracking-tight text-gray-800">MathParenting</div>
-                  <p className="text-gray-500 text-sm text-center max-w-md">
-                    Making math easier for parents to teach.
-                  </p>
+                  <p className="text-gray-500 text-sm text-center max-w-md">Making math easier for parents to teach.</p>
                 </div>
               </div>
             )}
@@ -1901,14 +1365,9 @@ export default function ChatPageClient() {
             <div className="flex flex-col space-y-3">
               {messages.map((m) => (
                 <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
-                  <div
-                    className={`relative w-full md:max-w-[96%] rounded-2xl px-4 py-3 text-[15px] leading-relaxed shadow break-words overflow-hidden ${
-                      m.role === "user" ? "bg-blue-600 text-white md:max-w-[70%]" : "bg-gray-50 text-gray-900 border border-gray-200"
-                    }`}
-                  >
+                  <div className={`relative w-full md:max-w-[96%] rounded-2xl px-4 py-3 text-[15px] leading-relaxed shadow break-words overflow-hidden ${m.role === "user" ? "bg-blue-600 text-white md:max-w-[70%]" : "bg-gray-50 text-gray-900 border border-gray-200"}`}>
                     {m.role === "assistant" ? (
-                      mode === "explanation" ? (
-                        renderAssistantExplanationCard(m.content || (m.placeholder ? "Typing…" : "")) ??
+                      mode === "quick" ? (
                         renderMarkdownWithDetails(m.content || (m.placeholder ? "Typing…" : ""))
                       ) : (
                         renderAssistantTeachingCard(m.content || (m.placeholder ? "Typing…" : "")) ??
@@ -1926,33 +1385,15 @@ export default function ChatPageClient() {
         </div>
 
         <div className="fixed bottom-0 right-0 left-0 md:left-64 z-50 bg-white/95 backdrop-blur border-t">
-          <form
-            onSubmit={sendMessage}
-            className={`mx-auto w-full ${CONTENT_MAX} px-4 py-3 flex flex-col gap-2`}
-            style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
-          >
-            <input
-              ref={attachInputRef}
-              type="file"
-              multiple
-              accept="image/*,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/csv"
-              className="hidden"
-              onChange={onAttachInput}
-            />
+          <form onSubmit={sendMessage} className={`mx-auto w-full ${CONTENT_MAX} px-4 py-3 flex flex-col gap-2`} style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}>
+            <input ref={attachInputRef} type="file" multiple accept="image/*,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/csv" className="hidden" onChange={onAttachInput} />
 
             {!!attachedImages.length && (
               <div className="flex gap-2 overflow-x-auto">
                 {attachedImages.map((src, i) => (
                   <div key={i} className="relative">
                     <img src={src} alt={`attachment-${i}`} className="w-20 h-20 object-cover rounded border" />
-                    <button
-                      type="button"
-                      className="absolute -top-2 -right-2 bg-black/70 text-white rounded-full w-5 h-5"
-                      onClick={() => removeImage(i)}
-                      aria-label="Remove image"
-                    >
-                      ×
-                    </button>
+                    <button type="button" className="absolute -top-2 -right-2 bg-black/70 text-white rounded-full w-5 h-5" onClick={() => removeImage(i)} aria-label="Remove image">×</button>
                   </div>
                 ))}
               </div>
@@ -1960,20 +1401,8 @@ export default function ChatPageClient() {
 
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-2">
-                <IconButton
-                  label="Attach"
-                  onClick={() => {
-                    const u = loadUsage();
-                    if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) {
-                      alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`);
-                      return;
-                    }
-                    attachInputRef.current?.click();
-                  }}
-                >
-                  <span role="img" aria-hidden>
-                    📎
-                  </span>
+                <IconButton label="Attach" onClick={() => { const u = loadUsage(); if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); return; } attachInputRef.current?.click(); }}>
+                  <span role="img" aria-hidden>📎</span>
                 </IconButton>
               </div>
 
@@ -1988,28 +1417,16 @@ export default function ChatPageClient() {
               <div className="flex items-center gap-2">
                 <button
                   type="submit"
-                  disabled={
-                    loading ||
-                    (input.trim().length === 0 && attachedImages.length === 0) ||
-                    usage.messagesSent >= MONTHLY_MESSAGE_LIMIT ||
-                    usage.imagesSent + attachedImages.length > MONTHLY_IMAGE_LIMIT
-                  }
+                  disabled={loading || (input.trim().length === 0 && attachedImages.length === 0) || usage.messagesSent >= MONTHLY_MESSAGE_LIMIT || usage.imagesSent + attachedImages.length > MONTHLY_IMAGE_LIMIT}
                   className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
                 >
                   Send
                 </button>
 
                 <div data-usage-popover-root="true" className="relative">
-                  <button
-                    type="button"
-                    aria-label="Usage info"
-                    className="h-10 w-10 grid place-items-center rounded-xl border bg-white hover:bg-gray-50 text-gray-700"
-                    aria-pressed={usagePopoverOpen}
-                    onClick={() => setUsagePopoverOpen((v) => !v)}
-                  >
+                  <button type="button" aria-label="Usage info" className="h-10 w-10 grid place-items-center rounded-xl border bg-white hover:bg-gray-50 text-gray-700" aria-pressed={usagePopoverOpen} onClick={() => setUsagePopoverOpen((v) => !v)}>
                     ℹ️
                   </button>
-
                   {usagePopoverOpen && (
                     <div className="absolute bottom-12 right-0 w-64 rounded-xl border bg-white shadow-lg p-3 text-xs text-gray-700">
                       <div className="font-semibold text-gray-900 mb-1">This month remaining</div>

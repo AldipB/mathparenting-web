@@ -455,7 +455,7 @@ const MP_SECTIONS = [
   { key: "🧠 Core Idea", aliases: ["🧠 Core Idea"] },
   { key: "👨‍👩‍👧 How to teach this", aliases: ["👨‍👩‍👧 How to teach this", "👨‍👩‍👧 Step-by-Step Teaching Guide", "👨‍👩‍👧 Step by Step Teaching Guide"] },
   { key: "🏠 Do this together at home", aliases: ["🏠 Do this together at home", "🏠 Household Demonstration"] },
-  { key: "🧩 Practice questions", aliases: ["🧩 Practice questions", "🧩 Practice Together"] },
+  { key: "🧩 Extra practice", aliases: ["🧩 Extra practice", "🧩 Practice questions", "🧩 Practice Together"] },
   { key: "🧑‍🏫 If things get hard", aliases: ["🧑‍🏫 If things get hard", "🧑‍🏫 Parent Coaching"] },
 ] as const;
 
@@ -559,7 +559,7 @@ function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): Diag
     const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : body.includes("pizza") ? "pizza" : "";
     if (item) return { type: "pictogram", item, count: 16 };
   }
-  if (sectionTitle === "🧩 Practice questions") {
+  if (sectionTitle === "🧩 Extra practice") {
     if (body.includes("pizza")) return { type: "pizza", slices: 8, shaded: 3 };
     if (body.includes("circle")) return { type: "pizza", slices: 6, shaded: 2 };
     if (body.includes("rectangle")) return { type: "grid", rows: 1, cols: 6, shaded: 2 };
@@ -725,7 +725,7 @@ function renderAssistantTeachingCard(textRaw: string) {
     let body = stripLonelyMarkdownMarkers(s.body);
     if (s.title === "👨‍👩‍👧 How to teach this") body = formatStepByStepBody(body);
     if (s.title === "🏠 Do this together at home") { body = keepOnlyFirstDiagramBlock(body); body = injectInferredDiagram(s.title, body); }
-    if (s.title === "🧩 Practice questions") body = injectInferredDiagram(s.title, body);
+    if (s.title === "🧩 Extra practice") body = injectInferredDiagram(s.title, body);
     if (s.title === "🧠 Core Idea") body = injectInferredDiagram(s.title, body);
     return { ...s, body };
   });
@@ -827,7 +827,6 @@ export default function ChatPageClient() {
 
   const [extractedQuestions, setExtractedQuestions] = useState<ExtractedQuestion[]>([]);
   const [usage, setUsage] = useState<Usage>(() => loadUsage());
-  const [mode, setMode] = useState<"teaching" | "quick">("teaching");
   const [usagePopoverOpen, setUsagePopoverOpen] = useState(false);
 
   useEffect(() => {
@@ -1019,7 +1018,7 @@ export default function ChatPageClient() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
-        body: JSON.stringify({ messages: historyToSend, mode }),
+        body: JSON.stringify({ messages: historyToSend }),
       });
 
       if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
@@ -1101,8 +1100,7 @@ export default function ChatPageClient() {
 
   const CONTENT_MAX = "max-w-5xl";
   const TOP_ROW_H = 44;
-  const MODE_ROW_H = 38;
-  const FIXED_TOP_BAR_PX = TOP_ROW_H + MODE_ROW_H;
+  const FIXED_TOP_BAR_PX = TOP_ROW_H;
 
   return (
     <div className="w-full min-h-screen" style={{ backgroundColor: BRAND_BG }}>
@@ -1162,7 +1160,7 @@ export default function ChatPageClient() {
           className="fixed top-16 right-0 left-0 md:left-64 z-40 backdrop-blur border-b"
           style={{ height: FIXED_TOP_BAR_PX, backgroundColor: BRAND_BG }}
         >
-          <div className="border-b" style={{ height: TOP_ROW_H }}>
+          <div style={{ height: TOP_ROW_H }}>
             <div className={`mx-auto w-full ${CONTENT_MAX} px-4 h-full flex items-center justify-between`}>
               <div className="flex items-center gap-3">
                 {logoOk ? (
@@ -1171,30 +1169,6 @@ export default function ChatPageClient() {
                   <div className="h-7 w-7 rounded-md bg-blue-600 text-white text-xs font-bold grid place-items-center">MP</div>
                 )}
                 <div className="text-[15px] font-semibold text-gray-900">Where Parents Become Math Mentors</div>
-              </div>
-            </div>
-          </div>
-
-          <div style={{ height: MODE_ROW_H }}>
-            <div className={`mx-auto w-full ${CONTENT_MAX} px-4 h-full flex items-center`}>
-              <div className="w-full rounded-xl border bg-white overflow-hidden flex">
-                <button
-                  type="button"
-                  onClick={() => setMode("quick")}
-                  className={`flex-1 py-2 text-sm font-semibold ${mode === "quick" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"}`}
-                  aria-pressed={mode === "quick"}
-                >
-                  Quick
-                </button>
-                <div className="w-px bg-gray-200" />
-                <button
-                  type="button"
-                  onClick={() => setMode("teaching")}
-                  className={`flex-1 py-2 text-sm font-semibold ${mode === "teaching" ? "bg-blue-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"}`}
-                  aria-pressed={mode === "teaching"}
-                >
-                  Full
-                </button>
               </div>
             </div>
           </div>
@@ -1207,7 +1181,7 @@ export default function ChatPageClient() {
                 <div className="flex flex-col items-center gap-4 opacity-95">
                   <Image src="/logo.png" alt="MathParenting logo" width={96} height={96} className="rounded-2xl shadow" priority />
                   <div className="text-2xl font-extrabold tracking-tight text-gray-800">MathParenting</div>
-                  <p className="text-gray-500 text-sm text-center max-w-md">Making math easier for parents to teach.</p>
+                  <p className="text-gray-500 text-sm text-center max-w-md">Upload or type your child's homework question and I will show you how to teach it.</p>
                 </div>
               </div>
             )}
@@ -1220,12 +1194,8 @@ export default function ChatPageClient() {
                     style={m.role === "user" ? { backgroundColor: "#b2e0e0", color: "#1a1a1a" } : {}}
                   >
                     {m.role === "assistant" ? (
-                      mode === "quick" ? (
-                        renderMarkdownWithDetails(m.content || (m.placeholder ? "Typing…" : ""))
-                      ) : (
-                        renderAssistantTeachingCard(m.content || (m.placeholder ? "Typing…" : "")) ??
-                        renderMarkdownWithDetails(m.content || (m.placeholder ? "Typing…" : ""))
-                      )
+                      renderAssistantTeachingCard(m.content || (m.placeholder ? "Typing…" : "")) ??
+                      renderMarkdownWithDetails(m.content || (m.placeholder ? "Typing…" : ""))
                     ) : (
                       renderMarkdownWithDetails(m.content || (m.placeholder ? "Typing…" : ""))
                     )}
@@ -1253,14 +1223,14 @@ export default function ChatPageClient() {
             )}
 
             <div className="flex items-center gap-2">
-              <IconButton label="Attach" onClick={() => { const u = loadUsage(); if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); return; } attachInputRef.current?.click(); }}>
+              <IconButton label="Attach photo or file" onClick={() => { const u = loadUsage(); if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); return; } attachInputRef.current?.click(); }}>
                 <span role="img" aria-hidden>📎</span>
               </IconButton>
 
               <input
                 id="mp-composer"
                 className="flex-1 min-w-0 rounded-xl border border-gray-300 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="How can I help you?"
+                placeholder="Type or upload your child's homework question…"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
               />

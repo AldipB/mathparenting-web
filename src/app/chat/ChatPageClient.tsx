@@ -42,7 +42,6 @@ const SESSIONS_KEY = "mp.sessions.v1";
 const MKEY = (id: string) => `mp.messages.${id}.v1`;
 const QKEY = (id: string) => `mp.qextract.${id}.v1`;
 
-/* Monthly usage limits */
 const USAGE_KEY = "mp.usage.v1";
 const MONTHLY_MESSAGE_LIMIT = 500;
 const MONTHLY_IMAGE_LIMIT = 100;
@@ -54,7 +53,6 @@ type Usage = {
 };
 
 const isClient = typeof window !== "undefined";
-
 const uid = () => Math.random().toString(36).slice(2) + Date.now().toString(36);
 const pretty = (t: number) => new Date(t).toLocaleString();
 
@@ -79,9 +77,7 @@ function loadExtracted(id: string): ExtractedQuestion[] {
     if (!raw) return [];
     const parsed = JSON.parse(raw);
     return Array.isArray(parsed?.questions) ? parsed.questions : [];
-  } catch {
-    return [];
-  }
+  } catch { return []; }
 }
 
 function saveExtracted(id: string, questions: ExtractedQuestion[]) {
@@ -100,35 +96,28 @@ function clearExtracted(id: string) {
 
 function monthKeyFromNow() {
   const d = new Date();
-  const y = d.getFullYear();
-  const m = String(d.getMonth() + 1).padStart(2, "0");
-  return `${y}-${m}`;
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
 }
 
 function loadUsage(): Usage {
   const currentMonth = monthKeyFromNow();
   if (!isClient) return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-
   try {
     const raw = localStorage.getItem(USAGE_KEY);
     if (!raw) return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== "object") return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-
     if (parsed.month !== currentMonth) {
       const fresh: Usage = { month: currentMonth, messagesSent: 0, imagesSent: 0 };
       localStorage.setItem(USAGE_KEY, JSON.stringify(fresh));
       return fresh;
     }
-
     return {
       month: currentMonth,
       messagesSent: Number.isFinite(parsed.messagesSent) ? Number(parsed.messagesSent) : 0,
       imagesSent: Number.isFinite(parsed.imagesSent) ? Number(parsed.imagesSent) : 0,
     };
-  } catch {
-    return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-  }
+  } catch { return { month: currentMonth, messagesSent: 0, imagesSent: 0 }; }
 }
 
 function saveUsage(u: Usage) {
@@ -137,18 +126,19 @@ function saveUsage(u: Usage) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Brand color                                                        */
+/* ------------------------------------------------------------------ */
+
+const BRAND_BG = "#E0F4F4";
+
+/* ------------------------------------------------------------------ */
 /* Simple graph renderer                                              */
 /* ------------------------------------------------------------------ */
 
 type GraphSpec = {
   type?: "cartesian";
-  xMin?: number;
-  xMax?: number;
-  yMin?: number;
-  yMax?: number;
-  grid?: boolean;
-  ticks?: number;
-  axis?: boolean;
+  xMin?: number; xMax?: number; yMin?: number; yMax?: number;
+  grid?: boolean; ticks?: number; axis?: boolean;
   lines?: Array<{ m: number; b: number }>;
   segments?: Array<{ x1: number; y1: number; x2: number; y2: number }>;
   functions?: Array<{ expr: string; samples?: number }>;
@@ -161,45 +151,30 @@ function safeEvalExpr(expr: string, x: number): number | null {
     const fn = new Function("x", "Math", `return (${expr});`);
     const v = fn(x, Math);
     return Number.isFinite(v) ? Number(v) : null;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 function looksLikeGraphSpec(o: any): o is GraphSpec {
   if (!o || typeof o !== "object") return false;
   const hasBounds = ["xMin", "xMax", "yMin", "yMax"].some((k) => typeof o[k] === "number");
-  const hasSeries =
-    Array.isArray(o.lines) || Array.isArray(o.points) || Array.isArray(o.functions) || Array.isArray(o.segments);
+  const hasSeries = Array.isArray(o.lines) || Array.isArray(o.points) || Array.isArray(o.functions) || Array.isArray(o.segments);
   return hasBounds || hasSeries;
 }
 
 function parseJsonObject(raw: string): any | null {
-  const start = raw.indexOf("{");
-  const end = raw.lastIndexOf("}");
+  const start = raw.indexOf("{"); const end = raw.lastIndexOf("}");
   if (start === -1 || end === -1 || end <= start) return null;
-  try {
-    return JSON.parse(raw.slice(start, end + 1));
-  } catch {
-    return null;
-  }
+  try { return JSON.parse(raw.slice(start, end + 1)); } catch { return null; }
 }
 
 function Graph({ spec }: { spec: GraphSpec }) {
   const cfg: Required<Pick<GraphSpec, "xMin" | "xMax" | "yMin" | "yMax">> & GraphSpec = {
-    xMin: spec.xMin ?? -10,
-    xMax: spec.xMax ?? 10,
-    yMin: spec.yMin ?? -10,
-    yMax: spec.yMax ?? 10,
-    ...spec,
+    xMin: spec.xMin ?? -10, xMax: spec.xMax ?? 10,
+    yMin: spec.yMin ?? -10, yMax: spec.yMax ?? 10, ...spec,
   };
-
-  const W = 640;
-  const H = 400;
-
+  const W = 640; const H = 400;
   const xToSvg = (x: number) => ((x - cfg.xMin) / (cfg.xMax - cfg.xMin)) * W;
   const yToSvg = (y: number) => H - ((y - cfg.yMin) / (cfg.yMax - cfg.yMin)) * H;
-
   const tickN = Math.max(2, Math.min(20, cfg.ticks ?? 10));
   const xStep = (cfg.xMax - cfg.xMin) / tickN;
   const yStep = (cfg.yMax - cfg.yMin) / tickN;
@@ -213,10 +188,7 @@ function Graph({ spec }: { spec: GraphSpec }) {
       for (let i = 0; i < n; i++) {
         const x = cfg.xMin + i * dx;
         const y = safeEvalExpr(f.expr, x);
-        if (y === null) {
-          d += ` M ${xToSvg(x)} ${yToSvg(0)}`;
-          continue;
-        }
+        if (y === null) { d += ` M ${xToSvg(x)} ${yToSvg(0)}`; continue; }
         d += `${i === 0 ? "M" : "L"} ${xToSvg(x)} ${yToSvg(y)} `;
       }
       functionPaths.push(d);
@@ -225,78 +197,22 @@ function Graph({ spec }: { spec: GraphSpec }) {
 
   return (
     <div className="w-full">
-      <svg
-        viewBox={`0 0 ${W} ${H}`}
-        className="w-full h-auto rounded-xl border border-gray-200 bg-white"
-        role="img"
-        aria-label="Graph"
-      >
-        {cfg.grid && (
-          <>
-            {Array.from({ length: tickN + 1 }, (_, i) => {
-              const X = xToSvg(cfg.xMin + i * xStep);
-              return <line key={"gv" + i} x1={X} y1={0} x2={X} y2={H} stroke="#eef2ff" strokeWidth={1} />;
-            })}
-            {Array.from({ length: tickN + 1 }, (_, i) => {
-              const Y = yToSvg(cfg.yMin + i * yStep);
-              return <line key={"gh" + i} x1={0} y1={Y} x2={W} y2={Y} stroke="#eef2ff" strokeWidth={1} />;
-            })}
-          </>
-        )}
-
-        {cfg.axis && (
-          <>
-            {cfg.xMin < 0 && cfg.xMax > 0 && (
-              <line x1={xToSvg(0)} y1={0} x2={xToSvg(0)} y2={H} stroke="#6b7280" strokeWidth={1.5} />
-            )}
-            {cfg.yMin < 0 && cfg.yMax > 0 && (
-              <line x1={0} y1={yToSvg(0)} x2={W} y2={yToSvg(0)} stroke="#6b7280" strokeWidth={1.5} />
-            )}
-          </>
-        )}
-
-        {cfg.lines?.map((ln, i) => {
-          const x1 = cfg.xMin;
-          const x2 = cfg.xMax;
-          const y1 = ln.m * x1 + ln.b;
-          const y2 = ln.m * x2 + ln.b;
-          return (
-            <line
-              key={"ln" + i}
-              x1={xToSvg(x1)}
-              y1={yToSvg(y1)}
-              x2={xToSvg(x2)}
-              y2={yToSvg(y2)}
-              stroke="#2563eb"
-              strokeWidth={2}
-            />
-          );
-        })}
-
-        {cfg.segments?.map((s, i) => (
-          <line
-            key={"sg" + i}
-            x1={xToSvg(s.x1)}
-            y1={yToSvg(s.y1)}
-            x2={xToSvg(s.x2)}
-            y2={yToSvg(s.y2)}
-            stroke="#0ea5e9"
-            strokeWidth={2}
-          />
-        ))}
-
-        {functionPaths.map((d, i) => (
-          <path key={"fn" + i} d={d} fill="none" stroke="#10b981" strokeWidth={2} />
-        ))}
-
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto rounded-xl border border-gray-200 bg-white" role="img" aria-label="Graph">
+        {cfg.grid && (<>
+          {Array.from({ length: tickN + 1 }, (_, i) => { const X = xToSvg(cfg.xMin + i * xStep); return <line key={"gv" + i} x1={X} y1={0} x2={X} y2={H} stroke="#eef2ff" strokeWidth={1} />; })}
+          {Array.from({ length: tickN + 1 }, (_, i) => { const Y = yToSvg(cfg.yMin + i * yStep); return <line key={"gh" + i} x1={0} y1={Y} x2={W} y2={Y} stroke="#eef2ff" strokeWidth={1} />; })}
+        </>)}
+        {cfg.axis && (<>
+          {cfg.xMin < 0 && cfg.xMax > 0 && <line x1={xToSvg(0)} y1={0} x2={xToSvg(0)} y2={H} stroke="#6b7280" strokeWidth={1.5} />}
+          {cfg.yMin < 0 && cfg.yMax > 0 && <line x1={0} y1={yToSvg(0)} x2={W} y2={yToSvg(0)} stroke="#6b7280" strokeWidth={1.5} />}
+        </>)}
+        {cfg.lines?.map((ln, i) => { const x1 = cfg.xMin; const x2 = cfg.xMax; const y1 = ln.m * x1 + ln.b; const y2 = ln.m * x2 + ln.b; return <line key={"ln" + i} x1={xToSvg(x1)} y1={yToSvg(y1)} x2={xToSvg(x2)} y2={yToSvg(y2)} stroke="#2563eb" strokeWidth={2} />; })}
+        {cfg.segments?.map((s, i) => <line key={"sg" + i} x1={xToSvg(s.x1)} y1={yToSvg(s.y1)} x2={xToSvg(s.x2)} y2={yToSvg(s.y2)} stroke="#0ea5e9" strokeWidth={2} />)}
+        {functionPaths.map((d, i) => <path key={"fn" + i} d={d} fill="none" stroke="#10b981" strokeWidth={2} />)}
         {cfg.points?.map((p, i) => (
           <g key={"pt" + i}>
             <circle cx={xToSvg(p.x)} cy={yToSvg(p.y)} r={4} fill="#ef4444" />
-            {p.label && (
-              <text x={xToSvg(p.x) + 6} y={yToSvg(p.y) - 6} fontSize={12} fill="#374151">
-                {p.label}
-              </text>
-            )}
+            {p.label && <text x={xToSvg(p.x) + 6} y={yToSvg(p.y) - 6} fontSize={12} fill="#374151">{p.label}</text>}
           </g>
         ))}
       </svg>
@@ -308,38 +224,10 @@ function Graph({ spec }: { spec: GraphSpec }) {
 /* Simple diagram renderer                                            */
 /* ------------------------------------------------------------------ */
 
-type DiagramPizza = {
-  type: "pizza";
-  slices: number;
-  shaded: number;
-  label?: string;
-};
-
-type DiagramGrid = {
-  type: "grid";
-  rows: number;
-  cols: number;
-  shaded: number;
-  label?: string;
-};
-
-type DiagramNumberLine = {
-  type: "numberLine";
-  min: number;
-  max: number;
-  ticks?: number;
-  marks?: Array<{ x: number; label?: string }>;
-  label?: string;
-};
-
-type DiagramPictogram = {
-  type: "pictogram";
-  item: string;
-  count: number;
-  shaded?: number;
-  label?: string;
-};
-
+type DiagramPizza = { type: "pizza"; slices: number; shaded: number; label?: string };
+type DiagramGrid = { type: "grid"; rows: number; cols: number; shaded: number; label?: string };
+type DiagramNumberLine = { type: "numberLine"; min: number; max: number; ticks?: number; marks?: Array<{ x: number; label?: string }>; label?: string };
+type DiagramPictogram = { type: "pictogram"; item: string; count: number; shaded?: number; label?: string };
 type DiagramSpec = DiagramPizza | DiagramGrid | DiagramNumberLine | DiagramPictogram;
 
 function looksLikeDiagramSpec(o: any): o is DiagramSpec {
@@ -359,7 +247,6 @@ function clampInt(n: number, lo: number, hi: number) {
 
 function emojiForItem(raw: string): string {
   const s = String(raw || "").trim().toLowerCase();
-
   const map: Record<string, string> = {
     pizza: "🍕", slice: "🍕", pie: "🥧", apple: "🍎", apples: "🍎",
     orange: "🍊", oranges: "🍊", banana: "🍌", bananas: "🍌", grape: "🍇",
@@ -371,7 +258,6 @@ function emojiForItem(raw: string): string {
     pencils: "✏️", ball: "⚽", balls: "⚽", toy: "🧸", toys: "🧸",
     star: "⭐", stars: "⭐", marble: "🔵", marbles: "🔵", button: "🔘", buttons: "🔘",
   };
-
   if (map[s]) return map[s];
   if (s.includes("coin")) return "🪙";
   if (s.includes("pizza")) return "🍕";
@@ -399,31 +285,20 @@ function stripLeadingCountLabel(input?: string) {
 }
 
 function Diagram({ spec }: { spec: DiagramSpec }) {
-  const W = 640;
-  const H = 220;
-  const baseStroke = "#111827";
-  const shadeFill = "#93c5fd";
-  const lightFill = "#ffffff";
+  const W = 640; const H = 220;
+  const baseStroke = "#111827"; const shadeFill = "#93c5fd"; const lightFill = "#ffffff";
 
   if (spec.type === "pizza") {
-    const slices = clampInt(spec.slices, 2, 24);
-    const shaded = clampInt(spec.shaded, 0, slices);
-    const cx = W / 2;
-    const cy = 105;
-    const r = 88;
+    const slices = clampInt(spec.slices, 2, 24); const shaded = clampInt(spec.shaded, 0, slices);
+    const cx = W / 2; const cy = 105; const r = 88;
     const sliceAngle = (Math.PI * 2) / slices;
-
     const wedgePath = (i: number) => {
-      const a0 = i * sliceAngle - Math.PI / 2;
-      const a1 = (i + 1) * sliceAngle - Math.PI / 2;
-      const x0 = cx + r * Math.cos(a0);
-      const y0 = cy + r * Math.sin(a0);
-      const x1 = cx + r * Math.cos(a1);
-      const y1 = cy + r * Math.sin(a1);
+      const a0 = i * sliceAngle - Math.PI / 2; const a1 = (i + 1) * sliceAngle - Math.PI / 2;
+      const x0 = cx + r * Math.cos(a0); const y0 = cy + r * Math.sin(a0);
+      const x1 = cx + r * Math.cos(a1); const y1 = cy + r * Math.sin(a1);
       const largeArc = a1 - a0 > Math.PI ? 1 : 0;
       return `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 ${largeArc} 1 ${x1} ${y1} Z`;
     };
-
     const cleanLabel = stripLeadingCountLabel(spec.label);
     return (
       <div className="w-full">
@@ -439,26 +314,18 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
   }
 
   if (spec.type === "grid") {
-    const rows = clampInt(spec.rows, 1, 10);
-    const cols = clampInt(spec.cols, 1, 12);
-    const total = rows * cols;
-    const shaded = clampInt(spec.shaded, 0, total);
-    const padding = 30;
-    const gridW = W - padding * 2;
-    const gridH = 160;
-    const cellW = gridW / cols;
-    const cellH = gridH / rows;
+    const rows = clampInt(spec.rows, 1, 10); const cols = clampInt(spec.cols, 1, 12);
+    const total = rows * cols; const shaded = clampInt(spec.shaded, 0, total);
+    const padding = 30; const gridW = W - padding * 2; const gridH = 160;
+    const cellW = gridW / cols; const cellH = gridH / rows;
     const cleanLabel = stripLeadingCountLabel(spec.label);
-
     return (
       <div className="w-full">
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Diagram">
           <rect x={padding} y={25} width={gridW} height={gridH} fill={lightFill} stroke={baseStroke} strokeWidth={2} />
           {Array.from({ length: total }, (_, i) => {
-            const r = Math.floor(i / cols);
-            const c = i % cols;
-            const x = padding + c * cellW;
-            const y = 25 + r * cellH;
+            const r = Math.floor(i / cols); const c = i % cols;
+            const x = padding + c * cellW; const y = 25 + r * cellH;
             return <rect key={i} x={x} y={y} width={cellW} height={cellH} fill={i < shaded ? shadeFill : "transparent"} stroke={baseStroke} strokeWidth={1} />;
           })}
           {!!cleanLabel && <text x={W / 2} y={205} textAnchor="middle" fontSize={14} fill="#111827">{cleanLabel}</text>}
@@ -468,15 +335,10 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
   }
 
   if (spec.type === "pictogram") {
-    const count = clampInt(spec.count, 1, 24);
-    const shaded = clampInt(spec.shaded ?? 0, 0, count);
-    const em = emojiForItem(spec.item);
-    const cleanLabel = stripLeadingCountLabel(spec.label);
+    const count = clampInt(spec.count, 1, 24); const shaded = clampInt(spec.shaded ?? 0, 0, count);
+    const em = emojiForItem(spec.item); const cleanLabel = stripLeadingCountLabel(spec.label);
     const useSingleBig = count > 12;
-    const paddingX = 30;
-    const paddingY = 22;
-    const areaW = W - paddingX * 2;
-    const areaH = 170;
+    const paddingX = 30; const paddingY = 22; const areaW = W - paddingX * 2; const areaH = 170;
 
     if (useSingleBig) {
       return (
@@ -490,10 +352,8 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
       );
     }
 
-    const cols = Math.min(8, count);
-    const rows = Math.ceil(count / cols);
-    const cellW = areaW / cols;
-    const cellH = areaH / rows;
+    const cols = Math.min(8, count); const rows = Math.ceil(count / cols);
+    const cellW = areaW / cols; const cellH = areaH / rows;
     const fontSize = Math.max(20, Math.min(36, Math.floor(Math.min(cellW, cellH) * 0.6)));
 
     return (
@@ -501,10 +361,8 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Diagram">
           <rect x={paddingX} y={paddingY} width={areaW} height={areaH} rx={14} fill={lightFill} stroke={baseStroke} strokeWidth={2} />
           {Array.from({ length: count }, (_, i) => {
-            const r = Math.floor(i / cols);
-            const c = i % cols;
-            const x = paddingX + c * cellW + cellW / 2;
-            const y = paddingY + r * cellH + cellH / 2;
+            const r = Math.floor(i / cols); const c = i % cols;
+            const x = paddingX + c * cellW + cellW / 2; const y = paddingY + r * cellH + cellH / 2;
             const isShaded = i < shaded;
             return (
               <g key={i}>
@@ -522,9 +380,7 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
   const min = Number.isFinite((spec as DiagramNumberLine).min) ? (spec as DiagramNumberLine).min : 0;
   const max = Number.isFinite((spec as DiagramNumberLine).max) ? (spec as DiagramNumberLine).max : 10;
   const ticks = clampInt((spec as DiagramNumberLine).ticks ?? 10, 2, 20);
-  const x0 = 60;
-  const x1 = W - 60;
-  const y = 110;
+  const x0 = 60; const x1 = W - 60; const y = 110;
   const xToSvg = (x: number) => { if (max === min) return x0; return x0 + ((x - min) / (max - min)) * (x1 - x0); };
   const cleanLabel = stripLeadingCountLabel((spec as DiagramNumberLine).label);
 
@@ -533,8 +389,7 @@ function Diagram({ spec }: { spec: DiagramSpec }) {
       <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Diagram">
         <line x1={x0} y1={y} x2={x1} y2={y} stroke={baseStroke} strokeWidth={2} />
         {Array.from({ length: ticks + 1 }, (_, i) => {
-          const x = min + (i * (max - min)) / ticks;
-          const X = xToSvg(x);
+          const x = min + (i * (max - min)) / ticks; const X = xToSvg(x);
           return (
             <g key={i}>
               <line x1={X} y1={y - 8} x2={X} y2={y + 8} stroke={baseStroke} strokeWidth={2} />
@@ -598,10 +453,10 @@ function cleanTextForRender(text: string) {
 const MP_SECTIONS = [
   { key: "⏱️ Parent Quick Plan", aliases: ["⏱️ Parent Quick Plan"] },
   { key: "🧠 Core Idea", aliases: ["🧠 Core Idea"] },
-  { key: "👨‍👩‍👧 Step by Step Teaching Guide", aliases: ["👨‍👩‍👧 Step-by-Step Teaching Guide", "👨‍👩‍👧 Step by Step Teaching Guide"] },
-  { key: "🏠 Household Demonstration", aliases: ["🏠 Household Demonstration"] },
-  { key: "🧩 Practice Together", aliases: ["🧩 Practice Together"] },
-  { key: "🧑‍🏫 Parent Coaching", aliases: ["🧑‍🏫 Parent Coaching"] },
+  { key: "👨‍👩‍👧 How to teach this", aliases: ["👨‍👩‍👧 How to teach this", "👨‍👩‍👧 Step-by-Step Teaching Guide", "👨‍👩‍👧 Step by Step Teaching Guide"] },
+  { key: "🏠 Do this together at home", aliases: ["🏠 Do this together at home", "🏠 Household Demonstration"] },
+  { key: "🧩 Practice questions", aliases: ["🧩 Practice questions", "🧩 Practice Together"] },
+  { key: "🧑‍🏫 If things get hard", aliases: ["🧑‍🏫 If things get hard", "🧑‍🏫 Parent Coaching"] },
 ] as const;
 
 type MPSectionKey = (typeof MP_SECTIONS)[number]["key"];
@@ -609,8 +464,7 @@ type MPSectionKey = (typeof MP_SECTIONS)[number]["key"];
 function splitMP(text: string): { intro: string; sections: Array<{ title: MPSectionKey; body: string }>; closing: string } | null {
   const raw = String(text || "");
   const found = MP_SECTIONS.map((s) => {
-    let bestIdx = -1;
-    let bestMatch = "";
+    let bestIdx = -1; let bestMatch = "";
     for (const a of s.aliases) {
       const i = raw.indexOf(a);
       if (i >= 0 && (bestIdx === -1 || i < bestIdx)) { bestIdx = i; bestMatch = a; }
@@ -626,10 +480,8 @@ function splitMP(text: string): { intro: string; sections: Array<{ title: MPSect
   const sections: Array<{ title: MPSectionKey; body: string }> = [];
 
   for (let k = 0; k < orderedByPosition.length; k++) {
-    const cur = orderedByPosition[k];
-    const next = orderedByPosition[k + 1];
-    const start = cur.i + cur.match.length;
-    const end = next ? next.i : raw.length;
+    const cur = orderedByPosition[k]; const next = orderedByPosition[k + 1];
+    const start = cur.i + cur.match.length; const end = next ? next.i : raw.length;
     sections.push({ title: cur.title, body: raw.slice(start, end).trim() });
   }
 
@@ -654,23 +506,15 @@ function formatStepByStepBody(body: string) {
 function keepOnlyFirstDiagramBlock(body: string) {
   const src = String(body || "");
   const fence = /```([a-zA-Z0-9_-]*)\n([\s\S]*?)```/g;
-  let out = "";
-  let last = 0;
-  let seen = false;
-  let m: RegExpExecArray | null;
-
+  let out = ""; let last = 0; let seen = false; let m: RegExpExecArray | null;
   while ((m = fence.exec(src)) !== null) {
-    const full = m[0];
-    const lang = (m[1] || "").trim().toLowerCase();
-    const inner = (m[2] || "").trim();
-    const before = src.slice(last, m.index);
-    out += before;
+    const full = m[0]; const lang = (m[1] || "").trim().toLowerCase(); const inner = (m[2] || "").trim();
+    out += src.slice(last, m.index);
     const obj = parseJsonObject(inner);
     const isDiagramLike = lang === "diagram" || (lang === "json" && !!obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram))) || (!!obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram)));
     if (isDiagramLike) { if (!seen) { out += full; seen = true; } } else { out += full; }
     last = m.index + full.length;
   }
-
   out += src.slice(last);
   return out;
 }
@@ -681,8 +525,7 @@ function hasAnyDiagramFence(text: string) {
   const fence = /```([a-zA-Z0-9_-]*)\n([\s\S]*?)```/g;
   let m: RegExpExecArray | null;
   while ((m = fence.exec(t)) !== null) {
-    const lang = (m[1] || "").trim().toLowerCase();
-    const inner = (m[2] || "").trim();
+    const lang = (m[1] || "").trim().toLowerCase(); const inner = (m[2] || "").trim();
     if (lang !== "json" && lang !== "diagram") continue;
     const obj = parseJsonObject(inner);
     if (obj && (looksLikeDiagramSpec(obj) || looksLikeDiagramSpec(obj?.diagram))) return true;
@@ -699,30 +542,24 @@ function firstIntInText(t: string) {
 
 function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): DiagramSpec | null {
   const body = String(bodyRaw || "").toLowerCase();
-
   const rect = body.match(/rectangle[^.\n]*divided\s+into\s+(\d+)[^.\n]*with\s+(\d+)\s+shaded/);
   if (rect) { const parts = clampInt(Number(rect[1]), 2, 24); const shaded = clampInt(Number(rect[2]), 0, parts); return { type: "grid", rows: 1, cols: parts, shaded }; }
-
   const circ = body.match(/circle[^.\n]*divided\s+into\s+(\d+)[^.\n]*with\s+(\d+)\s+shaded/);
   if (circ) { const slices = clampInt(Number(circ[1]), 2, 24); const shaded = clampInt(Number(circ[2]), 0, slices); return { type: "pizza", slices, shaded }; }
-
   const outOf = body.match(/(\d+)\s*(?:out\s+of|\/)\s*(\d+)/);
   if (outOf) {
-    const a = clampInt(Number(outOf[1]), 0, 24);
-    const b = clampInt(Number(outOf[2]), 2, 24);
+    const a = clampInt(Number(outOf[1]), 0, 24); const b = clampInt(Number(outOf[2]), 2, 24);
     if (sectionTitle === "🧠 Core Idea") return { type: "grid", rows: 1, cols: b, shaded: a, label: `Chosen ${a} out of total ${b}` };
     if (body.includes("pizza") || body.includes("slice") || body.includes("pie") || body.includes("circle")) return { type: "pizza", slices: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
     if (body.includes("rectangle") || body.includes("grid")) return { type: "grid", rows: 1, cols: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
     const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : "items";
     return { type: "pictogram", item, count: b, shaded: a, label: `Out of ${b}, shaded ${a}` };
   }
-
-  if (sectionTitle === "🏠 Household Demonstration") {
+  if (sectionTitle === "🏠 Do this together at home") {
     const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : body.includes("pizza") ? "pizza" : "";
     if (item) return { type: "pictogram", item, count: 16 };
   }
-
-  if (sectionTitle === "🧩 Practice Together") {
+  if (sectionTitle === "🧩 Practice questions") {
     if (body.includes("pizza")) return { type: "pizza", slices: 8, shaded: 3 };
     if (body.includes("circle")) return { type: "pizza", slices: 6, shaded: 2 };
     if (body.includes("rectangle")) return { type: "grid", rows: 1, cols: 6, shaded: 2 };
@@ -731,7 +568,6 @@ function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): Diag
     const n = firstIntInText(body);
     if (n && n >= 2 && n <= 24) return { type: "grid", rows: 1, cols: n, shaded: Math.max(1, Math.floor(n / 3)) };
   }
-
   return null;
 }
 
@@ -740,41 +576,52 @@ function injectInferredDiagram(sectionTitle: MPSectionKey, body: string) {
   if (hasAnyDiagramFence(cleaned)) return cleaned;
   const spec = inferDiagramFromText(sectionTitle, cleaned);
   if (!spec) return cleaned;
-  const fence = "```diagram\n" + JSON.stringify(spec) + "\n```\n\n";
-  return fence + cleaned;
+  return "```diagram\n" + JSON.stringify(spec) + "\n```\n\n" + cleaned;
 }
 
 function Hr() {
   return <div className="h-px w-full bg-sky-200 my-3" />;
 }
 
+function CollapsibleSection({ title, children }: { title: string; children: React.ReactNode }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div>
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className="w-full flex items-center justify-between py-2 text-left"
+      >
+        <span className="font-bold text-gray-900 text-[15px]">{title}</span>
+        <span className="text-gray-400 text-sm ml-2">{open ? "▲ Hide" : "▼ Show"}</span>
+      </button>
+      {open && <div className="mt-2">{children}</div>}
+      <Hr />
+    </div>
+  );
+}
+
 /* ------------------------------------------------------------------ */
-/* Markdown components and improved details rendering                  */
+/* Markdown components and details rendering                          */
 /* ------------------------------------------------------------------ */
 
 function CodeRenderer(props: { inline?: boolean; className?: string; children?: React.ReactNode }) {
   const { inline, className, children } = props;
   const lang = (className || "").replace("language-", "").trim().toLowerCase();
   const raw = String(children ?? "");
-
   if (inline) return <code className="rounded bg-gray-100 px-1 py-0.5 text-[0.95em] break-words">{raw}</code>;
-
   const trimmed = raw.trim();
-
   if (lang === "diagram" || lang === "json" || lang === "") {
     const obj = parseJsonObject(trimmed);
     if (obj && looksLikeDiagramSpec(obj)) return <Diagram spec={obj} />;
     if (obj?.diagram && looksLikeDiagramSpec(obj.diagram)) return <Diagram spec={obj.diagram} />;
   }
-
   if (lang === "graph" || lang === "json" || lang === "") {
     const obj = parseJsonObject(trimmed);
     if (obj && looksLikeGraphSpec(obj)) return <Graph spec={obj} />;
   }
-
   const fallback = parseJsonObject(trimmed);
   if (fallback && looksLikeGraphSpec(fallback)) return <Graph spec={fallback} />;
-
   return (
     <pre className="overflow-x-auto rounded-md bg-gray-900 text-gray-100 p-3 text-sm">
       <code className={className}>{trimmed}</code>
@@ -795,9 +642,7 @@ const markdownComponents = {
   code: CodeRenderer,
 };
 
-function stripTags(s: string) {
-  return String(s || "").replace(/<[^>]*>/g, "");
-}
+function stripTags(s: string) { return String(s || "").replace(/<[^>]*>/g, ""); }
 
 function simplifySummaryText(s: string) {
   let t = stripTags(s).replace(/\*\*/g, "").replace(/\s+/g, " ").trim();
@@ -813,15 +658,10 @@ function renderMarkdownWithDetails(textRaw: string) {
   const text = stripLonelyMarkdownMarkers(String(textRaw || ""));
   const elements: React.ReactNode[] = [];
   const regex = /<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>\s*([\s\S]*?)<\/details>/gi;
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  let idx = 0;
+  let lastIndex = 0; let match: RegExpExecArray | null; let idx = 0;
 
   while ((match = regex.exec(text)) !== null) {
-    const fullMatch = match[0];
-    const summaryInner = match[1] || "";
-    const bodyInner = match[2] || "";
-
+    const fullMatch = match[0]; const summaryInner = match[1] || ""; const bodyInner = match[2] || "";
     if (match.index > lastIndex) {
       const before = text.slice(lastIndex, match.index);
       if (before.trim()) {
@@ -832,7 +672,6 @@ function renderMarkdownWithDetails(textRaw: string) {
         );
       }
     }
-
     const summaryText = simplifySummaryText(summaryInner);
     elements.push(
       <details key={"mp-details-" + idx} className="my-2 rounded-xl border border-gray-200 bg-white px-3 py-2 shadow-sm">
@@ -844,7 +683,6 @@ function renderMarkdownWithDetails(textRaw: string) {
         </div>
       </details>
     );
-
     lastIndex = match.index + fullMatch.length;
     idx++;
   }
@@ -872,7 +710,7 @@ function renderMarkdownWithDetails(textRaw: string) {
 }
 
 /* ------------------------------------------------------------------ */
-/* Presentable assistant card renderers                                */
+/* Assistant card renderer                                            */
 /* ------------------------------------------------------------------ */
 
 function renderAssistantTeachingCard(textRaw: string) {
@@ -885,9 +723,9 @@ function renderAssistantTeachingCard(textRaw: string) {
 
   const cleanedSections = split.sections.map((s) => {
     let body = stripLonelyMarkdownMarkers(s.body);
-    if (s.title === "👨‍👩‍👧 Step by Step Teaching Guide") body = formatStepByStepBody(body);
-    if (s.title === "🏠 Household Demonstration") { body = keepOnlyFirstDiagramBlock(body); body = injectInferredDiagram(s.title, body); }
-    if (s.title === "🧩 Practice Together") body = injectInferredDiagram(s.title, body);
+    if (s.title === "👨‍👩‍👧 How to teach this") body = formatStepByStepBody(body);
+    if (s.title === "🏠 Do this together at home") { body = keepOnlyFirstDiagramBlock(body); body = injectInferredDiagram(s.title, body); }
+    if (s.title === "🧩 Practice questions") body = injectInferredDiagram(s.title, body);
     if (s.title === "🧠 Core Idea") body = injectInferredDiagram(s.title, body);
     return { ...s, body };
   });
@@ -895,13 +733,25 @@ function renderAssistantTeachingCard(textRaw: string) {
   return (
     <div className="w-full rounded-2xl border border-gray-200 bg-white px-5 py-4 break-words overflow-hidden shadow-sm">
       {!!intro && (<><div className="text-gray-900">{renderMarkdownWithDetails(intro)}</div><Hr /></>)}
-      {cleanedSections.map((s) => (
-        <div key={s.title}>
-          <div className="font-bold text-gray-900 flex items-center gap-2 text-[15px]"><span>{s.title}</span></div>
-          <div className="mt-2">{renderMarkdownWithDetails(s.body)}</div>
-          <Hr />
-        </div>
-      ))}
+      {cleanedSections.map((s) => {
+        const isAlwaysOpen = s.title === "⏱️ Parent Quick Plan";
+        if (isAlwaysOpen) {
+          return (
+            <div key={s.title}>
+              <div className="font-bold text-gray-900 flex items-center gap-2 text-[15px]">
+                <span>{s.title}</span>
+              </div>
+              <div className="mt-2">{renderMarkdownWithDetails(s.body)}</div>
+              <Hr />
+            </div>
+          );
+        }
+        return (
+          <CollapsibleSection key={s.title} title={s.title}>
+            {renderMarkdownWithDetails(s.body)}
+          </CollapsibleSection>
+        );
+      })}
       {!!closing && <div className="mt-1">{renderMarkdownWithDetails(closing)}</div>}
     </div>
   );
@@ -933,7 +783,7 @@ async function fileToBase64(imgFile: File) {
 }
 
 /* ------------------------------------------------------------------ */
-/* Small icon button                                                  */
+/* Icon button                                                        */
 /* ------------------------------------------------------------------ */
 
 function IconButton({ label, onClick, pressed, disabled, children }: React.PropsWithChildren<{ label: string; onClick?: () => void; pressed?: boolean; disabled?: boolean }>) {
@@ -1176,8 +1026,7 @@ export default function ChatPageClient() {
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
-      let buffer = "";
-      let sawDone = false;
+      let buffer = ""; let sawDone = false;
 
       const updatePlaceholder = (delta: string) => {
         setMessages((prev) => {
@@ -1202,7 +1051,6 @@ export default function ChatPageClient() {
         buffer += chunk;
         const packets = buffer.split(/\r?\n\r?\n/);
         buffer = packets.pop() ?? "";
-
         for (const pkt of packets) {
           const lines = pkt.split(/\r?\n/).filter((l) => l.startsWith("data:"));
           for (const line of lines) {
@@ -1210,7 +1058,6 @@ export default function ChatPageClient() {
             if (!json) continue;
             let evt: any;
             try { evt = JSON.parse(json); } catch { continue; }
-
             if (evt?.type === "token") {
               const t = typeof evt.t === "string" ? evt.t : "";
               if (t) updatePlaceholder(t);
@@ -1258,7 +1105,7 @@ export default function ChatPageClient() {
   const FIXED_TOP_BAR_PX = TOP_ROW_H + MODE_ROW_H;
 
   return (
-    <div className="w-full min-h-screen bg-slate-50">
+    <div className="w-full min-h-screen" style={{ backgroundColor: BRAND_BG }}>
       <button type="button" className="md:hidden fixed left-3 top-20 z-50 rounded-md border bg-white px-3 py-2 text-sm shadow" aria-label="Open history" onClick={() => setIsSidebarOpen(true)}>
         ☰
       </button>
@@ -1311,7 +1158,10 @@ export default function ChatPageClient() {
       {isSidebarOpen && <div className="fixed inset-0 z-30 bg-black/30 md:hidden" onClick={() => setIsSidebarOpen(false)} />}
 
       <div className="relative pt-16 md:pt-16 md:ml-64">
-        <div className="fixed top-16 right-0 left-0 md:left-64 z-40 bg-slate-50/95 backdrop-blur border-b" style={{ height: FIXED_TOP_BAR_PX }}>
+        <div
+          className="fixed top-16 right-0 left-0 md:left-64 z-40 backdrop-blur border-b"
+          style={{ height: FIXED_TOP_BAR_PX, backgroundColor: BRAND_BG }}
+        >
           <div className="border-b" style={{ height: TOP_ROW_H }}>
             <div className={`mx-auto w-full ${CONTENT_MAX} px-4 h-full flex items-center justify-between`}>
               <div className="flex items-center gap-3">
@@ -1365,7 +1215,10 @@ export default function ChatPageClient() {
             <div className="flex flex-col space-y-3">
               {messages.map((m) => (
                 <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
-                  <div className={`relative w-full md:max-w-[96%] rounded-2xl px-4 py-3 text-[15px] leading-relaxed shadow break-words overflow-hidden ${m.role === "user" ? "bg-blue-600 text-white md:max-w-[70%]" : "bg-gray-50 text-gray-900 border border-gray-200"}`}>
+                  <div
+                    className={`relative w-full md:max-w-[96%] rounded-2xl px-4 py-3 text-[15px] leading-relaxed shadow break-words overflow-hidden ${m.role === "user" ? "md:max-w-[70%]" : "bg-white text-gray-900 border border-gray-200"}`}
+                    style={m.role === "user" ? { backgroundColor: "#b2e0e0", color: "#1a1a1a" } : {}}
+                  >
                     {m.role === "assistant" ? (
                       mode === "quick" ? (
                         renderMarkdownWithDetails(m.content || (m.placeholder ? "Typing…" : ""))
@@ -1400,11 +1253,9 @@ export default function ChatPageClient() {
             )}
 
             <div className="flex items-center gap-2">
-              <div className="flex items-center gap-2">
-                <IconButton label="Attach" onClick={() => { const u = loadUsage(); if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); return; } attachInputRef.current?.click(); }}>
-                  <span role="img" aria-hidden>📎</span>
-                </IconButton>
-              </div>
+              <IconButton label="Attach" onClick={() => { const u = loadUsage(); if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); return; } attachInputRef.current?.click(); }}>
+                <span role="img" aria-hidden>📎</span>
+              </IconButton>
 
               <input
                 id="mp-composer"

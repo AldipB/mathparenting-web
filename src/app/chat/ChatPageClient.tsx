@@ -452,7 +452,6 @@ function cleanTextForRender(text: string) {
 
 const MP_SECTIONS = [
   { key: "⏱️ Parent Quick Plan", aliases: ["⏱️ Parent Quick Plan"] },
-  { key: "🧠 Core Idea", aliases: ["🧠 Core Idea"] },
   { key: "👨‍👩‍👧 How to teach this", aliases: ["👨‍👩‍👧 How to teach this", "👨‍👩‍👧 Step-by-Step Teaching Guide", "👨‍👩‍👧 Step by Step Teaching Guide"] },
   { key: "🏠 Do this together at home", aliases: ["🏠 Do this together at home", "🏠 Household Demonstration"] },
   { key: "🧩 Extra practice", aliases: ["🧩 Extra practice", "🧩 Practice questions", "🧩 Practice Together"] },
@@ -549,7 +548,6 @@ function inferDiagramFromText(sectionTitle: MPSectionKey, bodyRaw: string): Diag
   const outOf = body.match(/(\d+)\s*(?:out\s+of|\/)\s*(\d+)/);
   if (outOf) {
     const a = clampInt(Number(outOf[1]), 0, 24); const b = clampInt(Number(outOf[2]), 2, 24);
-    if (sectionTitle === "🧠 Core Idea") return { type: "grid", rows: 1, cols: b, shaded: a, label: `Chosen ${a} out of total ${b}` };
     if (body.includes("pizza") || body.includes("slice") || body.includes("pie") || body.includes("circle")) return { type: "pizza", slices: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
     if (body.includes("rectangle") || body.includes("grid")) return { type: "grid", rows: 1, cols: b, shaded: a, label: `Out of ${b}, chosen ${a}` };
     const item = body.includes("coin") ? "coins" : body.includes("button") ? "buttons" : body.includes("marble") ? "marbles" : body.includes("apple") ? "apples" : body.includes("cookie") ? "cookies" : "items";
@@ -726,7 +724,6 @@ function renderAssistantTeachingCard(textRaw: string) {
     if (s.title === "👨‍👩‍👧 How to teach this") body = formatStepByStepBody(body);
     if (s.title === "🏠 Do this together at home") { body = keepOnlyFirstDiagramBlock(body); body = injectInferredDiagram(s.title, body); }
     if (s.title === "🧩 Extra practice") body = injectInferredDiagram(s.title, body);
-    if (s.title === "🧠 Core Idea") body = injectInferredDiagram(s.title, body);
     return { ...s, body };
   });
 

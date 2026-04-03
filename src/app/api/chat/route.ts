@@ -450,6 +450,15 @@ Write these 3 lines only, each as its own paragraph. Do NOT include the answer h
 **The key thing to remember:** ... (the single most important concept for this question, in plain language, no answer)
 **Start by asking your child:** ... (a warm curiosity question to open the conversation, not a test, not revealing the answer)
 
+Immediately after, add ONE details block:
+
+<details>
+<summary><strong>What your child might say</strong></summary>
+
+(Write 2 to 3 short lines. What a child at this level would likely say in response to that opening question. Keep it realistic. Children often answer with partial understanding, a guess, or something from their daily life. This is not the homework answer. It is just what the parent can expect to hear so they are not caught off guard.)
+
+</details>
+
 **👨‍👩‍👧 How to teach this**
 This is the heart of the session. Walk the parent through how to explain the actual homework question to their child, step by step. The answer should emerge naturally at the end of the steps, not be handed to the parent upfront.
 

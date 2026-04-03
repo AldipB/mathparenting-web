@@ -5,6 +5,31 @@ import OpenAI from "openai";
 import { getServerSupabase } from "@/lib/supabaseServer";
 
 /* =========================================================================
+   Rate limiting - 30 messages per hour per user
+   ========================================================================= */
+const rateLimitMap = new Map<string, { count: number; windowStart: number }>();
+
+function checkRateLimit(userId: string): boolean {
+  const now = Date.now();
+  const windowMs = 60 * 60 * 1000; // 1 hour
+  const maxRequests = 30;
+
+  const entry = rateLimitMap.get(userId);
+
+  if (!entry || now - entry.windowStart > windowMs) {
+    rateLimitMap.set(userId, { count: 1, windowStart: now });
+    return true;
+  }
+
+  if (entry.count >= maxRequests) {
+    return false;
+  }
+
+  entry.count += 1;
+  return true;
+}
+
+/* =========================================================================
    Types
    ========================================================================= */
 type ChatRole = "user" | "assistant" | "system";
@@ -450,7 +475,7 @@ Write these 3 lines only, each as its own paragraph. Do NOT include the answer h
 **The key thing to remember:** ... (the single most important concept for this question, in plain language, no answer)
 **Start by asking your child:** ... (a warm curiosity question to open the conversation, not a test, not revealing the answer)
 
-Immediately after, add ONE details block:
+Immediately after the opening question, add ONE details block:
 
 <details>
 <summary><strong>What your child might say</strong></summary>
@@ -665,6 +690,14 @@ export async function POST(req: Request) {
     const { data, error } = await supabase.auth.getUser();
     if (error || !data?.user) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    const userId = data.user.id;
+    if (!checkRateLimit(userId)) {
+      return NextResponse.json(
+        { error: "You have sent 30 messages this hour. Please wait a little before sending more." },
+        { status: 429 }
+      );
     }
 
     const body = (await req.json().catch(() => ({}))) as ChatRequest;

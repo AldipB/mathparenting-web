@@ -321,7 +321,7 @@ export default function HomePage() {
             Start with tonight's homework →
           </Link>
           <p className="mt-4 text-white opacity-60 text-sm">
-            Free to try. No credit card needed.
+            CAD 14.99 per month. Cancel anytime and keep access until the end of your billing period.
           </p>
         </div>
 

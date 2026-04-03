@@ -42,16 +42,6 @@ const SESSIONS_KEY = "mp.sessions.v1";
 const MKEY = (id: string) => `mp.messages.${id}.v1`;
 const QKEY = (id: string) => `mp.qextract.${id}.v1`;
 
-const USAGE_KEY = "mp.usage.v1";
-const MONTHLY_MESSAGE_LIMIT = 500;
-const MONTHLY_IMAGE_LIMIT = 100;
-
-type Usage = {
-  month: string;
-  messagesSent: number;
-  imagesSent: number;
-};
-
 const isClient = typeof window !== "undefined";
 const uid = () => Math.random().toString(36).slice(2) + Date.now().toString(36);
 const pretty = (t: number) => new Date(t).toLocaleString();
@@ -88,41 +78,6 @@ function saveExtracted(id: string, questions: ExtractedQuestion[]) {
 function clearExtracted(id: string) {
   if (!isClient) return;
   localStorage.removeItem(QKEY(id));
-}
-
-/* ------------------------------------------------------------------ */
-/* Monthly usage helpers                                              */
-/* ------------------------------------------------------------------ */
-
-function monthKeyFromNow() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
-}
-
-function loadUsage(): Usage {
-  const currentMonth = monthKeyFromNow();
-  if (!isClient) return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-  try {
-    const raw = localStorage.getItem(USAGE_KEY);
-    if (!raw) return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-    const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== "object") return { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-    if (parsed.month !== currentMonth) {
-      const fresh: Usage = { month: currentMonth, messagesSent: 0, imagesSent: 0 };
-      localStorage.setItem(USAGE_KEY, JSON.stringify(fresh));
-      return fresh;
-    }
-    return {
-      month: currentMonth,
-      messagesSent: Number.isFinite(parsed.messagesSent) ? Number(parsed.messagesSent) : 0,
-      imagesSent: Number.isFinite(parsed.imagesSent) ? Number(parsed.imagesSent) : 0,
-    };
-  } catch { return { month: currentMonth, messagesSent: 0, imagesSent: 0 }; }
-}
-
-function saveUsage(u: Usage) {
-  if (!isClient) return;
-  localStorage.setItem(USAGE_KEY, JSON.stringify(u));
 }
 
 /* ------------------------------------------------------------------ */
@@ -823,8 +778,6 @@ export default function ChatPageClient() {
   const attachInputRef = useRef<HTMLInputElement>(null);
 
   const [extractedQuestions, setExtractedQuestions] = useState<ExtractedQuestion[]>([]);
-  const [usage, setUsage] = useState<Usage>(() => loadUsage());
-  const [usagePopoverOpen, setUsagePopoverOpen] = useState(false);
 
   useEffect(() => {
     setSessions(loadSessions());
@@ -833,26 +786,11 @@ export default function ChatPageClient() {
     setIsEphemeral(true);
     setMessages([]);
     setExtractedQuestions([]);
-    setUsage(loadUsage());
   }, []);
 
-  useEffect(() => { const u = loadUsage(); setUsage(u); }, [messages.length, attachedImages.length]);
   useEffect(() => { if (activeId) setExtractedQuestions(loadExtracted(activeId)); }, [activeId]);
   useEffect(() => { if (activeId && !isEphemeral) setMessages(loadMessages(activeId)); }, [activeId, isEphemeral]);
   useEffect(() => { if (activeId && !isEphemeral) saveMessages(activeId, messages); }, [activeId, isEphemeral, messages]);
-
-  useEffect(() => {
-    const onDown = (e: MouseEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (!target) { setUsagePopoverOpen(false); return; }
-      if (target.closest?.("[data-usage-popover-root='true']")) return;
-      setUsagePopoverOpen(false);
-    };
-    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setUsagePopoverOpen(false); };
-    document.addEventListener("mousedown", onDown);
-    document.addEventListener("keydown", onKey);
-    return () => { document.removeEventListener("mousedown", onDown); document.removeEventListener("keydown", onKey); };
-  }, []);
 
   const hasUser = useMemo(() => messages.some((m) => m.role === "user"), [messages]);
   const showSplash = !hasUser && !loading && input.trim().length === 0;
@@ -876,7 +814,6 @@ export default function ChatPageClient() {
     setIsSidebarOpen(false);
     setAttachedImages([]);
     setExtractedQuestions([]);
-    setUsagePopoverOpen(false);
     clearExtracted(id);
   }
 
@@ -901,23 +838,11 @@ export default function ChatPageClient() {
     const files = Array.from(e.target.files || []);
     if (!files.length) return;
 
-    const u = loadUsage();
-    const imageFiles = files.filter((f) => (f.type || "").startsWith("image/"));
-    if (imageFiles.length) {
-      const remaining = MONTHLY_IMAGE_LIMIT - u.imagesSent;
-      if (remaining <= 0) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); e.currentTarget.value = ""; return; }
-      if (imageFiles.length > remaining) alert(`You can upload only ${remaining} more image(s) this month.`);
-    }
-
-    let addedImages = 0;
     for (const file of files) {
       const isImage = (file.type || "").startsWith("image/");
       if (isImage) {
-        const uNow = loadUsage();
-        if (uNow.imagesSent + addedImages >= MONTHLY_IMAGE_LIMIT) continue;
         const base64 = await fileToBase64(file);
         setAttachedImages((prev) => [...prev, base64]);
-        addedImages += 1;
       } else {
         const fd = new FormData();
         fd.append("file", file, file.name);
@@ -937,26 +862,11 @@ export default function ChatPageClient() {
       }
     }
 
-    setUsage(loadUsage());
     e.currentTarget.value = "";
   }
 
   function removeImage(idx: number) {
     setAttachedImages((prev) => prev.filter((_, i) => i !== idx));
-  }
-
-  function canSendNow(nextImagesCount: number) {
-    const u = loadUsage();
-    if (u.messagesSent >= MONTHLY_MESSAGE_LIMIT) { alert(`Monthly message limit reached (${MONTHLY_MESSAGE_LIMIT}).`); return false; }
-    if (u.imagesSent + nextImagesCount > MONTHLY_IMAGE_LIMIT) { const remaining = Math.max(0, MONTHLY_IMAGE_LIMIT - u.imagesSent); alert(`Monthly image limit exceeded. You can upload ${remaining} more image(s) this month.`); return false; }
-    return true;
-  }
-
-  function bumpUsage(imagesUsed: number) {
-    const u = loadUsage();
-    const next: Usage = { month: u.month, messagesSent: u.messagesSent + 1, imagesSent: u.imagesSent + imagesUsed };
-    saveUsage(next);
-    setUsage(next);
   }
 
   async function sendMessage(e: React.FormEvent<HTMLFormElement>) {
@@ -965,7 +875,6 @@ export default function ChatPageClient() {
 
     const content = input.trim();
     if ((!content && attachedImages.length === 0) || !activeId) return;
-    if (!canSendNow(attachedImages.length)) return;
 
     inflightRef.current = true;
     setLoading(true);
@@ -981,9 +890,6 @@ export default function ChatPageClient() {
     const imagesToSend = [...attachedImages];
     setAttachedImages([]);
     setInput("");
-    setUsagePopoverOpen(false);
-
-    bumpUsage(imagesToSend.length);
 
     if (isEphemeral) {
       const card: ChatSession = { id: activeId, title: (content || "New chat").replace(/\s+/g, " ").slice(0, 40) || "New chat", createdAt: now, updatedAt: now };
@@ -1018,7 +924,21 @@ export default function ChatPageClient() {
         body: JSON.stringify({ messages: historyToSend }),
       });
 
-      if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok || !res.body) {
+        if (res.status === 429) {
+          const err = await res.json().catch(() => ({}));
+          setMessages((prev) => {
+            const copy = [...prev];
+            const i = copy.findIndex((m) => m.id === phId);
+            const msg: ChatMessage = { id: uid(), role: "assistant", content: err?.error || "You have sent too many messages this hour. Please wait a moment before trying again.", ts: Date.now() };
+            if (i >= 0) copy[i] = msg;
+            else copy.push(msg);
+            return copy;
+          });
+          return;
+        }
+        throw new Error(`HTTP ${res.status}`);
+      }
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
@@ -1088,12 +1008,8 @@ export default function ChatPageClient() {
     } finally {
       setLoading(false);
       inflightRef.current = false;
-      setUsage(loadUsage());
     }
   }
-
-  const messagesRemaining = Math.max(0, MONTHLY_MESSAGE_LIMIT - (usage?.messagesSent ?? 0));
-  const imagesRemaining = Math.max(0, MONTHLY_IMAGE_LIMIT - (usage?.imagesSent ?? 0));
 
   const CONTENT_MAX = "max-w-5xl";
   const TOP_ROW_H = 44;
@@ -1158,7 +1074,7 @@ export default function ChatPageClient() {
           style={{ height: FIXED_TOP_BAR_PX, backgroundColor: BRAND_BG }}
         >
           <div style={{ height: TOP_ROW_H }}>
-            <div className={`mx-auto w-full ${CONTENT_MAX} px-4 h-full flex items-center justify-between`}>
+            <div className={`mx-auto w-full ${CONTENT_MAX} px-4 h-full flex items-center`}>
               <div className="flex items-center gap-3">
                 {logoOk ? (
                   <Image src="/logo.png" alt="MathParenting logo" width={28} height={28} className="rounded-md" priority onError={() => setLogoOk(false)} />
@@ -1220,7 +1136,7 @@ export default function ChatPageClient() {
             )}
 
             <div className="flex items-center gap-2">
-              <IconButton label="Attach photo or file" onClick={() => { const u = loadUsage(); if (u.imagesSent >= MONTHLY_IMAGE_LIMIT) { alert(`Monthly image limit reached (${MONTHLY_IMAGE_LIMIT}).`); return; } attachInputRef.current?.click(); }}>
+              <IconButton label="Attach photo or file" onClick={() => attachInputRef.current?.click()}>
                 <span role="img" aria-hidden>📎</span>
               </IconButton>
 
@@ -1232,28 +1148,13 @@ export default function ChatPageClient() {
                 onChange={(e) => setInput(e.target.value)}
               />
 
-              <div className="flex items-center gap-2">
-                <button
-                  type="submit"
-                  disabled={loading || (input.trim().length === 0 && attachedImages.length === 0) || usage.messagesSent >= MONTHLY_MESSAGE_LIMIT || usage.imagesSent + attachedImages.length > MONTHLY_IMAGE_LIMIT}
-                  className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
-                >
-                  Send
-                </button>
-
-                <div data-usage-popover-root="true" className="relative">
-                  <button type="button" aria-label="Usage info" className="h-10 w-10 grid place-items-center rounded-xl border bg-white hover:bg-gray-50 text-gray-700" aria-pressed={usagePopoverOpen} onClick={() => setUsagePopoverOpen((v) => !v)}>
-                    ℹ️
-                  </button>
-                  {usagePopoverOpen && (
-                    <div className="absolute bottom-12 right-0 w-64 rounded-xl border bg-white shadow-lg p-3 text-xs text-gray-700">
-                      <div className="font-semibold text-gray-900 mb-1">This month remaining</div>
-                      <div>Messages left: {messagesRemaining}</div>
-                      <div>Images left: {imagesRemaining}</div>
-                    </div>
-                  )}
-                </div>
-              </div>
+              <button
+                type="submit"
+                disabled={loading || (input.trim().length === 0 && attachedImages.length === 0)}
+                className="rounded-xl px-5 py-2 bg-blue-600 text-white font-semibold disabled:opacity-50 hover:bg-blue-700"
+              >
+                Send
+              </button>
             </div>
           </form>
         </div>

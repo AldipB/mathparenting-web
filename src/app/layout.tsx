@@ -1,4 +1,4 @@
-// src/app/layout.tsx
+﻿// src/app/layout.tsx
 import type { Metadata, Viewport } from "next";
 import "katex/dist/katex.min.css";
 import "./globals.css";
@@ -7,29 +7,24 @@ import InstallPrompt from "@/components/InstallPrompt";
 
 export const dynamic = "force-static";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://mathparenting.vercel.app";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mathparenting.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: "MathParenting", template: "%s — MathParenting" },
-  description: "Teach any math topic at home with simple, parent friendly steps.",
+  description: "Help your child with K-12 math homework without giving them the answer. MathParenting coaches you step by step so you become the mentor.",
   applicationName: "MathParenting",
   manifest: "/manifest.json",
   icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    icon: [{ url: "/logo.png", type: "image/png" }],
+    apple: [{ url: "/logo.png" }],
   },
   openGraph: {
     type: "website",
     url: SITE_URL,
     siteName: "MathParenting",
     title: "MathParenting",
-    description: "Parent friendly math guidance, real life examples, and practice you can do at home.",
+    description: "Help your child with K-12 math homework without giving them the answer. MathParenting coaches you step by step so you become the mentor.",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "MathParenting" }],
   },
   twitter: {
@@ -37,7 +32,7 @@ export const metadata: Metadata = {
     site: "@mathparenting",
     creator: "@mathparenting",
     title: "MathParenting",
-    description: "Parent friendly math guidance, real life examples, and practice you can do at home.",
+    description: "Help your child with K-12 math homework without giving them the answer. MathParenting coaches you step by step so you become the mentor.",
     images: ["/og.png"],
   },
   category: "education",

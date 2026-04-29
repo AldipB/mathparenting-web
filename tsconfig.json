@@ -1,4 +1,4 @@
-{
+﻿{
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
@@ -14,7 +14,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "types": [],
     "baseUrl": ".",
     "paths": {
       "@/*": [
@@ -41,3 +40,4 @@
     "node_modules"
   ]
 }
+

@@ -78,13 +78,13 @@ export default function ChatPage() {
             The chat is only available for signed in users. Please sign in or create an account.
           </p>
           <div className="flex justify-center gap-3">
-            
+            <a
               href="/signin?next=/chat"
               className="rounded-lg px-4 py-2 text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700"
             >
               Sign in
             </a>
-            
+            <a
               href="/signup"
               className="rounded-lg px-4 py-2 text-sm font-semibold border border-gray-300 hover:bg-gray-50"
             >

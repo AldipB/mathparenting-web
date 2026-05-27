@@ -578,7 +578,7 @@ export default function HomePage() {
                   One price. No surprises.
                 </h2>
                 <p style={{ color: "var(--ink-soft)", fontSize: "1rem", lineHeight: 1.75, maxWidth: 420, fontFamily: "'Nunito', sans-serif" }}>
-                  Cancel anytime and keep access until the end of your billing period. No refund for the current period since you already used the service.
+                  Cancel anytime and keep access until the end of your billing period.
                 </p>
               </div>
               <div className="price-box">

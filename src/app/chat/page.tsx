@@ -44,40 +44,63 @@ export default function ChatPage() {
   }, [session]);
 
   const handleSubscribe = async () => {
-  if (!session?.user?.email) {
-    alert("No email found on your session. Try signing out and back in.");
-    return;
-  }
-  setLoading(true);
-
-  try {
-    const res = await fetch("/api/stripe/checkout", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: session.user.email }),
-    });
-
-    const data = await res.json();
-    console.log("Checkout response:", res.status, data);
-
-    if (!res.ok) {
-      alert(`Checkout failed (${res.status}): ${data.error || "Unknown error"}`);
-      setLoading(false);
+    if (!session?.user?.email) {
+      alert("No email found on your session. Try signing out and back in.");
       return;
     }
+    setLoading(true);
 
-    if (data.url) {
-      window.location.href = data.url;
-    } else {
-      alert("No checkout URL returned from server.");
+    try {
+      const res = await fetch("/api/stripe/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: session.user.email }),
+      });
+
+      const data = await res.json();
+      console.log("Checkout response:", res.status, data);
+
+      if (!res.ok) {
+        alert(`Checkout failed (${res.status}): ${data.error || "Unknown error"}`);
+        setLoading(false);
+        return;
+      }
+
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        alert("No checkout URL returned from server.");
+        setLoading(false);
+      }
+    } catch (err) {
+      console.error("Subscribe error:", err);
+      alert(`Network error: ${err instanceof Error ? err.message : String(err)}`);
       setLoading(false);
     }
-  } catch (err) {
-    console.error("Subscribe error:", err);
-    alert(`Network error: ${err instanceof Error ? err.message : String(err)}`);
-    setLoading(false);
-  }
-};
+  };
+
+  const handleManageSubscription = async () => {
+    if (!session?.user?.email) return;
+
+    try {
+      const res = await fetch("/api/stripe/portal", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: session.user.email }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert(`Could not open billing portal: ${data.error || "Unknown error"}`);
+        return;
+      }
+
+      if (data.url) window.location.href = data.url;
+    } catch (err) {
+      alert(`Network error: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  };
 
   if (session === undefined || isSubscribed === null && session !== null) {
     return (
@@ -144,7 +167,15 @@ export default function ChatPage() {
 
   return (
     <ErrorBoundary>
-      <ChatPageClient />
+      <div className="relative">
+        <button
+          onClick={handleManageSubscription}
+          className="fixed top-20 right-4 z-50 text-xs text-gray-500 underline hover:text-gray-700"
+        >
+          Manage subscription
+        </button>
+        <ChatPageClient />
+      </div>
     </ErrorBoundary>
   );
 }

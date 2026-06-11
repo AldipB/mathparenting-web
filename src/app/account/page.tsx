@@ -9,6 +9,8 @@ export default function AccountPage() {
   const supabase = getBrowserSupabase();
   const [session, setSession] = useState<Session | null | undefined>(undefined);
   const [msg, setMsg] = useState<string | null>(null);
+  const [isSubscribed, setIsSubscribed] = useState<boolean | null>(null);
+  const [portalLoading, setPortalLoading] = useState(false);
 
   useEffect(() => {
     let mounted = true;
@@ -33,6 +35,49 @@ export default function AccountPage() {
       sub.subscription.unsubscribe();
     };
   }, [supabase]);
+
+  useEffect(() => {
+    if (!session?.user?.email) return;
+
+    fetch("/api/check-subscription", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: session.user.email }),
+    })
+      .then((res) => res.json())
+      .then((data) => setIsSubscribed(data.subscribed))
+      .catch(() => setIsSubscribed(null));
+  }, [session]);
+
+  const handleManageSubscription = async () => {
+    if (!session?.user?.email) return;
+    setPortalLoading(true);
+
+    try {
+      const res = await fetch("/api/stripe/portal", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: session.user.email }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert(`Could not open billing portal: ${data.error || "Unknown error"}`);
+        setPortalLoading(false);
+        return;
+      }
+
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        setPortalLoading(false);
+      }
+    } catch (err) {
+      alert(`Network error: ${err instanceof Error ? err.message : String(err)}`);
+      setPortalLoading(false);
+    }
+  };
 
   if (session === undefined) {
     return (
@@ -100,6 +145,47 @@ export default function AccountPage() {
             Sign out
           </button>
         </div>
+      </div>
+
+      <div className="mt-6 rounded-2xl border bg-white p-5 space-y-3">
+        <h2 className="text-lg font-bold text-gray-900">Subscription</h2>
+
+        {isSubscribed === null && (
+          <p className="text-sm text-gray-600">Checking your subscription status…</p>
+        )}
+
+        {isSubscribed === false && (
+          <>
+            <p className="text-sm text-gray-600">
+              You do not have an active subscription.
+            </p>
+            <Link
+              href="/chat"
+              className="inline-block rounded-lg bg-blue-600 px-4 py-2 text-white font-semibold hover:bg-blue-700"
+            >
+              Subscribe to MathParenting
+            </Link>
+          </>
+        )}
+
+        {isSubscribed === true && (
+          <>
+            <p className="text-sm text-gray-600">
+              Your MathParenting subscription is <span className="font-semibold text-green-700">active</span>.
+            </p>
+            <button
+              type="button"
+              onClick={handleManageSubscription}
+              disabled={portalLoading}
+              className="rounded-lg border px-4 py-2 hover:bg-gray-50 disabled:opacity-50"
+            >
+              {portalLoading ? "Opening billing portal…" : "Manage subscription"}
+            </button>
+            <p className="text-xs text-gray-400">
+              Update your payment method, view invoices, or cancel anytime.
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

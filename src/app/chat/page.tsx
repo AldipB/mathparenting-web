@@ -79,29 +79,6 @@ export default function ChatPage() {
     }
   };
 
-  const handleManageSubscription = async () => {
-    if (!session?.user?.email) return;
-
-    try {
-      const res = await fetch("/api/stripe/portal", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: session.user.email }),
-      });
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        alert(`Could not open billing portal: ${data.error || "Unknown error"}`);
-        return;
-      }
-
-      if (data.url) window.location.href = data.url;
-    } catch (err) {
-      alert(`Network error: ${err instanceof Error ? err.message : String(err)}`);
-    }
-  };
-
   if (session === undefined || isSubscribed === null && session !== null) {
     return (
       <div className="w-full min-h-screen flex items-center justify-center">
@@ -167,15 +144,7 @@ export default function ChatPage() {
 
   return (
     <ErrorBoundary>
-      <div className="relative">
-        <button
-          onClick={handleManageSubscription}
-          className="fixed top-20 right-4 z-50 text-xs text-gray-500 underline hover:text-gray-700"
-        >
-          Manage subscription
-        </button>
-        <ChatPageClient />
-      </div>
+      <ChatPageClient />
     </ErrorBoundary>
   );
 }

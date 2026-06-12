@@ -1,8 +1,267 @@
 // src/app/page.tsx
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+/* ------------------------------------------------------------------ */
+/* Scroll reveal hook                                                  */
+/* ------------------------------------------------------------------ */
+
+function useReveal() {
+  useEffect(() => {
+    const els = document.querySelectorAll(".reveal");
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("revealed");
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
+}
+
+/* ------------------------------------------------------------------ */
+/* Kitchen Table Game                                                  */
+/* ------------------------------------------------------------------ */
+
+type GameMode = "count" | "pizza";
+
+const COUNT_ITEMS = ["🍎", "🍪", "🪙", "⭐", "🍓", "⚽"];
+
+function randInt(lo: number, hi: number) {
+  return lo + Math.floor(Math.random() * (hi - lo + 1));
+}
+
+function makeCountRound() {
+  const emoji = COUNT_ITEMS[randInt(0, COUNT_ITEMS.length - 1)];
+  const count = randInt(3, 9);
+  const options = new Set<number>([count]);
+  while (options.size < 4) {
+    const n = count + randInt(-2, 2);
+    if (n >= 1) options.add(n);
+  }
+  return { emoji, count, options: [...options].sort((a, b) => a - b) };
+}
+
+function makePizzaRound() {
+  const slices = [4, 6, 8][randInt(0, 2)];
+  const target = randInt(1, slices - 1);
+  return { slices, target };
+}
+
+const COUNT_COACH = [
+  "Point to each one as your child says the number out loud. Touching while counting is how counting sticks.",
+  "Ask: \u201Chow do you know you didn\u2019t count one twice?\u201D Let them invent a system, like moving left to right.",
+  "If they rush and miss one, don\u2019t correct. Just ask \u201Cwant to double check together?\u201D and count along slowly.",
+];
+
+const PIZZA_COACH = [
+  "Ask: \u201Cif the whole pizza is cut into this many slices, what does the bottom number mean?\u201D Let them connect it themselves.",
+  "Tap a wrong slice on purpose and ask \u201Cdid that change how many we have?\u201D Mistakes you make are safe to laugh at.",
+  "Ask: \u201Cwhat fraction is left unshaded?\u201D That one question quietly teaches that the parts always add up to the whole.",
+];
+
+function KitchenTableGame() {
+  const [mode, setMode] = useState<GameMode>("pizza");
+  const [round, setRound] = useState(0);
+  const [score, setScore] = useState(0);
+  const [feedback, setFeedback] = useState<"idle" | "right" | "wrong">("idle");
+
+  const [countRound, setCountRound] = useState(makeCountRound);
+  const [pizzaRound, setPizzaRound] = useState(makePizzaRound);
+  const [shaded, setShaded] = useState<Set<number>>(new Set());
+
+  const coach =
+    mode === "count"
+      ? COUNT_COACH[round % COUNT_COACH.length]
+      : PIZZA_COACH[round % PIZZA_COACH.length];
+
+  function nextRound() {
+    setFeedback("idle");
+    setRound((r) => r + 1);
+    if (mode === "count") setCountRound(makeCountRound());
+    else {
+      setPizzaRound(makePizzaRound());
+      setShaded(new Set());
+    }
+  }
+
+  function switchMode(m: GameMode) {
+    setMode(m);
+    setFeedback("idle");
+    setRound(0);
+    setScore(0);
+    setCountRound(makeCountRound());
+    setPizzaRound(makePizzaRound());
+    setShaded(new Set());
+  }
+
+  function answerCount(n: number) {
+    if (feedback === "right") return;
+    if (n === countRound.count) {
+      setScore((s) => s + 1);
+      setFeedback("right");
+    } else {
+      setFeedback("wrong");
+    }
+  }
+
+  function toggleSlice(i: number) {
+    if (feedback === "right") return;
+    setFeedback("idle");
+    setShaded((prev) => {
+      const next = new Set(prev);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+  }
+
+  function checkPizza() {
+    if (shaded.size === pizzaRound.target) {
+      setScore((s) => s + 1);
+      setFeedback("right");
+    } else {
+      setFeedback("wrong");
+    }
+  }
+
+  /* pizza geometry */
+  const W = 260;
+  const cx = W / 2;
+  const cy = W / 2;
+  const r = 110;
+  const sliceAngle = (Math.PI * 2) / pizzaRound.slices;
+  const wedgePath = (i: number) => {
+    const a0 = i * sliceAngle - Math.PI / 2;
+    const a1 = (i + 1) * sliceAngle - Math.PI / 2;
+    const x0 = cx + r * Math.cos(a0);
+    const y0 = cy + r * Math.sin(a0);
+    const x1 = cx + r * Math.cos(a1);
+    const y1 = cy + r * Math.sin(a1);
+    return `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 0 1 ${x1} ${y1} Z`;
+  };
+
+  return (
+    <div className="game-shell">
+      {/* mode toggle */}
+      <div className="game-tabs" role="tablist" aria-label="Choose a game">
+        <button
+          role="tab"
+          aria-selected={mode === "pizza"}
+          className={`game-tab ${mode === "pizza" ? "game-tab-on" : ""}`}
+          onClick={() => switchMode("pizza")}
+        >
+          🍕 Pizza fractions <span className="game-tab-age">ages 7+</span>
+        </button>
+        <button
+          role="tab"
+          aria-selected={mode === "count"}
+          className={`game-tab ${mode === "count" ? "game-tab-on" : ""}`}
+          onClick={() => switchMode("count")}
+        >
+          🍎 Count together <span className="game-tab-age">ages 3 to 6</span>
+        </button>
+      </div>
+
+      <div className="game-board">
+        {/* left: the playable part */}
+        <div className="game-play">
+          {mode === "count" ? (
+            <>
+              <div className="game-question">How many do you see?</div>
+              <div className="game-emojis" aria-label={`${countRound.count} items to count`}>
+                {Array.from({ length: countRound.count }, (_, i) => (
+                  <span key={`${round}-${i}`} className="game-emoji" style={{ animationDelay: `${i * 70}ms` }}>
+                    {countRound.emoji}
+                  </span>
+                ))}
+              </div>
+              <div className="game-options">
+                {countRound.options.map((n) => (
+                  <button key={n} className="game-opt" onClick={() => answerCount(n)}>
+                    {n}
+                  </button>
+                ))}
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="game-question">
+                Tap slices to shade{" "}
+                <span className="game-fraction">
+                  <span>{pizzaRound.target}</span>
+                  <span className="game-fraction-bar" />
+                  <span>{pizzaRound.slices}</span>
+                </span>{" "}
+                of the pizza
+              </div>
+              <svg viewBox={`0 0 ${W} ${W}`} className="game-pizza" role="img" aria-label="Pizza divided into slices">
+                <circle cx={cx} cy={cy} r={r + 8} fill="#F5DEB8" />
+                <circle cx={cx} cy={cy} r={r} fill="#FBEFD8" stroke="#1C1008" strokeWidth={2} />
+                {Array.from({ length: pizzaRound.slices }, (_, i) => (
+                  <path
+                    key={i}
+                    d={wedgePath(i)}
+                    fill={shaded.has(i) ? "#1A8A8A" : "transparent"}
+                    stroke="#1C1008"
+                    strokeWidth={1.5}
+                    onClick={() => toggleSlice(i)}
+                    style={{ cursor: "pointer", transition: "fill 0.18s" }}
+                  />
+                ))}
+              </svg>
+              <button className="game-check" onClick={checkPizza} disabled={feedback === "right"}>
+                Check our pizza
+              </button>
+            </>
+          )}
+
+          {/* feedback */}
+          <div className="game-feedback" aria-live="polite">
+            {feedback === "right" && (
+              <div className="game-right">
+                <span className="game-burst">🎉</span> You got it together! Score: {score}
+                <button className="game-next" onClick={nextRound}>Next one →</button>
+              </div>
+            )}
+            {feedback === "wrong" && (
+              <div className="game-wrong">
+                Not yet, and that is fine. Try the coach tip →
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* right: the parent coaching, this is the product's soul */}
+        <div className="game-coach">
+          <div className="game-coach-label">🧑‍🏫 While you play, try this</div>
+          <p className="game-coach-text">{coach}</p>
+          <div className="game-coach-foot">
+            Every MathParenting answer comes with coaching like this, written for your child&rsquo;s exact homework question.
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Page                                                                */
+/* ------------------------------------------------------------------ */
+
 export default function HomePage() {
+  useReveal();
+  const year = useRef(new Date().getFullYear());
+
   return (
     <>
       <style>{`
@@ -30,36 +289,59 @@ export default function HomePage() {
 
         .display { font-family: 'Playfair Display', serif; }
 
-        @keyframes fadeUp {
-          from { opacity: 0; transform: translateY(28px); }
-          to   { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes floatLogo {
-          0%, 100% { transform: translateY(0px) rotate(-2deg); }
-          50%       { transform: translateY(-10px) rotate(-2deg); }
-        }
-        @keyframes pulse-ring {
-          0%   { transform: scale(1);   opacity: 0.5; }
-          100% { transform: scale(1.7); opacity: 0; }
-        }
+        /* ---------- motion ---------- */
+        .reveal { opacity: 0; transform: translateY(26px); }
+        @media (prefers-reduced-motion: no-preference) {
+          .reveal { transition: opacity 0.7s ease, transform 0.7s ease; }
+          .revealed { opacity: 1; transform: translateY(0); }
 
-        .anim-0 { animation: fadeUp 0.7s ease both; }
-        .anim-1 { animation: fadeUp 0.7s 0.1s ease both; }
-        .anim-2 { animation: fadeUp 0.7s 0.2s ease both; }
-        .anim-3 { animation: fadeUp 0.7s 0.3s ease both; }
-        .anim-4 { animation: fadeUp 0.7s 0.4s ease both; }
-
-        .logo-float { animation: floatLogo 4s ease-in-out infinite; }
+          @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(28px); }
+            to   { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes floatLogo {
+            0%, 100% { transform: translateY(0px) rotate(-2deg); }
+            50%      { transform: translateY(-10px) rotate(-2deg); }
+          }
+          @keyframes pulse-ring {
+            0%   { transform: scale(1);   opacity: 0.5; }
+            100% { transform: scale(1.7); opacity: 0; }
+          }
+          @keyframes popIn {
+            0%   { opacity: 0; transform: scale(0.4); }
+            70%  { transform: scale(1.15); }
+            100% { opacity: 1; transform: scale(1); }
+          }
+          @keyframes burst {
+            0%   { transform: scale(0.6) rotate(-12deg); }
+            60%  { transform: scale(1.35) rotate(8deg); }
+            100% { transform: scale(1) rotate(0deg); }
+          }
+          .anim-0 { animation: fadeUp 0.7s ease both; }
+          .anim-1 { animation: fadeUp 0.7s 0.1s ease both; }
+          .anim-2 { animation: fadeUp 0.7s 0.2s ease both; }
+          .anim-3 { animation: fadeUp 0.7s 0.3s ease both; }
+          .anim-4 { animation: fadeUp 0.7s 0.4s ease both; }
+          .logo-float { animation: floatLogo 4s ease-in-out infinite; }
+          .game-emoji { animation: popIn 0.4s ease both; }
+          .game-burst { display: inline-block; animation: burst 0.5s ease both; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .reveal { opacity: 1; transform: none; }
+        }
 
         .pulse-ring {
           position: absolute;
           inset: -14px;
           border-radius: 50%;
           border: 2px solid rgba(26,138,138,0.35);
-          animation: pulse-ring 2.5s ease-out infinite;
         }
-        .pulse-ring-2 { animation-delay: 0.9s; }
+        @media (prefers-reduced-motion: no-preference) {
+          .pulse-ring { animation: pulse-ring 2.5s ease-out infinite; }
+          .pulse-ring-2 { animation-delay: 0.9s; }
+        }
 
+        /* ---------- buttons ---------- */
         .btn-primary {
           display: inline-flex;
           align-items: center;
@@ -74,6 +356,8 @@ export default function HomePage() {
           text-decoration: none !important;
           transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
           box-shadow: 0 4px 20px rgba(26,138,138,0.35);
+          border: none;
+          cursor: pointer;
         }
         .btn-primary:hover {
           background: var(--teal-dark);
@@ -95,6 +379,7 @@ export default function HomePage() {
           text-decoration: none !important;
           border: 2px solid var(--teal);
           transition: background 0.2s, transform 0.15s;
+          cursor: pointer;
         }
         .btn-ghost:hover {
           background: var(--teal-light);
@@ -122,6 +407,207 @@ export default function HomePage() {
           pointer-events: none;
         }
 
+        /* ---------- game ---------- */
+        .game-shell {
+          background: white;
+          border-radius: 28px;
+          border: 1px solid rgba(26,138,138,0.14);
+          box-shadow: 0 12px 56px rgba(28,16,8,0.1);
+          padding: 28px;
+          max-width: 880px;
+          margin: 0 auto;
+        }
+        .game-tabs {
+          display: flex;
+          gap: 10px;
+          flex-wrap: wrap;
+          margin-bottom: 22px;
+        }
+        .game-tab {
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: 0.92rem;
+          padding: 10px 18px;
+          border-radius: 100px;
+          border: 2px solid rgba(26,138,138,0.25);
+          background: white;
+          color: var(--teal-dark);
+          cursor: pointer;
+          transition: background 0.2s, border-color 0.2s;
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+        }
+        .game-tab:hover { background: var(--teal-light); }
+        .game-tab-on {
+          background: var(--teal);
+          border-color: var(--teal);
+          color: white;
+        }
+        .game-tab-age {
+          font-size: 0.72rem;
+          font-weight: 700;
+          opacity: 0.75;
+        }
+
+        .game-board {
+          display: grid;
+          grid-template-columns: 1fr 280px;
+          gap: 24px;
+          align-items: start;
+        }
+
+        .game-play { text-align: center; }
+
+        .game-question {
+          font-family: 'Playfair Display', serif;
+          font-weight: 700;
+          font-size: 1.3rem;
+          color: var(--ink);
+          margin-bottom: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          flex-wrap: wrap;
+        }
+        .game-fraction {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          line-height: 1.05;
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          color: var(--teal-dark);
+          font-size: 1.1rem;
+          vertical-align: middle;
+        }
+        .game-fraction-bar {
+          width: 22px;
+          height: 2.5px;
+          background: var(--teal-dark);
+          border-radius: 2px;
+          margin: 2px 0;
+        }
+
+        .game-emojis {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 12px;
+          font-size: 2.4rem;
+          min-height: 120px;
+          align-items: center;
+          margin-bottom: 18px;
+          max-width: 360px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .game-options {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .game-opt {
+          width: 56px;
+          height: 56px;
+          border-radius: 16px;
+          border: 2px solid rgba(26,138,138,0.3);
+          background: white;
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: 1.3rem;
+          color: var(--teal-dark);
+          cursor: pointer;
+          transition: background 0.15s, transform 0.12s;
+        }
+        .game-opt:hover { background: var(--teal-light); transform: translateY(-2px); }
+
+        .game-pizza {
+          width: 100%;
+          max-width: 250px;
+          height: auto;
+          margin: 0 auto 16px;
+          display: block;
+        }
+        .game-check {
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: 0.95rem;
+          padding: 12px 26px;
+          border-radius: 100px;
+          border: none;
+          background: var(--amber);
+          color: var(--ink);
+          cursor: pointer;
+          box-shadow: 0 4px 16px rgba(232,168,56,0.4);
+          transition: transform 0.15s, box-shadow 0.15s;
+        }
+        .game-check:hover { transform: translateY(-2px); box-shadow: 0 6px 22px rgba(232,168,56,0.5); }
+        .game-check:disabled { opacity: 0.5; cursor: default; transform: none; }
+
+        .game-feedback { min-height: 56px; margin-top: 16px; }
+        .game-right {
+          color: var(--teal-dark);
+          font-weight: 800;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          flex-wrap: wrap;
+        }
+        .game-next {
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: 0.85rem;
+          padding: 8px 18px;
+          border-radius: 100px;
+          border: none;
+          background: var(--teal);
+          color: white;
+          cursor: pointer;
+        }
+        .game-next:hover { background: var(--teal-dark); }
+        .game-wrong {
+          color: var(--amber);
+          font-weight: 800;
+          font-size: 0.95rem;
+        }
+
+        .game-coach {
+          background: var(--teal-light);
+          border: 1px solid rgba(26,138,138,0.18);
+          border-radius: 20px;
+          padding: 22px;
+        }
+        .game-coach-label {
+          font-weight: 800;
+          font-size: 0.8rem;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          color: var(--teal-dark);
+          margin-bottom: 10px;
+        }
+        .game-coach-text {
+          font-size: 0.95rem;
+          color: var(--ink-soft);
+          line-height: 1.75;
+          margin: 0 0 14px;
+          font-family: 'Nunito', sans-serif;
+        }
+        .game-coach-foot {
+          font-size: 0.8rem;
+          color: var(--teal-dark);
+          font-weight: 700;
+          line-height: 1.6;
+          border-top: 1px solid rgba(26,138,138,0.2);
+          padding-top: 12px;
+        }
+
+        /* ---------- cards ---------- */
         .moment-card {
           background: white;
           border-radius: 28px;
@@ -239,6 +725,10 @@ export default function HomePage() {
           gap: 6px;
         }
 
+        @media (max-width: 760px) {
+          .game-board { grid-template-columns: 1fr; }
+          .game-shell { padding: 20px; }
+        }
         @media (max-width: 640px) {
           .moment-card { padding: 28px 24px; }
           .hero-grid { grid-template-columns: 1fr !important; }
@@ -287,9 +777,9 @@ export default function HomePage() {
 
                 <div className="anim-3" style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 36 }}>
                   <Link href="/chat" className="btn-primary">
-                    Start with tonight's homework →
+                    Start with tonight&rsquo;s homework →
                   </Link>
-                  <a href="#how" className="btn-ghost">See how it works</a>
+                  <a href="#game" className="btn-ghost">Play a math game first 🍕</a>
                 </div>
 
                 <div className="anim-4" style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
@@ -326,9 +816,41 @@ export default function HomePage() {
           </section>
         </div>
 
+        {/* ── PLAYABLE GAME ── */}
+        <section id="game" style={{ background: "var(--teal-light)", padding: "72px 20px" }}>
+          <div style={{ maxWidth: 1080, margin: "0 auto" }}>
+            <div className="reveal" style={{ textAlign: "center", marginBottom: 36 }}>
+              <div className="ink-chip" style={{ marginBottom: 16 }}>Try it right now, free</div>
+              <h2 className="display" style={{
+                fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)",
+                fontWeight: 900,
+                color: "var(--ink)",
+                lineHeight: 1.2,
+                marginBottom: 14,
+              }}>
+                Play one round with your child
+              </h2>
+              <p style={{
+                color: "var(--ink-soft)",
+                fontSize: "1rem",
+                maxWidth: 520,
+                margin: "0 auto",
+                lineHeight: 1.75,
+                fontFamily: "'Nunito', sans-serif",
+              }}>
+                Call your child over. Play together for two minutes. Notice the coaching tips beside the game, that is what MathParenting does for every single homework question.
+              </p>
+            </div>
+
+            <div className="reveal">
+              <KitchenTableGame />
+            </div>
+          </div>
+        </section>
+
         {/* ── THE MOMENT ── */}
-        <section style={{ background: "var(--teal-light)", padding: "64px 20px" }}>
-          <div className="moment-card">
+        <section style={{ padding: "64px 20px" }}>
+          <div className="moment-card reveal">
             <div style={{ fontSize: "2.4rem", marginBottom: 16 }}>😮‍💨</div>
             <h2 className="display" style={{
               fontSize: "clamp(1.6rem, 3vw, 2.2rem)",
@@ -360,8 +882,8 @@ export default function HomePage() {
         <div style={{ maxWidth: 1080, margin: "0 auto", padding: "0 20px" }}>
 
           {/* ── HOW IT WORKS ── */}
-          <section id="how" style={{ padding: "80px 0" }}>
-            <div style={{ textAlign: "center", marginBottom: 52 }}>
+          <section id="how" style={{ padding: "40px 0 80px" }}>
+            <div className="reveal" style={{ textAlign: "center", marginBottom: 52 }}>
               <div className="ink-chip" style={{ marginBottom: 16 }}>How it works</div>
               <h2 className="display" style={{
                 fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)",
@@ -394,7 +916,7 @@ export default function HomePage() {
                   desc: "After the question is done, a physical activity using objects already in your home moves the concept from short term to long term memory.",
                 },
               ].map((step, i) => (
-                <div key={step.num} style={{ display: "flex", gap: 20, position: "relative", paddingBottom: i < 2 ? 28 : 0 }}>
+                <div key={step.num} className="reveal" style={{ display: "flex", gap: 20, position: "relative", paddingBottom: i < 2 ? 28 : 0 }}>
                   {i < 2 && (
                     <div style={{
                       position: "absolute",
@@ -433,8 +955,8 @@ export default function HomePage() {
               ))}
             </div>
 
-            <div style={{ textAlign: "center", marginTop: 44 }}>
-              <Link href="/chat" className="btn-primary">Try it with tonight's question →</Link>
+            <div className="reveal" style={{ textAlign: "center", marginTop: 44 }}>
+              <Link href="/chat" className="btn-primary">Try it with tonight&rsquo;s question →</Link>
             </div>
           </section>
         </div>
@@ -452,7 +974,7 @@ export default function HomePage() {
             top: -250, right: -100, pointerEvents: "none",
           }} />
           <div style={{ maxWidth: 1080, margin: "0 auto" }}>
-            <div style={{ textAlign: "center", marginBottom: 44 }}>
+            <div className="reveal" style={{ textAlign: "center", marginBottom: 44 }}>
               <div style={{
                 display: "inline-flex",
                 background: "rgba(255,255,255,0.1)",
@@ -490,7 +1012,7 @@ export default function HomePage() {
                 { icon: "🏠", title: "Household activity", desc: "A real physical activity using objects at home to move the concept from homework stress into long term memory." },
                 { icon: "🧑‍🏫", title: "If things get hard", desc: "Honest human coaching for stuck, rushing, frustrated, and confident moments. Written fresh for each specific question." },
               ].map((item) => (
-                <div key={item.title} className="get-card">
+                <div key={item.title} className="get-card reveal">
                   <div style={{ fontSize: "1.7rem", marginBottom: 10 }}>{item.icon}</div>
                   <div style={{ color: "white", fontWeight: 800, marginBottom: 6, fontSize: "0.93rem" }}>{item.title}</div>
                   <div style={{ color: "rgba(255,255,255,0.62)", fontSize: "0.87rem", lineHeight: 1.7, fontFamily: "'Nunito', sans-serif" }}>{item.desc}</div>
@@ -504,7 +1026,7 @@ export default function HomePage() {
 
           {/* ── WHO IT IS FOR ── */}
           <section style={{ padding: "80px 0" }}>
-            <div style={{ textAlign: "center", marginBottom: 48 }}>
+            <div className="reveal" style={{ textAlign: "center", marginBottom: 48 }}>
               <div className="ink-chip" style={{ marginBottom: 16 }}>Who it is for</div>
               <h2 className="display" style={{
                 fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)",
@@ -540,7 +1062,7 @@ export default function HomePage() {
                   border: "rgba(26,138,138,0.15)",
                 },
               ].map((card) => (
-                <div key={card.title} className="who-card" style={{ background: card.bg, border: `1px solid ${card.border}` }}>
+                <div key={card.title} className="who-card reveal" style={{ background: card.bg, border: `1px solid ${card.border}` }}>
                   <div style={{ fontSize: "2.2rem", marginBottom: 16 }}>{card.emoji}</div>
                   <div className="display" style={{ fontWeight: 700, fontSize: "1.05rem", color: "var(--ink)", marginBottom: 12 }}>
                     {card.title}
@@ -555,7 +1077,7 @@ export default function HomePage() {
 
           {/* ── PRICING ── */}
           <section style={{ padding: "0 0 80px" }}>
-            <div className="price-grid" style={{
+            <div className="price-grid reveal" style={{
               display: "grid",
               gridTemplateColumns: "1fr auto",
               gap: 40,
@@ -575,10 +1097,10 @@ export default function HomePage() {
                   marginBottom: 12,
                   lineHeight: 1.2,
                 }}>
-                  One price. No surprises.
+                  Less than 20 minutes of tutoring. For the whole month.
                 </h2>
                 <p style={{ color: "var(--ink-soft)", fontSize: "1rem", lineHeight: 1.75, maxWidth: 420, fontFamily: "'Nunito', sans-serif" }}>
-                  Cancel anytime and keep access until the end of your billing period.
+                  A private tutor costs $40 to $80 an hour and teaches your child once a week. MathParenting helps you teach them every night, for less than a pizza. Cancel anytime and keep access until the end of your billing period.
                 </p>
               </div>
               <div className="price-box">
@@ -589,10 +1111,10 @@ export default function HomePage() {
                   lineHeight: 1,
                   marginBottom: 4,
                 }}>
-                  $14.99
+                  $12.99
                 </div>
                 <div style={{ color: "var(--teal)", fontWeight: 700, fontSize: "0.88rem", marginBottom: 20, fontFamily: "'Nunito', sans-serif" }}>
-                  CAD per month
+                  USD per month
                 </div>
                 <Link href="/chat" className="btn-primary" style={{ fontSize: "0.9rem", padding: "11px 22px" }}>
                   Get started →
@@ -603,7 +1125,7 @@ export default function HomePage() {
 
           {/* ── FAQ ── */}
           <section style={{ padding: "0 0 80px" }}>
-            <div style={{ textAlign: "center", marginBottom: 40 }}>
+            <div className="reveal" style={{ textAlign: "center", marginBottom: 40 }}>
               <div className="ink-chip" style={{ marginBottom: 16 }}>FAQ</div>
               <h2 className="display" style={{
                 fontSize: "clamp(1.8rem, 3.5vw, 2.4rem)",
@@ -621,8 +1143,9 @@ export default function HomePage() {
                 { q: "What grades does it support?", a: "K to 12. From basic counting and addition all the way to calculus and statistics. Start with whatever your child brought home tonight." },
                 { q: "Can I upload a photo of the homework?", a: "Yes. Upload a photo of the worksheet, choose the specific question you want to work on, and the teaching plan is ready in seconds." },
                 { q: "What if my child is already frustrated before we start?", a: "Every response includes a section called If things get hard with honest human coaching written specifically for that topic. It covers stuck, rushing, frustrated, and confident moments." },
+                { q: "What currency will I be charged in?", a: "Prices are in US dollars. Your bank converts it automatically to your local currency, so it works the same whether you are in Toronto, Texas, or Tokyo." },
               ].map((f) => (
-                <details key={f.q} className="faq-item">
+                <details key={f.q} className="faq-item reveal">
                   <summary>
                     <span>{f.q}</span>
                     <span style={{ color: "var(--teal)", fontSize: "1.3rem", flexShrink: 0, fontWeight: 400 }}>+</span>
@@ -682,17 +1205,17 @@ export default function HomePage() {
             </p>
 
             <Link href="/chat" className="cta-link">
-              Start with tonight's homework →
+              Start with tonight&rsquo;s homework →
             </Link>
 
             <div style={{ color: "rgba(255,255,255,0.45)", fontSize: "0.85rem", marginTop: 20, fontFamily: "'Nunito', sans-serif" }}>
-              CAD 14.99 per month. Cancel anytime.
+              USD 12.99 per month. Cancel anytime.
             </div>
           </div>
         </section>
 
         <div style={{ textAlign: "center", padding: "24px 20px", color: "var(--ink-muted)", fontSize: "0.8rem", fontFamily: "'Nunito', sans-serif" }}>
-          MathParenting is learning support, not a replacement for school instruction.
+          © {year.current} MathParenting. Learning support, not a replacement for school instruction.
         </div>
       </div>
     </>

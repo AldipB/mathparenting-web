@@ -1,7 +1,7 @@
 // src/app/page.tsx
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -29,27 +29,289 @@ function useReveal() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Kitchen Table Game                                                  */
+/* Helpers                                                             */
 /* ------------------------------------------------------------------ */
-
-type GameMode = "count" | "pizza";
-
-const COUNT_ITEMS = ["🍎", "🍪", "🪙", "⭐", "🍓", "⚽"];
 
 function randInt(lo: number, hi: number) {
   return lo + Math.floor(Math.random() * (hi - lo + 1));
 }
 
-function makeCountRound() {
-  const emoji = COUNT_ITEMS[randInt(0, COUNT_ITEMS.length - 1)];
-  const count = randInt(3, 9);
-  const options = new Set<number>([count]);
-  while (options.size < 4) {
-    const n = count + randInt(-2, 2);
-    if (n >= 1) options.add(n);
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  return { emoji, count, options: [...options].sort((a, b) => a - b) };
+  return a;
 }
+
+/* ================================================================== */
+/* GAME 1: NUMBER POP - the fun one                                    */
+/* ================================================================== */
+
+type PopLevel = "easy" | "medium" | "times";
+
+const POP_LEVELS: Record<PopLevel, { label: string; sub: string; op: "+" | "×" }> = {
+  easy: { label: "Make it!", sub: "ages 5 to 7", op: "+" },
+  medium: { label: "Bigger sums", sub: "ages 7 to 9", op: "+" },
+  times: { label: "Times attack", sub: "ages 9 to 12", op: "×" },
+};
+
+const TIMES_TARGETS = [12, 16, 18, 20, 24, 36];
+
+function makePopTarget(level: PopLevel): number {
+  if (level === "easy") return randInt(6, 10);
+  if (level === "medium") return randInt(11, 18);
+  return TIMES_TARGETS[randInt(0, TIMES_TARGETS.length - 1)];
+}
+
+function factorPairs(n: number): Array<[number, number]> {
+  const pairs: Array<[number, number]> = [];
+  for (let a = 2; a * a <= n; a++) {
+    if (n % a === 0 && n / a <= 12) pairs.push([a, n / a]);
+  }
+  return pairs.length ? pairs : [[2, Math.round(n / 2)]];
+}
+
+function makePopBoard(level: PopLevel, target: number): number[] {
+  const nums: number[] = [];
+  if (level === "times") {
+    const pairs = factorPairs(target);
+    for (let i = 0; i < 3; i++) {
+      const [a, b] = pairs[randInt(0, pairs.length - 1)];
+      nums.push(a, b);
+    }
+    while (nums.length < 12) nums.push(randInt(2, 9));
+  } else {
+    const maxN = level === "easy" ? 9 : 12;
+    for (let i = 0; i < 3; i++) {
+      const a = randInt(1, Math.min(target - 1, maxN));
+      const b = target - a;
+      if (b >= 1 && b <= maxN) nums.push(a, b);
+      else nums.push(randInt(1, maxN), randInt(1, maxN));
+    }
+    while (nums.length < 12) nums.push(randInt(1, maxN));
+  }
+  return shuffle(nums);
+}
+
+const BUBBLE_COLORS = ["#1A8A8A", "#E8A838", "#D96C4F", "#5B8DC9", "#7FB069", "#B77BC4"];
+
+const GAME_OVER_LINES = [
+  "High fives all around! 🙌",
+  "Your team is getting dangerous. 😎",
+  "The kitchen table champions! 🏆",
+  "Math has never been this loud. 🎉",
+];
+
+function NumberPopGame() {
+  const [level, setLevel] = useState<PopLevel>("easy");
+  const [phase, setPhase] = useState<"idle" | "playing" | "over">("idle");
+  const [target, setTarget] = useState(8);
+  const [board, setBoard] = useState<number[]>([]);
+  const [colors, setColors] = useState<string[]>([]);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [shaking, setShaking] = useState<number[]>([]);
+  const [popping, setPopping] = useState<number[]>([]);
+  const [score, setScore] = useState(0);
+  const [streak, setStreak] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(60);
+  const [best, setBest] = useState(0);
+  const [boardKey, setBoardKey] = useState(0);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    try {
+      const b = Number(localStorage.getItem("mp.numberpop.best") || "0");
+      if (Number.isFinite(b)) setBest(b);
+    } catch {}
+  }, []);
+
+  const newBoard = useCallback((lvl: PopLevel) => {
+    const t = makePopTarget(lvl);
+    setTarget(t);
+    setBoard(makePopBoard(lvl, t));
+    setColors(Array.from({ length: 12 }, () => BUBBLE_COLORS[randInt(0, BUBBLE_COLORS.length - 1)]));
+    setSelected(null);
+    setPopping([]);
+    setShaking([]);
+    setBoardKey((k) => k + 1);
+  }, []);
+
+  const endGame = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = null;
+    setPhase("over");
+    setScore((s) => {
+      try {
+        const prevBest = Number(localStorage.getItem("mp.numberpop.best") || "0");
+        if (s > prevBest) {
+          localStorage.setItem("mp.numberpop.best", String(s));
+          setBest(s);
+        }
+      } catch {}
+      return s;
+    });
+  }, []);
+
+  const startGame = useCallback(
+    (lvl: PopLevel) => {
+      setLevel(lvl);
+      setScore(0);
+      setStreak(0);
+      setTimeLeft(60);
+      setPhase("playing");
+      newBoard(lvl);
+      if (timerRef.current) clearInterval(timerRef.current);
+      timerRef.current = setInterval(() => {
+        setTimeLeft((t) => {
+          if (t <= 1) {
+            endGame();
+            return 0;
+          }
+          return t - 1;
+        });
+      }, 1000);
+    },
+    [newBoard, endGame]
+  );
+
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, []);
+
+  function tapBubble(i: number) {
+    if (phase !== "playing" || popping.length) return;
+
+    if (selected === null) {
+      setSelected(i);
+      return;
+    }
+    if (selected === i) {
+      setSelected(null);
+      return;
+    }
+
+    const a = board[selected];
+    const b = board[i];
+    const hit = level === "times" ? a * b === target : a + b === target;
+
+    if (hit) {
+      const gained = 10 + streak * 2;
+      setScore((s) => s + gained);
+      setStreak((s) => s + 1);
+      setPopping([selected, i]);
+      setSelected(null);
+      setTimeout(() => newBoard(level), 420);
+    } else {
+      setShaking([selected, i]);
+      setStreak(0);
+      setSelected(null);
+      setTimeout(() => setShaking([]), 420);
+    }
+  }
+
+  const op = POP_LEVELS[level].op;
+
+  return (
+    <div className="pop-wrap">
+      {phase === "idle" && (
+        <div className="pop-idle">
+          <div className="pop-idle-emoji">⚡</div>
+          <div className="pop-idle-title display">Number Pop</div>
+          <p className="pop-idle-text">
+            60 seconds. Tap two bubbles that make the target number. Take turns with your child:
+            you find one pair, they find the next. Beat your family best!
+          </p>
+          <div className="pop-levels">
+            {(Object.keys(POP_LEVELS) as PopLevel[]).map((lvl) => (
+              <button key={lvl} className="pop-level-btn" onClick={() => startGame(lvl)}>
+                <span className="pop-level-label">{POP_LEVELS[lvl].label}</span>
+                <span className="pop-level-sub">{POP_LEVELS[lvl].sub}</span>
+              </button>
+            ))}
+          </div>
+          {best > 0 && <div className="pop-best">Family best: {best} 🏆</div>}
+        </div>
+      )}
+
+      {phase === "playing" && (
+        <div className="pop-game">
+          <div className="pop-hud">
+            <div className="pop-target">
+              Make <span className="pop-target-num">{target}</span>
+              <span className="pop-target-op">{op === "+" ? "by adding" : "by multiplying"}</span>
+            </div>
+            <div className="pop-stats">
+              <span className="pop-score">⭐ {score}</span>
+              {streak > 1 && <span className="pop-streak">🔥 x{streak}</span>}
+            </div>
+          </div>
+
+          <div className="pop-timer-track">
+            <div
+              className="pop-timer-bar"
+              style={{
+                width: `${(timeLeft / 60) * 100}%`,
+                background: timeLeft <= 10 ? "#D96C4F" : "var(--teal)",
+              }}
+            />
+          </div>
+
+          <div className="pop-grid" key={boardKey}>
+            {board.map((n, i) => (
+              <button
+                key={`${boardKey}-${i}`}
+                className={[
+                  "pop-bubble",
+                  selected === i ? "pop-bubble-sel" : "",
+                  shaking.includes(i) ? "pop-bubble-shake" : "",
+                  popping.includes(i) ? "pop-bubble-pop" : "",
+                ].join(" ")}
+                style={{ background: colors[i], animationDelay: `${(i % 6) * 45}ms` }}
+                onClick={() => tapBubble(i)}
+              >
+                {n}
+              </button>
+            ))}
+          </div>
+
+          <div className="pop-hint">
+            Tap two bubbles that {op === "+" ? "add up" : "multiply"} to {target}
+          </div>
+        </div>
+      )}
+
+      {phase === "over" && (
+        <div className="pop-idle">
+          <div className="pop-idle-emoji">🎉</div>
+          <div className="pop-idle-title display">Time&rsquo;s up!</div>
+          <div className="pop-final">⭐ {score} points</div>
+          <p className="pop-idle-text">
+            {GAME_OVER_LINES[score % GAME_OVER_LINES.length]}
+            {score >= best && score > 0 ? " New family best!" : best > 0 ? ` Family best: ${best}.` : ""}
+          </p>
+          <div className="pop-levels">
+            <button className="pop-level-btn pop-level-again" onClick={() => startGame(level)}>
+              <span className="pop-level-label">Play again</span>
+              <span className="pop-level-sub">same level</span>
+            </button>
+            <button className="pop-level-btn" onClick={() => setPhase("idle")}>
+              <span className="pop-level-label">Change level</span>
+              <span className="pop-level-sub">easy · sums · times</span>
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ================================================================== */
+/* GAME 2: PIZZA FRACTIONS                                             */
+/* ================================================================== */
 
 function makePizzaRound() {
   const slices = [4, 6, 8][randInt(0, 2)];
@@ -57,62 +319,26 @@ function makePizzaRound() {
   return { slices, target };
 }
 
-const COUNT_COACH = [
-  "Point to each one as your child says the number out loud. Touching while counting is how counting sticks.",
-  "Ask: \u201Chow do you know you didn\u2019t count one twice?\u201D Let them invent a system, like moving left to right.",
-  "If they rush and miss one, don\u2019t correct. Just ask \u201Cwant to double check together?\u201D and count along slowly.",
-];
-
-const PIZZA_COACH = [
-  "Ask: \u201Cif the whole pizza is cut into this many slices, what does the bottom number mean?\u201D Let them connect it themselves.",
-  "Tap a wrong slice on purpose and ask \u201Cdid that change how many we have?\u201D Mistakes you make are safe to laugh at.",
-  "Ask: \u201Cwhat fraction is left unshaded?\u201D That one question quietly teaches that the parts always add up to the whole.",
-];
-
-function KitchenTableGame() {
-  const [mode, setMode] = useState<GameMode>("pizza");
-  const [round, setRound] = useState(0);
-  const [score, setScore] = useState(0);
-  const [feedback, setFeedback] = useState<"idle" | "right" | "wrong">("idle");
-
-  const [countRound, setCountRound] = useState(makeCountRound);
-  const [pizzaRound, setPizzaRound] = useState(makePizzaRound);
+function PizzaGame() {
+  const [round, setRound] = useState(makePizzaRound);
   const [shaded, setShaded] = useState<Set<number>>(new Set());
+  const [feedback, setFeedback] = useState<"idle" | "right" | "wrong">("idle");
+  const [score, setScore] = useState(0);
 
-  const coach =
-    mode === "count"
-      ? COUNT_COACH[round % COUNT_COACH.length]
-      : PIZZA_COACH[round % PIZZA_COACH.length];
-
-  function nextRound() {
-    setFeedback("idle");
-    setRound((r) => r + 1);
-    if (mode === "count") setCountRound(makeCountRound());
-    else {
-      setPizzaRound(makePizzaRound());
-      setShaded(new Set());
-    }
-  }
-
-  function switchMode(m: GameMode) {
-    setMode(m);
-    setFeedback("idle");
-    setRound(0);
-    setScore(0);
-    setCountRound(makeCountRound());
-    setPizzaRound(makePizzaRound());
-    setShaded(new Set());
-  }
-
-  function answerCount(n: number) {
-    if (feedback === "right") return;
-    if (n === countRound.count) {
-      setScore((s) => s + 1);
-      setFeedback("right");
-    } else {
-      setFeedback("wrong");
-    }
-  }
+  const W = 240;
+  const cx = W / 2;
+  const cy = W / 2;
+  const r = 100;
+  const sliceAngle = (Math.PI * 2) / round.slices;
+  const wedgePath = (i: number) => {
+    const a0 = i * sliceAngle - Math.PI / 2;
+    const a1 = (i + 1) * sliceAngle - Math.PI / 2;
+    const x0 = cx + r * Math.cos(a0);
+    const y0 = cy + r * Math.sin(a0);
+    const x1 = cx + r * Math.cos(a1);
+    const y1 = cy + r * Math.sin(a1);
+    return `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 0 1 ${x1} ${y1} Z`;
+  };
 
   function toggleSlice(i: number) {
     if (feedback === "right") return;
@@ -125,40 +351,166 @@ function KitchenTableGame() {
     });
   }
 
-  function checkPizza() {
-    if (shaded.size === pizzaRound.target) {
+  function check() {
+    if (shaded.size === round.target) {
       setScore((s) => s + 1);
       setFeedback("right");
-    } else {
-      setFeedback("wrong");
-    }
+    } else setFeedback("wrong");
   }
 
-  /* pizza geometry */
-  const W = 260;
-  const cx = W / 2;
-  const cy = W / 2;
-  const r = 110;
-  const sliceAngle = (Math.PI * 2) / pizzaRound.slices;
-  const wedgePath = (i: number) => {
-    const a0 = i * sliceAngle - Math.PI / 2;
-    const a1 = (i + 1) * sliceAngle - Math.PI / 2;
-    const x0 = cx + r * Math.cos(a0);
-    const y0 = cy + r * Math.sin(a0);
-    const x1 = cx + r * Math.cos(a1);
-    const y1 = cy + r * Math.sin(a1);
-    return `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 0 1 ${x1} ${y1} Z`;
-  };
+  function next() {
+    setRound(makePizzaRound());
+    setShaded(new Set());
+    setFeedback("idle");
+  }
+
+  return (
+    <div className="mini-game">
+      <div className="mini-question">
+        Shade{" "}
+        <span className="game-fraction">
+          <span>{round.target}</span>
+          <span className="game-fraction-bar" />
+          <span>{round.slices}</span>
+        </span>{" "}
+        of the pizza
+      </div>
+      <svg viewBox={`0 0 ${W} ${W}`} className="game-pizza" role="img" aria-label="Pizza divided into slices">
+        <circle cx={cx} cy={cy} r={r + 8} fill="#F5DEB8" />
+        <circle cx={cx} cy={cy} r={r} fill="#FBEFD8" stroke="#1C1008" strokeWidth={2} />
+        {Array.from({ length: round.slices }, (_, i) => (
+          <path
+            key={i}
+            d={wedgePath(i)}
+            fill={shaded.has(i) ? "#1A8A8A" : "transparent"}
+            stroke="#1C1008"
+            strokeWidth={1.5}
+            onClick={() => toggleSlice(i)}
+            style={{ cursor: "pointer", transition: "fill 0.18s" }}
+          />
+        ))}
+      </svg>
+      <div className="mini-actions">
+        {feedback !== "right" ? (
+          <button className="game-check" onClick={check}>
+            Check our pizza
+          </button>
+        ) : (
+          <button className="game-next" onClick={next}>
+            Next pizza →
+          </button>
+        )}
+      </div>
+      <div className="game-feedback" aria-live="polite">
+        {feedback === "right" && (
+          <div className="game-right">
+            <span className="game-burst">🎉</span> Delicious! Score: {score}
+          </div>
+        )}
+        {feedback === "wrong" && (
+          <div className="game-wrong">Count the shaded slices together and try again!</div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ================================================================== */
+/* GAME 3: COUNT TOGETHER                                              */
+/* ================================================================== */
+
+const COUNT_ITEMS = ["🍎", "🍪", "🪙", "⭐", "🍓", "⚽"];
+
+function makeCountRound() {
+  const emoji = COUNT_ITEMS[randInt(0, COUNT_ITEMS.length - 1)];
+  const count = randInt(3, 9);
+  const options = new Set<number>([count]);
+  while (options.size < 4) {
+    const n = count + randInt(-2, 2);
+    if (n >= 1) options.add(n);
+  }
+  return { emoji, count, options: shuffle([...options]) };
+}
+
+function CountGame() {
+  const [round, setRound] = useState(makeCountRound);
+  const [key, setKey] = useState(0);
+  const [feedback, setFeedback] = useState<"idle" | "right" | "wrong">("idle");
+  const [score, setScore] = useState(0);
+
+  function answer(n: number) {
+    if (feedback === "right") return;
+    if (n === round.count) {
+      setScore((s) => s + 1);
+      setFeedback("right");
+    } else setFeedback("wrong");
+  }
+
+  function next() {
+    setRound(makeCountRound());
+    setKey((k) => k + 1);
+    setFeedback("idle");
+  }
+
+  return (
+    <div className="mini-game">
+      <div className="mini-question">How many do you see?</div>
+      <div className="game-emojis" key={key}>
+        {Array.from({ length: round.count }, (_, i) => (
+          <span key={i} className="game-emoji" style={{ animationDelay: `${i * 70}ms` }}>
+            {round.emoji}
+          </span>
+        ))}
+      </div>
+      <div className="game-options">
+        {round.options.map((n) => (
+          <button key={n} className="game-opt" onClick={() => answer(n)}>
+            {n}
+          </button>
+        ))}
+      </div>
+      <div className="game-feedback" aria-live="polite">
+        {feedback === "right" && (
+          <div className="game-right">
+            <span className="game-burst">🎉</span> Counted it! Score: {score}
+            <button className="game-next" onClick={next}>
+              Next one →
+            </button>
+          </div>
+        )}
+        {feedback === "wrong" && (
+          <div className="game-wrong">Point and count out loud together, then pick again!</div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ================================================================== */
+/* GAME SHELL with tabs                                                */
+/* ================================================================== */
+
+type GameMode = "pop" | "pizza" | "count";
+
+function KitchenTableGames() {
+  const [mode, setMode] = useState<GameMode>("pop");
 
   return (
     <div className="game-shell">
-      {/* mode toggle */}
       <div className="game-tabs" role="tablist" aria-label="Choose a game">
+        <button
+          role="tab"
+          aria-selected={mode === "pop"}
+          className={`game-tab ${mode === "pop" ? "game-tab-on" : ""}`}
+          onClick={() => setMode("pop")}
+        >
+          ⚡ Number Pop <span className="game-tab-age">the fast one</span>
+        </button>
         <button
           role="tab"
           aria-selected={mode === "pizza"}
           className={`game-tab ${mode === "pizza" ? "game-tab-on" : ""}`}
-          onClick={() => switchMode("pizza")}
+          onClick={() => setMode("pizza")}
         >
           🍕 Pizza fractions <span className="game-tab-age">ages 7+</span>
         </button>
@@ -166,97 +518,26 @@ function KitchenTableGame() {
           role="tab"
           aria-selected={mode === "count"}
           className={`game-tab ${mode === "count" ? "game-tab-on" : ""}`}
-          onClick={() => switchMode("count")}
+          onClick={() => setMode("count")}
         >
           🍎 Count together <span className="game-tab-age">ages 3 to 6</span>
         </button>
       </div>
 
-      <div className="game-board">
-        {/* left: the playable part */}
-        <div className="game-play">
-          {mode === "count" ? (
-            <>
-              <div className="game-question">How many do you see?</div>
-              <div className="game-emojis" aria-label={`${countRound.count} items to count`}>
-                {Array.from({ length: countRound.count }, (_, i) => (
-                  <span key={`${round}-${i}`} className="game-emoji" style={{ animationDelay: `${i * 70}ms` }}>
-                    {countRound.emoji}
-                  </span>
-                ))}
-              </div>
-              <div className="game-options">
-                {countRound.options.map((n) => (
-                  <button key={n} className="game-opt" onClick={() => answerCount(n)}>
-                    {n}
-                  </button>
-                ))}
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="game-question">
-                Tap slices to shade{" "}
-                <span className="game-fraction">
-                  <span>{pizzaRound.target}</span>
-                  <span className="game-fraction-bar" />
-                  <span>{pizzaRound.slices}</span>
-                </span>{" "}
-                of the pizza
-              </div>
-              <svg viewBox={`0 0 ${W} ${W}`} className="game-pizza" role="img" aria-label="Pizza divided into slices">
-                <circle cx={cx} cy={cy} r={r + 8} fill="#F5DEB8" />
-                <circle cx={cx} cy={cy} r={r} fill="#FBEFD8" stroke="#1C1008" strokeWidth={2} />
-                {Array.from({ length: pizzaRound.slices }, (_, i) => (
-                  <path
-                    key={i}
-                    d={wedgePath(i)}
-                    fill={shaded.has(i) ? "#1A8A8A" : "transparent"}
-                    stroke="#1C1008"
-                    strokeWidth={1.5}
-                    onClick={() => toggleSlice(i)}
-                    style={{ cursor: "pointer", transition: "fill 0.18s" }}
-                  />
-                ))}
-              </svg>
-              <button className="game-check" onClick={checkPizza} disabled={feedback === "right"}>
-                Check our pizza
-              </button>
-            </>
-          )}
+      {mode === "pop" && <NumberPopGame />}
+      {mode === "pizza" && <PizzaGame />}
+      {mode === "count" && <CountGame />}
 
-          {/* feedback */}
-          <div className="game-feedback" aria-live="polite">
-            {feedback === "right" && (
-              <div className="game-right">
-                <span className="game-burst">🎉</span> You got it together! Score: {score}
-                <button className="game-next" onClick={nextRound}>Next one →</button>
-              </div>
-            )}
-            {feedback === "wrong" && (
-              <div className="game-wrong">
-                Not yet, and that is fine. Try the coach tip →
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* right: the parent coaching, this is the product's soul */}
-        <div className="game-coach">
-          <div className="game-coach-label">🧑‍🏫 While you play, try this</div>
-          <p className="game-coach-text">{coach}</p>
-          <div className="game-coach-foot">
-            Every MathParenting answer comes with coaching like this, written for your child&rsquo;s exact homework question.
-          </div>
-        </div>
+      <div className="game-foot">
+        💡 Take turns. Cheer the wrong answers as loudly as the right ones. That is the whole secret.
       </div>
     </div>
   );
 }
 
-/* ------------------------------------------------------------------ */
-/* Page                                                                */
-/* ------------------------------------------------------------------ */
+/* ================================================================== */
+/* PAGE                                                                */
+/* ================================================================== */
 
 export default function HomePage() {
   useReveal();
@@ -309,7 +590,7 @@ export default function HomePage() {
           }
           @keyframes popIn {
             0%   { opacity: 0; transform: scale(0.4); }
-            70%  { transform: scale(1.15); }
+            70%  { transform: scale(1.12); }
             100% { opacity: 1; transform: scale(1); }
           }
           @keyframes burst {
@@ -317,14 +598,26 @@ export default function HomePage() {
             60%  { transform: scale(1.35) rotate(8deg); }
             100% { transform: scale(1) rotate(0deg); }
           }
+          @keyframes bubblePop {
+            0%   { transform: scale(1); opacity: 1; }
+            100% { transform: scale(1.6); opacity: 0; }
+          }
+          @keyframes bubbleShake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-6px); }
+            75% { transform: translateX(6px); }
+          }
           .anim-0 { animation: fadeUp 0.7s ease both; }
           .anim-1 { animation: fadeUp 0.7s 0.1s ease both; }
           .anim-2 { animation: fadeUp 0.7s 0.2s ease both; }
           .anim-3 { animation: fadeUp 0.7s 0.3s ease both; }
           .anim-4 { animation: fadeUp 0.7s 0.4s ease both; }
           .logo-float { animation: floatLogo 4s ease-in-out infinite; }
-          .game-emoji { animation: popIn 0.4s ease both; }
+          .game-emoji { animation: popIn 0.4s ease both; display: inline-block; }
           .game-burst { display: inline-block; animation: burst 0.5s ease both; }
+          .pop-bubble { animation: popIn 0.35s ease both; }
+          .pop-bubble-pop { animation: bubblePop 0.4s ease both !important; }
+          .pop-bubble-shake { animation: bubbleShake 0.4s ease both !important; }
         }
         @media (prefers-reduced-motion: reduce) {
           .reveal { opacity: 1; transform: none; }
@@ -407,14 +700,14 @@ export default function HomePage() {
           pointer-events: none;
         }
 
-        /* ---------- game ---------- */
+        /* ---------- game shell ---------- */
         .game-shell {
           background: white;
           border-radius: 28px;
           border: 1px solid rgba(26,138,138,0.14);
           box-shadow: 0 12px 56px rgba(28,16,8,0.1);
           padding: 28px;
-          max-width: 880px;
+          max-width: 720px;
           margin: 0 auto;
         }
         .game-tabs {
@@ -422,12 +715,13 @@ export default function HomePage() {
           gap: 10px;
           flex-wrap: wrap;
           margin-bottom: 22px;
+          justify-content: center;
         }
         .game-tab {
           font-family: 'Nunito', sans-serif;
           font-weight: 800;
-          font-size: 0.92rem;
-          padding: 10px 18px;
+          font-size: 0.9rem;
+          padding: 10px 16px;
           border-radius: 100px;
           border: 2px solid rgba(26,138,138,0.25);
           background: white;
@@ -444,33 +738,156 @@ export default function HomePage() {
           border-color: var(--teal);
           color: white;
         }
-        .game-tab-age {
-          font-size: 0.72rem;
+        .game-tab-age { font-size: 0.7rem; font-weight: 700; opacity: 0.75; }
+
+        .game-foot {
+          margin-top: 22px;
+          padding-top: 16px;
+          border-top: 1px solid rgba(26,138,138,0.12);
+          text-align: center;
+          font-size: 0.88rem;
           font-weight: 700;
-          opacity: 0.75;
+          color: var(--teal-dark);
+          line-height: 1.6;
         }
 
-        .game-board {
+        /* ---------- number pop ---------- */
+        .pop-wrap { min-height: 380px; display: flex; flex-direction: column; justify-content: center; }
+        .pop-idle { text-align: center; padding: 12px 8px; }
+        .pop-idle-emoji { font-size: 3rem; margin-bottom: 10px; }
+        .pop-idle-title { font-size: 1.9rem; font-weight: 900; color: var(--ink); margin-bottom: 12px; }
+        .pop-idle-text {
+          font-size: 0.97rem;
+          color: var(--ink-soft);
+          line-height: 1.75;
+          max-width: 440px;
+          margin: 0 auto 22px;
+        }
+        .pop-final {
+          font-family: 'Playfair Display', serif;
+          font-size: 2.4rem;
+          font-weight: 900;
+          color: var(--teal-dark);
+          margin-bottom: 10px;
+        }
+        .pop-levels { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        .pop-level-btn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2px;
+          padding: 14px 22px;
+          border-radius: 18px;
+          border: 2px solid rgba(26,138,138,0.3);
+          background: white;
+          cursor: pointer;
+          transition: background 0.15s, transform 0.12s, box-shadow 0.15s;
+          font-family: 'Nunito', sans-serif;
+        }
+        .pop-level-btn:hover {
+          background: var(--teal-light);
+          transform: translateY(-3px);
+          box-shadow: 0 8px 20px rgba(26,138,138,0.2);
+        }
+        .pop-level-again { background: var(--teal); border-color: var(--teal); }
+        .pop-level-again .pop-level-label, .pop-level-again .pop-level-sub { color: white; }
+        .pop-level-label { font-weight: 800; font-size: 1rem; color: var(--teal-dark); }
+        .pop-level-sub { font-weight: 700; font-size: 0.74rem; color: var(--ink-muted); }
+        .pop-best { margin-top: 18px; font-weight: 800; color: var(--amber); font-size: 0.95rem; }
+
+        .pop-game { width: 100%; }
+        .pop-hud {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 12px;
+          flex-wrap: wrap;
+          margin-bottom: 10px;
+        }
+        .pop-target {
+          font-family: 'Playfair Display', serif;
+          font-weight: 900;
+          font-size: 1.3rem;
+          color: var(--ink);
+          display: flex;
+          align-items: baseline;
+          gap: 8px;
+        }
+        .pop-target-num {
+          font-size: 2rem;
+          color: var(--teal-dark);
+          background: var(--teal-light);
+          border-radius: 14px;
+          padding: 2px 14px;
+        }
+        .pop-target-op {
+          font-family: 'Nunito', sans-serif;
+          font-weight: 700;
+          font-size: 0.8rem;
+          color: var(--ink-muted);
+        }
+        .pop-stats { display: flex; gap: 12px; align-items: center; font-weight: 800; font-size: 1.05rem; }
+        .pop-score { color: var(--teal-dark); }
+        .pop-streak { color: #D96C4F; }
+
+        .pop-timer-track {
+          height: 8px;
+          background: rgba(26,138,138,0.12);
+          border-radius: 100px;
+          overflow: hidden;
+          margin-bottom: 18px;
+        }
+        .pop-timer-bar { height: 100%; border-radius: 100px; transition: width 1s linear, background 0.3s; }
+
+        .pop-grid {
           display: grid;
-          grid-template-columns: 1fr 280px;
-          gap: 24px;
-          align-items: start;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 12px;
+          max-width: 420px;
+          margin: 0 auto;
+        }
+        .pop-bubble {
+          aspect-ratio: 1;
+          border-radius: 50%;
+          border: none;
+          color: white;
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: 1.5rem;
+          cursor: pointer;
+          box-shadow: 0 4px 14px rgba(28,16,8,0.18), inset 0 -4px 8px rgba(0,0,0,0.12);
+          transition: transform 0.12s, box-shadow 0.12s;
+        }
+        .pop-bubble:hover { transform: scale(1.07); }
+        .pop-bubble-sel {
+          outline: 4px solid var(--amber);
+          outline-offset: 3px;
+          transform: scale(1.1);
+        }
+        .pop-hint {
+          text-align: center;
+          margin-top: 16px;
+          font-size: 0.85rem;
+          font-weight: 700;
+          color: var(--ink-muted);
         }
 
-        .game-play { text-align: center; }
-
-        .game-question {
+        /* ---------- mini games ---------- */
+        .mini-game { text-align: center; min-height: 380px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .mini-question {
           font-family: 'Playfair Display', serif;
           font-weight: 700;
           font-size: 1.3rem;
           color: var(--ink);
-          margin-bottom: 18px;
+          margin-bottom: 16px;
           display: flex;
           align-items: center;
           justify-content: center;
           gap: 10px;
           flex-wrap: wrap;
         }
+        .mini-actions { margin-top: 4px; }
+
         .game-fraction {
           display: inline-flex;
           flex-direction: column;
@@ -480,7 +897,6 @@ export default function HomePage() {
           font-weight: 800;
           color: var(--teal-dark);
           font-size: 1.1rem;
-          vertical-align: middle;
         }
         .game-fraction-bar {
           width: 22px;
@@ -490,26 +906,35 @@ export default function HomePage() {
           margin: 2px 0;
         }
 
+        .game-pizza { width: 100%; max-width: 230px; height: auto; margin: 0 auto 14px; display: block; }
+
+        .game-check {
+          font-family: 'Nunito', sans-serif;
+          font-weight: 800;
+          font-size: 0.95rem;
+          padding: 12px 26px;
+          border-radius: 100px;
+          border: none;
+          background: var(--amber);
+          color: var(--ink);
+          cursor: pointer;
+          box-shadow: 0 4px 16px rgba(232,168,56,0.4);
+          transition: transform 0.15s, box-shadow 0.15s;
+        }
+        .game-check:hover { transform: translateY(-2px); box-shadow: 0 6px 22px rgba(232,168,56,0.5); }
+
         .game-emojis {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
           gap: 12px;
           font-size: 2.4rem;
-          min-height: 120px;
+          min-height: 110px;
           align-items: center;
-          margin-bottom: 18px;
+          margin-bottom: 14px;
           max-width: 360px;
-          margin-left: auto;
-          margin-right: auto;
         }
-
-        .game-options {
-          display: flex;
-          gap: 10px;
-          justify-content: center;
-          flex-wrap: wrap;
-        }
+        .game-options { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
         .game-opt {
           width: 56px;
           height: 56px;
@@ -525,30 +950,7 @@ export default function HomePage() {
         }
         .game-opt:hover { background: var(--teal-light); transform: translateY(-2px); }
 
-        .game-pizza {
-          width: 100%;
-          max-width: 250px;
-          height: auto;
-          margin: 0 auto 16px;
-          display: block;
-        }
-        .game-check {
-          font-family: 'Nunito', sans-serif;
-          font-weight: 800;
-          font-size: 0.95rem;
-          padding: 12px 26px;
-          border-radius: 100px;
-          border: none;
-          background: var(--amber);
-          color: var(--ink);
-          cursor: pointer;
-          box-shadow: 0 4px 16px rgba(232,168,56,0.4);
-          transition: transform 0.15s, box-shadow 0.15s;
-        }
-        .game-check:hover { transform: translateY(-2px); box-shadow: 0 6px 22px rgba(232,168,56,0.5); }
-        .game-check:disabled { opacity: 0.5; cursor: default; transform: none; }
-
-        .game-feedback { min-height: 56px; margin-top: 16px; }
+        .game-feedback { min-height: 52px; margin-top: 14px; }
         .game-right {
           color: var(--teal-dark);
           font-weight: 800;
@@ -571,41 +973,7 @@ export default function HomePage() {
           cursor: pointer;
         }
         .game-next:hover { background: var(--teal-dark); }
-        .game-wrong {
-          color: var(--amber);
-          font-weight: 800;
-          font-size: 0.95rem;
-        }
-
-        .game-coach {
-          background: var(--teal-light);
-          border: 1px solid rgba(26,138,138,0.18);
-          border-radius: 20px;
-          padding: 22px;
-        }
-        .game-coach-label {
-          font-weight: 800;
-          font-size: 0.8rem;
-          letter-spacing: 0.06em;
-          text-transform: uppercase;
-          color: var(--teal-dark);
-          margin-bottom: 10px;
-        }
-        .game-coach-text {
-          font-size: 0.95rem;
-          color: var(--ink-soft);
-          line-height: 1.75;
-          margin: 0 0 14px;
-          font-family: 'Nunito', sans-serif;
-        }
-        .game-coach-foot {
-          font-size: 0.8rem;
-          color: var(--teal-dark);
-          font-weight: 700;
-          line-height: 1.6;
-          border-top: 1px solid rgba(26,138,138,0.2);
-          padding-top: 12px;
-        }
+        .game-wrong { color: var(--amber); font-weight: 800; font-size: 0.95rem; }
 
         /* ---------- cards ---------- */
         .moment-card {
@@ -634,20 +1002,14 @@ export default function HomePage() {
           padding: 24px;
           transition: background 0.2s, transform 0.2s;
         }
-        .get-card:hover {
-          background: rgba(255,255,255,0.15);
-          transform: translateY(-3px);
-        }
+        .get-card:hover { background: rgba(255,255,255,0.15); transform: translateY(-3px); }
 
         .who-card {
           border-radius: 24px;
           padding: 32px 28px;
           transition: transform 0.2s, box-shadow 0.2s;
         }
-        .who-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 16px 40px rgba(28,16,8,0.1);
-        }
+        .who-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(28,16,8,0.1); }
 
         .faq-item {
           background: white;
@@ -714,27 +1076,19 @@ export default function HomePage() {
           box-shadow: 0 8px 32px rgba(0,0,0,0.2);
           transition: transform 0.15s, box-shadow 0.15s;
         }
-        .cta-link:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 12px 40px rgba(0,0,0,0.25);
-        }
+        .cta-link:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(0,0,0,0.25); }
 
-        .trust-check {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-        }
+        .trust-check { display: flex; align-items: center; gap: 6px; }
 
-        @media (max-width: 760px) {
-          .game-board { grid-template-columns: 1fr; }
-          .game-shell { padding: 20px; }
-        }
         @media (max-width: 640px) {
           .moment-card { padding: 28px 24px; }
           .hero-grid { grid-template-columns: 1fr !important; }
           .hero-logo { display: none !important; }
           .price-grid { grid-template-columns: 1fr !important; }
           .price-box { padding: 24px !important; }
+          .game-shell { padding: 18px; }
+          .pop-grid { gap: 9px; }
+          .pop-bubble { font-size: 1.25rem; }
         }
       `}</style>
 
@@ -779,7 +1133,7 @@ export default function HomePage() {
                   <Link href="/chat" className="btn-primary">
                     Start with tonight&rsquo;s homework →
                   </Link>
-                  <a href="#game" className="btn-ghost">Play a math game first 🍕</a>
+                  <a href="#game" className="btn-ghost">Play a game together ⚡</a>
                 </div>
 
                 <div className="anim-4" style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
@@ -816,11 +1170,11 @@ export default function HomePage() {
           </section>
         </div>
 
-        {/* ── PLAYABLE GAME ── */}
+        {/* ── PLAYABLE GAMES ── */}
         <section id="game" style={{ background: "var(--teal-light)", padding: "72px 20px" }}>
           <div style={{ maxWidth: 1080, margin: "0 auto" }}>
             <div className="reveal" style={{ textAlign: "center", marginBottom: 36 }}>
-              <div className="ink-chip" style={{ marginBottom: 16 }}>Try it right now, free</div>
+              <div className="ink-chip" style={{ marginBottom: 16 }}>Free games, no sign up</div>
               <h2 className="display" style={{
                 fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)",
                 fontWeight: 900,
@@ -828,7 +1182,7 @@ export default function HomePage() {
                 lineHeight: 1.2,
                 marginBottom: 14,
               }}>
-                Play one round with your child
+                Bored of homework? Play instead.
               </h2>
               <p style={{
                 color: "var(--ink-soft)",
@@ -838,12 +1192,12 @@ export default function HomePage() {
                 lineHeight: 1.75,
                 fontFamily: "'Nunito', sans-serif",
               }}>
-                Call your child over. Play together for two minutes. Notice the coaching tips beside the game, that is what MathParenting does for every single homework question.
+                Call your child over. Sixty loud, giggly seconds of Number Pop counts as math practice too. Some of the best learning happens when nobody is trying.
               </p>
             </div>
 
             <div className="reveal">
-              <KitchenTableGame />
+              <KitchenTableGames />
             </div>
           </div>
         </section>
@@ -1097,10 +1451,10 @@ export default function HomePage() {
                   marginBottom: 12,
                   lineHeight: 1.2,
                 }}>
-                  Less than 20 minutes of tutoring. For the whole month.
+                  One price. Every evening together.
                 </h2>
-                <p style={{ color: "var(--ink-soft)", fontSize: "1rem", lineHeight: 1.75, maxWidth: 420, fontFamily: "'Nunito', sans-serif" }}>
-                  A private tutor costs $40 to $80 an hour and teaches your child once a week. MathParenting helps you teach them every night, for less than a pizza. Cancel anytime and keep access until the end of your billing period.
+                <p style={{ color: "var(--ink-soft)", fontSize: "1rem", lineHeight: 1.75, maxWidth: 440, fontFamily: "'Nunito', sans-serif" }}>
+                  MathParenting is not about finishing homework faster. It is about you and your child figuring things out side by side, laughing at the wrong answers, and ending the evening closer than you started. One subscription covers every grade, every question, every night. Cancel anytime and keep access until the end of your billing period.
                 </p>
               </div>
               <div className="price-box">
@@ -1143,7 +1497,7 @@ export default function HomePage() {
                 { q: "What grades does it support?", a: "K to 12. From basic counting and addition all the way to calculus and statistics. Start with whatever your child brought home tonight." },
                 { q: "Can I upload a photo of the homework?", a: "Yes. Upload a photo of the worksheet, choose the specific question you want to work on, and the teaching plan is ready in seconds." },
                 { q: "What if my child is already frustrated before we start?", a: "Every response includes a section called If things get hard with honest human coaching written specifically for that topic. It covers stuck, rushing, frustrated, and confident moments." },
-                { q: "What currency will I be charged in?", a: "Prices are in US dollars. Your bank converts it automatically to your local currency, so it works the same whether you are in Toronto, Texas, or Tokyo." },
+                { q: "What currency will I be charged in?", a: "Prices are in US dollars. Your bank converts it automatically to your local currency, so it works the same wherever your kitchen table is." },
               ].map((f) => (
                 <details key={f.q} className="faq-item reveal">
                   <summary>

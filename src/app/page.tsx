@@ -1,4 +1,4 @@
-// src/app/page.tsx
+ // src/app/page.tsx
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -178,21 +178,39 @@ function Doodles({ items }: { items: typeof HERO_DOODLES }) {
 }
 
 /* Animated parent and child learning together — three variants */
+const QA_PAIRS: Array<[string, string]> = [
+  ["2 + 3", "= 5"],
+  ["7 - 4", "= 3"],
+  ["6 × 2", "= 12"],
+  ["10 ÷ 2", "= 5"],
+  ["½ + ½", "= 1"],
+  ["9 + 8", "= 17"],
+];
+
 function LearningScene({ device }: { device: "phone" | "tablet" | "laptop" }) {
+  const [qa, setQa] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => setQa((q) => (q + 1) % QA_PAIRS.length), 3500);
+    return () => clearInterval(id);
+  }, []);
+
+  const [ask, answer] = QA_PAIRS[qa];
+
   return (
     <svg viewBox="0 0 520 340" className="learning-scene" aria-hidden="true" focusable="false">
       <ellipse cx="260" cy="322" rx="160" ry="10" fill="rgba(28,16,8,0.06)" />
 
       {/* speech bubbles */}
       <g className="ls-pop-1">
-        <rect x="216" y="58" width="70" height="36" rx="13" fill="#ffffff" stroke="#1A8A8A" strokeWidth="2.5" />
+        <rect x="208" y="58" width="86" height="36" rx="13" fill="#ffffff" stroke="#1A8A8A" strokeWidth="2.5" />
         <polygon points="238,94 252,94 242,110" fill="#ffffff" stroke="#1A8A8A" strokeWidth="2.5" strokeLinejoin="round" />
-        <text x="251" y="83" textAnchor="middle" fontSize="19" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif">2 + 3</text>
+        <text key={`ask-${qa}`} x="251" y="83" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif" className="ls-qa-text">{ask}</text>
       </g>
       <g className="ls-pop-2">
-        <rect x="316" y="40" width="58" height="34" rx="13" fill="#ffffff" stroke="#E8A838" strokeWidth="2.5" />
+        <rect x="312" y="40" width="66" height="34" rx="13" fill="#ffffff" stroke="#E8A838" strokeWidth="2.5" />
         <polygon points="346,74 360,74 354,90" fill="#ffffff" stroke="#E8A838" strokeWidth="2.5" strokeLinejoin="round" />
-        <text x="345" y="64" textAnchor="middle" fontSize="19" fontWeight="800" fill="#B07A1F" fontFamily="Nunito, sans-serif">= 5</text>
+        <text key={`ans-${qa}`} x="345" y="64" textAnchor="middle" fontSize="18" fontWeight="800" fill="#B07A1F" fontFamily="Nunito, sans-serif" className="ls-qa-text">{answer}</text>
       </g>
 
       {/* pulsing heart */}
@@ -237,29 +255,30 @@ function LearningScene({ device }: { device: "phone" | "tablet" | "laptop" }) {
       <rect x="142" y="208" width="18" height="22" rx="4" fill="#D96C4F" />
       <path d="M160 213 q10 0 10 7 q0 7 -10 7" stroke="#D96C4F" strokeWidth="3.5" fill="none" />
 
-      {/* device on the table */}
+      {/* device on the table, with MathParenting logo on screen */}
       {device === "phone" && (
-        <g>
-          <rect x="238" y="198" width="44" height="32" rx="7" fill="#0D5F5F" transform="rotate(-6 260 214)" />
-          <rect x="244" y="202" width="32" height="24" rx="3" fill="#E0F4F4" transform="rotate(-6 260 214)" />
-          <text x="258" y="219" textAnchor="middle" fontSize="11" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif" transform="rotate(-6 260 214)">÷</text>
+        <g transform="rotate(-6 260 214)">
+          <rect x="238" y="196" width="44" height="36" rx="7" fill="#0D5F5F" />
+          <rect x="243" y="200" width="34" height="28" rx="3" fill="#E0F4F4" />
+          <image href="/logo.png" x="251" y="206" width="18" height="18" preserveAspectRatio="xMidYMid meet" />
         </g>
       )}
       {device === "tablet" && (
         <g>
-          <rect x="222" y="196" width="78" height="34" rx="6" fill="#0D5F5F" />
-          <rect x="228" y="200" width="66" height="26" rx="3" fill="#E0F4F4" />
-          <circle cx="240" cy="213" r="4" fill="#1A8A8A" />
-          <circle cx="256" cy="213" r="4" fill="#E8A838" />
-          <circle cx="272" cy="213" r="4" fill="#D96C4F" />
-          <circle cx="288" cy="213" r="4" fill="#7FB069" />
+          <rect x="222" y="194" width="78" height="38" rx="6" fill="#0D5F5F" />
+          <rect x="227" y="198" width="68" height="30" rx="3" fill="#E0F4F4" />
+          <image href="/logo.png" x="240" y="202" width="22" height="22" preserveAspectRatio="xMidYMid meet" />
+          <circle cx="274" cy="208" r="3.5" fill="#1A8A8A" />
+          <circle cx="285" cy="208" r="3.5" fill="#E8A838" />
+          <circle cx="274" cy="219" r="3.5" fill="#D96C4F" />
+          <circle cx="285" cy="219" r="3.5" fill="#7FB069" />
         </g>
       )}
       {device === "laptop" && (
         <g>
-          <rect x="226" y="194" width="70" height="40" rx="4" fill="#0D5F5F" />
-          <rect x="231" y="198" width="60" height="30" rx="2" fill="#E0F4F4" />
-          <text x="261" y="218" textAnchor="middle" fontSize="13" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif">x²</text>
+          <rect x="226" y="192" width="70" height="42" rx="4" fill="#0D5F5F" />
+          <rect x="231" y="196" width="60" height="32" rx="2" fill="#E0F4F4" />
+          <image href="/logo.png" x="248" y="200" width="24" height="24" preserveAspectRatio="xMidYMid meet" />
           <rect x="216" y="232" width="90" height="6" rx="3" fill="#0D5F5F" />
         </g>
       )}
@@ -898,6 +917,12 @@ export default function HomePage() {
           .ls-float-1 { animation: lsFloat 5s linear infinite; }
           .ls-float-2 { animation: lsFloat 5s linear 1.7s infinite; }
           .ls-float-3 { animation: lsFloat 5s linear 3.4s infinite; }
+
+          @keyframes qaFade {
+            0% { opacity: 0; transform: translateY(-3px); }
+            100% { opacity: 1; transform: translateY(0); }
+          }
+          .ls-qa-text { animation: qaFade 0.45s ease both; transform-box: fill-box; transform-origin: center; }
 
           @keyframes floatyDrift {
             0%   { transform: translate(8vw, 16vh); }

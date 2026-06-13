@@ -49,12 +49,13 @@ function shuffle<T>(arr: T[]): T[] {
 /* GAME 1: NUMBER POP - the fun one                                    */
 /* ================================================================== */
 
-type PopLevel = "easy" | "medium" | "times";
+type PopLevel = "easy" | "medium" | "times" | "teen";
 
 const POP_LEVELS: Record<PopLevel, { label: string; sub: string; op: "+" | "×" }> = {
   easy: { label: "Make it!", sub: "ages 5 to 7", op: "+" },
   medium: { label: "Bigger sums", sub: "ages 7 to 9", op: "+" },
   times: { label: "Times attack", sub: "ages 9 to 12", op: "×" },
+  teen: { label: "Integer storm", sub: "ages 13 to 18", op: "+" },
 };
 
 const TIMES_TARGETS = [12, 16, 18, 20, 24, 36];
@@ -62,6 +63,7 @@ const TIMES_TARGETS = [12, 16, 18, 20, 24, 36];
 function makePopTarget(level: PopLevel): number {
   if (level === "easy") return randInt(6, 10);
   if (level === "medium") return randInt(11, 18);
+  if (level === "teen") return randInt(-9, 12);
   return TIMES_TARGETS[randInt(0, TIMES_TARGETS.length - 1)];
 }
 
@@ -82,6 +84,23 @@ function makePopBoard(level: PopLevel, target: number): number[] {
       nums.push(a, b);
     }
     while (nums.length < 12) nums.push(randInt(2, 9));
+  } else if (level === "teen") {
+    const inRange = (n: number) => n >= -12 && n <= 12 && n !== 0;
+    let added = 0;
+    let guard = 0;
+    while (added < 3 && guard < 60) {
+      guard++;
+      const a = randInt(-12, 12);
+      if (a === 0) continue;
+      const b = target - a;
+      if (!inRange(b)) continue;
+      nums.push(a, b);
+      added++;
+    }
+    while (nums.length < 12) {
+      const n = randInt(-12, 12);
+      if (n !== 0) nums.push(n);
+    }
   } else {
     const maxN = level === "easy" ? 9 : 12;
     for (let i = 0; i < 3; i++) {
@@ -104,6 +123,60 @@ const GAME_OVER_LINES = [
   "Math has never been this loud. 🎉",
 ];
 
+function ConfettiBurst() {
+  return (
+    <div className="confetti" aria-hidden>
+      {Array.from({ length: 16 }, (_, i) => (
+        <span
+          key={i}
+          className="confetti-p"
+          style={
+            {
+              left: `${randInt(15, 85)}%`,
+              background: BUBBLE_COLORS[i % BUBBLE_COLORS.length],
+              animationDelay: `${(i % 8) * 30}ms`,
+              "--dx": `${randInt(-140, 140)}px`,
+              "--rot": `${randInt(180, 540)}deg`,
+            } as any
+          }
+        />
+      ))}
+    </div>
+  );
+}
+
+const HERO_DOODLES = [
+  { e: "➕", top: "10%", left: "4%", d: "0s", s: "1.6rem" },
+  { e: "✖️", top: "72%", left: "8%", d: "1.4s", s: "1.2rem" },
+  { e: "➗", top: "16%", left: "90%", d: "0.7s", s: "1.4rem" },
+  { e: "🔢", top: "82%", left: "88%", d: "2s", s: "1.5rem" },
+  { e: "⭐", top: "4%", left: "52%", d: "1s", s: "1.1rem" },
+  { e: "💚", top: "55%", left: "95%", d: "2.6s", s: "1.1rem" },
+];
+
+const GAME_DOODLES = [
+  { e: "🎲", top: "8%", left: "5%", d: "0.4s", s: "1.5rem" },
+  { e: "🧮", top: "75%", left: "7%", d: "1.8s", s: "1.4rem" },
+  { e: "✨", top: "12%", left: "92%", d: "1s", s: "1.3rem" },
+  { e: "🎯", top: "80%", left: "90%", d: "2.4s", s: "1.4rem" },
+];
+
+function Doodles({ items }: { items: typeof HERO_DOODLES }) {
+  return (
+    <>
+      {items.map((d, i) => (
+        <span
+          key={i}
+          className="doodle"
+          style={{ top: d.top, left: d.left, animationDelay: d.d, fontSize: d.s }}
+        >
+          {d.e}
+        </span>
+      ))}
+    </>
+  );
+}
+
 function NumberPopGame() {
   const [level, setLevel] = useState<PopLevel>("easy");
   const [phase, setPhase] = useState<"idle" | "playing" | "over">("idle");
@@ -118,6 +191,7 @@ function NumberPopGame() {
   const [timeLeft, setTimeLeft] = useState(60);
   const [best, setBest] = useState(0);
   const [boardKey, setBoardKey] = useState(0);
+  const [confetti, setConfetti] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
@@ -204,6 +278,7 @@ function NumberPopGame() {
       setStreak((s) => s + 1);
       setPopping([selected, i]);
       setSelected(null);
+      setConfetti((c) => c + 1);
       setTimeout(() => newBoard(level), 420);
     } else {
       setShaking([selected, i]);
@@ -239,6 +314,7 @@ function NumberPopGame() {
 
       {phase === "playing" && (
         <div className="pop-game">
+          {confetti > 0 && <ConfettiBurst key={confetti} />}
           <div className="pop-hud">
             <div className="pop-target">
               Make <span className="pop-target-num">{target}</span>
@@ -607,6 +683,29 @@ export default function HomePage() {
             25% { transform: translateX(-6px); }
             75% { transform: translateX(6px); }
           }
+          @keyframes confettiFly {
+            0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+            100% { transform: translate(var(--dx), 170px) rotate(var(--rot)); opacity: 0; }
+          }
+          @keyframes doodleFloat {
+            0%, 100% { transform: translateY(0) rotate(-8deg); }
+            50% { transform: translateY(-18px) rotate(8deg); }
+          }
+          @keyframes wobble {
+            0% { transform: rotate(-2deg); }
+            25% { transform: rotate(6deg) scale(1.06); }
+            50% { transform: rotate(-6deg); }
+            75% { transform: rotate(3deg); }
+            100% { transform: rotate(-2deg); }
+          }
+          @keyframes twinkle {
+            0%, 100% { opacity: 0.5; transform: scale(0.85) rotate(0deg); }
+            50% { opacity: 1; transform: scale(1.15) rotate(18deg); }
+          }
+          .confetti-p { animation: confettiFly 0.9s ease-out forwards; }
+          .doodle { animation: doodleFloat 7s ease-in-out infinite; }
+          .logo-float:hover { animation: wobble 0.7s ease; }
+          .sparkle { animation: twinkle 1.6s ease-in-out infinite; }
           .anim-0 { animation: fadeUp 0.7s ease both; }
           .anim-1 { animation: fadeUp 0.7s 0.1s ease both; }
           .anim-2 { animation: fadeUp 0.7s 0.2s ease both; }
@@ -795,7 +894,28 @@ export default function HomePage() {
         .pop-level-sub { font-weight: 700; font-size: 0.74rem; color: var(--ink-muted); }
         .pop-best { margin-top: 18px; font-weight: 800; color: var(--amber); font-size: 0.95rem; }
 
-        .pop-game { width: 100%; }
+        .pop-game { width: 100%; position: relative; }
+        .confetti {
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          overflow: hidden;
+          z-index: 5;
+        }
+        .confetti-p {
+          position: absolute;
+          top: 38%;
+          width: 10px;
+          height: 10px;
+          border-radius: 2px;
+        }
+        .doodle {
+          position: absolute;
+          opacity: 0.3;
+          pointer-events: none;
+          z-index: 0;
+        }
+        .sparkle { display: inline-block; }
         .pop-hud {
           display: flex;
           justify-content: space-between;
@@ -1097,6 +1217,7 @@ export default function HomePage() {
 
           {/* ── HERO ── */}
           <section style={{ paddingTop: 64, paddingBottom: 80, position: "relative", overflow: "hidden" }}>
+            <Doodles items={HERO_DOODLES} />
             <div className="hero-blob" style={{ width: 500, height: 500, background: "rgba(26,138,138,0.06)", top: -180, right: -120 }} />
             <div className="hero-blob" style={{ width: 320, height: 320, background: "rgba(232,168,56,0.06)", bottom: -80, left: -100 }} />
 
@@ -1131,7 +1252,7 @@ export default function HomePage() {
 
                 <div className="anim-3" style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 36 }}>
                   <Link href="/chat" className="btn-primary">
-                    Start with tonight&rsquo;s homework →
+                    Start with tonight&rsquo;s homework <span className="sparkle">✨</span>
                   </Link>
                   <a href="#game" className="btn-ghost">Play a game together ⚡</a>
                 </div>
@@ -1171,8 +1292,9 @@ export default function HomePage() {
         </div>
 
         {/* ── PLAYABLE GAMES ── */}
-        <section id="game" style={{ background: "var(--teal-light)", padding: "72px 20px" }}>
-          <div style={{ maxWidth: 1080, margin: "0 auto" }}>
+        <section id="game" style={{ background: "var(--teal-light)", padding: "72px 20px", position: "relative", overflow: "hidden" }}>
+          <Doodles items={GAME_DOODLES} />
+          <div style={{ maxWidth: 1080, margin: "0 auto", position: "relative" }}>
             <div className="reveal" style={{ textAlign: "center", marginBottom: 36 }}>
               <div className="ink-chip" style={{ marginBottom: 16 }}>Free games, no sign up</div>
               <h2 className="display" style={{

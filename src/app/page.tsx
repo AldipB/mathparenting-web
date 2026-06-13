@@ -177,96 +177,163 @@ function Doodles({ items }: { items: typeof HERO_DOODLES }) {
   );
 }
 
-/* Animated parent and child learning together, original illustration */
-function LearningScene() {
+/* Animated parent and child learning together — three variants */
+function LearningScene({ device }: { device: "phone" | "tablet" | "laptop" }) {
   return (
     <svg viewBox="0 0 520 340" className="learning-scene" aria-hidden="true" focusable="false">
-      {/* ground shadow */}
       <ellipse cx="260" cy="322" rx="160" ry="10" fill="rgba(28,16,8,0.06)" />
 
-      {/* speech bubble: parent asks */}
+      {/* speech bubbles */}
       <g className="ls-pop-1">
         <rect x="216" y="58" width="70" height="36" rx="13" fill="#ffffff" stroke="#1A8A8A" strokeWidth="2.5" />
         <polygon points="238,94 252,94 242,110" fill="#ffffff" stroke="#1A8A8A" strokeWidth="2.5" strokeLinejoin="round" />
         <text x="251" y="83" textAnchor="middle" fontSize="19" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif">2 + 3</text>
       </g>
-
-      {/* speech bubble: child answers */}
       <g className="ls-pop-2">
         <rect x="316" y="40" width="58" height="34" rx="13" fill="#ffffff" stroke="#E8A838" strokeWidth="2.5" />
         <polygon points="346,74 360,74 354,90" fill="#ffffff" stroke="#E8A838" strokeWidth="2.5" strokeLinejoin="round" />
         <text x="345" y="64" textAnchor="middle" fontSize="19" fontWeight="800" fill="#B07A1F" fontFamily="Nunito, sans-serif">= 5</text>
       </g>
 
-      {/* pulsing heart between them */}
+      {/* pulsing heart */}
       <g className="ls-heart">
-        <path
-          d="M262 116 c-4 -8 -16 -8 -16 2 c0 8 10 13 16 18 c6 -5 16 -10 16 -18 c0 -10 -12 -10 -16 -2 z"
-          fill="#D96C4F"
-        />
+        <path d="M262 116 c-4 -8 -16 -8 -16 2 c0 8 10 13 16 18 c6 -5 16 -10 16 -18 c0 -10 -12 -10 -16 -2 z" fill="#D96C4F" />
       </g>
 
-      {/* floating math symbols rising from the book */}
+      {/* floating math symbols */}
       <text className="ls-float-1" x="236" y="202" fontSize="17" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif">+</text>
       <text className="ls-float-2" x="270" y="198" fontSize="16" fontWeight="800" fill="#1A8A8A" fontFamily="Nunito, sans-serif">×</text>
       <text className="ls-float-3" x="252" y="206" fontSize="15" fontWeight="800" fill="#E8A838" fontFamily="Nunito, sans-serif">½</text>
 
-      {/* PARENT, left, teal */}
+      {/* parent */}
       <g className="ls-parent">
-        {/* body */}
         <rect x="150" y="170" width="72" height="84" rx="32" fill="#1A8A8A" />
-        {/* arm reaching toward the book */}
         <rect x="202" y="186" width="58" height="13" rx="6.5" fill="#1A8A8A" transform="rotate(16 202 192)" />
-        {/* head */}
         <circle cx="186" cy="140" r="30" fill="#F4C99B" />
-        {/* hair */}
         <path d="M156 140 a30 30 0 0 1 60 0 z" fill="#4A3728" />
-        {/* face */}
         <circle cx="178" cy="146" r="2.6" fill="#1C1008" />
         <circle cx="196" cy="146" r="2.6" fill="#1C1008" />
         <path d="M180 156 q7 6 14 0" stroke="#1C1008" strokeWidth="2" fill="none" strokeLinecap="round" />
       </g>
 
-      {/* CHILD, right, amber, smaller */}
+      {/* child */}
       <g className="ls-child">
-        {/* body */}
         <rect x="316" y="192" width="60" height="64" rx="26" fill="#E8A838" />
-        {/* arm toward the pencil */}
         <rect x="296" y="200" width="48" height="11" rx="5.5" fill="#E8A838" transform="rotate(-14 344 206)" />
-        {/* head */}
         <circle cx="346" cy="166" r="24" fill="#F4C99B" />
-        {/* hair and bun */}
         <path d="M322 166 a24 24 0 0 1 48 0 z" fill="#4A3728" />
         <circle cx="346" cy="138" r="9" fill="#4A3728" />
-        {/* face */}
         <circle cx="338" cy="170" r="2.3" fill="#1C1008" />
         <circle cx="354" cy="170" r="2.3" fill="#1C1008" />
         <path d="M340 178 q6 5 12 0" stroke="#1C1008" strokeWidth="2" fill="none" strokeLinecap="round" />
       </g>
 
-      {/* wiggling pencil over the book */}
-      <g className="ls-pencil">
-        <rect x="288" y="184" width="30" height="8" rx="3" fill="#F5C542" transform="rotate(-32 290 190)" />
-        <polygon points="283,198 291,189 296,197" fill="#4A3728" />
-      </g>
-
-      {/* table, drawn after figures so it overlaps their laps */}
+      {/* table */}
       <rect x="112" y="230" width="296" height="16" rx="8" fill="#C9A36B" />
       <rect x="146" y="246" width="14" height="72" rx="6" fill="#B08A55" />
       <rect x="360" y="246" width="14" height="72" rx="6" fill="#B08A55" />
 
-      {/* cozy mug */}
+      {/* mug */}
       <rect x="142" y="208" width="18" height="22" rx="4" fill="#D96C4F" />
       <path d="M160 213 q10 0 10 7 q0 7 -10 7" stroke="#D96C4F" strokeWidth="3.5" fill="none" />
 
-      {/* open book on the table */}
-      <g>
-        <path d="M208 222 q52 -16 104 0 l0 9 q-52 -13 -104 0 z" fill="#ffffff" stroke="#0D5F5F" strokeWidth="2.5" strokeLinejoin="round" />
-        <line x1="260" y1="208" x2="260" y2="229" stroke="#0D5F5F" strokeWidth="2.5" />
-        <line x1="222" y1="219" x2="248" y2="214" stroke="#B9D8D8" strokeWidth="2" strokeLinecap="round" />
-        <line x1="272" y1="214" x2="298" y2="219" stroke="#B9D8D8" strokeWidth="2" strokeLinecap="round" />
-      </g>
+      {/* device on the table */}
+      {device === "phone" && (
+        <g>
+          <rect x="238" y="198" width="44" height="32" rx="7" fill="#0D5F5F" transform="rotate(-6 260 214)" />
+          <rect x="244" y="202" width="32" height="24" rx="3" fill="#E0F4F4" transform="rotate(-6 260 214)" />
+          <text x="258" y="219" textAnchor="middle" fontSize="11" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif" transform="rotate(-6 260 214)">÷</text>
+        </g>
+      )}
+      {device === "tablet" && (
+        <g>
+          <rect x="222" y="196" width="78" height="34" rx="6" fill="#0D5F5F" />
+          <rect x="228" y="200" width="66" height="26" rx="3" fill="#E0F4F4" />
+          <circle cx="240" cy="213" r="4" fill="#1A8A8A" />
+          <circle cx="256" cy="213" r="4" fill="#E8A838" />
+          <circle cx="272" cy="213" r="4" fill="#D96C4F" />
+          <circle cx="288" cy="213" r="4" fill="#7FB069" />
+        </g>
+      )}
+      {device === "laptop" && (
+        <g>
+          <rect x="226" y="194" width="70" height="40" rx="4" fill="#0D5F5F" />
+          <rect x="231" y="198" width="60" height="30" rx="2" fill="#E0F4F4" />
+          <text x="261" y="218" textAnchor="middle" fontSize="13" fontWeight="800" fill="#0D5F5F" fontFamily="Nunito, sans-serif">x²</text>
+          <rect x="216" y="232" width="90" height="6" rx="3" fill="#0D5F5F" />
+        </g>
+      )}
     </svg>
+  );
+}
+
+/* Drifting interactive logo that floats over the whole page */
+function FloatingLogo() {
+  const [hearts, setHearts] = useState<{ id: number; x: number; y: number }[]>([]);
+  const [eggPhase, setEggPhase] = useState<"logo" | "egg" | "crack" | "hatch">("logo");
+  const tapsRef = useRef(0);
+  const tapTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const heartId = useRef(0);
+
+  function spawnHeart(x: number, y: number) {
+    const id = heartId.current++;
+    setHearts((h) => [...h, { id, x, y }]);
+    setTimeout(() => setHearts((h) => h.filter((p) => p.id !== id)), 1100);
+  }
+
+  function handleTap(e: React.MouseEvent) {
+    if (eggPhase !== "logo") return;
+
+    // heart on every tap
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    spawnHeart(rect.width / 2, 0);
+
+    // count rapid taps
+    tapsRef.current += 1;
+    if (tapTimer.current) clearTimeout(tapTimer.current);
+    tapTimer.current = setTimeout(() => {
+      tapsRef.current = 0;
+    }, 700);
+
+    if (tapsRef.current >= 5) {
+      tapsRef.current = 0;
+      runEgg();
+    }
+  }
+
+  function runEgg() {
+    setEggPhase("egg");
+    setTimeout(() => setEggPhase("crack"), 900);
+    setTimeout(() => setEggPhase("hatch"), 1500);
+    setTimeout(() => setEggPhase("logo"), 2400);
+  }
+
+  return (
+    <div className="floaty" aria-hidden="true">
+      <button className="floaty-btn" onClick={handleTap} aria-label="MathParenting mascot">
+        {(eggPhase === "logo" || eggPhase === "hatch") && (
+          <Image
+            src="/logo.png"
+            alt=""
+            width={64}
+            height={64}
+            className={`floaty-logo ${eggPhase === "hatch" ? "floaty-hatch" : ""}`}
+          />
+        )}
+        {(eggPhase === "egg" || eggPhase === "crack") && (
+          <svg viewBox="0 0 64 80" width="64" height="80" className={`floaty-egg ${eggPhase === "crack" ? "floaty-egg-crack" : ""}`}>
+            <ellipse cx="32" cy="44" rx="26" ry="34" fill="#FBEFD8" stroke="#E8A838" strokeWidth="2.5" />
+            <path d="M14 40 q6 4 0 9 q8 5 4 11" stroke="#E8A838" strokeWidth="2" fill="none" opacity={eggPhase === "crack" ? 1 : 0} />
+            {eggPhase === "crack" && (
+              <path d="M10 44 l8 -6 l6 8 l8 -8 l8 8 l6 -6 l8 6" stroke="#D96C4F" strokeWidth="2.5" fill="none" strokeLinejoin="round" />
+            )}
+          </svg>
+        )}
+        {hearts.map((h) => (
+          <span key={h.id} className="floaty-heart" style={{ left: h.x }}>❤️</span>
+        ))}
+      </button>
+    </div>
   );
 }
 
@@ -831,6 +898,39 @@ export default function HomePage() {
           .ls-float-1 { animation: lsFloat 5s linear infinite; }
           .ls-float-2 { animation: lsFloat 5s linear 1.7s infinite; }
           .ls-float-3 { animation: lsFloat 5s linear 3.4s infinite; }
+
+          @keyframes floatyDrift {
+            0%   { transform: translate(8vw, 16vh); }
+            25%  { transform: translate(78vw, 30vh); }
+            50%  { transform: translate(62vw, 72vh); }
+            75%  { transform: translate(20vw, 60vh); }
+            100% { transform: translate(8vw, 16vh); }
+          }
+          @keyframes floatyHeart {
+            0%   { transform: translate(-50%, 0) scale(0.6); opacity: 0; }
+            25%  { opacity: 1; }
+            100% { transform: translate(-50%, -54px) scale(1.1); opacity: 0; }
+          }
+          @keyframes eggDrop {
+            0%   { transform: translateY(-10px) scale(0.8); opacity: 0; }
+            60%  { transform: translateY(6px) scale(1.05); opacity: 1; }
+            100% { transform: translateY(0) scale(1); opacity: 1; }
+          }
+          @keyframes eggWobble {
+            0%, 100% { transform: rotate(-6deg); }
+            50% { transform: rotate(6deg); }
+          }
+          @keyframes hatchPop {
+            0% { transform: scale(0.3) rotate(-20deg); opacity: 0; }
+            60% { transform: scale(1.2) rotate(8deg); }
+            100% { transform: scale(1) rotate(0deg); opacity: 1; }
+          }
+          .floaty { animation: floatyDrift 48s ease-in-out infinite; }
+          .floaty:hover { animation-play-state: paused; }
+          .floaty-heart { animation: floatyHeart 1.1s ease-out forwards; }
+          .floaty-egg { animation: eggDrop 0.6s ease-out both; }
+          .floaty-egg-crack { animation: eggWobble 0.3s ease-in-out 2; }
+          .floaty-hatch { animation: hatchPop 0.7s ease both; }
           .anim-0 { animation: fadeUp 0.7s ease both; }
           .anim-1 { animation: fadeUp 0.7s 0.1s ease both; }
           .anim-2 { animation: fadeUp 0.7s 0.2s ease both; }
@@ -1044,20 +1144,56 @@ export default function HomePage() {
 
         /* ---------- learning scene ---------- */
         .learning-scene {
-          position: absolute;
-          bottom: -6px;
-          right: -20px;
-          width: min(460px, 42vw);
+          width: 100%;
+          max-width: 440px;
           height: auto;
-          opacity: 0.5;
-          z-index: 0;
-          pointer-events: none;
+          display: block;
+          margin: 0 auto;
+        }
+        .hero-scene-wrap { display: flex; justify-content: center; align-items: center; }
+        .section-scene {
+          display: flex;
+          justify-content: center;
+          margin: 0 auto 8px;
+          max-width: 420px;
         }
         .ls-parent, .ls-child, .ls-pencil, .ls-heart,
         .ls-pop-1, .ls-pop-2,
         .ls-float-1, .ls-float-2, .ls-float-3 {
           transform-box: fill-box;
           transform-origin: center;
+        }
+
+        /* ---------- floating interactive logo ---------- */
+        .floaty {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 76px;
+          height: 76px;
+          z-index: 1;
+          pointer-events: none;
+        }
+        .floaty-btn {
+          position: relative;
+          border: none;
+          background: transparent;
+          padding: 0;
+          cursor: pointer;
+          pointer-events: auto;
+          opacity: 0.22;
+          transition: opacity 0.3s;
+          filter: drop-shadow(0 6px 14px rgba(28,16,8,0.18));
+        }
+        .floaty-btn:hover { opacity: 0.6; }
+        .floaty-logo { border-radius: 18px; display: block; }
+        .floaty-egg { display: block; }
+        .floaty-heart {
+          position: absolute;
+          top: 0;
+          transform: translateX(-50%);
+          font-size: 1.3rem;
+          pointer-events: none;
         }
         .pop-hud {
           display: flex;
@@ -1346,27 +1482,28 @@ export default function HomePage() {
         @media (max-width: 640px) {
           .moment-card { padding: 28px 24px; }
           .hero-grid { grid-template-columns: 1fr !important; }
-          .hero-logo { display: none !important; }
-          .learning-scene { display: none; }
+          .hero-scene-wrap { order: -1; max-width: 320px; margin: 0 auto 8px; }
           .price-grid { grid-template-columns: 1fr !important; }
           .price-box { padding: 24px !important; }
           .game-shell { padding: 18px; }
           .pop-grid { gap: 9px; }
           .pop-bubble { font-size: 1.25rem; }
+          .floaty { width: 60px; height: 60px; }
+          .floaty-logo { width: 52px; height: 52px; }
         }
       `}</style>
 
       <div className="mp-page">
+        <FloatingLogo />
         <div style={{ maxWidth: 1080, margin: "0 auto", padding: "0 20px" }}>
 
           {/* ── HERO ── */}
           <section style={{ paddingTop: 64, paddingBottom: 80, position: "relative", overflow: "hidden" }}>
             <Doodles items={HERO_DOODLES} />
-            <LearningScene />
             <div className="hero-blob" style={{ width: 500, height: 500, background: "rgba(26,138,138,0.06)", top: -180, right: -120 }} />
             <div className="hero-blob" style={{ width: 320, height: 320, background: "rgba(232,168,56,0.06)", bottom: -80, left: -100 }} />
 
-            <div className="hero-grid" style={{ display: "grid", gridTemplateColumns: "1fr 180px", gap: 48, alignItems: "center", position: "relative", zIndex: 1 }}>
+            <div className="hero-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "center", position: "relative", zIndex: 1 }}>
 
               <div>
                 <div className="anim-0 ink-chip" style={{ marginBottom: 24 }}>
@@ -1415,22 +1552,8 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="hero-logo" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                <div style={{ position: "relative" }}>
-                  <div className="pulse-ring" />
-                  <div className="pulse-ring pulse-ring-2" />
-                  <div className="logo-float" style={{
-                    width: 160,
-                    height: 160,
-                    borderRadius: 36,
-                    overflow: "hidden",
-                    boxShadow: "0 24px 60px rgba(26,138,138,0.28), 0 8px 20px rgba(28,16,8,0.12)",
-                    position: "relative",
-                    zIndex: 1,
-                  }}>
-                    <Image src="/logo.png" alt="MathParenting" width={160} height={160} style={{ width: "100%", height: "100%", objectFit: "cover" }} priority />
-                  </div>
-                </div>
+              <div className="hero-scene-wrap">
+                <LearningScene device="phone" />
               </div>
             </div>
           </section>
@@ -1514,6 +1637,10 @@ export default function HomePage() {
               }}>
                 Three steps. One calm session.
               </h2>
+            </div>
+
+            <div className="reveal section-scene">
+              <LearningScene device="tablet" />
             </div>
 
             <div style={{ display: "flex", flexDirection: "column", gap: 0, maxWidth: 660, margin: "0 auto" }}>
@@ -1657,6 +1784,10 @@ export default function HomePage() {
               }}>
                 Built for the parent at the kitchen table
               </h2>
+            </div>
+
+            <div className="reveal section-scene">
+              <LearningScene device="laptop" />
             </div>
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 20 }}>

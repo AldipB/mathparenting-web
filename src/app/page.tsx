@@ -1,4 +1,4 @@
- // src/app/page.tsx
+// src/app/page.tsx
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -821,7 +821,22 @@ export default function HomePage() {
           font-family: 'Nunito', sans-serif;
           color: var(--ink);
           min-height: 100vh;
+          position: relative;
         }
+
+        .mp-watermark {
+          position: fixed;
+          inset: 0;
+          z-index: 0;
+          pointer-events: none;
+          background-image: url('/logo.png');
+          background-repeat: repeat;
+          background-size: 130px;
+          opacity: 0.035;
+          /* keep it crisp but faint, like a watermark on paper */
+        }
+
+        .mp-page > *:not(.mp-watermark) { position: relative; z-index: 1; }
 
         .display { font-family: 'Playfair Display', serif; }
 
@@ -1519,6 +1534,7 @@ export default function HomePage() {
       `}</style>
 
       <div className="mp-page">
+        <div className="mp-watermark" aria-hidden="true" />
         <FloatingLogo />
         <div style={{ maxWidth: 1080, margin: "0 auto", padding: "0 20px" }}>
 

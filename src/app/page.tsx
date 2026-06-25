@@ -2008,6 +2008,10 @@ export default function HomePage() {
         </section>
 
         <div style={{ textAlign: "center", padding: "24px 20px", color: "var(--ink-muted)", fontSize: "0.8rem", fontFamily: "'Nunito', sans-serif" }}>
+          <div style={{ marginBottom: 8 }}>
+            <Link href="/privacy" style={{ color: "var(--teal-dark)", fontWeight: 700, textDecoration: "none", margin: "0 10px" }}>Privacy Policy</Link>
+            <Link href="/terms" style={{ color: "var(--teal-dark)", fontWeight: 700, textDecoration: "none", margin: "0 10px" }}>Terms of Service</Link>
+          </div>
           © {year.current} MathParenting. Learning support, not a replacement for school instruction.
         </div>
       </div>

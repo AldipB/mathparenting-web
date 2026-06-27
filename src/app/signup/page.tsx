@@ -9,12 +9,19 @@ export default function SignUpPage() {
   const [email, setEmail] = useState("");
   const [fullName, setFullName] = useState("");
   const [password, setPassword] = useState("");
+  const [agreed, setAgreed] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     setMsg(null);
+
+    if (!agreed) {
+      setMsg("Please agree to the Terms of Service and Privacy Policy to continue.");
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -90,10 +97,38 @@ export default function SignUpPage() {
           />
         </div>
 
+        <label className="flex items-start gap-2 text-sm text-gray-700 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={agreed}
+            onChange={(e) => setAgreed(e.target.checked)}
+            className="mt-0.5 h-4 w-4 shrink-0 cursor-pointer"
+          />
+          <span>
+            I am 18 or older and I agree to the{" "}
+            <Link
+              href="/terms"
+              target="_blank"
+              className="text-blue-600 hover:underline font-medium"
+            >
+              Terms of Service
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="/privacy"
+              target="_blank"
+              className="text-blue-600 hover:underline font-medium"
+            >
+              Privacy Policy
+            </Link>
+            .
+          </span>
+        </label>
+
         <button
           type="submit"
-          disabled={loading}
-          className="w-full rounded bg-blue-600 text-white py-2 text-sm font-semibold hover:bg-blue-700 disabled:opacity-60"
+          disabled={loading || !agreed}
+          className="w-full rounded bg-blue-600 text-white py-2 text-sm font-semibold hover:bg-blue-700 disabled:opacity-60 disabled:cursor-not-allowed"
         >
           {loading ? "Creating account..." : "Sign up"}
         </button>
